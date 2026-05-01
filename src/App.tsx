@@ -30,9 +30,12 @@ function AppRoutes() {
   )
 }
 
+// React Router vil ikke ha trailing slash på basename — Vite gir `/365ki/` i prod, `/` i dev.
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
+
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <AppRoutes />
     </BrowserRouter>
   )
