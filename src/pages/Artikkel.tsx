@@ -59,22 +59,22 @@ export function Artikkel() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       {/* Kategori-header */}
-      <div className="bg-indigo-600 text-white px-4 pt-4 pb-6">
+      <div className="bg-brand-700 text-white px-4 pt-4 pb-6">
         <Link
           to="/slik-gjor-du"
-          className="inline-flex items-center gap-1 text-indigo-200 hover:text-white text-sm mb-3 transition-colors"
+          className="inline-flex items-center gap-1 text-brand-200 hover:text-white text-sm mb-3 transition-colors"
         >
           <ChevronLeftIcon size={16} />
           <span>{kategori.tittel}</span>
         </Link>
         <h1 className="text-lg font-bold leading-snug">{artikkel.tittel}</h1>
-        <p className="text-indigo-100 text-sm mt-1 leading-relaxed">{artikkel.ingress}</p>
+        <p className="text-brand-100 text-sm mt-1 leading-relaxed">{artikkel.ingress}</p>
       </div>
 
       {/* Fremdriftslinje */}
-      <div className="h-1 bg-indigo-100">
+      <div className="h-1 bg-brand-100">
         <div
-          className="h-full bg-indigo-500 transition-all duration-300"
+          className="h-full bg-brand-700 transition-all duration-300"
           style={{ width: `${fremgang}%` }}
           role="progressbar"
           aria-valuenow={aktivtSteg + 1}
@@ -93,9 +93,9 @@ export function Artikkel() {
               onClick={() => gaTilSteg(idx)}
               className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
                 idx === aktivtSteg
-                  ? 'bg-indigo-600 text-white shadow-sm'
+                  ? 'bg-brand-700 text-white shadow-sm'
                   : idx < aktivtSteg
-                  ? 'bg-indigo-100 text-indigo-700'
+                  ? 'bg-brand-100 text-brand-700'
                   : 'bg-white border border-slate-200 text-slate-500'
               }`}
               aria-current={idx === aktivtSteg ? 'step' : undefined}
@@ -108,8 +108,8 @@ export function Artikkel() {
 
         {/* Steg-innhold */}
         <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden mb-4">
-          <div className="px-4 py-3 bg-indigo-50 border-b border-indigo-100">
-            <p className="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-0.5">
+          <div className="px-4 py-3 bg-brand-50 border-b border-brand-100">
+            <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
               Steg {aktivtSteg + 1} av {antallSteg}
             </p>
             <h2 className="text-base font-semibold text-slate-800 leading-snug">{steg.tittel}</h2>
@@ -118,6 +118,21 @@ export function Artikkel() {
             <p className="text-sm text-slate-600 leading-relaxed">
               {parseInnhold(steg.innhold)}
             </p>
+            {steg.bilde && (
+              <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">
+                <img
+                  src={`${import.meta.env.BASE_URL}${steg.bilde.src}`}
+                  alt={steg.bilde.alt}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-auto block"
+                />
+                <figcaption className="px-3 py-2 text-xs text-slate-600 leading-snug">
+                  {steg.bilde.bildetekst}
+                  <span className="block text-[11px] text-slate-400 mt-1">{steg.bilde.kreditering}</span>
+                </figcaption>
+              </figure>
+            )}
           </div>
         </div>
 
@@ -153,7 +168,7 @@ export function Artikkel() {
           ) : (
             <button
               onClick={gaNeste}
-              className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-indigo-600 text-white hover:bg-indigo-700 shadow-sm transition-colors"
+              className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-brand-700 text-white hover:bg-brand-800 shadow-sm transition-colors"
               aria-label="Neste steg"
             >
               Neste

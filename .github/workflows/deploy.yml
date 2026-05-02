@@ -34,7 +34,7 @@ jobs:
         run: npm run build
 
       # SPA-fallback: GitHub Pages serverer 404.html for ukjente paths,
-      # så ved direkte besøk på /365ki/slik-gjor-du laster vi index.html
+      # så ved direkte besøk på /12365/slik-gjor-du laster vi index.html
       # og lar React Router håndtere ruten.
       - name: SPA fallback
         run: cp dist/index.html dist/404.html

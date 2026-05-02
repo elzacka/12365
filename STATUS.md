@@ -1,4 +1,4 @@
-# 365 KI — Prosjektstatus
+# 12365 — Prosjektstatus
 
 *Sist oppdatert: 2026-05-01*
 
@@ -43,8 +43,8 @@ Appen er bygget og verifisert. Klar for `npm run dev` og lokalt testing.
 ## Starte ny sesjon
 
 ```
-Jeg jobber med 365ki PWA-prosjektet. 
-Prosjektet ligger i /Users/elzacka/dev/365ki.
+Jeg jobber med 12365 PWA-prosjektet. 
+Prosjektet ligger i /Users/elzacka/dev/12365.
 Siste status: v0.1.0 — grunnstruktur ferdig.
 CLAUDE.md beskriver arkitektur og innholdsformat.
 [beskriv hva du vil gjøre neste]

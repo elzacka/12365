@@ -25,13 +25,13 @@ export function SlikGjorDu() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       {/* Intro */}
-      <div className="bg-indigo-600 text-white px-4 pt-6 pb-8">
-        <p className="text-indigo-100 text-sm leading-relaxed">
-          Steg-for-steg-veiledninger for de vanligste oppgavene i Microsoft 365.
+      <div className="bg-brand-700 text-white px-4 pt-6 pb-8">
+        <p className="text-brand-100 text-sm leading-relaxed text-center">
+          Steg-for-steg-veiledninger for Microsoft 365
         </p>
       </div>
 
-      <div className="bg-indigo-600 h-5 relative">
+      <div className="bg-brand-700 h-5 relative">
         <div className="absolute bottom-0 left-0 right-0 h-5 bg-slate-50 rounded-t-[1.5rem]" />
       </div>
 
@@ -46,7 +46,7 @@ export function SlikGjorDu() {
             placeholder="Søk etter veiledning..."
             value={filter}
             onChange={e => setFilter(e.target.value)}
-            className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent shadow-sm"
+            className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
             aria-label="Søk i veiledninger"
           />
           {filter && (
@@ -65,7 +65,7 @@ export function SlikGjorDu() {
             <p className="text-base mb-1">Ingen veiledninger funnet</p>
             <button
               onClick={() => setFilter('')}
-              className="text-sm text-indigo-600 hover:text-indigo-800 underline"
+              className="text-sm text-brand-700 hover:text-brand-800 underline"
             >
               Vis alle veiledninger
             </button>
@@ -89,14 +89,14 @@ export function SlikGjorDu() {
                       }`}
                     >
                       <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium text-slate-800 leading-snug group-hover:text-indigo-700 transition-colors">
+                        <p className="text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
                           {art.tittel}
                         </p>
                         <p className="text-xs text-slate-400 mt-0.5 leading-snug line-clamp-2">
                           {art.ingress}
                         </p>
                       </div>
-                      <ChevronRightIcon size={18} className="text-slate-300 flex-shrink-0 group-hover:text-indigo-500 transition-colors" />
+                      <ChevronRightIcon size={18} className="text-slate-300 flex-shrink-0 group-hover:text-brand-500 transition-colors" />
                     </Link>
                   ))}
                 </div>

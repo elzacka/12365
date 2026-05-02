@@ -230,6 +230,92 @@ export const ARTICLE_CATEGORIES: ArticleCategory[] = [
     ],
   },
   {
+    id: 'automasjon',
+    tittel: 'Automasjon',
+    beskrivelse: 'Arbeidsflyter, godkjenninger og hurtigsteg',
+    artikler: [
+      {
+        id: 'sharepoint-automasjon-2026',
+        tittel: 'Nye automatiserings­funksjoner i SharePoint',
+        ingress: 'Microsoft har lansert flere oppdateringer i SharePoint som gjør det enklere å automatisere hverdagslige arbeidsflyter — uten kode.',
+        kategori: 'automasjon',
+        tags: ['sharepoint', 'automasjon', 'arbeidsflyt', 'godkjenning', 'hurtigsteg', 'skjema'],
+        steg: [
+          {
+            tittel: 'SharePoint Showcase — januar 2026',
+            innhold: 'Microsoft har sluppet flere nye automatiserings­funksjoner i SharePoint og Teams. Her er en kort gjennomgang av de viktigste endringene — fra arbeidsflyter og godkjenninger til hurtigsteg og skjemaer.',
+            bilde: {
+              src: 'articles/sharepoint-automasjon/01-banner.jpg',
+              alt: 'Promobilde for SharePoint Showcase, januar 2026.',
+              bildetekst: 'Promobilde for SharePoint Showcase, januar 2026.',
+              kreditering: 'Kilde: Microsoft Tech Community (John Mighell, 29. januar 2026).',
+            },
+          },
+          {
+            tittel: 'Arbeidsflyter rett i SharePoint og Teams',
+            innhold: 'Den oppdaterte arbeidsflyt-opplevelsen er nå bygget direkte inn i SharePoint og Teams med samme grensesnitt på begge steder. Du får ferdige maler for vanlige scenarier, som **varsler ved nye filer**, **ukentlige påminnelser** og **prosjekt­oppdateringer**.\n\nTilgjengelig for **Targeted Release** fra tidlig februar 2026.',
+            bilde: {
+              src: 'articles/sharepoint-automasjon/02-arbeidsflyter.png',
+              alt: 'Skjermbilde av Workflows-panelet i SharePoint med malforslag og aktive arbeidsflyter.',
+              bildetekst: 'Det nye Workflows-panelet med ferdige maler og oversikt over aktive arbeidsflyter.',
+              kreditering: 'Kilde: Microsoft Tech Community.',
+            },
+          },
+          {
+            tittel: 'Veiledet oppsett — fra idé til handling',
+            innhold: 'Kontekstavhengige meldinger fyller automatisk inn områder, biblioteker og lister når du setter opp en ny arbeidsflyt. Det gjør oppsettet raskere og enklere å vedlikeholde i ettertid.',
+            bilde: {
+              src: 'articles/sharepoint-automasjon/03-veiledet.png',
+              alt: 'Skjermbilde av veiledet arbeidsflyt-oppsett i Mad-Lib-stil med utfylte felt.',
+              bildetekst: 'Veiledet oppsett i Mad-Lib-stil — feltene er forhåndsutfylt fra konteksten.',
+              kreditering: 'Kilde: Microsoft Tech Community.',
+            },
+          },
+          {
+            tittel: 'Hurtigsteg — knapper for vanlige handlinger',
+            innhold: '**Hurtigsteg** (Quick Steps) er handlings­knapper som kjører forhåndsdefinert logikk på markerte elementer — uten kode. Du kan opprette egne handlinger, basere logikken på metadata og sette betingelser for når knappen skal vises.\n\nAlment tilgjengelig fra februar 2026.',
+            bilde: {
+              src: 'articles/sharepoint-automasjon/04-hurtigsteg.png',
+              alt: 'Skjermbilde av en SharePoint-liste med Hurtigsteg-knapper i rutenett­visningen.',
+              bildetekst: 'Hurtigsteg-knapper integrert direkte i listevisningen.',
+              kreditering: 'Kilde: Microsoft Tech Community.',
+            },
+          },
+          {
+            tittel: 'Eksempler på automatisering med Hurtigsteg',
+            innhold: 'Hurtigsteg dekker mange typiske scenarier: oppdater status­felt, varsle ansvarlig person, send påminnelser, eller flytt elementer mellom lister. Knappene er synlige i listevisningen og kan grupperes etter behov.',
+            bilde: {
+              src: 'articles/sharepoint-automasjon/05-hurtigsteg-eksempler.png',
+              alt: 'Skjermbilde med flere eksempler på Hurtigsteg-handlinger.',
+              bildetekst: 'Eksempler på handlinger Hurtigsteg kan utføre på listeelementer.',
+              kreditering: 'Kilde: Microsoft Tech Community.',
+            },
+          },
+          {
+            tittel: 'Innebygde godkjenninger',
+            innhold: 'Godkjennings­flyt er forenklet til en bryter. Du kan sette **standard­godkjennere**, støtte flere godkjennings­steg og spore status direkte i konteksten der elementet ligger.',
+            bilde: {
+              src: 'articles/sharepoint-automasjon/06-godkjenninger.png',
+              alt: 'Skjermbilde av godkjennings­oppsett med standardgodkjennere og flerstegs-flyt.',
+              bildetekst: 'Godkjennings­oppsett med standardgodkjennere — én bryter for å aktivere.',
+              kreditering: 'Kilde: Microsoft Tech Community.',
+            },
+          },
+          {
+            tittel: 'Skjemaer for innhold og metadata',
+            innhold: 'Skjemaer fanger inn riktig informasjon allerede ved innsending. Det sørger for konsekvent metadata, korrekt ruting og at riktige arbeidsflyter starter automatisk.',
+            bilde: {
+              src: 'articles/sharepoint-automasjon/07-skjemaer.png',
+              alt: 'Skjermbilde av skjemaopprettelse med felt for innhold og metadata.',
+              bildetekst: 'Skjemaer som fanger inn både innhold og metadata ved innsending.',
+              kreditering: 'Kilde: Microsoft Tech Community.',
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: 'outlook',
     tittel: 'Outlook og e-post',
     beskrivelse: 'E-post, kalender og oppgaver',

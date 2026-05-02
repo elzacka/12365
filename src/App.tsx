@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { Header } from './components/Header'
+import { InstallBanner } from './components/InstallBanner'
 import { Home } from './pages/Home'
 import { OmAppene } from './pages/OmAppene'
 import { SlikGjorDu } from './pages/SlikGjorDu'
@@ -18,6 +19,7 @@ function AppRoutes() {
 
   return (
     <div className="min-h-svh flex flex-col">
+      <InstallBanner />
       <Header {...getHeaderProps(pathname)} />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -30,7 +32,7 @@ function AppRoutes() {
   )
 }
 
-// React Router vil ikke ha trailing slash på basename — Vite gir `/365ki/` i prod, `/` i dev.
+// React Router vil ikke ha trailing slash på basename — Vite gir `/12365/` i prod, `/` i dev.
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
 
 export default function App() {

@@ -1,73 +1,79 @@
-# React + TypeScript + Vite
+# 12365 — Microsoft 365 på 1-2-3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Til deg som eventuelt har ramla inn her: Hei!*
 
-Currently, two official plugins are available:
+En app (PWA) for å sette turbo på:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+a) min egen læring og modning i digitalisering
+b) min evne til å lære andre
+c) utfasing av dokumentfiler så langt som mulig — fordi digitalisering (og ikke minst KI) blir mindre dyrt, tidkrevende og vanskelig i en datadrevet virksomhet
 
-## React Compiler
+**Live:** https://elzacka.github.io/12365/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*En PWA (Progressive Web App) er en nettside som bruker moderne webteknologi for å gi en app-lignende opplevelse direkte i nettleseren. De er raske, kan installeres på startskjermen utenom appbutikker, fungerer offline og kan sende push-varsler. PWA-er kombinerer det beste fra nettsider og native mobilapper.*
 
-## Expanding the ESLint configuration
+## Om appen
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Stikkord: Microsoft 365, økosystem, datadrevet, automatisering, KI.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+To hovedseksjoner:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Om appene** — flip-card-oversikt over alle M365-apper
+- **Slik gjør du** — steg-for-steg-veiledninger kategorisert etter bruksområder
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Tech stack
+
+| Verktøy | Versjon | Bruk |
+|---|---|---|
+| React | 19 | UI-rammeverk |
+| TypeScript | 6 | Streng typing |
+| Vite | 7 | Byggverktøy (8 blokkert av `vite-plugin-pwa@1.2.0` peer-deps) |
+| Tailwind CSS | 4 | Styling, mobile-first (CSS-first via `@theme`) |
+| React Router | 7 | Klientside-routing (`react-router-dom`) |
+| vite-plugin-pwa | 1 | Service Worker og manifest |
+
+## Komme i gang
+
+```bash
+npm install
+npm run dev      # Lokal utvikling (http://localhost:5173/12365/)
+npm run build    # Produksjonsbygg
+npm run preview  # Forhåndsvis produksjonsbygg
+npm run lint     # Kjør ESLint
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Mappestruktur
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+  types/        — TypeScript-grensesnitt
+  data/
+    cards.ts    — M365 flip-card-data
+    articles.ts — Veiledningsartikler og kategorier
+  components/
+    Icons.tsx         — Selvhostede SVG-ikoner (offline-støtte)
+    Header.tsx        — App-header med navigasjon
+    FlipCard.tsx      — Flip-card-komponent
+    InstallBanner.tsx — PWA-installasjonsbar
+  pages/
+    Home.tsx       — Forsiden med to valg
+    OmAppene.tsx   — Flip-card-oversikt med søk
+    SlikGjorDu.tsx — Artikkeloversikt med søk
+    Artikkel.tsx   — Steg-for-steg artikkelvisning
+public/
+  articles/    — Bilder brukt i veiledninger
+  m365-icons/  — App-ikoner for flip-cards
+  icons/       — PWA-app-ikoner
+```
+
+## Versjonering
+
+[MAJOR.MINOR.PATCH (SemVer)](https://semver.org/lang/no/):
+
+- **PATCH** — innholdsoppdateringer, bugfiks
+- **MINOR** — nye apper, nye veiledninger, ny funksjonalitet
+- **MAJOR** — bruddendringer i datastruktur eller navigasjon
+
+## Lisens
+
+MIT — se [LICENSE](LICENSE).

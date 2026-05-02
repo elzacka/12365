@@ -45,7 +45,7 @@ export function FlipCard({ card }: FlipCardProps) {
       tabIndex={0}
       aria-label={`${card.navn}: ${flipped ? 'Bakside — trykk for forside' : 'Forside — trykk for mer informasjon'}`}
       aria-pressed={flipped}
-      className={`flip-card min-h-[14rem] focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 rounded-[14px] outline-none ${flipped ? 'is-flipped' : ''}`}
+      className={`flip-card min-h-[14rem] focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 rounded-[14px] outline-none ${flipped ? 'is-flipped' : ''}`}
       onClick={handleFlip}
       onKeyDown={handleKeyDown}
     >
@@ -65,24 +65,24 @@ export function FlipCard({ card }: FlipCardProps) {
         {/* Bakside */}
         <div
           className="flip-card-face flip-card-back relative flex flex-col p-4 pb-7 text-left"
-          style={{ backgroundColor: '#1a3a5c' }}
+          style={{ backgroundColor: '#00263e' }}
         >
           <div className="flex-1 flex flex-col justify-center gap-2.5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-blue-200 mb-1">Hva den gjør</p>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-brand-200 mb-1">Hva den gjør</p>
               <p className="text-xs text-white leading-snug">{card.alene}</p>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-blue-200 mb-1">Hvordan den spiller med andre</p>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-brand-200 mb-1">Hvordan den spiller med andre</p>
               <p className="text-xs text-white leading-snug">{card.sammen}</p>
             </div>
           </div>
           {card.fotnote && (
-            <p className="text-[0.6rem] text-blue-200/70 italic mt-2 pt-2 border-t border-white/10 leading-snug">
+            <p className="text-[0.6rem] text-brand-200/70 italic mt-2 pt-2 border-t border-white/10 leading-snug">
               {card.fotnote}
             </p>
           )}
-          <div className="absolute bottom-2 right-2 text-blue-200/40">
+          <div className="absolute bottom-2 right-2 text-brand-200/40">
             <FlipIcon size={14} />
           </div>
         </div>

@@ -21,13 +21,13 @@ export function OmAppene() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       {/* Intro */}
-      <div className="bg-blue-700 text-white px-4 pt-6 pb-8">
-        <p className="text-blue-100 text-sm leading-relaxed">
-          Trykk på et kort for å se hva appen gjør — og hvordan den jobber med de andre.
+      <div className="bg-brand-700 text-white px-4 pt-6 pb-8">
+        <p className="text-brand-100 text-sm leading-relaxed text-center">
+          Trykk på et kort for å se hva appen gjør — og hvordan den jobber med de andre
         </p>
       </div>
 
-      <div className="bg-blue-700 h-5 relative">
+      <div className="bg-brand-700 h-5 relative">
         <div className="absolute bottom-0 left-0 right-0 h-5 bg-slate-50 rounded-t-[1.5rem]" />
       </div>
 
@@ -42,7 +42,7 @@ export function OmAppene() {
             placeholder="Søk etter app..."
             value={filter}
             onChange={e => setFilter(e.target.value)}
-            className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent shadow-sm"
+            className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
             aria-label="Søk i apper"
           />
           {filter && (
@@ -77,7 +77,7 @@ export function OmAppene() {
             <p className="text-base mb-1">Ingen apper funnet</p>
             <button
               onClick={() => setFilter('')}
-              className="text-sm text-blue-600 hover:text-blue-800 underline"
+              className="text-sm text-brand-700 hover:text-brand-800 underline"
             >
               Vis alle apper
             </button>

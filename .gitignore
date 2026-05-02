@@ -4,3 +4,4 @@ dev_only
 .DS_Store
 *.local
 .claude/settings.local.json
+.obsidian/
