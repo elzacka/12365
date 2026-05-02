@@ -187,7 +187,7 @@
       {
         "id": "copilot-chat-gratis",
         "tittel": "Hva kan Copilot Chat uten ekstra lisens?",
-        "ingress": "Copilot Chat (tidligere «Bing Chat Enterprise») er inkludert i M365. Her er hva du kan bruke den til.",
+        "ingress": "Copilot Chat er inkludert i M365 og kan hjelpe deg med å skrive, oppsummere og finne fram. Her er hva du kan bruke den til.",
         "kategori": "copilot",
         "tags": ["copilot", "ki", "chat", "lisens"],
         "steg": [
@@ -371,7 +371,7 @@
         "tittel": "Mål- og oppgavestyring med OKR i Planner",
         "ingress": "Planner Premium har funksjoner for å definere mål og nøkkelresultater (OKR) og knytte dem direkte til teamets oppgaver.",
         "kategori": "planner",
-        "tags": ["planner", "okr", "mål", "premium", "viva goals"],
+        "tags": ["planner", "okr", "mål", "premium"],
         "steg": [
           {
             "tittel": "Hva er OKR?",
@@ -379,11 +379,7 @@
           },
           {
             "tittel": "Sjekk lisens først",
-            "innhold": "OKR-funksjonene ligger i **Planner Premium** (tidligere Project Plan 3 og Plan 5). Den gratis Planner-versjonen som er inkludert i de fleste M365-lisenser har ikke OKR-visning. Spør IT om virksomheten har Premium."
-          },
-          {
-            "tittel": "Migrering fra Viva Goals",
-            "innhold": "**Viva Goals ble lagt ned 31. desember 2025.** Microsoft har flyttet OKR-funksjonene over til Planner Premium. Hvis virksomheten brukte Viva Goals, bør IT eksportere data og legge dem inn i Planner — Microsoft har egne migreringsverktøy."
+            "innhold": "OKR-funksjonene ligger i **Planner Premium**. Den gratis Planner-versjonen som er inkludert i de fleste M365-lisenser har ikke OKR-visning. Spør IT om virksomheten har Premium."
           },
           {
             "tittel": "Opprett en mål-plan",
@@ -433,7 +429,7 @@
           },
           {
             "tittel": "Arbeidsflyter rett i SharePoint og Teams",
-            "innhold": "Den oppdaterte arbeidsflyt-opplevelsen er nå bygget direkte inn i SharePoint og Teams med samme grensesnitt på begge steder. Du får ferdige maler for vanlige scenarier, som **varsler ved nye filer**, **ukentlige påminnelser** og **prosjekt­oppdateringer**.\n\nTilgjengelig for **Targeted Release** fra tidlig februar 2026.",
+            "innhold": "Den oppdaterte arbeidsflyt-opplevelsen er bygget direkte inn i SharePoint og Teams med samme grensesnitt på begge steder. Du får ferdige maler for vanlige scenarier, som **varsler ved nye filer**, **ukentlige påminnelser** og **prosjekt­oppdateringer**.",
             "bilde": {
               "src": "articles/sharepoint-automasjon/02-arbeidsflyter.png",
               "alt": "Skjermbilde av Workflows-panelet i SharePoint med malforslag og aktive arbeidsflyter.",
@@ -453,7 +449,7 @@
           },
           {
             "tittel": "Hurtigsteg — knapper for vanlige handlinger",
-            "innhold": "**Hurtigsteg** (Quick Steps) er handlings­knapper som kjører forhåndsdefinert logikk på markerte elementer — uten kode. Du kan opprette egne handlinger, basere logikken på metadata og sette betingelser for når knappen skal vises.\n\nAlment tilgjengelig fra februar 2026.",
+            "innhold": "**Hurtigsteg** (Quick Steps) er handlings­knapper som kjører forhåndsdefinert logikk på markerte elementer — uten kode. Du kan opprette egne handlinger, basere logikken på metadata og sette betingelser for når knappen skal vises.",
             "bilde": {
               "src": "articles/sharepoint-automasjon/04-hurtigsteg.png",
               "alt": "Skjermbilde av en SharePoint-liste med Hurtigsteg-knapper i rutenett­visningen.",
