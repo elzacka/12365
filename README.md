@@ -4,9 +4,9 @@
 
 En app (PWA) for å sette turbo på:
 
-a) min egen læring og modning i digitalisering
-b) min evne til å lære andre
-c) utfasing av dokumentfiler så langt som mulig — fordi digitalisering (og ikke minst KI) blir mindre dyrt, tidkrevende og vanskelig i en datadrevet virksomhet
+- min egen **læring og modning** i digitalisering
+- min evne til å **lære andre**
+- **utfasing av dokumentfiler** så langt som mulig — fordi digitalisering (og ikke minst KI) blir mindre dyrt, tidkrevende og vanskelig i en datadrevet virksomhet
 
 **Live:** https://elzacka.github.io/12365/
 
