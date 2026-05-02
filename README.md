@@ -1,8 +1,8 @@
 # 12365 — Microsoft 365 på 1-2-3
 
-*Til deg som eventuelt har ramla inn her: Hei!*
+🥸 Til deg som eventuelt har ramla inn her: Hei!
 
-En app (PWA) for å sette turbo på:
+Jeg har laget appen 12365 for å sette turbo på:
 
 - min egen **læring og modning** i digitalisering
 - min evne til å **lære andre**
