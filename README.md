@@ -18,7 +18,7 @@ Stikkord: Microsoft 365, økosystem, datadrevet, automatisering, KI.
 
 ### Bygd som en PWA
 
-En "PWA" (Progressive Web App). Det er en nettside som bruker moderne webteknologi for å gi en app-lignende opplevelse direkte i nettleseren. De er raske, kan installeres på startskjermen utenom appbutikker, fungerer offline og kan sende push-varsler. PWA-er kombinerer det beste fra nettsider og native mobilapper. Bruk som app både på desktop og mobil.
+En "PWA" (Progressive Web App) er en nettside som bruker moderne webteknologi for å gi en app-lignende opplevelse direkte i nettleseren. De er raske, kan installeres på startskjermen utenom appbutikker, fungerer offline og kan sende push-varsler. PWA-er kombinerer det beste fra nettsider og native mobilapper. Bruk som app både på desktop og mobil.
 
 ### To hovedseksjoner
 
