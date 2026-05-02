@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useState, use } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
-import { ARTICLE_CATEGORIES } from '../data/articles'
+import { hentArtikler } from '../data/loader'
 import { ChevronLeftIcon, ChevronRightIcon } from '../components/Icons'
 
 // Enkel markdown-til-JSX for fet tekst og linjeskift
@@ -25,6 +25,7 @@ function scrollToTop() {
 }
 
 export function Artikkel() {
+  const ARTICLE_CATEGORIES = use(hentArtikler())
   const { kategoriId, artikkelId } = useParams()
   const [aktivtSteg, setAktivtSteg] = useState(0)
 

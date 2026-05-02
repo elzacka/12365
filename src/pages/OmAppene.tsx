@@ -1,9 +1,10 @@
-import { useState, useMemo } from 'react'
-import { M365_CARDS } from '../data/cards'
+import { useState, useMemo, use } from 'react'
+import { hentKort } from '../data/loader'
 import { FlipCard } from '../components/FlipCard'
 import { SearchIcon, CloseIcon } from '../components/Icons'
 
 export function OmAppene() {
+  const M365_CARDS = use(hentKort())
   const [filter, setFilter] = useState('')
 
   const kortene = useMemo(() => {
@@ -16,7 +17,7 @@ export function OmAppene() {
         c.alene.toLowerCase().includes(q) ||
         c.sammen.toLowerCase().includes(q)
     )
-  }, [filter])
+  }, [filter, M365_CARDS])
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">

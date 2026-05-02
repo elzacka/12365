@@ -1,15 +1,16 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, use } from 'react'
 import { Link } from 'react-router-dom'
-import { ARTICLE_CATEGORIES } from '../data/articles'
+import { hentArtikler } from '../data/loader'
 import { ChevronRightIcon, SearchIcon, CloseIcon } from '../components/Icons'
 
 export function SlikGjorDu() {
+  const alleKategorier = use(hentArtikler())
   const [filter, setFilter] = useState('')
 
   const kategorier = useMemo(() => {
-    if (!filter.trim()) return ARTICLE_CATEGORIES
+    if (!filter.trim()) return alleKategorier
     const q = filter.toLowerCase()
-    return ARTICLE_CATEGORIES.map(kat => ({
+    return alleKategorier.map(kat => ({
       ...kat,
       artikler: kat.artikler.filter(
         art =>
@@ -18,9 +19,9 @@ export function SlikGjorDu() {
           art.tags.some(t => t.toLowerCase().includes(q))
       ),
     })).filter(kat => kat.artikler.length > 0)
-  }, [filter])
+  }, [filter, alleKategorier])
 
-  const totalArtikler = ARTICLE_CATEGORIES.reduce((sum, k) => sum + k.artikler.length, 0)
+  const totalArtikler = alleKategorier.reduce((sum, k) => sum + k.artikler.length, 0)
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
@@ -107,7 +108,7 @@ export function SlikGjorDu() {
 
         {!filter && (
           <p className="text-xs text-slate-400 text-center mt-6">
-            {totalArtikler} veiledninger fordelt på {ARTICLE_CATEGORIES.length} kategorier
+            {totalArtikler} veiledninger fordelt på {alleKategorier.length} kategorier
           </p>
         )}
       </main>

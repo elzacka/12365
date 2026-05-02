@@ -1,10 +1,20 @@
+import { Suspense } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { Header } from './components/Header'
 import { InstallBanner } from './components/InstallBanner'
+import { UpdateToast } from './components/UpdateToast'
 import { Home } from './pages/Home'
 import { OmAppene } from './pages/OmAppene'
 import { SlikGjorDu } from './pages/SlikGjorDu'
 import { Artikkel } from './pages/Artikkel'
+
+function Laster() {
+  return (
+    <div className="flex-1 flex items-center justify-center text-sm text-slate-400">
+      Laster …
+    </div>
+  )
+}
 
 function getHeaderProps(pathname: string) {
   if (pathname === '/') return { visHjem: false, visTilbake: false }
@@ -21,13 +31,16 @@ function AppRoutes() {
     <div className="min-h-svh flex flex-col">
       <InstallBanner />
       <Header {...getHeaderProps(pathname)} />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/om-appene" element={<OmAppene />} />
-        <Route path="/slik-gjor-du" element={<SlikGjorDu />} />
-        <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<Artikkel />} />
-        <Route path="*" element={<Home />} />
-      </Routes>
+      <Suspense fallback={<Laster />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/om-appene" element={<OmAppene />} />
+          <Route path="/slik-gjor-du" element={<SlikGjorDu />} />
+          <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<Artikkel />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </Suspense>
+      <UpdateToast />
     </div>
   )
 }

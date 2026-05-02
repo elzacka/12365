@@ -12,7 +12,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: 'prompt',
+      injectRegister: false,
       includeAssets: ['favicon.svg', 'icons/*.png'],
       manifest: {
         id: base,
@@ -51,7 +52,7 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,json}'],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\./,
