@@ -85,7 +85,7 @@ export function InstallBanner() {
         onClick={installer}
         className="flex-1 py-2 px-4 text-left hover:bg-brand-800 transition-colors font-medium"
       >
-        Installer 12365 som app på enheten
+        Klikk her for å installere 12365 som app
       </button>
       <button
         type="button"

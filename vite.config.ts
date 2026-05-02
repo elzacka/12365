@@ -25,7 +25,6 @@ export default defineConfig({
         start_url: base,
         scope: base,
         display: 'standalone',
-        display_override: ['standalone', 'minimal-ui'],
         orientation: 'portrait',
         theme_color: '#00263e',
         background_color: '#f8fafc',
