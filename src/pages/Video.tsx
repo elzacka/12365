@@ -1,4 +1,4 @@
-import { use } from 'react'
+import { use, useEffect, useRef } from 'react'
 import { useParams, Navigate } from 'react-router-dom'
 import { hentVideoer } from '../data/loader'
 
@@ -7,6 +7,13 @@ export function Video() {
   const { videoId } = useParams()
   const base = import.meta.env.BASE_URL
   const video = videoer.find(v => v.id === videoId)
+  const videoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    videoRef.current?.play().catch(() => {
+      // Nettleseren blokkerte autoplay — bruker kan starte manuelt med play-knappen.
+    })
+  }, [videoId])
 
   if (!video) {
     return <Navigate to="/videoer" replace />
@@ -17,10 +24,12 @@ export function Video() {
       <main className="flex-1 px-4 py-6 max-w-2xl mx-auto w-full">
         <div className="bg-black rounded-xl overflow-hidden shadow-sm">
           <video
+            ref={videoRef}
             src={`${base}${video.fil}`}
             controls
             playsInline
-            preload="metadata"
+            autoPlay
+            preload="auto"
             poster={video.thumbnail ? `${base}${video.thumbnail}` : undefined}
             className="w-full aspect-video bg-black"
           >
