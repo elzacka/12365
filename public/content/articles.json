@@ -28,56 +28,6 @@
             "innhold": "I stedet for å sende filen som vedlegg på e-post: høyreklikk filen i Teams og velg **Kopier lenke**. Lim lenken inn i e-posten. Alle ser alltid siste versjon."
           }
         ]
-      },
-      {
-        "id": "installer-teams",
-        "tittel": "Installer Teams på PC og mobil",
-        "ingress": "Teams fungerer i nettleseren, men appen gir bedre ytelse og varslinger. Her er hvordan du installerer den.",
-        "kategori": "kom-i-gang",
-        "tags": ["teams", "installasjon", "mobil"],
-        "steg": [
-          {
-            "tittel": "Last ned Teams for PC",
-            "innhold": "Gå til **teams.microsoft.com** og klikk «Last ned appen», eller søk etter «Microsoft Teams» i virksomhetens programvarekatalog."
-          },
-          {
-            "tittel": "Kjør installasjonsfilen",
-            "innhold": "Dobbeltklikk på den nedlastede filen og følg installasjonsveiviseren. Du trenger ikke administrator-rettigheter."
-          },
-          {
-            "tittel": "Logg inn med jobbkontoen",
-            "innhold": "Første gang du åpner Teams blir du bedt om å logge inn. Bruk jobbkontoen din — samme som du bruker til e-post."
-          },
-          {
-            "tittel": "Installer Teams på mobil",
-            "innhold": "Søk etter «Microsoft Teams» i App Store (iPhone) eller Google Play (Android). Last ned og logg inn med jobbkontoen."
-          }
-        ]
-      },
-      {
-        "id": "logg-inn-m365",
-        "tittel": "Logg inn i Microsoft 365",
-        "ingress": "Slik logger du inn med jobbkontoen din og kommer i gang med M365 på nett, PC og mobil.",
-        "kategori": "kom-i-gang",
-        "tags": ["innlogging", "konto", "nettleser"],
-        "steg": [
-          {
-            "tittel": "Åpne nettleseren og gå til microsoft365.com",
-            "innhold": "Bruk Edge, Chrome, Firefox eller Safari. Gå til **microsoft365.com** i adressefeltet."
-          },
-          {
-            "tittel": "Skriv inn jobbkontoen din",
-            "innhold": "Jobbkontoen er vanligvis **fornavn.etternavn@virksomheten.no**."
-          },
-          {
-            "tittel": "Fullfør flerfaktorautentisering (MFA)",
-            "innhold": "Du blir bedt om å bekrefte identiteten din via SMS, autentiseringsapp eller telefonsamtale. Følg instruksjonene på skjermen."
-          },
-          {
-            "tittel": "Du er inne",
-            "innhold": "Du ser nå startsiden i M365 med alle appene dine. Herfra kan du åpne Teams, Outlook, OneDrive og alt annet."
-          }
-        ]
       }
     ]
   },

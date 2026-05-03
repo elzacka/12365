@@ -3,14 +3,16 @@ import { useParams, Link, Navigate } from 'react-router-dom'
 import { hentArtikler } from '../data/loader'
 import { ChevronLeftIcon, ChevronRightIcon } from '../components/Icons'
 
-// Enkel markdown-til-JSX for fet tekst og linjeskift
+// Enkel markdown-til-JSX for fet tekst, kursiv og linjeskift
 function parseInnhold(tekst: string) {
-  const deler = tekst.split(/(\*\*[^*]+\*\*)/)
+  const deler = tekst.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/)
   return deler.map((del, i) => {
-    if (del.startsWith('**') && del.endsWith('**')) {
+    if (del.startsWith('**') && del.endsWith('**') && del.length > 4) {
       return <strong key={i} className="font-semibold text-slate-800">{del.slice(2, -2)}</strong>
     }
-    // Linjeskift
+    if (del.startsWith('*') && del.endsWith('*') && del.length > 2) {
+      return <em key={i} className="italic">{del.slice(1, -1)}</em>
+    }
     return del.split('\n').map((linje, j, arr) => (
       <span key={`${i}-${j}`}>
         {linje}
