@@ -23,15 +23,15 @@
   {
     "navn": "Teams",
     "tagline": "Din primære arbeidsflate",
-    "alene": "Hovedinngangen til arbeidsdagen — chat for raske avklaringer, kanaler for strukturert samarbeid i prosjekter og avdelinger, og videomøter.",
-    "sammen": "Integrerer Planner, Lists, Power BI og andre apper som faner — du jobber med hele økosystemet uten å forlate Teams.",
+    "alene": "Hovedinngangen til arbeidsdagen — chat for raske avklaringer, kanaler for strukturert samarbeid i avdelinger og prosjekter, og videomøter.",
+    "sammen": "Legg til Outlook, Planner, Lists, Power BI og andre apper som faner — du jobber med hele økosystemet uten å forlate Teams.",
     "fotnote": ""
   },
   {
     "navn": "Outlook",
     "tagline": "E-post og kalender",
     "alene": "E-post, kalender og kontakter — bygd for jobbhverdagen.",
-    "sammen": "Flaggede meldinger blir oppgaver i To Do. Bruk Teams-chat til korte avklaringer og kanaler til samarbeid — mindre innboks, mindre støy.",
+    "sammen": "Flaggede meldinger blir oppgaver i To Do. Bruk Teams-chat til korte avklaringer og kanaler til samarbeid — mindre i innboksen, mindre støy.",
     "fotnote": ""
   },
   {
@@ -44,8 +44,8 @@
   {
     "navn": "SharePoint",
     "tagline": "Fellesområde og publiseringsplattform",
-    "alene": "Motoren bak fildeling — lagrer teamfiler bak Teams, og er plattformen for intranett og publisering av retningslinjer og policyer.",
-    "sammen": "Sørger for versjonskontroll og at alle ansatte har tilgang til de samme oppdaterte dokumentene på tvers av apper.",
+    "alene": "Motoren bak fildelingen i Teams, men også mye mer enn et digitalt filarkiv. SharePont er også en plattform for nettsider, strukturert informasjon og samarbeid.",
+    "sammen": "Sørger for versjonskontroll og at alle har tilgang til den samme oppdaterte informasjonen og dokumente på tvers av apper.",
     "fotnote": ""
   },
   {
@@ -65,9 +65,9 @@
   {
     "navn": "PowerPoint",
     "tagline": "Presentasjoner på tradisjonelt vis",
-    "alene": "Designer foreslår layout. Copilot lager utkast — krever lisens.",
+    "alene": "Designer-funksjonen foreslår layout. Copilot¹ lager utkast.",
     "sammen": "Lagre i SharePoint eller OneDrive — del lenken og presenter direkte i Teams-møter.",
-    "fotnote": ""
+    "fotnote": "¹ Krever Copilot M365-lisens."
   },
   {
     "navn": "OneNote",
