@@ -67,7 +67,7 @@
           },
           {
             "tittel": "Skriv inn jobbkontoen din",
-            "innhold": "Jobbkontoen er vanligvis **fornavn.etternavn@virksomheten.no**. Sjekk med IT-avdelingen hvis du er usikker."
+            "innhold": "Jobbkontoen er vanligvis **fornavn.etternavn@virksomheten.no**."
           },
           {
             "tittel": "Fullfør flerfaktorautentisering (MFA)",
@@ -205,7 +205,7 @@
           },
           {
             "tittel": "Hva er ikke inkludert?",
-            "innhold": "Copilot M365 — som ser e-post, kalender, Teams-chat og dokumenter automatisk — **krever egen lisens**. Snakk med IT eller HR om din virksomhet har eller planlegger å anskaffe denne."
+            "innhold": "Copilot M365 — som ser e-post, kalender, Teams-chat og dokumenter automatisk — **krever egen lisens**."
           }
         ]
       }
@@ -379,7 +379,7 @@
           },
           {
             "tittel": "Sjekk lisens først",
-            "innhold": "OKR-funksjonene ligger i **Planner Premium**. Den gratis Planner-versjonen som er inkludert i de fleste M365-lisenser har ikke OKR-visning. Spør IT om virksomheten har Premium."
+            "innhold": "OKR-funksjonene ligger i **Planner Premium**. Den gratis Planner-versjonen som er inkludert i de fleste M365-lisenser har ikke OKR-visning."
           },
           {
             "tittel": "Opprett en mål-plan",
