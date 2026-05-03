@@ -7,6 +7,8 @@ import { Home } from './pages/Home'
 import { OmAppene } from './pages/OmAppene'
 import { SlikGjorDu } from './pages/SlikGjorDu'
 import { Artikkel } from './pages/Artikkel'
+import { Videoer } from './pages/Videoer'
+import { Video } from './pages/Video'
 
 function Laster() {
   return (
@@ -21,6 +23,8 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/om-appene') return { tittel: 'Om appene', visHjem: true, visTilbake: true, tilbakeTil: '/' }
   if (pathname === '/slik-gjor-du') return { tittel: 'Slik gjør du', visHjem: true, visTilbake: true, tilbakeTil: '/' }
   if (pathname.startsWith('/slik-gjor-du/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/slik-gjor-du' }
+  if (pathname === '/videoer') return { tittel: 'Videoer', visHjem: true, visTilbake: true, tilbakeTil: '/' }
+  if (pathname.startsWith('/videoer/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/videoer' }
   return { visHjem: true, visTilbake: true }
 }
 
@@ -37,6 +41,8 @@ function AppRoutes() {
           <Route path="/om-appene" element={<OmAppene />} />
           <Route path="/slik-gjor-du" element={<SlikGjorDu />} />
           <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<Artikkel />} />
+          <Route path="/videoer" element={<Videoer />} />
+          <Route path="/videoer/:videoId" element={<Video />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>

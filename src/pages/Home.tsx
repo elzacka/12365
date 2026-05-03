@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { GridIcon, BookOpenIcon } from '../components/Icons'
+import { GridIcon, BookOpenIcon, VideoIcon } from '../components/Icons'
 
 interface NavKortProps {
   til: string
@@ -49,6 +49,16 @@ export function Home() {
           beskrivelse="Steg-for-steg-veiledninger for hverdagsoppgaver i M365"
           farge="bg-brand-700"
         />
+      </div>
+
+      <div className="mt-6 flex justify-center">
+        <Link
+          to="/videoer"
+          aria-label="Videoer"
+          className="p-3 text-slate-400 hover:text-brand-700 hover:bg-white rounded-full transition-colors"
+        >
+          <VideoIcon size={22} />
+        </Link>
       </div>
     </main>
   )

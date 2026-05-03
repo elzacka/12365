@@ -36,3 +36,11 @@ export interface ArticleCategory {
   beskrivelse: string
   artikler: Article[]
 }
+
+export interface Video {
+  id: string          // unik kebab-case-id, kommer i URL
+  fil: string         // sti relativt til BASE_URL, f.eks. "videos/min-video.mp4"
+  tittel?: string     // valgfri tittel
+  intro?: string      // valgfri kort introtekst
+  thumbnail?: string  // valgfri sti til miniatyrbilde, f.eks. "videos/thumbnails/min-video.png"
+}

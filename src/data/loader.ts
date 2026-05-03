@@ -1,4 +1,4 @@
-import type { ArticleCategory, FlipCard } from '../types'
+import type { ArticleCategory, FlipCard, Video } from '../types'
 
 const base = import.meta.env.BASE_URL
 
@@ -12,6 +12,7 @@ async function fetchJson<T>(filnavn: string): Promise<T> {
 
 let artiklerPromise: Promise<ArticleCategory[]> | null = null
 let kortPromise: Promise<FlipCard[]> | null = null
+let videoerPromise: Promise<Video[]> | null = null
 
 export function hentArtikler(): Promise<ArticleCategory[]> {
   artiklerPromise ??= fetchJson<ArticleCategory[]>('articles.json')
@@ -21,4 +22,9 @@ export function hentArtikler(): Promise<ArticleCategory[]> {
 export function hentKort(): Promise<FlipCard[]> {
   kortPromise ??= fetchJson<FlipCard[]>('cards.json')
   return kortPromise
+}
+
+export function hentVideoer(): Promise<Video[]> {
+  videoerPromise ??= fetchJson<Video[]>('videos.json')
+  return videoerPromise
 }
