@@ -59,7 +59,7 @@
     "navn": "Excel",
     "tagline": "Regneark, formler og analyser",
     "alene": "Beregn, modeller og analyser med pivot og formler.",
-    "sammen": "Tar imot svar fra Forms og data fra Lists, og leverer videre til Power BI når dashbordet trengs. For lister med samarbeid — bruk Lists.",
+    "sammen": "Kan vise svar fra Forms og data fra Lists, og levere videre til Power BI for å bl. a vise dataene i dashboard. For lister og oversikter for samarbeid — bruk Lists.",
     "fotnote": ""
   },
   {
