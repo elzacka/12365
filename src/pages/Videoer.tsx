@@ -1,6 +1,7 @@
 import { use } from 'react'
 import { Link } from 'react-router-dom'
 import { hentVideoer } from '../data/loader'
+import { tolkVideoKilde } from '../data/video-source'
 import { VideoIcon } from '../components/Icons'
 
 export function Videoer() {
@@ -24,7 +25,15 @@ export function Videoer() {
           <p className="text-center py-16 text-slate-400">Ingen videoer ennå.</p>
         ) : (
           <div className="grid gap-4 mt-2">
-            {videoer.map(v => (
+            {videoer.map(v => {
+              const kilde = tolkVideoKilde(v.fil, base)
+              const thumbnailSrc = v.thumbnail
+                ? `${base}${v.thumbnail}`
+                : kilde.type === 'youtube'
+                  ? kilde.thumbnailSrc
+                  : null
+
+              return (
               <Link
                 key={v.id}
                 to={`/videoer/${v.id}`}
@@ -32,9 +41,9 @@ export function Videoer() {
                 aria-label={v.tittel ? `Spill av ${v.tittel}` : 'Spill av video'}
               >
                 <div className="relative aspect-video bg-slate-100">
-                  {v.thumbnail ? (
+                  {thumbnailSrc ? (
                     <img
-                      src={`${base}${v.thumbnail}`}
+                      src={thumbnailSrc}
                       alt=""
                       loading="lazy"
                       decoding="async"
@@ -64,7 +73,8 @@ export function Videoer() {
                   </div>
                 )}
               </Link>
-            ))}
+              )
+            })}
           </div>
         )}
       </main>
