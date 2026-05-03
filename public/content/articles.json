@@ -13,15 +13,15 @@
         "steg": [
           {
             "tittel": "Forstå forskjellen",
-            "innhold": "**Filserveren** er mapper på en server på huset. **SharePoint** er et nettbasert fellesområde som er tilgjengelig overalt — hjemme, på kontoret og på mobil.\n\nNår du lagrer en fil i en Teams-kanal, ligger den faktisk i SharePoint."
+            "innhold": "**Filserveren** er mapper på en server «på huset». **SharePoint** er et nettbasert fellesområde som er tilgjengelig overalt — hjemme, på kontoret og på mobil.\n\nNår du lagrer en fil i en Teams-kanal, ligger den faktisk i SharePoint."
           },
           {
             "tittel": "Finn filene dine i Teams",
-            "innhold": "Åpne kanalen i Teams og klikk på **Filer**-fanen øverst. Her ligger alle filer som tilhører kanalen."
+            "innhold": "Åpne kanalen i Teams og klikk på **Delt**-fanen øverst. Her ligger alle filer som tilhører kanalen."
           },
           {
             "tittel": "Last opp en fil",
-            "innhold": "Klikk **Last opp** i Filer-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint."
+            "innhold": "Klikk **Last opp** i Delt-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint."
           },
           {
             "tittel": "Del lenke — ikke vedlegg",
@@ -128,7 +128,7 @@
           },
           {
             "tittel": "Flytt filer til SharePoint når de skal deles",
-            "innhold": "Hvis du har startet et dokument i OneDrive og det nå skal inn i et teamprosjekt: åpne filen, klikk **Flytt til** og velg riktig Teams-kanal."
+            "innhold": "Hvis du har lagret et dokument i OneDrive og det nå skal inn i et teamprosjekt: åpne filen, klikk **Flytt til** og velg riktig Teams-kanal. Kanalens medlemmer får tilgang til det som lagres/deles her."
           },
           {
             "tittel": "Del alltid lenke — ikke vedlegg",
@@ -139,7 +139,7 @@
       {
         "id": "sharepoint-prosessdokumentasjon-visio",
         "tittel": "Prosessdokumentasjon i SharePoint med Visio",
-        "ingress": "Slutt med Word-dokumenter for prosesser. Bruk SharePoint-sider med innebygd Visio-diagram, metadata og godkjenningsflyt — søkbart og levende.",
+        "ingress": "Bruk SharePoint-sider med innebygd Visio-diagram, metadata og godkjenningsflyt — søkbart og levende.",
         "kategori": "pa-tvers",
         "tags": ["sharepoint", "visio", "prosess", "dokumentasjon", "godkjenning"],
         "steg": [
@@ -149,7 +149,7 @@
           },
           {
             "tittel": "Bruk kommunikasjonsside, ikke teamområde",
-            "innhold": "Opprett en **kommunikasjonsside** (Communication Site), ikke et teamområde. Kommunikasjonssider er bygget for bred deling og gir best opplevelse for prosessdokumentasjon."
+            "innhold": "Opprett en **kommunikasjonsside** (Communication Site), ikke et teamområde. Kommunikasjonssider er bygget for bred deling og gir best opplevelse for prosessdokumentasjon og annen dokumentasjon i et typisk styrings-/ledelsessystem."
           },
           {
             "tittel": "Bygg en flat hub-struktur",
@@ -345,8 +345,8 @@
             "innhold": "Klikk **Ny plan** øverst til venstre. Velg **Tom plan**, gi planen et navn (f.eks. prosjektnavnet) og koble den eventuelt til en eksisterende Microsoft 365-gruppe — da deles planen automatisk med teamet."
           },
           {
-            "tittel": "Lag bøtter for å gruppere oppgaver",
-            "innhold": "Bytt til **Tavle**-visning og klikk **Legg til ny bøtte**. Vanlig oppsett er **Å gjøre**, **Pågår** og **Ferdig**, men du kan også gruppere etter fagområde, fase eller person."
+            "tittel": "Lag tavler for å gruppere oppgaver",
+            "innhold": "Bytt til **Tavle**-visning og klikk **Legg til ny tavle (bucket)**. Vanlig oppsett er **Ikke startet**, **Pågår** og **Fullført**, men du kan også gruppere etter fagområde, fase eller person."
           },
           {
             "tittel": "Legg til oppgaver",
