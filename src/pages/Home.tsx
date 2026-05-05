@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { GridIcon, BookOpenIcon, VideoIcon, InfoIcon } from '../components/Icons'
+import { GridIcon, BookOpenIcon, VideoIcon, InfoIcon, LayersIcon } from '../components/Icons'
 
 interface NavKortProps {
   til: string
@@ -47,6 +47,13 @@ export function Home() {
           ikon={<BookOpenIcon size={30} />}
           tittel="Slik gjør du"
           beskrivelse="Steg-for-steg-veiledninger for hverdagsoppgaver i M365"
+          farge="bg-brand-700"
+        />
+        <NavKort
+          til="/lisenser"
+          ikon={<LayersIcon size={30} />}
+          tittel="E3 vs E5 + tillegg"
+          beskrivelse="Hva som følger med og hva som krever ekstralisens"
           farge="bg-brand-700"
         />
       </div>

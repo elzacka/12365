@@ -44,3 +44,32 @@ export interface Video {
   intro?: string      // valgfri kort introtekst
   thumbnail?: string  // valgfri sti til miniatyrbilde, f.eks. "videos/thumbnails/min-video.png"
 }
+
+export type LisensStatus = 'inkludert' | 'tillegg' | 'ikke'
+
+export interface LisensFunksjon {
+  navn: string
+  e3: LisensStatus
+  e5: LisensStatus
+  beskrivelse?: string
+}
+
+export interface LisensKategori {
+  id: string
+  navn: string
+  tema: string
+  funksjoner: LisensFunksjon[]
+}
+
+export interface LisensTema {
+  id: string
+  navn: string
+  beskrivelse: string
+}
+
+export interface LisensSammenligning {
+  kilde: string
+  kildeUrl: string
+  tema: LisensTema[]
+  kategorier: LisensKategori[]
+}

@@ -16,23 +16,9 @@
   {
     "navn": "Copilot Chat",
     "tagline": "KI-chat",
-    "alene": "Spør, få utkast og oppsummeringer. Nett-modus søker på internett; Jobb-modus søker i virksomhetens egne dokumenter og Teams-samtaler.",
-    "sammen": "I Nett-modus må du selv lime inn tekst eller laste opp filer. I Jobb-modus henter den virksomhetens innhold automatisk — jo bedre metadata, jo bedre svar.",
+    "alene": "Hverdagens KI-assistent. Spør, få utkast, oppsummeringer og forklaringer. Nett-modus søker på internett; Jobb-modus søker i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler.",
+    "sammen": "Last opp en fil og still spørsmål, lim inn tekst for omskriving til klarspråk, eller bryne deg på et fagspørsmål.",
     "fotnote": ""
-  },
-  {
-    "navn": "Copilot M365",
-    "tagline": "KI-chat med tilgang til innhold¹",
-    "alene": "KI som skriver, oppsummerer og analyserer på tvers av e-post, dokumenter, chat og kalender.",
-    "sammen": "Treffsikkerheten avhenger av ryddige tilganger og strukturerte data — Copilot ser alt du selv har tilgang til.",
-    "fotnote": "¹ Krever Copilot Premium-lisens."
-  },
-  {
-    "navn": "Copilot Studio",
-    "tagline": "Bygg dine egne KI-agenter¹",
-    "alene": "Lag KI-agenter som svarer på spørsmål og utfører oppgaver basert på instruksjoner og kunnskap du har gitt den.",
-    "sammen": "Publiseres i Teams, inne i Copilot eller på egen nettside. Henter data fra SharePoint, Dataverse og eksterne tjenester.",
-    "fotnote": "¹ Krever Copilot Studio-lisens."
   },
   {
     "navn": "Edge",
@@ -52,15 +38,15 @@
     "navn": "Forms",
     "tagline": "Undersøkelser, tilbakemeldinger og quizer",
     "alene": "Spørreundersøkelser, quizer og enkle påmeldingsskjemaer — enkel innsamling av informasjon.",
-    "sammen": "Resultater oppdateres i sanntid og kan analyseres i Excel. Avanserte arbeidsflyter krever Power Automate¹.",
-    "fotnote": "¹ Krever Power Automate Premium-lisens."
+    "sammen": "Resultater oppdateres i sanntid og kan analyseres i Excel. Send svar direkte inn i en Lists-tabell for strukturert oppfølging.",
+    "fotnote": ""
   },
   {
     "navn": "Lists",
     "tagline": "Strukturerte data",
     "alene": "Organiser og spor informasjon — saksoppfølging, inventar, påmeldinger og ressursplanlegging. Bedre enn Excel for samarbeid om lister.",
-    "sammen": "Brukes direkte i Teams-kanaler. Innebygde regler gir varsler når noe endres. Avanserte flyter krever Power Automate¹.",
-    "fotnote": "¹ Krever Power Automate Premium-lisens."
+    "sammen": "Brukes direkte i Teams-kanaler. Innebygde regler gir varsler når noe endres, og hurtigsteg utfører faste handlinger uten kode.",
+    "fotnote": ""
   },
   {
     "navn": "Loop",
@@ -94,42 +80,42 @@
     "navn": "Planner",
     "tagline": "Styr teamets oppgaver",
     "alene": "Visuell oppgavebehandling med bøtter og kort. God oversikt over hvem som gjør hva og frister.",
-    "sammen": "Tildelte oppgaver dukker opp i ansattes To Do-liste. OKR og avansert målstyring krever Premium¹.",
-    "fotnote": "¹ Krever Planner Premium-lisens."
+    "sammen": "Tildelte oppgaver dukker opp i ansattes To Do-liste. Legg planen til som fane i Teams-kanalen — oppgaver, filer og diskusjoner i samme flate.",
+    "fotnote": ""
   },
   {
     "navn": "Power Apps",
-    "tagline": "Bygg apper med lavkode¹",
-    "alene": "Lavkode-plattform for å bygge interne apper — for eksempel timeregistrering eller utstyrsbestilling — direkte i Teams.",
+    "tagline": "Bygg apper med lavkode",
+    "alene": "Lavkode-plattform (dra-og-slipp) for å bygge interne apper — for eksempel timeregistrering eller utstyrsbestilling — direkte i Teams.",
     "sammen": "Bruker organisasjonens egne data fra Lists eller SharePoint for å løse spesifikke oppgaver.",
-    "fotnote": "¹ Lavkode = dra-og-slipp. Avansert bruk krever Premium-lisens."
+    "fotnote": ""
   },
   {
     "navn": "Power Automate",
-    "tagline": "Automatiser repetitiv arbeidsflyt¹",
+    "tagline": "Automatiser repetitiv arbeidsflyt",
     "alene": "Automatiserer repeterende oppgaver mellom apper — godkjenninger, varslinger og oppdateringer.",
     "sammen": "Utløses av hendelser i nesten alle M365-apper — som nytt svar i Forms eller endring i Lists.",
-    "fotnote": "¹ Enkle flyter inkludert. Premium-konnektorer og RPA krever tilleggslisens."
+    "fotnote": ""
   },
   {
     "navn": "Power BI",
-    "tagline": "Innsikt fra dine data¹",
+    "tagline": "Innsikt fra dine data",
     "alene": "Analyse og visualisering — interaktive rapporter og instrumentbord som gir innsikt i sanntid.",
     "sammen": "Integreres i Teams-kanaler. Kobles mot Lists, Excel og eksterne datakilder.",
-    "fotnote": "¹ Personlig bruk inkludert. Deling krever Power BI Pro."
+    "fotnote": ""
   },
   {
     "navn": "PowerPoint",
     "tagline": "Presentasjoner på tradisjonelt vis",
-    "alene": "Designer-funksjonen foreslår layout. Copilot¹ lager utkast.",
+    "alene": "Klassisk presentasjonsverktøy med Designer som foreslår layout, sammen med samtidig redigering og kommentering.",
     "sammen": "Lagre i SharePoint eller OneDrive — del lenken og presenter direkte i Teams-møter.",
-    "fotnote": "¹ Krever Copilot Premium-lisens."
+    "fotnote": ""
   },
   {
     "navn": "SharePoint",
     "tagline": "Fellesområde og publiseringsplattform",
     "alene": "Motoren bak fildelingen i Teams. Også plattform for nettsider, strukturert informasjon og samarbeid på tvers.",
-    "sammen": "Sørger for versjonskontroll og at alle har tilgang til den samme oppdaterte informasjonen og dokumentasjonen.",
+    "sammen": "Sørger for versjonskontroll og notoritet — alle har tilgang til siste versjon, og endringer kan etterprøves i ettertid.",
     "fotnote": ""
   },
   {
@@ -148,10 +134,10 @@
   },
   {
     "navn": "Visio",
-    "tagline": "Diagrammer og flytkart¹",
-    "alene": "Lag profesjonelle prosess-, organisasjons- og nettverkskart.",
+    "tagline": "Diagrammer og flytkart",
+    "alene": "Visio for nett — lag profesjonelle prosess-, organisasjons- og nettverkskart i Edge.",
     "sammen": "Sett inn diagrammer som faner i Teams og lenk dem til data i Excel og Lists — figurene oppdateres når dataene endres.",
-    "fotnote": "¹ Visio for nett inkludert. Desktop krever Plan 1 eller 2."
+    "fotnote": ""
   },
   {
     "navn": "Whiteboard",

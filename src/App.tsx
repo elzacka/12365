@@ -11,6 +11,7 @@ import { SlikGjorDu } from './pages/SlikGjorDu'
 import { Artikkel } from './pages/Artikkel'
 import { Videoer } from './pages/Videoer'
 import { Video } from './pages/Video'
+import { Lisenser } from './pages/Lisenser'
 
 function Laster() {
   return (
@@ -29,6 +30,7 @@ function getHeaderProps(pathname: string) {
   if (pathname.startsWith('/videoer/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/videoer' }
   if (pathname === '/om-appen') return { tittel: 'Om appen', visHjem: true, visTilbake: true, tilbakeTil: '/' }
   if (pathname === '/personvern') return { tittel: 'Personvern', visHjem: true, visTilbake: true, tilbakeTil: '/om-appen' }
+  if (pathname === '/lisenser') return { tittel: 'E3 vs E5 + tillegg', visHjem: true, visTilbake: true, tilbakeTil: '/' }
   return { visHjem: true, visTilbake: true }
 }
 
@@ -49,6 +51,7 @@ function AppRoutes() {
           <Route path="/videoer/:videoId" element={<Video />} />
           <Route path="/om-appen" element={<OmAppen />} />
           <Route path="/personvern" element={<Personvern />} />
+          <Route path="/lisenser" element={<Lisenser />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
