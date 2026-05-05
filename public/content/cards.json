@@ -1,5 +1,19 @@
 [
   {
+    "navn": "Teams",
+    "tagline": "Din primære arbeidsflate",
+    "alene": "Hovedinngangen til arbeidsdagen — chat for raske avklaringer, kanaler for strukturert samarbeid i avdelinger og prosjekter, og videomøter.",
+    "sammen": "Legg til Planner, Lists, Loop, Power BI og andre apper som faner — du jobber med hele økosystemet uten å forlate Teams.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Clipchamp",
+    "tagline": "Enkel videoredigering",
+    "alene": "Klipp og produser video med maler og KI-hjelp.",
+    "sammen": "Lagre i OneDrive og del videre i Teams og Stream.",
+    "fotnote": ""
+  },
+  {
     "navn": "Copilot Chat",
     "tagline": "KI-chat",
     "alene": "Spør, få utkast og oppsummeringer. Nett-modus søker på internett; Jobb-modus søker i virksomhetens egne dokumenter og Teams-samtaler.",
@@ -21,38 +35,10 @@
     "fotnote": "¹ Krever Copilot Studio-lisens."
   },
   {
-    "navn": "Teams",
-    "tagline": "Din primære arbeidsflate",
-    "alene": "Hovedinngangen til arbeidsdagen — chat for raske avklaringer, kanaler for strukturert samarbeid i avdelinger og prosjekter, og videomøter.",
-    "sammen": "Legg til Planner, Lists, Loop, Power BI og andre apper som faner — du jobber med hele økosystemet uten å forlate Teams.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Outlook",
-    "tagline": "E-post og kalender",
-    "alene": "E-post, kalender og kontakter — bygd for jobbhverdagen.",
-    "sammen": "Flaggede meldinger blir oppgaver i To Do. Bruk Teams til korte avklaringer og kanaler til samarbeid — mindre i innboksen, mindre støy.",
-    "fotnote": ""
-  },
-  {
-    "navn": "OneDrive",
-    "tagline": "Ditt personlige hjemmeområde",
-    "alene": "Personlig lagring i skyen — for kladder, utkast og filer som ikke er klare for deling. Synkroniseres på tvers av enheter.",
-    "sammen": "Del filer som lenker — i Outlook, Teams og Word — fremfor vedlegg på e-post.",
-    "fotnote": ""
-  },
-  {
-    "navn": "SharePoint",
-    "tagline": "Fellesområde og publiseringsplattform",
-    "alene": "Motoren bak fildelingen i Teams. Også plattform for nettsider, strukturert informasjon og samarbeid på tvers.",
-    "sammen": "Sørger for versjonskontroll og at alle har tilgang til den samme oppdaterte informasjonen og dokumentasjonen.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Word",
-    "tagline": "Tyngre tekstdokumenter",
-    "alene": "Skriv brev, rapporter og dokumentmaler — Editor hjelper med språk og klarhet.",
-    "sammen": "Lagre i SharePoint eller OneDrive og del som lenke. Bruk Loop i stedet når innholdet skal redigeres av flere løpende.",
+    "navn": "Edge",
+    "tagline": "Nettleser for arbeidshverdagen",
+    "alene": "Innebygd Copilot Chat, samlinger og PDF-redigering.",
+    "sammen": "Logget inn i Windows = automatisk pålogging i Edge. Bruk for apper som ikke finnes i Teams, som Visio og SharePoint-administrasjon.",
     "fotnote": ""
   },
   {
@@ -63,39 +49,11 @@
     "fotnote": ""
   },
   {
-    "navn": "PowerPoint",
-    "tagline": "Presentasjoner på tradisjonelt vis",
-    "alene": "Designer-funksjonen foreslår layout. Copilot¹ lager utkast.",
-    "sammen": "Lagre i SharePoint eller OneDrive — del lenken og presenter direkte i Teams-møter.",
-    "fotnote": "¹ Krever Copilot Premium-lisens."
-  },
-  {
-    "navn": "OneNote",
-    "tagline": "Organiserte notater og kunnskapsbase",
-    "alene": "Digital notatbok for kunnskapsbanker og varig dokumentasjon — organisert i inndelinger og sider. For møtenotater som redigeres løpende, bruk Loop.",
-    "sammen": "Deles som fane i Teams så hele prosjektgruppen får en felles «hukommelse» — best for referansestoff som ikke endres ofte.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Loop",
-    "tagline": "Levende data på tvers",
-    "alene": "Sanntidssamarbeid på tvers av apper — møtenotater, idémyldring og tabeller som forblir synkronisert.",
-    "sammen": "Loop-komponenter limes inn i Teams-chat, e-post eller Word — innholdet er oppdatert i alle appene samtidig når noen endrer det.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Planner",
-    "tagline": "Styr teamets oppgaver",
-    "alene": "Visuell oppgavebehandling med bøtter og kort. God oversikt over hvem som gjør hva og frister.",
-    "sammen": "Tildelte oppgaver dukker opp i ansattes To Do-liste. OKR og avansert målstyring krever Premium¹.",
-    "fotnote": "¹ Krever Planner Premium-lisens."
-  },
-  {
-    "navn": "To Do",
-    "tagline": "Din personlige huskeliste",
-    "alene": "Planlegg dagens gjøremål, sett påminnelser og prioriter «Min dag» — full kontroll på egen arbeidsdag.",
-    "sammen": "Samler automatisk oppgaver fra Planner og flaggede e-poster fra Outlook på ett sted.",
-    "fotnote": ""
+    "navn": "Forms",
+    "tagline": "Undersøkelser, tilbakemeldinger og quizer",
+    "alene": "Spørreundersøkelser, quizer og enkle påmeldingsskjemaer — enkel innsamling av informasjon.",
+    "sammen": "Resultater oppdateres i sanntid og kan analyseres i Excel. Avanserte arbeidsflyter krever Power Automate¹.",
+    "fotnote": "¹ Krever Power Automate Premium-lisens."
   },
   {
     "navn": "Lists",
@@ -105,18 +63,39 @@
     "fotnote": "¹ Krever Power Automate Premium-lisens."
   },
   {
-    "navn": "Forms",
-    "tagline": "Undersøkelser, tilbakemeldinger og quizer",
-    "alene": "Spørreundersøkelser, quizer og enkle påmeldingsskjemaer — enkel innsamling av informasjon.",
-    "sammen": "Resultater oppdateres i sanntid og kan analyseres i Excel. Avanserte arbeidsflyter krever Power Automate¹.",
-    "fotnote": "¹ Krever Power Automate Premium-lisens."
+    "navn": "Loop",
+    "tagline": "Levende data på tvers",
+    "alene": "Sanntidssamarbeid på tvers av apper — møtenotater, idémyldring og tabeller som forblir synkronisert.",
+    "sammen": "Loop-komponenter limes inn i Teams-chat, e-post eller Word — innholdet er oppdatert i alle appene samtidig når noen endrer det.",
+    "fotnote": ""
   },
   {
-    "navn": "Power BI",
-    "tagline": "Innsikt fra dine data¹",
-    "alene": "Analyse og visualisering — interaktive rapporter og instrumentbord som gir innsikt i sanntid.",
-    "sammen": "Integreres i Teams-kanaler. Kobles mot Lists, Excel og eksterne datakilder.",
-    "fotnote": "¹ Personlig bruk inkludert. Deling krever Power BI Pro."
+    "navn": "OneDrive",
+    "tagline": "Ditt personlige hjemmeområde",
+    "alene": "Personlig lagring i skyen — for kladder, utkast og filer som ikke er klare for deling. Synkroniseres på tvers av enheter.",
+    "sammen": "Del filer som lenker — i Outlook, Teams og Word — fremfor vedlegg på e-post.",
+    "fotnote": ""
+  },
+  {
+    "navn": "OneNote",
+    "tagline": "Organiserte notater og kunnskapsbase",
+    "alene": "Digital notatbok for kunnskapsbanker og varig dokumentasjon — organisert i inndelinger og sider. For møtenotater som redigeres løpende, bruk Loop.",
+    "sammen": "Deles som fane i Teams så hele prosjektgruppen får en felles «hukommelse» — best for referansestoff som ikke endres ofte.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Outlook",
+    "tagline": "E-post og kalender",
+    "alene": "E-post, kalender og kontakter — bygd for jobbhverdagen.",
+    "sammen": "Flaggede meldinger blir oppgaver i To Do. Bruk Teams til korte avklaringer og kanaler til samarbeid — mindre i innboksen, mindre støy.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Planner",
+    "tagline": "Styr teamets oppgaver",
+    "alene": "Visuell oppgavebehandling med bøtter og kort. God oversikt over hvem som gjør hva og frister.",
+    "sammen": "Tildelte oppgaver dukker opp i ansattes To Do-liste. OKR og avansert målstyring krever Premium¹.",
+    "fotnote": "¹ Krever Planner Premium-lisens."
   },
   {
     "navn": "Power Apps",
@@ -133,6 +112,41 @@
     "fotnote": "¹ Enkle flyter inkludert. Premium-konnektorer og RPA krever tilleggslisens."
   },
   {
+    "navn": "Power BI",
+    "tagline": "Innsikt fra dine data¹",
+    "alene": "Analyse og visualisering — interaktive rapporter og instrumentbord som gir innsikt i sanntid.",
+    "sammen": "Integreres i Teams-kanaler. Kobles mot Lists, Excel og eksterne datakilder.",
+    "fotnote": "¹ Personlig bruk inkludert. Deling krever Power BI Pro."
+  },
+  {
+    "navn": "PowerPoint",
+    "tagline": "Presentasjoner på tradisjonelt vis",
+    "alene": "Designer-funksjonen foreslår layout. Copilot¹ lager utkast.",
+    "sammen": "Lagre i SharePoint eller OneDrive — del lenken og presenter direkte i Teams-møter.",
+    "fotnote": "¹ Krever Copilot Premium-lisens."
+  },
+  {
+    "navn": "SharePoint",
+    "tagline": "Fellesområde og publiseringsplattform",
+    "alene": "Motoren bak fildelingen i Teams. Også plattform for nettsider, strukturert informasjon og samarbeid på tvers.",
+    "sammen": "Sørger for versjonskontroll og at alle har tilgang til den samme oppdaterte informasjonen og dokumentasjonen.",
+    "fotnote": ""
+  },
+  {
+    "navn": "To Do",
+    "tagline": "Din personlige huskeliste",
+    "alene": "Planlegg dagens gjøremål, sett påminnelser og prioriter «Min dag» — full kontroll på egen arbeidsdag.",
+    "sammen": "Samler automatisk oppgaver fra Planner og flaggede e-poster fra Outlook på ett sted.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Viva Engage",
+    "tagline": "Internt sosialt nettverk",
+    "alene": "Organisasjonens sosiale nettverk for åpen dialog — bygg fellesskap, del suksesshistorier og styrk kulturen på tvers av siloer.",
+    "sammen": "Integrert i Teams-grensesnittet — du deltar i fellesskapet i samme flate som du gjør det daglige arbeidet.",
+    "fotnote": ""
+  },
+  {
     "navn": "Visio",
     "tagline": "Diagrammer og flytkart¹",
     "alene": "Lag profesjonelle prosess-, organisasjons- og nettverkskart.",
@@ -147,24 +161,10 @@
     "fotnote": ""
   },
   {
-    "navn": "Clipchamp",
-    "tagline": "Enkel videoredigering",
-    "alene": "Klipp og produser video med maler og KI-hjelp.",
-    "sammen": "Lagre i OneDrive og del videre i Teams og Stream.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Viva Engage",
-    "tagline": "Internt sosialt nettverk",
-    "alene": "Organisasjonens sosiale nettverk for åpen dialog — bygg fellesskap, del suksesshistorier og styrk kulturen på tvers av siloer.",
-    "sammen": "Integrert i Teams-grensesnittet — du deltar i fellesskapet i samme flate som du gjør det daglige arbeidet.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Edge",
-    "tagline": "Nettleser for arbeidshverdagen",
-    "alene": "Innebygd Copilot Chat, samlinger og PDF-redigering.",
-    "sammen": "Logget inn i Windows = automatisk pålogging i Edge. Bruk for apper som ikke finnes i Teams, som Visio og SharePoint-administrasjon.",
+    "navn": "Word",
+    "tagline": "Tyngre tekstdokumenter",
+    "alene": "Skriv brev, rapporter og dokumentmaler — Editor hjelper med språk og klarhet.",
+    "sammen": "Lagre i SharePoint eller OneDrive og del som lenke. Bruk Loop i stedet når innholdet skal redigeres av flere løpende.",
     "fotnote": ""
   }
 ]
