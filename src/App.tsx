@@ -5,6 +5,8 @@ import { InstallBanner } from './components/InstallBanner'
 import { UpdateToast } from './components/UpdateToast'
 import { Home } from './pages/Home'
 import { OmAppene } from './pages/OmAppene'
+import { OmAppen } from './pages/OmAppen'
+import { Personvern } from './pages/Personvern'
 import { SlikGjorDu } from './pages/SlikGjorDu'
 import { Artikkel } from './pages/Artikkel'
 import { Videoer } from './pages/Videoer'
@@ -25,6 +27,8 @@ function getHeaderProps(pathname: string) {
   if (pathname.startsWith('/slik-gjor-du/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/slik-gjor-du' }
   if (pathname === '/videoer') return { tittel: 'Videoer', visHjem: true, visTilbake: true, tilbakeTil: '/' }
   if (pathname.startsWith('/videoer/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/videoer' }
+  if (pathname === '/om-appen') return { tittel: 'Om appen', visHjem: true, visTilbake: true, tilbakeTil: '/' }
+  if (pathname === '/personvern') return { tittel: 'Personvern', visHjem: true, visTilbake: true, tilbakeTil: '/om-appen' }
   return { visHjem: true, visTilbake: true }
 }
 
@@ -43,6 +47,8 @@ function AppRoutes() {
           <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<Artikkel />} />
           <Route path="/videoer" element={<Videoer />} />
           <Route path="/videoer/:videoId" element={<Video />} />
+          <Route path="/om-appen" element={<OmAppen />} />
+          <Route path="/personvern" element={<Personvern />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>

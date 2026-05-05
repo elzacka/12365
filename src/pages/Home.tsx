@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { GridIcon, BookOpenIcon, VideoIcon } from '../components/Icons'
+import { GridIcon, BookOpenIcon, VideoIcon, InfoIcon } from '../components/Icons'
 
 interface NavKortProps {
   til: string
@@ -51,13 +51,20 @@ export function Home() {
         />
       </div>
 
-      <div className="mt-6 flex justify-center">
+      <div className="mt-6 flex justify-center gap-2">
         <Link
           to="/videoer"
           aria-label="Videoer"
           className="p-3 text-slate-400 hover:text-brand-700 hover:bg-white rounded-full transition-colors"
         >
           <VideoIcon size={22} />
+        </Link>
+        <Link
+          to="/om-appen"
+          aria-label="Om appen"
+          className="p-3 text-slate-400 hover:text-brand-700 hover:bg-white rounded-full transition-colors"
+        >
+          <InfoIcon size={22} />
         </Link>
       </div>
     </main>

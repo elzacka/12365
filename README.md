@@ -25,6 +25,10 @@ En "PWA" (Progressive Web App) er en nettside som bruker moderne webteknologi fo
 - **Om appene** — flip-card-oversikt over alle M365-apper
 - **Slik gjør du** — steg-for-steg-veiledninger sortert under kategorier
 
+### Om appen og personvern
+
+[OM-APPEN.md](OM-APPEN.md) og [PERSONVERN.md](PERSONVERN.md) ligger i repoets rotmappe. Endre dem direkte på GitHub-web — neste push til `main` bygger og publiserer automatisk via Pages. Filene rendres til appen via en enkel markdown-renderer som støtter overskrifter (#, ##, ###, ####), avsnitt med myke linjeskift, **fet** og *kursiv* tekst, lenker `[tekst](url)` (interne `/sti` rutes via React Router; `https://...` åpnes i ny fane), samt punkt- og nummererte lister.
+
 ### Tech stack
 
 | Verktøy | Versjon | Bruk |
