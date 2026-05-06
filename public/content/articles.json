@@ -552,6 +552,63 @@
             "innhold": "Klikk **Flere handlinger** → **Start opptak** for å ta opp møtet. Med deltakernes samtykke får du både video og **transkript** — finnbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. Transkriptet kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
           }
         ]
+      },
+      {
+        "id": "teams-tips-og-triks",
+        "tittel": "12 nye Teams-funksjoner som hjelper deg",
+        "ingress": "Microsoft Teams får stadig nye funksjoner. Her er tolv som rydder hverdagen og gjør deg raskere — fra utkastsamler og møtetimer til Enter-tast-innstilling og hurtignavigasjon med Ctrl+G.",
+        "kategori": "teams",
+        "tags": ["teams", "tips", "snarveier", "produktivitet", "møter", "chat"],
+        "steg": [
+          {
+            "tittel": "Samlet oversikt over utkast",
+            "innhold": "En ny seksjon i Teams samler alle meldinger du har begynt på, men ikke sendt — slik at du aldri mister oversikten over uferdige utkast i chatter eller kanaler.\n\nKlikk på **Utkast** øverst i venstre hjørne i chat-visningen. Herfra kan du gå direkte til samtalen, redigere ferdig eller slette utkastet."
+          },
+          {
+            "tittel": "Nytt grensesnitt for deling i møter",
+            "innhold": "Det oppdaterte delingsvinduet gir bedre plass og gjør det enklere å finne riktig vindu eller funksjon.\n\nKlikk på **Del** i et møte. Velg mellom rutenett- eller listevisning av vinduene dine, og finn interaktive filer som **PowerPoint Live** samlet under en egen fane."
+          },
+          {
+            "tittel": "Tidtaker i møter",
+            "innhold": "En innebygd nedtelling som er synlig for alle deltakere — perfekt for å holde tidsrammer i workshops, pauser eller når noen har et tidsbegrenset innlegg.\n\nVelg **Mer** → **Timer** under et møte. Still inn antall minutter og start nedtellingen. Den blinker rødt når tiden er i ferd med å løpe ut."
+          },
+          {
+            "tittel": "Forbedret meny for opptak og transkribering",
+            "innhold": "Et nytt kontrollpanel dukker opp når du starter opptak — slik at du er trygg på at riktig språk og format er valgt.\n\nVelg **Opptak og transkribering** fra menyen med de tre prikkene. I dialogboksen velger du transkriberingsspråk og om du vil ta opp bare lyd eller både lyd og bilde."
+          },
+          {
+            "tittel": "Viva Engage rett i Teams",
+            "innhold": "**Viva Engage** (tidligere Yammer) er nå integrert direkte i Teams-grensesnittet. Du slipper å bytte mellom apper for å følge med på organisasjonens sosiale nettverk eller publisere oppdateringer.\n\nSe etter **Communities**-ikonet i navigasjonsfeltet til venstre. Du kan også starte et nytt **storyline-innlegg** direkte fra chat-menyen ved å velge **New storyline post**."
+          },
+          {
+            "tittel": "Velg hva Enter-tasten skal gjøre",
+            "innhold": "En innstilling lar deg bestemme om Enter-tasten skal sende meldingen eller starte en ny linje. Mange opplever det som irriterende å sende halvferdige meldinger ved en feiltakelse — nå kan du endre dette.\n\nGå til **Innstillinger** → **Chatter og kanaler**. Under **Press enter to**, endre fra **Send the message** til **Start a new line**. Du sender da meldingen med **Ctrl+Enter**."
+          },
+          {
+            "tittel": "Søk i innstillinger",
+            "innhold": "Et dedikert søkefelt inne i innstillingsmenyen — slik finner du raskt frem til det du leter etter uten å klikke deg gjennom alle fanene.\n\nÅpne **Innstillinger** fra de tre prikkene ved profilen din og bruk søkefeltet øverst til venstre."
+          },
+          {
+            "tittel": "Tilpass navn i app-feltet",
+            "innhold": "Du kan vise eller skjule tekstbeskrivelser ved siden av ikonene i venstremenyen. For erfarne brukere gir det et renere utseende å bare ha ikoner, mens nye brukere kan ha god nytte av tekstetikettene.\n\nSøk etter **App bar** i innstillingene. Skru av eller på **Show app names** for å tilpasse visningen."
+          },
+          {
+            "tittel": "Autokorrektur i chat og kanaler",
+            "innhold": "Automatisk retting av skrivefeil mens du skriver meldinger sparer tid og minimerer pinlige tastefeil i profesjonelle sammenhenger.\n\nFunksjonen fungerer automatisk i både chat og kanaler. Teams kjenner igjen vanlige feilstavelser og retter dem idet du trykker mellomrom."
+          },
+          {
+            "tittel": "Åpne kanaler i egne vinduer",
+            "innhold": "Pop ut en hel kanal i et eget, separat vindu — nyttig hvis du jobber intensivt i en kanal, men samtidig må kunne svare på chatter eller navigere andre steder i Teams.\n\nHøyreklikk på kanalnavnet i listen din og velg **Open in new window**. Du kan ha flere slike vinduer åpne samtidig."
+          },
+          {
+            "tittel": "Rask navigering med Ctrl+G",
+            "innhold": "Tastatursnarveien **Ctrl+G** åpner en rask søkemeny for navigasjon — den desidert raskeste måten å hoppe mellom team, kanaler og chatter på uten å bruke musen.\n\nTrykk **Ctrl+G**, skriv hvor du vil gå, og trykk **Enter** for å flytte deg direkte dit."
+          },
+          {
+            "tittel": "Emojier i seksjonsoverskrifter",
+            "innhold": "Du kan legge til emojier i navnet på egendefinerte seksjoner i kanallisten. Det gjør det lettere å visuelt organisere og raskt identifisere ulike prosjekter eller arbeidsområder i en lang liste.\n\nNår du oppretter eller gir nytt navn til en seksjon, velg en emoji som vises ved siden av navnet."
+          }
+        ]
       }
     ]
   }
