@@ -7,6 +7,13 @@
     "fotnote": ""
   },
   {
+    "navn": "Bookings",
+    "tagline": "Selvbetjent avtalebooking",
+    "alene": "La kunder, borgere eller kolleger bestille tider mot ledige slotter i kalenderen — automatisk med påminnelser og bekreftelser.",
+    "sammen": "Synkroniseres med Outlook-kalenderen. Møtelinker for Teams opprettes automatisk og deltakere får bekreftelse på e-post.",
+    "fotnote": ""
+  },
+  {
     "navn": "Clipchamp",
     "tagline": "Enkel videoredigering",
     "alene": "Klipp og produser video med maler og KI-hjelp.",
@@ -100,7 +107,7 @@
   {
     "navn": "Power BI",
     "tagline": "Innsikt fra dine data",
-    "alene": "Analyse og visualisering — interaktive rapporter og instrumentbord som gir innsikt i sanntid.",
+    "alene": "Analyse og visualisering — interaktive rapporter og dashbord som gir innsikt i sanntid.",
     "sammen": "Integreres i Teams-kanaler. Kobles mot Lists, Excel og eksterne datakilder.",
     "fotnote": ""
   },
@@ -119,6 +126,27 @@
     "fotnote": ""
   },
   {
+    "navn": "Shifts",
+    "tagline": "Vaktplanlegging i Teams",
+    "alene": "Lag og publiser turnusplaner, godkjenn bytteforespørsler og kommuniser med skiftarbeidere — direkte i Teams-appen på mobil.",
+    "sammen": "Integrert med Teams-chat og kanaler. Ansatte ser sin vakt sammen med chat og oppgaver i samme app.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Stream",
+    "tagline": "Video i M365",
+    "alene": "Last opp, se og del videoer — med automatisk transkripsjon, kapittelinndeling og søk i videoinnhold.",
+    "sammen": "Videoer lagres i OneDrive eller SharePoint. Spilles av direkte i Teams, Outlook og SharePoint-sider.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Sway",
+    "tagline": "Visuell historiefortelling",
+    "alene": "Lag responsive, visuelle presentasjoner og rapporter med moderne layout — leses pent på alle skjermer, deles som lenke.",
+    "sammen": "Alternativ til PowerPoint når innholdet skal leses på nett snarere enn presenteres i et møte.",
+    "fotnote": ""
+  },
+  {
     "navn": "To Do",
     "tagline": "Din personlige huskeliste",
     "alene": "Planlegg dagens gjøremål, sett påminnelser og prioriter «Min dag» — full kontroll på egen arbeidsdag.",
@@ -126,10 +154,31 @@
     "fotnote": ""
   },
   {
+    "navn": "Viva Connections",
+    "tagline": "Intranett i Teams",
+    "alene": "Tilpasset dashbord med nyheter, ressurser og snarveier til viktige verktøy — hentet inn i Teams-grensesnittet.",
+    "sammen": "Bygges på SharePoint-hubsider og målrettes mot grupper. Erstatter behovet for å åpne et separat intranett.",
+    "fotnote": ""
+  },
+  {
     "navn": "Viva Engage",
     "tagline": "Internt sosialt nettverk",
     "alene": "Organisasjonens sosiale nettverk for åpen dialog — bygg fellesskap, del suksesshistorier og styrk kulturen på tvers av siloer.",
     "sammen": "Integrert i Teams-grensesnittet — du deltar i fellesskapet i samme flate som du gjør det daglige arbeidet.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Viva Insights",
+    "tagline": "Personlig produktivitet",
+    "alene": "Innsikt i egen arbeidshverdag — fokustid, møtebelastning og pauser. Avanserte KI-forslag som forsinket levering, kortere møter og åpningssporing av e-post.",
+    "sammen": "Bruker data fra Outlook og Teams. Følger personvernsoppsett satt av tenant-administrator.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Viva Learning",
+    "tagline": "Læring i Teams",
+    "alene": "Læringsplattform i Teams med M365-bibliotek og 125 utvalgte LinkedIn Learning-kurs. Søk, del og diskuter kurs med kolleger.",
+    "sammen": "Legg til som fane i Teams-kanaler — hele teamet kan se og diskutere samme kurs. Egne kurs publiseres via SharePoint.",
     "fotnote": ""
   },
   {

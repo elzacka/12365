@@ -6,7 +6,7 @@ Jeg har laget appen **12365** for å sette turbo på:
 
 - min egen **læring og modning** i digitalisering
 - min evne til å **lære andre**
-- **utfasing av dokumentfiler** så langt som mulig — fordi digitalisering (og ikke minst KI) blir mindre dyrt, tidkrevende og vanskelig i en datadrevet virksomhet
+- **utfasing av dokumentfiler** så langt som mulig — fordi digitalisering (og ikke minst KI) blir mindre dyrt, tidkrevende og vanskelig i en datadrevet organisasjon
 
 **Du finner den her:** https://elzacka.github.io/12365/
 
@@ -20,14 +20,24 @@ Stikkord: Microsoft 365, økosystem, datadrevet, automatisering, KI.
 
 En "PWA" (Progressive Web App) er en nettside som bruker moderne webteknologi for å gi en app-lignende opplevelse direkte i nettleseren. De er raske, kan installeres på startskjermen utenom appbutikker, fungerer offline og kan sende push-varsler. PWA-er kombinerer det beste fra nettsider og native mobilapper. Bruk som app både på desktop og mobil.
 
-### To hovedseksjoner
+### Tre hovedseksjoner
 
-- **Om appene** — flip-card-oversikt over alle M365-apper
+- **Om appene** — flip-card-oversikt over 29 M365-apper
 - **Slik gjør du** — steg-for-steg-veiledninger sortert under kategorier
+- **E3 vs E5 + ekstra** — komplett oversikt over 189 lisensfunksjoner i 27 kategorier, basert på Microsofts Modern Work Plan Comparison Enterprise (mai 2026)
 
-### Om appen og personvern
+### Innholdsoppdateringer
 
-[OM-APPEN.md](OM-APPEN.md) og [PERSONVERN.md](PERSONVERN.md) ligger i repoets rotmappe. Endre dem direkte på GitHub-web — neste push til `main` bygger og publiserer automatisk via Pages. Filene rendres til appen via en enkel markdown-renderer som støtter overskrifter (#, ##, ###, ####), avsnitt med myke linjeskift, **fet** og *kursiv* tekst, lenker `[tekst](url)` (interne `/sti` rutes via React Router; `https://...` åpnes i ny fane), samt punkt- og nummererte lister.
+Alt redigerbart innhold ligger i `public/content/`-mappen:
+
+- [`public/content/cards.json`](public/content/cards.json) — flip-cards for M365-apper
+- [`public/content/articles.json`](public/content/articles.json) — veiledninger og kategorier
+- [`public/content/videos.json`](public/content/videos.json) — videoer
+- [`public/content/license-comparison.json`](public/content/license-comparison.json) — E3/E5-lisensdata
+
+[`OM-APPEN.md`](OM-APPEN.md) og [`PERSONVERN.md`](PERSONVERN.md) ligger i repoets rotmappe og rendres til appen via en innebygd markdown-renderer som støtter overskrifter (#, ##, ###, ####), avsnitt med myke linjeskift, **fet** og *kursiv* tekst, lenker `[tekst](url)` (interne `/sti` rutes via React Router; `https://...` åpnes i ny fane), samt punkt- og nummererte lister.
+
+Push til `main` bygger og publiserer automatisk via GitHub Pages.
 
 ### Tech stack
 
@@ -35,7 +45,7 @@ En "PWA" (Progressive Web App) er en nettside som bruker moderne webteknologi fo
 |---|---|---|
 | React | 19 | UI-rammeverk |
 | TypeScript | 6 | Streng typing |
-| Vite | 7 | Byggverktøy (8 blokkert av `vite-plugin-pwa@1.2.0` peer-deps) |
+| Vite | 7 | Byggverktøy |
 | Tailwind CSS | 4 | Styling, mobile-first (CSS-first via `@theme`) |
 | React Router | 7 | Klientside-routing (`react-router-dom`) |
 | vite-plugin-pwa | 1 | Service Worker og manifest |
@@ -56,22 +66,32 @@ npm run lint     # Kjør ESLint
 src/
   types/        — TypeScript-grensesnitt
   data/
-    cards.ts    — M365 flip-card-data
-    articles.ts — Veiledningsartikler og kategorier
+    loader.ts        — Henter content/-JSON-filer ved behov
+    video-source.ts  — Tolker video-kilder (lokal/YouTube/Vimeo)
+  lib/
+    markdown.tsx     — Innebygd markdown-renderer for OM-APPEN og PERSONVERN
   components/
     Icons.tsx         — Selvhostede SVG-ikoner (offline-støtte)
     Header.tsx        — App-header med navigasjon
     FlipCard.tsx      — Flip-card-komponent
-    InstallBanner.tsx — PWA-installasjonsbar
+    InstallBanner.tsx — PWA-installasjonsbanner
+    UpdateToast.tsx   — Service worker oppdaterings-toast
   pages/
-    Home.tsx       — Forsiden med to valg
+    Home.tsx       — Forsiden med tre valg
     OmAppene.tsx   — Flip-card-oversikt med søk
     SlikGjorDu.tsx — Artikkeloversikt med søk
     Artikkel.tsx   — Steg-for-steg artikkelvisning
+    Videoer.tsx    — Videooversikt
+    Video.tsx      — Videoavspilling
+    Lisenser.tsx   — E3 vs E5 + ekstra lisensoversikt
+    OmAppen.tsx    — Om appen (renderer OM-APPEN.md)
+    Personvern.tsx — Personvernerklæring (renderer PERSONVERN.md)
 public/
   articles/    — Bilder brukt i veiledninger
-  m365-icons/  — App-ikoner for flip-cards
+  m365-icons/  — App-ikoner for flip-cards (192x192 PNG)
   icons/       — PWA-app-ikoner
+  videos/      — Videoer og miniatyrbilder
+  content/     — JSON-innhold (cards, articles, videos, license-comparison)
 ```
 
 ## Versjonering

@@ -52,7 +52,7 @@ export function Home() {
         <NavKort
           til="/lisenser"
           ikon={<LayersIcon size={30} />}
-          tittel="E3 vs E5 + tillegg"
+          tittel="E3 vs E5 + ekstra"
           beskrivelse="Hva som følger med og hva som krever ekstralisens"
           farge="bg-brand-700"
         />
