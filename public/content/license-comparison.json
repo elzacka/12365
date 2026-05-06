@@ -3,11 +3,8 @@
   "kildeUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-Enterprise-5-1-2026.pdf",
   "tema": [
     { "id": "ki", "navn": "KI og agenter", "beskrivelse": "Copilot, agent-observasjon, agent-styring og agent-sikkerhet" },
-    { "id": "apper", "navn": "Apper og samarbeid", "beskrivelse": "M365-apper, e-post, møter, lagring, innholdstjenester, prosjekt og automatisering" },
-    { "id": "analyse", "navn": "Innsikt og analyse", "beskrivelse": "Adopsjon, sikkerhetsindekser og BI" },
-    { "id": "enheter", "navn": "Enheter og Windows", "beskrivelse": "Intune, MDM/MAM, Windows og virtualisering" },
-    { "id": "sikkerhet", "navn": "Sikkerhet og identitet", "beskrivelse": "Defender, Entra ID og betinget tilgang" },
-    { "id": "compliance", "navn": "Compliance og data", "beskrivelse": "DLP, eDiscovery, oppbevaring, følsomhetsetiketter og innsiderisiko" }
+    { "id": "apper", "navn": "Apper og samarbeid", "beskrivelse": "M365-apper, e-post, møter, lagring, innhold, Viva og automatisering" },
+    { "id": "compliance", "navn": "Sikkerhet, compliance og enheter", "beskrivelse": "Enhetsstyring, Defender, identitet, DLP, eDiscovery, etiketter, innsiderisiko og Windows" }
   ],
   "kategorier": [
     {
@@ -16,8 +13,8 @@
       "tema": "ki",
       "funksjoner": [
         { "navn": "Copilot Chat", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "KI-chat for daglig bruk — søk på internett (Nett-modus) eller i organisasjonens innhold (Jobb-modus), få utkast og oppsummeringer." },
-        { "navn": "Microsoft 365 Copilot", "e3": "tillegg", "e5": "tillegg", "beskrivelse": "KI-funksjoner inne i Word, Excel, PowerPoint, Outlook og Teams-møter — utkast, oppsummeringer og automatiske handlingspunkter." },
-        { "navn": "Microsoft Security Copilot", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "KI-assistent for sikkerhetsteam som hjelper med trusselanalyse, hendelseshåndtering og etterforskning." }
+        { "navn": "Microsoft 365 Copilot", "e3": "tillegg", "e5": "tillegg", "beskrivelse": "KI-funksjoner inne i Word, Excel, PowerPoint, Outlook og Teams-møter — utkast, oppsummeringer, automatiske møtenotater og handlingspunkter." },
+        { "navn": "Microsoft Security Copilot", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "KI-assistent for sikkerhetsteam som hjelper med trusselanalyse, hendelseshåndtering og etterforskning. E5 inkluderer 400 SCU per måned per 1000 brukerlisenser." }
       ]
     },
     {
@@ -31,7 +28,7 @@
         { "navn": "Advanced agent usage insights", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Detaljert innsikt i agentbruk, ytelse og kostnader over tid." },
         { "navn": "Agent map", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Visuell oversikt over agentenes relasjoner, datakilder og avhengigheter." },
         { "navn": "Registry sync", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Automatisk synkronisering av agentregisteret på tvers av miljøer og tenants." },
-        { "navn": "Graph API", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Programmatisk tilgang til agentdata via Microsoft Graph for egen integrasjon og rapportering." }
+        { "navn": "Graph API for agenter", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Programmatisk tilgang til agentdata via Microsoft Graph for egen integrasjon og rapportering." }
       ]
     },
     {
@@ -39,14 +36,14 @@
       "navn": "Agent-styring",
       "tema": "ki",
       "funksjoner": [
-        { "navn": "Agent Identity Governance", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Styring av identiteten og tilgangen agenter har til ressurser." },
+        { "navn": "Agent Identity Governance", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Styring av identiteten og tilgangen agenter har til ressurser." },
         { "navn": "Lifecycle management for agents", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Håndtering av agenter fra opprettelse til avvikling, inkludert eierskifte og tilbaketrekking." },
         { "navn": "Admin agent governance actions", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Administratorhandlinger som å sette på pause, deaktivere eller slette agenter." },
         { "navn": "Automate agent lifecycle actions", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Automatisering av regelmessige handlinger i agentens livssyklus." },
         { "navn": "Tool controls for agents", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Kontroll over hvilke verktøy og tilkoblinger agenter har lov til å bruke." },
         { "navn": "Policy templates for agents", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Ferdigsatte regelsett som kan brukes på agenter for konsistent styring." },
         { "navn": "Audit logs and eDiscovery for agent activity", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Komplett logg over alt agenter gjør — søkbar i Microsoft Purview." },
-        { "navn": "Data Lifecycle Management for agent data", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Oppbevarings- og slettingsregler for data agenter genererer." },
+        { "navn": "Data Lifecycle Management for agent data", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Oppbevarings- og slettingsregler for data agenter genererer." },
         { "navn": "Communication compliance for agents", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Overvåkning av at agentkommunikasjon overholder retningslinjer og regelverk." }
       ]
     },
@@ -57,12 +54,12 @@
       "funksjoner": [
         { "navn": "Data Security Posture Management (DSPM) for agenter", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Oversikt over hvilke følsomme data agenter har tilgang til, og hvilke risikoer det skaper." },
         { "navn": "Insider Risk Management for agenter", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Oppdager risikofylt eller mistenkelig oppførsel hos agenter — datatyveri, datalekkasje, sabotasje." },
-        { "navn": "Arver og overholder følsomhetsetiketter", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Agenter respekterer følsomhetsetiketter på data de behandler — kryptering og tilgang følger etiketten." },
+        { "navn": "Arver og overholder følsomhetsetiketter", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Agenter respekterer følsomhetsetiketter på data de behandler — kryptering og tilgang følger etiketten." },
         { "navn": "Data loss prevention (DLP) for agenter", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Hindrer at agenter lekker eller deler sensitiv informasjon utenfor godkjente kanaler." },
-        { "navn": "Conditional access og identity protection for agenter", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Risikovurdering og betinget tilgang for agenter, ikke bare brukere." },
+        { "navn": "Conditional access og identity protection for agenter", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Risikovurdering og betinget tilgang for agenter, ikke bare brukere." },
         { "navn": "Secure Access Service Edge (SASE) for agenter", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Sikker nettverkstilgang for agenter via Microsoft Entra Internet Access og Private Access." },
-        { "navn": "Device compliance for agent conditional access", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Krever at enhetene agentene kjører på oppfyller compliance-krav før tilgang gis." },
-        { "navn": "Policykontrollert miljø for agent-kjøretid", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sandkasse-lignende miljø der agenter kjører under definerte regler og begrensninger." },
+        { "navn": "Device compliance for agent conditional access", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Krever at enhetene agentene kjører på oppfyller compliance-krav før tilgang gis." },
+        { "navn": "Policykontrollert miljø for agent-kjøretid", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Sandkasse-lignende miljø der agenter kjører under definerte regler og begrensninger." },
         { "navn": "Blokker usanksjonerte lokale endepunkt-agenter", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Hindrer at uautoriserte agenter installeres eller kjører på enheter." },
         { "navn": "Oppdagelse av KI på endepunkter", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Defender oppdager når KI-tjenester brukes på endepunktene — også tjenester organisasjonen ikke har sanksjonert." },
         { "navn": "Agent Security Posture Management", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Helhetlig overvåkning av sikkerhetsstatus for hele agent-flåten." },
@@ -75,7 +72,7 @@
       "navn": "M365-apper",
       "tema": "apper",
       "funksjoner": [
-        { "navn": "Skrivebordsapper (Outlook, Word, Excel m.fl.)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Fullversjonene av Outlook, Word, Excel, PowerPoint, OneNote, Access (Windows) og Publisher (Windows) installert lokalt." },
+        { "navn": "Skrivebordsapper (Outlook, Word, Excel, PowerPoint, OneNote, Access (PC), Publisher (PC))", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Fullversjonene av Outlook, Word, Excel, PowerPoint, OneNote, Access (kun Windows) og Publisher (kun Windows) installert lokalt." },
         { "navn": "Microsoft 365 for mobil", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Apper for iOS og Android med samme dokumenter, kalender og e-post som på PC." },
         { "navn": "Installasjon på 5 PC/Mac + 5 nettbrett + 5 mobiler", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Hver bruker kan installere på opptil 5 PC/Mac, 5 nettbrett og 5 mobiler." },
         { "navn": "Microsoft 365 for web", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Word, Excel, PowerPoint og andre apper som kjører i nettleseren — ingen installasjon nødvendig." },
@@ -84,7 +81,11 @@
         { "navn": "Loop-arbeidsområder (Workspaces)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Felles rom for prosjekter med sider, oppgaver og data samlet på ett sted." },
         { "navn": "Loop-bidrag (komponenter, sider, arbeidsområder)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag, rediger og bidra til alt Loop-innhold uten begrensninger." },
         { "navn": "Clipchamp Standard", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Videoredigering med maler, overganger og enkle KI-effekter." },
-        { "navn": "Microsoft Editor premium-funksjoner", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Avansert språkhjelp i Word og Outlook — klarspråk-forslag, tone, omformulering og inkluderende språk." }
+        { "navn": "Microsoft Editor premium-funksjoner", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Avansert språkhjelp i Word og Outlook — klarspråk-forslag, tone, omformulering og inkluderende språk." },
+        { "navn": "Flerspråklig brukergrensesnitt for Microsoft 365-apper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Bytt visningsspråk i M365-appene mellom flere språk for samme bruker." },
+        { "navn": "Microsoft Whiteboard", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Digital tavle for samarbeid, idémyldring og workshops — fungerer i Teams-møter og som egen app." },
+        { "navn": "Microsoft Stream (på SharePoint)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Videoopplasting og avspilling — videoer lagres i OneDrive og SharePoint, med automatisk transkripsjon og kapitler." },
+        { "navn": "Microsoft Sway", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Digital historiefortelling — visuelle, responsive presentasjoner og rapporter som kan deles som lenke." }
       ]
     },
     {
@@ -93,7 +94,7 @@
       "tema": "apper",
       "funksjoner": [
         { "navn": "Exchange Plan 1 (50 GB postboks)", "e3": "ikke", "e5": "ikke", "beskrivelse": "Mindre Exchange-plan med 50 GB postboks — E3 og E5 inkluderer den større Plan 2 i stedet." },
-        { "navn": "Exchange Plan 2 (100 GB postboks + 1,5 TB arkiv)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "100 GB postboks med ubegrenset arkivering opp til 1,5 TB." },
+        { "navn": "Exchange Plan 2 (100 GB postboks + 1,5 TB arkiv)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "100 GB postboks med automatisk utvidende arkivering opp til 1,5 TB." },
         { "navn": "Kalender", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Outlook-kalenderen med møter, ressurser, delegering og deling." },
         { "navn": "Outlook skrivebordsklient", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Den fullstendige Outlook-versjonen for Windows og Mac — også offline." },
         { "navn": "Auto-utvidende e-postarkiv", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Arkivet vokser automatisk når det fylles opp — ingen manuell oppgradering." },
@@ -120,7 +121,7 @@
         { "navn": "Skjermdeling og egne bakgrunner", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Del skjermen og bytt bakgrunn med uskarphet eller egne bilder." },
         { "navn": "Møteopptak", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Ta opp møter med video og transkript — opptaket lagres automatisk i OneDrive eller SharePoint." },
         { "navn": "Prioritetsvarsler", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Brytende viktige meldinger som varsler mottaker selv ved «Ikke forstyrr»." },
-        { "navn": "Teams Phone Standard (Telefonsystem)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Telefonsystem i Teams — ringe ut og motta samtaler med ekte telefonnummer (krever PSTN-plan i tillegg)." },
+        { "navn": "Teams Phone Standard (Telefonsystem)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Telefonsystem i Teams — ringe ut og motta samtaler med ekte telefonnummer (krever Calling Plan i tillegg)." },
         { "navn": "Audio Conferencing", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Ringe inn til Teams-møter med vanlig telefonnummer fra hvor som helst." }
       ]
     },
@@ -130,8 +131,8 @@
       "tema": "apper",
       "funksjoner": [
         { "navn": "SharePoint Plan 1", "e3": "ikke", "e5": "ikke", "beskrivelse": "Mindre SharePoint-plan — E3 og E5 inkluderer den større Plan 2 i stedet." },
-        { "navn": "SharePoint Plan 2 (1 TB+ lagring)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "1 TB+ lagring per organisasjon med avansert søk, sider og kolleksjoner." },
-        { "navn": "OneDrive for Business", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Personlig lagring i skyen — 1 TB per bruker, synk på tvers av enheter." }
+        { "navn": "SharePoint Plan 2 (1 TB+ lagring)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "1 TB+ lagring per organisasjon med avansert søk, sider og kolleksjoner. Inkluderer 1+ TB OneDrive-lagring per bruker." },
+        { "navn": "OneDrive for Business (basic, 10 GB)", "e3": "ikke", "e5": "ikke", "beskrivelse": "Mindre OneDrive-plan — E3 og E5 får i stedet 1+ TB OneDrive via SharePoint Plan 2." }
       ]
     },
     {
@@ -143,49 +144,23 @@
         { "navn": "Microsoft Search", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Felles søk på tvers av e-post, dokumenter, sider, personer og chatter." },
         { "navn": "Microsoft Forms", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Spørreundersøkelser, quizer og enkle påmeldingsskjemaer." },
         { "navn": "Microsoft Lists", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Strukturerte lister og enkle saksbehandlingsløsninger uten kode." },
-        { "navn": "Delve", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Personlig oppdagelsessenter — viser dokumenter og personer som er relevante for deg." },
-        { "navn": "Places (In-person events, Hybrid RSVP m.m.)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Hybrid arbeidsstyring — booking av plasser, parkering og koordinering på kontoret." },
+        { "navn": "Delve", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Personlig oppdagelsessenter — viser dokumenter og personer som er relevante for deg." }
+      ]
+    },
+    {
+      "id": "places",
+      "navn": "Places",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "In-person events, Hybrid RSVP, Places card, Work plans, Workplace presence", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Hybrid arbeidsstyring — booking av plasser, parkering og koordinering på kontoret." },
         { "navn": "Places Explorer", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Se hvilke kolleger som er på kontoret og når." },
         { "navn": "Places Finder", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Finn ledige rom, plasser og ressurser basert på kalenderen." }
       ]
     },
     {
-      "id": "prosjekt-oppgaver",
-      "navn": "Prosjekt og oppgaver",
-      "tema": "apper",
-      "funksjoner": [
-        { "navn": "Microsoft Planner", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Visuell oppgavebehandling med tavler og kort — direkte i Teams." },
-        { "navn": "Microsoft To Do", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Personlig oppgaveliste — samler oppgaver fra Planner og flaggede e-poster." },
-        { "navn": "Viva Learning (M365-bibliotek + 125 LinkedIn-kurs)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Læringsplattform med tilgang til M365-bibliotek og 125 utvalgte LinkedIn Learning-kurs." },
-        { "navn": "Eget innhold via SharePoint og Viva Learning", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Publiser organisasjonens egne kurs og opplæringsmateriell i Viva Learning." }
-      ]
-    },
-    {
-      "id": "viva",
-      "navn": "Microsoft Viva",
-      "tema": "apper",
-      "funksjoner": [
-        { "navn": "Viva Insights (personlig innsikt i Teams)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Innsikt i egen arbeidshverdag — fokustid, møtebelastning, pauser og koblings-til-jobb-mønster." },
-        { "navn": "Premium personlig innsikt", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Avansert KI-basert coaching for produktivitet, samarbeidsmønster og velvære." },
-        { "navn": "Viva Engage (samfunn, samtaler, storyline)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Internt sosialt nettverk — fellesskap, samtaler og storytelling på tvers av organisasjonen." },
-        { "navn": "Viva Connections (dashboard, feed, ressurser)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Tilpasset dashbord med nyheter, ressurser og snarveier — direkte i Teams." }
-      ]
-    },
-    {
-      "id": "automatisering",
-      "navn": "Automatisering",
-      "tema": "apper",
-      "funksjoner": [
-        { "navn": "Power Apps for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag enkle apper som kobler seg mot M365-data via standardkonnektorer." },
-        { "navn": "Power Automate for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag flyter mellom M365-apper med standardkonnektorer — varsler, godkjenninger og automatikk." },
-        { "navn": "Copilot Studio for Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Bygg enkle KI-agenter i Teams basert på Teams-data og standardkonnektorer." },
-        { "navn": "Dataverse for Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lett database tilgjengelig direkte i Teams-kanaler — for Power Apps og Power Automate." }
-      ]
-    },
-    {
-      "id": "analyse-bi",
+      "id": "analyse",
       "navn": "Analyse",
-      "tema": "analyse",
+      "tema": "apper",
       "funksjoner": [
         { "navn": "Adoption Score", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Måler hvor godt organisasjonen tar i bruk M365-funksjonene — med konkrete forslag til forbedringer." },
         { "navn": "Secure Score", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sikkerhetsstatus med konkrete forslag til forbedringer og prioritering av tiltak." },
@@ -194,41 +169,91 @@
       ]
     },
     {
+      "id": "prosjekt-oppgaver",
+      "navn": "Prosjekt og oppgaver",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Microsoft Planner", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Visuell oppgavebehandling med tavler og kort — direkte i Teams." },
+        { "navn": "Microsoft To Do", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Personlig oppgaveliste — samler oppgaver fra Planner og flaggede e-poster." }
+      ]
+    },
+    {
+      "id": "viva-learning",
+      "navn": "Viva Learning",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Viva Learning i Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Læringsplattform integrert i Teams — fungerer fordi Teams følger med E3/E5." },
+        { "navn": "Lag læringsfaner i Teams-kanaler", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Legg læringsinnhold som fane i en Teams-kanal for hele teamet." },
+        { "navn": "Søk, del og chat om læringsinnhold", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Søk i kursbiblioteket, del kurs med kolleger og diskuter innhold." },
+        { "navn": "Microsoft Learn og M365 Training-bibliotek + 125 LinkedIn-kurs", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Tilgang til M365-bibliotek og 125 utvalgte LinkedIn Learning-kurs." },
+        { "navn": "Eget innhold via SharePoint og Viva Learning", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Publiser organisasjonens egne kurs og opplæringsmateriell i Viva Learning." }
+      ]
+    },
+    {
+      "id": "viva-insights",
+      "navn": "Viva Insights",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Viva Insights — app i Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Viva Insights tilgjengelig som app i Teams-grensesnittet." },
+        { "navn": "Personlig innsikt og opplevelser", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Innsikt i egen arbeidshverdag — fokustid, møtebelastning, pauser og koblings-til-jobb-mønster." },
+        { "navn": "Premium personlig innsikt og opplevelser", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Avansert KI-basert coaching: Shorten a meeting, Delay delivery plan, Track open rate inline-forslag." }
+      ]
+    },
+    {
+      "id": "viva-engage",
+      "navn": "Viva Engage",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Communities, Conversations, and Storyline", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Internt sosialt nettverk — fellesskap, samtaler og storytelling på tvers av organisasjonen." },
+        { "navn": "Advanced Security", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Avansert sikkerhet for Viva Engage: Leadership Corner, AMAs, Storyline Delegate Posting og advanced analytics (krever Viva Suite-tillegg for full bruk)." }
+      ]
+    },
+    {
+      "id": "viva-connection",
+      "navn": "Viva Connection",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Dashboard, Feed, Resources, Teams app", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Tilpasset dashbord med nyheter, ressurser og snarveier — direkte i Teams." }
+      ]
+    },
+    {
+      "id": "automatisering",
+      "navn": "Automatisering",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Power Apps for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag enkle apper som kobler seg mot M365-data via standardkonnektorer." },
+        { "navn": "Power Automate for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag flyter mellom M365-apper med standardkonnektorer — varsler, godkjenninger og automatikk (kun cloud flows)." },
+        { "navn": "Copilot Studio for Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Bygg enkle KI-agenter i Teams basert på Teams-data og standardkonnektorer (uten meldinger; bruker Dataverse for Teams)." },
+        { "navn": "Dataverse for Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lett database tilgjengelig direkte i Teams-kanaler — for Power Apps og Power Automate." }
+      ]
+    },
+    {
       "id": "enhetsstyring",
       "navn": "Enhetsstyring",
-      "tema": "enheter",
+      "tema": "compliance",
       "funksjoner": [
         { "navn": "Microsoft Intune Plan 1", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sky-basert enhetsstyring og app-styring for Windows, macOS, iOS og Android." },
         { "navn": "Mobile Device Management (MDM)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sentral konfigurasjon og styring av enheter — krav, policyer og fjernsletting." },
         { "navn": "Mobile Application Management (MAM)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Styring av apper og data uten å styre hele enheten — egnet for BYOD." },
         { "navn": "Windows Autopilot", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Null-touch-utrulling av nye PC-er — fra fabrikken rett til brukerens hender, ferdig konfigurert." },
-        { "navn": "Gruppepolicy-støtte for Windows", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Tradisjonelle Windows-policies via Active Directory eller Intune." },
+        { "navn": "Gruppepolicy-støtte for Windows", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Tradisjonelle Windows-policyer via Active Directory eller Intune." },
         { "navn": "Gruppepolicy-støtte for M365-apper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sentral styring av Office-app-innstillinger for hele organisasjonen." },
         { "navn": "Cloud Policy-tjeneste for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sky-basert konfigurasjon av Microsoft 365-apper uten Active Directory." },
-        { "navn": "Delt datamaskinaktivering for M365-apper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Flere brukere kan logge inn på samme delte PC med egen M365-profil." }
-      ]
-    },
-    {
-      "id": "windows",
-      "navn": "Windows",
-      "tema": "enheter",
-      "funksjoner": [
-        { "navn": "Windows 11 Enterprise Edition", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Versjonen av Windows 11 med avanserte sikkerhets- og styringsfunksjoner for organisasjoner." },
-        { "navn": "Azure Virtual Desktop", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Virtuelt Windows-skrivebord i Azure med multi-session — flere brukere på samme VM." },
-        { "navn": "Windows 365 Enterprise-tilgang", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Personlig sky-PC tilgjengelig fra hvilken som helst enhet med nettleser." },
-        { "navn": "Virtual Desktop Access (VDA)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lisens for å koble til virtuelle Windows-skrivebord fra ikke-Windows-enheter." },
-        { "navn": "Universal Print", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sentralisert sky-utskrift uten lokale printserver." },
-        { "navn": "Windows Autopatch", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Automatisk styring av Windows-, Edge- og Office-oppdateringer i ringer." }
+        { "navn": "Delt datamaskinaktivering for M365-apper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Flere brukere kan logge inn på samme delte PC med egen M365-profil." },
+        { "navn": "Endpoint Analytics", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Innsikt i ytelse og brukervennlighet på endepunktene — anbefaler tiltak basert på data fra enhetene." }
       ]
     },
     {
       "id": "trusselbeskyttelse",
       "navn": "Trusselbeskyttelse",
-      "tema": "sikkerhet",
+      "tema": "compliance",
       "funksjoner": [
-        { "navn": "Microsoft Defender Antimalware / Firewall", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Innebygd virusvern og brannmur i Windows." },
-        { "navn": "Microsoft Defender Exploit / Credential Guard", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Beskyttelse mot exploits og tyveri av påloggingsinformasjon." },
+        { "navn": "Microsoft Defender Antimalware", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Innebygd virusvern og skadelig-programvare-beskyttelse i Windows." },
+        { "navn": "Microsoft Defender Firewall", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Innebygd brannmur i Windows som filtrerer nettverkstrafikk." },
+        { "navn": "Microsoft Defender Exploit Guard", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Beskyttelse mot exploits — angrep som utnytter sårbarheter i programvare." },
+        { "navn": "Microsoft Defender Credential Guard", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Beskyttelse mot tyveri av påloggingsinformasjon ved isolering i virtualiseringsbasert sikkerhet." },
         { "navn": "BitLocker og BitLocker To Go", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Diskkryptering av interne disker og USB-minner." },
+        { "navn": "Windows Information Protection (WIP)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Eldre forløper til Endpoint DLP — beskytter mot utilsiktet datalekkasje på endepunkter." },
         { "navn": "Microsoft Defender for Endpoint Plan 1", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Grunnleggende beskyttelse av endepunkter — antivirus, brannmur og policykontroll." },
         { "navn": "Microsoft Defender for Endpoint Plan 2", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Avansert EDR med trusseljakt, automatisk respons og angrepssimulering." },
         { "navn": "Microsoft Defender for IoT — Enterprise IoT", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Oppdager og overvåker IoT-enheter koblet til kontornettverket." },
@@ -236,7 +261,8 @@
         { "navn": "Microsoft Defender for Identity", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Oppdager identitetsbaserte angrep mot Active Directory og Entra ID." },
         { "navn": "Microsoft Defender for Office 365 Plan 1", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Beskytter mot phishing, skadelige vedlegg og lenker i e-post og Teams." },
         { "navn": "Microsoft Defender for Office 365 Plan 2", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Plan 1 + automatisk hendelseshåndtering, simulert phishing og angrepsanalyse." },
-        { "navn": "Microsoft Defender Application Guard (Edge/Office)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Isolerer mistenkelige nettsider og dokumenter i en Hyper-V-sandkasse." },
+        { "navn": "Microsoft Defender Application Guard for Edge", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Isolerer mistenkelige nettsider i en Hyper-V-sandkasse." },
+        { "navn": "Microsoft Defender Application Guard for Office", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Isolerer mistenkelige Office-dokumenter i en Hyper-V-sandkasse." },
         { "navn": "Microsoft Security Exposure Management", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Helhetlig oversikt over angrepsflater og prioriterte sårbarheter." },
         { "navn": "Safe Documents", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Sjekker dokumenter mot Defender før de åpnes utenfor Beskyttet visning." }
       ]
@@ -244,44 +270,11 @@
     {
       "id": "sikkerhetstilgang",
       "navn": "Sikkerhetstilgang",
-      "tema": "sikkerhet",
+      "tema": "compliance",
       "funksjoner": [
         { "navn": "Microsoft Defender for Cloud Apps Discovery", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Oppdager skyapper brukerne bruker — også uautoriserte (skygge-IT)." },
         { "navn": "Microsoft Defender for Cloud Apps (Full)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Full CASB med sesjonskontroll, DLP og trusseldeteksjon for skyapper." },
         { "navn": "Office 365 Cloud App Security", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "CASB-funksjoner spesifikt for Office 365-apper." }
-      ]
-    },
-    {
-      "id": "identitet-tilgang",
-      "navn": "Identitet og tilgang",
-      "tema": "sikkerhet",
-      "funksjoner": [
-        { "navn": "Microsoft Entra ID Plan 1", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Grunnpakke for identitet — SSO, MFA og betinget tilgang." },
-        { "navn": "Microsoft Entra ID Plan 2", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Avansert identitetsstyring med risikobasert betinget tilgang og PIM." },
-        { "navn": "Microsoft Entra ID Protection", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Risikodeteksjon for brukere og pålogginger basert på maskinlæring." },
-        { "navn": "Entra Internet Access for Microsoft Services", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sikker nettverkstilgang til Microsoft-tjenester (SSE for M365)." },
-        { "navn": "Brukerprovisjonering / selvbetjent passordbytte", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Automatisk oppretting av brukere og selvbetjent passordendring." },
-        { "navn": "Selvbetjent passord-reset (Cloud / Hybrid)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Brukere kan tilbakestille passord selv — også synk tilbake til lokal AD." },
-        { "navn": "Avanserte sikkerhetsrapporter", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Detaljerte rapporter om identitets- og tilgangshendelser." },
-        { "navn": "Flerfaktorautentisering (MFA)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Ekstra påloggingstrinn med app, kode, sertifikat eller passnøkkel (FIDO2)." },
-        { "navn": "Betinget tilgang (Conditional Access)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Regler for når og hvordan tilgang gis basert på sted, enhet og kontekst." },
-        { "navn": "Risikobasert betinget tilgang", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Krev MFA eller blokker når Entra vurderer risikoen som høy." },
-        { "navn": "Privileged Identity Management (PIM)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Just-in-time aktivering av priviligerte roller med godkjenning og tidsavgrensning." },
-        { "navn": "Tilgangsgjennomganger (Access Reviews)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Periodisk gjennomgang av hvem som har hvilken tilgang." },
-        { "navn": "Entitlement Management", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Selvbetjent forespørsel om tilgang til pakker av ressurser med godkjenningsflyt." },
-        { "navn": "Microsoft 365 Grupper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Felles identitet, postboks og lagring for et team — grunnlaget for Teams og Planner." },
-        { "navn": "Single Sign-On (SSO)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Logg inn én gang og få tilgang til alle koblede apper." },
-        { "navn": "Windows Hello for Business", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Passordløs pålogging med biometri (ansikt/finger) eller PIN." }
-      ]
-    },
-    {
-      "id": "datatap",
-      "navn": "Datatapshåndtering",
-      "tema": "compliance",
-      "funksjoner": [
-        { "navn": "DLP for e-post og filer", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Hindrer utilsiktet deling av sensitive opplysninger via Outlook, SharePoint og OneDrive." },
-        { "navn": "DLP for Teams chat", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Samme beskyttelse i Teams-chat og kanaler." },
-        { "navn": "Endpoint DLP (endepunkt)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "DLP-regler som gjelder filer som kopieres til USB, skrives ut eller lastes opp fra endepunkter." }
       ]
     },
     {
@@ -295,6 +288,42 @@
         { "navn": "Maskinlæringsbasert oppbevaring", "e3": "ikke", "e5": "inkludert", "beskrivelse": "KI-modeller foreslår klassifisering basert på innholdsanalyse." },
         { "navn": "Teams-melding oppbevaringspolicyer", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Oppbevaring og automatisk sletting av Teams-meldinger." },
         { "navn": "Records Management", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Formell journalføring med uforanderlighet, bevarelseskrav og kassasjonsregler." }
+      ]
+    },
+    {
+      "id": "identitet-tilgang",
+      "navn": "Identitet og tilgang",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Microsoft Entra ID Plan 1", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Grunnpakke for identitet — SSO, MFA og betinget tilgang." },
+        { "navn": "Microsoft Entra ID Plan 2", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Avansert identitetsstyring med risikobasert betinget tilgang og PIM." },
+        { "navn": "Microsoft Entra ID Protection", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Risikodeteksjon for brukere og pålogginger basert på maskinlæring." },
+        { "navn": "Entra Internet Access for Microsoft Services", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sikker nettverkstilgang til Microsoft-tjenester (SSE for M365)." },
+        { "navn": "Brukerprovisjonering", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Automatisk oppretting av brukere fra HR-systemer og kataloger." },
+        { "navn": "Selvbetjent passordbytte", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Brukere kan endre passord selv via egen profil." },
+        { "navn": "Selvbetjent passord-reset (Cloud)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Brukere kan tilbakestille glemt passord selv — sky-basert." },
+        { "navn": "Hybrid passord-reset (Cloud + on-premises write-back)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Synk av passordendring tilbake til lokal Active Directory." },
+        { "navn": "Avanserte sikkerhetsrapporter", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Detaljerte rapporter om identitets- og tilgangshendelser." },
+        { "navn": "Flerfaktorautentisering (MFA)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Ekstra påloggingstrinn med app, kode, sertifikat eller passnøkkel (FIDO2)." },
+        { "navn": "Betinget tilgang (Conditional Access)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Regler for når og hvordan tilgang gis basert på sted, enhet og kontekst." },
+        { "navn": "Risikobasert betinget tilgang / Identity Protection", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Krev MFA eller blokker når Entra vurderer risikoen som høy." },
+        { "navn": "Privileged Identity Management (PIM)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Just-in-time aktivering av priviligerte roller med godkjenning og tidsavgrensning." },
+        { "navn": "Tilgangsgjennomganger (Access Reviews)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Periodisk gjennomgang av hvem som har hvilken tilgang." },
+        { "navn": "Entitlement Management", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Selvbetjent forespørsel om tilgang til pakker av ressurser med godkjenningsflyt." },
+        { "navn": "Microsoft 365 Grupper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Felles identitet, postboks og lagring for et team — grunnlaget for Teams og Planner." },
+        { "navn": "Single Sign-On (SSO)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Logg inn én gang og få tilgang til alle koblede apper." },
+        { "navn": "Windows Hello for Business", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Passordløs pålogging med biometri (ansikt/finger) eller PIN." },
+        { "navn": "Microsoft Advanced Threat Analytics (ATA)", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Eldre on-premises identitetsangrep-deteksjon — erstattes nå av Defender for Identity, men inkludert i E5." }
+      ]
+    },
+    {
+      "id": "datatap",
+      "navn": "Datatapshåndtering (DLP)",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "DLP for e-post og filer", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Hindrer utilsiktet deling av sensitive opplysninger via Outlook, SharePoint og OneDrive." },
+        { "navn": "DLP for Teams chat", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Samme beskyttelse i Teams-chat og kanaler." },
+        { "navn": "Endpoint DLP (endepunkt)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "DLP-regler som gjelder filer som kopieres til USB, skrives ut eller lastes opp fra endepunkter." }
       ]
     },
     {
@@ -314,15 +343,19 @@
       "navn": "Informasjonsbeskyttelse",
       "tema": "compliance",
       "funksjoner": [
-        { "navn": "Azure Information Protection Plan 1", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Manuell merking og kryptering av filer og e-post." },
-        { "navn": "Azure Information Protection Plan 2", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Automatisk merking, avansert kryptering og Hold Your Own Key (HYOK)." },
-        { "navn": "Manuell og obligatorisk merking i apper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Brukere velger eller blir tvunget til å sette en følsomhetsetikett før lagring eller sending." },
-        { "navn": "Automatisk merking i M365-apper", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "KI klassifiserer dokumenter og setter følsomhetsetikett idet brukeren skriver — i Word, Excel, PowerPoint og Outlook." },
-        { "navn": "Automatisk merking i Exchange/SP/OneDrive", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Tjenestebasert klassifisering og merking av eksisterende innhold på server." },
-        { "navn": "Avanserte klassifiserere (Trainable classifiers)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Egne KI-modeller for å gjenkjenne organisasjonsspesifikt innhold." },
+        { "navn": "Azure Information Protection Plan 1", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Manuell etikettering og kryptering av filer og e-post." },
+        { "navn": "Azure Information Protection Plan 2", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Automatisk etikettering, avansert kryptering og Hold Your Own Key (HYOK)." },
+        { "navn": "Manuell, standard og obligatorisk etikettering med følsomhetsetiketter i M365-apper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Brukere velger eller blir tvunget til å sette en følsomhetsetikett før lagring eller sending — i Word, Excel, PowerPoint og Outlook." },
+        { "navn": "Automatisk etikettering med følsomhetsetiketter i M365-apper", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "KI klassifiserer dokumenter og setter følsomhetsetikett idet brukeren skriver — i Word, Excel, PowerPoint og Outlook." },
+        { "navn": "Manuell etikettering med følsomhetsetiketter for Teams-møter", "e3": "tillegg", "e5": "tillegg", "beskrivelse": "Sett følsomhetsetikett på Teams-møter — krever Teams Premium-tillegg." },
+        { "navn": "Standard følsomhetsetiketter for SharePoint-dokumentbiblioteker", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Forhåndsdefinerte følsomhetsetiketter på dokumentbibliotek-nivå — alle nye filer arver etiketten." },
+        { "navn": "Automatisk etikettering med følsomhetsetiketter i Exchange, SharePoint og OneDrive", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Tjenestebasert klassifisering og etikettering av eksisterende innhold på server." },
+        { "navn": "Følsomhetsetiketter basert på avanserte klassifiserere (Trainable Classifiers, EDM, Named Entities, Contextual)", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Egne KI-modeller for å gjenkjenne organisasjonsspesifikt innhold." },
         { "navn": "Følsomhetsetiketter for containere (Teams/Grupper)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sett etiketter på Teams og grupper som styrer ekstern deling og gjestetilgang." },
-        { "navn": "Basic / Advanced Message Encryption", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Krypter e-post med policy-baserte regler — også til mottakere utenfor organisasjonen." },
-        { "navn": "Customer Key / Personal Data Encryption", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Bruk egne krypteringsnøkler for M365-data — full kontroll over nøklene." }
+        { "navn": "Basic Message Encryption", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Krypter e-post med policy-baserte regler — også til mottakere utenfor organisasjonen." },
+        { "navn": "Advanced Message Encryption", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Avansert e-postkryptering med utløpsdato på lenker, tilbakekalling og merkevareprofilering." },
+        { "navn": "Customer Key", "e3": "ikke", "e5": "inkludert", "beskrivelse": "Bruk egne krypteringsnøkler for M365-data — full kontroll over nøklene." },
+        { "navn": "Personal Data Encryption (PDE)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Filkryptering knyttet til brukerens innlogging på Windows 11 — automatisk på sensitive personlige filer." }
       ]
     },
     {
@@ -331,11 +364,25 @@
       "tema": "compliance",
       "funksjoner": [
         { "navn": "Microsoft Purview Insider Risk Management", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Oppdager risikofylt oppførsel innenfra — datatyveri, sabotasje, brudd på retningslinjer." },
-        { "navn": "Adaptive Protection", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Justerer DLP-policies dynamisk basert på brukerens vurderte risikonivå." },
+        { "navn": "Adaptive Protection", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Justerer DLP-policyer dynamisk basert på brukerens vurderte risikonivå (krever Insider Risk Management-tillegg på E3)." },
         { "navn": "Communication Compliance", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Overvåkning av kommunikasjon for trakassering, regulatoriske brudd og sensitive lekkasjer." },
         { "navn": "Information Barriers", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Kommunikasjonsblokker mellom avdelinger (f.eks. mellom rådgivning og handel) — for compliance." },
-        { "navn": "Customer Lockbox", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Krever eksplisitt godkjenning fra deg før Microsoft-support kan se data i din tenant." },
+        { "navn": "Customer Lockbox", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Krever eksplisitt godkjenning før Microsoft support kan få tilgang til kundens data (kundens tenant)." },
         { "navn": "Privileged Access Management", "e3": "tillegg", "e5": "inkludert", "beskrivelse": "Just-in-time-tilgang for administrative oppgaver med godkjenningsflyt — for å begrense stående tilganger." }
+      ]
+    },
+    {
+      "id": "windows",
+      "navn": "Windows",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Windows 11 Enterprise Edition", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Versjonen av Windows 11 med avanserte sikkerhets- og styringsfunksjoner for organisasjoner." },
+        { "navn": "Azure Virtual Desktop", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Virtuelt Windows-skrivebord i Azure med multi-session — flere brukere på samme VM." },
+        { "navn": "Windows 365 Enterprise-tilgang", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Personlig sky-PC tilgjengelig fra hvilken som helst enhet med nettleser." },
+        { "navn": "Virtual Desktop Access (VDA)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lisens for å koble til virtuelle Windows-skrivebord fra ikke-Windows-enheter." },
+        { "navn": "Universal Print", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Sentralisert sky-utskrift uten lokale printserver." },
+        { "navn": "Windows Autopatch", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Automatisk styring av Windows-, Edge- og Office-oppdateringer i ringer." },
+        { "navn": "Windows Enterprise LTSC og MDOP", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Long-Term Servicing Channel og Microsoft Desktop Optimization Pack — for spesialiserte stabilitetskrav." }
       ]
     }
   ]

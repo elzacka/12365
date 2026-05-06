@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-Sist oppdatert: 5. mai 2026.
+Sist oppdatert: 7. mai 2026.
 
 ## Hvilke data samles inn?
 

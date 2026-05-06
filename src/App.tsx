@@ -30,7 +30,7 @@ function getHeaderProps(pathname: string) {
   if (pathname.startsWith('/videoer/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/videoer' }
   if (pathname === '/om-appen') return { tittel: 'Om appen', visHjem: true, visTilbake: true, tilbakeTil: '/' }
   if (pathname === '/personvern') return { tittel: 'Personvern', visHjem: true, visTilbake: true, tilbakeTil: '/om-appen' }
-  if (pathname === '/lisenser') return { tittel: 'E3 vs E5 + tillegg', visHjem: true, visTilbake: true, tilbakeTil: '/' }
+  if (pathname === '/lisenser') return { tittel: 'E3 vs E5 + ekstra', visHjem: true, visTilbake: true, tilbakeTil: '/' }
   return { visHjem: true, visTilbake: true }
 }
 
