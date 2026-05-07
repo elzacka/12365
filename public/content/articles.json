@@ -218,61 +218,6 @@
             "innhold": "Klikk på en versjon for å åpne den. Klikk deretter **Gjenopprett** for å gjøre den til gjeldende versjon.\n\nDen gamle versjonen forsvinner ikke — den legger seg som en ny versjon i loggen."
           }
         ]
-      },
-      {
-        "id": "sharepoint-prosessdokumentasjon-visio",
-        "tittel": "Prosessdokumentasjon i SharePoint med Visio",
-        "ingress": "Bruk SharePoint-sider med innebygd Visio-diagram, strukturerte metadata og godkjenningsflyt — finnbart, levende og KI-klart.",
-        "kategori": "pa-tvers",
-        "tags": [
-          "sharepoint",
-          "visio",
-          "prosess",
-          "dokumentasjon",
-          "godkjenning"
-        ],
-        "steg": [
-          {
-            "tittel": "Sider, ikke dokumentfiler",
-            "innhold": "Skriv prosessbeskrivelser direkte på en **SharePoint-side**, ikke i Word. Sider er finnbare, har versjonskontroll, kan godkjennes og er langt enklere å vedlikeholde enn dokumenter spredt i mapper.\n\nEn Word-fil kan ikke bli en del av organisasjonens finnbare prosessbibliotek og kan ikke brukes av Copilot til å svare på spørsmål som «hva er rutinen for innkjøp?». En SharePoint-side kan begge deler."
-          },
-          {
-            "tittel": "Bygg en flat hub-struktur",
-            "innhold": "Opprett ett **hubnettsted** (f.eks. «Prosessbibliotek») og koble underliggende kommunikasjonsnettsted til huben — ett per prosessområde, for eksempel Kjerneprosesser, Støtteprosesser og Ledelsesprosesser.\n\nFelles søk, navigasjon og utseende deles automatisk via huben. Unngå dypt nøstede undersider — én prosess = én side."
-          },
-          {
-            "tittel": "Start med en blank side — og lagre den som organisasjonsmal",
-            "innhold": "Opprett en ny side og velg **Tom** som startpunkt. Bygg opp layouten slik du vil ha den. Når siden ser riktig ut: klikk **Lagre og lukk** → pilen ved siden av knappen → **Lagre som mal**.\n\nGi malen navnet «Prosessdokumentasjon». Alle som lager nye prosesssider kan da velge denne malen øverst i malbiblioteket — konsekvent layout uten ekstraarbeid."
-          },
-          {
-            "tittel": "Anbefalt sidelayout",
-            "innhold": "Bygg siden ovenfra og ned:\n\n1. **Toppseksjon (full bredde)** — Prosessnavn, kort ingress og statusinformasjon\n2. **Nøkkelinformasjon (3 kolonner)** — Prosesseier, prosessområde, gyldighetsperiode — vist via webdelen *Sideegenskaper*\n3. **Prosessdiagram (full bredde)** — Visio-diagram innebygd i siden\n4. **Prosessbeskrivelse (2 kolonner)** — Formål, omfang, roller til venstre / innganger, utganger, risiko til høyre\n5. **Relaterte ressurser** — Lenker til skjemaer, maler og tilknyttede prosesser via webdelen *Hurtigkoblinger*\n6. **Endringslogg** — Tabell med dato, versjon, endring og godkjenner"
-          },
-          {
-            "tittel": "Tegn svømmebanediagrammet i Visio",
-            "innhold": "Åpne **Visio** fra app-startprogrammet i M365. Velg **Tverrfunksjonelt flytskjema** og tegn prosessen med svømmebaner per rolle eller avdeling.\n\nLagre filen (.vsdx) i et dokumentbibliotek på samme SharePoint-nettsted som prosesssiden. Da er filen alltid nær siden den hører til, og endringer i diagrammet oppdateres automatisk på siden.\n\n*Merk: Visio er en nettbasert app og åpnes i Edge — dette er et av unntakene der du forlater Teams.*"
-          },
-          {
-            "tittel": "Bygg diagrammet inn på siden",
-            "innhold": "Rediger prosesssiden, klikk **+** for å legge til en webdel, og velg **Fil og media**. Pek på .vsdx-filen i dokumentbiblioteket.\n\nDiagrammet vises direkte på siden — ingen ekstra fil å åpne, og hyperlenker i diagrammet fungerer.\n\n*Spør IT om den dedikerte Visio-webdelen er aktivert. Den gir bedre zoom-kontroll og fjerner problemet med scrollbars.*"
-          },
-          {
-            "tittel": "Legg til metadata — riktig måte",
-            "innhold": "Metadata på siden skal **ikke** legges inn som en vanlig tabell i teksten. Strukturerte metadata gir finnbarhet, automatisering og KI-nytte — en tabell gir ingenting av dette.\n\n**Slik gjøres det riktig (krever nettstedsadministrator):**\n\n1. Be IT opprette **nettstedskolonner** på Prosessbibliotek-nettstedet:\n   - **Prosesseier** — Person\n   - **Prosessområde** — Administrerte metadata fra Term Store\n   - **Status** — Valg (Aktiv / Under revisjon / Utgått)\n   - **Siste revisjon** — Dato\n   - **Neste revisjon** — Dato\n   - **Versjon** — Tall\n\n2. Kolonnene samles i en **innholdstype** kalt «Prosessdokument» og legges til i Områdesider-biblioteket.\n\n3. Du viser dem på siden via webdelen **Sideegenskaper**.\n\n*Resultatet: Copilot kan svare på «alle aktive prosesser eiet av HR», og Microsoft Search viser prosessene i relevante søkeresultater.*"
-          },
-          {
-            "tittel": "Les prosessdokumentasjonen i Teams",
-            "innhold": "Ansatte trenger ikke å åpne Edge for å lese prosessbiblioteket. Legg til prosess-siden som en **fane** i den relevante Teams-kanalen:\n\n1. Klikk **+** på fanelinja i kanalen\n2. Søk opp og velg **SharePoint**\n3. Pek på siden du vil legge til\n\nFra nå av leser ansatte prosessene direkte i Teams — uten å måtte huske en URL eller navigere til et nettsted."
-          },
-          {
-            "tittel": "Aktiver versjonering og godkjenning",
-            "innhold": "Gå til **Innstillinger for biblioteket** for Områdesider og slå på **Versjonering** (hoved- og underversjoner) samt **Innholdsgodkjenning**. Sammen gir dette **notoritet** — det er mulig å kontrollere i ettertid hvem som endret hva, når og hvem som godkjente.\n\nFor å sette opp en godkjenningsflyt der siden publiseres først etter godkjenning: bruk **Konfigurer sidegodkjenning** — innebygd i SharePoint."
-          },
-          {
-            "tittel": "Hold dokumentasjonen levende",
-            "innhold": "Sett **Neste revisjon**-datoen på alle prosesssider. Prosesseier har da et konkret tidspunkt å forholde seg til.\n\nFiltrer Områdesider-biblioteket på *Neste revisjon* og følg opp i månedlige eller kvartalsvise gjennomganger.\n\n**Copilot i Jobb-modus** kan hjelpe ansatte å finne gjeldende prosesser via naturlig språk — men bare hvis metadata er satt opp strukturert og innholdet ligger på riktig sted."
-          }
-        ]
       }
     ]
   },
@@ -587,6 +532,61 @@
               "bildetekst": "Skjemaer som fanger inn både innhold og metadata ved innsending.",
               "kreditering": "Kilde: Microsoft Tech Community."
             }
+          }
+        ]
+      },
+      {
+        "id": "sharepoint-prosessdokumentasjon-visio",
+        "tittel": "Prosessdokumentasjon i SharePoint med Visio",
+        "ingress": "Bruk SharePoint-sider med innebygd Visio-diagram, strukturerte metadata og godkjenningsflyt — finnbart, levende og KI-klart.",
+        "kategori": "sharepoint",
+        "tags": [
+          "sharepoint",
+          "visio",
+          "prosess",
+          "dokumentasjon",
+          "godkjenning"
+        ],
+        "steg": [
+          {
+            "tittel": "Sider, ikke dokumentfiler",
+            "innhold": "Skriv prosessbeskrivelser direkte på en **SharePoint-side**, ikke i Word. Sider er finnbare, har versjonskontroll, kan godkjennes og er langt enklere å vedlikeholde enn dokumenter spredt i mapper.\n\nEn Word-fil kan ikke bli en del av organisasjonens finnbare prosessbibliotek og kan ikke brukes av Copilot til å svare på spørsmål som «hva er rutinen for innkjøp?». En SharePoint-side kan begge deler."
+          },
+          {
+            "tittel": "Bygg en flat hub-struktur",
+            "innhold": "Opprett ett **hubnettsted** (f.eks. «Prosessbibliotek») og koble underliggende kommunikasjonsnettsted til huben — ett per prosessområde, for eksempel Kjerneprosesser, Støtteprosesser og Ledelsesprosesser.\n\nFelles søk, navigasjon og utseende deles automatisk via huben. Unngå dypt nøstede undersider — én prosess = én side."
+          },
+          {
+            "tittel": "Start med en blank side — og lagre den som organisasjonsmal",
+            "innhold": "Opprett en ny side og velg **Tom** som startpunkt. Bygg opp layouten slik du vil ha den. Når siden ser riktig ut: klikk **Lagre og lukk** → pilen ved siden av knappen → **Lagre som mal**.\n\nGi malen navnet «Prosessdokumentasjon». Alle som lager nye prosesssider kan da velge denne malen øverst i malbiblioteket — konsekvent layout uten ekstraarbeid."
+          },
+          {
+            "tittel": "Anbefalt sidelayout",
+            "innhold": "Bygg siden ovenfra og ned:\n\n1. **Toppseksjon (full bredde)** — Prosessnavn, kort ingress og statusinformasjon\n2. **Nøkkelinformasjon (3 kolonner)** — Prosesseier, prosessområde, gyldighetsperiode — vist via webdelen *Sideegenskaper*\n3. **Prosessdiagram (full bredde)** — Visio-diagram innebygd i siden\n4. **Prosessbeskrivelse (2 kolonner)** — Formål, omfang, roller til venstre / innganger, utganger, risiko til høyre\n5. **Relaterte ressurser** — Lenker til skjemaer, maler og tilknyttede prosesser via webdelen *Hurtigkoblinger*\n6. **Endringslogg** — Tabell med dato, versjon, endring og godkjenner"
+          },
+          {
+            "tittel": "Tegn svømmebanediagrammet i Visio",
+            "innhold": "Åpne **Visio** fra app-startprogrammet i M365. Velg **Tverrfunksjonelt flytskjema** og tegn prosessen med svømmebaner per rolle eller avdeling.\n\nLagre filen (.vsdx) i et dokumentbibliotek på samme SharePoint-nettsted som prosesssiden. Da er filen alltid nær siden den hører til, og endringer i diagrammet oppdateres automatisk på siden.\n\n*Merk: Visio er en nettbasert app og åpnes i Edge — dette er et av unntakene der du forlater Teams.*"
+          },
+          {
+            "tittel": "Bygg diagrammet inn på siden",
+            "innhold": "Rediger prosesssiden, klikk **+** for å legge til en webdel, og velg **Fil og media**. Pek på .vsdx-filen i dokumentbiblioteket.\n\nDiagrammet vises direkte på siden — ingen ekstra fil å åpne, og hyperlenker i diagrammet fungerer.\n\n*Spør IT om den dedikerte Visio-webdelen er aktivert. Den gir bedre zoom-kontroll og fjerner problemet med scrollbars.*"
+          },
+          {
+            "tittel": "Legg til metadata — riktig måte",
+            "innhold": "Metadata på siden skal **ikke** legges inn som en vanlig tabell i teksten. Strukturerte metadata gir finnbarhet, automatisering og KI-nytte — en tabell gir ingenting av dette.\n\n**Slik gjøres det riktig (krever nettstedsadministrator):**\n\n1. Be IT opprette **nettstedskolonner** på Prosessbibliotek-nettstedet:\n   - **Prosesseier** — Person\n   - **Prosessområde** — Administrerte metadata fra Term Store\n   - **Status** — Valg (Aktiv / Under revisjon / Utgått)\n   - **Siste revisjon** — Dato\n   - **Neste revisjon** — Dato\n   - **Versjon** — Tall\n\n2. Kolonnene samles i en **innholdstype** kalt «Prosessdokument» og legges til i Områdesider-biblioteket.\n\n3. Du viser dem på siden via webdelen **Sideegenskaper**.\n\n*Resultatet: Copilot kan svare på «alle aktive prosesser eiet av HR», og Microsoft Search viser prosessene i relevante søkeresultater.*"
+          },
+          {
+            "tittel": "Les prosessdokumentasjonen i Teams",
+            "innhold": "Ansatte trenger ikke å åpne Edge for å lese prosessbiblioteket. Legg til prosess-siden som en **fane** i den relevante Teams-kanalen:\n\n1. Klikk **+** på fanelinja i kanalen\n2. Søk opp og velg **SharePoint**\n3. Pek på siden du vil legge til\n\nFra nå av leser ansatte prosessene direkte i Teams — uten å måtte huske en URL eller navigere til et nettsted."
+          },
+          {
+            "tittel": "Aktiver versjonering og godkjenning",
+            "innhold": "Gå til **Innstillinger for biblioteket** for Områdesider og slå på **Versjonering** (hoved- og underversjoner) samt **Innholdsgodkjenning**. Sammen gir dette **notoritet** — det er mulig å kontrollere i ettertid hvem som endret hva, når og hvem som godkjente.\n\nFor å sette opp en godkjenningsflyt der siden publiseres først etter godkjenning: bruk **Konfigurer sidegodkjenning** — innebygd i SharePoint."
+          },
+          {
+            "tittel": "Hold dokumentasjonen levende",
+            "innhold": "Sett **Neste revisjon**-datoen på alle prosesssider. Prosesseier har da et konkret tidspunkt å forholde seg til.\n\nFiltrer Områdesider-biblioteket på *Neste revisjon* og følg opp i månedlige eller kvartalsvise gjennomganger.\n\n**Copilot i Jobb-modus** kan hjelpe ansatte å finne gjeldende prosesser via naturlig språk — men bare hvis metadata er satt opp strukturert og innholdet ligger på riktig sted."
           }
         ]
       }
