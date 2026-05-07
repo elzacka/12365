@@ -862,7 +862,7 @@
     "artikler": [
       {
         "id": "komme-i-gang-med-shifts",
-        "tittel": "Komme i gang med Shifts",
+        "tittel": "Vaktplaner i Shifts",
         "ingress": "Shifts er Microsofts vaktplanleggingsapp inkludert i Teams. Ansatte ser turnusen sin og bytter vakter — ledere lager og publiserer planene.",
         "kategori": "shifts",
         "tags": [
