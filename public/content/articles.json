@@ -9,7 +9,12 @@
         "tittel": "Teams er din nye arbeidsflate",
         "ingress": "Teams er ikke lenger bare et verktøy for videomøter og chat. Det er nå den samlede arbeidsflaten i M365 — her finner du filene, oppgavene, notatene og appene dine på ett sted.",
         "kategori": "kom-i-gang",
-        "tags": ["teams", "arbeidsflate", "oversikt", "kom-i-gang"],
+        "tags": [
+          "teams",
+          "arbeidsflate",
+          "oversikt",
+          "kom-i-gang"
+        ],
         "steg": [
           {
             "tittel": "Teams er klar — ingen oppsett nødvendig",
@@ -46,7 +51,12 @@
         "tittel": "Fra filserver til SharePoint",
         "ingress": "Den felles filserveren (H:, P: og andre stasjoner) erstattes av Teams og SharePoint. Her er den viktigste forskjellen.",
         "kategori": "kom-i-gang",
-        "tags": ["sharepoint", "filserver", "lagring", "teams"],
+        "tags": [
+          "sharepoint",
+          "filserver",
+          "lagring",
+          "teams"
+        ],
         "steg": [
           {
             "tittel": "Forstå forskjellen",
@@ -78,36 +88,16 @@
     "beskrivelse": "Generelle grep og funksjoner som brukes på tvers av apper",
     "artikler": [
       {
-        "id": "versjonshistorikk",
-        "tittel": "Finn tilbake til en tidligere versjon",
-        "ingress": "M365 lagrer automatisk alle versjoner av dokumentene dine — full notoritet over hva som er endret, når og av hvem. Du kan alltid rulle tilbake.",
-        "kategori": "pa-tvers",
-        "tags": ["versjon", "historikk", "angre"],
-        "steg": [
-          {
-            "tittel": "Filen må ligge i Teams eller OneDrive",
-            "innhold": "Versjonering fungerer kun for filer som er lagret i SharePoint (via Teams) eller OneDrive — ikke for filer som ligger lokalt på PC-en. Én god grunn til å alltid lagre i Teams."
-          },
-          {
-            "tittel": "Klikk på filnavnet øverst",
-            "innhold": "Åpne filen i Teams eller i Edge. Klikk på dokumentnavnet i tittellinja øverst i Word, Excel eller PowerPoint. En meny åpnes."
-          },
-          {
-            "tittel": "Velg Versjonslogg",
-            "innhold": "Klikk **Versjonslogg** i menyen. Du ser alle lagrede versjoner med dato og hvem som redigerte."
-          },
-          {
-            "tittel": "Gjenopprett ønsket versjon",
-            "innhold": "Klikk på en versjon for å åpne den. Klikk deretter **Gjenopprett** for å gjøre den til gjeldende versjon.\n\nDen gamle versjonen forsvinner ikke — den legger seg som en ny versjon i loggen."
-          }
-        ]
-      },
-      {
         "id": "onedrive-vs-sharepoint",
         "tittel": "OneDrive eller SharePoint?",
         "ingress": "To lagringsplasser — én tommelfingerregel: OneDrive er ditt, SharePoint er felles.",
         "kategori": "pa-tvers",
-        "tags": ["onedrive", "sharepoint", "lagring", "deling"],
+        "tags": [
+          "onedrive",
+          "sharepoint",
+          "lagring",
+          "deling"
+        ],
         "steg": [
           {
             "tittel": "Bruk OneDrive til eget arbeid",
@@ -132,7 +122,13 @@
         "tittel": "Loop eller Word — hva bruker du?",
         "ingress": "Ikke alt som ser ut som et dokument, trenger å være en Word-fil. Loop er det smarte valget for alt som leves og arbeides med av flere — Word er for det som er ferdig.",
         "kategori": "pa-tvers",
-        "tags": ["loop", "word", "samarbeid", "dokumenter", "data"],
+        "tags": [
+          "loop",
+          "word",
+          "samarbeid",
+          "dokumenter",
+          "data"
+        ],
         "steg": [
           {
             "tittel": "Problemet med Word-filer som arbeidsverktøy",
@@ -161,11 +157,80 @@
         ]
       },
       {
+        "id": "vise-redigere-kommentere",
+        "tittel": "Vise, redigere eller kommentere — riktig deling",
+        "ingress": "Når du deler en fil, bestemmer du selv om mottakeren bare skal lese, kunne kommentere eller endre innholdet. Riktig rettighet gir både flyt og trygghet.",
+        "kategori": "pa-tvers",
+        "tags": [
+          "deling",
+          "rettigheter",
+          "tilgang",
+          "samarbeid"
+        ],
+        "steg": [
+          {
+            "tittel": "Tre rettighetstyper å velge mellom",
+            "innhold": "Når du klikker **Del** i Word, Excel, PowerPoint eller fra et SharePoint-bibliotek, kan du velge mellom tre nivåer:\n\n- **Kan vise** — mottakeren leser dokumentet, men kan ikke endre noe.\n- **Kan kommentere** — mottakeren kan legge til kommentarer i margen, men ikke endre selve teksten.\n- **Kan redigere** — mottakeren kan skrive, slette og samskrive i sanntid.\n\n**Kan redigere** er standard i Teams-kanaler. De andre to brukes bevisst når du deler ut av kanalen."
+          },
+          {
+            "tittel": "Når brukes hva?",
+            "innhold": "Bruk dette som tommelfingerregel:\n\n- **Vi jobber sammen om innholdet** → Kan redigere\n- **Mottakeren skal kun ha innsyn** → Kan vise\n- **Høringsrunde eller kvalitetssikring** → Kan kommentere\n- **Mottakeren skal bidra med innspill, ikke endre** → Kan kommentere\n- **Ferdig dokument til orientering** → Kan vise\n\n**Kan kommentere** er undervurdert — særlig nyttig når mange skal gi innspill uten å forstyrre hovedteksten."
+          },
+          {
+            "tittel": "Tilleggskontroller for sensitive filer",
+            "innhold": "Når du klikker **Innstillinger for kobling** i delingsdialogen, får du flere kontroller:\n\n- **Blokker nedlasting** — mottakeren kan lese, men ikke laste ned. Reduserer kopier på avveie. (Skjermbilder kan tas uansett — det er en grense.)\n- **Sett utløpsdato** — tilgangen forsvinner automatisk på en gitt dato. Nyttig for innspillsrunder og eksterne samarbeid.\n- **Krev innlogging** — kun pålogga brukere kan åpne lenken. Skal alltid være på internt; videresending hjelper ikke uvedkommende inn.\n\nDisse tre er gratis sikkerhetsgevinster — bruk dem aktivt."
+          },
+          {
+            "tittel": "Den farligste delingstypen — «hvem som helst med lenken»",
+            "innhold": "Når du deler en fil, kan du velge **«Hvem som helst med lenken»**. Da fungerer lenken for alle som får den — også de som videresender den.\n\n**Unngå dette internt.** Du mister oversikt over hvem som har tilgang, og lenken kan spre seg uten kontroll.\n\nVelg i stedet:\n\n- **Personer i organisasjonen** — alle innloggede brukere hos oss\n- **Bestemte personer** — navngitte mottakere\n- **Personer med eksisterende tilgang** — kun de som allerede er med i teamet eller kanalen\n\nResultatet: Du vet hvem som ser hva, og kan trekke tilbake tilgang når noe endrer seg."
+          },
+          {
+            "tittel": "Del på riktig sted — ikke bare med riktig rettighet",
+            "innhold": "Husk at rettigheten kun er én del av god deling. Det viktigste er **hvor filen ligger**:\n\n- Skal flere bruke filen jevnlig? Den hører hjemme i en **Teams-kanal**.\n- Er det et engangstilfelle eller midlertidig innspill? Da kan **OneDrive-deling** med navngitt person fungere.\n- Skal hele organisasjonen ha innsyn? Bruk en **SharePoint-side** eller hub.\n\nFlytt filen før du deler den. Da følger tilgangen jobben — ikke deg som person."
+          }
+        ]
+      },
+      {
+        "id": "versjonshistorikk",
+        "tittel": "Finn tilbake til en tidligere versjon",
+        "ingress": "M365 lagrer automatisk alle versjoner av dokumentene dine — full notoritet over hva som er endret, når og av hvem. Du kan alltid rulle tilbake.",
+        "kategori": "pa-tvers",
+        "tags": [
+          "versjon",
+          "historikk",
+          "angre"
+        ],
+        "steg": [
+          {
+            "tittel": "Filen må ligge i Teams eller OneDrive",
+            "innhold": "Versjonering fungerer kun for filer som er lagret i SharePoint (via Teams) eller OneDrive — ikke for filer som ligger lokalt på PC-en. Én god grunn til å alltid lagre i Teams."
+          },
+          {
+            "tittel": "Klikk på filnavnet øverst",
+            "innhold": "Åpne filen i Teams eller i Edge. Klikk på dokumentnavnet i tittellinja øverst i Word, Excel eller PowerPoint. En meny åpnes."
+          },
+          {
+            "tittel": "Velg Versjonslogg",
+            "innhold": "Klikk **Versjonslogg** i menyen. Du ser alle lagrede versjoner med dato og hvem som redigerte."
+          },
+          {
+            "tittel": "Gjenopprett ønsket versjon",
+            "innhold": "Klikk på en versjon for å åpne den. Klikk deretter **Gjenopprett** for å gjøre den til gjeldende versjon.\n\nDen gamle versjonen forsvinner ikke — den legger seg som en ny versjon i loggen."
+          }
+        ]
+      },
+      {
         "id": "sharepoint-prosessdokumentasjon-visio",
         "tittel": "Prosessdokumentasjon i SharePoint med Visio",
         "ingress": "Bruk SharePoint-sider med innebygd Visio-diagram, strukturerte metadata og godkjenningsflyt — finnbart, levende og KI-klart.",
         "kategori": "pa-tvers",
-        "tags": ["sharepoint", "visio", "prosess", "dokumentasjon", "godkjenning"],
+        "tags": [
+          "sharepoint",
+          "visio",
+          "prosess",
+          "dokumentasjon",
+          "godkjenning"
+        ],
         "steg": [
           {
             "tittel": "Sider, ikke dokumentfiler",
@@ -193,7 +258,7 @@
           },
           {
             "tittel": "Legg til metadata — riktig måte",
-            "innhold": "Metadata på siden skal **ikke** legges inn som en vanlig tabell i teksten. Strukturerte metadata gir finnbarhet, automatisering og KI-nytte — en tabell gir ingenting av dette.\n\n**Slik gjøres det riktig (krever nettstedsadministrator):**\n\n1. Be IT opprette **nettstedskolonner** på Prosessbibliotek-nettstedet:\n   - *Prosesseier* (Person)\n   - *Prosessområde* (Administrerte metadata fra Term Store)\n   - *Status* (Valg: Aktiv / Under revisjon / Utgått)\n   - *Siste revisjon* (Dato)\n   - *Neste revisjon* (Dato)\n   - *Versjon* (Tall)\n\n2. Kolonnene samles i en **innholdstype** kalt «Prosessdokument» og legges til i Områdesider-biblioteket.\n\n3. Du viser dem på siden via webdelen **Sideegenskaper**.\n\n*Resultatet: Copilot kan svare på «alle aktive prosesser eiet av HR», og Microsoft Search viser prosessene i relevante søkeresultater.*"
+            "innhold": "Metadata på siden skal **ikke** legges inn som en vanlig tabell i teksten. Strukturerte metadata gir finnbarhet, automatisering og KI-nytte — en tabell gir ingenting av dette.\n\n**Slik gjøres det riktig (krever nettstedsadministrator):**\n\n1. Be IT opprette **nettstedskolonner** på Prosessbibliotek-nettstedet:\n   - **Prosesseier** — Person\n   - **Prosessområde** — Administrerte metadata fra Term Store\n   - **Status** — Valg (Aktiv / Under revisjon / Utgått)\n   - **Siste revisjon** — Dato\n   - **Neste revisjon** — Dato\n   - **Versjon** — Tall\n\n2. Kolonnene samles i en **innholdstype** kalt «Prosessdokument» og legges til i Områdesider-biblioteket.\n\n3. Du viser dem på siden via webdelen **Sideegenskaper**.\n\n*Resultatet: Copilot kan svare på «alle aktive prosesser eiet av HR», og Microsoft Search viser prosessene i relevante søkeresultater.*"
           },
           {
             "tittel": "Les prosessdokumentasjonen i Teams",
@@ -221,7 +286,11 @@
         "tittel": "Slik bruker du Copilot Chat",
         "ingress": "Copilot Chat er KI-chatten for skriving, oppsummering og søk i organisasjonens innhold — direkte i Teams og Edge.",
         "kategori": "copilot",
-        "tags": ["copilot", "ki", "chat"],
+        "tags": [
+          "copilot",
+          "ki",
+          "chat"
+        ],
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
@@ -257,7 +326,13 @@
         "tittel": "Hendelseslogg i Lists",
         "ingress": "Microsoft Lists er et fleksibelt verktøy for å logge, prioritere og lukke hendelser — med skjemaer, varsler og tavle uten kode.",
         "kategori": "lists",
-        "tags": ["lists", "hendelseslogg", "varsler", "regler", "skjemaer"],
+        "tags": [
+          "lists",
+          "hendelseslogg",
+          "varsler",
+          "regler",
+          "skjemaer"
+        ],
         "steg": [
           {
             "tittel": "Når passer Lists til hendelser?",
@@ -294,7 +369,12 @@
         "tittel": "Risikoregister i Lists",
         "ingress": "Microsoft Lists er en god plattform for et levende risikoregister med automatisk scoring, fargekodede visninger og sporbar oppfølging.",
         "kategori": "lists",
-        "tags": ["lists", "risiko", "register", "rapportering"],
+        "tags": [
+          "lists",
+          "risiko",
+          "register",
+          "rapportering"
+        ],
         "steg": [
           {
             "tittel": "Hva er et risikoregister?",
@@ -306,7 +386,7 @@
           },
           {
             "tittel": "Sett opp kolonnene",
-            "innhold": "Legg til disse kolonnene via **+ Legg til kolonne**:\n\n- **Risikotittel** — kolonnetypen *Én linje med tekst* (Tittel-kolonnen er allerede der)\n- **Beskrivelse** — kolonnetypen *Flere linjer tekst*\n- **Sannsynlighet** — kolonnetypen **Tall** (skriv inn 1–5)\n- **Konsekvens** — kolonnetypen **Tall** (skriv inn 1–5)\n- **Risikoeier** — kolonnetypen *Person*\n- **Status** — kolonnetypen *Valg*: Identifisert / Under behandling / Lukket\n- **Tiltak** — kolonnetypen *Flere linjer tekst*\n\n*Viktig: Sannsynlighet og Konsekvens må være av typen **Tall**, ikke Valg. Bare tallverdier kan brukes i den beregnede kolonnen.*"
+            "innhold": "Legg til disse kolonnene via **+ Legg til kolonne**:\n\n- **Risikotittel** — Én linje med tekst (Tittel-kolonnen er allerede der)\n- **Beskrivelse** — Flere linjer tekst\n- **Sannsynlighet** — Tall (skriv inn 1–5)\n- **Konsekvens** — Tall (skriv inn 1–5)\n- **Risikoeier** — Person\n- **Status** — Valg: Identifisert / Under behandling / Lukket\n- **Tiltak** — Flere linjer tekst\n\n*Viktig: Sannsynlighet og Konsekvens må være av typen Tall, ikke Valg. Bare tallverdier kan brukes i den beregnede kolonnen.*"
           },
           {
             "tittel": "Beregn risikoscore automatisk",
@@ -342,7 +422,12 @@
         "tittel": "Hold innboksen ryddig",
         "ingress": "Fokusert innboks, regler og kategorier — tre grep som hjelper deg å holde oversikten i Outlook.",
         "kategori": "outlook",
-        "tags": ["outlook", "e-post", "innboks", "produktivitet"],
+        "tags": [
+          "outlook",
+          "e-post",
+          "innboks",
+          "produktivitet"
+        ],
         "steg": [
           {
             "tittel": "Slå på Fokusert innboks",
@@ -374,7 +459,13 @@
         "tittel": "Enkel oppgavestyring i Planner",
         "ingress": "Planner gir deg en visuell tavle for å fordele, organisere og spore oppgaver — tilgjengelig direkte i Teams.",
         "kategori": "planner",
-        "tags": ["planner", "oppgaver", "prosjekt", "samarbeid", "tavle"],
+        "tags": [
+          "planner",
+          "oppgaver",
+          "prosjekt",
+          "samarbeid",
+          "tavle"
+        ],
         "steg": [
           {
             "tittel": "Åpne Planner i Teams",
@@ -418,7 +509,14 @@
         "tittel": "Nye automatiseringsfunksjoner i SharePoint",
         "ingress": "Microsoft har lansert flere oppdateringer i SharePoint som gjør det enklere å automatisere hverdagslige arbeidsflyter — uten kode.",
         "kategori": "sharepoint",
-        "tags": ["sharepoint", "automasjon", "arbeidsflyt", "godkjenning", "hurtigsteg", "skjema"],
+        "tags": [
+          "sharepoint",
+          "automasjon",
+          "arbeidsflyt",
+          "godkjenning",
+          "hurtigsteg",
+          "skjema"
+        ],
         "steg": [
           {
             "tittel": "SharePoint Showcase — januar 2026",
@@ -504,7 +602,11 @@
         "tittel": "Chat eller kanal — når bruker du hva?",
         "ingress": "Hva er forskjellen mellom en Teams-chat og en kanal? Her er tommelfingerregelen.",
         "kategori": "teams",
-        "tags": ["chat", "kanal", "kommunikasjon"],
+        "tags": [
+          "chat",
+          "kanal",
+          "kommunikasjon"
+        ],
         "steg": [
           {
             "tittel": "Bruk chat for raske avklaringer",
@@ -525,11 +627,115 @@
         ]
       },
       {
+        "id": "teams-eierskap",
+        "tittel": "Hvem eier teamet — og hva betyr det?",
+        "ingress": "Hvert team trenger noen som faktisk har ansvar. Uten klart eierskap mister teamet retning, struktur og rydding.",
+        "kategori": "teams",
+        "tags": [
+          "eierskap",
+          "team",
+          "ansvar",
+          "styring"
+        ],
+        "steg": [
+          {
+            "tittel": "Hvorfor eierskap er viktig",
+            "innhold": "Et team er ikke en tilfeldig samling kanaler — det er et arbeidsfellesskap som lever over tid. Når ingen har ansvaret, vokser strukturen ukontrollert: nye kanaler dukker opp, gamle blir liggende, filer havner på rare steder, og ingen vet lenger hva som er aktivt.\n\nManglende eierskap er den vanligste årsaken til kaos i Teams. Klart eierskap gir motvekt: noen følger med, rydder og tar beslutninger på vegne av teamet."
+          },
+          {
+            "tittel": "Minst to eiere — gjerne fra ulike enheter",
+            "innhold": "Et team skal ha **minst to eiere**. Det sikrer kontinuitet hvis én slutter, blir syk eller endrer rolle.\n\nVelg eiere som faktisk har **faglig ansvar** for arbeidet — ikke en IT-person som «administrerer» teamet på distanse. Eieren skal kunne svare på «hva jobber dette teamet med?» og «hvem hører til her?».\n\nFor prosjektteam: hent gjerne eiere fra ulike enheter. Det reduserer siloer og gir bredere forankring."
+          },
+          {
+            "tittel": "Hva eieren faktisk gjør",
+            "innhold": "Som eier har du fire hovedoppgaver:\n\n- **Hold strukturen enkel** — si nei til kanaler ingen trenger, slå sammen overlapp, gi kanaler tydelige navn.\n- **Følg med på bruk** — hvis en kanal aldri har innlegg, er den sannsynligvis unødvendig. Slett den.\n- **Styr tilgangen** — godkjenn nye medlemmer, fjern de som ikke lenger jobber med saken, vurder gjestetilgang bevisst.\n- **Forvalt livsløpet** — når prosjektet er ferdig, sørg for arkivering eller sletting. Ikke la teamet bare ligge.\n\nIngen av disse oppgavene er teknisk vanskelige. Det handler om å ta ansvaret seriøst."
+          },
+          {
+            "tittel": "Hva hvis eieren slutter eller bytter rolle?",
+            "innhold": "Med to eiere er du allerede halvveis dekket — den andre tar over når én forsvinner.\n\nNår en eier slutter eller bytter rolle:\n\n1. Den gjenværende eieren legger til en ny medeier **før** den gamle mister tilgangen.\n2. Den nye eieren får en kort overlevering: hvilke kanaler er aktive, hvilke avtaler gjelder, hva er status.\n3. Den gamle eieren fjernes fra eierlisten — men kan fortsatt være medlem hvis det er relevant.\n\nUnngå at et team står med kun én eier i lange perioder. Det er en sårbarhet."
+          },
+          {
+            "tittel": "Hold antallet eiere håndterlig",
+            "innhold": "To eiere er minimum. **Tre til fire er ofte ideelt** for større team. Mer enn det fungerer sjelden — eierskap blir utvannet og ingen tar reelt ansvar.\n\nSkille mellom **eier** (administrativt ansvar) og **medlem** (deltar i arbeidet). De fleste i et team skal være medlemmer, ikke eiere."
+          }
+        ]
+      },
+      {
+        "id": "kanaltyper",
+        "tittel": "Standard, privat eller delt kanal?",
+        "ingress": "Teams har tre typer kanaler — og forskjellen er viktig. Velg riktig type ut fra hvem som faktisk skal ha tilgang.",
+        "kategori": "teams",
+        "tags": [
+          "kanaler",
+          "tilgang",
+          "samarbeid",
+          "deling"
+        ],
+        "steg": [
+          {
+            "tittel": "Standardkanal — for hele teamet",
+            "innhold": "**Standardkanal** er åpen for alle medlemmer av teamet, inkludert eventuelle gjester. Innlegg, filer og samtaler er synlige for alle som er med.\n\nBruk standardkanal når:\n\n- Innholdet angår hele teamet\n- Gjestene i teamet skal kunne følge med (f.eks. eksterne samarbeidspartnere)\n- Du ønsker maksimal åpenhet og finnbarhet\n\nDe fleste kanalene i et team bør være standardkanaler. Privatisering bør være unntaket, ikke regelen."
+          },
+          {
+            "tittel": "Privat kanal — for en undergruppe",
+            "innhold": "**Privat kanal** er kun synlig for utvalgte medlemmer av teamet. Du må legge til hver person manuelt.\n\nGjester i teamet kan også legges til privat kanal hvis det er relevant.\n\nBruk privat kanal når:\n\n- Innholdet er sensitivt og ikke skal ses av alle teammedlemmer (f.eks. budsjettforhandlinger, personalsaker)\n- En undergruppe arbeider med noe som ikke er klart for hele teamet ennå\n- Du trenger en avgrenset arbeidsflate innenfor et større team\n\nPrivate kanaler kan ikke åpnes opp i ettertid — vurder behovet før du oppretter."
+          },
+          {
+            "tittel": "Delt kanal — på tvers av team",
+            "innhold": "**Delt kanal** lar deg samarbeide med personer som ikke er medlemmer av teamet ditt — for eksempel kolleger fra andre avdelinger.\n\nMen: **eksterne gjester kan ikke legges til delte kanaler**. Bare interne ansatte og samarbeidspartnere fra andre tenanter (med riktig oppsett).\n\nBruk delt kanal når:\n\n- Du trenger fast samarbeid med folk i andre team eller avdelinger uten å ha dem som medlemmer i teamet ditt\n- En tverrfaglig arbeidsgruppe skal ha et eget rom\n- Innholdet hører naturlig hjemme i flere team samtidig\n\nDelte kanaler reduserer behovet for å sende meldinger og dele filer mellom team."
+          },
+          {
+            "tittel": "Tommelfingerregel — slik velger du",
+            "innhold": "Still ett enkelt spørsmål: **hvem skal egentlig ha tilgang?**\n\n- **Hele teamet (inkl. gjester)** → Standardkanal\n- **En undergruppe i teamet** → Privat kanal\n- **Folk på tvers av team** → Delt kanal\n- **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nHvis du er i tvil, **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
+          }
+        ]
+      },
+      {
+        "id": "mappestrukturer",
+        "tittel": "Slik bygger du gode mappestrukturer",
+        "ingress": "Mapper skal skape orden — ikke styre samarbeid. Få regler holder strukturen lett å forstå og lett å bruke.",
+        "kategori": "teams",
+        "tags": [
+          "mapper",
+          "struktur",
+          "organisering",
+          "filer"
+        ],
+        "steg": [
+          {
+            "tittel": "Mapper er for orden — ikke samarbeid",
+            "innhold": "Hvis noe krever samtale, oppfølging eller løpende arbeid — bruk en **kanal**, ikke en ny mappe. Mapper er passive: de samler filer, men driver ikke arbeid fremover.\n\nFør du oppretter en mappe, spør deg selv:\n\n- Skal flere personer jobbe sammen om innholdet over tid? → **Kanal**\n- Skal vi finne dette igjen senere som referanse? → **Mappe**\n\nDenne distinksjonen alene løser de fleste struktur-spørsmål."
+          },
+          {
+            "tittel": "Maks 2–3 nivåer per kanal",
+            "innhold": "Dyp mappestruktur er en arv fra filserver-tida. I Teams gjør den at filer blir vanskelige å finne — både for mennesker og for søk/Copilot.\n\n**Hold deg til 2–3 nivåer:**\n\n- Kanal\n  - Mappe (nivå 1)\n    - Undermappe (nivå 2 — sjelden nødvendig)\n\nHvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet egentlig hører hjemme i en annen kanal — eller at strukturen kan flates ut."
+          },
+          {
+            "tittel": "Unngå mapper for år, personer og versjoner",
+            "innhold": "Disse mappetypene er klassiske feller:\n\n- **«2024», «2025», «2026»** — år gir falsk struktur. Et dokument fra desember 2024 som fortsatt er aktivt i januar 2025 må ikke flyttes manuelt. Bruk metadata eller datofelt i stedet.\n- **«Anna», «Per», «Kari»** — mapper for personer skaper personavhengighet. Når Anna slutter, blir mappa et mysterium.\n- **«Versjon 1», «Versjon 2», «Endelig»** — versjonering er innebygd i SharePoint. Du trenger ikke mappe per versjon.\n\nStrukturer i stedet etter **arbeid**: hva handler dette om, hvilken prosess, hvilken sak."
+          },
+          {
+            "tittel": "30-sekunders-testen før ny mappe",
+            "innhold": "Før du klikker **Ny mappe**, ta 30 sekunder og still disse spørsmålene:\n\n1. Trenger vi virkelig en ny mappe — eller fungerer en eksisterende?\n2. Kan vi bruke metadata (kolonner) i stedet for å skille innholdet?\n3. Er dette **innhold** (→ mappe) eller **samtaler/oppgaver** (→ kanal)?\n4. Vil flere bruke denne mappa over tid?\n\nHvis du er i tvil etter 30 sekunder — vent med mappa. Det er lettere å lage en mappe senere enn å rydde i en struktur som har vokst seg uoversiktlig."
+          },
+          {
+            "tittel": "Mappenavn som varer",
+            "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n- «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n- «Nye», «Gamle», «Kommer», «Til vurdering»\n- Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n- Beskriver hva som faktisk ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n- Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n- Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år — vil hen forstå hva som ligger der?"
+          }
+        ]
+      },
+      {
         "id": "teams-moter",
         "tittel": "Hold et Teams-møte",
         "ingress": "Slik starter og gjennomfører du et møte i Teams — enten du er på kontoret eller hjemme.",
         "kategori": "teams",
-        "tags": ["møte", "videomøte", "skjermdeling", "notater", "loop"],
+        "tags": [
+          "møte",
+          "videomøte",
+          "skjermdeling",
+          "notater",
+          "loop"
+        ],
         "steg": [
           {
             "tittel": "Start et møte fra Outlook eller Teams-kalenderen",
@@ -558,7 +764,14 @@
         "tittel": "12 nye Teams-funksjoner som hjelper deg",
         "ingress": "Microsoft Teams får stadig nye funksjoner. Her er tolv som rydder hverdagen og gjør deg raskere — fra utkastsamler og møtetimer til Enter-tast-innstilling og hurtignavigasjon med Ctrl+G.",
         "kategori": "teams",
-        "tags": ["teams", "tips", "snarveier", "produktivitet", "møter", "chat"],
+        "tags": [
+          "teams",
+          "tips",
+          "snarveier",
+          "produktivitet",
+          "møter",
+          "chat"
+        ],
         "steg": [
           {
             "tittel": "Samlet oversikt over utkast",
@@ -607,6 +820,125 @@
           {
             "tittel": "Emojier i seksjonsoverskrifter",
             "innhold": "Du kan legge til emojier i navnet på egendefinerte seksjoner i kanallisten. Det gjør det lettere å visuelt organisere og raskt identifisere ulike prosjekter eller arbeidsområder i en lang liste.\n\nNår du oppretter eller gir nytt navn til en seksjon, velg en emoji som vises ved siden av navnet."
+          }
+        ]
+      },
+      {
+        "id": "team-arkivering",
+        "tittel": "Når prosjektet er ferdig — arkiver og lukk team",
+        "ingress": "Et team som ikke avsluttes, blir liggende som rot. Tre faser hjelper deg å sluttføre arbeidet på en ryddig måte.",
+        "kategori": "teams",
+        "tags": [
+          "arkivering",
+          "livsløp",
+          "prosjekt",
+          "lukking"
+        ],
+        "steg": [
+          {
+            "tittel": "Tre faser i et teams livsløp",
+            "innhold": "Hvert team går gjennom tre tydelige faser:\n\n1. **Aktivt** — samtaler, samskriving, møter. Filer endres ofte, kanaler er i bruk.\n2. **Ferdig** — hovedarbeidet er gjort. Sluttprodukt er levert. Fortsatt noe oppfølging.\n3. **Arkivert** — alt er ferdig. Teamet er låst eller slettet, sluttproduktene flyttet til arkivsystem.\n\nMange team står fast i fase 2 i månedsvis fordi ingen tar beslutningen om å gå videre. Eierskapet betyr noe også her: eieren har ansvar for å lukke teamet når jobben er gjort."
+          },
+          {
+            "tittel": "Rydding før arkivering",
+            "innhold": "Før du arkiverer eller sletter et team, gjør en rydderunde:\n\n- **Slett utkast og kladder** som ikke ble brukt\n- **Slett duplikater** og gamle versjoner som versjonshistorikken uansett ivaretar\n- **Behold sluttproduktene** (rapporter, leveranser, beslutningsgrunnlag)\n- **Slett midlertidige filer** (bilder fra møter, screenshots, råtekst)\n\nMålet er at det som gjenstår, faktisk har verdi for fremtiden. Hvis ingen tør slette noe, er strukturen feil — det betyr som regel at viktige filer er blandet med uviktige."
+          },
+          {
+            "tittel": "Flytt sluttproduktene til riktig sted",
+            "innhold": "**Sluttproduktene hører hjemme i et arkivsystem** — ikke i et arkivert Teams-team.\n\nTypiske destinasjoner:\n\n- **Sak- og arkivsystem** (WebSak eller tilsvarende) — for offisielle dokumenter, vedtak, beslutningsgrunnlag\n- **SharePoint-bibliotek** for prosessdokumentasjon — hvis sluttproduktet skal leve videre som referanse\n- **Egne fagsystemer** — for innhold som hører hjemme der\n\nIkke la sluttproduktene bli liggende i et team som ingen lenger åpner. De blir glemt og vanskelige å finne."
+          },
+          {
+            "tittel": "Arkiver eller slett — slik velger du",
+            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg:\n\n**Arkiver teamet** når:\n\n- Det kan være behov for å se på samtaler eller filer i ettertid\n- Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n- Det er regulert eller revidert arbeid med dokumentasjonskrav\n\nArkivering låser teamet — innhold er fortsatt søkbart, men ingen kan endre noe.\n\n**Slett teamet** når:\n\n- Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n- Det er åpenbart engangsarbeid uten gjenbruksverdi\n- Personvernhensyn taler for sletting\n\nHvis ingen våger å slette noe, er det et signal om at strukturen ikke har skilt godt nok mellom det viktige og det forbigående."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shifts",
+    "tittel": "Shifts",
+    "beskrivelse": "Vaktplanlegging og skiftarbeid i Teams",
+    "artikler": [
+      {
+        "id": "komme-i-gang-med-shifts",
+        "tittel": "Komme i gang med Shifts",
+        "ingress": "Shifts er Microsofts vaktplanleggingsapp inkludert i Teams. Ansatte ser turnusen sin og bytter vakter — ledere lager og publiserer planene.",
+        "kategori": "shifts",
+        "tags": [
+          "shifts",
+          "vaktplanlegging",
+          "turnus",
+          "skift",
+          "frontlinje"
+        ],
+        "steg": [
+          {
+            "tittel": "Slik åpner du Shifts",
+            "innhold": "Shifts ligger inne i Teams — du trenger ingen egen app.\n\n**På PC og nettleser:**\n\n1. Klikk **Shifts** i applinjen til venstre i Teams\n2. Ser du den ikke? Velg **Vis flere apper** og finn Shifts i listen\n\n**På mobil:**\n\n1. Trykk **Shifts** i applinjen nederst i Teams-appen\n2. Ser du den ikke? Sveip opp fra applinjen for å se flere apper\n\nHøyreklikk på Shifts og velg **Fest** for å beholde den synlig i menyen — særlig nyttig hvis du bruker Shifts daglig."
+          },
+          {
+            "tittel": "Som ansatt — vis vaktene dine",
+            "innhold": "I Shifts ser du både dine egne vakter og hele teamets plan.\n\n- **Mine vakter** — viser kun det du selv står oppført på\n- **Gruppeplan** — viser alle på teamet, slik at du ser hvem du jobber sammen med\n- **Tilgjengelighet** — her angir du hvilke dager og tider du kan jobbe\n\nKalendervisningen kan filtreres på dag, uke eller måned. Trykk på en vakt for å se detaljer som tidspunkt, lokasjon, oppgaver og notater fra leder."
+          },
+          {
+            "tittel": "Som ansatt — be om vaktbytte",
+            "innhold": "Trenger du å bytte en vakt? Det gjøres i Shifts og sendes til leder for godkjenning.\n\n**Bytte en vakt:**\n\n1. Trykk på vakten du vil bytte fra\n2. Velg **Bytt** eller **Tilby**\n3. Velg en kollega som har en vakt du heller vil ta — eller tilby vakten din til andre\n4. Send forespørsel — leder må godkjenne både byttet og kollegaens samtykke\n\n**Be om åpne vakter:** Hvis lederen har publisert ledige vakter (for eksempel ekstravakter eller åpne stillinger), kan du søke på dem direkte i Shifts.\n\n*Merknad: Fravær, ferie og timeregistrering håndteres i andre systemer — ikke i Shifts.*"
+          },
+          {
+            "tittel": "Som leder — lag og publiser en skiftplan",
+            "innhold": "Som teamleder bruker du Shifts til å lage turnusplaner for hele teamet.\n\n1. Åpne Shifts og velg riktig team\n2. Velg **Opprett ny tidsplan** og angi periode (uke, måned)\n3. Klikk på en celle i kalenderen og legg til en vakt — angi tidspunkt, lokasjon, oppgaver og eventuelle notater\n4. Gjenta for hver ansatt og hver dag\n\n**Tidsbesparende tips:**\n\n- **Importer fra Excel** — har du allerede en plan i Excel, kan den importeres direkte\n- **Kopier en tidligere uke** — bruk forrige ukes plan som mal og juster det som er nytt\n- **Bruk vaktmaler** — lagre faste vakttyper (f.eks. «Tidlig vakt», «Sen vakt», «Helgevakt») og dra dem inn i kalenderen\n\nNår planen er klar: **Publiser** den. Først da blir den synlig for de ansatte, og de får varsel."
+          },
+          {
+            "tittel": "Som leder — godkjenn vaktbytter",
+            "innhold": "Vaktbytte-forespørsler fra ansatte havner i innboksen din i Shifts.\n\n1. Åpne fanen **Forespørsler**\n2. Se gjennom liste over vaktbytter og åpne vakter\n3. Godkjenn eller avslå med kort begrunnelse\n4. Den ansatte får varsel umiddelbart\n\nVed godkjent bytte oppdateres turnusen automatisk — både for den som ga fra seg vakten og den som tok den."
+          },
+          {
+            "tittel": "Slik passer Shifts inn i Teams",
+            "innhold": "Shifts er ikke en isolert app — den henger sammen med resten av Teams.\n\n- **Chat og kanaler** — hvis du har spørsmål om en vakt, kan du chatte med kollega eller leder direkte i Teams uten å bytte app.\n- **Varsler** — alle forespørsler, godkjenninger og endringer dukker opp i Aktivitet-fanen i Teams.\n- **Mobil først** — Shifts er designet for å brukes på mobil av frontlinjearbeidere som ikke sitter ved en PC.\n\nFor mer dyptgående veiledning, se Microsofts dokumentasjon for [Shifts på support.microsoft.com](https://support.microsoft.com/nb-no/office/komme-i-gang-med-skift-5f3e30d8-1821-4904-be26-c3cd25a497d6) — hvor det også finnes egne sider for [opprettelse av tidsplaner](https://support.microsoft.com/nb-no/office/opprette-en-gruppeplan-i-skift-b3d3e7db-3c0e-4545-84dc-c5379c977ed0), [publisering](https://support.microsoft.com/nb-no/office/publiser-en-tidsplan-i-skift-257ff4a7-f70a-44a5-8a40-f7378e908eda) og [import fra Excel](https://support.microsoft.com/nb-no/office/importere-en-tidsplan-fra-excel-til-skift-cf3923e4-c5f5-457f-9c98-d344684dc0b0)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sikkerhet",
+    "tittel": "Sikkerhet",
+    "beskrivelse": "Klassifisering, etiketter og trygg deling",
+    "artikler": [
+      {
+        "id": "folsomhetsetiketter",
+        "tittel": "Følsomhetsetiketter — slik klassifiserer du innhold",
+        "ingress": "Følsomhetsetiketter forteller M365 hvor sensitivt et dokument er — og styrer automatisk hvordan det kan deles, lastes ned og merkes.",
+        "kategori": "sikkerhet",
+        "tags": [
+          "følsomhetsetiketter",
+          "etikettering",
+          "klassifisering",
+          "sikkerhet",
+          "deling",
+          "policyer"
+        ],
+        "steg": [
+          {
+            "tittel": "Hva er en følsomhetsetikett?",
+            "innhold": "En **følsomhetsetikett** er en merkelapp du setter på et dokument, en e-post, en møteinvitasjon eller et team. Etiketten forteller M365 hvor sensitivt innholdet er — og hvilke regler som skal gjelde for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n- **Åpent** — kan deles fritt\n- **Internt** — kun for ansatte\n- **Sensitivt** — kun for utvalgte mottakere\n- **Ekstra sensitivt** — kryptert, kun navngitte personer\n\nEtikettene er definert av IT-avdelingen og gjelder på tvers av Word, Excel, PowerPoint, Outlook, Teams og SharePoint."
+          },
+          {
+            "tittel": "Slik klassifiserer du et dokument",
+            "innhold": "I Word, Excel og PowerPoint:\n\n1. Klikk **Følsomhet** i båndmenyen øverst (eller i statuslinjen nederst)\n2. Velg riktig etikett fra listen\n3. Etiketten lagres med dokumentet — også når det deles eller flyttes\n\nI Outlook setter du etiketten på e-posten **før du sender**. I Teams kan etiketten settes på selve teamet ved opprettelse — det styrer da deling, gjestetilgang og hvor filer kan lagres.\n\nHvis du ikke ser noen etiketter, er de ikke aktivert for kontoen din ennå. Ta kontakt med IT."
+          },
+          {
+            "tittel": "Hva etiketten styrer",
+            "innhold": "Følsomhetsetiketter er ikke bare en merkelapp — de aktiverer automatiske kontroller:\n\n- **Tilgang** — hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n- **Kryptering** — innholdet låses og kan kun leses av de med riktig nøkkel\n- **Vannmerker** — tekstmerking på utskrift og skjerm («Sensitivt — [navn]»)\n- **Nedlastingsregler** — om dokumentet kan lastes ned eller bare leses i nettleseren\n- **Topptekst og bunntekst** — automatisk innsetting av klassifiseringsmerking\n- **Eksterne grenser** — om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske alle reglene. Etiketten gjør det rette automatisk."
+          },
+          {
+            "tittel": "DLP-regler — beskyttelse mot uintendert deling",
+            "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (f.eks. fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n- Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n- Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n- Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt — du møter dem i hverdagen som varsler eller hindringer når noe ikke skal skje. De er en sikkerhetsmekanisme, ikke en mistillit til deg."
+          },
+          {
+            "tittel": "Klassifiser før du deler",
+            "innhold": "Som regel: **klassifiser dokumentet før du deler det**.\n\nHvis du oppretter et nytt dokument, sett etiketten med en gang — det er enklere å huske, og hindrer at sensitiv informasjon havner på avveie i mellomtiden.\n\nHvis du arver et dokument uten etikett, vurder hva det inneholder før du videresender. Den enkleste regelen: **er du i tvil, velg en strengere etikett**. Det er lettere å løsne på senere enn å trekke tilbake noe som er lekket."
           }
         ]
       }
