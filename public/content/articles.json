@@ -943,5 +943,88 @@
         ]
       }
     ]
+  },
+  {
+    "id": "viva-learning",
+    "tittel": "Viva Learning",
+    "beskrivelse": "Intern opplæring publisert via SharePoint",
+    "artikler": [
+      {
+        "id": "opplaering-sharepoint-viva-learning",
+        "tittel": "Lag opplæring med SharePoint og Viva Learning",
+        "ingress": "Bruk SharePoint som innholdskilde for Viva Learning, så ansatte finner organisasjonens egne kurs, rutiner og videoer direkte i Teams.",
+        "kategori": "viva-learning",
+        "tags": [
+          "viva learning",
+          "sharepoint",
+          "opplæring",
+          "kurs",
+          "intern",
+          "finnbarhet"
+        ],
+        "steg": [
+          {
+            "tittel": "Hvorfor SharePoint som innholdskilde?",
+            "innhold": "Viva Learning er læringsflaten i Teams. Når dere kobler den til **SharePoint**, blir organisasjonens egne dokumenter, videoer og lenker tilgjengelige for ansatte i samme grensesnitt som de allerede jobber i.\n\nFordelen: Dere bruker plattformen dere allerede har — ingen ekstra portal, ingen separate brukerkontoer. Innholdet ligger i SharePoint, tilgangen styres av M365-grupper, og finnbarheten kommer fra metadata."
+          },
+          {
+            "tittel": "Slik henger det sammen",
+            "innhold": "Innholdet flyter slik fra SharePoint til Viva Learning:\n\n1. Innhold legges i mapper i SharePoint\n2. Mappe-URL-er legges inn i en sentralisert SharePoint-liste (**Learning App Content Repository**)\n3. Viva Learning leser metadata fra mappene\n4. Innholdet vises som læringsressurser i Teams-grensesnittet\n\nViva Learning støtter Word, PowerPoint, Excel, PDF, lyd (.m4a, .mp3), video (.mov, .mp4, .avi) og lenker til eksterne sider.",
+            "bilde": {
+              "src": "articles/viva-learning-sharepoint/01-dataflow.png",
+              "alt": "Diagram som viser hvordan innhold flyter fra SharePoint-mapper til Viva Learning via en sentral SharePoint-liste.",
+              "bildetekst": "Innholdsflyten fra SharePoint-mapper, via Learning App Content Repository, og inn i Viva Learning.",
+              "kreditering": "Kilde: Microsoft Learn — Viva Learning-dokumentasjonen."
+            }
+          },
+          {
+            "tittel": "Forutsetninger",
+            "innhold": "For å sette opp SharePoint som innholdskilde trenger dere:\n\n- En **kunnskapsadministrator** (knowledge admin) — Microsoft Entra-rollen som administrerer organisasjonens læringskilder\n- En **SharePoint-administrator** eller **global administrator** — for å konfigurere SharePoint som kilde\n- Et **SharePoint-nettsted** der den sentrale listen kan opprettes (kommunikasjonsnettsted anbefales)\n- **M365-grupper** eller **e-postaktiverte sikkerhetsgrupper** for tilgangsstyring (brukerbaserte rettigheter støttes ikke)\n\nE5-lisensen som hele organisasjonen har, dekker grunnleggende Viva Learning. For mer enn 1 000 filer eller premium-funksjoner kreves Viva Suite eller egen Viva Learning-lisens."
+          },
+          {
+            "tittel": "Steg 1 — Konfigurer SharePoint som kilde",
+            "innhold": "Kunnskapsadministratoren gjør oppsettet i Viva Learning:\n\n1. Åpne **Viva Learning** i Teams (eller via webappen)\n2. Gå til **Admin** → **Manage Providers**\n3. Velg **Add Provider** → **SharePoint** → **Next**\n4. Lim inn URL-en til SharePoint-nettstedet der den sentrale listen skal ligge\n5. Oppdater visningsnavnet — det er organisasjonens navn som standard\n\nEtter et øyeblikk opprettes en SharePoint-liste kalt **Learning App Content Repository** automatisk på det angitte nettstedet. Det er her dere registrerer hvilke mapper som inneholder læringsinnhold."
+          },
+          {
+            "tittel": "Steg 2 — Lag mappe med opplæringsinnhold",
+            "innhold": "Innholdseiere oppretter mapper i SharePoint og fyller dem med læringsmateriale:\n\n1. Gå til **Dokumenter**-biblioteket på SharePoint-nettstedet\n2. Velg **+ Ny** → **Mappe**, gi mappen et navn og opprett\n3. Last opp filer som skal bli læringsinnhold (Word, PowerPoint, PDF, video)\n4. Sett **M365-gruppe-tilgang** på mappen — bare ansatte i gruppen vil se innholdet i Viva Learning\n5. Høyreklikk mappen og velg **Kopier kobling** for å hente URL-en\n\n**Lenker til eksterne ressurser** (f.eks. YouTube, Vimeo eller andre nettkurs) legges også inn i mappen som **Ny → Kobling**.",
+            "bilde": {
+              "src": "articles/viva-learning-sharepoint/04-add-link.png",
+              "alt": "Skjermbilde av SharePoint-dokumentbibliotek der menyvalget for å legge til en kobling er valgt.",
+              "bildetekst": "Legg til eksterne lenker (videoer eller nettkurs) ved å velge Ny → Kobling i SharePoint-mappen.",
+              "kreditering": "Kilde: Microsoft Learn — Viva Learning-dokumentasjonen."
+            }
+          },
+          {
+            "tittel": "Steg 3 — Legg mappe-URL-en inn i Learning App Content Repository",
+            "innhold": "Når mappen er klar, registrerer kunnskapsadministratoren den i den sentrale listen:\n\n1. Gå til SharePoint-nettstedet → **Områdeinnhold** → **Learning App Content Repository**\n2. Klikk **Ny** for å åpne et innleggspanel\n3. Fyll inn **Tittel** (et beskrivende navn på mappen)\n4. Lim inn URL-en i **Folder URL**-feltet\n5. Klikk **Lagre**\n\nGjenta for hver mappe organisasjonen vil eksponere som læringsinnhold. Innenfor 24 timer er innholdet søkbart i Viva Learning.",
+            "bilde": {
+              "src": "articles/viva-learning-sharepoint/02-add-folder.png",
+              "alt": "Skjermbilde av Ny-elementpanelet i Learning App Content Repository med feltene Tittel og Folder URL.",
+              "bildetekst": "Innleggspanelet for å legge til en ny læringsmappe i den sentrale listen.",
+              "kreditering": "Kilde: Microsoft Learn — Viva Learning-dokumentasjonen."
+            }
+          },
+          {
+            "tittel": "Steg 4 — Berik med metadata for bedre finnbarhet",
+            "innhold": "Standardmetadata som tittel, opprettet av og endret-dato hentes automatisk. For bedre søk og oppdaging bør innholdseier legge til disse kolonnene i mappen:\n\n- **ContentDescription** (Flere linjer tekst) — kort beskrivelse av innholdet\n- **ContentTitle** (Flere linjer tekst) — visningstittel som overstyrer filnavnet\n- **ContentDuration** (Tall) — varighet i sekunder\n- **ContentLanguage** (Én linje med tekst) — ISO-språkkode (nb_no, en_us)\n- **ContentAuthor** (Flere linjer tekst) — forfatter eller fagansvarlig\n- **SkillTags** (Administrerte metadata) — emneord fra Term Store, flere verdier tillatt\n- **ThumbnailWebUrl** (Hyperkobling) — bilde som vises i Viva Learning (16:9 anbefales)\n\n*Viktig: kolonnenavnene må være eksakt som listet over for at metadataen skal vises i Viva Learning.*",
+            "bilde": {
+              "src": "articles/viva-learning-sharepoint/07-add-column.png",
+              "alt": "Skjermbilde av en SharePoint-mappe der menyvalget Legg til kolonne er valgt.",
+              "bildetekst": "Metadata-kolonner legges til i mappen via Legg til kolonne i dokumentbiblioteket.",
+              "kreditering": "Kilde: Microsoft Learn — Viva Learning-dokumentasjonen."
+            }
+          },
+          {
+            "tittel": "Utvid med andre opplæringskilder",
+            "innhold": "Viva Learning kan kobles til flere innholdskilder samtidig — ikke bare SharePoint:\n\n- **Microsoft Learn** og **LinkedIn Learning** — utvalgte kurs er inkludert\n- **Eksterne LMS-er** som Coursera, Pluralsight, Skillsoft, Cornerstone, EdCast, Go1, Saba og SuccessFactors\n- **Egne integrasjoner** via Microsoft Graph (Employee Learning API) for andre opplæringssystemer\n\nKunnskapsadministratoren legger til hver kilde via **Add Provider** i Viva Learning-admin. Innhold fra alle kilder vises i samme søk og kan filtreres på leverandør.\n\nVurder hvilke kilder som er aktuelle for organisasjonen, og hvilken lisens som kreves — noen LMS-integrasjoner krever Viva Suite eller egen Viva Learning-lisens."
+          },
+          {
+            "tittel": "Steg 5 — Slik finner ansatte innholdet i Teams",
+            "innhold": "Når innholdet er ingestert (innen 24 timer), kan ansatte:\n\n- Åpne **Viva Learning** i venstremenyen i Teams\n- Søke etter emne, tittel eller stikkord\n- Filtrere på språk, kilde, varighet eller emne (SkillTags)\n- Markere kurs som ferdig, lagre til senere eller dele med kolleger\n\nFor en fokusert opplevelse i en bestemt kanal: Legg Viva Learning til som **fane** i kanalen. Klikk **+** på fanelinja, søk opp **Viva Learning**, og velg en samling kurs som skal vises.\n\nResultatet: Hele teamet ser samme læringsmateriell på samme sted — i flyten der det daglige arbeidet skjer."
+          }
+        ]
+      }
+    ]
   }
 ]

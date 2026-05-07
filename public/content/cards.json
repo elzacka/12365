@@ -176,9 +176,9 @@
   },
   {
     "navn": "Viva Learning",
-    "tagline": "Læring i Teams",
-    "alene": "Læringsplattform i Teams med M365-bibliotek og 125 utvalgte LinkedIn Learning-kurs. Søk, del og diskuter kurs med kolleger.",
-    "sammen": "Legg til som fane i Teams-kanaler — hele teamet kan se og diskutere samme kurs. Egne kurs publiseres via SharePoint.",
+    "tagline": "Intern opplæring i Teams",
+    "alene": "Plattform der organisasjonen samler sine egne opplæringsressurser — rutiner, retningslinjer, prosesser og videoer — og gjør dem finnbare for ansatte direkte i Teams.",
+    "sammen": "Innholdet hentes inn fra SharePoint-biblioteker som organisasjonen selv kuraterer. Legg Viva Learning til som fane i Teams-kanaler så hele teamet kan se og diskutere samme opplæringsmateriale.",
     "fotnote": ""
   },
   {
