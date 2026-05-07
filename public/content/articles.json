@@ -933,7 +933,7 @@
             "innhold": "Følsomhetsetiketter er ikke bare en merkelapp — de aktiverer automatiske kontroller:\n\n- **Tilgang** — hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n- **Kryptering** — innholdet låses og kan kun leses av de med riktig nøkkel\n- **Vannmerker** — tekstmerking på utskrift og skjerm («Sensitivt — [navn]»)\n- **Nedlastingsregler** — om dokumentet kan lastes ned eller bare leses i nettleseren\n- **Topptekst og bunntekst** — automatisk innsetting av klassifiseringsmerking\n- **Eksterne grenser** — om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske alle reglene. Etiketten gjør det rette automatisk."
           },
           {
-            "tittel": "DLP-regler — beskyttelse mot uintendert deling",
+            "tittel": "DLP-regler — beskyttelse mot utilsiktet deling",
             "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (f.eks. fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n- Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n- Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n- Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt — du møter dem i hverdagen som varsler eller hindringer når noe ikke skal skje. De er en sikkerhetsmekanisme, ikke en mistillit til deg."
           },
           {
