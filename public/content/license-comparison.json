@@ -103,7 +103,7 @@
         { "navn": "Ressurspostbokser", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Postbokser knyttet til møterom, utstyr og delte ressurser for booking." },
         { "navn": "Inaktive postbokser", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Bevart innhold etter at en bruker er fjernet, for compliance og oppslag." },
         { "navn": "Microsoft Shifts", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Vaktplanlegging og bytteforespørsler for skiftarbeidere — direkte i Teams." },
-        { "navn": "Microsoft Bookings", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Selvbetjent møtebooking for kunder eller borgere mot ledige tider i kalenderen." }
+        { "navn": "Microsoft Bookings", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Selvbetjent møtebooking for kunder eller innbyggere mot ledige tider i kalenderen." }
       ]
     },
     {

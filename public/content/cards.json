@@ -9,7 +9,7 @@
   {
     "navn": "Bookings",
     "tagline": "Selvbetjent avtalebooking",
-    "alene": "La kunder, borgere eller kolleger bestille tider mot ledige slotter i kalenderen — automatisk med påminnelser og bekreftelser.",
+    "alene": "La kunder, innbyggere eller kolleger bestille tider mot ledige slotter i kalenderen — automatisk med påminnelser og bekreftelser.",
     "sammen": "Synkroniseres med Outlook-kalenderen. Møtelinker for Teams opprettes automatisk og deltakere får bekreftelse på e-post.",
     "fotnote": ""
   },
@@ -67,13 +67,13 @@
     "tagline": "Ditt personlige hjemmeområde",
     "alene": "Personlig lagring i skyen — for kladder, utkast og filer som ikke er klare for deling. Synkroniseres på tvers av enheter.",
     "sammen": "Del filer som lenker — i Outlook, Teams og Word — fremfor vedlegg på e-post.",
-    "fotnote": ""
+    "fotnote": "OneDrive er for ditt eget arbeid. Skal flere bruke filen jevnlig, hører den hjemme i en Teams-kanal — ikke som langvarig OneDrive-deling. Når en eier slutter, forsvinner tilgangen."
   },
   {
     "navn": "OneNote",
-    "tagline": "Organiserte notater og kunnskapsbase",
-    "alene": "Digital notatbok for kunnskapsbanker og varig dokumentasjon — organisert i inndelinger og sider. For møtenotater som redigeres løpende, bruk Loop.",
-    "sammen": "Deles som fane i Teams så hele prosjektgruppen får en felles «hukommelse» — best for referansestoff som ikke endres ofte.",
+    "tagline": "Strukturerte notater og skisser",
+    "alene": "Digital notatbok med inndelinger og sider — kombiner tekst, tegninger og frihåndsskisser fritt på samme side. Egnet for egne arbeidsnotater, opplæringsnotater og skisser med penn eller mus.",
+    "sammen": "Del en notatbok som fane i Teams når flere skal jobbe i samme materiale. For løpende møtenotater og referater, bruk Loop-side i møtet.",
     "fotnote": ""
   },
   {
