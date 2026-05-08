@@ -23,7 +23,7 @@
   {
     "navn": "Copilot Chat",
     "tagline": "KI-chat",
-    "alene": "Hverdagens KI-assistent. Spør, få utkast, oppsummeringer og forklaringer. **Nett-modus** søker på internett. **Jobb-modus** søker i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler.",
+    "alene": "Hverdagens KI-assistent. Spør, få utkast, oppsummeringer og forklaringer. Nett-modus søker på internett. Jobb-modus søker i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler.",
     "sammen": "Last opp en fil og still spørsmål, lim inn tekst for omskriving til klarspråk, eller bryne deg på et fagspørsmål.",
     "fotnote": ""
   },
@@ -31,14 +31,14 @@
     "navn": "Edge",
     "tagline": "Nettleser for arbeidshverdagen",
     "alene": "Innebygd Copilot Chat, samlinger og PDF-redigering.",
-    "sammen": "Når du er logget inn med jobb-konto i Windows, får du automatisk pålogging i Edge med arbeidsprofil. Bruk Edge for apper som ikke har Teams-versjon, som **Visio for nett** og SharePoint-administrasjon.",
+    "sammen": "Når du er logget inn med jobb-konto i Windows, får du automatisk pålogging i Edge med arbeidsprofil. Bruk Edge for apper som ikke har Teams-versjon, som Visio for nett og SharePoint-administrasjon.",
     "fotnote": ""
   },
   {
     "navn": "Excel",
     "tagline": "Regneark, formler og analyser",
     "alene": "Beregn, modeller og analyser med pivot og formler.",
-    "sammen": "Tar imot svar fra **Forms** og data fra **Lists**, og leverer videre til **Power BI** for visualisering. Skal flere samarbeide om en liste — bruk **Lists**.",
+    "sammen": "Tar imot svar fra Forms og data fra Lists, og leverer videre til Power BI for visualisering. Skal flere samarbeide om en liste — bruk Lists.",
     "fotnote": ""
   },
   {
@@ -59,7 +59,7 @@
     "navn": "Loop",
     "tagline": "Levende data på tvers",
     "alene": "Sanntidssamarbeid på tvers av apper — møtenotater, idémyldring og tabeller som forblir synkronisert.",
-    "sammen": "**Loop**-komponenter limes inn i **Teams**-chat, e-post eller **Word** — innholdet er oppdatert overalt når noen gjør en endring.",
+    "sammen": "Loop-komponenter limes inn i Teams-chat, e-post eller Word — innholdet er oppdatert overalt når noen gjør en endring.",
     "fotnote": ""
   },
   {
@@ -93,7 +93,7 @@
   {
     "navn": "Power Apps",
     "tagline": "Bygg apper med lavkode",
-    "alene": "Lavkode-plattform for å bygge interne apper — for eksempel timeregistrering eller utstyrsbestilling — direkte i **Teams**.",
+    "alene": "Lavkode-plattform for å bygge interne apper — for eksempel timeregistrering eller utstyrsbestilling — direkte i Teams.",
     "sammen": "Bruker organisasjonens egne data fra Lists eller SharePoint for å løse spesifikke oppgaver.",
     "fotnote": ""
   },
@@ -114,14 +114,14 @@
   {
     "navn": "PowerPoint",
     "tagline": "Presentasjoner med struktur og visuell støtte",
-    "alene": "Klassisk presentasjonsverktøy med **Designer** som foreslår layout, **Speaker Coach** som gir tilbakemelding på fremføring, og samtidig redigering med kommentering.",
+    "alene": "Klassisk presentasjonsverktøy med Designer som foreslår layout, Speaker Coach som gir tilbakemelding på fremføring, og samtidig redigering med kommentering.",
     "sammen": "Lagre i SharePoint eller OneDrive — del lenken og presenter direkte i Teams-møter.",
     "fotnote": ""
   },
   {
     "navn": "SharePoint",
     "tagline": "Fellesområde og publiseringsplattform",
-    "alene": "Motoren bak fildelingen i **Teams** — og plattform for nettsider, strukturert informasjon og samarbeid på tvers.",
+    "alene": "Motoren bak fildelingen i Teams — og plattform for nettsider, strukturert informasjon og samarbeid på tvers.",
     "sammen": "Sørger for versjonskontroll og sporbarhet — alle har tilgang til siste versjon, og endringer kan etterprøves.",
     "fotnote": ""
   },
@@ -177,7 +177,7 @@
   {
     "navn": "Viva Learning",
     "tagline": "Intern opplæring i Teams",
-    "alene": "Plattform der organisasjonen samler egne opplæringsressurser — rutiner, retningslinjer, prosesser og videoer — og gjør dem finnbare for ansatte direkte i **Teams**.",
+    "alene": "Plattform der organisasjonen samler egne opplæringsressurser — rutiner, retningslinjer, prosesser og videoer — og gjør dem finnbare for ansatte direkte i Teams.",
     "sammen": "Innholdet hentes inn fra SharePoint-biblioteker som organisasjonen selv kuraterer. Legg Viva Learning til som fane i Teams-kanaler så hele teamet kan se og diskutere samme opplæringsmateriale.",
     "fotnote": ""
   },
