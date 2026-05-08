@@ -1,10 +1,10 @@
 # 12365 — Microsoft 365 på 1-2-3
 
-🥸 Til deg som har forvilla deg hit: Hei!
+Til deg som har forvilla deg hit: Hei!
 
 Jeg har laget appen **12365** for å sette turbo på:
 
-- min egen **læring og modning** i digitalisering
+- min egen **læring og modning** i Microsoft 365-universet
 - min evne til å **lære andre**
 - **utfasing av dokumentfiler** så langt som mulig — fordi digitalisering (og ikke minst KI) blir mindre dyrt, tidkrevende og vanskelig i en datadrevet organisasjon
 
@@ -22,8 +22,8 @@ En "PWA" (Progressive Web App) er en nettside som bruker moderne webteknologi fo
 
 ### Tre hovedseksjoner
 
-- **Om appene** — flip-card-oversikt over 29 M365-apper
-- **Slik gjør du** — steg-for-steg-veiledninger sortert under kategorier
+- **Om appene** — flip-card-oversikt over 29 M365-apper, med Microsofts oktober-2025 Fluid-ikoner
+- **Slik gjør du** — steg-for-steg-veiledninger fordelt på 11 kategorier (Kom i gang, På tvers, Copilot, Lists, Outlook, Planner, SharePoint, Teams, Shifts, Viva Learning, Sikkerhet)
 - **E3 vs E5 + ekstra** — komplett oversikt over 189 lisensfunksjoner i 27 kategorier, basert på Microsofts Modern Work Plan Comparison Enterprise (mai 2026)
 
 ### Innholdsoppdateringer
