@@ -175,7 +175,7 @@
         "steg": [
           {
             "tittel": "Problemet med Word-filer som arbeidsverktøy",
-            "innhold": "En Word-fil lagret i SharePoint er bedre enn en fil på et USB-minne — men det er fremdeles en fil. Den er statisk, mangler metadata, og passer dårlig som levende referanse — selv om Copilot kan lese innholdet.\n\nSpørsmålet er ikke «Word eller ikke Word» — spørsmålet er: **trenger dette å være et dokument, eller er det egentlig arbeidsinnhold som lever og endres?**"
+            "innhold": "En Word-fil lagret i SharePoint er bedre enn et Word-vedlegg som sirkulerer på e-post — men det er fremdeles en fil. Den er statisk, mangler metadata, og passer dårlig som levende referanse — selv om Copilot kan lese innholdet.\n\nSpørsmålet er ikke «Word eller ikke Word» — spørsmålet er: **trenger dette å være et dokument, eller er det egentlig arbeidsinnhold som lever og endres?**"
           },
           {
             "tittel": "Bruk Loop når innholdet er levende",
