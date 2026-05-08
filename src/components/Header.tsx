@@ -41,10 +41,16 @@ export function Header({ tittel, visHjem = false, visTilbake = false, tilbakeTil
           ) : (
             <Link
               to="/"
-              className="text-brand-700 font-bold text-lg tracking-tight"
+              className="flex items-center justify-center"
               aria-label="12365 — til forsiden"
             >
-              12365
+              <img
+                src={`${import.meta.env.BASE_URL}logo-header.png`}
+                alt="12365"
+                className="h-10 w-auto"
+                width={40}
+                height={40}
+              />
             </Link>
           )}
         </div>

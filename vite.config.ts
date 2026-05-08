@@ -50,7 +50,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'prompt',
       injectRegister: false,
-      includeAssets: ['favicon.svg', 'icons/*.png'],
+      includeAssets: ['favicon.png', 'icons/*.png'],
       manifest: {
         id: base,
         name: '12365 — Microsoft 365 på 1-2-3',
