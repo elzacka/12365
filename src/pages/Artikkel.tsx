@@ -1,7 +1,9 @@
 import { useState, use } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { hentArtikler } from '../data/loader'
-import { ChevronLeftIcon, ChevronRightIcon } from '../components/Icons'
+import { ChevronLeftIcon, ChevronRightIcon, ZoomInIcon } from '../components/Icons'
+import { ImageLightbox } from '../components/ImageLightbox'
+import type { ArticleImage } from '../types'
 
 // Enkel markdown-til-JSX for fet tekst, kursiv og linjeskift
 function parseInnhold(tekst: string) {
@@ -30,6 +32,7 @@ export function Artikkel() {
   const ARTICLE_CATEGORIES = use(hentArtikler())
   const { kategoriId, artikkelId } = useParams()
   const [aktivtSteg, setAktivtSteg] = useState(0)
+  const [apentBilde, setApentBilde] = useState<ArticleImage | null>(null)
 
   const kategori = ARTICLE_CATEGORIES.find(k => k.id === kategoriId)
   const artikkel = kategori?.artikler.find(a => a.id === artikkelId)
@@ -123,13 +126,26 @@ export function Artikkel() {
             </p>
             {steg.bilde && (
               <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">
-                <img
-                  src={`${import.meta.env.BASE_URL}${steg.bilde.src}`}
-                  alt={steg.bilde.alt}
-                  loading="lazy"
-                  decoding="async"
-                  className="w-full h-auto block"
-                />
+                <button
+                  type="button"
+                  onClick={() => setApentBilde(steg.bilde!)}
+                  aria-label={`Åpne bildet i fullskjerm: ${steg.bilde.alt}`}
+                  className="group relative block w-full cursor-zoom-in focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-700"
+                >
+                  <img
+                    src={`${import.meta.env.BASE_URL}${steg.bilde.src}`}
+                    alt={steg.bilde.alt}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-auto block transition-opacity group-hover:opacity-95"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="absolute top-2 right-2 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900/70 text-white opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity"
+                  >
+                    <ZoomInIcon size={16} />
+                  </span>
+                </button>
                 <figcaption className="px-3 py-2 text-xs text-slate-600 leading-snug">
                   {steg.bilde.bildetekst}
                   <span className="block text-[11px] text-slate-400 mt-1">{steg.bilde.kreditering}</span>
@@ -209,6 +225,7 @@ export function Artikkel() {
           </div>
         )}
       </main>
+      <ImageLightbox bilde={apentBilde} onClose={() => setApentBilde(null)} />
     </div>
   )
 }
