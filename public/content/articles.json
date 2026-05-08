@@ -39,7 +39,7 @@
           },
           {
             "tittel": "Tips for å slette unødige e-poster",
-            "innhold": "Konkrete grep som gir stor effekt:\n\n1. **Start i Sendte elementer** — gjerne med de eldste e-postene først\n2. **Sorter etter størrelse** (størst til minst) — store e-poster og vedlegg tar mest plass\n3. **Søk på avsender** — skriv f.eks. *Fra: nyhetsbrev@* for å finne alle nyhetsbrev fra én kilde, og slett dem samlet\n4. **Slett e-posten hvis ett eller flere av disse gjelder:**\n   - Den er allerede journalført eller arkivert i sak- og arkivsystem\n   - Du ikke trenger å arkivere den\n   - Den er utdatert eller erstattet av nyere versjon\n   - Den er privat eller ikke nødvendig for arbeidsoppgavene dine\n5. **Gjenta i innboksen** og andre relevante mapper\n6. **Sjekk størrelsen på postboksen din.** I klassisk Outlook for Windows: **Fil** → **Verktøy** → **Opprydning i e-post**. I nye Outlook eller Outlook på web: **Innstillinger** → **Generelt** → **Lagring**\n\nSlett også autogenererte varsler fra Teams og arkivsystem, nyhetsbrev, markedsføring og reklame-e-post."
+            "innhold": "Konkrete grep som gir stor effekt:\n\n1. **Start i Sendte elementer** — gjerne med de eldste e-postene først\n2. **Sorter etter størrelse** (størst til minst) — store e-poster og vedlegg tar mest plass\n3. **Søk på avsender** — skriv f.eks. *Fra: nyhetsbrev@* for å finne alle nyhetsbrev fra én kilde, og slett dem samlet\n4. **Slett e-posten hvis ett eller flere av disse gjelder:**\n   - Den er allerede journalført eller arkivert i sak- og arkivsystem\n   - Du ikke trenger å arkivere den\n   - Den er utdatert eller erstattet av nyere versjon\n   - Den er privat eller ikke nødvendig for arbeidsoppgavene dine\n5. **Gjenta i innboksen** og andre relevante mapper\n6. **Sjekk størrelsen på postboksen din** via **Innstillinger** → **Generelt** → **Lagring**\n\nSlett også autogenererte varsler fra Teams og arkivsystem, nyhetsbrev, markedsføring og reklame-e-post."
           },
           {
             "tittel": "Mål for fremtidig løsning",
@@ -419,7 +419,7 @@
         "steg": [
           {
             "tittel": "Slå på Fokusert innboks",
-            "innhold": "Outlook sorterer automatisk viktige e-poster under **Fokusert** og mindre viktige under **Annet**. Aktiver via **Vis** → **Fokusert innboks**.\n\nHvis meldinger havner i feil boks, høyreklikk og velg **Flytt alltid til Fokusert** eller **Flytt alltid til Annet** — Outlook lærer av det."
+            "innhold": "Outlook sorterer automatisk viktige e-poster under **Fokusert** og mindre viktige under **Annet**. Aktiver via **Vis** → **Visningsinnstillinger** → **E-post**, og slå på **Sorter meldinger i Fokusert og Annet**.\n\nHvis meldinger havner i feil boks, høyreklikk og velg **Flytt alltid til Fokusert** eller **Flytt alltid til Annet** — Outlook lærer av det."
           },
           {
             "tittel": "Bruk kategorier for å merke e-poster",
@@ -798,7 +798,7 @@
           },
           {
             "tittel": "Ta opp møtet og del transkriptet",
-            "innhold": "Klikk **Flere handlinger** → **Start opptak** for å ta opp møtet. Med deltakernes samtykke får du både video og **transkript** — søkbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. Transkriptet kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
+            "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du både video og **transkript** — søkbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. Transkriptet kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
           }
         ]
       },
