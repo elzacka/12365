@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import omAppenInnhold from '../../OM-APPEN.md?raw'
 import { Markdown } from '../lib/markdown'
 
@@ -8,6 +9,23 @@ export function OmAppen() {
         <article className="bg-white rounded-2xl border border-slate-200 shadow-sm px-5 py-6">
           <Markdown source={omAppenInnhold} />
         </article>
+
+        <nav className="mt-4 grid grid-cols-2 gap-3" aria-label="Mer informasjon">
+          <a
+            href="https://github.com/elzacka/12365"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
+          >
+            Appens kildekode
+          </a>
+          <Link
+            to="/personvern"
+            className="flex items-center justify-center px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
+          >
+            Personvern
+          </Link>
+        </nav>
       </main>
     </div>
   )

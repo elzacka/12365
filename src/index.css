@@ -35,7 +35,10 @@
   }
 
   /* iOS Safari zoomer inn når et inputfelt har font-size < 16px ved fokus.
-     Tving minimum 16px på touch-enheter slik at zoom ikke utløses. */
+     Tving minimum 16px på touch-enheter. !important er nødvendig fordi
+     Tailwind utility-klasser (text-sm = 14px) ligger i @layer utilities som
+     vinner over @layer base. Vi godtar overstyringen — målet er kun å
+     forhindre uønsket auto-zoom på iOS. */
   @supports (-webkit-touch-callout: none) {
     input[type="search"],
     input[type="text"],
@@ -46,7 +49,7 @@
     input[type="password"],
     textarea,
     select {
-      font-size: 16px;
+      font-size: 16px !important;
     }
   }
 }

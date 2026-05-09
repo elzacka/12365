@@ -6,8 +6,8 @@
     "artikler": [
       {
         "id": "rydd-for-m365",
-        "tittel": "Lett pakking — rydd før du flytter til M365",
-        "ingress": "Før du tar i bruk Microsoft 365, gjør deg selv en tjeneste: rydd i de gamle filområdene og e-posten først. Pakk kun det du faktisk trenger.",
+        "tittel": "Pakk lett — rydd før du flytter til M365",
+        "ingress": "Før du tar i bruk Microsoft 365, gjør deg selv en tjeneste: rydd i de gamle filområdene og e-posten først. Ta bare med deg det du faktisk trenger.",
         "kategori": "kom-i-gang",
         "tags": [
           "rydding",
@@ -23,7 +23,7 @@
           },
           {
             "tittel": "Pakk lett — dagstursekken som prinsipp",
-            "innhold": "Tenk på det som å pakke en dagstursekk: ta bare med det du faktisk trenger der du skal — ikke alt du eier.\n\n**Pakk lett.** Ta kun med filer som er i aktiv bruk:\n\n- Oversikter du bruker daglig\n- Møtereferater fra de siste tre månedene\n- Rapporter du skriver på akkurat nå\n- Felles maler og oppsett som faktisk brukes\n\nAlt annet har ett av tre utfall: du sletter det, du arkiverer det i sak- og arkivsystem, eller du lar det bli liggende i den gamle strukturen til den fases ut — det er ikke en parkeringsplass på ubestemt tid."
+            "innhold": "Tenk på det som å pakke en dagstursekk: ta bare med det du faktisk trenger der du skal — ikke alt du eier.\n\n**Pakk lett.** Ta bare med filer som er i aktiv bruk:\n\n- Oversikter du bruker daglig\n- Møtereferater fra de siste tre månedene\n- Rapporter du skriver på akkurat nå\n- Felles maler og oppsett som faktisk brukes\n\nAlt annet har ett av tre utfall: du sletter det, du arkiverer det i sak- og arkivsystem, eller du lar det bli liggende i den gamle strukturen til den fases ut — det er ikke en parkeringsplass på ubestemt tid."
           },
           {
             "tittel": "Filflytting til Teams i fire steg",
@@ -31,7 +31,7 @@
           },
           {
             "tittel": "Slik rydder du egne filområder",
-            "innhold": "Gjør dette på det personlige området ditt (typisk **H**-stasjonen), lokalt på maskinen og i innboksen:\n\n1. Gå gjennom egne mapper og filer\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter\n3. Lag en **dagstursekk** med kun det du trenger for å fortsette arbeidet. Samle dette i mapper med tydelige navn\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde\n5. Flytt arbeidsfiler som primært er ditt eget arbeid (utkast, notater, egne maler) til OneDrive når den blir tilgjengelig\n6. Slett dokumentene fra det gamle området når du har bekreftet at overføringen gikk riktig\n\n**OneDrive er virksomhetens område for deg som ansatt — ikke et privat område.** Slutter du, forsvinner tilgangen. Skal andre kunne finne et dokument uten deg, hører det ikke hjemme i OneDrive — bruk Teams-kanaler eller SharePoint i stedet.\n\n**Personlige områder på den gamle filserveren er typisk det første som forsvinner etter en migrering.** Innholdet må flyttes eller slettes — det blir ikke liggende trygt et sted av seg selv.\n\n**Vær oppmerksom på personopplysninger og sensitivt innhold.** Sjekk om noe er arkivverdig — i så fall: arkiver i sak- og arkivsystem. Spør leder hvis du er usikker."
+            "innhold": "Gjør dette på det personlige området ditt (typisk **H**-stasjonen), lokalt på maskinen og i innboksen:\n\n1. Gå gjennom egne mapper og filer\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter\n3. Lag en **dagstursekk** med kun det du trenger for å fortsette arbeidet. Samle dette i mapper med tydelige navn\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde\n5. Flytt arbeidsfiler som primært er ditt eget arbeid (utkast, notater, egne maler) til OneDrive når den blir tilgjengelig\n6. Slett dokumentene fra det gamle området når du har bekreftet at overføringen gikk riktig\n\n**OneDrive er organisasjonens område for deg som ansatt — ikke et privat område.** Slutter du, forsvinner tilgangen. Skal andre kunne finne et dokument uten deg, hører det ikke hjemme i OneDrive — bruk Teams-kanaler eller SharePoint i stedet.\n\n**Personlige områder på den gamle filserveren er typisk det første som forsvinner etter en migrering.** Innholdet må flyttes eller slettes — det blir ikke liggende trygt et sted av seg selv.\n\n**Vær oppmerksom på personopplysninger og sensitivt innhold.** Sjekk om noe er arkivverdig — i så fall: arkiver i sak- og arkivsystem. Spør leder hvis du er usikker."
           },
           {
             "tittel": "Slik rydder du e-posten",
@@ -148,7 +148,7 @@
           },
           {
             "tittel": "Bruk SharePoint (via Teams) til felles arbeid",
-            "innhold": "**SharePoint** er fellesarealet. Når du lagrer i en Teams-kanal, bruker du SharePoint automatisk. Her jobber alle på samme fil — ingen kopier på avveie.\n\nDu trenger ikke å tenke «nå skal jeg til SharePoint» — bare lagre i riktig Teams-kanal.\n\n*Husk: OneDrive er knyttet til deg som ansatt. Slutter du, forsvinner tilgangen. Lagre virksomhetskritisk innhold på fellesområde, ikke bare i OneDrive.*"
+            "innhold": "**SharePoint** er fellesområdet. Når du lagrer i en Teams-kanal, bruker du SharePoint automatisk. Her jobber alle på samme fil — ingen kopier på avveie.\n\nDu trenger ikke å tenke «nå skal jeg til SharePoint» — bare lagre i riktig Teams-kanal.\n\n*Husk: OneDrive er knyttet til deg som ansatt. Slutter du, forsvinner tilgangen. Lagre organisasjonskritisk innhold på fellesområde, ikke bare i OneDrive.*"
           },
           {
             "tittel": "Flytt filer til Teams når de skal deles",
@@ -609,7 +609,7 @@
           },
           {
             "tittel": "Tegn svømmebanediagrammet i Visio",
-            "innhold": "Åpne **Visio** — typisk i nettleseren via app-startprogrammet i M365. Hvis virksomheten har Visio Plan 2, finnes også en skrivebordsversjon. Velg **Tverrfunksjonelt flytskjema** og tegn prosessen med svømmebaner per rolle eller avdeling.\n\nLagre filen (.vsdx) i et dokumentbibliotek på samme SharePoint-nettsted som prosesssiden. Da er filen alltid nær siden den hører til, og endringer i diagrammet oppdateres automatisk på siden.\n\n*Merk: Visio er en nettbasert app og åpnes i Edge — dette er et av unntakene der du forlater Teams.*"
+            "innhold": "Åpne **Visio** — typisk i nettleseren via app-startprogrammet i M365. Hvis organisasjonen har Visio Plan 2, finnes også en skrivebordsversjon. Velg **Tverrfunksjonelt flytskjema** og tegn prosessen med svømmebaner per rolle eller avdeling.\n\nLagre filen (.vsdx) i et dokumentbibliotek på samme SharePoint-nettsted som prosesssiden. Da er filen alltid nær siden den hører til, og endringer i diagrammet oppdateres automatisk på siden.\n\n*Merk: Visio er en nettbasert app og åpnes i Edge — dette er et av unntakene der du forlater Teams.*"
           },
           {
             "tittel": "Bygg diagrammet inn på siden",
@@ -657,7 +657,7 @@
           },
           {
             "tittel": "Bruk kanal for teamarbeid",
-            "innhold": "**Kanaler** er åpne for hele teamet. Bruk dem for faglig innhold, prosjektoppdateringer og diskusjoner hele teamet bør ha tilgang til.\n\n*Eksempel: Prosjektkanal for årsrapport, kanal for saksbehandling.*\n\nFordelen med kanalen: samtalen er søkbar, arkivert og synlig for nye teammedlemmer — i motsetning til en chat som forsvinner i støyen."
+            "innhold": "**Kanaler** er åpne for hele teamet. Bruk dem for faglig innhold, prosjektoppdateringer og diskusjoner hele teamet bør ha tilgang til.\n\n*Eksempel: Prosjektkanal for årsrapport, kanal for saksbehandling.*\n\nFordelen med kanalen: samtalen er finnbar, arkivert og synlig for nye teammedlemmer — i motsetning til en chat som forsvinner i støyen."
           },
           {
             "tittel": "Svar alltid i tråd i kanalen",
@@ -892,7 +892,7 @@
           },
           {
             "tittel": "Arkiver eller slett — slik velger du",
-            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg:\n\n**Arkiver teamet** når:\n\n- Det kan være behov for å se på samtaler eller filer i ettertid\n- Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n- Det er regulert eller revidert arbeid med dokumentasjonskrav\n\nArkivering låser teamet — innhold er fortsatt søkbart, men ingen kan endre noe.\n\n**Slett teamet** når:\n\n- Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n- Det er åpenbart engangsarbeid uten gjenbruksverdi\n- Personvernhensyn taler for sletting\n\nHvis ingen våger å slette noe, er det et signal om at strukturen ikke har skilt godt nok mellom det viktige og det forbigående."
+            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg:\n\n**Arkiver teamet** når:\n\n- Det kan være behov for å se på samtaler eller filer i ettertid\n- Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n- Det er regulert eller revidert arbeid med dokumentasjonskrav\n\nArkivering låser teamet — innhold er fortsatt finnbart, men ingen kan endre noe.\n\n**Slett teamet** når:\n\n- Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n- Det er åpenbart engangsarbeid uten gjenbruksverdi\n- Personvernhensyn taler for sletting\n\nHvis ingen våger å slette noe, er det et signal om at strukturen ikke har skilt godt nok mellom det viktige og det forbigående."
           }
         ]
       }
@@ -965,7 +965,7 @@
         "steg": [
           {
             "tittel": "Hva er en følsomhetsetikett?",
-            "innhold": "En **følsomhetsetikett** er en merkelapp du setter på et dokument, en e-post, en møteinvitasjon eller et team. Etiketten forteller M365 hvor sensitivt innholdet er — og hvilke regler som skal gjelde for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n- **Åpent** — kan deles fritt\n- **Internt** — kun for ansatte\n- **Sensitivt** — kun for utvalgte mottakere\n- **Ekstra sensitivt** — kryptert, kun navngitte personer\n\nEtikettene er definert av IT-avdelingen og gjelder på tvers av Word, Excel, PowerPoint, Outlook, Teams og SharePoint. *Listen i din virksomhet kan ha andre navn.*"
+            "innhold": "En **følsomhetsetikett** er en merkelapp du setter på et dokument, en e-post, en møteinvitasjon eller et team. Etiketten forteller M365 hvor sensitivt innholdet er — og hvilke regler som skal gjelde for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n- **Åpent** — kan deles fritt\n- **Internt** — kun for ansatte\n- **Sensitivt** — kun for utvalgte mottakere\n- **Ekstra sensitivt** — kryptert, kun navngitte personer\n\nEtikettene er definert av IT-avdelingen og gjelder på tvers av Word, Excel, PowerPoint, Outlook, Teams og SharePoint. *Listen i din organisasjon kan ha andre navn.*"
           },
           {
             "tittel": "Slik klassifiserer du et dokument",
@@ -1040,7 +1040,7 @@
           },
           {
             "tittel": "Steg 3 — Legg mappe-URL-en inn i Learning App Content Repository",
-            "innhold": "Når mappen er klar, registrerer kunnskapsadministratoren den i den sentrale listen:\n\n1. Gå til SharePoint-nettstedet → **Områdeinnhold** → **Learning App Content Repository**\n2. Klikk **Ny** for å åpne et innleggspanel\n3. Fyll inn **Tittel** (et beskrivende navn på mappen)\n4. Lim inn URL-en i **Folder URL**-feltet\n5. Klikk **Lagre**\n\nGjenta for hver mappe organisasjonen vil eksponere som læringsinnhold. Innenfor 24 timer er innholdet søkbart i Viva Learning.",
+            "innhold": "Når mappen er klar, registrerer kunnskapsadministratoren den i den sentrale listen:\n\n1. Gå til SharePoint-nettstedet → **Områdeinnhold** → **Learning App Content Repository**\n2. Klikk **Ny** for å åpne et innleggspanel\n3. Fyll inn **Tittel** (et beskrivende navn på mappen)\n4. Lim inn URL-en i **Folder URL**-feltet\n5. Klikk **Lagre**\n\nGjenta for hver mappe organisasjonen vil eksponere som læringsinnhold. Innenfor 24 timer er innholdet finnbart i Viva Learning.",
             "bilde": {
               "src": "articles/viva-learning-sharepoint/02-add-folder.png",
               "alt": "Skjermbilde av Ny-elementpanelet i Learning App Content Repository med feltene Tittel og Folder URL.",

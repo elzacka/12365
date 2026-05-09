@@ -10,17 +10,10 @@ export function Videoer() {
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
-      <div className="bg-brand-700 text-white px-4 pt-6 pb-8">
-        <p className="text-brand-100 text-sm leading-relaxed text-center">
+      <main className="flex-1 px-4 pt-4 pb-8 max-w-2xl mx-auto w-full">
+        <p className="text-sm text-slate-500 text-center mb-4">
           Korte videoer som forklarer Microsoft 365
         </p>
-      </div>
-
-      <div className="bg-brand-700 h-5 relative">
-        <div className="absolute bottom-0 left-0 right-0 h-5 bg-slate-50 rounded-t-[1.5rem]" />
-      </div>
-
-      <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
         {videoer.length === 0 ? (
           <p className="text-center py-16 text-slate-400">Ingen videoer ennå.</p>
         ) : (

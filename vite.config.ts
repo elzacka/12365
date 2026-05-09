@@ -50,10 +50,16 @@ export default defineConfig({
     VitePWA({
       registerType: 'prompt',
       injectRegister: false,
-      includeAssets: ['favicon.png', 'icons/*.png'],
+      includeAssets: [
+        'favicon.svg',
+        'favicon-32.png',
+        'favicon-48.png',
+        'logo-header.svg',
+        'icons/*.png',
+      ],
       manifest: {
         id: base,
-        name: '12365 — Microsoft 365 på 1-2-3',
+        name: '12365 — M365 på 1-2-3',
         short_name: '12365',
         description: 'Steg-for-steg-veiledninger for hverdagsoppgaver i Microsoft 365.',
         lang: 'nb',
@@ -75,13 +81,19 @@ export default defineConfig({
             purpose: 'any',
           },
           {
+            src: `${base}icons/icon-384.png`,
+            sizes: '384x384',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
             src: `${base}icons/icon-512.png`,
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any',
           },
           {
-            src: `${base}icons/icon-512.png`,
+            src: `${base}icons/icon-maskable-512.png`,
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',

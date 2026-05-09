@@ -64,21 +64,8 @@ export function Artikkel() {
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
-      {/* Kategori-header */}
-      <div className="bg-brand-700 text-white px-4 pt-4 pb-6">
-        <Link
-          to="/slik-gjor-du"
-          className="inline-flex items-center gap-1 text-brand-200 hover:text-white text-sm mb-3 transition-colors"
-        >
-          <ChevronLeftIcon size={16} />
-          <span>{kategori.tittel}</span>
-        </Link>
-        <h1 className="text-lg font-bold leading-snug">{artikkel.tittel}</h1>
-        <p className="text-brand-100 text-sm mt-1 leading-relaxed">{artikkel.ingress}</p>
-      </div>
-
-      {/* Fremdriftslinje */}
-      <div className="h-1 bg-brand-100">
+      {/* Fremdriftslinje øverst — visuell anker uten å konkurrere om fokus */}
+      <div className="h-1 bg-slate-200">
         <div
           className="h-full bg-brand-700 transition-all duration-300"
           style={{ width: `${fremgang}%` }}
@@ -86,11 +73,24 @@ export function Artikkel() {
           aria-valuenow={aktivtSteg + 1}
           aria-valuemin={1}
           aria-valuemax={antallSteg}
-          aria-label={`Steg ${aktivtSteg + 1} av ${antallSteg}`}
+          aria-label={`Fremdrift: steg ${aktivtSteg + 1} av ${antallSteg}`}
         />
       </div>
 
       <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
+        {/* Tittel og ingress som ren innholdstekst — ingen kort, ingen
+            kant, samme bakgrunn som siden. Steg-kortet under tar over som
+            visuell hovedrolle. */}
+        <header className="pt-5 pb-1">
+          <p className="text-xs font-medium uppercase tracking-wide text-slate-400">
+            {kategori.tittel}
+          </p>
+          <h1 className="text-lg font-semibold text-slate-800 leading-snug mt-1">
+            {artikkel.tittel}
+          </h1>
+          <p className="text-sm text-slate-500 mt-1 leading-relaxed">{artikkel.ingress}</p>
+        </header>
+
         {/* Steg-oversikt (chips) */}
         <nav aria-label="Steg-oversikt" className="flex gap-2 py-4 overflow-x-auto hide-scrollbar">
           {artikkel.steg.map((_, idx) => (
