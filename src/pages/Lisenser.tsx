@@ -142,16 +142,19 @@ export function Lisenser() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-10 max-w-2xl mx-auto w-full">
-        {/* Kilde */}
-        <p className="text-center text-sm mb-3">
+        {/* Veiledning + kilde */}
+        <p className="text-center text-sm text-slate-500 mb-1">
+          Trykk for å se hva de ulike tingene brukes til
+        </p>
+        <p className="text-center text-[10px] italic mb-3">
           <a
             href={data.kildeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-brand-400 hover:text-brand-600 transition-colors"
+            className="text-slate-400 hover:text-brand-600 transition-colors"
           >
             Kilde: {data.kilde}
-            <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
+            <ExternalLinkIcon size={9} className="inline-block ml-0.5 align-[-0.125em]" />
           </a>
         </p>
 
@@ -162,7 +165,7 @@ export function Lisenser() {
           </div>
           <input
             type="search"
-            placeholder="Søk etter app, tjeneste eller funksjon. Trykk på den for å se hva den brukes til."
+            placeholder="Søk etter app, tjeneste, funksjon..."
             value={sok}
             onChange={e => setSok(e.target.value)}
             className="w-full pl-10 pr-9 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
