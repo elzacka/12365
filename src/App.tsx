@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+import { Suspense, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { Header } from './components/Header'
 import { InstallBanner } from './components/InstallBanner'
@@ -22,20 +22,26 @@ function Laster() {
 }
 
 function getHeaderProps(pathname: string) {
+  // Tilbake-pilen vises kun når den peker til et annet sted enn hovedsiden —
+  // ellers er den redundant med Hjem-knappen.
   if (pathname === '/') return { visHjem: false, visTilbake: false }
-  if (pathname === '/om-appene') return { tittel: 'Om appene', visHjem: true, visTilbake: true, tilbakeTil: '/' }
-  if (pathname === '/slik-gjor-du') return { tittel: 'Slik gjør du', visHjem: true, visTilbake: true, tilbakeTil: '/' }
+  if (pathname === '/om-appene') return { tittel: 'Om M365-appene', visHjem: true, visTilbake: false }
+  if (pathname === '/slik-gjor-du') return { tittel: 'Slik gjør du', visHjem: true, visTilbake: false }
   if (pathname.startsWith('/slik-gjor-du/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/slik-gjor-du' }
-  if (pathname === '/videoer') return { tittel: 'Videoer', visHjem: true, visTilbake: true, tilbakeTil: '/' }
+  if (pathname === '/videoer') return { tittel: 'Videoer', visHjem: true, visTilbake: false }
   if (pathname.startsWith('/videoer/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/videoer' }
-  if (pathname === '/om-appen') return { tittel: 'Om appen', visHjem: true, visTilbake: true, tilbakeTil: '/' }
+  if (pathname === '/om-appen') return { tittel: 'Om appen', visHjem: true, visTilbake: false }
   if (pathname === '/personvern') return { tittel: 'Personvern', visHjem: true, visTilbake: true, tilbakeTil: '/om-appen' }
-  if (pathname === '/lisenser') return { tittel: 'E3 vs E5 + ekstra', visHjem: true, visTilbake: true, tilbakeTil: '/' }
-  return { visHjem: true, visTilbake: true }
+  if (pathname === '/lisenser') return { tittel: 'Totaloversikt - M365', visHjem: true, visTilbake: false }
+  return { visHjem: true, visTilbake: false }
 }
 
 function AppRoutes() {
   const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+  }, [pathname])
 
   return (
     <div className="min-h-svh flex flex-col">

@@ -1,4 +1,4 @@
-# 12365 — Microsoft 365 på 1-2-3
+# 12365 — M365 på 1-2-3
 
 Til deg som har forvilla deg hit: Hei!
 
@@ -22,9 +22,9 @@ En "PWA" (Progressive Web App) er en nettside som bruker moderne webteknologi fo
 
 ### Tre hovedseksjoner
 
-- **Om appene** — flip-card-oversikt over 29 M365-apper, med Microsofts oktober-2025 Fluid-ikoner
+- **Om M365-appene** — flip-card-oversikt over 29 M365-apper, med Microsofts oktober-2025 Fluid-ikoner
 - **Slik gjør du** — steg-for-steg-veiledninger fordelt på 11 kategorier (Kom i gang, På tvers, Copilot, Lists, Outlook, Planner, SharePoint, Teams, Shifts, Viva Learning, Sikkerhet)
-- **E3 vs E5 + ekstra** — komplett oversikt over 189 lisensfunksjoner i 27 kategorier, basert på Microsofts Modern Work Plan Comparison Enterprise (mai 2026)
+- **Totaloversikt - M365** — komplett oversikt over alle apper, tjenester og funksjoner i E3 og E5-planen (189 innslag i 27 kategorier under 3 tema), basert på Microsofts Modern Work Plan Comparison Enterprise (mai 2026)
 
 ### Innholdsoppdateringer
 
@@ -83,7 +83,7 @@ src/
     Artikkel.tsx   — Steg-for-steg artikkelvisning
     Videoer.tsx    — Videooversikt
     Video.tsx      — Videoavspilling
-    Lisenser.tsx   — E3 vs E5 + ekstra lisensoversikt
+    Lisenser.tsx   — Totaloversikt - M365 (apper, tjenester og funksjoner per lisens)
     OmAppen.tsx    — Om appen (renderer OM-APPEN.md)
     Personvern.tsx — Personvernerklæring (renderer PERSONVERN.md)
 public/

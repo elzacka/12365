@@ -11,8 +11,4 @@ Appen inneholder blant annet:
 Innholdet er basert på åpent tilgjengelig informasjon, blant annet fra Microsoft Norge. Komprimert og filtrert gjennom mine og Claude-agentenes briller (AI). Derfor: Tenk supplement, ikke fasit.
 
 Jeg luker ut eventuelle feil etterhvert som jeg får testet ting i praksis.
-  
-
-[Åpen kildekode – GitHub](https://github.com/elzacka/12365)
-[Personvern](/personvern)
 

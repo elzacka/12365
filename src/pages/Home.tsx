@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { GridIcon, BookOpenIcon, VideoIcon, InfoIcon, LayersIcon } from '../components/Icons'
+import { GridIcon, BookOpenIcon, LayersIcon } from '../components/Icons'
 
 interface NavKortProps {
   til: string
@@ -33,12 +33,12 @@ function NavKort({ til, ikon, tittel, beskrivelse, farge }: NavKortProps) {
 export function Home() {
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-10 pb-8">
-      <h1 className="sr-only">12365 — Microsoft 365 på 1-2-3</h1>
+      <h1 className="sr-only">12365 — M365 på 1-2-3</h1>
       <div className="max-w-lg mx-auto space-y-4">
         <NavKort
           til="/om-appene"
           ikon={<GridIcon size={30} />}
-          tittel="Om appene"
+          tittel="Om M365-appene"
           beskrivelse="Hva gjør hver app — og hvordan henger de sammen?"
           farge="bg-brand-700"
         />
@@ -52,28 +52,26 @@ export function Home() {
         <NavKort
           til="/lisenser"
           ikon={<LayersIcon size={30} />}
-          tittel="E3 vs E5 + ekstra"
-          beskrivelse="Hva som følger med og hva som krever ekstralisens"
+          tittel="Totaloversikt - M365"
+          beskrivelse="Se alt som følger med i E3 og E5-planen fra Microsoft - og hva de ulike tingene brukes til"
           farge="bg-brand-700"
         />
       </div>
 
-      <div className="mt-6 flex justify-center gap-2">
+      <nav className="mt-6 grid grid-cols-2 gap-3 max-w-lg mx-auto" aria-label="Mer">
         <Link
           to="/videoer"
-          aria-label="Videoer"
-          className="p-3 text-slate-400 hover:text-brand-700 hover:bg-white rounded-full transition-colors"
+          className="flex items-center justify-center px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
         >
-          <VideoIcon size={22} />
+          Videoer
         </Link>
         <Link
           to="/om-appen"
-          aria-label="Om appen"
-          className="p-3 text-slate-400 hover:text-brand-700 hover:bg-white rounded-full transition-colors"
+          className="flex items-center justify-center px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
         >
-          <InfoIcon size={22} />
+          Om appen
         </Link>
-      </div>
+      </nav>
     </main>
   )
 }

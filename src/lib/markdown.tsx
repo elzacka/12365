@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
+import { ExternalLinkIcon } from '../components/Icons'
 
 // Minimal markdown-renderer skreddersydd for korte sider som «Om appen»
 // og «Personvern». Støtter:
@@ -44,7 +45,7 @@ function parseInline(text: string): ReactNode[] {
       if (linkMatch) {
         const [, label, url] = linkMatch
         const eksternal = /^https?:\/\//i.test(url) || /^mailto:/i.test(url)
-        const linkClass = 'text-brand-700 underline underline-offset-2 hover:text-brand-800'
+        const linkClass = 'text-brand-400 hover:text-brand-600 transition-colors'
         if (eksternal) {
           nodes.push(
             <a
@@ -55,6 +56,7 @@ function parseInline(text: string): ReactNode[] {
               className={linkClass}
             >
               {label}
+              <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
             </a>
           )
         } else {

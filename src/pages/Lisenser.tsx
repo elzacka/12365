@@ -7,6 +7,7 @@ import {
   SearchIcon,
   CloseIcon,
   ChevronRightIcon,
+  ExternalLinkIcon,
 } from '../components/Icons'
 import type { LisensFunksjon, LisensStatus } from '../types'
 
@@ -140,26 +141,17 @@ export function Lisenser() {
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
-      {/* Hero */}
-      <div className="bg-brand-700 text-white px-4 pt-6 pb-8">
-        <p className="text-brand-100 text-sm leading-relaxed text-center max-w-md mx-auto">
-          Komplett oversikt M365 — E3 vs E5 + ekstra. Søk etter app eller funksjon — trykk på dem for å se hva de er til
-        </p>
-      </div>
-      <div className="bg-brand-700 h-5 relative">
-        <div className="absolute bottom-0 left-0 right-0 h-5 bg-slate-50 rounded-t-[1.5rem]" />
-      </div>
-
-      <main className="flex-1 px-4 pb-10 pt-4 max-w-2xl mx-auto w-full">
+      <main className="flex-1 px-4 pt-4 pb-10 max-w-2xl mx-auto w-full">
         {/* Kilde */}
-        <p className="text-center mb-3">
+        <p className="text-center text-sm mb-3">
           <a
             href={data.kildeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[10px] italic text-slate-400 hover:text-brand-700 underline-offset-2 hover:underline whitespace-nowrap"
+            className="text-brand-400 hover:text-brand-600 transition-colors"
           >
             Kilde: {data.kilde}
+            <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
           </a>
         </p>
 
@@ -170,7 +162,7 @@ export function Lisenser() {
           </div>
           <input
             type="search"
-            placeholder="Søk..."
+            placeholder="Søk etter app, tjeneste eller funksjon. Trykk på den for å se hva den brukes til."
             value={sok}
             onChange={e => setSok(e.target.value)}
             className="w-full pl-10 pr-9 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
@@ -313,7 +305,7 @@ export function Lisenser() {
             <p className="text-base mb-1">Ingen funksjoner matcher</p>
             <button
               onClick={tilbakestill}
-              className="text-sm text-brand-700 hover:text-brand-800 underline"
+              className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
             >
               Tilbakestill filter
             </button>
