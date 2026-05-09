@@ -31,7 +31,7 @@
           },
           {
             "tittel": "Slik rydder du egne filområder",
-            "innhold": "Gjør dette på det personlige området ditt (typisk **H**-stasjonen), lokalt på maskinen og i innboksen:\n\n1. Gå gjennom egne mapper og filer\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter\n3. Lag en **dagstursekk** med kun det du trenger for å fortsette arbeidet. Samle dette i mapper med tydelige navn\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde\n5. Flytt arbeidsfiler som primært er ditt eget arbeid (utkast, notater, egne maler) til OneDrive når den blir tilgjengelig\n6. Slett dokumentene fra det gamle området når du har bekreftet at overføringen gikk riktig\n\n**OneDrive er organisasjonens område for deg som ansatt — ikke et privat område.** Slutter du, forsvinner tilgangen. Skal andre kunne finne et dokument uten deg, hører det ikke hjemme i OneDrive — bruk Teams-kanaler eller SharePoint i stedet.\n\n**Personlige områder på den gamle filserveren er typisk det første som forsvinner etter en migrering.** Innholdet må flyttes eller slettes — det blir ikke liggende trygt et sted av seg selv.\n\n**Vær oppmerksom på personopplysninger og sensitivt innhold.** Sjekk om noe er arkivverdig — i så fall: arkiver i sak- og arkivsystem. Spør leder hvis du er usikker."
+            "innhold": "Gjør dette på det personlige området ditt (typisk **H**-stasjonen), lokalt på maskinen og i innboksen:\n\n1. Gå gjennom egne mapper og filer\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter\n3. Lag en **dagstursekk** med kun det du trenger for å fortsette arbeidet. Samle dette i mapper med tydelige navn\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde\n5. Flytt utkast og personlige arbeidsnotater til OneDrive når den blir tilgjengelig — **men kun det som faktisk er ditt eget arbeid**. Skal andre kunne følge opp eller finne det uten deg, hører det hjemme i en Teams-kanal\n6. Slett dokumentene fra det gamle området når du har bekreftet at overføringen gikk riktig\n\n**OneDrive er organisasjonens område for deg som ansatt — ikke et privat område.** Slutter du, forsvinner tilgangen. Skal andre kunne finne et dokument uten deg, hører det ikke hjemme i OneDrive — bruk Teams-kanaler eller SharePoint i stedet.\n\n**Personlige områder på den gamle filserveren er typisk det første som forsvinner etter en migrering.** Innholdet må flyttes eller slettes — det blir ikke liggende trygt et sted av seg selv.\n\n**Vær oppmerksom på personopplysninger og sensitivt innhold.** Sjekk om noe er arkivverdig — i så fall: arkiver i sak- og arkivsystem. Spør leder hvis du er usikker."
           },
           {
             "tittel": "Slik rydder du e-posten",
@@ -250,7 +250,7 @@
           },
           {
             "tittel": "Klikk på filnavnet øverst",
-            "innhold": "Åpne filen i Teams eller i Edge. Klikk på dokumentnavnet i tittellinja øverst i Word, Excel eller PowerPoint. En meny åpnes."
+            "innhold": "Åpne filen direkte i Teams. Klikk på dokumentnavnet i tittellinja øverst i Word, Excel eller PowerPoint. En meny åpnes."
           },
           {
             "tittel": "Velg Versjonslogg",
@@ -473,7 +473,7 @@
           },
           {
             "tittel": "Legg detaljer til oppgaven",
-            "innhold": "Klikk på en oppgave for å åpne detaljvisningen. Her legger du til:\n\n- **Sjekkliste** — nyttig når oppgaven består av flere deltrinn\n- **Vedlegg** — filer eller lenker fra SharePoint/OneDrive\n- **Etiketter** — fargekoder for rask sortering\n- **Kommentarer** — spørsmål og oppfølging knyttet til oppgaven"
+            "innhold": "Klikk på en oppgave for å åpne detaljvisningen. Her legger du til:\n\n- **Sjekkliste** — nyttig når oppgaven består av flere deltrinn\n- **Vedlegg** — lenk til fil i Teams-kanalen (anbefalt for delte arbeidsfiler), eller fra OneDrive hvis filen fortsatt er ditt utkast\n- **Etiketter** — fargekoder for rask sortering\n- **Kommentarer** — spørsmål og oppfølging knyttet til oppgaven"
           },
           {
             "tittel": "Følg fremdriften i Diagram-visning",
