@@ -78,18 +78,20 @@ export function Artikkel() {
       </div>
 
       <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
-        {/* Tittel og ingress som ren innholdstekst — ingen kort, ingen
-            kant, samme bakgrunn som siden. Steg-kortet under tar over som
-            visuell hovedrolle. */}
-        <header className="pt-5 pb-1">
-          <p className="text-xs font-medium uppercase tracking-wide text-slate-400">
-            {kategori.tittel}
-          </p>
-          <h1 className="text-lg font-semibold text-slate-800 leading-snug mt-1">
-            {artikkel.tittel}
-          </h1>
-          <p className="text-sm text-slate-500 mt-1 leading-relaxed">{artikkel.ingress}</p>
-        </header>
+        {/* Tittel og ingress vises kun på første steg — gir mer plass til
+            stegene senere i lesingen. Steg-kortet under tar over som visuell
+            hovedrolle. */}
+        {erForsteSteg && (
+          <header className="pt-5 pb-1">
+            <p className="text-xs font-medium uppercase tracking-wide text-slate-400">
+              {kategori.tittel}
+            </p>
+            <h1 className="text-lg font-semibold text-slate-800 leading-snug mt-1">
+              {artikkel.tittel}
+            </h1>
+            <p className="text-sm text-slate-500 mt-1 leading-relaxed">{artikkel.ingress}</p>
+          </header>
+        )}
 
         {/* Steg-oversikt (chips) */}
         <nav aria-label="Steg-oversikt" className="flex gap-2 py-4 overflow-x-auto hide-scrollbar">
