@@ -22,7 +22,7 @@ En "PWA" (Progressive Web App) er en nettside som bruker moderne webteknologi fo
 
 ### Tre hovedseksjoner
 
-- **Om M365-appene** — flip-card-oversikt over 29 M365-apper, med Microsofts oktober-2025 Fluid-ikoner
+- **Om M365-appene** — flip-card-oversikt over 29 M365-apper, med Microsofts oppdaterte Fluent-ikoner i «fluid forms»-stilen (oktober 2025)
 - **Slik gjør du** — steg-for-steg-veiledninger fordelt på 11 kategorier (Kom i gang, På tvers, Copilot, Lists, Outlook, Planner, SharePoint, Teams, Shifts, Viva Learning, Sikkerhet)
 - **Totaloversikt - M365** — komplett oversikt over alle apper, tjenester og funksjoner i E3 og E5-planen (189 innslag i 27 kategorier under 3 tema), basert på Microsofts Modern Work Plan Comparison Enterprise (mai 2026)
 
