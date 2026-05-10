@@ -99,7 +99,7 @@ export function Artikkel() {
             <button
               key={idx}
               onClick={() => gaTilSteg(idx)}
-              className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
+              className={`flex-shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-full text-xs font-medium transition-all ${
                 idx === aktivtSteg
                   ? 'bg-brand-700 text-white shadow-sm'
                   : idx < aktivtSteg

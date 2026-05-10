@@ -32,7 +32,7 @@ function getHeaderProps(pathname: string) {
   if (pathname.startsWith('/videoer/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/videoer' }
   if (pathname === '/om-appen') return { tittel: 'Om appen', visHjem: true, visTilbake: false }
   if (pathname === '/personvern') return { tittel: 'Personvern', visHjem: true, visTilbake: true, tilbakeTil: '/om-appen' }
-  if (pathname === '/lisenser') return { tittel: 'Totaloversikt - M365', visHjem: true, visTilbake: false }
+  if (pathname === '/lisenser') return { tittel: 'Hva følger med i M365 E3 og E5?', visHjem: true, visTilbake: false }
   return { visHjem: true, visTilbake: false }
 }
 

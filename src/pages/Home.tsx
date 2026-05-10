@@ -52,8 +52,8 @@ export function Home() {
         <NavKort
           til="/lisenser"
           ikon={<LayersIcon size={30} />}
-          tittel="Totaloversikt - M365"
-          beskrivelse="Se alt som følger med i E3 og E5-planen fra Microsoft - og hva de ulike tingene brukes til"
+          tittel="Hva følger med i M365 E3 og E5?"
+          beskrivelse="Hva brukes de ulike tingene til?"
           farge="bg-brand-700"
         />
       </div>
