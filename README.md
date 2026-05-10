@@ -88,7 +88,7 @@ src/
     Personvern.tsx — Personvernerklæring (renderer PERSONVERN.md)
 public/
   articles/    — Bilder brukt i veiledninger
-  m365-icons/  — App-ikoner for flip-cards (192x192 PNG)
+  m365-icons/  — App-ikoner for flip-cards (PNG, opptil 1024x1024, hentet via scripts/fetch-icons.mjs fra mscloudlogos.com)
   icons/       — PWA-app-ikoner
   videos/      — Videoer og miniatyrbilder
   content/     — JSON-innhold (cards, articles, videos, license-comparison)
