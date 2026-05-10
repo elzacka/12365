@@ -11,13 +11,13 @@ import {
 } from '../components/Icons'
 import type { LisensFunksjon, LisensStatus } from '../types'
 
-type FilterId = 'alle' | 'e3' | 'e5' | 'ekstralisens'
+type FilterId = 'alle' | 'e3' | 'e5' | 'tillegg'
 
 const FILTRE: { id: FilterId; label: string }[] = [
   { id: 'alle', label: 'Alle' },
   { id: 'e3', label: 'E3' },
   { id: 'e5', label: 'E5' },
-  { id: 'ekstralisens', label: 'Ekstralisens' },
+  { id: 'tillegg', label: 'Tilleggskjøp' },
 ]
 
 const STATUS_KONFIG: Record<
@@ -51,7 +51,7 @@ function passerFilter(f: LisensFunksjon, aktive: Set<FilterId>): boolean {
   if (aktive.has('alle')) return true
   if (aktive.has('e3') && f.e3 === 'inkludert') return true
   if (aktive.has('e5') && f.e5 === 'inkludert') return true
-  if (aktive.has('ekstralisens') && (f.e3 === 'tillegg' || f.e5 === 'tillegg')) return true
+  if (aktive.has('tillegg') && (f.e3 === 'tillegg' || f.e5 === 'tillegg')) return true
   return false
 }
 
@@ -81,8 +81,8 @@ export function Lisenser() {
 
   const sokNorm = sok.trim().toLowerCase()
   const erFiltrert = !aktiveFiltre.has('alle') || sokNorm.length > 0
-  const visE3Badge = aktiveFiltre.has('alle') || aktiveFiltre.has('e3') || aktiveFiltre.has('ekstralisens')
-  const visE5Badge = aktiveFiltre.has('alle') || aktiveFiltre.has('e5') || aktiveFiltre.has('ekstralisens')
+  const visE3Badge = aktiveFiltre.has('alle') || aktiveFiltre.has('e3') || aktiveFiltre.has('tillegg')
+  const visE5Badge = aktiveFiltre.has('alle') || aktiveFiltre.has('e5') || aktiveFiltre.has('tillegg')
 
   const filtreteKategorier = useMemo(() => {
     return data.kategorier
@@ -114,9 +114,9 @@ export function Lisenser() {
           next.add(id)
           next.delete(id === 'e3' ? 'e5' : 'e3')
         }
-      } else if (id === 'ekstralisens') {
-        if (next.has('ekstralisens')) next.delete('ekstralisens')
-        else next.add('ekstralisens')
+      } else if (id === 'tillegg') {
+        if (next.has('tillegg')) next.delete('tillegg')
+        else next.add('tillegg')
       }
 
       if (next.size === 0) return new Set<FilterId>(['alle'])
