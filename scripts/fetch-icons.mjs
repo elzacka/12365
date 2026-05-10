@@ -35,7 +35,7 @@ const sources = [
   { slug: 'stream',           url:  'https://upload.wikimedia.org/wikipedia/commons/8/8f/Microsoft_Stream.svg', mode: 'svg' },
   { slug: 'sway',             url:  'https://upload.wikimedia.org/wikipedia/commons/b/b7/Microsoft_Office_Sway_%282019%E2%80%93present%29.svg', mode: 'svg' },
   { slug: 'to-do',            path: 'logos/to-do/to-do.svg',                                             mode: 'svg' },
-  { slug: 'whiteboard',       path: 'logos/whiteboard/whiteboard-256x256.png',                           mode: 'png-asis' },
+  { slug: 'whiteboard',       path: 'logos/whiteboard/whiteboard-transparent.png',                       mode: 'png-trim-fit' },
   { slug: 'viva-connections', path: 'logos/viva-connections/viva-connections.svg',                       mode: 'svg' },
   { slug: 'viva-engage',      path: 'logos/viva-engage/viva-engage.svg',                                 mode: 'svg' },
   { slug: 'viva-insights',    path: 'logos/viva-insights/viva-insights.svg',                             mode: 'svg' },
@@ -66,6 +66,12 @@ for (const src of sources) {
         .toFile(out)
     } else if (src.mode === 'png-fit') {
       await sharp(buf)
+        .resize(TARGET, TARGET, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
+        .png({ compressionLevel: 9 })
+        .toFile(out)
+    } else if (src.mode === 'png-trim-fit') {
+      await sharp(buf)
+        .trim()
         .resize(TARGET, TARGET, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
         .png({ compressionLevel: 9 })
         .toFile(out)
