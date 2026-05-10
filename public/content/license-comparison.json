@@ -80,11 +80,10 @@
         { "navn": "Loop-komponenter og sider", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Levende innholdsbiter som kan deles og redigeres synkront på tvers av Teams, Word og Outlook." },
         { "navn": "Loop-arbeidsområder (Workspaces)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Felles rom for prosjekter med sider, oppgaver og data samlet på ett sted." },
         { "navn": "Loop-bidrag (komponenter, sider, arbeidsområder)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag, rediger og bidra til alt Loop-innhold uten begrensninger." },
-        { "navn": "Clipchamp Standard", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Videoredigering med maler, overganger og enkle KI-effekter." },
+        { "navn": "Microsoft Clipchamp", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Videoplattformen i M365 — opptak (skjerm, kamera, lyd), redigering med maler, overganger og KI-effekter, automatisk transkripsjon, kapittelinndeling, søk i videoinnhold og avspilling i Teams, Outlook og SharePoint. Videoer lagres i OneDrive og SharePoint." },
         { "navn": "Microsoft Editor premium-funksjoner", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Avansert språkhjelp i Word og Outlook — klarspråk-forslag, tone, omformulering og inkluderende språk." },
         { "navn": "Flerspråklig brukergrensesnitt for Microsoft 365-apper", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Bytt visningsspråk i M365-appene mellom flere språk for samme bruker." },
         { "navn": "Microsoft Whiteboard", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Digital tavle for samarbeid, idémyldring og workshops — fungerer i Teams-møter og som egen app." },
-        { "navn": "Microsoft Stream (på SharePoint)", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Videoopplasting og avspilling — videoer lagres i OneDrive og SharePoint, med automatisk transkripsjon og kapitler." },
         { "navn": "Microsoft Sway", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Digital historiefortelling — visuelle, responsive presentasjoner og rapporter som kan deles som lenke." }
       ]
     },
@@ -221,9 +220,9 @@
       "navn": "Automatisering",
       "tema": "apper",
       "funksjoner": [
-        { "navn": "Power Apps for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag enkle apper som kobler seg mot M365-data via standardkonnektorer." },
-        { "navn": "Power Automate for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag flyter mellom M365-apper med standardkonnektorer — varsler, godkjenninger og automatikk (kun cloud flows)." },
-        { "navn": "Copilot Studio for Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Bygg enkle KI-agenter i Teams basert på Teams-data og standardkonnektorer (uten meldinger; bruker Dataverse for Teams)." },
+        { "navn": "Power Apps for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag enkle apper som kobler seg mot M365-data via standardkoblinger." },
+        { "navn": "Power Automate for Microsoft 365", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lag flyter mellom M365-apper med standardkoblinger — varsler, godkjenninger og automatikk (kun cloud flows)." },
+        { "navn": "Copilot Studio for Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Bygg enkle KI-agenter i Teams basert på Teams-data og standardkoblinger (uten meldinger; bruker Dataverse for Teams)." },
         { "navn": "Dataverse for Teams", "e3": "inkludert", "e5": "inkludert", "beskrivelse": "Lett database tilgjengelig direkte i Teams-kanaler — for Power Apps og Power Automate." }
       ]
     },

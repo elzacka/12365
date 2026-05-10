@@ -24,4 +24,4 @@ Siden ingen personopplysninger samles inn, finnes det heller ingen data å be om
 
 ## Kontakt
 
-Spørsmål? Ta kontakt via [GitHub-profilen elzacka](https://github.com/elzacka).
+Spørsmål? Ta kontakt via [GitHub-profilen elzacka](https://github.com/elzacka)

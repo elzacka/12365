@@ -6,9 +6,12 @@ interface FlipCardProps {
   card: FlipCardType
 }
 
+const SVG_IKONER = new Set(['places', 'copilot-studio-for-teams'])
+
 function iconSrc(navn: string): string {
   const slug = navn.toLowerCase().replace(/ /g, '-')
-  return `${import.meta.env.BASE_URL}m365-icons/${slug}.png`
+  const ext = SVG_IKONER.has(slug) ? 'svg' : 'png'
+  return `${import.meta.env.BASE_URL}m365-icons/${slug}.${ext}`
 }
 
 function AppBadge({ navn }: { navn: string }) {

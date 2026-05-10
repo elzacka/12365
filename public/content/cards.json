@@ -15,9 +15,9 @@
   },
   {
     "navn": "Clipchamp",
-    "tagline": "Enkel videoredigering",
-    "alene": "Klipp og produser video med maler og KI-hjelp.",
-    "sammen": "Lagre i OneDrive og del videre i Teams og Stream.",
+    "tagline": "Video i Microsoft 365",
+    "alene": "Video-appen i Microsoft 365. Ta opp skjerm, kamera eller stemme, rediger med maler og KI-effekter, og få automatisk transkripsjon.",
+    "sammen": "Videoer lagres i OneDrive eller SharePoint og spilles av direkte i Teams, Outlook og SharePoint-sider.",
     "fotnote": ""
   },
   {
@@ -25,6 +25,13 @@
     "tagline": "KI-chat",
     "alene": "Hverdagens KI-assistent. Spør, få utkast, oppsummeringer og forklaringer. Nett-modus søker på internett. Jobb-modus søker i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler.",
     "sammen": "Last opp en fil og still spørsmål, lim inn tekst for omskriving til klarspråk, eller bryne deg på et fagspørsmål.",
+    "fotnote": ""
+  },
+  {
+    "navn": "Copilot Studio for Teams",
+    "tagline": "Bygg din egen chatbot — uten kode",
+    "alene": "For deg som vil lage en regelbasert chatbot for et team — uten å programmere. Bygges i Copilot Studio-nettappen og publiseres til Teams.",
+    "sammen": "Kan starte Power Automate-flyter og hente data fra Lists og SharePoint. Til fritt formulerte spørsmål mot dokumenter — bruk Copilot Chat.",
     "fotnote": ""
   },
   {
@@ -57,8 +64,8 @@
   },
   {
     "navn": "Loop",
-    "tagline": "Levende data på tvers",
-    "alene": "Sanntidssamarbeid på tvers av apper — møtenotater, idémyldring og tabeller som forblir synkronisert.",
+    "tagline": "Levende komponenter og delte arbeidsrom",
+    "alene": "Sanntidssamarbeid på tvers av apper — møtenotater, idémyldring og tabeller som forblir synkronisert. Loop Workspaces er nå et fullverdig delt arbeidsrom for prosjekter, knyttet til en M365-gruppe.",
     "sammen": "Loop-komponenter limes inn i Teams-chat, e-post eller Word — innholdet er oppdatert overalt når noen gjør en endring.",
     "fotnote": ""
   },
@@ -84,9 +91,16 @@
     "fotnote": ""
   },
   {
+    "navn": "Places",
+    "tagline": "Hybridarbeid og tilstedeværelse",
+    "alene": "Koordiner kontordager, finn ledige rom og se hvilke kolleger som er på samme sted som deg. Places samler hybrid arbeidsstyring i Outlook og Teams.",
+    "sammen": "Outlook foreslår møtetider basert på når kolleger er på samme sted, og Teams-status henger sammen med arbeidsplanen.",
+    "fotnote": ""
+  },
+  {
     "navn": "Planner",
-    "tagline": "Styr teamets oppgaver",
-    "alene": "Visuell oppgavebehandling med bøtter, kort, tavle og tidslinje — oversikt over hvem som gjør hva og når.",
+    "tagline": "Microsofts samlede prosjekt- og oppgavehub",
+    "alene": "Visuell oppgavebehandling med bøtter, kort, tavle og tidslinje — og oversikt over flere prosjekter samtidig. Microsofts samlede plattform for prosjekt- og oppgavestyring.",
     "sammen": "Tildelte oppgaver dukker opp i ansattes To Do-liste. Legg planen til som fane i Teams-kanalen — oppgaver, filer og diskusjoner i samme flate.",
     "fotnote": ""
   },
@@ -114,7 +128,7 @@
   {
     "navn": "PowerPoint",
     "tagline": "Presentasjoner med struktur og visuell støtte",
-    "alene": "Klassisk presentasjonsverktøy med Designer som foreslår layout, Speaker Coach som gir tilbakemelding på fremføring, og samtidig redigering med kommentering.",
+    "alene": "Klassisk presentasjonsverktøy med Designer for layout, Speaker Coach for fremføring og samtidig redigering med kommentering.",
     "sammen": "Lagre i SharePoint eller OneDrive — del lenken og presenter direkte i Teams-møter.",
     "fotnote": ""
   },
@@ -130,13 +144,6 @@
     "tagline": "Vaktplanlegging i Teams",
     "alene": "Lag og publiser turnusplaner, godkjenn bytteforespørsler og kommuniser med skiftarbeidere — direkte i Teams-appen på mobil.",
     "sammen": "Integrert med Teams-chat og kanaler. Ansatte ser sin vakt sammen med chat og oppgaver i samme app.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Stream",
-    "tagline": "Video i M365",
-    "alene": "Last opp, se og del videoer — med automatisk transkripsjon, kapittelinndeling og søk i videoinnhold.",
-    "sammen": "Videoer lagres i OneDrive eller SharePoint. Spilles av direkte i Teams, Outlook og SharePoint-sider.",
     "fotnote": ""
   },
   {
@@ -170,7 +177,7 @@
   {
     "navn": "Viva Insights",
     "tagline": "Personlig produktivitet",
-    "alene": "Innsikt i egen arbeidshverdag — fokustid, møtebelastning og pauser. Copilot-forslag som utsatt sending av e-post, fokustid-blokkering og påminnelser om oppfølging.",
+    "alene": "Innsikt i egen arbeidshverdag — fokustid, møtebelastning og pauser. Premium personlig innsikt gir KI-forslag som utsatt sending av e-post, fokustid-blokkering og påminnelser om oppfølging.",
     "sammen": "Bruker data fra Outlook og Teams. Følger personvernsoppsett satt av tenant-administrator.",
     "fotnote": ""
   },
@@ -198,7 +205,7 @@
   {
     "navn": "Word",
     "tagline": "Tyngre tekstdokumenter",
-    "alene": "Skriv brev, rapporter og dokumentmaler — Editor hjelper med språk og klarhet.",
+    "alene": "Skriv brev, rapporter og dokumentmaler — Editor hjelper med klarspråk, tone og inkluderende språk.",
     "sammen": "Lagre i SharePoint eller OneDrive og del som lenke. Bruk Loop i stedet når innholdet skal redigeres av flere løpende.",
     "fotnote": ""
   }

@@ -90,6 +90,9 @@ export function Artikkel() {
               {artikkel.tittel}
             </h1>
             <p className="text-sm text-slate-500 mt-1 leading-relaxed">{artikkel.ingress}</p>
+            {artikkel.notat && (
+              <p className="text-xs italic text-slate-400 mt-2 leading-relaxed">{artikkel.notat}</p>
+            )}
           </header>
         )}
 

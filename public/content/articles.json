@@ -308,6 +308,60 @@
     ]
   },
   {
+    "id": "clipchamp",
+    "tittel": "Clipchamp",
+    "beskrivelse": "Video i Microsoft 365 — opptak, redigering, transkripsjon og deling.",
+    "artikler": [
+      {
+        "id": "clipchamp-bruke",
+        "tittel": "Slik bruker du Clipchamp",
+        "ingress": "Clipchamp er video-appen i Microsoft 365. Her bruker du den til å ta opp, redigere, transkribere og dele video — alt på ett sted.",
+        "kategori": "clipchamp",
+        "tags": [
+          "clipchamp",
+          "video",
+          "opptak",
+          "transkripsjon",
+          "deling"
+        ],
+        "steg": [
+          {
+            "tittel": "Når bruker du Clipchamp?",
+            "innhold": "Bruk Clipchamp når du skal:\n\n- **Ta opp en kort presentasjon** eller forklaring som kollegaer kan se på i sitt eget tempo\n- **Redigere et møteopptak** — fjerne stille perioder, klippe ut det viktige\n- **Lage en velkomstvideo** for nye ansatte\n- **Dele en demonstrasjon** av en prosess eller et verktøy\n- **Spille av video** som ligger i SharePoint eller OneDrive\n\nClipchamp er for video som skal lagres, deles og spilles av flere ganger. Til direkte møter, bruk Teams."
+          },
+          {
+            "tittel": "Åpne Clipchamp",
+            "innhold": "To veier inn:\n\n- **Teams** — legg Clipchamp til som app i venstremenyen\n- **OneDrive** eller **SharePoint** — klikk på en video for å spille av med Clipchamp-spilleren."
+          },
+          {
+            "tittel": "Ta opp skjerm, kamera eller stemme",
+            "innhold": "1. Klikk **Opprett en ny video** → **Spill inn**\n2. Velg hva du vil ta opp:\n   - **Skjerm** — hele skjermen, ett vindu eller en fane\n   - **Kamera** — bare deg selv\n   - **Skjerm + kamera** — skjermen med deg i et hjørne\n   - **Bare lyd** — for podkast eller lydforklaring\n3. Klikk **Start opptak**, gjør det du skal, og avslutt med **Stopp**\n\nOpptaket legges automatisk inn i Clipchamp-redigeringen."
+          },
+          {
+            "tittel": "Rediger videoen",
+            "innhold": "I redigeringen kan du:\n\n- **Klippe** vekk det du ikke trenger\n- **Sette sammen flere klipp** på tidslinjen\n- **Legge til tekst, bilder og overganger** med ferdige maler\n- **Bruke KI-effekter** — tekst-til-tale, automatiske undertekster og bakgrunnsfjerning\n- **Trim transkripsjonen** — fjern et avsnitt fra transkripsjonen, så fjernes den tilhørende videodelen automatisk\n\n*Lagre underveis — Clipchamp lagrer ikke automatisk i alle tilfeller.*"
+          },
+          {
+            "tittel": "Transkripsjon, kapitler og søk",
+            "innhold": "For hver video Clipchamp behandler, får du:\n\n- **Automatisk transkripsjon** — det som blir sagt i videoen, som tekst\n- **Kapittelinndeling** — videoen deles automatisk i seksjoner som er enklere å navigere i\n- **Søk i videoinnhold** — søk på et ord, og hopp rett til det punktet i videoen der det blir sagt\n\nTranskripsjonen kan lastes ned, redigeres eller brukes til å lage en oppsummering."
+          },
+          {
+            "tittel": "Del video og spill av i Teams, Outlook og SharePoint",
+            "innhold": "Når videoen er klar:\n\n1. Klikk **Eksporter** og velg kvalitet (vanligvis 1080p)\n2. Klikk **Lagre i OneDrive** eller **Lagre i SharePoint** — videoen får en delingslenke\n3. Lim lenken inn i Teams-chat, e-post eller en SharePoint-side\n\nMottakeren spiller av videoen direkte i Teams, Outlook eller på SharePoint-siden — uten å laste ned filen."
+          },
+          {
+            "tittel": "Møteopptak fra Teams",
+            "innhold": "Når du tar opp et Teams-møte, lagres opptaket automatisk i OneDrive (for chat-møter) eller i SharePoint-kanalmappen (for kanal-møter). Opptaket spilles av i Clipchamp-spilleren med:\n\n- Full transkripsjon du kan søke i\n- Kapittelinndeling\n- Mulighet for å klippe ut og dele kortere snutter\n\n*Du kan klippe et 90-minutters møte ned til de tre minuttene som faktisk var viktige, og dele bare de.*"
+          },
+          {
+            "tittel": "Hva med personvern?",
+            "innhold": "Clipchamp-videoer fra jobb-kontoen din ligger i OneDrive eller SharePoint og følger samme tilgangsregler som dokumenter. Et møteopptak deles bare med dem som var i møtet — eller med dem du eksplisitt deler det med.\n\n*Si fra til deltakerne før du tar opp et møte. Be om samtykke hvis møtet inneholder personopplysninger som skal lagres lenger enn det praktiske formålet krever.*"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "copilot",
     "tittel": "Copilot",
     "beskrivelse": "Slik bruker du Copilot Chat i hverdagen",
@@ -333,7 +387,7 @@
           },
           {
             "tittel": "Jobb-modus — søk i organisasjonens innhold",
-            "innhold": "Bytt til **Jobb-modus** for å søke i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler — det du selv har tilgang til.\n\nEksempler:\n- «Finn referat fra siste ledermøte»\n- «Hva sier rutinen for innkjøp?»\n- «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nI Jobb-modus ligger data innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Husk: prompts og svar i Jobb-modus kan være journalføringspliktige saksdokumenter — særlig når du bruker Copilot i saksbehandling.*"
+            "innhold": "Bytt til **Jobb-modus** for å søke i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler — det du selv har tilgang til.\n\nEksempler:\n- «Finn referat fra siste ledermøte»\n- «Hva sier rutinen for innkjøp?»\n- «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nI Jobb-modus ligger data innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Husk: prompts og svar i Jobb-modus kan være journalpliktige saksdokumenter — særlig når du bruker Copilot i saksbehandling.*"
           },
           {
             "tittel": "Last opp filer og still spørsmål",
@@ -344,6 +398,116 @@
             "innhold": "Copilot Chat er et godt skriveverktøy uansett modus:\n\n- Utkast til e-post, notat eller saksframlegg\n- Tekst omskrevet til **klarspråk**\n- Brainstorming av løsninger og argumenter\n- Oversetting mellom norsk og andre språk\n- Forklare et fagbegrep enkelt\n\nLim inn din egen tekst og si hva du vil Copilot skal gjøre med den. Vær gjerne konkret om tone, lengde og målgruppe."
           }
         ]
+      },
+      {
+        "id": "copilot-studio-for-teams-bygge-chatbot",
+        "tittel": "Slik bygger du en chatbot med Copilot Studio for Teams",
+        "ingress": "Du kan lage en regelbasert chatbot for ditt eget team — uten å programmere. Du bygger den i Copilot Studio-nettappen og publiserer den til en Teams-kanal eller chat. Slik gjør du det.",
+        "kategori": "copilot",
+        "tags": [
+          "copilot-studio",
+          "chatbot",
+          "teams",
+          "lavkode",
+          "agent",
+          "power-automate"
+        ],
+        "steg": [
+          {
+            "tittel": "Når passer Copilot Studio for Teams?",
+            "innhold": "Bruk Copilot Studio for Teams når du vil ha en chatbot som svarer på de samme spørsmåelzacka om og om igjen — for eksempel:\n\n- **HR-FAQ** — åpningstider, fridager, sykemelding\n- **IT-helpdesk** — tilbakestille passord, melde feil, bestille utstyr\n- **Onboarding** — gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter — bruk Copilot Chat i Jobb-modus i stedet."
+          },
+          {
+            "tittel": "Åpne Copilot Studio og velg team",
+            "innhold": "Gå til **copilotstudio.microsoft.com**. Første gang blir du bedt om å velge et Teams-team som skal eie chatbotten. Velg et eksisterende team — eller opprett et nytt — og klikk **Fortsett**.\n\n*Teamet du velger bestemmer hvor chatbotten lagres og hvem som kan administrere den.*"
+          },
+          {
+            "tittel": "Lag agenten og gi den et navn",
+            "innhold": "Klikk **Opprett tom agent**. Gi den et navn som forteller hva den gjør — for eksempel «HR-bot» eller «IT-helpdesk». Klikk **Opprett**, så får du opp **Oversikt**-siden.\n\nDu kan også bytte ut standardikonet med ett som passer bedre, og legge til **forslag til startfraser** brukerne ser når de åpner chatbotten."
+          },
+          {
+            "tittel": "Bygg et tema med utløserfraser",
+            "innhold": "Et **tema** er én ting chatbotten kan svare på — som «åpningstider» eller «sykemelding».\n\n1. Gå til **Temaer** og klikk **Legg til tema** → **Fra blank**\n2. I **Utløser**-noden, legg inn flere måter brukerne kan stille spørsmålet: «Når åpner kontoret?», «Åpningstider?», «Hvilke timer er dere åpne?»\n3. Lukk panelet og lagre\n\nDu trenger ikke skrive alle varianter — Copilot Studio kjenner igjen lignende formuleringer takket være innebygd språkforståelse."
+          },
+          {
+            "tittel": "Definer samtaleflyten",
+            "innhold": "Bygg samtalen som en serie noder under utløseren:\n\n- **Send en melding** — chatbotten svarer\n- **Still et spørsmål** — chatbotten ber om mer informasjon, gjerne med valg som «Heltidsansatt» eller «Deltidsansatt»\n- **Forgrening** — ulik flyt avhengig av hva brukeren svarte\n\nLagre svaret som en **variabel** (for eksempel `Ansattype`) så du kan bruke det senere i samtalen — eller la det styre hvilken gren samtalen følger."
+          },
+          {
+            "tittel": "Test chatbotten mens du bygger",
+            "innhold": "Klikk **Test** i verktøylinjen for å åpne testpanelet. Skriv et spørsmål som om du var brukeren. Du ser i sanntid hvilken node chatbotten følger.\n\n*Test også med litt rare formuleringer — målet er at chatbotten skal forstå brukere som ikke skriver perfekt.*"
+          },
+          {
+            "tittel": "Eskaler til mennesker via Power Automate-flyt",
+            "innhold": "Når chatbotten ikke kan hjelpe selv, kan den varsle en HR-ekspert eller IT-supporter:\n\n1. Klikk **Legg til en node** under et spørsmål → **Legg til et verktøy** → **Opprett en flyt**\n2. Power Automate åpner — velg trinnet **Post melding i en chat eller kanal**\n3. Definer hvilken Teams-kanal som skal motta varslet, og hva som skal stå i meldingen\n4. Lagre flyten, gå tilbake til Copilot Studio, last siden på nytt og legg flyten inn som handling i samtalen\n\nChatbotten vet allerede hvem den snakker med — bruk variabelen `bot.UserDisplayName` for å sende navnet med i varslet."
+          },
+          {
+            "tittel": "Publiser chatbotten til Teams",
+            "innhold": "Klikk **Publiser** øverst på siden, deretter:\n\n1. Gå til **Kanaler** → **Microsoft 365 og Microsoft Teams** → **Legg til kanal**\n2. **Del med teamet** for testing — du trenger ikke admin-godkjenning\n3. **Del med organisasjonen** når du er fornøyd — krever admin-godkjenning\n\nEtter publisering finner kollegaene chatbotten i Teams-app-butikken — under **Bygd for organisasjonen** når den er admin-godkjent, eller **Bygd med Power Platform** mens den fortsatt testes."
+          },
+          {
+            "tittel": "Dette krever tillegg",
+            "innhold": "Chatbotten har disse rammene:\n\n- **Regelbasert** — den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n- **Bare i Teams** — kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n- **Lagring i Dataverse for Teams** — ikke full Dataverse\n\nTrenger du generative svar fra dokumenter, ekstern publisering eller større datamengder, krever det Microsoft Copilot Studio-tilleggslisens.\n\n*Etter 30. juni 2026 avvikles byggeflaten i selve Teams-appen. Du bygger på samme måte som før, men i Copilot Studio-nettappen. Eksisterende chatboter fortsetter å virke.*"
+          }
+        ]
+      },
+      {
+        "id": "m365-copilot-aktivert",
+        "tittel": "Hva får du med Microsoft 365 Copilot?",
+        "ingress": "Microsoft 365 Copilot låser opp KI-funksjoner inne i alle M365-appene — og noen helt nye flater. Her er det viktigste du kan gjøre.",
+        "kategori": "copilot",
+        "tags": [
+          "m365-copilot",
+          "copilot",
+          "agent",
+          "tillegg",
+          "pages",
+          "notebooks",
+          "facilitator"
+        ],
+        "steg": [
+          {
+            "tittel": "I Word: skriv utkast, omskriv og oppsummer",
+            "innhold": "Copilot i Word kan:\n\n- **Skrive et utkast** fra en kort prompt eller fra filer du peker på\n- **Omskrive** et avsnitt — kortere, mer formelt eller på klarspråk\n- **Oppsummere** et langt dokument til hovedpunkter\n- **Foreslå forbedringer** på struktur og argumentasjon\n\nEditor med klarspråk, tone og inkluderende språk er fortsatt med — Copilot legger seg på toppen."
+          },
+          {
+            "tittel": "I Excel: avansert analyse med Python",
+            "innhold": "Det største nye i Excel er **Copilot med Python**. Du beskriver analysen i klartekst, og Copilot kjører Python under panseret — med pandas, scikit-learn og matplotlib.\n\nDet låser opp:\n\n- **Prognoser** — tidsserier og fremskrivninger\n- **Klyngeanalyse** — gruppere observasjoner som hører sammen\n- **Statistiske tester og klassifisering**\n- **Avanserte diagrammer** som ikke finnes i Excel alene — boksplott, nettverksgrafer og par-plott\n\nDu trenger ikke kunne Python selv — Copilot skriver koden basert på det du spør om."
+          },
+          {
+            "tittel": "I PowerPoint: fra Word-dokument til presentasjon",
+            "innhold": "Copilot i PowerPoint kan:\n\n- **Lage en presentasjon** fra et Word-dokument du peker på\n- **Lage et utkast** fra en kort beskrivelse — med struktur og bilder\n- **Omformulere** et lysbilde — kortere eller mer pedagogisk\n- **Foreslå** layout og fortelling\n\nDesigner og Speaker Coach er fortsatt med — Copilot legger seg på toppen av det visuelle håndverket."
+          },
+          {
+            "tittel": "I Outlook: hjelp med innboksen og kalenderen",
+            "innhold": "Copilot i Outlook tar over mye av rutinearbeidet:\n\n- **Prioritering** — løfter frem e-post som krever svar\n- **Utkast til svar** — Copilot foreslår, du justerer før du sender\n- **Foreslåtte regler** — Copilot ser mønstre og foreslår regler som rydder automatisk\n- **Møtesammendrag** etter Teams-møter — handlingspunkter går rett til To Do og Planner\n- **Smartere møteplanlegging** — foreslår tidspunkter basert på tidligere oppmøte og arbeidssted\n- **Agent-modus** — Copilot kan håndtere lengre kjeder av e-postoppgaver selvstendig, uten at du følger med på hvert steg"
+          },
+          {
+            "tittel": "I Teams-møter: Facilitator tar notater og holder agenda",
+            "innhold": "**Facilitator** er en Copilot-agent du kan legge til i et Teams-møte. Den:\n\n- **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n- **Holder agendaen** og minner om hvor mye tid som er igjen\n- **Henter beslutninger og handlingspunkter** og lagrer dem i Loop\n- **Svarer på spørsmål** uten å avbryte flyten\n- **Sender en høflig påminnelse** i chat hvis en invitert deltaker ikke har dukket opp etter at navnet er nevnt to ganger\n\nEtter møtet legger Copilot møtesammendraget med handlingspunkter rett i To Do og Planner — du slipper å taste dem inn manuelt."
+          },
+          {
+            "tittel": "I OneNote, Whiteboard, Forms, Loop og Clipchamp",
+            "innhold": "Copilot i de øvrige appene:\n\n- **OneNote** — oppsummer en notatbok, finn igjen et tema på tvers av sider\n- **Whiteboard** — Copilot kan samle, foreslå og kategorisere ideer fra en workshop. Sammendraget legges automatisk som en Loop-komponent du kan dele.\n- **Forms** — beskriv et skjema eller en quiz i klartekst og få et utkast med spørsmål, svar og forklaringer\n- **Loop** — Copilot foreslår innhold og kan skrive utkast direkte i arbeidsrommet\n- **Clipchamp-spilleren** — be Copilot oppsummere video, hente handlingspunkter eller svare på spørsmål — både Teams-møteopptak og egne videoer"
+          },
+          {
+            "tittel": "Egne flater: Pages, Notebooks og Cowork",
+            "innhold": "Microsoft 365 Copilot gir deg tre egne arbeidsflater:\n\n**Copilot Pages** — en delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer, lette dashbord og små apper bygd via Work IQ. Du kan åpne den videre i App Builder.\n\n**Copilot Notebooks** — en samling kilder du selv velger: filer, Teams-kanaler og eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork** — gi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Du mister ikke flyten mens du venter."
+          },
+          {
+            "tittel": "Agenter: bygg, godkjenn og publiser",
+            "innhold": "Microsoft 365 Copilot gir deg **avansert Agent Builder**, med admin-godkjenning før agenten publiseres. De godkjente agentene blir tilgjengelige for hele organisasjonen i Agent Store.\n\n- I **SharePoint** kan **AI i SharePoint** bygge sider, lister og biblioteker ut fra det du beskriver i klartekst — og foreslå metadata automatisk\n- I **Planner** kan **Project Manager-agent** trekke ut beslutninger fra Teams-møtenotater og lage en tidsplan baklengs fra fristen\n- Agentene får identitet i Entra ID og logges i Purview — på lik linje med brukere\n- Avansert agent-styring (DSPM, DLP og Insider Risk Management) for agentene"
+          },
+          {
+            "tittel": "På tvers: når funksjonene jobber sammen",
+            "innhold": "Den virkelige gevinsten kommer når funksjonene jobber sammen:\n\n- **Møte → handling**: Facilitator tar notater, og Copilot-møtesammendraget legger handlingspunkter rett i To Do og Planner. Oppfølging skjer uten manuell etterarbeid.\n- **Word → PowerPoint**: en utredning i Word blir til et presentasjonsutkast med ett klikk\n- **Forms → Excel → innsikt**: svar fra Forms analyseres med Copilot og Python i Excel — og funnene løftes til Copilot Pages eller Power BI\n- **Notebook → utredning**: samle kildene i en Notebook, og Copilot holder seg til dem gjennom hele prosjektet\n- **SharePoint → agent**: AI i SharePoint bygger informasjonsstrukturen, agentene publiseres til Agent Store — og hele organisasjonen får dem\n- **Pages → app**: utforsk i Copilot Pages, og åpne resultatet i App Builder når du vil ha en varig versjon"
+          },
+          {
+            "tittel": "Forutsetninger — kort fortalt",
+            "innhold": "For å hente ut full verdi må fire ting være på plass:\n\n- **Lisensen er tildelt** brukerne som faktisk skal bruke Copilot\n- **Tjenestene er slått på** i admin-portalen — for hver app dere vil bruke Copilot i\n- **Følsomhetsetiketter er på plass** så Copilot kan skille åpent fra begrenset innhold\n- **SharePoint og OneDrive er ryddige** — Copilot er bare så god som datagrunnlaget\n\nLær opp brukerne i å skrive gode prompter og kvalitetssikre svar — Copilot er et arbeidsverktøy, ikke en magisk knapp."
+          }
+        ],
+        "notat": "NB: Microsoft 365 Copilot er ikke inkludert i E3/E5-planen."
       }
     ]
   },
@@ -525,6 +689,10 @@
           {
             "tittel": "Legg planen til som fane i Teams-kanalen",
             "innhold": "Klikk **+** på fanelinja i kanalen → **Planner** → velg den eksisterende planen. Teamet jobber da med oppgavene rett i kanalen — oppgaver, filer og diskusjoner i samme flate."
+          },
+          {
+            "tittel": "Oversikt over flere prosjekter",
+            "innhold": "Etter at **Project for the web** ble avviklet, er Planner Microsofts samlede prosjekt- og oppgaveplattform. **Porteføljer**-visningen gir deg en samlet oversikt over flere prosjekter samtidig — med konfigurerbare visninger for status, frist og ressurser.\n\nBruk Porteføljer når du har flere parallelle planer du vil styre fra ett sted."
           }
         ]
       }
@@ -886,8 +1054,8 @@
             "innhold": "Klikk **Notater** i møteverktøylinjen. Notatene åpnes som en **Loop-side** — et levende dokument alle deltakere kan redigere samtidig, også etter møtet.\n\nLoop-siden lagres automatisk og er tilgjengelig for alle inviterte via møtets detaljer i Teams-kalenderen.\n\n*Tips: Legg inn sakslisten i Loop-siden før møtet — deltakerne kan følge med og legge til notater underveis.*"
           },
           {
-            "tittel": "Ta opp møtet og del transkriptet",
-            "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du både video og **transkript** — søkbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. Transkriptet kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
+            "tittel": "Ta opp møtet og del transkripsjonen",
+            "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du både video og **transkripsjon** — søkbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. transkripsjonen kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
           }
         ]
       },
@@ -1022,7 +1190,7 @@
           },
           {
             "tittel": "Forutsetninger",
-            "innhold": "For å sette opp SharePoint som innholdskilde trenger dere:\n\n- En **kunnskapsadministrator** (knowledge admin) — Microsoft Entra-rollen som administrerer organisasjonens læringskilder\n- En **SharePoint-administrator** eller **global administrator** — for å konfigurere SharePoint som kilde\n- Et **SharePoint-nettsted** der den sentrale listen kan opprettes (kommunikasjonsnettsted anbefales)\n- **M365-grupper** eller **e-postaktiverte sikkerhetsgrupper** for tilgangsstyring (brukerbaserte rettigheter støttes ikke)\n\nE5-lisensen som hele organisasjonen har, dekker grunnleggende Viva Learning. For mer enn 1 000 filer eller premium-funksjoner kreves Viva Suite eller egen Viva Learning-lisens."
+            "innhold": "For å sette opp SharePoint som innholdskilde trenger dere:\n\n- En **kunnskapsadministrator** (knowledge admin) — Microsoft Entra-rollen som administrerer organisasjonens læringskilder\n- En **SharePoint-administrator** eller **global administrator** — for å konfigurere SharePoint som kilde\n- Et **SharePoint-nettsted** der den sentrale listen kan opprettes (kommunikasjonsnettsted anbefales)\n- **M365-grupper** eller **e-postaktiverte sikkerhetsgrupper** for tilgangsstyring (brukerbaserte rettigheter støttes ikke)\n\nGrunnleggende Viva Learning er allerede tilgjengelig for organisasjonen. For mer enn 1 000 filer eller premium-funksjoner kreves Viva Suite eller egen Viva Learning-lisens."
           },
           {
             "tittel": "Steg 1 — Konfigurer SharePoint som kilde",

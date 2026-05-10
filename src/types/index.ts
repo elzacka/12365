@@ -23,6 +23,7 @@ export interface Article {
   id: string
   tittel: string
   ingress: string
+  notat?: string // valgfri kursiv merknad rett under ingressen — for lisens- eller forutsetningsvarsler
   kategori: string
   tags: string[]
   steg: ArticleStep[]
