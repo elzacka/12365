@@ -50,13 +50,16 @@ export function FlipCard({ card }: FlipCardProps) {
       onKeyDown={handleKeyDown}
     >
       <div className="flip-card-inner">
-        {/* Forside */}
-        <div className="flip-card-face relative bg-white border border-slate-200 shadow-sm flex flex-col items-center justify-center text-center p-4 gap-3 hover:shadow-md transition-shadow">
-          <AppBadge navn={card.navn} />
-          <div>
-            <p className="text-sm font-semibold text-slate-800 leading-tight mb-1">{card.navn}</p>
-            <p className="text-xs text-slate-500 leading-snug">{card.tagline}</p>
+        {/* Forside — navn er vertikalt anker på midten av kortet, ikon og tagline
+            har lik avstand (mb-3 / mt-3) til navnet. 1fr-radene rundt navnet
+            sikrer at navnet ligger i absolutt vertikal senter, uavhengig av
+            taglinens lengde. */}
+        <div className="flip-card-face relative bg-white border border-slate-200 shadow-sm grid grid-rows-[1fr_auto_1fr] justify-items-center text-center p-4 hover:shadow-md transition-shadow">
+          <div className="self-end mb-3">
+            <AppBadge navn={card.navn} />
           </div>
+          <p className="text-sm font-semibold text-slate-800 leading-tight">{card.navn}</p>
+          <p className="self-start mt-3 text-xs text-slate-500 leading-snug">{card.tagline}</p>
           <div className="absolute bottom-2 right-2 text-slate-300">
             <FlipIcon size={14} />
           </div>
