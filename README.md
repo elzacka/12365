@@ -10,7 +10,7 @@ Jeg har laget appen **12365** for å sette turbo på:
 
 **Du finner den her:** https://elzacka.github.io/12365/
 
-<img width="1920" height="1080" alt="12365" src="https://github.com/user-attachments/assets/2b6e7367-9958-4f71-b324-fa3b0ce9286d" />
+<img width="1855" height="945" alt="12365" src="https://github.com/user-attachments/assets/210a9b6e-1256-43d0-8eb6-91aea30e664a" />
 
 ## Om 12365
 
