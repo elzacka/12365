@@ -15,6 +15,9 @@ export function ImageLightbox({ bilde, onClose }: ImageLightboxProps) {
     if (!dialog) return
     if (bilde && !dialog.open) {
       dialog.showModal()
+      // Flytt fokus til dialogen selv slik at lukkeknappens
+      // focus-visible-ring ikke vises ved programmatisk auto-fokus.
+      dialog.focus()
     } else if (!bilde && dialog.open) {
       dialog.close()
     }
@@ -38,8 +41,9 @@ export function ImageLightbox({ bilde, onClose }: ImageLightboxProps) {
     <dialog
       ref={dialogRef}
       onClick={handleBackdropClick}
+      tabIndex={-1}
       aria-label={bilde ? `Bilde i fullskjerm: ${bilde.alt}` : undefined}
-      className="lightbox bg-transparent p-0 m-0 max-w-none max-h-none w-full h-full backdrop:bg-black/85"
+      className="lightbox bg-transparent p-0 m-0 max-w-none max-h-none w-full h-full backdrop:bg-black/85 outline-none"
     >
       {bilde && (
         <div className="relative w-full h-full flex flex-col items-center justify-center p-4 sm:p-8">

@@ -76,7 +76,7 @@ export function FlipCard({ card }: FlipCardProps) {
               <p className="text-xs text-white leading-snug">{card.alene}</p>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-brand-200 mb-1">Hvordan den spiller med andre</p>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-brand-200 mb-1">Sammen med andre</p>
               <p className="text-xs text-white leading-snug">{card.sammen}</p>
             </div>
           </div>
