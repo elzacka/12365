@@ -69,11 +69,11 @@
           },
           {
             "tittel": "Finn appene i venstremenyen",
-            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Standardvalgene er **Aktivitet**, **Chat**, **Teams**, **Kalender**, **OneDrive** og **Apper**.\n\nDe nyttigste å feste i tillegg:\n\n- **Planner** — oppgaver og planer\n- **Lists** — strukturerte lister\n- **Loop** — levende samarbeidsdokumenter\n- **Copilot** — KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** nederst i venstremenyen og søk opp appen. Høyreklikk og velg **Fest** for å få den fast i menyen."
+            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Standardvalgene er **Aktivitet**, **Chat**, **Teams**, **Kalender**, **OneDrive** og **Apper**.\n\nDe nyttigste å feste i tillegg:\n\n- **Planner** — oppgaver og planer\n- **Lists** — strukturerte lister og oversikter\n- **Loop** — levende samarbeidsdokumenter\n- **Copilot** — KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** nederst i venstremenyen og søk opp appen. Høyreklikk og velg **Fest** for å få den fast i menyen."
           },
           {
             "tittel": "Bruk faner i kanalene",
-            "innhold": "Øverst i hver kanal kan du legge til **faner** — snarveier til det teamet bruker mest. Klikk **+** på fanelinja og velg hva du vil legge til:\n\n- En **Lists**-liste (f.eks. hendelseslogg eller risikoregister)\n- En **Planner**-tavle\n- Et **OneNote**-notatblokk\n- En **SharePoint-side** (les prosessdokumentasjon uten å åpne Edge)\n- Et **Whiteboard**\n- En **nettside** eller et **skjema**\n\nResultat: Alt teamet trenger er samlet på ett sted, i én kanal."
+            "innhold": "Øverst i hver kanal kan du legge til **faner** — snarveier til det teamet bruker mest. Klikk **+** på fanelinja og velg hva du vil legge til:\n\n- En **Lists**-oversikt (f.eks. hendelseslogg eller risikoregister)\n- En **Planner**-tavle\n- Et **OneNote**-notatblokk\n- En **SharePoint-side** (les prosessdokumentasjon uten å åpne Edge)\n- Et **Whiteboard**\n- En **nettside** eller et **skjema**\n\nResultat: Alt teamet trenger er samlet på ett sted, i én kanal."
           },
           {
             "tittel": "Åpne og rediger filer uten å forlate Teams",
@@ -120,6 +120,49 @@
           {
             "tittel": "Rediger direkte i Teams — ikke last ned",
             "innhold": "Klikk på en fil i Teams for å åpne den direkte. Du kan redigere Word, Excel og PowerPoint uten å laste ned noe — endringene lagres automatisk.\n\nFlere kan jobbe i samme fil samtidig — ingen «låser» den for andre. Det er en av de største gevinstene med å gå fra filserver til SharePoint."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sikkerhet",
+    "tittel": "Sikkerhet",
+    "beskrivelse": "Klassifisering, etiketter og trygg deling",
+    "artikler": [
+      {
+        "id": "folsomhetsetiketter",
+        "tittel": "Følsomhetsetiketter — slik klassifiserer du innhold",
+        "ingress": "Følsomhetsetiketter forteller M365 hvor sensitivt et dokument er — og styrer automatisk hvordan det kan deles, lastes ned og merkes.",
+        "kategori": "sikkerhet",
+        "tags": [
+          "følsomhetsetiketter",
+          "etikettering",
+          "klassifisering",
+          "sikkerhet",
+          "deling",
+          "policyer"
+        ],
+        "steg": [
+          {
+            "tittel": "Hva er en følsomhetsetikett?",
+            "innhold": "En **følsomhetsetikett** er en merkelapp du setter på et dokument, en e-post, en møteinvitasjon eller et team. Etiketten forteller M365 hvor sensitivt innholdet er — og hvilke regler som skal gjelde for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n- **Åpent** — kan deles fritt\n- **Internt** — kun for ansatte\n- **Sensitivt** — kun for utvalgte mottakere\n- **Ekstra sensitivt** — kryptert, kun navngitte personer\n\nEtikettene er definert av IT-avdelingen og gjelder på tvers av Word, Excel, PowerPoint, Outlook, Teams og SharePoint. *Listen i din organisasjon kan ha andre navn.*"
+          },
+          {
+            "tittel": "Slik klassifiserer du et dokument",
+            "innhold": "I Word, Excel og PowerPoint:\n\n1. Klikk **Følsomhet** i båndmenyen øverst (eller i statuslinjen nederst)\n2. Velg riktig etikett fra listen\n3. Etiketten lagres med dokumentet — også når det deles eller flyttes\n\nI Outlook setter du etiketten på e-posten **før du sender**. I Teams kan etiketten settes på selve teamet ved opprettelse — det styrer da deling, gjestetilgang og hvor filer kan lagres.\n\nHvis du ikke ser noen etiketter, er de ikke aktivert for kontoen din ennå. Ta kontakt med IT."
+          },
+          {
+            "tittel": "Hva etiketten styrer",
+            "innhold": "Følsomhetsetiketter er ikke bare en merkelapp — de aktiverer automatiske kontroller:\n\n- **Tilgang** — hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n- **Kryptering** — innholdet låses og kan kun leses av de med riktig nøkkel\n- **Vannmerker** — tekstmerking på utskrift og skjerm («Sensitivt — [navn]»)\n- **Nedlastingsregler** — om dokumentet kan lastes ned eller bare leses i nettleseren\n- **Topptekst og bunntekst** — automatisk innsetting av klassifiseringsmerking\n- **Eksterne grenser** — om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske alle reglene. Etiketten gjør det rette automatisk."
+          },
+          {
+            "tittel": "DLP-regler — beskyttelse mot utilsiktet deling",
+            "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (f.eks. fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n- Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n- Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n- Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt — du møter dem i hverdagen som varsler eller hindringer når noe ikke skal skje. De er en sikkerhetsmekanisme, ikke en mistillit til deg."
+          },
+          {
+            "tittel": "Klassifiser før du deler",
+            "innhold": "Som regel: **klassifiser dokumentet før du deler det**.\n\nHvis du oppretter et nytt dokument, sett etiketten med en gang — det er enklere å huske, og hindrer at sensitiv informasjon havner på avveie i mellomtiden.\n\nHvis du arver et dokument uten etikett, vurder hva det inneholder før du videresender. Den enkleste regelen: **er du i tvil, velg en strengere etikett**. Det er lettere å løsne på senere enn å trekke tilbake noe som er lekket."
           }
         ]
       }
@@ -307,7 +350,7 @@
   {
     "id": "lists",
     "tittel": "Lists",
-    "beskrivelse": "Strukturerte lister for sporing og oppfølging",
+    "beskrivelse": "Strukturerte lister og oversikter for sporing og oppfølging",
     "artikler": [
       {
         "id": "lists-hendelseslogg",
@@ -636,6 +679,52 @@
     ]
   },
   {
+    "id": "shifts",
+    "tittel": "Shifts",
+    "beskrivelse": "Vaktplanlegging og skiftarbeid i Teams",
+    "artikler": [
+      {
+        "id": "komme-i-gang-med-shifts",
+        "tittel": "Vaktplaner i Shifts",
+        "ingress": "Shifts er Microsofts vaktplanleggingsapp inkludert i Teams. Ansatte ser turnusen sin og bytter vakter — ledere lager og publiserer planene.",
+        "kategori": "shifts",
+        "tags": [
+          "shifts",
+          "vaktplanlegging",
+          "turnus",
+          "skift",
+          "frontlinje"
+        ],
+        "steg": [
+          {
+            "tittel": "Slik åpner du Shifts",
+            "innhold": "Shifts ligger inne i Teams — du trenger ingen egen app.\n\n**På PC og nettleser:**\n\n1. Klikk **Shifts** i applinjen til venstre i Teams\n2. Ser du den ikke? Velg **Vis flere apper** og finn Shifts i listen\n\n**På mobil:**\n\n1. Trykk **Shifts** i applinjen nederst i Teams-appen\n2. Ser du den ikke? Sveip opp fra applinjen for å se flere apper\n\nHøyreklikk på Shifts og velg **Fest** for å beholde den synlig i menyen — særlig nyttig hvis du bruker Shifts daglig."
+          },
+          {
+            "tittel": "Som ansatt — vis vaktene dine",
+            "innhold": "I Shifts ser du både dine egne vakter og hele teamets plan.\n\n- **Mine vakter** — viser kun det du selv står oppført på\n- **Gruppeplan** — viser alle på teamet, slik at du ser hvem du jobber sammen med\n- **Tilgjengelighet** — her angir du hvilke dager og tider du kan jobbe\n\nKalendervisningen kan filtreres på dag, uke eller måned. Trykk på en vakt for å se detaljer som tidspunkt, lokasjon, oppgaver og notater fra leder."
+          },
+          {
+            "tittel": "Som ansatt — be om vaktbytte",
+            "innhold": "Trenger du å bytte en vakt? Det gjøres i Shifts og sendes til leder for godkjenning.\n\n**Bytte en vakt:**\n\n1. Trykk på vakten du vil bytte fra\n2. Velg **Bytt** eller **Tilby**\n3. Velg en kollega som har en vakt du heller vil ta — eller tilby vakten din til andre\n4. Send forespørsel — leder må godkjenne både byttet og kollegaens samtykke\n\n**Be om åpne vakter:** Hvis lederen har publisert ledige vakter (for eksempel ekstravakter eller åpne stillinger), kan du søke på dem direkte i Shifts."
+          },
+          {
+            "tittel": "Som leder — lag og publiser en skiftplan",
+            "innhold": "Som teamleder bruker du Shifts til å lage turnusplaner for hele teamet.\n\n1. Åpne Shifts og velg riktig team\n2. Velg **Opprett ny tidsplan** og angi periode (uke, måned)\n3. Klikk på en celle i kalenderen og legg til en vakt — angi tidspunkt, lokasjon, oppgaver og eventuelle notater\n4. Gjenta for hver ansatt og hver dag\n\n**Tidsbesparende tips:**\n\n- **Importer fra Excel** — har du allerede en plan i Excel, kan den importeres direkte\n- **Kopier en tidligere uke** — bruk forrige ukes plan som mal og juster det som er nytt\n- **Bruk vaktmaler** — lagre faste vakttyper (f.eks. «Tidlig vakt», «Sen vakt», «Helgevakt») og dra dem inn i kalenderen\n\nNår planen er klar: **Publiser** den. Først da blir den synlig for de ansatte, og de får varsel."
+          },
+          {
+            "tittel": "Som leder — godkjenn vaktbytter",
+            "innhold": "Vaktbytteforespørsler fra ansatte havner i innboksen din i Shifts.\n\n1. Åpne fanen **Forespørsler**\n2. Se gjennom liste over vaktbytter og åpne vakter\n3. Godkjenn eller avslå med kort begrunnelse\n4. Den ansatte får varsel umiddelbart\n\nVed godkjent bytte oppdateres turnusen automatisk — både for den som ga fra seg vakten og den som tok den."
+          },
+          {
+            "tittel": "Slik passer Shifts inn i Teams",
+            "innhold": "Shifts er ikke en isolert app — den henger sammen med resten av Teams.\n\n- **Chat og kanaler** — hvis du har spørsmål om en vakt, kan du chatte med kollega eller leder direkte i Teams uten å bytte app.\n- **Varsler** — alle forespørsler, godkjenninger og endringer dukker opp i Aktivitet-fanen i Teams.\n- **Mobil først** — Shifts er designet for å brukes på mobil av frontlinjearbeidere som ikke sitter ved en PC.\n\nShifts støtter også stempling inn/ut, fraværsforespørsler og timelisterapporter. Om disse funksjonene er i bruk varierer mellom organisasjoner — sjekk med leder eller IT om hvordan dere registrerer arbeidstid og fravær.\n\nFor dyptgående veiledning, søk opp **Shifts** i Microsofts hjelpesider — der finnes egne emner om opprettelse av tidsplaner, publisering og import fra Excel."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "teams",
     "tittel": "Teams",
     "beskrivelse": "Chat, kanaler, møter og filer",
@@ -893,95 +982,6 @@
           {
             "tittel": "Arkiver eller slett — slik velger du",
             "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg:\n\n**Arkiver teamet** når:\n\n- Det kan være behov for å se på samtaler eller filer i ettertid\n- Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n- Det er regulert eller revidert arbeid med dokumentasjonskrav\n\nArkivering låser teamet — innhold er fortsatt finnbart, men ingen kan endre noe.\n\n**Slett teamet** når:\n\n- Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n- Det er åpenbart engangsarbeid uten gjenbruksverdi\n- Personvernhensyn taler for sletting\n\nHvis ingen våger å slette noe, er det et signal om at strukturen ikke har skilt godt nok mellom det viktige og det forbigående."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "shifts",
-    "tittel": "Shifts",
-    "beskrivelse": "Vaktplanlegging og skiftarbeid i Teams",
-    "artikler": [
-      {
-        "id": "komme-i-gang-med-shifts",
-        "tittel": "Vaktplaner i Shifts",
-        "ingress": "Shifts er Microsofts vaktplanleggingsapp inkludert i Teams. Ansatte ser turnusen sin og bytter vakter — ledere lager og publiserer planene.",
-        "kategori": "shifts",
-        "tags": [
-          "shifts",
-          "vaktplanlegging",
-          "turnus",
-          "skift",
-          "frontlinje"
-        ],
-        "steg": [
-          {
-            "tittel": "Slik åpner du Shifts",
-            "innhold": "Shifts ligger inne i Teams — du trenger ingen egen app.\n\n**På PC og nettleser:**\n\n1. Klikk **Shifts** i applinjen til venstre i Teams\n2. Ser du den ikke? Velg **Vis flere apper** og finn Shifts i listen\n\n**På mobil:**\n\n1. Trykk **Shifts** i applinjen nederst i Teams-appen\n2. Ser du den ikke? Sveip opp fra applinjen for å se flere apper\n\nHøyreklikk på Shifts og velg **Fest** for å beholde den synlig i menyen — særlig nyttig hvis du bruker Shifts daglig."
-          },
-          {
-            "tittel": "Som ansatt — vis vaktene dine",
-            "innhold": "I Shifts ser du både dine egne vakter og hele teamets plan.\n\n- **Mine vakter** — viser kun det du selv står oppført på\n- **Gruppeplan** — viser alle på teamet, slik at du ser hvem du jobber sammen med\n- **Tilgjengelighet** — her angir du hvilke dager og tider du kan jobbe\n\nKalendervisningen kan filtreres på dag, uke eller måned. Trykk på en vakt for å se detaljer som tidspunkt, lokasjon, oppgaver og notater fra leder."
-          },
-          {
-            "tittel": "Som ansatt — be om vaktbytte",
-            "innhold": "Trenger du å bytte en vakt? Det gjøres i Shifts og sendes til leder for godkjenning.\n\n**Bytte en vakt:**\n\n1. Trykk på vakten du vil bytte fra\n2. Velg **Bytt** eller **Tilby**\n3. Velg en kollega som har en vakt du heller vil ta — eller tilby vakten din til andre\n4. Send forespørsel — leder må godkjenne både byttet og kollegaens samtykke\n\n**Be om åpne vakter:** Hvis lederen har publisert ledige vakter (for eksempel ekstravakter eller åpne stillinger), kan du søke på dem direkte i Shifts."
-          },
-          {
-            "tittel": "Som leder — lag og publiser en skiftplan",
-            "innhold": "Som teamleder bruker du Shifts til å lage turnusplaner for hele teamet.\n\n1. Åpne Shifts og velg riktig team\n2. Velg **Opprett ny tidsplan** og angi periode (uke, måned)\n3. Klikk på en celle i kalenderen og legg til en vakt — angi tidspunkt, lokasjon, oppgaver og eventuelle notater\n4. Gjenta for hver ansatt og hver dag\n\n**Tidsbesparende tips:**\n\n- **Importer fra Excel** — har du allerede en plan i Excel, kan den importeres direkte\n- **Kopier en tidligere uke** — bruk forrige ukes plan som mal og juster det som er nytt\n- **Bruk vaktmaler** — lagre faste vakttyper (f.eks. «Tidlig vakt», «Sen vakt», «Helgevakt») og dra dem inn i kalenderen\n\nNår planen er klar: **Publiser** den. Først da blir den synlig for de ansatte, og de får varsel."
-          },
-          {
-            "tittel": "Som leder — godkjenn vaktbytter",
-            "innhold": "Vaktbytteforespørsler fra ansatte havner i innboksen din i Shifts.\n\n1. Åpne fanen **Forespørsler**\n2. Se gjennom liste over vaktbytter og åpne vakter\n3. Godkjenn eller avslå med kort begrunnelse\n4. Den ansatte får varsel umiddelbart\n\nVed godkjent bytte oppdateres turnusen automatisk — både for den som ga fra seg vakten og den som tok den."
-          },
-          {
-            "tittel": "Slik passer Shifts inn i Teams",
-            "innhold": "Shifts er ikke en isolert app — den henger sammen med resten av Teams.\n\n- **Chat og kanaler** — hvis du har spørsmål om en vakt, kan du chatte med kollega eller leder direkte i Teams uten å bytte app.\n- **Varsler** — alle forespørsler, godkjenninger og endringer dukker opp i Aktivitet-fanen i Teams.\n- **Mobil først** — Shifts er designet for å brukes på mobil av frontlinjearbeidere som ikke sitter ved en PC.\n\nShifts støtter også stempling inn/ut, fraværsforespørsler og timelisterapporter. Om disse funksjonene er i bruk varierer mellom organisasjoner — sjekk med leder eller IT om hvordan dere registrerer arbeidstid og fravær.\n\nFor dyptgående veiledning, søk opp **Shifts** i Microsofts hjelpesider — der finnes egne emner om opprettelse av tidsplaner, publisering og import fra Excel."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sikkerhet",
-    "tittel": "Sikkerhet",
-    "beskrivelse": "Klassifisering, etiketter og trygg deling",
-    "artikler": [
-      {
-        "id": "folsomhetsetiketter",
-        "tittel": "Følsomhetsetiketter — slik klassifiserer du innhold",
-        "ingress": "Følsomhetsetiketter forteller M365 hvor sensitivt et dokument er — og styrer automatisk hvordan det kan deles, lastes ned og merkes.",
-        "kategori": "sikkerhet",
-        "tags": [
-          "følsomhetsetiketter",
-          "etikettering",
-          "klassifisering",
-          "sikkerhet",
-          "deling",
-          "policyer"
-        ],
-        "steg": [
-          {
-            "tittel": "Hva er en følsomhetsetikett?",
-            "innhold": "En **følsomhetsetikett** er en merkelapp du setter på et dokument, en e-post, en møteinvitasjon eller et team. Etiketten forteller M365 hvor sensitivt innholdet er — og hvilke regler som skal gjelde for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n- **Åpent** — kan deles fritt\n- **Internt** — kun for ansatte\n- **Sensitivt** — kun for utvalgte mottakere\n- **Ekstra sensitivt** — kryptert, kun navngitte personer\n\nEtikettene er definert av IT-avdelingen og gjelder på tvers av Word, Excel, PowerPoint, Outlook, Teams og SharePoint. *Listen i din organisasjon kan ha andre navn.*"
-          },
-          {
-            "tittel": "Slik klassifiserer du et dokument",
-            "innhold": "I Word, Excel og PowerPoint:\n\n1. Klikk **Følsomhet** i båndmenyen øverst (eller i statuslinjen nederst)\n2. Velg riktig etikett fra listen\n3. Etiketten lagres med dokumentet — også når det deles eller flyttes\n\nI Outlook setter du etiketten på e-posten **før du sender**. I Teams kan etiketten settes på selve teamet ved opprettelse — det styrer da deling, gjestetilgang og hvor filer kan lagres.\n\nHvis du ikke ser noen etiketter, er de ikke aktivert for kontoen din ennå. Ta kontakt med IT."
-          },
-          {
-            "tittel": "Hva etiketten styrer",
-            "innhold": "Følsomhetsetiketter er ikke bare en merkelapp — de aktiverer automatiske kontroller:\n\n- **Tilgang** — hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n- **Kryptering** — innholdet låses og kan kun leses av de med riktig nøkkel\n- **Vannmerker** — tekstmerking på utskrift og skjerm («Sensitivt — [navn]»)\n- **Nedlastingsregler** — om dokumentet kan lastes ned eller bare leses i nettleseren\n- **Topptekst og bunntekst** — automatisk innsetting av klassifiseringsmerking\n- **Eksterne grenser** — om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske alle reglene. Etiketten gjør det rette automatisk."
-          },
-          {
-            "tittel": "DLP-regler — beskyttelse mot utilsiktet deling",
-            "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (f.eks. fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n- Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n- Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n- Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt — du møter dem i hverdagen som varsler eller hindringer når noe ikke skal skje. De er en sikkerhetsmekanisme, ikke en mistillit til deg."
-          },
-          {
-            "tittel": "Klassifiser før du deler",
-            "innhold": "Som regel: **klassifiser dokumentet før du deler det**.\n\nHvis du oppretter et nytt dokument, sett etiketten med en gang — det er enklere å huske, og hindrer at sensitiv informasjon havner på avveie i mellomtiden.\n\nHvis du arver et dokument uten etikett, vurder hva det inneholder før du videresender. Den enkleste regelen: **er du i tvil, velg en strengere etikett**. Det er lettere å løsne på senere enn å trekke tilbake noe som er lekket."
           }
         ]
       }

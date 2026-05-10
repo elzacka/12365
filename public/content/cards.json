@@ -38,7 +38,7 @@
     "navn": "Excel",
     "tagline": "Regneark, formler og analyser",
     "alene": "Beregn, modeller og analyser med pivot og formler.",
-    "sammen": "Tar imot svar fra Forms og data fra Lists, og leverer videre til Power BI for visualisering. Skal flere samarbeide om en liste — bruk Lists.",
+    "sammen": "Tar imot svar fra Forms og data fra Lists, og leverer videre til Power BI for visualisering. Skal flere samarbeide om en felles liste eller oversikt — bruk Lists.",
     "fotnote": ""
   },
   {
@@ -51,7 +51,7 @@
   {
     "navn": "Lists",
     "tagline": "Strukturerte data",
-    "alene": "Organiser og spor informasjon — saksoppfølging, inventar, påmeldinger og ressursplanlegging. Bedre enn Excel for samarbeid om lister.",
+    "alene": "Organiser og spor informasjon i lister og oversikter — saksoppfølging, inventar, påmeldinger, ressursplanlegging og enkle registre. Bedre enn Excel for felles samarbeid.",
     "sammen": "Brukes direkte i Teams-kanaler. Innebygde regler gir varsler når noe endres, og hurtigsteg utfører faste handlinger uten kode.",
     "fotnote": ""
   },
