@@ -11,14 +11,22 @@
     "tagline": "Selvbetjent avtalebooking",
     "alene": "La kunder, innbyggere eller kolleger bestille tid i kalenderen — automatisk med påminnelser og bekreftelser.",
     "sammen": "Synkroniseres med Outlook-kalenderen. Møtelinker for Teams opprettes automatisk og deltakere får bekreftelse på e-post.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/business/scheduling-and-booking-app#Overview-1"
+    }
   },
   {
     "navn": "Clipchamp",
     "tagline": "Video i Microsoft 365",
     "alene": "Video-appen i Microsoft 365. Ta opp skjerm, kamera eller stemme, rediger med maler og KI-effekter, og få automatisk transkripsjon.",
     "sammen": "Videoer lagres i OneDrive eller SharePoint og spilles av direkte i Teams, Outlook og SharePoint-sider.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/clipchamp?market=no#tabs-pill-bar-ocf614_tab1"
+    }
   },
   {
     "navn": "Copilot Chat",
@@ -53,21 +61,33 @@
     "tagline": "Undersøkelser, tilbakemeldinger og quizer",
     "alene": "Spørreundersøkelser, quizer og enkle påmeldingsskjemaer for rask innsamling av informasjon.",
     "sammen": "Resultater oppdateres i sanntid og kan analyseres i Excel. Send svar direkte inn i en Lists-tabell for strukturert oppfølging.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/online-surveys-polls-quizzes#Overview-1"
+    }
   },
   {
     "navn": "Lists",
     "tagline": "Strukturerte data",
     "alene": "Organiser og spor informasjon i lister og oversikter — saksoppfølging, inventar, påmeldinger, ressursplanlegging og enkle registre. Bedre enn Excel for felles samarbeid.",
     "sammen": "Brukes direkte i Teams-kanaler. Innebygde regler gir varsler når noe endres, og hurtigsteg utfører faste handlinger uten kode.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-lists#Overview-2"
+    }
   },
   {
     "navn": "Loop",
     "tagline": "Levende komponenter og delte arbeidsrom",
     "alene": "Sanntidssamarbeid på tvers av apper — møtenotater, idémyldring og tabeller som forblir synkronisert. Loop Workspaces er nå et fullverdig delt arbeidsrom for prosjekter, knyttet til en M365-gruppe.",
     "sammen": "Loop-komponenter limes inn i Teams-chat, e-post eller Word — innholdet er oppdatert overalt når noen gjør en endring.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-loop"
+    }
   },
   {
     "navn": "OneDrive",
@@ -95,35 +115,55 @@
     "tagline": "Hybridarbeid og tilstedeværelse",
     "alene": "Koordiner kontordager, finn ledige rom og se hvilke kolleger som er på samme sted som deg. Places samler hybrid arbeidsstyring i Outlook og Teams.",
     "sammen": "Outlook foreslår møtetider basert på når kolleger er på samme sted, og Teams-status henger sammen med arbeidsplanen.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-teams/microsoft-places?market=no#Solutions"
+    }
   },
   {
     "navn": "Planner",
     "tagline": "Microsofts samlede prosjekt- og oppgavehub",
     "alene": "Visuell oppgavebehandling med bøtter, kort, tavle og tidslinje — og oversikt over flere prosjekter samtidig. Microsofts samlede plattform for prosjekt- og oppgavestyring.",
     "sammen": "Tildelte oppgaver dukker opp i ansattes To Do-liste. Legg planen til som fane i Teams-kanalen — oppgaver, filer og diskusjoner i samme flate.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/planner/microsoft-planner?market=no#Overview"
+    }
   },
   {
     "navn": "Power Apps",
     "tagline": "Bygg apper med lavkode",
     "alene": "Lavkode-plattform for å bygge interne apper — for eksempel timeregistrering eller utstyrsbestilling — direkte i Teams.",
     "sammen": "Bruker organisasjonens egne data fra Lists eller SharePoint for å løse spesifikke oppgaver.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
+    }
   },
   {
     "navn": "Power Automate",
     "tagline": "Automatiser repeterende arbeidsoppgaver",
     "alene": "Automatiserer repeterende oppgaver mellom apper — godkjenninger, varslinger og oppdateringer.",
     "sammen": "Utløses av hendelser i nesten alle M365-apper — som nytt svar i Forms eller endring i Lists.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
+    }
   },
   {
     "navn": "Power BI",
     "tagline": "Innsikt fra dine data",
     "alene": "Analyse og visualisering — interaktive rapporter og dashbord med innsikt i sanntid.",
     "sammen": "Integreres i Teams-kanaler. Kobles mot Lists, Excel og eksterne datakilder.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
+    }
   },
   {
     "navn": "PowerPoint",
@@ -137,70 +177,110 @@
     "tagline": "Fellesområde og publiseringsplattform",
     "alene": "Lagringsmotoren bak fildelingen i Teams — og plattform for nettsider, strukturert informasjon og samarbeid på tvers.",
     "sammen": "Sørger for versjonskontroll og sporbarhet — alle har tilgang til siste versjon, og endringer kan etterprøves.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/sharepoint/collaboration?market=no#tabs-pill-bar-occfa1_tab1"
+    }
   },
   {
     "navn": "Shifts",
     "tagline": "Vaktplanlegging i Teams",
     "alene": "Lag og publiser turnusplaner, godkjenn bytteforespørsler og kommuniser med skiftarbeidere — direkte i Teams-appen på mobil.",
     "sammen": "Integrert med Teams-chat og kanaler. Ansatte ser sin vakt sammen med chat og oppgaver i samme app.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-teams/staff-scheduling-shift-management"
+    }
   },
   {
     "navn": "Sway",
     "tagline": "Visuell historiefortelling",
     "alene": "Lag responsive, visuelle presentasjoner og rapporter med moderne layout — leses på alle skjermer, deles som lenke.",
     "sammen": "Alternativ til PowerPoint når innholdet skal leses på nett snarere enn presenteres i et møte.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://sway.cloud.microsoft/"
+    }
   },
   {
     "navn": "To Do",
     "tagline": "Din personlige huskeliste",
     "alene": "Planlegg dagens gjøremål, sett påminnelser og prioriter «Min dag» — full kontroll på egen arbeidsdag.",
     "sammen": "Samler automatisk oppgaver fra Planner og flaggede e-poster fra Outlook på ett sted.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Viva Connections",
-    "tagline": "Intranett i Teams",
-    "alene": "Tilpasset dashbord med nyheter, ressurser og snarveier til viktige verktøy — hentet inn i Teams-grensesnittet.",
-    "sammen": "Bygges på SharePoint-hubsider og målrettes mot grupper. Erstatter behovet for å åpne et separat intranett.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Viva Engage",
-    "tagline": "Internt sosialt nettverk",
-    "alene": "Organisasjonens sosiale nettverk for åpen dialog — del suksesshistorier, bygg fellesskap og styrk kulturen på tvers av siloer.",
-    "sammen": "Integrert i Teams-grensesnittet — du deltar i fellesskapet i samme flate som du gjør det daglige arbeidet.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Viva Insights",
-    "tagline": "Personlig produktivitet",
-    "alene": "Innsikt i egen arbeidshverdag — fokustid, møtebelastning og pauser. Premium personlig innsikt gir KI-forslag som utsatt sending av e-post, fokustid-blokkering og påminnelser om oppfølging.",
-    "sammen": "Bruker data fra Outlook og Teams. Følger personvernsoppsett satt av tenant-administrator.",
-    "fotnote": ""
-  },
-  {
-    "navn": "Viva Learning",
-    "tagline": "Intern opplæring i Teams",
-    "alene": "Plattform der organisasjonen samler egne opplæringsressurser — rutiner, retningslinjer, prosesser og videoer — og gjør dem finnbare for ansatte direkte i Teams.",
-    "sammen": "Innholdet hentes inn fra SharePoint-biblioteker som organisasjonen selv kuraterer. Legg Viva Learning til som fane i Teams-kanaler så hele teamet kan se og diskutere samme opplæringsmateriale.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-to-do-list-app"
+    }
   },
   {
     "navn": "Visio",
     "tagline": "Diagrammer og flytkart",
     "alene": "Visio for nett — lag profesjonelle prosess-, organisasjons- og nettverkskart i Edge.",
     "sammen": "Sett inn diagrammer som faner i Teams og lenk dem til data i Excel og Lists — figurene oppdateres når dataene endres.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/visio?market=no#app-integrations"
+    }
+  },
+  {
+    "navn": "Viva Connections",
+    "tagline": "Intranett i Teams",
+    "alene": "Tilpasset dashbord med nyheter, ressurser og snarveier til viktige verktøy — hentet inn i Teams-grensesnittet.",
+    "sammen": "Bygges på SharePoint-hubsider og målrettes mot grupper. Erstatter behovet for å åpne et separat intranett.",
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-viva/connections?market=no#features"
+    }
+  },
+  {
+    "navn": "Viva Engage",
+    "tagline": "Internt sosialt nettverk",
+    "alene": "Organisasjonens sosiale nettverk for åpen dialog — del suksesshistorier, bygg fellesskap og styrk kulturen på tvers av siloer.",
+    "sammen": "Integrert i Teams-grensesnittet — du deltar i fellesskapet i samme flate som du gjør det daglige arbeidet.",
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-viva/engage?market=no#Overview"
+    }
+  },
+  {
+    "navn": "Viva Insights",
+    "tagline": "Personlig produktivitet",
+    "alene": "Innsikt i egen arbeidshverdag — fokustid, møtebelastning og pauser. Premium personlig innsikt gir KI-forslag som utsatt sending av e-post, fokustid-blokkering og påminnelser om oppfølging.",
+    "sammen": "Bruker data fra Outlook og Teams. Følger personvernsoppsett satt av tenant-administrator.",
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-viva/insights?market=no"
+    }
+  },
+  {
+    "navn": "Viva Learning",
+    "tagline": "Intern opplæring i Teams",
+    "alene": "Plattform der organisasjonen samler egne opplæringsressurser — rutiner, retningslinjer, prosesser og videoer — og gjør dem finnbare for ansatte direkte i Teams.",
+    "sammen": "Innholdet hentes inn fra SharePoint-biblioteker som organisasjonen selv kuraterer. Legg Viva Learning til som fane i Teams-kanaler så hele teamet kan se og diskutere samme opplæringsmateriale.",
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-viva/learning?market=no#tabs-pill-bar-oc3efb_tab0"
+    }
   },
   {
     "navn": "Whiteboard",
     "tagline": "Digital tavle for samarbeid",
     "alene": "Uendelig digital tavle for workshops, tankekart og prosessvisualisering — spesielt nyttig i hybride møter. Tavler lagres som filer i din OneDrive.",
     "sammen": "Startes direkte i Teams-møter slik at alle deltakere kan tegne sammen i sanntid.",
-    "fotnote": ""
+    "fotnote": "",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-whiteboard/digital-whiteboard-app#Overview-2"
+    }
   },
   {
     "navn": "Word",

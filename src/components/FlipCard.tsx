@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { FlipCard as FlipCardType } from '../types'
-import { FlipIcon } from './Icons'
+import { FlipIcon, ExternalLinkIcon } from './Icons'
 
 interface FlipCardProps {
   card: FlipCardType
@@ -81,6 +81,24 @@ export function FlipCard({ card }: FlipCardProps) {
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-brand-200 mb-1">Sammen med andre</p>
               <p className="text-xs text-white leading-snug">{card.sammen}</p>
+              {card.lenke ? (
+                <p className="mt-3 text-xs leading-snug">
+                  <a
+                    href={card.lenke.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={e => e.stopPropagation()}
+                    className="text-brand-200 hover:text-white transition-colors"
+                  >
+                    {card.lenke.tekst}
+                    <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
+                  </a>
+                </p>
+              ) : (
+                <p aria-hidden="true" className="invisible mt-3 text-xs leading-snug">
+                  Lenketekst-plassholder
+                </p>
+              )}
             </div>
           </div>
           {card.fotnote && (
