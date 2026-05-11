@@ -4,6 +4,10 @@ export interface FlipCard {
   alene: string
   sammen: string
   fotnote: string
+  lenke?: {
+    tekst: string
+    url: string
+  }
 }
 
 export interface ArticleImage {
