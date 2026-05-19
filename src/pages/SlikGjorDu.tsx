@@ -4,8 +4,17 @@ import { hentArtikler } from '../data/loader'
 import { ChevronRightIcon, SearchIcon, CloseIcon } from '../components/Icons'
 
 export function SlikGjorDu() {
-  const alleKategorier = use(hentArtikler())
+  const alleKategorierRaw = use(hentArtikler())
   const [filter, setFilter] = useState('')
+
+  // Filtrer bort skjulte artikler tidlig — gjelder både listevisning og søketelling
+  const alleKategorier = useMemo(
+    () =>
+      alleKategorierRaw
+        .map(kat => ({ ...kat, artikler: kat.artikler.filter(a => !a.skjult) }))
+        .filter(kat => kat.artikler.length > 0),
+    [alleKategorierRaw],
+  )
 
   const kategorier = useMemo(() => {
     if (!filter.trim()) return alleKategorier

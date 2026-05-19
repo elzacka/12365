@@ -53,7 +53,7 @@ export function Artikkel() {
     scrollToTop()
   }
 
-  if (!artikkel || !kategori) {
+  if (!artikkel || !kategori || artikkel.skjult) {
     return <Navigate to="/slik-gjor-du" replace />
   }
 
@@ -209,7 +209,7 @@ export function Artikkel() {
               {artikkel.relaterte.map((relId, idx, arr) => {
                 const relKat = ARTICLE_CATEGORIES.find(k => k.artikler.some(a => a.id === relId))
                 const relArt = relKat?.artikler.find(a => a.id === relId)
-                if (!relArt || !relKat) return null
+                if (!relArt || !relKat || relArt.skjult) return null
                 return (
                   <Link
                     key={relId}
