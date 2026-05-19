@@ -1,5 +1,5 @@
 import { useState, useMemo, use } from 'react'
-import { hentLisensSammenligning } from '../data/loader'
+import { fetchLicenseComparison } from '../data/loader'
 import {
   CheckIcon,
   PlusIcon,
@@ -9,19 +9,19 @@ import {
   ChevronRightIcon,
   ExternalLinkIcon,
 } from '../components/Icons'
-import type { LisensFunksjon, LisensStatus } from '../types'
+import type { LicenseFeature, LicenseStatus } from '../types'
 
 type FilterId = 'alle' | 'e3' | 'e5' | 'tillegg'
 
-const FILTRE: { id: FilterId; label: string }[] = [
+const FILTERS: { id: FilterId; label: string }[] = [
   { id: 'alle', label: 'Alle' },
   { id: 'e3', label: 'E3' },
   { id: 'e5', label: 'E5' },
   { id: 'tillegg', label: 'Tilleggskjøp' },
 ]
 
-const STATUS_KONFIG: Record<
-  LisensStatus,
+const STATUS_CONFIG: Record<
+  LicenseStatus,
   { bg: string; text: string; ring: string; Icon: typeof CheckIcon; label: string }
 > = {
   inkludert: {
@@ -47,24 +47,24 @@ const STATUS_KONFIG: Record<
   },
 }
 
-function passerFilter(f: LisensFunksjon, aktive: Set<FilterId>): boolean {
-  if (aktive.has('alle')) return true
-  if (aktive.has('e3') && f.e3 === 'inkludert') return true
-  if (aktive.has('e5') && f.e5 === 'inkludert') return true
-  if (aktive.has('tillegg') && (f.e3 === 'tillegg' || f.e5 === 'tillegg')) return true
+function passesFilter(f: LicenseFeature, active: Set<FilterId>): boolean {
+  if (active.has('alle')) return true
+  if (active.has('e3') && f.e3 === 'inkludert') return true
+  if (active.has('e5') && f.e5 === 'inkludert') return true
+  if (active.has('tillegg') && (f.e3 === 'tillegg' || f.e5 === 'tillegg')) return true
   return false
 }
 
-function StatusBadge({ status, lisens }: { status: LisensStatus; lisens: 'E3' | 'E5' }) {
-  const k = STATUS_KONFIG[status]
+function StatusBadge({ status, license }: { status: LicenseStatus; license: 'E3' | 'E5' }) {
+  const k = STATUS_CONFIG[status]
   const { Icon } = k
   return (
     <div className="flex items-center gap-1.5">
-      <span className="text-[11px] font-semibold text-slate-500 w-5 text-right tabular-nums">{lisens}</span>
+      <span className="text-[11px] font-semibold text-slate-500 w-5 text-right tabular-nums">{license}</span>
       <span
         className={`inline-flex items-center justify-center w-6 h-6 rounded-full ${k.bg} ${k.text} ring-1 ${k.ring}`}
-        aria-label={`${lisens}: ${k.label}`}
-        title={`${lisens}: ${k.label}`}
+        aria-label={`${license}: ${k.label}`}
+        title={`${license}: ${k.label}`}
       >
         <Icon size={13} />
       </span>
@@ -72,42 +72,42 @@ function StatusBadge({ status, lisens }: { status: LisensStatus; lisens: 'E3' | 
   )
 }
 
-export function Lisenser() {
-  const data = use(hentLisensSammenligning())
-  const [aktiveFiltre, setAktiveFiltre] = useState<Set<FilterId>>(new Set(['alle']))
-  const [sok, setSok] = useState('')
-  const [utvidet, setUtvidet] = useState<Set<string>>(new Set())
-  const [aktivFunksjon, setAktivFunksjon] = useState<string | null>(null)
+export function Licenses() {
+  const data = use(fetchLicenseComparison())
+  const [activeFilters, setActiveFilters] = useState<Set<FilterId>>(new Set(['alle']))
+  const [query, setQuery] = useState('')
+  const [expanded, setExpanded] = useState<Set<string>>(new Set())
+  const [activeFeature, setActiveFeature] = useState<string | null>(null)
 
-  const sokNorm = sok.trim().toLowerCase()
-  const erFiltrert = !aktiveFiltre.has('alle') || sokNorm.length > 0
-  const visE3Badge = aktiveFiltre.has('alle') || aktiveFiltre.has('e3') || aktiveFiltre.has('tillegg')
-  const visE5Badge = aktiveFiltre.has('alle') || aktiveFiltre.has('e5') || aktiveFiltre.has('tillegg')
+  const normalizedQuery = query.trim().toLowerCase()
+  const isFiltered = !activeFilters.has('alle') || normalizedQuery.length > 0
+  const showE3Badge = activeFilters.has('alle') || activeFilters.has('e3') || activeFilters.has('tillegg')
+  const showE5Badge = activeFilters.has('alle') || activeFilters.has('e5') || activeFilters.has('tillegg')
 
-  const filtreteKategorier = useMemo(() => {
+  const filteredCategories = useMemo(() => {
     return data.kategorier
-      .map(kat => ({
-        ...kat,
-        funksjoner: kat.funksjoner.filter(f => {
-          // Skjul funksjoner uten relevans for E3 eller E5 (bedre alternativ inkludert,
-          // f.eks. Exchange Plan 1 og SharePoint Plan 1 — Plan 2 følger med).
+      .map(cat => ({
+        ...cat,
+        funksjoner: cat.funksjoner.filter(f => {
+          // Hide features irrelevant for E3 or E5 (better alternative already included,
+          // e.g. Exchange Plan 1 and SharePoint Plan 1 — Plan 2 follows).
           if (f.e3 === 'ikke' && f.e5 === 'ikke') return false
-          return passerFilter(f, aktiveFiltre) && (sokNorm ? f.navn.toLowerCase().includes(sokNorm) : true)
+          return passesFilter(f, activeFilters) && (normalizedQuery ? f.navn.toLowerCase().includes(normalizedQuery) : true)
         }),
       }))
-      .filter(kat => kat.funksjoner.length > 0)
-  }, [data, aktiveFiltre, sokNorm])
+      .filter(cat => cat.funksjoner.length > 0)
+  }, [data, activeFilters, normalizedQuery])
 
   function toggleFilter(id: FilterId) {
-    setAktiveFiltre(prev => {
-      // Klikk «Alle» nullstiller alt
+    setActiveFilters(prev => {
+      // Clicking «Alle» resets everything.
       if (id === 'alle') return new Set<FilterId>(['alle'])
 
       const next = new Set(prev)
       next.delete('alle')
 
       if (id === 'e3' || id === 'e5') {
-        // E3 og E5 er gjensidig utelukkende
+        // E3 and E5 are mutually exclusive.
         if (next.has(id)) {
           next.delete(id)
         } else {
@@ -124,9 +124,9 @@ export function Lisenser() {
     })
   }
 
-  function toggleKategori(id: string) {
-    if (erFiltrert) return
-    setUtvidet(prev => {
+  function toggleCategory(id: string) {
+    if (isFiltered) return
+    setExpanded(prev => {
       const next = new Set(prev)
       if (next.has(id)) next.delete(id)
       else next.add(id)
@@ -134,15 +134,15 @@ export function Lisenser() {
     })
   }
 
-  function tilbakestill() {
-    setAktiveFiltre(new Set<FilterId>(['alle']))
-    setSok('')
+  function reset() {
+    setActiveFilters(new Set<FilterId>(['alle']))
+    setQuery('')
   }
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-10 max-w-2xl mx-auto w-full">
-        {/* Veiledning + kilde */}
+        {/* Guidance + source */}
         <p className="text-center text-sm text-slate-500 mb-1">
           Trykk for å se hva de ulike tingene brukes til
         </p>
@@ -151,14 +151,14 @@ export function Lisenser() {
             href={data.kildeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-slate-400 hover:text-brand-600 transition-colors"
+            className="text-slate-500 hover:text-brand-600 transition-colors"
           >
             Kilde: {data.kilde}
             <ExternalLinkIcon size={9} className="inline-block ml-0.5 align-[-0.125em]" />
           </a>
         </p>
 
-        {/* Søk */}
+        {/* Search */}
         <div className="relative mb-3">
           <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400">
             <SearchIcon size={18} />
@@ -166,14 +166,14 @@ export function Lisenser() {
           <input
             type="search"
             placeholder="Søk etter app, tjeneste, funksjon..."
-            value={sok}
-            onChange={e => setSok(e.target.value)}
+            value={query}
+            onChange={e => setQuery(e.target.value)}
             className="w-full pl-10 pr-9 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
             aria-label="Søk i lisensfunksjoner"
           />
-          {sok && (
+          {query && (
             <button
-              onClick={() => setSok('')}
+              onClick={() => setQuery('')}
               className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
               aria-label="Tøm søk"
             >
@@ -182,20 +182,20 @@ export function Lisenser() {
           )}
         </div>
 
-        {/* Filterchips */}
+        {/* Filter chips */}
         <div className="flex gap-2 overflow-x-auto pb-2 mb-4 hide-scrollbar -mx-4 px-4">
-          {FILTRE.map(f => {
-            const erAktiv = aktiveFiltre.has(f.id)
+          {FILTERS.map(f => {
+            const isActive = activeFilters.has(f.id)
             return (
               <button
                 key={f.id}
                 onClick={() => toggleFilter(f.id)}
                 className={`flex-shrink-0 px-3.5 py-2 rounded-full text-xs font-medium transition-all ${
-                  erAktiv
+                  isActive
                     ? 'bg-brand-700 text-white shadow-sm'
                     : 'bg-white border border-slate-200 text-slate-600 hover:border-slate-300'
                 }`}
-                aria-pressed={erAktiv}
+                aria-pressed={isActive}
               >
                 {f.label}
               </button>
@@ -203,87 +203,87 @@ export function Lisenser() {
           })}
         </div>
 
-        {/* Tema-grupper */}
-        {data.tema.map(tema => {
-          const kategorier = filtreteKategorier.filter(k => k.tema === tema.id)
-          if (kategorier.length === 0) return null
-          const totalIThema = kategorier.reduce((sum, k) => sum + k.funksjoner.length, 0)
+        {/* Theme groups */}
+        {data.tema.map(theme => {
+          const categoriesInTheme = filteredCategories.filter(k => k.tema === theme.id)
+          if (categoriesInTheme.length === 0) return null
+          const totalInTheme = categoriesInTheme.reduce((sum, k) => sum + k.funksjoner.length, 0)
           return (
-            <section key={tema.id} className="mb-6" aria-labelledby={`tema-${tema.id}`}>
+            <section key={theme.id} className="mb-6" aria-labelledby={`tema-${theme.id}`}>
               <header className="mb-2 px-1">
                 <div className="flex items-baseline justify-between gap-2">
                   <h2
-                    id={`tema-${tema.id}`}
+                    id={`tema-${theme.id}`}
                     className="text-sm font-semibold text-slate-500 uppercase tracking-wider"
                   >
-                    {tema.navn}
+                    {theme.navn}
                   </h2>
-                  <span className="text-[11px] font-medium text-slate-400 tabular-nums">{totalIThema}</span>
+                  <span className="text-[11px] font-medium text-slate-500 tabular-nums">{totalInTheme}</span>
                 </div>
-                <p className="text-[11px] text-slate-400 mt-0.5 leading-snug">{tema.beskrivelse}</p>
+                <p className="text-[11px] text-slate-500 mt-0.5 leading-snug">{theme.beskrivelse}</p>
               </header>
 
               <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                {kategorier.map((kat, idx) => {
-                  const apen = erFiltrert || utvidet.has(kat.id)
+                {categoriesInTheme.map((cat, idx) => {
+                  const isOpen = isFiltered || expanded.has(cat.id)
                   return (
-                    <div key={kat.id} className={idx > 0 ? 'border-t border-slate-100' : ''}>
+                    <div key={cat.id} className={idx > 0 ? 'border-t border-slate-100' : ''}>
                       <button
-                        onClick={() => toggleKategori(kat.id)}
+                        onClick={() => toggleCategory(cat.id)}
                         className={`w-full flex items-center gap-3 px-4 py-3.5 transition-colors ${
-                          erFiltrert ? 'cursor-default' : 'hover:bg-slate-50 active:bg-slate-100'
+                          isFiltered ? 'cursor-default' : 'hover:bg-slate-50 active:bg-slate-100'
                         }`}
-                        aria-expanded={apen}
-                        aria-controls={`kat-${kat.id}-list`}
+                        aria-expanded={isOpen}
+                        aria-controls={`cat-${cat.id}-list`}
                       >
                         <div className="flex-1 text-left min-w-0">
-                          <p className="text-sm font-medium text-slate-800 truncate">{kat.navn}</p>
-                          <p className="text-[11px] text-slate-400 mt-0.5">
-                            {kat.funksjoner.length} funksjon{kat.funksjoner.length === 1 ? '' : 'er'}
+                          <p className="text-sm font-medium text-slate-800 truncate">{cat.navn}</p>
+                          <p className="text-[11px] text-slate-500 mt-0.5">
+                            {cat.funksjoner.length} funksjon{cat.funksjoner.length === 1 ? '' : 'er'}
                           </p>
                         </div>
-                        {!erFiltrert && (
+                        {!isFiltered && (
                           <ChevronRightIcon
                             size={18}
                             className={`text-slate-300 flex-shrink-0 transition-transform duration-200 ${
-                              apen ? 'rotate-90' : ''
+                              isOpen ? 'rotate-90' : ''
                             }`}
                           />
                         )}
                       </button>
-                      {apen && (
+                      {isOpen && (
                         <ul
-                          id={`kat-${kat.id}-list`}
+                          id={`cat-${cat.id}-list`}
                           className="border-t border-slate-100 bg-slate-50/50"
                         >
-                          {kat.funksjoner.map((f, i) => {
-                            const funksjonId = `${kat.id}-${i}`
-                            const harBeskrivelse = Boolean(f.beskrivelse)
-                            const erAktiv = aktivFunksjon === funksjonId
+                          {cat.funksjoner.map((f, i) => {
+                            const featureId = `${cat.id}-${i}`
+                            const hasDescription = Boolean(f.beskrivelse)
+                            const isActive = activeFeature === featureId
                             return (
                               <li
-                                key={funksjonId}
-                                className={i < kat.funksjoner.length - 1 ? 'border-b border-slate-100' : ''}
+                                key={featureId}
+                                className={i < cat.funksjoner.length - 1 ? 'border-b border-slate-100' : ''}
                               >
                                 <button
                                   type="button"
-                                  onClick={() => harBeskrivelse && setAktivFunksjon(prev => prev === funksjonId ? null : funksjonId)}
+                                  onClick={() => hasDescription && setActiveFeature(prev => prev === featureId ? null : featureId)}
                                   className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors ${
-                                    harBeskrivelse ? 'hover:bg-slate-100 active:bg-slate-200 cursor-pointer' : 'cursor-default'
+                                    hasDescription ? 'hover:bg-slate-100 active:bg-slate-200 cursor-pointer' : 'cursor-default'
                                   }`}
-                                  aria-expanded={erAktiv}
-                                  aria-controls={erAktiv ? `${funksjonId}-detalj` : undefined}
-                                  disabled={!harBeskrivelse}
+                                  aria-expanded={isActive}
+                                  aria-controls={isActive ? `${featureId}-detail` : undefined}
+                                  disabled={!hasDescription}
                                 >
                                   <div className="flex-1 text-sm text-slate-700 leading-snug">{f.navn}</div>
                                   <div className="flex flex-col gap-1 flex-shrink-0">
-                                    {visE3Badge && <StatusBadge status={f.e3} lisens="E3" />}
-                                    {visE5Badge && <StatusBadge status={f.e5} lisens="E5" />}
+                                    {showE3Badge && <StatusBadge status={f.e3} license="E3" />}
+                                    {showE5Badge && <StatusBadge status={f.e5} license="E5" />}
                                   </div>
                                 </button>
-                                {erAktiv && f.beskrivelse && (
+                                {isActive && f.beskrivelse && (
                                   <div
-                                    id={`${funksjonId}-detalj`}
+                                    id={`${featureId}-detail`}
                                     className="px-4 pt-2 pb-3 bg-brand-50/60 border-t border-brand-100"
                                   >
                                     <p className="text-xs text-slate-700 leading-relaxed italic">{f.beskrivelse}</p>
@@ -302,12 +302,12 @@ export function Lisenser() {
           )
         })}
 
-        {/* Tom-tilstand */}
-        {filtreteKategorier.length === 0 && (
-          <div className="text-center py-16 text-slate-400">
+        {/* Empty state */}
+        {filteredCategories.length === 0 && (
+          <div className="text-center py-16 text-slate-500">
             <p className="text-base mb-1">Ingen funksjoner matcher</p>
             <button
-              onClick={tilbakestill}
+              onClick={reset}
               className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
             >
               Tilbakestill filter
@@ -315,7 +315,7 @@ export function Lisenser() {
           </div>
         )}
 
-        {/* Tegnforklaring */}
+        {/* Legend */}
         <div className="mt-6 bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
           <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-3">
             Tegnforklaring

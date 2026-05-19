@@ -1,26 +1,26 @@
-// Tolker video-kilden — lokal fil, YouTube, Vimeo eller ekstern mp4.
+// Parses the video source — local file, YouTube, Vimeo or external mp4.
 
-export type VideoKilde =
-  | { type: 'fil'; src: string }
+export type VideoSource =
+  | { type: 'file'; src: string }
   | { type: 'youtube'; embedSrc: string; thumbnailSrc: string }
   | { type: 'vimeo'; embedSrc: string }
 
 const YOUTUBE = /(?:youtube\.com\/(?:watch\?v=|embed\/|v\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/
 const VIMEO = /vimeo\.com\/(?:video\/)?(\d+)/
 
-export function tolkVideoKilde(fil: string, base: string): VideoKilde {
-  const yt = fil.match(YOUTUBE)
+export function parseVideoSource(file: string, base: string): VideoSource {
+  const yt = file.match(YOUTUBE)
   if (yt) {
     const id = yt[1]
     return {
       type: 'youtube',
-      // youtube-nocookie sletter ikke sporings-cookies før video faktisk spilles av.
+      // youtube-nocookie does not drop tracking cookies before the video is played.
       embedSrc: `https://www.youtube-nocookie.com/embed/${id}?rel=0&autoplay=1`,
       thumbnailSrc: `https://img.youtube.com/vi/${id}/hqdefault.jpg`,
     }
   }
 
-  const vimeo = fil.match(VIMEO)
+  const vimeo = file.match(VIMEO)
   if (vimeo) {
     const id = vimeo[1]
     return {
@@ -29,9 +29,9 @@ export function tolkVideoKilde(fil: string, base: string): VideoKilde {
     }
   }
 
-  const erAbsolutt = /^https?:\/\//i.test(fil)
+  const isAbsolute = /^https?:\/\//i.test(file)
   return {
-    type: 'fil',
-    src: erAbsolutt ? fil : `${base}${fil}`,
+    type: 'file',
+    src: isAbsolute ? file : `${base}${file}`,
   }
 }

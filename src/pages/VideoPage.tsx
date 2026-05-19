@@ -1,18 +1,18 @@
 import { use, useEffect, useRef } from 'react'
 import { useParams, Navigate } from 'react-router-dom'
-import { hentVideoer } from '../data/loader'
-import { tolkVideoKilde } from '../data/video-source'
+import { fetchVideos } from '../data/loader'
+import { parseVideoSource } from '../data/video-source'
 
-export function Video() {
-  const videoer = use(hentVideoer())
+export function VideoPage() {
+  const videos = use(fetchVideos())
   const { videoId } = useParams()
   const base = import.meta.env.BASE_URL
-  const video = videoer.find(v => v.id === videoId)
+  const video = videos.find(v => v.id === videoId)
   const videoRef = useRef<HTMLVideoElement>(null)
 
   useEffect(() => {
     videoRef.current?.play().catch(() => {
-      // Nettleseren blokkerte autoplay — bruker kan starte manuelt med play-knappen.
+      // Browser blocked autoplay — user can start manually via the play button.
     })
   }, [videoId])
 
@@ -20,16 +20,16 @@ export function Video() {
     return <Navigate to="/videoer" replace />
   }
 
-  const kilde = tolkVideoKilde(video.fil, base)
+  const source = parseVideoSource(video.fil, base)
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 py-6 max-w-2xl mx-auto w-full">
         <div className="bg-black rounded-xl overflow-hidden shadow-sm">
-          {kilde.type === 'fil' ? (
+          {source.type === 'file' ? (
             <video
               ref={videoRef}
-              src={kilde.src}
+              src={source.src}
               controls
               playsInline
               autoPlay
@@ -37,11 +37,11 @@ export function Video() {
               poster={video.thumbnail ? `${base}${video.thumbnail}` : undefined}
               className="w-full aspect-video bg-black"
             >
-              Nettleseren din støtter ikke avspilling av video. Du kan laste ned filen her: <a href={kilde.src}>{video.fil}</a>.
+              Nettleseren din støtter ikke avspilling av video. Du kan laste ned filen her: <a href={source.src}>{video.fil}</a>.
             </video>
           ) : (
             <iframe
-              src={kilde.embedSrc}
+              src={source.embedSrc}
               title={video.tittel ?? 'Video'}
               className="w-full aspect-video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -1,36 +1,36 @@
-import type { ArticleCategory, FlipCard, LisensSammenligning, Video } from '../types'
+import type { ArticleCategory, FlipCard, LicenseComparison, Video } from '../types'
 
 const base = import.meta.env.BASE_URL
 
-async function fetchJson<T>(filnavn: string): Promise<T> {
-  const res = await fetch(`${base}content/${filnavn}`)
+async function fetchJson<T>(filename: string): Promise<T> {
+  const res = await fetch(`${base}content/${filename}`)
   if (!res.ok) {
-    throw new Error(`Klarte ikke å laste ${filnavn} (${res.status})`)
+    throw new Error(`Klarte ikke å laste ${filename} (${res.status})`)
   }
   return (await res.json()) as T
 }
 
-let artiklerPromise: Promise<ArticleCategory[]> | null = null
-let kortPromise: Promise<FlipCard[]> | null = null
-let videoerPromise: Promise<Video[]> | null = null
-let lisenserPromise: Promise<LisensSammenligning> | null = null
+let articlesPromise: Promise<ArticleCategory[]> | null = null
+let cardsPromise: Promise<FlipCard[]> | null = null
+let videosPromise: Promise<Video[]> | null = null
+let licensesPromise: Promise<LicenseComparison> | null = null
 
-export function hentArtikler(): Promise<ArticleCategory[]> {
-  artiklerPromise ??= fetchJson<ArticleCategory[]>('articles.json')
-  return artiklerPromise
+export function fetchArticles(): Promise<ArticleCategory[]> {
+  articlesPromise ??= fetchJson<ArticleCategory[]>('articles.json')
+  return articlesPromise
 }
 
-export function hentKort(): Promise<FlipCard[]> {
-  kortPromise ??= fetchJson<FlipCard[]>('cards.json')
-  return kortPromise
+export function fetchCards(): Promise<FlipCard[]> {
+  cardsPromise ??= fetchJson<FlipCard[]>('cards.json')
+  return cardsPromise
 }
 
-export function hentVideoer(): Promise<Video[]> {
-  videoerPromise ??= fetchJson<Video[]>('videos.json')
-  return videoerPromise
+export function fetchVideos(): Promise<Video[]> {
+  videosPromise ??= fetchJson<Video[]>('videos.json')
+  return videosPromise
 }
 
-export function hentLisensSammenligning(): Promise<LisensSammenligning> {
-  lisenserPromise ??= fetchJson<LisensSammenligning>('license-comparison.json')
-  return lisenserPromise
+export function fetchLicenseComparison(): Promise<LicenseComparison> {
+  licensesPromise ??= fetchJson<LicenseComparison>('license-comparison.json')
+  return licensesPromise
 }

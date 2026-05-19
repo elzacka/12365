@@ -4,36 +4,36 @@ import { Header } from './components/Header'
 import { InstallBanner } from './components/InstallBanner'
 import { UpdateToast } from './components/UpdateToast'
 import { Home } from './pages/Home'
-import { OmAppene } from './pages/OmAppene'
-import { OmAppen } from './pages/OmAppen'
-import { Personvern } from './pages/Personvern'
-import { SlikGjorDu } from './pages/SlikGjorDu'
-import { Artikkel } from './pages/Artikkel'
-import { Videoer } from './pages/Videoer'
-import { Video } from './pages/Video'
-import { Lisenser } from './pages/Lisenser'
+import { AboutApps } from './pages/AboutApps'
+import { AboutApp } from './pages/AboutApp'
+import { Privacy } from './pages/Privacy'
+import { HowTo } from './pages/HowTo'
+import { ArticlePage } from './pages/ArticlePage'
+import { Videos } from './pages/Videos'
+import { VideoPage } from './pages/VideoPage'
+import { Licenses } from './pages/Licenses'
 
-function Laster() {
+function Loading() {
   return (
-    <div className="flex-1 flex items-center justify-center text-sm text-slate-400">
+    <div className="flex-1 flex items-center justify-center text-sm text-slate-500">
       Laster …
     </div>
   )
 }
 
 function getHeaderProps(pathname: string) {
-  // Tilbake-pilen vises kun når den peker til et annet sted enn hovedsiden —
-  // ellers er den redundant med Hjem-knappen.
-  if (pathname === '/') return { visHjem: false, visTilbake: false }
-  if (pathname === '/om-appene') return { tittel: 'Om M365-appene', visHjem: true, visTilbake: false }
-  if (pathname === '/slik-gjor-du') return { tittel: 'Slik gjør du', visHjem: true, visTilbake: false }
-  if (pathname.startsWith('/slik-gjor-du/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/slik-gjor-du' }
-  if (pathname === '/videoer') return { tittel: 'Videoer', visHjem: true, visTilbake: false }
-  if (pathname.startsWith('/videoer/')) return { visHjem: true, visTilbake: true, tilbakeTil: '/videoer' }
-  if (pathname === '/om-appen') return { tittel: 'Om appen', visHjem: true, visTilbake: false }
-  if (pathname === '/personvern') return { tittel: 'Personvern', visHjem: true, visTilbake: true, tilbakeTil: '/om-appen' }
-  if (pathname === '/lisenser') return { tittel: 'Hva følger med i M365 E3 og E5?', visHjem: true, visTilbake: false }
-  return { visHjem: true, visTilbake: false }
+  // The back arrow is shown only when it points somewhere other than home —
+  // otherwise it's redundant with the home button.
+  if (pathname === '/') return { showHome: false, showBack: false }
+  if (pathname === '/om-appene') return { title: 'Om M365-appene', showHome: true, showBack: false }
+  if (pathname === '/slik-gjor-du') return { title: 'Slik gjør du', showHome: true, showBack: false }
+  if (pathname.startsWith('/slik-gjor-du/')) return { showHome: true, showBack: true, backTo: '/slik-gjor-du' }
+  if (pathname === '/videoer') return { title: 'Videoer', showHome: true, showBack: false }
+  if (pathname.startsWith('/videoer/')) return { showHome: true, showBack: true, backTo: '/videoer' }
+  if (pathname === '/om-appen') return { title: 'Om appen', showHome: true, showBack: false }
+  if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: true, backTo: '/om-appen' }
+  if (pathname === '/lisenser') return { title: 'Hva følger med i M365 E3 og E5?', showHome: true, showBack: false }
+  return { showHome: true, showBack: false }
 }
 
 function AppRoutes() {
@@ -47,17 +47,17 @@ function AppRoutes() {
     <div className="min-h-svh flex flex-col">
       <InstallBanner />
       <Header {...getHeaderProps(pathname)} />
-      <Suspense fallback={<Laster />}>
+      <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/om-appene" element={<OmAppene />} />
-          <Route path="/slik-gjor-du" element={<SlikGjorDu />} />
-          <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<Artikkel />} />
-          <Route path="/videoer" element={<Videoer />} />
-          <Route path="/videoer/:videoId" element={<Video />} />
-          <Route path="/om-appen" element={<OmAppen />} />
-          <Route path="/personvern" element={<Personvern />} />
-          <Route path="/lisenser" element={<Lisenser />} />
+          <Route path="/om-appene" element={<AboutApps />} />
+          <Route path="/slik-gjor-du" element={<HowTo />} />
+          <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<ArticlePage />} />
+          <Route path="/videoer" element={<Videos />} />
+          <Route path="/videoer/:videoId" element={<VideoPage />} />
+          <Route path="/om-appen" element={<AboutApp />} />
+          <Route path="/personvern" element={<Privacy />} />
+          <Route path="/lisenser" element={<Licenses />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
@@ -66,7 +66,7 @@ function AppRoutes() {
   )
 }
 
-// React Router vil ikke ha trailing slash på basename — Vite gir `/12365/` i prod, `/` i dev.
+// React Router does not want a trailing slash on basename — Vite gives `/12365/` in prod, `/` in dev.
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
 
 export default function App() {

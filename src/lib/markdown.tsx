@@ -44,9 +44,9 @@ function parseInline(text: string): ReactNode[] {
       const linkMatch = m.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/)
       if (linkMatch) {
         const [, label, url] = linkMatch
-        const eksternal = /^https?:\/\//i.test(url) || /^mailto:/i.test(url)
+        const isExternal = /^https?:\/\//i.test(url) || /^mailto:/i.test(url)
         const linkClass = 'text-brand-400 hover:text-brand-600 transition-colors'
-        if (eksternal) {
+        if (isExternal) {
           nodes.push(
             <a
               key={`a-${key++}`}
@@ -131,9 +131,9 @@ function renderBlock(block: string, idx: number): ReactNode {
 
   return (
     <p key={`p-${idx}`} className="text-sm text-slate-700 leading-relaxed my-3">
-      {lines.map((linje, i) => (
+      {lines.map((line, i) => (
         <span key={`p-${idx}-l-${i}`}>
-          {parseInline(linje)}
+          {parseInline(line)}
           {i < lines.length - 1 && <br />}
         </span>
       ))}
