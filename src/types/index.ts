@@ -1,3 +1,8 @@
+// Type interfaces. Field names mirror the JSON content shape and intentionally
+// stay in Norwegian so content authors editing the JSON files see the same
+// vocabulary in code and data. Interface/type names and code identifiers are
+// in English per the global English-only code rule.
+
 export interface FlipCard {
   navn: string
   tagline: string
@@ -11,15 +16,15 @@ export interface FlipCard {
 }
 
 export interface ArticleImage {
-  src: string         // sti relativt til BASE_URL, f.eks. "articles/sharepoint-automasjon/01.png"
-  alt: string         // beskrivelse for skjermlesere
-  bildetekst: string  // forklaring av hva bildet viser
-  kreditering: string // kilde/opphavsperson
+  src: string         // path relative to BASE_URL, e.g. "articles/sharepoint-automasjon/01.png"
+  alt: string         // screen-reader description
+  bildetekst: string  // caption explaining what the image shows
+  kreditering: string // source / credit line
 }
 
 export interface ArticleStep {
   tittel: string
-  innhold: string // markdown-støttet tekst
+  innhold: string // markdown-supported text
   bilde?: ArticleImage
 }
 
@@ -27,14 +32,14 @@ export interface Article {
   id: string
   tittel: string
   ingress: string
-  notat?: string // valgfri kursiv merknad rett under ingressen — for lisens- eller forutsetningsvarsler
+  notat?: string // optional italic note shown under the lede — license or prerequisite warnings
   kategori: string
   tags: string[]
   steg: ArticleStep[]
   videoUrl?: string
   relaterte?: string[] // article ids
-  skjult?: boolean // hvis true: filtreres ut av listevisning og direkte URL gir redirect
-  _veiledning?: string // intern kommentar i articles.json — vises ikke noe sted
+  skjult?: boolean // if true: filtered out of listings; direct URL redirects to overview
+  _veiledning?: string // internal comment in articles.json — not rendered anywhere
 }
 
 export interface ArticleCategory {
@@ -45,38 +50,38 @@ export interface ArticleCategory {
 }
 
 export interface Video {
-  id: string          // unik kebab-case-id, kommer i URL
-  fil: string         // sti relativt til BASE_URL, f.eks. "videos/min-video.mp4"
-  tittel?: string     // valgfri tittel
-  intro?: string      // valgfri kort introtekst
-  thumbnail?: string  // valgfri sti til miniatyrbilde, f.eks. "videos/thumbnails/min-video.png"
+  id: string          // unique kebab-case id, appears in the URL
+  fil: string         // path relative to BASE_URL, e.g. "videos/min-video.mp4"
+  tittel?: string     // optional title
+  intro?: string      // optional short intro text
+  thumbnail?: string  // optional thumbnail path, e.g. "videos/thumbnails/min-video.png"
 }
 
-export type LisensStatus = 'inkludert' | 'tillegg' | 'ikke'
+export type LicenseStatus = 'inkludert' | 'tillegg' | 'ikke'
 
-export interface LisensFunksjon {
+export interface LicenseFeature {
   navn: string
-  e3: LisensStatus
-  e5: LisensStatus
+  e3: LicenseStatus
+  e5: LicenseStatus
   beskrivelse?: string
 }
 
-export interface LisensKategori {
+export interface LicenseCategory {
   id: string
   navn: string
   tema: string
-  funksjoner: LisensFunksjon[]
+  funksjoner: LicenseFeature[]
 }
 
-export interface LisensTema {
+export interface LicenseTheme {
   id: string
   navn: string
   beskrivelse: string
 }
 
-export interface LisensSammenligning {
+export interface LicenseComparison {
   kilde: string
   kildeUrl: string
-  tema: LisensTema[]
-  kategorier: LisensKategori[]
+  tema: LicenseTheme[]
+  kategorier: LicenseCategory[]
 }

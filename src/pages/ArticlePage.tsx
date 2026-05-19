@@ -1,23 +1,23 @@
 import { useState, use } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
-import { hentArtikler } from '../data/loader'
+import { fetchArticles } from '../data/loader'
 import { ChevronLeftIcon, ChevronRightIcon, ZoomInIcon } from '../components/Icons'
 import { ImageLightbox } from '../components/ImageLightbox'
 import type { ArticleImage } from '../types'
 
-// Enkel markdown-til-JSX for fet tekst, kursiv og linjeskift
-function parseInnhold(tekst: string) {
-  const deler = tekst.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/)
-  return deler.map((del, i) => {
-    if (del.startsWith('**') && del.endsWith('**') && del.length > 4) {
-      return <strong key={i} className="font-semibold text-slate-800">{del.slice(2, -2)}</strong>
+// Minimal markdown-to-JSX for bold, italic and line breaks.
+function parseContent(text: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/)
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+      return <strong key={i} className="font-semibold text-slate-800">{part.slice(2, -2)}</strong>
     }
-    if (del.startsWith('*') && del.endsWith('*') && del.length > 2) {
-      return <em key={i} className="italic">{del.slice(1, -1)}</em>
+    if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
+      return <em key={i} className="italic">{part.slice(1, -1)}</em>
     }
-    return del.split('\n').map((linje, j, arr) => (
+    return part.split('\n').map((line, j, arr) => (
       <span key={`${i}-${j}`}>
-        {linje}
+        {line}
         {j < arr.length - 1 && <br />}
       </span>
     ))
@@ -28,88 +28,88 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
-export function Artikkel() {
-  const ARTICLE_CATEGORIES = use(hentArtikler())
+export function ArticlePage() {
+  const categories = use(fetchArticles())
   const { kategoriId, artikkelId } = useParams()
-  const [aktivtSteg, setAktivtSteg] = useState(0)
-  const [apentBilde, setApentBilde] = useState<ArticleImage | null>(null)
+  const [activeStep, setActiveStep] = useState(0)
+  const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
 
-  const kategori = ARTICLE_CATEGORIES.find(k => k.id === kategoriId)
-  const artikkel = kategori?.artikler.find(a => a.id === artikkelId)
-  const antallSteg = artikkel?.steg.length ?? 0
+  const category = categories.find(k => k.id === kategoriId)
+  const article = category?.artikler.find(a => a.id === artikkelId)
+  const totalSteps = article?.steg.length ?? 0
 
-  const gaForrige = () => {
-    setAktivtSteg(s => Math.max(0, s - 1))
+  const goPrevious = () => {
+    setActiveStep(s => Math.max(0, s - 1))
     scrollToTop()
   }
 
-  const gaNeste = () => {
-    setAktivtSteg(s => Math.min(antallSteg - 1, s + 1))
+  const goNext = () => {
+    setActiveStep(s => Math.min(totalSteps - 1, s + 1))
     scrollToTop()
   }
 
-  const gaTilSteg = (idx: number) => {
-    setAktivtSteg(idx)
+  const goToStep = (idx: number) => {
+    setActiveStep(idx)
     scrollToTop()
   }
 
-  if (!artikkel || !kategori || artikkel.skjult) {
+  if (!article || !category || article.skjult) {
     return <Navigate to="/slik-gjor-du" replace />
   }
 
-  const erForsteSteg = aktivtSteg === 0
-  const erSisteSteg = aktivtSteg === antallSteg - 1
-  const fremgang = ((aktivtSteg + 1) / antallSteg) * 100
-  const steg = artikkel.steg[aktivtSteg]
+  const isFirstStep = activeStep === 0
+  const isLastStep = activeStep === totalSteps - 1
+  const progress = ((activeStep + 1) / totalSteps) * 100
+  const step = article.steg[activeStep]
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
-      {/* Fremdriftslinje øverst — visuell anker uten å konkurrere om fokus */}
+      {/* Progress bar at the top — visual anchor without competing for focus. */}
       <div className="h-1 bg-slate-200">
         <div
           className="h-full bg-brand-700 transition-all duration-300"
-          style={{ width: `${fremgang}%` }}
+          style={{ width: `${progress}%` }}
           role="progressbar"
-          aria-valuenow={aktivtSteg + 1}
+          aria-valuenow={activeStep + 1}
           aria-valuemin={1}
-          aria-valuemax={antallSteg}
-          aria-label={`Fremdrift: steg ${aktivtSteg + 1} av ${antallSteg}`}
+          aria-valuemax={totalSteps}
+          aria-label={`Fremdrift: steg ${activeStep + 1} av ${totalSteps}`}
         />
       </div>
 
       <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
-        {/* Tittel og ingress vises kun på første steg — gir mer plass til
-            stegene senere i lesingen. Steg-kortet under tar over som visuell
-            hovedrolle. */}
-        {erForsteSteg && (
+        {/* Title and lede shown only on the first step — gives more room to the
+            steps later in the read. The step card below takes over as the main
+            visual element. */}
+        {isFirstStep && (
           <header className="pt-5 pb-1">
-            <p className="text-xs font-medium uppercase tracking-wide text-slate-400">
-              {kategori.tittel}
+            <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
+              {category.tittel}
             </p>
             <h1 className="text-lg font-semibold text-slate-800 leading-snug mt-1">
-              {artikkel.tittel}
+              {article.tittel}
             </h1>
-            <p className="text-sm text-slate-500 mt-1 leading-relaxed">{artikkel.ingress}</p>
-            {artikkel.notat && (
-              <p className="text-xs italic text-slate-400 mt-2 leading-relaxed">{artikkel.notat}</p>
+            <p className="text-sm text-slate-500 mt-1 leading-relaxed">{article.ingress}</p>
+            {article.notat && (
+              <p className="text-xs italic text-slate-500 mt-2 leading-relaxed">{article.notat}</p>
             )}
           </header>
         )}
 
-        {/* Steg-oversikt (chips) */}
+        {/* Step overview (chips) */}
         <nav aria-label="Steg-oversikt" className="flex gap-2 py-4 overflow-x-auto hide-scrollbar">
-          {artikkel.steg.map((_, idx) => (
+          {article.steg.map((_, idx) => (
             <button
               key={idx}
-              onClick={() => gaTilSteg(idx)}
+              onClick={() => goToStep(idx)}
               className={`flex-shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-full text-xs font-medium transition-all ${
-                idx === aktivtSteg
+                idx === activeStep
                   ? 'bg-brand-700 text-white shadow-sm'
-                  : idx < aktivtSteg
+                  : idx < activeStep
                   ? 'bg-brand-100 text-brand-700'
                   : 'bg-white border border-slate-200 text-slate-500'
               }`}
-              aria-current={idx === aktivtSteg ? 'step' : undefined}
+              aria-current={idx === activeStep ? 'step' : undefined}
               aria-label={`Gå til steg ${idx + 1}`}
             >
               {idx + 1}
@@ -117,29 +117,29 @@ export function Artikkel() {
           ))}
         </nav>
 
-        {/* Steg-innhold */}
+        {/* Step content */}
         <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden mb-4">
           <div className="px-4 py-3 bg-brand-50 border-b border-brand-100">
             <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
-              Steg {aktivtSteg + 1} av {antallSteg}
+              Steg {activeStep + 1} av {totalSteps}
             </p>
-            <h2 className="text-base font-semibold text-slate-800 leading-snug">{steg.tittel}</h2>
+            <h2 className="text-base font-semibold text-slate-800 leading-snug">{step.tittel}</h2>
           </div>
           <div className="px-4 py-5">
             <p className="text-sm text-slate-600 leading-relaxed">
-              {parseInnhold(steg.innhold)}
+              {parseContent(step.innhold)}
             </p>
-            {steg.bilde && (
+            {step.bilde && (
               <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">
                 <button
                   type="button"
-                  onClick={() => setApentBilde(steg.bilde!)}
-                  aria-label={`Åpne bildet i fullskjerm: ${steg.bilde.alt}`}
+                  onClick={() => setOpenImage(step.bilde!)}
+                  aria-label={`Åpne bildet i fullskjerm: ${step.bilde.alt}`}
                   className="group relative block w-full cursor-zoom-in focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-700"
                 >
                   <img
-                    src={`${import.meta.env.BASE_URL}${steg.bilde.src}`}
-                    alt={steg.bilde.alt}
+                    src={`${import.meta.env.BASE_URL}${step.bilde.src}`}
+                    alt={step.bilde.alt}
                     loading="lazy"
                     decoding="async"
                     className="w-full h-auto block transition-opacity group-hover:opacity-95"
@@ -152,21 +152,21 @@ export function Artikkel() {
                   </span>
                 </button>
                 <figcaption className="px-3 py-2 text-xs text-slate-600 leading-snug">
-                  {steg.bilde.bildetekst}
-                  <span className="block text-[11px] text-slate-400 mt-1">{steg.bilde.kreditering}</span>
+                  {step.bilde.bildetekst}
+                  <span className="block text-[11px] text-slate-500 mt-1">{step.bilde.kreditering}</span>
                 </figcaption>
               </figure>
             )}
           </div>
         </div>
 
-        {/* Navigasjonsknapper */}
+        {/* Navigation buttons */}
         <div className="flex items-center gap-3">
           <button
-            onClick={gaForrige}
-            disabled={erForsteSteg}
+            onClick={goPrevious}
+            disabled={isFirstStep}
             className={`flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
-              erForsteSteg
+              isFirstStep
                 ? 'text-slate-300 bg-white border border-slate-100 cursor-not-allowed'
                 : 'text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 hover:border-slate-300 shadow-sm'
             }`}
@@ -177,12 +177,12 @@ export function Artikkel() {
           </button>
 
           <div className="flex-1 text-center">
-            <span className="text-xs text-slate-400">
-              {aktivtSteg + 1} / {antallSteg}
+            <span className="text-xs text-slate-500">
+              {activeStep + 1} / {totalSteps}
             </span>
           </div>
 
-          {erSisteSteg ? (
+          {isLastStep ? (
             <Link
               to="/slik-gjor-du"
               className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-green-600 text-white hover:bg-green-700 shadow-sm transition-colors"
@@ -191,7 +191,7 @@ export function Artikkel() {
             </Link>
           ) : (
             <button
-              onClick={gaNeste}
+              onClick={goNext}
               className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-brand-700 text-white hover:bg-brand-800 shadow-sm transition-colors"
               aria-label="Neste steg"
             >
@@ -201,26 +201,26 @@ export function Artikkel() {
           )}
         </div>
 
-        {/* Relaterte artikler (vises på siste steg) */}
-        {erSisteSteg && artikkel.relaterte && artikkel.relaterte.length > 0 && (
+        {/* Related articles (shown on the last step) */}
+        {isLastStep && article.relaterte && article.relaterte.length > 0 && (
           <div className="mt-6">
             <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2 px-1">Relaterte veiledninger</h2>
             <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-              {artikkel.relaterte.map((relId, idx, arr) => {
-                const relKat = ARTICLE_CATEGORIES.find(k => k.artikler.some(a => a.id === relId))
-                const relArt = relKat?.artikler.find(a => a.id === relId)
-                if (!relArt || !relKat || relArt.skjult) return null
+              {article.relaterte.map((relId, idx, arr) => {
+                const relCategory = categories.find(k => k.artikler.some(a => a.id === relId))
+                const relArticle = relCategory?.artikler.find(a => a.id === relId)
+                if (!relArticle || !relCategory || relArticle.skjult) return null
                 return (
                   <Link
                     key={relId}
-                    to={`/slik-gjor-du/${relKat.id}/${relId}`}
-                    onClick={() => setAktivtSteg(0)}
+                    to={`/slik-gjor-du/${relCategory.id}/${relId}`}
+                    onClick={() => setActiveStep(0)}
                     className={`flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition-colors ${
                       idx < arr.length - 1 ? 'border-b border-slate-100' : ''
                     }`}
                   >
                     <div className="flex-1">
-                      <p className="text-sm font-medium text-slate-800">{relArt.tittel}</p>
+                      <p className="text-sm font-medium text-slate-800">{relArticle.tittel}</p>
                     </div>
                     <ChevronRightIcon size={16} className="text-slate-300" />
                   </Link>
@@ -230,7 +230,7 @@ export function Artikkel() {
           </div>
         )}
       </main>
-      <ImageLightbox bilde={apentBilde} onClose={() => setApentBilde(null)} />
+      <ImageLightbox image={openImage} onClose={() => setOpenImage(null)} />
     </div>
   )
 }

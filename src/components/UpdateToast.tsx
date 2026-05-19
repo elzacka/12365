@@ -1,30 +1,29 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { registerSW } from 'virtual:pwa-register'
 import { CloseIcon } from './Icons'
 
-type Oppdaterer = (reload?: boolean) => Promise<void>
+type Updater = (reload?: boolean) => Promise<void>
 
 export function UpdateToast() {
-  const [trengsOppdatering, setTrengsOppdatering] = useState(false)
-  const [oppdater, setOppdater] = useState<Oppdaterer | null>(null)
+  const [needsRefresh, setNeedsRefresh] = useState(false)
+  const updaterRef = useRef<Updater | null>(null)
 
   useEffect(() => {
-    const fn = registerSW({
+    updaterRef.current = registerSW({
       onNeedRefresh() {
-        setTrengsOppdatering(true)
+        setNeedsRefresh(true)
       },
     })
-    setOppdater(() => fn)
   }, [])
 
-  if (!trengsOppdatering) return null
+  if (!needsRefresh) return null
 
-  const lastPaNytt = () => {
-    void oppdater?.(true)
+  const reload = () => {
+    void updaterRef.current?.(true)
   }
 
-  const lukk = () => {
-    setTrengsOppdatering(false)
+  const close = () => {
+    setNeedsRefresh(false)
   }
 
   return (
@@ -36,15 +35,15 @@ export function UpdateToast() {
       <p className="text-sm flex-1 leading-snug">Ny versjon er tilgjengelig</p>
       <button
         type="button"
-        onClick={lastPaNytt}
+        onClick={reload}
         className="shrink-0 px-3 py-1.5 bg-white text-brand-700 text-sm font-semibold rounded-lg hover:bg-brand-50 active:bg-brand-100 transition-colors"
       >
         Last på nytt
       </button>
       <button
         type="button"
-        onClick={lukk}
-        className="shrink-0 p-1.5 text-white/70 hover:text-white hover:bg-white/10 rounded-md transition-colors"
+        onClick={close}
+        className="shrink-0 p-1.5 text-white/80 hover:text-white hover:bg-white/10 rounded-md transition-colors"
         aria-label="Lukk varsel"
       >
         <CloseIcon size={18} />

@@ -6,19 +6,19 @@ interface FlipCardProps {
   card: FlipCardType
 }
 
-const SVG_IKONER = new Set(['places', 'copilot-studio-for-teams'])
+const SVG_ICONS = new Set(['places', 'copilot-studio-for-teams'])
 
-function iconSrc(navn: string): string {
-  const slug = navn.toLowerCase().replace(/ /g, '-')
-  const ext = SVG_IKONER.has(slug) ? 'svg' : 'png'
+function iconSrc(name: string): string {
+  const slug = name.toLowerCase().replace(/ /g, '-')
+  const ext = SVG_ICONS.has(slug) ? 'svg' : 'png'
   return `${import.meta.env.BASE_URL}m365-icons/${slug}.${ext}`
 }
 
-function AppBadge({ navn }: { navn: string }) {
+function AppBadge({ name }: { name: string }) {
   return (
     <div className="w-14 h-14 flex items-center justify-center flex-shrink-0">
       <img
-        src={iconSrc(navn)}
+        src={iconSrc(name)}
         alt=""
         width={56}
         height={56}
@@ -53,13 +53,12 @@ export function FlipCard({ card }: FlipCardProps) {
       onKeyDown={handleKeyDown}
     >
       <div className="flip-card-inner">
-        {/* Forside — navn er vertikalt anker på midten av kortet, ikon og tagline
-            har lik avstand (mb-3 / mt-3) til navnet. 1fr-radene rundt navnet
-            sikrer at navnet ligger i absolutt vertikal senter, uavhengig av
-            taglinens lengde. */}
+        {/* Front — the name is the vertical anchor in the middle of the card;
+            icon and tagline get equal spacing (mb-3 / mt-3). 1fr rows around
+            the name keep it centered vertically regardless of tagline length. */}
         <div className="flip-card-face relative bg-white border border-slate-200 shadow-sm grid grid-rows-[1fr_auto_1fr] justify-items-center text-center p-4 hover:shadow-md transition-shadow">
           <div className="self-end mb-3">
-            <AppBadge navn={card.navn} />
+            <AppBadge name={card.navn} />
           </div>
           <p className="text-sm font-semibold text-slate-800 leading-tight">{card.navn}</p>
           <p className="self-start mt-3 text-xs text-slate-500 leading-snug">{card.tagline}</p>
@@ -68,7 +67,7 @@ export function FlipCard({ card }: FlipCardProps) {
           </div>
         </div>
 
-        {/* Bakside */}
+        {/* Back */}
         <div
           className="flip-card-face flip-card-back relative flex flex-col p-4 pb-7 text-left"
           style={{ backgroundColor: '#00263e' }}

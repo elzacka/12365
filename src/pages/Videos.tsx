@@ -1,11 +1,11 @@
 import { use } from 'react'
 import { Link } from 'react-router-dom'
-import { hentVideoer } from '../data/loader'
-import { tolkVideoKilde } from '../data/video-source'
+import { fetchVideos } from '../data/loader'
+import { parseVideoSource } from '../data/video-source'
 import { VideoIcon } from '../components/Icons'
 
-export function Videoer() {
-  const videoer = use(hentVideoer())
+export function Videos() {
+  const videos = use(fetchVideos())
   const base = import.meta.env.BASE_URL
 
   return (
@@ -14,16 +14,16 @@ export function Videoer() {
         <p className="text-sm text-slate-500 text-center mb-4">
           Korte videoer som forklarer Microsoft 365
         </p>
-        {videoer.length === 0 ? (
-          <p className="text-center py-16 text-slate-400">Ingen videoer ennå.</p>
+        {videos.length === 0 ? (
+          <p className="text-center py-16 text-slate-500">Ingen videoer ennå.</p>
         ) : (
           <div className="grid gap-4 mt-2">
-            {videoer.map(v => {
-              const kilde = tolkVideoKilde(v.fil, base)
+            {videos.map(v => {
+              const source = parseVideoSource(v.fil, base)
               const thumbnailSrc = v.thumbnail
                 ? `${base}${v.thumbnail}`
-                : kilde.type === 'youtube'
-                  ? kilde.thumbnailSrc
+                : source.type === 'youtube'
+                  ? source.thumbnailSrc
                   : null
 
               return (

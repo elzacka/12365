@@ -3,25 +3,25 @@ import { CloseIcon } from './Icons'
 import type { ArticleImage } from '../types'
 
 interface ImageLightboxProps {
-  bilde: ArticleImage | null
+  image: ArticleImage | null
   onClose: () => void
 }
 
-export function ImageLightbox({ bilde, onClose }: ImageLightboxProps) {
+export function ImageLightbox({ image, onClose }: ImageLightboxProps) {
   const dialogRef = useRef<HTMLDialogElement>(null)
 
   useEffect(() => {
     const dialog = dialogRef.current
     if (!dialog) return
-    if (bilde && !dialog.open) {
+    if (image && !dialog.open) {
       dialog.showModal()
-      // Flytt fokus til dialogen selv slik at lukkeknappens
-      // focus-visible-ring ikke vises ved programmatisk auto-fokus.
+      // Focus the dialog itself so the close-button's focus-visible ring is
+      // not shown on programmatic auto-focus.
       dialog.focus()
-    } else if (!bilde && dialog.open) {
+    } else if (!image && dialog.open) {
       dialog.close()
     }
-  }, [bilde])
+  }, [image])
 
   useEffect(() => {
     const dialog = dialogRef.current
@@ -42,10 +42,10 @@ export function ImageLightbox({ bilde, onClose }: ImageLightboxProps) {
       ref={dialogRef}
       onClick={handleBackdropClick}
       tabIndex={-1}
-      aria-label={bilde ? `Bilde i fullskjerm: ${bilde.alt}` : undefined}
+      aria-label={image ? `Bilde i fullskjerm: ${image.alt}` : undefined}
       className="lightbox bg-transparent p-0 m-0 max-w-none max-h-none w-full h-full backdrop:bg-black/85 outline-none"
     >
-      {bilde && (
+      {image && (
         <div className="relative w-full h-full flex flex-col items-center justify-center p-4 sm:p-8">
           <button
             type="button"
@@ -57,13 +57,13 @@ export function ImageLightbox({ bilde, onClose }: ImageLightboxProps) {
           </button>
           <figure className="flex flex-col items-center max-w-5xl w-full">
             <img
-              src={`${import.meta.env.BASE_URL}${bilde.src}`}
-              alt={bilde.alt}
+              src={`${import.meta.env.BASE_URL}${image.src}`}
+              alt={image.alt}
               className="max-w-full max-h-[80vh] w-auto h-auto object-contain rounded-lg shadow-2xl"
             />
             <figcaption className="mt-3 sm:mt-4 px-3 py-2 bg-white/95 rounded-lg text-sm text-slate-700 leading-snug max-w-2xl text-center">
-              {bilde.bildetekst}
-              <span className="block text-xs text-slate-500 mt-1">{bilde.kreditering}</span>
+              {image.bildetekst}
+              <span className="block text-xs text-slate-500 mt-1">{image.kreditering}</span>
             </figcaption>
           </figure>
         </div>
