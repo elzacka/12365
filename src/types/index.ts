@@ -33,6 +33,8 @@ export interface Article {
   steg: ArticleStep[]
   videoUrl?: string
   relaterte?: string[] // article ids
+  skjult?: boolean // hvis true: filtreres ut av listevisning og direkte URL gir redirect
+  _veiledning?: string // intern kommentar i articles.json — vises ikke noe sted
 }
 
 export interface ArticleCategory {
