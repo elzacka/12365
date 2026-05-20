@@ -223,11 +223,11 @@
           },
           {
             "tittel": "To-runder-prinsippet — slett trygt, slett bare én gang",
-            "innhold": "For større mengder: aldri slett mens du leter. Bruk denne rytmen i stedet:\n\n1. **Runde 1 — filtrér og marker** — sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Runde 2 — bekreft** — gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Runde 3 — slett** — trykk Delete. Filene går til papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke** — sjekk at ingenting du trenger har forsvunnet.\n5. **Etter en uke** — tøm papirkurven.\n\n"
+            "innhold": "For større mengder: slett aldru mens du leter. Bruk denne rytmen i stedet:\n\n1. **Runde 1 — filtrér og marker** — sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Runde 2 — bekreft** — gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Runde 3 — slett** — trykk Delete. Filene går til papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke** — sjekk at ingenting du trenger har forsvunnet.\n5. **Etter en uke** — tøm papirkurven.\n\n"
           },
           {
             "tittel": "Tidligere versjoner — angrefunksjonen du bør kjenne",
-            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n"
+            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder."
           }
         ],
         "relaterte": [
@@ -320,11 +320,11 @@
           },
           {
             "tittel": "Fra møteverktøy til arbeidsflate",
-            "innhold": "Mange kjenner Teams fra videosamtaler og chatmeldinger. Slik startet det. I dag er Teams stedet der du jobber med filer, følger opp oppgaver, leser prosessdokumentasjon, fyller ut skjemaer og samarbeider med kolleger — alt uten å bytte app.\n\nMålet er enkelt: **hold deg i Teams**. Gå til Edge når du faktisk trenger det — ikke som vane."
+            "innhold": "Mange kjenner Teams fra videosamtaler og chatmeldinger. Slik startet det. I dag er Teams stedet der du jobber med filer, følger opp oppgaver, leser prosessdokumentasjon, fyller ut skjemaer og samarbeider med kolleger — alt uten å bytte app.\n\nMålet er enkelt: **hold deg i Teams**. Gå til andre apper, fagsystemer eller Edge når du faktisk trenger det — ikke som vane."
           },
           {
             "tittel": "Finn appene i venstremenyen",
-            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardvalg er **Aktivitet**, **Chat**, **Teams**, **Kalender** og **Filer** (drevet av OneDrive).\n\nNyttige apper å feste i tillegg:\n\n- **Planner** — oppgaver og planer\n- **Lists** — strukturerte lister og oversikter\n- **Loop** — levende samarbeidsdokumenter\n- **Copilot** — KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** (eller **Flere apper**) nederst i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å få den fast i menyen."
+            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardvalg er **Aktivitet**, **Chat**, **Teams**, **Kalender** og **Filer** (i OneDrive).\n\nNyttige apper å feste i tillegg:\n\n- **Planner** — oppgaver og planer\n- **Lists** — strukturerte lister og oversikter\n- **Loop** — levende samarbeidsdokumenter\n- **Copilot** — KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** (eller **Flere apper**) nederst i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å få den fast i menyen."
           },
           {
             "tittel": "Bruk faner i kanalene",
