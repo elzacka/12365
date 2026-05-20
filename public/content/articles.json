@@ -1376,7 +1376,7 @@
       {
         "id": "kanal-arkivering",
         "tittel": "Når prosjektet er ferdig — arkiver eller slett kanalen",
-        "ingress": "En kanal som har gjort jobben sin, bør avsluttes. Slik runder du av en kanal som var dedikert til ett prosjekt, én anskaffelse eller en annen tidsavgrenset arbeidsstrøm — uten å miste det som har varig verdi.",
+        "ingress": "En kanal som har gjort jobben sin, bør avsluttes. Slik avvikler du av en kanal som var dedikert til ett prosjekt, én anskaffelse eller en annen tidsavgrenset arbeidsstrøm — uten å miste det som har varig verdi.",
         "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "teams",
         "tags": [
