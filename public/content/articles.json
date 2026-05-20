@@ -1,15 +1,15 @@
 [
   {
-    "id": "kom-i-gang",
-    "tittel": "Kom i gang",
-    "beskrivelse": "De første stegene i Microsoft 365",
+    "id": "for-flytting",
+    "tittel": "Før flytting",
+    "beskrivelse": "Forberedelser før du tar i bruk Microsoft 365 — basert på dagens tech-stack",
     "artikler": [
       {
         "id": "rydd-for-m365",
         "tittel": "Pakk lett — digital rydding lønner seg",
         "ingress": "Det er fristende å ta med seg alt. Men jo mer du tar med, jo vanskeligere blir det å finne fram. Slik tenker du om digital rydding — som en investering i din egen og fellesskapets jobbhverdag.",
         "oppdatert": "Sist oppdatert 20. mai 2026.",
-        "kategori": "kom-i-gang",
+        "kategori": "for-flytting",
         "tags": [
           "rydding",
           "forberedelse",
@@ -39,10 +39,9 @@
           }
         ],
         "relaterte": [
-          "rydd-sjekkliste",
-          "rydd-systemkart",
           "rydd-teknikker",
-          "rydd-personopplysninger"
+          "fra-filserver-til-sharepoint",
+          "folsomhetsetiketter"
         ]
       },
       {
@@ -50,7 +49,7 @@
         "tittel": "Slik rydder du i din egen jobbhverdag — sjekkliste som virker",
         "ingress": "En ryddesesjon er en investering i deg selv. Når du har gjort den, finner du ting raskere, samarbeider lettere og slipper å vasse gjennom 15 versjoner av samme dokument. Slik gjør du det effektivt — uten å gå glipp av det som faktisk skal tas vare på.",
         "oppdatert": "Sist oppdatert 20. mai 2026.",
-        "kategori": "kom-i-gang",
+        "kategori": "for-flytting",
         "tags": [
           "rydding",
           "sjekkliste",
@@ -100,14 +99,16 @@
           "rydd-systemkart",
           "rydd-teknikker",
           "rydd-personopplysninger"
-        ]
+        ],
+        "skjult": true,
+        "_veiledning": "VIKTIG — IKKE AKTIVER UTEN EKSPLISITT INSTRUKSJON FRA BRUKER. Denne artikkelen er bevisst skjult fra appen. Hvis du som AI vurderer å fjerne «skjult»-feltet — IKKE gjør det uten å spørre brukeren først. Slik aktiverer brukeren artikkelen manuelt: fjern «skjult»-feltet (eller sett verdien til false), og slett deretter dette «_veiledning»-feltet."
       },
       {
         "id": "rydd-systemkart",
         "tittel": "Hvor hører dokumentet hjemme? — kart over systemene dine",
         "ingress": "Microsoft 365 er ikke det eneste stedet å lagre informasjon — det er flere systemer, hvert med sitt formål. Slik vet du hva som hører hvor, og hvorfor det betyr noe i hverdagen.",
         "oppdatert": "Sist oppdatert 20. mai 2026.",
-        "kategori": "kom-i-gang",
+        "kategori": "for-flytting",
         "tags": [
           "rydding",
           "systemer",
@@ -150,14 +151,16 @@
           "rydd-sjekkliste",
           "rydd-personopplysninger",
           "onedrive-vs-sharepoint"
-        ]
+        ],
+        "skjult": true,
+        "_veiledning": "VIKTIG — IKKE AKTIVER UTEN EKSPLISITT INSTRUKSJON FRA BRUKER. Denne artikkelen er bevisst skjult fra appen. Hvis du som AI vurderer å fjerne «skjult»-feltet — IKKE gjør det uten å spørre brukeren først. Slik aktiverer brukeren artikkelen manuelt: fjern «skjult»-feltet (eller sett verdien til false), og slett deretter dette «_veiledning»-feltet."
       },
       {
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker — finn det riktige raskt",
         "ingress": "Et knippe konkrete grep i Outlook og Filutforsker som gjør jobben tre ganger så fort — pluss sikkerhetsnettet du bør kjenne før du sletter mye.",
         "oppdatert": "Sist oppdatert 20. mai 2026.",
-        "kategori": "kom-i-gang",
+        "kategori": "for-flytting",
         "tags": [
           "rydding",
           "outlook",
@@ -197,7 +200,7 @@
         "tittel": "Personopplysninger og sensitive funn — slik gjør du det riktig",
         "ingress": "Når du finner personopplysninger eller sensitivt innhold på avveie, må du vurdere det riktig. Slik håndterer du funnene — uten å bryte regler eller havne i en uoversiktlig situasjon.",
         "oppdatert": "Sist oppdatert 20. mai 2026.",
-        "kategori": "kom-i-gang",
+        "kategori": "for-flytting",
         "tags": [
           "personvern",
           "gdpr",
@@ -247,8 +250,17 @@
           "rydd-sjekkliste",
           "rydd-systemkart",
           "folsomhetsetiketter"
-        ]
-      },
+        ],
+        "skjult": true,
+        "_veiledning": "VIKTIG — IKKE AKTIVER UTEN EKSPLISITT INSTRUKSJON FRA BRUKER. Denne artikkelen er bevisst skjult fra appen. Hvis du som AI vurderer å fjerne «skjult»-feltet — IKKE gjør det uten å spørre brukeren først. Slik aktiverer brukeren artikkelen manuelt: fjern «skjult»-feltet (eller sett verdien til false), og slett deretter dette «_veiledning»-feltet."
+      }
+    ]
+  },
+  {
+    "id": "kom-i-gang",
+    "tittel": "Kom i gang",
+    "beskrivelse": "De første stegene i Microsoft 365",
+    "artikler": [
       {
         "id": "teams-som-arbeidsflate",
         "tittel": "Teams — arbeidsflaten din i M365",
@@ -429,8 +441,7 @@
         ],
         "relaterte": [
           "teams-hierarki",
-          "vise-redigere-kommentere",
-          "rydd-personopplysninger"
+          "vise-redigere-kommentere"
         ]
       }
     ]
@@ -650,8 +661,7 @@
         ],
         "relaterte": [
           "teams-moter",
-          "folsomhetsetiketter",
-          "rydd-personopplysninger"
+          "folsomhetsetiketter"
         ]
       }
     ]
@@ -936,7 +946,8 @@
       {
         "id": "ryddig-innboks",
         "tittel": "Hold innboksen ryddig",
-        "ingress": "Fokusert innboks, regler og kategorier — tre grep som hjelper deg å holde oversikten i Outlook.",
+        "ingress": "Fokusert innboks, kategorier og flagg — tre grep som hjelper deg å holde oversikten i Outlook.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "outlook",
         "tags": [
           "outlook",
