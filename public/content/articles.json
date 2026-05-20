@@ -179,7 +179,7 @@
           },
           {
             "tittel": "Søk i Filutforsker — finn gamle og store filer",
-            "innhold": "Åpne Filutforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n- **Filer endret før en gitt dato** — *datemodified:<01.01.2024*\n- **Gamle og store filer** — *datemodified:<01.01.2024 size:>10MB*\n- **Bestemte filtyper** — søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\nEndre visning til **Detaljer** (**Vis** → **Detaljer**). For å se hvor filene ligger, høyreklikk i kolonneraden og velg **Mappebane**. Sortér på **Endringsdato**, marker grupper med Ctrl+klikk eller Shift+klikk, og slett.\n\n*Tips: søkeordene fungerer både i norsk og engelsk Windows.*"
+            "innhold": "Åpne Filutforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n- **Filer endret før en gitt dato** — *datemodified:<01.01.2024*\n- **Gamle og store filer** — *datemodified:<01.01.2024 size:>10MB*\n- **Bestemte filtyper** — søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\nEndre visning til **Detaljer** (**Visning** → **Detaljer**). For å se hvor filene ligger, høyreklikk i kolonneraden og velg **Mappe**. Sortér på **Endringsdato**, marker grupper med Ctrl+klikk eller Shift+klikk, og slett.\n\n*Tips: søkeordene fungerer både i norsk og engelsk Windows.*"
           },
           {
             "tittel": "To-runder-prinsippet — slett trygt, slett bare én gang",
