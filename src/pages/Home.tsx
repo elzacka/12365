@@ -34,6 +34,7 @@ export function Home() {
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-10 pb-8">
       <h1 className="sr-only">12365 — M365 på 1-2-3</h1>
+      <p className="text-xs italic text-slate-400 text-center max-w-lg mx-auto mb-3">Sist oppdatert: 20.05.26</p>
       <div className="max-w-lg mx-auto space-y-4">
         <NavCard
           to="/om-appene"

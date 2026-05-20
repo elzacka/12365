@@ -831,6 +831,7 @@
         "id": "lists-hendelseslogg",
         "tittel": "Hendelseslogg i Lists",
         "ingress": "Microsoft Lists er et fleksibelt verktøy for å logge, prioritere og lukke hendelser — med skjemaer, varsler og tavle uten kode.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "lists",
         "tags": [
           "lists",
@@ -868,12 +869,17 @@
             "tittel": "Legg lista til som fane i Teams",
             "innhold": "Klikk **+** på fanelinja i kanalen → **Lister** → velg lista. Teamet jobber da med hendelser uten å forlate Teams — diskusjon og oppfølging i samme flate."
           }
+        ],
+        "relaterte": [
+          "lists-risikoregister",
+          "planner-enkel-oppgavestyring"
         ]
       },
       {
         "id": "lists-risikoregister",
         "tittel": "Risikoregister i Lists",
         "ingress": "Microsoft Lists er en god plattform for et levende risikoregister med automatisk scoring, fargekodede visninger og sporbar oppfølging.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "lists",
         "tags": [
           "lists",
@@ -914,6 +920,10 @@
             "tittel": "Legg registeret til som fane i Teams",
             "innhold": "Legg lista inn som en fane i Teams-kanalen slik at den er tilgjengelig der teamet allerede jobber. Avtal en fast gjennomgangsrytme (f.eks. månedlig), og bruk **Varsler** (klikk **...** på et element → **Varsle meg**) for å få beskjed når noe endres."
           }
+        ],
+        "relaterte": [
+          "lists-hendelseslogg",
+          "teams-hierarki"
         ]
       }
     ]
