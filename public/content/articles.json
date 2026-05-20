@@ -227,7 +227,7 @@
           },
           {
             "tittel": "Tidligere versjoner — angrefunksjonen du bør kjenne",
-            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n*Tips: sjekk om dere har dette aktivert før du trenger det. På fellesområder kan sletting være permanent uten papirkurv — angrefunksjonen er ekstra verdifull der.*"
+            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n"
           }
         ],
         "relaterte": [
