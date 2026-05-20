@@ -6,67 +6,65 @@
     "artikler": [
       {
         "id": "rydd-for-m365",
-        "tittel": "Pakk lett — rydd før du flytter til M365",
-        "ingress": "Før du tar i bruk Microsoft 365, gjør deg selv en tjeneste: rydd i de gamle filområdene og e-posten først. Ta bare med deg det du faktisk trenger.",
+        "tittel": "Pakk lett — digital rydding lønner seg",
+        "ingress": "Det er fristende å ta med seg alt. Men jo mer du tar med, jo vanskeligere blir det å finne fram. Slik tenker du om digital rydding — som en investering i din egen og fellesskapets jobbhverdag.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "kom-i-gang",
         "tags": [
           "rydding",
           "forberedelse",
-          "innføring",
-          "filflytting",
+          "filer",
           "e-post"
         ],
         "steg": [
           {
-            "tittel": "Hvorfor rydde først?",
-            "innhold": "Når organisasjonen innfører Microsoft 365, er det fristende å flytte alt over slik det er. Det er en dårlig idé. Fire grunner til å rydde først:\n\n- **Personvern og sikkerhet** — Gamle filer kan inneholde sensitive opplysninger. Etter innføring kan KI-funksjoner som Copilot hente innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n- **Bærekraft** — Mindre lagring sparer energi og ressurser.\n- **Brukervennlighet** — Med færre og mer relevante filer blir det lettere å holde oversikt.\n- **Informasjonssikkerhet** — Personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste.\n\n*Dette er en sjanse til å starte med blanke ark — grip den.*"
+            "tittel": "Hvorfor digital rydding lønner seg",
+            "innhold": "Det er fristende å beholde alt — for sikkerhets skyld. Det er en dårlig idé. Fire grunner til å rydde:\n\n- **Personvern og sikkerhet** — Gamle filer kan inneholde sensitive opplysninger. KI-funksjoner som Copilot henter innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n- **Bærekraft** — Mindre lagring sparer energi og ressurser.\n- **Brukervennlighet** — Med færre og mer relevante filer blir det lettere å holde oversikt.\n- **Informasjonssikkerhet** — Personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste.\n\n*Det er en sjanse til å starte med blanke ark — grip den.*"
           },
           {
             "tittel": "Pakk lett — dagstursekken som prinsipp",
             "innhold": "Tenk på det som å pakke en dagstursekk: ta bare med det du faktisk trenger der du skal — ikke alt du eier.\n\n**Pakk lett.** Ta bare med filer som er i aktiv bruk:\n\n- Oversikter du bruker daglig\n- Møtereferater - f. eks bare fra de siste tre månedene\n- Rapporter du skriver på akkurat nå\n- Felles maler og oppsett som faktisk brukes\n\nAlt annet har ett av tre utfall: du sletter det, du arkiverer det i sak- og arkivsystem, eller du lar det bli liggende i den gamle strukturen til den fases ut — det er ikke en parkeringsplass på ubestemt tid."
           },
           {
-            "tittel": "Filflytting til Teams i fire steg",
-            "innhold": "**Steg 1 — Få oversikt over filene**\n\n- Lag deg oversikt over filer på den gamle filserveren\n- Bestem hvilke filer som skal flyttes, slettes eller la ligge\n- Opprett ny struktur i Teams (filene lagres egentlig i **SharePoint**, men vises i Teams)\n\n**Steg 2 — Flytt filene**\n\n- Si ifra til kollegene når du flytter filer, slik at alle jobber på samme sted\n- Flytt filer til den nye strukturen\n- På den gamle filserveren: marker den gamle strukturen med prefikset **Gammelt** så ingen er i tvil om hva som er aktivt\n\n**Steg 3 — Tenk nytt om arbeidsflyten**\n\n- Før: e-post med vedlegg → **Nå:** Teams-melding med lenke\n- Før: e-post til alle i prosjektet med felles info → **Nå:** innlegg på Teams-kanal, be alle reagere når de har lest\n- Før: følge med på fremdrift i Excel-ark → **Nå:** Planner for oppgaveoversikt\n\n**Steg 4 — Hold strukturen ren**\n\nNår filene er på plass, ikke la den gamle strukturen løpe parallelt med den nye. Slett det gamle når du er trygg på at det nye er komplett."
-          },
-          {
             "tittel": "Slik rydder du egne filområder",
-            "innhold": "Gjør dette på det personlige området ditt (typisk **H**-stasjonen), lokalt på maskinen og i innboksen:\n\n1. Gå gjennom egne mapper og filer\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter\n3. Lag en **dagstursekk** med kun det du trenger for å fortsette arbeidet. Samle dette i mapper med tydelige navn\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde\n5. Flytt utkast og personlige arbeidsnotater til OneDrive når den blir tilgjengelig — **men kun det som faktisk er ditt eget arbeid**. Skal andre kunne følge opp eller finne det uten deg, hører det hjemme i en Teams-kanal\n6. Slett dokumentene fra det gamle området når du har bekreftet at overføringen gikk riktig\n\n**OneDrive er organisasjonens område for deg som ansatt — ikke et privat område.** Slutter du, forsvinner tilgangen. Skal andre kunne finne et dokument uten deg, hører det ikke hjemme i OneDrive — bruk Teams-kanaler eller SharePoint i stedet.\n\n**Personlige områder på den gamle filserveren er typisk det første som forsvinner etter en migrering.** Innholdet må flyttes eller slettes — det blir ikke liggende trygt et sted av seg selv.\n\n**Vær oppmerksom på personopplysninger og sensitivt innhold.** Sjekk om noe er arkivverdig — i så fall: arkiver i sak- og arkivsystem. Spør leder hvis du er usikker."
+            "innhold": "Gjør dette på det personlige området ditt — typisk **H**-stasjonen — på maskinen lokalt og i OneDrive:\n\n1. Gå gjennom egne mapper og filer\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter\n3. Lag en **dagstursekk** med kun det du trenger for å fortsette arbeidet. Samle dette i mapper med tydelige navn\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde i Teams eller SharePoint\n5. Behold utkast og personlige arbeidsnotater i OneDrive — **men kun det som faktisk er ditt eget arbeid**. Skal andre kunne følge opp eller finne det uten deg, hører det hjemme i en Teams-kanal\n6. Slett dokumentene fra det gamle området når du har bekreftet at overføringen gikk riktig\n\n**OneDrive er organisasjonens område for deg som ansatt — ikke et privat område.** Slutter du, forsvinner tilgangen. Skal andre kunne finne et dokument uten deg, hører det ikke hjemme i OneDrive — bruk Teams-kanaler eller SharePoint i stedet.\n\n**Vær oppmerksom på personopplysninger og sensitivt innhold.** Sjekk om noe er arkivverdig — i så fall: arkiver i sak- og arkivsystem. Spør leder hvis du er usikker."
           },
           {
             "tittel": "Slik rydder du e-posten",
-            "innhold": "Når Teams er på plass, skal du ikke lenger sende filer frem og tilbake på e-post eller lagre flere versjoner av samme fil. Før en innføring er ferdig — ikke ta med alt.\n\nSlik rydder du:\n\n- Begynn **bakerst** i innboksen og **Sendte elementer** — slett, slett, slett\n- Kommer du over et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten\n- Arkiver e-post som skal bevares i sak- og arkivsystem **før** du sletter den\n- Har e-posten dokumentasjon du trenger å beholde av andre grunner? Lagre den der dokumentasjonen skal leve videre — i sak- og arkivsystem, fagsystem, eller riktig sted i Teams/SharePoint\n\nE-post om pågående saker beholdes. Pågående dialoger med mange vedlegg egner seg godt til å fortsette i Teams når en innføring starter.\n\n*Sendte elementer er ofte den største synderen — store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*"
+            "innhold": "I Teams sender du ikke filer frem og tilbake på e-post — du deler lenker. Det betyr at e-postlageret kan slankes betraktelig når kanalene er tatt i bruk.\n\nSlik rydder du:\n\n- Begynn **bakerst** i innboksen og **Sendte elementer** — slett, slett, slett\n- Kommer du over et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten\n- Arkiver e-post som skal bevares i sak- og arkivsystem **før** du sletter den\n- Har e-posten dokumentasjon du trenger å beholde av andre grunner? Lagre den der dokumentasjonen skal leve videre — i sak- og arkivsystem, fagsystem, eller riktig sted i Teams eller SharePoint\n\nE-post om pågående saker beholdes. Pågående dialoger med mange vedlegg egner seg godt til å fortsette i Teams.\n\n*Sendte elementer er ofte den største synderen — store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*\n\nFor konkrete grep i Outlook — søkemapper, Rydd opp, Ignorer og Hurtigtrinn — se artikkelen om effektive ryddeteknikker."
           },
           {
-            "tittel": "Tips for å slette unødige e-poster",
-            "innhold": "Konkrete grep som gir stor effekt:\n\n1. **Start i Sendte elementer** — gjerne med de eldste e-postene først\n2. **Sorter etter størrelse** (størst til minst) — store e-poster og vedlegg tar mest plass\n3. **Søk på avsender** — skriv f.eks. *Fra: nyhetsbrev@* for å finne alle nyhetsbrev fra én kilde, og slett dem samlet\n4. **Slett e-posten hvis ett eller flere av disse gjelder:**\n   - Den er allerede journalført eller arkivert i sak- og arkivsystem\n   - Du ikke trenger å arkivere den\n   - Den er utdatert eller erstattet av nyere versjon\n   - Den er privat eller ikke nødvendig for arbeidsoppgavene dine\n5. **Gjenta i innboksen** og andre relevante mapper\n6. **Sjekk størrelsen på postboksen din** via **Innstillinger** → **Generelt** → **Lagring**\n\nSlett også autogenererte varsler fra Teams og arkivsystem, nyhetsbrev, markedsføring og reklame-e-post."
-          },
-          {
-            "tittel": "Mål for fremtidig løsning",
-            "innhold": "Når ryddingen er gjort og en innføring er gjennomført, er målet å forvalte informasjon bevisst og strukturert — gjennom hele livsløpet.\n\nDet betyr at du:\n\n- Skaper og lagrer informasjon der den hører hjemme\n- Sørger for at den er tilgjengelig for dem som trenger den\n- Sørger for at den kan deles, gjenfinnes og gjenbrukes\n- Ivaretar krav til arkivering, sporbarhet og regelverk\n- Støtter gode arbeidsprosesser og samarbeid på tvers av enheter\n- Ikke oppretter flere team og arbeidsområder enn nødvendig\n\n*Husk: En samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*\n\n*Behandle informasjon som en felles ressurs — ikke som personlige filer eller tilfeldige meldinger.*"
+            "tittel": "Mål: forvalt informasjon bevisst",
+            "innhold": "Målet er å forvalte informasjon bevisst og strukturert — gjennom hele livsløpet.\n\nDet betyr at du:\n\n- Skaper og lagrer informasjon der den hører hjemme\n- Sørger for at den er tilgjengelig for dem som trenger den\n- Sørger for at den kan deles, gjenfinnes og gjenbrukes\n- Ivaretar krav til arkivering, sporbarhet og regelverk\n- Støtter gode arbeidsprosesser og samarbeid på tvers av enheter\n- Ikke oppretter flere team og arbeidsområder enn nødvendig\n\n*Husk: en samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*\n\n*Behandle informasjon som en felles ressurs — ikke som personlige filer eller tilfeldige meldinger.*"
           }
+        ],
+        "relaterte": [
+          "rydd-sjekkliste",
+          "rydd-systemkart",
+          "rydd-teknikker",
+          "rydd-personopplysninger"
         ]
       },
       {
         "id": "rydd-sjekkliste",
         "tittel": "Slik rydder du i din egen jobbhverdag — sjekkliste som virker",
-        "ingress": "Ryddingen er en investering i deg selv. Når du har gjort den, finner du ting raskere, samarbeider lettere og slipper å vasse gjennom 15 versjoner av samme dokument. Slik gjør du det effektivt — uten å gå glipp av det som faktisk skal tas vare på.",
+        "ingress": "En ryddesesjon er en investering i deg selv. Når du har gjort den, finner du ting raskere, samarbeider lettere og slipper å vasse gjennom 15 versjoner av samme dokument. Slik gjør du det effektivt — uten å gå glipp av det som faktisk skal tas vare på.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "kom-i-gang",
         "tags": [
           "rydding",
           "sjekkliste",
           "effektivitet",
-          "forberedelse",
           "ansatt"
         ],
         "steg": [
           {
             "tittel": "Hva du faktisk får igjen for innsatsen",
-            "innhold": "Når du har ryddet før du tar i bruk Microsoft 365 for fullt, får du:\n\n- **En innboks som ikke er i veien** — du finner avtalen fra mars uten å scrolle gjennom 400 nyhetsbrev.\n- **Et personlig område der alt har et formål** — ingen mapper som heter «Diverse 2018» du ikke tør røre.\n- **En bedre start på Copilot** — Copilot er like ryddig som materialet den henter fra. Søl inn, søl ut.\n- **Lettere samhandling** — det du beholder ligger der andre lett kan finne det igjen, også de utenfor avdelingen din.\n- **Mindre angst** — du vet hva du har, og hva du har avhendet med vilje.\n\n*Tips: sett av én time i uka, fordelt over to–tre uker. Det betaler seg fra første uke i M365.*"
+            "innhold": "Når du har gjort en runde med digital rydding, får du:\n\n- **En innboks som ikke er i veien** — du finner avtalen fra mars uten å scrolle gjennom 400 nyhetsbrev.\n- **Et personlig område der alt har et formål** — ingen mapper som heter «Diverse 2018» du ikke tør røre.\n- **En bedre start på Copilot** — Copilot er like ryddig som materialet den henter fra. Søl inn, søl ut.\n- **Lettere samhandling** — det du beholder ligger der andre lett kan finne det igjen, også de utenfor avdelingen din.\n- **Mindre angst** — du vet hva du har, og hva du har avhendet med vilje.\n\n*Tips: sett av én time i uka, fordelt over to–tre uker. Det betaler seg fort.*"
           },
           {
             "tittel": "De tre stedene du skal gjennom",
-            "innhold": "Du har tre områder å rydde i. Ta dem i denne rekkefølgen — innboksen først fordi det går raskest og motiverer, hjemmekatalogen til slutt fordi det krever litt mer hodearbeid.\n\n- **Innboks og Sendte elementer i Outlook** — begge tar plass. Sendte elementer er ofte verstingen: store vedlegg du har sendt fra deg ligger der i tillegg til hos mottakeren.\n- **Skrivebord, Nedlastinger og Dokumenter** — det «lokale» som ofte ble til midlertidig lager, og ble glemt.\n- **Hjemmekatalogen (typisk H:-stasjonen)** — ditt personlige filområde. Forsvinner ved innføring eller fases ut rett etter. Innholdet må flyttes, slettes eller forbli liggende — bevisst valgt.\n\nFellesområdet (P:, S: og lignende) er avdelingens ansvar — ikke ditt alene. Se eget steg om dette."
+            "innhold": "Du har tre områder å rydde i. Ta dem i denne rekkefølgen — innboksen først fordi det går raskest og motiverer, hjemmekatalogen til slutt fordi det krever litt mer hodearbeid.\n\n- **Innboks og Sendte elementer i Outlook** — begge tar plass. Sendte elementer er ofte verstingen: store vedlegg du har sendt fra deg ligger der i tillegg til hos mottakeren.\n- **Skrivebord, Nedlastinger og Dokumenter** — det «lokale» som ofte ble til midlertidig lager, og ble glemt.\n- **Hjemmekatalogen (typisk H:-stasjonen)** og **OneDrive** — dine personlige filområder. Det som ligger her må flyttes, slettes eller forbli liggende — alltid bevisst valgt.\n\nFellesområdet (P:, S: og lignende) er avdelingens ansvar — ikke ditt alene. Snakk med leder hvis det er behov der."
           },
           {
             "tittel": "Start med kvantitet, ikke kvalitet",
@@ -89,10 +87,6 @@
             "innhold": "Foreldreløse filer — kollega som har sluttet, mappe du ikke vet hva er, navn uten beskrivelse. Slik vurderer du:\n\n- **Mappens navn og plassering** — «Tilbud 2019» sier mer enn «Mappe 3»\n- **Dato (opprettet og endret)** — eldre enn 5 år uten endring: vurder lavere terskel for sletting\n- **Filtype** — .pst, .accdb og .mdb kan være kritiske; .tmp og .bak er ofte trygt\n- **Eier (høyreklikk → Egenskaper)** — sluttet kollega? Sjekk om leder kjenner historikken\n- **Første linjer i dokumentet** — åpne og les førstesiden; ofte nok til å gjenkjenne formålet\n\nHvis du etter dette fortsatt ikke vet — **ikke slett**. Marker filen og flagg til leder. Lederen tar beslutningen, eventuelt sammen med arkivansvarlig eller personvernombud."
           },
           {
-            "tittel": "Når avdelingen ikke rekker — flagg til leder",
-            "innhold": "Det er **lederens ansvar**, ikke ditt, hvis avdelingen har samlinger av dokumenter som ikke kan ryddes ferdig før innføringen. Si fra. Lederen kan da iverksette midlertidig sikring — typisk at bare lederen og arkivansvarlig har tilgang til disse områdene mens vurderingen pågår.\n\nDet er en lovlig midlertidig løsning som *ikke* løser problemet, men gir dere tid til å løse det riktig.\n\nHva *du* gjør: ikke flytt restmaterialet over til M365 «for å være på den sikre siden». Restmateriale skal vurderes — ikke duplikeres."
-          },
-          {
             "tittel": "Et sjekkpunkt halvveis",
             "innhold": "Når du er omtrent halvveis i et område, ta tre minutter:\n\n- Hvor mye plass har du frigjort? Sjekk størrelsen før og etter.\n- Har du funnet noe du burde flagge — arkivverdig, personopplysninger, foreldreløst?\n- Trenger du å justere strategien?\n\nSynliggjør gjerne progresjonen din. Noter i OneNote eller en Loop-side: «Ryddet 12. mai — frigjort 14 GB, flagget 3 filer til leder.» Det gir mestringsfølelse, og du holder ut det som gjenstår."
           },
@@ -102,17 +96,17 @@
           }
         ],
         "relaterte": [
+          "rydd-for-m365",
           "rydd-systemkart",
           "rydd-teknikker",
           "rydd-personopplysninger"
-        ],
-        "skjult": true,
-        "_veiledning": "DENNE ARTIKKELEN ER SKJULT FRA APPEN. To andre artikler er også skjult: rydd-systemkart og rydd-personopplysninger. Skjulte artikler vises ikke i listen over veiledninger og kan ikke nås via direkte URL — appen redirecter til oversikten. Slik aktiverer du en artikkel: fjern feltet \"skjult\" (eller sett \"skjult\": false) i articles.json. Du kan også slette dette _veiledning-feltet når artikkelen er aktivert."
+        ]
       },
       {
         "id": "rydd-systemkart",
         "tittel": "Hvor hører dokumentet hjemme? — kart over systemene dine",
-        "ingress": "I en moderne offentlig organisasjon er det ikke ett sted å lagre informasjon — det er flere, hvert med sitt formål. Slik vet du hva som hører hvor, og hvorfor det betyr noe når du rydder.",
+        "ingress": "Microsoft 365 er ikke det eneste stedet å lagre informasjon — det er flere systemer, hvert med sitt formål. Slik vet du hva som hører hvor, og hvorfor det betyr noe i hverdagen.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "kom-i-gang",
         "tags": [
           "rydding",
@@ -123,8 +117,8 @@
         ],
         "steg": [
           {
-            "tittel": "Hvorfor flere systemer — og hvorfor det betyr noe nå",
-            "innhold": "En klassisk feil er å tro at alt skal i samme system. Sannheten er at moderne forvaltning trenger flere — fordi ulike typer informasjon har ulike krav til lagring, sporbarhet, oppdatering og tilgang.\n\nEt arkivsystem er ikke et godt sted å lagre løpende prosessdokumentasjon. En SharePoint-side er ikke et godt sted å arkivere et formelt vedtak. Og en mappe på fellesområdet er aldri svaret på noe.\n\nNår du rydder, er den viktigste vurderingen ofte: **hvor hører dette egentlig hjemme?** Stort sett finnes svaret allerede — det er bare ikke der filen ligger i dag."
+            "tittel": "Hvorfor flere systemer",
+            "innhold": "En vanlig feil er å tro at alt skal i samme system. Sannheten er at moderne forvaltning trenger flere — fordi ulike typer informasjon har ulike krav til lagring, sporbarhet, oppdatering og tilgang.\n\nEt arkivsystem er ikke et godt sted å lagre løpende prosessdokumentasjon. En SharePoint-side er ikke et godt sted å arkivere et formelt vedtak. Og en mappe på fellesområdet er aldri svaret på noe.\n\nDen viktigste vurderingen er ofte: **hvor hører dette egentlig hjemme?** Stort sett finnes svaret allerede — det er bare ikke der filen ligger i dag."
           },
           {
             "tittel": "Arkivsystemet — det offisielle minnet",
@@ -140,7 +134,7 @@
           },
           {
             "tittel": "M365 — der dagens arbeid skjer",
-            "innhold": "Microsoft 365 er **arbeidsflaten din** — stedet du tenker, samarbeider og produserer. Det er ikke et arkiv, ikke et styringssystem, ikke et fagsystem.\n\n**Hører hjemme her:**\n\n- Aktive arbeidsdokumenter — utkast, kladder, ting du skriver på akkurat nå\n- Bilder og presentasjoner for gjenbruk\n- Maler og oppsett som ikke (ennå) er prosessdokumentert i styringssystemet\n- Notater og personlig produktivitet\n- Møtenotater, samhandlingstavler, idéutvikling\n- Pågående prosjektarbeid\n\nInnenfor M365 er det forskjell på hvor noe ligger:\n\n- **Ditt eget utkast og kladd** → OneDrive\n- **Avdelingens delte arbeid** → Teams-kanal (lagres i SharePoint i bakgrunnen)\n- **Tverrgående prosjekter** → eget team eller delt kanal\n- **Faste rutiner og maler — hvis ikke i styringssystemet ennå** → en SharePoint-side eller et bibliotek\n\n*Ryddetips: når du flytter til M365, ta med deg det aktive. La det ikke-aktive bli liggende på det gamle stedet, og slett senere når du har bekreftet at det er trygt.*"
+            "innhold": "Microsoft 365 er **arbeidsflaten din** — stedet du tenker, samarbeider og produserer. Det er ikke et arkiv, ikke et styringssystem, ikke et fagsystem.\n\n**Hører hjemme her:**\n\n- Aktive arbeidsdokumenter — utkast, kladder, ting du skriver på akkurat nå\n- Bilder og presentasjoner for gjenbruk\n- Maler og oppsett som ikke (ennå) er prosessdokumentert i styringssystemet\n- Notater og personlig produktivitet\n- Møtenotater, samhandlingstavler, idéutvikling\n- Pågående prosjektarbeid\n\nInnenfor M365 er det forskjell på hvor noe ligger:\n\n- **Ditt eget utkast og kladd** → OneDrive\n- **Avdelingens delte arbeid** → Teams-kanal (lagres i SharePoint i bakgrunnen)\n- **Tverrgående prosjekter** → eget team eller delt kanal\n- **Faste rutiner og maler — hvis ikke i styringssystemet ennå** → en SharePoint-side eller et bibliotek\n\n*Tips: behold det aktive, slett det inaktive med vilje. Det som ikke er i bruk, hører ikke hjemme i M365.*"
           },
           {
             "tittel": "Sletting — det som ikke trengs",
@@ -148,19 +142,21 @@
           },
           {
             "tittel": "Slik tenker du i praksis",
-            "innhold": "For hver fil eller mappe du står overfor, still spørsmålene i denne rekkefølgen:\n\n1. Er dette **offisiell dokumentasjon** av en sak, beslutning eller avtale? → sak-/arkivsystemet\n2. Er dette **slik vi gjør det** — en rutine, prosess eller veiledning? → styringssystemet\n3. Er dette **fagdata** som hører i et bestemt fagsystem? → fagsystemet\n4. Hvis nei på alle tre — er det **aktivt arbeid** du fortsatt har bruk for? → M365 (OneDrive, Teams, SharePoint)\n5. Hvis nei på alt — **slett**\n\nVær raus med å slette. Mange tror de må beholde mye «for sikkerhets skyld». Det er stort sett feil. Det som er reelt viktig, har som regel havnet i et av de tre offisielle systemene allerede. Det som ligger igjen i fellesområdet er ofte rester — ikke skjulte skatter.\n\n*Husk: ryddingen er ikke en flytteoperasjon — den er en omstrukturering. Du tar ikke alt med deg til M365. Du tar med det som hører hjemme der, og sørger for at resten havner riktig sted eller blir slettet.*"
+            "innhold": "For hver fil eller mappe du står overfor, still spørsmålene i denne rekkefølgen:\n\n1. Er dette **offisiell dokumentasjon** av en sak, beslutning eller avtale? → sak-/arkivsystemet\n2. Er dette **slik vi gjør det** — en rutine, prosess eller veiledning? → styringssystemet\n3. Er dette **fagdata** som hører i et bestemt fagsystem? → fagsystemet\n4. Hvis nei på alle tre — er det **aktivt arbeid** du fortsatt har bruk for? → M365 (OneDrive, Teams, SharePoint)\n5. Hvis nei på alt — **slett**\n\nVær raus med å slette. Mange tror de må beholde mye «for sikkerhets skyld». Det er stort sett feil. Det som er reelt viktig, har som regel havnet i et av de tre offisielle systemene allerede.\n\n*Husk: digital rydding er ikke flytteoperasjon — det er en omstrukturering. Du tar ikke alt med deg til M365. Du beholder det som hører hjemme der, og sørger for at resten havner riktig sted eller blir slettet.*"
           }
         ],
         "relaterte": [
+          "rydd-for-m365",
           "rydd-sjekkliste",
-          "rydd-personopplysninger"
-        ],
-        "skjult": true
+          "rydd-personopplysninger",
+          "onedrive-vs-sharepoint"
+        ]
       },
       {
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker — finn det riktige raskt",
         "ingress": "Et knippe konkrete grep i Outlook og Filutforsker som gjør jobben tre ganger så fort — pluss sikkerhetsnettet du bør kjenne før du sletter mye.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "kom-i-gang",
         "tags": [
           "rydding",
@@ -172,33 +168,37 @@
         "steg": [
           {
             "tittel": "Søkemapper i Outlook — én visning, flere mapper",
-            "innhold": "Søkemapper er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\nSlik lager du en:\n\n- Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n- Velg en ferdig mal eller **Egendefinert** for egne kriterier\n- Lag for eksempel «Stor e-post (over 5 MB)» eller «Eldre enn 1 år»\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten.*"
+            "innhold": "Søkemapper er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\nSlik lager du en:\n\n- Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n- Velg en ferdig mal — for eksempel **Stor e-post**, **Ulest e-post** eller **Eldre e-post** — eller **Egendefinert søkemappe** for egne kriterier\n- Gi den et beskrivende navn, for eksempel «Stor e-post over 5 MB» eller «Eldre enn ett år»\n\nTypiske søkemapper å sette opp:\n\n- **Stor e-post** — finn tunge vedlegg du kan slette eller flytte ut\n- **Eldre enn ett år** — kandidater for arkivering eller sletting\n- **Fra én avsender** — samle nyhetsbrev eller varsler fra én kilde for masseopprydding\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten.*"
           },
           {
             "tittel": "Rydd opp, Ignorer og Hurtigtrinn — tre Outlook-grep til",
-            "innhold": "Disse tre fjerner repetitive klikk i hverdagen:\n\n- **Rydd opp samtale** — marker en lang tråd → **Hjem** → **Rydd opp**. Fjerner overflødige meldinger; hele historikken ligger uansett i den siste e-posten. Trygt.\n- **Ignorer** — Ctrl+Del på en samtale du ikke vil høre mer fra. Alle nåværende og fremtidige meldinger i tråden går rett til Slettede elementer.\n- **Hurtigtrinn** — **Hjem** → **Hurtigtrinn** → **Opprett ny**. Lag knapper som gjør det du gjør mest, for eksempel «Flytt til Behandlet» eller «Videresend til arkiv». Tilordne Ctrl+Shift+1 til 9. Halverer antall museklikk."
+            "innhold": "Disse tre fjerner repetitive klikk i hverdagen:\n\n- **Rydd opp samtale** — marker en lang tråd → **Hjem** → **Rydd opp**. Fjerner overflødige meldinger; hele historikken ligger uansett i siste e-post. Trygt.\n- **Ignorer** — Ctrl+Del på en samtale du ikke vil høre mer fra. Alle nåværende og fremtidige meldinger i tråden går rett til Slettede elementer.\n- **Hurtigtrinn** — **Hjem** → **Hurtigtrinn** → **Opprett ny**. Lag knapper for det du gjør mye, for eksempel «Flytt til Behandlet» eller «Videresend til arkiv». Tilordne hurtigtast Ctrl+Shift+1 til 9. Halverer antall museklikk.\n\n*Tips: kombiner søkemapper med Hurtigtrinn for å rydde tilbakevendende mønstre raskt.*"
           },
           {
             "tittel": "Søk i Filutforsker — finn gamle og store filer",
-            "innhold": "Åpne Filutforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n- **Filer endret før en gitt dato** — datemodified:<01.01.2023\n- **Gamle og store filer** — datemodified:<01.01.2023 size:>10MB\n- **Spesifikke filtyper** — søk på filendelsen, for eksempel .tmp, .bak eller .zip (ett søk per filtype)\n\nEndre visning til **Detaljer** (Vis → **Detaljer**). For å se hvor filene ligger, høyreklikk i kolonneraden og velg **Mappebane**. Sortér på **Endringsdato**, marker grupper med Ctrl+klikk eller Shift+klikk, og slett.\n\n*Tips: søkeordene fungerer både i norsk og engelsk Windows.*"
+            "innhold": "Åpne Filutforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n- **Filer endret før en gitt dato** — *datemodified:<01.01.2024*\n- **Gamle og store filer** — *datemodified:<01.01.2024 size:>10MB*\n- **Bestemte filtyper** — søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\nEndre visning til **Detaljer** (**Vis** → **Detaljer**). For å se hvor filene ligger, høyreklikk i kolonneraden og velg **Mappebane**. Sortér på **Endringsdato**, marker grupper med Ctrl+klikk eller Shift+klikk, og slett.\n\n*Tips: søkeordene fungerer både i norsk og engelsk Windows.*"
           },
           {
             "tittel": "To-runder-prinsippet — slett trygt, slett bare én gang",
-            "innhold": "For større mengder: aldri slett mens du leter. Bruk denne rytmen i stedet:\n\n1. **Runde 1 — filtrér og marker** — sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Runde 2 — bekreft** — gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Runde 3 — slett** — trykk Delete. Filene går til papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke** — sjekk at ingenting du trenger har forsvunnet.\n5. **Etter en uke: tøm papirkurven**.\n\n*Det høres tregere ut enn det er. To klare runder tar halvparten av tiden av én rotete.*"
+            "innhold": "For større mengder: aldri slett mens du leter. Bruk denne rytmen i stedet:\n\n1. **Runde 1 — filtrér og marker** — sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Runde 2 — bekreft** — gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Runde 3 — slett** — trykk Delete. Filene går til papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke** — sjekk at ingenting du trenger har forsvunnet.\n5. **Etter en uke** — tøm papirkurven.\n\n*Det høres tregere ut enn det er. To klare runder tar halvparten av tiden av én rotete.*"
           },
           {
             "tittel": "Tidligere versjoner — sikkerhetsnettet du bør kjenne",
-            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk en mappe eller fil → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n*Tips: sjekk om dere har dette aktivert før du trenger det. Spesielt på fellesområder (L:, N: og lignende) kan sletting være permanent uten papirkurv — så sikkerhetsnettet er ekstra verdifullt der.*"
+            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n*Tips: sjekk om dere har dette aktivert før du trenger det. På fellesområder kan sletting være permanent uten papirkurv — sikkerhetsnettet er ekstra verdifullt der.*"
           }
+        ],
+        "relaterte": [
+          "ryddig-innboks",
+          "versjonshistorikk"
         ]
       },
       {
         "id": "rydd-personopplysninger",
         "tittel": "Personopplysninger og sensitive funn — slik gjør du det riktig",
-        "ingress": "Ryddingen er en gylden anledning til å rydde i det som aldri burde ligget der. Slik vurderer du funn av personopplysninger, og hva du gjør med dem — uten å bryte regler eller havne i en uoversiktlig situasjon.",
+        "ingress": "Når du finner personopplysninger eller sensitivt innhold på avveie, må du vurdere det riktig. Slik håndterer du funnene — uten å bryte regler eller havne i en uoversiktlig situasjon.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "kom-i-gang",
         "tags": [
-          "rydding",
           "personvern",
           "gdpr",
           "særlige-kategorier",
@@ -243,15 +243,17 @@
           }
         ],
         "relaterte": [
+          "rydd-for-m365",
           "rydd-sjekkliste",
-          "rydd-systemkart"
-        ],
-        "skjult": true
+          "rydd-systemkart",
+          "folsomhetsetiketter"
+        ]
       },
       {
         "id": "teams-som-arbeidsflate",
-        "tittel": "Teams er din nye arbeidsflate",
-        "ingress": "Teams er ikke lenger bare et verktøy for videomøter og chat. Det er nå den samlede arbeidsflaten i M365 — her finner du filene, oppgavene, notatene og appene dine på ett sted.",
+        "tittel": "Teams — arbeidsflaten din i M365",
+        "ingress": "Teams er ikke bare et verktøy for videomøter og chat. Det er den samlede arbeidsflaten i M365 — her finner du filene, oppgavene, notatene og appene dine på ett sted.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -270,7 +272,7 @@
           },
           {
             "tittel": "Finn appene i venstremenyen",
-            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Standardvalgene er **Aktivitet**, **Chat**, **Teams**, **Kalender**, **OneDrive** og **Apper**.\n\nDe nyttigste å feste i tillegg:\n\n- **Planner** — oppgaver og planer\n- **Lists** — strukturerte lister og oversikter\n- **Loop** — levende samarbeidsdokumenter\n- **Copilot** — KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** nederst i venstremenyen og søk opp appen. Høyreklikk og velg **Fest** for å få den fast i menyen."
+            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardvalg er **Aktivitet**, **Chat**, **Teams**, **Kalender** og **Filer** (drevet av OneDrive).\n\nNyttige apper å feste i tillegg:\n\n- **Planner** — oppgaver og planer\n- **Lists** — strukturerte lister og oversikter\n- **Loop** — levende samarbeidsdokumenter\n- **Copilot** — KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** (eller **Flere apper**) nederst i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å få den fast i menyen."
           },
           {
             "tittel": "Bruk faner i kanalene",
@@ -288,12 +290,18 @@
             "tittel": "Én app som samler alt — ikke ti apper du bytter mellom",
             "innhold": "Mange har ti Edge-faner åpne: SharePoint her, e-post der, Planner et sted, filer et annet sted. Det er forstyrrende — og det gjør at informasjon spres og mister sammenheng.\n\nNår du jobber i Teams, henger alt sammen: kommentaren i dokumentet er synlig i kanalen, oppgaven fra møtet dukker opp i Planner, og Copilot finner innholdet fordi det ligger på riktig sted med riktige metadata.\n\nGod arbeidsflyt starter med å holde seg på ett sted."
           }
+        ],
+        "relaterte": [
+          "teams-hierarki",
+          "fra-filserver-til-sharepoint",
+          "onedrive-vs-sharepoint"
         ]
       },
       {
         "id": "teams-hierarki",
         "tittel": "Hierarki og tilganger i Teams — hvem ser hva, og hvordan du styrer det",
         "ingress": "Hierarkiet i Teams — team, kanal og innhold — styrer hvem som har tilgang til hva. Slik forstår du oppbyggingen, hvordan du sjekker tilgang, og hvordan du gir tilgang riktig fra starten.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -341,8 +349,9 @@
       },
       {
         "id": "fra-filserver-til-sharepoint",
-        "tittel": "Fra filserver til SharePoint",
-        "ingress": "Den felles filserveren (H:, P: og andre stasjoner) erstattes av Teams og SharePoint. Her er den viktigste forskjellen.",
+        "tittel": "SharePoint — slik er det annerledes enn en filserver",
+        "ingress": "SharePoint er ikke en filserver — det er en samarbeidsplattform. Slik forstår du forskjellen, og hvorfor det endrer hvordan du tenker om filer.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "kom-i-gang",
         "tags": [
           "sharepoint",
@@ -353,24 +362,26 @@
         "steg": [
           {
             "tittel": "Forstå forskjellen",
-            "innhold": "**Filserveren** er mapper på en server «på huset». **SharePoint** er et nettbasert fellesområde som er tilgjengelig overalt — hjemme, på kontoret og på mobil.\n\nNår du lagrer en fil i en Teams-kanal, ligger den faktisk i SharePoint. Du trenger ikke å tenke på det — Teams håndterer det for deg."
+            "innhold": "**Filserveren** er mapper på en server «på huset». **SharePoint** er et nettbasert fellesområde tilgjengelig overalt — hjemme, på kontoret og på mobil.\n\nNår du lagrer en fil i en Teams-kanal, ligger den faktisk i SharePoint. Du trenger ikke å tenke på det — Teams håndterer det for deg.\n\n*Konsekvens: tilganger styres av teamet eller kanalen, ikke av mappestrukturen. Bytter du mappe, beholder filen samme tilgang.*"
           },
           {
-            "tittel": "Finn filene dine i Teams",
-            "innhold": "Åpne kanalen i Teams og klikk på **Filer**-fanen øverst. Her ligger alle filer som tilhører kanalen — tilgjengelig for alle kanalmedlemmer."
-          },
-          {
-            "tittel": "Last opp en fil",
-            "innhold": "Klikk **Last opp** i Filer-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint og er umiddelbart tilgjengelig for alle i kanalen."
+            "tittel": "Finn og legg til filer i Teams",
+            "innhold": "**Finn filene dine** — åpne kanalen i Teams og klikk på **Filer**-fanen øverst. Her ligger alle filer som tilhører kanalen, tilgjengelig for alle kanalmedlemmer.\n\n**Last opp** — klikk **Last opp** i Filer-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint og er umiddelbart tilgjengelig for alle i kanalen."
           },
           {
             "tittel": "Del lenke — ikke vedlegg",
             "innhold": "I stedet for å sende filen som vedlegg på e-post: høyreklikk filen i Teams og velg **Kopier lenke**. Lim lenken inn i e-posten.\n\nAlle ser alltid siste versjon — og det finnes bare én fil, ikke ti kopier i like mange innbokser."
           },
           {
-            "tittel": "Rediger direkte i Teams — ikke last ned",
-            "innhold": "Klikk på en fil i Teams for å åpne den direkte. Du kan redigere Word, Excel og PowerPoint uten å laste ned noe — endringene lagres automatisk.\n\nFlere kan jobbe i samme fil samtidig — ingen «låser» den for andre. Det er en av de største gevinstene med å gå fra filserver til SharePoint."
+            "tittel": "Rediger direkte — ingen «låste» filer",
+            "innhold": "Klikk på en fil i Teams for å åpne den direkte. Du kan redigere Word, Excel og PowerPoint uten å laste ned noe — endringene lagres automatisk.\n\nFlere kan jobbe i samme fil samtidig — ingen «låser» den for andre. Du ser hverandres markører og endringer mens dere skriver. Det er en av de største gevinstene SharePoint gir over en filserver."
           }
+        ],
+        "relaterte": [
+          "teams-som-arbeidsflate",
+          "teams-hierarki",
+          "onedrive-vs-sharepoint",
+          "versjonshistorikk"
         ]
       }
     ]
