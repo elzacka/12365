@@ -179,7 +179,7 @@
           },
           {
             "tittel": "Sletting — det som ikke trengs",
-            "innhold": "Den siste kategorien er ofte den største. Slett uten dårlig samvittighet:\n\n- Utdaterte versjoner — du har den nyere uansett\n- Duplikater\n- Nyhetsbrev, varslingsmeldinger, reklame\n- Private filer på jobben (de skal egentlig ikke vært der)\n- Filer fra prosjekter for år tilbake der sluttproduktet er arkivert et annet sted\n- Bilder fra workshops og fagdager du aldri brukte\n- Møtenotater fra møter du knapt husker\n\nFor **personopplysninger** gjelder strengere regler — se egen artikkel.\n\n*Tips: hvis du nøler, bruk Tidligere versjoner som sikkerhetsnett. Hvis du faktisk slettet noe viktig, kan du ofte hente det tilbake i en uke eller to.*"
+            "innhold": "Den siste kategorien er ofte den største. Slett uten dårlig samvittighet:\n\n- Utdaterte versjoner — du har den nyere uansett\n- Duplikater\n- Nyhetsbrev, varslingsmeldinger, reklame\n- Private filer på jobben (de skal egentlig ikke vært der)\n- Filer fra prosjekter for år tilbake der sluttproduktet er arkivert et annet sted\n- Bilder fra workshops og fagdager du aldri brukte\n- Møtenotater fra møter du knapt husker\n\nFor **personopplysninger** gjelder strengere regler — se egen artikkel.\n\n*Tips: hvis du nøler, bruk Tidligere versjoner som angrefunksjon. Hvis du faktisk slettet noe viktig, kan du ofte hente det tilbake i en uke eller to.*"
           },
           {
             "tittel": "Slik tenker du i praksis",
@@ -198,7 +198,7 @@
       {
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker — finn det riktige raskt",
-        "ingress": "Et knippe konkrete grep i Outlook og Filutforsker som gjør jobben tre ganger så fort — pluss sikkerhetsnettet du bør kjenne før du sletter mye.",
+        "ingress": "Et knippe konkrete grep i Outlook og Filutforsker som gjør jobben tre ganger så fort — pluss angrefunksjonen du bør kjenne før du sletter mye.",
         "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
@@ -206,7 +206,7 @@
           "outlook",
           "filutforsker",
           "teknikker",
-          "sikkerhetsnett"
+          "angrefunksjon"
         ],
         "steg": [
           {
@@ -226,8 +226,8 @@
             "innhold": "For større mengder: aldri slett mens du leter. Bruk denne rytmen i stedet:\n\n1. **Runde 1 — filtrér og marker** — sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Runde 2 — bekreft** — gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Runde 3 — slett** — trykk Delete. Filene går til papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke** — sjekk at ingenting du trenger har forsvunnet.\n5. **Etter en uke** — tøm papirkurven.\n\n*Det høres tregere ut enn det er. To klare runder tar halvparten av tiden av én rotete.*"
           },
           {
-            "tittel": "Tidligere versjoner — sikkerhetsnettet du bør kjenne",
-            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n*Tips: sjekk om dere har dette aktivert før du trenger det. På fellesområder kan sletting være permanent uten papirkurv — sikkerhetsnettet er ekstra verdifullt der.*"
+            "tittel": "Tidligere versjoner — angrefunksjonen du bør kjenne",
+            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n*Tips: sjekk om dere har dette aktivert før du trenger det. På fellesområder kan sletting være permanent uten papirkurv — angrefunksjonen er ekstra verdifull der.*"
           }
         ],
         "relaterte": [
