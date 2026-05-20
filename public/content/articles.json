@@ -972,6 +972,10 @@
             "tittel": "Spør deg selv: hører dette hjemme i Teams?",
             "innhold": "Før du svarer på e-post: er dette en kort avklaring med en kollega? Send det som Teams-chat i stedet.\n\nEr det en faglig diskusjon hele teamet bør følge med på? Post det i riktig Teams-kanal.\n\nE-post er best for ekstern kommunikasjon og formelle henvendelser. Intern koordinering og oppfølging fungerer bedre i Teams."
           }
+        ],
+        "relaterte": [
+          "chat-vs-kanal",
+          "rydd-teknikker"
         ]
       }
     ]
@@ -985,6 +989,7 @@
         "id": "planner-enkel-oppgavestyring",
         "tittel": "Enkel oppgavestyring i Planner",
         "ingress": "Planner gir deg en visuell tavle for å fordele, organisere og spore oppgaver — tilgjengelig direkte i Teams.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "planner",
         "tags": [
           "planner",
@@ -1026,6 +1031,10 @@
             "tittel": "Oversikt over flere prosjekter",
             "innhold": "Etter at **Project for the web** ble avviklet, er Planner Microsofts samlede prosjekt- og oppgaveplattform. **Porteføljer**-visningen gir deg en samlet oversikt over flere prosjekter samtidig — med konfigurerbare visninger for status, frist og ressurser.\n\nBruk Porteføljer når du har flere parallelle planer du vil styre fra ett sted."
           }
+        ],
+        "relaterte": [
+          "lists-hendelseslogg",
+          "teams-som-arbeidsflate"
         ]
       }
     ]
@@ -1037,8 +1046,9 @@
     "artikler": [
       {
         "id": "sharepoint-automasjon-2026",
-        "tittel": "Nye automatiseringsfunksjoner i SharePoint",
-        "ingress": "Microsoft har lansert flere oppdateringer i SharePoint som gjør det enklere å automatisere hverdagslige arbeidsflyter — uten kode.",
+        "tittel": "Automatisering i SharePoint — arbeidsflyter uten kode",
+        "ingress": "SharePoint har innebygde arbeidsflyter, hurtigsteg, godkjenninger og skjemaer du kan ta i bruk uten kode. Slik utnytter du dem i hverdagen.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -1119,12 +1129,18 @@
               "kreditering": "Kilde: Microsoft Tech Community."
             }
           }
+        ],
+        "relaterte": [
+          "sharepoint-prosessdokumentasjon-visio",
+          "lists-hendelseslogg",
+          "planner-enkel-oppgavestyring"
         ]
       },
       {
         "id": "sharepoint-prosessdokumentasjon-visio",
         "tittel": "Prosessdokumentasjon i SharePoint med Visio",
         "ingress": "Bruk SharePoint-sider med innebygd Visio-diagram, strukturerte metadata og godkjenningsflyt — finnbart, levende og KI-klart.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -1174,6 +1190,11 @@
             "tittel": "Hold dokumentasjonen levende",
             "innhold": "Sett **Neste revisjon**-datoen på alle prosesssider. Prosesseier har da et konkret tidspunkt å forholde seg til.\n\nFiltrer Områdesider-biblioteket på *Neste revisjon* og følg opp i månedlige eller kvartalsvise gjennomganger.\n\n**Copilot i Jobb-modus** kan hjelpe ansatte å finne gjeldende prosesser via naturlig språk — men bare hvis metadata er satt opp strukturert og innholdet ligger på riktig sted."
           }
+        ],
+        "relaterte": [
+          "sharepoint-automasjon-2026",
+          "fra-filserver-til-sharepoint",
+          "folsomhetsetiketter"
         ]
       }
     ]
@@ -1187,6 +1208,7 @@
         "id": "komme-i-gang-med-shifts",
         "tittel": "Vaktplaner i Shifts",
         "ingress": "Shifts er Microsofts vaktplanleggingsapp inkludert i Teams. Ansatte ser turnusen sin og bytter vakter — ledere lager og publiserer planene.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "shifts",
         "tags": [
           "shifts",
@@ -1220,6 +1242,10 @@
             "tittel": "Slik passer Shifts inn i Teams",
             "innhold": "Shifts er ikke en isolert app — den henger sammen med resten av Teams.\n\n- **Chat og kanaler** — hvis du har spørsmål om en vakt, kan du chatte med kollega eller leder direkte i Teams uten å bytte app.\n- **Varsler** — alle forespørsler, godkjenninger og endringer dukker opp i Aktivitet-fanen i Teams.\n- **Mobil først** — Shifts er designet for å brukes på mobil av frontlinjearbeidere som ikke sitter ved en PC.\n\nShifts støtter også stempling inn/ut, fraværsforespørsler og timelisterapporter. Om disse funksjonene er i bruk varierer mellom organisasjoner — sjekk med leder eller IT om hvordan dere registrerer arbeidstid og fravær.\n\nFor dyptgående veiledning, søk opp **Shifts** i Microsofts hjelpesider — der finnes egne emner om opprettelse av tidsplaner, publisering og import fra Excel."
           }
+        ],
+        "relaterte": [
+          "teams-som-arbeidsflate",
+          "planner-enkel-oppgavestyring"
         ]
       }
     ]
@@ -1256,6 +1282,12 @@
             "tittel": "Bruk @-omtale for å varsle noen",
             "innhold": "Skriv **@fornavn** for å varsle én person, **@Teamnavn** for hele teamet. De får varsel selv om de ikke sjekker kanalen aktivt.\n\n*Husk: faglig dialog som dokumenterer beslutninger eller saksforberedelser kan være journalføringspliktig — uavhengig av om det skjer i chat eller kanal.*"
           }
+        ],
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "relaterte": [
+          "teams-hierarki",
+          "teams-moter",
+          "ryddig-innboks"
         ]
       },
       {
@@ -1290,6 +1322,12 @@
             "tittel": "Hold antallet eiere håndterlig",
             "innhold": "To eiere er minimum. **Tre til fire er ofte ideelt** for større team. Mer enn det fungerer sjelden — eierskap blir utvannet og ingen tar reelt ansvar.\n\nSkill mellom **eier** (administrativt ansvar) og **medlem** (deltar i arbeidet). De fleste i et team skal være medlemmer, ikke eiere."
           }
+        ],
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "relaterte": [
+          "teams-hierarki",
+          "kanaltyper",
+          "kanal-arkivering"
         ]
       },
       {
@@ -1320,6 +1358,12 @@
             "tittel": "Tommelfingerregel — slik velger du",
             "innhold": "Still ett enkelt spørsmål: **hvem skal egentlig ha tilgang?**\n\n- **Hele teamet (inkl. gjester)** → Standardkanal\n- **En undergruppe i teamet** → Privat kanal\n- **Folk på tvers av team** → Delt kanal\n- **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nHvis du er i tvil, **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
           }
+        ],
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "relaterte": [
+          "teams-hierarki",
+          "teams-eierskap",
+          "folsomhetsetiketter"
         ]
       },
       {
@@ -1354,6 +1398,12 @@
             "tittel": "Mappenavn som varer",
             "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n- «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n- «Nye», «Gamle», «Kommer», «Til vurdering»\n- Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n- Beskriver hva som faktisk ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n- Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n- Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år — vil hen forstå hva som ligger der?"
           }
+        ],
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "relaterte": [
+          "teams-hierarki",
+          "fra-filserver-til-sharepoint",
+          "onedrive-vs-sharepoint"
         ]
       },
       {
@@ -1389,12 +1439,18 @@
             "tittel": "Ta opp møtet og del transkripsjonen",
             "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du både video og **transkripsjon** — søkbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. transkripsjonen kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
           }
+        ],
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "relaterte": [
+          "loop-eller-word",
+          "clipchamp-bruke",
+          "m365-copilot-aktivert"
         ]
       },
       {
         "id": "teams-tips-og-triks",
         "tittel": "12 Teams-funksjoner som hjelper deg",
-        "ingress": "Microsoft Teams får stadig nye funksjoner, og noen er gull verdt i hverdagen. Her er tolv som rydder hverdagen og gjør deg raskere — fra utkastsamler og møtetimer til Enter-tast-innstilling og hurtignavigasjon med Ctrl+G.",
+        "ingress": "Microsoft Teams får stadig flere funksjoner, og noen er gull verdt i hverdagen. Her er tolv som rydder hverdagen og gjør deg raskere — fra utkastsamler og møtetimer til Enter-tast-innstilling og hurtignavigasjon med Ctrl+G.",
         "kategori": "teams",
         "tags": [
           "teams",
@@ -1410,7 +1466,7 @@
             "innhold": "En ny seksjon i Teams samler alle meldinger du har begynt på, men ikke sendt — du mister aldri oversikten over uferdige utkast.\n\nKlikk på **Utkast** øverst i venstre hjørne i chat-visningen. Herfra kan du gå direkte til samtalen, redigere ferdig eller slette utkastet."
           },
           {
-            "tittel": "Nytt grensesnitt for deling i møter",
+            "tittel": "Grensesnitt for deling i møter",
             "innhold": "Det oppdaterte delingsvinduet gir bedre plass og gjør det enklere å finne riktig vindu eller funksjon.\n\nKlikk på **Del** i et møte. Velg mellom rutenett- eller listevisning av vinduene dine, og finn interaktive filer som **PowerPoint Live** samlet under en egen fane."
           },
           {
@@ -1453,6 +1509,12 @@
             "tittel": "Emojier i seksjonsoverskrifter",
             "innhold": "Du kan legge til emojier i navnet på egendefinerte seksjoner i kanallisten. Det gjør det lettere å skille mellom prosjekter og arbeidsområder i en lang liste.\n\nNår du oppretter eller gir nytt navn til en seksjon, velg en emoji som vises ved siden av navnet."
           }
+        ],
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "relaterte": [
+          "teams-moter",
+          "copilot-chat-inkludert",
+          "teams-hierarki"
         ]
       },
       {
@@ -1576,6 +1638,12 @@
             "tittel": "Steg 5 — Slik finner ansatte innholdet i Teams",
             "innhold": "Når innholdet er ingestert (innen 24 timer), kan ansatte:\n\n- Åpne **Viva Learning** i venstremenyen i Teams\n- Søke etter emne, tittel eller stikkord\n- Filtrere på språk, kilde, varighet eller emne (SkillTags)\n- Markere kurs som ferdig, lagre til senere eller dele med kolleger\n\nFor en fokusert opplevelse i en bestemt kanal: Legg Viva Learning til som **fane** i kanalen. Klikk **+** på fanelinja, søk opp **Viva Learning**, og velg en samling kurs som skal vises.\n\n*Resultatet: Hele teamet ser samme læringsmateriell på samme sted — i flyten der det daglige arbeidet skjer.*"
           }
+        ],
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "relaterte": [
+          "sharepoint-prosessdokumentasjon-visio",
+          "fra-filserver-til-sharepoint",
+          "m365-copilot-aktivert"
         ]
       }
     ]
