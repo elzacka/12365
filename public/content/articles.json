@@ -340,7 +340,7 @@
           },
           {
             "tittel": "Hva krever likevel Edge?",
-            "innhold": "For vanlige ansatte er det lite som krever Edge. Unntakene er:\n\n- **Opprette nye SharePoint-nettsteder** (avhengig av tenantens innstillinger)\n- **Administrere Term Store og innholdstyper** (kun IT/admin)\n- **Redigere SharePoint-sider med kompleks layout** (åpner Edge automatisk)\n- **Åpne Visio** for å tegne diagrammer (åpnes typisk i nettleseren)\n\nAlt annet — filer, lister, oppgaver, møter, notater, KI — kan du gjøre i Teams."
+            "innhold": "De meste kan gjøres uten å måtte gå via Edge. Unntakene er:\n\n- **Opprette nye SharePoint-nettsteder** (avhengig av tenantens innstillinger)\n- **Administrere Term Store og innholdstyper** (kun IT/admin)\n- **Redigere SharePoint-sider med kompleks layout** (åpner Edge automatisk)\n- **Åpne Visio** for å tegne diagrammer (åpnes typisk i nettleseren)\n\nAlt annet — filer, lister, oppgaver, møter, notater, KI — kan du gjøre i Teams."
           },
           {
             "tittel": "Én app som samler alt — ikke ti apper du bytter mellom",
