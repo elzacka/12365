@@ -188,7 +188,7 @@
           },
           {
             "tittel": "Tidligere versjoner — sikkerhetsnettet du bør kjenne",
-            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk en mappe eller fil → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier (vanlig i offentlig sektor), kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n*Tips: sjekk om dere har dette aktivert før du trenger det. Spesielt på fellesområder (L:, N: og lignende) kan sletting være permanent uten papirkurv — så sikkerhetsnettet er ekstra verdifullt der.*"
+            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk en mappe eller fil → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder.\n\n*Tips: sjekk om dere har dette aktivert før du trenger det. Spesielt på fellesområder (L:, N: og lignende) kan sletting være permanent uten papirkurv — så sikkerhetsnettet er ekstra verdifullt der.*"
           }
         ]
       },
@@ -1374,33 +1374,43 @@
         ]
       },
       {
-        "id": "team-arkivering",
-        "tittel": "Når prosjektet er ferdig — arkiver og lukk team",
-        "ingress": "Et team som ikke avsluttes, blir liggende som rot. Tre faser hjelper deg å sluttføre arbeidet på en ryddig måte.",
+        "id": "kanal-arkivering",
+        "tittel": "Når prosjektet er ferdig — arkiver eller slett kanalen",
+        "ingress": "En kanal som har gjort jobben sin, bør avsluttes. Slik runder du av en kanal som var dedikert til ett prosjekt, én anskaffelse eller en annen tidsavgrenset arbeidsstrøm — uten å miste det som har varig verdi.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "teams",
         "tags": [
+          "kanal",
           "arkivering",
           "livsløp",
           "prosjekt",
-          "lukking"
+          "anskaffelse"
         ],
         "steg": [
           {
-            "tittel": "Tre faser i et teams livsløp",
-            "innhold": "Hvert team går gjennom tre tydelige faser:\n\n1. **Aktivt** — samtaler, samskriving, møter. Filer endres ofte, kanaler er i bruk.\n2. **Ferdig** — hovedarbeidet er gjort. Sluttprodukt er levert. Fortsatt noe oppfølging.\n3. **Arkivert** — alt er ferdig. Teamet er låst eller slettet, sluttproduktene flyttet til arkivsystem.\n\nMange team blir stående i fase 2 i måneder fordi ingen tar beslutningen om å gå videre. Eierskapet betyr noe også her: eieren har ansvar for å lukke teamet når jobben er gjort."
+            "tittel": "Tre faser i kanalens livsløp",
+            "innhold": "Hver kanal går gjennom tre tydelige faser:\n\n1. **Aktiv** — samtaler, samskriving og møter pågår. Filer endres ofte.\n2. **Ferdig** — hovedarbeidet er gjort. Sluttproduktene er levert. Noen oppfølginger og henvisninger gjenstår.\n3. **Avsluttet** — alt er ferdig. Kanalen er arkivert eller slettet, og sluttproduktene er flyttet til riktig arkivsystem.\n\nMange kanaler blir stående i fase 2 i månedsvis fordi ingen tar beslutningen om å gå videre. Eieren har ansvar for å lukke kanalen når jobben er gjort."
           },
           {
-            "tittel": "Rydding før arkivering",
-            "innhold": "Før du arkiverer eller sletter et team, gjør en rydderunde:\n\n- **Slett utkast og kladder** som ikke ble brukt\n- **Slett duplikater** og gamle versjoner som versjonshistorikken uansett ivaretar\n- **Behold sluttproduktene** (rapporter, leveranser, beslutningsgrunnlag)\n- **Slett midlertidige filer** (bilder fra møter, screenshots, råtekst)\n\nMålet er at det som gjenstår, faktisk har verdi for fremtiden. Hvis ingen tør slette noe, er strukturen feil — det betyr som regel at viktige filer er blandet med uviktige."
+            "tittel": "Rydding før avslutning",
+            "innhold": "Før du arkiverer eller sletter, gjør en rydderunde:\n\n- **Slett utkast og kladder** som ikke ble brukt\n- **Slett duplikater** og gamle versjoner — versjonshistorikken ivaretar dem uansett\n- **Behold sluttproduktene** — rapporter, leveranser, beslutningsgrunnlag, kontrakter\n- **Slett midlertidige filer** — skjermbilder, råtekst, møtebilder\n\nMålet er at det som gjenstår, faktisk har varig verdi. Hvis ingen tør slette noe, er strukturen feil — som regel fordi viktige filer er blandet med uviktige."
           },
           {
             "tittel": "Flytt sluttproduktene til riktig sted",
-            "innhold": "**Sluttproduktene hører hjemme i et arkivsystem** — ikke i et arkivert Teams-team.\n\nTypiske destinasjoner:\n\n- **Sak- og arkivsystem** (f.eks. WebSak, ePhorte, Public 360, Elements eller Acos) — for offisielle dokumenter, vedtak, beslutningsgrunnlag\n- **SharePoint-bibliotek** for prosessdokumentasjon — hvis sluttproduktet skal leve videre som referanse\n- **Egne fagsystemer** — for innhold som hører hjemme der\n\nIkke la sluttproduktene bli liggende i et team som ingen lenger åpner. De blir glemt og vanskelige å finne."
+            "innhold": "*Sluttproduktene hører hjemme i et arkivsystem — ikke i en arkivert kanal.*\n\nTypiske destinasjoner:\n\n- **Sak- og arkivsystem** (WebSak, ePhorte, Public 360, Elements, Acos) — for offisielle dokumenter, vedtak, beslutningsgrunnlag, kontrakter\n- **SharePoint-bibliotek** — for prosessdokumentasjon som skal leve videre som referanse\n- **Fagsystem** — for innhold som hører hjemme der\n\nIkke la sluttproduktene bli liggende i en arkivert kanal som ingen åpner. De blir glemt og vanskelige å finne."
           },
           {
             "tittel": "Arkiver eller slett — slik velger du",
-            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg:\n\n**Arkiver teamet** når:\n\n- Det kan være behov for å se på samtaler eller filer i ettertid\n- Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n- Det er regulert eller revidert arbeid med dokumentasjonskrav\n\nArkivering låser teamet — innhold er fortsatt finnbart, men ingen kan endre noe.\n\n**Slett teamet** når:\n\n- Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n- Det er åpenbart engangsarbeid uten gjenbruksverdi\n- Personvernhensyn taler for sletting\n\nHvis ingen våger å slette noe, er det et signal om at strukturen ikke har skilt godt nok mellom det viktige og det forbigående."
+            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg.\n\n**Arkiver kanalen** når:\n\n- Det kan være behov for å se på samtaler eller filer i ettertid\n- Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n- Det er regulert eller revidert arbeid med dokumentasjonskrav\n\n*Arkivering låser kanalen — samtaler, faner og filer blir skrivebeskyttet, og kanalen skjules fra kanallisten. Innholdet er fortsatt finnbart, og kanalen kan gjenopprettes når som helst.*\n\n**Slett kanalen** når:\n\n- Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n- Det er åpenbart engangsarbeid uten gjenbruksverdi\n- Personvernhensyn taler for sletting\n\n*Slettet kanal kan gjenopprettes innen 30 dager. Mappen i SharePoint blir liggende uansett — slett den manuelt hvis det er nødvendig.*"
+          },
+          {
+            "tittel": "Slik gjør du det i Teams",
+            "innhold": "**Hvem kan utføre:**\n\n- **Teameier** — kan arkivere og slette alle kanaltyper i teamet\n- **Kanaleier** — kan arkivere og slette private og delte kanaler de eier\n\n**Arkiver én kanal** — pek på kanalen → tre prikker → **Arkiver kanal**. Velg om filene skal være skrivebeskyttet. *Anbefalt for ferdige prosjekter, slik at ingen endrer innholdet i ettertid.*\n\n**Arkiver flere samtidig** — **Administrer team** → fanen **Kanaler** → velg kanaler → **Arkiver**.\n\n**Gjenopprett en kanal** — **Administrer team** → **Kanaler** → utvid **Arkivert** → tre prikker → **Gjenopprett kanal**.\n\n**Slett en kanal** — pek på kanalen → tre prikker → **Slett kanal**."
           }
+        ],
+        "relaterte": [
+          "teams-hierarki",
+          "teams-eierskap"
         ]
       }
     ]

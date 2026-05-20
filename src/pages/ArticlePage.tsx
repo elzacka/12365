@@ -90,6 +90,9 @@ export function ArticlePage() {
               {article.tittel}
             </h1>
             <p className="text-sm text-slate-500 mt-1 leading-relaxed">{article.ingress}</p>
+            {article.oppdatert && (
+              <p className="text-xs italic text-slate-400 mt-2 leading-relaxed">{article.oppdatert}</p>
+            )}
             {article.notat && (
               <p className="text-xs italic text-slate-500 mt-2 leading-relaxed">{article.notat}</p>
             )}
