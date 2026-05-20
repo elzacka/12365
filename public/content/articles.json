@@ -59,23 +59,23 @@
         "steg": [
           {
             "tittel": "Når du trenger oversikten",
-            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nDenne kommandoen lister opp alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n*Eksempel: en filserver på 8 TB der 80 prosent ligger i tre mapper. Da vet du hvor ryddejobben må starte.*\n\nFremgangsmåten er testet på Windows Server 2019 Datacenter (norsk versjon), men virker likt på Windows 10 og 11."
+            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nHer bruker du en kommando som lister opp alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n*Eksempel: en filserver på 8 TB der 80 prosent ligger i tre mapper. Da vet du hvor ryddejobben må starte.*\n\nFremgangsmåten er testet på Windows Server 2019 Datacenter (norsk versjon), men skal virke likt i Windows 11."
           },
           {
-            "tittel": "Åpne ledetekst direkte i mappen",
-            "innhold": "Du slipper å navigere deg fram i ledeteksten — du åpner den der du allerede står.\n\n1. Åpne **Filutforsker** og naviger til mappen du vil undersøke.\n2. Klikk i **adressefeltet** øverst (der mappestien vises).\n3. Skriv **cmd** og trykk **Enter**.\n\nLedeteksten åpnes med den valgte mappen som arbeidsmappe — det er det som gjør at kommandoen i neste steg lagrer resultatet på riktig sted automatisk."
+            "tittel": "Åpne kommandovinduet direkte i mappen",
+            "innhold": "Du slipper å navigere deg fram til kommandovinduet — du åpner det der du allerede står.\n\n1. Åpne **Filutforsker** og naviger til mappen du vil undersøke.\n2. Klikk i **adressefeltet** øverst (der mappestien vises).\n3. Skriv **cmd** og trykk **Enter**.\n\nKommandovinduet åpnes med den valgte mappen som «arbeidsmappe» — det er det som gjør at kommandoen i neste steg lagrer resultatet på riktig sted automatisk."
           },
           {
             "tittel": "Kjør kommandoen",
-            "innhold": "Lim inn denne kommandoen i ledeteksten og trykk **Enter**:\n\npowershell -Command \"Get-ChildItem '.' -Directory | ForEach-Object { [PSCustomObject]@{ Mappe = $_.FullName; StorrelseGB = [math]::Round((Get-ChildItem $_.FullName -Recurse -File -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum / 1GB, 3) } } | Export-Csv -Path '.\\mappesize.csv' -NoTypeInformation -Delimiter ';' -Encoding UTF8\"\n\nKommandoen lager filen **mappesize.csv** i mappen du åpnet ledeteksten fra. Har du mange eller store undermapper, kan den ta noen minutter — la den jobbe ferdig."
+            "innhold": "Lim inn denne kommandoen i kommandovinduet og trykk **Enter**:\n\npowershell -Command \"Get-ChildItem '.' -Directory | ForEach-Object { [PSCustomObject]@{ Mappe = $_.FullName; StorrelseGB = [math]::Round((Get-ChildItem $_.FullName -Recurse -File -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum / 1GB, 3) } } | Export-Csv -Path '.\\mappesize.csv' -NoTypeInformation -Delimiter ';' -Encoding UTF8\"\n\nKommandoen lager filen **mappesize.csv** i mappen den har undersøkt. Det kan ta noen minutter hvis du har mange eller store undermapper  — la den jobbe ferdig."
           },
           {
             "tittel": "Åpne resultatet i Excel",
-            "innhold": "CSV-filen må importeres riktig for at norske desimaltegn og semikolon-skille skal virke — ikke bare dobbeltklikk på den.\n\n1. Åpne **Excel**.\n2. Velg **Data** → **Fra tekst/CSV**, og velg **mappesize.csv**.\n3. Sett skilletegn til **semikolon** hvis Excel ikke velger det automatisk.\n4. Klikk **Last inn**.\n\nKolonnen **StorrelseGB** viser størrelsen i GB med tre desimaler. Sortér synkende — så ser du de største mappene øverst."
+            "innhold": "Dobbeltklikk på csv-fila for å åpne den i **Excel** og se oversikten.\n\n.Kolonnen **StorrelseGB** viser størrelsen i GB med tre desimaler. Sortér synkende — så ser du de største mappene øverst."
           },
           {
             "tittel": "Bra å vite",
-            "innhold": "Noen merknader før du tolker resultatet:\n\n- Kommandoen teller bare **direkte undermapper på øverste nivå** — ikke hver undermappe av undermapper som egen rad. Du får én rad per førstenivå-mappe, men summen inkluderer alt under.\n- **ErrorAction SilentlyContinue** gjør at mapper du ikke har lesetilgang til, hoppes over uten feilmelding. Summen kan derfor undervurdere reell størrelse hvis du mangler tilgang.\n- Vil du gå et nivå dypere? Kjør samme kommando på nytt — denne gang fra en av de største undermappene.\n\n*Tips: kombiner oversikten med en samtale med leder eller arkivansvarlig. Flest GB betyr ikke alltid viktigst data — men det er et godt sted å begynne kartleggingen.*"
+            "innhold": "Noen merknader før du tolker resultatet:\n\n- Kommandoen teller bare **direkte undermapper på øverste nivå** — ikke hver undermappe av undermapper som egen rad. Du får én rad per førstenivå-mappe, men summen inkluderer alt under.\n- **ErrorAction SilentlyContinue** gjør at mapper du ikke har lesetilgang til, hoppes over uten feilmelding. Summen kan derfor undervurdere reell størrelse hvis du mangler tilgang.\n- Vil du gå et nivå dypere? Kjør samme kommando på nytt — denne gang fra en av de største undermappene.\n\n*Tips: kombiner oversikten med en samtale med leder eller arkivansvarlig for å ta gode valg videre i ryddingen. Flest GB betyr ikke alltid viktigst data — men det er et godt sted å begynne kartleggingen.*"
           }
         ],
         "relaterte": [
