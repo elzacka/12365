@@ -444,6 +444,7 @@
         "id": "onedrive-vs-sharepoint",
         "tittel": "OneDrive eller SharePoint?",
         "ingress": "To lagringsplasser — én tommelfingerregel: OneDrive er ditt, SharePoint er felles.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "pa-tvers",
         "tags": [
           "onedrive",
@@ -468,12 +469,18 @@
             "tittel": "Del alltid lenke — ikke vedlegg",
             "innhold": "Høyreklikk filen i Teams og velg **Del**. Du styrer hvem som ser og kan redigere. Mottakeren får alltid siste versjon — ikke en frossen kopi."
           }
+        ],
+        "relaterte": [
+          "fra-filserver-til-sharepoint",
+          "vise-redigere-kommentere",
+          "teams-hierarki"
         ]
       },
       {
         "id": "loop-eller-word",
         "tittel": "Loop eller Word — hva bruker du?",
         "ingress": "Ikke alt som ser ut som et dokument, trenger å være en Word-fil. Loop er det smarte valget for alt som leves og arbeides med av flere — Word er for det som er ferdig.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "pa-tvers",
         "tags": [
           "loop",
@@ -507,12 +514,17 @@
             "tittel": "Praktiske eksempler",
             "innhold": "**Bruk Loop-side til:**\n\n- Saksliste og referat for møte\n- Prosjektbeskrivelse alle bidrar til\n\n**Bruk Loop-komponent til:**\n\n- Ukesstatus som deles med teamet\n- Idéinnsamling i møte\n\n**Bruk Word til:**\n\n- Årsrapport til styret\n- Kontrakt med ekstern leverandør\n- Veiledning som skal trykkes\n\n**Bruk SharePoint-side til:**\n\n- Rutine i prosessbiblioteket"
           }
+        ],
+        "relaterte": [
+          "teams-moter",
+          "sharepoint-prosessdokumentasjon-visio"
         ]
       },
       {
         "id": "vise-redigere-kommentere",
         "tittel": "Vise, redigere eller kommentere — riktig deling",
         "ingress": "Når du deler en fil, bestemmer du selv om mottakeren bare skal lese, kunne kommentere eller endre innholdet. Riktig rettighet gir både flyt og trygghet.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "pa-tvers",
         "tags": [
           "deling",
@@ -541,12 +553,18 @@
             "tittel": "Del på riktig sted — ikke bare med riktig rettighet",
             "innhold": "Husk at rettigheten kun er én del av god deling. Det viktigste er **hvor filen ligger**:\n\n- Skal flere bruke filen jevnlig? Den hører hjemme i en **Teams-kanal**.\n- Er det et engangstilfelle eller midlertidig innspill? Da kan **OneDrive-deling** med navngitt person fungere.\n- Skal hele organisasjonen ha innsyn? Bruk en **SharePoint-side** eller hub.\n\nFlytt filen før du deler den. Da følger tilgangen jobben — ikke deg som person."
           }
+        ],
+        "relaterte": [
+          "teams-hierarki",
+          "folsomhetsetiketter",
+          "onedrive-vs-sharepoint"
         ]
       },
       {
         "id": "versjonshistorikk",
         "tittel": "Finn tilbake til en tidligere versjon",
         "ingress": "M365 lagrer automatisk alle versjoner av dokumentene dine — full notoritet over hva som er endret, når og av hvem. Du kan alltid rulle tilbake.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "pa-tvers",
         "tags": [
           "versjon",
@@ -570,6 +588,10 @@
             "tittel": "Gjenopprett ønsket versjon",
             "innhold": "Klikk på en versjon for å åpne den. Klikk deretter **Gjenopprett** for å gjøre den til gjeldende versjon.\n\nDen gamle versjonen forsvinner ikke — den legger seg som en ny versjon i loggen."
           }
+        ],
+        "relaterte": [
+          "fra-filserver-til-sharepoint",
+          "rydd-teknikker"
         ]
       }
     ]
