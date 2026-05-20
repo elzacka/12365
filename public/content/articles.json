@@ -335,6 +335,10 @@
             "innhold": "Klikk på en Word-, Excel- eller PowerPoint-fil i Teams — den åpnes direkte i Teams-vinduet. Du kan redigere, kommentere og samskrive uten å gå til Edge.\n\nEndringene lagres automatisk i SharePoint. Ingen nedlasting. Ingen «Lagre en kopi»-problematikk."
           },
           {
+            "tittel": "Når du trenger skrivebordsversjonen — Åpne i app",
+            "innhold": "Den innebygde editoren i Teams dekker det meste. Av og til trenger du den klassiske skrivebordsversjonen — typisk for makroer og Power Query i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp-/bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en — koblet til samme fil i SharePoint, så endringene lagres på samme sted\n\nDu kan også høyreklikke filen i en kanals **Filer**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: når du er ferdig, lukk bare skrivebordsappen — endringene er allerede synkronisert tilbake til SharePoint.*"
+          },
+          {
             "tittel": "Hva krever likevel Edge?",
             "innhold": "For vanlige ansatte er det lite som krever Edge. Unntakene er:\n\n- **Opprette nye SharePoint-nettsteder** (avhengig av tenantens innstillinger)\n- **Administrere Term Store og innholdstyper** (kun IT/admin)\n- **Redigere SharePoint-sider med kompleks layout** (åpner Edge automatisk)\n- **Åpne Visio** for å tegne diagrammer (åpnes typisk i nettleseren)\n\nAlt annet — filer, lister, oppgaver, møter, notater, KI — kan du gjøre i Teams."
           },
@@ -1011,6 +1015,10 @@
           {
             "tittel": "Spør deg selv: hører dette hjemme i Teams?",
             "innhold": "Før du svarer på e-post: er dette en kort avklaring med en kollega? Send det som Teams-chat i stedet.\n\nEr det en faglig diskusjon hele teamet bør følge med på? Post det i riktig Teams-kanal.\n\nE-post er best for ekstern kommunikasjon og formelle henvendelser. Intern koordinering og oppfølging fungerer bedre i Teams."
+          },
+          {
+            "tittel": "Når Outlook for the web ikke holder — bruk Outlook på PC",
+            "innhold": "Outlook er ikke innebygd i Teams — det er en egen app som ligger ved siden av. Outlook for the web (i Edge) dekker daglig e-post og kalender, men skrivebordsversjonen på PC har noen funksjoner som ikke finnes eller fungerer dårligere i nettleseren:\n\n- **Søkemapper** — virtuelle mapper basert på kriterier (store e-postmeldinger, gammel e-post, fra avsender)\n- **Regler** — mer omfattende oppsett med flere steg og betingelser\n- **Delegering** — gi en kollega tilgang til innboks eller kalender på dine vegne\n- **Online Archive** — eldre e-post flyttet til arkivlageret\n- **Hurtigtrinn** — knapper for repeterte oppgaver med hurtigtast\n- **Avansert søk** — flere filtre og kombinasjoner\n\nDu åpner skrivebordsversjonen via **Start-menyen** eller **Søk** på oppgavelinjen, eller ved å feste **Outlook** der. Bruker du Teams som hovedflate, kan du fortsatt høyreklikke en e-post i Outlook → **Del til Teams** for å løfte tråden over i en kanal eller chat.\n\n*For konkrete grep i Outlook — søkemapper, Rydd opp, Ignorer og Hurtigtrinn — se artikkelen om effektive ryddeteknikker.*"
           }
         ],
         "relaterte": [
