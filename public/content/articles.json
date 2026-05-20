@@ -8,7 +8,7 @@
         "id": "rydd-for-m365",
         "tittel": "Pakk lett — digital rydding lønner seg",
         "ingress": "Det er fristende å ta med seg alt. Men jo mer du tar med, jo vanskeligere blir det å finne fram. Slik tenker du om digital rydding — som en investering i din egen og fellesskapets jobbhverdag.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -48,7 +48,7 @@
         "id": "rydd-sjekkliste",
         "tittel": "Slik rydder du i din egen jobbhverdag — sjekkliste som virker",
         "ingress": "En ryddesesjon er en investering i deg selv. Når du har gjort den, finner du ting raskere, samarbeider lettere og slipper å vasse gjennom 15 versjoner av samme dokument. Slik gjør du det effektivt — uten å gå glipp av det som faktisk skal tas vare på.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -107,7 +107,7 @@
         "id": "rydd-systemkart",
         "tittel": "Hvor hører dokumentet hjemme? — kart over systemene dine",
         "ingress": "Microsoft 365 er ikke det eneste stedet å lagre informasjon — det er flere systemer, hvert med sitt formål. Slik vet du hva som hører hvor, og hvorfor det betyr noe i hverdagen.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -159,7 +159,7 @@
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker — finn det riktige raskt",
         "ingress": "Et knippe konkrete grep i Outlook og Filutforsker som gjør jobben tre ganger så fort — pluss sikkerhetsnettet du bør kjenne før du sletter mye.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -171,7 +171,7 @@
         "steg": [
           {
             "tittel": "Søkemapper i Outlook — én visning, flere mapper",
-            "innhold": "Søkemapper er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\nSlik lager du en:\n\n- Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n- Velg en ferdig mal — for eksempel **Stor e-post**, **Ulest e-post** eller **Eldre e-post** — eller **Egendefinert søkemappe** for egne kriterier\n- Gi den et beskrivende navn, for eksempel «Stor e-post over 5 MB» eller «Eldre enn ett år»\n\nTypiske søkemapper å sette opp:\n\n- **Stor e-post** — finn tunge vedlegg du kan slette eller flytte ut\n- **Eldre enn ett år** — kandidater for arkivering eller sletting\n- **Fra én avsender** — samle nyhetsbrev eller varsler fra én kilde for masseopprydding\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten.*"
+            "innhold": "Søkemapper er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\nSlik lager du en (Outlook 2019):\n\n- Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n- Velg en ferdig mal under **Organisere e-post** — for eksempel **Store e-postmeldinger**, **Gammel e-post** eller **E-post med vedlegg** — eller **Opprett en egendefinert søkemappe** for egne kriterier\n- For **Store e-postmeldinger** åpnes dialogen **E-poststørrelse** der du oppgir minste størrelse i **kB**. **5 MB tilsvarer 5120 kB** (1 MB = 1024 kB). Til sammenligning er en typisk e-post uten vedlegg rundt 20–75 kB — så grensen på 5120 kB plukker ut meldinger med vedlegg av en viss størrelse.\n\nTypiske søkemapper å sette opp:\n\n- **Store e-postmeldinger** — finn tunge vedlegg du kan slette eller flytte ut\n- **Gammel e-post** — kandidater for arkivering eller sletting\n- **E-post med vedlegg** — sortér ut alt med vedlegg for samlet gjennomgang\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten.*"
           },
           {
             "tittel": "Rydd opp, Ignorer og Hurtigtrinn — tre Outlook-grep til",
@@ -199,7 +199,7 @@
         "id": "rydd-personopplysninger",
         "tittel": "Personopplysninger og sensitive funn — slik gjør du det riktig",
         "ingress": "Når du finner personopplysninger eller sensitivt innhold på avveie, må du vurdere det riktig. Slik håndterer du funnene — uten å bryte regler eller havne i en uoversiktlig situasjon.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
           "personvern",
@@ -265,7 +265,7 @@
         "id": "teams-som-arbeidsflate",
         "tittel": "Teams — arbeidsflaten din i M365",
         "ingress": "Teams er ikke bare et verktøy for videomøter og chat. Det er den samlede arbeidsflaten i M365 — her finner du filene, oppgavene, notatene og appene dine på ett sted.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -313,7 +313,7 @@
         "id": "teams-hierarki",
         "tittel": "Hierarki og tilganger i Teams — hvem ser hva, og hvordan du styrer det",
         "ingress": "Hierarkiet i Teams — team, kanal og innhold — styrer hvem som har tilgang til hva. Slik forstår du oppbyggingen, hvordan du sjekker tilgang, og hvordan du gir tilgang riktig fra starten.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -363,7 +363,7 @@
         "id": "fra-filserver-til-sharepoint",
         "tittel": "SharePoint — slik er det annerledes enn en filserver",
         "ingress": "SharePoint er ikke en filserver — det er en samarbeidsplattform. Slik forstår du forskjellen, og hvorfor det endrer hvordan du tenker om filer.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "sharepoint",
@@ -407,7 +407,7 @@
         "id": "folsomhetsetiketter",
         "tittel": "Følsomhetsetiketter — slik klassifiserer du innhold",
         "ingress": "Følsomhetsetiketter forteller M365 hvor sensitivt et dokument er — og styrer automatisk hvordan det kan deles, lastes ned og merkes.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "sikkerhet",
         "tags": [
           "følsomhetsetiketter",
@@ -455,7 +455,7 @@
         "id": "onedrive-vs-sharepoint",
         "tittel": "OneDrive eller SharePoint?",
         "ingress": "To lagringsplasser — én tommelfingerregel: OneDrive er ditt, SharePoint er felles.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
           "onedrive",
@@ -491,7 +491,7 @@
         "id": "loop-eller-word",
         "tittel": "Loop eller Word — hva bruker du?",
         "ingress": "Ikke alt som ser ut som et dokument, trenger å være en Word-fil. Loop er det smarte valget for alt som leves og arbeides med av flere — Word er for det som er ferdig.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
           "loop",
@@ -535,7 +535,7 @@
         "id": "vise-redigere-kommentere",
         "tittel": "Vise, redigere eller kommentere — riktig deling",
         "ingress": "Når du deler en fil, bestemmer du selv om mottakeren bare skal lese, kunne kommentere eller endre innholdet. Riktig rettighet gir både flyt og trygghet.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
           "deling",
@@ -575,7 +575,7 @@
         "id": "versjonshistorikk",
         "tittel": "Finn tilbake til en tidligere versjon",
         "ingress": "M365 lagrer automatisk alle versjoner av dokumentene dine — full notoritet over hva som er endret, når og av hvem. Du kan alltid rulle tilbake.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
           "versjon",
@@ -616,7 +616,7 @@
         "id": "clipchamp-bruke",
         "tittel": "Slik bruker du Clipchamp",
         "ingress": "Clipchamp er video-appen i Microsoft 365. Her bruker du den til å ta opp, redigere, transkribere og dele video — alt på ett sted.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "clipchamp",
         "tags": [
           "clipchamp",
@@ -675,7 +675,7 @@
         "id": "copilot-chat-inkludert",
         "tittel": "Slik bruker du Copilot Chat",
         "ingress": "Copilot Chat er KI-chatten for skriving, oppsummering og søk i organisasjonens innhold — inkludert i M365-abonnementet og tilgjengelig i Teams, Outlook, Edge og som egen app.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
           "copilot",
@@ -713,7 +713,7 @@
         "id": "copilot-studio-for-teams-bygge-chatbot",
         "tittel": "Slik bygger du en chatbot med Copilot Studio",
         "ingress": "Du kan lage en regelbasert chatbot for ditt eget team — uten å programmere. Du bygger den i Copilot Studio-nettappen og publiserer den til en Teams-kanal eller chat. Slik gjør du det.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
           "copilot-studio",
@@ -770,7 +770,7 @@
         "id": "m365-copilot-aktivert",
         "tittel": "Hva får du med Microsoft 365 Copilot?",
         "ingress": "Microsoft 365 Copilot låser opp KI-funksjoner inne i alle M365-appene — og noen helt nye flater. Her er det viktigste du kan gjøre.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
@@ -841,7 +841,7 @@
         "id": "lists-hendelseslogg",
         "tittel": "Hendelseslogg i Lists",
         "ingress": "Microsoft Lists er et fleksibelt verktøy for å logge, prioritere og lukke hendelser — med skjemaer, varsler og tavle uten kode.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "lists",
         "tags": [
           "lists",
@@ -889,7 +889,7 @@
         "id": "lists-risikoregister",
         "tittel": "Risikoregister i Lists",
         "ingress": "Microsoft Lists er en god plattform for et levende risikoregister med automatisk scoring, fargekodede visninger og sporbar oppfølging.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "lists",
         "tags": [
           "lists",
@@ -947,7 +947,7 @@
         "id": "ryddig-innboks",
         "tittel": "Hold innboksen ryddig",
         "ingress": "Fokusert innboks, kategorier og flagg — tre grep som hjelper deg å holde oversikten i Outlook.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "outlook",
         "tags": [
           "outlook",
@@ -989,7 +989,7 @@
         "id": "planner-enkel-oppgavestyring",
         "tittel": "Enkel oppgavestyring i Planner",
         "ingress": "Planner gir deg en visuell tavle for å fordele, organisere og spore oppgaver — tilgjengelig direkte i Teams.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "planner",
         "tags": [
           "planner",
@@ -1048,7 +1048,7 @@
         "id": "sharepoint-automasjon-2026",
         "tittel": "Automatisering i SharePoint — arbeidsflyter uten kode",
         "ingress": "SharePoint har innebygde arbeidsflyter, hurtigsteg, godkjenninger og skjemaer du kan ta i bruk uten kode. Slik utnytter du dem i hverdagen.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -1140,7 +1140,7 @@
         "id": "sharepoint-prosessdokumentasjon-visio",
         "tittel": "Prosessdokumentasjon i SharePoint med Visio",
         "ingress": "Bruk SharePoint-sider med innebygd Visio-diagram, strukturerte metadata og godkjenningsflyt — finnbart, levende og KI-klart.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -1208,7 +1208,7 @@
         "id": "komme-i-gang-med-shifts",
         "tittel": "Vaktplaner i Shifts",
         "ingress": "Shifts er Microsofts vaktplanleggingsapp inkludert i Teams. Ansatte ser turnusen sin og bytter vakter — ledere lager og publiserer planene.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "shifts",
         "tags": [
           "shifts",
@@ -1283,7 +1283,7 @@
             "innhold": "Skriv **@fornavn** for å varsle én person, **@Teamnavn** for hele teamet. De får varsel selv om de ikke sjekker kanalen aktivt.\n\n*Husk: faglig dialog som dokumenterer beslutninger eller saksforberedelser kan være journalføringspliktig — uavhengig av om det skjer i chat eller kanal.*"
           }
         ],
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "relaterte": [
           "teams-hierarki",
           "teams-moter",
@@ -1323,7 +1323,7 @@
             "innhold": "To eiere er minimum. **Tre til fire er ofte ideelt** for større team. Mer enn det fungerer sjelden — eierskap blir utvannet og ingen tar reelt ansvar.\n\nSkill mellom **eier** (administrativt ansvar) og **medlem** (deltar i arbeidet). De fleste i et team skal være medlemmer, ikke eiere."
           }
         ],
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "relaterte": [
           "teams-hierarki",
           "kanaltyper",
@@ -1359,7 +1359,7 @@
             "innhold": "Still ett enkelt spørsmål: **hvem skal egentlig ha tilgang?**\n\n- **Hele teamet (inkl. gjester)** → Standardkanal\n- **En undergruppe i teamet** → Privat kanal\n- **Folk på tvers av team** → Delt kanal\n- **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nHvis du er i tvil, **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
           }
         ],
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "relaterte": [
           "teams-hierarki",
           "teams-eierskap",
@@ -1399,7 +1399,7 @@
             "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n- «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n- «Nye», «Gamle», «Kommer», «Til vurdering»\n- Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n- Beskriver hva som faktisk ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n- Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n- Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år — vil hen forstå hva som ligger der?"
           }
         ],
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "relaterte": [
           "teams-hierarki",
           "fra-filserver-til-sharepoint",
@@ -1440,7 +1440,7 @@
             "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du både video og **transkripsjon** — søkbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. transkripsjonen kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
           }
         ],
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "relaterte": [
           "loop-eller-word",
           "clipchamp-bruke",
@@ -1510,7 +1510,7 @@
             "innhold": "Du kan legge til emojier i navnet på egendefinerte seksjoner i kanallisten. Det gjør det lettere å skille mellom prosjekter og arbeidsområder i en lang liste.\n\nNår du oppretter eller gir nytt navn til en seksjon, velg en emoji som vises ved siden av navnet."
           }
         ],
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "relaterte": [
           "teams-moter",
           "copilot-chat-inkludert",
@@ -1521,7 +1521,7 @@
         "id": "kanal-arkivering",
         "tittel": "Når prosjektet er ferdig — arkiver eller slett kanalen",
         "ingress": "En kanal som har gjort jobben sin, bør fjernes. Slik avvikler du en kanal som var dedikert til ett prosjekt, én anskaffelse eller en annen tidsavgrenset arbeidsstrøm — uten å miste det som har varig verdi.",
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "teams",
         "tags": [
           "kanal",
@@ -1639,7 +1639,7 @@
             "innhold": "Når innholdet er ingestert (innen 24 timer), kan ansatte:\n\n- Åpne **Viva Learning** i venstremenyen i Teams\n- Søke etter emne, tittel eller stikkord\n- Filtrere på språk, kilde, varighet eller emne (SkillTags)\n- Markere kurs som ferdig, lagre til senere eller dele med kolleger\n\nFor en fokusert opplevelse i en bestemt kanal: Legg Viva Learning til som **fane** i kanalen. Klikk **+** på fanelinja, søk opp **Viva Learning**, og velg en samling kurs som skal vises.\n\n*Resultatet: Hele teamet ser samme læringsmateriell på samme sted — i flyten der det daglige arbeidet skjer.*"
           }
         ],
-        "oppdatert": "Sist oppdatert 20. mai 2026.",
+        "oppdatert": "Sist oppdatert: 20.05.26",
         "relaterte": [
           "sharepoint-prosessdokumentasjon-visio",
           "fra-filserver-til-sharepoint",
