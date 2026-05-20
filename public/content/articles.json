@@ -47,7 +47,7 @@
       {
         "id": "finn-mappestorrelser",
         "tittel": "Finn mappestørrelser raskt — kartlegg før du flytter",
-        "ingress": "Skal du flytte fra filserver til SharePoint? Begynn med å finne ut hva som faktisk ligger hvor. En PowerShell-snutt lister opp størrelsen på alle undermapper i ett jafs — slik at du vet hvor du må starte.",
+        "ingress": "Med denne oppskriften får du en Excel-fil som lister opp størrelsen på alle undermapper i ett jafs — slik at du vet hvor du bør starte. Noen som sa ryddekonkurranse?",
         "oppdatert": "Sist oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
@@ -59,7 +59,7 @@
         "steg": [
           {
             "tittel": "Når du trenger oversikten",
-            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nDenne kommandoen lister alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n*Eksempel: en filserver på 8 TB der 80 prosent ligger i tre mapper. Da vet du hvor ryddejobben må starte.*\n\nFremgangsmåten er testet på Windows Server 2019 Datacenter (norsk versjon), men virker likt på Windows 10 og 11."
+            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nDenne kommandoen lister opp alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n*Eksempel: en filserver på 8 TB der 80 prosent ligger i tre mapper. Da vet du hvor ryddejobben må starte.*\n\nFremgangsmåten er testet på Windows Server 2019 Datacenter (norsk versjon), men virker likt på Windows 10 og 11."
           },
           {
             "tittel": "Åpne ledetekst direkte i mappen",
