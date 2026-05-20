@@ -605,6 +605,7 @@
         "id": "clipchamp-bruke",
         "tittel": "Slik bruker du Clipchamp",
         "ingress": "Clipchamp er video-appen i Microsoft 365. Her bruker du den til å ta opp, redigere, transkribere og dele video — alt på ett sted.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "clipchamp",
         "tags": [
           "clipchamp",
@@ -646,6 +647,11 @@
             "tittel": "Hva med personvern?",
             "innhold": "Clipchamp-videoer fra jobb-kontoen din ligger i OneDrive eller SharePoint og følger samme tilgangsregler som dokumenter. Et møteopptak deles bare med dem som var i møtet — eller med dem du eksplisitt deler det med.\n\n*Si fra til deltakerne før du tar opp et møte. Be om samtykke hvis møtet inneholder personopplysninger som skal lagres lenger enn det praktiske formålet krever.*"
           }
+        ],
+        "relaterte": [
+          "teams-moter",
+          "folsomhetsetiketter",
+          "rydd-personopplysninger"
         ]
       }
     ]
@@ -658,7 +664,8 @@
       {
         "id": "copilot-chat-inkludert",
         "tittel": "Slik bruker du Copilot Chat",
-        "ingress": "Copilot Chat er KI-chatten for skriving, oppsummering og søk i organisasjonens innhold — direkte i Teams og Edge.",
+        "ingress": "Copilot Chat er KI-chatten for skriving, oppsummering og søk i organisasjonens innhold — inkludert i M365-abonnementet og tilgjengelig i Teams, Outlook, Edge og som egen app.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "copilot",
         "tags": [
           "copilot",
@@ -668,7 +675,7 @@
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Den raskeste veien er **venstremenyen i Teams** — klikk på Copilot-ikonet.\n\nI **Edge** finner du Copilot-ikonet til høyre i adressefeltet."
+            "innhold": "Flere veier inn:\n\n- **Teams** — klikk Copilot-ikonet i venstremenyen\n- **Outlook** — Copilot-knappen i båndmenyen\n- **Edge** — Copilot-ikonet til høyre i adressefeltet\n- **Microsoft 365 Copilot-appen** — egen app på mobil og PC\n- **m365copilot.com** — i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger."
           },
           {
             "tittel": "Nett-modus — søk på internett",
@@ -686,12 +693,17 @@
             "tittel": "Skriv, formuler og bryne deg",
             "innhold": "Copilot Chat er et godt skriveverktøy uansett modus:\n\n- Utkast til e-post, notat eller saksframlegg\n- Tekst omskrevet til **klarspråk**\n- Brainstorming av løsninger og argumenter\n- Oversetting mellom norsk og andre språk\n- Forklare et fagbegrep enkelt\n\nLim inn din egen tekst og si hva du vil Copilot skal gjøre med den. Vær gjerne konkret om tone, lengde og målgruppe."
           }
+        ],
+        "relaterte": [
+          "m365-copilot-aktivert",
+          "copilot-studio-for-teams-bygge-chatbot"
         ]
       },
       {
         "id": "copilot-studio-for-teams-bygge-chatbot",
-        "tittel": "Slik bygger du en chatbot med Copilot Studio for Teams",
+        "tittel": "Slik bygger du en chatbot med Copilot Studio",
         "ingress": "Du kan lage en regelbasert chatbot for ditt eget team — uten å programmere. Du bygger den i Copilot Studio-nettappen og publiserer den til en Teams-kanal eller chat. Slik gjør du det.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "copilot",
         "tags": [
           "copilot-studio",
@@ -736,14 +748,19 @@
           },
           {
             "tittel": "Dette krever tillegg",
-            "innhold": "Chatbotten har disse rammene:\n\n- **Regelbasert** — den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n- **Bare i Teams** — kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n- **Lagring i Dataverse for Teams** — ikke full Dataverse\n\nTrenger du generative svar fra dokumenter, ekstern publisering eller større datamengder, krever det Microsoft Copilot Studio-tilleggslisens.\n\n*Etter 30. juni 2026 avvikles byggeflaten i selve Teams-appen. Du bygger på samme måte som før, men i Copilot Studio-nettappen. Eksisterende chatboter fortsetter å virke.*"
+            "innhold": "Chatbotten du bygger via Teams-eierskapet har disse rammene:\n\n- **Regelbasert** — den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n- **Bare i Teams** — kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n- **Lagring i Dataverse for Teams** — ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller større datamengder kreves Copilot Studio som tillegg — eller en Microsoft 365 Copilot-lisens, som siden slutten av 2025 inkluderer fullt Copilot Studio for interne, lisensierte brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Du bygger nye på copilotstudio.microsoft.com.*"
           }
+        ],
+        "relaterte": [
+          "copilot-chat-inkludert",
+          "m365-copilot-aktivert"
         ]
       },
       {
         "id": "m365-copilot-aktivert",
         "tittel": "Hva får du med Microsoft 365 Copilot?",
         "ingress": "Microsoft 365 Copilot låser opp KI-funksjoner inne i alle M365-appene — og noen helt nye flater. Her er det viktigste du kan gjøre.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
@@ -795,6 +812,11 @@
             "tittel": "Forutsetninger — kort fortalt",
             "innhold": "For å hente ut full verdi må fire ting være på plass:\n\n- **Lisensen er tildelt** brukerne som faktisk skal bruke Copilot\n- **Tjenestene er slått på** i admin-portalen — for hver app dere vil bruke Copilot i\n- **Følsomhetsetiketter er på plass** så Copilot kan skille åpent fra begrenset innhold\n- **SharePoint og OneDrive er ryddige** — Copilot er bare så god som datagrunnlaget\n\nLær opp brukerne i å skrive gode prompter og kvalitetssikre svar — Copilot er et arbeidsverktøy, ikke en magisk knapp."
           }
+        ],
+        "relaterte": [
+          "copilot-chat-inkludert",
+          "copilot-studio-for-teams-bygge-chatbot",
+          "folsomhetsetiketter"
         ],
         "notat": "NB: Microsoft 365 Copilot er ikke inkludert i E3/E5-planen."
       }
