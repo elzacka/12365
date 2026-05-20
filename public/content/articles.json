@@ -395,6 +395,7 @@
         "id": "folsomhetsetiketter",
         "tittel": "Følsomhetsetiketter — slik klassifiserer du innhold",
         "ingress": "Følsomhetsetiketter forteller M365 hvor sensitivt et dokument er — og styrer automatisk hvordan det kan deles, lastes ned og merkes.",
+        "oppdatert": "Sist oppdatert 20. mai 2026.",
         "kategori": "sikkerhet",
         "tags": [
           "følsomhetsetiketter",
@@ -425,6 +426,11 @@
             "tittel": "Klassifiser før du deler",
             "innhold": "Som regel: **klassifiser dokumentet før du deler det**.\n\nHvis du oppretter et nytt dokument, sett etiketten med en gang — det er enklere å huske, og hindrer at sensitiv informasjon havner på avveie i mellomtiden.\n\nHvis du arver et dokument uten etikett, vurder hva det inneholder før du videresender. Den enkleste regelen: **er du i tvil, velg en strengere etikett**. Det er lettere å løsne på senere enn å trekke tilbake noe som er lekket."
           }
+        ],
+        "relaterte": [
+          "teams-hierarki",
+          "vise-redigere-kommentere",
+          "rydd-personopplysninger"
         ]
       }
     ]
