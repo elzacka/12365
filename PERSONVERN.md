@@ -1,27 +1,32 @@
 # Personvernerklæring
 
-Sist oppdatert: 07.05.26
+Oppdatert: 21.05.26
 
-## Hvilke data samles inn?
-
-Ingen. 12365 er en åpen, gratis Progressive Web App (PWA) som ikke samler inn personopplysninger, og som ikke bruker analyseverktøy, sporing eller informasjonskapsler for sporing.
+12365 er et åpent, gratis hobbyprosjekt drevet av Lene Zachariassen som privatperson. Appen samler ikke inn personopplysninger, bruker ikke analyseverktøy og setter ikke informasjonskapsler.
 
 ## Lagring i nettleseren
 
-For at appen skal fungere offline, lagrer nettleseren statiske filer (HTML, JavaScript, CSS, ikoner og bilder) lokalt på enheten din. Dette lagres kun på din egen enhet, sendes ikke videre, og kan slettes når som helst ved å fjerne nettleserdata for denne appen.
+For at appen skal fungere offline, lagrer nettleseren appens statiske filer (HTML, JavaScript, CSS, ikoner og innhold) lokalt på enheten din via en Service Worker. Filene sendes ikke videre og kan slettes ved å fjerne nettleserdata for denne appen.
 
-I tillegg lagres et lite valg lokalt — om du har lukket installeringsbanneret — slik at du slipper å se den igjen. Dette ligger i nettleserens `localStorage` på din enhet.
+Appen lagrer ett valg lokalt — om du har lukket installeringsbanneret — i nettleserens `localStorage`. Dette er en enkel av/på-verdi uten identifikasjon, og den ligger kun på din enhet.
 
 ## Tredjeparter
 
-Hvis appen viser videoer fra YouTube eller Vimeo, lastes disse fra henholdsvis `youtube-nocookie.com` og `player.vimeo.com`. Disse tjenestene kan registrere at du har spilt av en video. Avspillingen starter ikke før du selv velger å se videoen.
+**Videoer**
+Appen kan lenke til videoer fra YouTube og Vimeo. Ingen kontakt med disse tjenestene skjer før du selv klikker på en video. Når du spiller av:
 
-Selve appen er hostet på GitHub Pages. GitHub kan logge tilgangsdata (som IP-adresse) som ledd i drift av tjenesten. Se [GitHubs personvernerklæring](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for detaljer.
+- YouTube bruker `youtube-nocookie.com` (Privacy Enhanced Mode). YouTube kan registrere IP-adresse og nettleserinformasjon.
+- Vimeo bruker `player.vimeo.com` med Do Not Track-flagget aktivert (`?dnt=1`), som Vimeo har forpliktet seg til å respektere.
+
+**Hosting**
+Appen er hostet på GitHub Pages. GitHub logger IP-adresse og standard tilgangsdata som ledd i drift av tjenesten. Se [GitHubs personvernerklæring](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for detaljer.
 
 ## Dine rettigheter
 
-Siden ingen personopplysninger samles inn, finnes det heller ingen data å be om innsyn i, retting av eller sletting av.
+Siden appen ikke samler inn personopplysninger, finnes det ingen data å be om innsyn i, retting av eller sletting av.
+
+Du har rett til å klage til [Datatilsynet](https://www.datatilsynet.no) hvis du mener behandling av personopplysninger skjer i strid med personvernregelverket.
 
 ## Kontakt
 
-Spørsmål? Ta kontakt via [GitHub-profilen elzacka](https://github.com/elzacka)
+Spørsmål? Ta kontakt via [GitHub-profilen elzacka](https://github.com/elzacka).

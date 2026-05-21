@@ -1,7 +1,6 @@
 import { use } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchVideos } from '../data/loader'
-import { parseVideoSource } from '../data/video-source'
 import { VideoIcon } from '../components/Icons'
 
 export function Videos() {
@@ -19,12 +18,7 @@ export function Videos() {
         ) : (
           <div className="grid gap-4 mt-2">
             {videos.map(v => {
-              const source = parseVideoSource(v.fil, base)
-              const thumbnailSrc = v.thumbnail
-                ? `${base}${v.thumbnail}`
-                : source.type === 'youtube'
-                  ? source.thumbnailSrc
-                  : null
+              const thumbnailSrc = v.thumbnail ? `${base}${v.thumbnail}` : null
 
               return (
               <Link

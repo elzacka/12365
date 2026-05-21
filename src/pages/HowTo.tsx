@@ -35,9 +35,6 @@ export function HowTo() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-8 max-w-2xl mx-auto w-full">
-        <p className="text-sm text-slate-500 text-center mb-4">
-          Steg-for-steg-veiledninger for Microsoft 365
-        </p>
         {/* Search */}
         <div className="relative mb-4">
           <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400">

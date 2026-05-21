@@ -32,7 +32,7 @@ export interface Article {
   id: string
   tittel: string
   ingress: string
-  oppdatert?: string // optional "sist oppdatert" date shown as small italic line under the lede
+  oppdatert?: string // optional "oppdatert" date shown as small italic line under the lede
   notat?: string // optional italic note shown under the lede — license or prerequisite warnings
   kategori: string
   tags: string[]

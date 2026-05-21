@@ -8,7 +8,7 @@
         "id": "rydd-for-m365",
         "tittel": "Pakk lett — digital rydding lønner seg",
         "ingress": "Det er fristende å ta med seg alt. Men jo mer du tar med, jo vanskeligere blir det å finne fram. Slik tenker du om digital rydding — som en investering i din egen og fellesskapets jobbhverdag.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -19,7 +19,7 @@
         "steg": [
           {
             "tittel": "Hvorfor digital rydding lønner seg",
-            "innhold": "Det er fristende å beholde alt — for sikkerhets skyld. Det er en dårlig idé. Fire grunner til å rydde:\n\n- **Personvern og sikkerhet** — Gamle filer kan inneholde sensitive opplysninger. KI-funksjoner som Copilot henter innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n- **Bærekraft** — Mindre lagring sparer energi og ressurser.\n- **Brukervennlighet** — Med færre og mer relevante filer blir det lettere å holde oversikt.\n- **Informasjonssikkerhet** — Personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste.\n\n*Det er en sjanse til å starte med blanke ark — grip den.*"
+            "innhold": "Fire grunner til å rydde:\n\n- **Personvern og sikkerhet** — Gamle filer kan inneholde sensitive opplysninger. KI-funksjoner som Copilot henter innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n- **Bærekraft** — Mindre lagring sparer energi og ressurser.\n- **Brukervennlighet** — Med færre og mer relevante filer blir det lettere å holde oversikt.\n- **Informasjonssikkerhet** — Personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste."
           },
           {
             "tittel": "Pakk lett — dagstursekken som prinsipp",
@@ -48,7 +48,7 @@
         "id": "finn-mappestorrelser",
         "tittel": "Finn mappestørrelser raskt — kartlegg før du flytter",
         "ingress": "Med denne oppskriften får du en Excel-fil som lister opp størrelsen på alle undermapper i ett jafs — slik at du vet hvor du bør starte.",
-        "oppdatert": "Sist oppdatert: 21.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "for-flytting",
         "tags": [
           "kartlegging",
@@ -58,8 +58,8 @@
         ],
         "steg": [
           {
-            "tittel": "Når du trenger oversikten",
-            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nHer bruker du en kommando som lister opp alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n**Viktig**: Kommandoen kan belaste IT-infrastrukturen hvis mange gjør dette samtidig eller den kjøres i mapper med mye innhold. Avklar med IT for å unngå unødvendig belastning og feil."
+            "tittel": "Før du kjører kommandoen",
+            "innhold": "Kommandoen kan belaste IT-infrastrukturen hvis mange gjør dette samtidig eller den kjøres i mapper med mye innhold. Avklar med IT for å unngå unødvendig belastning og feil."
           },
           {
             "tittel": "Åpne kommandovinduet direkte i mappen",
@@ -85,121 +85,10 @@
         ]
       },
       {
-        "id": "rydd-sjekkliste",
-        "tittel": "Slik rydder du i din egen jobbhverdag — sjekkliste som virker",
-        "ingress": "En ryddesesjon er en investering i deg selv. Når du har gjort den, finner du ting raskere, samarbeider lettere og slipper å vasse gjennom 15 versjoner av samme dokument. Slik gjør du det effektivt — uten å gå glipp av det som faktisk skal tas vare på.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
-        "kategori": "for-flytting",
-        "tags": [
-          "rydding",
-          "sjekkliste",
-          "effektivitet",
-          "ansatt"
-        ],
-        "steg": [
-          {
-            "tittel": "Hva du faktisk får igjen for innsatsen",
-            "innhold": "Når du har gjort en runde med digital rydding, får du:\n\n- **En innboks som ikke er i veien** — du finner avtalen fra mars uten å scrolle gjennom 400 nyhetsbrev.\n- **Et personlig område der alt har et formål** — ingen mapper som heter «Diverse 2018» du ikke tør røre.\n- **En bedre start på Copilot** — Copilot er like ryddig som materialet den henter fra. Søl inn, søl ut.\n- **Lettere samhandling** — det du beholder ligger der andre lett kan finne det igjen, også de utenfor avdelingen din.\n- **Mindre angst** — du vet hva du har, og hva du har avhendet med vilje.\n\n*Tips: sett av én time i uka, fordelt over to–tre uker. Det betaler seg fort.*"
-          },
-          {
-            "tittel": "De tre stedene du skal gjennom",
-            "innhold": "Du har tre områder å rydde i. Ta dem i denne rekkefølgen — innboksen først fordi det går raskest og motiverer, hjemmekatalogen til slutt fordi det krever litt mer hodearbeid.\n\n- **Innboks og Sendte elementer i Outlook** — begge tar plass. Sendte elementer er ofte verstingen: store vedlegg du har sendt fra deg ligger der i tillegg til hos mottakeren.\n- **Skrivebord, Nedlastinger og Dokumenter** — det «lokale» som ofte ble til midlertidig lager, og ble glemt.\n- **Hjemmekatalogen (typisk H:-stasjonen)** og **OneDrive** — dine personlige filområder. Det som ligger her må flyttes, slettes eller forbli liggende — alltid bevisst valgt.\n\nFellesområdet (P:, S: og lignende) er avdelingens ansvar — ikke ditt alene. Snakk med leder hvis det er behov der."
-          },
-          {
-            "tittel": "Start med kvantitet, ikke kvalitet",
-            "innhold": "Mange begynner å lese hver fil og blir utmattet etter 20 minutter. Den effektive måten er motsatt: sortér først, vurder etterpå. Du kan ofte være ferdig med 70 prosent av jobben uten å åpne én eneste fil.\n\n- **Sortér på størrelse, synkende** — 80 prosent av plassen ligger i 50 e-poster og filer. Disse er som regel åpenbare slettekandidater.\n- **Sortér på dato, eldst først** — alt fra 2019 og bakover er sannsynligvis avhendet. Bekreft i bulk.\n- **Sortér på avsender (e-post)** — velg én avsender med mange e-poster, typisk nyhetsbrev eller varslingssystem, og slett samlet.\n- **Sortér på filtype** — .tmp, .bak, gamle .zip og duplikater kan ofte ryddes i ett jafs.\n\nKonkrete teknikker for søkemapper og dato-søk er beskrevet i en egen artikkel."
-          },
-          {
-            "tittel": "Behold-regelen — fem typer, fem destinasjoner",
-            "innhold": "For hver fil eller e-post, vurder hvor den hører hjemme. Fem typer dekker så å si alt:\n\n- **Aktivt arbeidsmateriale** (utkast, kladder, presentasjoner for gjenbruk, bilder, maler) → OneDrive (personlig) eller Teams/SharePoint (delt)\n- **Arkivverdig** (saksdokument, vedtak, beslutningsgrunnlag, kontrakt) → sak-/arkivsystemet (typisk Acos WebSak, Public 360 eller Elements)\n- **Prosessdokumentasjon** (rutiner, veiledninger, prosessbeskrivelser) → styringssystemet (typisk en SharePoint-side eller et tredjepartsverktøy)\n- **Fagsystem-materiale** (HR-data, journaldata, lønnsdata, søknadsdokumenter) → riktig fagsystem\n- **Kan slettes** (utdatert, duplikat, nyhetsbrev, privat) → slett\n\n*Tommelfingerregel: hvis du må tenke mer enn ti sekunder, går den i «Aktivt arbeidsmateriale» foreløpig. Du tar runden over når du er ferdig med de raske avgjørelsene.*"
-          },
-          {
-            "tittel": "Arkivverdig — slik kjenner du det igjen",
-            "innhold": "Et dokument kan være arkivverdig hvis det:\n\n- Dokumenterer en beslutning eller et vedtak\n- Inngår i en sak du eller andre har behandlet\n- Er korrespondanse om en konkret henvendelse fra en innbygger, organisasjon eller samarbeidspart\n- Er en kontrakt, avtale eller forpliktelse\n- Skal kunne etterprøves over tid (revisjon, klagesaker, tilsyn)\n\nArkivverdig dokumentasjon hører hjemme i sak-/arkivsystemet — ikke i Teams, SharePoint eller OneDrive. Hvis du er i tvil, spør arkivansvarlig eller leder. **Ikke slett og ikke flytt før du har fått svar.**\n\n*Husk: en samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*"
-          },
-          {
-            "tittel": "Personopplysninger — fire raske spørsmål",
-            "innhold": "Stopp opp hvis filen inneholder informasjon om en person:\n\n1. Er det opplysninger om helse, etnisitet, fagforening, religion, politisk syn, seksuell legning, biometri eller genetiske data? Dette er **særlige kategorier** og har strengere regler.\n2. Skulle dette egentlig ligge i et fagsystem (HR-system, journalsystem, lønnssystem)?\n3. Er det et formelt grunnlag for at du har dette — eller har det «bare blitt liggende»?\n4. Trenger du det egentlig — eller er det utdatert?\n\nDen detaljerte håndteringen står i artikkelen om personopplysninger og sensitive funn.\n\n*Hovedregel: du kan ikke «ta vare på alt for sikkerhets skyld» når det er personopplysninger. Det er et brudd i seg selv å beholde noe uten formål og grunnlag.*"
-          },
-          {
-            "tittel": "Filer du ikke kjenner igjen",
-            "innhold": "Foreldreløse filer — kollega som har sluttet, mappe du ikke vet hva er, navn uten beskrivelse. Slik vurderer du:\n\n- **Mappens navn og plassering** — «Tilbud 2019» sier mer enn «Mappe 3»\n- **Dato (opprettet og endret)** — eldre enn 5 år uten endring: vurder lavere terskel for sletting\n- **Filtype** — .pst, .accdb og .mdb kan være kritiske; .tmp og .bak er ofte trygt\n- **Eier (høyreklikk → Egenskaper)** — sluttet kollega? Sjekk om leder kjenner historikken\n- **Første linjer i dokumentet** — åpne og les førstesiden; ofte nok til å gjenkjenne formålet\n\nHvis du etter dette fortsatt ikke vet — **ikke slett**. Marker filen og flagg til leder. Lederen tar beslutningen, eventuelt sammen med arkivansvarlig eller personvernombud."
-          },
-          {
-            "tittel": "Et sjekkpunkt halvveis",
-            "innhold": "Når du er omtrent halvveis i et område, ta tre minutter:\n\n- Hvor mye plass har du frigjort? Sjekk størrelsen før og etter.\n- Har du funnet noe du burde flagge — arkivverdig, personopplysninger, foreldreløst?\n- Trenger du å justere strategien?\n\nSynliggjør gjerne progresjonen din. Noter i OneNote eller en Loop-side: «Ryddet 12. mai — frigjort 14 GB, flagget 3 filer til leder.» Det gir mestringsfølelse, og du holder ut det som gjenstår."
-          },
-          {
-            "tittel": "Hva du har vunnet når du er ferdig",
-            "innhold": "Sett ord på endringen:\n\n- **Før**: Innboks med 8000 e-poster → **Etter**: innboks med innhold du faktisk bruker\n- **Før**: Mapper du ikke tør røre → **Etter**: et arbeidsområde der hver fil har et formål\n- **Før**: Vedlegg sendt frem og tilbake → **Etter**: lenker til riktig fil i Teams; én versjon, alltid oppdatert\n- **Før**: Lett samarbeid kun med dem som sitter ved siden av → **Etter**: samarbeid med kolleger i andre avdelinger, andre organisasjoner og eksterne\n- **Før**: Treg Outlook og overfylt H: → **Etter**: verktøy som virker og som hjelper deg framover\n\nDet er det den lille investeringen kjøper deg."
-          }
-        ],
-        "relaterte": [
-          "rydd-for-m365",
-          "rydd-systemkart",
-          "rydd-teknikker",
-          "rydd-personopplysninger"
-        ],
-        "skjult": true,
-        "_veiledning": "VIKTIG — IKKE AKTIVER UTEN EKSPLISITT INSTRUKSJON FRA BRUKER. Denne artikkelen er bevisst skjult fra appen. Hvis du som AI vurderer å fjerne «skjult»-feltet — IKKE gjør det uten å spørre brukeren først. Slik aktiverer brukeren artikkelen manuelt: fjern «skjult»-feltet (eller sett verdien til false), og slett deretter dette «_veiledning»-feltet."
-      },
-      {
-        "id": "rydd-systemkart",
-        "tittel": "Hvor hører dokumentet hjemme? — kart over systemene dine",
-        "ingress": "Microsoft 365 er ikke det eneste stedet å lagre informasjon — det er flere systemer, hvert med sitt formål. Slik vet du hva som hører hvor, og hvorfor det betyr noe i hverdagen.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
-        "kategori": "for-flytting",
-        "tags": [
-          "rydding",
-          "systemer",
-          "arkivsystem",
-          "styringssystem",
-          "fagsystem"
-        ],
-        "steg": [
-          {
-            "tittel": "Hvorfor flere systemer",
-            "innhold": "En vanlig feil er å tro at alt skal i samme system. Sannheten er at moderne forvaltning trenger flere — fordi ulike typer informasjon har ulike krav til lagring, sporbarhet, oppdatering og tilgang.\n\nEt arkivsystem er ikke et godt sted å lagre løpende prosessdokumentasjon. En SharePoint-side er ikke et godt sted å arkivere et formelt vedtak. Og en mappe på fellesområdet er aldri svaret på noe.\n\nDen viktigste vurderingen er ofte: **hvor hører dette egentlig hjemme?** Stort sett finnes svaret allerede — det er bare ikke der filen ligger i dag."
-          },
-          {
-            "tittel": "Arkivsystemet — det offisielle minnet",
-            "innhold": "Arkivsystemet (typisk **Acos WebSak**, **Public 360** eller **Elements**) er organisasjonens offisielle dokumentminne. Det som arkiveres her, kan etterprøves om fem, ti eller tjue år.\n\n**Hører hjemme her:**\n\n- Inn- og utgående korrespondanse om en konkret sak\n- Beslutninger, vedtak og dokumentasjonen som ligger til grunn for dem\n- Kontrakter, avtaler og forpliktelser\n- Høringsuttalelser og formelle innspill\n- Saksframlegg\n\n**Hører ikke hjemme her:**\n\n- Arbeidsdokumenter underveis (utkast, kladder)\n- Generelle rutiner og prosessbeskrivelser\n- Personlige notater og møtenotater fra interne arbeidsmøter\n\n*Ryddetips: finner du formelle dokumenter, vedtak eller beslutningsgrunnlag i fellesområdet — be arkivansvarlig vurdere journalføring. Ikke flytt selv.*"
-          },
-          {
-            "tittel": "Styringssystemet — slik gjør vi det her",
-            "innhold": "Styringssystemet (typisk en **SharePoint-side** eller et tredjepartsverktøy som **Confluence**) er der prosesser og styrende dokumentasjon bor — det som forteller hvordan vi gjør ting.\n\n**Hører hjemme her:**\n\n- Rutiner og prosessbeskrivelser\n- Veiledninger og maler som flere skal bruke\n- Roller og ansvar i en prosess\n- Inn- og utganger for en prosess\n- Kvalitetsdokumentasjon, instrukser, retningslinjer\n\n**Hører ikke hjemme her:**\n\n- Konkrete saker eller vedtak — de hører i arkivsystemet\n- Personopplysninger om enkeltpersoner\n- Arbeidsdokumenter underveis\n\nSlik henger styringssystemet og arkivsystemet sammen: styringssystemet sier *hvordan*, arkivsystemet bevarer *hva som ble gjort*. Outputen fra en prosess i styringssystemet ender typisk som arkivverdig dokumentasjon i arkivsystemet.\n\n*Ryddetips: finner du rutiner, prosessmaler eller hvordan-vi-gjør-det-dokumenter i fellesområdet — disse hører som hovedregel inn i styringssystemet.*"
-          },
-          {
-            "tittel": "Fagsystemer — der faget bor",
-            "innhold": "Fagsystemer er applikasjoner bygd for spesifikke fagområder. De har innebygd struktur, tilgangsstyring og lovverk for nettopp den oppgaven:\n\n- **HR-system** — personalsaker, sykmeldinger, kompetanseregistrering\n- **Pasient- eller brukerjournal (EPJ-system)** — helse- og brukerdata\n- **Lønnssystem** — lønnsdata, godtgjørelser\n- **Rekrutteringssystem** — søknader, kandidatvurderinger\n- **Saksbehandlingssystem (byggesak, plansaker, velferd, tilskudd m.m.)** — fagspesifikk saksbehandling\n\nNår data fra et fagsystem ender i fellesområdet eller hjemmekatalogen, er det som regel ved et uhell — noen klippet ut data for å løse en oppgave, og det ble liggende.\n\n*Ryddetips: finner du fagdata (eksport fra HR-system, journalnotater, lønnskjøringer) — si fra til lederen din. Du bør ikke flytte selv. Fagsystem-ansvarlige har grunnlaget og rutiner for å registrere data riktig på det nye stedet.*"
-          },
-          {
-            "tittel": "M365 — der dagens arbeid skjer",
-            "innhold": "Microsoft 365 er **arbeidsflaten din** — stedet du tenker, samarbeider og produserer. Det er ikke et arkiv, ikke et styringssystem, ikke et fagsystem.\n\n**Hører hjemme her:**\n\n- Aktive arbeidsdokumenter — utkast, kladder, ting du skriver på akkurat nå\n- Bilder og presentasjoner for gjenbruk\n- Maler og oppsett som ikke (ennå) er prosessdokumentert i styringssystemet\n- Notater og personlig produktivitet\n- Møtenotater, samhandlingstavler, idéutvikling\n- Pågående prosjektarbeid\n\nInnenfor M365 er det forskjell på hvor noe ligger:\n\n- **Ditt eget utkast og kladd** → OneDrive\n- **Avdelingens delte arbeid** → Teams-kanal (lagres i SharePoint i bakgrunnen)\n- **Tverrgående prosjekter** → eget team eller delt kanal\n- **Faste rutiner og maler — hvis ikke i styringssystemet ennå** → en SharePoint-side eller et bibliotek\n\n*Tips: behold det aktive, slett det inaktive med vilje. Det som ikke er i bruk, hører ikke hjemme i M365.*"
-          },
-          {
-            "tittel": "Sletting — det som ikke trengs",
-            "innhold": "Den siste kategorien er ofte den største. Slett uten dårlig samvittighet:\n\n- Utdaterte versjoner — du har den nyere uansett\n- Duplikater\n- Nyhetsbrev, varslingsmeldinger, reklame\n- Private filer på jobben (de skal egentlig ikke vært der)\n- Filer fra prosjekter for år tilbake der sluttproduktet er arkivert et annet sted\n- Bilder fra workshops og fagdager du aldri brukte\n- Møtenotater fra møter du knapt husker\n\nFor **personopplysninger** gjelder strengere regler — se egen artikkel.\n\n*Tips: hvis du nøler, bruk Tidligere versjoner som angrefunksjon. Hvis du faktisk slettet noe viktig, kan du ofte hente det tilbake i en uke eller to.*"
-          },
-          {
-            "tittel": "Slik tenker du i praksis",
-            "innhold": "For hver fil eller mappe du står overfor, still spørsmålene i denne rekkefølgen:\n\n1. Er dette **offisiell dokumentasjon** av en sak, beslutning eller avtale? → sak-/arkivsystemet\n2. Er dette **slik vi gjør det** — en rutine, prosess eller veiledning? → styringssystemet\n3. Er dette **fagdata** som hører i et bestemt fagsystem? → fagsystemet\n4. Hvis nei på alle tre — er det **aktivt arbeid** du fortsatt har bruk for? → M365 (OneDrive, Teams, SharePoint)\n5. Hvis nei på alt — **slett**\n\nVær raus med å slette. Mange tror de må beholde mye «for sikkerhets skyld». Det er stort sett feil. Det som er reelt viktig, har som regel havnet i et av de tre offisielle systemene allerede.\n\n*Husk: digital rydding er ikke flytteoperasjon — det er en omstrukturering. Du tar ikke alt med deg til M365. Du beholder det som hører hjemme der, og sørger for at resten havner riktig sted eller blir slettet.*"
-          }
-        ],
-        "relaterte": [
-          "rydd-for-m365",
-          "rydd-sjekkliste",
-          "rydd-personopplysninger",
-          "onedrive-vs-sharepoint"
-        ],
-        "skjult": true,
-        "_veiledning": "VIKTIG — IKKE AKTIVER UTEN EKSPLISITT INSTRUKSJON FRA BRUKER. Denne artikkelen er bevisst skjult fra appen. Hvis du som AI vurderer å fjerne «skjult»-feltet — IKKE gjør det uten å spørre brukeren først. Slik aktiverer brukeren artikkelen manuelt: fjern «skjult»-feltet (eller sett verdien til false), og slett deretter dette «_veiledning»-feltet."
-      },
-      {
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker — finn det riktige raskt",
         "ingress": "Et knippe konkrete grep i Outlook og Filutforsker som gjør jobben tre ganger så fort — pluss angrefunksjonen du bør kjenne før du sletter mye.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -234,65 +123,6 @@
           "ryddig-innboks",
           "versjonshistorikk"
         ]
-      },
-      {
-        "id": "rydd-personopplysninger",
-        "tittel": "Personopplysninger og sensitive funn — slik gjør du det riktig",
-        "ingress": "Når du finner personopplysninger eller sensitivt innhold på avveie, må du vurdere det riktig. Slik håndterer du funnene — uten å bryte regler eller havne i en uoversiktlig situasjon.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
-        "kategori": "for-flytting",
-        "tags": [
-          "personvern",
-          "gdpr",
-          "særlige-kategorier",
-          "sensitivt"
-        ],
-        "steg": [
-          {
-            "tittel": "Hva er en personopplysning?",
-            "innhold": "En personopplysning er **alt som kan knyttes til en bestemt person** — direkte eller indirekte. Navn er åpenbart. Men også:\n\n- **Direkte identifikasjon** — navn, fødselsnummer, e-postadresse, mobilnummer\n- **Indirekte identifikasjon** — stillingstittel og arbeidssted, kombinasjon av alder og sted, IP-adresse\n- **Beskrivelser av en person** — vurderinger, prestasjoner, sykefravær, holdninger\n- **Avbildninger** — bilder og videoer der noen kan gjenkjennes\n\nHvis du finner *noe* om en *konkret person* — så er det en personopplysning."
-          },
-          {
-            "tittel": "Særlige kategorier — strengere regler",
-            "innhold": "Noen typer personopplysninger har strengere beskyttelse etter GDPR artikkel 9. De kan ikke behandles uten et eget rettslig grunnlag, og hører som hovedregel ikke hjemme i et fellesområde eller hjemmekatalogen din:\n\n- Rasemessig eller etnisk opprinnelse\n- Politisk oppfatning\n- Religiøs eller filosofisk overbevisning\n- Fagforeningsmedlemskap\n- Genetiske og biometriske data (brukt til identifikasjon)\n- Helseopplysninger\n- Seksuelle forhold og seksuell legning\n\nI tillegg har **straffedommer og lovovertredelser** egne regler (GDPR artikkel 10).\n\n*Hvis du finner slike opplysninger der de ikke skal være — stopp og les videre.*"
-          },
-          {
-            "tittel": "Beslutningstreet — fire spørsmål",
-            "innhold": "For hvert funn av personopplysninger, still disse spørsmålene i rekkefølge:\n\n1. **Skulle dette ligget i et fagsystem?** → hvis ja: flytt dit (se neste steg)\n2. **Har vi fortsatt et formål med å beholde dette?** → hvis nei: slett\n3. **Er det særlige kategorier eller straffeopplysninger?** → hvis ja: eskaler først (se eget steg)\n4. **Er jeg usikker?** → eskaler — flagg til leder eller personvernombud\n\n*Det er aldri feil å bruke ti minutter på å spørre. Det er ofte feil å bestemme alene.*"
-          },
-          {
-            "tittel": "Når noe skal til fagsystem",
-            "innhold": "Mange personopplysninger har endt opp i fellesområder eller hjemmekataloger fordi de «ble klippet ut» fra et fagsystem for et bestemt formål — og deretter ble liggende:\n\n- **Personalsaker, sykmeldinger, kompetansevurderinger** → HR-system\n- **Pasient- eller brukerjournaler** → fagsystem for tjenesteyting (EPJ-system)\n- **Saksbehandlingsdokumenter med personopplysninger** → sak-/arkivsystem\n- **Lønnsdata, godtgjørelser** → lønnssystem\n- **Søknadsdokumenter, kandidatvurderinger** → rekrutteringssystem\n\nHvis du finner slikt: ikke ta initiativ til å flytte selv. Flagg til leder eller fagsystemansvarlig. De har tilgang og rutine for å registrere innholdet riktig — slik at det får et lovlig grunnlag på det nye stedet."
-          },
-          {
-            "tittel": "Når noe skal slettes",
-            "innhold": "Du kan slette personopplysninger som:\n\n- Er utdaterte og uten verdi for et pågående formål\n- Allerede ligger på riktig sted i et fagsystem (er duplikater)\n- Aldri skulle blitt lagret der de ligger, og det ikke er praktisk å overføre\n\n**Slett permanent**, ikke bare flytt til papirkurven. I Windows: Shift+Delete. I Outlook: Shift+Del.\n\n*Merk: hvis du sletter noe som kunne vært arkivverdig — for eksempel saksdokumenter — sjekk med arkivansvarlig først. Forvaltningsorganer har sletteplikt for det som ikke skal arkiveres, og bevaringsplikt for det som skal arkiveres. Begge deler er reelle.*"
-          },
-          {
-            "tittel": "Når du er usikker — eskaler",
-            "innhold": "Den gylne regelen for funn du er usikker på: **ikke slett, og ikke flytt — flagg**.\n\nSlik:\n\n1. Noter filens plassering, navn og kort beskrivelse (uten å kopiere innholdet).\n2. Send en kort melding til lederen din. Kopi til personvernombudet hvis dere har en kanal for det.\n3. Vent på vurdering. Hvis det haster eller du er bekymret, si fra om det.\n\n*Det er bedre å bruke ti minutter på å flagge enn å gjøre noe som krever opprydning i ettertid.*"
-          },
-          {
-            "tittel": "Slik håndterer du særlige kategorier konkret",
-            "innhold": "Hvis du har funnet helseopplysninger, fagforeningsmedlemskap, etnisitet eller annet i særlige kategorier som ligger feil:\n\n1. **Lukk filen.** Ikke del den, ikke ta skjermbilde, ikke send i e-post.\n2. **Sjekk om andre har tilgang.** Hvis ja, vurder om tilgangen bør begrenses umiddelbart — be IT sette mappen til «kun leder» mens dere vurderer.\n3. **Meld til personvernombudet** (eller leder, som videreformidler).\n4. **Vent på vurdering.** Personvernombudet avgjør om dette er et personvernavvik som skal dokumenteres etter GDPR artikkel 33.\n5. **Gjør det personvernombudet sier** — slett, flytt, eller la ligge med begrenset tilgang.\n\n*Det føles kanskje overdrevet. Det er det ikke. Særlige kategorier har strenge regler fordi konsekvensene av lekkasje kan være store for personen det gjelder.*"
-          },
-          {
-            "tittel": "Det du aldri skal gjøre",
-            "innhold": "Disse fellene koster mer å rydde opp i enn å forebygge:\n\n- **Kopier sensitive funn inn i en e-post for å spørre noen** — e-posten blir et nytt sted dataene ligger på avveie\n- **Ta skjermbilde og legg i en chat** — samme problem: du har laget en kopi\n- **Slett raskt for å «bli kvitt problemet»** — du sletter potensielt det personvernombudet trenger for å vurdere\n- **Tro at det er ditt ansvar alene** — det er organisasjonens ansvar; du flagger, ikke løser\n- **Beholde alt «for sikkerhets skyld»** — det er et brudd i seg selv å lagre personopplysninger uten formål og grunnlag"
-          },
-          {
-            "tittel": "Når du er ferdig — du har gjort noe verdifullt",
-            "innhold": "Rydding av personopplysninger er ofte den delen av jobben som ikke synes — fordi du har fjernet en risiko ingen så. Men det er trolig den delen som teller mest for organisasjonen på lang sikt.\n\nDu har:\n\n- Redusert risikoen for lekkasjer\n- Forbedret grunnlaget for Copilot — Copilot eksponerer det du har tilgang til, og bygger på det\n- Gjort det enklere å oppfylle organisasjonens plikter etter personvernforordningen\n- Lagt grunnen for at fagsystemene brukes som de skal — i stedet for at folk lager kopier i sidesystemer\n\n*Det er ekte verdi. Ta deg tid til å se det.*"
-          }
-        ],
-        "relaterte": [
-          "rydd-for-m365",
-          "rydd-sjekkliste",
-          "rydd-systemkart",
-          "folsomhetsetiketter"
-        ],
-        "skjult": true,
-        "_veiledning": "VIKTIG — IKKE AKTIVER UTEN EKSPLISITT INSTRUKSJON FRA BRUKER. Denne artikkelen er bevisst skjult fra appen. Hvis du som AI vurderer å fjerne «skjult»-feltet — IKKE gjør det uten å spørre brukeren først. Slik aktiverer brukeren artikkelen manuelt: fjern «skjult»-feltet (eller sett verdien til false), og slett deretter dette «_veiledning»-feltet."
       }
     ]
   },
@@ -305,7 +135,7 @@
         "id": "teams-som-arbeidsflate",
         "tittel": "Teams — arbeidsflaten din i M365",
         "ingress": "Teams er ikke bare et verktøy for videomøter og chat. Det er den samlede arbeidsflaten i M365 — her finner du filene, oppgavene, notatene og appene dine på ett sted.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -340,7 +170,7 @@
           },
           {
             "tittel": "Hva krever likevel Edge?",
-            "innhold": "De meste kan gjøres uten å måtte gå via Edge. Unntakene er:\n\n- **Opprette nye SharePoint-nettsteder** (avhengig av tenantens innstillinger)\n- **Administrere Term Store og innholdstyper** (kun IT/admin)\n- **Redigere SharePoint-sider med kompleks layout** (åpner Edge automatisk)\n- **Åpne Visio** for å tegne diagrammer (åpnes typisk i nettleseren)\n\nAlt annet — filer, lister, oppgaver, møter, notater, KI — kan du gjøre i Teams."
+            "innhold": "Det meste kan gjøres uten å måtte gå via Edge. Unntakene er:\n\n- **Opprette nye SharePoint-nettsteder** (avhengig av tenantens innstillinger)\n- **Administrere Term Store og innholdstyper** (kun IT/admin)\n- **Redigere SharePoint-sider med kompleks layout** (åpner Edge automatisk)\n- **Åpne Visio** for å tegne diagrammer (åpnes typisk i nettleseren)\n\nAlt annet — filer, lister, oppgaver, møter, notater, KI — kan du gjøre i Teams."
           },
           {
             "tittel": "Én app som samler alt — ikke ti apper du bytter mellom",
@@ -357,7 +187,7 @@
         "id": "teams-hierarki",
         "tittel": "Hierarki og tilganger i Teams — hvem ser hva, og hvordan du styrer det",
         "ingress": "Hierarkiet i Teams — team, kanal og innhold — styrer hvem som har tilgang til hva. Slik forstår du oppbyggingen, hvordan du sjekker tilgang, og hvordan du gir tilgang riktig fra starten.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -407,7 +237,7 @@
         "id": "fra-filserver-til-sharepoint",
         "tittel": "SharePoint — slik er det annerledes enn en filserver",
         "ingress": "SharePoint er ikke en filserver — det er en samarbeidsplattform. Slik forstår du forskjellen, og hvorfor det endrer hvordan du tenker om filer.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "sharepoint",
@@ -451,7 +281,7 @@
         "id": "folsomhetsetiketter",
         "tittel": "Følsomhetsetiketter — slik klassifiserer du innhold",
         "ingress": "Følsomhetsetiketter forteller M365 hvor sensitivt et dokument er — og styrer automatisk hvordan det kan deles, lastes ned og merkes.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "sikkerhet",
         "tags": [
           "følsomhetsetiketter",
@@ -499,7 +329,7 @@
         "id": "onedrive-vs-sharepoint",
         "tittel": "OneDrive eller SharePoint?",
         "ingress": "To lagringsplasser — én tommelfingerregel: OneDrive er ditt, SharePoint er felles.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
           "onedrive",
@@ -535,7 +365,7 @@
         "id": "loop-eller-word",
         "tittel": "Loop eller Word — hva bruker du?",
         "ingress": "Ikke alt som ser ut som et dokument, trenger å være en Word-fil. Loop er det smarte valget for alt som leves og arbeides med av flere — Word er for det som er ferdig.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
           "loop",
@@ -579,7 +409,7 @@
         "id": "vise-redigere-kommentere",
         "tittel": "Vise, redigere eller kommentere — riktig deling",
         "ingress": "Når du deler en fil, bestemmer du selv om mottakeren bare skal lese, kunne kommentere eller endre innholdet. Riktig rettighet gir både flyt og trygghet.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
           "deling",
@@ -619,7 +449,7 @@
         "id": "versjonshistorikk",
         "tittel": "Finn tilbake til en tidligere versjon",
         "ingress": "M365 lagrer automatisk alle versjoner av dokumentene dine — full notoritet over hva som er endret, når og av hvem. Du kan alltid rulle tilbake.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
           "versjon",
@@ -660,7 +490,7 @@
         "id": "clipchamp-bruke",
         "tittel": "Slik bruker du Clipchamp",
         "ingress": "Clipchamp er video-appen i Microsoft 365. Her bruker du den til å ta opp, redigere, transkribere og dele video — alt på ett sted.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "clipchamp",
         "tags": [
           "clipchamp",
@@ -719,7 +549,7 @@
         "id": "copilot-chat-inkludert",
         "tittel": "Slik bruker du Copilot Chat",
         "ingress": "Copilot Chat er KI-chatten for skriving, oppsummering og søk i organisasjonens innhold — inkludert i M365-abonnementet og tilgjengelig i Teams, Outlook, Edge og som egen app.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
           "copilot",
@@ -757,7 +587,7 @@
         "id": "copilot-studio-for-teams-bygge-chatbot",
         "tittel": "Slik bygger du en chatbot med Copilot Studio",
         "ingress": "Du kan lage en regelbasert chatbot for ditt eget team — uten å programmere. Du bygger den i Copilot Studio-nettappen og publiserer den til en Teams-kanal eller chat. Slik gjør du det.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
           "copilot-studio",
@@ -814,7 +644,7 @@
         "id": "m365-copilot-aktivert",
         "tittel": "Hva får du med Microsoft 365 Copilot?",
         "ingress": "Microsoft 365 Copilot låser opp KI-funksjoner inne i alle M365-appene — og noen helt nye flater. Her er det viktigste du kan gjøre.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
@@ -885,7 +715,7 @@
         "id": "lists-hendelseslogg",
         "tittel": "Hendelseslogg i Lists",
         "ingress": "Microsoft Lists er et fleksibelt verktøy for å logge, prioritere og lukke hendelser — med skjemaer, varsler og tavle uten kode.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "lists",
         "tags": [
           "lists",
@@ -933,7 +763,7 @@
         "id": "lists-risikoregister",
         "tittel": "Risikoregister i Lists",
         "ingress": "Microsoft Lists er en god plattform for et levende risikoregister med automatisk scoring, fargekodede visninger og sporbar oppfølging.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "lists",
         "tags": [
           "lists",
@@ -991,7 +821,7 @@
         "id": "ryddig-innboks",
         "tittel": "Hold innboksen ryddig",
         "ingress": "Fokusert innboks, kategorier og flagg — tre grep som hjelper deg å holde oversikten i Outlook.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "outlook",
         "tags": [
           "outlook",
@@ -1037,7 +867,7 @@
         "id": "planner-enkel-oppgavestyring",
         "tittel": "Enkel oppgavestyring i Planner",
         "ingress": "Planner gir deg en visuell tavle for å fordele, organisere og spore oppgaver — tilgjengelig direkte i Teams.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "planner",
         "tags": [
           "planner",
@@ -1096,7 +926,7 @@
         "id": "sharepoint-automasjon-2026",
         "tittel": "Automatisering i SharePoint — arbeidsflyter uten kode",
         "ingress": "SharePoint har innebygde arbeidsflyter, hurtigsteg, godkjenninger og skjemaer du kan ta i bruk uten kode. Slik utnytter du dem i hverdagen.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -1109,7 +939,7 @@
         "steg": [
           {
             "tittel": "SharePoint Showcase — januar 2026",
-            "innhold": "Microsoft har sluppet flere nye automatiseringsfunksjoner i SharePoint og Teams. Her er en kort gjennomgang av de viktigste endringene — fra arbeidsflyter og godkjenninger til hurtigsteg og skjemaer.",
+            "innhold": "Funksjonene nedenfor ble lansert i SharePoint Showcase i januar 2026.",
             "bilde": {
               "src": "articles/sharepoint-automasjon/01-banner.jpg",
               "alt": "Promobilde for SharePoint Showcase, januar 2026.",
@@ -1188,7 +1018,7 @@
         "id": "sharepoint-prosessdokumentasjon-visio",
         "tittel": "Prosessdokumentasjon i SharePoint med Visio",
         "ingress": "Bruk SharePoint-sider med innebygd Visio-diagram, strukturerte metadata og godkjenningsflyt — finnbart, levende og KI-klart.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -1256,7 +1086,7 @@
         "id": "komme-i-gang-med-shifts",
         "tittel": "Vaktplaner i Shifts",
         "ingress": "Shifts er Microsofts vaktplanleggingsapp inkludert i Teams. Ansatte ser turnusen sin og bytter vakter — ledere lager og publiserer planene.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "shifts",
         "tags": [
           "shifts",
@@ -1331,7 +1161,7 @@
             "innhold": "Skriv **@fornavn** for å varsle én person, **@Teamnavn** for hele teamet. De får varsel selv om de ikke sjekker kanalen aktivt.\n\n*Husk: faglig dialog som dokumenterer beslutninger eller saksforberedelser kan være journalføringspliktig — uavhengig av om det skjer i chat eller kanal.*"
           }
         ],
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "relaterte": [
           "teams-hierarki",
           "teams-moter",
@@ -1351,12 +1181,8 @@
         ],
         "steg": [
           {
-            "tittel": "Hvorfor eierskap er viktig",
-            "innhold": "Et team er ikke en tilfeldig samling kanaler — det er et arbeidsfellesskap som lever over tid. Når ingen har ansvaret, vokser strukturen ukontrollert: nye kanaler dukker opp, gamle blir liggende, filer havner på rare steder, og ingen vet lenger hva som er aktivt.\n\nManglende eierskap er den vanligste årsaken til kaos i Teams. Klart eierskap gir motvekt: noen følger med, rydder og tar beslutninger på vegne av teamet."
-          },
-          {
-            "tittel": "Minst to eiere — gjerne fra ulike enheter",
-            "innhold": "Et team skal ha **minst to eiere**. Det sikrer kontinuitet hvis én slutter, blir syk eller endrer rolle.\n\nVelg eiere som faktisk har **faglig ansvar** for arbeidet — ikke en IT-person som «administrerer» teamet på distanse. Eieren skal kunne svare på «hva jobber dette teamet med?» og «hvem hører til her?».\n\nFor prosjektteam: hent gjerne eiere fra ulike enheter. Det reduserer siloer og gir bredere forankring."
+            "tittel": "Minst to eiere — med faglig ansvar",
+            "innhold": "Manglende eierskap er den vanligste årsaken til kaos i Teams: nye kanaler dukker opp, gamle blir liggende, filer havner på rare steder. Klart eierskap gir motvekt — noen følger med, rydder og tar beslutninger på vegne av teamet.\n\nEt team skal ha **minst to eiere**. Det sikrer kontinuitet hvis én slutter, blir syk eller endrer rolle. Velg eiere som faktisk har **faglig ansvar** for arbeidet — ikke en IT-person som «administrerer» teamet på distanse. Eieren skal kunne svare på «hva jobber dette teamet med?» og «hvem hører til her?».\n\nFor prosjektteam: hent gjerne eiere fra ulike enheter. Det reduserer siloer og gir bredere forankring."
           },
           {
             "tittel": "Hva eieren faktisk gjør",
@@ -1371,7 +1197,7 @@
             "innhold": "To eiere er minimum. **Tre til fire er ofte ideelt** for større team. Mer enn det fungerer sjelden — eierskap blir utvannet og ingen tar reelt ansvar.\n\nSkill mellom **eier** (administrativt ansvar) og **medlem** (deltar i arbeidet). De fleste i et team skal være medlemmer, ikke eiere."
           }
         ],
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "relaterte": [
           "teams-hierarki",
           "kanaltyper",
@@ -1407,7 +1233,7 @@
             "innhold": "Still ett enkelt spørsmål: **hvem skal egentlig ha tilgang?**\n\n- **Hele teamet (inkl. gjester)** → Standardkanal\n- **En undergruppe i teamet** → Privat kanal\n- **Folk på tvers av team** → Delt kanal\n- **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nHvis du er i tvil, **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
           }
         ],
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "relaterte": [
           "teams-hierarki",
           "teams-eierskap",
@@ -1440,14 +1266,14 @@
           },
           {
             "tittel": "30-sekunders-testen før ny mappe",
-            "innhold": "Før du klikker **Ny mappe**, bruk 30 sekunder og still disse spørsmålene:\n\n1. Trenger vi virkelig en ny mappe — eller fungerer en eksisterende?\n2. Kan vi bruke metadata (kolonner) i stedet for å skille innholdet?\n3. Er dette **innhold** (→ mappe) eller **samtaler/oppgaver** (→ kanal)?\n4. Vil flere bruke denne mappa over tid?\n\nHvis du er i tvil etter 30 sekunder — vent med mappa. Det er lettere å lage en mappe senere enn å rydde i en struktur som har vokst seg uoversiktlig."
+            "innhold": "Før du klikker **Ny mappe**, bruk 30 sekunder og still disse spørsmålene:\n\n1. Trenger vi virkelig en ny mappe — eller fungerer en eksisterende?\n2. Kan vi bruke metadata (kolonner) i stedet for å skille innholdet?\n3. Er dette **innhold** (→ mappe) eller **samtaler/oppgaver** (→ kanal)?\n4. Vil flere bruke denne mappa over tid?\n\nDet er lettere å lage en mappe senere enn å rydde i en struktur som har vokst seg uoversiktlig."
           },
           {
             "tittel": "Mappenavn som varer",
             "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n- «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n- «Nye», «Gamle», «Kommer», «Til vurdering»\n- Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n- Beskriver hva som faktisk ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n- Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n- Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år — vil hen forstå hva som ligger der?"
           }
         ],
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "relaterte": [
           "teams-hierarki",
           "fra-filserver-til-sharepoint",
@@ -1488,7 +1314,7 @@
             "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du både video og **transkripsjon** — søkbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. transkripsjonen kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
           }
         ],
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "relaterte": [
           "loop-eller-word",
           "clipchamp-bruke",
@@ -1543,7 +1369,7 @@
           },
           {
             "tittel": "Autokorrektur i chat og kanaler",
-            "innhold": "Automatisk retting av skrivefeil sparer tid og reduserer pinlige tastefeil.\n\nFunksjonen fungerer automatisk i både chat og kanaler. Teams kjenner igjen vanlige feilstavelser og retter dem idet du trykker mellomrom. *Den fungerer ikke alltid like godt for norsk som for engelsk.*"
+            "innhold": "Automatisk retting av skrivefeil sparer tid og reduserer pinlige tastefeil.\n\nFunksjonen fungerer automatisk i både chat og kanaler. Teams kjenner igjen vanlige feilstavelser og retter dem idet du trykker mellomrom."
           },
           {
             "tittel": "Åpne kanaler i egne vinduer",
@@ -1558,7 +1384,7 @@
             "innhold": "Du kan legge til emojier i navnet på egendefinerte seksjoner i kanallisten. Det gjør det lettere å skille mellom prosjekter og arbeidsområder i en lang liste.\n\nNår du oppretter eller gir nytt navn til en seksjon, velg en emoji som vises ved siden av navnet."
           }
         ],
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "relaterte": [
           "teams-moter",
           "copilot-chat-inkludert",
@@ -1569,7 +1395,7 @@
         "id": "kanal-arkivering",
         "tittel": "Når prosjektet er ferdig — arkiver eller slett kanalen",
         "ingress": "En kanal som har gjort jobben sin, bør fjernes. Slik avvikler du en kanal som var dedikert til ett prosjekt, én anskaffelse eller en annen tidsavgrenset arbeidsstrøm — uten å miste det som har varig verdi.",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "teams",
         "tags": [
           "kanal",
@@ -1585,7 +1411,7 @@
           },
           {
             "tittel": "Rydding før avslutning",
-            "innhold": "Før du arkiverer eller sletter, gjør en rydderunde:\n\n- **Slett utkast og kladder** som ikke ble brukt\n- **Slett duplikater** og gamle versjoner — versjonshistorikken ivaretar dem uansett\n- **Behold sluttproduktene** — rapporter, leveranser, beslutningsgrunnlag, kontrakter\n- **Slett midlertidige filer** — skjermbilder, råtekst, møtebilder\n\nMålet er at det som gjenstår, faktisk har varig verdi. Hvis ingen tør slette noe, er strukturen feil — som regel fordi viktige filer er blandet med uviktige."
+            "innhold": "Før du arkiverer eller sletter, gjør en rydderunde:\n\n- **Slett utkast og kladder** som ikke ble brukt\n- **Slett duplikater** og gamle versjoner — versjonshistorikken ivaretar dem uansett\n- **Behold sluttproduktene** — rapporter, leveranser, beslutningsgrunnlag, kontrakter\n- **Slett midlertidige filer** — skjermbilder, råtekst, møtebilder\n\nMålet er at det som gjenstår, faktisk har varig verdi."
           },
           {
             "tittel": "Flytt sluttproduktene til riktig sted",
@@ -1687,7 +1513,7 @@
             "innhold": "Når innholdet er ingestert (innen 24 timer), kan ansatte:\n\n- Åpne **Viva Learning** i venstremenyen i Teams\n- Søke etter emne, tittel eller stikkord\n- Filtrere på språk, kilde, varighet eller emne (SkillTags)\n- Markere kurs som ferdig, lagre til senere eller dele med kolleger\n\nFor en fokusert opplevelse i en bestemt kanal: Legg Viva Learning til som **fane** i kanalen. Klikk **+** på fanelinja, søk opp **Viva Learning**, og velg en samling kurs som skal vises.\n\n*Resultatet: Hele teamet ser samme læringsmateriell på samme sted — i flyten der det daglige arbeidet skjer.*"
           }
         ],
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 20.05.26",
         "relaterte": [
           "sharepoint-prosessdokumentasjon-visio",
           "fra-filserver-til-sharepoint",

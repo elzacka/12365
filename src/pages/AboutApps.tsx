@@ -32,7 +32,7 @@ export function AboutApps() {
           </div>
           <input
             type="search"
-            placeholder="Søk etter app..."
+            placeholder="Søk i kortene..."
             value={query}
             onChange={e => setQuery(e.target.value)}
             className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
