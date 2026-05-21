@@ -59,7 +59,7 @@
         "steg": [
           {
             "tittel": "Når du trenger oversikten",
-            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nHer bruker du en kommando som lister opp alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n*Viktig*: Kommandoen kan belaste IT-infrastrukturen hvis mange gjør dette samtidig eller den kjøres i mapper med mye innhold. Avklar med IT for å unngå unødvendig belastning og feil."
+            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nHer bruker du en kommando som lister opp alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n**Viktig**: Kommandoen kan belaste IT-infrastrukturen hvis mange gjør dette samtidig eller den kjøres i mapper med mye innhold. Avklar med IT for å unngå unødvendig belastning og feil."
           },
           {
             "tittel": "Åpne kommandovinduet direkte i mappen",
