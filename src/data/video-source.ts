@@ -2,7 +2,7 @@
 
 export type VideoSource =
   | { type: 'file'; src: string }
-  | { type: 'youtube'; embedSrc: string; thumbnailSrc: string }
+  | { type: 'youtube'; embedSrc: string }
   | { type: 'vimeo'; embedSrc: string }
 
 const YOUTUBE = /(?:youtube\.com\/(?:watch\?v=|embed\/|v\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/
@@ -15,8 +15,8 @@ export function parseVideoSource(file: string, base: string): VideoSource {
     return {
       type: 'youtube',
       // youtube-nocookie does not drop tracking cookies before the video is played.
+      // Thumbnails are not auto-loaded from img.youtube.com; supply a local thumbnail via the videos.json `thumbnail` field.
       embedSrc: `https://www.youtube-nocookie.com/embed/${id}?rel=0&autoplay=1`,
-      thumbnailSrc: `https://img.youtube.com/vi/${id}/hqdefault.jpg`,
     }
   }
 

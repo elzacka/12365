@@ -34,7 +34,6 @@ export function Home() {
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-10 pb-8">
       <h1 className="sr-only">12365 — M365 på 1-2-3</h1>
-      <p className="text-xs italic text-slate-400 text-center max-w-lg mx-auto mb-3">Sist oppdatert: 20.05.26</p>
       <div className="max-w-lg mx-auto space-y-4">
         <NavCard
           to="/om-appene"
@@ -47,14 +46,14 @@ export function Home() {
           to="/slik-gjor-du"
           icon={<BookOpenIcon size={30} />}
           title="Slik gjør du"
-          description="Steg-for-steg-veiledninger for hverdagsoppgaver i M365"
+          description="...for å utnytte mulighetene i appene"
           color="bg-brand-700"
         />
         <NavCard
           to="/lisenser"
           icon={<LayersIcon size={30} />}
-          title="Hva følger med i M365 E3 og E5?"
-          description="Hva brukes de ulike tingene til?"
+          title="Hva følger med i E3 og E5-lisensen?"
+          description="...og hva brukes de ulike tingene til?"
           color="bg-brand-700"
         />
       </div>

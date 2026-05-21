@@ -7,7 +7,6 @@ describe('parseVideoSource', () => {
     expect(result.type).toBe('youtube')
     if (result.type !== 'youtube') return
     expect(result.embedSrc).toContain('youtube-nocookie.com/embed/dQw4w9WgXcQ')
-    expect(result.thumbnailSrc).toContain('dQw4w9WgXcQ/hqdefault.jpg')
   })
 
   it('parses youtu.be short URLs', () => {

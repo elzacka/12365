@@ -32,7 +32,7 @@ function getHeaderProps(pathname: string) {
   if (pathname.startsWith('/videoer/')) return { showHome: true, showBack: true, backTo: '/videoer' }
   if (pathname === '/om-appen') return { title: 'Om appen', showHome: true, showBack: false }
   if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: true, backTo: '/om-appen' }
-  if (pathname === '/lisenser') return { title: 'Hva følger med i M365 E3 og E5?', showHome: true, showBack: false }
+  if (pathname === '/lisenser') return { title: 'Hva følger med i E3 og E5-lisensen?', showHome: true, showBack: false }
   return { showHome: true, showBack: false }
 }
 
