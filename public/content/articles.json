@@ -31,7 +31,7 @@
           },
           {
             "tittel": "Slik rydder du e-posten",
-            "innhold": "I Teams sender du ikke filer frem og tilbake på e-post — du deler lenker. Det betyr at e-postlageret kan slankes betraktelig når kanalene tas i bruk.\n\nSlik rydder du:\n\n- Begynn **bakerst** i innboksen og **Sendte elementer** — slett, slett, slett\n- Kommer du over et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten\n- Arkiver e-post som skal bevares i arkivsystemet **før** du sletter den\n- Har e-posten dokumentasjon du trenger å beholde av andre grunner? Lagre den der dokumentasjonen skal leve videre — i arkivsystem, fagsystem, eller riktig sted i Teams\n\nBehold e-post om pågående saker. Pågående dialoger med mange vedlegg egner seg godt til å fortsette i Teams.\n\n*Sendte elementer er ofte den største synderen — store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*\n\nFor konkrete grep i Outlook — søkemapper, Rydd opp, Ignorer og Hurtigtrinn — se artikkelen om effektive ryddeteknikker."
+            "innhold": "I Teams sender du ikke filer frem og tilbake på e-post — du deler lenker. Det betyr at e-postlageret kan slankes betraktelig når kanalene tas i bruk.\n\nSlik rydder du:\n\n- Begynn **bakerst** i innboksen og **Sendte elementer** — slett, slett, slett\n- Kommer du over et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten\n- Arkiver e-post som skal bevares i arkivsystemet **før** du sletter den\n- Har e-posten dokumentasjon du trenger å beholde av andre grunner? Lagre den der dokumentasjonen skal leve videre — i arkivsystem, fagsystem, eller riktig sted i Teams\n\nBehold e-post om pågående saker. Pågående dialoger med mange vedlegg egner seg godt til å fortsette i Teams.\n\n*Sendte elementer er ofte den største synderen — store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*"
           },
           {
             "tittel": "Mål: forvalt informasjon bevisst",
@@ -187,7 +187,7 @@
         "id": "teams-hierarki",
         "tittel": "Hierarki og tilganger i Teams — hvem ser hva, og hvordan du styrer det",
         "ingress": "Hierarkiet i Teams — team, kanal og innhold — styrer hvem som har tilgang til hva. Slik forstår du oppbyggingen, hvordan du sjekker tilgang, og hvordan du gir tilgang riktig fra starten.",
-        "oppdatert": "Oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -220,7 +220,7 @@
           },
           {
             "tittel": "Slik gir du tilgang riktig første gang",
-            "innhold": "Tre vurderinger sparer mye opprydning senere:\n\n- **Hva er laveste nødvendige nivå?** — trenger personen tilgang til hele teamet, eller bare én kanal, eller bare én fil? Velg det laveste som dekker behovet.\n- **Skal innholdet være sensitivt?** — opprett en privat kanal i stedet for å lagre i standardkanal. Privat kanal har eget tilgangsområde og er ikke synlig for andre teammedlemmer.\n- **Skal eksterne ha tilgang?** — bruk delt kanal hvis funksjonen er åpnet, eller gjestetilgang i teamet. Fjern tilgangen når oppdraget er over.\n\nFor ekstra trygghet på enkeltfiler kan en følsomhetsetikett automatisk begrense kopiering og ekstern deling — se egen artikkel om følsomhetsetiketter."
+            "innhold": "Tre vurderinger sparer mye opprydning senere:\n\n- **Hva er laveste nødvendige nivå?** — trenger personen tilgang til hele teamet, eller bare én kanal, eller bare én fil? Velg det laveste som dekker behovet.\n- **Skal innholdet være sensitivt?** — opprett en privat kanal i stedet for å lagre i standardkanal. Privat kanal har eget tilgangsområde og er ikke synlig for andre teammedlemmer.\n- **Skal eksterne ha tilgang?** — bruk delt kanal hvis funksjonen er åpnet, eller gjestetilgang i teamet. Fjern tilgangen når oppdraget er over.\n\nFor ekstra trygghet på enkeltfiler kan en følsomhetsetikett automatisk begrense kopiering og ekstern deling."
           },
           {
             "tittel": "Hold tryggheten over tid",
@@ -821,7 +821,7 @@
         "id": "ryddig-innboks",
         "tittel": "Hold innboksen ryddig",
         "ingress": "Fokusert innboks, kategorier og flagg — tre grep som hjelper deg å holde oversikten i Outlook.",
-        "oppdatert": "Oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "outlook",
         "tags": [
           "outlook",
@@ -848,7 +848,7 @@
           },
           {
             "tittel": "Når Outlook for the web ikke holder — bruk Outlook på PC",
-            "innhold": "Outlook er ikke innebygd i Teams — det er en egen app som ligger ved siden av. Outlook for the web (i Edge) dekker daglig e-post og kalender, men skrivebordsversjonen på PC har noen funksjoner som ikke finnes eller fungerer dårligere i nettleseren:\n\n- **Søkemapper** — virtuelle mapper basert på kriterier (store e-postmeldinger, gammel e-post, fra avsender)\n- **Regler** — mer omfattende oppsett med flere steg og betingelser\n- **Delegering** — gi en kollega tilgang til innboks eller kalender på dine vegne\n- **Online Archive** — eldre e-post flyttet til arkivlageret\n- **Hurtigtrinn** — knapper for repeterte oppgaver med hurtigtast\n- **Avansert søk** — flere filtre og kombinasjoner\n\nDu åpner skrivebordsversjonen via **Start-menyen** eller **Søk** på oppgavelinjen, eller ved å feste **Outlook** der. Bruker du Teams som hovedflate, kan du fortsatt høyreklikke en e-post i Outlook → **Del til Teams** for å løfte tråden over i en kanal eller chat.\n\n*For konkrete grep i Outlook — søkemapper, Rydd opp, Ignorer og Hurtigtrinn — se artikkelen om effektive ryddeteknikker.*"
+            "innhold": "Outlook er ikke innebygd i Teams — det er en egen app som ligger ved siden av. Outlook for the web (i Edge) dekker daglig e-post og kalender, men skrivebordsversjonen på PC har noen funksjoner som ikke finnes eller fungerer dårligere i nettleseren:\n\n- **Søkemapper** — virtuelle mapper basert på kriterier (store e-postmeldinger, gammel e-post, fra avsender)\n- **Regler** — mer omfattende oppsett med flere steg og betingelser\n- **Delegering** — gi en kollega tilgang til innboks eller kalender på dine vegne\n- **Online Archive** — eldre e-post flyttet til arkivlageret\n- **Hurtigtrinn** — knapper for repeterte oppgaver med hurtigtast\n- **Avansert søk** — flere filtre og kombinasjoner\n\nDu åpner skrivebordsversjonen via **Start-menyen** eller **Søk** på oppgavelinjen, eller ved å feste **Outlook** der. Bruker du Teams som hovedflate, kan du fortsatt høyreklikke en e-post i Outlook → **Del til Teams** for å løfte tråden over i en kanal eller chat."
           }
         ],
         "relaterte": [
