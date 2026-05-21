@@ -47,8 +47,8 @@
       {
         "id": "finn-mappestorrelser",
         "tittel": "Finn mappestørrelser raskt — kartlegg før du flytter",
-        "ingress": "Med denne oppskriften får du en Excel-fil som lister opp størrelsen på alle undermapper i ett jafs — slik at du vet hvor du bør starte. Noen som sa ryddekonkurranse?",
-        "oppdatert": "Sist oppdatert: 20.05.26",
+        "ingress": "Med denne oppskriften får du en Excel-fil som lister opp størrelsen på alle undermapper i ett jafs — slik at du vet hvor du bør starte.",
+        "oppdatert": "Sist oppdatert: 21.05.26",
         "kategori": "for-flytting",
         "tags": [
           "kartlegging",
@@ -59,7 +59,7 @@
         "steg": [
           {
             "tittel": "Når du trenger oversikten",
-            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nHer bruker du en kommando som lister opp alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n*Eksempel: en filserver på 8 TB der 80 prosent ligger i tre mapper. Da vet du hvor ryddejobben må starte.*\n\nFremgangsmåten er testet på Windows Server 2019 Datacenter (norsk versjon), men skal virke likt i Windows 11."
+            "innhold": "Før en flytting er det nyttig å vite hva som faktisk tar plass. En filserver kan inneholde tusenvis av mapper, og det er sjelden et godt utgangspunkt å gå gjennom alt manuelt.\n\nHer bruker du en kommando som lister opp alle direkte undermapper på øverste nivå med størrelse i GB. Sortér listen i Excel, så ser du raskt hvilke områder du må prioritere.\n\n*Viktig*: Kommandoen kan belaste IT-infrastrukturen hvis mange gjør dette samtidig eller den kjøres i mapper med mye innhold. Avklar med IT for å unngå unødvendig belastning og feil."
           },
           {
             "tittel": "Åpne kommandovinduet direkte i mappen",
