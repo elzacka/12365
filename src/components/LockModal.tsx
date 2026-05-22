@@ -1,13 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
-import { useAuth } from '../auth/AuthContext'
+import { useAuth } from '../auth/useAuth'
 import { CloseIcon, LockIcon, LockOpenIcon } from './Icons'
 
 interface LockModalProps {
-  open: boolean
   onClose: () => void
 }
 
-export function LockModal({ open, onClose }: LockModalProps) {
+export function LockModal({ onClose }: LockModalProps) {
   const { unlocked, unlock, lock } = useAuth()
   const [passphrase, setPassphrase] = useState('')
   const [remember, setRemember] = useState(true)
@@ -15,29 +14,23 @@ export function LockModal({ open, onClose }: LockModalProps) {
   const [error, setError] = useState<string | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  // Reset transient state every time the modal opens, and focus the field.
+  // Focus the input shortly after mount — the modal is conditionally rendered
+  // by the parent, so this runs every time the user opens it.
   useEffect(() => {
-    if (!open) return
-    setPassphrase('')
-    setError(null)
-    setBusy(false)
     const t = window.setTimeout(() => inputRef.current?.focus(), 50)
     return () => window.clearTimeout(t)
-  }, [open])
+  }, [])
 
   // Close on Escape.
   useEffect(() => {
-    if (!open) return
     const handler = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose()
     }
     window.addEventListener('keydown', handler)
     return () => window.removeEventListener('keydown', handler)
-  }, [open, onClose])
+  }, [onClose])
 
-  if (!open) return null
-
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     if (busy || !passphrase) return
     setBusy(true)

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import type { ArticleCategory, FlipCard, Video } from '../types'
-import { useAuth } from './AuthContext'
+import { useAuth } from './useAuth'
 
 export function useMergedCards(publicCards: FlipCard[]): FlipCard[] {
   const { locked } = useAuth()

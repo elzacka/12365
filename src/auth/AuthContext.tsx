@@ -1,18 +1,7 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { LockedContent } from '../types'
+import { AuthContext, STORAGE_KEY, type AuthContextValue } from './context'
 import { decryptJson, type EncryptedPayload } from './crypto'
-
-interface AuthContextValue {
-  unlocked: boolean
-  locked: LockedContent | null
-  initializing: boolean // true while we try auto-unlock from a saved passphrase
-  unlock: (passphrase: string, remember: boolean) => Promise<void>
-  lock: () => void
-}
-
-const AuthContext = createContext<AuthContextValue | null>(null)
-
-const STORAGE_KEY = '12365.passphrase'
 
 const base = import.meta.env.BASE_URL
 
@@ -31,7 +20,9 @@ async function fetchLockedPayload(): Promise<EncryptedPayload> {
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [locked, setLocked] = useState<LockedContent | null>(null)
-  const [initializing, setInitializing] = useState(true)
+  // Initial state is derived synchronously from localStorage so we don't need
+  // to setState in the effect body (which the react-hooks lint rule flags).
+  const [initializing, setInitializing] = useState(() => localStorage.getItem(STORAGE_KEY) !== null)
 
   const tryDecrypt = useCallback(async (passphrase: string): Promise<LockedContent> => {
     const payload = await fetchLockedPayload()
@@ -42,10 +33,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let cancelled = false
     const saved = localStorage.getItem(STORAGE_KEY)
-    if (!saved) {
-      setInitializing(false)
-      return
-    }
+    if (!saved) return
     tryDecrypt(saved)
       .then(content => {
         if (!cancelled) setLocked(content)
@@ -94,12 +82,4 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   )
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
-}
-
-export function useAuth(): AuthContextValue {
-  const ctx = useContext(AuthContext)
-  if (!ctx) {
-    throw new Error('useAuth må brukes innenfor en AuthProvider')
-  }
-  return ctx
 }
