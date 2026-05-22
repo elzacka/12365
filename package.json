@@ -1,7 +1,7 @@
 {
   "name": "12365",
   "private": true,
-  "version": "0.9.0",
+  "version": "0.10.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "icons:build": "node scripts/build-icons.mjs"
+    "icons:build": "node scripts/build-icons.mjs",
+    "lock": "node scripts/lock-content.mjs"
   },
   "dependencies": {
     "react": "^19.2.5",

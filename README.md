@@ -23,6 +23,7 @@ npm install
 npm run dev      # Lokal utvikling
 npm run build    # Produksjonsbygg
 npm run lint     # ESLint
+npm run lock     # Krypter skjult innhold (admin)
 ```
 
 Push til `main` bygger og publiserer automatisk via GitHub Pages.

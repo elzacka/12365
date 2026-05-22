@@ -1,10 +1,12 @@
 import { use } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchVideos } from '../data/loader'
+import { useMergedVideos } from '../auth/merge'
 import { VideoIcon } from '../components/Icons'
 
 export function Videos() {
-  const videos = use(fetchVideos())
+  const publicVideos = use(fetchVideos())
+  const videos = useMergedVideos(publicVideos)
   const base = import.meta.env.BASE_URL
 
   return (

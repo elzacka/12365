@@ -13,6 +13,7 @@ export interface FlipCard {
     tekst: string
     url: string
   }
+  laast?: boolean // marks the card as gated content; only added to listings when the user has unlocked
 }
 
 export interface ArticleImage {
@@ -40,6 +41,7 @@ export interface Article {
   videoUrl?: string
   relaterte?: string[] // article ids
   skjult?: boolean // if true: filtered out of listings; direct URL redirects to overview
+  laast?: boolean // marks the article as gated content; only added to listings when the user has unlocked
   _veiledning?: string // internal comment in articles.json — not rendered anywhere
 }
 
@@ -56,6 +58,15 @@ export interface Video {
   tittel?: string     // optional title
   intro?: string      // optional short intro text
   thumbnail?: string  // optional thumbnail path, e.g. "videos/thumbnails/min-video.png"
+  laast?: boolean     // marks the video as gated content; only added to listings when the user has unlocked
+}
+
+// Shape of the decrypted locked payload. Mirrors the public content arrays so
+// merging into the listings is a simple per-category concatenation.
+export interface LockedContent {
+  cards?: FlipCard[]
+  articles?: ArticleCategory[]
+  videos?: Video[]
 }
 
 export type LicenseStatus = 'inkludert' | 'tillegg' | 'ikke'

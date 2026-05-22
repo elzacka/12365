@@ -1,10 +1,12 @@
 import { useState, useMemo, use } from 'react'
 import { fetchCards } from '../data/loader'
+import { useMergedCards } from '../auth/merge'
 import { FlipCard } from '../components/FlipCard'
 import { SearchIcon, CloseIcon } from '../components/Icons'
 
 export function AboutApps() {
-  const allCards = use(fetchCards())
+  const publicCards = use(fetchCards())
+  const allCards = useMergedCards(publicCards)
   const [query, setQuery] = useState('')
 
   const filteredCards = useMemo(() => {

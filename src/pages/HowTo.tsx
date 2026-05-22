@@ -1,10 +1,12 @@
 import { useState, useMemo, use } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
+import { useMergedArticles } from '../auth/merge'
 import { ChevronRightIcon, SearchIcon, CloseIcon } from '../components/Icons'
 
 export function HowTo() {
-  const rawCategories = use(fetchArticles())
+  const publicCategories = use(fetchArticles())
+  const rawCategories = useMergedArticles(publicCategories)
   const [query, setQuery] = useState('')
 
   // Filter out hidden articles early — applies to listing and search count alike.
