@@ -66,7 +66,7 @@ function AppRoutes() {
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
-      <LockModal open={lockOpen} onClose={() => setLockOpen(false)} />
+      {lockOpen && <LockModal onClose={() => setLockOpen(false)} />}
       <UpdateToast />
     </div>
   )
