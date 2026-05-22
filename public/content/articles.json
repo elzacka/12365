@@ -7,7 +7,7 @@
       {
         "id": "rydd-for-m365",
         "tittel": "Pakk lett — digital rydding lønner seg",
-        "ingress": "Det er fristende å ta med seg alt. Men jo mer du tar med, jo vanskeligere blir det å finne fram. Slik tenker du om digital rydding — som en investering i din egen og fellesskapets jobbhverdag.",
+        "ingress": "Slik tenker du om digital rydding: ta med det du bruker, ikke alt du har.",
         "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "for-flytting",
         "tags": [
@@ -18,12 +18,12 @@
         ],
         "steg": [
           {
-            "tittel": "Hvorfor digital rydding lønner seg",
-            "innhold": "Fire grunner til å rydde:\n\n- **Personvern og sikkerhet** — Gamle filer kan inneholde sensitive opplysninger. KI-funksjoner som Copilot henter innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n- **Bærekraft** — Mindre lagring sparer energi og ressurser.\n- **Brukervennlighet** — Med færre og mer relevante filer blir det lettere å holde oversikt.\n- **Informasjonssikkerhet** — Personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste."
+            "tittel": "Hva ryddingen gir deg",
+            "innhold": "Fire gevinster:\n\n◦ **Personvern og informasjonssikkerhet**: gamle filer kan inneholde sensitive opplysninger. KI-funksjoner som Copilot henter innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n◦ **Bærekraft**: mindre lagring sparer energi og ressurser.\n◦ **Brukervennlighet**: med færre og mer relevante filer blir det lettere å holde oversikt.\n◦ **Kontinuitet og tilgjengelighet**: personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste."
           },
           {
             "tittel": "Pakk lett — dagstursekken som prinsipp",
-            "innhold": "Tenk på det som å pakke en dagstursekk: ta bare med det du faktisk trenger der du skal — ikke alt du eier.\n\n**Pakk lett.** Ta bare med filer som er i aktiv bruk:\n\n- Oversikter du bruker daglig\n- Møtereferater - f. eks bare fra de siste tre månedene\n- Rapporter du skriver på akkurat nå\n- Felles maler og oppsett som faktisk brukes\n\nAlt annet har ett av tre utfall: du sletter det, du arkiverer det i arkivsystemet, eller du lar det bli liggende i den gamle strukturen til den fases ut — det er ikke en parkeringsplass på ubestemt tid."
+            "innhold": "Tenk på det som å pakke en dagstursekk: ta bare med det du faktisk trenger der du skal — ikke alt du eier.\n\n**Pakk lett.** Ta bare med filer som er i aktiv bruk:\n\n◦ Oversikter du bruker daglig\n◦ Møtereferater - f. eks bare fra de siste tre månedene\n◦ Rapporter du skriver på akkurat nå\n◦ Felles maler og oppsett som faktisk brukes\n\nAlt annet har ett av tre utfall: du sletter det, du arkiverer det i arkivsystemet, eller du lar det bli liggende i den gamle strukturen til den fases ut — det er ikke en parkeringsplass på ubestemt tid."
           },
           {
             "tittel": "Slik rydder du egne filområder",
@@ -31,11 +31,11 @@
           },
           {
             "tittel": "Slik rydder du e-posten",
-            "innhold": "I Teams sender du ikke filer frem og tilbake på e-post — du deler lenker. Det betyr at e-postlageret kan slankes betraktelig når kanalene tas i bruk.\n\nSlik rydder du:\n\n- Begynn **bakerst** i innboksen og **Sendte elementer** — slett, slett, slett\n- Kommer du over et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten\n- Arkiver e-post som skal bevares i arkivsystemet **før** du sletter den\n- Har e-posten dokumentasjon du trenger å beholde av andre grunner? Lagre den der dokumentasjonen skal leve videre — i arkivsystem, fagsystem, eller riktig sted i Teams\n\nBehold e-post om pågående saker. Pågående dialoger med mange vedlegg egner seg godt til å fortsette i Teams.\n\n*Sendte elementer er ofte den største synderen — store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*"
+            "innhold": "I Teams sender du ikke filer frem og tilbake på e-post — du deler lenker. Det betyr at e-postlageret kan slankes betraktelig når kanalene tas i bruk.\n\nSlik rydder du:\n\n◦ Begynn **bakerst** i innboksen og **Sendte elementer** — slett, slett, slett\n◦ Kommer du over et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten\n◦ Arkiver e-post som skal bevares i arkivsystemet **før** du sletter den\n◦ Har e-posten dokumentasjon du trenger å beholde av andre grunner? Lagre den der dokumentasjonen skal leve videre — i arkivsystem, fagsystem, eller riktig sted i Teams\n\nBehold e-post om pågående saker. Pågående dialoger med mange vedlegg egner seg godt til å fortsette i Teams.\n\n*Sendte elementer er ofte den største synderen — store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*"
           },
           {
             "tittel": "Mål: forvalt informasjon bevisst",
-            "innhold": "Målet er å forvalte informasjon bevisst og strukturert — gjennom hele livsløpet.\n\nDet betyr at du:\n\n- Skaper og lagrer informasjon der den hører hjemme\n- Sørger for at den er tilgjengelig for dem som trenger den\n- Sørger for at den kan deles, gjenfinnes og gjenbrukes\n- Ivaretar krav til arkivering, sporbarhet og regelverk\n- Støtter gode arbeidsprosesser og samarbeid på tvers av enheter\n- Ikke oppretter flere team og arbeidsområder enn nødvendig\n\n*Husk: en samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*\n\n*Behandle informasjon som en felles ressurs — ikke som personlige filer eller tilfeldige meldinger.*"
+            "innhold": "Målet er å forvalte informasjon bevisst og strukturert — gjennom hele livsløpet.\n\nDet betyr at du:\n\n◦ Skaper og lagrer informasjon der den hører hjemme\n◦ Sørger for at den er tilgjengelig for dem som trenger den\n◦ Sørger for at den kan deles, gjenfinnes og gjenbrukes\n◦ Ivaretar krav til arkivering, sporbarhet og regelverk\n◦ Støtter gode arbeidsprosesser og samarbeid på tvers av enheter\n◦ Ikke oppretter flere team og arbeidsområder enn nødvendig\n\n*Husk: en samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*\n\n*Behandle informasjon som en felles ressurs — ikke som personlige filer eller tilfeldige meldinger.*"
           }
         ],
         "relaterte": [
@@ -47,7 +47,7 @@
       {
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker — finn det riktige raskt",
-        "ingress": "Et knippe konkrete grep i Outlook og Filutforsker som gjør jobben tre ganger så fort — pluss angrefunksjonen du bør kjenne før du sletter mye.",
+        "ingress": "Teknikker som rydder raskere i Outlook og Filutforsker — og angrefunksjonen du bør vite om.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
@@ -60,23 +60,23 @@
         "steg": [
           {
             "tittel": "Søkemapper i Outlook — én visning, flere mapper",
-            "innhold": "Søkemapper er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\nSlik lager du en (Outlook 2019):\n\n- Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n- Velg en ferdig mal under **Organisere e-post** — for eksempel **Store e-postmeldinger**, **Gammel e-post** eller **E-post med vedlegg** — eller **Opprett en egendefinert søkemappe** for egne kriterier\n- For **Store e-postmeldinger** åpnes dialogen **E-poststørrelse** der du oppgir minste størrelse i **kB**. **5 MB tilsvarer 5120 kB**. Til sammenligning er en typisk e-post uten vedlegg rundt 20–75 kB.\n\nTypiske søkemapper å sette opp:\n\n- **Store e-postmeldinger** — finn store vedlegg du kan slette eller «flytte ut»\n- **Gammel e-post** — kandidater for arkivering eller sletting\n- **E-post med vedlegg** — sortér ut alt med vedlegg for samlet gjennomgang\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten.*"
+            "innhold": "Søkemapper er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\n◦ Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n◦ Velg en ferdig mal under **Organisere e-post**, eller **Opprett en egendefinert søkemappe** for egne kriterier\n◦ Praktiske maler å starte med: **Store e-postmeldinger**, **Gammel e-post**, **E-post med vedlegg**\n◦ For **Store e-postmeldinger** åpnes dialogen **E-poststørrelse**: oppgi minste størrelse i **kB**\n◦ **5 MB = 5120 kB**. Typisk e-post uten vedlegg: 20–75 kB\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten. Trinnene gjelder Outlook 2019.*"
           },
           {
             "tittel": "Rydd opp, Ignorer og Hurtigtrinn — tre Outlook-grep til",
-            "innhold": "Disse tre fjerner repetitive klikk i hverdagen:\n\n- **Rydd opp samtale** — marker en lang tråd → **Hjem** → **Rydd opp**. Fjerner overflødige meldinger; hele historikken ligger uansett i siste e-post. Trygt.\n- **Ignorer** — Ctrl+Del på en samtale du ikke vil høre mer fra. Alle nåværende og fremtidige meldinger i tråden går rett til Slettede elementer.\n- **Hurtigtrinn** — **Hjem** → **Hurtigtrinn** → **Opprett ny**. Lag knapper for det du gjør mye, for eksempel «Flytt til Behandlet» eller «Videresend til arkiv». Tilordne hurtigtast Ctrl+Shift+1 til 9. Halverer antall museklikk.\n\n*Tips: kombiner søkemapper med Hurtigtrinn for å rydde tilbakevendende mønstre raskt.*"
+            "innhold": "Disse tre fjerner repetitive klikk i hverdagen:\n\n◦ **Rydd opp samtale**: marker en lang tråd → **Hjem** → **Rydd opp**. Fjerner overflødige meldinger; hele historikken ligger uansett i siste e-post. Trygt.\n◦ **Ignorer**: Ctrl+Del på en samtale du ikke vil høre mer fra. Alle nåværende og fremtidige meldinger i tråden går rett til Slettede elementer.\n◦ **Hurtigtrinn**: **Hjem** → **Hurtigtrinn** → **Opprett ny**. Lag knapper for det du gjør mye, for eksempel «Flytt til Behandlet» eller «Videresend til arkiv». Tilordne hurtigtast Ctrl+Shift+1 til 9.\n\n*Tips: kombiner søkemapper med Hurtigtrinn for å rydde tilbakevendende mønstre raskt.*"
           },
           {
             "tittel": "Søk i Filutforsker — finn gamle og store filer",
-            "innhold": "Åpne Filutforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n- **Filer endret før en gitt dato** — *endringsdato:<01.01.2024*\n- **Gamle og store filer** — *endringsdato:<01.01.2024 størrelse:>10MB*\n- **Bestemte filtyper** — søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\nEndre visning til **Detaljer** (**Visning** → **Detaljer**). For å se hvor filene ligger, høyreklikk i kolonneraden og velg **Mappe**. Sortér på **Endringsdato**, marker grupper med Ctrl+klikk eller Shift+klikk, og slett.\n\n"
+            "innhold": "Åpne Filutforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n◦ **Filer endret før en gitt dato**: *endringsdato:<01.01.2024*\n◦ **Gamle og store filer**: *endringsdato:<01.01.2024 størrelse:>10MB*\n◦ **Bestemte filtyper**: søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\nNår søket har gitt treff:\n\n◦ Bytt visning til **Detaljer** (**Visning** → **Detaljer**)\n◦ Vis kolonnen som forteller hvor filene ligger: høyreklikk i kolonneraden → **Mappe**\n◦ Sortér på **Endringsdato**\n◦ Marker grupper med Ctrl+klikk eller Shift+klikk, og slett"
           },
           {
-            "tittel": "To-runder-prinsippet — slett trygt, slett bare én gang",
-            "innhold": "For større mengder: slett aldru mens du leter. Bruk denne rytmen i stedet:\n\n1. **Runde 1 — filtrér og marker** — sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Runde 2 — bekreft** — gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Runde 3 — slett** — trykk Delete. Filene går til papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke** — sjekk at ingenting du trenger har forsvunnet.\n5. **Etter en uke** — tøm papirkurven.\n\n"
+            "tittel": "Trygg sletting i fire steg",
+            "innhold": "For større mengder: slett aldri mens du leter. Bruk denne rytmen i stedet:\n\n1. **Filtrér og marker**: sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Bekreft**: gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Slett**: trykk Delete. Filene går til papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke, deretter tøm papirkurven**: gir tid til å oppdage om du har slettet noe du trenger."
           },
           {
-            "tittel": "Tidligere versjoner — angrefunksjonen du bør kjenne",
-            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig: høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**.\n\nHvis IT har skrudd på volumskyggekopier, kan du hente tilbake en versjon fra i går eller forrige uke. Virker også for filer på fellesområder."
+            "tittel": "Tidligere versjoner — angrefunksjonen du bør vite om",
+            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig:\n\n◦ Høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**\n◦ Hvis IT har skrudd på volumskyggekopier, kan du hente en versjon fra i går eller forrige uke\n◦ Virker også for filer på fellesområder"
           }
         ],
         "relaterte": [
@@ -94,7 +94,7 @@
       {
         "id": "teams-som-arbeidsflate",
         "tittel": "Teams — arbeidsflaten din i M365",
-        "ingress": "Teams er ikke bare et verktøy for videomøter og chat. Det er den samlede arbeidsflaten i M365 — her finner du filene, oppgavene, notatene og appene dine på ett sted.",
+        "ingress": "Teams er ikke bare møter og chat — det er ett sted for filer, oppgaver, notater og apper.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "kom-i-gang",
         "tags": [
@@ -114,11 +114,11 @@
           },
           {
             "tittel": "Finn appene i venstremenyen",
-            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardvalg er **Aktivitet**, **Chat**, **Teams**, **Kalender** og **Filer** (i OneDrive).\n\nNyttige apper å feste i tillegg:\n\n- **Planner** — oppgaver og planer\n- **Lists** — strukturerte lister og oversikter\n- **Loop** — levende samarbeidsdokumenter\n- **Copilot** — KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** (eller **Flere apper**) nederst i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å få den fast i menyen."
+            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardvalg er **Aktivitet**, **Chat**, **Teams**, **Kalender** og **Filer** (i OneDrive).\n\nNyttige apper å feste i tillegg:\n\n◦ **Planner**: oppgaver og planer\n◦ **Lists**: strukturerte lister og oversikter\n◦ **Loop**: levende samarbeidsdokumenter\n◦ **Copilot**: KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** (eller **Flere apper**) nederst i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å få den fast i menyen."
           },
           {
             "tittel": "Bruk faner i kanalene",
-            "innhold": "Øverst i hver kanal kan du legge til **faner** — snarveier til det teamet bruker mest. Klikk **+** på fanelinja og velg hva du vil legge til:\n\n- En **Lists**-oversikt (f.eks. hendelseslogg eller risikoregister)\n- En **Planner**-tavle\n- Et **OneNote**-notatblokk\n- En **SharePoint-side** (finn kunnskapsartikler uten å åpne Edge)\n- Et **Whiteboard**\n- En **nettside** eller et **skjema**\n\nResultat: Alt teamet trenger er samlet på ett sted, i én kanal."
+            "innhold": "Øverst i hver kanal kan du legge til **faner** — snarveier til det teamet bruker mest. Klikk **+** på fanelinja og velg hva du vil legge til:\n\n◦ En **Lists**-oversikt (f.eks. hendelseslogg eller risikoregister)\n◦ En **Planner**-tavle\n◦ Et **OneNote**-notatblokk\n◦ En **SharePoint-side** (finn kunnskapsartikler uten å åpne Edge)\n◦ Et **Whiteboard**\n◦ En **nettside** eller et **skjema**\n\nResultat: Alt teamet trenger er samlet på ett sted, i én kanal."
           },
           {
             "tittel": "Åpne og rediger filer uten å forlate Teams",
@@ -130,7 +130,7 @@
           },
           {
             "tittel": "Hva krever likevel Edge?",
-            "innhold": "Det meste kan gjøres uten å måtte gå via Edge. Unntakene er:\n\n- **Opprette nye SharePoint-nettsteder** (avhengig av tenantens innstillinger)\n- **Administrere Term Store og innholdstyper** (kun IT/admin)\n- **Redigere SharePoint-sider med kompleks layout** (åpner Edge automatisk)\n- **Åpne Visio** for å tegne diagrammer (åpnes typisk i nettleseren)\n\nAlt annet — filer, lister, oppgaver, møter, notater, KI — kan du gjøre i Teams."
+            "innhold": "Det meste kan gjøres uten å måtte gå via Edge. Unntakene er:\n\n◦ **Opprette nye SharePoint-nettsteder** (avhengig av tenantens innstillinger)\n◦ **Administrere Term Store og innholdstyper** (kun IT/admin)\n◦ **Redigere SharePoint-sider med kompleks layout** (åpner Edge automatisk)\n◦ **Åpne Visio** for å tegne diagrammer (åpnes typisk i nettleseren)\n\nAlt annet — filer, lister, oppgaver, møter, notater, KI — kan du gjøre i Teams."
           },
           {
             "tittel": "Én app som samler alt — ikke ti apper du bytter mellom",
@@ -146,7 +146,7 @@
       {
         "id": "teams-hierarki",
         "tittel": "Hierarki og tilganger i Teams — hvem ser hva, og hvordan du styrer det",
-        "ingress": "Hierarkiet i Teams — team, kanal og innhold — styrer hvem som har tilgang til hva. Slik forstår du oppbyggingen, hvordan du sjekker tilgang, og hvordan du gir tilgang riktig fra starten.",
+        "ingress": "Team, kanal og innhold styrer hvem som har tilgang til hva. Slik gir du riktig tilgang fra starten.",
         "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "kom-i-gang",
         "tags": [
@@ -160,31 +160,31 @@
         "steg": [
           {
             "tittel": "Hierarkiet — team, kanaler, innhold",
-            "innhold": "Teams er bygd opp i nivåer. Du må forstå alle tre for å vite hvem som ser hva:\n\n- **Team** — øverste nivå. Samler en gruppe mennesker som jobber sammen.\n- **Kanal** — et rom i teamet for ett tema eller én arbeidsstrøm. Et team kan ha mange kanaler.\n- **Innhold** — samtaler, filer og faner (Lists, Planner, OneNote, SharePoint-sider og flere) som ligger i en kanal.\n\nMental modell: tilgang gis på team- eller kanalnivå. Innholdet arver tilgangen fra rommet det ligger i. **Medlemskap i teamet er nøkkelen til alt innholdet i standardkanalene.**"
+            "innhold": "Teams er bygd opp i nivåer. Du må forstå alle tre for å vite hvem som ser hva:\n\n◦ **Team**: øverste nivå. Samler en gruppe mennesker som jobber sammen.\n◦ **Kanal**: et rom i teamet for ett tema eller én arbeidsstrøm. Et team kan ha mange kanaler.\n◦ **Innhold**: samtaler, filer og faner (Lists, Planner, OneNote, SharePoint-sider og flere) som ligger i en kanal.\n\nMental modell: tilgang gis på team- eller kanalnivå. Innholdet arver tilgangen fra rommet det ligger i. **Medlemskap i teamet er nøkkelen til alt innholdet i standardkanalene.**"
           },
           {
             "tittel": "Tre typer kanaler — tre tilgangsmodeller",
-            "innhold": "Det er kanaltypen som styrer hvem som kan se innholdet i kanalen — ikke teamets innstillinger:\n\n- **Standardkanal** — synlig for alle medlemmer av teamet. Velges når hele teamet skal kunne se og delta.\n- **Privat kanal** — kun synlig for medlemmene som er invitert til kanalen. Har sitt eget tilgangsområde. Velges når innholdet ikke skal nå alle i teamet.\n- **Delt kanal** — kan inkludere personer fra andre team og (hvis åpnet) fra andre organisasjoner. Eget tilgangsområde. Velges for samarbeid på tvers.\n\nEt team kan ha alle tre typer side om side. Tilgangen styres på kanalnivå for privat og delt, og på teamnivå for standard."
+            "innhold": "Det er kanaltypen som styrer hvem som kan se innholdet i kanalen — ikke teamets innstillinger:\n\n◦ **Standardkanal**: synlig for alle medlemmer av teamet. Velges når hele teamet skal kunne se og delta.\n◦ **Privat kanal**: kun synlig for medlemmene som er invitert til kanalen. Har sitt eget tilgangsområde. Velges når innholdet ikke skal nå alle i teamet.\n◦ **Delt kanal**: kan inkludere personer fra andre team og (hvis åpnet) fra andre organisasjoner. Eget tilgangsområde. Velges for samarbeid på tvers.\n\nEt team kan ha alle tre typer side om side. Tilgangen styres på kanalnivå for privat og delt, og på teamnivå for standard."
           },
           {
             "tittel": "Tilgangen følger der innholdet ligger fysisk",
-            "innhold": "Hvor du legger en fil bestemmer hvem som kan finne den i framtiden — ikke hvilken kanal du klikket deg inn fra:\n\n- **Filer i en standardkanal** → felles område for teamet; alle teammedlemmer har tilgang.\n- **Filer i en privat eller delt kanal** → eget område, kun for kanalmedlemmene.\n- **Filer du laster opp i en 1:1-chat eller gruppechat** → din egen OneDrive. Personene du chatter med får en lenke; du eier filen.\n- **Filer i et Teams-møte** → OneDrive til den som lastet opp filen eller startet opptaket.\n\n**Konsekvens: det som skal være varig felles, hører hjemme i en kanal — ikke i en chat.** Slutter du, kan andre miste tilgang til chat-filer."
+            "innhold": "Hvor du legger en fil bestemmer hvem som kan finne den i framtiden — ikke hvilken kanal du klikket deg inn fra:\n\n◦ **Filer i en standardkanal** → felles område for teamet; alle teammedlemmer har tilgang.\n◦ **Filer i en privat eller delt kanal** → eget område, kun for kanalmedlemmene.\n◦ **Filer du laster opp i en 1:1-chat eller gruppechat** → din egen OneDrive. Personene du chatter med får en lenke; du eier filen.\n◦ **Filer i et Teams-møte** → OneDrive til den som lastet opp filen eller startet opptaket.\n\n**Konsekvens: det som skal være varig felles, hører hjemme i en kanal — ikke i en chat.** Slutter du, kan andre miste tilgang til chat-filer."
           },
           {
             "tittel": "Roller — hva hver kan gjøre med tilgang",
-            "innhold": "Tre roller styrer hva man kan i et team:\n\n- **Eier** — administrerer medlemmer, oppretter og sletter kanaler, endrer innstillinger, kan slette teamet. Et team bør ha minst to eiere; én er sårbart.\n- **Medlem** — poster, oppretter og redigerer innhold. Kan vanligvis ikke administrere medlemskap eller slette innhold andre eier.\n- **Gjest** — ekstern bruker invitert til teamet. Reduserte rettigheter; kan ikke opprette nye kanaler, og ser et begrenset utvalg. Organisasjonen bestemmer om gjestetilgang i det hele tatt er tillatt.\n\n*Tips: gi rollen «Eier» bevisst. Eiere kan slette innhold og endre tilganger; det skal være få.*"
+            "innhold": "Tre roller styrer hva man kan i et team:\n\n◦ **Eier**: administrerer medlemmer, oppretter og sletter kanaler, endrer innstillinger, kan slette teamet. Et team bør ha minst to eiere; én er sårbart.\n◦ **Medlem**: poster, oppretter og redigerer innhold. Kan vanligvis ikke administrere medlemskap eller slette innhold andre eier.\n◦ **Gjest**: ekstern bruker invitert til teamet. Reduserte rettigheter; kan ikke opprette nye kanaler, og ser et begrenset utvalg. Organisasjonen bestemmer om gjestetilgang i det hele tatt er tillatt.\n\n*Tips: gi rollen «Eier» bevisst. Eiere kan slette innhold og endre tilganger; det skal være få.*"
           },
           {
             "tittel": "Slik ser du hvem som har tilgang akkurat nå",
-            "innhold": "Sjekk før du legger noe sensitivt et nytt sted:\n\n- **For et team** — klikk teamnavnet → tre prikker → **Administrer team** → fanen **Medlemmer**\n- **For en privat eller delt kanal** — klikk kanalnavnet → tre prikker → **Administrer kanal** → fanen **Medlemmer**\n- **For en enkelt fil** — høyreklikk filen → **Behandle tilgang**\n- **For en fil du har delt i chat** — åpne OneDrive på web, finn filen → **Detaljer** → **Behandle tilgang**\n\n*Tips: sjekk tilgangen før du deler noe sensitivt — ikke etter.*"
+            "innhold": "Sjekk før du legger noe sensitivt et nytt sted:\n\n◦ **For et team**: klikk teamnavnet → tre prikker → **Administrer team** → fanen **Medlemmer**\n◦ **For en privat eller delt kanal**: klikk kanalnavnet → tre prikker → **Administrer kanal** → fanen **Medlemmer**\n◦ **For en enkelt fil**: høyreklikk filen → **Behandle tilgang**\n◦ **For en fil du har delt i chat**: åpne OneDrive på web, finn filen → **Detaljer** → **Behandle tilgang**\n\n*Tips: sjekk tilgangen før du deler noe sensitivt — ikke etter.*"
           },
           {
             "tittel": "Slik gir du tilgang riktig første gang",
-            "innhold": "Tre vurderinger sparer mye opprydning senere:\n\n- **Hva er laveste nødvendige nivå?** — trenger personen tilgang til hele teamet, eller bare én kanal, eller bare én fil? Velg det laveste som dekker behovet.\n- **Skal innholdet være sensitivt?** — opprett en privat kanal i stedet for å lagre i standardkanal. Privat kanal har eget tilgangsområde og er ikke synlig for andre teammedlemmer.\n- **Skal eksterne ha tilgang?** — bruk delt kanal hvis funksjonen er åpnet, eller gjestetilgang i teamet. Fjern tilgangen når oppdraget er over.\n\nFor ekstra trygghet på enkeltfiler kan en følsomhetsetikett automatisk begrense kopiering og ekstern deling."
+            "innhold": "Tre vurderinger sparer mye opprydning senere:\n\n◦ **Hva er laveste nødvendige nivå?**: trenger personen tilgang til hele teamet, eller bare én kanal, eller bare én fil? Velg det laveste som dekker behovet.\n◦ **Skal innholdet være sensitivt?**: opprett en privat kanal i stedet for å lagre i standardkanal. Privat kanal har eget tilgangsområde og er ikke synlig for andre teammedlemmer.\n◦ **Skal eksterne ha tilgang?**: bruk delt kanal hvis funksjonen er åpnet, eller gjestetilgang i teamet. Fjern tilgangen når oppdraget er over.\n\nFor ekstra trygghet på enkeltfiler kan en følsomhetsetikett automatisk begrense kopiering og ekstern deling."
           },
           {
             "tittel": "Hold tryggheten over tid",
-            "innhold": "Tilgang er ikke noe du setter én gang og er ferdig med. Det krever vedlikehold:\n\n- **Sjekk medlemslistene i teamene du eier kvartalsvis** — fjern de som ikke lenger trenger tilgang.\n- **Slett kanaler som ikke lenger er i bruk** — færre rom betyr lettere oversikt og færre tilganger å holde rede på.\n- **Ikke bruk chat for varig delt innhold** — det blir vanskelig å gjenbruke og kan miste tilganger hvis noen slutter.\n- **Når noen slutter** — filer i Teams-kanaler blir værende, men filer i deres OneDrive (inkludert chat-filer) kan miste tilgang eller bli slettet. Be IT eller arkivansvarlig om hjelp hvis noe viktig må overføres.\n\n*Trygghet i Teams handler om å vite hvor innholdet ligger, hvem som har tilgang, og hvordan tilgangen følger innholdet. Det er enklere enn det høres ut — når du har den mentale modellen på plass.*"
+            "innhold": "Tilgang er ikke noe du setter én gang og er ferdig med. Det krever vedlikehold:\n\n◦ **Sjekk medlemslistene i teamene du eier kvartalsvis**: fjern de som ikke lenger trenger tilgang.\n◦ **Slett kanaler som ikke lenger er i bruk**: færre rom betyr lettere oversikt og færre tilganger å holde rede på.\n◦ **Ikke bruk chat for varig delt innhold**: det blir vanskelig å gjenbruke og kan miste tilganger hvis noen slutter.\n◦ **Når noen slutter**: filer i Teams-kanaler blir værende, men filer i deres OneDrive (inkludert chat-filer) kan miste tilgang eller bli slettet. Be IT eller arkivansvarlig om hjelp hvis noe viktig må overføres.\n\n*Trygghet i Teams handler om å vite hvor innholdet ligger, hvem som har tilgang, og hvordan tilgangen følger innholdet. Det er enklere enn det høres ut — når du har den mentale modellen på plass.*"
           }
         ],
         "relaterte": [
@@ -196,7 +196,7 @@
       {
         "id": "fra-filserver-til-sharepoint",
         "tittel": "SharePoint — slik er det annerledes enn en filserver",
-        "ingress": "SharePoint er ikke en filserver — det er en samarbeidsplattform. Slik forstår du forskjellen, og hvorfor det endrer hvordan du tenker om filer.",
+        "ingress": "SharePoint er en samarbeidsplattform, ikke en filserver. Slik endrer det hvordan du tenker om filer.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "kom-i-gang",
         "tags": [
@@ -212,7 +212,7 @@
           },
           {
             "tittel": "Finn og legg til filer i Teams",
-            "innhold": "**Finn filene dine** — åpne kanalen i Teams og klikk på **Filer**-fanen øverst. Her ligger alle filer som tilhører kanalen, tilgjengelig for alle kanalmedlemmer.\n\n**Last opp** — klikk **Last opp** i Filer-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint og er umiddelbart tilgjengelig for alle i kanalen."
+            "innhold": "**Finn filene dine** — åpne kanalen i Teams og klikk på **Filer**-fanen øverst. Her ligger alle filer som tilhører kanalen, tilgjengelig for alle kanalmedlemmer.\n\n**Last opp**: klikk **Last opp** i Filer-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint og er umiddelbart tilgjengelig for alle i kanalen."
           },
           {
             "tittel": "Del lenke — ikke vedlegg",
@@ -254,7 +254,7 @@
         "steg": [
           {
             "tittel": "Hva er en følsomhetsetikett?",
-            "innhold": "En **følsomhetsetikett** er en merkelapp du setter på et dokument, en e-post, en møteinvitasjon eller et team. Etiketten forteller M365 hvor sensitivt innholdet er — og hvilke regler som skal gjelde for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n- **Åpent** — kan deles fritt\n- **Internt** — kun for ansatte\n- **Sensitivt** — kun for utvalgte mottakere\n- **Ekstra sensitivt** — kryptert, kun navngitte personer\n\nEtikettene er definert av IT-avdelingen og gjelder på tvers av Word, Excel, PowerPoint, Outlook, Teams og SharePoint. *Listen i din organisasjon kan ha andre navn.*"
+            "innhold": "En **følsomhetsetikett** er en merkelapp du setter på et dokument, en e-post, en møteinvitasjon eller et team. Etiketten forteller M365 hvor sensitivt innholdet er — og hvilke regler som skal gjelde for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n◦ **Åpent**: kan deles fritt\n◦ **Internt**: kun for ansatte\n◦ **Sensitivt**: kun for utvalgte mottakere\n◦ **Ekstra sensitivt**: kryptert, kun navngitte personer\n\nEtikettene er definert av IT-avdelingen og gjelder på tvers av Word, Excel, PowerPoint, Outlook, Teams og SharePoint. *Listen i din organisasjon kan ha andre navn.*"
           },
           {
             "tittel": "Slik klassifiserer du et dokument",
@@ -262,11 +262,11 @@
           },
           {
             "tittel": "Hva etiketten styrer",
-            "innhold": "Følsomhetsetiketter er ikke bare en merkelapp — de aktiverer automatiske kontroller:\n\n- **Tilgang** — hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n- **Kryptering** — innholdet låses og kan kun leses av de med riktig nøkkel\n- **Vannmerker** — tekstmerking på utskrift og skjerm («Sensitivt — [navn]»)\n- **Nedlastingsregler** — om dokumentet kan lastes ned eller bare leses i nettleseren\n- **Topptekst og bunntekst** — automatisk innsetting av klassifiseringsmerking\n- **Eksterne grenser** — om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske alle reglene. Etiketten gjør det rette automatisk."
+            "innhold": "Følsomhetsetiketter er ikke bare en merkelapp — de aktiverer automatiske kontroller:\n\n◦ **Tilgang**: hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n◦ **Kryptering**: innholdet låses og kan kun leses av de med riktig nøkkel\n◦ **Vannmerker**: tekstmerking på utskrift og skjerm («Sensitivt — [navn]»)\n◦ **Nedlastingsregler**: om dokumentet kan lastes ned eller bare leses i nettleseren\n◦ **Topptekst og bunntekst**: automatisk innsetting av klassifiseringsmerking\n◦ **Eksterne grenser**: om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske alle reglene. Etiketten gjør det rette automatisk."
           },
           {
             "tittel": "DLP-regler — beskyttelse mot utilsiktet deling",
-            "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (f.eks. fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n- Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n- Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n- Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt — du møter dem i hverdagen som varsler eller hindringer når noe ikke skal skje. De er en sikkerhetsmekanisme, ikke en mistillit til deg."
+            "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (f.eks. fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n◦ Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n◦ Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n◦ Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt — du møter dem i hverdagen som varsler eller hindringer når noe ikke skal skje. De er en sikkerhetsmekanisme, ikke en mistillit til deg."
           },
           {
             "tittel": "Klassifiser før du deler",
@@ -324,7 +324,7 @@
       {
         "id": "loop-eller-word",
         "tittel": "Loop eller Word — hva bruker du?",
-        "ingress": "Ikke alt som ser ut som et dokument, trenger å være en Word-fil. Loop er det smarte valget for alt som leves og arbeides med av flere — Word er for det som er ferdig.",
+        "ingress": "Loop er for det dere jobber sammen om mens det utvikler seg — Word er for det som er ferdig.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
@@ -341,11 +341,11 @@
           },
           {
             "tittel": "Bruk Loop når innholdet er levende",
-            "innhold": "**Loop** er det riktige valget når:\n\n- Flere skal skrive og redigere samtidig\n- Innholdet oppdateres løpende (møtenotater, statusoppdateringer, prosjektbeskrivelser)\n- Du vil at innholdet skal vises på tvers av Teams-chat, kanaler og møter\n- Du ikke trenger spesifikk formatering eller sideoppsett\n\nLoop-sider er finnbare, versjonerte og kan vises som levende komponenter i Teams-meldinger — ikke som en vedleggsfil noen må åpne."
+            "innhold": "**Loop** er det riktige valget når:\n\n◦ Flere skal skrive og redigere samtidig\n◦ Innholdet oppdateres løpende (møtenotater, statusoppdateringer, prosjektbeskrivelser)\n◦ Du vil at innholdet skal vises på tvers av Teams-chat, kanaler og møter\n◦ Du ikke trenger spesifikk formatering eller sideoppsett\n\nLoop-sider er finnbare, versjonerte og kan vises som levende komponenter i Teams-meldinger — ikke som en vedleggsfil noen må åpne."
           },
           {
             "tittel": "Bruk Word til ferdige, formelle dokumenter",
-            "innhold": "**Word** er det riktige valget når:\n\n- Dokumentet er ferdig og skal arkiveres eller sendes ut\n- Det er en formell rapport, kontrakt, saksframlegg eller offisiell tekst\n- Spesifikt sideoppsett, topp-/bunntekst eller signaturfelt er nødvendig\n- Noen skal skrive under på det\n\nEksempler: årsrapport, stillingsbeskrivelse, anskaffelsesdokumenter, brev til innbyggere."
+            "innhold": "**Word** er det riktige valget når:\n\n◦ Dokumentet er ferdig og skal arkiveres eller sendes ut\n◦ Det er en formell rapport, kontrakt, saksframlegg eller offisiell tekst\n◦ Spesifikt sideoppsett, topp-/bunntekst eller signaturfelt er nødvendig\n◦ Noen skal skrive under på det\n\nEksempler: årsrapport, stillingsbeskrivelse, anskaffelsesdokumenter, brev til innbyggere."
           },
           {
             "tittel": "Slik lager du en Loop-side i Teams",
@@ -357,7 +357,7 @@
           },
           {
             "tittel": "Praktiske eksempler",
-            "innhold": "**Bruk Loop-side til:**\n\n- Saksliste og referat for møte\n- Prosjektbeskrivelse alle bidrar til\n\n**Bruk Loop-komponent til:**\n\n- Ukesstatus som deles med teamet\n- Idéinnsamling i møte\n\n**Bruk Word til:**\n\n- Årsrapport til styret\n- Kontrakt med ekstern leverandør\n- Veiledning som skal trykkes\n\n**Bruk SharePoint-side til:**\n\n- Rutine i prosessbiblioteket"
+            "innhold": "**Bruk Loop-side til:**\n\n◦ Saksliste og referat for møte\n◦ Prosjektbeskrivelse alle bidrar til\n\n**Bruk Loop-komponent til:**\n\n◦ Ukesstatus som deles med teamet\n◦ Idéinnsamling i møte\n\n**Bruk Word til:**\n\n◦ Årsrapport til styret\n◦ Kontrakt med ekstern leverandør\n◦ Veiledning som skal trykkes\n\n**Bruk SharePoint-side til:**\n\n◦ Rutine i prosessbiblioteket"
           }
         ],
         "relaterte": [
@@ -368,7 +368,7 @@
       {
         "id": "vise-redigere-kommentere",
         "tittel": "Vise, redigere eller kommentere — riktig deling",
-        "ingress": "Når du deler en fil, bestemmer du selv om mottakeren bare skal lese, kunne kommentere eller endre innholdet. Riktig rettighet gir både flyt og trygghet.",
+        "ingress": "Vis, kommenter eller rediger — du velger hvilken tilgang mottakeren får når du deler en fil.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
@@ -380,23 +380,23 @@
         "steg": [
           {
             "tittel": "Tre rettighetstyper å velge mellom",
-            "innhold": "Når du klikker **Del** i Word, Excel, PowerPoint eller fra et SharePoint-bibliotek, kan du velge mellom tre nivåer:\n\n- **Kan vise** — mottakeren leser dokumentet, men kan ikke endre noe.\n- **Kan kommentere** — mottakeren kan legge til kommentarer i margen, men ikke endre selve teksten.\n- **Kan redigere** — mottakeren kan skrive, slette og samskrive i sanntid.\n\nI en Teams-kanal har medlemmer som regel redigeringstilgang automatisk via medlemskapet. Når du deler en lenke utad, velger du selv rettighet."
+            "innhold": "Når du klikker **Del** i Word, Excel, PowerPoint eller fra et SharePoint-bibliotek, kan du velge mellom tre nivåer:\n\n◦ **Kan vise**: mottakeren leser dokumentet, men kan ikke endre noe.\n◦ **Kan kommentere**: mottakeren kan legge til kommentarer i margen, men ikke endre selve teksten.\n◦ **Kan redigere**: mottakeren kan skrive, slette og samskrive i sanntid.\n\nI en Teams-kanal har medlemmer som regel redigeringstilgang automatisk via medlemskapet. Når du deler en lenke utad, velger du selv rettighet."
           },
           {
             "tittel": "Når brukes hva?",
-            "innhold": "Bruk dette som tommelfingerregel:\n\n- **Vi jobber sammen om innholdet** → Kan redigere\n- **Mottakeren skal kun ha innsyn** → Kan vise\n- **Høringsrunde eller kvalitetssikring** → Kan kommentere\n- **Mottakeren skal bidra med innspill, ikke endre** → Kan kommentere\n- **Ferdig dokument til orientering** → Kan vise\n\n**Kan kommentere** er undervurdert — særlig nyttig når mange skal gi innspill uten å forstyrre hovedteksten."
+            "innhold": "Bruk dette som tommelfingerregel:\n\n◦ **Vi jobber sammen om innholdet** → Kan redigere\n◦ **Mottakeren skal kun ha innsyn** → Kan vise\n◦ **Høringsrunde eller kvalitetssikring** → Kan kommentere\n◦ **Mottakeren skal bidra med innspill, ikke endre** → Kan kommentere\n◦ **Ferdig dokument til orientering** → Kan vise\n\n**Kan kommentere** er undervurdert — særlig nyttig når mange skal gi innspill uten å forstyrre hovedteksten."
           },
           {
             "tittel": "Tilleggskontroller for sensitive filer",
-            "innhold": "Når du klikker **Innstillinger for kobling** i delingsdialogen, får du flere kontroller:\n\n- **Blokker nedlasting** — mottakeren kan lese, men ikke laste ned. Reduserer kopier på avveie. (Skjermbilder kan tas uansett — det er en grense.)\n- **Sett utløpsdato** — tilgangen forsvinner automatisk på en gitt dato. Nyttig for innspillsrunder og eksterne samarbeid.\n- **Krev innlogging** — Velg «Personer i organisasjonen» eller «Bestemte personer» når du deler. Begge krever innlogging — videresending gir ikke uvedkommende tilgang.\n\nDisse tre er gratis sikkerhetsgevinster — bruk dem aktivt."
+            "innhold": "Når du klikker **Innstillinger for kobling** i delingsdialogen, får du flere kontroller:\n\n◦ **Blokker nedlasting**: mottakeren kan lese, men ikke laste ned. Reduserer kopier på avveie. (Skjermbilder kan tas uansett — det er en grense.)\n◦ **Sett utløpsdato**: tilgangen forsvinner automatisk på en gitt dato. Nyttig for innspillsrunder og eksterne samarbeid.\n◦ **Krev innlogging**: velg «Personer i organisasjonen» eller «Bestemte personer» når du deler. Begge krever innlogging — videresending gir ikke uvedkommende tilgang.\n\nDisse tre er gratis sikkerhetsgevinster — bruk dem aktivt."
           },
           {
             "tittel": "Den farligste delingstypen — «hvem som helst med lenken»",
-            "innhold": "Når du deler en fil, kan du velge **«Hvem som helst med lenken»**. Da fungerer lenken for alle som får den — også de som videresender den.\n\n**Unngå dette internt.** Du mister oversikt over hvem som har tilgang, og lenken kan spre seg uten kontroll.\n\nVelg i stedet:\n\n- **Personer i organisasjonen** — alle innloggede brukere i organisasjonen\n- **Bestemte personer** — navngitte mottakere\n- **Personer med eksisterende tilgang** — kun de som allerede er med i teamet eller kanalen\n\n*Resultatet: Du vet hvem som ser hva, og kan trekke tilbake tilgang når noe endrer seg.*"
+            "innhold": "Når du deler en fil, kan du velge **«Hvem som helst med lenken»**. Da fungerer lenken for alle som får den — også de som videresender den.\n\n**Unngå dette internt.** Du mister oversikt over hvem som har tilgang, og lenken kan spre seg uten kontroll.\n\nVelg i stedet:\n\n◦ **Personer i organisasjonen**: alle innloggede brukere i organisasjonen\n◦ **Bestemte personer**: navngitte mottakere\n◦ **Personer med eksisterende tilgang**: kun de som allerede er med i teamet eller kanalen\n\n*Resultatet: Du vet hvem som ser hva, og kan trekke tilbake tilgang når noe endrer seg.*"
           },
           {
             "tittel": "Del på riktig sted — ikke bare med riktig rettighet",
-            "innhold": "Husk at rettigheten kun er én del av god deling. Det viktigste er **hvor filen ligger**:\n\n- Skal flere bruke filen jevnlig? Den hører hjemme i en **Teams-kanal**.\n- Er det et engangstilfelle eller midlertidig innspill? Da kan **OneDrive-deling** med navngitt person fungere.\n- Skal hele organisasjonen ha innsyn? Bruk en **SharePoint-side** eller hub.\n\nFlytt filen før du deler den. Da følger tilgangen jobben — ikke deg som person."
+            "innhold": "Husk at rettigheten kun er én del av god deling. Det viktigste er **hvor filen ligger**:\n\n◦ Skal flere bruke filen jevnlig? Den hører hjemme i en **Teams-kanal**.\n◦ Er det et engangstilfelle eller midlertidig innspill? Da kan **OneDrive-deling** med navngitt person fungere.\n◦ Skal hele organisasjonen ha innsyn? Bruk en **SharePoint-side** eller hub.\n\nFlytt filen før du deler den. Da følger tilgangen jobben — ikke deg som person."
           }
         ],
         "relaterte": [
@@ -408,7 +408,7 @@
       {
         "id": "versjonshistorikk",
         "tittel": "Finn tilbake til en tidligere versjon",
-        "ingress": "M365 lagrer automatisk alle versjoner av dokumentene dine — full notoritet over hva som er endret, når og av hvem. Du kan alltid rulle tilbake.",
+        "ingress": "M365 lagrer hver versjon automatisk — du ser hvem som endret hva, når, og kan rulle tilbake.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "pa-tvers",
         "tags": [
@@ -462,31 +462,31 @@
         "steg": [
           {
             "tittel": "Når bruker du Clipchamp?",
-            "innhold": "Bruk Clipchamp når du skal:\n\n- **Ta opp en kort presentasjon** eller forklaring som kollegaer kan se på i sitt eget tempo\n- **Redigere et møteopptak** — fjerne stille perioder, klippe ut det viktige\n- **Lage en velkomstvideo** for nye ansatte\n- **Dele en demonstrasjon** av en prosess eller et verktøy\n- **Spille av video** som ligger i SharePoint eller OneDrive\n\nClipchamp er for video som skal lagres, deles og spilles av flere ganger. Til direkte møter, bruk Teams."
+            "innhold": "Bruk Clipchamp når du skal:\n\n◦ **Ta opp en kort presentasjon** eller forklaring som kollegaer kan se på i sitt eget tempo\n◦ **Redigere et møteopptak**: fjerne stille perioder, klippe ut det viktige\n◦ **Lage en velkomstvideo** for nye ansatte\n◦ **Dele en demonstrasjon** av en prosess eller et verktøy\n◦ **Spille av video** som ligger i SharePoint eller OneDrive\n\nClipchamp er for video som skal lagres, deles og spilles av flere ganger. Til direkte møter, bruk Teams."
           },
           {
             "tittel": "Åpne Clipchamp",
-            "innhold": "To veier inn:\n\n- **Teams** — legg Clipchamp til som app i venstremenyen\n- **OneDrive** eller **SharePoint** — klikk på en video for å spille av med Clipchamp-spilleren."
+            "innhold": "To veier inn:\n\n◦ **Teams**: legg Clipchamp til som app i venstremenyen\n◦ **OneDrive** eller **SharePoint** — klikk på en video for å spille av med Clipchamp-spilleren."
           },
           {
             "tittel": "Ta opp skjerm, kamera eller stemme",
-            "innhold": "1. Klikk **Opprett en ny video** → **Spill inn**\n2. Velg hva du vil ta opp:\n   - **Skjerm** — hele skjermen, ett vindu eller en fane\n   - **Kamera** — bare deg selv\n   - **Skjerm + kamera** — skjermen med deg i et hjørne\n   - **Bare lyd** — for podkast eller lydforklaring\n3. Klikk **Start opptak**, gjør det du skal, og avslutt med **Stopp**\n\nOpptaket legges automatisk inn i Clipchamp-redigeringen."
+            "innhold": "1. Klikk **Opprett en ny video** → **Spill inn**\n2. Velg hva du vil ta opp:\n   ◦ **Skjerm**: hele skjermen, ett vindu eller en fane\n   ◦ **Kamera**: bare deg selv\n   ◦ **Skjerm + kamera**: skjermen med deg i et hjørne\n   ◦ **Bare lyd**: for podkast eller lydforklaring\n3. Klikk **Start opptak**, gjør det du skal, og avslutt med **Stopp**\n\nOpptaket legges automatisk inn i Clipchamp-redigeringen."
           },
           {
             "tittel": "Rediger videoen",
-            "innhold": "I redigeringen kan du:\n\n- **Klippe** vekk det du ikke trenger\n- **Sette sammen flere klipp** på tidslinjen\n- **Legge til tekst, bilder og overganger** med ferdige maler\n- **Bruke KI-effekter** — tekst-til-tale, automatiske undertekster og bakgrunnsfjerning\n- **Trim transkripsjonen** — fjern et avsnitt fra transkripsjonen, så fjernes den tilhørende videodelen automatisk\n\n*Lagre underveis — Clipchamp lagrer ikke automatisk i alle tilfeller.*"
+            "innhold": "I redigeringen kan du:\n\n◦ **Klippe** vekk det du ikke trenger\n◦ **Sette sammen flere klipp** på tidslinjen\n◦ **Legge til tekst, bilder og overganger** med ferdige maler\n◦ **Bruke KI-effekter**: tekst-til-tale, automatiske undertekster og bakgrunnsfjerning\n◦ **Trim transkripsjonen**: fjern et avsnitt fra transkripsjonen, så fjernes den tilhørende videodelen automatisk\n\n*Lagre underveis — Clipchamp lagrer ikke automatisk i alle tilfeller.*"
           },
           {
             "tittel": "Transkripsjon, kapitler og søk",
-            "innhold": "For hver video Clipchamp behandler, får du:\n\n- **Automatisk transkripsjon** — det som blir sagt i videoen, som tekst\n- **Kapittelinndeling** — videoen deles automatisk i seksjoner som er enklere å navigere i\n- **Søk i videoinnhold** — søk på et ord, og hopp rett til det punktet i videoen der det blir sagt\n\nTranskripsjonen kan lastes ned, redigeres eller brukes til å lage en oppsummering."
+            "innhold": "For hver video Clipchamp behandler, får du:\n\n◦ **Automatisk transkripsjon**: det som blir sagt i videoen, som tekst\n◦ **Kapittelinndeling**: videoen deles automatisk i seksjoner som er enklere å navigere i\n◦ **Søk i videoinnhold**: søk på et ord, og hopp rett til det punktet i videoen der det blir sagt\n\nTranskripsjonen kan lastes ned, redigeres eller brukes til å lage en oppsummering."
           },
           {
             "tittel": "Del video og spill av i Teams, Outlook og SharePoint",
-            "innhold": "Når videoen er klar:\n\n1. Klikk **Eksporter** og velg kvalitet (vanligvis 1080p)\n2. Klikk **Lagre i OneDrive** eller **Lagre i SharePoint** — videoen får en delingslenke\n3. Lim lenken inn i Teams-chat, e-post eller en SharePoint-side\n\nMottakeren spiller av videoen direkte i Teams, Outlook eller på SharePoint-siden — uten å laste ned filen."
+            "innhold": "Når videoen er klar:\n\n1. Klikk **Eksporter** og velg kvalitet (vanligvis 1080p)\n2. Klikk **Lagre i OneDrive** eller **Lagre i SharePoint**: videoen får en delingslenke\n3. Lim lenken inn i Teams-chat, e-post eller en SharePoint-side\n\nMottakeren spiller av videoen direkte i Teams, Outlook eller på SharePoint-siden — uten å laste ned filen."
           },
           {
             "tittel": "Møteopptak fra Teams",
-            "innhold": "Når du tar opp et Teams-møte, lagres opptaket automatisk i OneDrive (for chat-møter) eller i SharePoint-kanalmappen (for kanal-møter). Opptaket spilles av i Clipchamp-spilleren med:\n\n- Full transkripsjon du kan søke i\n- Kapittelinndeling\n- Mulighet for å klippe ut og dele kortere snutter\n\n*Du kan klippe et 90-minutters møte ned til de tre minuttene som faktisk var viktige, og dele bare de.*"
+            "innhold": "Når du tar opp et Teams-møte, lagres opptaket automatisk i OneDrive (for chat-møter) eller i SharePoint-kanalmappen (for kanal-møter). Opptaket spilles av i Clipchamp-spilleren med:\n\n◦ Full transkripsjon du kan søke i\n◦ Kapittelinndeling\n◦ Mulighet for å klippe ut og dele kortere snutter\n\n*Du kan klippe et 90-minutters møte ned til de tre minuttene som faktisk var viktige, og dele bare de.*"
           },
           {
             "tittel": "Hva med personvern?",
@@ -508,7 +508,7 @@
       {
         "id": "copilot-chat-inkludert",
         "tittel": "Slik bruker du Copilot Chat",
-        "ingress": "Copilot Chat er KI-chatten for skriving, oppsummering og søk i organisasjonens innhold — inkludert i M365-abonnementet og tilgjengelig i Teams, Outlook, Edge og som egen app.",
+        "ingress": "KI-chatten for skriving, oppsummering og søk — inkludert i M365 og tilgjengelig i Teams, Outlook og Edge.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
@@ -519,15 +519,15 @@
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Flere veier inn:\n\n- **Teams** — klikk Copilot-ikonet i venstremenyen\n- **Outlook** — Copilot-knappen i båndmenyen\n- **Edge** — Copilot-ikonet til høyre i adressefeltet\n- **Microsoft 365 Copilot-appen** — egen app på mobil og PC\n- **m365copilot.com** — i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger."
+            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ **m365copilot.com**: i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger."
           },
           {
             "tittel": "Nett-modus — søk på internett",
-            "innhold": "I **Nett-modus** søker Copilot Chat på internett og gir deg oppdaterte svar med kildehenvisninger. Bruk det til:\n\n- Finne fakta, lover og regelverk\n- Få sammendrag av fagstoff\n- Undersøke tema du ikke kjenner fra før\n\nKopier gjerne inn tekst fra nettsider og be Copilot oppsummere eller forklare.\n\n*Lim ikke inn sensitive personopplysninger eller intern informasjon i Nett-modus — bytt til Jobb-modus.*"
+            "innhold": "I **Nett-modus** søker Copilot Chat på internett og gir deg oppdaterte svar med kildehenvisninger. Bruk det til:\n\n◦ Finne fakta, lover og regelverk\n◦ Få sammendrag av fagstoff\n◦ Undersøke tema du ikke kjenner fra før\n\nKopier gjerne inn tekst fra nettsider og be Copilot oppsummere eller forklare.\n\n*Lim ikke inn sensitive personopplysninger eller intern informasjon i Nett-modus — bytt til Jobb-modus.*"
           },
           {
             "tittel": "Jobb-modus — søk i organisasjonens innhold",
-            "innhold": "Bytt til **Jobb-modus** for å søke i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler — det du selv har tilgang til.\n\nEksempler:\n- «Finn referat fra siste ledermøte»\n- «Hva sier rutinen for innkjøp?»\n- «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nI Jobb-modus ligger data innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Husk: prompts og svar i Jobb-modus kan være journalpliktige saksdokumenter — særlig når du bruker Copilot i saksbehandling.*"
+            "innhold": "Bytt til **Jobb-modus** for å søke i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler — det du selv har tilgang til.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nI Jobb-modus ligger data innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Husk: prompts og svar i Jobb-modus kan være journalpliktige saksdokumenter — særlig når du bruker Copilot i saksbehandling.*"
           },
           {
             "tittel": "Last opp filer og still spørsmål",
@@ -535,7 +535,7 @@
           },
           {
             "tittel": "Skriv, formuler og bryne deg",
-            "innhold": "Copilot Chat er et godt skriveverktøy uansett modus:\n\n- Utkast til e-post, notat eller saksframlegg\n- Tekst omskrevet til **klarspråk**\n- Brainstorming av løsninger og argumenter\n- Oversetting mellom norsk og andre språk\n- Forklare et fagbegrep enkelt\n\nLim inn din egen tekst og si hva du vil Copilot skal gjøre med den. Vær gjerne konkret om tone, lengde og målgruppe."
+            "innhold": "Copilot Chat er et godt skriveverktøy uansett modus:\n\n◦ Utkast til e-post, notat eller saksframlegg\n◦ Tekst omskrevet til **klarspråk**\n◦ Brainstorming av løsninger og argumenter\n◦ Oversetting mellom norsk og andre språk\n◦ Forklare et fagbegrep enkelt\n\nLim inn din egen tekst og si hva du vil Copilot skal gjøre med den. Vær gjerne konkret om tone, lengde og målgruppe."
           }
         ],
         "relaterte": [
@@ -546,7 +546,7 @@
       {
         "id": "copilot-studio-for-teams-bygge-chatbot",
         "tittel": "Slik bygger du en chatbot med Copilot Studio",
-        "ingress": "Du kan lage en regelbasert chatbot for ditt eget team — uten å programmere. Du bygger den i Copilot Studio-nettappen og publiserer den til en Teams-kanal eller chat. Slik gjør du det.",
+        "ingress": "Lag en regelbasert chatbot for teamet ditt uten å programmere — bygd i Copilot Studio, publisert i Teams.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
@@ -560,7 +560,7 @@
         "steg": [
           {
             "tittel": "Når passer Copilot Studio for Teams?",
-            "innhold": "Bruk Copilot Studio for Teams når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen — for eksempel:\n\n- **HR-FAQ** — åpningstider, fridager, sykemelding\n- **IT-helpdesk** — tilbakestille passord, melde feil, bestille utstyr\n- **Onboarding** — gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter — bruk Copilot Chat i Jobb-modus i stedet."
+            "innhold": "Bruk Copilot Studio for Teams når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen — for eksempel:\n\n◦ **HR-FAQ**: åpningstider, fridager, sykemelding\n◦ **IT-helpdesk**: tilbakestille passord, melde feil, bestille utstyr\n◦ **Onboarding**: gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter — bruk Copilot Chat i Jobb-modus i stedet."
           },
           {
             "tittel": "Åpne Copilot Studio og velg team",
@@ -576,7 +576,7 @@
           },
           {
             "tittel": "Definer samtaleflyten",
-            "innhold": "Bygg samtalen som en serie noder under utløseren:\n\n- **Send en melding** — chatbotten svarer\n- **Still et spørsmål** — chatbotten ber om mer informasjon, gjerne med valg som «Heltidsansatt» eller «Deltidsansatt»\n- **Forgrening** — ulik flyt avhengig av hva brukeren svarte\n\nLagre svaret som en **variabel** (for eksempel `Ansattype`) så du kan bruke det senere i samtalen — eller la det styre hvilken gren samtalen følger."
+            "innhold": "Bygg samtalen som en serie noder under utløseren:\n\n◦ **Send en melding**: chatbotten svarer\n◦ **Still et spørsmål**: chatbotten ber om mer informasjon, gjerne med valg som «Heltidsansatt» eller «Deltidsansatt»\n◦ **Forgrening**: ulik flyt avhengig av hva brukeren svarte\n\nLagre svaret som en **variabel** (for eksempel `Ansattype`) så du kan bruke det senere i samtalen — eller la det styre hvilken gren samtalen følger."
           },
           {
             "tittel": "Test chatbotten mens du bygger",
@@ -592,7 +592,7 @@
           },
           {
             "tittel": "Dette krever tillegg",
-            "innhold": "Chatbotten du bygger via Teams-eierskapet har disse rammene:\n\n- **Regelbasert** — den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n- **Bare i Teams** — kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n- **Lagring i Dataverse for Teams** — ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller større datamengder kreves Copilot Studio som tillegg — eller en Microsoft 365 Copilot-lisens, som siden slutten av 2025 inkluderer fullt Copilot Studio for interne, lisensierte brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Du bygger nye på copilotstudio.microsoft.com.*"
+            "innhold": "Chatbotten du bygger via Teams-eierskapet har disse rammene:\n\n◦ **Regelbasert**: den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller større datamengder kreves Copilot Studio som tillegg — eller en Microsoft 365 Copilot-lisens, som siden slutten av 2025 inkluderer fullt Copilot Studio for interne, lisensierte brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Du bygger nye på copilotstudio.microsoft.com.*"
           }
         ],
         "relaterte": [
@@ -618,43 +618,43 @@
         "steg": [
           {
             "tittel": "I Word: skriv utkast, omskriv og oppsummer",
-            "innhold": "Copilot i Word kan:\n\n- **Skrive et utkast** fra en kort prompt eller fra filer du peker på\n- **Omskrive** et avsnitt — kortere, mer formelt eller på klarspråk\n- **Oppsummere** et langt dokument til hovedpunkter\n- **Foreslå forbedringer** på struktur og argumentasjon\n\nEditor med klarspråk, tone og inkluderende språk er fortsatt med — Copilot legger seg på toppen."
+            "innhold": "Copilot i Word kan:\n\n◦ **Skrive et utkast** fra en kort prompt eller fra filer du peker på\n◦ **Omskrive** et avsnitt — kortere, mer formelt eller på klarspråk\n◦ **Oppsummere** et langt dokument til hovedpunkter\n◦ **Foreslå forbedringer** på struktur og argumentasjon\n\nEditor med klarspråk, tone og inkluderende språk er fortsatt med — Copilot legger seg på toppen."
           },
           {
             "tittel": "I Excel: avansert analyse med Python",
-            "innhold": "Det største nye i Excel er **Copilot med Python**. Du beskriver analysen i klartekst, og Copilot kjører Python under panseret — med pandas, scikit-learn og matplotlib.\n\nDet låser opp:\n\n- **Prognoser** — tidsserier og fremskrivninger\n- **Klyngeanalyse** — gruppere observasjoner som hører sammen\n- **Statistiske tester og klassifisering**\n- **Avanserte diagrammer** som ikke finnes i Excel alene — boksplott, nettverksgrafer og par-plott\n\nDu trenger ikke kunne Python selv — Copilot skriver koden basert på det du spør om."
+            "innhold": "Det største nye i Excel er **Copilot med Python**. Du beskriver analysen i klartekst, og Copilot kjører Python under panseret — med pandas, scikit-learn og matplotlib.\n\nDet låser opp:\n\n◦ **Prognoser**: tidsserier og fremskrivninger\n◦ **Klyngeanalyse**: gruppere observasjoner som hører sammen\n◦ **Statistiske tester og klassifisering**\n◦ **Avanserte diagrammer** som ikke finnes i Excel alene — boksplott, nettverksgrafer og par-plott\n\nDu trenger ikke kunne Python selv — Copilot skriver koden basert på det du spør om."
           },
           {
             "tittel": "I PowerPoint: fra Word-dokument til presentasjon",
-            "innhold": "Copilot i PowerPoint kan:\n\n- **Lage en presentasjon** fra et Word-dokument du peker på\n- **Lage et utkast** fra en kort beskrivelse — med struktur og bilder\n- **Omformulere** et lysbilde — kortere eller mer pedagogisk\n- **Foreslå** layout og fortelling\n\nDesigner og Speaker Coach er fortsatt med — Copilot legger seg på toppen av det visuelle håndverket."
+            "innhold": "Copilot i PowerPoint kan:\n\n◦ **Lage en presentasjon** fra et Word-dokument du peker på\n◦ **Lage et utkast** fra en kort beskrivelse — med struktur og bilder\n◦ **Omformulere** et lysbilde — kortere eller mer pedagogisk\n◦ **Foreslå** layout og fortelling\n\nDesigner og Speaker Coach er fortsatt med — Copilot legger seg på toppen av det visuelle håndverket."
           },
           {
             "tittel": "I Outlook: hjelp med innboksen og kalenderen",
-            "innhold": "Copilot i Outlook tar over mye av rutinearbeidet:\n\n- **Prioritering** — løfter frem e-post som krever svar\n- **Utkast til svar** — Copilot foreslår, du justerer før du sender\n- **Foreslåtte regler** — Copilot ser mønstre og foreslår regler som rydder automatisk\n- **Møtesammendrag** etter Teams-møter — handlingspunkter går rett til To Do og Planner\n- **Smartere møteplanlegging** — foreslår tidspunkter basert på tidligere oppmøte og arbeidssted\n- **Agent-modus** — Copilot kan håndtere lengre kjeder av e-postoppgaver selvstendig, uten at du følger med på hvert steg"
+            "innhold": "Copilot i Outlook tar over mye av rutinearbeidet:\n\n◦ **Prioritering**: løfter frem e-post som krever svar\n◦ **Utkast til svar**: Copilot foreslår, du justerer før du sender\n◦ **Foreslåtte regler**: Copilot ser mønstre og foreslår regler som rydder automatisk\n◦ **Møtesammendrag** etter Teams-møter — handlingspunkter går rett til To Do og Planner\n◦ **Smartere møteplanlegging**: foreslår tidspunkter basert på tidligere oppmøte og arbeidssted\n◦ **Agent-modus**: Copilot kan håndtere lengre kjeder av e-postoppgaver selvstendig, uten at du følger med på hvert steg"
           },
           {
             "tittel": "I Teams-møter: Facilitator tar notater og holder agenda",
-            "innhold": "**Facilitator** er en Copilot-agent du kan legge til i et Teams-møte. Den:\n\n- **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n- **Holder agendaen** og minner om hvor mye tid som er igjen\n- **Henter beslutninger og handlingspunkter** og lagrer dem i Loop\n- **Svarer på spørsmål** uten å avbryte flyten\n- **Sender en høflig påminnelse** i chat hvis en invitert deltaker ikke har dukket opp etter at navnet er nevnt to ganger\n\nEtter møtet legger Copilot møtesammendraget med handlingspunkter rett i To Do og Planner — du slipper å taste dem inn manuelt."
+            "innhold": "**Facilitator** er en Copilot-agent du kan legge til i et Teams-møte. Den:\n\n◦ **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n◦ **Holder agendaen** og minner om hvor mye tid som er igjen\n◦ **Henter beslutninger og handlingspunkter** og lagrer dem i Loop\n◦ **Svarer på spørsmål** uten å avbryte flyten\n◦ **Sender en høflig påminnelse** i chat hvis en invitert deltaker ikke har dukket opp etter at navnet er nevnt to ganger\n\nEtter møtet legger Copilot møtesammendraget med handlingspunkter rett i To Do og Planner — du slipper å taste dem inn manuelt."
           },
           {
             "tittel": "I OneNote, Whiteboard, Forms, Loop og Clipchamp",
-            "innhold": "Copilot i de øvrige appene:\n\n- **OneNote** — oppsummer en notatbok, finn igjen et tema på tvers av sider\n- **Whiteboard** — Copilot kan samle, foreslå og kategorisere ideer fra en workshop. Sammendraget legges automatisk som en Loop-komponent du kan dele.\n- **Forms** — beskriv et skjema eller en quiz i klartekst og få et utkast med spørsmål, svar og forklaringer\n- **Loop** — Copilot foreslår innhold og kan skrive utkast direkte i arbeidsrommet\n- **Clipchamp-spilleren** — be Copilot oppsummere video, hente handlingspunkter eller svare på spørsmål — både Teams-møteopptak og egne videoer"
+            "innhold": "Copilot i de øvrige appene:\n\n◦ **OneNote**: oppsummer en notatbok, finn igjen et tema på tvers av sider\n◦ **Whiteboard**: Copilot kan samle, foreslå og kategorisere ideer fra en workshop. Sammendraget legges automatisk som en Loop-komponent du kan dele.\n◦ **Forms**: beskriv et skjema eller en quiz i klartekst og få et utkast med spørsmål, svar og forklaringer\n◦ **Loop**: Copilot foreslår innhold og kan skrive utkast direkte i arbeidsrommet\n◦ **Clipchamp-spilleren**: be Copilot oppsummere video, hente handlingspunkter eller svare på spørsmål — både Teams-møteopptak og egne videoer"
           },
           {
             "tittel": "Egne flater: Pages, Notebooks og Cowork",
-            "innhold": "Microsoft 365 Copilot gir deg tre egne arbeidsflater:\n\n**Copilot Pages** — en delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer, lette dashbord og små apper bygd via Work IQ. Du kan åpne den videre i App Builder.\n\n**Copilot Notebooks** — en samling kilder du selv velger: filer, Teams-kanaler og eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork** — gi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Du mister ikke flyten mens du venter."
+            "innhold": "Microsoft 365 Copilot gir deg tre egne arbeidsflater:\n\n**Copilot Pages**: en delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer, lette dashbord og små apper bygd via Work IQ. Du kan åpne den videre i App Builder.\n\n**Copilot Notebooks**: en samling kilder du selv velger: filer, Teams-kanaler og eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork**: gi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Du mister ikke flyten mens du venter."
           },
           {
             "tittel": "Agenter: bygg, godkjenn og publiser",
-            "innhold": "Microsoft 365 Copilot gir deg **avansert Agent Builder**, med admin-godkjenning før agenten publiseres. De godkjente agentene blir tilgjengelige for hele organisasjonen i Agent Store.\n\n- I **SharePoint** kan **AI i SharePoint** bygge sider, lister og biblioteker ut fra det du beskriver i klartekst — og foreslå metadata automatisk\n- I **Planner** kan **Project Manager-agent** trekke ut beslutninger fra Teams-møtenotater og lage en tidsplan baklengs fra fristen\n- Agentene får identitet i Entra ID og logges i Purview — på lik linje med brukere\n- Avansert agent-styring (DSPM, DLP og Insider Risk Management) for agentene"
+            "innhold": "Microsoft 365 Copilot gir deg **avansert Agent Builder**, med admin-godkjenning før agenten publiseres. De godkjente agentene blir tilgjengelige for hele organisasjonen i Agent Store.\n\n◦ I **SharePoint** kan **AI i SharePoint** bygge sider, lister og biblioteker ut fra det du beskriver i klartekst — og foreslå metadata automatisk\n◦ I **Planner** kan **Project Manager-agent** trekke ut beslutninger fra Teams-møtenotater og lage en tidsplan baklengs fra fristen\n◦ Agentene får identitet i Entra ID og logges i Purview — på lik linje med brukere\n◦ Avansert agent-styring (DSPM, DLP og Insider Risk Management) for agentene"
           },
           {
             "tittel": "På tvers: når funksjonene jobber sammen",
-            "innhold": "Den virkelige gevinsten kommer når funksjonene jobber sammen:\n\n- **Møte → handling**: Facilitator tar notater, og Copilot-møtesammendraget legger handlingspunkter rett i To Do og Planner. Oppfølging skjer uten manuell etterarbeid.\n- **Word → PowerPoint**: en utredning i Word blir til et presentasjonsutkast med ett klikk\n- **Forms → Excel → innsikt**: svar fra Forms analyseres med Copilot og Python i Excel — og funnene løftes til Copilot Pages eller Power BI\n- **Notebook → utredning**: samle kildene i en Notebook, og Copilot holder seg til dem gjennom hele prosjektet\n- **SharePoint → agent**: AI i SharePoint bygger informasjonsstrukturen, agentene publiseres til Agent Store — og hele organisasjonen får dem\n- **Pages → app**: utforsk i Copilot Pages, og åpne resultatet i App Builder når du vil ha en varig versjon"
+            "innhold": "Den virkelige gevinsten kommer når funksjonene jobber sammen:\n\n◦ **Møte → handling**: facilitator tar notater, og Copilot-møtesammendraget legger handlingspunkter rett i To Do og Planner. Oppfølging skjer uten manuell etterarbeid.\n◦ **Word → PowerPoint**: en utredning i Word blir til et presentasjonsutkast med ett klikk\n◦ **Forms → Excel → innsikt**: svar fra Forms analyseres med Copilot og Python i Excel — og funnene løftes til Copilot Pages eller Power BI\n◦ **Notebook → utredning**: samle kildene i en Notebook, og Copilot holder seg til dem gjennom hele prosjektet\n◦ **SharePoint → agent**: AI i SharePoint bygger informasjonsstrukturen, agentene publiseres til Agent Store — og hele organisasjonen får dem\n◦ **Pages → app**: utforsk i Copilot Pages, og åpne resultatet i App Builder når du vil ha en varig versjon"
           },
           {
             "tittel": "Forutsetninger — kort fortalt",
-            "innhold": "For å hente ut full verdi må fire ting være på plass:\n\n- **Lisensen er tildelt** brukerne som faktisk skal bruke Copilot\n- **Tjenestene er slått på** i admin-portalen — for hver app dere vil bruke Copilot i\n- **Følsomhetsetiketter er på plass** så Copilot kan skille åpent fra begrenset innhold\n- **SharePoint og OneDrive er ryddige** — Copilot er bare så god som datagrunnlaget\n\nLær opp brukerne i å skrive gode prompter og kvalitetssikre svar — Copilot er et arbeidsverktøy, ikke en magisk knapp."
+            "innhold": "For å hente ut full verdi må fire ting være på plass:\n\n◦ **Lisensen er tildelt** brukerne som faktisk skal bruke Copilot\n◦ **Tjenestene er slått på** i admin-portalen — for hver app dere vil bruke Copilot i\n◦ **Følsomhetsetiketter er på plass** så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot er bare så god som datagrunnlaget\n\nLær opp brukerne i å skrive gode prompter og kvalitetssikre svar — Copilot er et arbeidsverktøy, ikke en magisk knapp."
           }
         ],
         "relaterte": [
@@ -695,7 +695,7 @@
           },
           {
             "tittel": "Sett opp kolonnene",
-            "innhold": "Anbefalte kolonner:\n\n- **Tittel** (kort beskrivelse)\n- **Beskrivelse** (flere linjer tekst)\n- **Prioritet** (valg: Kritisk, Høy, Middels, Lav)\n- **Status** (valg: Ny, Under arbeid, Venter, Løst, Lukket)\n- **Tildelt til** (person eller gruppe)\n- **Meldt av** (person)\n- **Innmeldt** (dato — kan settes automatisk via standardverdi)"
+            "innhold": "Anbefalte kolonner:\n\n◦ **Tittel** (kort beskrivelse)\n◦ **Beskrivelse** (flere linjer tekst)\n◦ **Prioritet** (valg: Kritisk, Høy, Middels, Lav)\n◦ **Status** (valg: Ny, Under arbeid, Venter, Løst, Lukket)\n◦ **Tildelt til** (person eller gruppe)\n◦ **Meldt av** (person)\n◦ **Innmeldt** (dato — kan settes automatisk via standardverdi)"
           },
           {
             "tittel": "Lag skjema for innmelding",
@@ -703,7 +703,7 @@
           },
           {
             "tittel": "Få varsler ved nye hendelser",
-            "innhold": "Klikk **Automatiser** → **Opprett en regel**. Vanlige regler:\n\n- *Når en hendelse opprettes med prioritet «Kritisk», varsle teamleder via e-post*\n- *Når status endres til «Løst», varsle innmelder*\n\nReglene er innebygd i Lists og krever ikke ekstra oppsett. *Mer komplekse varsler kan settes opp via Power Automate.*"
+            "innhold": "Klikk **Automatiser** → **Opprett en regel**. Vanlige regler:\n\n◦ *Når en hendelse opprettes med prioritet «Kritisk», varsle teamleder via e-post*\n◦ *Når status endres til «Løst», varsle innmelder*\n\nReglene er innebygd i Lists og krever ikke ekstra oppsett. *Mer komplekse varsler kan settes opp via Power Automate.*"
           },
           {
             "tittel": "Bruk tavlevisning for oppfølging",
@@ -742,7 +742,7 @@
           },
           {
             "tittel": "Sett opp kolonnene",
-            "innhold": "Legg til disse kolonnene via **+ Legg til kolonne**:\n\n- **Risikotittel** — Én linje med tekst (Tittel-kolonnen er allerede der)\n- **Beskrivelse** — Flere linjer tekst\n- **Sannsynlighet** — Tall (skriv inn 1–5)\n- **Konsekvens** — Tall (skriv inn 1–5)\n- **Risikoeier** — Person\n- **Status** — Valg: Identifisert / Under behandling / Lukket\n- **Tiltak** — Flere linjer tekst\n\n*Viktig: Sannsynlighet og Konsekvens må være av typen Tall, ikke Valg. Bare tallverdier kan brukes i den beregnede kolonnen.*"
+            "innhold": "Legg til disse kolonnene via **+ Legg til kolonne**:\n\n◦ **Risikotittel**: Én linje med tekst (Tittel-kolonnen er allerede der)\n◦ **Beskrivelse**: flere linjer tekst\n◦ **Sannsynlighet**: tall (skriv inn 1–5)\n◦ **Konsekvens**: tall (skriv inn 1–5)\n◦ **Risikoeier**: person\n◦ **Status**: valg: Identifisert / Under behandling / Lukket\n◦ **Tiltak**: flere linjer tekst\n\n*Viktig: Sannsynlighet og Konsekvens må være av typen Tall, ikke Valg. Bare tallverdier kan brukes i den beregnede kolonnen.*"
           },
           {
             "tittel": "Beregn risikoscore automatisk",
@@ -750,7 +750,7 @@
           },
           {
             "tittel": "Fargekod risikoene som heat-map",
-            "innhold": "Klikk på **Risikoscore**-kolonneoverskriften → **Kolonneinnstillinger** → **Formater denne kolonnen**. Velg betinget formatering og sett:\n\n- **Rød** for score 15 og over\n- **Gul** for score 8–14\n- **Grønn** for score under 8\n\nRegisteret blir umiddelbart lettleselig — du ser prioriterte risikoer med ett blikk."
+            "innhold": "Klikk på **Risikoscore**-kolonneoverskriften → **Kolonneinnstillinger** → **Formater denne kolonnen**. Velg betinget formatering og sett:\n\n◦ **Rød** for score 15 og over\n◦ **Gul** for score 8–14\n◦ **Grønn** for score under 8\n\nRegisteret blir umiddelbart lettleselig — du ser prioriterte risikoer med ett blikk."
           },
           {
             "tittel": "Lag tavlevisning for kategorisering",
@@ -808,7 +808,7 @@
           },
           {
             "tittel": "Når Outlook for the web ikke holder — bruk Outlook på PC",
-            "innhold": "Outlook er ikke innebygd i Teams — det er en egen app som ligger ved siden av. Outlook for the web (i Edge) dekker daglig e-post og kalender, men skrivebordsversjonen på PC har noen funksjoner som ikke finnes eller fungerer dårligere i nettleseren:\n\n- **Søkemapper** — virtuelle mapper basert på kriterier (store e-postmeldinger, gammel e-post, fra avsender)\n- **Regler** — mer omfattende oppsett med flere steg og betingelser\n- **Delegering** — gi en kollega tilgang til innboks eller kalender på dine vegne\n- **Online Archive** — eldre e-post flyttet til arkivlageret\n- **Hurtigtrinn** — knapper for repeterte oppgaver med hurtigtast\n- **Avansert søk** — flere filtre og kombinasjoner\n\nDu åpner skrivebordsversjonen via **Start-menyen** eller **Søk** på oppgavelinjen, eller ved å feste **Outlook** der. Bruker du Teams som hovedflate, kan du fortsatt høyreklikke en e-post i Outlook → **Del til Teams** for å løfte tråden over i en kanal eller chat."
+            "innhold": "Outlook er ikke innebygd i Teams — det er en egen app som ligger ved siden av. Outlook for the web (i Edge) dekker daglig e-post og kalender, men skrivebordsversjonen på PC har noen funksjoner som ikke finnes eller fungerer dårligere i nettleseren:\n\n◦ **Søkemapper**: virtuelle mapper basert på kriterier (store e-postmeldinger, gammel e-post, fra avsender)\n◦ **Regler**: mer omfattende oppsett med flere steg og betingelser\n◦ **Delegering**: gi en kollega tilgang til innboks eller kalender på dine vegne\n◦ **Online Archive**: eldre e-post flyttet til arkivlageret\n◦ **Hurtigtrinn**: knapper for repeterte oppgaver med hurtigtast\n◦ **Avansert søk**: flere filtre og kombinasjoner\n\nDu åpner skrivebordsversjonen via **Start-menyen** eller **Søk** på oppgavelinjen, eller ved å feste **Outlook** der. Bruker du Teams som hovedflate, kan du fortsatt høyreklikke en e-post i Outlook → **Del til Teams** for å løfte tråden over i en kanal eller chat."
           }
         ],
         "relaterte": [
@@ -855,7 +855,7 @@
           },
           {
             "tittel": "Legg detaljer til oppgaven",
-            "innhold": "Klikk på en oppgave for å åpne detaljvisningen. Her legger du til:\n\n- **Sjekkliste** — nyttig når oppgaven består av flere deltrinn\n- **Vedlegg** — lenk til fil i Teams-kanalen (anbefalt for delte arbeidsfiler), eller fra OneDrive hvis filen fortsatt er ditt utkast\n- **Etiketter** — fargekoder for rask sortering\n- **Kommentarer** — spørsmål og oppfølging knyttet til oppgaven"
+            "innhold": "Klikk på en oppgave for å åpne detaljvisningen. Her legger du til:\n\n◦ **Sjekkliste**: nyttig når oppgaven består av flere deltrinn\n◦ **Vedlegg**: lenk til fil i Teams-kanalen (anbefalt for delte arbeidsfiler), eller fra OneDrive hvis filen fortsatt er ditt utkast\n◦ **Etiketter**: fargekoder for rask sortering\n◦ **Kommentarer**: spørsmål og oppfølging knyttet til oppgaven"
           },
           {
             "tittel": "Følg fremdriften i Diagram-visning",
@@ -1002,7 +1002,7 @@
           },
           {
             "tittel": "Anbefalt sidelayout",
-            "innhold": "Bygg siden ovenfra og ned:\n\n1. **Toppseksjon (full bredde)** — Prosessnavn, kort ingress og statusinformasjon\n2. **Nøkkelinformasjon (3 kolonner)** — Prosesseier, prosessområde, gyldighetsperiode — vist via webdelen **Sideegenskaper**\n3. **Prosessdiagram (full bredde)** — Visio-diagram innebygd i siden\n4. **Prosessbeskrivelse (2 kolonner)** — Formål, omfang, roller til venstre / innganger, utganger, risiko til høyre\n5. **Relaterte ressurser** — Lenker til skjemaer, maler og tilknyttede prosesser via webdelen **Hurtigkoblinger**\n6. **Endringslogg** — Tabell med dato, versjon, endring og godkjenner"
+            "innhold": "Bygg siden ovenfra og ned:\n\n1. **Toppseksjon (full bredde)**: prosessnavn, kort ingress og statusinformasjon\n2. **Nøkkelinformasjon (3 kolonner)**: prosesseier, prosessområde, gyldighetsperiode — vist via webdelen **Sideegenskaper**\n3. **Prosessdiagram (full bredde)**: Visio-diagram innebygd i siden\n4. **Prosessbeskrivelse (2 kolonner)**: formål, omfang, roller til venstre / innganger, utganger, risiko til høyre\n5. **Relaterte ressurser**: lenker til skjemaer, maler og tilknyttede prosesser via webdelen **Hurtigkoblinger**\n6. **Endringslogg**: tabell med dato, versjon, endring og godkjenner"
           },
           {
             "tittel": "Tegn svømmebanediagrammet i Visio",
@@ -1014,7 +1014,7 @@
           },
           {
             "tittel": "Legg til metadata — riktig måte",
-            "innhold": "Metadata på siden skal **ikke** legges inn som en vanlig tabell i teksten. Strukturerte metadata gir finnbarhet, automatisering og KI-nytte — en tabell gir ingenting av dette.\n\n**Slik gjøres det riktig (krever nettstedsadministrator):**\n\n1. Be IT opprette **nettstedskolonner** på Prosessbibliotek-nettstedet:\n   - **Prosesseier** — Person\n   - **Prosessområde** — Administrerte metadata fra Term Store\n   - **Status** — Valg (Aktiv / Under revisjon / Utgått)\n   - **Siste revisjon** — Dato\n   - **Neste revisjon** — Dato\n   - **Versjon** — Tall\n\n2. Kolonnene samles i en **innholdstype** kalt «Prosessdokument» og legges til i Områdesider-biblioteket.\n\n3. Du viser dem på siden via webdelen **Sideegenskaper**.\n\n*Resultatet: Copilot kan svare på «alle aktive prosesser eiet av HR», og innholdet dukker opp i relevante Microsoft Search-resultater.*"
+            "innhold": "Metadata på siden skal **ikke** legges inn som en vanlig tabell i teksten. Strukturerte metadata gir finnbarhet, automatisering og KI-nytte — en tabell gir ingenting av dette.\n\n**Slik gjøres det riktig (krever nettstedsadministrator):**\n\n1. Be IT opprette **nettstedskolonner** på Prosessbibliotek-nettstedet:\n   ◦ **Prosesseier**: person\n   ◦ **Prosessområde**: administrerte metadata fra Term Store\n   ◦ **Status**: valg (Aktiv / Under revisjon / Utgått)\n   ◦ **Siste revisjon**: dato\n   ◦ **Neste revisjon**: dato\n   ◦ **Versjon**: tall\n\n2. Kolonnene samles i en **innholdstype** kalt «Prosessdokument» og legges til i Områdesider-biblioteket.\n\n3. Du viser dem på siden via webdelen **Sideegenskaper**.\n\n*Resultatet: Copilot kan svare på «alle aktive prosesser eiet av HR», og innholdet dukker opp i relevante Microsoft Search-resultater.*"
           },
           {
             "tittel": "Les prosessdokumentasjonen i Teams",
@@ -1062,7 +1062,7 @@
           },
           {
             "tittel": "Som ansatt — vis vaktene dine",
-            "innhold": "I Shifts ser du både dine egne vakter og hele teamets plan.\n\n- **Mine vakter** — viser kun det du selv står oppført på\n- **Gruppeplan** — viser alle på teamet, slik at du ser hvem du jobber sammen med\n- **Tilgjengelighet** — her angir du hvilke dager og tider du kan jobbe\n\nKalendervisningen kan filtreres på dag, uke eller måned. Trykk på en vakt for å se detaljer som tidspunkt, lokasjon, oppgaver og notater fra leder."
+            "innhold": "I Shifts ser du både dine egne vakter og hele teamets plan.\n\n◦ **Mine vakter**: viser kun det du selv står oppført på\n◦ **Gruppeplan**: viser alle på teamet, slik at du ser hvem du jobber sammen med\n◦ **Tilgjengelighet**: her angir du hvilke dager og tider du kan jobbe\n\nKalendervisningen kan filtreres på dag, uke eller måned. Trykk på en vakt for å se detaljer som tidspunkt, lokasjon, oppgaver og notater fra leder."
           },
           {
             "tittel": "Som ansatt — be om vaktbytte",
@@ -1070,7 +1070,7 @@
           },
           {
             "tittel": "Som leder — lag og publiser en skiftplan",
-            "innhold": "Som teamleder bruker du Shifts til å lage turnusplaner for hele teamet.\n\n1. Åpne Shifts og velg riktig team\n2. Velg **Opprett ny tidsplan** og angi periode (uke, måned)\n3. Klikk på en celle i kalenderen og legg til en vakt — angi tidspunkt, lokasjon, oppgaver og eventuelle notater\n4. Gjenta for hver ansatt og hver dag\n\n**Tidsbesparende tips:**\n\n- **Importer fra Excel** — har du allerede en plan i Excel, kan den importeres direkte\n- **Kopier en tidligere uke** — bruk forrige ukes plan som mal og juster det som er nytt\n- **Bruk vaktmaler** — lagre faste vakttyper (f.eks. «Tidlig vakt», «Sen vakt», «Helgevakt») og dra dem inn i kalenderen\n\nNår planen er klar: **Publiser** den. Først da blir den synlig for de ansatte, og de får varsel."
+            "innhold": "Som teamleder bruker du Shifts til å lage turnusplaner for hele teamet.\n\n1. Åpne Shifts og velg riktig team\n2. Velg **Opprett ny tidsplan** og angi periode (uke, måned)\n3. Klikk på en celle i kalenderen og legg til en vakt — angi tidspunkt, lokasjon, oppgaver og eventuelle notater\n4. Gjenta for hver ansatt og hver dag\n\n**Tidsbesparende tips:**\n\n◦ **Importer fra Excel**: har du allerede en plan i Excel, kan den importeres direkte\n◦ **Kopier en tidligere uke**: bruk forrige ukes plan som mal og juster det som er nytt\n◦ **Bruk vaktmaler**: lagre faste vakttyper (f.eks. «Tidlig vakt», «Sen vakt», «Helgevakt») og dra dem inn i kalenderen\n\nNår planen er klar: **Publiser** den. Først da blir den synlig for de ansatte, og de får varsel."
           },
           {
             "tittel": "Som leder — godkjenn vaktbytter",
@@ -1078,7 +1078,7 @@
           },
           {
             "tittel": "Slik passer Shifts inn i Teams",
-            "innhold": "Shifts er ikke en isolert app — den henger sammen med resten av Teams.\n\n- **Chat og kanaler** — hvis du har spørsmål om en vakt, kan du chatte med kollega eller leder direkte i Teams uten å bytte app.\n- **Varsler** — alle forespørsler, godkjenninger og endringer dukker opp i Aktivitet-fanen i Teams.\n- **Mobil først** — Shifts er designet for å brukes på mobil av frontlinjearbeidere som ikke sitter ved en PC.\n\nShifts støtter også stempling inn/ut, fraværsforespørsler og timelisterapporter. Om disse funksjonene er i bruk varierer mellom organisasjoner — sjekk med leder eller IT om hvordan dere registrerer arbeidstid og fravær.\n\nFor dyptgående veiledning, søk opp **Shifts** i Microsofts hjelpesider — der finnes egne emner om opprettelse av tidsplaner, publisering og import fra Excel."
+            "innhold": "Shifts er ikke en isolert app — den henger sammen med resten av Teams.\n\n◦ **Chat og kanaler**: hvis du har spørsmål om en vakt, kan du chatte med kollega eller leder direkte i Teams uten å bytte app.\n◦ **Varsler**: alle forespørsler, godkjenninger og endringer dukker opp i Aktivitet-fanen i Teams.\n◦ **Mobil først**: shifts er designet for å brukes på mobil av frontlinjearbeidere som ikke sitter ved en PC.\n\nShifts støtter også stempling inn/ut, fraværsforespørsler og timelisterapporter. Om disse funksjonene er i bruk varierer mellom organisasjoner — sjekk med leder eller IT om hvordan dere registrerer arbeidstid og fravær.\n\nFor dyptgående veiledning, søk opp **Shifts** i Microsofts hjelpesider — der finnes egne emner om opprettelse av tidsplaner, publisering og import fra Excel."
           }
         ],
         "relaterte": [
@@ -1146,7 +1146,7 @@
           },
           {
             "tittel": "Hva eieren faktisk gjør",
-            "innhold": "Som eier har du fire hovedoppgaver:\n\n- **Hold strukturen enkel** — si nei til kanaler ingen trenger, slå sammen overlapp, gi kanaler tydelige navn.\n- **Følg med på bruk** — hvis en kanal aldri har innlegg, er den sannsynligvis unødvendig. Slett den.\n- **Styr tilgangen** — godkjenn nye medlemmer, fjern de som ikke lenger jobber med saken, vurder gjestetilgang bevisst.\n- **Forvalt livsløpet** — når prosjektet er ferdig, sørg for arkivering eller sletting. Ikke la teamet bare ligge.\n\nIngen av disse oppgavene er teknisk vanskelige. Det handler om å ta ansvaret seriøst."
+            "innhold": "Som eier har du fire hovedoppgaver:\n\n◦ **Hold strukturen enkel**: si nei til kanaler ingen trenger, slå sammen overlapp, gi kanaler tydelige navn.\n◦ **Følg med på bruk**: hvis en kanal aldri har innlegg, er den sannsynligvis unødvendig. Slett den.\n◦ **Styr tilgangen**: godkjenn nye medlemmer, fjern de som ikke lenger jobber med saken, vurder gjestetilgang bevisst.\n◦ **Forvalt livsløpet**: når prosjektet er ferdig, sørg for arkivering eller sletting. Ikke la teamet bare ligge.\n\nIngen av disse oppgavene er teknisk vanskelige. Det handler om å ta ansvaret seriøst."
           },
           {
             "tittel": "Hva hvis eieren slutter eller bytter rolle?",
@@ -1178,19 +1178,19 @@
         "steg": [
           {
             "tittel": "Standardkanal — for hele teamet",
-            "innhold": "**Standardkanal** er åpen for alle medlemmer av teamet, inkludert eventuelle gjester. Innlegg, filer og samtaler er synlige for alle som er med.\n\nBruk standardkanal når:\n\n- Innholdet angår hele teamet\n- Gjestene i teamet skal kunne følge med (f.eks. eksterne samarbeidspartnere)\n- Du ønsker maksimal åpenhet og finnbarhet\n\nDe fleste kanalene i et team bør være standardkanaler. Privatisering bør være unntaket, ikke regelen."
+            "innhold": "**Standardkanal** er åpen for alle medlemmer av teamet, inkludert eventuelle gjester. Innlegg, filer og samtaler er synlige for alle som er med.\n\nBruk standardkanal når:\n\n◦ Innholdet angår hele teamet\n◦ Gjestene i teamet skal kunne følge med (f.eks. eksterne samarbeidspartnere)\n◦ Du ønsker maksimal åpenhet og finnbarhet\n\nDe fleste kanalene i et team bør være standardkanaler. Privatisering bør være unntaket, ikke regelen."
           },
           {
             "tittel": "Privat kanal — for en undergruppe",
-            "innhold": "**Privat kanal** er kun synlig for utvalgte medlemmer av teamet. Du må legge til hver person manuelt.\n\nGjester i teamet kan også legges til privat kanal hvis det er relevant.\n\nBruk privat kanal når:\n\n- Innholdet er sensitivt og ikke skal ses av alle teammedlemmer (f.eks. budsjettforhandlinger, personalsaker)\n- En undergruppe arbeider med noe som ikke er klart for hele teamet ennå\n- Du trenger en avgrenset arbeidsflate innenfor et større team\n\nPrivate kanaler kan ikke åpnes opp i ettertid — vurder behovet før du oppretter."
+            "innhold": "**Privat kanal** er kun synlig for utvalgte medlemmer av teamet. Du må legge til hver person manuelt.\n\nGjester i teamet kan også legges til privat kanal hvis det er relevant.\n\nBruk privat kanal når:\n\n◦ Innholdet er sensitivt og ikke skal ses av alle teammedlemmer (f.eks. budsjettforhandlinger, personalsaker)\n◦ En undergruppe arbeider med noe som ikke er klart for hele teamet ennå\n◦ Du trenger en avgrenset arbeidsflate innenfor et større team\n\nPrivate kanaler kan ikke åpnes opp i ettertid — vurder behovet før du oppretter."
           },
           {
             "tittel": "Delt kanal — på tvers av team",
-            "innhold": "**Delt kanal** lar deg samarbeide med personer som ikke er medlemmer av teamet ditt — for eksempel kolleger fra andre avdelinger.\n\n*Merk: eksterne gjester kan ikke legges til delte kanaler.*\n\nDelte kanaler bruker **Entra B2B Direct Connect** — ikke gjestebrukere. Eksterne må ha en M365-/Entra-konto i en samarbeidende tenant, og IT må ha konfigurert tillit mellom tenantene.\n\nBruk delt kanal når:\n\n- Du trenger fast samarbeid med folk i andre team eller avdelinger uten å ha dem som medlemmer i teamet ditt\n- En tverrfaglig arbeidsgruppe skal ha et eget rom\n- Innholdet hører naturlig hjemme i flere team samtidig\n\nDelte kanaler reduserer behovet for å sende meldinger og dele filer mellom team."
+            "innhold": "**Delt kanal** lar deg samarbeide med personer som ikke er medlemmer av teamet ditt — for eksempel kolleger fra andre avdelinger.\n\n*Merk: eksterne gjester kan ikke legges til delte kanaler.*\n\nDelte kanaler bruker **Entra B2B Direct Connect** — ikke gjestebrukere. Eksterne må ha en M365-/Entra-konto i en samarbeidende tenant, og IT må ha konfigurert tillit mellom tenantene.\n\nBruk delt kanal når:\n\n◦ Du trenger fast samarbeid med folk i andre team eller avdelinger uten å ha dem som medlemmer i teamet ditt\n◦ En tverrfaglig arbeidsgruppe skal ha et eget rom\n◦ Innholdet hører naturlig hjemme i flere team samtidig\n\nDelte kanaler reduserer behovet for å sende meldinger og dele filer mellom team."
           },
           {
             "tittel": "Tommelfingerregel — slik velger du",
-            "innhold": "Still ett enkelt spørsmål: **hvem skal egentlig ha tilgang?**\n\n- **Hele teamet (inkl. gjester)** → Standardkanal\n- **En undergruppe i teamet** → Privat kanal\n- **Folk på tvers av team** → Delt kanal\n- **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nHvis du er i tvil, **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
+            "innhold": "Still ett enkelt spørsmål: **hvem skal egentlig ha tilgang?**\n\n◦ **Hele teamet (inkl. gjester)** → Standardkanal\n◦ **En undergruppe i teamet** → Privat kanal\n◦ **Folk på tvers av team** → Delt kanal\n◦ **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nHvis du er i tvil, **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
           }
         ],
         "oppdatert": "Oppdatert: 20.05.26",
@@ -1214,15 +1214,15 @@
         "steg": [
           {
             "tittel": "Mapper er for orden — ikke samarbeid",
-            "innhold": "Hvis noe krever samtale, oppfølging eller løpende arbeid — bruk en **kanal**, ikke en ny mappe. Mapper er passive: de samler filer, men driver ikke arbeid fremover.\n\nFør du oppretter en mappe, spør deg selv:\n\n- Skal flere personer jobbe sammen om innholdet over tid? → **Kanal**\n- Skal vi finne dette igjen senere som referanse? → **Mappe**\n\nDenne distinksjonen alene løser de fleste struktur-spørsmål."
+            "innhold": "Hvis noe krever samtale, oppfølging eller løpende arbeid — bruk en **kanal**, ikke en ny mappe. Mapper er passive: de samler filer, men driver ikke arbeid fremover.\n\nFør du oppretter en mappe, spør deg selv:\n\n◦ Skal flere personer jobbe sammen om innholdet over tid? → **Kanal**\n◦ Skal vi finne dette igjen senere som referanse? → **Mappe**\n\nDenne distinksjonen alene løser de fleste struktur-spørsmål."
           },
           {
             "tittel": "Maks 2–3 nivåer per kanal",
-            "innhold": "Dype mappestrukturer er en arv fra filservertida. I Teams gjør den filer vanskelige å finne — både for folk og for søk/Copilot.\n\n**Hold deg til 2–3 nivåer:**\n\n- Kanal\n  - Mappe (nivå 1)\n    - Undermappe (nivå 2 — sjelden nødvendig)\n\nHvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet egentlig hører hjemme i en annen kanal — eller at strukturen kan flates ut."
+            "innhold": "Dype mappestrukturer er en arv fra filservertida. I Teams gjør den filer vanskelige å finne — både for folk og for søk/Copilot.\n\n**Hold deg til 2–3 nivåer:**\n\n◦ Kanal\n  ◦ Mappe (nivå 1)\n    ◦ Undermappe (nivå 2 — sjelden nødvendig)\n\nHvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet egentlig hører hjemme i en annen kanal — eller at strukturen kan flates ut."
           },
           {
             "tittel": "Unngå mapper for år, personer og versjoner",
-            "innhold": "Disse mappetypene er klassiske feller:\n\n- **«2024», «2025», «2026»** — år gir falsk struktur. Et dokument fra desember 2024 som fortsatt er aktivt i januar 2025 må ikke flyttes manuelt. Bruk metadata eller datofelt i stedet.\n- **«Anna», «Per», «Kari»** — mapper for personer skaper personavhengighet. Når Anna slutter, blir mappa et mysterium.\n- **«Versjon 1», «Versjon 2», «Endelig»** — versjonering er innebygd i SharePoint. Du trenger ikke mappe per versjon.\n\nStrukturer i stedet etter **arbeid**: hva handler dette om, hvilken prosess, hvilken sak."
+            "innhold": "Disse mappetypene er klassiske feller:\n\n◦ **«2024», «2025», «2026»**: år gir falsk struktur. Et dokument fra desember 2024 som fortsatt er aktivt i januar 2025 må ikke flyttes manuelt. Bruk metadata eller datofelt i stedet.\n◦ **«Anna», «Per», «Kari»**: mapper for personer skaper personavhengighet. Når Anna slutter, blir mappa et mysterium.\n◦ **«Versjon 1», «Versjon 2», «Endelig»**: versjonering er innebygd i SharePoint. Du trenger ikke mappe per versjon.\n\nStrukturer i stedet etter **arbeid**: hva handler dette om, hvilken prosess, hvilken sak."
           },
           {
             "tittel": "30-sekunders-testen før ny mappe",
@@ -1230,7 +1230,7 @@
           },
           {
             "tittel": "Mappenavn som varer",
-            "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n- «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n- «Nye», «Gamle», «Kommer», «Til vurdering»\n- Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n- Beskriver hva som faktisk ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n- Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n- Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år — vil hen forstå hva som ligger der?"
+            "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n◦ «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n◦ «Nye», «Gamle», «Kommer», «Til vurdering»\n◦ Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n◦ Beskriver hva som faktisk ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n◦ Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n◦ Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år — vil hen forstå hva som ligger der?"
           }
         ],
         "oppdatert": "Oppdatert: 21.05.26",
@@ -1263,7 +1263,7 @@
           },
           {
             "tittel": "Del skjermen",
-            "innhold": "Klikk skjermdelingsikonet i møteverktøylinjen og velg:\n\n- **Hele skjermen** — viser alt\n- **Ett vindu** — kun det programmet du velger\n- **En PowerPoint-presentasjon** — deltakerne kan bla selv\n\n*Del ett vindu fremfor hele skjermen — da slipper du at private varsler vises til alle.*"
+            "innhold": "Klikk skjermdelingsikonet i møteverktøylinjen og velg:\n\n◦ **Hele skjermen**: viser alt\n◦ **Ett vindu**: kun det programmet du velger\n◦ **En PowerPoint-presentasjon**: deltakerne kan bla selv\n\n*Del ett vindu fremfor hele skjermen — da slipper du at private varsler vises til alle.*"
           },
           {
             "tittel": "Bruk møtenotater — nå som Loop-side",
@@ -1284,7 +1284,7 @@
       {
         "id": "teams-tips-og-triks",
         "tittel": "12 Teams-funksjoner som hjelper deg",
-        "ingress": "Microsoft Teams får stadig flere funksjoner, og noen er gull verdt i hverdagen. Her er tolv som rydder hverdagen og gjør deg raskere — fra utkastsamler og møtetimer til Enter-tast-innstilling og hurtignavigasjon med Ctrl+G.",
+        "ingress": "Tolv funksjoner som rydder hverdagen og gjør deg raskere i Teams — fra utkastsamler til Ctrl+G.",
         "kategori": "teams",
         "tags": [
           "teams",
@@ -1354,7 +1354,7 @@
       {
         "id": "kanal-arkivering",
         "tittel": "Når prosjektet er ferdig — arkiver eller slett kanalen",
-        "ingress": "En kanal som har gjort jobben sin, bør fjernes. Slik avvikler du en kanal som var dedikert til ett prosjekt, én anskaffelse eller en annen tidsavgrenset arbeidsstrøm — uten å miste det som har varig verdi.",
+        "ingress": "Slik avvikler du en kanal som har gjort jobben sin — uten å miste det som har varig verdi.",
         "oppdatert": "Oppdatert: 21.05.26",
         "kategori": "teams",
         "tags": [
@@ -1367,23 +1367,23 @@
         "steg": [
           {
             "tittel": "Tre faser i kanalens livsløp",
-            "innhold": "Hver kanal går gjennom tre tydelige faser:\n\n1. **Aktiv** — samtaler, samskriving og møter pågår. Filer endres ofte.\n2. **Ferdig** — hovedarbeidet er gjort. Sluttproduktene er levert. Noen oppfølginger og henvisninger gjenstår.\n3. **Avsluttet** — alt er ferdig. Kanalen er arkivert eller slettet, og sluttproduktene er flyttet til riktig arkivsystem.\n\nMange kanaler blir stående i fase 2 i månedsvis fordi ingen tar beslutningen om å gå videre. Eieren har ansvar for å lukke kanalen når jobben er gjort."
+            "innhold": "Hver kanal går gjennom tre tydelige faser:\n\n1. **Aktiv**: samtaler, samskriving og møter pågår. Filer endres ofte.\n2. **Ferdig**: hovedarbeidet er gjort. Sluttproduktene er levert. Noen oppfølginger og henvisninger gjenstår.\n3. **Avsluttet**: alt er ferdig. Kanalen er arkivert eller slettet, og sluttproduktene er flyttet til riktig arkivsystem.\n\nMange kanaler blir stående i fase 2 i månedsvis fordi ingen tar beslutningen om å gå videre. Eieren har ansvar for å lukke kanalen når jobben er gjort."
           },
           {
             "tittel": "Rydding før avslutning",
-            "innhold": "Før du arkiverer eller sletter, gjør en rydderunde:\n\n- **Slett utkast og kladder** som ikke ble brukt\n- **Slett duplikater** og gamle versjoner — versjonshistorikken ivaretar dem uansett\n- **Behold sluttproduktene** — rapporter, leveranser, beslutningsgrunnlag, kontrakter\n- **Slett midlertidige filer** — skjermbilder, råtekst, møtebilder\n\nMålet er at det som gjenstår, faktisk har varig verdi."
+            "innhold": "Før du arkiverer eller sletter, gjør en rydderunde:\n\n◦ **Slett utkast og kladder** som ikke ble brukt\n◦ **Slett duplikater** og gamle versjoner — versjonshistorikken ivaretar dem uansett\n◦ **Behold sluttproduktene**: rapporter, leveranser, beslutningsgrunnlag, kontrakter\n◦ **Slett midlertidige filer**: skjermbilder, råtekst, møtebilder\n\nMålet er at det som gjenstår, faktisk har varig verdi."
           },
           {
             "tittel": "Flytt sluttproduktene til riktig sted",
-            "innhold": "*Sluttproduktene hører hjemme i et arkivsystem — ikke i en arkivert kanal.*\n\nTypiske destinasjoner:\n\n- **Arkivsystem** (f. eks Acos WebSak) — for offisielle dokumenter, vedtak, beslutningsgrunnlag, kontrakter\n- **SharePoint-bibliotek** — for prosessdokumentasjon som skal leve videre som referanse\n- **Fagsystem** — for innhold som hører hjemme der\n\nIkke la sluttproduktene bli liggende i en arkivert kanal som ingen åpner. De blir glemt og vanskelige å finne."
+            "innhold": "*Sluttproduktene hører hjemme i et arkivsystem — ikke i en arkivert kanal.*\n\nTypiske destinasjoner:\n\n◦ **Arkivsystem** (f. eks Acos WebSak) — for offisielle dokumenter, vedtak, beslutningsgrunnlag, kontrakter\n◦ **SharePoint-bibliotek**: for prosessdokumentasjon som skal leve videre som referanse\n◦ **Fagsystem**: for innhold som hører hjemme der\n\nIkke la sluttproduktene bli liggende i en arkivert kanal som ingen åpner. De blir glemt og vanskelige å finne."
           },
           {
             "tittel": "Arkiver eller slett — slik velger du",
-            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg.\n\n**Arkiver kanalen** når:\n\n- Det kan være behov for å se på samtaler eller filer i ettertid\n- Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n- Det er regulert eller revidert arbeid med dokumentasjonskrav\n\n*Arkivering låser kanalen — samtaler, faner og filer blir skrivebeskyttet, og kanalen skjules fra kanallisten. Innholdet er fortsatt finnbart, og kanalen kan gjenopprettes når som helst.*\n\n**Slett kanalen** når:\n\n- Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n- Det er åpenbart engangsarbeid uten gjenbruksverdi\n- Personvernhensyn taler for sletting\n\n*Slettet kanal kan gjenopprettes innen 30 dager. Mappen i SharePoint blir liggende uansett — slett den manuelt hvis det er nødvendig.*"
+            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg.\n\n**Arkiver kanalen** når:\n\n◦ Det kan være behov for å se på samtaler eller filer i ettertid\n◦ Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n◦ Det er regulert eller revidert arbeid med dokumentasjonskrav\n\n*Arkivering låser kanalen — samtaler, faner og filer blir skrivebeskyttet, og kanalen skjules fra kanallisten. Innholdet er fortsatt finnbart, og kanalen kan gjenopprettes når som helst.*\n\n**Slett kanalen** når:\n\n◦ Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n◦ Det er åpenbart engangsarbeid uten gjenbruksverdi\n◦ Personvernhensyn taler for sletting\n\n*Slettet kanal kan gjenopprettes innen 30 dager. Mappen i SharePoint blir liggende uansett — slett den manuelt hvis det er nødvendig.*"
           },
           {
             "tittel": "Slik gjør du det i Teams",
-            "innhold": "**Hvem kan utføre:**\n\n- **Teameier** — kan arkivere og slette alle kanaltyper i teamet\n- **Kanaleier** — kan arkivere og slette private og delte kanaler de eier\n\n**Arkiver én kanal** — pek på kanalen → tre prikker → **Arkiver kanal**. Velg om filene skal være skrivebeskyttet. *Anbefalt for ferdige prosjekter, slik at ingen endrer innholdet i ettertid.*\n\n**Arkiver flere samtidig** — **Administrer team** → fanen **Kanaler** → velg kanaler → **Arkiver**.\n\n**Gjenopprett en kanal** — **Administrer team** → **Kanaler** → utvid **Arkivert** → tre prikker → **Gjenopprett kanal**.\n\n**Slett en kanal** — pek på kanalen → tre prikker → **Slett kanal**."
+            "innhold": "**Hvem kan utføre:**\n\n◦ **Teameier**: kan arkivere og slette alle kanaltyper i teamet\n◦ **Kanaleier**: kan arkivere og slette private og delte kanaler de eier\n\n**Arkiver én kanal**: pek på kanalen → tre prikker → **Arkiver kanal**. Velg om filene skal være skrivebeskyttet. *Anbefalt for ferdige prosjekter, slik at ingen endrer innholdet i ettertid.*\n\n**Arkiver flere samtidig**: **Administrer team** → fanen **Kanaler** → velg kanaler → **Arkiver**.\n\n**Gjenopprett en kanal**: **Administrer team** → **Kanaler** → utvid **Arkivert** → tre prikker → **Gjenopprett kanal**.\n\n**Slett en kanal**: pek på kanalen → tre prikker → **Slett kanal**."
           }
         ],
         "relaterte": [
@@ -1413,7 +1413,7 @@
         ],
         "steg": [
           {
-            "tittel": "Hvorfor SharePoint som innholdskilde?",
+            "tittel": "Hva oppsettet gir ansatte",
             "innhold": "Viva Learning er læringsflaten i Teams. Når dere kobler den til **SharePoint**, blir organisasjonens egne dokumenter, videoer og lenker tilgjengelige for ansatte i samme grensesnitt som de allerede jobber i.\n\nFordelen: Dere bruker plattformen dere allerede har — ingen ekstra portal, ingen separate brukerkontoer. Innholdet ligger i SharePoint, tilgangen styres av M365-grupper, og finnbarheten kommer fra metadata."
           },
           {
@@ -1428,7 +1428,7 @@
           },
           {
             "tittel": "Forutsetninger",
-            "innhold": "For å sette opp SharePoint som innholdskilde trenger dere:\n\n- En **kunnskapsadministrator** (knowledge admin) — Microsoft Entra-rollen som administrerer organisasjonens læringskilder\n- En **SharePoint-administrator** eller **global administrator** — for å konfigurere SharePoint som kilde\n- Et **SharePoint-nettsted** der den sentrale listen kan opprettes (kommunikasjonsnettsted anbefales)\n- **M365-grupper** eller **e-postaktiverte sikkerhetsgrupper** for tilgangsstyring (brukerbaserte rettigheter støttes ikke)\n\nGrunnleggende Viva Learning er allerede tilgjengelig for organisasjonen. For mer enn 1 000 filer eller premium-funksjoner kreves Viva Suite eller egen Viva Learning-lisens."
+            "innhold": "For å sette opp SharePoint som innholdskilde trenger dere:\n\n◦ En **kunnskapsadministrator** (knowledge admin) — Microsoft Entra-rollen som administrerer organisasjonens læringskilder\n◦ En **SharePoint-administrator** eller **global administrator**: for å konfigurere SharePoint som kilde\n◦ Et **SharePoint-nettsted** der den sentrale listen kan opprettes (kommunikasjonsnettsted anbefales)\n◦ **M365-grupper** eller **e-postaktiverte sikkerhetsgrupper** for tilgangsstyring (brukerbaserte rettigheter støttes ikke)\n\nGrunnleggende Viva Learning er allerede tilgjengelig for organisasjonen. For mer enn 1 000 filer eller premium-funksjoner kreves Viva Suite eller egen Viva Learning-lisens."
           },
           {
             "tittel": "Steg 1 — Konfigurer SharePoint som kilde",
@@ -1456,7 +1456,7 @@
           },
           {
             "tittel": "Steg 4 — Berik med metadata for bedre finnbarhet",
-            "innhold": "Standardmetadata som tittel, opprettet av og endret-dato hentes automatisk. For bedre søk og oppdaging bør innholdseier legge til disse kolonnene i mappen:\n\n- **ContentDescription** (Flere linjer tekst) — kort beskrivelse av innholdet\n- **ContentTitle** (Flere linjer tekst) — visningstittel som overstyrer filnavnet\n- **ContentDuration** (Tall) — varighet i sekunder\n- **ContentLanguage** (Én linje med tekst) — ISO-språkkode (nb_no, en_us)\n- **ContentAuthor** (Flere linjer tekst) — forfatter eller fagansvarlig\n- **SkillTags** (Administrerte metadata) — emneord fra Term Store, flere verdier tillatt\n- **ThumbnailWebUrl** (Hyperkobling) — bilde som vises i Viva Learning (16:9 anbefales)\n\n*Viktig: kolonnenes interne navn må stemme nøyaktig med listen over for at metadataen skal vises i Viva Learning. Visningsnavnet kan tilpasses.*",
+            "innhold": "Standardmetadata som tittel, opprettet av og endret-dato hentes automatisk. For bedre søk og oppdaging bør innholdseier legge til disse kolonnene i mappen:\n\n◦ **ContentDescription** (Flere linjer tekst) — kort beskrivelse av innholdet\n◦ **ContentTitle** (Flere linjer tekst) — visningstittel som overstyrer filnavnet\n◦ **ContentDuration** (Tall) — varighet i sekunder\n◦ **ContentLanguage** (Én linje med tekst) — ISO-språkkode (nb_no, en_us)\n◦ **ContentAuthor** (Flere linjer tekst) — forfatter eller fagansvarlig\n◦ **SkillTags** (Administrerte metadata) — emneord fra Term Store, flere verdier tillatt\n◦ **ThumbnailWebUrl** (Hyperkobling) — bilde som vises i Viva Learning (16:9 anbefales)\n\n*Viktig: kolonnenes interne navn må stemme nøyaktig med listen over for at metadataen skal vises i Viva Learning. Visningsnavnet kan tilpasses.*",
             "bilde": {
               "src": "articles/viva-learning-sharepoint/07-add-column.png",
               "alt": "Skjermbilde av en SharePoint-mappe der menyvalget Legg til kolonne er valgt.",
@@ -1466,11 +1466,11 @@
           },
           {
             "tittel": "Utvid med andre opplæringskilder",
-            "innhold": "Viva Learning kan kobles til flere innholdskilder samtidig — ikke bare SharePoint:\n\n- **Microsoft Learn** og **LinkedIn Learning** — utvalgte kurs er inkludert\n- **Eksterne LMS-er** som Coursera, Pluralsight, Skillsoft, Cornerstone, EdCast, Go1, Saba og SuccessFactors\n- **Egne integrasjoner** via Microsoft Graph (Employee Learning API) for andre opplæringssystemer\n\nKunnskapsadministratoren legger til hver kilde via **Add Provider** i Viva Learning-admin. Innhold fra alle kilder vises i samme søk og kan filtreres på leverandør.\n\nVurder hvilke kilder som er aktuelle for organisasjonen, og hvilken lisens som kreves — noen LMS-integrasjoner krever Viva Suite eller egen Viva Learning-lisens."
+            "innhold": "Viva Learning kan kobles til flere innholdskilder samtidig — ikke bare SharePoint:\n\n◦ **Microsoft Learn** og **LinkedIn Learning** — utvalgte kurs er inkludert\n◦ **Eksterne LMS-er** som Coursera, Pluralsight, Skillsoft, Cornerstone, EdCast, Go1, Saba og SuccessFactors\n◦ **Egne integrasjoner** via Microsoft Graph (Employee Learning API) for andre opplæringssystemer\n\nKunnskapsadministratoren legger til hver kilde via **Add Provider** i Viva Learning-admin. Innhold fra alle kilder vises i samme søk og kan filtreres på leverandør.\n\nVurder hvilke kilder som er aktuelle for organisasjonen, og hvilken lisens som kreves — noen LMS-integrasjoner krever Viva Suite eller egen Viva Learning-lisens."
           },
           {
             "tittel": "Steg 5 — Slik finner ansatte innholdet i Teams",
-            "innhold": "Når innholdet er ingestert (innen 24 timer), kan ansatte:\n\n- Åpne **Viva Learning** i venstremenyen i Teams\n- Søke etter emne, tittel eller stikkord\n- Filtrere på språk, kilde, varighet eller emne (SkillTags)\n- Markere kurs som ferdig, lagre til senere eller dele med kolleger\n\nFor en fokusert opplevelse i en bestemt kanal: Legg Viva Learning til som **fane** i kanalen. Klikk **+** på fanelinja, søk opp **Viva Learning**, og velg en samling kurs som skal vises.\n\n*Resultatet: Hele teamet ser samme læringsmateriell på samme sted — i flyten der det daglige arbeidet skjer.*"
+            "innhold": "Når innholdet er ingestert (innen 24 timer), kan ansatte:\n\n◦ Åpne **Viva Learning** i venstremenyen i Teams\n◦ Søke etter emne, tittel eller stikkord\n◦ Filtrere på språk, kilde, varighet eller emne (SkillTags)\n◦ Markere kurs som ferdig, lagre til senere eller dele med kolleger\n\nFor en fokusert opplevelse i en bestemt kanal: Legg Viva Learning til som **fane** i kanalen. Klikk **+** på fanelinja, søk opp **Viva Learning**, og velg en samling kurs som skal vises.\n\n*Resultatet: Hele teamet ser samme læringsmateriell på samme sted — i flyten der det daglige arbeidet skjer.*"
           }
         ],
         "oppdatert": "Oppdatert: 20.05.26",
