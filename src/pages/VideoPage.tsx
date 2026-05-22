@@ -1,10 +1,12 @@
 import { use, useEffect, useRef } from 'react'
 import { useParams, Navigate } from 'react-router-dom'
 import { fetchVideos } from '../data/loader'
+import { useMergedVideos } from '../auth/merge'
 import { parseVideoSource } from '../data/video-source'
 
 export function VideoPage() {
-  const videos = use(fetchVideos())
+  const publicVideos = use(fetchVideos())
+  const videos = useMergedVideos(publicVideos)
   const { videoId } = useParams()
   const base = import.meta.env.BASE_URL
   const video = videos.find(v => v.id === videoId)

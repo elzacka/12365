@@ -1,14 +1,26 @@
 import { Link } from 'react-router-dom'
-import { ChevronLeftIcon, HomeIcon } from './Icons'
+import { useAuth } from '../auth/AuthContext'
+import { ChevronLeftIcon, HomeIcon, LockIcon, LockOpenIcon } from './Icons'
 
 interface HeaderProps {
   title?: string
   showHome?: boolean
   showBack?: boolean
   backTo?: string
+  showLock?: boolean
+  onLockClick?: () => void
 }
 
-export function Header({ title, showHome = false, showBack = false, backTo = '/' }: HeaderProps) {
+export function Header({
+  title,
+  showHome = false,
+  showBack = false,
+  backTo = '/',
+  showLock = false,
+  onLockClick,
+}: HeaderProps) {
+  const { unlocked } = useAuth()
+
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-slate-200 safe-top">
       <div className="max-w-2xl mx-auto px-2 h-14 grid grid-cols-3 items-center">
@@ -54,7 +66,24 @@ export function Header({ title, showHome = false, showBack = false, backTo = '/'
           )}
         </div>
 
-        <div className="justify-self-end" />
+        <div className="justify-self-end">
+          {showLock && onLockClick && (
+            <button
+              type="button"
+              onClick={onLockClick}
+              className={`p-2.5 transition-colors ${
+                unlocked
+                  ? 'text-brand-700 hover:text-brand-800'
+                  : 'text-slate-500 hover:text-brand-700'
+              }`}
+              aria-label={unlocked ? 'Skjult innhold er låst opp — administrer' : 'Lås opp skjult innhold'}
+              aria-pressed={unlocked}
+              title={unlocked ? 'Skjult innhold låst opp' : 'Lås opp'}
+            >
+              {unlocked ? <LockOpenIcon size={20} /> : <LockIcon size={20} />}
+            </button>
+          )}
+        </div>
       </div>
     </header>
   )

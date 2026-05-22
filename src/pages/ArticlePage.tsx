@@ -1,6 +1,7 @@
 import { useState, use } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
+import { useMergedArticles } from '../auth/merge'
 import { ChevronLeftIcon, ChevronRightIcon, ZoomInIcon } from '../components/Icons'
 import { ImageLightbox } from '../components/ImageLightbox'
 import type { ArticleImage } from '../types'
@@ -29,7 +30,8 @@ function scrollToTop() {
 }
 
 export function ArticlePage() {
-  const categories = use(fetchArticles())
+  const publicCategories = use(fetchArticles())
+  const categories = useMergedArticles(publicCategories)
   const { kategoriId, artikkelId } = useParams()
   const [activeStep, setActiveStep] = useState(0)
   const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
@@ -213,6 +215,10 @@ export function ArticlePage() {
                 const relCategory = categories.find(k => k.artikler.some(a => a.id === relId))
                 const relArticle = relCategory?.artikler.find(a => a.id === relId)
                 if (!relArticle || !relCategory || relArticle.skjult) return null
+                // Boundary rule: a non-gated article must never expose the
+                // existence of a gated article. Filtered out even when the user
+                // is unlocked — the lock script enforces this at build time too.
+                if (relArticle.laast && !article.laast) return null
                 return (
                   <Link
                     key={relId}
