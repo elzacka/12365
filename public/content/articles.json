@@ -47,7 +47,7 @@
       {
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker — finn det riktige raskt",
-        "ingress": "Teknikker som rydder raskere i Outlook og Filutforsker — og angrefunksjonen du bør vite om.",
+        "ingress": "Teknikker som rydder raskere i Outlook og Utforsker — og angrefunksjonen du bør vite om.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "for-flytting",
         "tags": [
@@ -67,16 +67,16 @@
             "innhold": "Disse tre fjerner repetitive klikk i hverdagen:\n\n◦ **Rydd opp samtale**: marker en lang tråd → **Hjem** → **Rydd opp**. Fjerner overflødige meldinger; hele historikken ligger uansett i siste e-post. Trygt.\n◦ **Ignorer**: Ctrl+Del på en samtale du ikke vil høre mer fra. Alle nåværende og fremtidige meldinger i tråden går rett til Slettede elementer.\n◦ **Hurtigtrinn**: **Hjem** → **Hurtigtrinn** → **Opprett ny**. Lag knapper for det du gjør mye, for eksempel «Flytt til Behandlet» eller «Videresend til arkiv». Tilordne hurtigtast Ctrl+Shift+1 til 9.\n\n*Tips: kombiner søkemapper med Hurtigtrinn for å rydde tilbakevendende mønstre raskt.*"
           },
           {
-            "tittel": "Søk i Filutforsker — finn gamle og store filer",
-            "innhold": "Åpne Filutforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n◦ **Filer endret før en gitt dato**: *endringsdato:<01.01.2024*\n◦ **Gamle og store filer**: *endringsdato:<01.01.2024 størrelse:>10MB*\n◦ **Bestemte filtyper**: søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\nNår søket har gitt treff:\n\n◦ Bytt visning til **Detaljer** (**Visning** → **Detaljer**)\n◦ Vis kolonnen som forteller hvor filene ligger: høyreklikk i kolonneraden → **Mappe**\n◦ Sortér på **Endringsdato**\n◦ Marker grupper med Ctrl+klikk eller Shift+klikk, og slett"
+            "tittel": "Søk i Utforsker — finn gamle og store filer",
+            "innhold": "Åpne Utforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n◦ **Filer endret før en gitt dato**: *endringsdato:<01.01.2024*\n◦ **Gamle og store filer**: *endringsdato:<01.01.2024 størrelse:>10MB*\n◦ **Bestemte filtyper**: søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\nNår søket har gitt treff:\n\n◦ Bytt til **detaljvisning** (**Visning** → **Detaljer**)\n◦ Vis kolonnen som forteller hvor filene ligger: høyreklikk i kolonneraden → **Mappe**\n◦ Sortér på **Endringsdato**\n◦ Marker grupper med Ctrl+klikk eller Shift+klikk, og slett"
           },
           {
             "tittel": "Trygg sletting i fire steg",
-            "innhold": "For større mengder: slett aldri mens du leter. Bruk denne rytmen i stedet:\n\n1. **Filtrér og marker**: sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Bekreft**: gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Slett**: trykk Delete. Filene går til papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke, deretter tøm papirkurven**: gir tid til å oppdage om du har slettet noe du trenger."
+            "innhold": "For større mengder: slett aldri mens du leter. Bruk denne rytmen i stedet:\n\n1. **Filtrér og marker**: sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Bekreft**: gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Slett**: trykk Delete. Filene flyttes til Papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke, deretter tøm papirkurven**: gir tid til å oppdage om du har slettet noe du trenger."
           },
           {
-            "tittel": "Tidligere versjoner — angrefunksjonen du bør vite om",
-            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig:\n\n◦ Høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**\n◦ Hvis IT har skrudd på volumskyggekopier, kan du hente en versjon fra i går eller forrige uke\n◦ Virker også for filer på fellesområder"
+            "tittel": "Angrefunksjoner du bør vite om",
+            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig:\n\n◦ **Mappestruktur — funksjonen Skyggekopier**: Høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**\n◦ Finn ønsket dato/tidspunkt i listen → Trykk Gjenopprett → Trykk OK\n\n◦ **Outlook — funksjonen Gjenopprett elementer**: Klikk på mappen Slettede elementer\n◦ Øverst i listevisningen: Klikk på teksten Gjenopprett elementer som nylig er fjernet fra denne mappen\n◦ I vinduet som vises: Merk det du vil gjenopprette →  Trykk OK"
           }
         ],
         "relaterte": [
