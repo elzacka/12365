@@ -8,7 +8,7 @@
         "id": "rydd-for-m365",
         "tittel": "Pakk lett — digital rydding lønner seg",
         "ingress": "Slik tenker du om digital rydding: ta med det du bruker, ikke alt du har.",
-        "oppdatert": "Oppdatert: 21.05.26",
+        "oppdatert": "Oppdatert: 29.05.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -22,8 +22,8 @@
             "innhold": "Fire gevinster:\n\n◦ **Personvern og informasjonssikkerhet**: gamle filer kan inneholde sensitive opplysninger. KI-funksjoner som Copilot henter innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n◦ **Bærekraft**: mindre lagring sparer energi og ressurser.\n◦ **Brukervennlighet**: med færre og mer relevante filer blir det lettere å holde oversikt.\n◦ **Kontinuitet og tilgjengelighet**: personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste."
           },
           {
-            "tittel": "Pakk lett — dagstursekken som prinsipp",
-            "innhold": "Tenk på det som å pakke en dagstursekk: ta bare med det du faktisk trenger der du skal — ikke alt du eier:\n\n◦ Møtereferater - f. eks bare fra de siste tre månedene\n◦ Rapporter du skriver på akkurat nå\n◦ Felles maler og oppsett som faktisk brukes\n\nAlt annet har ett av tre utfall: du sletter det, du arkiverer det i arkivsystemet, eller du lar det bli liggende i den gamle strukturen til den fases ut — det er ikke en parkeringsplass på ubestemt tid."
+            "tittel": "Pakk lett: dagstursekken som prinsipp",
+            "innhold": "Tenk på det som å pakke en dagstursekk: ta bare med det du faktisk trenger der du skal — ikke alt du eier:\n\n◦ Møtereferater - f. eks bare fra **de siste tre månedene**\n◦ Rapporter du skriver på **akkurat nå**\n◦ Felles maler og oppsett **som faktisk brukes**\n\nAlt annet har ett av tre utfall: du sletter det, du arkiverer det i arkivsystemet, eller du lar det bli liggende i den gamle strukturen til den fases ut — det er ikke en parkeringsplass på ubestemt tid."
           },
           {
             "tittel": "Slik rydder du egne filområder",
@@ -31,11 +31,11 @@
           },
           {
             "tittel": "Slik rydder du e-posten",
-            "innhold": "I Teams sender du ikke filer frem og tilbake på e-post — du deler lenker. Det betyr at e-postlageret kan slankes betraktelig når kanalene tas i bruk.\n\nSlik rydder du:\n\n◦ Begynn **bakerst** i innboksen og **Sendte elementer** — slett, slett, slett\n◦ Kommer du over et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten\n◦ Arkiver e-post som skal bevares i arkivsystemet **før** du sletter den\n◦ Har e-posten dokumentasjon du trenger å beholde av andre grunner? Lagre den der dokumentasjonen skal leve videre — i arkivsystem, fagsystem, eller riktig sted i Teams\n\nBehold e-post om pågående saker. Pågående dialoger med mange vedlegg egner seg godt til å fortsette i Teams.\n\n*Sendte elementer er ofte den største synderen — store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*"
+            "innhold": "I Teams sender du ikke filer frem og tilbake på e-post — du deler lenker. Det betyr at e-postlageret kan slankes betraktelig når kanalene tas i bruk:\n\n◦ Begynn **bakerst** i innboksen og **Sendte elementer** — slett, slett, slett\n◦ Kommer du over et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten\n◦ Arkiver e-post som skal bevares i arkivsystemet **før** du sletter den\n◦ Har e-posten dokumentasjon du trenger å beholde av andre grunner? Lagre den der dokumentasjonen skal leve videre — i arkivsystem, fagsystem, eller riktig sted i Teams\n\nBehold e-post om pågående saker. Pågående dialoger med mange vedlegg egner seg godt til å fortsette i Teams.\n\n*Sendte elementer er ofte den største synderen — store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*"
           },
           {
             "tittel": "Mål: forvalt informasjon bevisst",
-            "innhold": "Målet er å forvalte informasjon bevisst og strukturert — gjennom hele livsløpet.\n\nDet betyr at du:\n\n◦ Skaper og lagrer informasjon der den hører hjemme\n◦ Sørger for at den er tilgjengelig for dem som trenger den\n◦ Sørger for at den kan deles, gjenfinnes og gjenbrukes\n◦ Ivaretar krav til arkivering, sporbarhet og regelverk\n◦ Støtter gode arbeidsprosesser og samarbeid på tvers av enheter\n◦ Ikke oppretter flere team og arbeidsområder enn nødvendig\n\n*Husk: en samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*\n\n*Behandle informasjon som en felles ressurs — ikke som personlige filer eller tilfeldige meldinger.*"
+            "innhold": "Målet er å forvalte informasjon bevisst og strukturert — gjennom hele livsløpet.\n\nDet betyr at du:\n\n◦ Skaper og lagrer informasjon **der den hører hjemme**\n◦ Sørger for at den er **tilgjengelig** for dem som trenger den\n◦ Sørger for at den kan **deles, gjenfinnes og gjenbrukes**\n◦ Ivaretar krav til **arkivering**, sporbarhet og regelverk\n◦ Støtter gode arbeidsprosesser og samarbeid **på tvers**\n◦ Ikke oppretter flere **team, kanaler og arbeidsområder** enn nødvendig\n\n*Husk: en samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*\n\n*Behandle informasjon som en felles ressurs — ikke som personlige filer eller tilfeldige meldinger.*"
           }
         ],
         "relaterte": [
@@ -46,29 +46,29 @@
       },
       {
         "id": "rydd-teknikker",
-        "tittel": "Effektive ryddeteknikker — finn det riktige raskt",
+        "tittel": "Effektive ryddeteknikker: Finn det riktige raskt",
         "ingress": "Teknikker som rydder raskere i Outlook og Utforsker — og angrefunksjoner du bør vite om.",
         "oppdatert": "Oppdatert: 29.05.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
           "outlook",
-          "filutforsker",
+          "utforsker",
           "teknikker",
           "angrefunksjon"
         ],
         "steg": [
           {
-            "tittel": "Søkemapper i Outlook — én visning, flere mapper",
-            "innhold": "Søkemapper er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\n◦ Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n◦ Velg en ferdig mal under **Organisere e-post**, eller **Opprett en egendefinert søkemappe** for egne kriterier\n◦ Praktiske maler å starte med: **Store e-postmeldinger**, **Gammel e-post**, **E-post med vedlegg**\n◦ For **Store e-postmeldinger** åpnes dialogen **E-poststørrelse**: oppgi minste størrelse i **kB**\n◦ **5 MB = 5120 kB**. Typisk e-post uten vedlegg: 20–75 kB\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten. Trinnene gjelder Outlook 2019.*"
+            "tittel": "Søkemapper i Outlook: én visning, flere mapper",
+            "innhold": "Funksjonen *Søkemapper* er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\n1. Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n2. Velg en ferdig mal under **Organisere e-post**, eller **Opprett en egendefinert søkemappe** for egne kriterier. Praktiske maler å starte med:\n  ◦ **Store e-postmeldinger**\n  ◦ **Gammel e-post**\n  ◦ **E-post med vedlegg**\n3. For **Store e-postmeldinger** åpnes dialogen **E-poststørrelse**: oppgi minste størrelse i **kB**\n  ◦ **5 MB = 5120 kB**. Typisk e-post uten vedlegg: 20–75 kB\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten. Trinnene gjelder Outlook 2019.*"
           },
           {
-            "tittel": "Rydd opp, Ignorer og Hurtigtrinn — tre Outlook-grep til",
+            "tittel": "Tre andre Outlook-funksjoner: Rydd opp, Ignorer og Hurtigtrinn",
             "innhold": "Disse tre fjerner repetitive klikk i hverdagen:\n\n◦ **Rydd opp samtale**: marker en lang tråd → **Hjem** → **Rydd opp**. Fjerner overflødige meldinger; hele historikken ligger uansett i siste e-post. Trygt.\n◦ **Ignorer**: Ctrl+Del på en samtale du ikke vil høre mer fra. Alle nåværende og fremtidige meldinger i tråden går rett til Slettede elementer.\n◦ **Hurtigtrinn**: **Hjem** → **Hurtigtrinn** → **Opprett ny**. Lag knapper for det du gjør mye, for eksempel «Flytt til Behandlet» eller «Videresend til arkiv». Tilordne hurtigtast Ctrl+Shift+1 til 9.\n\n*Tips: kombiner søkemapper med Hurtigtrinn for å rydde tilbakevendende mønstre raskt.*"
           },
           {
-            "tittel": "Søk i Utforsker — finn gamle og store filer",
-            "innhold": "Åpne Utforsker, naviger til mappen du vil rydde i, og bruk søkefeltet øverst til høyre:\n\n◦ **Filer endret før en gitt dato**: *endringsdato:<01.01.2024*\n◦ **Gamle og store filer**: *endringsdato:<01.01.2024 størrelse:>10MB*\n◦ **Bestemte filtyper**: søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\nNår søket har gitt treff:\n\n◦ Bytt til **detaljvisning** (**Visning** → **Detaljer**)\n◦ Vis kolonnen som forteller hvor filene ligger: høyreklikk i kolonneraden → **Mappe**\n◦ Sortér på **Endringsdato**\n◦ Marker grupper med Ctrl+klikk eller Shift+klikk, og slett"
+            "tittel": "Søk i Utforsker: Finn gamle og store filer",
+            "innhold": "1. Åpne **Utforsker** og naviger til mappen du vil rydde i. Bruk søkefeltet øverst til høyre. For eksempel:\n  ◦ **Filer endret før en dato**: `endringsdato:<01.01.2024`\n  ◦ **Gamle og store filer**: `endringsdato:<01.01.2024 størrelse:>10MB`\n  ◦ **Bestemte filtyper**: søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n2. Bytt til **detaljvisning** (Visning → Detaljer)\n3. Vis kolonnen som forteller hvor filene ligger: høyreklikk i kolonneraden, velg **Mappe**\n4. Sortér på **Endringsdato**\n5. Marker grupper med Ctrl+klikk eller Shift+klikk, og slett"
           },
           {
             "tittel": "Trygg sletting i fire steg",
@@ -76,7 +76,7 @@
           },
           {
             "tittel": "Angrefunksjoner du bør vite om",
-            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig:\n\n◦ **Mappestruktur — funksjonen Skyggekopier**: Høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**\n◦ Finn ønsket dato/tidspunkt i listen → Trykk Gjenopprett → Trykk OK\n\n◦ **Outlook — funksjonen Gjenopprett elementer**: Klikk på mappen Slettede elementer\n◦ Øverst i listevisningen: Klikk på teksten Gjenopprett elementer som nylig er fjernet fra denne mappen\n◦ I vinduet som vises: Merk det du vil gjenopprette →  Trykk OK"
+            "innhold": "Hvis du ved et uhell sletter eller endrer noe viktig:\n\n### Mappestruktur: funksjonen *Skyggekopier*\n\n1. Høyreklikk filen eller mappen → **Egenskaper** → fanen **Tidligere versjoner**\n2. Finn ønsket dato/tidspunkt i listen\n3. Trykk **Gjenopprett** → **OK**\n\n### Outlook: funksjonen *Gjenopprett elementer*\n\n1. Klikk på mappen **Slettede elementer**\n2. Øverst i listevisningen: klikk **Gjenopprett elementer som nylig er fjernet fra denne mappen**\n3. Merk det du vil gjenopprette → trykk **OK**"
           }
         ],
         "relaterte": [
@@ -94,8 +94,8 @@
       {
         "id": "teams-som-arbeidsflate",
         "tittel": "Teams — arbeidsflaten din i M365",
-        "ingress": "Teams er ikke bare møter og chat — det er ett sted for filer, oppgaver, notater og apper.",
-        "oppdatert": "Oppdatert: 20.05.26",
+        "ingress": "Teams er ikke bare møter og chat — det er arbeidsflaten du jobber fra. Ett sted for filer, oppgaver, notater, apper — der du jobber selvstendig eller i samarbeid med andre.",
+        "oppdatert": "Oppdatert: 29.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -104,10 +104,6 @@
           "kom-i-gang"
         ],
         "steg": [
-          {
-            "tittel": "Teams er klar — ingen oppsett nødvendig",
-            "innhold": "Teams er allerede installert på jobb-PCen din. Du logger inn med organisasjonskontoen din — den samme du bruker til andre M365-tjenester.\n\nÅpne Teams fra oppgavelinjen eller Start-menyen. Du trenger ikke gjøre noe annet."
-          },
           {
             "tittel": "Fra møteverktøy til arbeidsflate",
             "innhold": "Mange kjenner Teams fra videosamtaler og chatmeldinger. Slik startet det. I dag er Teams stedet der du jobber med filer, følger opp oppgaver, finner informasjon, fyller ut skjemaer og samarbeider med kolleger — alt uten å bytte app.\n\nMålet er enkelt: **hold deg i Teams**. Gå til andre apper, fagsystemer eller Edge når du faktisk trenger det — ikke som vane."
@@ -147,7 +143,7 @@
         "id": "teams-hierarki",
         "tittel": "Hierarki og tilganger i Teams — hvem ser hva, og hvordan du styrer det",
         "ingress": "Team, kanal og innhold styrer hvem som har tilgang til hva. Slik gir du riktig tilgang fra starten.",
-        "oppdatert": "Oppdatert: 21.05.26",
+        "oppdatert": "Oppdatert: 29.05.26",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -159,7 +155,7 @@
         ],
         "steg": [
           {
-            "tittel": "Hierarkiet — team, kanaler, innhold",
+            "tittel": "Hierarkiet: team, kanaler, innhold",
             "innhold": "Teams er bygd opp i nivåer. Du må forstå alle tre for å vite hvem som ser hva:\n\n◦ **Team**: øverste nivå. Samler en gruppe mennesker som jobber sammen.\n◦ **Kanal**: et rom i teamet for ett tema eller én arbeidsstrøm. Et team kan ha mange kanaler.\n◦ **Innhold**: samtaler, filer og faner (Lists, Planner, OneNote, SharePoint-sider og flere) som ligger i en kanal.\n\nMental modell: tilgang gis på team- eller kanalnivå. Innholdet arver tilgangen fra rommet det ligger i. **Medlemskap i teamet er nøkkelen til alt innholdet i standardkanalene.**"
           },
           {
@@ -171,7 +167,7 @@
             "innhold": "Hvor du legger en fil bestemmer hvem som kan finne den i framtiden — ikke hvilken kanal du klikket deg inn fra:\n\n◦ **Filer i en standardkanal** → felles område for teamet; alle teammedlemmer har tilgang.\n◦ **Filer i en privat eller delt kanal** → eget område, kun for kanalmedlemmene.\n◦ **Filer du laster opp i en 1:1-chat eller gruppechat** → din egen OneDrive. Personene du chatter med får en lenke; du eier filen.\n◦ **Filer i et Teams-møte** → OneDrive til den som lastet opp filen eller startet opptaket.\n\n**Konsekvens: det som skal være varig felles, hører hjemme i en kanal — ikke i en chat.** Slutter du, kan andre miste tilgang til chat-filer."
           },
           {
-            "tittel": "Roller — hva hver kan gjøre med tilgang",
+            "tittel": "Roller i team — hva hver av dem kan gjøre",
             "innhold": "Tre roller styrer hva man kan i et team:\n\n◦ **Eier**: administrerer medlemmer, oppretter og sletter kanaler, endrer innstillinger, kan slette teamet. Et team bør ha minst to eiere; én er sårbart.\n◦ **Medlem**: poster, oppretter og redigerer innhold. Kan vanligvis ikke administrere medlemskap eller slette innhold andre eier.\n◦ **Gjest**: ekstern bruker invitert til teamet. Reduserte rettigheter; kan ikke opprette nye kanaler, og ser et begrenset utvalg. Organisasjonen bestemmer om gjestetilgang i det hele tatt er tillatt.\n\n*Tips: gi rollen «Eier» bevisst. Eiere kan slette innhold og endre tilganger; det skal være få.*"
           },
           {
@@ -212,7 +208,7 @@
           },
           {
             "tittel": "Finn og legg til filer i Teams",
-            "innhold": "**Finn filene dine** — åpne kanalen i Teams og klikk på **Filer**-fanen øverst. Her ligger alle filer som tilhører kanalen, tilgjengelig for alle kanalmedlemmer.\n\n**Last opp**: klikk **Last opp** i Filer-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint og er umiddelbart tilgjengelig for alle i kanalen."
+            "innhold": "**Finn filene dine**: åpne kanalen i Teams og klikk på **Filer**-fanen øverst. Her ligger alle filer som tilhører kanalen, tilgjengelig for alle kanalmedlemmer.\n\n**Last opp**: klikk **Last opp** i Filer-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint og er umiddelbart tilgjengelig for alle i kanalen."
           },
           {
             "tittel": "Del lenke — ikke vedlegg",
@@ -262,7 +258,7 @@
           },
           {
             "tittel": "Hva etiketten styrer",
-            "innhold": "Følsomhetsetiketter er ikke bare en merkelapp — de aktiverer automatiske kontroller:\n\n◦ **Tilgang**: hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n◦ **Kryptering**: innholdet låses og kan kun leses av de med riktig nøkkel\n◦ **Vannmerker**: tekstmerking på utskrift og skjerm («Sensitivt — [navn]»)\n◦ **Nedlastingsregler**: om dokumentet kan lastes ned eller bare leses i nettleseren\n◦ **Topptekst og bunntekst**: automatisk innsetting av klassifiseringsmerking\n◦ **Eksterne grenser**: om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske alle reglene. Etiketten gjør det rette automatisk."
+            "innhold": "Følsomhetsetiketter er ikke bare en merkelapp — de aktiverer automatiske kontroller:\n\n◦ **Tilgang**: hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n◦ **Kryptering**: innholdet låses og kan kun leses av de med riktig nøkkel\n◦ **Vannmerker**: tekstmerking på utskrift og skjerm («Sensitivt — *navn*»)\n◦ **Nedlastingsregler**: om dokumentet kan lastes ned eller bare leses i nettleseren\n◦ **Topptekst og bunntekst**: automatisk innsetting av klassifiseringsmerking\n◦ **Eksterne grenser**: om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske alle reglene. Etiketten gjør det rette automatisk."
           },
           {
             "tittel": "DLP-regler — beskyttelse mot utilsiktet deling",
@@ -357,7 +353,7 @@
           },
           {
             "tittel": "Praktiske eksempler",
-            "innhold": "**Bruk Loop-side til:**\n\n◦ Saksliste og referat for møte\n◦ Prosjektbeskrivelse alle bidrar til\n\n**Bruk Loop-komponent til:**\n\n◦ Ukesstatus som deles med teamet\n◦ Idéinnsamling i møte\n\n**Bruk Word til:**\n\n◦ Årsrapport til styret\n◦ Kontrakt med ekstern leverandør\n◦ Veiledning som skal trykkes\n\n**Bruk SharePoint-side til:**\n\n◦ Rutine i prosessbiblioteket"
+            "innhold": "### Bruk Loop-side til\n\n◦ Saksliste og referat for møte\n◦ Prosjektbeskrivelse alle bidrar til\n\n### Bruk Loop-komponent til\n\n◦ Ukesstatus som deles med teamet\n◦ Idéinnsamling i møte\n\n### Bruk Word til\n\n◦ Årsrapport til styret\n◦ Kontrakt med ekstern leverandør\n◦ Veiledning som skal trykkes\n\n### Bruk SharePoint-side til\n\n◦ Rutine i prosessbiblioteket"
           }
         ],
         "relaterte": [
@@ -466,7 +462,7 @@
           },
           {
             "tittel": "Åpne Clipchamp",
-            "innhold": "To veier inn:\n\n◦ **Teams**: legg Clipchamp til som app i venstremenyen\n◦ **OneDrive** eller **SharePoint** — klikk på en video for å spille av med Clipchamp-spilleren."
+            "innhold": "To veier inn:\n\n◦ **Teams**: legg Clipchamp til som app i venstremenyen\n◦ **OneDrive** eller **SharePoint**: klikk på en video for å spille av med Clipchamp-spilleren."
           },
           {
             "tittel": "Ta opp skjerm, kamera eller stemme",
@@ -519,7 +515,7 @@
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ **m365copilot.com**: i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger."
+            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ [m365copilot.com](https://m365copilot.com): i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger."
           },
           {
             "tittel": "Nett-modus — søk på internett",
@@ -564,7 +560,7 @@
           },
           {
             "tittel": "Åpne Copilot Studio og velg team",
-            "innhold": "Gå til **copilotstudio.microsoft.com**. Første gang blir du bedt om å velge et Teams-team som skal eie chatbotten. Velg et eksisterende team — eller opprett et nytt — og klikk **Fortsett**.\n\n*Teamet du velger bestemmer hvor chatbotten lagres og hvem som kan administrere den.*"
+            "innhold": "Gå til [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com). Første gang blir du bedt om å velge et Teams-team som skal eie chatbotten. Velg et eksisterende team — eller opprett et nytt — og klikk **Fortsett**.\n\n*Teamet du velger bestemmer hvor chatbotten lagres og hvem som kan administrere den.*"
           },
           {
             "tittel": "Lag agenten og gi den et navn",
@@ -592,7 +588,7 @@
           },
           {
             "tittel": "Dette krever tillegg",
-            "innhold": "Chatbotten du bygger via Teams-eierskapet har disse rammene:\n\n◦ **Regelbasert**: den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller større datamengder kreves Copilot Studio som tillegg — eller en Microsoft 365 Copilot-lisens, som siden slutten av 2025 inkluderer fullt Copilot Studio for interne, lisensierte brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Du bygger nye på copilotstudio.microsoft.com.*"
+            "innhold": "Chatbotten du bygger via Teams-eierskapet har disse rammene:\n\n◦ **Regelbasert**: den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller større datamengder kreves Copilot Studio som tillegg — eller en Microsoft 365 Copilot-lisens, som siden slutten av 2025 inkluderer fullt Copilot Studio for interne, lisensierte brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Du bygger nye på* [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com)."
           }
         ],
         "relaterte": [
@@ -642,7 +638,7 @@
           },
           {
             "tittel": "Egne flater: Pages, Notebooks og Cowork",
-            "innhold": "Microsoft 365 Copilot gir deg tre egne arbeidsflater:\n\n**Copilot Pages**: en delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer, lette dashbord og små apper bygd via Work IQ. Du kan åpne den videre i App Builder.\n\n**Copilot Notebooks**: en samling kilder du selv velger: filer, Teams-kanaler og eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork**: gi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Du mister ikke flyten mens du venter."
+            "innhold": "Microsoft 365 Copilot gir deg tre egne arbeidsflater:\n\n### Copilot Pages\n\nEn delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer, lette dashbord og små apper bygd via Work IQ. Du kan åpne den videre i App Builder.\n\n### Copilot Notebooks\n\nEn samling kilder du selv velger: filer, Teams-kanaler og eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n### Copilot Cowork\n\nGi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Du mister ikke flyten mens du venter."
           },
           {
             "tittel": "Agenter: bygg, godkjenn og publiser",
@@ -758,7 +754,7 @@
           },
           {
             "tittel": "Del og rapportér",
-            "innhold": "Klikk **Del** øverst til høyre for å gi ledelsen lesetilgang.\n\nFor enkelt datauttrekk: **Eksporter** → **Eksporter til Excel**.\n\nFor levende dashbord koblet direkte mot lista: bruk **Power BI** — lag rapport fra lista, fest den i en Teams-kanal, og ledelsen ser oppdaterte tall i sanntid."
+            "innhold": "Klikk **Del** øverst til høyre for å gi ledelsen lesetilgang.\n\nFor enkelt datauttrekk: **Eksporter** → **Eksporter til Excel**.\n\nFor levende dashbord koblet direkte mot lista: bruk **Power BI**. Lag rapport fra lista, fest den i en Teams-kanal, og ledelsen ser oppdaterte tall i sanntid."
           },
           {
             "tittel": "Legg registeret til som fane i Teams",
@@ -1014,7 +1010,7 @@
           },
           {
             "tittel": "Legg til metadata — riktig måte",
-            "innhold": "Metadata på siden skal **ikke** legges inn som en vanlig tabell i teksten. Strukturerte metadata gir finnbarhet, automatisering og KI-nytte — en tabell gir ingenting av dette.\n\n**Slik gjøres det riktig (krever nettstedsadministrator):**\n\n1. Be IT opprette **nettstedskolonner** på Prosessbibliotek-nettstedet:\n   ◦ **Prosesseier**: person\n   ◦ **Prosessområde**: administrerte metadata fra Term Store\n   ◦ **Status**: valg (Aktiv / Under revisjon / Utgått)\n   ◦ **Siste revisjon**: dato\n   ◦ **Neste revisjon**: dato\n   ◦ **Versjon**: tall\n\n2. Kolonnene samles i en **innholdstype** kalt «Prosessdokument» og legges til i Områdesider-biblioteket.\n\n3. Du viser dem på siden via webdelen **Sideegenskaper**.\n\n*Resultatet: Copilot kan svare på «alle aktive prosesser eiet av HR», og innholdet dukker opp i relevante Microsoft Search-resultater.*"
+            "innhold": "Metadata på siden skal **ikke** legges inn som en vanlig tabell i teksten. Strukturerte metadata gir finnbarhet, automatisering og KI-nytte — en tabell gir ingenting av dette.\n\n### Slik gjøres det riktig (krever nettstedsadministrator)\n\n1. Be IT opprette **nettstedskolonner** på Prosessbibliotek-nettstedet:\n   ◦ **Prosesseier**: person\n   ◦ **Prosessområde**: administrerte metadata fra Term Store\n   ◦ **Status**: valg (Aktiv / Under revisjon / Utgått)\n   ◦ **Siste revisjon**: dato\n   ◦ **Neste revisjon**: dato\n   ◦ **Versjon**: tall\n2. Kolonnene samles i en **innholdstype** kalt «Prosessdokument» og legges til i Områdesider-biblioteket\n3. Du viser dem på siden via webdelen **Sideegenskaper**\n\n*Resultatet: Copilot kan svare på «alle aktive prosesser eiet av HR», og innholdet dukker opp i relevante Microsoft Search-resultater.*"
           },
           {
             "tittel": "Les prosessdokumentasjonen i Teams",
@@ -1058,7 +1054,7 @@
         "steg": [
           {
             "tittel": "Slik åpner du Shifts",
-            "innhold": "Shifts ligger inne i Teams — du trenger ingen egen app.\n\n**På PC og nettleser:**\n\n1. Klikk **Shifts** i applinjen til venstre i Teams\n2. Ser du den ikke? Velg **Vis flere apper** og finn Shifts i listen\n\n**På mobil:**\n\n1. Trykk **Shifts** i applinjen nederst i Teams-appen\n2. Ser du den ikke? Sveip opp fra applinjen for å se flere apper\n\nHøyreklikk på Shifts og velg **Fest** for å beholde den synlig i menyen — særlig nyttig hvis du bruker Shifts daglig."
+            "innhold": "Shifts ligger inne i Teams — du trenger ingen egen app.\n\n### På PC og nettleser\n\n1. Klikk **Shifts** i applinjen til venstre i Teams\n2. Ser du den ikke? Velg **Vis flere apper** og finn Shifts i listen\n\n### På mobil\n\n1. Trykk **Shifts** i applinjen nederst i Teams-appen\n2. Ser du den ikke? Sveip opp fra applinjen for å se flere apper\n\nHøyreklikk på Shifts og velg **Fest** for å beholde den synlig i menyen — særlig nyttig hvis du bruker Shifts daglig."
           },
           {
             "tittel": "Som ansatt — vis vaktene dine",
@@ -1066,11 +1062,11 @@
           },
           {
             "tittel": "Som ansatt — be om vaktbytte",
-            "innhold": "Trenger du å bytte en vakt? Det gjøres i Shifts og sendes til leder for godkjenning.\n\n**Bytte en vakt:**\n\n1. Trykk på vakten du vil bytte fra\n2. Velg **Bytt** eller **Tilby**\n3. Velg en kollega som har en vakt du heller vil ta — eller tilby vakten din til andre\n4. Send forespørsel — leder må godkjenne både byttet og kollegaens samtykke\n\n**Be om åpne vakter:** Hvis lederen har publisert ledige vakter (for eksempel ekstravakter eller åpne stillinger), kan du søke på dem direkte i Shifts."
+            "innhold": "Trenger du å bytte en vakt? Det gjøres i Shifts og sendes til leder for godkjenning.\n\n### Bytte en vakt\n\n1. Trykk på vakten du vil bytte fra\n2. Velg **Bytt** eller **Tilby**\n3. Velg en kollega som har en vakt du heller vil ta — eller tilby vakten din til andre\n4. Send forespørsel — leder må godkjenne både byttet og kollegaens samtykke\n\n### Be om åpne vakter\n\nHvis lederen har publisert ledige vakter (for eksempel ekstravakter eller åpne stillinger), kan du søke på dem direkte i Shifts."
           },
           {
             "tittel": "Som leder — lag og publiser en skiftplan",
-            "innhold": "Som teamleder bruker du Shifts til å lage turnusplaner for hele teamet.\n\n1. Åpne Shifts og velg riktig team\n2. Velg **Opprett ny tidsplan** og angi periode (uke, måned)\n3. Klikk på en celle i kalenderen og legg til en vakt — angi tidspunkt, lokasjon, oppgaver og eventuelle notater\n4. Gjenta for hver ansatt og hver dag\n\n**Tidsbesparende tips:**\n\n◦ **Importer fra Excel**: har du allerede en plan i Excel, kan den importeres direkte\n◦ **Kopier en tidligere uke**: bruk forrige ukes plan som mal og juster det som er nytt\n◦ **Bruk vaktmaler**: lagre faste vakttyper (f.eks. «Tidlig vakt», «Sen vakt», «Helgevakt») og dra dem inn i kalenderen\n\nNår planen er klar: **Publiser** den. Først da blir den synlig for de ansatte, og de får varsel."
+            "innhold": "Som teamleder bruker du Shifts til å lage turnusplaner for hele teamet.\n\n1. Åpne Shifts og velg riktig team\n2. Velg **Opprett ny tidsplan** og angi periode (uke, måned)\n3. Klikk på en celle i kalenderen og legg til en vakt — angi tidspunkt, lokasjon, oppgaver og eventuelle notater\n4. Gjenta for hver ansatt og hver dag\n\n### Tidsbesparende tips\n\n◦ **Importer fra Excel**: har du allerede en plan i Excel, kan den importeres direkte\n◦ **Kopier en tidligere uke**: bruk forrige ukes plan som mal og juster det som er nytt\n◦ **Bruk vaktmaler**: lagre faste vakttyper (f.eks. «Tidlig vakt», «Sen vakt», «Helgevakt») og dra dem inn i kalenderen\n\nNår planen er klar: **Publiser** den. Først da blir den synlig for de ansatte, og de får varsel."
           },
           {
             "tittel": "Som leder — godkjenn vaktbytter",
@@ -1218,7 +1214,7 @@
           },
           {
             "tittel": "Maks 2–3 nivåer per kanal",
-            "innhold": "Dype mappestrukturer er en arv fra filservertida. I Teams gjør den filer vanskelige å finne — både for folk og for søk/Copilot.\n\n**Hold deg til 2–3 nivåer:**\n\n◦ Kanal\n  ◦ Mappe (nivå 1)\n    ◦ Undermappe (nivå 2 — sjelden nødvendig)\n\nHvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet egentlig hører hjemme i en annen kanal — eller at strukturen kan flates ut."
+            "innhold": "Dype mappestrukturer er en arv fra filservertida. I Teams gjør den filer vanskelige å finne — både for folk og for søk/Copilot.\n\n**Hold deg til 2–3 nivåer:** Kanal → Mappe (nivå 1) → Undermappe (nivå 2 — sjelden nødvendig).\n\nHvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet egentlig hører hjemme i en annen kanal — eller at strukturen kan flates ut."
           },
           {
             "tittel": "Unngå mapper for år, personer og versjoner",
@@ -1379,11 +1375,11 @@
           },
           {
             "tittel": "Arkiver eller slett — slik velger du",
-            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg.\n\n**Arkiver kanalen** når:\n\n◦ Det kan være behov for å se på samtaler eller filer i ettertid\n◦ Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n◦ Det er regulert eller revidert arbeid med dokumentasjonskrav\n\n*Arkivering låser kanalen — samtaler, faner og filer blir skrivebeskyttet, og kanalen skjules fra kanallisten. Innholdet er fortsatt finnbart, og kanalen kan gjenopprettes når som helst.*\n\n**Slett kanalen** når:\n\n◦ Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n◦ Det er åpenbart engangsarbeid uten gjenbruksverdi\n◦ Personvernhensyn taler for sletting\n\n*Slettet kanal kan gjenopprettes innen 30 dager. Mappen i SharePoint blir liggende uansett — slett den manuelt hvis det er nødvendig.*"
+            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg.\n\n### Arkiver kanalen når\n\n◦ Det kan være behov for å se på samtaler eller filer i ettertid\n◦ Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n◦ Det er regulert eller revidert arbeid med dokumentasjonskrav\n\n*Arkivering låser kanalen — samtaler, faner og filer blir skrivebeskyttet, og kanalen skjules fra kanallisten. Innholdet er fortsatt finnbart, og kanalen kan gjenopprettes når som helst.*\n\n### Slett kanalen når\n\n◦ Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n◦ Det er åpenbart engangsarbeid uten gjenbruksverdi\n◦ Personvernhensyn taler for sletting\n\n*Slettet kanal kan gjenopprettes innen 30 dager. Mappen i SharePoint blir liggende uansett — slett den manuelt hvis det er nødvendig.*"
           },
           {
             "tittel": "Slik gjør du det i Teams",
-            "innhold": "**Hvem kan utføre:**\n\n◦ **Teameier**: kan arkivere og slette alle kanaltyper i teamet\n◦ **Kanaleier**: kan arkivere og slette private og delte kanaler de eier\n\n**Arkiver én kanal**: pek på kanalen → tre prikker → **Arkiver kanal**. Velg om filene skal være skrivebeskyttet. *Anbefalt for ferdige prosjekter, slik at ingen endrer innholdet i ettertid.*\n\n**Arkiver flere samtidig**: **Administrer team** → fanen **Kanaler** → velg kanaler → **Arkiver**.\n\n**Gjenopprett en kanal**: **Administrer team** → **Kanaler** → utvid **Arkivert** → tre prikker → **Gjenopprett kanal**.\n\n**Slett en kanal**: pek på kanalen → tre prikker → **Slett kanal**."
+            "innhold": "### Hvem kan utføre\n\n◦ **Teameier**: kan arkivere og slette alle kanaltyper i teamet\n◦ **Kanaleier**: kan arkivere og slette private og delte kanaler de eier\n\n### Arkiver én kanal\n\nPek på kanalen → tre prikker → **Arkiver kanal**. Velg om filene skal være skrivebeskyttet.\n\n*Anbefalt for ferdige prosjekter, slik at ingen endrer innholdet i ettertid.*\n\n### Arkiver flere samtidig\n\n**Administrer team** → fanen **Kanaler** → velg kanaler → **Arkiver**.\n\n### Gjenopprett en kanal\n\n**Administrer team** → **Kanaler** → utvid **Arkivert** → tre prikker → **Gjenopprett kanal**.\n\n### Slett en kanal\n\nPek på kanalen → tre prikker → **Slett kanal**."
           }
         ],
         "relaterte": [
