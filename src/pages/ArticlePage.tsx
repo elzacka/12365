@@ -1,28 +1,142 @@
-import { useState, use } from 'react'
+import { useState, use, type ReactNode } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
-import { ChevronLeftIcon, ChevronRightIcon, ZoomInIcon } from '../components/Icons'
+import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, ZoomInIcon } from '../components/Icons'
+import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
 import type { ArticleImage } from '../types'
 
-// Minimal markdown-to-JSX for bold, italic and line breaks.
-function parseContent(text: string) {
-  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/)
-  return parts.map((part, i) => {
+// Block-aware markdown-to-JSX. The step content is split into blocks on
+// blank lines; each block renders as paragraph, sub-heading (###), bullet
+// list (◦) or numbered list (1.) with optional indented sub-bullets.
+// Backtick `cmd` marks copy-paste commands, [tekst](url) becomes external
+// links. Kept intentionally small — only the syntax actually used in
+// articles.json is supported.
+
+function parseInline(text: string): ReactNode[] {
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\([^)\s]+\))/)
+  return parts.map((part, i): ReactNode => {
     if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
       return <strong key={i} className="font-semibold text-slate-800">{part.slice(2, -2)}</strong>
+    }
+    if (part.startsWith('`') && part.endsWith('`') && part.length > 2) {
+      return <CopyableCommand key={i} text={part.slice(1, -1)} />
+    }
+    if (part.startsWith('[')) {
+      const linkMatch = part.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/)
+      if (linkMatch) {
+        const [, label, url] = linkMatch
+        return (
+          <a
+            key={i}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brand-400 hover:text-brand-600 transition-colors"
+          >
+            {label}
+            <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
+          </a>
+        )
+      }
     }
     if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
       return <em key={i} className="italic">{part.slice(1, -1)}</em>
     }
-    return part.split('\n').map((line, j, arr) => (
-      <span key={`${i}-${j}`}>
-        {line}
-        {j < arr.length - 1 && <br />}
-      </span>
-    ))
+    return part
   })
+}
+
+function BulletDot() {
+  return (
+    <span
+      aria-hidden="true"
+      className="flex-shrink-0 mt-[0.55em] w-1.5 h-1.5 rounded-full bg-slate-400"
+    />
+  )
+}
+
+function renderBlock(block: string, idx: number): ReactNode {
+  const lines = block.split('\n')
+
+  // H3 sub-heading: single line ### Heading
+  if (lines.length === 1 && /^###\s+/.test(lines[0])) {
+    return (
+      <h3 key={idx} className="text-[15px] font-semibold text-slate-800 mt-1">
+        {parseInline(lines[0].replace(/^###\s+/, ''))}
+      </h3>
+    )
+  }
+
+  // Bullet list: every line starts with ◦
+  if (lines.every(l => /^◦\s+/.test(l))) {
+    return (
+      <ul key={idx} className="space-y-2 list-none pl-0">
+        {lines.map((l, i) => (
+          <li key={i} className="flex gap-2.5">
+            <BulletDot />
+            <span className="flex-1 min-w-0">{parseInline(l.replace(/^◦\s+/, ''))}</span>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+
+  // Ordered list (1. 2. ...) with optional indented ◦ sub-bullets under
+  // the most recent numbered item.
+  if (/^\d+\.\s+/.test(lines[0] ?? '') && lines.every(l => /^\d+\.\s+/.test(l) || /^\s+◦\s+/.test(l))) {
+    const items: { text: string; children: string[] }[] = []
+    for (const line of lines) {
+      const numbered = line.match(/^\d+\.\s+(.*)$/)
+      const sub = line.match(/^\s+◦\s+(.*)$/)
+      if (numbered) items.push({ text: numbered[1], children: [] })
+      else if (sub && items.length > 0) items[items.length - 1].children.push(sub[1])
+    }
+    return (
+      <ol key={idx} className="space-y-2.5 list-none pl-0">
+        {items.map((item, i) => (
+          <li key={i} className="flex gap-2.5">
+            <span
+              aria-hidden="true"
+              className="flex-shrink-0 text-slate-500 font-medium tabular-nums min-w-[1.25rem]"
+            >
+              {i + 1}.
+            </span>
+            <div className="flex-1 min-w-0">
+              <div>{parseInline(item.text)}</div>
+              {item.children.length > 0 && (
+                <ul className="mt-2 space-y-1.5 list-none">
+                  {item.children.map((c, j) => (
+                    <li key={j} className="flex gap-2.5">
+                      <BulletDot />
+                      <span className="flex-1 min-w-0">{parseInline(c)}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </li>
+        ))}
+      </ol>
+    )
+  }
+
+  // Paragraph — soft line breaks preserved.
+  return (
+    <p key={idx} className="leading-relaxed">
+      {lines.map((line, i) => (
+        <span key={i}>
+          {parseInline(line)}
+          {i < lines.length - 1 && <br />}
+        </span>
+      ))}
+    </p>
+  )
+}
+
+function parseContent(text: string): ReactNode {
+  return text.split(/\n\n+/).map((block, i) => renderBlock(block, i))
 }
 
 function scrollToTop() {
@@ -131,9 +245,9 @@ export function ArticlePage() {
             <h2 className="text-base font-semibold text-slate-800 leading-snug">{step.tittel}</h2>
           </div>
           <div className="px-4 py-5">
-            <p className="text-sm text-slate-600 leading-relaxed">
+            <div className="text-sm text-slate-600 leading-relaxed space-y-3">
               {parseContent(step.innhold)}
-            </p>
+            </div>
             {step.bilde && (
               <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">
                 <button
