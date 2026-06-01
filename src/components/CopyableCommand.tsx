@@ -32,7 +32,7 @@ export function CopyableCommand({ text }: { text: string }) {
         type="button"
         onClick={handleCopy}
         aria-label={`Kopier kommando: ${text}`}
-        className="group inline-flex items-center gap-1.5 font-mono text-[0.85em] text-amber-900 bg-amber-50 border border-amber-200 hover:bg-amber-100 hover:border-amber-300 active:bg-amber-200 px-1.5 py-0.5 rounded transition-colors cursor-pointer touch-manipulation select-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
+        className="group inline-flex items-center justify-start gap-1.5 whitespace-nowrap font-mono text-[0.85em] text-amber-900 bg-amber-50 border border-amber-200 hover:bg-amber-100 hover:border-amber-300 active:bg-amber-200 px-1.5 py-0.5 rounded transition-colors cursor-pointer touch-manipulation select-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
       >
         <span>{text}</span>
         <span
