@@ -72,7 +72,7 @@ function renderBlock(block: string, idx: number): ReactNode {
   // Bullet list: every line starts with ◦
   if (lines.every(l => /^◦\s+/.test(l))) {
     return (
-      <ul key={idx} className="space-y-2 list-none pl-0">
+      <ul key={idx} className="space-y-1 list-none pl-0">
         {lines.map((l, i) => (
           <li key={i} className="flex gap-2.5">
             <BulletDot />
@@ -94,7 +94,7 @@ function renderBlock(block: string, idx: number): ReactNode {
       else if (sub && items.length > 0) items[items.length - 1].children.push(sub[1])
     }
     return (
-      <ol key={idx} className="space-y-2.5 list-none pl-0">
+      <ol key={idx} className="space-y-[5px] list-none pl-0">
         {items.map((item, i) => (
           <li key={i} className="flex gap-2.5">
             <span
@@ -106,7 +106,7 @@ function renderBlock(block: string, idx: number): ReactNode {
             <div className="flex-1 min-w-0">
               <div>{parseInline(item.text)}</div>
               {item.children.length > 0 && (
-                <ul className="mt-2 space-y-1.5 list-none">
+                <ul className="mt-2 space-y-[3px] list-none">
                   {item.children.map((c, j) => (
                     <li key={j} className="flex gap-2.5">
                       <BulletDot />

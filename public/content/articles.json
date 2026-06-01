@@ -60,7 +60,7 @@
         "steg": [
           {
             "tittel": "Søkemapper i Outlook: én visning, flere mapper",
-            "innhold": "Funksjonen *Søkemapper* er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterium, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\n1. Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n2. Velg en ferdig mal under **Organisere e-post**, eller **Opprett en egendefinert søkemappe** for egne kriterier. Praktiske maler å starte med:\n  ◦ **Store e-postmeldinger**\n  ◦ **Gammel e-post**\n  ◦ **E-post med vedlegg**\n3. For **Store e-postmeldinger** åpnes dialogen **E-poststørrelse**: oppgi minste størrelse i **kB**\n  ◦ **5 MB = 5120 kB**. Typisk e-post uten vedlegg: 20–75 kB\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten. Trinnene gjelder Outlook 2019.*"
+            "innhold": "Funksjonen *Søkemapper* er Outlooks kraftigste filterverktøy. De viser e-poster fra hele postboksen som matcher et kriterie, samlet på ett sted. Du sletter eller arkiverer i bulk én gang.\n\n1. Høyreklikk **Søkemapper** i mappetreet → **Ny søkemappe**\n2. Velg en ferdig mal under **Organisere e-post**, eller **Opprett en egendefinert søkemappe** for egne kriterier. Praktiske maler å starte med:\n  ◦ **Store e-postmeldinger**\n  ◦ **Gammel e-post**\n  ◦ **E-post med vedlegg**\n3. For **Store e-postmeldinger** åpnes dialogen **E-poststørrelse**: oppgi minste størrelse i **kB**\n  ◦ **5 MB = 5120 kB**. Typisk e-post uten vedlegg: 20–75 kB\n\n*Merk: søkemappen er en filtrert visning — e-postene ligger fortsatt der de var. Sletter du i søkemappen, slettes selve e-posten. Trinnene gjelder Outlook 2019.*"
           },
           {
             "tittel": "Tre andre Outlook-funksjoner: Rydd opp, Ignorer og Hurtigtrinn",
@@ -68,11 +68,11 @@
           },
           {
             "tittel": "Søk i Utforsker: Finn gamle og store filer",
-            "innhold": "1. Åpne **Utforsker** og naviger til mappen du vil rydde i. Bruk søkefeltet øverst til høyre. For eksempel:\n  ◦ **Filer endret før en dato**: `endringsdato:<01.01.2024`\n  ◦ **Gamle og store filer**: `endringsdato:<01.01.2024 størrelse:>10MB`\n  ◦ **Bestemte filtyper**: søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n2. Bytt til **detaljvisning** (Visning → Detaljer)\n3. Vis kolonnen som forteller hvor filene ligger: høyreklikk i kolonneraden, velg **Mappe**\n4. Sortér på **Endringsdato**\n5. Marker grupper med Ctrl+klikk eller Shift+klikk, og slett"
+            "innhold": "Åpne **Utforsker** og finn mappen du vil rydde i. Bruk søkefeltet øverst til høyre. Snevre inn søket f. eks slik:\n\n**Filer endret før en dato**: `endringsdato:<01.01.2024`\n**Gamle og store filer**: `endringsdato:<01.01.2024 størrelse:>10MB`\n**Bestemte filtyper**: søk på filendelsen, for eksempel *.tmp*, *.bak* eller *.zip* (ett søk per filtype)\n\n1. Bytt til **detaljvisning** (Visning → Detaljer)\n2. Høyreklikk i kolonneraden, velg **Mappe** for å se hvor filene ligger\n3. Klikk på kolonneoverskriften **Endringsdato** for å sortere i stigende/synkende rekkefølge\n4. Marker flere filer med Ctrl+klikk eller Shift+klikk, og slett"
           },
           {
             "tittel": "Trygg sletting i fire steg",
-            "innhold": "For større mengder: slett aldri mens du leter. Bruk denne rytmen i stedet:\n\n1. **Filtrér og marker**: sortér, søk og marker det som åpenbart skal bort. Ikke slett ennå.\n2. **Bekreft**: gå raskt gjennom markeringen. Fjern markering for de få du ble usikker på.\n3. **Slett**: trykk Delete. Filene flyttes til Papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke, deretter tøm papirkurven**: gir tid til å oppdage om du har slettet noe du trenger."
+            "innhold": "For større mengder: slett aldri mens du leter. Bruk denne rytmen i stedet:\n\n1. **Filtrér og marker**: søk, sortér og merk det som åpenbart skal bort. Ikke slett ennå.\n2. **Bekreft**: gå raskt gjennom markeringen. Fjern merkingen for de få du ble usikker på.\n3. **Slett**: trykk Delete. Filene flyttes til Papirkurv (eller Slettede elementer i Outlook).\n4. **Vent en uke, deretter tøm papirkurven**: gir tid til å oppdage om du har slettet noe du trenger."
           },
           {
             "tittel": "Angrefunksjoner du bør vite om",
@@ -110,7 +110,7 @@
           },
           {
             "tittel": "Finn appene i venstremenyen",
-            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardvalg er **Aktivitet**, **Chat**, **Teams**, **Kalender** og **Filer** (i OneDrive).\n\nNyttige apper å feste i tillegg:\n\n◦ **Planner**: oppgaver og planer\n◦ **Lists**: strukturerte lister og oversikter\n◦ **Loop**: levende samarbeidsdokumenter\n◦ **Copilot**: KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** (eller **Flere apper**) nederst i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å få den fast i menyen."
+            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardknapper er **Aktivitet**, **Team**, **Kalender**, **Chat**, **Samtaler**, **Kalender** etc.\n\nNyttige apper å feste i tillegg:\n\n◦ **Engage**: internt «sosialt nettverk» for kanalen\n◦ **Planner**: tavler og oppgaver\n◦ **Lists**: strukturerte lister og oversikter\n◦ **Loop**: levende komponenter og delte samarbeidsrom\n◦ **Copilot**: KI-hjelp\n\nSer du ikke en app i menyen? Klikk **Apper** nederst i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å få den fast i menyen."
           },
           {
             "tittel": "Bruk faner i kanalene",
@@ -122,7 +122,7 @@
           },
           {
             "tittel": "Når du trenger skrivebordsversjonen — Åpne i app",
-            "innhold": "Den innebygde editoren i Teams dekker det meste. Av og til trenger du den klassiske skrivebordsversjonen — typisk for makroer og Power Query i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp-/bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en — koblet til samme fil i SharePoint, så endringene lagres på samme sted\n\nDu kan også høyreklikke filen i en kanals **Filer**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: når du er ferdig, lukk bare skrivebordsappen — endringene er allerede synkronisert tilbake til SharePoint.*"
+            "innhold": "Den innebygde editoren i Teams dekker det meste. Av og til trenger du den klassiske skrivebordsversjonen — typisk for makroer og Power Query i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp-/bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en — koblet til samme fil i SharePoint, så endringene lagres på samme sted\n\nDu kan også høyreklikke filen i en kanals **Delt**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: når du er ferdig, lukk bare skrivebordsappen — endringene er allerede synkronisert tilbake til SharePoint.*"
           },
           {
             "tittel": "Hva krever likevel Edge?",
@@ -208,7 +208,7 @@
           },
           {
             "tittel": "Finn og legg til filer i Teams",
-            "innhold": "**Finn filene dine**: åpne kanalen i Teams og klikk på **Filer**-fanen øverst. Her ligger alle filer som tilhører kanalen, tilgjengelig for alle kanalmedlemmer.\n\n**Last opp**: klikk **Last opp** i Filer-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint og er umiddelbart tilgjengelig for alle i kanalen."
+            "innhold": "**Finn filene dine**: åpne kanalen i Teams og klikk på **Delt**-fanen øverst. Her ligger alle filer som tilhører kanalen, tilgjengelig for alle kanalmedlemmer.\n\n**Last opp**: klikk **Last opp** i Delt-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint og er umiddelbart tilgjengelig for alle i kanalen.\n\n*NB: fanen som viser mapper og filer i Engage-felleskap heter «Filer».*"
           },
           {
             "tittel": "Del lenke — ikke vedlegg",
@@ -1214,7 +1214,7 @@
           },
           {
             "tittel": "Maks 2–3 nivåer per kanal",
-            "innhold": "Dype mappestrukturer er en arv fra filservertida. I Teams gjør den filer vanskelige å finne — både for folk og for søk/Copilot.\n\n**Hold deg til 2–3 nivåer:** Kanal → Mappe (nivå 1) → Undermappe (nivå 2 — sjelden nødvendig).\n\nHvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet egentlig hører hjemme i en annen kanal — eller at strukturen kan flates ut."
+            "innhold": "Dype mappestrukturer er en arv fra filservertida.\n\n**Hold deg til 2–3 nivåer:** Kanal → Mappe (nivå 1) → Undermappe (nivå 2 — sjelden nødvendig). Bruk metadatafunksjonene for å gjøre dokumenter og innhold så finnbart som mulig. Både for folk og for søk/Copilot.\n\n*Hvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet egentlig hører hjemme i en annen kanal — eller at du ikke har oppdaget metadatafunksjonene ennå. Metadatastrukturen er en av de viktigste tingene organisasjonen bør enes om ved innføring av M365. Der ligger det et enormt potensiale for effektiv informasjonsforvaltning.*"
           },
           {
             "tittel": "Unngå mapper for år, personer og versjoner",
