@@ -6,7 +6,7 @@ interface FlipCardProps {
   card: FlipCardType
 }
 
-const SVG_ICONS = new Set(['places', 'copilot-studio-for-teams'])
+const SVG_ICONS = new Set(['places', 'copilot-studio-for-teams', 'copilot'])
 
 function iconSrc(name: string): string {
   const slug = name.toLowerCase().replace(/ /g, '-')
