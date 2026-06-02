@@ -48,7 +48,7 @@
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker: Finn det riktige raskt",
         "ingress": "Teknikker som rydder raskere i Outlook og Utforsker — og angrefunksjoner du bør vite om.",
-        "oppdatert": "Oppdatert: 29.05.26",
+        "oppdatert": "Oppdatert: 01.06.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -95,7 +95,7 @@
         "id": "teams-som-arbeidsflate",
         "tittel": "Teams — arbeidsflaten din i M365",
         "ingress": "Teams er ikke bare møter og chat — det er arbeidsflaten du jobber fra. Ett sted for filer, oppgaver, notater, apper — der du jobber selvstendig eller i samarbeid med andre.",
-        "oppdatert": "Oppdatert: 29.05.26",
+        "oppdatert": "Oppdatert: 01.06.26",
         "kategori": "kom-i-gang",
         "tags": [
           "teams",
@@ -193,7 +193,7 @@
         "id": "fra-filserver-til-sharepoint",
         "tittel": "SharePoint — slik er det annerledes enn en filserver",
         "ingress": "SharePoint er en samarbeidsplattform, ikke en filserver. Slik endrer det hvordan du tenker om filer.",
-        "oppdatert": "Oppdatert: 20.05.26",
+        "oppdatert": "Oppdatert: 01.06.26",
         "kategori": "kom-i-gang",
         "tags": [
           "sharepoint",
@@ -504,7 +504,7 @@
       {
         "id": "copilot-chat-inkludert",
         "tittel": "Slik bruker du Copilot Chat",
-        "ingress": "KI-chatten for skriving, oppsummering og søk — inkludert i M365 og tilgjengelig i Teams, Outlook og Edge.",
+        "ingress": "KI-chatten for skriving, oppsummering og søk — følger gratis med M365 E5, tilgjengelig i Teams, Outlook, Edge og egen app. Søk i organisasjonens dokumenter krever Microsoft 365 Copilot-lisens.",
         "oppdatert": "Oppdatert: 20.05.26",
         "kategori": "copilot",
         "tags": [
@@ -523,7 +523,7 @@
           },
           {
             "tittel": "Jobb-modus — søk i organisasjonens innhold",
-            "innhold": "Bytt til **Jobb-modus** for å søke i organisasjonens egne dokumenter, SharePoint-sider og Teams-samtaler — det du selv har tilgang til.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nI Jobb-modus ligger data innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Husk: prompts og svar i Jobb-modus kan være journalpliktige saksdokumenter — særlig når du bruker Copilot i saksbehandling.*"
+            "innhold": "Med **Microsoft 365 Copilot**-lisens får du **Jobb-modus**: søk i organisasjonens egne dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler — det du selv har tilgang til.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nI Jobb-modus ligger data innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Husk: prompts og svar i Jobb-modus kan være journalpliktige saksdokumenter — særlig når du bruker Copilot i saksbehandling.*\n\n*Uten M365 Copilot-lisens fungerer kun Nett-modus og filer du laster opp manuelt — Copilot Chat kan ikke nå inn i SharePoint, e-post eller møter.*"
           },
           {
             "tittel": "Last opp filer og still spørsmål",
@@ -555,8 +555,8 @@
         ],
         "steg": [
           {
-            "tittel": "Når passer Copilot Studio for Teams?",
-            "innhold": "Bruk Copilot Studio for Teams når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen — for eksempel:\n\n◦ **HR-FAQ**: åpningstider, fridager, sykemelding\n◦ **IT-helpdesk**: tilbakestille passord, melde feil, bestille utstyr\n◦ **Onboarding**: gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter — bruk Copilot Chat i Jobb-modus i stedet."
+            "tittel": "Når passer en regelbasert chatbot?",
+            "innhold": "Bruk Copilot Studio når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen — for eksempel:\n\n◦ **HR-FAQ**: åpningstider, fridager, sykemelding\n◦ **IT-helpdesk**: tilbakestille passord, melde feil, bestille utstyr\n◦ **Onboarding**: gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter — bruk Copilot Chat i Jobb-modus i stedet.\n\n*Med M365 E5 får du den klassiske, regelbaserte versjonen som publiseres til Teams. Fra 30. juni 2026 lages nye chatboter i web-appen på copilotstudio.microsoft.com — Teams-appen redirigerer dit.*"
           },
           {
             "tittel": "Åpne Copilot Studio og velg team",
@@ -588,7 +588,7 @@
           },
           {
             "tittel": "Dette krever tillegg",
-            "innhold": "Chatbotten du bygger via Teams-eierskapet har disse rammene:\n\n◦ **Regelbasert**: den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller større datamengder kreves Copilot Studio som tillegg — eller en Microsoft 365 Copilot-lisens, som siden slutten av 2025 inkluderer fullt Copilot Studio for interne, lisensierte brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Du bygger nye på* [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com)."
+            "innhold": "Versjonen som følger med M365 E5 har disse rammene:\n\n◦ **Regelbasert**: den svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller premium-koblinger kreves full Copilot Studio — som tillegg med egen lisens eller forbruksbaserte **Copilot Credits**, eller via Microsoft 365 Copilot-lisensen som siden september 2025 inkluderer full Copilot Studio for interne brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Nye lages på* [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com) *— Teams-appen redirigerer dit fra 30. juni 2026.*"
           }
         ],
         "relaterte": [
@@ -626,11 +626,11 @@
           },
           {
             "tittel": "I Outlook: hjelp med innboksen og kalenderen",
-            "innhold": "Copilot i Outlook tar over mye av rutinearbeidet:\n\n◦ **Prioritering**: løfter frem e-post som krever svar\n◦ **Utkast til svar**: Copilot foreslår, du justerer før du sender\n◦ **Foreslåtte regler**: Copilot ser mønstre og foreslår regler som rydder automatisk\n◦ **Møtesammendrag** etter Teams-møter — handlingspunkter går rett til To Do og Planner\n◦ **Smartere møteplanlegging**: foreslår tidspunkter basert på tidligere oppmøte og arbeidssted\n◦ **Agent-modus**: Copilot kan håndtere lengre kjeder av e-postoppgaver selvstendig, uten at du følger med på hvert steg"
+            "innhold": "Copilot i Outlook tar over mye av rutinearbeidet:\n\n◦ **Prioritering**: løfter frem e-post som krever svar\n◦ **Utkast til svar**: Copilot foreslår, du justerer før du sender\n◦ **Foreslåtte regler**: Copilot ser mønstre og foreslår regler som rydder automatisk\n◦ **Møtesammendrag** etter Teams-møter — handlingspunkter går rett til To Do og Planner\n◦ **Smartere møteplanlegging**: foreslår tidspunkter basert på tidligere oppmøte og arbeidssted\n◦ **Agent-modus** (rulles ut via Frontier-programmet): Copilot håndterer lengre kjeder av e-postoppgaver selvstendig — du ser hva den gjør og kan gripe inn"
           },
           {
             "tittel": "I Teams-møter: Facilitator tar notater og holder agenda",
-            "innhold": "**Facilitator** er en Copilot-agent du kan legge til i et Teams-møte. Den:\n\n◦ **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n◦ **Holder agendaen** og minner om hvor mye tid som er igjen\n◦ **Henter beslutninger og handlingspunkter** og lagrer dem i Loop\n◦ **Svarer på spørsmål** uten å avbryte flyten\n◦ **Sender en høflig påminnelse** i chat hvis en invitert deltaker ikke har dukket opp etter at navnet er nevnt to ganger\n\nEtter møtet legger Copilot møtesammendraget med handlingspunkter rett i To Do og Planner — du slipper å taste dem inn manuelt."
+            "innhold": "**Facilitator** er en Copilot-agent du kan legge til i planlagte Teams-møter (ikke kanal- eller direktemøter). Den:\n\n◦ **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n◦ **Holder agendaen** og minner om hvor mye tid som er igjen\n◦ **Henter beslutninger og handlingspunkter** og lagrer dem i Loop\n◦ **Svarer på spørsmål** i møtechatten — synlig for alle deltakerne\n\nEtter møtet legger Copilot møtesammendraget med handlingspunkter rett i To Do og Planner — du slipper å taste dem inn manuelt."
           },
           {
             "tittel": "I OneNote, Whiteboard, Forms, Loop og Clipchamp",
@@ -638,11 +638,11 @@
           },
           {
             "tittel": "Egne flater: Pages, Notebooks og Cowork",
-            "innhold": "Microsoft 365 Copilot gir deg tre egne arbeidsflater:\n\n### Copilot Pages\n\nEn delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer, lette dashbord og små apper bygd via Work IQ. Du kan åpne den videre i App Builder.\n\n### Copilot Notebooks\n\nEn samling kilder du selv velger: filer, Teams-kanaler og eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n### Copilot Cowork\n\nGi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Du mister ikke flyten mens du venter."
+            "innhold": "Microsoft 365 Copilot gir deg tre egne arbeidsflater:\n\n### Copilot Pages\n\nEn delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer og lette dashbord. Du kan utvikle siden videre til en full app i **App Builder** (Frontier-program).\n\n### Copilot Notebooks\n\nEn samling kilder du selv velger: filer, Teams-kanaler, møter og eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n### Copilot Cowork\n\nGi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Du mister ikke flyten mens du venter. Generelt tilgjengelig for alle med M365 Copilot-lisens siden 1. mai 2026."
           },
           {
             "tittel": "Agenter: bygg, godkjenn og publiser",
-            "innhold": "Microsoft 365 Copilot gir deg **avansert Agent Builder**, med admin-godkjenning før agenten publiseres. De godkjente agentene blir tilgjengelige for hele organisasjonen i Agent Store.\n\n◦ I **SharePoint** kan **AI i SharePoint** bygge sider, lister og biblioteker ut fra det du beskriver i klartekst — og foreslå metadata automatisk\n◦ I **Planner** kan **Project Manager-agent** trekke ut beslutninger fra Teams-møtenotater og lage en tidsplan baklengs fra fristen\n◦ Agentene får identitet i Entra ID og logges i Purview — på lik linje med brukere\n◦ Avansert agent-styring (DSPM, DLP og Insider Risk Management) for agentene"
+            "innhold": "Microsoft 365 Copilot gir deg **avansert Agent Builder**, med admin-godkjenning før agenten publiseres. De godkjente agentene blir tilgjengelige for hele organisasjonen i Agent Store.\n\n◦ I **SharePoint** kan **Copilot i SharePoint** bygge sider, lister og biblioteker ut fra det du beskriver i klartekst — og foreslå metadata automatisk\n◦ I **Planner** kan **Planner-agent** trekke ut beslutninger fra Teams-møtenotater og lage en tidsplan baklengs fra fristen\n◦ Agentene får identitet i Entra ID og logges i Purview — på lik linje med brukere\n◦ Avansert agent-styring (DSPM, DLP og Insider Risk Management) for agentene"
           },
           {
             "tittel": "På tvers: når funksjonene jobber sammen",
@@ -658,7 +658,7 @@
           "copilot-studio-for-teams-bygge-chatbot",
           "folsomhetsetiketter"
         ],
-        "notat": "NB: Microsoft 365 Copilot er ikke inkludert i E3/E5-planen."
+        "notat": "NB: Microsoft 365 Copilot er ikke inkludert i M365 E5 — krever egen lisens per bruker som tillegg."
       }
     ]
   },
@@ -1229,7 +1229,7 @@
             "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n◦ «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n◦ «Nye», «Gamle», «Kommer», «Til vurdering»\n◦ Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n◦ Beskriver hva som faktisk ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n◦ Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n◦ Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år — vil hen forstå hva som ligger der?"
           }
         ],
-        "oppdatert": "Oppdatert: 21.05.26",
+        "oppdatert": "Oppdatert: 01.06.26",
         "relaterte": [
           "teams-hierarki",
           "fra-filserver-til-sharepoint",

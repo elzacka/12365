@@ -1,9 +1,8 @@
 import { useState, useMemo, use } from 'react'
-import { fetchLicenseComparison } from '../data/loader'
+import { fetchE5LicenseOverview } from '../data/loader'
 import {
   CheckIcon,
   PlusIcon,
-  MinusIcon,
   SearchIcon,
   CloseIcon,
   ChevronRightIcon,
@@ -11,12 +10,11 @@ import {
 } from '../components/Icons'
 import type { LicenseFeature, LicenseStatus } from '../types'
 
-type FilterId = 'alle' | 'e3' | 'e5' | 'tillegg'
+type FilterId = 'alle' | 'inkludert' | 'tillegg'
 
 const FILTERS: { id: FilterId; label: string }[] = [
   { id: 'alle', label: 'Alle' },
-  { id: 'e3', label: 'E3' },
-  { id: 'e5', label: 'E5' },
+  { id: 'inkludert', label: 'Inkludert' },
   { id: 'tillegg', label: 'Tilleggskjøp' },
 ]
 
@@ -38,90 +36,52 @@ const STATUS_CONFIG: Record<
     Icon: PlusIcon,
     label: 'Tilleggskjøp',
   },
-  ikke: {
-    bg: 'bg-slate-100',
-    text: 'text-slate-400',
-    ring: 'ring-slate-200',
-    Icon: MinusIcon,
-    label: 'Ikke inkludert',
-  },
 }
 
-function passesFilter(f: LicenseFeature, active: Set<FilterId>): boolean {
-  if (active.has('alle')) return true
-  if (active.has('e3') && f.e3 === 'inkludert') return true
-  if (active.has('e5') && f.e5 === 'inkludert') return true
-  if (active.has('tillegg') && (f.e3 === 'tillegg' || f.e5 === 'tillegg')) return true
-  return false
+function passesFilter(f: LicenseFeature, active: FilterId): boolean {
+  if (active === 'alle') return true
+  return f.status === active
 }
 
-function StatusBadge({ status, license }: { status: LicenseStatus; license: 'E3' | 'E5' }) {
+function StatusBadge({ status }: { status: LicenseStatus }) {
   const k = STATUS_CONFIG[status]
   const { Icon } = k
   return (
-    <div className="flex items-center gap-1.5">
-      <span className="text-[11px] font-semibold text-slate-500 w-5 text-right tabular-nums">{license}</span>
-      <span
-        className={`inline-flex items-center justify-center w-6 h-6 rounded-full ${k.bg} ${k.text} ring-1 ${k.ring}`}
-        aria-label={`${license}: ${k.label}`}
-        title={`${license}: ${k.label}`}
-      >
-        <Icon size={13} />
-      </span>
-    </div>
+    <span
+      className={`inline-flex items-center justify-center w-6 h-6 rounded-full ${k.bg} ${k.text} ring-1 ${k.ring}`}
+      aria-label={k.label}
+      title={k.label}
+    >
+      <Icon size={13} />
+    </span>
   )
 }
 
 export function Licenses() {
-  const data = use(fetchLicenseComparison())
-  const [activeFilters, setActiveFilters] = useState<Set<FilterId>>(new Set(['alle']))
+  const data = use(fetchE5LicenseOverview())
+  const [activeFilter, setActiveFilter] = useState<FilterId>('alle')
   const [query, setQuery] = useState('')
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const [activeFeature, setActiveFeature] = useState<string | null>(null)
 
   const normalizedQuery = query.trim().toLowerCase()
-  const isFiltered = !activeFilters.has('alle') || normalizedQuery.length > 0
-  const showE3Badge = activeFilters.has('alle') || activeFilters.has('e3') || activeFilters.has('tillegg')
-  const showE5Badge = activeFilters.has('alle') || activeFilters.has('e5') || activeFilters.has('tillegg')
+  const isFiltered = activeFilter !== 'alle' || normalizedQuery.length > 0
 
   const filteredCategories = useMemo(() => {
     return data.kategorier
       .map(cat => ({
         ...cat,
-        funksjoner: cat.funksjoner.filter(f => {
-          // Hide features irrelevant for E3 or E5 (better alternative already included,
-          // e.g. Exchange Plan 1 and SharePoint Plan 1 — Plan 2 follows).
-          if (f.e3 === 'ikke' && f.e5 === 'ikke') return false
-          return passesFilter(f, activeFilters) && (normalizedQuery ? f.navn.toLowerCase().includes(normalizedQuery) : true)
-        }),
+        funksjoner: cat.funksjoner.filter(f =>
+          passesFilter(f, activeFilter) &&
+          (normalizedQuery ? f.navn.toLowerCase().includes(normalizedQuery) : true)
+        ),
       }))
       .filter(cat => cat.funksjoner.length > 0)
-  }, [data, activeFilters, normalizedQuery])
+  }, [data, activeFilter, normalizedQuery])
 
-  function toggleFilter(id: FilterId) {
-    setActiveFilters(prev => {
-      // Clicking «Alle» resets everything.
-      if (id === 'alle') return new Set<FilterId>(['alle'])
-
-      const next = new Set(prev)
-      next.delete('alle')
-
-      if (id === 'e3' || id === 'e5') {
-        // E3 and E5 are mutually exclusive.
-        if (next.has(id)) {
-          next.delete(id)
-        } else {
-          next.add(id)
-          next.delete(id === 'e3' ? 'e5' : 'e3')
-        }
-      } else if (id === 'tillegg') {
-        if (next.has('tillegg')) next.delete('tillegg')
-        else next.add('tillegg')
-      }
-
-      if (next.size === 0) return new Set<FilterId>(['alle'])
-      return next
-    })
+  function reset() {
+    setActiveFilter('alle')
+    setQuery('')
   }
 
   function toggleCategory(id: string) {
@@ -132,11 +92,6 @@ export function Licenses() {
       else next.add(id)
       return next
     })
-  }
-
-  function reset() {
-    setActiveFilters(new Set<FilterId>(['alle']))
-    setQuery('')
   }
 
   return (
@@ -185,11 +140,11 @@ export function Licenses() {
         {/* Filter chips */}
         <div className="flex gap-2 overflow-x-auto pb-2 mb-4 hide-scrollbar -mx-4 px-4">
           {FILTERS.map(f => {
-            const isActive = activeFilters.has(f.id)
+            const isActive = activeFilter === f.id
             return (
               <button
                 key={f.id}
-                onClick={() => toggleFilter(f.id)}
+                onClick={() => setActiveFilter(f.id)}
                 className={`flex-shrink-0 px-3.5 py-2 rounded-full text-xs font-medium transition-all ${
                   isActive
                     ? 'bg-brand-700 text-white shadow-sm'
@@ -276,10 +231,7 @@ export function Licenses() {
                                   disabled={!hasDescription}
                                 >
                                   <div className="flex-1 text-sm text-slate-700 leading-snug">{f.navn}</div>
-                                  <div className="flex flex-col gap-1 flex-shrink-0">
-                                    {showE3Badge && <StatusBadge status={f.e3} license="E3" />}
-                                    {showE5Badge && <StatusBadge status={f.e5} license="E5" />}
-                                  </div>
+                                  <StatusBadge status={f.status} />
                                 </button>
                                 {isActive && f.beskrivelse && (
                                   <div
@@ -326,7 +278,7 @@ export function Licenses() {
                 <CheckIcon size={13} />
               </span>
               <span>
-                <strong>Inkludert</strong> — følger med lisensen
+                <strong>Inkludert</strong> — følger med M365 E5
               </span>
             </li>
             <li className="flex items-center gap-2.5">
@@ -334,15 +286,7 @@ export function Licenses() {
                 <PlusIcon size={13} />
               </span>
               <span>
-                <strong>Tilleggskjøp</strong> — tilgjengelig som tillegg
-              </span>
-            </li>
-            <li className="flex items-center gap-2.5">
-              <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-slate-100 text-slate-400 ring-1 ring-slate-200 flex-shrink-0">
-                <MinusIcon size={13} />
-              </span>
-              <span>
-                <strong>Ikke inkludert</strong> — ikke tilgjengelig
+                <strong>Tilleggskjøp</strong> — tilgjengelig som tillegg til M365 E5
               </span>
             </li>
           </ul>

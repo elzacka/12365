@@ -1,0 +1,380 @@
+{
+  "kilde": "Microsoft — Modern Work Plan Comparison Enterprise (1/5-26)",
+  "kildeUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-Enterprise-5-1-2026.pdf",
+  "tema": [
+    { "id": "ki", "navn": "KI og agenter", "beskrivelse": "Copilot, agent-observasjon, agent-styring og agent-sikkerhet" },
+    { "id": "apper", "navn": "Apper og samarbeid", "beskrivelse": "M365-apper, e-post, møter, lagring, innhold, Viva og automatisering" },
+    { "id": "compliance", "navn": "Sikkerhet, compliance og enheter", "beskrivelse": "Enhetsstyring, Defender, identitet, DLP, eDiscovery, etiketter, innsiderisiko og Windows" }
+  ],
+  "kategorier": [
+    {
+      "id": "copilot",
+      "navn": "Copilot",
+      "tema": "ki",
+      "funksjoner": [
+        { "navn": "Copilot Chat", "status": "inkludert", "beskrivelse": "Gratis KI-chat med Enterprise Data Protection. Søk på internett (Nett-modus), last opp filer manuelt og få utkast eller oppsummeringer. Søk i organisasjonens egne dokumenter, e-post og møter krever Microsoft 365 Copilot-lisens." },
+        { "navn": "Microsoft 365 Copilot", "status": "tillegg", "beskrivelse": "KI inne i Word, Excel, PowerPoint, Outlook og Teams-møter — utkast, oppsummeringer, automatiske møtenotater og handlingspunkter. Låser opp Jobb-modus i Copilot Chat, full Copilot Studio, og egne flater som Pages, Notebooks og Cowork. Egen lisens per bruker som tillegg." },
+        { "navn": "Microsoft Security Copilot", "status": "inkludert", "beskrivelse": "KI-assistent for sikkerhetsteam som hjelper med trusselanalyse, hendelseshåndtering og etterforskning. E5 inkluderer 400 SCU per måned per 1000 brukerlisenser." }
+      ]
+    },
+    {
+      "id": "agent-observasjon",
+      "navn": "Agent-observasjon",
+      "tema": "ki",
+      "funksjoner": [
+        { "navn": "Agent Identity", "status": "inkludert", "beskrivelse": "Hver KI-agent får en unik identitet i Entra ID, slik at den kan styres og spores som en bruker." },
+        { "navn": "Agent Registry", "status": "inkludert", "beskrivelse": "Sentralt register over alle KI-agenter i organisasjonen." },
+        { "navn": "Basic agent usage insights", "status": "inkludert", "beskrivelse": "Grunnleggende statistikk over hvilke agenter som brukes og hvor mye." },
+        { "navn": "Advanced agent usage insights", "status": "inkludert", "beskrivelse": "Detaljert innsikt i agentbruk, ytelse og kostnader over tid." },
+        { "navn": "Agent map", "status": "inkludert", "beskrivelse": "Visuell oversikt over agentenes relasjoner, datakilder og avhengigheter." },
+        { "navn": "Registry sync", "status": "inkludert", "beskrivelse": "Automatisk synkronisering av agentregisteret på tvers av miljøer og tenants." },
+        { "navn": "Graph API for agenter", "status": "inkludert", "beskrivelse": "Programmatisk tilgang til agentdata via Microsoft Graph for egen integrasjon og rapportering." }
+      ]
+    },
+    {
+      "id": "agent-styring",
+      "navn": "Agent-styring",
+      "tema": "ki",
+      "funksjoner": [
+        { "navn": "Agent Identity Governance", "status": "inkludert", "beskrivelse": "Styring av identiteten og tilgangen agenter har til ressurser." },
+        { "navn": "Lifecycle management for agents", "status": "inkludert", "beskrivelse": "Håndtering av agenter fra opprettelse til avvikling, inkludert eierskifte og tilbaketrekking." },
+        { "navn": "Admin agent governance actions", "status": "inkludert", "beskrivelse": "Administratorhandlinger som å sette på pause, deaktivere eller slette agenter." },
+        { "navn": "Automate agent lifecycle actions", "status": "inkludert", "beskrivelse": "Automatisering av regelmessige handlinger i agentens livssyklus." },
+        { "navn": "Tool controls for agents", "status": "inkludert", "beskrivelse": "Kontroll over hvilke verktøy og tilkoblinger agenter har lov til å bruke." },
+        { "navn": "Policy templates for agents", "status": "inkludert", "beskrivelse": "Ferdigsatte regelsett som kan brukes på agenter for konsistent styring." },
+        { "navn": "Audit logs and eDiscovery for agent activity", "status": "inkludert", "beskrivelse": "Komplett logg over alt agenter gjør — søkbar i Microsoft Purview." },
+        { "navn": "Data Lifecycle Management for agent data", "status": "inkludert", "beskrivelse": "Oppbevarings- og slettingsregler for data agenter genererer." },
+        { "navn": "Communication compliance for agents", "status": "inkludert", "beskrivelse": "Overvåkning av at agentkommunikasjon overholder retningslinjer og regelverk." }
+      ]
+    },
+    {
+      "id": "agent-sikkerhet",
+      "navn": "Agent-sikkerhet",
+      "tema": "ki",
+      "funksjoner": [
+        { "navn": "Data Security Posture Management (DSPM) for agenter", "status": "inkludert", "beskrivelse": "Oversikt over hvilke følsomme data agenter har tilgang til, og hvilke risikoer det skaper." },
+        { "navn": "Insider Risk Management for agenter", "status": "inkludert", "beskrivelse": "Oppdager risikofylt eller mistenkelig oppførsel hos agenter — datatyveri, datalekkasje, sabotasje." },
+        { "navn": "Arver og overholder følsomhetsetiketter", "status": "inkludert", "beskrivelse": "Agenter respekterer følsomhetsetiketter på data de behandler — kryptering og tilgang følger etiketten." },
+        { "navn": "Data loss prevention (DLP) for agenter", "status": "inkludert", "beskrivelse": "Hindrer at agenter lekker eller deler sensitiv informasjon utenfor godkjente kanaler." },
+        { "navn": "Conditional access og identity protection for agenter", "status": "inkludert", "beskrivelse": "Risikovurdering og betinget tilgang for agenter, ikke bare brukere." },
+        { "navn": "Secure Access Service Edge (SASE) for agenter", "status": "inkludert", "beskrivelse": "Sikker nettverkstilgang for agenter via Microsoft Entra Internet Access og Private Access." },
+        { "navn": "Device compliance for agent conditional access", "status": "inkludert", "beskrivelse": "Krever at enhetene agentene kjører på oppfyller compliance-krav før tilgang gis." },
+        { "navn": "Policykontrollert miljø for agent-kjøretid", "status": "inkludert", "beskrivelse": "Sandkasse-lignende miljø der agenter kjører under definerte regler og begrensninger." },
+        { "navn": "Blokker usanksjonerte lokale endepunkt-agenter", "status": "inkludert", "beskrivelse": "Hindrer at uautoriserte agenter installeres eller kjører på enheter." },
+        { "navn": "Oppdagelse av KI på endepunkter", "status": "inkludert", "beskrivelse": "Defender oppdager når KI-tjenester brukes på endepunktene — også tjenester organisasjonen ikke har sanksjonert." },
+        { "navn": "Agent Security Posture Management", "status": "inkludert", "beskrivelse": "Helhetlig overvåkning av sikkerhetsstatus for hele agent-flåten." },
+        { "navn": "Threat Detection and Blocking for agenter", "status": "inkludert", "beskrivelse": "Aktiv blokkering av angrep mot eller via agenter i sanntid." },
+        { "navn": "Threat Hunting and Investigation for agenter", "status": "inkludert", "beskrivelse": "Verktøy for å lete etter og etterforske trusler knyttet til agenter." }
+      ]
+    },
+    {
+      "id": "m365-apper",
+      "navn": "M365-apper",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Skrivebordsapper (Outlook, Word, Excel, PowerPoint, OneNote, Access (PC), Publisher (PC))", "status": "inkludert", "beskrivelse": "Fullversjonene av Outlook, Word, Excel, PowerPoint, OneNote, Access (kun Windows) og Publisher (kun Windows) installert lokalt. Microsoft Publisher pensjoneres 1. oktober 2026 og fjernes fra Microsoft 365 — eksisterende .pub-filer bør konverteres til PDF eller Word i god tid før."  },
+        { "navn": "Microsoft 365 for mobil", "status": "inkludert", "beskrivelse": "Apper for iOS og Android med samme dokumenter, kalender og e-post som på PC." },
+        { "navn": "Installasjon på 5 PC/Mac + 5 nettbrett + 5 mobiler", "status": "inkludert", "beskrivelse": "Hver bruker kan installere på opptil 5 PC/Mac, 5 nettbrett og 5 mobiler." },
+        { "navn": "Microsoft 365 for web", "status": "inkludert", "beskrivelse": "Word, Excel, PowerPoint og andre apper som kjører i nettleseren — ingen installasjon nødvendig." },
+        { "navn": "Visio for web", "status": "inkludert", "beskrivelse": "Diagrammer og flytkart i nettleseren — uten desktop-installasjon." },
+        { "navn": "Loop-komponenter og sider", "status": "inkludert", "beskrivelse": "Levende innholdsbiter som kan deles og redigeres synkront på tvers av Teams, Word og Outlook." },
+        { "navn": "Loop-arbeidsområder (Workspaces)", "status": "inkludert", "beskrivelse": "Felles rom for prosjekter med sider, oppgaver og data samlet på ett sted." },
+        { "navn": "Loop-bidrag (komponenter, sider, arbeidsområder)", "status": "inkludert", "beskrivelse": "Lag, rediger og bidra til alt Loop-innhold uten begrensninger." },
+        { "navn": "Microsoft Clipchamp", "status": "inkludert", "beskrivelse": "Videoplattformen i M365 — opptak (skjerm, kamera, lyd), redigering med maler, overganger og KI-effekter, automatisk transkripsjon, kapittelinndeling, søk i videoinnhold og avspilling i Teams, Outlook og SharePoint. Videoer lagres i OneDrive og SharePoint." },
+        { "navn": "Microsoft Editor premium-funksjoner", "status": "inkludert", "beskrivelse": "Avansert språkhjelp i Word og Outlook — klarspråk-forslag, tone, omformulering og inkluderende språk." },
+        { "navn": "Flerspråklig brukergrensesnitt for Microsoft 365-apper", "status": "inkludert", "beskrivelse": "Bytt visningsspråk i M365-appene mellom flere språk for samme bruker." },
+        { "navn": "Microsoft Whiteboard", "status": "inkludert", "beskrivelse": "Digital tavle for samarbeid, idémyldring og workshops — fungerer i Teams-møter og som egen app." },
+        { "navn": "Microsoft Sway", "status": "inkludert", "beskrivelse": "Digital historiefortelling — visuelle, responsive presentasjoner og rapporter som kan deles som lenke. Brukes i nettleseren på sway.cloud.microsoft (Windows-skrivebordsappen pensjoneres 1. juni 2026)." }
+      ]
+    },
+    {
+      "id": "epost-kalender",
+      "navn": "E-post og kalender",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Exchange Plan 2 (100 GB postboks + 1,5 TB arkiv)", "status": "inkludert", "beskrivelse": "100 GB postboks med automatisk utvidende arkivering opp til 1,5 TB." },
+        { "navn": "Kalender", "status": "inkludert", "beskrivelse": "Outlook-kalenderen med møter, ressurser, delegering og deling." },
+        { "navn": "Outlook skrivebordsklient", "status": "inkludert", "beskrivelse": "Den fullstendige Outlook-versjonen for Windows og Mac — også offline." },
+        { "navn": "Auto-utvidende e-postarkiv", "status": "inkludert", "beskrivelse": "Arkivet vokser automatisk når det fylles opp — ingen manuell oppgradering." },
+        { "navn": "Innebygd sikkerhet for skymeldinger", "status": "inkludert", "beskrivelse": "Grunnsikring mot søppelpost, virus og kjente trusler i e-post." },
+        { "navn": "Offentlige mapper (Public folders)", "status": "inkludert", "beskrivelse": "Delte mapper for e-post og dokumenter — eldre samarbeidsmodell, fortsatt støttet." },
+        { "navn": "Ressurspostbokser", "status": "inkludert", "beskrivelse": "Postbokser knyttet til møterom, utstyr og delte ressurser for booking." },
+        { "navn": "Inaktive postbokser", "status": "inkludert", "beskrivelse": "Bevart innhold etter at en bruker er fjernet, for compliance og oppslag." },
+        { "navn": "Microsoft Shifts", "status": "inkludert", "beskrivelse": "Vaktplanlegging og bytteforespørsler for skiftarbeidere — direkte i Teams." },
+        { "navn": "Microsoft Bookings", "status": "inkludert", "beskrivelse": "Selvbetjent møtebooking for kunder eller innbyggere mot ledige tider i kalenderen." }
+      ]
+    },
+    {
+      "id": "moter-tale",
+      "navn": "Møter og tale",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Microsoft Teams", "status": "inkludert", "beskrivelse": "Plattformen for chat, kanaler, møter og samarbeid — den primære arbeidsflaten i M365." },
+        { "navn": "Ubegrenset chat", "status": "inkludert", "beskrivelse": "Ingen tak på antall meldinger eller historikk." },
+        { "navn": "Online møter", "status": "inkludert", "beskrivelse": "Videomøter med opptil 1000 interaktive deltakere. Når møtet overstiger 1000, blir resten med i view-only-modus opp til 10 000 totalt — med chat, deling og opptak." },
+        { "navn": "Town hall", "status": "inkludert", "beskrivelse": "Storarrangementer for hele organisasjonen — opptil 20 000 deltakere med Q&A og oversettelse." },
+        { "navn": "Webinarer", "status": "inkludert", "beskrivelse": "Strukturerte påmeldingsbaserte arrangementer med registrering, påminnelser og oppfølging." },
+        { "navn": "Immersive Events (Mesh)", "status": "inkludert", "beskrivelse": "3D-møterom hvor deltakere møtes som avatarer — for opplevelser som workshops og messer." },
+        { "navn": "Avatarer for Teams", "status": "inkludert", "beskrivelse": "Bruk en animert avatar i stedet for kamera i møter." },
+        { "navn": "Skjermdeling og egne bakgrunner", "status": "inkludert", "beskrivelse": "Del skjermen og bytt bakgrunn med uskarphet eller egne bilder." },
+        { "navn": "Møteopptak", "status": "inkludert", "beskrivelse": "Ta opp møter med video og transkript — opptaket lagres automatisk i OneDrive eller SharePoint." },
+        { "navn": "Prioritetsvarsler", "status": "inkludert", "beskrivelse": "Brytende viktige meldinger som varsler mottaker selv ved «Ikke forstyrr»." },
+        { "navn": "Teams Phone Standard (Telefonsystem)", "status": "inkludert", "beskrivelse": "Telefonsystem i Teams — ringe ut og motta samtaler med ekte telefonnummer (krever Calling Plan eller Operator Connect i tillegg for utgående PSTN-trafikk)." },
+        { "navn": "Audio Conferencing", "status": "inkludert", "beskrivelse": "Ringe inn til Teams-møter med vanlig telefonnummer fra hvor som helst." }
+      ]
+    },
+    {
+      "id": "lagring-intranett",
+      "navn": "Lagring og intranett",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "SharePoint Plan 2 (1 TB+ lagring)", "status": "inkludert", "beskrivelse": "1 TB+ lagring per organisasjon med avansert søk, sider og kolleksjoner. Inkluderer 1+ TB OneDrive-lagring per bruker." }
+      ]
+    },
+    {
+      "id": "innholdstjenester",
+      "navn": "Innholdstjenester",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Microsoft Graph API", "status": "inkludert", "beskrivelse": "Programmerbart grensesnitt mot all data og funksjonalitet i Microsoft 365." },
+        { "navn": "Microsoft Search", "status": "inkludert", "beskrivelse": "Felles søk på tvers av e-post, dokumenter, sider, personer og chatter." },
+        { "navn": "Microsoft Forms", "status": "inkludert", "beskrivelse": "Spørreundersøkelser, quizer og enkle påmeldingsskjemaer." },
+        { "navn": "Microsoft Lists", "status": "inkludert", "beskrivelse": "Strukturerte lister og enkle saksbehandlingsløsninger uten kode." }
+      ]
+    },
+    {
+      "id": "places",
+      "navn": "Places",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "In-person events, Hybrid RSVP, Places card, Work plans, Workplace presence", "status": "inkludert", "beskrivelse": "Hybrid arbeidsstyring — booking av plasser, parkering og koordinering på kontoret." },
+        { "navn": "Places Explorer", "status": "inkludert", "beskrivelse": "Se hvilke kolleger som er på kontoret og når." },
+        { "navn": "Places Finder", "status": "inkludert", "beskrivelse": "Finn ledige rom, plasser og ressurser basert på kalenderen." }
+      ]
+    },
+    {
+      "id": "analyse",
+      "navn": "Analyse",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Adoption Score", "status": "inkludert", "beskrivelse": "Måler hvor godt organisasjonen tar i bruk M365-funksjonene — med konkrete forslag til forbedringer." },
+        { "navn": "Secure Score", "status": "inkludert", "beskrivelse": "Sikkerhetsstatus med konkrete forslag til forbedringer og prioritering av tiltak." },
+        { "navn": "Compliance Management", "status": "inkludert", "beskrivelse": "Rammeverk for å spore samsvar med lover og standarder (GDPR, ISO 27001, NIS2 m.fl.)." },
+        { "navn": "Power BI Pro", "status": "inkludert", "beskrivelse": "Lag, del og publiser interaktive datadashbord — Pro-lisens for full deling." }
+      ]
+    },
+    {
+      "id": "prosjekt-oppgaver",
+      "navn": "Prosjekt og oppgaver",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Microsoft Planner", "status": "inkludert", "beskrivelse": "Visuell oppgavebehandling med tavler og kort — direkte i Teams." },
+        { "navn": "Microsoft To Do", "status": "inkludert", "beskrivelse": "Personlig oppgaveliste — samler oppgaver fra Planner og flaggede e-poster." }
+      ]
+    },
+    {
+      "id": "viva-learning",
+      "navn": "Viva Learning",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Viva Learning i Teams", "status": "inkludert", "beskrivelse": "Læringsplattform integrert i Teams." },
+        { "navn": "Lag læringsfaner i Teams-kanaler", "status": "inkludert", "beskrivelse": "Legg læringsinnhold som fane i en Teams-kanal for hele teamet." },
+        { "navn": "Søk, del og chat om læringsinnhold", "status": "inkludert", "beskrivelse": "Søk i kursbiblioteket, del kurs med kolleger og diskuter innhold." },
+        { "navn": "Microsoft Learn og M365 Training-bibliotek + 125 LinkedIn-kurs", "status": "inkludert", "beskrivelse": "Tilgang til M365-bibliotek og 125 utvalgte LinkedIn Learning-kurs." },
+        { "navn": "Eget innhold via SharePoint og Viva Learning", "status": "inkludert", "beskrivelse": "Publiser organisasjonens egne kurs og opplæringsmateriell i Viva Learning." }
+      ]
+    },
+    {
+      "id": "viva-insights",
+      "navn": "Viva Insights",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Viva Insights — app i Teams", "status": "inkludert", "beskrivelse": "Viva Insights tilgjengelig som app i Teams-grensesnittet." },
+        { "navn": "Personlig innsikt og opplevelser", "status": "inkludert", "beskrivelse": "Innsikt i egen arbeidshverdag — fokustid, møtebelastning, pauser og koblings-til-jobb-mønster." },
+        { "navn": "Premium personlig innsikt og opplevelser", "status": "inkludert", "beskrivelse": "Avansert KI-basert coaching: Shorten a meeting, Delay delivery plan, Track open rate inline-forslag." }
+      ]
+    },
+    {
+      "id": "viva-engage",
+      "navn": "Viva Engage",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Communities, Conversations, and Storyline", "status": "inkludert", "beskrivelse": "Internt sosialt nettverk — fellesskap, samtaler og storytelling på tvers av organisasjonen." },
+        { "navn": "Advanced Security", "status": "inkludert", "beskrivelse": "Avansert sikkerhet for Viva Engage: Leadership Corner, AMAs, Storyline Delegate Posting og advanced analytics (krever Viva Suite-tillegg for full bruk)." }
+      ]
+    },
+    {
+      "id": "viva-connection",
+      "navn": "Viva Connection",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Dashboard, Feed, Resources, Teams app", "status": "inkludert", "beskrivelse": "Tilpasset dashbord med nyheter, ressurser og snarveier — direkte i Teams." }
+      ]
+    },
+    {
+      "id": "automatisering",
+      "navn": "Automatisering",
+      "tema": "apper",
+      "funksjoner": [
+        { "navn": "Power Apps for Microsoft 365", "status": "inkludert", "beskrivelse": "Lag enkle apper som kobler seg mot M365-data via standardkoblinger." },
+        { "navn": "Power Automate for Microsoft 365", "status": "inkludert", "beskrivelse": "Lag flyter mellom M365-apper med standardkoblinger — varsler, godkjenninger og automatikk (kun cloud flows)." },
+        { "navn": "Copilot Studio (Teams-plan)", "status": "inkludert", "beskrivelse": "Bygg klassiske, regelbaserte KI-agenter for publisering i Teams. Lagrer i Dataverse for Teams og kan starte Power Automate-flyter. Nye agenter lages på copilotstudio.microsoft.com — Teams-appen redirigerer dit fra 30. juni 2026. Generativ KI, premium-koblinger eller publisering utenfor Teams krever full Copilot Studio som tillegg." },
+        { "navn": "Dataverse for Teams", "status": "inkludert", "beskrivelse": "Lett database tilgjengelig direkte i Teams-kanaler — for Power Apps og Power Automate." }
+      ]
+    },
+    {
+      "id": "enhetsstyring",
+      "navn": "Enhetsstyring",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Microsoft Intune Plan 1", "status": "inkludert", "beskrivelse": "Sky-basert enhetsstyring og app-styring for Windows, macOS, iOS og Android." },
+        { "navn": "Mobile Device Management (MDM)", "status": "inkludert", "beskrivelse": "Sentral konfigurasjon og styring av enheter — krav, policyer og fjernsletting." },
+        { "navn": "Mobile Application Management (MAM)", "status": "inkludert", "beskrivelse": "Styring av apper og data uten å styre hele enheten — egnet for BYOD." },
+        { "navn": "Windows Autopilot", "status": "inkludert", "beskrivelse": "Null-touch-utrulling av nye PC-er — fra fabrikken rett til brukerens hender, ferdig konfigurert." },
+        { "navn": "Gruppepolicy-støtte for Windows", "status": "inkludert", "beskrivelse": "Tradisjonelle Windows-policyer via Active Directory eller Intune." },
+        { "navn": "Gruppepolicy-støtte for M365-apper", "status": "inkludert", "beskrivelse": "Sentral styring av Office-app-innstillinger for hele organisasjonen." },
+        { "navn": "Cloud Policy-tjeneste for Microsoft 365", "status": "inkludert", "beskrivelse": "Sky-basert konfigurasjon av Microsoft 365-apper uten Active Directory." },
+        { "navn": "Delt datamaskinaktivering for M365-apper", "status": "inkludert", "beskrivelse": "Flere brukere kan logge inn på samme delte PC med egen M365-profil." },
+        { "navn": "Endpoint Analytics", "status": "inkludert", "beskrivelse": "Innsikt i ytelse og brukervennlighet på endepunktene — anbefaler tiltak basert på data fra enhetene." }
+      ]
+    },
+    {
+      "id": "trusselbeskyttelse",
+      "navn": "Trusselbeskyttelse",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Microsoft Defender Antimalware", "status": "inkludert", "beskrivelse": "Innebygd virusvern og skadelig-programvare-beskyttelse i Windows." },
+        { "navn": "Microsoft Defender Firewall", "status": "inkludert", "beskrivelse": "Innebygd brannmur i Windows som filtrerer nettverkstrafikk." },
+        { "navn": "Microsoft Defender Exploit Guard", "status": "inkludert", "beskrivelse": "Beskyttelse mot exploits — angrep som utnytter sårbarheter i programvare." },
+        { "navn": "Microsoft Defender Credential Guard", "status": "inkludert", "beskrivelse": "Beskyttelse mot tyveri av påloggingsinformasjon ved isolering i virtualiseringsbasert sikkerhet." },
+        { "navn": "BitLocker og BitLocker To Go", "status": "inkludert", "beskrivelse": "Diskkryptering av interne disker og USB-minner." },
+        { "navn": "Microsoft Defender for Endpoint Plan 1", "status": "inkludert", "beskrivelse": "Grunnleggende beskyttelse av endepunkter — antivirus, brannmur og policykontroll." },
+        { "navn": "Microsoft Defender for Endpoint Plan 2", "status": "inkludert", "beskrivelse": "Avansert EDR med trusseljakt, automatisk respons og angrepssimulering." },
+        { "navn": "Microsoft Defender for IoT — Enterprise IoT", "status": "inkludert", "beskrivelse": "Oppdager og overvåker IoT-enheter koblet til kontornettverket." },
+        { "navn": "Microsoft Defender XDR", "status": "inkludert", "beskrivelse": "Samlet trusseldeteksjon på tvers av endepunkter, identitet, e-post og skyapper." },
+        { "navn": "Microsoft Defender for Identity", "status": "inkludert", "beskrivelse": "Oppdager identitetsbaserte angrep mot Active Directory og Entra ID." },
+        { "navn": "Microsoft Defender for Office 365 Plan 1", "status": "inkludert", "beskrivelse": "Beskytter mot phishing, skadelige vedlegg og lenker i e-post og Teams." },
+        { "navn": "Microsoft Defender for Office 365 Plan 2", "status": "inkludert", "beskrivelse": "Plan 1 + automatisk hendelseshåndtering, simulert phishing og angrepsanalyse." },
+        { "navn": "Microsoft Security Exposure Management", "status": "inkludert", "beskrivelse": "Helhetlig oversikt over angrepsflater og prioriterte sårbarheter." },
+        { "navn": "Safe Documents", "status": "inkludert", "beskrivelse": "Sjekker dokumenter mot Defender før de åpnes utenfor Beskyttet visning." }
+      ]
+    },
+    {
+      "id": "sikkerhetstilgang",
+      "navn": "Sikkerhetstilgang",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Microsoft Defender for Cloud Apps Discovery", "status": "inkludert", "beskrivelse": "Oppdager skyapper brukerne bruker — også uautoriserte (skygge-IT)." },
+        { "navn": "Microsoft Defender for Cloud Apps (Full)", "status": "inkludert", "beskrivelse": "Full CASB med sesjonskontroll, DLP og trusseldeteksjon for skyapper." },
+        { "navn": "Office 365 Cloud App Security", "status": "inkludert", "beskrivelse": "CASB-funksjoner spesifikt for Office 365-apper." }
+      ]
+    },
+    {
+      "id": "data-livssyklus",
+      "navn": "Data-livssyklus",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Manuelle oppbevaringsetiketter (Retention)", "status": "inkludert", "beskrivelse": "Brukere kan merke dokumenter med oppbevaringsregler manuelt." },
+        { "navn": "Basis organisasjons-/lokasjonsvide policyer", "status": "inkludert", "beskrivelse": "Felles oppbevaringsregler for hele tenant eller spesifikke områder." },
+        { "navn": "Regelbaserte automatiske oppbevaringspolicyer", "status": "inkludert", "beskrivelse": "Regler som automatisk klassifiserer og oppbevarer innhold basert på betingelser." },
+        { "navn": "Maskinlæringsbasert oppbevaring", "status": "inkludert", "beskrivelse": "KI-modeller foreslår klassifisering basert på innholdsanalyse." },
+        { "navn": "Teams-melding oppbevaringspolicyer", "status": "inkludert", "beskrivelse": "Oppbevaring og automatisk sletting av Teams-meldinger." },
+        { "navn": "Records Management", "status": "inkludert", "beskrivelse": "Formell journalføring med uforanderlighet, bevarelseskrav og kassasjonsregler." }
+      ]
+    },
+    {
+      "id": "identitet-tilgang",
+      "navn": "Identitet og tilgang",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Microsoft Entra ID Plan 1", "status": "inkludert", "beskrivelse": "Grunnpakke for identitet — SSO, MFA og betinget tilgang." },
+        { "navn": "Microsoft Entra ID Plan 2", "status": "inkludert", "beskrivelse": "Avansert identitetsstyring med risikobasert betinget tilgang og PIM." },
+        { "navn": "Microsoft Entra ID Protection", "status": "inkludert", "beskrivelse": "Risikodeteksjon for brukere og pålogginger basert på maskinlæring." },
+        { "navn": "Entra Internet Access for Microsoft Services", "status": "inkludert", "beskrivelse": "Sikker nettverkstilgang til Microsoft-tjenester (SSE for M365)." },
+        { "navn": "Brukerprovisjonering", "status": "inkludert", "beskrivelse": "Automatisk oppretting av brukere fra HR-systemer og kataloger." },
+        { "navn": "Selvbetjent passordbytte", "status": "inkludert", "beskrivelse": "Brukere kan endre passord selv via egen profil." },
+        { "navn": "Selvbetjent passord-reset (Cloud)", "status": "inkludert", "beskrivelse": "Brukere kan tilbakestille glemt passord selv — sky-basert." },
+        { "navn": "Hybrid passord-reset (Cloud + on-premises write-back)", "status": "inkludert", "beskrivelse": "Synk av passordendring tilbake til lokal Active Directory." },
+        { "navn": "Avanserte sikkerhetsrapporter", "status": "inkludert", "beskrivelse": "Detaljerte rapporter om identitets- og tilgangshendelser." },
+        { "navn": "Flerfaktorautentisering (MFA)", "status": "inkludert", "beskrivelse": "Ekstra påloggingstrinn med app, kode, sertifikat eller passnøkkel (FIDO2)." },
+        { "navn": "Betinget tilgang (Conditional Access)", "status": "inkludert", "beskrivelse": "Regler for når og hvordan tilgang gis basert på sted, enhet og kontekst." },
+        { "navn": "Risikobasert betinget tilgang / Identity Protection", "status": "inkludert", "beskrivelse": "Krev MFA eller blokker når Entra vurderer risikoen som høy." },
+        { "navn": "Privileged Identity Management (PIM)", "status": "inkludert", "beskrivelse": "Just-in-time aktivering av priviligerte roller med godkjenning og tidsavgrensning." },
+        { "navn": "Tilgangsgjennomganger (Access Reviews)", "status": "inkludert", "beskrivelse": "Periodisk gjennomgang av hvem som har hvilken tilgang." },
+        { "navn": "Entitlement Management", "status": "inkludert", "beskrivelse": "Selvbetjent forespørsel om tilgang til pakker av ressurser med godkjenningsflyt." },
+        { "navn": "Microsoft 365 Grupper", "status": "inkludert", "beskrivelse": "Felles identitet, postboks og lagring for et team — grunnlaget for Teams og Planner." },
+        { "navn": "Single Sign-On (SSO)", "status": "inkludert", "beskrivelse": "Logg inn én gang og få tilgang til alle koblede apper." },
+        { "navn": "Windows Hello for Business", "status": "inkludert", "beskrivelse": "Passordløs pålogging med biometri (ansikt/finger) eller PIN." }
+      ]
+    },
+    {
+      "id": "datatap",
+      "navn": "Datatapshåndtering (DLP)",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "DLP for e-post og filer", "status": "inkludert", "beskrivelse": "Hindrer utilsiktet deling av sensitive opplysninger via Outlook, SharePoint og OneDrive." },
+        { "navn": "DLP for Teams chat", "status": "inkludert", "beskrivelse": "Samme beskyttelse i Teams-chat og kanaler." },
+        { "navn": "Endpoint DLP (endepunkt)", "status": "inkludert", "beskrivelse": "DLP-regler som gjelder filer som kopieres til USB, skrives ut eller lastes opp fra endepunkter." }
+      ]
+    },
+    {
+      "id": "revisjon-sok",
+      "navn": "Revisjon og søk",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Microsoft Purview eDiscovery (Standard)", "status": "inkludert", "beskrivelse": "Søk, hold og eksport av innhold for juridiske saker og innsynsforespørsler. Klassisk eDiscovery ble pensjonert 31. august 2025 — alle saker kjører nå i det samlede Purview eDiscovery-grensesnittet (terminologi: «People» og «Groups» i stedet for «Custodians» og «Non-custodial sources»)." },
+        { "navn": "Litigation Hold (juridisk lås)", "status": "inkludert", "beskrivelse": "Lås all data tilhørende en bruker mot endring og sletting." },
+        { "navn": "Microsoft Purview eDiscovery (Premium)", "status": "inkludert", "beskrivelse": "Avansert sak-håndtering med samling, analyse, kunnskapsutvinning og review-arbeidsflyt — kjører i det samlede Purview eDiscovery-grensesnittet." },
+        { "navn": "Microsoft Purview Audit (Standard)", "status": "inkludert", "beskrivelse": "Logg over brukerhandlinger — opptil 180 dagers oppbevaring." },
+        { "navn": "Microsoft Purview Audit (Premium)", "status": "inkludert", "beskrivelse": "Lengre oppbevaring (1 år+), flere hendelser og raskere søk for forensikk." }
+      ]
+    },
+    {
+      "id": "informasjonsbeskyttelse",
+      "navn": "Informasjonsbeskyttelse",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Microsoft Purview Information Protection P1 (tidligere Azure Information Protection P1)", "status": "inkludert", "beskrivelse": "Manuell etikettering og kryptering av filer og e-post. AIP-merkenavnet er rebrandet til Microsoft Purview Information Protection — samme teknologi, ny merkeparaply." },
+        { "navn": "Microsoft Purview Information Protection P2 (tidligere Azure Information Protection P2)", "status": "inkludert", "beskrivelse": "Automatisk etikettering, avansert kryptering og Hold Your Own Key (HYOK)." },
+        { "navn": "Manuell, standard og obligatorisk etikettering med følsomhetsetiketter i M365-apper", "status": "inkludert", "beskrivelse": "Brukere velger eller blir tvunget til å sette en følsomhetsetikett før lagring eller sending — i Word, Excel, PowerPoint og Outlook." },
+        { "navn": "Automatisk etikettering med følsomhetsetiketter i M365-apper", "status": "inkludert", "beskrivelse": "KI klassifiserer dokumenter og setter følsomhetsetikett idet brukeren skriver — i Word, Excel, PowerPoint og Outlook." },
+        { "navn": "Manuell etikettering med følsomhetsetiketter for Teams-møter", "status": "tillegg", "beskrivelse": "Sett følsomhetsetikett på Teams-møter — krever Teams Premium-tillegg." },
+        { "navn": "Standard følsomhetsetiketter for SharePoint-dokumentbiblioteker", "status": "inkludert", "beskrivelse": "Forhåndsdefinerte følsomhetsetiketter på dokumentbibliotek-nivå — alle nye filer arver etiketten." },
+        { "navn": "Automatisk etikettering med følsomhetsetiketter i Exchange, SharePoint og OneDrive", "status": "inkludert", "beskrivelse": "Tjenestebasert klassifisering og etikettering av eksisterende innhold på server." },
+        { "navn": "Følsomhetsetiketter basert på avanserte klassifiserere (Trainable Classifiers, EDM, Named Entities, Contextual)", "status": "inkludert", "beskrivelse": "Egne KI-modeller for å gjenkjenne organisasjonsspesifikt innhold." },
+        { "navn": "Følsomhetsetiketter for containere (Teams/Grupper)", "status": "inkludert", "beskrivelse": "Sett etiketter på Teams og grupper som styrer ekstern deling og gjestetilgang." },
+        { "navn": "Basic Message Encryption", "status": "inkludert", "beskrivelse": "Krypter e-post med policy-baserte regler — også til mottakere utenfor organisasjonen." },
+        { "navn": "Advanced Message Encryption", "status": "inkludert", "beskrivelse": "Avansert e-postkryptering med utløpsdato på lenker, tilbakekalling og merkevareprofilering." },
+        { "navn": "Customer Key", "status": "inkludert", "beskrivelse": "Bruk egne krypteringsnøkler for M365-data — full kontroll over nøklene." },
+        { "navn": "Personal Data Encryption (PDE)", "status": "inkludert", "beskrivelse": "Filkryptering knyttet til brukerens innlogging på Windows 11 — automatisk på sensitive personlige filer." }
+      ]
+    },
+    {
+      "id": "innsiderisiko",
+      "navn": "Innsiderisiko",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Microsoft Purview Insider Risk Management", "status": "inkludert", "beskrivelse": "Oppdager risikofylt oppførsel innenfra — datatyveri, sabotasje, brudd på retningslinjer." },
+        { "navn": "Adaptive Protection", "status": "inkludert", "beskrivelse": "Justerer DLP-policyer dynamisk basert på brukerens vurderte risikonivå." },
+        { "navn": "Communication Compliance", "status": "inkludert", "beskrivelse": "Overvåkning av kommunikasjon for trakassering, regulatoriske brudd og sensitive lekkasjer." },
+        { "navn": "Information Barriers", "status": "inkludert", "beskrivelse": "Kommunikasjonsblokker mellom avdelinger (f.eks. mellom rådgivning og handel) — for compliance." },
+        { "navn": "Customer Lockbox", "status": "inkludert", "beskrivelse": "Krever eksplisitt godkjenning før Microsoft support kan få tilgang til kundens data (kundens tenant)." },
+        { "navn": "Privileged Access Management", "status": "inkludert", "beskrivelse": "Just-in-time-tilgang for administrative oppgaver med godkjenningsflyt — for å begrense stående tilganger." }
+      ]
+    },
+    {
+      "id": "windows",
+      "navn": "Windows",
+      "tema": "compliance",
+      "funksjoner": [
+        { "navn": "Windows 11 Enterprise Edition", "status": "inkludert", "beskrivelse": "Versjonen av Windows 11 med avanserte sikkerhets- og styringsfunksjoner for organisasjoner." },
+        { "navn": "Azure Virtual Desktop", "status": "inkludert", "beskrivelse": "Virtuelt Windows-skrivebord i Azure med multi-session — flere brukere på samme VM." },
+        { "navn": "Windows 365 Enterprise-tilgang", "status": "inkludert", "beskrivelse": "Personlig sky-PC tilgjengelig fra hvilken som helst enhet med nettleser." },
+        { "navn": "Virtual Desktop Access (VDA)", "status": "inkludert", "beskrivelse": "Lisens for å koble til virtuelle Windows-skrivebord fra ikke-Windows-enheter." },
+        { "navn": "Universal Print", "status": "inkludert", "beskrivelse": "Sentralisert sky-utskrift uten lokale printserver." },
+        { "navn": "Windows Autopatch", "status": "inkludert", "beskrivelse": "Automatisk styring av Windows-, Edge- og Office-oppdateringer i ringer." },
+        { "navn": "Windows Enterprise LTSC", "status": "inkludert", "beskrivelse": "Long-Term Servicing Channel — Windows-utgaven for spesialiserte stabilitetskrav som industrielle styringssystemer og medisinsk utstyr." }
+      ]
+    }
+  ]
+}
