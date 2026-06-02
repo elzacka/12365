@@ -3,7 +3,7 @@
     "navn": "Teams",
     "tagline": "Din primære arbeidsflate",
     "alene": "Navet i arbeidsdagen — chat for raske avklaringer, kanaler for samarbeid i avdelinger og prosjekter, og møter med opptak.",
-    "sammen": "Samler Microsoft 365 i én flate: Planner, Lists, Loop, SharePoint-sider/filer og Power BI som faner — uten å bytte app.",
+    "sammen": "Samler Microsoft 365 i én flate: Planner, Lists, Loop, SharePoint-sider, Power BI som faner og vanlige filer — uten å bytte app.",
     "fotnote": ""
   },
   {
@@ -30,37 +30,37 @@
   },
   {
     "navn": "Copilot Chat",
-    "tagline": "KI-chat basert på internettkilder eller filer du laster opp",
-    "alene": "Følger med som standard. Hverdagens KI-assistent — spør, få utkast og oppsummeringer. Henter svar fra internett. Last opp en fil for å jobbe med eget innhold.",
-    "sammen": "Svar fra dine dokumenter, e-post, møter og Copilot i Office-appene krever M365 Copilot-lisensen.",
+    "tagline": "KI-chat for skriving, oppsummering og søk",
+    "alene": "Følger med M365. Hverdagens KI-assistent — spør, få utkast og oppsummeringer. Søk på internett i Nett-modus eller last opp en fil for å jobbe med eget innhold.",
+    "sammen": "Med Microsoft 365 Copilot-lisens henter Copilot Chat svar fra alt du har tilgang til. Copilot dukker opp inne i Word, Excel, Outlook og resten av M365.",
     "fotnote": ""
   },
   {
-    "navn": "Copilot Studio for Teams",
-    "tagline": "Bygg din egen chatbot — uten kode",
-    "alene": "Lag en regelbasert agent for et team uten å programmere — bygd i Copilot Studio og publisert til Teams.",
-    "sammen": "Kan starte Power Automate-flyter og hente fra Lists og SharePoint. Til frie spørsmål mot dokumenter — bruk Copilot Chat.",
-    "fotnote": "Begrenset Teams-versjon uten meldinger; full Copilot Studio krever forbruk eller lisens."
+    "navn": "Copilot Studio",
+    "tagline": "Bygg dine egne agenter — uten kode",
+    "alene": "Lag agenter og chatboter på copilotstudio.microsoft.com — publiser til Teams, kanaler i Teams eller nettsider.",
+    "sammen": "Henter f. eks data fra Lists, SharePoint og Dataverse, og kan starte Power Automate-flyter. Bruk Copilot Chat til frie spørsmål mot dokumenter.",
+    "fotnote": "Med M365 kan du lage enkle, regelbaserte agenter for Teams uten ekstra lisens. Generativ KI, premium-koblinger og publisering utenfor Teams krever full Copilot Studio — egen lisens, forbruksbaserte Copilot Credits, eller Microsoft 365 Copilot-lisens."
   },
   {
-    "navn": "Copilot",
-    "tagline": "KI forankret i egne data",
-    "alene": "Generativ KI bygd inn i Word, Excel, PowerPoint, Outlook, Teams, OneNote og Loop — forankret i egne data via Microsoft Graph.",
-    "sammen": "Skriver, analyserer og oppsummerer fra det du har tilgang til. ",
-    "fotnote": "M365 Copilot krever en egen lisens per bruker."
+    "navn": "Microsoft 365 Copilot",
+    "tagline": "Generativ KI forankret i egne data",
+    "alene": "KI bygd inn i Word, Excel, PowerPoint, Outlook, Teams, OneNote og Loop — skriver, oppsummerer og analyserer fra det du har tilgang til via Microsoft Graph.",
+    "sammen": "Låser opp egne flater som Pages, Notebooks og Cowork, møteagenten Facilitator i Teams, og agentbygging via full Copilot Studio.",
+    "fotnote": "Egen lisens per bruker som tillegg til M365 E5. Copilot Chat følger gratis med M365 E5."
   },
   {
     "navn": "Edge",
     "tagline": "Nettleser for arbeidshverdagen",
     "alene": "Innebygd Copilot, samlinger og PDF-redigering.",
-    "sammen": "Logger automatisk inn med jobbkonto. Inngangen til alt på nett: Visio i Microsoft 365, SharePoint-administrasjon og web-Office.",
+    "sammen": "Inngangen til alt på nett og Visio i Microsoft 365, SharePoint-administrasjon og web-Office.",
     "fotnote": ""
   },
   {
     "navn": "Excel",
     "tagline": "Regneark, formler og analyser",
-    "alene": "Beregn, modellér og analysér med pivot og formler.",
-    "sammen": "Kan vise svar fra Forms og data fra Lists, og mater Power BI. Skal flere dele samme strukturerte oversikt — bruk Lists.",
+    "alene": "Beregn, modellér og analysér med pivot og formler slik du er vant til.",
+    "sammen": "Kan vise svar fra Forms og data fra Lists, og mater Power BI. Bruk Lists hvis flere skal dele samme strukturerte oversikt",
     "fotnote": ""
   },
   {
@@ -293,7 +293,7 @@
     "navn": "Word",
     "tagline": "Tyngre tekstdokumenter",
     "alene": "Skriv brev, rapporter og maler — Editor hjelper med klarspråk, tone og inkluderende språk.",
-    "sammen": "Del som lenke fra SharePoint. Gjenbrukbar info hører i en liste eller side; løpende samskriving i Loop.",
+    "sammen": "Del som lenke fra SharePoint. Gjenbrukbar info hører hjemme i f. eks Lists eller SharePoint-side; løpende samskriving i Loop.",
     "fotnote": ""
   }
 ]

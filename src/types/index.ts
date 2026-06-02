@@ -69,12 +69,11 @@ export interface LockedContent {
   videos?: Video[]
 }
 
-export type LicenseStatus = 'inkludert' | 'tillegg' | 'ikke'
+export type LicenseStatus = 'inkludert' | 'tillegg'
 
 export interface LicenseFeature {
   navn: string
-  e3: LicenseStatus
-  e5: LicenseStatus
+  status: LicenseStatus
   beskrivelse?: string
 }
 
@@ -91,7 +90,7 @@ export interface LicenseTheme {
   beskrivelse: string
 }
 
-export interface LicenseComparison {
+export interface E5LicenseOverview {
   kilde: string
   kildeUrl: string
   tema: LicenseTheme[]

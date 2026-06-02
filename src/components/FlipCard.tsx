@@ -6,10 +6,16 @@ interface FlipCardProps {
   card: FlipCardType
 }
 
-const SVG_ICONS = new Set(['places', 'copilot-studio-for-teams', 'copilot'])
+const SVG_ICONS = new Set(['places', 'copilot'])
+
+// Card names that don't map to their slug by simple lowercase + hyphen.
+const NAME_TO_SLUG: Record<string, string> = {
+  'microsoft 365 copilot': 'copilot',
+}
 
 function iconSrc(name: string): string {
-  const slug = name.toLowerCase().replace(/ /g, '-')
+  const key = name.toLowerCase()
+  const slug = NAME_TO_SLUG[key] ?? key.replace(/ /g, '-')
   const ext = SVG_ICONS.has(slug) ? 'svg' : 'png'
   return `${import.meta.env.BASE_URL}m365-icons/${slug}.${ext}`
 }

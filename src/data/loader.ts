@@ -1,4 +1,4 @@
-import type { ArticleCategory, FlipCard, LicenseComparison, Video } from '../types'
+import type { ArticleCategory, E5LicenseOverview, FlipCard, Video } from '../types'
 
 const base = import.meta.env.BASE_URL
 
@@ -13,7 +13,7 @@ async function fetchJson<T>(filename: string): Promise<T> {
 let articlesPromise: Promise<ArticleCategory[]> | null = null
 let cardsPromise: Promise<FlipCard[]> | null = null
 let videosPromise: Promise<Video[]> | null = null
-let licensesPromise: Promise<LicenseComparison> | null = null
+let e5OverviewPromise: Promise<E5LicenseOverview> | null = null
 
 export function fetchArticles(): Promise<ArticleCategory[]> {
   articlesPromise ??= fetchJson<ArticleCategory[]>('articles.json')
@@ -30,7 +30,7 @@ export function fetchVideos(): Promise<Video[]> {
   return videosPromise
 }
 
-export function fetchLicenseComparison(): Promise<LicenseComparison> {
-  licensesPromise ??= fetchJson<LicenseComparison>('license-comparison.json')
-  return licensesPromise
+export function fetchE5LicenseOverview(): Promise<E5LicenseOverview> {
+  e5OverviewPromise ??= fetchJson<E5LicenseOverview>('e5-license-overview.json')
+  return e5OverviewPromise
 }

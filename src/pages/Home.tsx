@@ -52,7 +52,7 @@ export function Home() {
         <NavCard
           to="/lisenser"
           icon={<LayersIcon size={30} />}
-          title="Hva følger med i E3 og E5-lisensen?"
+          title="Hva følger med i E5-lisensen?"
           description="...og hva brukes de ulike tingene til?"
           color="bg-brand-700"
         />
