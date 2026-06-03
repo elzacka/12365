@@ -1030,6 +1030,61 @@
           "fra-filserver-til-sharepoint",
           "folsomhetsetiketter"
         ]
+      },
+      {
+        "id": "sharepoint-metadata",
+        "tittel": "Metadata i SharePoint: slik finner du dokumenter raskt",
+        "ingress": "Metadata er stikkordene som beskriver hva et dokument er, ikke hvor det ligger. Med dem finner du, filtrerer og automatiserer, og du hjelper Copilot å svare riktig.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "sharepoint",
+        "tags": [
+          "sharepoint",
+          "metadata",
+          "termlager",
+          "nettstedskolonner",
+          "innholdstyper",
+          "copilot"
+        ],
+        "steg": [
+          {
+            "tittel": "Din fil, legg på metadata, finn den raskt",
+            "innhold": "Slik fungerer det i tre trinn:\n\n1. **Din fil** ligger i et bibliotek, for eksempel «Avtaler» eller «Personalsaker»\n2. **Legg på metadata**: et par stikkord som beskriver hva filen er (avdeling, dokumenttype, status)\n3. **Finn den raskt**: filtrer, sorter eller søk på stikkordene i stedet for å lete i mapper\n\n*Mapper plasserer filen. Metadata forteller hva den er. Forskjellen merkes når biblioteket vokser fra 50 til 5 000 filer.*"
+          },
+          {
+            "tittel": "Hva er metadata?",
+            "innhold": "Metadata er **kolonner** i et SharePoint-bibliotek, på samme måte som kolonner i et regneark. Hver fil får verdier i kolonnene:\n\n◦ **Avdeling**: HR, IT, Økonomi\n◦ **Dokumenttype**: Avtale, Rutine, Referat\n◦ **Status**: Utkast, Godkjent, Utgått\n◦ **Frist**: 31.12.2026\n\nVerdiene fylles inn én gang, enten av den som laster opp filen eller automatisk fra en mal. Etterpå er filen finnbar, filtrerbar og synlig i grupperte visninger på alle disse kolonnene."
+          },
+          {
+            "tittel": "Hvorfor metadata teller mer enn noen gang",
+            "innhold": "**Copilot er bare så god som datagrunnlaget.** KI forsterker informasjonsstrukturen din, den fikser den ikke. Et ryddig SharePoint med strukturerte metadata gir presise svar. Et rotete SharePoint gir tilsvarende rotete svar.\n\nMetadata gjør også at:\n\n◦ **Søk** finner riktige filer raskere\n◦ **Filtrering** lar deg vise «alle aktive avtaler eid av HR» med ett klikk\n◦ **Automatisering** kan starte godkjenninger eller varsler basert på en status- eller frist-kolonne\n◦ **Oppbevaring** kan settes automatisk per dokumenttype\n◦ **Følsomhetsetiketter** kan arves fra metadata\n\n*Som tommelfingerregel: hvis du må åpne filen for å vite hva den er, har den for lite metadata.*"
+          },
+          {
+            "tittel": "Tre typer kolonner, velg riktig nivå",
+            "innhold": "SharePoint har tre nivåer for metadata-kolonner:\n\n◦ **Bibliotekkolonne**: gjelder bare ett bibliotek. Brukes til kolonner som er unike for det biblioteket, for eksempel «Kontraktsverdi» i Avtaler-biblioteket.\n◦ **Nettstedskolonne**: defineres én gang på nettstedsnivå og gjenbrukes på tvers av flere bibliotek i samme nettsted. Brukes til kolonner du vil ha konsistent, for eksempel «Avdeling» eller «Status».\n◦ **Administrerte metadata (Termlager)**: felles for hele organisasjonen. Verdiene defineres sentralt i Termlager og gjenbrukes på alle nettsteder. Brukes til organisasjonsbrede taksonomier som «Prosessområde», «Land» eller «Produktnavn».\n\n*Generelt: jo bredere kolonnen skal brukes, jo høyere nivå velger du.*"
+          },
+          {
+            "tittel": "Start enkelt: tre-kolonne-regelen",
+            "innhold": "For et nytt bibliotek: start med disse tre kolonnene før du tenker på noe mer avansert:\n\n◦ **Dokumenttype** (valg): Avtale, Rutine, Referat, Rapport, Annet\n◦ **Avdeling** (valg eller person): HR, IT, Økonomi, ...\n◦ **Status** (valg): Utkast, Aktiv, Under revisjon, Utgått\n\nTre kolonner gir deg nok struktur til å filtrere, gruppere og finne, uten at det blir for mye for de som skal fylle dem inn.\n\n*Utvid senere når du ser hva som faktisk mangler.*"
+          },
+          {
+            "tittel": "Slik legger du til en kolonne i et bibliotek",
+            "innhold": "1. Åpne biblioteket og klikk **Legg til kolonne** (+) til høyre for siste kolonneoverskrift\n2. Velg kolonnetype:\n  ◦ **Én linje med tekst**: kort fri tekst\n  ◦ **Valg**: forhåndsdefinerte alternativer (anbefalt for status og avdeling)\n  ◦ **Person eller gruppe**: pek på en bruker\n  ◦ **Dato og klokkeslett**: for frister og revisjonsdatoer\n  ◦ **Administrerte metadata**: hent verdier fra Termlager\n3. Gi kolonnen et navn, fyll inn alternativer, og velg om feltet er **obligatorisk**\n4. Klikk **Lagre**\n\nFor å gjenbruke kolonnen på andre bibliotek: opprett den som **nettstedskolonne** under **Nettstedsinnstillinger** → **Nettstedskolonner** i stedet."
+          },
+          {
+            "tittel": "Termlager: for hele organisasjonen",
+            "innhold": "Termlager er stedet der administratorer setter opp organisasjonsbrede termsett som «Avdelinger», «Land» eller «Prosessområder». Termene gjenbrukes i alle nettsteder og holdes konsistente.\n\n**Slik finner du Termlager:**\n\n1. Gå til **SharePoint administrasjonssenter** → **Innholdstjenester** → **Termlager**\n2. Eller fra et enkelt nettsted: **Nettstedsinnstillinger** → **Nettstedsadministrasjon** → **Behandling av termlager**\n3. Lag et **termsett** (for eksempel «Avdelinger»), legg til **termer** (HR, IT, Økonomi ...) og publiser\n\nNår termsettet er publisert, kan en kolonne av typen **Administrerte metadata** i et hvilket som helst bibliotek hente verdier derfra.\n\n*Termlager krever rollen Termlager-administrator eller SharePoint-administrator.*"
+          },
+          {
+            "tittel": "Mapper og metadata kan leve sammen",
+            "innhold": "Du trenger ikke fjerne alle mapper for å innføre metadata. En praktisk hybridmodell:\n\n◦ **Mapper**: maks 2–3 nivåer, brukt til grov inndeling (for eksempel år eller prosjekt)\n◦ **Metadata**: kolonnene som beskriver innholdet (dokumenttype, avdeling, status)\n◦ **Visninger**: lagrede filtre som viser «alle aktive avtaler i 2026» eller «alle rutiner under revisjon»\n\nDen som leter, bruker visninger og filtre, ikke klikker seg gjennom mapper.\n\n*Mapper for plassering. Metadata for mening. Visninger for finnbarhet.*"
+          }
+        ],
+        "relaterte": [
+          "fra-filserver-til-sharepoint",
+          "mappestrukturer",
+          "sharepoint-prosessdokumentasjon-visio",
+          "m365-copilot-aktivert"
+        ]
       }
     ]
   },
