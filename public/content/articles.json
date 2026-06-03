@@ -515,23 +515,23 @@
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ [m365copilot.com](https://m365copilot.com): i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger.\n\n*Utvid sidemenyen for å se hvilken versjon du har: **«Copilot Chat (Grunnleggende)»** følger med M365 E5 — **«Microsoft 365 Copilot (Premium)»** betyr at du har M365 Copilot-lisens. Da kan Copilot gjøre mye mer. Bl. a søke i alt innhold du har tilgang til i M365.*"
+            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ [m365copilot.com](https://m365copilot.com): i nettleseren\n\nLogg inn med organisasjonskontoen din.\n\n*Utvid sidemenyen for å se hvilken versjon du har: **«Copilot Chat (Grunnleggende)»** følger med M365 E5. Med M365 Copilot-lisens står det **«Microsoft 365 Copilot (Premium)»** — da låses Jobb-modus opp.*"
           },
           {
             "tittel": "Nett-modus — søk på internett",
-            "innhold": "I **Nett-modus** søker Copilot Chat på internett og gir deg oppdaterte svar med kildehenvisninger. Bruk det til:\n\n◦ Finne fakta, lover og regelverk\n◦ Få sammendrag av fagstoff\n◦ Undersøke tema du ikke kjenner fra før\n\nKopier gjerne inn tekst fra nettsider og be Copilot oppsummere eller forklare.\n\n*Ikke lim inn/laste opp filer med sensitive personopplysninger eller intern informasjon i Nett-modus — bytt til Jobb-modus hvis dette er aktivert.*"
+            "innhold": "I **Nett-modus** søker Copilot Chat på internett og gir deg oppdaterte svar med kildehenvisninger. Bruk det til:\n\n◦ Finne fakta, lover og regelverk\n◦ Få sammendrag av fagstoff\n◦ Undersøke tema du ikke kjenner fra før\n\nLim inn tekst fra nettsider og be Copilot oppsummere eller forklare.\n\n*Hold sensitive personopplysninger og intern informasjon utenfor Nett-modus — bruk Jobb-modus.*"
           },
           {
             "tittel": "Jobb-modus — søk i organisasjonens innhold",
-            "innhold": "Med **Microsoft 365 Copilot**-lisens får du **Jobb-modus**: søk i organisasjonens egne dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler — det du selv har tilgang til.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nI Jobb-modus ligger data innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Husk: prompts og svar i Jobb-modus kan være journalpliktige saksdokumenter — særlig når du bruker Copilot i saksbehandling.*\n\n*Uten M365 Copilot-lisens fungerer kun Nett-modus og filer du laster opp manuelt — Copilot Chat kan ikke nå inn i SharePoint, e-post eller møter.*"
+            "innhold": "Med **Microsoft 365 Copilot**-lisens får du **Jobb-modus**: søk i organisasjonens egne dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler — det du selv har tilgang til.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nDataene holdes innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Prompts og svar kan være journalpliktige saksdokumenter — særlig i saksbehandling.*"
           },
           {
             "tittel": "Last opp filer og still spørsmål",
-            "innhold": "Dra en fil inn i Copilot Chat — en PDF, rapport eller Word-dokument. Copilot leser innholdet og kan oppsummere, svare på spørsmål og hjelpe deg å finne det du leter etter.\n\nNyttig for lange rapporter eller utredninger du ikke har tid til å lese i detalj."
+            "innhold": "Dra en fil inn i Copilot Chat — PDF, Word eller andre formater. Copilot leser innholdet og kan oppsummere, svare på spørsmål og finne det du leter etter.\n\nNyttig for lange rapporter og utredninger."
           },
           {
             "tittel": "Skriv, formuler og bryne deg",
-            "innhold": "Copilot Chat er et godt skriveverktøy uansett modus:\n\n◦ Utkast til e-post, notat eller saksframlegg\n◦ Tekst omskrevet til **klarspråk**\n◦ Brainstorming av løsninger og argumenter\n◦ Oversetting mellom norsk og andre språk\n◦ Forklare et fagbegrep enkelt\n\nLim inn din egen tekst og si hva du vil Copilot skal gjøre med den. Vær gjerne konkret om tone, lengde og målgruppe."
+            "innhold": "Copilot Chat er et godt skriveverktøy:\n\n◦ Utkast til e-post, notat eller saksframlegg\n◦ Tekst omskrevet til **klarspråk**\n◦ Brainstorming av løsninger og argumenter\n◦ Oversetting mellom norsk og andre språk\n◦ Forklare et fagbegrep enkelt\n\nLim inn tekst og si hva du vil Copilot skal gjøre med den. Vær gjerne konkret om tone, lengde og målgruppe."
           }
         ],
         "relaterte": [
