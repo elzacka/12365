@@ -33,7 +33,7 @@
     "tagline": "KI-chat for skriving, oppsummering og søk",
     "alene": "Følger med M365. Hverdagens KI-assistent — spør, få utkast og oppsummeringer. Søk på internett i Nett-modus eller last opp en fil for å jobbe med eget innhold.",
     "sammen": "Med Microsoft 365 Copilot-lisens henter Copilot Chat svar fra alt du har tilgang til. Copilot dukker opp inne i Word, Excel, Outlook og resten av M365.",
-    "fotnote": ""
+    "fotnote": "Sidemenyen viser «Copilot Chat (Grunnleggende)» — bytter til «Microsoft 365 Copilot (Premium)» når M365 Copilot-lisens tildeles."
   },
   {
     "navn": "Copilot Studio",
@@ -47,7 +47,7 @@
     "tagline": "Generativ KI forankret i egne data",
     "alene": "KI bygd inn i Word, Excel, PowerPoint, Outlook, Teams, OneNote og Loop — skriver, oppsummerer og analyserer fra det du har tilgang til via Microsoft Graph.",
     "sammen": "Låser opp egne flater som Pages, Notebooks og Cowork, møteagenten Facilitator i Teams, og agentbygging via full Copilot Studio.",
-    "fotnote": "Egen lisens per bruker som tillegg til M365 E5. Copilot Chat følger gratis med M365 E5."
+    "fotnote": "Egen lisens per bruker som tillegg til M365 E5 — sidemenyen viser «Microsoft 365 Copilot (Premium)» når lisensen er aktiv. Copilot Chat (Grunnleggende) følger gratis med M365 E5."
   },
   {
     "navn": "Edge",

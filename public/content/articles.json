@@ -19,7 +19,7 @@
         "steg": [
           {
             "tittel": "Hva ryddingen gir deg",
-            "innhold": "Fire gevinster:\n\n◦ **Personvern og informasjonssikkerhet**: gamle filer kan inneholde sensitive opplysninger. KI-funksjoner som Copilot henter innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n◦ **Bærekraft**: mindre lagring sparer energi og ressurser.\n◦ **Brukervennlighet**: med færre og mer relevante filer blir det lettere å holde oversikt.\n◦ **Kontinuitet og tilgjengelighet**: personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste."
+            "innhold": "Fire gevinster:\n\n◦ **Personvern og informasjonssikkerhet**: gamle filer kan inneholde sensitive opplysninger. KI-funksjoner som Copilot (Premium/Utvidet)henter innhold fra alt du har tilgang til — det som ligger glemt i dag, blir mer synlig i morgen.\n◦ **Bærekraft**: mindre lagring sparer energi og ressurser.\n◦ **Brukervennlighet**: med færre og mer relevante filer blir det lettere å holde oversikt.\n◦ **Kontinuitet og tilgjengelighet**: personlige lagringsområder er sårbare når noen slutter eller er utilgjengelige over tid. Felles områder er mer robuste."
           },
           {
             "tittel": "Pakk lett: dagstursekken som prinsipp",
@@ -504,8 +504,8 @@
       {
         "id": "copilot-chat-inkludert",
         "tittel": "Slik bruker du Copilot Chat",
-        "ingress": "KI-chatten for skriving, oppsummering og søk — følger gratis med M365 E5, tilgjengelig i Teams, Outlook, Edge og egen app. Søk i organisasjonens dokumenter krever Microsoft 365 Copilot-lisens.",
-        "oppdatert": "Oppdatert: 20.05.26",
+        "ingress": "KI-chatten for skriving, oppsummering og søk. Basic-versjonen («Grunnleggende») følger gratis med M365 E5, tilgjengelig i Teams, Outlook, Edge og egen app. Søk i organisasjonens dokumenter krever Microsoft 365 Copilot-lisens (Premium/Utvidet).",
+        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
         "tags": [
           "copilot",
@@ -515,7 +515,7 @@
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ [m365copilot.com](https://m365copilot.com): i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger."
+            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ [m365copilot.com](https://m365copilot.com): i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger.\n\n*Utvid sidemenyen for å se hvilken versjon du har: **«Copilot Chat (Grunnleggende)»** uten lisens — **«Microsoft 365 Copilot (Premium)»** med M365 Copilot-lisens.*"
           },
           {
             "tittel": "Nett-modus — søk på internett",
@@ -599,8 +599,8 @@
       {
         "id": "m365-copilot-aktivert",
         "tittel": "Hva får du med Microsoft 365 Copilot?",
-        "ingress": "Microsoft 365 Copilot låser opp KI-funksjoner inne i alle M365-appene — og noen helt nye flater. Her er det viktigste du kan gjøre.",
-        "oppdatert": "Oppdatert: 20.05.26",
+        "ingress": "Microsoft 365 Copilot låser opp KI-funksjoner inne i alle M365-appene — og noen helt nye flater. Når lisensen er aktiv, viser sidemenyen «Microsoft 365 Copilot (Premium)» i stedet for «Copilot Chat (Grunnleggende)». Her er det viktigste du kan gjøre.",
+        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
