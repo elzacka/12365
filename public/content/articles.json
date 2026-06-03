@@ -504,7 +504,7 @@
       {
         "id": "copilot-chat-inkludert",
         "tittel": "Slik bruker du Copilot Chat",
-        "ingress": "KI-chatten for skriving, oppsummering og søk. Basic-versjonen («Grunnleggende») følger gratis med M365 E5, tilgjengelig i Teams, Outlook, Edge og egen app. Søk i organisasjonens dokumenter krever Microsoft 365 Copilot-lisens (Premium/Utvidet).",
+        "ingress": "KI-chatten for skriving, oppsummering og søk.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
         "tags": [
@@ -515,11 +515,11 @@
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ [m365copilot.com](https://m365copilot.com): i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger.\n\n*Utvid sidemenyen for å se hvilken versjon du har: **«Copilot Chat (Grunnleggende)»** uten lisens — **«Microsoft 365 Copilot (Premium)»** med M365 Copilot-lisens.*"
+            "innhold": "Flere veier inn:\n\n◦ **Teams**: klikk Copilot-ikonet i venstremenyen\n◦ **Outlook**: Copilot-knappen i båndmenyen\n◦ **Edge**: Copilot-ikonet til høyre i adressefeltet\n◦ **Microsoft 365 Copilot-appen**: egen app på mobil og PC\n◦ [m365copilot.com](https://m365copilot.com): i nettleseren\n\nLogg inn med organisasjonskontoen din uansett hvilken vei du velger.\n\n*Utvid sidemenyen for å se hvilken versjon du har: **«Copilot Chat (Grunnleggende)»** følger med M365 E5 — **«Microsoft 365 Copilot (Premium)»** betyr at du har M365 Copilot-lisens. Da kan Copilot gjøre mye mer. Bl. a søke i alt innhold du har tilgang til i M365.*"
           },
           {
             "tittel": "Nett-modus — søk på internett",
-            "innhold": "I **Nett-modus** søker Copilot Chat på internett og gir deg oppdaterte svar med kildehenvisninger. Bruk det til:\n\n◦ Finne fakta, lover og regelverk\n◦ Få sammendrag av fagstoff\n◦ Undersøke tema du ikke kjenner fra før\n\nKopier gjerne inn tekst fra nettsider og be Copilot oppsummere eller forklare.\n\n*Lim ikke inn sensitive personopplysninger eller intern informasjon i Nett-modus — bytt til Jobb-modus.*"
+            "innhold": "I **Nett-modus** søker Copilot Chat på internett og gir deg oppdaterte svar med kildehenvisninger. Bruk det til:\n\n◦ Finne fakta, lover og regelverk\n◦ Få sammendrag av fagstoff\n◦ Undersøke tema du ikke kjenner fra før\n\nKopier gjerne inn tekst fra nettsider og be Copilot oppsummere eller forklare.\n\n*Ikke lim inn/laste opp filer med sensitive personopplysninger eller intern informasjon i Nett-modus — bytt til Jobb-modus hvis dette er aktivert.*"
           },
           {
             "tittel": "Jobb-modus — søk i organisasjonens innhold",
@@ -658,7 +658,7 @@
           "copilot-studio-for-teams-bygge-chatbot",
           "folsomhetsetiketter"
         ],
-        "notat": "NB: Microsoft 365 Copilot er ikke inkludert i M365 E5 — krever egen lisens per bruker som tillegg."
+        "notat": ""
       }
     ]
   },
