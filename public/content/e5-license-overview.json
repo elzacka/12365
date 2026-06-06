@@ -312,12 +312,12 @@
         {
           "navn": "Microsoft Shifts",
           "status": "tillegg",
-          "beskrivelse": "Vaktplanlegging og bytteforespørsler for skiftarbeidere, direkte i Teams. Eget tillegg for E5; inkludert i F1/F3-frontlinjelisenser."
+          "beskrivelse": "Vaktplanlegging og bytteforespørsler for skiftarbeidere, direkte i Teams. Eget tillegg for E5. Inkludert i Microsoft 365 F1 og F3, billigere Frontline Worker-lisenser for ansatte uten egen jobb-PC, som skiftarbeidere, butikkmedarbeidere og helsepersonell."
         },
         {
           "navn": "Microsoft Bookings",
           "status": "tillegg",
-          "beskrivelse": "Selvbetjent møtebooking for kunder eller innbyggere mot ledige tider i kalenderen. Eget tillegg for E5; inkludert i F1/F3-frontlinjelisenser."
+          "beskrivelse": "Selvbetjent møtebooking for kunder eller innbyggere mot ledige tider i kalenderen. Eget tillegg for E5. Inkludert i F1 og F3."
         }
       ]
     },
@@ -384,7 +384,7 @@
         {
           "navn": "Audio Conferencing",
           "status": "tillegg",
-          "beskrivelse": "Ringe inn til Teams-møter med vanlig telefonnummer fra hvor som helst. Gratis tillegg for E5: inkluderer ubegrenset innringing og 60 minutter utringing per bruker per måned til Zone A-land, samt Operator Connect Conferencing."
+          "beskrivelse": "Ringe inn til Teams-møter med vanlig telefonnummer fra hvor som helst. Tillegg for E5 som inkluderer ubegrenset innringing og 60 minutter utringing per bruker per måned til Zone A-land, samt Operator Connect Conferencing."
         }
       ]
     },
@@ -506,7 +506,7 @@
         {
           "navn": "Viva Learning i Teams",
           "status": "tillegg",
-          "beskrivelse": "Læringsplattform integrert i Teams. Eget tillegg for E5; inkludert i F1/F3-frontlinjelisenser."
+          "beskrivelse": "Læringsplattform integrert i Teams. Eget tillegg for E5. Inkludert i F1 og F3."
         },
         {
           "navn": "Lag læringsfaner i Teams-kanaler",
@@ -538,7 +538,7 @@
         {
           "navn": "Viva Insights-app i Teams",
           "status": "tillegg",
-          "beskrivelse": "Viva Insights tilgjengelig som app i Teams-grensesnittet. Eget tillegg for E5; inkludert i F1/F3-frontlinjelisenser."
+          "beskrivelse": "Viva Insights tilgjengelig som app i Teams-grensesnittet. Eget tillegg for E5. Inkludert i F1 og F3."
         },
         {
           "navn": "Personlig innsikt og opplevelser",
@@ -577,7 +577,7 @@
         {
           "navn": "Dashboard, Feed, Resources, Teams app",
           "status": "tillegg",
-          "beskrivelse": "Tilpasset dashbord med nyheter, ressurser og snarveier, direkte i Teams. Eget tillegg for E5; inkludert i F1/F3-frontlinjelisenser."
+          "beskrivelse": "Tilpasset dashbord med nyheter, ressurser og snarveier, direkte i Teams. Eget tillegg for E5. Inkludert i F1 og F3."
         }
       ]
     },
@@ -825,6 +825,11 @@
           "navn": "Microsoft Entra ID Protection",
           "status": "inkludert",
           "beskrivelse": "Risikodeteksjon for brukere og pålogginger basert på maskinlæring."
+        },
+        {
+          "navn": "Microsoft Entra Suite",
+          "status": "tillegg",
+          "beskrivelse": "Pakke som samler Entra Internet Access, Entra Private Access, Entra ID Governance og Verified ID. Eget tillegg for E5 som utvider identitetsstyring og sikker nettverkstilgang utover Entra ID Plan 2."
         },
         {
           "navn": "Entra Internet Access for Microsoft Services",

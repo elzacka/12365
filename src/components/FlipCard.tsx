@@ -99,18 +99,18 @@ export function FlipCard({ card }: FlipCardProps) {
                     <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
                   </a>
                 </p>
-              ) : (
+              ) : !card.fotnote ? (
                 <p aria-hidden="true" className="invisible mt-3 text-xs leading-snug">
                   Lenketekst-plassholder
                 </p>
-              )}
+              ) : null}
             </div>
+            {card.fotnote && (
+              <p className="text-[0.6rem] text-brand-200/70 italic pt-2 border-t border-white/10 leading-snug">
+                {card.fotnote}
+              </p>
+            )}
           </div>
-          {card.fotnote && (
-            <p className="text-[0.6rem] text-brand-200/70 italic mt-2 pt-2 border-t border-white/10 leading-snug">
-              {card.fotnote}
-            </p>
-          )}
           <div className="absolute bottom-2 right-2 text-brand-200/40">
             <FlipIcon size={14} />
           </div>
