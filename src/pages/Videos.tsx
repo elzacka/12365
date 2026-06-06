@@ -1,13 +1,19 @@
-import { use } from 'react'
+import { useEffect, use } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchVideos } from '../data/loader'
 import { useMergedVideos } from '../auth/merge'
 import { VideoIcon } from '../components/Icons'
+import { useSeenVersions } from '../lib/SeenVersionsContext'
 
 export function Videos() {
   const publicVideos = use(fetchVideos())
   const videos = useMergedVideos(publicVideos)
   const base = import.meta.env.BASE_URL
+  const { markAllVideosSeen } = useSeenVersions()
+
+  useEffect(() => {
+    markAllVideosSeen()
+  }, [markAllVideosSeen])
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">

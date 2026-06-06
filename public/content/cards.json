@@ -7,7 +7,11 @@
     "fotnote": "Gjør det du skal via Teams: Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre noe derfra.",
     "kategori": "snakk-og-mot",
     "oppsummering": "Chat, kanaler og møter på arbeidsflaten",
-    "overlapper": ["Outlook", "Viva Engage"]
+    "overlapper": [
+      "Outlook",
+      "Viva Engage"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "Clipchamp",
@@ -17,11 +21,14 @@
     "fotnote": "",
     "kategori": "visualiser",
     "oppsummering": "Skjerm- og videoopptak med enkel redigering",
-    "overlapper": ["PowerPoint"],
+    "overlapper": [
+      "PowerPoint"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/clipchamp?market=no#tabs-pill-bar-ocf614_tab1"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Copilot Chat",
@@ -31,7 +38,10 @@
     "fotnote": "",
     "kategori": "ki",
     "oppsummering": "KI-chat med søk på nett. Følger med M365",
-    "overlapper": ["Microsoft 365 Copilot"]
+    "overlapper": [
+      "Microsoft 365 Copilot"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "Microsoft 365 Copilot",
@@ -41,7 +51,11 @@
     "fotnote": "Krever egen M365 Copilot-lisens per bruker",
     "kategori": "ki",
     "oppsummering": "Henter svar fra dine egne M365-data. Krever lisens",
-    "overlapper": ["Copilot Chat", "Copilot Studio"]
+    "overlapper": [
+      "Copilot Chat",
+      "Copilot Studio"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "Copilot Studio",
@@ -51,7 +65,12 @@
     "fotnote": "Følger med M365 Copilot-lisensen",
     "kategori": "ki",
     "oppsummering": "Bygg dine egne agenter uten kode",
-    "overlapper": ["Microsoft 365 Copilot", "Power Apps", "Power Automate"]
+    "overlapper": [
+      "Microsoft 365 Copilot",
+      "Power Apps",
+      "Power Automate"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "Edge",
@@ -61,7 +80,8 @@
     "fotnote": "",
     "kategori": "nettleser",
     "oppsummering": "Nettleser med innebygd Copilot og samlinger",
-    "overlapper": []
+    "overlapper": [],
+    "endret": "2026-06-06"
   },
   {
     "navn": "Excel",
@@ -71,7 +91,11 @@
     "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
     "oppsummering": "Regneark, formler og analyser",
-    "overlapper": ["Lists", "Power BI"]
+    "overlapper": [
+      "Lists",
+      "Power BI"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "Forms",
@@ -81,11 +105,14 @@
     "fotnote": "",
     "kategori": "spor-og-planlegg",
     "oppsummering": "Samler inn svar fra mange brukere",
-    "overlapper": ["Lists"],
+    "overlapper": [
+      "Lists"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/online-surveys-polls-quizzes#Overview-1"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Lists",
@@ -95,11 +122,16 @@
     "fotnote": "",
     "kategori": "spor-og-planlegg",
     "oppsummering": "Strukturert liste som mange kan oppdatere samtidig",
-    "overlapper": ["Excel", "Forms", "Planner"],
+    "overlapper": [
+      "Excel",
+      "Forms",
+      "Planner"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-lists#Overview-2"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Loop",
@@ -109,11 +141,15 @@
     "fotnote": "",
     "kategori": "notater-og-tavler",
     "oppsummering": "Komponenter som synker på tvers av apper",
-    "overlapper": ["OneNote", "Whiteboard"],
+    "overlapper": [
+      "OneNote",
+      "Whiteboard"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-loop"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "OneDrive",
@@ -123,7 +159,10 @@
     "fotnote": "",
     "kategori": "lagre-og-del",
     "oppsummering": "Personlig lagring for kladder og utkast",
-    "overlapper": ["SharePoint"]
+    "overlapper": [
+      "SharePoint"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "OneNote",
@@ -133,7 +172,11 @@
     "fotnote": "",
     "kategori": "notater-og-tavler",
     "oppsummering": "Strukturert notatbok med inndelinger og sider",
-    "overlapper": ["Loop", "Whiteboard"]
+    "overlapper": [
+      "Loop",
+      "Whiteboard"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "Outlook",
@@ -143,7 +186,13 @@
     "fotnote": "",
     "kategori": "snakk-og-mot",
     "oppsummering": "E-post og kalender for det formelle",
-    "overlapper": ["Teams", "Places", "To Do", "Viva Insights"]
+    "overlapper": [
+      "Teams",
+      "Places",
+      "To Do",
+      "Viva Insights"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "Places",
@@ -153,11 +202,14 @@
     "fotnote": "",
     "kategori": "snakk-og-mot",
     "oppsummering": "Plan for hybridarbeid: kontordager og rom",
-    "overlapper": ["Outlook"],
+    "overlapper": [
+      "Outlook"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-teams/microsoft-places?market=no#Solutions"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Planner",
@@ -167,11 +219,15 @@
     "fotnote": "",
     "kategori": "spor-og-planlegg",
     "oppsummering": "Team-oppgaver med tavle og tidslinje",
-    "overlapper": ["Lists", "To Do"],
+    "overlapper": [
+      "Lists",
+      "To Do"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/planner/microsoft-planner?market=no#Overview"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Power Apps",
@@ -181,11 +237,14 @@
     "fotnote": "",
     "kategori": "bygg-og-automatiser",
     "oppsummering": "Bygg interne apper med lavkode",
-    "overlapper": ["Copilot Studio"],
+    "overlapper": [
+      "Copilot Studio"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Power Automate",
@@ -195,11 +254,14 @@
     "fotnote": "",
     "kategori": "bygg-og-automatiser",
     "oppsummering": "Automatiser oppgaver mellom apper",
-    "overlapper": ["Copilot Studio"],
+    "overlapper": [
+      "Copilot Studio"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Power BI",
@@ -209,11 +271,14 @@
     "fotnote": "",
     "kategori": "visualiser",
     "oppsummering": "Interaktive dashbord og rapporter fra data",
-    "overlapper": ["Excel"],
+    "overlapper": [
+      "Excel"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "PowerPoint",
@@ -223,7 +288,11 @@
     "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
     "oppsummering": "Presentasjoner som vises i et møte",
-    "overlapper": ["Sway", "Clipchamp"]
+    "overlapper": [
+      "Sway",
+      "Clipchamp"
+    ],
+    "endret": "2026-06-06"
   },
   {
     "navn": "SharePoint",
@@ -233,11 +302,18 @@
     "fotnote": "",
     "kategori": "lagre-og-del",
     "oppsummering": "Intranett, sider og fellesområde med metadata",
-    "overlapper": ["OneDrive", "Sway", "Viva Learning", "Viva Engage", "Visio"],
+    "overlapper": [
+      "OneDrive",
+      "Sway",
+      "Viva Learning",
+      "Viva Engage",
+      "Visio"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/sharepoint/collaboration?market=no#tabs-pill-bar-occfa1_tab1"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Sway",
@@ -247,11 +323,16 @@
     "fotnote": "",
     "kategori": "skriv-regn-presenter",
     "oppsummering": "Visuelle rapporter som leses på nett",
-    "overlapper": ["PowerPoint", "Word", "SharePoint"],
+    "overlapper": [
+      "PowerPoint",
+      "Word",
+      "SharePoint"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://sway.cloud.microsoft/"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "To Do",
@@ -261,11 +342,15 @@
     "fotnote": "",
     "kategori": "spor-og-planlegg",
     "oppsummering": "Din personlige huskeliste",
-    "overlapper": ["Planner", "Outlook"],
+    "overlapper": [
+      "Planner",
+      "Outlook"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-to-do-list-app"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Visio",
@@ -275,11 +360,15 @@
     "fotnote": "",
     "kategori": "visualiser",
     "oppsummering": "Flytkart og diagrammer koblet til data",
-    "overlapper": ["SharePoint", "Whiteboard"],
+    "overlapper": [
+      "SharePoint",
+      "Whiteboard"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/visio?market=no#app-integrations"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Viva Engage",
@@ -289,11 +378,15 @@
     "fotnote": "",
     "kategori": "snakk-og-mot",
     "oppsummering": "Åpne samtaler på tvers av hele organisasjonen",
-    "overlapper": ["Teams", "SharePoint"],
+    "overlapper": [
+      "Teams",
+      "SharePoint"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/engage?market=no#Overview"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Viva Insights",
@@ -303,11 +396,14 @@
     "fotnote": "",
     "kategori": "laer-og-trives",
     "oppsummering": "Innsikt i egen arbeidshverdag",
-    "overlapper": ["Outlook"],
+    "overlapper": [
+      "Outlook"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/insights?market=no"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Viva Learning",
@@ -317,11 +413,14 @@
     "fotnote": "",
     "kategori": "laer-og-trives",
     "oppsummering": "Samler opplæringsressursene i Teams",
-    "overlapper": ["SharePoint"],
+    "overlapper": [
+      "SharePoint"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/learning?market=no#tabs-pill-bar-oc3efb_tab0"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Whiteboard",
@@ -331,11 +430,16 @@
     "fotnote": "Kanal-prinsippet gjelder også her: Tavlen finner du i kanalen den ble opprettet i.",
     "kategori": "notater-og-tavler",
     "oppsummering": "Tegnetavle for skisser og idémyldring",
-    "overlapper": ["OneNote", "Loop", "Visio"],
+    "overlapper": [
+      "OneNote",
+      "Loop",
+      "Visio"
+    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-whiteboard/digital-whiteboard-app#Overview-2"
-    }
+    },
+    "endret": "2026-06-06"
   },
   {
     "navn": "Word",
@@ -345,6 +449,9 @@
     "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
     "oppsummering": "Brev, rapporter og lengre tekstdokumenter",
-    "overlapper": ["Sway"]
+    "overlapper": [
+      "Sway"
+    ],
+    "endret": "2026-06-06"
   }
 ]

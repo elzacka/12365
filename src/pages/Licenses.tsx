@@ -1,5 +1,6 @@
-import { useState, useMemo, use } from 'react'
+import { useEffect, useState, useMemo, use } from 'react'
 import { fetchE5LicenseOverview } from '../data/loader'
+import { useSeenVersions } from '../lib/SeenVersionsContext'
 import {
   CheckIcon,
   PlusIcon,
@@ -63,6 +64,11 @@ export function Licenses() {
   const [query, setQuery] = useState('')
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const [activeFeature, setActiveFeature] = useState<string | null>(null)
+  const { markLicenseSeen } = useSeenVersions()
+
+  useEffect(() => {
+    markLicenseSeen()
+  }, [markLicenseSeen])
 
   const normalizedQuery = query.trim().toLowerCase()
   const isFiltered = activeFilter !== 'alle' || normalizedQuery.length > 0
