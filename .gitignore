@@ -2,7 +2,6 @@ node_modules
 dist
 dev_only
 CLAUDE.md
-STATUS.md
 .DS_Store
 *.local
 .env

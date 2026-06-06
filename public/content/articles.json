@@ -848,7 +848,7 @@
           },
           {
             "tittel": "Opprett en ny plan",
-            "innhold": "Klikk **Ny plan** øverst til venstre. Velg **Tom plan**, gi planen et navn og koble den til en eksisterende Microsoft 365-gruppe. Planen deles automatisk med teamet."
+            "innhold": "Klikk **Ny plan** øverst til venstre. Velg **Tom plan**, gi planen et navn og koble den til en eksisterende Teams-kanal. Planen deles automatisk med teamet."
           },
           {
             "tittel": "Lag bøtter for å gruppere oppgaver",
