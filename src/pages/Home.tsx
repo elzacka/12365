@@ -39,7 +39,7 @@ export function Home() {
           to="/om-appene"
           icon={<GridIcon size={30} />}
           title="Om M365-appene"
-          description="Hva gjør hver app – og hvordan henger de sammen?"
+          description="Hva brukes de til, hva skiller dem og hvordan samarbeider de?"
           color="bg-brand-700"
         />
         <NavCard
@@ -53,7 +53,7 @@ export function Home() {
           to="/lisenser"
           icon={<LayersIcon size={30} />}
           title="Hva følger med i E5-lisensen?"
-          description="...og hva brukes de ulike tingene til?"
+          description="– og hva bruker du de ulike tingene til?"
           color="bg-brand-700"
         />
       </div>

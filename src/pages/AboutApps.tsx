@@ -2,12 +2,19 @@ import { useState, useMemo, use } from 'react'
 import { fetchCards } from '../data/loader'
 import { useMergedCards } from '../auth/merge'
 import { FlipCard } from '../components/FlipCard'
+import { CheatSheet } from '../components/CheatSheet'
+import { ComparisonDrawer } from '../components/ComparisonDrawer'
+import { ViewToggle, type AppsView } from '../components/ViewToggle'
 import { SearchIcon, CloseIcon } from '../components/Icons'
+
+const MAX_COMPARE = 3
 
 export function AboutApps() {
   const publicCards = use(fetchCards())
   const allCards = useMergedCards(publicCards)
   const [query, setQuery] = useState('')
+  const [view, setView] = useState<AppsView>('kort')
+  const [selected, setSelected] = useState<string[]>([])
 
   const filteredCards = useMemo(() => {
     if (!query.trim()) return allCards
@@ -17,16 +24,38 @@ export function AboutApps() {
         c.navn.toLowerCase().includes(q) ||
         c.tagline.toLowerCase().includes(q) ||
         c.alene.toLowerCase().includes(q) ||
-        c.sammen.toLowerCase().includes(q)
+        c.sammen.toLowerCase().includes(q) ||
+        (c.oppsummering ?? '').toLowerCase().includes(q)
     )
   }, [query, allCards])
+
+  const toggleCompare = (navn: string) => {
+    setSelected(prev =>
+      prev.includes(navn)
+        ? prev.filter(n => n !== navn)
+        : prev.length < MAX_COMPARE
+          ? [...prev, navn]
+          : prev
+    )
+  }
+
+  const removeCompare = (navn: string) =>
+    setSelected(prev => prev.filter(n => n !== navn))
+
+  const helpText =
+    view === 'kort'
+      ? 'Trykk på et kort for å se hva appen gjør – alene og i sammenheng med andre'
+      : 'Trykk + for å sammenligne eller ↔ for å gå til en relatert app'
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-8 max-w-2xl mx-auto w-full">
-        <p className="text-sm text-slate-500 text-center mb-4">
-          Trykk på et kort for å se hva appen gjør – og hvordan den jobber med de andre
-        </p>
+        <div className="flex justify-center mb-3">
+          <ViewToggle value={view} onChange={setView} />
+        </div>
+
+        <p className="text-sm text-slate-500 text-center mb-4">{helpText}</p>
+
         {/* Search */}
         <div className="relative mb-4">
           <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400">
@@ -34,7 +63,7 @@ export function AboutApps() {
           </div>
           <input
             type="search"
-            placeholder="Søk i kortene..."
+            placeholder="Søk i appene..."
             value={query}
             onChange={e => setQuery(e.target.value)}
             className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
@@ -60,13 +89,21 @@ export function AboutApps() {
           </p>
         )}
 
-        {/* Card grid */}
         {filteredCards.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            {filteredCards.map(card => (
-              <FlipCard key={card.navn} card={card} />
-            ))}
-          </div>
+          view === 'kort' ? (
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {filteredCards.map(card => (
+                <FlipCard key={card.navn} card={card} />
+              ))}
+            </div>
+          ) : (
+            <CheatSheet
+              cards={filteredCards}
+              selected={selected}
+              onToggleCompare={toggleCompare}
+              maxSelected={MAX_COMPARE}
+            />
+          )
         ) : (
           <div className="text-center py-16 text-slate-500">
             <p className="text-base mb-1">Ingen apper funnet</p>
@@ -85,6 +122,15 @@ export function AboutApps() {
           </p>
         )}
       </main>
+
+      {view === 'oversikt' && (
+        <ComparisonDrawer
+          selected={selected}
+          cards={allCards}
+          onRemove={removeCompare}
+          onClear={() => setSelected([])}
+        />
+      )}
     </div>
   )
 }
