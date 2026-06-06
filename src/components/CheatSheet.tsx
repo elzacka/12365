@@ -1,7 +1,8 @@
 import { useCallback } from 'react'
 import type { FlipCard } from '../types'
 import { CHEAT_SHEET_CATEGORIES, CATEGORY_BY_ID } from '../data/cheatSheetCategories'
-import { CheatSheetRow, slugify } from './CheatSheetRow'
+import { slugify } from '../data/slug'
+import { CheatSheetRow } from './CheatSheetRow'
 
 interface CheatSheetProps {
   cards: FlipCard[]
