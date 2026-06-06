@@ -9,7 +9,7 @@ export function HowTo() {
   const rawCategories = useMergedArticles(publicCategories)
   const [query, setQuery] = useState('')
 
-  // Filter out hidden articles early — applies to listing and search count alike.
+  // Filter out hidden articles early – applies to listing and search count alike.
   const allCategories = useMemo(
     () =>
       rawCategories

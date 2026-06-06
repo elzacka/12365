@@ -1,4 +1,4 @@
-// Parses the video source — local file, YouTube, Vimeo or external mp4.
+// Parses the video source – local file, YouTube, Vimeo or external mp4.
 
 export type VideoSource =
   | { type: 'file'; src: string }

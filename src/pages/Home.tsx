@@ -33,13 +33,13 @@ function NavCard({ to, icon, title, description, color }: NavCardProps) {
 export function Home() {
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-10 pb-8">
-      <h1 className="sr-only">12365 — M365 på 1-2-3</h1>
+      <h1 className="sr-only">12365 – M365 på 1-2-3</h1>
       <div className="max-w-lg mx-auto space-y-4">
         <NavCard
           to="/om-appene"
           icon={<GridIcon size={30} />}
           title="Om M365-appene"
-          description="Hva gjør hver app — og hvordan henger de sammen?"
+          description="Hva gjør hver app – og hvordan henger de sammen?"
           color="bg-brand-700"
         />
         <NavCard

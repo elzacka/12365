@@ -24,7 +24,7 @@ function Loading() {
 }
 
 function getHeaderProps(pathname: string) {
-  // The back arrow is shown only when it points somewhere other than home —
+  // The back arrow is shown only when it points somewhere other than home –
   // otherwise it's redundant with the home button.
   if (pathname === '/') return { showHome: false, showBack: false, showLock: true }
   if (pathname === '/om-appene') return { title: 'Om M365-appene', showHome: true, showBack: false }
@@ -72,7 +72,7 @@ function AppRoutes() {
   )
 }
 
-// React Router does not want a trailing slash on basename — Vite gives `/12365/` in prod, `/` in dev.
+// React Router does not want a trailing slash on basename – Vite gives `/12365/` in prod, `/` in dev.
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
 
 export default function App() {

@@ -7,11 +7,11 @@ import { ExternalLinkIcon } from '../components/Icons'
 // - Overskrifter på 4 nivåer (#, ##, ###, ####)
 // - Avsnitt med myke linjeskift
 // - **fet tekst** og *kursiv*
-// - Lenker [tekst](url) — interne (/sti) går via React Router,
+// - Lenker [tekst](url) – interne (/sti) går via React Router,
 //   eksterne (https://...) får target="_blank" og rel="noopener noreferrer"
 // - Punktlister (- ...) og nummererte lister (1. ...)
 //
-// Ingen runtime-avhengigheter. For mer avansert markdown — bytt til
+// Ingen runtime-avhengigheter. For mer avansert markdown – bytt til
 // remark/react-markdown og oppdater testene først.
 
 const inlineRegex = /(\*\*[^*\n]+\*\*|\*[^*\n]+\*|\[[^\]]+\]\([^)\s]+\))/g
