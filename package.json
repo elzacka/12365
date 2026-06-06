@@ -1,7 +1,7 @@
 {
   "name": "12365",
   "private": true,
-  "version": "0.11.0",
+  "version": "0.12.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,10 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "icons:build": "node scripts/build-icons.mjs",
-    "lock": "node scripts/lock-content.mjs"
+    "lock": "node scripts/lock-content.mjs",
+    "versions:gen": "node scripts/generate-versions.mjs",
+    "predev": "node scripts/generate-versions.mjs",
+    "prebuild": "node scripts/generate-versions.mjs"
   },
   "dependencies": {
     "react": "^19.2.5",

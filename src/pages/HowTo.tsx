@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
 import { ChevronRightIcon, SearchIcon, CloseIcon } from '../components/Icons'
+import { UpdateDot } from '../components/UpdateDot'
+import { useSeenVersions } from '../lib/SeenVersionsContext'
 
 export function HowTo() {
   const publicCategories = use(fetchArticles())
   const rawCategories = useMergedArticles(publicCategories)
   const [query, setQuery] = useState('')
+  const { isArticleNew } = useSeenVersions()
 
   // Filter out hidden articles early – applies to listing and search count alike.
   const allCategories = useMemo(
@@ -85,10 +88,11 @@ export function HowTo() {
                     <Link
                       key={article.id}
                       to={`/slik-gjor-du/${cat.id}/${article.id}`}
-                      className={`flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group ${
+                      className={`relative flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group ${
                         idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''
                       }`}
                     >
+                      <UpdateDot visible={isArticleNew(article.id)} className="absolute top-2 right-2" />
                       <div className="flex-1 min-w-0">
                         <p className="text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
                           {article.tittel}

@@ -1,10 +1,11 @@
-import { useState, use, type ReactNode } from 'react'
+import { useEffect, useState, use, type ReactNode } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
 import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, ZoomInIcon } from '../components/Icons'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
+import { useSeenVersions } from '../lib/SeenVersionsContext'
 import type { ArticleImage } from '../types'
 
 // Block-aware markdown-to-JSX. The step content is split into blocks on
@@ -149,10 +150,16 @@ export function ArticlePage() {
   const { kategoriId, artikkelId } = useParams()
   const [activeStep, setActiveStep] = useState(0)
   const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
+  const { markArticleSeen } = useSeenVersions()
 
   const category = categories.find(k => k.id === kategoriId)
   const article = category?.artikler.find(a => a.id === artikkelId)
   const totalSteps = article?.steg.length ?? 0
+  const articleIdToMark = article && !article.skjult ? article.id : null
+
+  useEffect(() => {
+    if (articleIdToMark) markArticleSeen(articleIdToMark)
+  }, [articleIdToMark, markArticleSeen])
 
   const goPrevious = () => {
     setActiveStep(s => Math.max(0, s - 1))
@@ -206,9 +213,6 @@ export function ArticlePage() {
               {article.tittel}
             </h1>
             <p className="text-sm text-slate-500 mt-1 leading-relaxed">{article.ingress}</p>
-            {article.oppdatert && (
-              <p className="text-xs italic text-slate-400 mt-2 leading-relaxed">{article.oppdatert}</p>
-            )}
             {article.notat && (
               <p className="text-xs italic text-slate-500 mt-2 leading-relaxed">{article.notat}</p>
             )}

@@ -42,7 +42,8 @@
           "rydd-teknikker",
           "fra-filserver-til-sharepoint",
           "folsomhetsetiketter"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "rydd-teknikker",
@@ -82,7 +83,8 @@
         "relaterte": [
           "ryddig-innboks",
           "versjonshistorikk"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -133,7 +135,8 @@
           "teams-hierarki",
           "fra-filserver-til-sharepoint",
           "onedrive-vs-sharepoint"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "teams-hierarki",
@@ -183,7 +186,8 @@
           "teams-som-arbeidsflate",
           "fra-filserver-til-sharepoint",
           "folsomhetsetiketter"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "fra-filserver-til-sharepoint",
@@ -268,7 +272,8 @@
         "relaterte": [
           "teams-hierarki",
           "vise-redigere-kommentere"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -311,7 +316,8 @@
           "fra-filserver-til-sharepoint",
           "vise-redigere-kommentere",
           "teams-hierarki"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "loop-eller-word",
@@ -355,7 +361,8 @@
         "relaterte": [
           "teams-moter",
           "sharepoint-prosessdokumentasjon-visio"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "vise-redigere-kommentere",
@@ -395,7 +402,8 @@
           "teams-hierarki",
           "folsomhetsetiketter",
           "onedrive-vs-sharepoint"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "versjonshistorikk",
@@ -488,7 +496,8 @@
         "relaterte": [
           "teams-moter",
           "folsomhetsetiketter"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -533,7 +542,8 @@
         "relaterte": [
           "m365-copilot-aktivert",
           "copilot-studio-for-teams-bygge-chatbot"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "copilot-studio-for-teams-bygge-chatbot",
@@ -590,7 +600,8 @@
         "relaterte": [
           "copilot-chat-inkludert",
           "m365-copilot-aktivert"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "m365-copilot-aktivert",
@@ -654,7 +665,8 @@
           "copilot-studio-for-teams-bygge-chatbot",
           "folsomhetsetiketter"
         ],
-        "notat": ""
+        "notat": "",
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -806,7 +818,8 @@
         "relaterte": [
           "chat-vs-kanal",
           "rydd-teknikker"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -865,7 +878,8 @@
         "relaterte": [
           "lists-hendelseslogg",
           "teams-som-arbeidsflate"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -964,7 +978,8 @@
           "sharepoint-prosessdokumentasjon-visio",
           "lists-hendelseslogg",
           "planner-enkel-oppgavestyring"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "sharepoint-prosessdokumentasjon-visio",
@@ -1025,7 +1040,8 @@
           "sharepoint-automasjon-2026",
           "fra-filserver-til-sharepoint",
           "folsomhetsetiketter"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "sharepoint-metadata",
@@ -1080,7 +1096,8 @@
           "mappestrukturer",
           "sharepoint-prosessdokumentasjon-visio",
           "m365-copilot-aktivert"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -1131,7 +1148,8 @@
         "relaterte": [
           "teams-som-arbeidsflate",
           "planner-enkel-oppgavestyring"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -1209,7 +1227,8 @@
           "teams-hierarki",
           "kanaltyper",
           "kanal-arkivering"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "kanaltyper",
@@ -1285,7 +1304,8 @@
           "teams-hierarki",
           "fra-filserver-til-sharepoint",
           "onedrive-vs-sharepoint"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "teams-moter",
@@ -1396,7 +1416,8 @@
           "teams-moter",
           "copilot-chat-inkludert",
           "teams-hierarki"
-        ]
+        ],
+        "endret": "2026-06-05"
       },
       {
         "id": "kanal-arkivering",
@@ -1436,7 +1457,8 @@
         "relaterte": [
           "teams-hierarki",
           "teams-eierskap"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -1525,7 +1547,8 @@
           "sharepoint-prosessdokumentasjon-visio",
           "fra-filserver-til-sharepoint",
           "m365-copilot-aktivert"
-        ]
+        ],
+        "endret": "2026-06-05"
       }
     ]
   }

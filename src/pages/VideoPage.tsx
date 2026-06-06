@@ -3,6 +3,7 @@ import { useParams, Navigate } from 'react-router-dom'
 import { fetchVideos } from '../data/loader'
 import { useMergedVideos } from '../auth/merge'
 import { parseVideoSource } from '../data/video-source'
+import { useSeenVersions } from '../lib/SeenVersionsContext'
 
 export function VideoPage() {
   const publicVideos = use(fetchVideos())
@@ -11,12 +12,17 @@ export function VideoPage() {
   const base = import.meta.env.BASE_URL
   const video = videos.find(v => v.id === videoId)
   const videoRef = useRef<HTMLVideoElement>(null)
+  const { markVideoSeen } = useSeenVersions()
 
   useEffect(() => {
     videoRef.current?.play().catch(() => {
       // Browser blocked autoplay – user can start manually via the play button.
     })
   }, [videoId])
+
+  useEffect(() => {
+    if (video) markVideoSeen(video.id)
+  }, [video, markVideoSeen])
 
   if (!video) {
     return <Navigate to="/videoer" replace />

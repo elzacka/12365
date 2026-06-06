@@ -19,6 +19,8 @@ export interface FlipCard {
     url: string
   }
   laast?: boolean // marks the card as gated content; only added to listings when the user has unlocked
+  'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
+  endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
 }
 
 export interface CheatSheetCategory {
@@ -55,6 +57,8 @@ export interface Article {
   relaterte?: string[] // article ids
   skjult?: boolean // if true: filtered out of listings; direct URL redirects to overview
   laast?: boolean // marks the article as gated content; only added to listings when the user has unlocked
+  'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
+  endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
   _veiledning?: string // internal comment in articles.json – not rendered anywhere
 }
 
@@ -72,6 +76,8 @@ export interface Video {
   intro?: string      // optional short intro text
   thumbnail?: string  // optional thumbnail path, e.g. "videos/thumbnails/min-video.png"
   laast?: boolean     // marks the video as gated content; only added to listings when the user has unlocked
+  'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
+  endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
 }
 
 // Shape of the decrypted locked payload. Mirrors the public content arrays so
