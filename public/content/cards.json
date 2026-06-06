@@ -4,7 +4,10 @@
     "tagline": "Hovedinngang til arbeidsdagen din",
     "alene": "Chat for raske avklaringer. Kanaler for samarbeid. Møter med eller uten opptak.",
     "sammen": "Samler M365 i én flate: Bruk alle appene herfra - også de du kjenner fra før, f.eks. Word.",
-    "fotnote": "Gjør det du skal via Teams: Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre noe derfra."
+    "fotnote": "Gjør det du skal via Teams: Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre noe derfra.",
+    "kategori": "snakk-og-mot",
+    "oppsummering": "Chat, kanaler og møter på arbeidsflaten",
+    "overlapper": ["Outlook", "Viva Engage"]
   },
   {
     "navn": "Clipchamp",
@@ -12,6 +15,9 @@
     "alene": "Ta opp skjerm eller kamera, rediger og transkriber.",
     "sammen": "Du lagrer opptak og videoer f.eks. i en Teams-kanal eller i OneDrive og spiller den av der. Søk i tale finner videoen du leter etter.",
     "fotnote": "",
+    "kategori": "visualiser",
+    "oppsummering": "Skjerm- og videoopptak med enkel redigering",
+    "overlapper": ["PowerPoint"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/clipchamp?market=no#tabs-pill-bar-ocf614_tab1"
@@ -22,35 +28,50 @@
     "tagline": "KI-chat for skriving, oppsummering og søk",
     "alene": "Følger med M365. Spør, få utkast og oppsummeringer. Søk på nett, lim eller last opp fil i chat. Tilpass instruksjonene så den svarer slik du vil.",
     "sammen": "Med M365 Copilot-lisens henter den svar fra det du har tilgang til. Dokumenter, e-post, møtereferater osv.",
-    "fotnote": ""
+    "fotnote": "",
+    "kategori": "ki",
+    "oppsummering": "KI-chat med søk på nett. Følger med M365",
+    "overlapper": ["Microsoft 365 Copilot"]
   },
   {
     "navn": "Microsoft 365 Copilot",
     "tagline": "Generativ KI forankret i egne data",
     "alene": "KI bygd inn i Word, Excel, PowerPoint, Outlook og Teams. Skriver, oppsummerer og analyserer data du har tilgang til.",
     "sammen": "Kombinert med Copilot Studio kan du gjøre mye mer.",
-    "fotnote": "Krever egen M365 Copilot-lisens per bruker"
+    "fotnote": "Krever egen M365 Copilot-lisens per bruker",
+    "kategori": "ki",
+    "oppsummering": "Henter svar fra dine egne M365-data. Krever lisens",
+    "overlapper": ["Copilot Chat", "Copilot Studio"]
   },
   {
     "navn": "Copilot Studio",
     "tagline": "Bygg dine egne agenter, uten kode",
     "alene": "Lag agenter og chatboter. Publiser i Teams eller på nett.",
     "sammen": "Henter data fra kilder/apper som du bestemmer. F. eks fra Lists, SharePoint og Dataverse. Utløser Power Automate-flyter. ",
-    "fotnote": "Følger med M365 Copilot-lisensen"
+    "fotnote": "Følger med M365 Copilot-lisensen",
+    "kategori": "ki",
+    "oppsummering": "Bygg dine egne agenter uten kode",
+    "overlapper": ["Microsoft 365 Copilot", "Power Apps", "Power Automate"]
   },
   {
     "navn": "Edge",
     "tagline": "Nettleser for arbeidshverdagen",
     "alene": "Innebygd Copilot, samlinger, og enkle PDF-funksjoner.",
     "sammen": "Inngangen til alt på nett og Visio i Microsoft 365, SharePoint-administrasjon og web-Office.",
-    "fotnote": ""
+    "fotnote": "",
+    "kategori": "nettleser",
+    "oppsummering": "Nettleser med innebygd Copilot og samlinger",
+    "overlapper": []
   },
   {
     "navn": "Excel",
     "tagline": "Regneark, formler og analyser",
     "alene": "Beregn, modeller og analyser med pivot og formler.",
     "sammen": "Viser svar fra Forms og data fra Lists. Mater Power BI. Skal flere dele samme strukturerte oversikt: bruk Lists.",
-    "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra."
+    "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra.",
+    "kategori": "skriv-regn-presenter",
+    "oppsummering": "Regneark, formler og analyser",
+    "overlapper": ["Lists", "Power BI"]
   },
   {
     "navn": "Forms",
@@ -58,6 +79,9 @@
     "alene": "Spørreundersøkelser, quizer og påmeldingsskjemaer med fortløpende, grafisk oppsummering.",
     "sammen": "Send svar rett i en Lists-tabell, analyser i Excel, eller utløs en Power Automate-flyt ved nytt svar.",
     "fotnote": "",
+    "kategori": "spor-og-planlegg",
+    "oppsummering": "Samler inn svar fra mange brukere",
+    "overlapper": ["Lists"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/online-surveys-polls-quizzes#Overview-1"
@@ -69,6 +93,9 @@
     "alene": "Strukturerte lister, oversikter, registre med mer. Bedre enn et delt regneark i flere tilfeller enn du tror.",
     "sammen": "Legg til som fane i Teams. Regler varsler ved endring, Forms mater inn rader, Power Apps gir et skjema oppå.",
     "fotnote": "",
+    "kategori": "spor-og-planlegg",
+    "oppsummering": "Strukturert liste som mange kan oppdatere samtidig",
+    "overlapper": ["Excel", "Forms", "Planner"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-lists#Overview-2"
@@ -80,6 +107,9 @@
     "alene": "Sanntidssamarbeid på tvers av apper. Tabeller, lister og statussporere som synkroniseres der de limes inn.",
     "sammen": "Lim inn i Teams, Outlook eller Word. Workspaces samler hele prosjektet.",
     "fotnote": "",
+    "kategori": "notater-og-tavler",
+    "oppsummering": "Komponenter som synker på tvers av apper",
+    "overlapper": ["OneNote", "Whiteboard"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-loop"
@@ -90,21 +120,30 @@
     "tagline": "Ditt personlige arbeidsområde i M365",
     "alene": "Personlig område for kladder og utkast. Synkronisert på tvers av enheter med versjonshistorikk.",
     "sammen": "Del som lenke, ikke vedlegg. Skal et team eie filen? -> flytt til riktig Teams-kanal.",
-    "fotnote": ""
+    "fotnote": "",
+    "kategori": "lagre-og-del",
+    "oppsummering": "Personlig lagring for kladder og utkast",
+    "overlapper": ["SharePoint"]
   },
   {
     "navn": "OneNote",
     "tagline": "Strukturerte notater og skisser",
     "alene": "Digital notatbok med inndelinger og sider. Tekst, bilder og skisser. For arbeidsnotater og opplæringsmateriell.",
     "sammen": "Del som fane i Teams for å samarbeide om en notatbok. For løpende møtereferater: Bruk f. eks Loop.",
-    "fotnote": ""
+    "fotnote": "",
+    "kategori": "notater-og-tavler",
+    "oppsummering": "Strukturert notatbok med inndelinger og sider",
+    "overlapper": ["Loop", "Whiteboard"]
   },
   {
     "navn": "Outlook",
     "tagline": "E-post og kalender",
     "alene": "E-post, kalender og kontakter slik du er vant til.",
     "sammen": "Flaggede meldinger blir oppgaver i To Do og Planner. Bruk Teams-chat til avklaringer og Teams-kanaler til samarbeid. Outlook er for det formelle.",
-    "fotnote": ""
+    "fotnote": "",
+    "kategori": "snakk-og-mot",
+    "oppsummering": "E-post og kalender for det formelle",
+    "overlapper": ["Teams", "Places", "To Do", "Viva Insights"]
   },
   {
     "navn": "Places",
@@ -112,6 +151,9 @@
     "alene": "Koordiner kontordager, finn ledige rom og se hvem som er på kontoret, fra Outlook og Teams.",
     "sammen": "Outlook foreslår møtetider når kolleger er på kontoret. Teams-status følger arbeidsplanen.",
     "fotnote": "",
+    "kategori": "snakk-og-mot",
+    "oppsummering": "Plan for hybridarbeid: kontordager og rom",
+    "overlapper": ["Outlook"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-teams/microsoft-places?market=no#Solutions"
@@ -123,6 +165,9 @@
     "alene": "Fra personlige gjøremål til teamplaner og prosjektstyring. Med tavle og tidslinje.",
     "sammen": "Tildelte oppgaver dukker opp i To Do. Legg planen som fane i Teams. Premium gir mål/OKR, sprinter og avhengigheter.",
     "fotnote": "",
+    "kategori": "spor-og-planlegg",
+    "oppsummering": "Team-oppgaver med tavle og tidslinje",
+    "overlapper": ["Lists", "To Do"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/planner/microsoft-planner?market=no#Overview"
@@ -134,6 +179,9 @@
     "alene": "Lavkode-plattform for interne apper: timeregistrering, bestilling, registrering. Bygges uten utvikler.",
     "sammen": "Bruker data fra Lists, SharePoint eller andre kilder - brukes fra Teams. Fagsystem-koblinger krever Premium-versjon.",
     "fotnote": "",
+    "kategori": "bygg-og-automatiser",
+    "oppsummering": "Bygg interne apper med lavkode",
+    "overlapper": ["Copilot Studio"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
@@ -145,6 +193,9 @@
     "alene": "Automatiser oppgaver mellom apper: godkjenninger, varsler og datasynk med standard-koblinger.",
     "sammen": "Utløses for eksempel av nytt Forms-svar eller endring i Lists. Eksterne fagsystemer krever premium.",
     "fotnote": "",
+    "kategori": "bygg-og-automatiser",
+    "oppsummering": "Automatiser oppgaver mellom apper",
+    "overlapper": ["Copilot Studio"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
@@ -156,6 +207,9 @@
     "alene": "Interaktive rapporter og dashbord med innsikt i sanntid. Pro følger med i E5.",
     "sammen": "Kobles mot Lists, Excel og eksterne kilder, og vises i Teams.",
     "fotnote": "",
+    "kategori": "visualiser",
+    "oppsummering": "Interaktive dashbord og rapporter fra data",
+    "overlapper": ["Excel"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
@@ -166,7 +220,10 @@
     "tagline": "Presentasjoner med struktur og visuell støtte",
     "alene": "Presentasjoner med Designer for layout, Speaker Coach for fremføring og samtidig redigering.",
     "sammen": "Presenter i Teams-møter. Skal innhold leses på nett, ikke presenteres: bruk Sway.",
-    "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra."
+    "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra.",
+    "kategori": "skriv-regn-presenter",
+    "oppsummering": "Presentasjoner som vises i et møte",
+    "overlapper": ["Sway", "Clipchamp"]
   },
   {
     "navn": "SharePoint",
@@ -174,6 +231,9 @@
     "alene": "Nettsider, lister og strukturert info med metadata og søk. Lagringsmotoren bak Teams-fildeling.",
     "sammen": "Metadata gjør sider, lister og dokumenter finnbare via Microsoft Search, med versjonskontroll og sporbarhet.",
     "fotnote": "",
+    "kategori": "lagre-og-del",
+    "oppsummering": "Intranett, sider og fellesområde med metadata",
+    "overlapper": ["OneDrive", "Sway", "Viva Learning", "Viva Engage", "Visio"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/sharepoint/collaboration?market=no#tabs-pill-bar-occfa1_tab1"
@@ -185,6 +245,9 @@
     "alene": "Responsive, visuelle presentasjoner og rapporter. Leses på alle skjermer og deles som lenke.",
     "sammen": "Alternativ til PowerPoint når innholdet skal leses på nett, ikke presenteres.",
     "fotnote": "",
+    "kategori": "skriv-regn-presenter",
+    "oppsummering": "Visuelle rapporter som leses på nett",
+    "overlapper": ["PowerPoint", "Word", "SharePoint"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://sway.cloud.microsoft/"
@@ -196,6 +259,9 @@
     "alene": "Planlegg dagens gjøremål, sett påminnelser og prioriter «Min dag».",
     "sammen": "Samler oppgaver fra Planner og flaggede Outlook-e-poster på ett sted.",
     "fotnote": "",
+    "kategori": "spor-og-planlegg",
+    "oppsummering": "Din personlige huskeliste",
+    "overlapper": ["Planner", "Outlook"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-to-do-list-app"
@@ -207,6 +273,9 @@
     "alene": "Visio i Microsoft 365. Web-versjonen som følger med, for flytkart og diagram.",
     "sammen": "Sett inn som fane i Teams og koble figurer til data i Excel og Lists. De oppdateres automatisk.",
     "fotnote": "",
+    "kategori": "visualiser",
+    "oppsummering": "Flytkart og diagrammer koblet til data",
+    "overlapper": ["SharePoint", "Whiteboard"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/visio?market=no#app-integrations"
@@ -218,6 +287,9 @@
     "alene": "Organisasjonens sosiale flate. Del, bygg fellesskap og styrk kulturen på tvers av siloer.",
     "sammen": "Integrert i Teams, så du deltar i fellesskapet i samme flate som du gjør det daglige arbeidet.",
     "fotnote": "",
+    "kategori": "snakk-og-mot",
+    "oppsummering": "Åpne samtaler på tvers av hele organisasjonen",
+    "overlapper": ["Teams", "SharePoint"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/engage?market=no#Overview"
@@ -229,6 +301,9 @@
     "alene": "Innsikt i egen arbeidshverdag: fokustid, møtebelastning og pauser. Personlig innsikt følger med E5.",
     "sammen": "Bruker data fra Outlook og Teams. Leder- og organisasjonsinnsikt krever Viva-tillegg.",
     "fotnote": "",
+    "kategori": "laer-og-trives",
+    "oppsummering": "Innsikt i egen arbeidshverdag",
+    "overlapper": ["Outlook"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/insights?market=no"
@@ -240,6 +315,9 @@
     "alene": "Samler egne opplæringsressurser: sider, rutiner, retningslinjer og videoer. Lett å finne i Teams.",
     "sammen": "Henter innhold fra SharePoint-biblioteker. Legg som fane i en kanal. Eksterne kataloger krever tillegg.",
     "fotnote": "",
+    "kategori": "laer-og-trives",
+    "oppsummering": "Samler opplæringsressursene i Teams",
+    "overlapper": ["SharePoint"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/learning?market=no#tabs-pill-bar-oc3efb_tab0"
@@ -251,6 +329,9 @@
     "alene": "Uendelig digital tavle for workshops, tankekart og prosessvisualisering. Nyttig i hybride møter.",
     "sammen": "Startes i Teams-møter for samarbeid i sanntid.",
     "fotnote": "Kanal-prinsippet gjelder også her: Tavlen finner du i kanalen den ble opprettet i.",
+    "kategori": "notater-og-tavler",
+    "oppsummering": "Tegnetavle for skisser og idémyldring",
+    "overlapper": ["OneNote", "Loop", "Visio"],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-whiteboard/digital-whiteboard-app#Overview-2"
@@ -261,6 +342,9 @@
     "tagline": "Tyngre tekstdokumenter",
     "alene": "Skriv brev, rapporter og maler. Editor hjelper med klarspråk, tone og inkluderende språk.",
     "sammen": "Del som lenke fra Teams. Gjenbrukbar info hører hjemme i apper som Lists eller SharePoint-sider. Løpende samskriving: i Loop.",
-    "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra."
+    "fotnote": "Du gjør som ellers: Teams -> Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre derfra.",
+    "kategori": "skriv-regn-presenter",
+    "oppsummering": "Brev, rapporter og lengre tekstdokumenter",
+    "overlapper": ["Sway"]
   }
 ]

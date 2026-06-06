@@ -9,11 +9,24 @@ export interface FlipCard {
   alene: string
   sammen: string
   fotnote: string
+  // Cheat-sheet metadata. Optional so locked content from older payloads
+  // remains assignable; cards without kategori land in an "Annet" group.
+  kategori?: string         // id matching a CheatSheetCategory
+  oppsummering?: string     // short one-line use case for the cheat sheet
+  overlapper?: string[]     // navn of apps with notable functional overlap
   lenke?: {
     tekst: string
     url: string
   }
   laast?: boolean // marks the card as gated content; only added to listings when the user has unlocked
+}
+
+export interface CheatSheetCategory {
+  id: string
+  navn: string
+  beskrivelse: string
+  fargeBakgrunn: string  // Tailwind utility class, e.g. 'bg-sky-50'
+  fargeAksent: string    // Tailwind utility class for accent ring/text
 }
 
 export interface ArticleImage {
