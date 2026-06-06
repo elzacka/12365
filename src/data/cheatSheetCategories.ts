@@ -28,7 +28,7 @@ export const CHEAT_SHEET_CATEGORIES: CheatSheetCategory[] = [
   {
     id: 'lagre-og-del',
     navn: 'Lagre og dele filer + annet',
-    beskrivelse: 'Filer og innhold. Skillet er om det er ditt eget ment for flere enn deg.',
+    beskrivelse: 'Filer og innhold. Skillet er om det er ditt eget eller ment for flere enn deg.',
     fargeBakgrunn: 'bg-violet-50',
     fargeAksent: 'ring-violet-300',
   },
