@@ -1,5 +1,6 @@
 import type { FlipCard } from '../types'
 import { iconSrc } from '../data/icons'
+import { slugify } from '../data/slug'
 import { CheckIcon, PlusIcon } from './Icons'
 
 interface CheatSheetRowProps {
@@ -85,6 +86,3 @@ export function CheatSheetRow({
   )
 }
 
-export function slugify(navn: string): string {
-  return navn.toLowerCase().replace(/\s+/g, '-')
-}
