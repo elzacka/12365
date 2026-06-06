@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { CheckIcon, CopyIcon } from './Icons'
 
 // Inline copy-to-clipboard chip for command syntax in articles. The entire
-// chip is the tap target — no separate icon button to hunt for. Works the
+// chip is the tap target – no separate icon button to hunt for. Works the
 // same on touch and pointer. The floating "Kopiert" label is absolutely
 // positioned so it never shifts the surrounding text.
 export function CopyableCommand({ text }: { text: string }) {

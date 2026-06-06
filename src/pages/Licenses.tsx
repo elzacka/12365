@@ -278,7 +278,7 @@ export function Licenses() {
                 <CheckIcon size={13} />
               </span>
               <span>
-                <strong>Inkludert</strong> — følger med M365 E5
+                <strong>Inkludert</strong> – følger med M365 E5
               </span>
             </li>
             <li className="flex items-center gap-2.5">
@@ -286,7 +286,7 @@ export function Licenses() {
                 <PlusIcon size={13} />
               </span>
               <span>
-                <strong>Tilleggskjøp</strong> — tilgjengelig som tillegg til M365 E5
+                <strong>Tilleggskjøp</strong> – tilgjengelig som tillegg til M365 E5
               </span>
             </li>
           </ul>

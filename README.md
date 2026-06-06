@@ -1,4 +1,4 @@
-# 12365 — M365 på 1-2-3
+# 12365 – M365 på 1-2-3
 
 Til deg som har forvilla deg hit: Hei!
 
@@ -6,7 +6,7 @@ Jeg har laget appen **12365** for å sette turbo på:
 
 - min egen **læring og modning** i Microsoft 365-universet
 - min evne til å **lære andre**
-- **utfasing av dokumentfiler** så langt som mulig — fordi digitalisering (og ikke minst KI) blir mindre dyrt, tidkrevende og vanskelig i en datadrevet virksomhet
+- **utfasing av dokumentfiler** så langt som mulig – fordi digitalisering (og ikke minst KI) blir mindre dyrt, tidkrevende og vanskelig i en datadrevet virksomhet
 
 **Du finner den her:** https://elzacka.github.io/12365/
 
@@ -34,8 +34,8 @@ Redigerbart innhold ligger i `public/content/` (JSON). `OM-APPEN.md` og `PERSONV
 
 ## Versjonering
 
-[SemVer](https://semver.org/lang/no/) — PATCH for innholdsoppdateringer og bugfiks, MINOR for ny funksjonalitet, MAJOR for bruddendringer.
+[SemVer](https://semver.org/lang/no/) – PATCH for innholdsoppdateringer og bugfiks, MINOR for ny funksjonalitet, MAJOR for bruddendringer.
 
 ## Lisens
 
-MIT — se [LICENSE](LICENSE).
+MIT – se [LICENSE](LICENSE).

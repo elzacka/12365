@@ -52,14 +52,14 @@ export function FlipCard({ card }: FlipCardProps) {
     <div
       role="button"
       tabIndex={0}
-      aria-label={`${card.navn}: ${flipped ? 'Bakside — trykk for forside' : 'Forside — trykk for mer informasjon'}`}
+      aria-label={`${card.navn}: ${flipped ? 'Bakside – trykk for forside' : 'Forside – trykk for mer informasjon'}`}
       aria-pressed={flipped}
       className={`flip-card min-h-[14rem] focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 rounded-[14px] outline-none ${flipped ? 'is-flipped' : ''}`}
       onClick={handleFlip}
       onKeyDown={handleKeyDown}
     >
       <div className="flip-card-inner">
-        {/* Front — the name is the vertical anchor in the middle of the card;
+        {/* Front – the name is the vertical anchor in the middle of the card;
             icon and tagline get equal spacing (mb-3 / mt-3). 1fr rows around
             the name keep it centered vertically regardless of tagline length. */}
         <div className="flip-card-face relative bg-white border border-slate-200 shadow-sm grid grid-rows-[1fr_auto_1fr] justify-items-center text-center p-4 hover:shadow-md transition-shadow">
@@ -75,10 +75,10 @@ export function FlipCard({ card }: FlipCardProps) {
 
         {/* Back */}
         <div
-          className="flip-card-face flip-card-back relative flex flex-col p-4 pb-7 text-left"
+          className="flip-card-face flip-card-back relative flex flex-col p-4 text-left"
           style={{ backgroundColor: '#00263e' }}
         >
-          <div className="flex-1 flex flex-col justify-center gap-2.5">
+          <div className="flex-1 flex flex-col gap-2.5">
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-brand-200 mb-1">Hva den gjør</p>
               <p className="text-xs text-white leading-snug">{card.alene}</p>

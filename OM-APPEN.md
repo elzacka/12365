@@ -1,12 +1,12 @@
 # Om appen
 
-12365 er en samling tilpassede veiledninger og oversikter for Microsoft 365 — laget fordi jeg ville ha et sted å (raskt) finne igjen ting jeg trenger, formulert på en måte som gir mening for meg.
+12365 er en samling tilpassede veiledninger og oversikter for Microsoft 365 – laget fordi jeg ville ha et sted å (raskt) finne igjen ting jeg trenger, formulert på en måte som gir mening for meg.
 
 Appen inneholder blant annet:
 
 - flip-cards med beskrivelser av M365-appene
 - praktiske fremgangsmåter
-- en oversikt over samtlige apper og funksjoner i M365 (E3- og E5-planen), med kort forklaring av disse. Uten unødvendig teknisk sjargong.
+- en oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring av disse. Uten unødvendig teknisk sjargong.
 
 Innholdet er basert på åpent tilgjengelig informasjon, blant annet fra Microsoft Norge. Komprimert og filtrert gjennom mine og Claude-agentenes briller (AI). Derfor: Tenk supplement, ikke fasit.
 

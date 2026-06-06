@@ -11,7 +11,7 @@ import type { ArticleImage } from '../types'
 // blank lines; each block renders as paragraph, sub-heading (###), bullet
 // list (◦) or numbered list (1.) with optional indented sub-bullets.
 // Backtick `cmd` marks copy-paste commands, [tekst](url) becomes external
-// links. Kept intentionally small — only the syntax actually used in
+// links. Kept intentionally small – only the syntax actually used in
 // articles.json is supported.
 
 function parseInline(text: string): ReactNode[] {
@@ -122,7 +122,7 @@ function renderBlock(block: string, idx: number): ReactNode {
     )
   }
 
-  // Paragraph — soft line breaks preserved.
+  // Paragraph – soft line breaks preserved.
   return (
     <p key={idx} className="leading-relaxed">
       {lines.map((line, i) => (
@@ -180,7 +180,7 @@ export function ArticlePage() {
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
-      {/* Progress bar at the top — visual anchor without competing for focus. */}
+      {/* Progress bar at the top – visual anchor without competing for focus. */}
       <div className="h-1 bg-slate-200">
         <div
           className="h-full bg-brand-700 transition-all duration-300"
@@ -194,7 +194,7 @@ export function ArticlePage() {
       </div>
 
       <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
-        {/* Title and lede shown only on the first step — gives more room to the
+        {/* Title and lede shown only on the first step – gives more room to the
             steps later in the read. The step card below takes over as the main
             visual element. */}
         {isFirstStep && (
@@ -331,7 +331,7 @@ export function ArticlePage() {
                 if (!relArticle || !relCategory || relArticle.skjult) return null
                 // Boundary rule: a non-gated article must never expose the
                 // existence of a gated article. Filtered out even when the user
-                // is unlocked — the lock script enforces this at build time too.
+                // is unlocked – the lock script enforces this at build time too.
                 if (relArticle.laast && !article.laast) return null
                 return (
                   <Link

@@ -54,7 +54,7 @@ export function Header({
             <Link
               to="/"
               className="flex items-center justify-center"
-              aria-label="12365 — til forsiden"
+              aria-label="12365 – til forsiden"
             >
               <img
                 src={`${import.meta.env.BASE_URL}logo-header.svg`}
@@ -76,7 +76,7 @@ export function Header({
                   ? 'text-brand-700 hover:text-brand-800'
                   : 'text-slate-500 hover:text-brand-700'
               }`}
-              aria-label={unlocked ? 'Skjult innhold er låst opp — administrer' : 'Lås opp skjult innhold'}
+              aria-label={unlocked ? 'Skjult innhold er låst opp – administrer' : 'Lås opp skjult innhold'}
               aria-pressed={unlocked}
               title={unlocked ? 'Skjult innhold låst opp' : 'Lås opp'}
             >

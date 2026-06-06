@@ -34,7 +34,7 @@ export interface Article {
   tittel: string
   ingress: string
   oppdatert?: string // optional "oppdatert" date shown as small italic line under the lede
-  notat?: string // optional italic note shown under the lede — license or prerequisite warnings
+  notat?: string // optional italic note shown under the lede – license or prerequisite warnings
   kategori: string
   tags: string[]
   steg: ArticleStep[]
@@ -42,7 +42,7 @@ export interface Article {
   relaterte?: string[] // article ids
   skjult?: boolean // if true: filtered out of listings; direct URL redirects to overview
   laast?: boolean // marks the article as gated content; only added to listings when the user has unlocked
-  _veiledning?: string // internal comment in articles.json — not rendered anywhere
+  _veiledning?: string // internal comment in articles.json – not rendered anywhere
 }
 
 export interface ArticleCategory {

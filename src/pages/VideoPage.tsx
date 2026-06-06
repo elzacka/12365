@@ -14,7 +14,7 @@ export function VideoPage() {
 
   useEffect(() => {
     videoRef.current?.play().catch(() => {
-      // Browser blocked autoplay — user can start manually via the play button.
+      // Browser blocked autoplay – user can start manually via the play button.
     })
   }, [videoId])
 

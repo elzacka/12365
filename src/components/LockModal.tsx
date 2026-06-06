@@ -14,7 +14,7 @@ export function LockModal({ onClose }: LockModalProps) {
   const [error, setError] = useState<string | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  // Focus the input shortly after mount — the modal is conditionally rendered
+  // Focus the input shortly after mount – the modal is conditionally rendered
   // by the parent, so this runs every time the user opens it.
   useEffect(() => {
     const t = window.setTimeout(() => inputRef.current?.focus(), 50)

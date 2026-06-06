@@ -8,7 +8,7 @@ Oppdatert: 21.05.26
 
 For at appen skal fungere offline, lagrer nettleseren appens statiske filer (HTML, JavaScript, CSS, ikoner og innhold) lokalt på enheten din via en Service Worker. Filene sendes ikke videre og kan slettes ved å fjerne nettleserdata for denne appen.
 
-Appen lagrer ett valg lokalt — om du har lukket installeringsbanneret — i nettleserens `localStorage`. Dette er en enkel av/på-verdi uten identifikasjon, og den ligger kun på din enhet.
+Appen lagrer ett valg lokalt – om du har lukket installeringsbanneret – i nettleserens `localStorage`. Dette er en enkel av/på-verdi uten identifikasjon, og den ligger kun på din enhet.
 
 ## Tredjeparter
 

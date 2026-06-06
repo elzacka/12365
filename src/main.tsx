@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App'
 
-// spa-github-pages: 404.html sender oss til `?/<sti>` — gjenopprett den ekte URL-en før React monterer.
+// spa-github-pages: 404.html sender oss til `?/<sti>` – gjenopprett den ekte URL-en før React monterer.
 const search = window.location.search
 if (search.startsWith('?/')) {
   const decoded = search.slice(1).split('&').map(p => p.replace(/~and~/g, '&')).join('?')

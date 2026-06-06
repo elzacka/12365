@@ -96,7 +96,7 @@ export async function decryptJson<T>(payload: EncryptedPayload, passphrase: stri
   const iv = base64ToBytes(payload.cipher.ivB64)
   const ciphertext = base64ToBytes(payload.ciphertextB64)
   const key = await deriveKey(passphrase, salt, payload.kdf.iterations)
-  // Throws OperationError on wrong passphrase — caller must catch.
+  // Throws OperationError on wrong passphrase – caller must catch.
   const plaintext = await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, ciphertext)
   const text = new TextDecoder().decode(plaintext)
   return JSON.parse(text) as T
