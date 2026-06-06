@@ -4,9 +4,9 @@
 
 Appen inneholder blant annet:
 
-- flip-cards med beskrivelser av M365-appene
+- oversikt over M365-appene – hva de gjør, hva som skiller dem, og hvordan de spiller sammen
 - praktiske fremgangsmåter
-- en oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring av disse. Uten unødvendig teknisk sjargong.
+- oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring. Uten unødvendig teknisk sjargong.
 
 Innholdet er basert på åpent tilgjengelig informasjon, blant annet fra Microsoft Norge. Komprimert og filtrert gjennom mine og Claude-agentenes briller (AI). Derfor: Tenk supplement, ikke fasit.
 
