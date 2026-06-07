@@ -70,7 +70,7 @@ export function VideoPage() {
               <p className="text-xs text-slate-400 mt-3 leading-snug">Kilde: {video.kilde}</p>
             )}
             {video.fotnote && (
-              <p className="text-[11px] italic text-slate-400 mt-2 leading-snug">{video.fotnote}</p>
+              <p className="text-[11px] text-brand-200 mt-3 pt-1 border-t border-slate-100 leading-snug">{video.fotnote}</p>
             )}
           </div>
         )}

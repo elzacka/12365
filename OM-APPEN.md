@@ -1,14 +1,11 @@
 # Om appen
 
-12365 er en samling tilpassede veiledninger og oversikter for Microsoft 365 – laget fordi jeg ville ha et sted å (raskt) finne igjen ting jeg trenger, formulert på en måte som gir mening for meg.
+12365 er en slags referansehåndbok for Microsoft 365. Jeg ville ha et sted å samle ting jeg trenger. Formulert på en måte som gir mening for meg, tilgjengelig på enklest mulig måte: flekke opp mobilen, søke – BANG.
 
-Appen inneholder blant annet:
+Innhold:
 
-- oversikt over M365-appene – hva de gjør, hva som skiller dem, og hvordan de spiller sammen
-- praktiske fremgangsmåter
-- oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring. Uten unødvendig teknisk sjargong.
+- hva M365-appene gjør, hva som skiller dem og hvordan de spiller sammen
+- praktiske fremgangsmåter, videoer og kursinnhold fra ulike kilder
+- oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring
 
-Innholdet er basert på åpent tilgjengelig informasjon, blant annet fra Microsoft Norge. Komprimert og filtrert gjennom mine og Claude-agentenes briller (AI). Derfor: Tenk supplement, ikke fasit.
-
-Jeg luker ut eventuelle feil etterhvert som jeg får testet ting i praksis.
-
+Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med AI. AI kan bomme, og jeg kan overse noe. Jeg retter eventuelle feil fortløpende.

@@ -13,11 +13,13 @@ interface TileBodyProps extends OpplaeringBody {
 }
 
 // Shared text template for video and course tiles. Each line renders only when
-// its field is non-empty, so authors can leave placeholders in the JSON.
+// its field is non-empty, so authors can leave placeholders in the JSON. The
+// outer div is a flex column so fotnote can anchor at the bottom (mt-auto) and
+// line up across cards of unequal text length in the same row.
 function TileBody({ tittel, beskrivelse, kilde, fotnote, trailingIcon }: TileBodyProps) {
   if (!tittel && !beskrivelse && !kilde && !fotnote) return null
   return (
-    <div className="px-3 py-2.5">
+    <div className="px-3 py-2.5 flex flex-col flex-1">
       {tittel && (
         <p className="text-sm font-medium text-slate-800 leading-snug flex items-start gap-1.5">
           <span>{tittel}</span>
@@ -31,7 +33,7 @@ function TileBody({ tittel, beskrivelse, kilde, fotnote, trailingIcon }: TileBod
         <p className="text-xs text-slate-400 mt-2 leading-snug">Kilde: {kilde}</p>
       )}
       {fotnote && (
-        <p className="text-[11px] italic text-slate-400 mt-2 leading-snug">{fotnote}</p>
+        <p className="text-[11px] text-brand-200 mt-3 pt-1 border-t border-slate-100 leading-snug">{fotnote}</p>
       )}
     </div>
   )
@@ -74,7 +76,7 @@ export function Opplaering() {
                   <Link
                     key={v.id}
                     to={`/opplaering/videoer/${v.id}`}
-                    className="group block bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
+                    className="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                     aria-label={v.tittel ? `Spill av ${v.tittel}` : 'Spill av video'}
                   >
                     <div className="relative aspect-video bg-slate-100">
@@ -131,11 +133,11 @@ export function Opplaering() {
                     target="_blank"
                     rel="noreferrer noopener"
                     onClick={() => markCourseSeen(c.id)}
-                    className="group relative block bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
+                    className="group relative flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                     aria-label={`Åpne kurset ${c.tittel} i ny fane`}
                   >
                     <UpdateDot visible={showDot} className="absolute top-2 right-2 z-10" />
-                    <div className="relative aspect-square bg-slate-100">
+                    <div className="relative aspect-video bg-slate-100">
                       {thumbnailSrc ? (
                         <img
                           src={thumbnailSrc}
@@ -146,7 +148,7 @@ export function Opplaering() {
                         />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                          <GraduationCapIcon size={40} />
+                          <GraduationCapIcon size={36} />
                         </div>
                       )}
                     </div>
