@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useAuth } from '../auth/useAuth'
-import { ChevronLeftIcon, HomeIcon, LockIcon, LockOpenIcon } from './Icons'
+import { useSeenVersions } from '../lib/SeenVersionsContext'
+import { ChevronLeftIcon, HomeIcon, InfoIcon, LockIcon, LockOpenIcon } from './Icons'
+import { UpdateDot } from './UpdateDot'
 
 interface HeaderProps {
   title?: string
@@ -8,6 +10,7 @@ interface HeaderProps {
   showBack?: boolean
   backTo?: string
   showLock?: boolean
+  showAbout?: boolean
   onLockClick?: () => void
 }
 
@@ -17,9 +20,11 @@ export function Header({
   showBack = false,
   backTo = '/',
   showLock = false,
+  showAbout = false,
   onLockClick,
 }: HeaderProps) {
   const { unlocked } = useAuth()
+  const { hasNewAbout } = useSeenVersions()
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-slate-200 safe-top">
@@ -66,7 +71,18 @@ export function Header({
           )}
         </div>
 
-        <div className="justify-self-end">
+        <div className="flex items-center justify-self-end">
+          {showAbout && (
+            <Link
+              to="/om-appen"
+              className="relative p-2.5 text-slate-500 hover:text-brand-700 transition-colors"
+              aria-label="Om appen"
+              title="Om appen"
+            >
+              <UpdateDot visible={hasNewAbout} className="absolute top-1.5 right-1.5" />
+              <InfoIcon size={20} />
+            </Link>
+          )}
           {showLock && onLockClick && (
             <button
               type="button"

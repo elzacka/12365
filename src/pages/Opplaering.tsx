@@ -35,7 +35,7 @@ export function Opplaering() {
           {videos.length === 0 ? (
             <p className="text-sm text-slate-500">Ingen videoer ennå.</p>
           ) : (
-            <div className="grid gap-4">
+            <div className="grid grid-cols-2 gap-3">
               {videos.map(v => {
                 const thumbnailSrc = v.thumbnail ? `${base}${v.thumbnail}` : null
                 const showPlayOverlay = parseVideoSource(v.fil, base).type === 'file'
@@ -47,7 +47,7 @@ export function Opplaering() {
                     className="group block bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                     aria-label={v.tittel ? `Spill av ${v.tittel}` : 'Spill av video'}
                   >
-                    <div className="relative aspect-video bg-slate-100">
+                    <div className="relative aspect-square bg-slate-100">
                       {thumbnailSrc ? (
                         <img
                           src={thumbnailSrc}
@@ -58,13 +58,13 @@ export function Opplaering() {
                         />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                          <VideoIcon size={48} />
+                          <VideoIcon size={40} />
                         </div>
                       )}
                       {showPlayOverlay && (
                         <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="w-14 h-14 rounded-full bg-black/60 group-hover:bg-black/75 backdrop-blur-sm flex items-center justify-center transition-colors">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                          <div className="w-12 h-12 rounded-full bg-black/60 group-hover:bg-black/75 backdrop-blur-sm flex items-center justify-center transition-colors">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
                               <polygon points="6 4 20 12 6 20 6 4" />
                             </svg>
                           </div>
@@ -72,12 +72,12 @@ export function Opplaering() {
                       )}
                     </div>
                     {(v.tittel || v.intro) && (
-                      <div className="px-4 py-3">
+                      <div className="px-3 py-2.5">
                         {v.tittel && (
                           <p className="text-sm font-medium text-slate-800 leading-snug">{v.tittel}</p>
                         )}
                         {v.intro && (
-                          <p className="text-xs text-slate-500 mt-1 leading-snug">{v.intro}</p>
+                          <p className="text-xs text-slate-500 mt-1.5 leading-snug">{v.intro}</p>
                         )}
                       </div>
                     )}
@@ -93,7 +93,7 @@ export function Opplaering() {
           {courses.length === 0 ? (
             <p className="text-sm text-slate-500">Ingen kurs ennå.</p>
           ) : (
-            <div className="grid gap-4">
+            <div className="grid grid-cols-2 gap-3">
               {courses.map(c => {
                 const thumbnailSrc = c.thumbnail ? `${base}${c.thumbnail}` : null
                 const showDot = isCourseNew(c.id)
@@ -108,8 +108,8 @@ export function Opplaering() {
                     className="group relative block bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                     aria-label={`Åpne kurset ${c.tittel} i ny fane`}
                   >
-                    <UpdateDot visible={showDot} className="absolute top-3 right-3 z-10" />
-                    <div className="relative aspect-video bg-slate-100">
+                    <UpdateDot visible={showDot} className="absolute top-2 right-2 z-10" />
+                    <div className="relative aspect-square bg-slate-100">
                       {thumbnailSrc ? (
                         <img
                           src={thumbnailSrc}
@@ -120,16 +120,16 @@ export function Opplaering() {
                         />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                          <GraduationCapIcon size={48} />
+                          <GraduationCapIcon size={40} />
                         </div>
                       )}
                     </div>
-                    <div className="px-4 py-3">
-                      <p className="text-sm font-medium text-slate-800 leading-snug flex items-center gap-1.5">
+                    <div className="px-3 py-2.5">
+                      <p className="text-sm font-medium text-slate-800 leading-snug flex items-start gap-1.5">
                         <span>{c.tittel}</span>
-                        <ExternalLinkIcon size={12} className="text-slate-400 shrink-0" />
+                        <ExternalLinkIcon size={12} className="text-slate-400 shrink-0 mt-1" />
                       </p>
-                      <p className="text-xs text-slate-500 mt-1 leading-snug">{c.beskrivelse}</p>
+                      <p className="text-xs text-slate-500 mt-1.5 leading-snug">{c.beskrivelse}</p>
                       <p className="text-xs text-slate-400 mt-2 leading-snug">Kilde: {c.kilde}</p>
                     </div>
                   </a>

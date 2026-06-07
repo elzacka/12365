@@ -2,9 +2,19 @@
   {
     "id": "datareisen",
     "tittel": "Datareisen",
-    "beskrivelse": "Et kurs fra Digital Norway som gir deg en solid introduksjon til data og digitalisering. Hva er data og hva er informasjon? Hva med dokumentene?",
+    "beskrivelse": "En solid introduksjon til data og digitalisering. Hva er data og hva er informasjon? Hva med dokumentene? NB: Gratis, men krever brukerkonto hos Digital Norway.",
     "kilde": "Digital Norway",
     "lenke": "https://digitalnorway.com/kurs/datareisen#sana-registration-form",
+    "thumbnail": "courses/thumbnails/datareisen.png",
+    "endret": "2026-06-07"
+  },
+  {
+    "id": "hvordan-jobbe-datadrevet-i-praksis",
+    "tittel": "Hvordan jobbe datadrevet i praksis?",
+    "beskrivelse": "En innføring i hva det betyr å jobbe datadrevet, og hvordan Power BI kan brukes til å gjøre data mer oversiktlig og forståelig. NB:Gratis, men krever brukerkonto hos Digital Norway.",
+    "kilde": "Digital Norway",
+    "lenke": "https://digitalnorway.com/kurs/hvordan-jobbe-datadrevet-i-praksis",
+    "thumbnail": "courses/thumbnails/hvordan-jobbe-datadrevet-i-praksis.png",
     "endret": "2026-06-07"
   }
 ]

@@ -27,16 +27,18 @@ function Loading() {
 function getHeaderProps(pathname: string) {
   // The back arrow is shown only when it points somewhere other than home –
   // otherwise it's redundant with the home button.
-  if (pathname === '/') return { showHome: false, showBack: false, showLock: true }
-  if (pathname === '/om-appene') return { title: 'Om M365-appene', showHome: true, showBack: false }
-  if (pathname === '/slik-gjor-du') return { title: 'Slik gjør du', showHome: true, showBack: false }
-  if (pathname.startsWith('/slik-gjor-du/')) return { showHome: true, showBack: true, backTo: '/slik-gjor-du' }
-  if (pathname === '/opplaering') return { title: 'Opplæring', showHome: true, showBack: false }
-  if (pathname.startsWith('/opplaering/videoer/')) return { showHome: true, showBack: true, backTo: '/opplaering' }
+  // showAbout shows on every surface except Om appen itself and Personvern
+  // (Personvern is reached from Om appen, so the info icon would loop).
+  if (pathname === '/') return { showHome: false, showBack: false, showLock: true, showAbout: true }
+  if (pathname === '/om-appene') return { title: 'Om M365-appene', showHome: true, showBack: false, showAbout: true }
+  if (pathname === '/slik-gjor-du') return { title: 'Slik gjør du', showHome: true, showBack: false, showAbout: true }
+  if (pathname.startsWith('/slik-gjor-du/')) return { showHome: true, showBack: true, backTo: '/slik-gjor-du', showAbout: true }
+  if (pathname === '/opplaering') return { title: 'Opplæring', showHome: true, showBack: false, showAbout: true }
+  if (pathname.startsWith('/opplaering/videoer/')) return { showHome: true, showBack: true, backTo: '/opplaering', showAbout: true }
   if (pathname === '/om-appen') return { title: 'Om appen', showHome: true, showBack: false }
   if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: true, backTo: '/om-appen' }
-  if (pathname === '/lisenser') return { title: 'Hva følger med i E5-lisensen?', showHome: true, showBack: false }
-  return { showHome: true, showBack: false }
+  if (pathname === '/lisenser') return { title: 'Hva følger med i E5-lisensen?', showHome: true, showBack: false, showAbout: true }
+  return { showHome: true, showBack: false, showAbout: true }
 }
 
 function AppRoutes() {

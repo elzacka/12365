@@ -35,7 +35,7 @@ function NavCard({ to, icon, title, description, color, showDot }: NavCardProps)
 }
 
 export function Home() {
-  const { hasNewCards, hasNewArticles, hasNewLicense, hasNewVideos, hasNewCourses, hasNewAbout } = useSeenVersions()
+  const { hasNewCards, hasNewArticles, hasNewLicense, hasNewVideos, hasNewCourses } = useSeenVersions()
 
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-10 pb-8">
@@ -74,16 +74,6 @@ export function Home() {
           showDot={hasNewLicense}
         />
       </div>
-
-      <nav className="mt-6 flex justify-center max-w-lg mx-auto" aria-label="Mer">
-        <Link
-          to="/om-appen"
-          className="relative flex items-center justify-center px-6 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
-        >
-          <UpdateDot visible={hasNewAbout} className="absolute top-2 right-2" />
-          Om appen
-        </Link>
-      </nav>
     </main>
   )
 }
