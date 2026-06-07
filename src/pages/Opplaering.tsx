@@ -1,4 +1,4 @@
-import { useEffect, use } from 'react'
+import { useEffect, use, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchCourses, fetchVideos } from '../data/loader'
 import { useMergedCourses, useMergedVideos } from '../auth/merge'
@@ -6,6 +6,36 @@ import { ExternalLinkIcon, GraduationCapIcon, VideoIcon } from '../components/Ic
 import { UpdateDot } from '../components/UpdateDot'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
 import { parseVideoSource } from '../data/video-source'
+import type { OpplaeringBody } from '../types'
+
+interface TileBodyProps extends OpplaeringBody {
+  trailingIcon?: ReactNode
+}
+
+// Shared text template for video and course tiles. Each line renders only when
+// its field is non-empty, so authors can leave placeholders in the JSON.
+function TileBody({ tittel, beskrivelse, kilde, fotnote, trailingIcon }: TileBodyProps) {
+  if (!tittel && !beskrivelse && !kilde && !fotnote) return null
+  return (
+    <div className="px-3 py-2.5">
+      {tittel && (
+        <p className="text-sm font-medium text-slate-800 leading-snug flex items-start gap-1.5">
+          <span>{tittel}</span>
+          {trailingIcon}
+        </p>
+      )}
+      {beskrivelse && (
+        <p className="text-xs text-slate-500 mt-1.5 leading-snug">{beskrivelse}</p>
+      )}
+      {kilde && (
+        <p className="text-xs text-slate-400 mt-2 leading-snug">Kilde: {kilde}</p>
+      )}
+      {fotnote && (
+        <p className="text-[11px] italic text-slate-400 mt-2 leading-snug">{fotnote}</p>
+      )}
+    </div>
+  )
+}
 
 export function Opplaering() {
   const publicVideos = use(fetchVideos())
@@ -71,16 +101,12 @@ export function Opplaering() {
                         </div>
                       )}
                     </div>
-                    {(v.tittel || v.intro) && (
-                      <div className="px-3 py-2.5">
-                        {v.tittel && (
-                          <p className="text-sm font-medium text-slate-800 leading-snug">{v.tittel}</p>
-                        )}
-                        {v.intro && (
-                          <p className="text-xs text-slate-500 mt-1.5 leading-snug">{v.intro}</p>
-                        )}
-                      </div>
-                    )}
+                    <TileBody
+                      tittel={v.tittel}
+                      beskrivelse={v.beskrivelse}
+                      kilde={v.kilde}
+                      fotnote={v.fotnote}
+                    />
                   </Link>
                 )
               })}
@@ -124,14 +150,13 @@ export function Opplaering() {
                         </div>
                       )}
                     </div>
-                    <div className="px-3 py-2.5">
-                      <p className="text-sm font-medium text-slate-800 leading-snug flex items-start gap-1.5">
-                        <span>{c.tittel}</span>
-                        <ExternalLinkIcon size={12} className="text-slate-400 shrink-0 mt-1" />
-                      </p>
-                      <p className="text-xs text-slate-500 mt-1.5 leading-snug">{c.beskrivelse}</p>
-                      <p className="text-xs text-slate-400 mt-2 leading-snug">Kilde: {c.kilde}</p>
-                    </div>
+                    <TileBody
+                      tittel={c.tittel}
+                      beskrivelse={c.beskrivelse}
+                      kilde={c.kilde}
+                      fotnote={c.fotnote}
+                      trailingIcon={<ExternalLinkIcon size={12} className="text-slate-400 shrink-0 mt-1" />}
+                    />
                   </a>
                 )
               })}

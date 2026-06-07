@@ -58,13 +58,19 @@ export function VideoPage() {
           )}
         </div>
 
-        {(video.tittel || video.intro) && (
+        {(video.tittel || video.beskrivelse || video.kilde || video.fotnote) && (
           <div className="mt-4">
             {video.tittel && (
               <h1 className="text-base font-semibold text-slate-800 leading-snug">{video.tittel}</h1>
             )}
-            {video.intro && (
-              <p className="text-sm text-slate-600 leading-relaxed mt-2">{video.intro}</p>
+            {video.beskrivelse && (
+              <p className="text-sm text-slate-600 leading-relaxed mt-2">{video.beskrivelse}</p>
+            )}
+            {video.kilde && (
+              <p className="text-xs text-slate-400 mt-3 leading-snug">Kilde: {video.kilde}</p>
+            )}
+            {video.fotnote && (
+              <p className="text-[11px] italic text-slate-400 mt-2 leading-snug">{video.fotnote}</p>
             )}
           </div>
         )}
