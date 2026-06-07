@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { GridIcon, BookOpenIcon, LayersIcon } from '../components/Icons'
+import { GridIcon, BookOpenIcon, GraduationCapIcon, LayersIcon } from '../components/Icons'
 import { UpdateDot } from '../components/UpdateDot'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
 
@@ -35,7 +35,7 @@ function NavCard({ to, icon, title, description, color, showDot }: NavCardProps)
 }
 
 export function Home() {
-  const { hasNewCards, hasNewArticles, hasNewLicense, hasNewVideos, hasNewAbout } = useSeenVersions()
+  const { hasNewCards, hasNewArticles, hasNewLicense, hasNewVideos, hasNewCourses, hasNewAbout } = useSeenVersions()
 
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-10 pb-8">
@@ -48,6 +48,14 @@ export function Home() {
           description="Hva brukes de til, hva skiller dem og hvordan samarbeider de?"
           color="bg-brand-700"
           showDot={hasNewCards}
+        />
+        <NavCard
+          to="/opplaering"
+          icon={<GraduationCapIcon size={30} />}
+          title="Opplæring"
+          description="Se videoer og kursinnhold fra ulike kilder. Direkte og indirekte relatert til M365."
+          color="bg-brand-700"
+          showDot={hasNewVideos || hasNewCourses}
         />
         <NavCard
           to="/slik-gjor-du"
@@ -67,17 +75,10 @@ export function Home() {
         />
       </div>
 
-      <nav className="mt-6 grid grid-cols-2 gap-3 max-w-lg mx-auto" aria-label="Mer">
-        <Link
-          to="/videoer"
-          className="relative flex items-center justify-center px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
-        >
-          <UpdateDot visible={hasNewVideos} className="absolute top-2 right-2" />
-          Videoer
-        </Link>
+      <nav className="mt-6 flex justify-center max-w-lg mx-auto" aria-label="Mer">
         <Link
           to="/om-appen"
-          className="relative flex items-center justify-center px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
+          className="relative flex items-center justify-center px-6 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
         >
           <UpdateDot visible={hasNewAbout} className="absolute top-2 right-2" />
           Om appen

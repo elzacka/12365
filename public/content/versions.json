@@ -65,6 +65,9 @@
   "videos": {
     "microsoft-graph-grafbasert-arkitektur": "8f799a6a20"
   },
+  "courses": {
+    "datareisen": "c1f57db673"
+  },
   "license": "7506a1ffa7",
   "about": "14bc37cf3e",
   "endret": {
@@ -125,6 +128,9 @@
     },
     "videos": {
       "microsoft-graph-grafbasert-arkitektur": "2026-06-06"
+    },
+    "courses": {
+      "datareisen": "2026-06-07"
     },
     "license": "2026-06-05"
   }

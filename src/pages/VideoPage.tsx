@@ -25,7 +25,7 @@ export function VideoPage() {
   }, [video, markVideoSeen])
 
   if (!video) {
-    return <Navigate to="/videoer" replace />
+    return <Navigate to="/opplaering" replace />
   }
 
   const source = parseVideoSource(video.fil, base)

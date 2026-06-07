@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import type { ArticleCategory, FlipCard, Video } from '../types'
+import type { ArticleCategory, Course, FlipCard, Video } from '../types'
 import { useAuth } from './useAuth'
 
 export function useMergedCards(publicCards: FlipCard[]): FlipCard[] {
@@ -16,6 +16,14 @@ export function useMergedVideos(publicVideos: Video[]): Video[] {
     if (!locked?.videos?.length) return publicVideos
     return [...publicVideos, ...locked.videos]
   }, [publicVideos, locked])
+}
+
+export function useMergedCourses(publicCourses: Course[]): Course[] {
+  const { locked } = useAuth()
+  return useMemo(() => {
+    if (!locked?.courses?.length) return publicCourses
+    return [...publicCourses, ...locked.courses]
+  }, [publicCourses, locked])
 }
 
 // Categories from the locked payload are merged by `id`. Locked articles in an
