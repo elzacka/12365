@@ -33,6 +33,7 @@ function hash(value) {
 const cards = readJson('public/content/cards.json')
 const articles = readJson('public/content/articles.json')
 const videos = readJson('public/content/videos.json')
+const courses = readJson('public/content/courses.json')
 const license = readJson('public/content/e5-license-overview.json')
 const about = readFileSync(resolve(ROOT, 'OM-APPEN.md'), 'utf-8')
 
@@ -41,11 +42,12 @@ const versions = {
   cards: {},
   articles: {},
   videos: {},
+  courses: {},
   license: hash(license),
   about: createHash('sha256').update(about).digest('hex').slice(0, 10),
   // Items with a manual "endret"-date are not seeded into localStorage on a
   // first visit. They keep showing a prikk until the user interacts with them.
-  endret: { cards: {}, articles: {}, videos: {} },
+  endret: { cards: {}, articles: {}, videos: {}, courses: {} },
 }
 
 if (license.endret) versions.endret.license = license.endret
@@ -71,6 +73,12 @@ for (const video of videos) {
   if (video.endret) versions.endret.videos[video.id] = video.endret
 }
 
+for (const course of courses) {
+  if (course['skjul-endret']) continue
+  versions.courses[course.id] = hash(course)
+  if (course.endret) versions.endret.courses[course.id] = course.endret
+}
+
 writeFileSync(
   resolve(ROOT, 'public/content/versions.json'),
   JSON.stringify(versions, null, 2) + '\n',
@@ -79,5 +87,6 @@ writeFileSync(
 console.log(
   `versions.json: ${Object.keys(versions.cards).length} cards, ` +
   `${Object.keys(versions.articles).length} articles, ` +
-  `${Object.keys(versions.videos).length} videos, license, about`,
+  `${Object.keys(versions.videos).length} videos, ` +
+  `${Object.keys(versions.courses).length} courses, license, about`,
 )

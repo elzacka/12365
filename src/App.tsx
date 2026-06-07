@@ -12,7 +12,7 @@ import { AboutApp } from './pages/AboutApp'
 import { Privacy } from './pages/Privacy'
 import { HowTo } from './pages/HowTo'
 import { ArticlePage } from './pages/ArticlePage'
-import { Videos } from './pages/Videos'
+import { Opplaering } from './pages/Opplaering'
 import { VideoPage } from './pages/VideoPage'
 import { Licenses } from './pages/Licenses'
 
@@ -31,8 +31,8 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/om-appene') return { title: 'Om M365-appene', showHome: true, showBack: false }
   if (pathname === '/slik-gjor-du') return { title: 'Slik gjør du', showHome: true, showBack: false }
   if (pathname.startsWith('/slik-gjor-du/')) return { showHome: true, showBack: true, backTo: '/slik-gjor-du' }
-  if (pathname === '/videoer') return { title: 'Videoer', showHome: true, showBack: false }
-  if (pathname.startsWith('/videoer/')) return { showHome: true, showBack: true, backTo: '/videoer' }
+  if (pathname === '/opplaering') return { title: 'Opplæring', showHome: true, showBack: false }
+  if (pathname.startsWith('/opplaering/videoer/')) return { showHome: true, showBack: true, backTo: '/opplaering' }
   if (pathname === '/om-appen') return { title: 'Om appen', showHome: true, showBack: false }
   if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: true, backTo: '/om-appen' }
   if (pathname === '/lisenser') return { title: 'Hva følger med i E5-lisensen?', showHome: true, showBack: false }
@@ -59,8 +59,8 @@ function AppRoutes() {
           <Route path="/om-appene" element={<AboutApps />} />
           <Route path="/slik-gjor-du" element={<HowTo />} />
           <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<ArticlePage />} />
-          <Route path="/videoer" element={<Videos />} />
-          <Route path="/videoer/:videoId" element={<VideoPage />} />
+          <Route path="/opplaering" element={<Opplaering />} />
+          <Route path="/opplaering/videoer/:videoId" element={<VideoPage />} />
           <Route path="/om-appen" element={<AboutApp />} />
           <Route path="/personvern" element={<Privacy />} />
           <Route path="/lisenser" element={<Licenses />} />

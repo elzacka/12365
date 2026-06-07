@@ -8,6 +8,7 @@ export interface Versions {
   cards: Record<string, string>
   articles: Record<string, string>
   videos: Record<string, string>
+  courses: Record<string, string>
   license: string
   about: string
   // Items keyed here had a manual "endret"-date set by the author. Those
@@ -17,6 +18,7 @@ export interface Versions {
     cards?: Record<string, string>
     articles?: Record<string, string>
     videos?: Record<string, string>
+    courses?: Record<string, string>
     license?: string
     about?: string
   }
@@ -26,6 +28,7 @@ export interface SeenVersions {
   cards: Record<string, string>
   articles: Record<string, string>
   videos: Record<string, string>
+  courses: Record<string, string>
   license: string
   about: string
 }
@@ -33,7 +36,7 @@ export interface SeenVersions {
 export const SEEN_STORAGE_KEY = '12365:seenVersions'
 
 export function emptySeen(): SeenVersions {
-  return { cards: {}, articles: {}, videos: {}, license: '', about: '' }
+  return { cards: {}, articles: {}, videos: {}, courses: {}, license: '', about: '' }
 }
 
 export function readSeen(): SeenVersions | null {
@@ -45,6 +48,7 @@ export function readSeen(): SeenVersions | null {
       cards: parsed.cards ?? {},
       articles: parsed.articles ?? {},
       videos: parsed.videos ?? {},
+      courses: parsed.courses ?? {},
       license: parsed.license ?? '',
       about: parsed.about ?? '',
     }
@@ -81,6 +85,7 @@ export function seedFromVersions(versions: Versions): SeenVersions {
     cards: seedSection(versions.cards, endret.cards),
     articles: seedSection(versions.articles, endret.articles),
     videos: seedSection(versions.videos, endret.videos),
+    courses: seedSection(versions.courses, endret.courses),
     license: endret.license ? '' : versions.license,
     about: endret.about ? '' : versions.about,
   }
@@ -108,6 +113,7 @@ export function backfillSeen(existing: SeenVersions, versions: Versions): SeenVe
     cards: backfillSection(existing.cards, versions.cards, endret.cards),
     articles: backfillSection(existing.articles, versions.articles, endret.articles),
     videos: backfillSection(existing.videos, versions.videos, endret.videos),
+    courses: backfillSection(existing.courses, versions.courses ?? {}, endret.courses),
     license: existing.license || (endret.license ? '' : versions.license),
     about: existing.about || (endret.about ? '' : versions.about),
   }

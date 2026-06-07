@@ -80,12 +80,25 @@ export interface Video {
   endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
 }
 
+export interface Course {
+  id: string          // unique kebab-case id
+  tittel: string      // displayed heading
+  beskrivelse: string // one or two sentences shown under the heading
+  kilde: string       // course provider, e.g. "Digital Norway"
+  lenke: string       // external URL the user is sent to on click
+  thumbnail?: string  // optional thumbnail path under public/, e.g. "courses/thumbnails/datareisen.png"
+  laast?: boolean     // marks the course as gated content; only added to listings when the user has unlocked
+  'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
+  endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
+}
+
 // Shape of the decrypted locked payload. Mirrors the public content arrays so
 // merging into the listings is a simple per-category concatenation.
 export interface LockedContent {
   cards?: FlipCard[]
   articles?: ArticleCategory[]
   videos?: Video[]
+  courses?: Course[]
 }
 
 export type LicenseStatus = 'inkludert' | 'tillegg'
