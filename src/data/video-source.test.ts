@@ -22,6 +22,18 @@ describe('parseVideoSource', () => {
     expect(result.embedSrc).toContain('dnt=1')
   })
 
+  it('parses Canva smart embed links', () => {
+    const result = parseVideoSource(
+      'https://www.canva.com/design/DAHL0POPcfg/OYzxLeZtgs-db2SUlA-aUQ/watch',
+      '/12365/',
+    )
+    expect(result.type).toBe('canva')
+    if (result.type !== 'canva') return
+    expect(result.embedSrc).toBe(
+      'https://www.canva.com/design/DAHL0POPcfg/OYzxLeZtgs-db2SUlA-aUQ/watch?embed',
+    )
+  })
+
   it('treats relative paths as local files prefixed with base', () => {
     const result = parseVideoSource('videos/intro.mp4', '/12365/')
     expect(result.type).toBe('file')

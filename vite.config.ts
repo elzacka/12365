@@ -17,7 +17,7 @@ const productionCsp = [
   "img-src 'self' data: blob:",
   "media-src 'self' blob:",
   "connect-src 'self'",
-  "frame-src https://www.youtube-nocookie.com https://player.vimeo.com",
+  "frame-src https://www.youtube-nocookie.com https://player.vimeo.com https://www.canva.com",
   "font-src 'self'",
   "manifest-src 'self'",
   "worker-src 'self' blob:",
