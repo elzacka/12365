@@ -47,7 +47,7 @@ export function Opplaering() {
                     className="group block bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                     aria-label={v.tittel ? `Spill av ${v.tittel}` : 'Spill av video'}
                   >
-                    <div className="relative aspect-square bg-slate-100">
+                    <div className="relative aspect-video bg-slate-100">
                       {thumbnailSrc ? (
                         <img
                           src={thumbnailSrc}
@@ -58,13 +58,13 @@ export function Opplaering() {
                         />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                          <VideoIcon size={40} />
+                          <VideoIcon size={36} />
                         </div>
                       )}
                       {showPlayOverlay && (
                         <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="w-12 h-12 rounded-full bg-black/60 group-hover:bg-black/75 backdrop-blur-sm flex items-center justify-center transition-colors">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                          <div className="w-10 h-10 rounded-full bg-black/60 group-hover:bg-black/75 backdrop-blur-sm flex items-center justify-center transition-colors">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden="true">
                               <polygon points="6 4 20 12 6 20 6 4" />
                             </svg>
                           </div>
