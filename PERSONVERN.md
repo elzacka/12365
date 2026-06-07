@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-Oppdatert: 21.05.26
+Oppdatert: 07.06.26
 
 12365 er en åpen, gratis Progressive Web App. Appen samler ikke inn personopplysninger, bruker ikke analyseverktøy eller informasjonskapsler.
 
