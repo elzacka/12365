@@ -3,7 +3,8 @@
     "id": "datareisen",
     "tittel": "Datareisen",
     "beskrivelse": "En solid introduksjon til data og digitalisering. Hva er data og hva er informasjon?",
-    "kilde": "Digital Norway (gratis, krever brukerkonto)",
+    "kilde": "Digital Norway",
+    "fotnote": "Gratis, krever brukerkonto",
     "lenke": "https://digitalnorway.com/kurs/datareisen",
     "thumbnail": "courses/thumbnails/datareisen.png",
     "endret": "2026-06-07"
@@ -12,7 +13,8 @@
     "id": "hvordan-jobbe-datadrevet-i-praksis",
     "tittel": "Hvordan jobbe datadrevet i praksis?",
     "beskrivelse": "En innføring i hva det betyr å jobbe datadrevet, og hvordan Power BI kan brukes til å gjøre data mer oversiktlig og forståelig.",
-    "kilde": "Digital Norway (gratis, krever brukerkonto)",
+    "kilde": "Digital Norway",
+    "fotnote": "Gratis, krever brukerkonto",
     "lenke": "https://digitalnorway.com/kurs/hvordan-jobbe-datadrevet-i-praksis",
     "thumbnail": "courses/thumbnails/hvordan-jobbe-datadrevet-i-praksis.png",
     "endret": "2026-06-07"

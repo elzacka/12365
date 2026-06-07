@@ -69,22 +69,27 @@ export interface ArticleCategory {
   artikler: Article[]
 }
 
-export interface Video {
+// Shared text body for video and course tiles. All four fields are required so
+// JSON files keep stable placeholders; the renderer hides each field when its
+// value is the empty string.
+export interface OpplaeringBody {
+  tittel: string      // heading
+  beskrivelse: string // one or two sentences under the heading
+  kilde: string       // provider or origin, e.g. "Digital Norway"
+  fotnote: string     // smaller italic note shown last
+}
+
+export interface Video extends OpplaeringBody {
   id: string          // unique kebab-case id, appears in the URL
   fil: string         // path relative to BASE_URL, e.g. "videos/min-video.mp4"
-  tittel?: string     // optional title
-  intro?: string      // optional short intro text
   thumbnail?: string  // optional thumbnail path, e.g. "videos/thumbnails/min-video.png"
   laast?: boolean     // marks the video as gated content; only added to listings when the user has unlocked
   'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
   endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
 }
 
-export interface Course {
+export interface Course extends OpplaeringBody {
   id: string          // unique kebab-case id
-  tittel: string      // displayed heading
-  beskrivelse: string // one or two sentences shown under the heading
-  kilde: string       // course provider, e.g. "Digital Norway"
   lenke: string       // external URL the user is sent to on click
   thumbnail?: string  // optional thumbnail path under public/, e.g. "courses/thumbnails/datareisen.png"
   laast?: boolean     // marks the course as gated content; only added to listings when the user has unlocked
