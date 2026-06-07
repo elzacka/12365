@@ -4,6 +4,7 @@ import { fetchVideos } from '../data/loader'
 import { useMergedVideos } from '../auth/merge'
 import { VideoIcon } from '../components/Icons'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
+import { parseVideoSource } from '../data/video-source'
 
 export function Videos() {
   const publicVideos = use(fetchVideos())
@@ -27,6 +28,9 @@ export function Videos() {
           <div className="grid gap-4 mt-2">
             {videos.map(v => {
               const thumbnailSrc = v.thumbnail ? `${base}${v.thumbnail}` : null
+              // Only show our play overlay for local files (they auto-start on the next page).
+              // Iframe sources (Canva, YouTube, Vimeo) have their own player controls inside the iframe.
+              const showPlayOverlay = parseVideoSource(v.fil, base).type === 'file'
 
               return (
               <Link
@@ -49,13 +53,15 @@ export function Videos() {
                       <VideoIcon size={48} />
                     </div>
                   )}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-14 h-14 rounded-full bg-black/60 group-hover:bg-black/75 backdrop-blur-sm flex items-center justify-center transition-colors">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true">
-                        <polygon points="6 4 20 12 6 20 6 4" />
-                      </svg>
+                  {showPlayOverlay && (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-14 h-14 rounded-full bg-black/60 group-hover:bg-black/75 backdrop-blur-sm flex items-center justify-center transition-colors">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                          <polygon points="6 4 20 12 6 20 6 4" />
+                        </svg>
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
                 {(v.tittel || v.intro) && (
                   <div className="px-4 py-3">
