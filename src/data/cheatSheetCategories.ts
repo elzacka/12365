@@ -10,7 +10,7 @@ export const CHEAT_SHEET_CATEGORIES: CheatSheetCategory[] = [
     beskrivelse: 'Alle handler om kontakt med andre. Skillet er formelt, hverdagsprat eller åpen samtale.',
     fargeBakgrunn: 'bg-sky-50',
     fargeAksent: 'ring-sky-300',
-  }
+  },
   {
     id: 'notater-og-tavler',
     navn: 'Notere, se tavler',
