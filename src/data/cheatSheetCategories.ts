@@ -7,7 +7,7 @@ export const CHEAT_SHEET_CATEGORIES: CheatSheetCategory[] = [
   {
     id: 'snakk-og-mot',
     navn: 'Snakke sammen, møtes',
-    beskrivelse: '',
+    beskrivelse: 'Alle handler om kontakt med andre. Skillet er formelt, hverdagsprat eller åpen samtale.',
     fargeBakgrunn: 'bg-sky-50',
     fargeAksent: 'ring-sky-300',
   }
