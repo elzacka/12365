@@ -5,7 +5,7 @@
 // becomes the canonical tittel and the acronym becomes the undertittel –
 // keeps the alphabetical browse rooted in plain Norwegian per klarspråk.
 
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -116,6 +116,14 @@ function parseTable(md) {
 }
 
 function main() {
+  // dev_only/ordbok.md er gitignored og ligger bare lokalt. På CI
+  // (GitHub Actions, Pages) finnes den ikke – da bruker vi den
+  // commiterte public/content/ordbok.json som er. Samme mønster som
+  // locked-content-kilden.
+  if (!existsSync(SOURCE)) {
+    console.log(`ordbok.md ikke funnet – beholder eksisterende ordbok.json`)
+    return
+  }
   const md = readFileSync(SOURCE, 'utf-8')
   const rows = parseTable(md)
 
