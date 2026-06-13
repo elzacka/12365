@@ -1,0 +1,4543 @@
+[
+  {
+    "id": "adekvansbeslutning",
+    "tittel": "Adekvansbeslutning",
+    "forklaring": "Beslutning fra EU-kommisjonen om at et land utenfor EU/EØS har tilstrekkelig beskyttelsesnivå for personopplysninger.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Adequacy decision"
+    ]
+  },
+  {
+    "id": "aktuator",
+    "tittel": "Aktuator",
+    "forklaring": "Robottens bevegelige del – komponenten som utfører en fysisk handling basert på instruksjoner fra styresystemet.",
+    "tags": [
+      "iot"
+    ],
+    "alias": [
+      "Actuator"
+    ]
+  },
+  {
+    "id": "algoritme",
+    "tittel": "Algoritme",
+    "forklaring": "Nøyaktige, entydige steg-for-steg-instruksjoner som forteller en datamaskin hvordan en bestemt oppgave skal løses.",
+    "tags": [
+      "programmering",
+      "ki"
+    ],
+    "alias": [
+      "Algorithm"
+    ]
+  },
+  {
+    "id": "analoge-data",
+    "tittel": "Analoge data",
+    "forklaring": "Data basert på fysiske, kontinuerlig varierende størrelser – i motsetning til diskrete digitale verdier.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Analog data"
+    ]
+  },
+  {
+    "id": "analytiske-data",
+    "tittel": "Analytiske data",
+    "forklaring": "Logg- og metadata om bruksmønstre som registreres automatisk og kan brukes til å analysere atferd og danne profiler.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Analytical data",
+      "telemetry"
+    ]
+  },
+  {
+    "id": "anonymisering",
+    "tittel": "Anonymisering",
+    "forklaring": "Opplysninger som ikke lenger kan knyttes til en enkeltperson overhodet – faller utenfor GDPR, men er nesten umulig å oppnå i praksis.",
+    "tags": [
+      "personvern",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Anonymisation",
+      "Anonymization"
+    ]
+  },
+  {
+    "id": "antropomorfisme",
+    "tittel": "Antropomorfisme",
+    "forklaring": "Tendensen til å tillegge KI-systemer eller roboter menneskelige egenskaper, følelser og intensjoner – kan gi falske forventninger om hva systemet faktisk gjør.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Anthropomorphism"
+    ]
+  },
+  {
+    "id": "arpanet",
+    "tittel": "ARPANET",
+    "forklaring": "Forløperen til internett, startet av det amerikanske forsvaret i 1966; de første maskinene koblet på i 1969.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Advanced Research Projects Agency Network"
+    ]
+  },
+  {
+    "id": "ascii",
+    "tittel": "ASCII",
+    "forklaring": "Tegnstandard fra 1963 som kobler binære tall til bokstaver og tegn – lever videre som del av UTF-8.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "American Standard Code for Information Interchange"
+    ]
+  },
+  {
+    "id": "assosiasjon",
+    "tittel": "Assosiasjon",
+    "undertittel": "data mining",
+    "forklaring": "Teknikk som identifiserer sammenhenger mellom variabler: forekomst av A gir forventning om B.",
+    "tags": [
+      "analyse",
+      "ki"
+    ],
+    "alias": [
+      "Association rule learning"
+    ]
+  },
+  {
+    "id": "asymmetrisk-kryptering",
+    "tittel": "Asymmetrisk kryptering",
+    "forklaring": "Krypteringsform med to nøkler: offentlig nøkkel krypterer, privat nøkkel dekrypterer – løser nøkkeldistribusjon mellom ukjente parter.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Asymmetric cryptography",
+      "public-key cryptography"
+    ]
+  },
+  {
+    "id": "atferdsnorm",
+    "tittel": "Atferdsnorm",
+    "forklaring": "Bransje-retningslinjer som virksomheter i en sektor er enige om å følge for å overholde personvernregler.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Code of conduct"
+    ]
+  },
+  {
+    "id": "attributt",
+    "tittel": "Attributt",
+    "forklaring": "Egenskap knyttet til en entitet i en database – det man ønsker å vite om entiteten (tilsvarer kolonnenavn i regneark).",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Attribute"
+    ]
+  },
+  {
+    "id": "auditering",
+    "tittel": "Auditering",
+    "forklaring": "Kontinuerlig sporing av brukerhandlinger i et system, typisk via loggfiler, for å oppdage angrepsforsøk eller misbruk.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Auditing"
+    ]
+  },
+  {
+    "id": "autentisering",
+    "tittel": "Autentisering",
+    "forklaring": "Verifisering av hvem man kommuniserer med – grunnlag for å gi riktige tilganger.",
+    "tags": [
+      "sikkerhet",
+      "m365"
+    ],
+    "alias": [
+      "Authentication"
+    ]
+  },
+  {
+    "id": "automatisering",
+    "tittel": "Automatisering",
+    "forklaring": "Maskiner og programvare som utfører oppgaver uten løpende menneskelig medvirkning.",
+    "tags": [
+      "digitalisering",
+      "ki"
+    ],
+    "alias": [
+      "Automation"
+    ]
+  },
+  {
+    "id": "automatisert-individuell-avgjorelse",
+    "tittel": "Automatisert individuell avgjørelse",
+    "forklaring": "Beslutning fattet av en algoritme uten meningsfull menneskelig medvirkning, med rettslig eller tilsvarende betydelig virkning – i utgangspunktet forbudt uten særskilt grunnlag etter GDPR.",
+    "tags": [
+      "personvern",
+      "ki"
+    ],
+    "alias": [
+      "Automated individual decision-making"
+    ]
+  },
+  {
+    "id": "autorisering",
+    "tittel": "Autorisering",
+    "forklaring": "Tildeling av riktige tilgangsrettigheter til ressurser som filer og databaser – forutsetter autentisering.",
+    "tags": [
+      "sikkerhet",
+      "m365"
+    ],
+    "alias": [
+      "Authorisation",
+      "Authorization"
+    ]
+  },
+  {
+    "id": "avidentifisert-personopplysning",
+    "tittel": "Avidentifisert personopplysning",
+    "forklaring": "Personopplysning der navn, fødselsnummer eller andre personentydige kjennetegn er fjernet, men data kan i prinsippet kobles tilbake.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "De-identified personal data"
+    ]
+  },
+  {
+    "id": "bakdor",
+    "tittel": "Bakdør",
+    "forklaring": "Skjult tilgangsvei inn i et datasystem, typisk åpnet av skadevare som trojanere.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Backdoor"
+    ]
+  },
+  {
+    "id": "behandling",
+    "tittel": "Behandling",
+    "undertittel": "GDPR",
+    "forklaring": "All bruk av personopplysninger – innsamling, registrering, sammenstilling, lagring og utlevering.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Processing (GDPR)"
+    ]
+  },
+  {
+    "id": "behandlingsansvarlig",
+    "tittel": "Behandlingsansvarlig",
+    "forklaring": "Den som bestemmer formålet med behandlingen av personopplysninger og hvilke hjelpemidler som skal brukes.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data controller"
+    ]
+  },
+  {
+    "id": "behandlingsgrunnlag",
+    "tittel": "Behandlingsgrunnlag",
+    "forklaring": "Rettslig grunnlag for å behandle personopplysninger – for eksempel samtykke, avtale eller berettiget interesse.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Legal basis (GDPR)"
+    ]
+  },
+  {
+    "id": "benchmark",
+    "tittel": "Benchmark",
+    "forklaring": "Standardisert test for å måle og sammenligne ytelsen til KI-modeller – resultatene sier ikke alltid noe om praktisk nytte.",
+    "tags": [
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Benchmark",
+      "evaluation suite"
+    ]
+  },
+  {
+    "id": "berettiget-interesse",
+    "tittel": "Berettiget interesse",
+    "forklaring": "Behandlingsgrunnlag der organisasjonens eller tredjeparts interesse veier tyngre enn den registrertes personvern.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Legitimate interest"
+    ]
+  },
+  {
+    "id": "beslutningstre",
+    "tittel": "Beslutningstre",
+    "forklaring": "Trinnvis spørsmålsstruktur i data mining der hvert svar leder videre mot en klassifisering eller beslutning.",
+    "tags": [
+      "analyse",
+      "ki"
+    ],
+    "alias": [
+      "Decision tree"
+    ]
+  },
+  {
+    "id": "binaersystemet",
+    "tittel": "Binærsystemet",
+    "forklaring": "Tallsystem med grunntall 2 der n bits gir 2ⁿ mulige kombinasjoner – grunnlag for all digital databehandling.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Binary number system"
+    ]
+  },
+  {
+    "id": "biometri",
+    "tittel": "Biometri",
+    "forklaring": "Måling av biologiske mønstre, både fysiologiske kjennetegn og atferdsmønstre – regnes som sensitive personopplysninger når det brukes til identifisering.",
+    "tags": [
+      "personvern",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Biometrics",
+      "biometric data"
+    ]
+  },
+  {
+    "id": "bit",
+    "tittel": "Bit",
+    "forklaring": "Minste digitale enhet – ett binært siffer med to tilstander: av (0) eller på (1).",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Binary digit"
+    ]
+  },
+  {
+    "id": "bitdybde",
+    "tittel": "Bitdybde",
+    "forklaring": "Antall bits per måling (lyd) eller piksel (bilde) – avgjør detaljrikdom og fargespekter.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Bit depth"
+    ]
+  },
+  {
+    "id": "bitrate",
+    "tittel": "Bitrate",
+    "forklaring": "Datamengde per sekund ved avspilling av lyd eller video, målt i Kbps eller Mbps.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Bit rate"
+    ]
+  },
+  {
+    "id": "black-box",
+    "tittel": "Black box",
+    "forklaring": "KI-modell der man kan se resultatet, men ikke forstå hvordan modellen kom frem til det – beslutningsprosessen er ikke gjennomsiktig.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Svart boks"
+    ]
+  },
+  {
+    "id": "boblediagram",
+    "tittel": "Boblediagram",
+    "forklaring": "Datavisualisering som spredningsdiagram, men med en tredje variabel representert som boblestørrelse.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Bubble chart"
+    ]
+  },
+  {
+    "id": "bot-chatbot",
+    "tittel": "Bot / chatbot",
+    "forklaring": "Program som automatisk svarer på meldinger i samtaleform – moderne chatboter bygger på store språkmodeller.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Chatbot",
+      "conversational agent"
+    ]
+  },
+  {
+    "id": "botnett",
+    "tittel": "Botnett",
+    "forklaring": "Nettverk av virusinfiserte maskiner som uten eierens viten brukes til spam, DDoS-angrep og annen kriminalitet.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Botnet"
+    ]
+  },
+  {
+    "id": "business-intelligence",
+    "tittel": "Business Intelligence",
+    "undertittel": "BI",
+    "forklaring": "Programvarekategori for analyse og visuell presentasjon av forretningsdata, for eksempel Tableau og Power BI.",
+    "tags": [
+      "analyse",
+      "m365"
+    ],
+    "alias": [
+      "Forretningsanalyse"
+    ]
+  },
+  {
+    "id": "byte",
+    "tittel": "Byte",
+    "forklaring": "Åtte bits – kan representere 256 ulike verdier; grunnenheten for lagring av tegn og tall.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Byte",
+      "octet"
+    ]
+  },
+  {
+    "id": "cambridge-analytica",
+    "tittel": "Cambridge Analytica",
+    "forklaring": "Sak der en ekstern aktør lastet ned data fra millioner av Facebook-brukere uten samtykke og brukte dem til å påvirke velgere i demokratiske valg – blant annet i USA og Brexit-valget.",
+    "tags": [
+      "personvern"
+    ]
+  },
+  {
+    "id": "citizen-data-scientist",
+    "tittel": "Citizen data scientist",
+    "forklaring": "Ikke-ekspert som jobber med data ved hjelp av tilgjengelige analyseverktøy, uten spesialistbakgrunn i data science.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Borger-dataanalytiker"
+    ]
+  },
+  {
+    "id": "csv",
+    "tittel": "Comma Separated Values",
+    "undertittel": "CSV",
+    "forklaring": "Enkel tekstfil for strukturerte data der verdier er atskilt med komma – kan importeres og eksporteres mellom systemer.",
+    "tags": [
+      "analyse",
+      "programmering"
+    ],
+    "alias": [
+      "Kommaseparerte verdier"
+    ]
+  },
+  {
+    "id": "dashbord",
+    "tittel": "Dashbord",
+    "forklaring": "Interaktiv skjermvisning som samler flere visualiseringer for overvåking og beslutningsstøtte, ofte med sanntidsdata.",
+    "tags": [
+      "analyse",
+      "m365"
+    ],
+    "alias": [
+      "Dashboard"
+    ]
+  },
+  {
+    "id": "data",
+    "tittel": "Data",
+    "forklaring": "Opplysninger eller verdier i et bestemt format som kan lagres, overføres og prosesseres etter regler.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Data"
+    ]
+  },
+  {
+    "id": "data-bias",
+    "tittel": "Data bias",
+    "undertittel": "skjevhet",
+    "forklaring": "Systematisk feil i datagrunnlaget som gir en skjev fremstilling av virkeligheten – tilsiktet eller utilsiktet.",
+    "tags": [
+      "datakvalitet",
+      "ki"
+    ],
+    "alias": [
+      "Data bias"
+    ]
+  },
+  {
+    "id": "data-literacy",
+    "tittel": "Data literacy",
+    "forklaring": "Evnen til å lese, forstå, analysere og tenke kritisk om data og bruken av dem.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Datakompetanse"
+    ]
+  },
+  {
+    "id": "data-mining",
+    "tittel": "Data mining",
+    "undertittel": "datautvinning",
+    "forklaring": "Automatisert analyse av store datasett for å finne mønstre og ukjente egenskaper – skjæringspunkt mellom databaser, statistikk og maskinlæring.",
+    "tags": [
+      "analyse",
+      "ki"
+    ],
+    "alias": [
+      "Data mining"
+    ]
+  },
+  {
+    "id": "data-obfuscation",
+    "tittel": "Data obfuscation",
+    "undertittel": "tilsløring",
+    "forklaring": "Teknikk der sensitive data erstattes med realistisk utseende, men ubrukelige verdier – for deling uten misbruksrisiko.",
+    "tags": [
+      "personvern",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Data obfuscation"
+    ]
+  },
+  {
+    "id": "data-science",
+    "tittel": "Data science",
+    "forklaring": "Tverrfaglig felt som kombinerer statistikk, programmering, dataanalyse og forretningsforståelse for å hente innsikt fra data.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Datavitenskap"
+    ]
+  },
+  {
+    "id": "data-scientist",
+    "tittel": "Data scientist",
+    "forklaring": "Fagperson med utforsking av og verdiskaping fra data som spesialfelt – jobber med koding, modellering og analyse.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Datavitenskapsperson"
+    ]
+  },
+  {
+    "id": "databasehandteringssystem",
+    "tittel": "Databasehåndteringssystem",
+    "forklaring": "Programvare for å endre, utforske og gi applikasjoner tilgang til innholdet i en database.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Database Management System",
+      "DBMS"
+    ]
+  },
+  {
+    "id": "databasemodell",
+    "tittel": "Databasemodell",
+    "forklaring": "Måten dataene i en database organiseres på – den vanligste er relasjonsmodellen.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Database model"
+    ]
+  },
+  {
+    "id": "databasesemantikk",
+    "tittel": "Databasesemantikk",
+    "forklaring": "Logiske regler for hva en database må og kan lagre – definert av mennesker ut fra formålet med databasen.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Database semantics"
+    ]
+  },
+  {
+    "id": "databehandler",
+    "tittel": "Databehandler",
+    "forklaring": "Den som behandler personopplysninger på oppdrag fra den behandlingsansvarlige.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data processor"
+    ]
+  },
+  {
+    "id": "databehandleravtale",
+    "tittel": "Databehandleravtale",
+    "forklaring": "Avtale mellom databehandler og behandlingsansvarlig om hvordan personopplysninger skal behandles.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data Processing Agreement",
+      "DPA"
+    ]
+  },
+  {
+    "id": "databevissthet",
+    "tittel": "Databevissthet",
+    "forklaring": "Grunnleggende forståelse av hva data er og gjør, inkludert kjennskap til datatyper, personvern og dataetikk.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Data awareness"
+    ]
+  },
+  {
+    "id": "datadrevet-arbeid",
+    "tittel": "Datadrevet arbeid",
+    "forklaring": "Arbeid der data – ikke magefølelse og gamle vaner – ligger til grunn for drift, beslutninger og utvikling.",
+    "tags": [
+      "digitalisering",
+      "analyse"
+    ],
+    "alias": [
+      "Data-driven work"
+    ]
+  },
+  {
+    "id": "dataenes-livssyklus",
+    "tittel": "Dataenes livssyklus",
+    "forklaring": "Reisen data tar fra de oppstår i en situasjon, via innsamling, lagring, behandling og analyse, til de brukes i en beslutning.",
+    "tags": [
+      "digitalisering",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Data life cycle"
+    ]
+  },
+  {
+    "id": "datafisering",
+    "tittel": "Datafisering",
+    "forklaring": "Strukturell oversettelse av hverdagsaktiviteter og interaksjoner til (ofte tabulerte) data.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Datafication"
+    ]
+  },
+  {
+    "id": "dataforvaltning",
+    "tittel": "Dataforvaltning",
+    "forklaring": "Praksis for å ta vare på, overvåke og administrere data slik at de holder kvalitet og brukes ansvarlig.",
+    "tags": [
+      "datakvalitet"
+    ],
+    "alias": [
+      "Data stewardship",
+      "data management"
+    ]
+  },
+  {
+    "id": "datahistorikk",
+    "tittel": "Datahistorikk",
+    "forklaring": "Muligheten til å bevare koblinger til historiske data ved å skille logiske datablokker i en relasjonsdatabase.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Data history",
+      "temporal database"
+    ]
+  },
+  {
+    "id": "datakvalitet",
+    "tittel": "Datakvalitet",
+    "forklaring": "I hvilken grad dataene samsvarer med den situasjonen eller aktiviteten de skal representere.",
+    "tags": [
+      "datakvalitet"
+    ],
+    "alias": [
+      "Data quality"
+    ]
+  },
+  {
+    "id": "datamaskinbruk",
+    "tittel": "Datamaskinbruk",
+    "undertittel": "computer use",
+    "forklaring": "Funksjon der en KI-modell styrer en datamaskin som et menneske – flytter peker, klikker og skriver i programmer.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Computer use",
+      "agentic browsing"
+    ]
+  },
+  {
+    "id": "dataminimering",
+    "tittel": "Dataminimering",
+    "forklaring": "Prinsipp om at innsamling av personopplysninger skal avgrenses til det strengt nødvendige for å oppnå formålet.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data minimisation"
+    ]
+  },
+  {
+    "id": "dataportabilitet",
+    "tittel": "Dataportabilitet",
+    "forklaring": "Rett til å få utlevert egne personopplysninger i et format som lar dem flyttes til en annen leverandør.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data portability"
+    ]
+  },
+  {
+    "id": "datasenter",
+    "tittel": "Datasenter",
+    "forklaring": "Anlegg med store samlinger servere som tilbyr lagring og prosessering som nettskytjeneste.",
+    "tags": [
+      "sky"
+    ],
+    "alias": [
+      "Data centre",
+      "data center"
+    ]
+  },
+  {
+    "id": "datasett",
+    "tittel": "Datasett",
+    "forklaring": "Samling data som brukes til å trene eller teste en KI-modell – kvaliteten avgjør hvor god modellen blir.",
+    "tags": [
+      "ki",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Dataset"
+    ]
+  },
+  {
+    "id": "datasilo",
+    "tittel": "Datasilo",
+    "forklaring": "Data som ligger isolert i ett system eller på ett sted, utilgjengelig for bruk på tvers av organisasjonen.",
+    "tags": [
+      "datakvalitet",
+      "digitalisering"
+    ],
+    "alias": [
+      "Data silo"
+    ]
+  },
+  {
+    "id": "datasjo",
+    "tittel": "Datasjø",
+    "forklaring": "Lager for store mengder rå data, både strukturerte og ustrukturerte, for senere bearbeiding og analyse.",
+    "tags": [
+      "sky",
+      "analyse"
+    ],
+    "alias": [
+      "Data lake"
+    ]
+  },
+  {
+    "id": "datastrom",
+    "tittel": "Datastrøm",
+    "forklaring": "Levende tilførsel av data i sanntid fra sensorer eller systemer, i motsetning til statiske datasett.",
+    "tags": [
+      "iot",
+      "analyse"
+    ],
+    "alias": [
+      "Data stream"
+    ]
+  },
+  {
+    "id": "datasyn",
+    "tittel": "Datasyn",
+    "forklaring": "Datasystemer som ser og tolker omgivelsene ved hjelp av maskinlæring og sensordata.",
+    "tags": [
+      "ki",
+      "iot"
+    ],
+    "alias": [
+      "Computer vision"
+    ]
+  },
+  {
+    "id": "datasystem",
+    "tittel": "Datasystem",
+    "forklaring": "Én eller flere datamaskiner, programvare og utstyr (inkl. IoT-enheter) som samarbeider i et digitalt kommuniserende økosystem.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Computer system",
+      "IT-system"
+    ]
+  },
+  {
+    "id": "datatype",
+    "tittel": "Datatype",
+    "forklaring": "Kategorisering av data etter struktur eller innhold – f.eks. strukturerte, ustrukturerte eller semistrukturerte.",
+    "tags": [
+      "database",
+      "analyse"
+    ],
+    "alias": [
+      "Data type"
+    ]
+  },
+  {
+    "id": "datavarehus",
+    "tittel": "Datavarehus",
+    "forklaring": "Databasesystem tilrettelagt for søk og analyse av strukturerte data fra mange kilder – grunnlag for rapportering.",
+    "tags": [
+      "database",
+      "sky"
+    ],
+    "alias": [
+      "Data warehouse"
+    ]
+  },
+  {
+    "id": "datavisualisering",
+    "tittel": "Datavisualisering",
+    "forklaring": "Grafisk fremstilling av data som utnytter menneskets persepsjon til å avdekke mønstre, trender og sammenhenger.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Data visualisation",
+      "data visualization"
+    ]
+  },
+  {
+    "id": "dataokonomi",
+    "tittel": "Dataøkonomi",
+    "forklaring": "Økonomi der data er den fremste ressursen for verdiskaping.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Data economy"
+    ]
+  },
+  {
+    "id": "datum",
+    "tittel": "Datum",
+    "forklaring": "Latin: «det som er gitt» – opphavet til ordet data; flertall er data.",
+    "tags": [
+      "digitalisering"
+    ]
+  },
+  {
+    "id": "dataanalyse",
+    "tittel": "Dataanalyse",
+    "forklaring": "Arbeidet med å hente innsikt fra data – fra enkel sortering i regneark til avanserte maskinlæringsmodeller.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Data analysis",
+      "data analytics"
+    ]
+  },
+  {
+    "id": "ddos-angrep",
+    "tittel": "DDoS-angrep",
+    "forklaring": "Tjenestenektangrep der mange samkjørte kaprede maskiner overbelaster et system slik at det blir utilgjengelig.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Distributed Denial of Service attack"
+    ]
+  },
+  {
+    "id": "deepfake",
+    "tittel": "Deepfake",
+    "forklaring": "KI-generert falskt bilde, lyd eller video som etterligner en virkelig person – brukt blant annet i direktørsvindel.",
+    "tags": [
+      "ki",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Deepfake"
+    ]
+  },
+  {
+    "id": "demokratisering-av-data",
+    "tittel": "Demokratisering av data",
+    "forklaring": "Tilgjengeliggjøring av verktøy og kunnskap for dataanalyse for ikke-spesialister.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Data democratisation"
+    ]
+  },
+  {
+    "id": "den-registrerte",
+    "tittel": "Den registrerte",
+    "forklaring": "Enkeltpersonen som de lagrede personopplysningene kan knyttes til – den GDPR gir rettigheter.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data subject"
+    ]
+  },
+  {
+    "id": "deskriptiv-analyse",
+    "tittel": "Deskriptiv analyse",
+    "forklaring": "Analyseform som samler og beskriver faktiske forhold som allerede har skjedd – grunnlag for videre analyse.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Descriptive analytics"
+    ]
+  },
+  {
+    "id": "deskriptiv-statistikk",
+    "tittel": "Deskriptiv statistikk",
+    "forklaring": "Statistikk som beskriver egenskapene til et datasett, f.eks. gjennomsnitt, median og standardavvik.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Descriptive statistics"
+    ]
+  },
+  {
+    "id": "destillasjon",
+    "tittel": "Destillasjon",
+    "undertittel": "distillation",
+    "forklaring": "Teknikk der en mindre modell lærer av en større for å bli nesten like god, men raskere og billigere å kjøre.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Knowledge distillation",
+      "model distillation"
+    ]
+  },
+  {
+    "id": "diagnostisk-analyse",
+    "tittel": "Diagnostisk analyse",
+    "forklaring": "Analyseform som identifiserer bakenforliggende årsaker til det som har skjedd.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Diagnostic analytics"
+    ]
+  },
+  {
+    "id": "diffusjonsmodell",
+    "tittel": "Diffusjonsmodell",
+    "forklaring": "KI-modell som lager bilder, lyd eller video ved gradvis å forme tilfeldig støy til et meningsfylt resultat.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Diffusion model"
+    ]
+  },
+  {
+    "id": "digital-etikk",
+    "tittel": "Digital etikk",
+    "forklaring": "Etisk refleksjon om ny teknologi og handlinger utført med digital teknologi – hva som er ønskelig, ikke bare lovlig.",
+    "tags": [
+      "digitalisering",
+      "personvern"
+    ],
+    "alias": [
+      "Digital ethics"
+    ]
+  },
+  {
+    "id": "digital-transformasjon",
+    "tittel": "Digital transformasjon",
+    "forklaring": "Dyptgripende samfunnsendring der data og digital teknologi gjør at vi gjør nye ting på helt nye måter.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Digital transformation"
+    ]
+  },
+  {
+    "id": "digital-tvilling",
+    "tittel": "Digital tvilling",
+    "forklaring": "Digital modell av et virkelig objekt, system eller prosess, ofte oppdatert med sanntidsdata for simulering og overvåking.",
+    "tags": [
+      "iot",
+      "digitalisering"
+    ],
+    "alias": [
+      "Digital twin"
+    ]
+  },
+  {
+    "id": "digitale-data",
+    "tittel": "Digitale data",
+    "forklaring": "Data representert som diskrete verdier (0 og 1) som en datamaskin kan behandle, lagre og overføre.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Digital data"
+    ]
+  },
+  {
+    "id": "digitale-spor",
+    "tittel": "Digitale spor",
+    "forklaring": "Data som genereres automatisk når vi bruker digitale enheter og tjenester – logger, klikk, bevegelser, sensordata.",
+    "tags": [
+      "personvern",
+      "digitalisering"
+    ],
+    "alias": [
+      "Digital footprint"
+    ]
+  },
+  {
+    "id": "digitalisering",
+    "tittel": "Digitalisering",
+    "forklaring": "Prosessen med å ta i bruk digitale løsninger for å fornye prosesser og tjenester – bygger på digitisering.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Digitalisation",
+      "Digitalization"
+    ]
+  },
+  {
+    "id": "digitisering",
+    "tittel": "Digitisering",
+    "forklaring": "Konvertering av analoge data til digitalt format, f.eks. skanning av et fotografi.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Digitisation",
+      "Digitization"
+    ]
+  },
+  {
+    "id": "dpo",
+    "tittel": "Direct Preference Optimization",
+    "undertittel": "DPO",
+    "forklaring": "Metode for å tilpasse språkmodeller til menneskelige preferanser direkte, uten en egen belønningsmodell slik RLHF krever.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Direct preference optimisation"
+    ]
+  },
+  {
+    "id": "direktorsvindel",
+    "tittel": "Direktørsvindel",
+    "forklaring": "Sosial manipulering der angriperen utgir seg for å være leder, typisk med hastepreg og falsk betalingsforespørsel.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "CEO fraud",
+      "Business Email Compromise",
+      "BEC"
+    ]
+  },
+  {
+    "id": "domenekunnskap",
+    "tittel": "Domenekunnskap",
+    "forklaring": "Fagekspertise på området man analyserer data fra – nødvendig komplement til teknologikompetanse.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Domain knowledge",
+      "domain expertise"
+    ]
+  },
+  {
+    "id": "dyp-laering",
+    "tittel": "Dyp læring",
+    "undertittel": "deep learning",
+    "forklaring": "Maskinlæring med nevrale nettverk i mange lag – teknologien bak de fleste moderne KI-gjennombrudd.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Deep learning",
+      "DL"
+    ]
+  },
+  {
+    "id": "ear-modellering",
+    "tittel": "EAR-modellering",
+    "forklaring": "Modelleringsmetode for relasjonsdatabaser basert på entiteter, attributter og relasjoner.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Entity-Attribute-Relationship modelling",
+      "EAR modeling"
+    ]
+  },
+  {
+    "id": "edge-ki",
+    "tittel": "Edge-KI",
+    "undertittel": "enhet-KI",
+    "forklaring": "KI som kjøres lokalt på enheten (mobil, sensor) i stedet for i skyen – gir raskere svar og bedre personvern.",
+    "tags": [
+      "ki",
+      "iot"
+    ],
+    "alias": [
+      "Edge AI",
+      "on-device AI"
+    ]
+  },
+  {
+    "id": "edb",
+    "tittel": "Elektronisk databehandling",
+    "undertittel": "EDB",
+    "forklaring": "Gammel norsk forkortelse som presist beskriver hva datamaskiner gjør – i dag inngår det i IT/IKT.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Electronic data processing",
+      "EDP"
+    ]
+  },
+  {
+    "id": "embedding",
+    "tittel": "Embedding",
+    "undertittel": "vektorrepresentasjon",
+    "forklaring": "Representasjon av ord eller data som tallvektorer, der lignende betydning gir tall som ligger nær hverandre.",
+    "tags": [
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Embedding",
+      "vector embedding"
+    ]
+  },
+  {
+    "id": "ende-til-ende-kryptering",
+    "tittel": "Ende-til-ende-kryptering",
+    "forklaring": "Kryptering der bare avsender og mottaker kan lese innholdet – ikke tjenesteleverandøren.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "End-to-end encryption",
+      "E2EE"
+    ]
+  },
+  {
+    "id": "entitet",
+    "tittel": "Entitet",
+    "forklaring": "Logisk enhet av data i en relasjonsdatabase – «noe som finnes» som man samler data om, tilsvarende et ark i et regneark.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Entity"
+    ]
+  },
+  {
+    "id": "er-diagram",
+    "tittel": "ER-diagram",
+    "forklaring": "Visuelt diagram som viser entiteter, attributter og relasjoner i en database med standardisert notasjon.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Entity-Relationship diagram",
+      "ERD"
+    ]
+  },
+  {
+    "id": "etterlevelse",
+    "tittel": "Etterlevelse",
+    "forklaring": "Arbeid med å sikre at en organisasjon følger lover, regler og interne retningslinjer.",
+    "tags": [
+      "personvern",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Compliance"
+    ]
+  },
+  {
+    "id": "eus-ki-forordning",
+    "tittel": "EUs KI-forordning",
+    "undertittel": "AI Act",
+    "forklaring": "EUs risikobaserte regelverk for kunstig intelligens fra 2024 – gjelder norske organisasjoner gjennom EØS-avtalen.",
+    "tags": [
+      "ki",
+      "personvern"
+    ],
+    "alias": [
+      "EU AI Act",
+      "Artificial Intelligence Act"
+    ]
+  },
+  {
+    "id": "evidensbasert-beslutningstaking",
+    "tittel": "Evidensbasert beslutningstaking",
+    "forklaring": "Praksis der data – ikke antakelser – styrer beslutninger gjennom hele datalivssyklusen fra innsikt til handling.",
+    "tags": [
+      "analyse",
+      "digitalisering"
+    ],
+    "alias": [
+      "Evidence-based decision making"
+    ]
+  },
+  {
+    "id": "etl",
+    "tittel": "Extract, Transform, Load",
+    "undertittel": "ETL",
+    "forklaring": "Prosessen for å hente data fra kilder, gjøre dem om til riktige formater og laste dem inn i et datavarehus.",
+    "tags": [
+      "database",
+      "analyse"
+    ],
+    "alias": [
+      "Uthent",
+      "transformer",
+      "last"
+    ]
+  },
+  {
+    "id": "finjustering",
+    "tittel": "Finjustering",
+    "undertittel": "fine-tuning",
+    "forklaring": "Videretrening av en ferdig modell på et avgrenset datasett slik at den blir ekspert på et bestemt område.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Fine-tuning"
+    ]
+  },
+  {
+    "id": "flat-fil",
+    "tittel": "Flat fil",
+    "forklaring": "Tidlig digital databaseform med sekvensielle, uniforme data i rader som måtte søkes gjennom forfra.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Flat file"
+    ]
+  },
+  {
+    "id": "flop",
+    "tittel": "FLOP",
+    "forklaring": "Måleenhet for regnekapasitet – flyttallsoperasjoner. Brukes til å sammenligne hvor mye regnekraft som kreves for å trene og kjøre KI-modeller.",
+    "tags": [
+      "ki",
+      "programmering"
+    ],
+    "alias": [
+      "Floating-point operation",
+      "FLOPS"
+    ]
+  },
+  {
+    "id": "forankring",
+    "tittel": "Forankring",
+    "undertittel": "grounding",
+    "forklaring": "Kobling av modellens svar til verifiserbare kilder som dokumenter eller søk, for å redusere hallusinasjoner.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Grounding",
+      "RAG",
+      "retrieval-augmented generation"
+    ]
+  },
+  {
+    "id": "forhandsdroftelse",
+    "tittel": "Forhåndsdrøftelse",
+    "forklaring": "Plikt den behandlingsansvarlige har til å rådføre seg med Datatilsynet før behandling med høy gjenstående risiko settes i gang.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Prior consultation"
+    ]
+  },
+  {
+    "id": "forhandstrening",
+    "tittel": "Forhåndstrening",
+    "forklaring": "Innledende fase der en språkmodell lærer å forutsi neste ord i enorme tekstmengder – legger grunnlaget før modellen finjusteres til konkrete oppgaver.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Pre-training"
+    ]
+  },
+  {
+    "id": "forklarbar-ki",
+    "tittel": "Forklarbar KI",
+    "undertittel": "XAI",
+    "forklaring": "KI-systemer som kan begrunne avgjørelsene sine – viktig der beslutninger påvirker mennesker i helse, jus eller kreditt.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Explainable AI",
+      "XAI",
+      "interpretable AI"
+    ]
+  },
+  {
+    "id": "formalsbegrensning",
+    "tittel": "Formålsbegrensning",
+    "forklaring": "Prinsipp om at personopplysninger bare kan behandles for presist angitt formål definert ved innsamlingen.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Purpose limitation"
+    ]
+  },
+  {
+    "id": "forsterkende-laering",
+    "tittel": "Forsterkende læring",
+    "forklaring": "Maskinlæringsform der algoritmen lærer gjennom belønning og straff uten å få fasit.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Reinforcement learning",
+      "RL"
+    ]
+  },
+  {
+    "id": "forventningsverdi",
+    "tittel": "Forventningsverdi",
+    "forklaring": "Gjennomsnittet av mulige utfall vektet etter sannsynlighet – brukes for å håndtere usikkerhet rasjonelt.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Expected value"
+    ]
+  },
+  {
+    "id": "fremmednokkel",
+    "tittel": "Fremmednøkkel",
+    "undertittel": "FK",
+    "forklaring": "En annen entitets primærnøkkel som er kopiert inn i en entitet for å etablere en relasjon mellom dem.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Foreign key",
+      "FK"
+    ]
+  },
+  {
+    "id": "fremvoksende-egenskaper",
+    "tittel": "Fremvoksende egenskaper",
+    "forklaring": "Ferdigheter en språkmodell utvikler uventet når den blir stor nok, uten å være eksplisitt trent for dem – sentralt i debatten om KI-evner og risiko.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Emergent abilities",
+      "emergent properties"
+    ]
+  },
+  {
+    "id": "frontiermodell",
+    "tittel": "Frontiermodell",
+    "forklaring": "De mest avanserte KI-modellene som finnes til enhver tid – sentrale i debatten om KI-sikkerhet og regulering.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Frontier model"
+    ]
+  },
+  {
+    "id": "funksjonelle-data",
+    "tittel": "Funksjonelle data",
+    "forklaring": "Maskin-til-maskin-data via protokoller som er nødvendige for at digitale tjenester skal virke.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Functional data",
+      "protocol data"
+    ]
+  },
+  {
+    "id": "funksjonskall",
+    "tittel": "Funksjonskall",
+    "undertittel": "function calling",
+    "forklaring": "Funksjon der modellen ber et eksternt program utføre en oppgave og presenterer resultatet – grunnlag for KI-agenter.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Function calling",
+      "tool use"
+    ]
+  },
+  {
+    "id": "fodselsnummer",
+    "tittel": "Fødselsnummer",
+    "forklaring": "Ellevesifret identifikasjonsnummer som alle folkeregistrerte i Norge har – regnes som personopplysning, men ikke sensitiv.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "National identity number"
+    ]
+  },
+  {
+    "id": "generativ-ki",
+    "tittel": "Generativ KI",
+    "forklaring": "KI som produserer nytt innhold – tekst, bilde, lyd, video eller kode – basert på store treningsdata.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Generative AI",
+      "GenAI"
+    ]
+  },
+  {
+    "id": "gjennomsnitt",
+    "tittel": "Gjennomsnitt",
+    "forklaring": "Summen av verdiene i et datasett delt på antallet – ett av målene for sentralitet.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Mean",
+      "average"
+    ]
+  },
+  {
+    "id": "governance",
+    "tittel": "Governance",
+    "undertittel": "datastyring",
+    "forklaring": "Styringssystemer og styringsstrukturer som sikrer god databehandling, etikk, juridisk etterlevelse og sikkerhet.",
+    "tags": [
+      "datakvalitet",
+      "digitalisering"
+    ],
+    "alias": [
+      "Data governance"
+    ]
+  },
+  {
+    "id": "gpu",
+    "tittel": "Graphics Processing Unit",
+    "undertittel": "GPU",
+    "forklaring": "Prosessor for parallelle beregninger – det viktigste maskineriet for å trene og kjøre KI-modeller.",
+    "tags": [
+      "programmering",
+      "ki"
+    ],
+    "alias": [
+      "Grafikkprosessor"
+    ]
+  },
+  {
+    "id": "grunnmodell",
+    "tittel": "Grunnmodell",
+    "undertittel": "foundation model",
+    "forklaring": "Stor modell trent på enorme datamengder som kan spesialiseres til mange ulike oppgaver.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Foundation model"
+    ]
+  },
+  {
+    "id": "gruppering-clustering",
+    "tittel": "Gruppering / clustering",
+    "forklaring": "Data mining-teknikk som identifiserer klynger av korrelerende objekter basert på ett eller flere attributter.",
+    "tags": [
+      "analyse",
+      "ki"
+    ],
+    "alias": [
+      "Clustering"
+    ]
+  },
+  {
+    "id": "hallusinering",
+    "tittel": "Hallusinering",
+    "undertittel": "KI",
+    "forklaring": "Fenomen der KI presenterer feil informasjon som om det var sant – modellen «finner på» fakta, tall eller referanser som ikke eksisterer.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Hallucination",
+      "AI hallucination"
+    ]
+  },
+  {
+    "id": "helseopplysning",
+    "tittel": "Helseopplysning",
+    "forklaring": "Personopplysning om helseforhold – en av de særlige kategoriene som krever ekstra vern.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Health data"
+    ]
+  },
+  {
+    "id": "historiske-data",
+    "tittel": "Historiske data",
+    "forklaring": "Data registrert på et tidspunkt i fortiden – i motsetning til sanntidsdata.",
+    "tags": [
+      "analyse",
+      "database"
+    ],
+    "alias": [
+      "Historical data"
+    ]
+  },
+  {
+    "id": "https",
+    "tittel": "HTTPS",
+    "forklaring": "HTTP med krypteringslag som hindrer at uvedkommende leser data som utveksles mellom nettleser og server.",
+    "tags": [
+      "nettverkstek",
+      "sikkerhet"
+    ],
+    "alias": [
+      "HTTP Secure",
+      "HTTP over TLS"
+    ]
+  },
+  {
+    "id": "hullkort",
+    "tittel": "Hullkort",
+    "forklaring": "Tidlig fysisk programmeringsmedium basert på binærsystemet – hull og ikke-hull leses som 1 eller 0.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Punch card"
+    ]
+  },
+  {
+    "id": "hyperparameter",
+    "tittel": "Hyperparameter",
+    "forklaring": "Innstilling som settes manuelt før trening og styrer hvordan modellen trenes, for eksempel læringsrate og størrelse.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Hyperparameter"
+    ]
+  },
+  {
+    "id": "html",
+    "tittel": "Hypertext Markup Language",
+    "undertittel": "HTML",
+    "forklaring": "Markeringsspråk som beskriver struktur og presentasjon av innhold på nettsider.",
+    "tags": [
+      "programmering",
+      "nettverkstek"
+    ],
+    "alias": [
+      "Hypertekstmarkeringsspråk"
+    ]
+  },
+  {
+    "id": "http",
+    "tittel": "Hypertext Transfer Protocol",
+    "undertittel": "HTTP",
+    "forklaring": "Protokoll som lar en klient laste ned en nettside fra en server – grunnlag for verdensveven.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Hypertekstoverføringsprotokoll"
+    ]
+  },
+  {
+    "id": "hoynivasprak",
+    "tittel": "Høynivåspråk",
+    "forklaring": "Programmeringsspråk nær menneskelig logikk, f.eks. Python og Java – oversettes automatisk til maskinkode.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "High-level language"
+    ]
+  },
+  {
+    "id": "ikke-veiledet-laering",
+    "tittel": "Ikke-veiledet læring",
+    "undertittel": "unsupervised learning",
+    "forklaring": "Maskinlæring der modellen finner mønstre i data uten merkede fasitsvar.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Unsupervised learning"
+    ]
+  },
+  {
+    "id": "ikt-sikkerhet",
+    "tittel": "IKT-sikkerhet",
+    "forklaring": "Beskyttelse av de teknologibaserte systemene som lagrer, prosesserer og overfører data.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "ICT security",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": "inferens",
+    "tittel": "Inferens",
+    "forklaring": "Det som skjer når en ferdigtrent modell brukes i praksis – krever langt mindre ressurser enn trening.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Inference"
+    ]
+  },
+  {
+    "id": "infografikk",
+    "tittel": "Infografikk",
+    "forklaring": "Kombinasjon av ikoner, grafikk, datavisualisering og minimal tekst for lettfattelig oversikt over et emne.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Infographic"
+    ]
+  },
+  {
+    "id": "informasjon",
+    "tittel": "Informasjon",
+    "forklaring": "Data som er tolket og satt i kontekst og dermed tillagt mening.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Information"
+    ]
+  },
+  {
+    "id": "ikt",
+    "tittel": "Informasjons- og kommunikasjonsteknologi",
+    "undertittel": "IKT",
+    "forklaring": "Samlebetegnelse for teknologi som behandler, lagrer og kommuniserer informasjon digitalt.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Information and Communication Technology",
+      "ICT"
+    ]
+  },
+  {
+    "id": "informasjonskapsel",
+    "tittel": "Informasjonskapsel",
+    "undertittel": "cookie",
+    "forklaring": "Liten datafil som plasseres på brukerens maskin for å gjenkjenne og følge brukerens aktivitet på nettsider.",
+    "tags": [
+      "personvern",
+      "nettverkstek"
+    ],
+    "alias": [
+      "Cookie",
+      "HTTP cookie"
+    ]
+  },
+  {
+    "id": "informasjonssikkerhet",
+    "tittel": "Informasjonssikkerhet",
+    "forklaring": "Beskyttelse av informasjonen og dataene mot utilsiktet endring, tap og urettmessig tilgang.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Information security",
+      "InfoSec"
+    ]
+  },
+  {
+    "id": "iaas",
+    "tittel": "Infrastructure as a Service",
+    "undertittel": "IaaS",
+    "forklaring": "Skymodell der man leier grunnleggende infrastruktur (servere, lagring, nettverk) og administrerer resten selv.",
+    "tags": [
+      "sky"
+    ],
+    "alias": [
+      "Infrastruktur som tjeneste"
+    ]
+  },
+  {
+    "id": "innebygd-personvern",
+    "tittel": "Innebygd personvern",
+    "forklaring": "Prinsipp om at tekniske systemer skal utvikles slik at personvernet er ivaretatt fra starten – ikke etterpå.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Privacy by design",
+      "data protection by design"
+    ]
+  },
+  {
+    "id": "innholdsdata",
+    "tittel": "Innholdsdata",
+    "forklaring": "Informasjons- og kommunikasjonsinnhold vi utveksler med andre mennesker gjennom bruk av maskiner, applikasjoner og plattformer – ofte multimediale (lyd, tekst, bilde, video).",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Content data"
+    ]
+  },
+  {
+    "id": "instans",
+    "tittel": "Instans",
+    "forklaring": "Konkret datarad i en entitet i en relasjonsdatabase.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Instance",
+      "record",
+      "row"
+    ]
+  },
+  {
+    "id": "instruksjonsmodell",
+    "tittel": "Instruksjonsmodell",
+    "undertittel": "instruct-modell",
+    "forklaring": "Språkmodell trent til å følge instruksjoner og svare hjelpsomt i dialog, til forskjell fra en ren basemodell.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Instruction-tuned model",
+      "instruct model"
+    ]
+  },
+  {
+    "id": "integritet",
+    "tittel": "Integritet",
+    "forklaring": "Prinsipp om at data og informasjon skal være sikret mot utilsiktet eller uautorisert endring eller sletting – ett av de tre elementene i KIT-triaden.",
+    "tags": [
+      "sikkerhet",
+      "personvern"
+    ],
+    "alias": [
+      "Integrity"
+    ]
+  },
+  {
+    "id": "interaktivitet",
+    "tittel": "Interaktivitet",
+    "forklaring": "Muligheten til å filtrere og endre visningen i et dashbord eller en visualisering.",
+    "tags": [
+      "analyse",
+      "m365"
+    ],
+    "alias": [
+      "Interactivity"
+    ]
+  },
+  {
+    "id": "interne-data",
+    "tittel": "Interne data",
+    "forklaring": "Data som finnes i organisasjonen: egne data organisasjonen kontrollerer, og delte data med delvis eierskap.",
+    "tags": [
+      "datakvalitet"
+    ],
+    "alias": [
+      "Internal data",
+      "first-party data"
+    ]
+  },
+  {
+    "id": "iot-enhet",
+    "tittel": "IoT-enhet",
+    "forklaring": "Identifiserbar gjenstand med sensorer som sender (og ofte mottar) data over internett.",
+    "tags": [
+      "iot"
+    ],
+    "alias": [
+      "IoT device",
+      "Internet of Things device"
+    ]
+  },
+  {
+    "id": "ip-adresse",
+    "tittel": "IP-adresse",
+    "forklaring": "Unikt nummer som identifiserer en enhet i et nettverk – regnes som personopplysning når det kan knyttes til en identifiserbar person.",
+    "tags": [
+      "personvern",
+      "nettverkstek"
+    ],
+    "alias": [
+      "IP address"
+    ]
+  },
+  {
+    "id": "isbn",
+    "tittel": "ISBN",
+    "forklaring": "Unikt, uforanderlig og offentlig nummer alle publiserte bøker får – eksempel på en naturlig primærnøkkel.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "International Standard Book Number"
+    ]
+  },
+  {
+    "id": "isfjellmodellen",
+    "tittel": "Isfjellmodellen",
+    "forklaring": "Metafor for at det meste av dataproduksjonen skjer usynlig under overflaten av det vi gjør digitalt.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Iceberg model"
+    ]
+  },
+  {
+    "id": "iterativt-arbeid",
+    "tittel": "Iterativt arbeid",
+    "forklaring": "Arbeidsmetode der man jobber i gjentatte runder mot et definert sluttmål med forbedringer for hver runde.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Iterative work",
+      "iteration"
+    ]
+  },
+  {
+    "id": "jailbreak",
+    "tittel": "Jailbreak",
+    "forklaring": "Forsøk på å omgå sikkerhetsreglene i en KI-modell slik at den svarer på noe den normalt nekter.",
+    "tags": [
+      "ki",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Jailbreak",
+      "jailbreaking"
+    ]
+  },
+  {
+    "id": "json",
+    "tittel": "JSON",
+    "forklaring": "Dataformat som ofte returneres fra REST API-er – lettvekts og lesbart strukturert format.",
+    "tags": [
+      "programmering",
+      "nettverkstek"
+    ],
+    "alias": [
+      "JavaScript Object Notation"
+    ]
+  },
+  {
+    "id": "jupyternotebook",
+    "tittel": "Jupyternotebook",
+    "forklaring": "Gratis, nettbasert kodemiljø for utforskende dataanalyse som støtter Python, R og flere språk.",
+    "tags": [
+      "analyse",
+      "programmering"
+    ],
+    "alias": [
+      "Jupyter Notebook"
+    ]
+  },
+  {
+    "id": "kandidatnokkel",
+    "tittel": "Kandidatnøkkel",
+    "forklaring": "Attributt som oppfyller kravene til primærnøkkel (unik, aldri NULL, aldri endres) – én velges som PK.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Candidate key"
+    ]
+  },
+  {
+    "id": "kardinalitet",
+    "tittel": "Kardinalitet",
+    "forklaring": "Sammenhengen i en relasjon mellom entiteter: en-til-en, en-til-mange eller mange-til-mange.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Cardinality"
+    ]
+  },
+  {
+    "id": "kausalitet",
+    "tittel": "Kausalitet",
+    "forklaring": "Faktisk årsak–virkning-forhold mellom to fenomener – i motsetning til korrelasjon.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Causality",
+      "causation"
+    ]
+  },
+  {
+    "id": "kpi",
+    "tittel": "Key Performance Indicator",
+    "undertittel": "KPI",
+    "forklaring": "Nøkkeltall som måler organisasjonens ytelse mot definerte mål innen salg, kvalitet, lønnsomhet og lignende.",
+    "tags": [
+      "analyse",
+      "m365"
+    ],
+    "alias": [
+      "Nøkkelindikator"
+    ]
+  },
+  {
+    "id": "ki-agent",
+    "tittel": "KI-agent",
+    "forklaring": "KI-system som kan handle selvstendig: planlegger, tar beslutninger, bruker verktøy og utfører flere steg uten at brukeren veileder hvert steg.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "AI agent",
+      "agentic AI"
+    ]
+  },
+  {
+    "id": "ki-assistent",
+    "tittel": "KI-assistent",
+    "forklaring": "KI-verktøy som hjelper med oppgaver på forespørsel – brukeren gir instruksjon, assistenten svarer, men brukeren styrer prosessen.",
+    "tags": [
+      "ki",
+      "m365"
+    ],
+    "alias": [
+      "AI assistant"
+    ]
+  },
+  {
+    "id": "ki-etikk",
+    "tittel": "KI-etikk",
+    "forklaring": "Spørsmål om rett og galt i utvikling og bruk av KI – personvern, diskriminering, åpenhet og ansvar.",
+    "tags": [
+      "ki",
+      "personvern"
+    ],
+    "alias": [
+      "AI ethics"
+    ]
+  },
+  {
+    "id": "ki-slop",
+    "tittel": "KI-slop",
+    "forklaring": "Lavkvalitets innhold masseprodusert av KI uten menneskelig kvalitetskontroll – generisk, repetitivt og tynt.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "AI slop"
+    ]
+  },
+  {
+    "id": "kildekode",
+    "tittel": "Kildekode",
+    "forklaring": "Kode i høynivåspråk, lesbar for mennesker – oversettes til maskinkode for kjøring.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Source code"
+    ]
+  },
+  {
+    "id": "kit-triaden",
+    "tittel": "KIT-triaden",
+    "forklaring": "Konfidensialitet, integritet og tilgjengelighet – de tre klassiske grunnpilarene i informasjonssikkerhet. GDPR utvider rammen med en fjerde pilar: robusthet.",
+    "tags": [
+      "sikkerhet",
+      "personvern"
+    ],
+    "alias": [
+      "CIA triad",
+      "Confidentiality Integrity Availability"
+    ]
+  },
+  {
+    "id": "klassifisering",
+    "tittel": "Klassifisering",
+    "forklaring": "Maskinlærings- eller data mining-teknikk som sorterer data i forhåndsdefinerte klasser.",
+    "tags": [
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Classification"
+    ]
+  },
+  {
+    "id": "komprimering",
+    "tittel": "Komprimering",
+    "forklaring": "Algoritmer som reduserer datamengden ved lyd- eller bildekoding, ofte med noe kvalitetstap.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Compression"
+    ]
+  },
+  {
+    "id": "konfidensialitet",
+    "tittel": "Konfidensialitet",
+    "forklaring": "Prinsipp om at data og informasjon må være sikret mot at uvedkommende får tilgang – ett av de tre elementene i KIT-triaden. Gjelder også personopplysninger i GDPR.",
+    "tags": [
+      "sikkerhet",
+      "personvern"
+    ],
+    "alias": [
+      "Confidentiality"
+    ]
+  },
+  {
+    "id": "konstitusjonell-ki",
+    "tittel": "Konstitusjonell KI",
+    "undertittel": "Constitutional AI",
+    "forklaring": "Treningsteknikk der modellen følger et sett prinsipper og kritiserer egne svar mot dem, framfor utelukkende menneskelige vurderinger.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Constitutional AI",
+      "CAI"
+    ]
+  },
+  {
+    "id": "kontekstvindu",
+    "tittel": "Kontekstvindu",
+    "forklaring": "Mengden tekst en språkmodell kan forholde seg til samtidig, målt i tokens – modellens «arbeidsminne».",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Context window"
+    ]
+  },
+  {
+    "id": "korrelasjon",
+    "tittel": "Korrelasjon",
+    "forklaring": "Fenomen der to ting samvarierer eller skjer samtidig – uten at det nødvendigvis er et årsaksforhold mellom dem.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Correlation"
+    ]
+  },
+  {
+    "id": "korrelasjonskoeffisient",
+    "tittel": "Korrelasjonskoeffisient",
+    "forklaring": "Standardisert mål på samvariasjon mellom to variabler, bygget på standardavvik og kovarians.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Correlation coefficient"
+    ]
+  },
+  {
+    "id": "kovarians",
+    "tittel": "Kovarians",
+    "forklaring": "Mål på hvordan to datasett varierer i forhold til hverandre – positivt eller negativt.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Covariance"
+    ]
+  },
+  {
+    "id": "kryptering",
+    "tittel": "Kryptering",
+    "forklaring": "Data stokkes om med en algoritme og hemmelig nøkkel, slik at bare nøkkelinnehaveren kan lese dem.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Encryption"
+    ]
+  },
+  {
+    "id": "kraketaer",
+    "tittel": "Kråketær",
+    "forklaring": "Notasjonen med tre linjer som markerer mange-siden av en relasjon i et ER-diagram.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Crow's foot notation"
+    ]
+  },
+  {
+    "id": "agi",
+    "tittel": "Kunstig generell intelligens",
+    "undertittel": "AGI",
+    "forklaring": "Visjon om menneskelignende, generell maskinell intelligens – foreløpig ikke realisert, i motsetning til smal KI som bare løser én definert oppgave.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Artificial general intelligence"
+    ]
+  },
+  {
+    "id": "kunstig-intelligens",
+    "tittel": "Kunstig intelligens",
+    "undertittel": "KI/AI",
+    "forklaring": "Samlebetegnelse for datasystemer som utfører en oppgave på en måte som etterligner menneskelig intelligens.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Artificial intelligence",
+      "AI"
+    ]
+  },
+  {
+    "id": "kvantisering",
+    "tittel": "Kvantisering",
+    "forklaring": "Reduksjon av tallpresisjon i en modell for å gjøre den mindre og raskere, slik at den kan kjøres på svakere maskinvare.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Quantization",
+      "quantisation"
+    ]
+  },
+  {
+    "id": "lagringsbegrensning",
+    "tittel": "Lagringsbegrensning",
+    "forklaring": "Personvernprinsipp om at opplysninger ikke kan lagres lenger enn formålet krever.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Storage limitation"
+    ]
+  },
+  {
+    "id": "lavnivasprak",
+    "tittel": "Lavnivåspråk",
+    "forklaring": "Programmeringsspråk nær maskinkoden – vanskeligere for mennesker, men raskere og mer kontrollert.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Low-level language"
+    ]
+  },
+  {
+    "id": "lineaer-regresjon",
+    "tittel": "Lineær regresjon",
+    "forklaring": "Maskinlærings- og statistikkteknikk for å finne linjen som best beskriver sammenhengen mellom variabler.",
+    "tags": [
+      "analyse",
+      "ki"
+    ],
+    "alias": [
+      "Linear regression"
+    ]
+  },
+  {
+    "id": "linjesvitsjing",
+    "tittel": "Linjesvitsjing",
+    "forklaring": "Eldre nettverksprinsipp med dedikert, ubrutt forbindelse (som analoge telefonlinjer) – erstattet av pakkesvitsjing.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Circuit switching"
+    ]
+  },
+  {
+    "id": "liten-sprakmodell",
+    "tittel": "Liten språkmodell",
+    "undertittel": "SLM",
+    "forklaring": "Språkmodell med få milliarder parametre – raskere og billigere enn en LLM og kan kjøres lokalt, men mindre allsidig.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Small Language Model",
+      "SLM"
+    ]
+  },
+  {
+    "id": "literacy",
+    "tittel": "Literacy",
+    "forklaring": "Ferdighetssett for å forstå, skape, kommunisere og delta i samfunn i endring – en menneskerett ifølge FN.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Literacy",
+      "basic skills"
+    ]
+  },
+  {
+    "id": "lan",
+    "tittel": "Local Area Network",
+    "undertittel": "LAN",
+    "forklaring": "Lokalt nettverk i en bedrift eller et hjem.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Lokalnettverk"
+    ]
+  },
+  {
+    "id": "loggfil",
+    "tittel": "Loggfil",
+    "forklaring": "Automatisk generert fil som registrerer hendelser og handlinger i et system – grunnlag for auditering og analyse.",
+    "tags": [
+      "sikkerhet",
+      "programmering"
+    ],
+    "alias": [
+      "Log file",
+      "log"
+    ]
+  },
+  {
+    "id": "lokal-ki",
+    "tittel": "Lokal KI",
+    "forklaring": "KI-modeller som kjøres på egen maskin uten å sende data til en ekstern server – gir personvern og uavhengighet av nett.",
+    "tags": [
+      "ki",
+      "personvern"
+    ],
+    "alias": [
+      "Local AI",
+      "on-premise AI",
+      "edge AI"
+    ]
+  },
+  {
+    "id": "lora",
+    "tittel": "Low-Rank Adaptation",
+    "undertittel": "LoRA",
+    "forklaring": "Effektiv finjusteringsmetode som bare trener et lite sett ekstra vekter i stedet for alle modellens parametre.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Low-Rank Adaptation of large language models"
+    ]
+  },
+  {
+    "id": "losepengevirus",
+    "tittel": "Løsepengevirus",
+    "undertittel": "ransomware",
+    "forklaring": "Skadevare som krypterer offerets data og krever betaling for å låse dem opp igjen.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Ransomware"
+    ]
+  },
+  {
+    "id": "manipulativ-design",
+    "tittel": "Manipulativ design",
+    "forklaring": "Designgrep som utnytter psykologiske sårbarheter for å styre brukeratferd, f.eks. i gambling-apper.",
+    "tags": [
+      "digitalisering",
+      "personvern"
+    ],
+    "alias": [
+      "Dark pattern",
+      "deceptive design"
+    ]
+  },
+  {
+    "id": "manuell-plotting",
+    "tittel": "Manuell plotting",
+    "forklaring": "Innføring og bearbeiding av data for hånd i regneark – tilstrekkelig for enkle, avgrensede prosjekter.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Manual data entry"
+    ]
+  },
+  {
+    "id": "markeringssprak",
+    "tittel": "Markeringsspråk",
+    "forklaring": "Språk som forteller datamaskinen hvordan tekst og dokumenter skal struktureres og presenteres, f.eks. HTML.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Markup language"
+    ]
+  },
+  {
+    "id": "mash-up",
+    "tittel": "Mash up",
+    "forklaring": "Program som kombinerer data fra flere API-er til ny funksjonalitet.",
+    "tags": [
+      "programmering",
+      "nettverkstek"
+    ],
+    "alias": [
+      "Mashup"
+    ]
+  },
+  {
+    "id": "maskering",
+    "tittel": "Maskering",
+    "forklaring": "Variant av data obfuscation der verdier endres med lignende struktur uten å bli fullstendig uleselige.",
+    "tags": [
+      "personvern",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Data masking"
+    ]
+  },
+  {
+    "id": "maskinkode",
+    "tittel": "Maskinkode",
+    "forklaring": "Instruksjoner i ren binær form – det eneste språket en datamaskin forstår direkte.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Machine code"
+    ]
+  },
+  {
+    "id": "maskinlaering",
+    "tittel": "Maskinlæring",
+    "forklaring": "Metode der maskinen lærer fra data i stedet for forhåndsdefinerte regler – systemet finner mønstre på egen hånd.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Machine learning",
+      "ML"
+    ]
+  },
+  {
+    "id": "maskinlaeringsmodell",
+    "tittel": "Maskinlæringsmodell",
+    "forklaring": "Program trent med maskinlæring for å behandle data mot et bestemt mål, for eksempel prediksjon.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Machine learning model",
+      "ML model"
+    ]
+  },
+  {
+    "id": "median",
+    "tittel": "Median",
+    "forklaring": "Midterste verdi i et sortert datasett – tilsvarer 50-persentilen; gir bedre bilde enn gjennomsnitt ved skjevfordeling.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Median"
+    ]
+  },
+  {
+    "id": "menneske-i-loopen",
+    "tittel": "Menneske i loopen",
+    "forklaring": "Prinsipp der et menneske kvalitetssikrer KI-systemets vurderinger og tar den endelige beslutningen – reduserer risiko for feil og uønskede konsekvenser.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Human-in-the-loop",
+      "HITL"
+    ]
+  },
+  {
+    "id": "metadata",
+    "tittel": "Metadata",
+    "forklaring": "Data om data – tilleggsdata som hjelper å tolke, identifisere og kontekstualisere andre data (tid, sted, format).",
+    "tags": [
+      "database",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Metadata"
+    ]
+  },
+  {
+    "id": "moe",
+    "tittel": "Mixture of Experts",
+    "undertittel": "MoE",
+    "forklaring": "Arkitektur der bare noen få spesialiserte delnettverk aktiveres per forespørsel, slik at store modeller likevel kjøres effektivt.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Mixture of Experts"
+    ]
+  },
+  {
+    "id": "mcp",
+    "tittel": "Model Context Protocol",
+    "undertittel": "MCP",
+    "forklaring": "Åpen standard som lar KI-modeller koble seg til eksterne verktøy og datakilder på en enhetlig måte.",
+    "tags": [
+      "ki",
+      "programmering"
+    ],
+    "alias": [
+      "Model Context Protocol"
+    ]
+  },
+  {
+    "id": "modell",
+    "tittel": "Modell",
+    "undertittel": "KI",
+    "forklaring": "Program trent til å gjenkjenne mønstre i data og bruke dem til svar eller beslutninger.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "AI model",
+      "model"
+    ]
+  },
+  {
+    "id": "modellkollaps",
+    "tittel": "Modellkollaps",
+    "forklaring": "Fenomen der en modell gradvis blir dårligere fordi den trenes på KI-generert innhold og mister variasjon og nyanser.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Model collapse"
+    ]
+  },
+  {
+    "id": "moores-lov",
+    "tittel": "Moores lov",
+    "forklaring": "Tommelfingerregel om dobling av transistortetthet (i praksis regnekraft) omtrent annethvert år.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Moore's law"
+    ]
+  },
+  {
+    "id": "multimodal",
+    "tittel": "Multimodal",
+    "forklaring": "KI-modell som håndterer flere innholdstyper om hverandre – tekst, bilde, lyd og video.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Multimodal model",
+      "multimodal AI"
+    ]
+  },
+  {
+    "id": "nsm",
+    "tittel": "Nasjonal sikkerhetsmyndighet",
+    "undertittel": "NSM",
+    "forklaring": "Norsk myndighet som utgir grunnprinsipper for IKT-sikkerhet og vurderer trusselbildet.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Norwegian National Security Authority"
+    ]
+  },
+  {
+    "id": "nlp",
+    "tittel": "Naturlig språkbehandling",
+    "undertittel": "NLP",
+    "forklaring": "Fagfeltet som handler om å få datamaskiner til å forstå, tolke og generere menneskelig språk.",
+    "tags": [
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "id": "nettskyen",
+    "tittel": "Nettskyen",
+    "forklaring": "Datasentre som tilbyr lagring og prosessering over internett, slik at man ikke trenger lokal infrastruktur.",
+    "tags": [
+      "sky"
+    ],
+    "alias": [
+      "The cloud",
+      "cloud computing"
+    ]
+  },
+  {
+    "id": "nevralt-nettverk",
+    "tittel": "Nevralt nettverk",
+    "forklaring": "Maskinlæringsform inspirert av hjernens oppbygning – brukes i komplekse mønstergjenkjenningsoppgaver.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Neural network",
+      "artificial neural network",
+      "ANN"
+    ]
+  },
+  {
+    "id": "no-code-low-code",
+    "tittel": "No-code / low-code",
+    "forklaring": "Verktøy som lar deg bygge løsninger uten eller med minimal koding.",
+    "tags": [
+      "programmering",
+      "m365"
+    ],
+    "alias": [
+      "No-code",
+      "low-code"
+    ]
+  },
+  {
+    "id": "node",
+    "tittel": "Node",
+    "forklaring": "Enhet i et nettverk – maskin, telefon, server eller knutepunkt som ruter.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Node"
+    ]
+  },
+  {
+    "id": "normalfordeling",
+    "tittel": "Normalfordeling",
+    "forklaring": "Symmetrisk, klokkeformet fordeling der snitt og median sammenfaller – brukes mye i statistikk og sannsynlighet.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Normal distribution",
+      "Gaussian distribution"
+    ]
+  },
+  {
+    "id": "null-verdi",
+    "tittel": "NULL-verdi",
+    "forklaring": "Tom verdi i en database – ikke tillatt i en primærnøkkel.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "NULL value"
+    ]
+  },
+  {
+    "id": "nokkelvandring",
+    "tittel": "Nøkkelvandring",
+    "forklaring": "Prosessen der en primærnøkkel kopieres inn i en annen entitet som fremmednøkkel for å etablere en relasjon.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Key migration"
+    ]
+  },
+  {
+    "id": "objektorientert-programmering",
+    "tittel": "Objektorientert programmering",
+    "forklaring": "Programmeringsparadigme bygd på klasser og objekter – opprinnelig en norsk oppfinnelse (Simula, 1960-tallet).",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Object-oriented programming",
+      "OOP"
+    ]
+  },
+  {
+    "id": "obligatorisk-medlemskap",
+    "tittel": "Obligatorisk medlemskap",
+    "forklaring": "Databaseregel der en instans ikke kan lagres uten at relasjonen til en annen entitet finnes.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Mandatory participation"
+    ]
+  },
+  {
+    "id": "opplosning",
+    "tittel": "Oppløsning",
+    "undertittel": "bilde",
+    "forklaring": "Antall piksler i et digitalt bilde – bildets detaljrikdom.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Image resolution"
+    ]
+  },
+  {
+    "id": "opplosningsentitet",
+    "tittel": "Oppløsningsentitet",
+    "forklaring": "Mellomliggende entitet som løser mange-til-mange-relasjoner ved å representere konkrete hendelser.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Associative entity",
+      "junction table"
+    ]
+  },
+  {
+    "id": "oppmerksomhetsmekanisme",
+    "tittel": "Oppmerksomhetsmekanisme",
+    "undertittel": "attention",
+    "forklaring": "Mekanismen som lar en transformer-modell vekte hvilke deler av teksten som er viktigst for å tolke sammenhengen.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Attention mechanism",
+      "self-attention"
+    ]
+  },
+  {
+    "id": "ordsky",
+    "tittel": "Ordsky",
+    "forklaring": "Visualisering der ord vises større jo oftere de forekommer i en tekst – brukes i tekst-mining.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Word cloud",
+      "tag cloud"
+    ]
+  },
+  {
+    "id": "overfort-laering",
+    "tittel": "Overført læring",
+    "forklaring": "Metode der en modell trent på én oppgave gjenbrukes som grunnlag for en relatert oppgave – sparer treningsdata og regnekraft.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Transfer learning"
+    ]
+  },
+  {
+    "id": "overtilpasning",
+    "tittel": "Overtilpasning",
+    "undertittel": "overfitting",
+    "forklaring": "Fenomen der en modell pugger treningsdataene for godt og mister evnen til å generalisere til nye data.",
+    "tags": [
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Overfitting"
+    ]
+  },
+  {
+    "id": "page-tagging",
+    "tittel": "Page tagging",
+    "forklaring": "Bruk av HTML-tagger og JavaScript-snutter for å samle inn og sende besøksdata til eksterne analyseverktøy.",
+    "tags": [
+      "analyse",
+      "nettverkstek"
+    ],
+    "alias": [
+      "Sidemerking",
+      "tagging-skript"
+    ]
+  },
+  {
+    "id": "pakkesvitsjing",
+    "tittel": "Pakkesvitsjing",
+    "forklaring": "Nettverksprinsipp der informasjon deles i pakker som sendes hver for seg og settes sammen hos mottaker.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Packet switching"
+    ]
+  },
+  {
+    "id": "parameter",
+    "tittel": "Parameter",
+    "undertittel": "KI",
+    "forklaring": "Justerbar tallverdi inne i en modell – antallet parametre brukes som mål på modellens størrelse.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Parameter",
+      "weight"
+    ]
+  },
+  {
+    "id": "passord-manager",
+    "tittel": "Passord-manager",
+    "forklaring": "Tjeneste som genererer og lagrer sterke, unike passord bak ett masterpassord.",
+    "tags": [
+      "sikkerhet",
+      "m365"
+    ],
+    "alias": [
+      "Password manager"
+    ]
+  },
+  {
+    "id": "persentil",
+    "tittel": "Persentil",
+    "forklaring": "Plassering i et datasett delt i hundredeler – medianen tilsvarer 50-persentilen.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Percentile"
+    ]
+  },
+  {
+    "id": "personopplysning",
+    "tittel": "Personopplysning",
+    "forklaring": "Opplysning eller vurdering som kan knyttes til en enkeltperson.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Personal data",
+      "PII"
+    ]
+  },
+  {
+    "id": "personprofil",
+    "tittel": "Personprofil",
+    "forklaring": "Personopplysninger som kombineres for å danne antagelser om en persons evner, atferd, preferanser eller behov.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Personal profile"
+    ]
+  },
+  {
+    "id": "personregister",
+    "tittel": "Personregister",
+    "forklaring": "Systematisk samling av personopplysninger som gjør det mulig å gjenfinne opplysninger om enkeltpersoner.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Personal data filing system"
+    ]
+  },
+  {
+    "id": "personvern",
+    "tittel": "Personvern",
+    "forklaring": "Grunnlovsfestet rett til privatliv og retten til å bestemme over egne personopplysninger.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Privacy",
+      "data protection"
+    ]
+  },
+  {
+    "id": "personvernerklaering",
+    "tittel": "Personvernerklæring",
+    "forklaring": "Dokument som samler all pliktig informasjon til de registrerte om behandling av personopplysningene deres.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Privacy notice",
+      "privacy policy"
+    ]
+  },
+  {
+    "id": "gdpr",
+    "tittel": "Personvernforordningen",
+    "undertittel": "GDPR",
+    "forklaring": "EUs personvernforordning – styrker enkeltpersoners rettigheter over egne personopplysninger og gjelder i Norge gjennom EØS-avtalen.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "General Data Protection Regulation"
+    ]
+  },
+  {
+    "id": "personvernfremmende-teknologi",
+    "tittel": "Personvernfremmende teknologi",
+    "undertittel": "PET",
+    "forklaring": "Teknologi som gjør det mulig å bygge inn personvern i tjenester – for eksempel ende-til-ende-kryptering, pseudonymisering og lokal databehandling.",
+    "tags": [
+      "personvern",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Privacy Enhancing Technology"
+    ]
+  },
+  {
+    "id": "personvernombud",
+    "tittel": "Personvernombud",
+    "forklaring": "Person med oppgave å bidra til at den behandlingsansvarlige følger personopplysningsloven.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data Protection Officer",
+      "DPO"
+    ]
+  },
+  {
+    "id": "personvernprinsippene",
+    "tittel": "Personvernprinsippene",
+    "forklaring": "Åtte GDPR-krav til all behandling: lovlighet, rettferdighet, åpenhet, formålsbegrensning, dataminimering, riktighet, lagringsbegrensning, og integritet og konfidensialitet.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data protection principles"
+    ]
+  },
+  {
+    "id": "personvernradet",
+    "tittel": "Personvernrådet",
+    "forklaring": "Uavhengig EU-organ som består av datatilsynsmyndighetene i EØS – sørger for at GDPR håndheves likt i medlemslandene.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "European Data Protection Board",
+      "EDPB"
+    ]
+  },
+  {
+    "id": "phishing",
+    "tittel": "Phishing",
+    "forklaring": "Masseutsendt svindel via falske meldinger som utgir seg for å være fra en seriøs aktør for å lure til seg opplysninger.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Phishing"
+    ]
+  },
+  {
+    "id": "piksel",
+    "tittel": "Piksel",
+    "forklaring": "Bildepunkt – minste enhet i et digitalt bilde.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Pixel"
+    ]
+  },
+  {
+    "id": "paas",
+    "tittel": "Platform as a Service",
+    "undertittel": "PaaS",
+    "forklaring": "Skymodell der leverandøren drifter plattformen og kunden utvikler og kjører egne applikasjoner oppå.",
+    "tags": [
+      "sky"
+    ],
+    "alias": [
+      "Plattform som tjeneste"
+    ]
+  },
+  {
+    "id": "prediktiv-analyse",
+    "tittel": "Prediktiv analyse",
+    "forklaring": "Analyseform som bruker data og mønstre til å beregne sannsynlige fremtidige hendelser.",
+    "tags": [
+      "analyse",
+      "ki"
+    ],
+    "alias": [
+      "Predictive analytics"
+    ]
+  },
+  {
+    "id": "prediktiv-modell",
+    "tittel": "Prediktiv modell",
+    "forklaring": "Modell som bruker historiske data til å forutsi fremtidige hendelser eller tilstander.",
+    "tags": [
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Predictive model"
+    ]
+  },
+  {
+    "id": "primaerbruk",
+    "tittel": "Primærbruk",
+    "forklaring": "Bruk av data til det opprinnelige formålet de ble samlet inn for.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Primary use",
+      "primary purpose"
+    ]
+  },
+  {
+    "id": "primaerminne-ram",
+    "tittel": "Primærminne / RAM",
+    "forklaring": "Arbeidsminne som holder data under behandling – tømmes når maskinen slås av.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Random Access Memory",
+      "primary memory"
+    ]
+  },
+  {
+    "id": "primaernokkel",
+    "tittel": "Primærnøkkel",
+    "undertittel": "PK",
+    "forklaring": "Attributt som unikt identifiserer hver instans i en entitet – må være unik, aldri NULL og aldri endres.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Primary key"
+    ]
+  },
+  {
+    "id": "profilering",
+    "tittel": "Profilering",
+    "forklaring": "Analyse av personopplysninger for å avdekke atferd, preferanser, evner eller behov.",
+    "tags": [
+      "personvern",
+      "ki"
+    ],
+    "alias": [
+      "Profiling"
+    ]
+  },
+  {
+    "id": "program",
+    "tittel": "Program",
+    "forklaring": "Sett med algoritmer som sammen utfører bestemte funksjoner for en datamaskin.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Program"
+    ]
+  },
+  {
+    "id": "programmering",
+    "tittel": "Programmering",
+    "forklaring": "Lage programmer ved å skrive instrukser i et programmeringsspråk.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Programming",
+      "coding"
+    ]
+  },
+  {
+    "id": "api",
+    "tittel": "Programmeringsgrensesnitt",
+    "undertittel": "API",
+    "forklaring": "Regelsett som definerer hvordan ett datasystem utveksler informasjon med et annet – en bro mellom systemer.",
+    "tags": [
+      "programmering",
+      "nettverkstek"
+    ],
+    "alias": [
+      "Application Programming Interface"
+    ]
+  },
+  {
+    "id": "programvare",
+    "tittel": "Programvare",
+    "forklaring": "Instruksjonene (koden) som styrer hva maskinen gjør med signalene og dataene den mottar.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Software"
+    ]
+  },
+  {
+    "id": "prompt-prompting",
+    "tittel": "Prompt / prompting",
+    "forklaring": "Instruksjonen eller spørsmålet du gir til en KI – kvaliteten på svaret avhenger direkte av kvaliteten på prompten.",
+    "tags": [
+      "ki",
+      "m365"
+    ],
+    "alias": [
+      "Prompt",
+      "prompting"
+    ]
+  },
+  {
+    "id": "prompt-engineering",
+    "tittel": "Prompt engineering",
+    "forklaring": "Fagfelt og praksis for å formulere instruksjoner til KI-modeller systematisk for å få best mulig svar.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Prompt engineering"
+    ]
+  },
+  {
+    "id": "prompt-injeksjon",
+    "tittel": "Prompt-injeksjon",
+    "forklaring": "Angrep der skjulte kommandoer i en tekst lurer en KI-modell til å ignorere instruksjonene sine.",
+    "tags": [
+      "ki",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Prompt injection"
+    ]
+  },
+  {
+    "id": "proprietaere-private-data",
+    "tittel": "Proprietære / private data",
+    "forklaring": "Eksterne data med begrenset tilgang – selges av datatilbydere eller deles i verdikjeden.",
+    "tags": [
+      "datakvalitet"
+    ],
+    "alias": [
+      "Proprietary data",
+      "third-party data"
+    ]
+  },
+  {
+    "id": "prosess-mining",
+    "tittel": "Prosess-mining",
+    "forklaring": "Data mining-teknikk som analyserer hendelseslogger for å avdekke mønstre og forbedre prosesser.",
+    "tags": [
+      "analyse",
+      "ki"
+    ],
+    "alias": [
+      "Process mining"
+    ]
+  },
+  {
+    "id": "prosesserte-data",
+    "tittel": "Prosesserte data",
+    "forklaring": "Bearbeidede data klare for visualisering og sammenligning – i motsetning til rådata.",
+    "tags": [
+      "datakvalitet",
+      "analyse"
+    ],
+    "alias": [
+      "Processed data"
+    ]
+  },
+  {
+    "id": "prosessmodell",
+    "tittel": "Prosessmodell",
+    "forklaring": "Modell av hvilke handlinger som typisk følger hverandre i en prosess, utledet fra prosess-mining.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Process model"
+    ]
+  },
+  {
+    "id": "prosessor",
+    "tittel": "Prosessor",
+    "forklaring": "Den sentrale enheten som utfører databehandlingen, instruert av programmer.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Processor",
+      "CPU"
+    ]
+  },
+  {
+    "id": "protokoll",
+    "tittel": "Protokoll",
+    "forklaring": "Felles regelsett for kommunikasjon mellom maskiner i et nettverk – må følges av alle parter.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Protocol"
+    ]
+  },
+  {
+    "id": "pseudonymisering",
+    "tittel": "Pseudonymisering",
+    "forklaring": "Avidentifisering slik at opplysningene ikke kan knyttes til en person uten tilleggsopplysninger – fortsatt personopplysninger som omfattes av GDPR.",
+    "tags": [
+      "personvern",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Pseudonymisation"
+    ]
+  },
+  {
+    "id": "python",
+    "tittel": "Python",
+    "forklaring": "Allsidig, mye brukt høynivåspråk med lesbar syntaks – populært til dataanalyse og maskinlæring.",
+    "tags": [
+      "programmering",
+      "analyse"
+    ]
+  },
+  {
+    "id": "quantified-self",
+    "tittel": "Quantified self",
+    "forklaring": "Trend der folk bevisst samler mest mulig data om seg selv og hverdagen for innsikt og optimalisering.",
+    "tags": [
+      "iot",
+      "digitalisering"
+    ],
+    "alias": [
+      "Selvmåling"
+    ]
+  },
+  {
+    "id": "r",
+    "tittel": "R",
+    "undertittel": "programmeringsspråk",
+    "forklaring": "Programmeringsspråk spesialisert for statistisk analyse, visualisering og dataanalyse.",
+    "tags": [
+      "programmering",
+      "analyse"
+    ],
+    "alias": [
+      "R"
+    ]
+  },
+  {
+    "id": "re-identifisering",
+    "tittel": "Re-identifisering",
+    "forklaring": "Handling som resulterer i at avidentifiserte opplysninger blir koblet til en person.",
+    "tags": [
+      "personvern",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Re-identification"
+    ]
+  },
+  {
+    "id": "red-teaming",
+    "tittel": "Red teaming",
+    "undertittel": "KI",
+    "forklaring": "Systematisk testing der et «rødt team» bevisst prøver å bryte en modell for å avdekke svakheter før lansering.",
+    "tags": [
+      "ki",
+      "sikkerhet"
+    ],
+    "alias": [
+      "AI red teaming",
+      "red team"
+    ]
+  },
+  {
+    "id": "regelbasert-system",
+    "tittel": "Regelbasert system",
+    "forklaring": "Automatisering bygget på faste «hvis A, så B»-instrukser, uten maskinlæring eller KI.",
+    "tags": [
+      "ki",
+      "programmering"
+    ],
+    "alias": [
+      "Rule-based system"
+    ]
+  },
+  {
+    "id": "register",
+    "tittel": "Register",
+    "undertittel": "GDPR",
+    "forklaring": "Strukturert samling av personopplysninger – gjør at også manuell behandling kan omfattes av GDPR.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Filing system (GDPR)",
+      "records of processing"
+    ]
+  },
+  {
+    "id": "rlhf",
+    "tittel": "Reinforcement Learning from Human Feedback",
+    "undertittel": "RLHF",
+    "forklaring": "Treningsmetode der mennesker vurderer hvilke svar som er best, og modellen læres opp til å produsere slike – nøkkelen bak hjelpsomme chatboter.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Reinforcement Learning from Human Feedback"
+    ]
+  },
+  {
+    "id": "relasjon",
+    "tittel": "Relasjon",
+    "undertittel": "database",
+    "forklaring": "Kobling mellom entiteter i en relasjonsdatabase som gjør oppslag mulig uten dobbeltlagring.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Relationship",
+      "relation"
+    ]
+  },
+  {
+    "id": "relasjonsdatabase",
+    "tittel": "Relasjonsdatabase",
+    "forklaring": "Database der data grupperes i entiteter som knyttes sammen med relasjoner via nøkler.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Relational database"
+    ]
+  },
+  {
+    "id": "rest",
+    "tittel": "Representational State Transfer",
+    "undertittel": "REST",
+    "forklaring": "Rammeverk for API-er på nettet, bygd på HTTP, som gir forutsigbar og interoperabel oppførsel.",
+    "tags": [
+      "programmering",
+      "nettverkstek"
+    ],
+    "alias": [
+      "RESTful API"
+    ]
+  },
+  {
+    "id": "representativt-utvalg",
+    "tittel": "Representativt utvalg",
+    "forklaring": "Begrenset utvalg som speiler en større populasjon – grunnlag for statistisk inferens.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Representative sample"
+    ]
+  },
+  {
+    "id": "resonneringsmodell",
+    "tittel": "Resonneringsmodell",
+    "forklaring": "Språkmodell som bruker lenger tid og interne tankekjeder før svar – sterk på matematikk, koding og logikk.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Reasoning model"
+    ]
+  },
+  {
+    "id": "rag",
+    "tittel": "Retrieval-Augmented Generation",
+    "undertittel": "RAG",
+    "forklaring": "Teknikk der modellen henter relevant informasjon fra en ekstern kilde før den svarer, og slik reduserer hallusinasjoner.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Retrieval-augmented generation"
+    ]
+  },
+  {
+    "id": "rgb",
+    "tittel": "RGB",
+    "forklaring": "Fargemodell der farger bygges av kombinasjoner av rød, grønn og blå.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Red Green Blue colour model"
+    ]
+  },
+  {
+    "id": "robotikk",
+    "tittel": "Robotikk",
+    "forklaring": "Vitenskapen om å bygge og programmere fysiske roboter.",
+    "tags": [
+      "iot",
+      "ki"
+    ],
+    "alias": [
+      "Robotics"
+    ]
+  },
+  {
+    "id": "rpa",
+    "tittel": "Robotisert prosessautomatisering",
+    "undertittel": "RPA",
+    "forklaring": "Programvareroboter som utfører regelstyrte digitale arbeidsoppgaver uten KI.",
+    "tags": [
+      "ki",
+      "digitalisering"
+    ],
+    "alias": [
+      "Robotic Process Automation"
+    ]
+  },
+  {
+    "id": "robusthet",
+    "tittel": "Robusthet",
+    "forklaring": "Prinsipp om at organisasjonen og systemene er motstandsdyktige og kan gjenopprette normaltilstand etter hendelser – fjerde pilar i informasjonssikkerhet ved siden av KIT-triaden, vektlagt særskilt i GDPR som «vedvarende robusthet».",
+    "tags": [
+      "sikkerhet",
+      "personvern"
+    ],
+    "alias": [
+      "Resilience"
+    ]
+  },
+  {
+    "id": "ruter",
+    "tittel": "Ruter",
+    "forklaring": "Nettverksenhet som sender datapakker videre mot målet langs internett.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Router"
+    ]
+  },
+  {
+    "id": "radata",
+    "tittel": "Rådata",
+    "forklaring": "Ubehandlede data – registrert og samlet inn, men ikke klargjort for analyse.",
+    "tags": [
+      "datakvalitet"
+    ],
+    "alias": [
+      "Raw data"
+    ]
+  },
+  {
+    "id": "sample-rate",
+    "tittel": "Sample rate",
+    "forklaring": "Antall målinger per sekund ved digitalisering av lyd – avgjør lydkvaliteten (f.eks. 44,1 kHz for CD).",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Samplingsfrekvens",
+      "samplerate"
+    ]
+  },
+  {
+    "id": "sampling",
+    "tittel": "Sampling",
+    "forklaring": "Jevnlige stikkprøver av et analogt signal for å representere det digitalt.",
+    "tags": [
+      "programmering",
+      "analyse"
+    ],
+    "alias": [
+      "Sampling"
+    ]
+  },
+  {
+    "id": "samsvarsproblemet",
+    "tittel": "Samsvarsproblemet",
+    "forklaring": "Utfordringen med å sikre at KI-systemers oppførsel og mål faktisk samsvarer med menneskelige verdier – kjernen i forskningsfeltet AI alignment.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "The alignment problem"
+    ]
+  },
+  {
+    "id": "samtykke",
+    "tittel": "Samtykke",
+    "undertittel": "GDPR",
+    "forklaring": "Frivillig, spesifikk, informert, utvetydig og aktiv erklæring fra den registrerte om godtakelse av behandling av egne personopplysninger.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Consent (GDPR)"
+    ]
+  },
+  {
+    "id": "sanntidsdata",
+    "tittel": "Sanntidsdata",
+    "forklaring": "Data som oppdateres fortløpende og viser nåsituasjonen – brukes i dashbord og IoT-systemer.",
+    "tags": [
+      "iot",
+      "analyse"
+    ],
+    "alias": [
+      "Real-time data"
+    ]
+  },
+  {
+    "id": "sekundaerbruk",
+    "tittel": "Sekundærbruk",
+    "forklaring": "Gjenbruk av data til andre formål eller av andre aktører enn de opprinnelige.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Secondary use"
+    ]
+  },
+  {
+    "id": "sekundaerminne",
+    "tittel": "Sekundærminne",
+    "forklaring": "Varig lagring (SSD/harddisk) som beholder data uten strøm.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Secondary storage"
+    ]
+  },
+  {
+    "id": "sekvensielt-sok",
+    "tittel": "Sekvensielt søk",
+    "forklaring": "Søk gjennom data fra start til man finner treff – langsomt for store datamengder.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Sequential search",
+      "linear search"
+    ]
+  },
+  {
+    "id": "semistrukturerte-data",
+    "tittel": "Semistrukturerte data",
+    "forklaring": "Data med delvis struktur, f.eks. via merkelapper og metadata – mellomkategori mellom strukturert og ustrukturert.",
+    "tags": [
+      "database",
+      "analyse"
+    ],
+    "alias": [
+      "Semi-structured data"
+    ]
+  },
+  {
+    "id": "sensitive-opplysninger",
+    "tittel": "Sensitive opplysninger",
+    "forklaring": "Særlige kategorier av personopplysninger som krever ekstra vern – helsedata, religion, fagforeningsmedlemskap, seksuell orientering, etnisitet og biometri.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Sensitive data",
+      "special category data"
+    ]
+  },
+  {
+    "id": "sensor",
+    "tittel": "Sensor",
+    "forklaring": "Komponent som lar elektronikk registrere fysiske omgivelser – avstand, trykk, fukt, bevegelse, lys.",
+    "tags": [
+      "iot"
+    ],
+    "alias": [
+      "Sensor"
+    ]
+  },
+  {
+    "id": "sensordata",
+    "tittel": "Sensordata",
+    "forklaring": "Data fra sensorer, for eksempel puls og bevegelse fra smartklokke eller temperatur fra industriell sensor.",
+    "tags": [
+      "iot"
+    ],
+    "alias": [
+      "Sensor data"
+    ]
+  },
+  {
+    "id": "sentimentanalyse",
+    "tittel": "Sentimentanalyse",
+    "forklaring": "KI-basert analyse av om tekst er positivt eller negativt ladet – systematisk analyse av meningsinnhold.",
+    "tags": [
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Sentiment analysis",
+      "opinion mining"
+    ]
+  },
+  {
+    "id": "sikker-ki",
+    "tittel": "Sikker KI",
+    "undertittel": "AI safety",
+    "forklaring": "Forskningsfeltet for å utvikle KI som oppfører seg trygt, forutsigbart og i tråd med menneskelige verdier.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "AI safety"
+    ]
+  },
+  {
+    "id": "sikkerhetshendelse",
+    "tittel": "Sikkerhetshendelse",
+    "forklaring": "Sikkerhetsrelatert avvik i et system – forårsaket av dataangrep, teknisk feil eller feil bruk.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Security incident",
+      "security event"
+    ]
+  },
+  {
+    "id": "sikkerhetskopiering",
+    "tittel": "Sikkerhetskopiering",
+    "forklaring": "Kopiering av data og informasjon slik at den ikke går tapt ved feil, tyveri eller ondsinnet angrep – kjernen i tilgjengelighet i KIT-triaden.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Backup",
+      "data backup"
+    ]
+  },
+  {
+    "id": "sikkerhetsrekkverk",
+    "tittel": "Sikkerhetsrekkverk",
+    "undertittel": "guardrails",
+    "forklaring": "Regler og filtre som hindrer en KI-modell i å produsere skadelig, ulovlig eller upassende innhold.",
+    "tags": [
+      "ki",
+      "sikkerhet"
+    ],
+    "alias": [
+      "AI guardrails",
+      "safety guardrails"
+    ]
+  },
+  {
+    "id": "sikkerhetsrevisjon",
+    "tittel": "Sikkerhetsrevisjon",
+    "forklaring": "Strukturert gjennomgang av et system eller en virksomhet for å avgjøre om sikkerhetskravene faktisk er oppfylt – uavhengig vurdering, ikke selvevaluering.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Security audit"
+    ]
+  },
+  {
+    "id": "simulering",
+    "tittel": "Simulering",
+    "forklaring": "Etterligning av et systems atferd digitalt for å teste scenarier uten å røre det virkelige systemet.",
+    "tags": [
+      "digitalisering",
+      "iot"
+    ],
+    "alias": [
+      "Simulation"
+    ]
+  },
+  {
+    "id": "skadevare-malware",
+    "tittel": "Skadevare / malware",
+    "forklaring": "Samlebetegnelse for programkode som uten tillatelse utfører handlinger med brukerens systemer eller informasjon.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Malware"
+    ]
+  },
+  {
+    "id": "skalerbarhet",
+    "tittel": "Skalerbarhet",
+    "forklaring": "Evnen til å justere kapasitet (lagring, prosessering) opp eller ned etter behov i nettskyen.",
+    "tags": [
+      "sky"
+    ],
+    "alias": [
+      "Scalability"
+    ]
+  },
+  {
+    "id": "skybasert-dataplattform",
+    "tittel": "Skybasert dataplattform",
+    "forklaring": "Skyløsning der datastrømmer fra kilder samles, bearbeides og gjøres tilgjengelige i sanntid.",
+    "tags": [
+      "sky",
+      "analyse"
+    ],
+    "alias": [
+      "Cloud data platform"
+    ]
+  },
+  {
+    "id": "smal-ki",
+    "tittel": "Smal KI",
+    "forklaring": "KI som er spesialisert på én bestemt oppgave – i motsetning til kunstig generell intelligens (AGI).",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Narrow AI",
+      "weak AI",
+      "ANI"
+    ]
+  },
+  {
+    "id": "smart-enhet",
+    "tittel": "Smart enhet",
+    "forklaring": "Påkoblet enhet, ofte med maskinlæring, som kan registrere og reagere på omgivelsene sine.",
+    "tags": [
+      "iot"
+    ],
+    "alias": [
+      "Smart device"
+    ]
+  },
+  {
+    "id": "saas",
+    "tittel": "Software as a Service",
+    "undertittel": "SaaS",
+    "forklaring": "Skymodell der ferdige programmer kjøres i nettskyen og brukes direkte i nettleser eller app.",
+    "tags": [
+      "sky",
+      "m365"
+    ],
+    "alias": [
+      "Programvare som tjeneste"
+    ]
+  },
+  {
+    "id": "ssd",
+    "tittel": "Solid State Drive",
+    "undertittel": "SSD",
+    "forklaring": "Moderne lagringsmedium uten mekaniske deler – raskere og mer pålitelig enn tradisjonell harddisk.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Halvlederdisk"
+    ]
+  },
+  {
+    "id": "sortering-og-opprydding",
+    "tittel": "Sortering og opprydding",
+    "forklaring": "Kategorisering av data mot et bestemt mål, slik at de blir forståelige og gjenfinnbare.",
+    "tags": [
+      "datakvalitet"
+    ],
+    "alias": [
+      "Data cleansing",
+      "data wrangling"
+    ]
+  },
+  {
+    "id": "sna",
+    "tittel": "Sosiale nettverk-analyse",
+    "undertittel": "SNA",
+    "forklaring": "Data mining-teknikk som kartlegger relasjoner i et fellesskap som et nettverk for å finne nøkkelaktører og grupper.",
+    "tags": [
+      "analyse",
+      "ki"
+    ],
+    "alias": [
+      "Social Network Analysis"
+    ]
+  },
+  {
+    "id": "spear-phishing",
+    "tittel": "Spear-phishing",
+    "forklaring": "Målrettet phishing mot enkeltpersoner med personlige detaljer for å virke mer troverdig.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Spear phishing"
+    ]
+  },
+  {
+    "id": "spekulativ-dekoding",
+    "tittel": "Spekulativ dekoding",
+    "forklaring": "Teknikk som gjør inferens raskere ved at en liten modell foreslår tokens som en større modell verifiserer i én operasjon.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Speculative decoding"
+    ]
+  },
+  {
+    "id": "sporing",
+    "tittel": "Sporing",
+    "forklaring": "Handling der man kan følge de elektroniske sporene en person etterlater seg gjennom digitale tjenester.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Tracking"
+    ]
+  },
+  {
+    "id": "spredning",
+    "tittel": "Spredning",
+    "undertittel": "statistikk",
+    "forklaring": "Mål på hvor mye verdiene i et datasett varierer – inkluderer variasjonsbredde, persentiler og standardavvik.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Statistical dispersion",
+      "spread"
+    ]
+  },
+  {
+    "id": "spredningsdiagram",
+    "tittel": "Spredningsdiagram",
+    "undertittel": "scatter plot",
+    "forklaring": "Punktplott av to variabler i et koordinatsystem for å vise sammenheng og trender.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Scatter plot"
+    ]
+  },
+  {
+    "id": "sprakmodell",
+    "tittel": "Språkmodell",
+    "forklaring": "KI-system trent til å forstå og generere menneskelig tekst – store språkmodeller (LLM) er trent på enorme tekstmengder.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Language model"
+    ]
+  },
+  {
+    "id": "spurios-korrelasjon",
+    "tittel": "Spuriøs korrelasjon",
+    "forklaring": "Tilsynelatende sammenheng mellom to urelaterte datasett uten reelt årsaksforhold.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Spurious correlation"
+    ]
+  },
+  {
+    "id": "sporring",
+    "tittel": "Spørring",
+    "undertittel": "SQL",
+    "forklaring": "SQL-kommando som stiller et spørsmål til databasen og returnerer en resultatmengde.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "SQL query"
+    ]
+  },
+  {
+    "id": "sql",
+    "tittel": "SQL",
+    "forklaring": "Structured Query Language – spørrespråket som brukes for å jobbe med relasjonsdatabaser.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Structured Query Language"
+    ]
+  },
+  {
+    "id": "staging-area",
+    "tittel": "Staging area",
+    "forklaring": "Midlertidig samlested for data før de lastes inn i et datavarehus eller annen endelig lagring.",
+    "tags": [
+      "database",
+      "analyse"
+    ],
+    "alias": [
+      "Staging-område"
+    ]
+  },
+  {
+    "id": "standardavvik",
+    "tittel": "Standardavvik",
+    "forklaring": "Mål på hvor langt verdier typisk avviker fra gjennomsnittet i et datasett.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Standard deviation",
+      "SD"
+    ]
+  },
+  {
+    "id": "statistikk",
+    "tittel": "Statistikk",
+    "forklaring": "Vitenskapen om innsamling, oppsummering og analysering av data – kjernen i alt datadrevet arbeid.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Statistics"
+    ]
+  },
+  {
+    "id": "statistisk-inferens",
+    "tittel": "Statistisk inferens",
+    "forklaring": "Trekking av konklusjoner om en hel populasjon fra et begrenset representativt utvalg.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Statistical inference"
+    ]
+  },
+  {
+    "id": "stokastiske-papegoyer",
+    "tittel": "Stokastiske papegøyer",
+    "forklaring": "Kritisk metafor om at store språkmodeller bare gjengir statistisk sannsynlig språk fra treningsdataene uten å forstå innholdet – fra en innflytelsesrik forskningsartikkel i 2021.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Stochastic parrots"
+    ]
+  },
+  {
+    "id": "llm",
+    "tittel": "Stor språkmodell",
+    "undertittel": "LLM",
+    "forklaring": "KI-type trent på enorme tekstmengder for å forstå og produsere språk – motoren bak f.eks. ChatGPT og Copilot.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Large Language Model"
+    ]
+  },
+  {
+    "id": "stordata",
+    "tittel": "Stordata",
+    "undertittel": "big data",
+    "forklaring": "Datamengder for store eller komplekse til at mennesker kan analysere dem uten maskinhjelp.",
+    "tags": [
+      "analyse",
+      "sky"
+    ],
+    "alias": [
+      "Big data"
+    ]
+  },
+  {
+    "id": "strukturerte-data",
+    "tittel": "Strukturerte data",
+    "forklaring": "Data organisert i fast format, typisk tabeller med rader og kolonner.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Structured data"
+    ]
+  },
+  {
+    "id": "stuxnet",
+    "tittel": "Stuxnet",
+    "forklaring": "Dataorm (2010) som forårsaket fysisk skade på iranske atomsentrifuger – bevis for at digitale angrep kan ramme fysisk infrastruktur.",
+    "tags": [
+      "sikkerhet",
+      "iot"
+    ]
+  },
+  {
+    "id": "svitsj",
+    "tittel": "Svitsj",
+    "forklaring": "Nettverksenhet som kobler sammen enheter i et lokalt nettverk.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Network switch"
+    ]
+  },
+  {
+    "id": "symmetrisk-kryptering",
+    "tittel": "Symmetrisk kryptering",
+    "forklaring": "Krypteringsform der samme nøkkel brukes til både låsing og opplåsing – rask, men krever trygg nøkkeldeling.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Symmetric cryptography",
+      "symmetric-key cryptography"
+    ]
+  },
+  {
+    "id": "syntaks",
+    "tittel": "Syntaks",
+    "forklaring": "Presise regler for hvordan kode skrives – maskinen krever full nøyaktighet.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Syntax"
+    ]
+  },
+  {
+    "id": "syntetisk-attributt",
+    "tittel": "Syntetisk attributt",
+    "forklaring": "Kunstig generert ID (f.eks. løpenummer) som lages når ingen naturlig unik attributt finnes.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Surrogate key",
+      "synthetic key"
+    ]
+  },
+  {
+    "id": "syntetiske-data",
+    "tittel": "Syntetiske data",
+    "forklaring": "Data generert kunstig av en KI-modell, brukt til å trene andre modeller når ekte data er dyre, knappe eller personvernsensitive.",
+    "tags": [
+      "ki",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Synthetic data"
+    ]
+  },
+  {
+    "id": "systemprompt",
+    "tittel": "Systemprompt",
+    "forklaring": "Skjulte instruksjoner fra utvikleren som styrer hvordan en KI-modell oppfører seg, og gir ulike produkter ulik «personlighet».",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "System prompt",
+      "system message"
+    ]
+  },
+  {
+    "id": "tabulert-informasjon",
+    "tittel": "Tabulert informasjon",
+    "forklaring": "Verdier i tabellform – sorterbare og sammenlignbare; grunnlag for datafisering.",
+    "tags": [
+      "digitalisering",
+      "analyse"
+    ],
+    "alias": [
+      "Tabular data"
+    ]
+  },
+  {
+    "id": "tankekjede",
+    "tittel": "Tankekjede",
+    "undertittel": "chain-of-thought",
+    "forklaring": "Teknikk der modellen bes resonnere steg for steg før den svarer – gir bedre svar på sammensatte oppgaver.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Chain-of-thought",
+      "CoT"
+    ]
+  },
+  {
+    "id": "tcp-ip",
+    "tittel": "TCP/IP",
+    "forklaring": "De grunnleggende protokollene på internett – pakkesvitsjing og adressering inngår her.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Transmission Control Protocol / Internet Protocol"
+    ]
+  },
+  {
+    "id": "tekst-mining",
+    "tittel": "Tekst-mining",
+    "forklaring": "Data mining-teknikk som leter etter mønstre i store tekstmengder, f.eks. med ordskyer.",
+    "tags": [
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Text mining",
+      "text analytics"
+    ]
+  },
+  {
+    "id": "tekst-til-tale",
+    "tittel": "Tekst-til-tale",
+    "undertittel": "TTS / stemme-KI",
+    "forklaring": "Teknologi som gjør skrevet tekst om til naturtro tale, og som kan klone stemmer.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Text-to-speech",
+      "voice cloning"
+    ]
+  },
+  {
+    "id": "temperatur",
+    "tittel": "Temperatur",
+    "undertittel": "KI",
+    "forklaring": "Innstilling som styrer hvor forutsigbar eller kreativ en modell er – lav verdi gir nøkterne svar, høy gir mer variasjon.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Temperature (sampling)"
+    ]
+  },
+  {
+    "id": "tilgangskontroll",
+    "tittel": "Tilgangskontroll",
+    "forklaring": "Regler og tekniske mekanismer som styrer hvem som får tilgang til hvilke data og systemer – grunnlaget for både informasjonssikkerhet og personvern.",
+    "tags": [
+      "sikkerhet",
+      "personvern",
+      "m365"
+    ],
+    "alias": [
+      "Access control"
+    ]
+  },
+  {
+    "id": "tilgjengeliggjoring",
+    "tittel": "Tilgjengeliggjøring",
+    "forklaring": "Prosess der data gjøres brukbare: kartlegge plassering, gi tilganger og løfte dem ut av siloer.",
+    "tags": [
+      "datakvalitet",
+      "digitalisering"
+    ],
+    "alias": [
+      "Data accessibility"
+    ]
+  },
+  {
+    "id": "tilgjengelighet",
+    "tittel": "Tilgjengelighet",
+    "forklaring": "Prinsipp om å ha tilgang til dataene og systemene når de trengs – ett av de tre elementene i KIT-triaden.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Availability"
+    ]
+  },
+  {
+    "id": "tilpasning",
+    "tittel": "Tilpasning",
+    "undertittel": "alignment",
+    "forklaring": "Forskningsfeltet for å få KI-systemers mål til å samsvare med menneskelige verdier, slik at kapable modeller ikke gjør skade.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "AI alignment"
+    ]
+  },
+  {
+    "id": "tingenes-internett",
+    "tittel": "Tingenes internett",
+    "undertittel": "IoT",
+    "forklaring": "Nettverk av fysiske ting og sensorer koblet til internett som genererer og utveksler data.",
+    "tags": [
+      "iot"
+    ],
+    "alias": [
+      "Internet of Things"
+    ]
+  },
+  {
+    "id": "tofaktorautentisering",
+    "tittel": "Tofaktorautentisering",
+    "undertittel": "2FA",
+    "forklaring": "Ekstra innloggingsfaktor utover passord, f.eks. engangskode – stopper de fleste kontoovertakelser.",
+    "tags": [
+      "sikkerhet",
+      "m365"
+    ],
+    "alias": [
+      "Two-factor authentication",
+      "multifactor authentication",
+      "MFA"
+    ]
+  },
+  {
+    "id": "token",
+    "tittel": "Token",
+    "forklaring": "Minste tekstenhet en språkmodell jobber med – omtrent et ord eller en orddel; kontekstvinduet og prisen måles i tokens.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Token"
+    ]
+  },
+  {
+    "id": "tokenisering",
+    "tittel": "Tokenisering",
+    "undertittel": "data",
+    "forklaring": "Variant av tilsløring der sensitive data erstattes med meningsløse verdier som kun gir mening med en token.",
+    "tags": [
+      "personvern",
+      "datakvalitet"
+    ],
+    "alias": [
+      "Tokenisation",
+      "tokenization"
+    ]
+  },
+  {
+    "id": "transformer",
+    "tittel": "Transformer",
+    "forklaring": "Arkitekturen nesten alle moderne språkmodeller bygger på, introdusert av Google i 2017 – bruker oppmerksomhetsmekanismen.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Transformer model",
+      "transformer architecture"
+    ]
+  },
+  {
+    "id": "transformering",
+    "tittel": "Transformering",
+    "undertittel": "data",
+    "forklaring": "Prosess der data gjøres sammenlignbare ved å sikre like enheter, formater og måletidspunkter.",
+    "tags": [
+      "datakvalitet"
+    ],
+    "alias": [
+      "Data transformation"
+    ]
+  },
+  {
+    "id": "trendlinje",
+    "tittel": "Trendlinje",
+    "forklaring": "Rett linje gjennom datapunkter i et spredningsdiagram som viser den generelle tendensen – lineær regresjon.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Trend line",
+      "line of best fit"
+    ]
+  },
+  {
+    "id": "trening",
+    "tittel": "Trening",
+    "undertittel": "KI",
+    "forklaring": "Prosessen der en modell lærer ved å justere interne parametre mot enorme datamengder – krever mye tid og regnekraft.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Training",
+      "model training"
+    ]
+  },
+  {
+    "id": "treningsdata",
+    "tittel": "Treningsdata",
+    "forklaring": "Dataene en maskinlæringsmodell lærer av under utviklingen.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Training data"
+    ]
+  },
+  {
+    "id": "trojaner",
+    "tittel": "Trojaner",
+    "forklaring": "Skadeprogram skjult i legitim programvare som åpner en bakdør i systemet.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Trojan",
+      "Trojan horse"
+    ]
+  },
+  {
+    "id": "typetall",
+    "tittel": "Typetall",
+    "forklaring": "Verdien som forekommer oftest i et datasett – ett av målene for sentralitet.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Mode"
+    ]
+  },
+  {
+    "id": "undersokende-dataanalyse",
+    "tittel": "Undersøkende dataanalyse",
+    "forklaring": "Utforskende steg mellom opprydding og modellering der man bruker deskriptiv statistikk og figurer for å bli kjent med dataene.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Exploratory data analysis",
+      "EDA"
+    ]
+  },
+  {
+    "id": "unicode-utf-8",
+    "tittel": "Unicode / UTF-8",
+    "forklaring": "Moderne tegnstandard som inkluderer ASCII og dekker tegnsett fra hele verden.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Unicode",
+      "UTF-8"
+    ]
+  },
+  {
+    "id": "unimodal",
+    "tittel": "Unimodal",
+    "forklaring": "KI-modell trent på én datatype, for eksempel bare tekst eller bare bilde – motsetning til multimodal.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Unimodal model"
+    ]
+  },
+  {
+    "id": "ustrukturerte-data",
+    "tittel": "Ustrukturerte data",
+    "forklaring": "Data uten forhåndsdefinert struktur – lyd, bilder, video og fritekst.",
+    "tags": [
+      "database",
+      "analyse"
+    ],
+    "alias": [
+      "Unstructured data"
+    ]
+  },
+  {
+    "id": "utvidet-tenkning",
+    "tittel": "Utvidet tenkning",
+    "undertittel": "extended thinking",
+    "forklaring": "Funksjon der en modell bruker ekstra tid på interne resonnementer før svar, med bedre resultat på komplekse oppgaver.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Extended thinking",
+      "deep reasoning"
+    ]
+  },
+  {
+    "id": "variabel",
+    "tittel": "Variabel",
+    "forklaring": "Egenskap man samler data om og vil sammenligne, f.eks. kjønn, alder eller inntekt.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Variable"
+    ]
+  },
+  {
+    "id": "variasjonsbredde",
+    "tittel": "Variasjonsbredde",
+    "forklaring": "Avstanden mellom største og minste verdi i et datasett.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Range (statistics)"
+    ]
+  },
+  {
+    "id": "varmekart",
+    "tittel": "Varmekart",
+    "forklaring": "Datavisualisering der farger representerer verdier – varme farger for høye verdier, kalde for lave.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Heat map",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "veiledet-laering",
+    "tittel": "Veiledet læring",
+    "forklaring": "Maskinlæringsform der algoritmen trenes med fasit: input og riktig output gis sammen.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Supervised learning"
+    ]
+  },
+  {
+    "id": "vektordatabase",
+    "tittel": "Vektordatabase",
+    "forklaring": "Database som lagrer embeddings og finner innhold basert på mening heller enn eksakte ord – mye brukt i RAG-systemer.",
+    "tags": [
+      "ki",
+      "database"
+    ],
+    "alias": [
+      "Vector database"
+    ]
+  },
+  {
+    "id": "verdensveven",
+    "tittel": "Verdensveven",
+    "undertittel": "WWW",
+    "forklaring": "Internett-tjenesten med hypertekstdokumenter og lenker – ikke det samme som internett.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "World Wide Web"
+    ]
+  },
+  {
+    "id": "vibe-koding",
+    "tittel": "Vibe-koding",
+    "forklaring": "Praksis der man beskriver hva et program skal gjøre i naturlig språk og lar et KI-verktøy skrive koden.",
+    "tags": [
+      "programmering",
+      "ki"
+    ],
+    "alias": [
+      "Vibe coding"
+    ]
+  },
+  {
+    "id": "vpn",
+    "tittel": "Virtuelt privat nettverk",
+    "undertittel": "VPN",
+    "forklaring": "Kryptert «tunnel» mellom enheten og internett som hindrer avlytting av nettverkstrafikken.",
+    "tags": [
+      "sikkerhet",
+      "nettverkstek"
+    ],
+    "alias": [
+      "Virtual Private Network"
+    ]
+  },
+  {
+    "id": "virus",
+    "tittel": "Virus",
+    "undertittel": "datasikkerhet",
+    "forklaring": "Skadekode som trenger en vertsfil og kopierer seg inn i andre filer når vertsfilen kjøres.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Computer virus"
+    ]
+  },
+  {
+    "id": "visdom",
+    "tittel": "Visdom",
+    "forklaring": "Øverste nivå i pyramiden data–informasjon–kunnskap–visdom – utvikles over tid gjennom erfaring.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Wisdom (DIKW)"
+    ]
+  },
+  {
+    "id": "vision-modell",
+    "tittel": "Vision-modell",
+    "undertittel": "synsmodell",
+    "forklaring": "KI-modell som tolker bilder: beskriver innhold, leser tekst (OCR) og gjenkjenner objekter – del av multimodale modeller.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Vision model",
+      "computer vision model"
+    ]
+  },
+  {
+    "id": "dpia",
+    "tittel": "Vurdering av personvernkonsekvenser",
+    "undertittel": "DPIA",
+    "forklaring": "Strukturert vurdering av risiko for personvernet før en behandling med høy risiko settes i gang – obligatorisk etter GDPR for slik behandling.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Data Protection Impact Assessment",
+      "vurdering av personvernkonsekvenser"
+    ]
+  },
+  {
+    "id": "wan",
+    "tittel": "Wide Area Network",
+    "undertittel": "WAN",
+    "forklaring": "Nettverk spredt geografisk over flere steder – internett er verdens største WAN.",
+    "tags": [
+      "nettverkstek"
+    ],
+    "alias": [
+      "Wide Area Network"
+    ]
+  },
+  {
+    "id": "zero-shot-og-few-shot",
+    "tittel": "Zero-shot og few-shot",
+    "forklaring": "I hvilken grad brukeren gir modellen eksempler i prompten – zero-shot uten eksempler, few-shot med noen få for å vise mønsteret.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Zero-shot learning",
+      "few-shot learning"
+    ]
+  },
+  {
+    "id": "apen-kildekode",
+    "tittel": "Åpen kildekode",
+    "undertittel": "open source",
+    "forklaring": "Programvare eller modeller der koden er fritt tilgjengelig for innsyn, bruk og videreutvikling.",
+    "tags": [
+      "programmering",
+      "ki"
+    ],
+    "alias": [
+      "Open source",
+      "open-source software"
+    ]
+  },
+  {
+    "id": "apne-offentlige-data",
+    "tittel": "Åpne / offentlige data",
+    "forklaring": "Eksterne data som er tilgjengelige for alle – ikke nødvendigvis fra offentlig sektor.",
+    "tags": [
+      "datakvalitet",
+      "digitalisering"
+    ],
+    "alias": [
+      "Open data",
+      "public data"
+    ]
+  },
+  {
+    "id": "apne-vekter",
+    "tittel": "Åpne vekter",
+    "undertittel": "open weights",
+    "forklaring": "Praksis der en ferdigtrent modells vekter deles fritt, men uten nødvendigvis treningskode, datasett eller endringsrett – ikke det samme som åpen kildekode.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Open weights"
+    ]
+  }
+]

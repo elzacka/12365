@@ -8,12 +8,14 @@ interface SeenVersionsContextValue {
   isArticleNew: (id: string) => boolean
   isVideoNew: (id: string) => boolean
   isCourseNew: (id: string) => boolean
+  isOrdNew: (id: string) => boolean
   isLicenseNew: () => boolean
   isAboutNew: () => boolean
   hasNewCards: boolean
   hasNewArticles: boolean
   hasNewVideos: boolean
   hasNewCourses: boolean
+  hasNewOrdbok: boolean
   hasNewLicense: boolean
   hasNewAbout: boolean
   markCardSeen: (navn: string) => void
@@ -23,6 +25,8 @@ interface SeenVersionsContextValue {
   markAllVideosSeen: () => void
   markCourseSeen: (id: string) => void
   markAllCoursesSeen: () => void
+  markOrdSeen: (id: string) => void
+  markAllOrdbokSeen: () => void
   markLicenseSeen: () => void
   markAboutSeen: () => void
 }
@@ -81,6 +85,10 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
     (id: string) => !!versions && versions.courses?.[id] !== undefined && seen.courses[id] !== versions.courses[id],
     [versions, seen],
   )
+  const isOrdNew = useCallback(
+    (id: string) => !!versions && versions.ordbok?.[id] !== undefined && seen.ordbok[id] !== versions.ordbok[id],
+    [versions, seen],
+  )
   const isLicenseNew = useCallback(
     () => !!versions && seen.license !== versions.license,
     [versions, seen],
@@ -105,6 +113,10 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
   const hasNewCourses = useMemo(() => {
     if (!versions?.courses) return false
     return Object.keys(versions.courses).some(k => seen.courses[k] !== versions.courses[k])
+  }, [versions, seen])
+  const hasNewOrdbok = useMemo(() => {
+    if (!versions?.ordbok) return false
+    return Object.keys(versions.ordbok).some(k => seen.ordbok[k] !== versions.ordbok[k])
   }, [versions, seen])
   const hasNewLicense = useMemo(() => {
     return !!versions && seen.license !== versions.license
@@ -154,6 +166,15 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
     },
     [versions, seen, persist],
   )
+  const markOrdSeen = useCallback(
+    (id: string) => {
+      if (!versions?.ordbok) return
+      const cur = versions.ordbok[id]
+      if (!cur || seen.ordbok[id] === cur) return
+      persist({ ...seen, ordbok: { ...seen.ordbok, [id]: cur } })
+    },
+    [versions, seen, persist],
+  )
   const markLicenseSeen = useCallback(() => {
     if (!versions || seen.license === versions.license) return
     persist({ ...seen, license: versions.license })
@@ -199,6 +220,18 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
     }
     if (changed) persist({ ...seen, courses: next })
   }, [versions, seen, persist])
+  const markAllOrdbokSeen = useCallback(() => {
+    if (!versions?.ordbok) return
+    let changed = false
+    const next = { ...seen.ordbok }
+    for (const [k, v] of Object.entries(versions.ordbok)) {
+      if (next[k] !== v) {
+        next[k] = v
+        changed = true
+      }
+    }
+    if (changed) persist({ ...seen, ordbok: next })
+  }, [versions, seen, persist])
 
   const value: SeenVersionsContextValue = {
     ready,
@@ -206,12 +239,14 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
     isArticleNew,
     isVideoNew,
     isCourseNew,
+    isOrdNew,
     isLicenseNew,
     isAboutNew,
     hasNewCards,
     hasNewArticles,
     hasNewVideos,
     hasNewCourses,
+    hasNewOrdbok,
     hasNewLicense,
     hasNewAbout,
     markCardSeen,
@@ -221,6 +256,8 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
     markAllVideosSeen,
     markCourseSeen,
     markAllCoursesSeen,
+    markOrdSeen,
+    markAllOrdbokSeen,
     markLicenseSeen,
     markAboutSeen,
   }

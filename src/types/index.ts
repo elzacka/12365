@@ -133,3 +133,19 @@ export interface E5LicenseOverview {
   tema: LicenseTheme[]
   kategorier: LicenseCategory[]
 }
+
+// Én oppføring i ordboken. Generert fra dev_only/ordbok.md via
+// scripts/generate-ordbok.mjs. Akronymer flyttes til `undertittel` av
+// parseren, så `tittel` alltid er fullformen. Aliaser (engelsk navn,
+// alternative former) gjør at samme ord finnes ved flere søketermer
+// uten å være egne rader.
+export interface Ord {
+  id: string
+  tittel: string
+  undertittel?: string
+  forklaring: string
+  tags: string[]
+  alias?: string[]
+  'skjul-endret'?: boolean
+  endret?: string
+}
