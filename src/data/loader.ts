@@ -1,4 +1,4 @@
-import type { ArticleCategory, Course, E5LicenseOverview, FlipCard, Video } from '../types'
+import type { ArticleCategory, Course, E5LicenseOverview, FlipCard, Ord, Video } from '../types'
 
 const base = import.meta.env.BASE_URL
 
@@ -15,6 +15,7 @@ let cardsPromise: Promise<FlipCard[]> | null = null
 let videosPromise: Promise<Video[]> | null = null
 let coursesPromise: Promise<Course[]> | null = null
 let e5OverviewPromise: Promise<E5LicenseOverview> | null = null
+let ordbokPromise: Promise<Ord[]> | null = null
 
 export function fetchArticles(): Promise<ArticleCategory[]> {
   articlesPromise ??= fetchJson<ArticleCategory[]>('articles.json')
@@ -39,4 +40,9 @@ export function fetchCourses(): Promise<Course[]> {
 export function fetchE5LicenseOverview(): Promise<E5LicenseOverview> {
   e5OverviewPromise ??= fetchJson<E5LicenseOverview>('e5-license-overview.json')
   return e5OverviewPromise
+}
+
+export function fetchOrdbok(): Promise<Ord[]> {
+  ordbokPromise ??= fetchJson<Ord[]>('ordbok.json')
+  return ordbokPromise
 }

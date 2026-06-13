@@ -1,7 +1,7 @@
 {
   "name": "12365",
   "private": true,
-  "version": "0.14.4",
+  "version": "0.15.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,11 +12,13 @@
     "test:watch": "vitest",
     "icons:build": "node scripts/build-icons.mjs",
     "lock": "node scripts/lock-content.mjs",
+    "ordbok:gen": "node scripts/generate-ordbok.mjs",
     "versions:gen": "node scripts/generate-versions.mjs",
-    "predev": "node scripts/generate-versions.mjs",
-    "prebuild": "node scripts/generate-versions.mjs"
+    "predev": "node scripts/generate-ordbok.mjs && node scripts/generate-versions.mjs",
+    "prebuild": "node scripts/generate-ordbok.mjs && node scripts/generate-versions.mjs"
   },
   "dependencies": {
+    "minisearch": "^7.2.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-router-dom": "^7.14.2"
