@@ -7,10 +7,10 @@ export const CHEAT_SHEET_CATEGORIES: CheatSheetCategory[] = [
   {
     id: 'snakk-og-mot',
     navn: 'Snakke sammen, møtes',
-    beskrivelse: 'Alle handler om kontakt med kolleger. Skillet er formell e-post, hverdagsprat eller åpen samtale.',
+    beskrivelse: '',
     fargeBakgrunn: 'bg-sky-50',
     fargeAksent: 'ring-sky-300',
-  },
+  }
   {
     id: 'notater-og-tavler',
     navn: 'Notere, se tavler',
