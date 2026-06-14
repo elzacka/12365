@@ -19,7 +19,7 @@ export function CheatSheetRow({
   canSelectMore,
 }: CheatSheetRowProps) {
   const overlapper = card.overlapper ?? []
-  const oppsummering = card.oppsummering || card.tagline
+  const oppsummering = card.oppsummering !== undefined ? card.oppsummering : card.tagline
 
   return (
     <li
@@ -43,9 +43,11 @@ export function CheatSheetRow({
         <div className="text-sm font-semibold text-slate-800 leading-tight">
           {card.navn}
         </div>
-        <div className="text-xs text-slate-600 mt-0.5 leading-snug">
-          {oppsummering}
-        </div>
+        {oppsummering && (
+          <div className="text-xs text-slate-600 mt-0.5 leading-snug">
+            {oppsummering}
+          </div>
+        )}
         {overlapper.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mt-2">
             {overlapper.map(other => (
