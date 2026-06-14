@@ -38,7 +38,7 @@ export function Home() {
         <NavCard
           to="/om-appene"
           icon={<GridIcon size={24} />}
-          title="Om M365-appene"
+          title="M365-appene"
           color="bg-brand-700"
           showDot={hasNewCards}
         />

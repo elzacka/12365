@@ -6,9 +6,9 @@
 export interface FlipCard {
   navn: string
   tagline: string
-  alene: string
-  sammen: string
-  fotnote: string
+  alene?: string
+  sammen?: string
+  fotnote?: string
   // Cheat-sheet metadata. Optional so locked content from older payloads
   // remains assignable; cards without kategori land in an "Annet" group.
   kategori?: string         // id matching a CheatSheetCategory
@@ -26,7 +26,7 @@ export interface FlipCard {
 export interface CheatSheetCategory {
   id: string
   navn: string
-  beskrivelse: string
+  beskrivelse?: string
   fargeBakgrunn: string  // Tailwind utility class, e.g. 'bg-sky-50'
   fargeAksent: string    // Tailwind utility class for accent ring/text
 }

@@ -2,11 +2,11 @@
   {
     "navn": "Teams",
     "tagline": "Hovedinngang til arbeidsdagen din",
-    "alene": "Chat for raske avklaringer. Kanaler for samarbeid. Møter med eller uten opptak.",
+    "alene": "Ett sted for å møtes, chatte, ringe og samarbeide.",
     "sammen": "Samler M365 i én flate: Bruk alle appene herfra - også de du kjenner fra før, f.eks. Word.",
     "fotnote": "Gjør det du skal via Teams: Gå til riktig kanal (samarbeid) eller OneDrive (ditt) -> Finn, opprett eller endre noe derfra.",
     "kategori": "snakk-og-mot",
-    "oppsummering": "Chat, kanaler og møter på arbeidsflaten",
+    "oppsummering": "Ett sted for å møtes, chatte, ringe og samarbeide",
     "overlapper": [
       "Outlook",
       "Viva Engage"
@@ -15,12 +15,12 @@
   },
   {
     "navn": "Clipchamp",
-    "tagline": "Video i Microsoft 365",
-    "alene": "Ta opp skjerm eller kamera, rediger og transkriber.",
-    "sammen": "Du lagrer opptak og videoer f.eks. i en Teams-kanal eller i OneDrive og spiller den av der. Søk i tale finner videoen du leter etter.",
+    "tagline": "Lag video og ta opp skjerm",
+    "alene": "Med redigeringsverktøy, filtre og effekter",
+    "sammen": "",
     "fotnote": "",
     "kategori": "visualiser",
-    "oppsummering": "Skjerm- og videoopptak med enkel redigering",
+    "oppsummering": "Lag video og ta opp skjerm",
     "overlapper": [
       "PowerPoint"
     ],
@@ -116,12 +116,12 @@
   },
   {
     "navn": "Lists",
-    "tagline": "Smart informasjonssporing",
-    "alene": "Strukturerte lister, oversikter, registre med mer. Bedre enn et delt regneark i flere tilfeller enn du tror.",
-    "sammen": "Legg til som fane i Teams. Regler varsler ved endring, Forms mater inn rader, Power Apps gir et skjema oppå.",
+    "tagline": "Registre og oversikter",
+    "alene": "Hold alle synkronisert i Teams. Tilpass til det teamet ditt trenger.",
+    "sammen": "Legg til automatisering med Power Platform.",
     "fotnote": "",
     "kategori": "spor-og-planlegg",
-    "oppsummering": "Strukturert liste som mange kan oppdatere samtidig",
+    "oppsummering": "Synkroniserte oversikter som teamet kan oppdatere samtidig",
     "overlapper": [
       "Excel",
       "Forms",
@@ -137,7 +137,7 @@
     "navn": "Loop",
     "tagline": "Levende komponenter og delte arbeidsrom",
     "alene": "Sanntidssamarbeid på tvers av apper. Tabeller, lister og statussporere som synkroniseres der de limes inn.",
-    "sammen": "Lim inn i Teams, Outlook eller Word. Workspaces samler hele prosjektet.",
+    "sammen": "Lim inn i Teams, Word eller andre apper. Loop-arbeidsrommet samler alle komponentene.",
     "fotnote": "",
     "kategori": "notater-og-tavler",
     "oppsummering": "Komponenter som synker på tvers av apper",
@@ -167,8 +167,8 @@
   {
     "navn": "OneNote",
     "tagline": "Strukturerte notater og skisser",
-    "alene": "Digital notatbok med inndelinger og sider. Tekst, bilder og skisser. For arbeidsnotater og opplæringsmateriell.",
-    "sammen": "Del som fane i Teams for å samarbeide om en notatbok. For løpende møtereferater: Bruk f. eks Loop.",
+    "alene": "Digital notatbok med inndelinger og sider. Tekst, bilder og skisser.",
+    "sammen": "Del som fane i Teams for å samarbeide om en notatbok.",
     "fotnote": "",
     "kategori": "notater-og-tavler",
     "oppsummering": "Strukturert notatbok med inndelinger og sider",
@@ -201,7 +201,7 @@
     "sammen": "Outlook foreslår møtetider når kolleger er på kontoret. Teams-status følger arbeidsplanen.",
     "fotnote": "",
     "kategori": "snakk-og-mot",
-    "oppsummering": "Plan for hybridarbeid: kontordager og rom",
+    "oppsummering": "Plan for hybridarbeid: kontordager, rom og folk",
     "overlapper": [
       "Outlook"
     ],

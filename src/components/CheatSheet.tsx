@@ -84,7 +84,9 @@ export function CheatSheet({
             >
               {kategori.navn}
             </h3>
-            <p className="text-xs text-slate-600 mt-0.5">{kategori.beskrivelse}</p>
+            {kategori.beskrivelse && (
+              <p className="text-xs text-slate-600 mt-0.5">{kategori.beskrivelse}</p>
+            )}
           </header>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {sectionCards.map(card => (
