@@ -99,14 +99,6 @@ export function HowTo() {
 
   const clearActiveTag = useCallback(() => setActiveTag(null), [])
 
-  const handleTagClick = useCallback((tag: string) => {
-    setActiveTag(prev => (prev === tag ? null : tag))
-    setQuery('')
-    requestAnimationFrame(() => {
-      window.scrollTo({ top: 0, behavior: 'instant' })
-    })
-  }, [])
-
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-8 max-w-2xl mx-auto w-full">
