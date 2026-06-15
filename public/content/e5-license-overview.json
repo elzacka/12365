@@ -38,7 +38,7 @@
         {
           "navn": "Microsoft Security Copilot",
           "status": "inkludert",
-          "beskrivelse": "KI-assistent for sikkerhetsteam som hjelper med trusselanalyse, hendelseshåndtering og etterforskning. E5 inkluderer 400 SCU per måned per 1000 brukerlisenser, opptil 10 000 SCU per måned. E5-kunder som ikke allerede brukte Security Copilot 18.11.25, aktiveres i faser frem til juni 2026."
+          "beskrivelse": "KI-assistent for sikkerhetsteam som hjelper med trusselanalyse, hendelseshåndtering og etterforskning. E5 inkluderer 400 SCU per måned per 1000 brukerlisenser, opptil 10 000 SCU per måned."
         }
       ]
     },
@@ -694,7 +694,7 @@
         {
           "navn": "Windows Information Protection (WIP)",
           "status": "inkludert",
-          "beskrivelse": "Skiller jobb- og privatdata på Windows-enheter med filkryptering. Microsoft anbefaler Purview Information Protection som modernisert erstatning."
+          "beskrivelse": "Avviklet av Microsoft og fjernet fra nyere Windows 11-versjoner. Bruk Purview Information Protection i stedet."
         },
         {
           "navn": "Microsoft Defender for Endpoint Plan 2",
