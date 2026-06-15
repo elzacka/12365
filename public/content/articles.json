@@ -562,7 +562,7 @@
         "steg": [
           {
             "tittel": "Når passer en regelbasert chatbot?",
-            "innhold": "Bruk Copilot Studio når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen:\n\n◦ **HR-FAQ**: åpningstider, fridager, sykemelding\n◦ **IT-helpdesk**: tilbakestille passord, melde feil, bestille utstyr\n◦ **Onboarding**: gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter: Bruk Copilot Chat i Jobb-modus.\n\n*Den klassiske, regelbaserte Teams-versjonen er tillegg for M365 E5. Fra 30. juni 2026 lages nye chatboter i web-appen til Copilot Studio. Teams-appen redirigerer dit.*"
+            "innhold": "Bruk Copilot Studio når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen:\n\n◦ **HR-FAQ**: åpningstider, fridager, sykemelding\n◦ **IT-helpdesk**: tilbakestille passord, melde feil, bestille utstyr\n◦ **Onboarding**: gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter: Bruk Copilot Chat i Jobb-modus.\n\n*Den klassiske, regelbaserte Teams-versjonen er tillegg for M365 E5. Fra sommeren 2026 lages nye chatboter i web-appen til Copilot Studio. Teams-appen redirigerer dit.*"
           },
           {
             "tittel": "Velg team som skal eie chatbotten",
@@ -594,7 +594,7 @@
           },
           {
             "tittel": "Dette krever tillegg",
-            "innhold": "Den klassiske Teams-versjonen er tillegg for M365 E5 og har disse rammene:\n\n◦ **Regelbasert**: svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller premium-koblinger kreves full Copilot Studio. Som tillegg med egen lisens eller forbruksbaserte **Copilot Credits**, eller via Microsoft 365 Copilot-lisensen som siden september 2025 inkluderer full Copilot Studio for interne brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Nye lages i web-appen til Copilot Studio. Teams-appen redirigerer dit fra 30. juni 2026.*"
+            "innhold": "Den klassiske Teams-versjonen er tillegg for M365 E5 og har disse rammene:\n\n◦ **Regelbasert**: svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller premium-koblinger kreves full Copilot Studio. Som tillegg med egen lisens eller forbruksbaserte **Copilot Credits**, eller via Microsoft 365 Copilot-lisensen som siden september 2025 inkluderer full Copilot Studio for interne brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Nye lages i web-appen til Copilot Studio. Teams-appen redirigerer dit fra sommeren 2026.*"
           }
         ],
         "relaterte": [
@@ -872,7 +872,7 @@
           },
           {
             "tittel": "Oversikt over flere prosjekter",
-            "innhold": "Etter at **Project for the web** ble avviklet, er Planner Microsofts samlede prosjekt- og oppgaveplattform. **Porteføljer**-visningen gir deg en samlet oversikt over flere prosjekter samtidig, med konfigurerbare visninger for status, frist og ressurser.\n\nBruk Porteføljer når du har flere parallelle planer du vil styre fra ett sted."
+            "innhold": "**Project for the web** er nå en del av **Planner Premium**. Planner er Microsofts samlede prosjekt- og oppgaveplattform. **Porteføljer**-visningen gir deg en samlet oversikt over flere prosjekter samtidig, med konfigurerbare visninger for status, frist og ressurser.\n\nBruk Porteføljer når du har flere parallelle planer du vil styre fra ett sted."
           }
         ],
         "relaterte": [
@@ -1497,7 +1497,7 @@
           },
           {
             "tittel": "Forutsetninger",
-            "innhold": "For å sette opp SharePoint som innholdskilde trenger dere:\n\n◦ En **kunnskapsadministrator** (knowledge admin), Microsoft Entra-rollen som administrerer organisasjonens læringskilder\n◦ En **SharePoint-administrator** eller **global administrator**: for å konfigurere SharePoint som kilde\n◦ Et **SharePoint-nettsted** der den sentrale listen kan opprettes (kommunikasjonsnettsted anbefales)\n◦ **M365-grupper** eller **e-postaktiverte sikkerhetsgrupper** for tilgangsstyring (brukerbaserte rettigheter støttes ikke)\n\nViva Learning som app i Teams er tillegg for E5. Søk og deling av eget innhold via SharePoint, Microsoft Learn-bibliotek og 125 utvalgte LinkedIn-kurs følger med E5. For mer enn 1 000 filer eller premium-funksjoner kreves Viva Suite eller egen Viva Learning-lisens."
+            "innhold": "For å sette opp SharePoint som innholdskilde trenger dere:\n\n◦ En **kunnskapsadministrator** (knowledge admin), Microsoft Entra-rollen som administrerer organisasjonens læringskilder\n◦ En **SharePoint-administrator** eller **global administrator**: for å konfigurere SharePoint som kilde\n◦ Et **SharePoint-nettsted** der den sentrale listen kan opprettes (kommunikasjonsnettsted anbefales)\n◦ **M365-grupper** eller **e-postaktiverte sikkerhetsgrupper** for tilgangsstyring (brukerbaserte rettigheter støttes ikke)\n\nViva Learning som app i Teams er tillegg for E5. Søk og deling av eget innhold via SharePoint, Microsoft Learn-bibliotek og et utvalg LinkedIn Learning-kurs følger med E5. For mer enn 1 000 filer eller premium-funksjoner kreves Viva Suite eller egen Viva Learning-lisens."
           },
           {
             "tittel": "Steg 1: Konfigurer SharePoint som kilde",

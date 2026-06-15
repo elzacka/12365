@@ -23,8 +23,8 @@ export function AboutApps() {
       c =>
         c.navn.toLowerCase().includes(q) ||
         c.tagline.toLowerCase().includes(q) ||
-        c.alene.toLowerCase().includes(q) ||
-        c.sammen.toLowerCase().includes(q) ||
+        (c.alene ?? '').toLowerCase().includes(q) ||
+        (c.sammen ?? '').toLowerCase().includes(q) ||
         (c.oppsummering ?? '').toLowerCase().includes(q)
     )
   }, [query, allCards])
