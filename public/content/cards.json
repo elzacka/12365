@@ -232,11 +232,11 @@
   {
     "navn": "Power Apps",
     "tagline": "Bygg apper med lavkode",
-    "alene": "Lavkode-plattform for interne apper: timeregistrering, bestilling, registrering. Bygges uten utvikler.",
-    "sammen": "Bruker data fra Lists, SharePoint eller andre kilder - brukes fra Teams. Fagsystem-koblinger krever Premium-versjon.",
-    "fotnote": "",
+    "alene": "Lag tilpassede apper uten omfattende koding, automatisere arbeidsflyt og forbedre effektiviteten.",
+    "sammen": "Bruk data fra Lists, SharePoint eller andre kilder. Kombiner med kraften i Copilot. Integrer appen i Teams.",
+    "fotnote": "Fagsystem-koblinger krever Premium-versjon.",
     "kategori": "bygg-og-automatiser",
-    "oppsummering": "Bygg interne apper med lavkode",
+    "oppsummering": "Bygg apper med lavkode og integrer i Teams-arbeidsflyten",
     "overlapper": [
       "Copilot Studio"
     ],
@@ -373,11 +373,11 @@
   {
     "navn": "Viva Engage",
     "tagline": "Internt sosialt nettverk",
-    "alene": "Organisasjonens sosiale flate. Del, bygg fellesskap og styrk kulturen på tvers av siloer.",
-    "sammen": "Integrert i Teams, så du deltar i fellesskapet i samme flate som du gjør det daglige arbeidet.",
+    "alene": "Organisasjonens sosiale flate. Del erfaringer, bygg fellesskap og styrk kulturen på tvers.",
+    "sammen": "Integrert i Teams, så du deltar i fellesskapet i samme flate der du jobber ellers.",
     "fotnote": "",
     "kategori": "snakk-og-mot",
-    "oppsummering": "Del erfaringer i teamet, en slags Facebook-vegg",
+    "oppsummering": "Del erfaringer i teamet - en slags Facebook-vegg",
     "overlapper": [
       "Teams",
       "SharePoint"
