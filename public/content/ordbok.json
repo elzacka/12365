@@ -1,5 +1,44 @@
 [
   {
+    "id": "apen-kildekode",
+    "tittel": "Åpen kildekode",
+    "undertittel": "open source",
+    "forklaring": "Programvare eller modeller der koden er fritt tilgjengelig for innsyn, bruk og videreutvikling.",
+    "tags": [
+      "programmering",
+      "ki"
+    ],
+    "alias": [
+      "Open source",
+      "open-source software"
+    ]
+  },
+  {
+    "id": "apne-offentlige-data",
+    "tittel": "Åpne / offentlige data",
+    "forklaring": "Eksterne data som er tilgjengelige for alle – ikke nødvendigvis fra offentlig sektor.",
+    "tags": [
+      "datakvalitet",
+      "digitalisering"
+    ],
+    "alias": [
+      "Open data",
+      "public data"
+    ]
+  },
+  {
+    "id": "apne-vekter",
+    "tittel": "Åpne vekter",
+    "undertittel": "open weights",
+    "forklaring": "Praksis der en ferdigtrent modells vekter deles fritt, men uten nødvendigvis treningskode, datasett eller endringsrett – ikke det samme som åpen kildekode.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Open weights"
+    ]
+  },
+  {
     "id": "adekvansbeslutning",
     "tittel": "Adekvansbeslutning",
     "forklaring": "Beslutning fra EU-kommisjonen om at et land utenfor EU/EØS har tilstrekkelig beskyttelsesnivå for personopplysninger.",
@@ -11,6 +50,18 @@
     ]
   },
   {
+    "id": "akseptkriterier",
+    "tittel": "Akseptkriterier",
+    "forklaring": "Kriterier som resultatene av risikoanalysen sammenholdes med for å avgjøre om sikkerhetsmålene er nådd. Fastsettes typisk av øverste ledelse og hentes fra risikorammeverket.",
+    "tags": [
+      "risiko"
+    ],
+    "alias": [
+      "Akseptansekriterier",
+      "Evalueringskriterier"
+    ]
+  },
+  {
     "id": "aktuator",
     "tittel": "Aktuator",
     "forklaring": "Robotens bevegelige del – komponenten som utfører en fysisk handling basert på instruksjoner fra styresystemet.",
@@ -19,6 +70,19 @@
     ],
     "alias": [
       "Actuator"
+    ]
+  },
+  {
+    "id": "alarp",
+    "tittel": "ALARP",
+    "forklaring": "Prinsipp om at risiko reduseres så lavt som det er praktisk gjennomførbart, inntil ytterligere reduksjon ville være uforholdsmessig kostbar sett mot gevinsten.",
+    "tags": [
+      "risiko",
+      "tiltaksprinsipp"
+    ],
+    "alias": [
+      "As Low As Reasonably Practicable",
+      "Forholdsmessighet"
     ]
   },
   {
@@ -34,6 +98,15 @@
     ]
   },
   {
+    "id": "alvorlig-hendelse-ki",
+    "tittel": "Alvorlig hendelse",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Hendelse eller funksjonssvikt i et KI-system som direkte eller indirekte fører til dødsfall, alvorlig helseskade, alvorlig forstyrrelse av kritisk infrastruktur, overtredelse av grunnleggende rettigheter eller alvorlig skade på eiendom eller miljø.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "analoge-data",
     "tittel": "Analoge data",
     "forklaring": "Data basert på fysiske, kontinuerlig varierende størrelser – i motsetning til diskrete digitale verdier.",
@@ -42,6 +115,14 @@
     ],
     "alias": [
       "Analog data"
+    ]
+  },
+  {
+    "id": "analyseobjekt",
+    "tittel": "Analyseobjekt",
+    "forklaring": "Fysisk eller organisatorisk system, enhet, fenomen eller aktivitet som risikovurderingen er rettet mot.",
+    "tags": [
+      "risiko"
     ]
   },
   {
@@ -165,8 +246,7 @@
     "tittel": "Autentisering",
     "forklaring": "Verifisering av hvem man kommuniserer med – grunnlag for å gi riktige tilganger.",
     "tags": [
-      "sikkerhet",
-      "m365"
+      "sikkerhet"
     ],
     "alias": [
       "Authentication"
@@ -201,8 +281,7 @@
     "tittel": "Autorisering",
     "forklaring": "Tildeling av riktige tilgangsrettigheter til ressurser som filer og databaser – forutsetter autentisering.",
     "tags": [
-      "sikkerhet",
-      "m365"
+      "sikkerhet"
     ],
     "alias": [
       "Authorisation",
@@ -229,6 +308,24 @@
     ],
     "alias": [
       "Backdoor"
+    ]
+  },
+  {
+    "id": "balansert-styrke",
+    "tittel": "Balansert styrke",
+    "undertittel": "tiltaksprinsipp",
+    "forklaring": "Sikkerhetstiltakene skal gi tilnærmet lik beskyttelse for alle verdier med samme sikkerhetsbehov.",
+    "tags": [
+      "risiko",
+      "tiltaksprinsipp"
+    ]
+  },
+  {
+    "id": "barriere",
+    "tittel": "Barriere",
+    "forklaring": "Tiltak med til hensikt å påvirke et hendelsesforløp slik at hendelsen ikke inntreffer eller ikke får uønskede konsekvenser.",
+    "tags": [
+      "risiko"
     ]
   },
   {
@@ -263,6 +360,15 @@
     ],
     "alias": [
       "Legal basis (GDPR)"
+    ]
+  },
+  {
+    "id": "bemyndiget-representant-ki",
+    "tittel": "Bemyndiget representant",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Fysisk eller juridisk person i Unionen med skriftlig fullmakt fra leverandøren til å oppfylle forordningsforpliktelsene på leverandørens vegne.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -323,6 +429,63 @@
     "alias": [
       "Biometrics",
       "biometric data"
+    ]
+  },
+  {
+    "id": "biometrisk-fjernidentifikasjon-ettertid-ki",
+    "tittel": "Biometrisk fjernidentifikasjon i ettertid",
+    "undertittel": "KI-forordningen",
+    "forklaring": "System for biometrisk fjernidentifikasjon som ikke opererer i sanntid – identifikasjonen skjer i etterkant av datafangsten.",
+    "tags": [
+      "ki",
+      "personvern"
+    ]
+  },
+  {
+    "id": "biometrisk-fjernidentifikasjon-sanntid-ki",
+    "tittel": "Biometrisk fjernidentifikasjon i sanntid",
+    "undertittel": "KI-forordningen",
+    "forklaring": "System for biometrisk fjernidentifikasjon der innhenting, sammenligning og identifikasjon skjer uten vesentlig forsinkelse.",
+    "tags": [
+      "ki",
+      "personvern"
+    ]
+  },
+  {
+    "id": "biometrisk-identifikasjon",
+    "tittel": "Biometrisk identifikasjon",
+    "forklaring": "Automatisk gjenkjenning av fysiske, fysiologiske, atferdsmessige eller psykologiske egenskaper for å fastslå en persons identitet ved å sammenligne biometriske opplysninger med en referansedatabase.",
+    "tags": [
+      "ki",
+      "personvern"
+    ]
+  },
+  {
+    "id": "biometrisk-kategoriseringssystem-ki",
+    "tittel": "Biometrisk kategoriseringssystem",
+    "undertittel": "KI-forordningen",
+    "forklaring": "KI-system som plasserer fysiske personer i bestemte kategorier på grunnlag av biometriske opplysninger.",
+    "tags": [
+      "ki",
+      "personvern"
+    ]
+  },
+  {
+    "id": "biometrisk-verifisering",
+    "tittel": "Biometrisk verifisering",
+    "forklaring": "Automatisert en-til-en-verifisering av en persons identitet ved å sammenligne nylig innhentede biometriske opplysninger med tidligere avgitte data.",
+    "tags": [
+      "ki",
+      "personvern"
+    ]
+  },
+  {
+    "id": "biometriske-opplysninger",
+    "tittel": "Biometriske opplysninger",
+    "forklaring": "Personopplysninger fra særskilt teknisk behandling av en persons fysiologiske, biologiske eller atferdsmessige egenskaper – for eksempel ansiktsbilder eller fingeravtrykk – som muliggjør entydig identifikasjon.",
+    "tags": [
+      "ki",
+      "personvern"
     ]
   },
   {
@@ -404,13 +567,30 @@
     ]
   },
   {
+    "id": "bringe-i-omsetning-ki",
+    "tittel": "Bringe i omsetning",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Gjøre et KI-system eller en KI-modell for allmenne formål tilgjengelig på unionsmarkedet for første gang.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "bruksanvisning-ki",
+    "tittel": "Bruksanvisning",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Informasjon fra leverandøren som opplyser idriftsetteren om tiltenkt formål og riktig bruk av et KI-system.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "business-intelligence",
     "tittel": "Business Intelligence",
     "undertittel": "BI",
     "forklaring": "Programvarekategori for analyse og visuell presentasjon av forretningsdata, for eksempel Tableau og Power BI.",
     "tags": [
-      "analyse",
-      "m365"
+      "analyse"
     ],
     "alias": [
       "Forretningsanalyse"
@@ -434,6 +614,14 @@
     "forklaring": "Sak der en ekstern aktør lastet ned data fra millioner av Facebook-brukere uten samtykke og brukte dem til å påvirke velgere i demokratiske valg – blant annet i USA og Brexit-valget.",
     "tags": [
       "personvern"
+    ]
+  },
+  {
+    "id": "ce-merking",
+    "tittel": "CE-merking",
+    "forklaring": "Leverandørens erklæring om at et KI-system oppfyller kravene i KI-forordningens kapittel III og annet gjeldende EU-harmoniseringsregelverk.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -465,8 +653,7 @@
     "tittel": "Dashbord",
     "forklaring": "Interaktiv skjermvisning som samler flere visualiseringer for overvåking og beslutningsstøtte, ofte med sanntidsdata.",
     "tags": [
-      "analyse",
-      "m365"
+      "analyse"
     ],
     "alias": [
       "Dashboard"
@@ -553,6 +740,18 @@
     ],
     "alias": [
       "Datavitenskapsperson"
+    ]
+  },
+  {
+    "id": "dataanalyse",
+    "tittel": "Dataanalyse",
+    "forklaring": "Arbeidet med å hente innsikt fra data – fra enkel sortering i regneark til avanserte maskinlæringsmodeller.",
+    "tags": [
+      "analyse"
+    ],
+    "alias": [
+      "Data analysis",
+      "data analytics"
     ]
   },
   {
@@ -718,6 +917,17 @@
     ]
   },
   {
+    "id": "dataokonomi",
+    "tittel": "Dataøkonomi",
+    "forklaring": "Økonomi der data er den fremste ressursen for verdiskaping.",
+    "tags": [
+      "digitalisering"
+    ],
+    "alias": [
+      "Data economy"
+    ]
+  },
+  {
     "id": "dataportabilitet",
     "tittel": "Dataportabilitet",
     "forklaring": "Rett til å få utlevert egne personopplysninger i et format som lar dem flyttes til en annen leverandør.",
@@ -849,34 +1059,11 @@
     ]
   },
   {
-    "id": "dataokonomi",
-    "tittel": "Dataøkonomi",
-    "forklaring": "Økonomi der data er den fremste ressursen for verdiskaping.",
-    "tags": [
-      "digitalisering"
-    ],
-    "alias": [
-      "Data economy"
-    ]
-  },
-  {
     "id": "datum",
     "tittel": "Datum",
     "forklaring": "Latin: «det som er gitt» – opphavet til ordet data; flertall er data.",
     "tags": [
       "digitalisering"
-    ]
-  },
-  {
-    "id": "dataanalyse",
-    "tittel": "Dataanalyse",
-    "forklaring": "Arbeidet med å hente innsikt fra data – fra enkel sortering i regneark til avanserte maskinlæringsmodeller.",
-    "tags": [
-      "analyse"
-    ],
-    "alias": [
-      "Data analysis",
-      "data analytics"
     ]
   },
   {
@@ -899,7 +1086,8 @@
       "sikkerhet"
     ],
     "alias": [
-      "Deepfake"
+      "Deepfake",
+      "Dypforfalskning"
     ]
   },
   {
@@ -1089,6 +1277,15 @@
     ]
   },
   {
+    "id": "distributør-ki",
+    "tittel": "Distributør",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Enhver fysisk eller juridisk person i forsyningskjeden som gjør et KI-system tilgjengelig på markedet, uten å være leverandør eller importør.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "domenekunnskap",
     "tittel": "Domenekunnskap",
     "forklaring": "Fagekspertise på området man analyserer data fra – nødvendig komplement til teknologikompetanse.",
@@ -1255,6 +1452,32 @@
     ]
   },
   {
+    "id": "fare",
+    "tittel": "Fare",
+    "forklaring": "Forhold som kan føre til en uønsket hendelse av utilsiktet karakter – i motsetning til en trussel, som er tilsiktet.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "felles-spesifikasjon-ki",
+    "tittel": "Felles spesifikasjon",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Sett av tekniske spesifikasjoner fastsatt av EU som gir mulighet for å oppfylle bestemte krav i KI-forordningen.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "fenomen",
+    "tittel": "Fenomen",
+    "undertittel": "risikovurdering",
+    "forklaring": "Uønsket hendelse av utilsiktet karakter, for eksempel naturkatastrofe eller pandemi – i motsetning til en trusselaktørs tilsiktede handling.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
     "id": "finjustering",
     "tittel": "Finjustering",
     "undertittel": "fine-tuning",
@@ -1278,6 +1501,18 @@
     ]
   },
   {
+    "id": "flerfaktorautentisering",
+    "tittel": "Flerfaktorautentisering",
+    "forklaring": "Autentisering med minst to uavhengige faktorer fra ulike kategorier – noe du vet (passord/PIN), noe du har (kodebrikke/telefon) og noe du er (biometri). Gir vesentlig bedre beskyttelse enn passord alene.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "MFA",
+      "Multi-Factor Authentication"
+    ]
+  },
+  {
     "id": "flop",
     "tittel": "FLOP",
     "forklaring": "Måleenhet for regnekapasitet – flyttallsoperasjoner. Brukes til å sammenligne hvor mye regnekraft som kreves for å trene og kjøre KI-modeller.",
@@ -1287,7 +1522,29 @@
     ],
     "alias": [
       "Floating-point operation",
-      "FLOPS"
+      "FLOPS",
+      "Flyttallsoperasjon"
+    ]
+  },
+  {
+    "id": "fodselsnummer",
+    "tittel": "Fødselsnummer",
+    "forklaring": "Ellevesifret identifikasjonsnummer som alle folkeregistrerte i Norge har – regnes som personopplysning, men ikke sensitiv.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "National identity number"
+    ]
+  },
+  {
+    "id": "følelsesgjenkjenningssystem-ki",
+    "tittel": "Følelsesgjenkjenningssystem",
+    "undertittel": "KI-forordningen",
+    "forklaring": "KI-system som identifiserer eller utleder en persons følelser eller intensjoner på grunnlag av biometriske opplysninger.",
+    "tags": [
+      "ki",
+      "personvern"
     ]
   },
   {
@@ -1349,6 +1606,15 @@
     ],
     "alias": [
       "Purpose limitation"
+    ]
+  },
+  {
+    "id": "forsøksperson-ki",
+    "tittel": "Forsøksperson",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Fysisk person som deltar i testing av et KI-system under virkelige forhold.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -1436,17 +1702,6 @@
     ]
   },
   {
-    "id": "fodselsnummer",
-    "tittel": "Fødselsnummer",
-    "forklaring": "Ellevesifret identifikasjonsnummer som alle folkeregistrerte i Norge har – regnes som personopplysning, men ikke sensitiv.",
-    "tags": [
-      "personvern"
-    ],
-    "alias": [
-      "National identity number"
-    ]
-  },
-  {
     "id": "generativ-ki",
     "tittel": "Generativ KI",
     "forklaring": "KI som produserer nytt innhold – tekst, bilde, lyd, video eller kode – basert på store treningsdata.",
@@ -1468,6 +1723,15 @@
     "alias": [
       "Mean",
       "average"
+    ]
+  },
+  {
+    "id": "gjøre-tilgjengelig-på-markedet-ki",
+    "tittel": "Gjøre tilgjengelig på markedet",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Levere et KI-system eller en KI-modell for allmenne formål for distribusjon eller bruk på unionsmarkedet – mot betaling eller vederlagsfritt.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -1557,6 +1821,17 @@
     ]
   },
   {
+    "id": "hoynivasprak",
+    "tittel": "Høynivåspråk",
+    "forklaring": "Programmeringsspråk nær menneskelig logikk, f.eks. Python og Java – oversettes automatisk til maskinkode.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "High-level language"
+    ]
+  },
+  {
     "id": "https",
     "tittel": "HTTPS",
     "forklaring": "HTTP med krypteringslag som hindrer at uvedkommende leser data som utveksles mellom nettleser og server.",
@@ -1617,14 +1892,12 @@
     ]
   },
   {
-    "id": "hoynivasprak",
-    "tittel": "Høynivåspråk",
-    "forklaring": "Programmeringsspråk nær menneskelig logikk, f.eks. Python og Java – oversettes automatisk til maskinkode.",
+    "id": "idriftsetter-ki",
+    "tittel": "Idriftsetter",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Fysisk eller juridisk person, offentlig myndighet eller organ som bruker et KI-system under sin myndighet – unntatt ved personlig, ikke-yrkesmessig bruk.",
     "tags": [
-      "programmering"
-    ],
-    "alias": [
-      "High-level language"
+      "ki"
     ]
   },
   {
@@ -1649,6 +1922,15 @@
     "alias": [
       "ICT security",
       "cybersecurity"
+    ]
+  },
+  {
+    "id": "importør-ki",
+    "tittel": "Importør",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Fysisk eller juridisk person i Unionen som bringer i omsetning et KI-system som bærer navn eller varemerke fra en aktør etablert utenfor EU/EØS.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -1724,6 +2006,16 @@
     ]
   },
   {
+    "id": "informert-samtykke-ki",
+    "tittel": "Informert samtykke",
+    "undertittel": "KI-forordningen",
+    "forklaring": "En forsøkspersons fritt avgitte, spesifikke og frivillige vilje til å delta i testing av et KI-system under virkelige forhold, etter å ha mottatt all relevant informasjon om testingen.",
+    "tags": [
+      "ki",
+      "personvern"
+    ]
+  },
+  {
     "id": "iaas",
     "tittel": "Infrastructure as a Service",
     "undertittel": "IaaS",
@@ -1733,6 +2025,18 @@
     ],
     "alias": [
       "Infrastruktur som tjeneste"
+    ]
+  },
+  {
+    "id": "inndata-ki",
+    "tittel": "Inndata",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Data som leveres til eller innhentes direkte av et KI-system, og som systemet produserer utdata på grunnlag av.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Input"
     ]
   },
   {
@@ -1756,6 +2060,14 @@
     ],
     "alias": [
       "Content data"
+    ]
+  },
+  {
+    "id": "innsatsfaktor",
+    "tittel": "Innsatsfaktor",
+    "forklaring": "Ressurs som trengs for å ivareta ett eller flere nivåer i verdihierarkiet – for eksempel energi, kommunikasjon, transport, materiell eller kompetanse.",
+    "tags": [
+      "risiko"
     ]
   },
   {
@@ -1801,8 +2113,7 @@
     "tittel": "Interaktivitet",
     "forklaring": "Muligheten til å filtrere og endre visningen i et dashbord eller en visualisering.",
     "tags": [
-      "analyse",
-      "m365"
+      "analyse"
     ],
     "alias": [
       "Interactivity"
@@ -1927,6 +2238,15 @@
     ]
   },
   {
+    "id": "kapabiliteter-med-høy-påvirkningsgrad-ki",
+    "tittel": "Kapabiliteter med høy påvirkningsgrad",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Evner i en KI-modell som svarer til eller overgår kapabilitetene i de mest avanserte KI-modellene for allmenne formål.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "kardinalitet",
     "tittel": "Kardinalitet",
     "forklaring": "Sammenhengen i en relasjon mellom entiteter: en-til-en, en-til-mange eller mange-til-mange.",
@@ -1955,8 +2275,7 @@
     "undertittel": "KPI",
     "forklaring": "Nøkkeltall som måler organisasjonens ytelse mot definerte mål innen salg, kvalitet, lønnsomhet og lignende.",
     "tags": [
-      "analyse",
-      "m365"
+      "analyse"
     ],
     "alias": [
       "Nøkkelindikator"
@@ -1979,8 +2298,7 @@
     "tittel": "KI-assistent",
     "forklaring": "KI-verktøy som hjelper med oppgaver på forespørsel – brukeren gir instruksjon, assistenten svarer, men brukeren styrer prosessen.",
     "tags": [
-      "ki",
-      "m365"
+      "ki"
     ],
     "alias": [
       "AI assistant"
@@ -1999,6 +2317,37 @@
     ]
   },
   {
+    "id": "ki-kompetanse",
+    "tittel": "KI-kompetanse",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Ferdigheter, kunnskap og forståelse som gjør leverandører, idriftsettere og brukere i stand til å treffe informerte beslutninger om KI-systemer og forstå mulighetene, risikoene og skadene de kan medføre.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "ki-kontoret",
+    "tittel": "KI-kontoret",
+    "undertittel": "KI-forordningen",
+    "forklaring": "EU-kommisjonens funksjon med ansvar for gjennomføring, overvåking og tilsyn med KI-systemer og KI-modeller for allmenne formål, etablert ved kommisjonsbeslutning av 24. januar 2024.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "ki-modell-for-allmenne-formål",
+    "tittel": "KI-modell for allmenne formål",
+    "undertittel": "KI-forordningen",
+    "forklaring": "KI-modell trent på store datamengder som viser bred allmenngyldighet og kan utføre et vidt spekter av oppgaver, og som kan integreres i nedstrøms systemer og applikasjoner.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "GPAI model",
+      "General-Purpose AI model"
+    ]
+  },
+  {
     "id": "ki-slop",
     "tittel": "KI-slop",
     "forklaring": "Lavkvalitets innhold masseprodusert av KI uten menneskelig kvalitetskontroll – generisk, repetitivt og tynt.",
@@ -2007,6 +2356,37 @@
     ],
     "alias": [
       "AI slop"
+    ]
+  },
+  {
+    "id": "ki-system-ki",
+    "tittel": "KI-system",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Maskinbasert system som opererer med varierende grad av autonomi, kan tilpasses etter idriftsetting, og som – basert på inndata – utleder prediksjoner, innhold, anbefalinger eller beslutninger som kan påvirke fysiske eller virtuelle miljøer.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "ki-system-for-allmenne-formål",
+    "tittel": "KI-system for allmenne formål",
+    "undertittel": "KI-forordningen",
+    "forklaring": "KI-system basert på en KI-modell for allmenne formål, som kan tjene en rekke ulike formål – ved direkte bruk eller integrering i andre KI-systemer.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "General-Purpose AI system",
+      "GPAI system"
+    ]
+  },
+  {
+    "id": "ki-systemets-ytelse",
+    "tittel": "KI-systemets ytelse",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Et KI-systems evne til å oppnå sitt tiltenkte formål.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -2030,7 +2410,9 @@
     ],
     "alias": [
       "CIA triad",
-      "Confidentiality Integrity Availability"
+      "Confidentiality Integrity Availability",
+      "KIT",
+      "CIA"
     ]
   },
   {
@@ -2043,6 +2425,15 @@
     ],
     "alias": [
       "Classification"
+    ]
+  },
+  {
+    "id": "informasjonsklassifisering",
+    "tittel": "Klassifisering",
+    "undertittel": "informasjonssikkerhet",
+    "forklaring": "Inndeling av informasjon i beskyttelsesnivåer – for eksempel Åpen, Intern, Konfidensiell – basert på konsekvensen av brudd på konfidensialitet, integritet eller tilgjengelighet.",
+    "tags": [
+      "sikkerhet"
     ]
   },
   {
@@ -2066,6 +2457,15 @@
     ],
     "alias": [
       "Confidentiality"
+    ]
+  },
+  {
+    "id": "konsekvens",
+    "tittel": "Konsekvens",
+    "undertittel": "risikovurdering",
+    "forklaring": "Tap av verdier som følge av en uønsket hendelse.",
+    "tags": [
+      "risiko"
     ]
   },
   {
@@ -2126,6 +2526,37 @@
     ]
   },
   {
+    "id": "kraketaer",
+    "tittel": "Kråketær",
+    "forklaring": "Notasjonen med tre linjer som markerer mange-siden av en relasjon i et ER-diagram.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Crow's foot notation"
+    ]
+  },
+  {
+    "id": "kritisk-funksjon",
+    "tittel": "Kritisk funksjon",
+    "forklaring": "Leveranse eller tjeneste som er nødvendig for å ivareta de overordnede verdiene i en organisasjon.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "kritisk-infrastruktur",
+    "tittel": "Kritisk infrastruktur",
+    "forklaring": "Infrastruktur som er avgjørende for samfunnets grunnleggende funksjoner og som det er spesielt viktig å beskytte.",
+    "tags": [
+      "risiko",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Critical infrastructure"
+    ]
+  },
+  {
     "id": "kryptering",
     "tittel": "Kryptering",
     "forklaring": "Data stokkes om med en algoritme og hemmelig nøkkel, slik at bare nøkkelinnehaveren kan lese dem.",
@@ -2137,14 +2568,11 @@
     ]
   },
   {
-    "id": "kraketaer",
-    "tittel": "Kråketær",
-    "forklaring": "Notasjonen med tre linjer som markerer mange-siden av en relasjon i et ER-diagram.",
+    "id": "kunnskapsgrunnlag",
+    "tittel": "Kunnskapsgrunnlag",
+    "forklaring": "Kilder, data og kompetanse som ligger til grunn for en risikovurdering – inkludert kjente svakheter og usikkerheter i grunnlaget.",
     "tags": [
-      "database"
-    ],
-    "alias": [
-      "Crow's foot notation"
+      "risiko"
     ]
   },
   {
@@ -2204,6 +2632,15 @@
     ],
     "alias": [
       "Low-level language"
+    ]
+  },
+  {
+    "id": "leverandør-ki",
+    "tittel": "Leverandør",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Fysisk eller juridisk person, offentlig myndighet eller organ som utvikler et KI-system eller en KI-modell for allmenne formål, og bringer det i omsetning under eget navn eller varemerke.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -2267,6 +2704,18 @@
     ]
   },
   {
+    "id": "losepengevirus",
+    "tittel": "Løsepengevirus",
+    "undertittel": "ransomware",
+    "forklaring": "Skadevare som krypterer offerets data og krever betaling for å låse dem opp igjen.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Ransomware"
+    ]
+  },
+  {
     "id": "loggfil",
     "tittel": "Loggfil",
     "forklaring": "Automatisk generert fil som registrerer hendelser og handlinger i et system – grunnlag for auditering og analyse.",
@@ -2306,18 +2755,6 @@
     ]
   },
   {
-    "id": "losepengevirus",
-    "tittel": "Løsepengevirus",
-    "undertittel": "ransomware",
-    "forklaring": "Skadevare som krypterer offerets data og krever betaling for å låse dem opp igjen.",
-    "tags": [
-      "sikkerhet"
-    ],
-    "alias": [
-      "Ransomware"
-    ]
-  },
-  {
     "id": "manipulativ-design",
     "tittel": "Manipulativ design",
     "forklaring": "Designgrep som utnytter psykologiske sårbarheter for å styre brukeratferd, f.eks. i gambling-apper.",
@@ -2339,6 +2776,15 @@
     ],
     "alias": [
       "Manual data entry"
+    ]
+  },
+  {
+    "id": "markedstilsynsmyndighet-ki",
+    "tittel": "Markedstilsynsmyndighet",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Nasjonal myndighet som utfører markedstilsyn for KI-systemer i henhold til KI-forordningen.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -2423,6 +2869,24 @@
     ]
   },
   {
+    "id": "meldermyndighet-ki",
+    "tittel": "Meldermyndighet",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Nasjonal myndighet med ansvar for å vurdere, utpeke og melde samsvarsvurderingsorganer og føre tilsyn med dem.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "meldt-organ-ki",
+    "tittel": "Meldt organ",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Samsvarsvurderingsorgan som er offisielt meldt og godkjent i henhold til KI-forordningen og relevant EU-harmoniseringsregelverk.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "menneske-i-loopen",
     "tittel": "Menneske i loopen",
     "forklaring": "Prinsipp der et menneske kvalitetssikrer KI-systemets vurderinger og tar den endelige beslutningen – reduserer risiko for feil og uønskede konsekvenser.",
@@ -2444,6 +2908,31 @@
     ],
     "alias": [
       "Metadata"
+    ]
+  },
+  {
+    "id": "minimalisme-sikkerhet",
+    "tittel": "Minimalisme",
+    "undertittel": "tiltaksprinsipp",
+    "forklaring": "Sikkerhetstiltak skal ikke ha annen funksjonalitet eller større kompleksitet enn det som er nødvendig.",
+    "tags": [
+      "risiko",
+      "tiltaksprinsipp"
+    ]
+  },
+  {
+    "id": "minste-privilegium",
+    "tittel": "Minste privilegium",
+    "undertittel": "tiltaksprinsipp",
+    "forklaring": "Brukere og systemer skal ikke gis mer tilgang enn det som er strengt nødvendig for å utføre oppgaven.",
+    "tags": [
+      "risiko",
+      "sikkerhet",
+      "tiltaksprinsipp"
+    ],
+    "alias": [
+      "Least privilege",
+      "Least privilege principle"
     ]
   },
   {
@@ -2507,6 +2996,19 @@
     ]
   },
   {
+    "id": "motstandsdyktighet",
+    "tittel": "Motstandsdyktighet",
+    "undertittel": "tiltaksprinsipp",
+    "forklaring": "Prinsipp om tilstrekkelig uavhengighet mellom sikkerhetstiltak, slik at én enkelt feil eller hendelse ikke svekker eller setter ut av funksjon flere tiltak samtidig.",
+    "tags": [
+      "risiko",
+      "tiltaksprinsipp"
+    ],
+    "alias": [
+      "Resilience"
+    ]
+  },
+  {
     "id": "multimodal",
     "tittel": "Multimodal",
     "forklaring": "KI-modell som håndterer flere innholdstyper om hverandre – tekst, bilde, lyd og video.",
@@ -2531,6 +3033,15 @@
     ]
   },
   {
+    "id": "nasjonal-vedkommende-myndighet-ki",
+    "tittel": "Nasjonal vedkommende myndighet",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Betegnelse som dekker både meldermyndigheten og markedstilsynsmyndigheten for KI-systemer i en medlemsstat.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "nlp",
     "tittel": "Naturlig språkbehandling",
     "undertittel": "NLP",
@@ -2541,6 +3052,15 @@
     ],
     "alias": [
       "Natural Language Processing"
+    ]
+  },
+  {
+    "id": "nedstrømsleverandør-ki",
+    "tittel": "Nedstrømsleverandør",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Leverandør av et KI-system – herunder et KI-system for allmenne formål – som integrerer en KI-modell fra en annen leverandør.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -2573,8 +3093,7 @@
     "tittel": "No-code / low-code",
     "forklaring": "Verktøy som lar deg bygge løsninger uten eller med minimal koding.",
     "tags": [
-      "programmering",
-      "m365"
+      "programmering"
     ],
     "alias": [
       "No-code",
@@ -2590,6 +3109,17 @@
     ],
     "alias": [
       "Node"
+    ]
+  },
+  {
+    "id": "nokkelvandring",
+    "tittel": "Nøkkelvandring",
+    "forklaring": "Prosessen der en primærnøkkel kopieres inn i en annen entitet som fremmednøkkel for å etablere en relasjon.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "Key migration"
     ]
   },
   {
@@ -2616,17 +3146,6 @@
     ]
   },
   {
-    "id": "nokkelvandring",
-    "tittel": "Nøkkelvandring",
-    "forklaring": "Prosessen der en primærnøkkel kopieres inn i en annen entitet som fremmednøkkel for å etablere en relasjon.",
-    "tags": [
-      "database"
-    ],
-    "alias": [
-      "Key migration"
-    ]
-  },
-  {
     "id": "objektorientert-programmering",
     "tittel": "Objektorientert programmering",
     "forklaring": "Programmeringsparadigme bygd på klasser og objekter – opprinnelig en norsk oppfinnelse (Simula, 1960-tallet).",
@@ -2647,6 +3166,24 @@
     ],
     "alias": [
       "Mandatory participation"
+    ]
+  },
+  {
+    "id": "offentlig-tilgjengelig-sted",
+    "tittel": "Offentlig tilgjengelig sted",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Ethvert offentlig eller privateid fysisk sted som er tilgjengelig for et ubestemt antall personer, uavhengig av eventuelle vilkår for tilgang.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "operatør-ki",
+    "tittel": "Operatør",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Samlebetegnelse for leverandør, produkttilvirker, idriftsetter, bemyndiget representant, importør og distributør under KI-forordningen.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -2764,8 +3301,7 @@
     "tittel": "Passord-manager",
     "forklaring": "Tjeneste som genererer og lagrer sterke, unike passord bak ett masterpassord.",
     "tags": [
-      "sikkerhet",
-      "m365"
+      "sikkerhet"
     ],
     "alias": [
       "Password manager"
@@ -2792,6 +3328,24 @@
     "alias": [
       "Personal data",
       "PII"
+    ]
+  },
+  {
+    "id": "personopplysninger-ki",
+    "tittel": "Personopplysninger",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Personopplysninger som definert i GDPR artikkel 4 nr. 1 – enhver opplysning om en identifisert eller identifiserbar fysisk person.",
+    "tags": [
+      "ki",
+      "personvern"
+    ]
+  },
+  {
+    "id": "personopplysninger-om-straffbare-forhold",
+    "tittel": "Personopplysninger om straffbare forhold",
+    "forklaring": "Opplysninger om straffedommer og lovovertredelser – ikke en særlig kategori, men underlagt egne begrensninger etter GDPR artikkel 10.",
+    "tags": [
+      "personvern"
     ]
   },
   {
@@ -2920,6 +3474,15 @@
     ],
     "alias": [
       "Pixel"
+    ]
+  },
+  {
+    "id": "plan-for-testing-under-virkelige-forhold-ki",
+    "tittel": "Plan for testing under virkelige forhold",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Dokument som beskriver mål, metode, omfang og organisering av testing av et KI-system under virkelige forhold.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -3058,8 +3621,7 @@
     "tittel": "Prompt / prompting",
     "forklaring": "Instruksjonen eller spørsmålet du gir til en KI – kvaliteten på svaret avhenger direkte av kvaliteten på prompten.",
     "tags": [
-      "ki",
-      "m365"
+      "ki"
     ],
     "alias": [
       "Prompt",
@@ -3206,6 +3768,17 @@
     ]
   },
   {
+    "id": "radata",
+    "tittel": "Rådata",
+    "forklaring": "Ubehandlede data – registrert og samlet inn, men ikke klargjort for analyse.",
+    "tags": [
+      "datakvalitet"
+    ],
+    "alias": [
+      "Raw data"
+    ]
+  },
+  {
     "id": "re-identifisering",
     "tittel": "Re-identifisering",
     "forklaring": "Handling som resulterer i at avidentifiserte opplysninger blir koblet til en person.",
@@ -3254,6 +3827,15 @@
     "alias": [
       "Filing system (GDPR)",
       "records of processing"
+    ]
+  },
+  {
+    "id": "regulatorisk-sandkasse-for-ki",
+    "tittel": "Regulatorisk sandkasse for KI",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Kontrollert ramme opprettet av vedkommende myndighet der leverandører kan utvikle, trene og teste innovative KI-systemer under myndighetstilsyn i en begrenset periode.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -3328,6 +3910,14 @@
     ]
   },
   {
+    "id": "restrisiko",
+    "tittel": "Restrisiko",
+    "forklaring": "Risiko som gjenstår etter at sikkerhetstiltak er etablert.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
     "id": "rag",
     "tittel": "Retrieval-Augmented Generation",
     "undertittel": "RAG",
@@ -3340,6 +3930,24 @@
     ]
   },
   {
+    "id": "rettshåndhevelse",
+    "tittel": "Rettshåndhevelse",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Aktiviteter utført av rettshåndhevende myndigheter for å forebygge, etterforske, avsløre eller straffeforfølge straffbare forhold, herunder vern mot trusler mot offentlig sikkerhet.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "rettshåndhevende-myndighet",
+    "tittel": "Rettshåndhevende myndighet",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Offentlig myndighet eller organ med nasjonal hjemmel til å forebygge, etterforske, avsløre eller straffeforfølge straffbare forhold og verne mot trusler mot offentlig sikkerhet.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "rgb",
     "tittel": "RGB",
     "forklaring": "Fargemodell der farger bygges av kombinasjoner av rød, grønn og blå.",
@@ -3348,6 +3956,82 @@
     ],
     "alias": [
       "Red Green Blue colour model"
+    ]
+  },
+  {
+    "id": "rimelig-forutsigbar-feilbruk-ki",
+    "tittel": "Rimelig forutsigbar feilbruk",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Bruk av et KI-system som ikke er i tråd med tiltenkt formål, men som rimelig kan forventes å skje basert på menneskelig atferd eller samhandling med andre systemer.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "risikoakseptanse",
+    "tittel": "Risikoakseptanse",
+    "forklaring": "Aktivt valg om å akseptere en sikkerhetsrisiko som ikke kan eller skal reduseres ytterligere. Forutsetter at risikoen er forstått, innebærer et ansvar dersom risikoen realiseres, og skal dokumenteres og etterprøves.",
+    "tags": [
+      "risiko"
+    ],
+    "alias": [
+      "Risikoaksept"
+    ]
+  },
+  {
+    "id": "risikoanalyse",
+    "tittel": "Risikoanalyse",
+    "forklaring": "Systematisk framgangsmåte for å beskrive og beregne risiko knyttet til en eller flere uønskede hendelser.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "risikoeier",
+    "tittel": "Risikoeier",
+    "forklaring": "Rollen som eier verdien og har myndighet til å håndtere den aktuelle risikoen.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "risikoevaluering",
+    "tittel": "Risikoevaluering",
+    "forklaring": "Prosess for å vurdere om sikkerhetsmålene er nådd ved å sammenholde risikoanalysens resultater med evalueringskriteriene.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "risikohåndtering",
+    "tittel": "Risikohåndtering",
+    "forklaring": "Håndtering av identifiserte risikoer gjennom ett av fire valg: redusere, akseptere, fjerne (unngå det som representerer risikoen) eller overføre risiko til andre.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "risikokommunikasjon",
+    "tittel": "Risikokommunikasjon",
+    "forklaring": "At alle med tjenstlig behov gjøres kjent med aktuelle risikoer, sårbarheter og tiltak – høy risiko som krever umiddelbare tiltak kommuniseres uten opphold.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "risikooppfølging",
+    "tittel": "Risikooppfølging",
+    "forklaring": "Løpende oppfølging av risikovurderinger og tiltak for å sikre at besluttede tiltak iverksettes og fungerer etter hensikten – risikoeier har ansvaret.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "risikovurdering",
+    "tittel": "Risikovurdering",
+    "forklaring": "Samlet prosess bestående av å etablere rammer, identifisere uønskede hendelser, gjennomføre risikoanalyse og risikoevaluering.",
+    "tags": [
+      "risiko"
     ]
   },
   {
@@ -3399,14 +4083,45 @@
     ]
   },
   {
-    "id": "radata",
-    "tittel": "Rådata",
-    "forklaring": "Ubehandlede data – registrert og samlet inn, men ikke klargjort for analyse.",
+    "id": "sårbarhet",
+    "tittel": "Sårbarhet",
+    "forklaring": "Analyseobjektets manglende evne til å motstå uønskede hendelser eller varige påkjenninger, eller til å opprettholde og gjenopprette sin funksjon etterpå.",
     "tags": [
-      "datakvalitet"
+      "risiko",
+      "sikkerhet"
     ],
     "alias": [
-      "Raw data"
+      "Vulnerability"
+    ]
+  },
+  {
+    "id": "sårbarhetsvurdering",
+    "tittel": "Sårbarhetsvurdering",
+    "forklaring": "Vurdering av en verdis manglende evne til å motstå en uønsket hendelse eller gjenopprette en stabil tilstand etter uønsket påvirkning.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "særlige-kategorier-av-personopplysninger",
+    "tittel": "Særlige kategorier av personopplysninger",
+    "forklaring": "Personopplysninger med særlig behov for vern: rasemessig eller etnisk opprinnelse, politisk oppfatning, religion, fagforeningsmedlemskap, genetiske og biometriske opplysninger, helseopplysninger og opplysninger om seksuelle forhold. Behandling er i utgangspunktet forbudt. Tidligere kalt sensitive personopplysninger.",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Sensitive personopplysninger",
+      "Special categories of personal data"
+    ]
+  },
+  {
+    "id": "særlige-kategorier-av-personopplysninger-ki",
+    "tittel": "Særlige kategorier av personopplysninger",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Personopplysningskategoriene omhandlet i GDPR artikkel 9, direktiv 2016/680 artikkel 10 og forordning 2018/1725 artikkel 10.",
+    "tags": [
+      "ki",
+      "personvern"
     ]
   },
   {
@@ -3445,6 +4160,24 @@
     ]
   },
   {
+    "id": "samsvarsvurdering-ki",
+    "tittel": "Samsvarsvurdering",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Prosess for å påvise at kravene til et høyrisiko-KI-system er oppfylt i henhold til KI-forordningens kapittel III.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "samsvarsvurderingsorgan",
+    "tittel": "Samsvarsvurderingsorgan",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Tredjepartsorgan som utfører samsvarsvurderingsaktiviteter for KI-systemer, herunder testing, sertifisering og inspeksjon.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "samtykke",
     "tittel": "Samtykke",
     "undertittel": "GDPR",
@@ -3454,6 +4187,24 @@
     ],
     "alias": [
       "Consent (GDPR)"
+    ]
+  },
+  {
+    "id": "sandkasseplan-ki",
+    "tittel": "Sandkasseplan",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Dokument avtalt mellom leverandør og myndighet som beskriver mål, vilkår, tidsramme og metode for aktiviteter i den regulatoriske sandkassen.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "sannsynlighet",
+    "tittel": "Sannsynlighet",
+    "undertittel": "risikovurdering",
+    "forklaring": "Angivelse av hvor trolig det er at en uønsket hendelse vil inntreffe.",
+    "tags": [
+      "risiko"
     ]
   },
   {
@@ -3512,6 +4263,16 @@
     ],
     "alias": [
       "Semi-structured data"
+    ]
+  },
+  {
+    "id": "sensitive-operasjonelle-data-ki",
+    "tittel": "Sensitive operasjonelle data",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Operasjonelle data om etterforskning eller straffeforfølging som kan sette en straffesaks integritet i fare dersom de avsløres.",
+    "tags": [
+      "ki",
+      "personvern"
     ]
   },
   {
@@ -3586,6 +4347,16 @@
     ]
   },
   {
+    "id": "sikkerhetskomponent-ki",
+    "tittel": "Sikkerhetskomponent",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Komponent i et produkt eller KI-system som oppfyller en sikkerhetsfunksjon, eller som ved svikt medfører fare for menneskers helse eller eiendom.",
+    "tags": [
+      "ki",
+      "sikkerhet"
+    ]
+  },
+  {
     "id": "sikkerhetskopiering",
     "tittel": "Sikkerhetskopiering",
     "forklaring": "Kopiering av data og informasjon slik at den ikke går tapt ved feil, tyveri eller ondsinnet angrep – kjernen i tilgjengelighet i KIT-triaden.",
@@ -3595,6 +4366,14 @@
     "alias": [
       "Backup",
       "data backup"
+    ]
+  },
+  {
+    "id": "sikkerhetsmål",
+    "tittel": "Sikkerhetsmål",
+    "forklaring": "Fastsatte mål for ivaretakelse av verdier i en organisasjon – operasjonaliseres i målbare aksept- og evalueringskriterier.",
+    "tags": [
+      "risiko"
     ]
   },
   {
@@ -3620,6 +4399,42 @@
     ],
     "alias": [
       "Security audit"
+    ]
+  },
+  {
+    "id": "sikkerhetsrisiko",
+    "tittel": "Sikkerhetsrisiko",
+    "forklaring": "Usikkerhet knyttet til om en uønsket hendelse vil inntreffe og hvilke konsekvenser den kan få. I KI-forordningen: kombinasjonen av sannsynligheten for at skade oppstår og skadens alvorlighetsgrad.",
+    "tags": [
+      "risiko",
+      "ki"
+    ],
+    "alias": [
+      "Risiko"
+    ]
+  },
+  {
+    "id": "sikkerhetstiltak",
+    "tittel": "Sikkerhetstiltak",
+    "forklaring": "Organisatorisk, menneskelig, fysisk eller teknisk tiltak for å håndtere risiko – skal ikke være mer inngripende enn nødvendig.",
+    "tags": [
+      "risiko",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "sikring-i-dybden",
+    "tittel": "Sikring i dybden",
+    "undertittel": "tiltaksprinsipp",
+    "forklaring": "Svikt i ett enkelt tiltak alene skal ikke kunne medføre tap eller kompromittering – systemet beskyttes gjennom lag på lag av tiltak.",
+    "tags": [
+      "risiko",
+      "sikkerhet",
+      "tiltaksprinsipp"
+    ],
+    "alias": [
+      "Defence in depth",
+      "Defense in depth"
     ]
   },
   {
@@ -3698,8 +4513,7 @@
     "undertittel": "SaaS",
     "forklaring": "Skymodell der ferdige programmer kjøres i nettskyen og brukes direkte i nettleser eller app.",
     "tags": [
-      "sky",
-      "m365"
+      "sky"
     ],
     "alias": [
       "Programvare som tjeneste"
@@ -3765,6 +4579,18 @@
     ]
   },
   {
+    "id": "sporring",
+    "tittel": "Spørring",
+    "undertittel": "SQL",
+    "forklaring": "SQL-kommando som stiller et spørsmål til databasen og returnerer en resultatmengde.",
+    "tags": [
+      "database"
+    ],
+    "alias": [
+      "SQL query"
+    ]
+  },
+  {
     "id": "sporing",
     "tittel": "Sporing",
     "forklaring": "Handling der man kan følge de elektroniske sporene en person etterlater seg gjennom digitale tjenester.",
@@ -3773,6 +4599,17 @@
     ],
     "alias": [
       "Tracking"
+    ]
+  },
+  {
+    "id": "sprakmodell",
+    "tittel": "Språkmodell",
+    "forklaring": "KI-system trent til å forstå og generere menneskelig tekst – store språkmodeller (LLM) er trent på enorme tekstmengder.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Language model"
     ]
   },
   {
@@ -3801,17 +4638,6 @@
     ]
   },
   {
-    "id": "sprakmodell",
-    "tittel": "Språkmodell",
-    "forklaring": "KI-system trent til å forstå og generere menneskelig tekst – store språkmodeller (LLM) er trent på enorme tekstmengder.",
-    "tags": [
-      "ki"
-    ],
-    "alias": [
-      "Language model"
-    ]
-  },
-  {
     "id": "spurios-korrelasjon",
     "tittel": "Spuriøs korrelasjon",
     "forklaring": "Tilsynelatende sammenheng mellom to urelaterte datasett uten reelt årsaksforhold.",
@@ -3820,18 +4646,6 @@
     ],
     "alias": [
       "Spurious correlation"
-    ]
-  },
-  {
-    "id": "sporring",
-    "tittel": "Spørring",
-    "undertittel": "SQL",
-    "forklaring": "SQL-kommando som stiller et spørsmål til databasen og returnerer en resultatmengde.",
-    "tags": [
-      "database"
-    ],
-    "alias": [
-      "SQL query"
     ]
   },
   {
@@ -3889,6 +4703,15 @@
     ],
     "alias": [
       "Statistical inference"
+    ]
+  },
+  {
+    "id": "sterk-autentisering",
+    "tittel": "Sterk autentisering",
+    "forklaring": "Autentisering som krever minst to faktorer og gir vesentlig bedre beskyttelse enn passord alene. Datatilsynet stiller krav til sterk autentisering ved tilgang til systemer med sensitive personopplysninger over eksterne nett.",
+    "tags": [
+      "sikkerhet",
+      "personvern"
     ]
   },
   {
@@ -4006,6 +4829,25 @@
     ]
   },
   {
+    "id": "system-for-biometrisk-fjernidentifikasjon-ki",
+    "tittel": "System for biometrisk fjernidentifikasjon",
+    "undertittel": "KI-forordningen",
+    "forklaring": "KI-system som identifiserer fysiske personer uten aktiv medvirkning, vanligvis på avstand, ved å sammenligne biometriske opplysninger med en referansedatabase.",
+    "tags": [
+      "ki",
+      "personvern"
+    ]
+  },
+  {
+    "id": "system-for-overvåking-etter-omsetning-ki",
+    "tittel": "System for overvåking etter omsetning",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Leverandørens aktiviteter for å innhente og gjennomgå erfaringer med bruk av KI-systemer de har brakt i omsetning, for å avdekke behov for korrigerende tiltak.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "systemprompt",
     "tittel": "Systemprompt",
     "forklaring": "Skjulte instruksjoner fra utvikleren som styrer hvordan en KI-modell oppfører seg, og gir ulike produkter ulik «personlighet».",
@@ -4015,6 +4857,24 @@
     "alias": [
       "System prompt",
       "system message"
+    ]
+  },
+  {
+    "id": "systemrisiko-ki",
+    "tittel": "Systemrisiko",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Risiko spesifikk for kapabiliteter med høy påvirkningsgrad i KI-modeller for allmenne formål, med potensielt store negative virkninger på folkehelse, sikkerhet, grunnleggende rettigheter eller samfunnet.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "ta-i-bruk-ki",
+    "tittel": "Ta i bruk",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Levere et KI-system til første gangs bruk direkte til idriftsetteren eller til bruk i Unionen for dets tiltenkte formål.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -4092,13 +4952,48 @@
     ]
   },
   {
+    "id": "testdata-ki",
+    "tittel": "Testdata",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Data brukt til å gi en uavhengig evaluering av et KI-system og bekrefte systemets forventede ytelse før det bringes i omsetning.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "testing-under-virkelige-forhold-ki",
+    "tittel": "Testing under virkelige forhold",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Midlertidig testing av et KI-system for tiltenkt formål under reelle forhold utenfor laboratorium eller simulert miljø, for å innhente pålitelige data og bekrefte samsvar med forordningen.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "tilbakekalling-ki",
+    "tittel": "Tilbakekalling av KI-system",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Tiltak med formål om at et KI-system som er gjort tilgjengelig for idriftsettere, returneres til leverandøren, tas ut av drift eller deaktiveres.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "tilbaketrekking-ki",
+    "tittel": "Tilbaketrekking av KI-system",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Tiltak med formål om å hindre at et KI-system i forsyningskjeden gjøres tilgjengelig på markedet.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "tilgangskontroll",
     "tittel": "Tilgangskontroll",
     "forklaring": "Regler og tekniske mekanismer som styrer hvem som får tilgang til hvilke data og systemer – grunnlaget for både informasjonssikkerhet og personvern.",
     "tags": [
       "sikkerhet",
-      "personvern",
-      "m365"
+      "personvern"
     ],
     "alias": [
       "Access control"
@@ -4140,6 +5035,15 @@
     ]
   },
   {
+    "id": "tiltenkt-formål-ki",
+    "tittel": "Tiltenkt formål",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Den bruken et KI-system er beregnet på fra leverandørens side, inkludert spesifikk sammenheng og vilkår, slik det fremgår av bruksanvisning og teknisk dokumentasjon.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
     "id": "tingenes-internett",
     "tittel": "Tingenes internett",
     "undertittel": "IoT",
@@ -4157,8 +5061,7 @@
     "undertittel": "2FA",
     "forklaring": "Ekstra innloggingsfaktor utover passord, f.eks. engangskode – stopper de fleste kontoovertakelser.",
     "tags": [
-      "sikkerhet",
-      "m365"
+      "sikkerhet"
     ],
     "alias": [
       "Two-factor authentication",
@@ -4264,6 +5167,31 @@
     ]
   },
   {
+    "id": "trussel",
+    "tittel": "Trussel",
+    "forklaring": "Tilsiktet handling som kan føre til en uønsket hendelse – i motsetning til et fenomen, som er utilsiktet.",
+    "tags": [
+      "risiko",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "trusselaktør",
+    "tittel": "Trusselaktør",
+    "forklaring": "Menneskelig aktør med intensjon om å gjennomføre en tilsiktet handling som kan føre til en uønsket hendelse.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "trusselvurdering",
+    "tittel": "Trusselvurdering",
+    "forklaring": "Løpende vurdering av aktuelle trusler som kan utløse hendelser med negative konsekvenser for organisasjonens verdier.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
     "id": "typetall",
     "tittel": "Typetall",
     "forklaring": "Verdien som forekommer oftest i et datasett – ett av målene for sentralitet.",
@@ -4310,6 +5238,23 @@
     ]
   },
   {
+    "id": "uønsket-hendelse",
+    "tittel": "Uønsket hendelse",
+    "forklaring": "Hendelse som kan medføre tap av verdier – kan være tilsiktet (forårsaket av en trusselaktør) eller utilsiktet (forårsaket av et fenomen).",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "usikkerhet",
+    "tittel": "Usikkerhet",
+    "undertittel": "risikovurdering",
+    "forklaring": "Manglende kunnskap om om en uønsket hendelse vil inntreffe og hvilke konsekvenser den kan få – ved høy usikkerhet skal dette synliggjøres og vektlegges ved fastsettelse av risikonivå.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
     "id": "ustrukturerte-data",
     "tittel": "Ustrukturerte data",
     "forklaring": "Data uten forhåndsdefinert struktur – lyd, bilder, video og fritekst.",
@@ -4319,6 +5264,15 @@
     ],
     "alias": [
       "Unstructured data"
+    ]
+  },
+  {
+    "id": "utbredt-overtredelse-ki",
+    "tittel": "Utbredt overtredelse",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Handling eller unnlatelse i strid med EUs regler for vern av enkeltpersoners interesser, som skader eller kan forventes å skade kollektive interesser i flere medlemsstater.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -4332,6 +5286,24 @@
     "alias": [
       "Extended thinking",
       "deep reasoning"
+    ]
+  },
+  {
+    "id": "valideringsdata",
+    "tittel": "Valideringsdata",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Data brukt til å evaluere et trent KI-system og justere ikke-lærbare parametere, for å unngå undertilpasning eller overtilpasning.",
+    "tags": [
+      "ki"
+    ]
+  },
+  {
+    "id": "valideringsdatasett",
+    "tittel": "Valideringsdatasett",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Separat datasett eller del av treningsdatasettet – som fast eller variabel oppdeling – brukt til validering av KI-modellen.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -4401,6 +5373,32 @@
     ],
     "alias": [
       "World Wide Web"
+    ]
+  },
+  {
+    "id": "verdi",
+    "tittel": "Verdi",
+    "undertittel": "risikovurdering",
+    "forklaring": "Det som må beskyttes – fra nasjonale sikkerhetsinteresser og samfunnsverdier (liv og helse, natur, økonomi, demokrati) til organisasjonens funksjoner, leveringsdyktighet og materielle og immaterielle eiendeler.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "verdihierarki",
+    "tittel": "Verdihierarki",
+    "forklaring": "Strukturering av verdier i nivåer der overordnede verdier og funksjoner understøttes av underliggende verdier, kritiske funksjoner, infrastruktur og innsatsfaktorer.",
+    "tags": [
+      "risiko"
+    ]
+  },
+  {
+    "id": "vesentlig-endring-ki",
+    "tittel": "Vesentlig endring",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Endring i et KI-system etter omsetning som ikke var forutsett i den opprinnelige samsvarsvurderingen, og som påvirker systemets samsvar med kravene eller endrer det tiltenkte formålet.",
+    "tags": [
+      "ki"
     ]
   },
   {
@@ -4499,45 +5497,6 @@
     "alias": [
       "Zero-shot learning",
       "few-shot learning"
-    ]
-  },
-  {
-    "id": "apen-kildekode",
-    "tittel": "Åpen kildekode",
-    "undertittel": "open source",
-    "forklaring": "Programvare eller modeller der koden er fritt tilgjengelig for innsyn, bruk og videreutvikling.",
-    "tags": [
-      "programmering",
-      "ki"
-    ],
-    "alias": [
-      "Open source",
-      "open-source software"
-    ]
-  },
-  {
-    "id": "apne-offentlige-data",
-    "tittel": "Åpne / offentlige data",
-    "forklaring": "Eksterne data som er tilgjengelige for alle – ikke nødvendigvis fra offentlig sektor.",
-    "tags": [
-      "datakvalitet",
-      "digitalisering"
-    ],
-    "alias": [
-      "Open data",
-      "public data"
-    ]
-  },
-  {
-    "id": "apne-vekter",
-    "tittel": "Åpne vekter",
-    "undertittel": "open weights",
-    "forklaring": "Praksis der en ferdigtrent modells vekter deles fritt, men uten nødvendigvis treningskode, datasett eller endringsrett – ikke det samme som åpen kildekode.",
-    "tags": [
-      "ki"
-    ],
-    "alias": [
-      "Open weights"
     ]
   }
 ]

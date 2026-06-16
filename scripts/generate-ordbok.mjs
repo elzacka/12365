@@ -134,6 +134,8 @@ function main() {
   const KNOWN_TAGS = new Set([
     'ki',
     'iot',
+    'risiko',
+    'tiltaksprinsipp',
     'sikkerhet',
     'personvern',
     'analyse',
@@ -143,7 +145,6 @@ function main() {
     'programmering',
     'nettverkstek',
     'sky',
-    'm365',
   ])
 
   for (const [ordCell, forklaringCell, tagsCell, aliasCell] of rows) {
