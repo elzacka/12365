@@ -405,7 +405,7 @@ function OrdRow({ ord, isExpanded, onExpand, onTagClick, activeTag, withBorder }
           {(() => {
             const aliases = visibleAliases(ord)
             if (aliases.length === 0) return null
-            const label = isEnglishTittel(ord.tittel) ? 'Også: ' : 'Eng.: '
+            const label = isEnglishTittel(ord.tittel) ? 'Også: ' : 'Alt.: '
             return (
               <p className="mt-3 text-xs text-slate-500">
                 <span className="text-slate-400">{label}</span>
