@@ -121,23 +121,36 @@ export function Ordbok() {
   const results = useMemo<Ord[] | null>(() => {
     const trimmed = query.trim()
     if (!trimmed) return null
+
+    // Én bokstav: vis alle ord som starter på den bokstaven, alfabetisk.
+    // Ingen fuzzy eller score – brukeren blar, ikke søker ennå.
+    if (trimmed.length === 1) {
+      const letter = trimmed.toLowerCase()
+      const source = activeTag ? ord.filter(o => o.tags.includes(activeTag)) : ord
+      return source
+        .filter(o => o.tittel.charAt(0).toLowerCase() === letter)
+        .sort((a, b) => a.tittel.localeCompare(b.tittel, 'nb'))
+    }
+
     const list = searchOrd(index, byId, trimmed)
     if (!activeTag) return list
     return list.filter(o => o.tags.includes(activeTag))
-  }, [query, index, byId, activeTag])
+  }, [query, index, byId, activeTag, ord])
 
   const grouped = useMemo(() => {
     const map = new Map<string, Ord[]>()
     for (const o of filteredByTag) {
       const key = firstLetter(o.tittel)
       const bucket = map.get(key)
-      if (bucket) {
-        bucket.push(o)
-      } else {
-        map.set(key, [o])
-      }
+      if (bucket) bucket.push(o)
+      else map.set(key, [o])
     }
-    return Array.from(map.entries()).sort(([a], [b]) => a.localeCompare(b, 'nb'))
+    return Array.from(map.entries())
+      .sort(([a], [b]) => a.localeCompare(b, 'nb'))
+      .map(([letter, items]) => [
+        letter,
+        [...items].sort((a, b) => a.tittel.localeCompare(b.tittel, 'nb')),
+      ] as [string, Ord[]])
   }, [filteredByTag])
 
   const handleExpand = useCallback((id: string) => {
@@ -408,16 +421,17 @@ function OrdRow({ ord, isExpanded, onExpand, onTagClick, activeTag, withBorder }
                   <button
                     key={tag}
                     onClick={() => onTagClick(tag)}
-                    className={`text-xs px-2 py-0.5 rounded-full transition-colors ${
+                    className={`inline-flex items-center gap-0.5 text-xs px-2 py-0.5 rounded-full transition-colors ${
                       isActive
-                        ? 'bg-brand-200 text-brand-900'
-                        : 'bg-slate-100 text-slate-600 hover:bg-brand-100 hover:text-brand-800'
+                        ? 'bg-brand-500 text-white'
+                        : 'bg-slate-100 text-slate-600 ring-1 ring-transparent hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-300'
                     }`}
                     aria-pressed={isActive}
                     aria-label={
                       isActive ? `Fjern filter ${tag}` : `Vis alle ord merket ${tag}`
                     }
                   >
+                    <span aria-hidden="true" className={isActive ? 'opacity-60' : 'opacity-35'}>#</span>
                     {tag}
                   </button>
                 )
