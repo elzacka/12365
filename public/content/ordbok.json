@@ -13,7 +13,7 @@
   {
     "id": "aktuator",
     "tittel": "Aktuator",
-    "forklaring": "Robottens bevegelige del – komponenten som utfører en fysisk handling basert på instruksjoner fra styresystemet.",
+    "forklaring": "Robotens bevegelige del – komponenten som utfører en fysisk handling basert på instruksjoner fra styresystemet.",
     "tags": [
       "iot"
     ],
