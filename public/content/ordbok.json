@@ -3021,18 +3021,6 @@
     ]
   },
   {
-    "id": "nsm",
-    "tittel": "Nasjonal sikkerhetsmyndighet",
-    "undertittel": "NSM",
-    "forklaring": "Norsk myndighet som utgir grunnprinsipper for IKT-sikkerhet og vurderer trusselbildet.",
-    "tags": [
-      "sikkerhet"
-    ],
-    "alias": [
-      "Norwegian National Security Authority"
-    ]
-  },
-  {
     "id": "nasjonal-vedkommende-myndighet-ki",
     "tittel": "Nasjonal vedkommende myndighet",
     "undertittel": "KI-forordningen",
