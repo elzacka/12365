@@ -9,27 +9,6 @@ function firstLetter(s: string): string {
   return s.charAt(0).toLocaleUpperCase('nb')
 }
 
-// Oppføringer der tittelen allerede står på engelsk, slik at en
-// "Eng."-etikett på alias-linjen blir villedende. Liste er begrenset
-// til ord som faktisk har engelsk tittel i ordboken.
-const ENGLISH_TITLE_FIRST_WORDS = new Set([
-  'black',
-  'business',
-  'cambridge',
-  'citizen',
-  'data',
-  'mash',
-  'page',
-  'quantified',
-  'sample',
-  'staging',
-])
-
-function isEnglishTittel(tittel: string): boolean {
-  if (/[æøå]/i.test(tittel)) return false
-  const firstWord = tittel.toLowerCase().split(/[\s-]+/)[0]
-  return ENGLISH_TITLE_FIRST_WORDS.has(firstWord)
-}
 
 function normalizeForCompare(s: string): string {
   return s.toLowerCase().replace(/[^a-zæøå0-9]/g, '')
@@ -405,7 +384,7 @@ function OrdRow({ ord, isExpanded, onExpand, onTagClick, activeTag, withBorder }
           {(() => {
             const aliases = visibleAliases(ord)
             if (aliases.length === 0) return null
-            const label = isEnglishTittel(ord.tittel) ? 'Også: ' : 'Alt.: '
+            const label = 'Også: '
             return (
               <p className="mt-3 text-xs text-slate-500">
                 <span className="text-slate-400">{label}</span>
