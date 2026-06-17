@@ -1340,11 +1340,12 @@
     "id": "edb",
     "tittel": "Elektronisk databehandling",
     "undertittel": "EDB",
-    "forklaring": "Gammel norsk forkortelse som presist beskriver hva datamaskiner gjør – i dag inngår det i IT/IKT.",
+    "forklaring": "Gammel norsk forkortelse som presist beskriver hva datamaskiner gjør – i dag inngår det i IT.",
     "tags": [
       "digitalisering"
     ],
     "alias": [
+      "EDB",
       "Electronic data processing",
       "EDP"
     ]
@@ -1702,6 +1703,19 @@
     ]
   },
   {
+    "id": "general-availability",
+    "tittel": "General Availability",
+    "undertittel": "GA",
+    "forklaring": "Fasen der programvare eller en tjeneste er ferdig testet og slippes til alle brukere – ikke lenger begrenset til tidlige testere. Markerer overgangen fra forhåndsvisning til stabilt, støttet produkt.",
+    "tags": [
+      "programvareutvikling"
+    ],
+    "alias": [
+      "GA",
+      "Allment tilgjengelig"
+    ]
+  },
+  {
     "id": "generativ-ki",
     "tittel": "Generativ KI",
     "forklaring": "KI som produserer nytt innhold – tekst, bilde, lyd, video eller kode – basert på store treningsdata.",
@@ -1913,13 +1927,14 @@
     ]
   },
   {
-    "id": "ikt-sikkerhet",
-    "tittel": "IKT-sikkerhet",
+    "id": "digital-sikkerhet",
+    "tittel": "Digital sikkerhet",
     "forklaring": "Beskyttelse av de teknologibaserte systemene som lagrer, prosesserer og overfører data.",
     "tags": [
       "sikkerhet"
     ],
     "alias": [
+      "IKT-sikkerhet",
       "ICT security",
       "cybersecurity"
     ]
@@ -1967,16 +1982,18 @@
     ]
   },
   {
-    "id": "ikt",
-    "tittel": "Informasjons- og kommunikasjonsteknologi",
-    "undertittel": "IKT",
-    "forklaring": "Samlebetegnelse for teknologi som behandler, lagrer og kommuniserer informasjon digitalt.",
+    "id": "it",
+    "tittel": "Informasjonsteknologi",
+    "undertittel": "IT",
+    "forklaring": "Samlebetegnelse for teknologi som behandler, lagrer og overfører informasjon digitalt.",
     "tags": [
       "digitalisering"
     ],
     "alias": [
-      "Information and Communication Technology",
-      "ICT"
+      "IKT",
+      "Information Technology",
+      "ICT",
+      "Information and Communication Technology"
     ]
   },
   {
@@ -2182,7 +2199,7 @@
     "tittel": "Iterativt arbeid",
     "forklaring": "Arbeidsmetode der man jobber i gjentatte runder mot et definert sluttmål med forbedringer for hver runde.",
     "tags": [
-      "programmering"
+      "programvareutvikling"
     ],
     "alias": [
       "Iterative work",
@@ -3081,7 +3098,7 @@
     "tittel": "No-code / low-code",
     "forklaring": "Verktøy som lar deg bygge løsninger uten eller med minimal koding.",
     "tags": [
-      "programmering"
+      "programvareutvikling"
     ],
     "alias": [
       "No-code",
@@ -3598,7 +3615,8 @@
     "tittel": "Programvare",
     "forklaring": "Instruksjonene (koden) som styrer hva maskinen gjør med signalene og dataene den mottar.",
     "tags": [
-      "programmering"
+      "programmering",
+      "programvareutvikling"
     ],
     "alias": [
       "Software"
