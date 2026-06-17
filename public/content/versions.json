@@ -568,6 +568,7 @@
     "temperatur": "707c0023dc",
     "testdata-ki": "a31cca499c",
     "testing-under-virkelige-forhold-ki": "2c288275d1",
+    "tia": "d53365f360",
     "tilbakekalling-ki": "b0853e9845",
     "tilbaketrekking-ki": "45733bbeac",
     "tilgangskontroll": "6a4fd0152d",
@@ -613,7 +614,7 @@
     "virus": "fbd3add7f5",
     "visdom": "5ddb2dbbec",
     "vision-modell": "1074dcd8cd",
-    "dpia": "4bf33892a2",
+    "dpia": "d7ea08bd68",
     "wan": "59171093f4",
     "zero-shot-og-few-shot": "2b844f2e30"
   },
