@@ -162,6 +162,20 @@
     ]
   },
   {
+    "id": "applikasjon",
+    "tittel": "Applikasjon",
+    "undertittel": "App",
+    "forklaring": "Programvare laget for å løse et bestemt brukerbehov eller utføre bestemte oppgaver for en bruker; det brukeren åpner og jobber i.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "App",
+      "Application",
+      "Applikasjonsprogramvare"
+    ]
+  },
+  {
     "id": "arpanet",
     "tittel": "ARPANET",
     "forklaring": "Forløperen til internett, startet av det amerikanske forsvaret i 1966; de første maskinene koblet på i 1969.",
@@ -1678,6 +1692,19 @@
     ]
   },
   {
+    "id": "funksjon",
+    "tittel": "Funksjon",
+    "undertittel": "Feature",
+    "forklaring": "Avgrenset egenskap eller handling som inngår i et større program eller en tjeneste, ikke et selvstendig produkt.",
+    "tags": [
+      "programmering"
+    ],
+    "alias": [
+      "Feature",
+      "Funksjonalitet"
+    ]
+  },
+  {
     "id": "funksjonelle-data",
     "tittel": "Funksjonelle data",
     "forklaring": "Maskin-til-maskin-data via protokoller som er nødvendige for at digitale tjenester skal virke.",
@@ -2772,6 +2799,520 @@
     ]
   },
   {
+    "id": "microsoft-365-archive",
+    "tittel": "Microsoft 365 Archive",
+    "forklaring": "Tjeneste for rimelig langtidslagring (cold storage) av lite brukte data i SharePoint.",
+    "tags": [
+      "m365",
+      "sky",
+      "database"
+    ],
+    "alias": [
+      "Arkiv"
+    ]
+  },
+  {
+    "id": "microsoft-365-backup",
+    "tittel": "Microsoft 365 Backup",
+    "forklaring": "Tjeneste for sikkerhetskopi av SharePoint, OneDrive og Exchange.",
+    "tags": [
+      "m365",
+      "sky",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Sikkerhetskopi"
+    ]
+  },
+  {
+    "id": "microsoft-365-copilot",
+    "tittel": "Microsoft 365 Copilot",
+    "forklaring": "KI-app integrert som funksjon i Office-appene, Teams og Microsoft Graph.",
+    "tags": [
+      "m365",
+      "ki"
+    ]
+  },
+  {
+    "id": "microsoft-agent-365",
+    "tittel": "Microsoft Agent 365",
+    "forklaring": "Plattform for styring og orkestrering (orchestration) av KI-agenter i virksomheten, koblet til Entra og Microsoft 365.",
+    "tags": [
+      "m365",
+      "ki"
+    ]
+  },
+  {
+    "id": "microsoft-bookings",
+    "tittel": "Microsoft Bookings",
+    "forklaring": "App for avtalebooking, koblet til Outlook-kalender og Teams-møter.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-clipchamp",
+    "tittel": "Microsoft Clipchamp",
+    "forklaring": "App for videoredigering. Lagrer prosjekter i OneDrive.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-cloud-pki",
+    "tittel": "Microsoft Cloud PKI",
+    "forklaring": "Tjeneste for utstedelse og styring av sertifikater i skyen. Del av Intune Suite.",
+    "tags": [
+      "m365",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "microsoft-copilot-chat",
+    "tittel": "Microsoft Copilot Chat",
+    "forklaring": "KI-app med sikker chat for Microsoft 365-brukere.",
+    "tags": [
+      "m365",
+      "ki"
+    ]
+  },
+  {
+    "id": "microsoft-copilot-studio",
+    "tittel": "Microsoft Copilot Studio",
+    "forklaring": "Lavkodetjeneste (low-code) for å bygge egne KI-agenter. Del av Power Platform.",
+    "tags": [
+      "m365",
+      "ki",
+      "lavkode"
+    ]
+  },
+  {
+    "id": "microsoft-dataverse",
+    "tittel": "Microsoft Dataverse",
+    "forklaring": "Datatjeneste med relasjonsdatabase som ligger under Power Platform og lagrer data for apper, arbeidsflyter (flows) og agenter.",
+    "tags": [
+      "m365",
+      "database"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-cloud-apps",
+    "tittel": "Microsoft Defender for Cloud Apps",
+    "forklaring": "Tjeneste for sikkerhetskontroll og overvåking av skyapper (CASB). Del av Defender XDR.",
+    "tags": [
+      "m365",
+      "sikkerhet",
+      "sky"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-endpoint",
+    "tittel": "Microsoft Defender for Endpoint",
+    "forklaring": "Tjeneste for beskyttelse og deteksjon av trusler på endepunkter. Del av Defender XDR.",
+    "tags": [
+      "m365",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Defender for endepunkt"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-identity",
+    "tittel": "Microsoft Defender for Identity",
+    "forklaring": "Tjeneste for beskyttelse av identiteter og deteksjon av identitetsbaserte angrep. Del av Defender XDR.",
+    "tags": [
+      "m365",
+      "sikkerhet",
+      "identitet"
+    ],
+    "alias": [
+      "Defender for identitet"
+    ]
+  },
+  {
+    "id": "microsoft-defender-for-office-365",
+    "tittel": "Microsoft Defender for Office 365",
+    "forklaring": "Tjeneste for beskyttelse mot trusler i e-post og samarbeidsflater som Exchange, Teams og SharePoint. Del av Defender XDR.",
+    "tags": [
+      "m365",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "microsoft-defender-xdr",
+    "tittel": "Microsoft Defender XDR",
+    "forklaring": "Plattform for trusseldeteksjon og -respons (XDR) på tvers av endepunkt, e-post, identitet og skyapper.",
+    "tags": [
+      "m365",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "microsoft-designer",
+    "tittel": "Microsoft Designer",
+    "forklaring": "KI-basert app for grafikk og design, integrert som funksjon i Office-apper som PowerPoint.",
+    "tags": [
+      "m365",
+      "produktivitet",
+      "ki"
+    ]
+  },
+  {
+    "id": "microsoft-editor",
+    "tittel": "Microsoft Editor",
+    "forklaring": "Funksjon for skrive- og språkassistanse, integrert i Word, Outlook og nettleseren.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ],
+    "alias": [
+      "Redaktør"
+    ]
+  },
+  {
+    "id": "microsoft-entra-id",
+    "tittel": "Microsoft Entra ID",
+    "forklaring": "Tjeneste for identitets- og tilgangsstyring. Grunnlaget for pålogging i hele Microsoft 365 og tilknyttede tjenester.",
+    "tags": [
+      "m365",
+      "identitet",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "microsoft-entra-suite",
+    "tittel": "Microsoft Entra Suite",
+    "forklaring": "Pakke med utvidede identitetstjenester, blant annet Internet Access, Private Access og ID Governance. Bygger på Entra ID.",
+    "tags": [
+      "m365",
+      "identitet",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "microsoft-exchange-online",
+    "tittel": "Microsoft Exchange Online",
+    "forklaring": "Skybasert tjeneste for e-post og kalender. Leverer e-postdata til Outlook.",
+    "tags": [
+      "m365",
+      "sky"
+    ]
+  },
+  {
+    "id": "microsoft-fabric",
+    "tittel": "Microsoft Fabric",
+    "forklaring": "Plattform for data og analyse, inkludert datavarehus (data warehouse), datasjø (data lake), dataintegrasjon og rapportering (BI).",
+    "tags": [
+      "m365",
+      "analyse",
+      "database",
+      "sky"
+    ]
+  },
+  {
+    "id": "microsoft-forms",
+    "tittel": "Microsoft Forms",
+    "forklaring": "App for skjema, spørreundersøkelser og quiz; resultater kan brukes i Excel og Teams.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-graph",
+    "tittel": "Microsoft Graph",
+    "forklaring": "API som gir programmatisk tilgang til data på tvers av Microsoft 365. Brukes av apper, integrasjoner og Copilot.",
+    "tags": [
+      "m365",
+      "programmering"
+    ]
+  },
+  {
+    "id": "microsoft-graph-connectors",
+    "tittel": "Microsoft Graph connectors",
+    "forklaring": "Funksjon som henter eksterne data inn i Microsoft Search og Copilot via Microsoft Graph.",
+    "tags": [
+      "m365",
+      "programmering",
+      "analyse"
+    ]
+  },
+  {
+    "id": "microsoft-intune",
+    "tittel": "Microsoft Intune",
+    "forklaring": "Tjeneste for enhets- og mobilstyring, administrert fra Microsoft Intune admin center.",
+    "tags": [
+      "m365",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "microsoft-lists",
+    "tittel": "Microsoft Lists",
+    "forklaring": "App for å spore informasjon i lister og tabeller, bygget på SharePoint.",
+    "tags": [
+      "m365",
+      "produktivitet",
+      "database"
+    ],
+    "alias": [
+      "Lister"
+    ]
+  },
+  {
+    "id": "microsoft-loop",
+    "tittel": "Microsoft Loop",
+    "forklaring": "App med samskrivingskomponenter som kan settes inn som funksjon på tvers av Teams, Outlook og Word.",
+    "tags": [
+      "m365",
+      "samarbeid",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-onedrive",
+    "tittel": "Microsoft OneDrive",
+    "forklaring": "Tjeneste for personlig fillagring i skyen, integrert med Office-appene og Windows.",
+    "tags": [
+      "m365",
+      "sky"
+    ]
+  },
+  {
+    "id": "microsoft-onelake",
+    "tittel": "Microsoft OneLake",
+    "forklaring": "Tjeneste som utgjør det felles datalageret i Microsoft Fabric.",
+    "tags": [
+      "m365",
+      "database",
+      "sky"
+    ]
+  },
+  {
+    "id": "microsoft-places",
+    "tittel": "Microsoft Places",
+    "forklaring": "App for arbeidsplass- og møteromsstyring, brukt i Teams og Outlook.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "microsoft-planner",
+    "tittel": "Microsoft Planner",
+    "forklaring": "App for oppgave- og prosjektstyring. Samler tidligere To Do, Planner og Project for the web.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-power-apps",
+    "tittel": "Microsoft Power Apps",
+    "forklaring": "Lavkodetjeneste (low-code) for å bygge egne apper på data fra Microsoft 365 og Dataverse. Del av Power Platform.",
+    "tags": [
+      "m365",
+      "lavkode",
+      "programvareutvikling"
+    ]
+  },
+  {
+    "id": "microsoft-power-automate",
+    "tittel": "Microsoft Power Automate",
+    "forklaring": "Tjeneste for automatisering av arbeidsflyt mellom tjenester. Del av Power Platform.",
+    "tags": [
+      "m365",
+      "lavkode"
+    ]
+  },
+  {
+    "id": "microsoft-power-bi",
+    "tittel": "Microsoft Power BI",
+    "forklaring": "App for rapportering og datavisualisering. Del av Power Platform og visualiseringslag i Fabric.",
+    "tags": [
+      "m365",
+      "analyse"
+    ]
+  },
+  {
+    "id": "microsoft-power-pages",
+    "tittel": "Microsoft Power Pages",
+    "forklaring": "Lavkodetjeneste (low-code) for å bygge eksterne nettsteder og portaler. Del av Power Platform.",
+    "tags": [
+      "m365",
+      "lavkode"
+    ]
+  },
+  {
+    "id": "microsoft-project-for-the-web",
+    "tittel": "Microsoft Project for the web",
+    "forklaring": "App for prosjektstyring, knyttet til Power Platform og Planner.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-purview",
+    "tittel": "Microsoft Purview",
+    "forklaring": "Plattform for etterlevelse, dataklassifisering og informasjonsbeskyttelse på tvers av Microsoft 365-data.",
+    "tags": [
+      "m365",
+      "sikkerhet",
+      "datakvalitet"
+    ]
+  },
+  {
+    "id": "microsoft-search",
+    "tittel": "Microsoft Search",
+    "forklaring": "Tjeneste for søk på tvers av Microsoft 365-data.",
+    "tags": [
+      "m365",
+      "analyse"
+    ]
+  },
+  {
+    "id": "microsoft-security-copilot",
+    "tittel": "Microsoft Security Copilot",
+    "forklaring": "KI-app for sikkerhetsoperasjoner, koblet til Defender, Entra, Intune og Purview.",
+    "tags": [
+      "m365",
+      "sikkerhet",
+      "ki"
+    ]
+  },
+  {
+    "id": "microsoft-sharepoint-framework",
+    "tittel": "Microsoft SharePoint Framework",
+    "undertittel": "SPFx",
+    "forklaring": "Rammeverk for egenutvikling av løsninger i SharePoint og Teams.",
+    "tags": [
+      "m365",
+      "programmering",
+      "programvareutvikling"
+    ]
+  },
+  {
+    "id": "microsoft-sharepoint-online",
+    "tittel": "Microsoft SharePoint Online",
+    "forklaring": "Plattform for delte filer, dokumentbibliotek og intranett. Underliggende fillagring for Teams.",
+    "tags": [
+      "m365",
+      "sky",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "microsoft-stream",
+    "tittel": "Microsoft Stream",
+    "forklaring": "Tjeneste for videolagring og -deling, lagret på SharePoint og OneDrive og brukt i Teams.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "microsoft-sway",
+    "tittel": "Microsoft Sway",
+    "forklaring": "App for interaktive presentasjoner og digital historiefortelling.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-teams",
+    "tittel": "Microsoft Teams",
+    "forklaring": "App for chat, møter og samarbeid. Samlingspunkt som henter filer fra SharePoint og OneDrive.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "microsoft-teams-phone",
+    "tittel": "Microsoft Teams Phone",
+    "forklaring": "Funksjon for telefoni og sentralbord som kjører inne i Teams.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "microsoft-to-do",
+    "tittel": "Microsoft To Do",
+    "forklaring": "App for personlige oppgavelister, integrert i Planner og Outlook.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-visio",
+    "tittel": "Microsoft Visio",
+    "forklaring": "App for diagrammer og flytskjemaer, integrert med Office-apper.",
+    "tags": [
+      "m365",
+      "produktivitet"
+    ]
+  },
+  {
+    "id": "microsoft-viva-connections",
+    "tittel": "Microsoft Viva Connections",
+    "forklaring": "App som viser en ansattportal inne i Teams. Bygger på SharePoint.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "microsoft-viva-engage",
+    "tittel": "Microsoft Viva Engage",
+    "forklaring": "App for internt sosialt nettverk.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "microsoft-viva-insights",
+    "tittel": "Microsoft Viva Insights",
+    "forklaring": "App for produktivitets- og arbeidsmønsterinnsikt basert på data fra Microsoft 365.",
+    "tags": [
+      "m365",
+      "analyse"
+    ]
+  },
+  {
+    "id": "microsoft-viva-learning",
+    "tittel": "Microsoft Viva Learning",
+    "forklaring": "App som samler kurs og opplæringsinnhold, brukt i Teams.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "microsoft-viva-suite",
+    "tittel": "Microsoft Viva Suite",
+    "forklaring": "Pakke med utvidede Viva-apper, blant annet Goals, Glint og Amplify.",
+    "tags": [
+      "m365"
+    ]
+  },
+  {
+    "id": "microsoft-whiteboard",
+    "tittel": "Microsoft Whiteboard",
+    "forklaring": "App med digital tavle for visuelt samarbeid, brukt i og utenfor Teams-møter.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ]
+  },
+  {
     "id": "manipulativ-design",
     "tittel": "Manipulativ design",
     "forklaring": "Designgrep som utnytter psykologiske sårbarheter for å styre brukeratferd, f.eks. i gambling-apper.",
@@ -3262,6 +3803,19 @@
     ],
     "alias": [
       "Overfitting"
+    ]
+  },
+  {
+    "id": "plattform",
+    "tittel": "Plattform",
+    "forklaring": "Underliggende fundament av maskinvare, programvare eller tjenester som andre applikasjoner og tjenester bygger på og kjører oppå. I sky-sammenheng «plattform som tjeneste» (PaaS).",
+    "tags": [
+      "sky",
+      "programmering"
+    ],
+    "alias": [
+      "Platform",
+      "PaaS"
     ]
   },
   {
@@ -3771,6 +4325,18 @@
     ],
     "alias": [
       "R"
+    ]
+  },
+  {
+    "id": "rammeverk",
+    "tittel": "Rammeverk",
+    "forklaring": "Gjenbrukbar struktur av kode, komponenter og konvensjoner som utviklere bygger løsninger innenfor.",
+    "tags": [
+      "programmering",
+      "programvareutvikling"
+    ],
+    "alias": [
+      "Framework"
     ]
   },
   {
@@ -4872,6 +5438,19 @@
     "forklaring": "Risiko spesifikk for kapabiliteter med høy påvirkningsgrad i KI-modeller for allmenne formål, med potensielt store negative virkninger på folkehelse, sikkerhet, grunnleggende rettigheter eller samfunnet.",
     "tags": [
       "ki"
+    ]
+  },
+  {
+    "id": "tjeneste",
+    "tittel": "Tjeneste",
+    "forklaring": "Funksjonalitet som leveres til en bruker eller et annet system, ofte over nett og uten egen brukerflate. I sky-sammenheng levert på forespørsel (SaaS).",
+    "tags": [
+      "sky"
+    ],
+    "alias": [
+      "Service",
+      "SaaS",
+      "Skytjeneste"
     ]
   },
   {
