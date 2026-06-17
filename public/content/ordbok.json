@@ -5580,6 +5580,18 @@
     ]
   },
   {
+    "id": "tia",
+    "tittel": "TIA",
+    "undertittel": "Transfer Impact Assessment",
+    "forklaring": "Transfer Impact Assessment. En obligatorisk vurdering du må gjøre dersom personopplysninger sendes til land utenfor EU/EØS. Vurderingen skal sikre at opplysningene er like godt beskyttet der som etter EUs personvernforordning (GDPR).",
+    "tags": [
+      "personvern"
+    ],
+    "alias": [
+      "Tredjelandsvurdering"
+    ]
+  },
+  {
     "id": "tilbakekalling-ki",
     "tittel": "Tilbakekalling av KI-system",
     "undertittel": "KI-forordningen",
@@ -6074,9 +6086,9 @@
   },
   {
     "id": "dpia",
-    "tittel": "Vurdering av personvernkonsekvenser",
+    "tittel": "DPIA",
     "undertittel": "DPIA",
-    "forklaring": "Strukturert vurdering av risiko for personvernet før en behandling med høy risiko settes i gang – obligatorisk etter GDPR for slik behandling.",
+    "forklaring": "Data Protection Impact Assessment. Strukturert vurdering av risiko for personvernet før en behandling med høy risiko settes i gang – obligatorisk etter GDPR for slik behandling.",
     "tags": [
       "personvern"
     ],
