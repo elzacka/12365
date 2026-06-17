@@ -1693,6 +1693,19 @@
     ]
   },
   {
+    "id": "fria",
+    "tittel": "FRIA",
+    "undertittel": "Fundamental Rights Impact Assessment",
+    "forklaring": "KI-forordningen art. 27 pålegger offentlige virksomheter å gjennomføre en FRIA før de tar i bruk et høyrisiko KI-system. Hensikten er å beskytte grunnleggende rettigheter, øke tilliten til KI og forebygge negative konsekvenser.",
+    "tags": [
+      "ki",
+      "personvern"
+    ],
+    "alias": [
+      "Vurdering av konsekvenser for grunnleggende rettigheter"
+    ]
+  },
+  {
     "id": "frontiermodell",
     "tittel": "Frontiermodell",
     "forklaring": "De mest avanserte KI-modellene som finnes til enhver tid – sentrale i debatten om KI-sikkerhet og regulering.",
