@@ -898,7 +898,7 @@
   {
     "id": "datakatalog",
     "tittel": "Datakatalog",
-    "forklaring": "Verktøy som katalogiserer alle data som eksisterer i organisasjonen – liksom bibliotekarens register over alle bøker i et bibliotek. Viser hva som finnes, hvor data ligger lagret, hvilke systemer de kom fra, hvordan de er strukturert, hvordan de har blitt prosessert og foredlet, når de sist ble endret, hvem som har brukt dataene, hvilken kvalitet de har, hvilken sikkerhetsgradering de har og hva dataene betyr. Informasjonen hentes automatisk inn via metadata fra verktøyene som brukes i databehandlingen.",
+    "forklaring": "Verktøy som katalogiserer alle data som eksisterer i organisasjonen basert på metadata.",
     "tags": [
       "datakvalitet",
       "dataforvaltning"
