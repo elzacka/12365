@@ -2852,7 +2852,7 @@
   {
     "id": "microsoft-365-copilot",
     "tittel": "Microsoft 365 Copilot",
-    "forklaring": "KI-app integrert som funksjon i Office-appene, Teams og Microsoft Graph.",
+    "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data via Microsoft Graph. Krever egen lisens.",
     "tags": [
       "m365",
       "ki"
@@ -2861,10 +2861,13 @@
   {
     "id": "microsoft-agent-365",
     "tittel": "Microsoft Agent 365",
-    "forklaring": "Plattform for styring og orkestrering (orchestration) av KI-agenter i virksomheten, koblet til Entra og Microsoft 365.",
+    "forklaring": "Plattform for styring og orkestrering (orchestration) av KI-agenter i organisasjonen, koblet til Entra og Microsoft 365.",
     "tags": [
       "m365",
       "ki"
+    ],
+    "alias": [
+      "Agent 365"
     ]
   },
   {
@@ -2879,7 +2882,7 @@
   {
     "id": "microsoft-clipchamp",
     "tittel": "Microsoft Clipchamp",
-    "forklaring": "App for videoredigering. Lagrer prosjekter i OneDrive.",
+    "forklaring": "App for videoredigering og videoavspilling i Microsoft 365. Lagrer i OneDrive og SharePoint.",
     "tags": [
       "m365",
       "produktivitet"
@@ -2888,7 +2891,7 @@
   {
     "id": "microsoft-cloud-pki",
     "tittel": "Microsoft Cloud PKI",
-    "forklaring": "Tjeneste for utstedelse og styring av sertifikater i skyen. Del av Intune Suite.",
+    "forklaring": "Tjeneste for utstedelse og styring av sertifikater i skyen. Del av Intune Suite, inkludert i E5.",
     "tags": [
       "m365",
       "sikkerhet"
@@ -2897,7 +2900,7 @@
   {
     "id": "microsoft-copilot-chat",
     "tittel": "Microsoft Copilot Chat",
-    "forklaring": "KI-app med sikker chat for Microsoft 365-brukere.",
+    "forklaring": "KI-chat med Enterprise Data Protection, inkludert for Microsoft 365-brukere.",
     "tags": [
       "m365",
       "ki"
@@ -3057,12 +3060,15 @@
   },
   {
     "id": "microsoft-graph-connectors",
-    "tittel": "Microsoft Graph connectors",
+    "tittel": "Microsoft Graph-koblinger",
     "forklaring": "Funksjon som henter eksterne data inn i Microsoft Search og Copilot via Microsoft Graph.",
     "tags": [
       "m365",
       "programmering",
       "analyse"
+    ],
+    "alias": [
+      "Microsoft Graph connectors"
     ]
   },
   {
@@ -3172,15 +3178,6 @@
     ]
   },
   {
-    "id": "microsoft-project-for-the-web",
-    "tittel": "Microsoft Project for the web",
-    "forklaring": "App for prosjektstyring, knyttet til Power Platform og Planner.",
-    "tags": [
-      "m365",
-      "produktivitet"
-    ]
-  },
-  {
     "id": "microsoft-purview",
     "tittel": "Microsoft Purview",
     "forklaring": "Plattform for etterlevelse, dataklassifisering og informasjonsbeskyttelse på tvers av Microsoft 365-data.",
@@ -3227,15 +3224,6 @@
     "tags": [
       "m365",
       "sky",
-      "samarbeid"
-    ]
-  },
-  {
-    "id": "microsoft-stream",
-    "tittel": "Microsoft Stream",
-    "forklaring": "Tjeneste for videolagring og -deling, lagret på SharePoint og OneDrive og brukt i Teams.",
-    "tags": [
-      "m365",
       "samarbeid"
     ]
   },
@@ -3323,7 +3311,7 @@
   {
     "id": "microsoft-viva-suite",
     "tittel": "Microsoft Viva Suite",
-    "forklaring": "Pakke med utvidede Viva-apper, blant annet Goals, Glint og Amplify.",
+    "forklaring": "Pakke med utvidede Viva-apper, blant annet Insights, Learning, Glint og Pulse.",
     "tags": [
       "m365"
     ]
@@ -6119,6 +6107,273 @@
     "alias": [
       "Zero-shot learning",
       "few-shot learning"
+    ]
+  },
+  {
+    "id": "agent-registry",
+    "tittel": "Agent Registry",
+    "forklaring": "Sentralt register over organisasjonens KI-agenter – grunnlag for inventar, styring og sikkerhetskontroll i Agent 365.",
+    "tags": [
+      "m365",
+      "ki",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Agentregister"
+    ]
+  },
+  {
+    "id": "copilot-cowork",
+    "tittel": "Copilot Cowork",
+    "forklaring": "Flate der du gir Copilot oppgaver som utføres i bakgrunnen, og henter resultatet senere. Del av Microsoft 365 Copilot.",
+    "tags": [
+      "m365",
+      "ki",
+      "produktivitet"
+    ],
+    "alias": [
+      "Cowork"
+    ]
+  },
+  {
+    "id": "copilot-credits",
+    "tittel": "Copilot Credits",
+    "forklaring": "Forbruksbasert betalingsenhet for KI-funksjoner som agenter i Copilot Studio – alternativ til fast lisens per bruker.",
+    "tags": [
+      "m365",
+      "ki"
+    ],
+    "alias": [
+      "Copilot-kreditter"
+    ]
+  },
+  {
+    "id": "copilot-notebooks",
+    "tittel": "Copilot Notebooks",
+    "forklaring": "Arbeidsflate i Copilot der du samler utvalgte kilder og får svar basert kun på dem. Del av Microsoft 365 Copilot.",
+    "tags": [
+      "m365",
+      "ki"
+    ],
+    "alias": [
+      "Notebooks"
+    ]
+  },
+  {
+    "id": "copilot-pages",
+    "tittel": "Copilot Pages",
+    "forklaring": "Delt, redigerbar side der du utforsker et tema sammen med Copilot og kolleger. Del av Microsoft 365 Copilot.",
+    "tags": [
+      "m365",
+      "ki",
+      "samarbeid"
+    ],
+    "alias": [
+      "Pages"
+    ]
+  },
+  {
+    "id": "dspm",
+    "tittel": "Data Security Posture Management",
+    "undertittel": "DSPM",
+    "forklaring": "Samlet oversikt over hvor følsomme data finnes, hvem som har tilgang og hvilke risikoer det gir – i M365 levert gjennom Purview.",
+    "tags": [
+      "m365",
+      "sikkerhet",
+      "datakvalitet"
+    ],
+    "alias": [
+      "DSPM"
+    ]
+  },
+  {
+    "id": "facilitator",
+    "tittel": "Facilitator",
+    "forklaring": "Copilot-agent for Teams-møter som tar sanntidsnotater, følger agendaen og samler beslutninger og handlingspunkter.",
+    "tags": [
+      "m365",
+      "ki",
+      "samarbeid"
+    ]
+  },
+  {
+    "id": "frontier-program",
+    "tittel": "Frontier-program",
+    "forklaring": "Microsofts program der organisasjoner med Microsoft 365 Copilot får tidlig tilgang til eksperimentelle KI-funksjoner før generell lansering.",
+    "tags": [
+      "m365",
+      "ki"
+    ],
+    "alias": [
+      "Frontier"
+    ]
+  },
+  {
+    "id": "microsoft-365-defender-suite",
+    "tittel": "Microsoft 365 Defender Suite",
+    "forklaring": "Lisenspakke som samler Defender-sikkerhetstjenestene, tidligere kalt E5 Security. Innholdet er inkludert i E5.",
+    "tags": [
+      "m365",
+      "sikkerhet"
+    ],
+    "alias": [
+      "E5 Security"
+    ]
+  },
+  {
+    "id": "microsoft-365-purview-suite",
+    "tittel": "Microsoft 365 Purview Suite",
+    "forklaring": "Lisenspakke som samler Purview-tjenestene for etterlevelse og informasjonsbeskyttelse, tidligere kalt E5 Compliance. Innholdet er inkludert i E5.",
+    "tags": [
+      "m365",
+      "sikkerhet",
+      "personvern"
+    ],
+    "alias": [
+      "E5 Compliance"
+    ]
+  },
+  {
+    "id": "microsoft-entra-agent-id",
+    "tittel": "Microsoft Entra Agent ID",
+    "forklaring": "Egen identitet for en KI-agent i Entra, slik at agenten kan styres, gis tilgang og spores på linje med brukere.",
+    "tags": [
+      "m365",
+      "ki",
+      "identitet",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Agent ID",
+      "Agentidentitet"
+    ]
+  },
+  {
+    "id": "microsoft-intune-suite",
+    "tittel": "Microsoft Intune Suite",
+    "forklaring": "Pakke med utvidede Intune-tjenester, blant annet Remote Help, Endpoint Privilege Management og Cloud PKI.",
+    "tags": [
+      "m365",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "microsoft-teams-enterprise",
+    "tittel": "Microsoft Teams Enterprise",
+    "forklaring": "Teams-lisensen som selges separat fra Microsoft 365-planene etter at Microsoft skilte ut Teams fra suitene.",
+    "tags": [
+      "m365",
+      "samarbeid"
+    ],
+    "alias": [
+      "Teams EEA"
+    ]
+  },
+  {
+    "id": "security-compute-unit",
+    "tittel": "Security Compute Unit",
+    "undertittel": "SCU",
+    "forklaring": "Beregningsenhet for kapasitet i Security Copilot – forbruket måles og faktureres i SCU-er.",
+    "tags": [
+      "m365",
+      "sikkerhet",
+      "ki"
+    ],
+    "alias": [
+      "SCU"
+    ]
+  },
+  {
+    "id": "agentoverlevering",
+    "tittel": "Agentoverlevering",
+    "undertittel": "agent handoff",
+    "forklaring": "Funksjon i Copilot Studio der en agent overfører samtalen sømløst til en annen agent med mer spesialisert kunnskap.",
+    "tags": [
+      "m365",
+      "ki"
+    ],
+    "alias": [
+      "Agent handoff"
+    ]
+  },
+  {
+    "id": "azure-ai-search",
+    "tittel": "Azure AI Search",
+    "forklaring": "Søketjeneste i Azure som indekserer innhold og støtter vektorsøk – ofte brukt som kunnskapsgrunnlag (RAG) for KI-agenter.",
+    "tags": [
+      "sky",
+      "ki",
+      "analyse"
+    ],
+    "alias": [
+      "Azure Cognitive Search"
+    ]
+  },
+  {
+    "id": "azure-blob-storage",
+    "tittel": "Azure Blob Storage",
+    "forklaring": "Lagringstjeneste i Azure for ustrukturerte data som dokumenter, bilder og video.",
+    "tags": [
+      "sky",
+      "database"
+    ],
+    "alias": [
+      "Blob Storage"
+    ]
+  },
+  {
+    "id": "koblinger-power-platform",
+    "tittel": "Koblinger (Power Platform)",
+    "undertittel": "connectors",
+    "forklaring": "Ferdige integrasjoner som lar Power Apps, Power Automate og Copilot Studio snakke med andre tjenester. Standardkoblinger følger med M365; premium-koblinger krever egen lisens.",
+    "tags": [
+      "m365",
+      "lavkode"
+    ],
+    "alias": [
+      "Connectors",
+      "Standardkoblinger",
+      "Premium-koblinger"
+    ]
+  },
+  {
+    "id": "microsoft-foundry",
+    "tittel": "Microsoft Foundry",
+    "forklaring": "Plattform for å bygge, teste og drifte KI-modeller, -apper og -agenter i Azure. Tidligere kalt Azure AI Foundry.",
+    "tags": [
+      "m365",
+      "ki",
+      "sky"
+    ],
+    "alias": [
+      "Azure AI Foundry",
+      "Foundry"
+    ]
+  },
+  {
+    "id": "orkestrering",
+    "tittel": "Orkestrering",
+    "undertittel": "orchestration",
+    "forklaring": "Samordning av flere agenter, verktøy eller tjenester slik at de løser en oppgave sammen – f.eks. en agent som henter svar fra andre agenter.",
+    "tags": [
+      "ki"
+    ],
+    "alias": [
+      "Orchestration"
+    ]
+  },
+  {
+    "id": "power-platform-miljo",
+    "tittel": "Power Platform-miljø",
+    "undertittel": "environment",
+    "forklaring": "Avgrenset område i Power Platform med egne apper, flyter og egen Dataverse-database – skiller utvikling, test og produksjon, eller data som ikke skal blandes.",
+    "tags": [
+      "m365",
+      "lavkode",
+      "database"
+    ],
+    "alias": [
+      "Environment"
     ]
   }
 ]
