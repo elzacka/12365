@@ -1,7 +1,7 @@
 {
-  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (4/6-26)",
+  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (24/6-26)",
   "kildeUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-Enterprise.pdf",
-  "endret": "2026-06-05",
+  "endret": "2026-07-20",
   "tema": [
     {
       "id": "ki",
@@ -29,6 +29,11 @@
           "navn": "Copilot Chat",
           "status": "inkludert",
           "beskrivelse": "Gratis KI-chat med Enterprise Data Protection. Søk på internett (Nett-modus), last opp filer manuelt og få utkast eller oppsummeringer. Søk i organisasjonens egne dokumenter, e-post og møter krever Microsoft 365 Copilot-lisens."
+        },
+        {
+          "navn": "Copilot Chat Analytics",
+          "status": "inkludert",
+          "beskrivelse": "Innsikt i hvordan organisasjonen bruker Copilot Chat: bruksmønster, adopsjon og trender over tid."
         },
         {
           "navn": "Microsoft 365 Copilot",
@@ -64,23 +69,23 @@
         },
         {
           "navn": "Advanced agent usage insights",
-          "status": "inkludert",
-          "beskrivelse": "Detaljert innsikt i agentbruk, ytelse og kostnader over tid."
+          "status": "tillegg",
+          "beskrivelse": "Detaljert innsikt i agentbruk, ytelse og kostnader over tid. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Agent map",
-          "status": "inkludert",
-          "beskrivelse": "Visuell oversikt over agentenes relasjoner, datakilder og avhengigheter."
+          "status": "tillegg",
+          "beskrivelse": "Visuell oversikt over agentenes relasjoner, datakilder og avhengigheter. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Registry sync",
-          "status": "inkludert",
-          "beskrivelse": "Automatisk synkronisering av agentregisteret på tvers av miljøer og tenants."
+          "status": "tillegg",
+          "beskrivelse": "Automatisk synkronisering av agentregisteret på tvers av miljøer og tenants. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Graph API for agenter",
-          "status": "inkludert",
-          "beskrivelse": "Programmatisk tilgang til agentdata via Microsoft Graph for egen integrasjon og rapportering."
+          "status": "tillegg",
+          "beskrivelse": "Programmatisk tilgang til agentdata via Microsoft Graph for egen integrasjon og rapportering. Eget tillegg for E5 via Agent 365-lisens."
         }
       ]
     },
@@ -91,13 +96,13 @@
       "funksjoner": [
         {
           "navn": "Agent Identity Governance",
-          "status": "inkludert",
-          "beskrivelse": "Styring av identiteten og tilgangen agenter har til ressurser."
+          "status": "tillegg",
+          "beskrivelse": "Styring av identiteten og tilgangen agenter har til ressurser. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Lifecycle management for agents",
-          "status": "inkludert",
-          "beskrivelse": "Håndtering av agenter fra opprettelse til avvikling, inkludert eierskifte og tilbaketrekking."
+          "status": "tillegg",
+          "beskrivelse": "Håndtering av agenter fra opprettelse til avvikling, inkludert eierskifte og tilbaketrekking. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Admin agent governance actions",
@@ -106,18 +111,18 @@
         },
         {
           "navn": "Automate agent lifecycle actions",
-          "status": "inkludert",
-          "beskrivelse": "Automatisering av regelmessige handlinger i agentens livssyklus."
+          "status": "tillegg",
+          "beskrivelse": "Automatisering av regelmessige handlinger i agentens livssyklus. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Tool controls for agents",
-          "status": "inkludert",
-          "beskrivelse": "Kontroll over hvilke verktøy og tilkoblinger agenter har lov til å bruke."
+          "status": "tillegg",
+          "beskrivelse": "Kontroll over hvilke verktøy og tilkoblinger agenter har lov til å bruke. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Policy templates for agents",
-          "status": "inkludert",
-          "beskrivelse": "Ferdigsatte regelsett som kan brukes på agenter for konsistent styring."
+          "status": "tillegg",
+          "beskrivelse": "Ferdigsatte regelsett som kan brukes på agenter for konsistent styring. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Audit logs and eDiscovery for agent activity",
@@ -125,14 +130,14 @@
           "beskrivelse": "Komplett logg over alt agenter gjør, finnbar i Microsoft Purview."
         },
         {
-          "navn": "Data Lifecycle Management for agent data",
-          "status": "inkludert",
-          "beskrivelse": "Oppbevarings- og slettingsregler for data agenter genererer."
+          "navn": "Data Lifecycle Management for agent data and interactions",
+          "status": "tillegg",
+          "beskrivelse": "Oppbevarings- og slettingsregler for data og interaksjoner agenter genererer. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Communication compliance for agents",
-          "status": "inkludert",
-          "beskrivelse": "Overvåkning av at agentkommunikasjon overholder retningslinjer og regelverk."
+          "status": "tillegg",
+          "beskrivelse": "Overvåkning av at agentkommunikasjon overholder retningslinjer og regelverk. Eget tillegg for E5 via Agent 365-lisens."
         }
       ]
     },
@@ -143,38 +148,48 @@
       "funksjoner": [
         {
           "navn": "Data Security Posture Management (DSPM) for agenter",
-          "status": "inkludert",
-          "beskrivelse": "Oversikt over hvilke følsomme data agenter har tilgang til, og hvilke risikoer det skaper."
+          "status": "tillegg",
+          "beskrivelse": "Oversikt over hvilke følsomme data agenter har tilgang til, og hvilke risikoer det skaper. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Insider Risk Management for agenter",
-          "status": "inkludert",
-          "beskrivelse": "Oppdager risikofylt eller mistenkelig oppførsel hos agenter: datatyveri, datalekkasje, sabotasje."
+          "status": "tillegg",
+          "beskrivelse": "Oppdager risikofylt eller mistenkelig oppførsel hos agenter: datatyveri, datalekkasje, sabotasje. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Arver og overholder følsomhetsetiketter",
-          "status": "inkludert",
-          "beskrivelse": "Agenter respekterer følsomhetsetiketter på data de behandler. Kryptering og tilgang følger etiketten."
+          "status": "tillegg",
+          "beskrivelse": "Agenter respekterer følsomhetsetiketter på data de behandler. Kryptering og tilgang følger etiketten. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Data loss prevention (DLP) for agenter",
-          "status": "inkludert",
-          "beskrivelse": "Hindrer at agenter lekker eller deler sensitiv informasjon utenfor godkjente kanaler."
+          "status": "tillegg",
+          "beskrivelse": "Hindrer at agenter lekker eller deler sensitiv informasjon utenfor godkjente kanaler. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Conditional access og identity protection for agenter",
-          "status": "inkludert",
-          "beskrivelse": "Risikovurdering og betinget tilgang for agenter, ikke bare brukere."
+          "status": "tillegg",
+          "beskrivelse": "Risikovurdering og betinget tilgang for agenter, ikke bare brukere. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Secure Access Service Edge (SASE) for agenter",
-          "status": "inkludert",
-          "beskrivelse": "Sikker nettverkstilgang for agenter via Microsoft Entra Internet Access og Private Access."
+          "status": "tillegg",
+          "beskrivelse": "Sikker nettverkstilgang for agenter via Microsoft Entra Internet Access og Private Access. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Device compliance for agent conditional access",
-          "status": "inkludert",
-          "beskrivelse": "Krever at enhetene agentene kjører på oppfyller compliance-krav før tilgang gis."
+          "status": "tillegg",
+          "beskrivelse": "Krever at enhetene agentene kjører på oppfyller compliance-krav før tilgang gis. Eget tillegg for E5 via Agent 365-lisens."
+        },
+        {
+          "navn": "Policy controlled environment for agents runtime",
+          "status": "tillegg",
+          "beskrivelse": "Kjøremiljø der policyer styrer hva agenter kan gjøre mens de kjører. Eget tillegg for E5 via Agent 365-lisens."
+        },
+        {
+          "navn": "Configure policies to contain managed local agents",
+          "status": "tillegg",
+          "beskrivelse": "Policyer som begrenser hva styrte lokale agenter får gjøre på enheten. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Blokker usanksjonerte lokale endepunkt-agenter",
@@ -188,18 +203,18 @@
         },
         {
           "navn": "Agent Security Posture Management",
-          "status": "inkludert",
-          "beskrivelse": "Helhetlig overvåkning av sikkerhetsstatus for hele agent-flåten."
+          "status": "tillegg",
+          "beskrivelse": "Helhetlig overvåkning av sikkerhetsstatus for hele agent-flåten. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Threat Detection and Blocking for agenter",
-          "status": "inkludert",
-          "beskrivelse": "Aktiv blokkering av angrep mot eller via agenter i sanntid."
+          "status": "tillegg",
+          "beskrivelse": "Aktiv blokkering av angrep mot eller via agenter i sanntid. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Threat Hunting and Investigation for agenter",
-          "status": "inkludert",
-          "beskrivelse": "Verktøy for å lete etter og etterforske trusler knyttet til agenter."
+          "status": "tillegg",
+          "beskrivelse": "Verktøy for å lete etter og etterforske trusler knyttet til agenter. Eget tillegg for E5 via Agent 365-lisens."
         }
       ]
     },
@@ -313,12 +328,12 @@
         {
           "navn": "Microsoft Shifts",
           "status": "tillegg",
-          "beskrivelse": "Vaktplanlegging og bytteforespørsler for skiftarbeidere, direkte i Teams. Eget tillegg for E5. Inkludert i Microsoft 365 F1 og F3, billigere Frontline Worker-lisenser for ansatte uten egen jobb-PC, som skiftarbeidere, butikkmedarbeidere og helsepersonell."
+          "beskrivelse": "Vaktplanlegging og bytteforespørsler for skiftarbeidere, direkte i Teams. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Inkludert i F1 og F3 – Frontline Worker-lisenser for ansatte uten egen jobb-PC."
         },
         {
           "navn": "Microsoft Bookings",
-          "status": "tillegg",
-          "beskrivelse": "Selvbetjent møtebooking for kunder eller innbyggere mot ledige tider i kalenderen. Eget tillegg for E5. Inkludert i F1 og F3."
+          "status": "inkludert",
+          "beskrivelse": "Selvbetjent møtebooking for kunder eller innbyggere mot ledige tider i kalenderen. Krever kun at Outlook på nett er aktivert."
         }
       ]
     },
@@ -379,8 +394,8 @@
         },
         {
           "navn": "Teams Phone Standard (Telefonsystem)",
-          "status": "tillegg",
-          "beskrivelse": "Telefonsystem i Teams: ringe ut og motta samtaler med ekte telefonnummer. Eget tillegg for E5; krever også Calling Plan eller Operator Connect for utgående PSTN-trafikk."
+          "status": "inkludert",
+          "beskrivelse": "Telefonsystem i Teams: ringe ut og motta samtaler med ekte telefonnummer. Krever i tillegg Calling Plan eller Operator Connect for samtaler til og fra telefonnettet."
         },
         {
           "navn": "Audio Conferencing",
@@ -397,7 +412,7 @@
         {
           "navn": "SharePoint Plan 2 (1 TB+ lagring)",
           "status": "inkludert",
-          "beskrivelse": "1 TB+ lagring per organisasjon med avansert søk, sider og kolleksjoner. Inkluderer 1+ TB OneDrive-lagring per bruker."
+          "beskrivelse": "1 TB+ lagring per organisasjon med avansert søk, sider og kolleksjoner. Inkluderer 1+ TB OneDrive-lagring per bruker, opptil 5 TB avhengig av standardkvoten i organisasjonen."
         }
       ]
     },
@@ -507,7 +522,7 @@
         {
           "navn": "Viva Learning i Teams",
           "status": "tillegg",
-          "beskrivelse": "Læringsplattform integrert i Teams. Eget tillegg for E5. Inkludert i F1 og F3."
+          "beskrivelse": "Læringsplattform integrert i Teams. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Inkludert i F1 og F3."
         },
         {
           "navn": "Lag læringsfaner i Teams-kanaler",
@@ -539,7 +554,7 @@
         {
           "navn": "Viva Insights-app i Teams",
           "status": "tillegg",
-          "beskrivelse": "Viva Insights tilgjengelig som app i Teams-grensesnittet. Eget tillegg for E5. Inkludert i F1 og F3."
+          "beskrivelse": "Viva Insights tilgjengelig som app i Teams-grensesnittet. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Inkludert i F1 og F3."
         },
         {
           "navn": "Personlig innsikt og opplevelser",
@@ -578,7 +593,7 @@
         {
           "navn": "Dashboard, Feed, Resources, Teams app",
           "status": "tillegg",
-          "beskrivelse": "Tilpasset dashbord med nyheter, ressurser og snarveier, direkte i Teams. Eget tillegg for E5. Inkludert i F1 og F3."
+          "beskrivelse": "Tilpasset dashbord med nyheter, ressurser og snarveier, direkte i Teams. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Inkludert i F1 og F3."
         }
       ]
     },
@@ -600,12 +615,12 @@
         {
           "navn": "Copilot Studio (Teams-plan)",
           "status": "tillegg",
-          "beskrivelse": "Bygg klassiske, regelbaserte KI-agenter for publisering i Teams. Lagrer i Dataverse for Teams og kan starte Power Automate-flyter. Eget tillegg for E5. Nye agenter lages på copilotstudio.microsoft.com. Teams-appen redirigerer dit fra 30. juni 2026. Generativ KI, premium-koblinger eller publisering utenfor Teams krever full Copilot Studio."
+          "beskrivelse": "Bygg klassiske, regelbaserte KI-agenter for publisering i Teams. Lagrer i Dataverse for Teams og kan starte Power Automate-flyter. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Nye agenter lages på copilotstudio.microsoft.com; Teams-appen redirigerer dit. Generativ KI, premium-koblinger eller publisering utenfor Teams krever full Copilot Studio."
         },
         {
           "navn": "Dataverse for Teams",
           "status": "tillegg",
-          "beskrivelse": "Lett database tilgjengelig direkte i Teams-kanaler, for Power Apps og Power Automate. Eget tillegg for E5."
+          "beskrivelse": "Lett database tilgjengelig direkte i Teams-kanaler, for Power Apps og Power Automate. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5."
         }
       ]
     },
@@ -618,6 +633,11 @@
           "navn": "Microsoft Intune Plan 1",
           "status": "inkludert",
           "beskrivelse": "Sky-basert enhetsstyring og app-styring for Windows, macOS, iOS og Android."
+        },
+        {
+          "navn": "Microsoft Intune Plan 2",
+          "status": "inkludert",
+          "beskrivelse": "Utvider Plan 1 med Microsoft Tunnel for app-styrte mobiler, styring av spesialenheter og trådløse firmware-oppdateringer."
         },
         {
           "navn": "Mobile Device Management (MDM)",
@@ -658,6 +678,16 @@
           "navn": "Endpoint Analytics",
           "status": "inkludert",
           "beskrivelse": "Innsikt i ytelse og brukervennlighet på endepunktene. Anbefaler tiltak basert på data fra enhetene."
+        },
+        {
+          "navn": "Microsoft Intune Remote Help",
+          "status": "inkludert",
+          "beskrivelse": "IT-support kan se og fjernstyre brukerens skjerm etter samtykke, direkte fra Intune."
+        },
+        {
+          "navn": "Microsoft Intune Advanced Analytics",
+          "status": "inkludert",
+          "beskrivelse": "Avansert enhetsanalyse med sanntidsspørringer, batterihelse og avviksdeteksjon på tvers av enhetsparken."
         }
       ]
     },
@@ -903,14 +933,14 @@
           "beskrivelse": "Logg inn én gang og få tilgang til alle koblede apper."
         },
         {
+          "navn": "DirectAccess",
+          "status": "inkludert",
+          "beskrivelse": "Eldre fjerntilgangsløsning som gir tilgang til interne ressurser uten manuell VPN-tilkobling. Avviklet av Microsoft; Entra Private Access er anbefalt erstatning."
+        },
+        {
           "navn": "Windows Hello for Business",
           "status": "inkludert",
           "beskrivelse": "Passordløs pålogging med biometri (ansikt/finger) eller PIN."
-        },
-        {
-          "navn": "Microsoft Advanced Threat Analytics (ATA)",
-          "status": "inkludert",
-          "beskrivelse": "Trusseldeteksjon for lokal Active Directory. Fanger opp lateral bevegelse og kompromitterte kontoer. Utvidet livssyklus utløp 31.01.26. Microsoft Defender for Identity er etterfølgeren."
         }
       ]
     },
@@ -1100,7 +1130,7 @@
         {
           "navn": "Universal Print",
           "status": "inkludert",
-          "beskrivelse": "Sentralisert sky-utskrift uten lokale printserver."
+          "beskrivelse": "Sentralisert sky-utskrift uten lokale printservere. 100 utskriftsjobber per lisens per måned, samlet i felles pott for organisasjonen."
         },
         {
           "navn": "Windows Autopatch",
