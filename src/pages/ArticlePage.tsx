@@ -1,5 +1,5 @@
-import { useEffect, useState, use, type ReactNode } from 'react'
-import { useParams, Link, Navigate } from 'react-router-dom'
+import { useEffect, useState, use, type ReactNode, Fragment } from 'react'
+import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
 import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, ZoomInIcon } from '../components/Icons'
@@ -8,6 +8,33 @@ import { ImageLightbox } from '../components/ImageLightbox'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
 import type { ArticleImage } from '../types'
 
+function escapeRegex(str: string): string {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+// Fjerner anførselstegn og OR/AND-operatorer slik at det søkeordet brukeren
+// faktisk lette etter kan fremheves i artikkelteksten.
+function toHighlight(raw: string): string {
+  return raw
+    .replace(/"/g, '')
+    .split(/\s+/)
+    .filter(t => !/^(or|and)$/i.test(t))
+    .join(' ')
+    .trim()
+}
+
+function applyHighlight(text: string, query: string): ReactNode[] {
+  if (!query) return [text]
+  const regex = new RegExp(`(${escapeRegex(query)})`, 'gi')
+  const parts = text.split(regex)
+  if (parts.length === 1) return [text]
+  return parts.map((part, i): ReactNode =>
+    i % 2 === 1
+      ? <mark key={i} className="bg-yellow-200 text-slate-900 rounded-sm px-[1px]">{part}</mark>
+      : part || null
+  )
+}
+
 // Block-aware markdown-to-JSX. The step content is split into blocks on
 // blank lines; each block renders as paragraph, sub-heading (###), bullet
 // list (◦) or numbered list (1.) with optional indented sub-bullets.
@@ -15,11 +42,11 @@ import type { ArticleImage } from '../types'
 // links. Kept intentionally small – only the syntax actually used in
 // articles.json is supported.
 
-function parseInline(text: string): ReactNode[] {
+function parseInline(text: string, hl: string): ReactNode[] {
   const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\([^)\s]+\))/)
   return parts.map((part, i): ReactNode => {
     if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
-      return <strong key={i} className="font-semibold text-slate-800">{part.slice(2, -2)}</strong>
+      return <strong key={i} className="font-semibold text-slate-800">{applyHighlight(part.slice(2, -2), hl)}</strong>
     }
     if (part.startsWith('`') && part.endsWith('`') && part.length > 2) {
       return <CopyableCommand key={i} text={part.slice(1, -1)} />
@@ -36,16 +63,16 @@ function parseInline(text: string): ReactNode[] {
             rel="noopener noreferrer"
             className="text-brand-400 hover:text-brand-600 transition-colors"
           >
-            {label}
+            {applyHighlight(label, hl)}
             <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
           </a>
         )
       }
     }
     if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
-      return <em key={i} className="italic">{part.slice(1, -1)}</em>
+      return <em key={i} className="italic">{applyHighlight(part.slice(1, -1), hl)}</em>
     }
-    return part
+    return <Fragment key={i}>{applyHighlight(part, hl)}</Fragment>
   })
 }
 
@@ -58,14 +85,14 @@ function BulletDot() {
   )
 }
 
-function renderBlock(block: string, idx: number): ReactNode {
+function renderBlock(block: string, idx: number, hl: string): ReactNode {
   const lines = block.split('\n')
 
   // H3 sub-heading: single line ### Heading
   if (lines.length === 1 && /^###\s+/.test(lines[0])) {
     return (
       <h3 key={idx} className="text-[15px] font-semibold text-slate-800 mt-1">
-        {parseInline(lines[0].replace(/^###\s+/, ''))}
+        {parseInline(lines[0].replace(/^###\s+/, ''), hl)}
       </h3>
     )
   }
@@ -77,7 +104,7 @@ function renderBlock(block: string, idx: number): ReactNode {
         {lines.map((l, i) => (
           <li key={i} className="flex gap-2.5">
             <BulletDot />
-            <span className="flex-1 min-w-0">{parseInline(l.replace(/^◦\s+/, ''))}</span>
+            <span className="flex-1 min-w-0">{parseInline(l.replace(/^◦\s+/, ''), hl)}</span>
           </li>
         ))}
       </ul>
@@ -105,13 +132,13 @@ function renderBlock(block: string, idx: number): ReactNode {
               {i + 1}.
             </span>
             <div className="flex-1 min-w-0">
-              <div>{parseInline(item.text)}</div>
+              <div>{parseInline(item.text, hl)}</div>
               {item.children.length > 0 && (
                 <ul className="mt-2 space-y-[3px] list-none">
                   {item.children.map((c, j) => (
                     <li key={j} className="flex gap-2.5">
                       <BulletDot />
-                      <span className="flex-1 min-w-0">{parseInline(c)}</span>
+                      <span className="flex-1 min-w-0">{parseInline(c, hl)}</span>
                     </li>
                   ))}
                 </ul>
@@ -128,7 +155,7 @@ function renderBlock(block: string, idx: number): ReactNode {
     <p key={idx} className="leading-relaxed">
       {lines.map((line, i) => (
         <span key={i}>
-          {parseInline(line)}
+          {parseInline(line, hl)}
           {i < lines.length - 1 && <br />}
         </span>
       ))}
@@ -136,8 +163,8 @@ function renderBlock(block: string, idx: number): ReactNode {
   )
 }
 
-function parseContent(text: string): ReactNode {
-  return text.split(/\n\n+/).map((block, i) => renderBlock(block, i))
+function parseContent(text: string, hl: string): ReactNode {
+  return text.split(/\n\n+/).map((block, i) => renderBlock(block, i, hl))
 }
 
 function scrollToTop() {
@@ -148,18 +175,40 @@ export function ArticlePage() {
   const publicCategories = use(fetchArticles())
   const categories = useMergedArticles(publicCategories)
   const { kategoriId, artikkelId } = useParams()
-  const [activeStep, setActiveStep] = useState(0)
-  const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
-  const { markArticleSeen } = useSeenVersions()
+  const location = useLocation()
+
+  const searchQuery = (location.state as { query?: string } | null)?.query?.trim() ?? ''
 
   const category = categories.find(k => k.id === kategoriId)
   const article = category?.artikler.find(a => a.id === artikkelId)
+
+  const [activeStep, setActiveStep] = useState(() => {
+    const q = toHighlight(searchQuery).toLowerCase()
+    if (!q || !article) return 0
+    for (let i = 0; i < article.steg.length; i++) {
+      const s = article.steg[i]
+      if (`${s.tittel} ${s.innhold}`.toLowerCase().includes(q)) return i
+    }
+    return 0
+  })
+  const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
+  const [highlightActive, setHighlightActive] = useState(!!searchQuery)
+  const { markArticleSeen } = useSeenVersions()
+
   const totalSteps = article?.steg.length ?? 0
   const articleIdToMark = article && !article.skjult ? article.id : null
 
   useEffect(() => {
     if (articleIdToMark) markArticleSeen(articleIdToMark)
   }, [articleIdToMark, markArticleSeen])
+
+  // Clear search highlight on the first click anywhere in the document.
+  useEffect(() => {
+    if (!highlightActive) return
+    const handler = () => setHighlightActive(false)
+    document.addEventListener('click', handler, { capture: true, once: true })
+    return () => document.removeEventListener('click', handler, { capture: true })
+  }, [highlightActive])
 
   const goPrevious = () => {
     setActiveStep(s => Math.max(0, s - 1))
@@ -184,6 +233,7 @@ export function ArticlePage() {
   const isLastStep = activeStep === totalSteps - 1
   const progress = ((activeStep + 1) / totalSteps) * 100
   const step = article.steg[activeStep]
+  const hl = highlightActive ? toHighlight(searchQuery) : ''
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
@@ -210,11 +260,15 @@ export function ArticlePage() {
               {category.tittel}
             </p>
             <h1 className="text-lg font-semibold text-slate-800 leading-snug mt-1">
-              {article.tittel}
+              {applyHighlight(article.tittel, hl)}
             </h1>
-            <p className="text-sm text-slate-500 mt-1 leading-relaxed">{article.ingress}</p>
+            <p className="text-sm text-slate-500 mt-1 leading-relaxed">
+              {applyHighlight(article.ingress, hl)}
+            </p>
             {article.notat && (
-              <p className="text-xs italic text-slate-500 mt-2 leading-relaxed">{article.notat}</p>
+              <p className="text-xs italic text-slate-500 mt-2 leading-relaxed">
+                {applyHighlight(article.notat, hl)}
+              </p>
             )}
           </header>
         )}
@@ -246,11 +300,13 @@ export function ArticlePage() {
             <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
               Steg {activeStep + 1} av {totalSteps}
             </p>
-            <h2 className="text-base font-semibold text-slate-800 leading-snug">{step.tittel}</h2>
+            <h2 className="text-base font-semibold text-slate-800 leading-snug">
+              {applyHighlight(step.tittel, hl)}
+            </h2>
           </div>
           <div className="px-4 py-5">
             <div className="text-sm text-slate-600 leading-relaxed space-y-3">
-              {parseContent(step.innhold)}
+              {parseContent(step.innhold, hl)}
             </div>
             {step.bilde && (
               <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">

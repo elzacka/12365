@@ -2,7 +2,7 @@ import { useState, useMemo, use, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
-import { buildArticleIndex, searchArticles, type ArticleSearchHit } from '../data/articleSearchIndex'
+import { buildArticleIndex, searchArticles, type ArticleSearchHit, type ArticleIndex } from '../data/articleSearchIndex'
 import { ChevronRightIcon, SearchIcon, CloseIcon } from '../components/Icons'
 import { UpdateDot } from '../components/UpdateDot'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
@@ -12,6 +12,7 @@ export function HowTo() {
   const rawCategories = useMergedArticles(publicCategories)
   const [query, setQuery] = useState('')
   const [activeTag, setActiveTag] = useState<string | null>(null)
+  const [showHelp, setShowHelp] = useState(false)
   const { isArticleNew } = useSeenVersions()
 
   const allCategories = useMemo(
@@ -22,7 +23,7 @@ export function HowTo() {
     [rawCategories],
   )
 
-  const index = useMemo(() => buildArticleIndex(allCategories), [allCategories])
+  const articleIndex = useMemo<ArticleIndex>(() => buildArticleIndex(allCategories), [allCategories])
 
   const allTags = useMemo(() => {
     const set = new Set<string>()
@@ -62,9 +63,9 @@ export function HowTo() {
   const searchHits = useMemo<Map<string, number> | null>(() => {
     const trimmed = query.trim()
     if (!trimmed) return null
-    const hits: ArticleSearchHit[] = searchArticles(index, trimmed)
+    const hits: ArticleSearchHit[] = searchArticles(articleIndex, trimmed)
     return new Map(hits.map(h => [h.id, h.score]))
-  }, [query, index])
+  }, [query, articleIndex])
 
   const totalSearchResults = useMemo(
     () => (searchHits ? searchHits.size : null),
@@ -102,31 +103,71 @@ export function HowTo() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-8 max-w-2xl mx-auto w-full">
-        <div className="relative mb-4">
-          <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400">
-            <SearchIcon size={18} />
+        <div className="mb-4">
+          <div className="relative">
+            <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400">
+              <SearchIcon size={18} />
+            </div>
+            <input
+              type="search"
+              placeholder="Søk etter veiledning ..."
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              autoFocus
+              autoCapitalize="none"
+              autoCorrect="off"
+              spellCheck={false}
+              inputMode="search"
+              className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
+              aria-label="Søk i veiledninger"
+            />
+            {query && (
+              <button
+                onClick={() => setQuery('')}
+                className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
+                aria-label="Tøm søk"
+              >
+                <CloseIcon size={16} />
+              </button>
+            )}
           </div>
-          <input
-            type="search"
-            placeholder="Søk etter veiledning ..."
-            value={query}
-            onChange={e => setQuery(e.target.value)}
-            autoFocus
-            autoCapitalize="none"
-            autoCorrect="off"
-            spellCheck={false}
-            inputMode="search"
-            className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
-            aria-label="Søk i veiledninger"
-          />
-          {query && (
+
+          <div className="flex justify-end mt-1.5">
             <button
-              onClick={() => setQuery('')}
-              className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
-              aria-label="Tøm søk"
+              type="button"
+              onClick={() => setShowHelp(v => !v)}
+              aria-expanded={showHelp}
+              aria-controls="search-operators-help"
+              className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600 transition-colors"
             >
-              <CloseIcon size={16} />
+              Søketips
+              <ChevronRightIcon
+                size={12}
+                className={`transition-transform duration-150 ${showHelp ? '-rotate-90' : 'rotate-90'}`}
+              />
             </button>
+          </div>
+
+          {showHelp && (
+            <div
+              id="search-operators-help"
+              className="mt-1 bg-white rounded-xl border border-slate-200 shadow-sm px-4 py-3"
+            >
+              <div className="space-y-2 text-xs text-slate-600">
+                {([
+                  { kode: '"delt postkasse"', beskrivelse: 'nøyaktig denne frasen' },
+                  { kode: 'copilot OR teams', beskrivelse: 'minst ett av ordene' },
+                  { kode: 'dele filer', beskrivelse: 'begge ord må finnes (standard)' },
+                ] as const).map(({ kode, beskrivelse }) => (
+                  <div key={kode} className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                    <code className="font-mono bg-slate-100 text-slate-700 rounded px-1 py-0.5 whitespace-nowrap">
+                      {kode}
+                    </code>
+                    <span className="text-slate-500">→ {beskrivelse}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           )}
         </div>
 
@@ -198,6 +239,7 @@ export function HowTo() {
                     <Link
                       key={article.id}
                       to={`/slik-gjor-du/${cat.id}/${article.id}`}
+                      state={query.trim() ? { query: query.trim() } : undefined}
                       className={`relative flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group ${
                         idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''
                       }`}
