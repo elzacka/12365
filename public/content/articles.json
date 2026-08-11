@@ -711,7 +711,7 @@
           },
           {
             "tittel": "Få varsler ved nye hendelser",
-            "innhold": "Klikk **Automatiser** → **Opprett en regel**. Vanlige regler:\n\n◦ *Når en hendelse opprettes med prioritet «Kritisk», varsle teamleder via e-post*\n◦ *Når status endres til «Løst», varsle innmelder*\n\nReglene er innebygd i Lists og krever ikke ekstra oppsett. *Trenger du mer komplekse varsler, bruk Power Automate.*"
+            "innhold": "Klikk **Automatiser** → **Opprett en regel**. Vanlige regler:\n\n◦ *Når en hendelse opprettes med prioritet «Kritisk», varsle teamleder via e-post*\n◦ *Når status endres til «Løst», varsle innmelder*\n\nReglene er innebygd i Lists og krever ikke ekstra oppsett. *Trenger du mer avanserte varsler, bruk Power Automate.*"
           },
           {
             "tittel": "Bruk tavlevisning for oppfølging",
