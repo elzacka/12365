@@ -585,7 +585,11 @@
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Copilot Chat ligger i Teams: Klikk Copilot-ikonet i venstremenyen. Logg inn med organisasjonskontoen.\n\n*Utvid sidemenyen for å se hvilken versjon du har: **«Copilot Chat (Grunnleggende)»** følger med M365 E5. Med M365 Copilot-lisens står det **«Microsoft 365 Copilot (Premium)»**. Da låses Jobb-modus opp.*"
+            "innhold": "Copilot Chat ligger i Teams: Klikk Copilot-ikonet i venstremenyen. Logg inn med organisasjonskontoen."
+          },
+          {
+            "tittel": "Sjekk hvilken Copilot-versjon du har",
+            "innhold": "Tegn på at du har **Microsoft 365 Copilot (Premium)**:\n\n◦ Du ser knapper for å velge mellom **Jobb** og **Nett** øverst i vinduet\n◦ Det står «Hi, how can I assist?» over skrivefeltet\n◦ Sidemenyen viser **«Microsoft 365 Copilot (Premium)»** nederst til venstre\n\nTegn på at du har **Copilot Chat (Grunnleggende)**:\n\n◦ Ingen Jobb/Nett-knapper øverst i vinduet\n◦ Det står «Hi, how can I help?» over skrivefeltet\n◦ Sidemenyen viser **«Copilot Chat (Grunnleggende)»** nederst til venstre\n\n*Vil du bekrefte lisenstildelingen? Gå til **Abonnementer** i kontosiden for organisasjonskontoen din. Ser du «Microsoft 365 Copilot» i listen, er lisensen tildelt deg.*"
           },
           {
             "tittel": "Nett-modus: Søk på internett",
@@ -1235,82 +1239,172 @@
         ]
       },
       {
-        "id": "teams-eierskap",
-        "tittel": "Hvem eier teamet, og hva betyr det?",
-        "ingress": "Hvert team trenger noen som faktisk har ansvar. Uten klart eierskap mister teamet retning.",
+        "id": "teams-admin-oppsett",
+        "tittel": "Administrator: Hva IT-avdelingen setter opp sentralt",
+        "ingress": "IT-avdelingen definerer rammeverket alle eiere og brukere opererer innenfor.",
+        "oppdatert": "Oppdatert: 11.08.26",
         "kategori": "teams",
+        "tags": [
+          "administrator",
+          "IT",
+          "policyer",
+          "livsløp",
+          "følsomhetsetiketter",
+          "termlager",
+          "DLP",
+          "governance"
+        ],
+        "steg": [
+          {
+            "tittel": "Hvem kan opprette team",
+            "innhold": "Som standard kan alle med lisens opprette team. Uten begrensning vokser antallet ustrukturerte og navnerotet team raskt.\n\nTo tilnærminger:\n\n◦ **Begrenset opprettelse**: konfigurer Teams-policyen i Teams-admin-senteret. Begrens til en sikkerhetsgruppe, f.eks. alle avdelingsledere.\n◦ **Åpen opprettelse med rammer**: alle kan opprette team, men navnekonvensjoner og livsløpspolicyer sikrer orden.\n\n*Hvert team oppretter automatisk én Microsoft 365-gruppe, ett SharePoint-nettsted og én postboks – planlegg kapasitet og navnerom deretter.*"
+          },
+          {
+            "tittel": "Navnekonvensjoner og Teams-maler",
+            "innhold": "◦ **Prefiks/suffiks-policyer**: konfigurer i Microsoft Entra ID. Setter f.eks. «Avd-» eller «[-Innlandet]» automatisk foran eller bak teamnavnet.\n◦ **Teams-maler**: forhåndsdefinert kanalstruktur, apper og faneoppsett. Publiser maler per avdelingstype, f.eks. «Prosjektmal», «Seksjonmal» eller «Driftsteam».\n\n*Prefiks-policyer fra Entra ID gjelder ikke team du oppretter via admin-senteret – bare team brukere oppretter selv.*"
+          },
+          {
+            "tittel": "Følsomhetsetiketter: Purview-oppsett og publisering",
+            "innhold": "◦ Opprett **etiketthierarkiet** i Microsoft Purview (Compliance-portalen)\n◦ **Publiser etiketter til grupper** – ikke alle ansatte trenger tilgang til alle etiketter\n◦ Etiketten teameier velger for teamet **arves av SharePoint-nettstedet** og styrer delingsinnstillinger\n◦ Sett en **standardetikett per SharePoint-bibliotek** – nye filer får etiketten automatisk\n◦ Bruk **automatisk etikettering** for å identifisere og merke filer med SSN, IBAN eller annen sensitiv informasjon – uten at brukeren gjør noe\n\n*For brukerperspektivet på etiketter: se veiledningen om følsomhetsetiketter.*"
+          },
+          {
+            "tittel": "Termlager: metadata for hele organisasjonen",
+            "innhold": "Termlageret i SharePoint er den sentrale kilden for begreper som skal gjelde på tvers.\n\n◦ Konfigurer det i **SharePoint Admin Center** via Innholdssenteret (Content Type Hub)\n◦ Begrepsett du publiserer til termlageret kan kanaleiere bruke i bibliotekets kolonner – uten å kontakte IT\n◦ Bruk termlager for begreper med fast gyldighetsomfang: prosjektnummer, dokumenttype, avdeling, prosess\n◦ Enkle tekst- og tallkolonner som bare gjelder ett bibliotek er kanaleiernes ansvar\n\n*Et godt termlager gjør Copilot bedre. Strukturerte metadata er mer presise søkedata enn fritekst i filnavn.*"
+          },
+          {
+            "tittel": "DLP og oppbevaringsregler",
+            "innhold": "◦ **DLP-policyer** (Data Loss Prevention): blokkerer eller varsler ved deling av sensitiv informasjon – personnummer, helseopplysninger, kortdata. Konfigurer i Purview.\n◦ **Oppbevaringsregler**: behold eller slett innhold etter X år. Sett per SharePoint-nettsted, per følsomhetsetikett eller per Teams-kanal.\n◦ Reglene gjelder alltid – uavhengig av hva eiere og brukere gjør.\n\n*Oppbevaringsregler kan komme i konflikt med offentlighetsloven og arkivloven. Koordiner med arkivfaglig ansvarlig i organisasjonen.*"
+          },
+          {
+            "tittel": "Ekstern deling og gjestetilgang",
+            "innhold": "◦ **Gjestetilgang til team**: slå av/på per organisasjon i Teams-admin-senteret. Teameier kan deretter åpne for gjester per team – innenfor rammen IT har satt.\n◦ **Delte kanaler**: B2B-direktetilkobling via Entra ID. Gjesten trenger ikke gjestkonto i din tenant. Krever tillitskonfigurasjon mellom tenantene.\n◦ **SharePoint-ekstern deling**: sett nivå i SharePoint Admin Center – fra «ingen ekstern deling» til «hvem som helst med lenke».\n\nBegrens ekstern deling til det organisasjonen har dokumentert behov for."
+          },
+          {
+            "tittel": "Livsløpsstyring: utløp og fornyelse",
+            "innhold": "◦ Konfigurer **utløpspolicyer for Microsoft 365-grupper** i Microsoft Entra ID\n◦ Anbefalte intervaller: 6 eller 12 måneder – eier får e-postvarsel og fornyer med ett klikk\n◦ Utløpte grupper slettes etter 30 dager. Gjenoppretting er mulig i 30 dager etter sletting.\n◦ Team uten aktive eiere varsler IT – innhold uten ansvarlig eier er en informasjonsforvaltningsrisiko\n\n*Livsløpspolicyer hindrer at hundrevis av «sovende» team tetter igjen søket og Copilots datagrunnlag.*"
+          },
+          {
+            "tittel": "Rolleoversikt: hvem gjør hva",
+            "innhold": "◦ **Administrator (IT)**: etiketthierarki, DLP, navnekonvensjoner, livsløpspolicyer, ekstern delingstillatelse, termlager, Teams-maler, hvem som kan opprette team\n◦ **Teameier**: etikett-valg for teamet, kanalstruktur, hvem som er eier og medlem, nettstedkolonner, teaminnstillinger\n◦ **Kanaleier**: kolonner og standardverdier i SharePoint-biblioteket for kanalen, faneoppsett, moderering\n◦ **Bruker**: etikett på enkeltfil innenfor teamets etikett, fyller inn metadata ved lagring"
+          }
+        ],
+        "relaterte": [
+          "teams-eierskap",
+          "kanal-arkivering",
+          "folsomhetsetiketter",
+          "sharepoint-metadata"
+        ],
+        "endret": "2026-08-11"
+      },
+      {
+        "id": "teams-eierskap",
+        "tittel": "Teameier: Fra oppretting til avslutning",
+        "ingress": "Teameieren eier rammeverket alle i teamet jobber innenfor – og er ansvarlig for at det holdes i orden.",
+        "kategori": "teams",
+        "oppdatert": "Oppdatert: 03.06.26",
         "tags": [
           "eierskap",
           "team",
           "ansvar",
-          "styring"
+          "livsløp",
+          "metadata",
+          "SharePoint",
+          "følsomhetsetikett"
         ],
         "steg": [
           {
-            "tittel": "Minst to eiere, med faglig ansvar",
-            "innhold": "Manglende eierskap er den vanligste årsaken til kaos i Teams. Nye kanaler dukker opp, gamle blir liggende, filer havner på rare steder. Klart eierskap gir motvekt: Noen følger med, rydder og tar beslutninger på vegne av teamet.\n\nEt team skal ha **minst to eiere**. Det sikrer kontinuitet hvis én slutter, blir syk eller endrer rolle. Velg eiere som har **faglig ansvar** for arbeidet, ikke en IT-person som «administrerer» teamet på distanse. Eieren skal kunne svare på «hva jobber dette teamet med?» og «hvem hører til her?».\n\nFor prosjektteam: Hent gjerne eiere fra ulike enheter. Det reduserer siloer og gir bredere forankring."
+            "tittel": "Hva eierrollen faktisk innebærer",
+            "innhold": "Teameierrollen er ikke bare admin-rettigheter – det er faglig ansvar for at teamet er riktig satt opp, brukes som det skal og avsluttes ryddig.\n\n◦ **Kanalstruktur**: bestemme hvilke kanaler som opprettes og av hvilken type\n◦ **Medlemmer og roller**: hvem som har tilgang og med hvilken rettighet\n◦ **Innstillinger**: hva teammedlemmer kan og ikke kan gjøre\n◦ **Vedlikehold**: rydde, oppdatere og avslutte teamet over tid\n\n*Minst to eiere per team – én eier er sårbart ved fravær, sykdom eller bytte av stilling.*"
           },
           {
-            "tittel": "Hva eieren faktisk gjør",
-            "innhold": "Som eier har du fire hovedoppgaver:\n\n◦ **Hold strukturen enkel**: Si nei til kanaler ingen trenger, slå sammen overlapp, gi kanaler tydelige navn.\n◦ **Følg med på bruken**: Hvis en kanal aldri har innlegg, er den sannsynligvis unødvendig. Slett den.\n◦ **Styr tilgangen**: Godkjenn nye medlemmer, fjern de som ikke lenger jobber med saken, og vurder gjestetilgang bevisst.\n◦ **Forvalt livsløpet**: når prosjektet er ferdig, sørg for arkivering eller sletting. Ikke la teamet bare ligge.\n\nIngen av disse oppgavene er teknisk vanskelige. Det handler om å ta ansvaret seriøst."
+            "tittel": "Opprett teamet riktig fra start",
+            "innhold": "Tre valg ved oppretting er vanskelige å endre i ettertid:\n\n◦ **Navn**: følg organisasjonens navnekonvensjon. IT kan ha satt prefiks-regler (f.eks. «Avd-» eller «Prosjekt-»).\n◦ **Type**: **Privat** er riktig for de fleste avdelinger. **Offentlig** gjør teamet søkbart for alle ansatte. **Org-bred** inkluderer automatisk hele organisasjonen.\n◦ **Følsomhetsetikett**: velg ut fra innholdets sensitivitetsnivå. Etiketten arves av SharePoint-nettstedet og styrer delingsinnstillinger – endring krever admin-hjelp."
           },
           {
-            "tittel": "Hva hvis eieren slutter eller bytter rolle?",
-            "innhold": "Med to eiere er du allerede halvveis dekket. Den andre tar over når én forsvinner.\n\nNår en eier slutter eller bytter rolle:\n\n1. Den gjenværende eieren legger til en ny medeier **før** den gamle mister tilgangen.\n2. Den nye eieren får en kort overlevering: hvilke kanaler er aktive, hvilke avtaler gjelder, hva er status.\n3. Den gamle eieren fjernes fra eierlisten, men kan fortsatt være medlem hvis det er relevant.\n\nUnngå at et team står med kun én eier i lange perioder. Det er en sårbarhet."
+            "tittel": "Design kanalstrukturen",
+            "innhold": "Kanalene er arbeidsrommene teamet bruker daglig. Rammeverket du setter, er utgangspunktet for alle kanaleiere.\n\n◦ **Standardkanal**: synlig for alle teammedlemmer – bruk for felles arbeidsstrømmer\n◦ **Privat kanal**: kun for de inviterte – eget SharePoint-nettsted, arver ikke teamets etikett automatisk\n◦ **Delt kanal**: åpent for deltakere fra andre team eller organisasjoner – eget SharePoint-nettsted\n\nStart med 5–8 kanaler. Nye kanaler kan alltid legges til – tomme kanaler er støy.\n\n*Se veiledning for kanaleier for detaljert oppsett av det enkelte arbeidsrommet.*"
           },
           {
-            "tittel": "Hold antallet eiere håndterlig",
-            "innhold": "To eiere er minimum. **Tre til fire er ofte ideelt** for større team. Mer enn det fungerer sjelden. Eierskap blir utvannet og ingen tar reelt ansvar.\n\nSkill mellom **eier** (administrativt ansvar) og **medlem** (deltar i arbeidet). De fleste i et team skal være medlemmer, ikke eiere."
+            "tittel": "Administrer medlemmer og roller",
+            "innhold": "◦ **Eier**: kan slette innhold og endre alle innstillinger. Hold antallet lavt – 2–3 eiere er ideelt.\n◦ **Medlem**: kan lese, skrive og samarbeide. Standard for alle ansatte i teamet.\n◦ **Gjest**: ekstern bruker med begrensede rettigheter. Krever at IT har åpnet for gjestetilgang.\n\nGjennomgå medlemslisten kvartalsvis: fjern ansatte som har sluttet eller byttet avdeling.\n\n*Tips: Gi rollen «Eier» kun til de som trenger å administrere teamet – ikke som en honnørtittel.*"
+          },
+          {
+            "tittel": "SharePoint-nettstedet som følger teamet",
+            "innhold": "Hvert team får automatisk et SharePoint-nettsted – det er her filene faktisk lagres.\n\n◦ **Standardkanaler** deler teamets SharePoint-nettsted\n◦ **Private og delte kanaler** får egne SharePoint-nettsteder med separate tilganger og etiketter\n◦ Som teameier kan du legge til **nettstedkolonner** – metadata som gjelder alle standardkanalbiblioteker samlet\n◦ Følsomhetsetiketten du valgte ved opprettelse, styrer nettstedets delingsregler\n\n*Åpne nettstedet: Gå til en standardkanal → **Filer**-fanen → **Åpne i SharePoint**.*"
+          },
+          {
+            "tittel": "Hva teameier styrer – hva IT styrer",
+            "innhold": "◦ **IT definerer**: etiketthierarkiet, DLP-policyer, navnekonvensjoner, livsløpspolicyer, ekstern delingstillatelse, termlager\n◦ **Teameier velger**: hvilken etikett teamet bruker, kanalstruktur, hvem som er eier og medlem, teaminnstillinger, nettstedkolonner\n◦ **Kanaleier gjør**: kolonneoppsett i biblioteket, standardverdier per mappe, faneoppsett, moderering\n◦ **Bruker gjør**: etikett på enkeltfil innenfor teamets etikett, metadata ved lagring\n\nDu kan ikke heve etiketten utover hva IT har publisert til din brukergruppe. DLP-policyer gjelder alltid."
+          },
+          {
+            "tittel": "Løpende vedlikehold",
+            "innhold": "◦ **Kvartalsvis**: gå gjennom medlemslisten, fjern inaktive og avgåtte ansatte\n◦ **Sjekk kanalene**: slett eller arkiver kanaler som ikke lenger er i aktiv bruk\n◦ **Hold to eiere**: oppdater eierskap ved stillingsbytter og frafall\n◦ **Forny ved varsel**: IT kan ha satt utløpstid på gruppen – forny med ett klikk\n\n*Uten løpende vedlikehold vokser teamet til et uoversiktlig arkiv ingen stoler på.*"
+          },
+          {
+            "tittel": "Avslutt eller arkiver teamet",
+            "innhold": "Gjør dette FØR du arkiverer eller sletter:\n\n◦ Flytt varig innhold til et fellesområde i SharePoint\n◦ Sjekk at relevante dokumenter er korrekt klassifisert og merket\n◦ Informer teammedlemmene\n\n**Arkiver** når innholdet kan ha verdi i ettertid: teamet fryses til skrivebeskyttet, bevares og forblir søkbart. Kan reverseres.\n\n**Slett** når innholdet ikke har varig verdi utover det som er flyttet: all tilknyttet data slettes. Kan gjenopprettes i 30 dager.\n\n*Gå til teamnavnet → tre prikker → **Administrer team** → **Arkiver team**.*"
           }
         ],
-        "oppdatert": "Oppdatert: 03.06.26",
         "relaterte": [
-          "teams-hierarki",
+          "teams-admin-oppsett",
+          "kanal-arkivering",
           "kanaltyper",
-          "kanal-arkivering"
+          "folsomhetsetiketter"
         ],
-        "endret": "2026-06-05"
+        "endret": "2026-08-11"
       },
       {
         "id": "kanal-arkivering",
-        "tittel": "Når prosjektet er ferdig: Arkiver eller slett kanalen",
-        "ingress": "Slik avvikler du en kanal som har gjort jobben sin.",
+        "tittel": "Kanaleier: Oppsett, innhold og avslutning",
+        "ingress": "Som kanaleier eier du ett arbeidsrom. Du bestemmer struktur, verktøy og innholdsorganisering for det.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "teams",
         "tags": [
           "kanal",
-          "arkivering",
+          "kanaleier",
           "livsløp",
-          "prosjekt",
-          "anskaffelse"
+          "SharePoint",
+          "metadata",
+          "faner",
+          "moderering"
         ],
         "steg": [
           {
-            "tittel": "Tre faser i kanalens livsløp",
-            "innhold": "Hver kanal går gjennom tre tydelige faser:\n\n1. **Aktiv**: samtaler, samskriving og møter pågår. Filer endres ofte.\n2. **Ferdig**: hovedarbeidet er gjort. Sluttproduktene er levert. Noen oppfølginger og henvisninger gjenstår.\n3. **Avsluttet**: alt er ferdig. Kanalen er arkivert eller slettet, og sluttproduktene er flyttet til riktig arkivsystem.\n\nMange kanaler blir stående i fase 2 i månedsvis fordi ingen tar beslutningen om å gå videre. Eieren har ansvar for å lukke kanalen når jobben er gjort."
+            "tittel": "Hva du har ansvar for som kanaleier",
+            "innhold": "Kanaleieren er ikke det samme som teameieren. Du opererer innenfor rammene teameieren har satt, men du bestemmer mye innenfor dem.\n\n◦ **SharePoint-biblioteket**: kolonner, standardverdier og visninger for kanalens filer\n◦ **Faner**: hvilke verktøy som er tilgjengelige i kanalen\n◦ **Moderering**: hvem som kan poste og svare\n◦ **Vedlikehold**: rydding, arkivering og sletting av kanalen"
           },
           {
-            "tittel": "Rydding før avslutning",
-            "innhold": "Før du arkiverer eller sletter, gjør en rydderunde:\n\n◦ **Slett utkast og kladder** som ikke ble brukt\n◦ **Slett duplikater** og gamle versjoner. Versjonshistorikken ivaretar dem uansett.\n◦ **Behold sluttproduktene**: rapporter, leveranser, beslutningsgrunnlag, kontrakter.\n◦ **Slett midlertidige filer**: skjermbilder, råtekst, møtebilder.\n\nMålet er at det som gjenstår, faktisk har varig verdi."
+            "tittel": "Kanaltype bestemmer mer enn tilgang",
+            "innhold": "Velger du feil kanaltype, er det vanskelig å endre i ettertid.\n\n◦ **Standardkanal**: deler teamets SharePoint-nettsted. Arver teamets følsomhetsetikett. Tilgang = teammedlemskap.\n◦ **Privat kanal**: eget SharePoint-nettsted. Arver ikke teamets etikett – du setter etiketten separat. Tilgang = kanalmedlemskap.\n◦ **Delt kanal**: eget SharePoint-nettsted. Ekstern tilgang mulig uten gjestkonto. Tilgang = kanalmedlemskap.\n\n*Bruk private og delte kanaler kun når innholdet faktisk skal skjermes. Andre teammedlemmer kan ikke søke i dem.*"
           },
           {
-            "tittel": "Flytt sluttproduktene til riktig sted",
-            "innhold": "*Sluttproduktene hører hjemme i et arkivsystem, ikke i en arkivert kanal.*\n\nTypiske destinasjoner:\n\n◦ **Arkivsystem** (for eksempel Acos WebSak): offisielle dokumenter, vedtak, beslutningsgrunnlag, kontrakter\n◦ **SharePoint-bibliotek**: prosessdokumentasjon som skal leve videre som referanse\n◦ **Fagsystem**: innhold som hører hjemme der\n\nIkke la sluttproduktene bli liggende i en arkivert kanal som ingen åpner."
+            "tittel": "Sett opp SharePoint-biblioteket i kanalen",
+            "innhold": "Kanalens filer lagres i et SharePoint-bibliotek. Du kan strukturere det uten å kontakte IT.\n\n◦ **Legg til kolonner**: klikk **+** øverst i bibliotekets kolonnerekke. Legg til f.eks. prosjektnummer, dokumenttype eller status.\n◦ **Sett standardverdier per mappe**: høyreklikk mappen → **Administrer standardverdier**. Nye filer i mappen får verdien automatisk.\n◦ **Lag visninger**: filtrer og sorter etter metadata du har definert.\n\n*Kolonner du legger til gjelder bare dette biblioteket. Teameier må legge dem til som nettstedkolonner hvis de skal gjelde alle kanalene.*"
           },
           {
-            "tittel": "Arkiver eller slett: Slik velger du",
-            "innhold": "Når sluttproduktene er trygt på plass, har eieren to valg.\n\n**Arkiver kanalen når**\n\n◦ Det kan være behov for å se på samtaler eller filer i ettertid\n◦ Det er sannsynlig at lignende arbeid kommer igjen og dere ønsker historikk\n◦ Det er regulert eller revidert arbeid med dokumentasjonskrav\n\n*Arkivering låser kanalen. Samtaler, faner og filer blir skrivebeskyttet, og kanalen skjules fra kanallisten. Innholdet er fortsatt tilgjengelig i søk, og kanalen kan gjenopprettes når som helst.*\n\n**Slett kanalen når**\n\n◦ Innholdet ikke har varig verdi utover sluttproduktene som allerede er flyttet\n◦ Det er åpenbart engangsarbeid uten gjenbruksverdi\n◦ Personvernhensyn taler for sletting\n\n*Slettet kanal kan gjenopprettes innen 30 dager. Mappen i SharePoint blir liggende uansett. Slett den manuelt hvis det er nødvendig.*"
+            "tittel": "Slik arver kanalen etikett og metadata",
+            "innhold": "Tre nivåer styrer hvilken informasjon som følger filene:\n\n◦ **Teamets følsomhetsetikett** (satt av teameier) → arves av SharePoint-nettstedet og settes som standard for nye filer i standardkanalbiblioteker\n◦ **Bibliotekets standardkolonner** (du setter) → fylles inn automatisk for nye filer i en mappe\n◦ **Filens individuelle etikett og metadata** (brukeren setter) → kan justeres innenfor det IT tillater\n\nDu kan ikke sette en lavere etikett enn det teamet har. Du kan be brukere merke enkeltfiler med en mer spesifikk etikett innenfor hierarkiet."
           },
           {
-            "tittel": "Slik gjør du det i Teams",
-            "innhold": "**Hvem kan utføre**\n\n◦ **Teameier**: kan arkivere og slette alle kanaltyper i teamet\n◦ **Kanaleier**: kan arkivere og slette private og delte kanaler de eier\n\n**Arkiver én kanal**\n\nPek på kanalen → tre prikker → **Arkiver kanal**. Velg om filene skal være skrivebeskyttet.\n\n*Anbefalt for ferdige prosjekter, slik at ingen endrer innholdet i ettertid.*\n\n**Arkiver flere samtidig**\n\n**Administrer team** → fanen **Kanaler** → velg kanaler → **Arkiver**.\n\n**Gjenopprett en kanal**\n\n**Administrer team** → **Kanaler** → utvid **Arkivert** → tre prikker → **Gjenopprett kanal**.\n\n**Slett en kanal**\n\nPek på kanalen → tre prikker → **Slett kanal**."
+            "tittel": "Sett opp faner i kanalen",
+            "innhold": "Faner gjør kanalen til ett samlet arbeidsrom. Klikk **+** på fanelinja og legg til:\n\n◦ **Planner**: oppgavetavle for kanalen\n◦ **Lists**: hendelseslogg, risikoregister eller sjekkliste\n◦ **OneNote**: notatblokk for kanalen\n◦ **SharePoint-side**: publiser informasjon rett i kanalen\n◦ **Forms**: skjema for registrering eller spørreundersøkelse\n◦ **Nettside**: fest en intern eller ekstern side\n\n*Hold antallet faner nede. For mange faner er like forstyrrende som for mange mapper.*"
+          },
+          {
+            "tittel": "Styr hvem som kan poste",
+            "innhold": "Standard: alle teammedlemmer kan poste i standardkanaler. Du kan endre dette:\n\n◦ **Slå på moderering**: bare moderatorer kan opprette nye innlegg. Andre svarer i tråder. Nyttig i informasjonskanaler.\n◦ **Utpek moderatorer**: velg hvem som kan publisere innlegg.\n\nGå til kanalnavnet → tre prikker → **Administrer kanal** → **Kanalmoderering**."
+          },
+          {
+            "tittel": "Rydd og avslutt kanalen",
+            "innhold": "Gjør dette FØR du arkiverer eller sletter:\n\n◦ Flytt sluttresultater og varige dokumenter til et fellesområde eller riktig arkivsystem\n◦ Sjekk at følsomhetsetiketter og metadata er på plass på filene som skal bevares\n◦ Slett arbeidsversjoner, utkast og duplikater\n\n**Arkiver** når innholdet kan ha verdi i ettertid: kanalen fryses til skrivebeskyttet og forblir søkbar. Teameier arkiverer standardkanaler. Du kan arkivere private og delte kanaler du eier.\n\n**Slett** når innholdet ikke har varig verdi. Mappen i SharePoint slettes ikke automatisk – gjør det manuelt ved behov.\n\n*Standardkanalen i et team kan ikke slettes – bare arkiveres.*"
           }
         ],
         "relaterte": [
-          "teams-hierarki",
-          "teams-eierskap"
+          "teams-eierskap",
+          "teams-admin-oppsett",
+          "sharepoint-metadata",
+          "folsomhetsetiketter"
         ],
-        "endret": "2026-06-05"
+        "endret": "2026-08-11"
       },
       {
         "id": "mappestrukturer",
