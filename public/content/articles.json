@@ -128,7 +128,7 @@
           },
           {
             "tittel": "Én arbeidsflate som samler alt",
-            "innhold": "Mange er vant til å mange programmer og nettleserfaner åpne samtidig. Det kan ende opp med SharePoint her, e-post der, Planner et sted, filer et annet sted. Det er forstyrrende, og hindrer deg i å utnytte potensialet for å jobbe sømløst mellom apper og i samarbeid med andre. Informasjonen spres fort i flere retninger enn nødvendig og du (og andre) mister sammenhengen.\n\nNår du jobber i Teams, henger alt sammen. Kommentaren i dokumentet er synlig i kanalen, oppgaven fra møtet dukker opp i Planner, og Copilot finner innholdet fordi det ligger på riktig sted med riktige metadata."
+            "innhold": "Mange er vant til å ha mange programmer og nettleserfaner åpne samtidig. Det kan ende opp med SharePoint her, e-post der, Planner et sted, filer et annet sted. Det er forstyrrende og hindrer deg i å jobbe sømløst på tvers av apper og i samarbeid med andre. Informasjonen spres fort i flere retninger enn nødvendig, og du (og andre) mister sammenhengen.\n\nNår du jobber i Teams, henger alt sammen. Kommentaren i dokumentet er synlig i kanalen, oppgaven fra møtet dukker opp i Planner, og Copilot finner innholdet fordi det ligger på riktig sted med riktige metadata."
           }
         ],
         "relaterte": [
@@ -250,7 +250,7 @@
         "steg": [
           {
             "tittel": "Hva er en følsomhetsetikett?",
-            "innhold": "En **følsomhetsetikett** er en merkelapp du f.eks. setter på dokumenter og e-post. Den forteller M365 hvor sensitivt innholdet er, og hvilke regler som gjelder for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n◦ **Åpent**: kan deles fritt\n◦ **Internt**: kun for ansatte\n◦ **Sensitivt**: kun for utvalgte mottakere\n◦ **Ekstra sensitivt**: kryptert, kun navngitte personer\n\nEtikettene er definert på organisasjonsnivå og gjelder på tvers av alle dokumenter, filer og annet innhold i M365. Navnene på følsomhetsetikettene kan se annerledes ut i virksomheten du jobber i."
+            "innhold": "En **følsomhetsetikett** er en merkelapp du f.eks. setter på dokumenter og e-post. Den forteller M365 hvor sensitivt innholdet er, og hvilke regler som gjelder for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n◦ **Åpent**: kan deles fritt\n◦ **Internt**: kun for ansatte\n◦ **Sensitivt**: kun for utvalgte mottakere\n◦ **Ekstra sensitivt**: kryptert, kun navngitte personer\n\nEtikettene er definert på organisasjonsnivå og gjelder på tvers av alle dokumenter, filer og annet innhold i M365. Navnene på følsomhetsetikettene kan se annerledes ut i organisasjonen du jobber i."
           },
           {
             "tittel": "Slik klassifiserer du et dokument",
@@ -332,7 +332,7 @@
         "steg": [
           {
             "tittel": "Word-fila som arbeidsverktøy",
-            "innhold": "En Word-fil i SharePoint er bedre enn et Word-vedlegg som sirkulerer på e-post. Men det er fremdeles en fil. Statisk, uten metadata, dårlig som levende referanse, selv om Copilot kan lese innholdet.\n\nSpørsmålet er ikke «Word eller ikke Word». Spørsmålet er: **Trenger dette å være et dokument, eller er det arbeidsinnhold som lever og endres?**"
+            "innhold": "En Word-fil i SharePoint er bedre enn et Word-vedlegg som sirkulerer på e-post. Men det er fremdeles en fil – statisk, uten metadata og dårlig som levende referanse, selv om Copilot kan lese innholdet.\n\nSpørsmålet er ikke «Word eller ikke Word». Spørsmålet er: **Trenger dette å være et dokument, eller er det arbeidsinnhold som lever og endres?**"
           },
           {
             "tittel": "Bruk Loop når innholdet lever",
@@ -509,7 +509,7 @@
       {
         "id": "m365-copilot-aktivert",
         "tittel": "Hva får du med Microsoft 365 Copilot?",
-        "ingress": "Microsoft 365 Copilot låser opp KI inne i alle M365-appene, og noen helt nye flater. Når lisensen er aktiv, viser sidemenyen «Microsoft 365 Copilot (Premium)» i stedet for «Copilot Chat (Grunnleggende)».",
+        "ingress": "Med Microsoft 365 Copilot får du KI innebygd i alle M365-appene, egne arbeidsflater og tilgang til avanserte agenter.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
         "tags": [
@@ -631,7 +631,7 @@
         "steg": [
           {
             "tittel": "Når passer en regelbasert chatbot?",
-            "innhold": "Bruk Copilot Studio når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen:\n\n◦ **HR-FAQ**: åpningstider, fridager, sykemelding\n◦ **IT-helpdesk**: tilbakestille passord, melde feil, bestille utstyr\n◦ **Onboarding**: gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter: Bruk Copilot Chat i Jobb-modus.\n\n*Den klassiske, regelbaserte Teams-versjonen er tillegg for M365 E5. Nye chatboter lages i web-appen til Copilot Studio. Teams-appen redirigerer dit.*"
+            "innhold": "Bruk Copilot Studio når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen:\n\n◦ **HR-FAQ**: åpningstider, fridager, sykemelding\n◦ **IT-helpdesk**: tilbakestille passord, melde feil, bestille utstyr\n◦ **Onboarding**: gi nye ansatte struktur og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Til frie spørsmål mot dokumenter: Bruk Copilot Chat i Jobb-modus.\n\n*Den klassiske, regelbaserte Teams-versjonen er et tillegg for M365 E5. Nye chatboter lages i web-appen til Copilot Studio. Teams-appen redirigerer dit.*"
           },
           {
             "tittel": "Velg team som skal eie chatbotten",
@@ -663,7 +663,7 @@
           },
           {
             "tittel": "Dette krever tillegg",
-            "innhold": "Den klassiske Teams-versjonen er tillegg for M365 E5 og har disse rammene:\n\n◦ **Regelbasert**: svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller premium-koblinger kreves full Copilot Studio. Som tillegg med egen lisens eller forbruksbaserte **Copilot Credits**, eller via Microsoft 365 Copilot-lisensen som siden september 2025 inkluderer full Copilot Studio for interne brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Nye lages i web-appen til Copilot Studio. Teams-appen redirigerer dit.*"
+            "innhold": "Den klassiske Teams-versjonen er et tillegg for M365 E5 og har disse rammene:\n\n◦ **Regelbasert**: svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller premium-koblinger kreves full Copilot Studio. Som tillegg med egen lisens eller forbruksbaserte **Copilot Credits**, eller via Microsoft 365 Copilot-lisensen som siden september 2025 inkluderer full Copilot Studio for interne brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Nye lages i web-appen til Copilot Studio. Teams-appen redirigerer dit.*"
           }
         ],
         "relaterte": [
@@ -711,7 +711,7 @@
           },
           {
             "tittel": "Få varsler ved nye hendelser",
-            "innhold": "Klikk **Automatiser** → **Opprett en regel**. Vanlige regler:\n\n◦ *Når en hendelse opprettes med prioritet «Kritisk», varsle teamleder via e-post*\n◦ *Når status endres til «Løst», varsle innmelder*\n\nReglene er innebygd i Lists og krever ikke ekstra oppsett. *Mer komplekse varsler kan settes opp via Power Automate.*"
+            "innhold": "Klikk **Automatiser** → **Opprett en regel**. Vanlige regler:\n\n◦ *Når en hendelse opprettes med prioritet «Kritisk», varsle teamleder via e-post*\n◦ *Når status endres til «Løst», varsle innmelder*\n\nReglene er innebygd i Lists og krever ikke ekstra oppsett. *Trenger du mer komplekse varsler, bruk Power Automate.*"
           },
           {
             "tittel": "Bruk tavlevisning for oppfølging",
@@ -816,7 +816,7 @@
           },
           {
             "tittel": "Når Outlook for web ikke holder: Bytt til skrivebordsversjonen",
-            "innhold": "Outlook er ikke innebygd i Teams. Den er en egen app ved siden av. Outlook for web dekker daglig e-post og kalender, men skrivebordsversjonen har noen funksjoner som ikke finnes eller fungerer dårligere på web:\n\n◦ **Søkemapper**: virtuelle mapper basert på kriterier (store e-postmeldinger, gammel e-post, fra avsender)\n◦ **Regler**: mer omfattende oppsett med flere steg og betingelser\n◦ **Delegering**: gi en kollega tilgang til innboks eller kalender på dine vegne\n◦ **Hurtigtrinn**: knapper for repeterte oppgaver med hurtigtast\n◦ **Avansert søk**: flere filtre og kombinasjoner\n\nBruker du Teams som hovedflate, kan du fortsatt høyreklikke en e-post i Outlook → **Del til Teams** for å løfte tråden over i en kanal eller chat."
+            "innhold": "Outlook er ikke innebygd i Teams. Den er en egen app ved siden av. Outlook for web dekker daglig e-post og kalender. Noen funksjoner finnes ikke eller fungerer dårligere der:\n\n◦ **Søkemapper**: virtuelle mapper basert på kriterier (store e-postmeldinger, gammel e-post, fra avsender)\n◦ **Regler**: mer omfattende oppsett med flere steg og betingelser\n◦ **Delegering**: gi en kollega tilgang til innboks eller kalender på dine vegne\n◦ **Hurtigtrinn**: knapper for repeterte oppgaver med hurtigtast\n◦ **Avansert søk**: flere filtre og kombinasjoner\n\nBruker du Teams som hovedflate, kan du fortsatt høyreklikke en e-post i Outlook → **Del til Teams** for å løfte tråden over i en kanal eller chat."
           }
         ],
         "relaterte": [
@@ -988,7 +988,7 @@
       {
         "id": "sharepoint-metadata",
         "tittel": "Metadata i SharePoint: Finn dokumentet uten å lete",
-        "ingress": "I stedet for å utelukkende stole på mapper, lar metadata deg beskrive hva et dokument er i stedet for hvor det befinner seg.",
+        "ingress": "Metadata lar deg beskrive hva et dokument handler om – ikke bare hvor det befinner seg.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "sharepoint",
         "tags": [
@@ -1228,7 +1228,7 @@
           },
           {
             "tittel": "Ta opp møtet og del transkripsjonen",
-            "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du både video og **transkripsjon**, finnbart, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. Transkripsjonen kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
+            "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du video og **transkripsjon** – søkbar, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. Transkripsjonen kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
           }
         ],
         "oppdatert": "Oppdatert: 03.06.26",
@@ -1342,7 +1342,7 @@
           },
           {
             "tittel": "Avslutt eller arkiver teamet",
-            "innhold": "Gjør dette FØR du arkiverer eller sletter:\n\n◦ Flytt varig innhold til et fellesområde i SharePoint\n◦ Sjekk at relevante dokumenter er korrekt klassifisert og merket\n◦ Informer teammedlemmene\n\n**Arkiver** når innholdet kan ha verdi i ettertid: teamet fryses til skrivebeskyttet, bevares og forblir søkbart. Kan reverseres.\n\n**Slett** når innholdet ikke har varig verdi utover det som er flyttet: all tilknyttet data slettes. Kan gjenopprettes i 30 dager.\n\n*Gå til teamnavnet → tre prikker → **Administrer team** → **Arkiver team**.*"
+            "innhold": "Gjør dette **før** du arkiverer eller sletter:\n\n◦ Flytt varig innhold til et fellesområde i SharePoint\n◦ Sjekk at relevante dokumenter er korrekt klassifisert og merket\n◦ Informer teammedlemmene\n\n**Arkiver** når innholdet kan ha verdi i ettertid: teamet fryses til skrivebeskyttet, bevares og forblir søkbart. Kan reverseres.\n\n**Slett** når innholdet ikke har varig verdi utover det som er flyttet: all tilknyttet data slettes. Kan gjenopprettes i 30 dager.\n\n*Gå til teamnavnet → tre prikker → **Administrer team** → **Arkiver team**.*"
           }
         ],
         "relaterte": [
@@ -1395,7 +1395,7 @@
           },
           {
             "tittel": "Rydd og avslutt kanalen",
-            "innhold": "Gjør dette FØR du arkiverer eller sletter:\n\n◦ Flytt sluttresultater og varige dokumenter til et fellesområde eller riktig arkivsystem\n◦ Sjekk at følsomhetsetiketter og metadata er på plass på filene som skal bevares\n◦ Slett arbeidsversjoner, utkast og duplikater\n\n**Arkiver** når innholdet kan ha verdi i ettertid: kanalen fryses til skrivebeskyttet og forblir søkbar. Teameier arkiverer standardkanaler. Du kan arkivere private og delte kanaler du eier.\n\n**Slett** når innholdet ikke har varig verdi. Mappen i SharePoint slettes ikke automatisk – gjør det manuelt ved behov.\n\n*Standardkanalen i et team kan ikke slettes – bare arkiveres.*"
+            "innhold": "Gjør dette **før** du arkiverer eller sletter:\n\n◦ Flytt sluttresultater og varige dokumenter til et fellesområde eller riktig arkivsystem\n◦ Sjekk at følsomhetsetiketter og metadata er på plass på filene som skal bevares\n◦ Slett arbeidsversjoner, utkast og duplikater\n\n**Arkiver** når innholdet kan ha verdi i ettertid: kanalen fryses til skrivebeskyttet og forblir søkbar. Teameier arkiverer standardkanaler. Du kan arkivere private og delte kanaler du eier.\n\n**Slett** når innholdet ikke har varig verdi. Mappen i SharePoint slettes ikke automatisk – gjør det manuelt ved behov.\n\n*Standardkanalen i et team kan ikke slettes – bare arkiveres.*"
           }
         ],
         "relaterte": [
@@ -1469,7 +1469,7 @@
           },
           {
             "tittel": "Delt kanal: på tvers av team",
-            "innhold": "**Delt kanal** lar deg samarbeide med personer som ikke er medlemmer av teamet ditt, for eksempel kolleger fra andre avdelinger.\n\n*Merk: eksterne gjester kan ikke legges til delte kanaler.*\n\nDelte kanaler bruker **Entra B2B Direct Connect**, ikke gjestebrukere. Eksterne må ha en M365/Entra-konto i en samarbeidende tenant, og tillit mellom tenantene må være konfigurert.\n\nBruk delt kanal når:\n\n◦ Du trenger fast samarbeid med folk i andre team eller avdelinger uten å ha dem som medlemmer i teamet ditt\n◦ En tverrfaglig arbeidsgruppe skal ha et eget rom\n◦ Innholdet hører naturlig hjemme i flere team samtidig\n\nDelte kanaler reduserer behovet for å sende meldinger og dele filer mellom team."
+            "innhold": "**Delt kanal** lar deg samarbeide med personer som ikke er medlemmer av teamet ditt, for eksempel kolleger fra andre avdelinger.\n\n*Merk: du kan ikke legge til eksterne gjester i delte kanaler.*\n\nDelte kanaler bruker **Entra B2B Direct Connect**, ikke gjestebrukere. Eksterne må ha en M365/Entra-konto i en samarbeidende tenant, og tillit mellom tenantene må være konfigurert.\n\nBruk delt kanal når:\n\n◦ Du trenger fast samarbeid med folk i andre team eller avdelinger uten å ha dem som medlemmer i teamet ditt\n◦ En tverrfaglig arbeidsgruppe skal ha et eget rom\n◦ Innholdet hører naturlig hjemme i flere team samtidig\n\nDelte kanaler reduserer behovet for å sende meldinger og dele filer mellom team."
           },
           {
             "tittel": "Tommelfingerregel: Slik velger du",
@@ -1531,7 +1531,7 @@
           },
           {
             "tittel": "Autokorrektur i chat og kanaler",
-            "innhold": "Automatisk retting av skrivefeil sparer tid og reduserer pinlige tastefeil.\n\nFunksjonen fungerer automatisk i både chat og kanaler. Teams kjenner igjen vanlige feilstavelser og retter dem idet du trykker mellomrom."
+            "innhold": "Autokorrektur sparer tid og reduserer pinlige tastefeil.\n\nDen virker automatisk i chat og kanaler. Teams kjenner igjen vanlige feilstavelser og retter dem idet du trykker mellomrom."
           },
           {
             "tittel": "Åpne apper og kanaler i egne vinduer",
