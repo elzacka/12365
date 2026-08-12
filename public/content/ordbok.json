@@ -3472,7 +3472,7 @@
   {
     "id": "metadata",
     "tittel": "Metadata",
-    "forklaring": "Data om data – tilleggsdata som hjelper å tolke, identifisere og kontekstualisere andre data (tid, sted, format).",
+    "forklaring": "Data om data. Tilleggsdata som hjelper å tolke, identifisere og kontekstualisere andre data (tid, sted, format).",
     "tags": [
       "database",
       "datakvalitet"
