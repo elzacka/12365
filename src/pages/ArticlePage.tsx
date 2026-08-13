@@ -171,6 +171,18 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
+type Artikel = { steg: { tittel: string; innhold: string }[] }
+
+function stepForQuery(query: string, article: Artikel | undefined): number {
+  if (!query || !article) return 0
+  const q = toHighlight(query).toLowerCase()
+  for (let i = 0; i < article.steg.length; i++) {
+    const s = article.steg[i]
+    if (`${s.tittel} ${s.innhold}`.toLowerCase().includes(q)) return i
+  }
+  return 0
+}
+
 export function ArticlePage() {
   const publicCategories = use(fetchArticles())
   const categories = useMergedArticles(publicCategories)
@@ -182,18 +194,23 @@ export function ArticlePage() {
   const category = categories.find(k => k.id === kategoriId)
   const article = category?.artikler.find(a => a.id === artikkelId)
 
-  const [activeStep, setActiveStep] = useState(() => {
-    const q = toHighlight(searchQuery).toLowerCase()
-    if (!q || !article) return 0
-    for (let i = 0; i < article.steg.length; i++) {
-      const s = article.steg[i]
-      if (`${s.tittel} ${s.innhold}`.toLowerCase().includes(q)) return i
-    }
-    return 0
-  })
+  const [prevLocationKey, setPrevLocationKey] = useState(location.key)
+  const [activeStep, setActiveStep] = useState(() => stepForQuery(searchQuery, article))
   const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
   const [highlightActive, setHighlightActive] = useState(!!searchQuery)
   const { markArticleSeen } = useSeenVersions()
+
+  // Reset highlight and active step when the user navigates here from a new
+  // search (same URL params, different location.state). location.key is unique
+  // per navigation entry. Updating state during render avoids an effect-based
+  // extra render cycle and is the React-approved pattern for "reset on prop change".
+  if (prevLocationKey !== location.key) {
+    setPrevLocationKey(location.key)
+    if (searchQuery) {
+      setHighlightActive(true)
+      setActiveStep(stepForQuery(searchQuery, article))
+    }
+  }
 
   const totalSteps = article?.steg.length ?? 0
   const articleIdToMark = article && !article.skjult ? article.id : null

@@ -189,7 +189,7 @@ export function Ordbok() {
               aria-controls="ordbok-tips"
               className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600 transition-colors"
             >
-              Brukstips
+              Veiledning
               <ChevronRightIcon
                 size={12}
                 className={`transition-transform duration-150 ${showHelp ? '-rotate-90' : 'rotate-90'}`}

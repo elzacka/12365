@@ -1,7 +1,7 @@
 {
-  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (24/6-26)",
+  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (1/8-26)",
   "kildeUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-Enterprise.pdf",
-  "endret": "2026-07-20",
+  "endret": "2026-08-12",
   "tema": [
     {
       "id": "ki",
@@ -127,7 +127,7 @@
         {
           "navn": "Audit logs and eDiscovery for agent activity",
           "status": "inkludert",
-          "beskrivelse": "Komplett logg over alt agenter gjør, finnbar i Microsoft Purview."
+          "beskrivelse": "Komplett logg over alt agenter gjør, søkbar i Microsoft Purview."
         },
         {
           "navn": "Data Lifecycle Management for agent data and interactions",
@@ -1141,6 +1141,16 @@
           "navn": "Windows Enterprise LTSC og MDOP",
           "status": "inkludert",
           "beskrivelse": "Long-Term Servicing Channel: Windows-utgaven for spesialiserte stabilitetskrav som industrielle styringssystemer og medisinsk utstyr. Microsoft Desktop Optimization Pack (MDOP) gir avansert verktøykasse for app-virtualisering og styring. LTSC ikke tilgjengelig via CSP-kanaler."
+        },
+        {
+          "navn": "Quick Machine Recovery",
+          "status": "inkludert",
+          "beskrivelse": "Fjernbasert oppstartsreparasjon via Windows Update for enheter med oppstartsfeil. Windows oppdager problemet og henter en målrettet fiks via nettverket – uten at IT trenger fysisk tilgang til enheten."
+        },
+        {
+          "navn": "Post-quantum security APIs",
+          "status": "inkludert",
+          "beskrivelse": "API-er for kvantsikker kryptografi i Windows 11 Enterprise. Lar applikasjoner ta i bruk kvanteresistente algoritmer og dermed forberede seg på fremtidens kvantecomputertrusler. Tilgjengelig i Windows 11 Enterprise E5-nivå."
         }
       ]
     }
