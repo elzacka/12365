@@ -19,6 +19,20 @@ const FILTERS: { id: FilterId; label: string }[] = [
   { id: 'tillegg', label: 'Tilleggskjøp' },
 ]
 
+function normalize(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/æ/g, 'ae')
+    .replace(/ø/g, 'o')
+    .replace(/å/g, 'a')
+}
+
+function matchesQuery(catNavn: string, f: LicenseFeature, q: string): boolean {
+  if (!q) return true
+  if (normalize(catNavn).includes(q)) return true
+  return normalize(f.navn).includes(q) || normalize(f.beskrivelse ?? '').includes(q)
+}
+
 const STATUS_CONFIG: Record<
   LicenseStatus,
   { bg: string; text: string; ring: string; Icon: typeof CheckIcon; label: string }
@@ -64,13 +78,14 @@ export function Licenses() {
   const [query, setQuery] = useState('')
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const [activeFeature, setActiveFeature] = useState<string | null>(null)
+  const [showHelp, setShowHelp] = useState(false)
   const { markLicenseSeen } = useSeenVersions()
 
   useEffect(() => {
     markLicenseSeen()
   }, [markLicenseSeen])
 
-  const normalizedQuery = query.trim().toLowerCase()
+  const normalizedQuery = normalize(query.trim())
   const isFiltered = activeFilter !== 'alle' || normalizedQuery.length > 0
 
   const filteredCategories = useMemo(() => {
@@ -78,8 +93,7 @@ export function Licenses() {
       .map(cat => ({
         ...cat,
         funksjoner: cat.funksjoner.filter(f =>
-          passesFilter(f, activeFilter) &&
-          (normalizedQuery ? f.navn.toLowerCase().includes(normalizedQuery) : true)
+          passesFilter(f, activeFilter) && matchesQuery(cat.navn, f, normalizedQuery)
         ),
       }))
       .filter(cat => cat.funksjoner.length > 0)
@@ -103,10 +117,7 @@ export function Licenses() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-10 max-w-2xl mx-auto w-full">
-        {/* Guidance + source */}
-        <p className="text-center text-sm text-slate-500 mb-1">
-          Trykk for å se hva de ulike tingene brukes til
-        </p>
+        {/* Source */}
         <p className="text-center text-[10px] italic mb-3">
           <a
             href={data.kildeUrl}
@@ -120,31 +131,88 @@ export function Licenses() {
         </p>
 
         {/* Search */}
-        <div className="relative mb-3">
-          <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400">
-            <SearchIcon size={18} />
+        <div className="mb-1">
+          <div className="relative">
+            <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400">
+              <SearchIcon size={18} />
+            </div>
+            <input
+              type="search"
+              placeholder="Søk etter app, tjeneste, funksjon..."
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              autoCapitalize="none"
+              autoCorrect="off"
+              spellCheck={false}
+              inputMode="search"
+              className="w-full pl-10 pr-9 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
+              aria-label="Søk i lisensfunksjoner"
+            />
+            {query && (
+              <button
+                onClick={() => setQuery('')}
+                className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
+                aria-label="Tøm søk"
+              >
+                <CloseIcon size={16} />
+              </button>
+            )}
           </div>
-          <input
-            type="search"
-            placeholder="Søk etter app, tjeneste, funksjon..."
-            value={query}
-            onChange={e => setQuery(e.target.value)}
-            className="w-full pl-10 pr-9 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
-            aria-label="Søk i lisensfunksjoner"
-          />
-          {query && (
+
+          <div className="flex justify-end mt-1.5">
             <button
-              onClick={() => setQuery('')}
-              className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
-              aria-label="Tøm søk"
+              type="button"
+              onClick={() => setShowHelp(v => !v)}
+              aria-expanded={showHelp}
+              aria-controls="lisens-tips"
+              className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600 transition-colors"
             >
-              <CloseIcon size={16} />
+              Veiledning
+              <ChevronRightIcon
+                size={12}
+                className={`transition-transform duration-150 ${showHelp ? '-rotate-90' : 'rotate-90'}`}
+              />
             </button>
+          </div>
+
+          {showHelp && (
+            <div
+              id="lisens-tips"
+              className="mt-1 bg-white rounded-xl border border-slate-200 shadow-sm px-4 py-3"
+            >
+              <div className="space-y-3 text-xs">
+                <div>
+                  <p className="text-slate-400 font-medium mb-1.5">Søk – eksempler:</p>
+                  <div className="space-y-2">
+                    {([
+                      { kode: 'engage', beskrivelse: 'finner kategorien «Viva Engage» og alle funksjonene under den' },
+                      { kode: 'copilot', beskrivelse: 'finner alle Copilot-funksjoner og annet der Copilot nevnes' },
+                    ] as const).map(({ kode, beskrivelse }) => (
+                      <div key={kode} className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                        <code className="font-mono bg-slate-100 text-slate-700 rounded px-1 py-0.5 whitespace-nowrap">
+                          {kode}
+                        </code>
+                        <span className="text-slate-500">→ {beskrivelse}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-slate-400 mt-2">Søket leter i kategorinavn, funksjonsnavn og beskrivelser.</p>
+                </div>
+                <div className="pt-2 border-t border-slate-100">
+                  <p className="text-slate-400 font-medium mb-1">I listen</p>
+                  <p className="text-slate-500">Utvid kategorien og trykk på en funksjon for å se beskrivelse av hva den brukes til.</p>
+                </div>
+                <div className="pt-2 border-t border-slate-100">
+                  <p className="text-slate-400 font-medium mb-1">Om kategoriene</p>
+                  <p className="text-slate-500">Inndelingen følger Microsofts egne lisenskomponenter, ikke brukeropplevelsen. En app som vises i Teams-sidemenyen kan derfor ligge under en annen kategori enn Teams – fordi den er lisensiert som del av en annen komponent i E5.</p>
+                </div>
+              </div>
+            </div>
           )}
         </div>
 
         {/* Filter chips */}
-        <div className="flex gap-2 overflow-x-auto pb-2 mb-4 hide-scrollbar -mx-4 px-4">
+        <div className="flex gap-2 overflow-x-auto pb-2 mt-3 mb-4 hide-scrollbar -mx-4 px-4">
           {FILTERS.map(f => {
             const isActive = activeFilter === f.id
             return (
