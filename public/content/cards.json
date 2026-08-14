@@ -1,12 +1,12 @@
 [
   {
     "navn": "Teams",
-    "tagline": "Hovedinngang til arbeidsdagen din",
-    "alene": "Ett sted for å møtes, chatte, ringe og samarbeide.",
-    "sammen": "Samler M365 i én flate: Bruk alle appene herfra – også de du kjenner fra før, f.eks. Word.",
+    "tagline": "Samtaler, møter og samarbeid",
+    "alene": "Samler chat, møter, filer og samarbeid i ett arbeidsrom.",
+    "sammen": "Bruker filer fra SharePoint, OneDrive og Loop.",
     "fotnote": "Gjør det du skal via Teams: Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre noe derfra.",
     "kategori": "snakk-og-mot",
-    "oppsummering": "Ett sted for å møtes, chatte, ringe og samarbeide",
+    "oppsummering": "Chat, møter, filer og samarbeid i ett arbeidsrom",
     "overlapper": [
       "Outlook",
       "Viva Engage"
@@ -15,12 +15,12 @@
   },
   {
     "navn": "Clipchamp",
-    "tagline": "Lag video og ta opp skjerm",
-    "alene": "Med redigeringsverktøy, filtre og effekter",
-    "sammen": "",
+    "tagline": "Enkel videoredigering for alle",
+    "alene": "Rediger video med klipp, tekst og effekter.",
+    "sammen": "Videoer kan deles via Teams og SharePoint.",
     "fotnote": "",
     "kategori": "visualiser",
-    "oppsummering": "Lag video og ta opp skjerm",
+    "oppsummering": "Rediger video med klipp, tekst og effekter",
     "overlapper": [
       "PowerPoint"
     ],
@@ -85,12 +85,12 @@
   },
   {
     "navn": "Excel",
-    "tagline": "Regneark, formler og analyser",
-    "alene": "Beregn, modeller og analyser med pivot og formler.",
-    "sammen": "Viser svar fra Forms og data fra Lists. Mater Power BI. Skal flere dele samme strukturerte oversikt: bruk Lists.",
+    "tagline": "Tall, analyser og beregninger",
+    "alene": "Jobb med tabeller, beregninger, analyser og visualisering av data.",
+    "sammen": "Data kan hentes fra Forms, Lists og SharePoint.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Regneark, formler og analyser",
+    "oppsummering": "Tabeller, beregninger og visualisering av data",
     "overlapper": [
       "Lists",
       "Power BI"
@@ -99,12 +99,12 @@
   },
   {
     "navn": "Forms",
-    "tagline": "Undersøkelser, tilbakemeldinger og quizer",
-    "alene": "Spørreundersøkelser, quizer og påmeldingsskjemaer med fortløpende, grafisk oppsummering.",
-    "sammen": "Send svar rett i en Lists-tabell, analyser i Excel, eller utløs en Power Automate-flyt ved nytt svar.",
+    "tagline": "Spør, samle inn og få svar",
+    "alene": "Lag spørreundersøkelser, påmeldinger og enkle quizer.",
+    "sammen": "Svar kan analyseres videre i Excel.",
     "fotnote": "",
     "kategori": "spor-og-planlegg",
-    "oppsummering": "Samler inn svar fra mange brukere",
+    "oppsummering": "Spørreundersøkelser, påmeldinger og enkle quizer",
     "overlapper": [
       "Lists"
     ],
@@ -116,12 +116,12 @@
   },
   {
     "navn": "Lists",
-    "tagline": "Registre og oversikter",
-    "alene": "Hold alle synkronisert i Teams. Tilpass til det teamet ditt trenger.",
-    "sammen": "Legg til automatisering og visualiser med Power Platform.",
+    "tagline": "Oversikter som er enkle å følge opp",
+    "alene": "Hold orden på saker, utstyr, oppgaver og registreringer.",
+    "sammen": "Kan vises i Teams og brukes med Power Automate.",
     "fotnote": "",
     "kategori": "spor-og-planlegg",
-    "oppsummering": "Synkroniserte oversikter som teamet kan oppdatere samtidig",
+    "oppsummering": "Orden på saker, utstyr, oppgaver og registreringer",
     "overlapper": [
       "Excel",
       "Forms",
@@ -137,7 +137,7 @@
     "navn": "Loop",
     "tagline": "Samme innhold, flere steder, alltid oppdatert",
     "alene": "Samarbeid i sanntid på tvers av apper. Tabeller, lister og statussporere som synkroniseres der de limes inn.",
-    "sammen": "Lim inn i en Teams-chat, epost i Outlook eller et annet sted i M365.",
+    "sammen": "Lim inn i en Teams-chat, epost i Outlook eller bruk et annet sted i M365.",
     "fotnote": "",
     "kategori": "notater-og-tavler",
     "oppsummering": "Komponenter som synker på tvers av apper",
@@ -154,11 +154,11 @@
   {
     "navn": "OneDrive",
     "tagline": "Ditt personlige arbeidsområde i M365",
-    "alene": "Personlig område for kladder og utkast. Synkronisert på tvers av enheter med versjonshistorikk.",
-    "sammen": "Del som lenke, ikke vedlegg. Skal et team eie filen? Flytt den til riktig Teams-kanal.",
+    "alene": "Lagre, synkroniser og del egne filer sikkert.",
+    "sammen": "Filer deles enkelt i Teams, Outlook og Office.",
     "fotnote": "",
     "kategori": "lagre-og-del",
-    "oppsummering": "Personlig lagring for kladder og utkast",
+    "oppsummering": "Lagre, synkroniser og del egne filer sikkert",
     "overlapper": [
       "SharePoint"
     ],
@@ -166,12 +166,12 @@
   },
   {
     "navn": "OneNote",
-    "tagline": "Strukturerte notater og skisser",
-    "alene": "Digital notatbok med inndelinger og sider. Tekst, bilder og skisser.",
-    "sammen": "Del som fane i Teams for å samarbeide om en notatbok.",
+    "tagline": "Notater som alltid er samlet",
+    "alene": "Samle notater, møtereferater, bilder og skisser.",
+    "sammen": "Bruk sammen med Teams-møter og Outlook.",
     "fotnote": "",
     "kategori": "notater-og-tavler",
-    "oppsummering": "Strukturert notatbok med inndelinger og sider",
+    "oppsummering": "Notater, møtereferater, bilder og skisser samlet",
     "overlapper": [
       "Loop",
       "Whiteboard"
@@ -180,12 +180,12 @@
   },
   {
     "navn": "Outlook",
-    "tagline": "E-post og kalender",
-    "alene": "E-post, kalender og kontakter slik du er vant til.",
-    "sammen": "Flaggede meldinger blir oppgaver i To Do. Bruk Teams-chat til avklaringer og Teams-kanaler til samarbeid. Outlook er for det formelle.",
+    "tagline": "E-post, kalender og møter",
+    "alene": "Samler e-post, kalender, kontakter og møter på ett sted.",
+    "sammen": "Kobler sammen Teams-møter, Bookings og oppgaver.",
     "fotnote": "",
     "kategori": "snakk-og-mot",
-    "oppsummering": "E-post og kalender for det formelle",
+    "oppsummering": "E-post, kalender, kontakter og møter samlet",
     "overlapper": [
       "Teams",
       "Places",
@@ -196,12 +196,12 @@
   },
   {
     "navn": "Places",
-    "tagline": "Hybridarbeid og tilstedeværelse",
-    "alene": "Koordiner kontordager, finn ledige rom og se hvem som er på kontoret, fra Outlook og Teams.",
-    "sammen": "Se kollegers kontordager i Outlook. Teams-status reflekteres her.",
+    "tagline": "Finn folk, plasser og møterom",
+    "alene": "Gir oversikt over kontorplasser, møterom og hvor kolleger skal jobbe.",
+    "sammen": "Brukes sammen med Outlook og Teams ved planlegging av arbeidsdager.",
     "fotnote": "",
     "kategori": "snakk-og-mot",
-    "oppsummering": "Plan for hybridarbeid: kontordager, rom og folk",
+    "oppsummering": "Oversikt over kontorplasser, møterom og kolleger",
     "overlapper": [
       "Outlook"
     ],
@@ -213,12 +213,12 @@
   },
   {
     "navn": "Planner",
-    "tagline": "Mål-, oppgave- og prosjektstyring",
-    "alene": "Fra personlige gjøremål til handlingsplaner i teamet. Visualiser oppgavene i et rutenett, en tavle, en kalender eller med diagrammer.",
-    "sammen": "Legg planen som fane i Teams. Med Premium kan du jobbe med mål og målsettinger.",
+    "tagline": "Planlegg og fordel arbeid",
+    "alene": "Organiser oppgaver, ansvar og fremdrift i team.",
+    "sammen": "Vises i Teams og kobles til To Do.",
     "fotnote": "",
     "kategori": "spor-og-planlegg",
-    "oppsummering": "Team-oppgaver med tavle og tidslinje",
+    "oppsummering": "Organiser oppgaver, ansvar og fremdrift i team",
     "overlapper": [
       "Lists",
       "To Do"
@@ -231,12 +231,12 @@
   },
   {
     "navn": "Power Apps",
-    "tagline": "Bygg apper med lavkode",
-    "alene": "Lag tilpassede apper uten omfattende koding, automatiser arbeidsflyt og jobb mer effektivt.",
-    "sammen": "Bruk data fra Lists, SharePoint eller andre kilder. Kombiner med kraften i Copilot. Integrer appen i Teams.",
+    "tagline": "Lag egne apper uten koding",
+    "alene": "Bygg enkle apper for registrering og oppslag i organisasjonen.",
+    "sammen": "Bruker data fra Lists, SharePoint og Dataverse.",
     "fotnote": "Fagsystem-koblinger krever premium-lisens.",
     "kategori": "bygg-og-automatiser",
-    "oppsummering": "Bygg apper med lavkode og integrer i Teams-arbeidsflyten",
+    "oppsummering": "Enkle apper for registrering og oppslag uten koding",
     "overlapper": [
       "Copilot Studio"
     ],
@@ -248,12 +248,12 @@
   },
   {
     "navn": "Power Automate",
-    "tagline": "Automatiser repeterende arbeidsoppgaver",
-    "alene": "Automatiser oppgaver mellom apper: godkjenninger, varsler og datasynk med standardkoblinger.",
-    "sammen": "Utløses for eksempel av nytt Forms-svar eller endring i Lists. Eksterne fagsystemer krever premium-lisens.",
+    "tagline": "La rutinearbeidet gå automatisk",
+    "alene": "Automatiser oppgaver, varsler og godkjenninger.",
+    "sammen": "Kobler sammen Lists, Forms, Outlook og Teams.",
     "fotnote": "",
     "kategori": "bygg-og-automatiser",
-    "oppsummering": "Automatiser oppgaver mellom apper",
+    "oppsummering": "Automatiser oppgaver, varsler og godkjenninger",
     "overlapper": [
       "Copilot Studio"
     ],
@@ -265,12 +265,12 @@
   },
   {
     "navn": "Power BI",
-    "tagline": "Fra data til innsikt",
-    "alene": "Interaktive rapporter og dashbord med innsikt i sanntid. Pro følger med i E5.",
-    "sammen": "Kobles mot Lists, Excel og eksterne kilder, og vises i Teams.",
+    "tagline": "Gjør data om til innsikt",
+    "alene": "Analyser og visualiser data i interaktive rapporter.",
+    "sammen": "Henter data fra Excel, Lists og mange andre kilder.",
     "fotnote": "",
     "kategori": "visualiser",
-    "oppsummering": "Interaktive dashbord og rapporter fra data",
+    "oppsummering": "Analyser og visualiser data i interaktive rapporter",
     "overlapper": [
       "Excel"
     ],
@@ -282,12 +282,12 @@
   },
   {
     "navn": "PowerPoint",
-    "tagline": "Presentasjoner med struktur og visuell støtte",
-    "alene": "Presentasjoner med Designer, Speaker Coach for fremføring og samtidig redigering.",
-    "sammen": "Presenter i Teams-møter. Skal innhold leses på nett, ikke presenteres: bruk SharePoint-sider eller Loop.",
+    "tagline": "Presenter ideer visuelt",
+    "alene": "Lag presentasjoner med tekst, bilder, video og diagrammer.",
+    "sammen": "Del via Teams og samarbeid om samme presentasjon.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Presentasjoner som vises i et møte",
+    "oppsummering": "Presentasjoner med tekst, bilder og diagrammer",
     "overlapper": [
       "Sway",
       "Clipchamp"
@@ -296,12 +296,12 @@
   },
   {
     "navn": "SharePoint",
-    "tagline": "Kunnskaps- og publiseringsplattform",
-    "alene": "Nettsider, lister og strukturert info med metadata og søk. Lagringsmotoren bak Teams-fildeling.",
-    "sammen": "Metadata gjør sider, lister og dokumenter finnbare via Microsoft Search, med versjonskontroll og sporbarhet.",
+    "tagline": "Intranett, filer og samarbeid",
+    "alene": "Lagrer teamfiler og publiserer informasjon og sider.",
+    "sammen": "Er dokumentmotoren bak Teams.",
     "fotnote": "",
     "kategori": "lagre-og-del",
-    "oppsummering": "Intranett, sider og fellesområde med metadata",
+    "oppsummering": "Lagrer teamfiler og publiserer informasjon og sider",
     "overlapper": [
       "OneDrive",
       "Sway",
@@ -317,12 +317,12 @@
   },
   {
     "navn": "Sway",
-    "tagline": "Visuell historiefortelling på nett",
-    "alene": "Responsive, visuelle presentasjoner og rapporter. Leses på alle skjermer og deles som lenke.",
-    "sammen": "Alternativ til PowerPoint når innholdet skal leses på nett, ikke presenteres.",
+    "tagline": "Lag innhold som er lett å dele",
+    "alene": "Bygg enkle presentasjoner, nyhetsbrev og historier.",
+    "sammen": "Kan deles med lenke internt eller eksternt.",
     "fotnote": "",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Visuelle rapporter som leses på nett",
+    "oppsummering": "Enkle presentasjoner, nyhetsbrev og historier",
     "overlapper": [
       "PowerPoint",
       "Word",
@@ -336,12 +336,12 @@
   },
   {
     "navn": "To Do",
-    "tagline": "Din personlige huskeliste",
-    "alene": "Planlegg dagens gjøremål, sett påminnelser og prioriter «Min dag».",
-    "sammen": "Samler oppgaver fra Planner og flaggede Outlook-e-poster på ett sted.",
+    "tagline": "Hold styr på dine oppgaver",
+    "alene": "Samle personlige oppgaver og huskelister.",
+    "sammen": "Oppgaver fra Outlook og Planner samles automatisk.",
     "fotnote": "",
     "kategori": "spor-og-planlegg",
-    "oppsummering": "Din personlige huskeliste",
+    "oppsummering": "Personlige oppgaver og huskelister samlet",
     "overlapper": [
       "Planner",
       "Outlook"
@@ -354,12 +354,12 @@
   },
   {
     "navn": "Visio",
-    "tagline": "Diagrammer og flytskjemaer",
-    "alene": "Visualiser prosesser og andre data i diagrammer.",
-    "sammen": "Lag og samarbeid i sanntid i nettleseren. Se dem via Teams eller på en SharePoint-side.",
+    "tagline": "Tegn prosesser og sammenhenger",
+    "alene": "Lag prosesskart, organisasjonskart og flytdiagrammer.",
+    "sammen": "Kan deles og redigeres via Teams.",
     "fotnote": "",
     "kategori": "visualiser",
-    "oppsummering": "Flytkart og diagrammer koblet til data",
+    "oppsummering": "Prosesskart, organisasjonskart og flytdiagrammer",
     "overlapper": [
       "SharePoint",
       "Whiteboard"
@@ -372,12 +372,12 @@
   },
   {
     "navn": "Viva Engage",
-    "tagline": "Internt sosialt nettverk",
-    "alene": "Organisasjonens sosiale flate. Del erfaringer, bygg fellesskap og styrk kulturen på tvers.",
-    "sammen": "Integrert i Teams, så du deltar i fellesskapet i samme flate der du jobber ellers.",
+    "tagline": "Del erfaringer på tvers",
+    "alene": "Faglige fellesskap, diskusjoner og erfaringsdeling.",
+    "sammen": "Kompletterer Teams med åpne samtaler.",
     "fotnote": "",
     "kategori": "snakk-og-mot",
-    "oppsummering": "Del erfaringer i teamet – en slags Facebook-vegg",
+    "oppsummering": "Faglige fellesskap, diskusjoner og erfaringsdeling",
     "overlapper": [
       "Teams",
       "SharePoint"
@@ -390,12 +390,12 @@
   },
   {
     "navn": "Viva Insights",
-    "tagline": "Personlig produktivitet",
-    "alene": "Innsikt i egen arbeidshverdag: fokustid, møtebelastning og pauser. Personlig innsikt i Outlook følger med E5. Appen i Teams er tillegg.",
-    "sammen": "Bruker data fra Outlook og Teams. Leder- og organisasjonsinnsikt krever Viva-tillegg.",
+    "tagline": "Bedre oversikt over arbeidsdagen",
+    "alene": "Gir personlige råd om fokusarbeid, møter, samarbeid og arbeidsvaner.",
+    "sammen": "Bruker data fra Outlook, Teams og kalenderen din.",
     "fotnote": "",
     "kategori": "laer-og-trives",
-    "oppsummering": "Innsikt i egen arbeidshverdag",
+    "oppsummering": "Personlige råd om fokusarbeid, møter og arbeidsvaner",
     "overlapper": [
       "Outlook"
     ],
@@ -407,12 +407,12 @@
   },
   {
     "navn": "Viva Learning",
-    "tagline": "Intern opplæring",
-    "alene": "Samler interne opplæringsressurser fra SharePoint-biblioteker: tekst, lyd og video. Lett å finne i Teams.",
-    "sammen": "Legg som fane i en kanal. Eksterne kataloger krever tillegg.",
+    "tagline": "Læring der du allerede jobber",
+    "alene": "Samler kurs, opplæring og læringsressurser på ett sted.",
+    "sammen": "Kan brukes direkte i Teams og kobles til eksterne læringskilder.",
     "fotnote": "",
     "kategori": "laer-og-trives",
-    "oppsummering": "Samler opplæringsressursene i Teams",
+    "oppsummering": "Kurs, opplæring og læringsressurser på ett sted",
     "overlapper": [
       "SharePoint"
     ],
@@ -424,12 +424,12 @@
   },
   {
     "navn": "Whiteboard",
-    "tagline": "Digital tavle for samarbeid",
-    "alene": "Uendelig digital tavle for workshops, tankekart og prosessvisualisering. Nyttig i hybride møter.",
-    "sammen": "Startes i Teams-møter for samarbeid i sanntid.",
+    "tagline": "Tenk og tegn sammen",
+    "alene": "Digital tavle for idémyldring og workshops.",
+    "sammen": "Kan brukes direkte i Teams-møter.",
     "fotnote": "Kanalprinsippet gjelder også her: Tavlen finner du i kanalen den ble opprettet i.",
     "kategori": "notater-og-tavler",
-    "oppsummering": "Tegnetavle for skisser og idémyldring",
+    "oppsummering": "Digital tavle for idémyldring og workshops",
     "overlapper": [
       "OneNote",
       "Loop",
@@ -443,12 +443,12 @@
   },
   {
     "navn": "Word",
-    "tagline": "Tyngre tekstdokumenter",
-    "alene": "Skriv brev, rapporter og maler. Editor hjelper med klarspråk, tone og inkluderende språk.",
-    "sammen": "Del som lenke fra Teams. Gjenbrukbar info hører hjemme i apper som Lists eller SharePoint-sider. Løpende samskriving: i Loop.",
+    "tagline": "Skriv og samarbeid om dokumenter",
+    "alene": "Lag dokumenter, rapporter, referater og maler sammen med andre.",
+    "sammen": "Lagre i OneDrive eller Teams og rediger samtidig.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Brev, rapporter og lengre tekstdokumenter",
+    "oppsummering": "Dokumenter, rapporter og referater sammen med andre",
     "overlapper": [
       "Sway"
     ],
