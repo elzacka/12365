@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12",
+  "generated": "2026-08-14",
   "cards": {
     "Teams": "a13e31fcb9",
     "Clipchamp": "d89fbedf35",
@@ -9,8 +9,8 @@
     "Edge": "6990ed3801",
     "Excel": "f8f839b2ce",
     "Forms": "6fe914e25b",
-    "Lists": "67570e2c53",
-    "Loop": "98523b6d05",
+    "Lists": "8a64cbefa7",
+    "Loop": "d89c3e8641",
     "OneDrive": "25fae01f35",
     "OneNote": "662ad9b9b8",
     "Outlook": "7f9b01d16f",
@@ -46,7 +46,7 @@
     "copilot-chat-inkludert": "4e62406172",
     "copilot-studio-for-teams-bygge-chatbot": "f67752c82b",
     "lists-hendelseslogg": "d781d99d8c",
-    "lists-risikoregister": "50f72a2875",
+    "lists-risikoregister": "f43e55d94d",
     "ryddig-innboks": "68bc865b29",
     "planner-enkel-oppgavestyring": "6b000be2a2",
     "sharepoint-automasjon-2026": "f1fdefcd52",
