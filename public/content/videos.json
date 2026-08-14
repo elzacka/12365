@@ -8,5 +8,15 @@
     "fotnote": "",
     "thumbnail": "videos/thumbnails/microsoft-graph-grafbasert-arkitektur.png",
     "endret": "2026-06-06"
+  },
+  {
+    "id": "microsoft-365-for-oss",
+    "fil": "https://www.canva.com/design/DAHR4XXxWoY/s_G3QyIh6Ktiek0_WvF_QA/watch",
+    "tittel": "M365 for oss",
+    "beskrivelse": "En lettbent teaser og intro til M365 med eksempler på hvordan det kan forenkle arbeidshverdagen.",
+    "kilde": "",
+    "fotnote": "",
+    "thumbnail": "videos/thumbnails/microsoft-365-for-oss.png",
+    "endret": "2026-08-14"
   }
 ]

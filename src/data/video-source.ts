@@ -18,7 +18,7 @@ export function parseVideoSource(file: string, base: string): VideoSource {
       type: 'youtube',
       // youtube-nocookie does not drop tracking cookies before the video is played.
       // Thumbnails are not auto-loaded from img.youtube.com; supply a local thumbnail via the videos.json `thumbnail` field.
-      embedSrc: `https://www.youtube-nocookie.com/embed/${id}?rel=0&autoplay=1`,
+      embedSrc: `https://www.youtube-nocookie.com/embed/${id}?rel=0`,
     }
   }
 
@@ -27,7 +27,7 @@ export function parseVideoSource(file: string, base: string): VideoSource {
     const id = vimeo[1]
     return {
       type: 'vimeo',
-      embedSrc: `https://player.vimeo.com/video/${id}?dnt=1&autoplay=1`,
+      embedSrc: `https://player.vimeo.com/video/${id}?dnt=1`,
     }
   }
 
