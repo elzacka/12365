@@ -116,7 +116,7 @@
           },
           {
             "tittel": "Bruk faner i kanalene",
-            "innhold": "Øverst i hver kanal kan du legge til **faner**. Klikk **+** på fanelinja og velg:\n\n◦ En **Lists**-oversikt (hendelseslogg, risikoregister)\n◦ En **Planner**-tavle (funker p.t. ikke for delte og private kanaler)\n◦ En **OneNote**-notatblokk\n◦ En **SharePoint-side**\n◦ Et **Whiteboard**\n◦ En **nettside** eller et **skjema**\n\nAlt teamet trenger er samlet på ett sted, i én kanal."
+            "innhold": "Øverst i hver kanal kan du legge til **faner**. Klikk **+** på fanelinja og velg:\n\n◦ En **Lists**-oversikt (hendelseslogg, risikoregister)\n◦ En **Planner**-tavle\n◦ En **OneNote**-notatblokk\n◦ En **SharePoint-side**\n◦ Et **Whiteboard**\n◦ En **nettside** eller et **skjema**\n\nAlt teamet trenger er samlet på ett sted, i én kanal."
           },
           {
             "tittel": "Åpne og rediger filer uten å forlate Teams",
@@ -727,7 +727,7 @@
         "steg": [
           {
             "tittel": "Hva er et risikoregister?",
-            "innhold": "Et risikoregister er en strukturert oversikt over identifiserte risikoer i en organisasjon eller et prosjekt. For hver risiko fanger du tittel, beskrivelse, sannsynlighet, konsekvens, eier og tiltak.\n\nLists gir deg felles tilgang, automatisk risikoscore og gode visningsalternativer, tilgjengelig rett i Teams."
+            "innhold": "Et risikoregister er en strukturert oversikt over identifiserte risikoer i en organisasjon eller et prosjekt. For hver risiko registrerer du tittel, beskrivelse, sannsynlighet, konsekvens, eier og tiltak.\n\nLists gir deg felles tilgang, automatisk risikoscore og gode visningsalternativer, tilgjengelig rett i Teams."
           },
           {
             "tittel": "Opprett en ny liste",
