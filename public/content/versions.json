@@ -33,7 +33,7 @@
   "articles": {
     "rydd-for-m365": "7f7b3c09e2",
     "rydd-teknikker": "e255dcf36a",
-    "teams-som-arbeidsflate": "fe516c4f04",
+    "teams-som-arbeidsflate": "e117d9f709",
     "teams-hierarki": "af47071cbf",
     "fra-filserver-til-sharepoint": "27861a29a7",
     "folsomhetsetiketter": "b9b7eac565",
@@ -63,7 +63,8 @@
     "opplaering-sharepoint-viva-learning": "db9690e4f4"
   },
   "videos": {
-    "microsoft-graph-grafbasert-arkitektur": "b537531766"
+    "microsoft-graph-grafbasert-arkitektur": "b537531766",
+    "microsoft-365-for-oss": "96ae41ecd9"
   },
   "courses": {
     "datareisen": "2d27a223cb",
@@ -696,7 +697,8 @@
       "opplaering-sharepoint-viva-learning": "2026-06-05"
     },
     "videos": {
-      "microsoft-graph-grafbasert-arkitektur": "2026-06-06"
+      "microsoft-graph-grafbasert-arkitektur": "2026-06-06",
+      "microsoft-365-for-oss": "2026-08-14"
     },
     "courses": {
       "datareisen": "2026-06-07",

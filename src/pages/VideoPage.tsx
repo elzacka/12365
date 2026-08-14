@@ -1,4 +1,4 @@
-import { use, useEffect, useRef } from 'react'
+import { use, useEffect } from 'react'
 import { useParams, Navigate } from 'react-router-dom'
 import { fetchVideos } from '../data/loader'
 import { useMergedVideos } from '../auth/merge'
@@ -11,14 +11,7 @@ export function VideoPage() {
   const { videoId } = useParams()
   const base = import.meta.env.BASE_URL
   const video = videos.find(v => v.id === videoId)
-  const videoRef = useRef<HTMLVideoElement>(null)
   const { markVideoSeen } = useSeenVersions()
-
-  useEffect(() => {
-    videoRef.current?.play().catch(() => {
-      // Browser blocked autoplay – user can start manually via the play button.
-    })
-  }, [videoId])
 
   useEffect(() => {
     if (video) markVideoSeen(video.id)
@@ -36,11 +29,9 @@ export function VideoPage() {
         <div className="bg-black rounded-xl overflow-hidden shadow-sm">
           {source.type === 'file' ? (
             <video
-              ref={videoRef}
               src={source.src}
               controls
               playsInline
-              autoPlay
               preload="auto"
               poster={video.thumbnail ? `${base}${video.thumbnail}` : undefined}
               className="w-full aspect-video bg-black"
