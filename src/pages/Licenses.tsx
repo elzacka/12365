@@ -82,8 +82,7 @@ export function Licenses() {
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const [activeFeature, setActiveFeature] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
-  const [searchFocused, setSearchFocused] = useState(false)
-  const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS, searchFocused)
+  const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
   const { markLicenseSeen } = useSeenVersions()
 
   useEffect(() => {
@@ -146,8 +145,6 @@ export function Licenses() {
               placeholder={placeholder}
               value={query}
               onChange={e => setQuery(e.target.value)}
-              onFocus={() => setSearchFocused(true)}
-              onBlur={() => setSearchFocused(false)}
               autoCapitalize="none"
               autoCorrect="off"
               spellCheck={false}
