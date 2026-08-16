@@ -692,7 +692,7 @@
           },
           {
             "tittel": "Lag skjema for innmelding",
-            "innhold": "Klikk **Integrasjoner** øverst → **Microsoft Forms**. Opprett et innmeldingsskjema koblet til lista.\n\nDel lenken eller bygg skjemaet inn i en Teams-kanal som en fane. Kolleger kan da melde inn hendelser uten å åpne lista."
+            "innhold": "Klikk **Forms** på kommandolinjen øverst i lista. Skjemaet bygges automatisk fra kolonnene i lista, og svarene havner rett i lista – dette er et eget listeskjema, ikke den frittstående Forms-appen.\n\nDel skjemalenken, eller legg lista til som fane i en Teams-kanal. Kolleger kan da melde inn hendelser uten å åpne selve lista."
           },
           {
             "tittel": "Få varsler ved nye hendelser",
@@ -840,12 +840,12 @@
             "innhold": "Klikk **Ny plan** øverst til venstre. Velg **Tom plan**, gi planen et navn og koble den til en eksisterende Teams-kanal. Planen deles automatisk med teamet."
           },
           {
-            "tittel": "Lag bøtter for å gruppere oppgaver",
-            "innhold": "I **Tavle**-visningen klikker du **+ Legg til bøtte**. En bøtte er en gruppe eller fase som samler oppgaver av samme type.\n\nVanlig oppsett: **Ikke startet**, **Pågår**, **Fullført**. Du kan også gruppere etter fagområde, fase eller ansvarsområde."
+            "tittel": "Lag samlinger for å gruppere oppgaver",
+            "innhold": "I **Tavle**-visningen klikker du **Legg til ny samling**. En samling er en gruppe eller fase som samler oppgaver av samme type.\n\nVanlig oppsett: **Ikke startet**, **Pågår**, **Fullført**. Du kan også gruppere etter fagområde, fase eller ansvarsområde."
           },
           {
             "tittel": "Legg til oppgaver",
-            "innhold": "Klikk **+ Legg til oppgave** under en bøtte. Skriv en kort, handlingsorientert tittel, sett **forfallsdato** og **tildel** oppgaven til en person.\n\nEn oppgave uten eier og frist blir sjelden gjort."
+            "innhold": "Klikk **+ Legg til oppgave** under en samling. Skriv en kort, handlingsorientert tittel, sett **forfallsdato** og **tildel** oppgaven til en person.\n\nEn oppgave uten eier og frist blir sjelden gjort."
           },
           {
             "tittel": "Legg til detaljer på oppgaven",
@@ -1132,41 +1132,49 @@
       },
       {
         "id": "teams-moter",
-        "tittel": "Hold et Teams-møte",
-        "ingress": "Slik starter og gjennomfører du et møte i Teams.",
+        "tittel": "Møteleder: Før, under og etter møtet",
+        "ingress": "Loop holder agenda og notater levende, Planner samler oppgavene etterpå – riktig verktøy i alle tre fasene.",
         "kategori": "teams",
         "tags": [
           "møte",
-          "videomøte",
-          "skjermdeling",
+          "møteleder",
+          "agenda",
+          "loop",
+          "planner",
           "notater",
-          "loop"
+          "videomøte",
+          "skjermdeling"
         ],
         "steg": [
           {
-            "tittel": "Start et møte fra Outlook eller Teams-kalenderen",
-            "innhold": "**Fra Outlook:** Opprett en kalenderinvitasjon og klikk **Teams-møte** i verktøylinjen. En møtelenke legges automatisk til.\n\n**Fra Teams:** Klikk **Kalender** i venstremenyen → **Nytt møte**. Legg til deltakere, tittel og tidspunkt direkte i Teams."
+            "tittel": "Før møtet: Planlegg og sett agendaen",
+            "innhold": "**Fra Outlook:** Opprett en kalenderinvitasjon og klikk **Teams-møte** i verktøylinjen. En møtelenke legges automatisk til.\n\n**Fra Teams:** Klikk **Kalender** i venstremenyen → **Nytt møte**. Legg til deltakere, tittel og tidspunkt.\n\nSom møteleder er det din jobb å klikke **Legg til agenda** før du sender invitasjonen. Teams oppretter da automatisk en Loop-side med plass til agenda, møtenotater og oppfølgingsoppgaver. Fyll inn agendapunktene med en gang, så kan deltakerne forberede seg før møtet starter.\n\n*Merk: Gjentakende møter deler samme Loop-side på tvers av alle instansene. Vil du ha rene notater per møte, velg **Rediger denne hendelsen** – ikke **Rediger alle hendelser** – når du endrer agendaen.*"
           },
           {
-            "tittel": "Bli med i møtet",
-            "innhold": "Klikk **Bli med** i kalenderoppføringen i Teams eller Outlook. Velg lyd og kamera før du kobler til. Test lyden før viktige møter."
+            "tittel": "Under møtet: Bli med og del skjermen",
+            "innhold": "Klikk **Bli med** i kalenderoppføringen i Teams eller Outlook. Velg lyd og kamera før du kobler til. Test lyden før viktige møter.\n\nSkal du dele skjermen, klikk skjermdelingsikonet i møteverktøylinjen og velg:\n\n◦ **Hele skjermen**: Viser alt\n◦ **Ett vindu**: Kun det programmet du velger\n◦ **En PowerPoint-presentasjon**: Deltakerne kan bla selv\n\n*Del ett vindu framfor hele skjermen. Da slipper du at private varsler vises til alle.*"
           },
           {
-            "tittel": "Del skjermen",
-            "innhold": "Klikk skjermdelingsikonet i møteverktøylinjen og velg:\n\n◦ **Hele skjermen**: Viser alt\n◦ **Ett vindu**: Kun det programmet du velger\n◦ **En PowerPoint-presentasjon**: Deltakerne kan bla selv\n\n*Del ett vindu framfor hele skjermen. Da slipper du at private varsler vises til alle.*"
+            "tittel": "Under møtet: Følg agendaen i Loop-siden",
+            "innhold": "Klikk **Notater** i møteverktøylinjen for å åpne Loop-siden du satte opp på forhånd. Som møteleder styrer du møtet etter agendaen der, mens alle deltakere kan legge til møtenotater samtidig.\n\nTildel oppfølgingsoppgaver direkte i Loop-siden: Skriv oppgavenavn, nevn den ansvarlige med @ og sett en frist. Oppgaven er synlig for alle med det samme.\n\n*Tips: Legg til Copilot-agenten **Tilrettelegger** i planlagte møter. Den holder agendaen, tar sanntidsnotater og henter beslutninger inn i Loop-siden automatisk.*"
           },
           {
-            "tittel": "Bruk møtenotater som Loop-side",
-            "innhold": "Klikk **Notater** i møteverktøylinjen. Notatene åpnes som en **Loop-side**: Et levende dokument alle deltakere kan redigere samtidig, også etter møtet.\n\nLoop-siden lagres automatisk og er tilgjengelig for alle inviterte via møtets detaljer i Teams-kalenderen.\n\n*Tips: Legg inn sakslisten i Loop-siden før møtet. Deltakerne kan følge med og legge til notater underveis.*"
+            "tittel": "Under møtet: Ta opp og transkriber",
+            "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du video og **transkripsjon** – søkbar, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. Lim transkripsjonen inn i Copilot Chat for et raskt sammendrag eller en liste over handlingspunkter."
           },
           {
-            "tittel": "Ta opp møtet og del transkripsjonen",
-            "innhold": "Klikk **Flere handlinger** (...) → **Spill inn og transkriber** → **Start innspilling**. Med deltakernes samtykke får du video og **transkripsjon** – søkbar, med tidskoder og hvem som sa hva.\n\nOpptaket lagres automatisk i OneDrive (eller SharePoint for kanalmøter) og deles med inviterte. Transkripsjonen kan kopieres ut og limes inn i Copilot Chat hvis du vil ha et sammendrag eller liste over handlingspunkter."
+            "tittel": "Etter møtet: Følg opp oppgavene i Planner",
+            "innhold": "Oppgavene du opprettet i Loop-siden under møtet, synkroniseres automatisk til en plan i Planner – hver oppgaveliste blir en egen **samling**. Den ansvarlige ser oppgaven sin under **Tildelt meg** i Planner.\n\nTrenger oppgaven sjekkliste, vedlegg eller statussporing utover tittel, ansvarlig og frist? Klikk **Åpne i Planner** for full oppgavestyring.\n\n*Som møteleder: Sjekk oppfølgingsoppgavene før neste møte i serien – ubehandlede oppgaver følger automatisk med videre.*"
+          },
+          {
+            "tittel": "Etter møtet: Hold notatene tilgjengelige",
+            "innhold": "Loop-siden lagres automatisk og forblir tilgjengelig for alle inviterte via møtets detaljer i Teams-kalenderen, eller under **Vis oppsummering** → **Notater** for avsluttede møter.\n\nSiden er fortsatt et levende dokument: Alle kan redigere den videre, og endringer synkroniseres uansett hvor siden er delt – i Teams-chat, kanal eller Loop-appen."
           }
         ],
         "oppdatert": "Oppdatert: 03.06.26",
         "relaterte": [
           "loop-eller-word",
+          "planner-enkel-oppgavestyring",
           "clipchamp-bruke",
           "m365-copilot-aktivert"
         ]

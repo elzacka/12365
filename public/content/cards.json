@@ -1,9 +1,9 @@
 [
   {
     "navn": "Teams",
-    "tagline": "Samtaler, møter og samarbeid",
-    "alene": "Samler chat, møter, filer og samarbeid i ett arbeidsrom.",
-    "sammen": "Bruker filer fra SharePoint, OneDrive og Loop.",
+    "tagline": "Hovedinngang til arbeidsdagen din",
+    "alene": "Samler chat, møter, filer og samarbeid i arbeidsrom (kanaler).",
+    "sammen": "Samler M365 i én flate: Bruk alle appene herfra – også de du kjenner fra før, f.eks. Word.",
     "fotnote": "Gjør det du skal via Teams: Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre noe derfra.",
     "kategori": "snakk-og-mot",
     "oppsummering": "Chat, møter, filer og samarbeid i ett arbeidsrom",
@@ -15,12 +15,12 @@
   },
   {
     "navn": "Clipchamp",
-    "tagline": "Enkel videoredigering for alle",
-    "alene": "Rediger video med klipp, tekst og effekter.",
-    "sammen": "Videoer kan deles via Teams og SharePoint.",
+    "tagline": "Lag video og ta opp skjerm – enkelt og effektivt",
+    "alene": "Klipp og rediger video med tekst, overganger, effekter med mer.",
+    "sammen": "Del video f. eks som lenke via Teams eller publiser på en SharePoint-side .",
     "fotnote": "",
     "kategori": "visualiser",
-    "oppsummering": "Rediger video med klipp, tekst og effekter",
+    "oppsummering": "Lag video og ta opp skjerm med tekst og effekter",
     "overlapper": [
       "PowerPoint"
     ],
@@ -45,12 +45,12 @@
   },
   {
     "navn": "Microsoft 365 Copilot",
-    "tagline": "Generativ KI forankret i egne data",
-    "alene": "KI bygd inn i hele M365. Skriver, oppsummerer og analyserer data du har tilgang til.",
+    "tagline": "Generativ KI forankret i organisasjonens innhold",
+    "alene": "KI bygd inn i hele M365. Skriver, oppsummerer og analyserer innhold du har tilgang til.",
     "sammen": "Kombinert med Copilot Studio kan du gjøre mye mer.",
     "fotnote": "Krever egen M365 Copilot-lisens per bruker",
     "kategori": "ki",
-    "oppsummering": "Henter svar fra dine egne M365-data. Krever lisens",
+    "oppsummering": "Generativ KI forankret i organisasjonens innhold. Krever lisens",
     "overlapper": [
       "Copilot Chat",
       "Copilot Studio"
@@ -60,7 +60,7 @@
   {
     "navn": "Copilot Studio",
     "tagline": "Bygg dine egne agenter, uten kode",
-    "alene": "Lag agenter og chatboter med virksomhetens kunnskapskilder. Gjør dem tilgjengelig for teamet eller andre som skal ha tilgang.",
+    "alene": "Lag agenter og chatboter med organisasjonens kunnskapskilder. Gjør dem tilgjengelig for teamet eller andre som skal ha tilgang.",
     "sammen": "Bruk Microsoft Graph for intelligent kobling til kunnskapskilder – f.eks. i SharePoint og Dataverse.",
     "fotnote": "Agent Builder følger med M365 Copilot-lisensen.",
     "kategori": "ki",
@@ -87,7 +87,7 @@
     "navn": "Excel",
     "tagline": "Tall, analyser og beregninger",
     "alene": "Jobb med tabeller, beregninger, analyser og visualisering av data.",
-    "sammen": "Data kan hentes fra Forms, Lists og SharePoint.",
+    "sammen": "Flere kan redigere samtidig. Data kan også hentes fra Forms, Lists og SharePoint.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
     "oppsummering": "Tabeller, beregninger og visualisering av data",
@@ -137,7 +137,7 @@
     "navn": "Loop",
     "tagline": "Samme innhold, flere steder, alltid oppdatert",
     "alene": "Samarbeid i sanntid på tvers av apper. Tabeller, lister og statussporere som synkroniseres der de limes inn.",
-    "sammen": "Lim inn i en Teams-chat, epost i Outlook eller bruk et annet sted i M365.",
+    "sammen": "Bruk som møtenotater i et Teams-møte, lim inn i en Teams-chat eller epost i Outlook.",
     "fotnote": "",
     "kategori": "notater-og-tavler",
     "oppsummering": "Komponenter som synker på tvers av apper",
@@ -154,11 +154,11 @@
   {
     "navn": "OneDrive",
     "tagline": "Ditt personlige arbeidsområde i M365",
-    "alene": "Lagre, synkroniser og del egne filer sikkert.",
-    "sammen": "Filer deles enkelt i Teams, Outlook og Office.",
+    "alene": "Personlig lagring for kladder og utkast du ikke er klar til å dele.",
+    "sammen": "Del som lenke, ikke fil. Skal andre bidra: Flytt utkastet til kanalen dere samarbeider i. Klart til publisering: Del der målgruppen har tilgang.",
     "fotnote": "",
     "kategori": "lagre-og-del",
-    "oppsummering": "Lagre, synkroniser og del egne filer sikkert",
+    "oppsummering": "Personlig lagring for kladder og utkast du ikke er klar til å dele",
     "overlapper": [
       "SharePoint"
     ],
@@ -167,11 +167,11 @@
   {
     "navn": "OneNote",
     "tagline": "Notater som alltid er samlet",
-    "alene": "Samle notater, møtereferater, bilder og skisser.",
-    "sammen": "Bruk sammen med Teams-møter og Outlook.",
+    "alene": "Samle notater, bilder og skisser i strukturerte notatblokker.",
+    "sammen": "Legg til en notatblokk som fane i en Teams-kanal.",
     "fotnote": "",
     "kategori": "notater-og-tavler",
-    "oppsummering": "Notater, møtereferater, bilder og skisser samlet",
+    "oppsummering": "Notater, bilder og skisser i strukturerte notatblokker",
     "overlapper": [
       "Loop",
       "Whiteboard"
@@ -284,7 +284,7 @@
     "navn": "PowerPoint",
     "tagline": "Presenter ideer visuelt",
     "alene": "Lag presentasjoner med tekst, bilder, video og diagrammer.",
-    "sammen": "Del via Teams og samarbeid om samme presentasjon.",
+    "sammen": "Del via Teams – flere kan redigere presentasjonen samtidig.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
     "oppsummering": "Presentasjoner med tekst, bilder og diagrammer",
@@ -336,7 +336,7 @@
   },
   {
     "navn": "To Do",
-    "tagline": "Hold styr på dine oppgaver",
+    "tagline": "Hold styr på oppgavene dine",
     "alene": "Samle personlige oppgaver og huskelister.",
     "sammen": "Oppgaver fra Outlook og Planner samles automatisk.",
     "fotnote": "",
@@ -356,7 +356,7 @@
     "navn": "Visio",
     "tagline": "Tegn prosesser og sammenhenger",
     "alene": "Lag prosesskart, organisasjonskart og flytdiagrammer.",
-    "sammen": "Kan deles og redigeres via Teams.",
+    "sammen": "Bygges inn direkte på SharePoint-sider, og kan deles og redigeres i Teams.",
     "fotnote": "",
     "kategori": "visualiser",
     "oppsummering": "Prosesskart, organisasjonskart og flytdiagrammer",
@@ -409,7 +409,7 @@
     "navn": "Viva Learning",
     "tagline": "Læring der du allerede jobber",
     "alene": "Samler kurs, opplæring og læringsressurser på ett sted.",
-    "sammen": "Kan brukes direkte i Teams og kobles til eksterne læringskilder.",
+    "sammen": "Henter innhold fra SharePoint-mapper til Teams, og kan også kobles til eksterne kilder.",
     "fotnote": "",
     "kategori": "laer-og-trives",
     "oppsummering": "Kurs, opplæring og læringsressurser på ett sted",
