@@ -2,8 +2,11 @@ import { useState, useMemo, useEffect, use, useCallback } from 'react'
 import { fetchOrdbok } from '../data/loader'
 import { buildIndex, searchOrd } from '../data/searchIndex'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
+import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { SearchIcon, CloseIcon, ChevronRightIcon } from '../components/Icons'
 import type { Ord } from '../types'
+
+const SEARCH_WORDS = ['ord', 'beskrivelse', 'emneknagg']
 
 function firstLetter(s: string): string {
   return s.charAt(0).toLocaleUpperCase('nb')
@@ -26,6 +29,8 @@ export function Ordbok() {
   const [query, setQuery] = useState('')
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
+  const [searchFocused, setSearchFocused] = useState(false)
+  const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS, searchFocused)
 
   // Et besøk på ordbok-siden teller som "lest" for alle oppføringer slik at
   // prikken på Ordbok-kortet på Home forsvinner.
@@ -159,9 +164,11 @@ export function Ordbok() {
             </div>
             <input
               type="search"
-              placeholder="Søk ord ..."
+              placeholder={placeholder}
               value={query}
               onChange={e => setQuery(e.target.value)}
+              onFocus={() => setSearchFocused(true)}
+              onBlur={() => setSearchFocused(false)}
               autoFocus
               autoCapitalize="none"
               autoCorrect="off"

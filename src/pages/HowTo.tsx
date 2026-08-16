@@ -3,9 +3,13 @@ import { Link } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
 import { buildArticleIndex, searchArticles, type ArticleSearchHit, type ArticleIndex } from '../data/articleSearchIndex'
-import { ChevronRightIcon, SearchIcon, CloseIcon } from '../components/Icons'
+import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
+import { ChevronRightIcon, SearchIcon, CloseIcon, LockIcon } from '../components/Icons'
+import { UntestedWarning } from '../components/UntestedWarning'
 import { UpdateDot } from '../components/UpdateDot'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
+
+const SEARCH_WORDS = ['tittel', 'innhold', 'emneknagg']
 
 export function HowTo() {
   const publicCategories = use(fetchArticles())
@@ -13,6 +17,8 @@ export function HowTo() {
   const [query, setQuery] = useState('')
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
+  const [searchFocused, setSearchFocused] = useState(false)
+  const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS, searchFocused)
   const { isArticleNew } = useSeenVersions()
 
   const allCategories = useMemo(
@@ -110,9 +116,11 @@ export function HowTo() {
             </div>
             <input
               type="search"
-              placeholder="Søk etter veiledning ..."
+              placeholder={placeholder}
               value={query}
               onChange={e => setQuery(e.target.value)}
+              onFocus={() => setSearchFocused(true)}
+              onBlur={() => setSearchFocused(false)}
               autoFocus
               autoCapitalize="none"
               autoCorrect="off"
@@ -246,8 +254,14 @@ export function HowTo() {
                     >
                       <UpdateDot visible={isArticleNew(article.id)} className="absolute top-2 right-2" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
-                          {article.tittel}
+                        <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
+                          {article.laast && (
+                            <>
+                              <LockIcon size={13} className="shrink-0 text-slate-400" />
+                              <UntestedWarning />
+                            </>
+                          )}
+                          <span>{article.tittel}</span>
                         </p>
                         <p className="text-xs text-slate-500 mt-0.5 leading-snug line-clamp-2">
                           {article.ingress}

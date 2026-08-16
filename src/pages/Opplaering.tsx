@@ -59,7 +59,7 @@ export function Opplaering() {
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-8 max-w-2xl mx-auto w-full">
         <p className="text-sm text-slate-500 text-center mb-6">
-          Se videoer og kursinnhold fra ulike kilder. Direkte og indirekte relatert til M365.
+          Se videoer og kursinnhold jeg har laget og fra andre kilder. Direkte og indirekte relatert til M365.
         </p>
 
         <section aria-labelledby="opplaering-videoer" className="mb-8">

@@ -1,11 +1,11 @@
 {
   "generated": "2026-08-16",
   "cards": {
-    "Teams": "be33068caa",
-    "Clipchamp": "63c6b351ad",
+    "Teams": "027946376c",
+    "Clipchamp": "714e3306ac",
     "Copilot Chat": "2c0735a7bb",
-    "Microsoft 365 Copilot": "0adacb7a94",
-    "Copilot Studio": "4b429b7847",
+    "Microsoft 365 Copilot": "06b40ab53c",
+    "Copilot Studio": "8309f2dee2",
     "Edge": "6990ed3801",
     "Excel": "189cb1fdb6",
     "Forms": "4be7685eba",
@@ -639,7 +639,7 @@
     "power-platform-miljo": "5ce9947e67"
   },
   "license": "f56c611193",
-  "about": "430294c2a1",
+  "about": "d1422cbc4f",
   "endret": {
     "cards": {
       "Teams": "2026-06-06",

@@ -5,7 +5,7 @@
 Innhold:
 
 - hva M365-appene gjør, hva som skiller dem og hvordan de spiller sammen
-- praktiske fremgangsmåter, ordbok, videoer og kursinnhold fra ulike kilder
+- praktiske fremgangsmåter, ordbok, videoer og kursinnhold jeg har laget og fra andre kilder
 - oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring
 
 Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med AI. AI kan bomme, og jeg kan overse noe. Jeg retter eventuelle feil fortløpende.

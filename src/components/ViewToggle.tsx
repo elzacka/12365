@@ -9,8 +9,8 @@ interface ViewToggleProps {
 }
 
 const OPTIONS: { value: AppsView; label: string }[] = [
-  { value: 'kort', label: 'Snu-kort' },
-  { value: 'oversikt', label: 'Oversikt' },
+  { value: 'kort', label: 'Oversikt' },
+  { value: 'oversikt', label: 'Sammenlign' },
 ]
 
 export function ViewToggle({ value, onChange, showDot }: ViewToggleProps) {
