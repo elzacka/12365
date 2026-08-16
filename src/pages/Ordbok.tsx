@@ -1,9 +1,11 @@
-import { useState, useMemo, useEffect, use, useCallback } from 'react'
+import { useState, useMemo, useEffect, use, useCallback, useRef } from 'react'
 import { fetchOrdbok } from '../data/loader'
 import { buildIndex, searchOrd } from '../data/searchIndex'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
+import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { SearchIcon, CloseIcon, ChevronRightIcon } from '../components/Icons'
+import { SearchShortcutHint } from '../components/SearchShortcutHint'
 import type { Ord } from '../types'
 
 const SEARCH_WORDS = ['ord', 'beskrivelse', 'emneknagg']
@@ -30,6 +32,8 @@ export function Ordbok() {
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
   const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
+  const searchInputRef = useRef<HTMLInputElement>(null)
+  const isDesktopSearch = useSearchShortcut(searchInputRef)
 
   // Et besøk på ordbok-siden teller som "lest" for alle oppføringer slik at
   // prikken på Ordbok-kortet på Home forsvinner.
@@ -162,6 +166,7 @@ export function Ordbok() {
               <SearchIcon size={18} />
             </div>
             <input
+              ref={searchInputRef}
               type="search"
               placeholder={placeholder}
               value={query}
@@ -171,10 +176,10 @@ export function Ordbok() {
               autoCorrect="off"
               spellCheck={false}
               inputMode="search"
-              className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
+              className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
               aria-label="Søk i ordboken"
             />
-            {query && (
+            {query ? (
               <button
                 onClick={() => setQuery('')}
                 className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
@@ -182,6 +187,8 @@ export function Ordbok() {
               >
                 <CloseIcon size={16} />
               </button>
+            ) : (
+              isDesktopSearch && <SearchShortcutHint />
             )}
           </div>
 
