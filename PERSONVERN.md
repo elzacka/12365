@@ -20,8 +20,8 @@ Appen lagrer også noen verdier lokalt på enheten din (i localStorage) som gjø
 Appen kan lenke til videoer fra YouTube, Vimeo og Canva. Ingen kontakt med disse tjenestene skjer før du selv klikker på en video. Når du spiller av:
 
 - YouTube: Appen bruker en personvernvennlig avspillingsmodus som ikke lagrer informasjonskapsler for personlig tilpasning før du ser videoen (youtube-nocookie.com, «Privacy Enhanced Mode»). YouTube kan likevel registrere IP-adresse og nettleserinformasjon.
-- Vimeo: Appen er satt opp for at at Vimeo ikke skal spore deg, noe Vimeo har forpliktet seg til å respektere (Do Not Track-flagget, ?dnt=1).
-- Canva: Videoer herfra hostes via min brukerkonto i Canva (www.canva.com). Canva kan registrere IP-adresse og nettleserinformasjon. De tilbyr så vidt jeg vet ikke en tilsvarende personvernsmodus som de andre gjør.
+- Vimeo: Appen er satt opp for at Vimeo ikke skal spore deg, noe Vimeo har forpliktet seg til å respektere (Do Not Track-flagget, ?dnt=1).
+- Canva: Videoer herfra hostes via brukerkonto i www.canva.com. Canva kan registrere IP-adresse og nettleserinformasjon. De tilbyr så vidt jeg vet ikke en tilsvarende personvernsmodus som de andre gjør.
 
 **Hosting**
 Appen er hostet på GitHub Pages. GitHub logger IP-adresse og standard tilgangsdata som ledd i drift av tjenesten. Se [GitHubs personvernerklæring](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for detaljer.
