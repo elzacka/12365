@@ -2,7 +2,8 @@ import { useEffect, useState, use, type ReactNode, Fragment } from 'react'
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
-import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, ZoomInIcon } from '../components/Icons'
+import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, LockIcon, ZoomInIcon } from '../components/Icons'
+import { UntestedWarning } from '../components/UntestedWarning'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
@@ -420,7 +421,15 @@ export function ArticlePage() {
                     }`}
                   >
                     <div className="flex-1">
-                      <p className="text-sm font-medium text-slate-800">{relArticle.tittel}</p>
+                      <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800">
+                        {relArticle.laast && (
+                          <>
+                            <LockIcon size={13} className="shrink-0 text-slate-400" />
+                            <UntestedWarning />
+                          </>
+                        )}
+                        <span>{relArticle.tittel}</span>
+                      </p>
                     </div>
                     <ChevronRightIcon size={16} className="text-slate-300" />
                   </Link>

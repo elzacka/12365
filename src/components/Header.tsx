@@ -59,7 +59,7 @@ export function Header({
               <img
                 src={`${import.meta.env.BASE_URL}logo-header.png`}
                 alt="12365"
-                className="h-10 w-auto"
+                className="h-8 w-auto"
                 decoding="async"
               />
             </Link>

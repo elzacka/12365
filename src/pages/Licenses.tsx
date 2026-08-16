@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo, use } from 'react'
 import { fetchE5LicenseOverview } from '../data/loader'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
+import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import {
   CheckIcon,
   PlusIcon,
@@ -10,6 +11,8 @@ import {
   ExternalLinkIcon,
 } from '../components/Icons'
 import type { LicenseFeature, LicenseStatus } from '../types'
+
+const SEARCH_WORDS = ['kategori', 'funksjon', 'beskrivelse']
 
 type FilterId = 'alle' | 'inkludert' | 'tillegg'
 
@@ -79,6 +82,8 @@ export function Licenses() {
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const [activeFeature, setActiveFeature] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
+  const [searchFocused, setSearchFocused] = useState(false)
+  const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS, searchFocused)
   const { markLicenseSeen } = useSeenVersions()
 
   useEffect(() => {
@@ -138,9 +143,11 @@ export function Licenses() {
             </div>
             <input
               type="search"
-              placeholder="Søk etter app, tjeneste, funksjon..."
+              placeholder={placeholder}
               value={query}
               onChange={e => setQuery(e.target.value)}
+              onFocus={() => setSearchFocused(true)}
+              onBlur={() => setSearchFocused(false)}
               autoCapitalize="none"
               autoCorrect="off"
               spellCheck={false}
