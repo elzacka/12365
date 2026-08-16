@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { registerSW } from 'virtual:pwa-register'
+import { isStandalone } from '../hooks/useInstallPrompt'
 import { CloseIcon } from './Icons'
 
 type Updater = (reload?: boolean) => Promise<void>
 
+// Kun installerte (standalone) brukere kan sitte fast på en gammel,
+// cachet versjon over tid - vanlige nettleserbesøk får ferskt innhold av
+// seg selv og har allerede "nytt innhold"-prikkene på kortene i stedet.
 export function UpdateToast() {
   const [needsRefresh, setNeedsRefresh] = useState(false)
   const updaterRef = useRef<Updater | null>(null)
@@ -11,7 +15,7 @@ export function UpdateToast() {
   useEffect(() => {
     updaterRef.current = registerSW({
       onNeedRefresh() {
-        setNeedsRefresh(true)
+        if (isStandalone()) setNeedsRefresh(true)
       },
     })
   }, [])
@@ -32,13 +36,13 @@ export function UpdateToast() {
       aria-live="polite"
       className="fixed left-4 right-4 sm:left-auto sm:right-4 sm:max-w-sm z-50 bg-brand-700 text-white rounded-xl shadow-xl shadow-brand-900/30 flex items-center gap-2 pl-4 pr-2 py-2.5 bottom-[calc(env(safe-area-inset-bottom)+1rem)]"
     >
-      <p className="text-sm flex-1 leading-snug">Ny versjon er tilgjengelig</p>
+      <p className="text-sm flex-1 leading-snug">Ny versjon tilgjengelig.</p>
       <button
         type="button"
         onClick={reload}
         className="shrink-0 px-3 py-1.5 bg-white text-brand-700 text-sm font-semibold rounded-lg hover:bg-brand-50 active:bg-brand-100 transition-colors"
       >
-        Last på nytt
+        Oppdater
       </button>
       <button
         type="button"

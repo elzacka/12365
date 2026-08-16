@@ -13,7 +13,8 @@ const ICONS_DIR = resolve(PUBLIC_DIR, 'icons')
 const HEADER_SVG = resolve(REK_DIR, '12365_logo_rek_transp/12365_logo_rek_transp_RGB_dark.svg')
 const FAVICON_SVG = resolve(CANVA_DIR, '6.svg')
 const APP_ICON_SVG = resolve(KV_DIR, '12365_logo_kv/12365_logo_RGB_white.svg')
-const MASKABLE_SVG = resolve(KV_DIR, '12365_logo_kv/12365_logo_RGB_white.svg')
+// v2-logoen (kvadratisk) finnes foreløpig kun som PNG, ikke SVG.
+const MASKABLE_PNG = resolve(root, 'dev_only/12365_logo_v2_kvadratisk/v2_dark.png')
 
 const NAVY = { r: 0x00, g: 0x26, b: 0x3e, alpha: 1 }
 const DENSITY = 300
@@ -84,12 +85,21 @@ for (const size of [192, 384, 512]) {
     .toFile(resolve(ICONS_DIR, `icon-${size}.png`))
 }
 
-// Maskable: Android/Chrome OS lager sin egen maske. Vi rendrer kv-ordmerket
-// i full størrelse (512×512) — siden kv-varianten allerede har navy bakgrunn
-// kant-til-kant er det ingen ekstra komposisjon nødvendig.
-const maskableSvg = emphasizeDivider(await readFile(MASKABLE_SVG, 'utf8'))
-await sharp(Buffer.from(maskableSvg), { density: DENSITY })
-  .resize(512, 512, { fit: 'contain', background: NAVY })
+// Maskable: nettlesere/OS klipper ikonet til en egen maske (sirkel, avrundet
+// firkant, squircle) og garanterer kun at en sentrert sone på ~80 % av
+// kantlengden er synlig — i praksis beskjærer enkelte maskeformer strammere
+// enn det. Vi skalerer derfor hele kv-motivet (navy bakgrunn + ordmerke) ned
+// til 60 % og komponerer det sentrert på et eget navy 512×512-lerret, slik
+// at ordmerket forblir fullt lesbart uansett maskeform.
+const maskableLogo = await sharp(MASKABLE_PNG)
+  .resize(320, 320, { fit: 'contain', background: NAVY })
+  .png()
+  .toBuffer()
+
+await sharp({
+  create: { width: 512, height: 512, channels: 4, background: NAVY },
+})
+  .composite([{ input: maskableLogo, gravity: 'center' }])
   .png({ compressionLevel: 9 })
   .toFile(resolve(ICONS_DIR, 'icon-maskable-512.png'))
 

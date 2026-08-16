@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { SeenVersionsProvider } from './lib/SeenVersionsContext'
 import { Header } from './components/Header'
-import { InstallBanner } from './components/InstallBanner'
+import { InstallCard } from './components/InstallCard'
 import { LockModal } from './components/LockModal'
 import { UpdateToast } from './components/UpdateToast'
 import { Home } from './pages/Home'
@@ -53,7 +53,6 @@ function AppRoutes() {
 
   return (
     <div className="min-h-svh flex flex-col">
-      <InstallBanner />
       <Header {...headerProps} onLockClick={() => setLockOpen(true)} />
       <Suspense fallback={<Loading />}>
         <Routes>
@@ -72,6 +71,7 @@ function AppRoutes() {
       </Suspense>
       {lockOpen && <LockModal onClose={() => setLockOpen(false)} />}
       <UpdateToast />
+      <InstallCard />
     </div>
   )
 }
