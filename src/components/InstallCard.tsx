@@ -61,9 +61,7 @@ export function InstallCard() {
       ? coarsePointer
         ? 'Trykk for å legge appen på hjemskjermen.'
         : 'Klikk for å legge appen til som eget program.'
-      : install.kind === 'ios-safari'
-        ? 'Trykk for å se hvordan.'
-        : 'Klikk for å se hvordan.'
+      : null
 
   const actionLabel = install.kind === 'chromium' ? 'Installer' : 'Se hvordan'
 
@@ -78,7 +76,8 @@ export function InstallCard() {
           {install.kind === 'chromium' ? <PlusIcon size={16} /> : <ShareIcon size={16} />}
         </span>
         <p className="text-sm flex-1 leading-snug">
-          <span className="font-medium">{title}</span> {body}
+          <span className="font-medium">{title}</span>
+          {body ? ` ${body}` : ''}
         </p>
         <button
           type="button"
