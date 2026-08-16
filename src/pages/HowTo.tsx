@@ -1,10 +1,12 @@
-import { useState, useMemo, use, useEffect, useCallback } from 'react'
+import { useState, useMemo, use, useEffect, useCallback, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
 import { buildArticleIndex, searchArticles, type ArticleSearchHit, type ArticleIndex } from '../data/articleSearchIndex'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
+import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { ChevronRightIcon, SearchIcon, CloseIcon, LockIcon } from '../components/Icons'
+import { SearchShortcutHint } from '../components/SearchShortcutHint'
 import { UntestedWarning } from '../components/UntestedWarning'
 import { UpdateDot } from '../components/UpdateDot'
 import { useSeenVersions } from '../lib/SeenVersionsContext'
@@ -18,6 +20,8 @@ export function HowTo() {
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
   const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
+  const searchInputRef = useRef<HTMLInputElement>(null)
+  const isDesktopSearch = useSearchShortcut(searchInputRef)
   const { isArticleNew } = useSeenVersions()
 
   const allCategories = useMemo(
@@ -114,6 +118,7 @@ export function HowTo() {
               <SearchIcon size={18} />
             </div>
             <input
+              ref={searchInputRef}
               type="search"
               placeholder={placeholder}
               value={query}
@@ -123,10 +128,10 @@ export function HowTo() {
               autoCorrect="off"
               spellCheck={false}
               inputMode="search"
-              className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
+              className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
               aria-label="Søk i veiledninger"
             />
-            {query && (
+            {query ? (
               <button
                 onClick={() => setQuery('')}
                 className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
@@ -134,6 +139,8 @@ export function HowTo() {
               >
                 <CloseIcon size={16} />
               </button>
+            ) : (
+              isDesktopSearch && <SearchShortcutHint />
             )}
           </div>
 

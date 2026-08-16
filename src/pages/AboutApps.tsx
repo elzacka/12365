@@ -1,4 +1,4 @@
-import { useState, useMemo, use } from 'react'
+import { useState, useMemo, use, useRef } from 'react'
 import { fetchCards } from '../data/loader'
 import { useMergedCards } from '../auth/merge'
 import { FlipCard } from '../components/FlipCard'
@@ -6,7 +6,9 @@ import { CheatSheet } from '../components/CheatSheet'
 import { ComparisonDrawer } from '../components/ComparisonDrawer'
 import { ViewToggle, type AppsView } from '../components/ViewToggle'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
+import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { SearchIcon, CloseIcon, ChevronRightIcon } from '../components/Icons'
+import { SearchShortcutHint } from '../components/SearchShortcutHint'
 
 const MAX_COMPARE = 3
 const SEARCH_WORDS = ['navn', 'tagline', 'beskrivelse']
@@ -19,6 +21,8 @@ export function AboutApps() {
   const [selected, setSelected] = useState<string[]>([])
   const [showHelp, setShowHelp] = useState(false)
   const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
+  const searchInputRef = useRef<HTMLInputElement>(null)
+  const isDesktopSearch = useSearchShortcut(searchInputRef)
 
   const filteredCards = useMemo(() => {
     if (!query.trim()) return allCards
@@ -68,14 +72,15 @@ export function AboutApps() {
                   <SearchIcon size={18} />
                 </div>
                 <input
+                  ref={searchInputRef}
                   type="search"
                   placeholder={placeholder}
                   value={query}
                   onChange={e => setQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
+                  className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
                   aria-label="Søk i apper"
                 />
-                {query && (
+                {query ? (
                   <button
                     onClick={() => setQuery('')}
                     className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
@@ -83,6 +88,8 @@ export function AboutApps() {
                   >
                     <CloseIcon size={16} />
                   </button>
+                ) : (
+                  isDesktopSearch && <SearchShortcutHint />
                 )}
               </div>
 
