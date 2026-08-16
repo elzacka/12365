@@ -55,7 +55,7 @@ export function AboutApps() {
         </div>
 
         {view === 'oversikt' && (
-          <p className="text-sm text-slate-500 text-center mb-4">
+          <p className="text-[10px] text-slate-500 text-center mb-4">
             Trykk + for å sammenligne eller ↔ for å gå til en relatert app
           </p>
         )}
