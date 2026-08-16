@@ -57,7 +57,7 @@ export function Header({
               aria-label="12365 – til forsiden"
             >
               <img
-                src={`${import.meta.env.BASE_URL}logo-header.svg`}
+                src={`${import.meta.env.BASE_URL}logo-header.png`}
                 alt="12365"
                 className="h-10 w-auto"
                 decoding="async"
