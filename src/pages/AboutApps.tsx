@@ -17,9 +17,8 @@ export function AboutApps() {
   const [query, setQuery] = useState('')
   const [view, setView] = useState<AppsView>('kort')
   const [selected, setSelected] = useState<string[]>([])
-  const [searchFocused, setSearchFocused] = useState(false)
   const [showHelp, setShowHelp] = useState(false)
-  const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS, searchFocused)
+  const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
 
   const filteredCards = useMemo(() => {
     if (!query.trim()) return allCards
@@ -73,8 +72,6 @@ export function AboutApps() {
                   placeholder={placeholder}
                   value={query}
                   onChange={e => setQuery(e.target.value)}
-                  onFocus={() => setSearchFocused(true)}
-                  onBlur={() => setSearchFocused(false)}
                   className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
                   aria-label="Søk i apper"
                 />
