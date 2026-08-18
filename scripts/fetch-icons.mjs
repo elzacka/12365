@@ -32,7 +32,6 @@ const sources = [
   { slug: 'power-automate',   path: 'logos/power-automate/powerautomate-scalable.svg',                   mode: 'svg' },
   { slug: 'power-bi',         path: 'logos/power-bi/powerbi-scalable.svg',                               mode: 'svg' },
   { slug: 'shifts',           url:  'https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Fluent_UI_%E2%80%93_ic_fluent_shifts_32_color.svg', mode: 'svg' },
-  { slug: 'sway',             url:  'https://upload.wikimedia.org/wikipedia/commons/b/b7/Microsoft_Office_Sway_%282019%E2%80%93present%29.svg', mode: 'svg' },
   { slug: 'to-do',            path: 'logos/to-do/to-do.svg',                                             mode: 'svg' },
   { slug: 'whiteboard',       path: 'logos/whiteboard/whiteboard-transparent.png',                       mode: 'png-trim-fit' },
   { slug: 'viva-connections', path: 'logos/viva-connections/viva-connections.svg',                       mode: 'svg' },
