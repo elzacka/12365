@@ -6,21 +6,21 @@
     "sammen": "Samler M365 i én flate: Bruk alle appene herfra – også de du kjenner fra før, f.eks. Word.",
     "fotnote": "Gjør det du skal via Teams: Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre noe derfra.",
     "kategori": "snakk-og-mot",
-    "oppsummering": "Chat, møter, filer og samarbeid i ett arbeidsrom",
+    "oppsummering": "Hovedinngang til arbeidsdagen din: Ett sted for å møtes, chatte, samtale, dele og samarbeide.",
     "overlapper": [
       "Outlook",
       "Viva Engage"
     ],
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "Clipchamp",
     "tagline": "Lag video og ta opp skjerm – enkelt og effektivt",
-    "alene": "Klipp og rediger video med tekst, overganger, effekter med mer.",
+    "alene": "Lag og rediger videoer som ser profesjonelle ut, med brukervennlige verktøy.",
     "sammen": "Del video f. eks som lenke via Teams eller publiser på en SharePoint-side .",
     "fotnote": "",
     "kategori": "visualiser",
-    "oppsummering": "Lag video og ta opp skjerm med tekst og effekter",
+    "oppsummering": "Lag video og ta opp skjerm – legg til tekst og effekter",
     "overlapper": [
       "PowerPoint"
     ],
@@ -28,7 +28,7 @@
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/clipchamp?market=no#tabs-pill-bar-ocf614_tab1"
     },
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "Copilot Chat",
@@ -86,16 +86,16 @@
   {
     "navn": "Excel",
     "tagline": "Tall, analyser og beregninger",
-    "alene": "Jobb med tabeller, beregninger, analyser og visualisering av data.",
+    "alene": "Forenkle komplekse data og opprett regneark som er enkle å lese.",
     "sammen": "Flere kan redigere samtidig. Data kan også hentes fra Forms, Lists og SharePoint.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Tabeller, beregninger og visualisering av data",
+    "oppsummering": "Forenkle komplekse data og opprett regneark som er enkle å lese",
     "overlapper": [
       "Lists",
       "Power BI"
     ],
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "Forms",
@@ -181,18 +181,18 @@
   {
     "navn": "Outlook",
     "tagline": "E-post, kalender og møter",
-    "alene": "Samler e-post, kalender, kontakter og møter på ett sted.",
+    "alene": "Administrer e-post, kalender, oppgaver og kontakter på ett sted.",
     "sammen": "Kobler sammen Teams-møter, Bookings og oppgaver.",
     "fotnote": "",
     "kategori": "snakk-og-mot",
-    "oppsummering": "E-post, kalender, kontakter og møter samlet",
+    "oppsummering": "E-post, kalender, oppgaver og kontakter samlet",
     "overlapper": [
       "Teams",
       "Places",
       "To Do",
       "Viva Insights"
     ],
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "Places",
@@ -231,80 +231,78 @@
   },
   {
     "navn": "Power Apps",
-    "tagline": "Lag egne apper uten koding",
-    "alene": "Bygg enkle apper for registrering og oppslag i organisasjonen.",
-    "sammen": "Bruker data fra Lists, SharePoint og Dataverse.",
+    "tagline": "Lag apper med eller uten koding",
+    "alene": "Lag appene du trenger, og utvid eller tilpass eksisterende apper.",
+    "sammen": "Kan bruke data fra f. eks Lists, SharePoint og Dataverse.",
     "fotnote": "Fagsystem-koblinger krever premium-lisens.",
     "kategori": "bygg-og-automatiser",
-    "oppsummering": "Enkle apper for registrering og oppslag uten koding",
+    "oppsummering": "Lag apper, og utvid eller tilpass eksisterende apper – med eller uten koding.",
     "overlapper": [
       "Copilot Studio"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
+      "url": "https://www.microsoft.com/nb-no/power-platform/products/power-apps?market=no#tabs-pill-bar-accordian_tab1"
     },
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "Power Automate",
-    "tagline": "La rutinearbeidet gå automatisk",
-    "alene": "Automatiser oppgaver, varsler og godkjenninger.",
-    "sammen": "Kobler sammen Lists, Forms, Outlook og Teams.",
+    "tagline": "Automatiser og optimer arbeidsflyter", 
+    "alene": "Gjør gjentakende oppgaver enkle ved å automatisere arbeidsflyter.",
+    "sammen": "Automatiser på tvers av apper, skrivebordsprogrammer og nettsteder med KI-drevet, digital robotautomatisering.",
     "fotnote": "",
     "kategori": "bygg-og-automatiser",
-    "oppsummering": "Automatiser oppgaver, varsler og godkjenninger",
+    "oppsummering": "Automatiser og optimer arbeidsflyter",
     "overlapper": [
       "Copilot Studio"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
+      "url": "https://www.microsoft.com/nb-NO/power-platform/products/power-automate/?culture=nb-no&country=no&market=no#Features"
     },
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "Power BI",
     "tagline": "Gjør data om til innsikt",
-    "alene": "Analyser og visualiser data i interaktive rapporter.",
-    "sammen": "Henter data fra Excel, Lists og mange andre kilder.",
+    "alene": "Lever innsikter, og legg til rette for raske og informerte beslutninger.",
+    "sammen": "Koble sømløst til data fra ulike kilder – i skyen eller lokalt. Samle dem på ett sted: Én enkelt sannhetskilde.",
     "fotnote": "",
     "kategori": "visualiser",
-    "oppsummering": "Analyser og visualiser data i interaktive rapporter",
+    "oppsummering": "Gjør data om til innsikt for raske og informerte beslutninger.",
     "overlapper": [
       "Excel"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://guidedtour.microsoft.com/nb-no/guidedtour/power-platform/landing"
+      "url": "https://www.microsoft.com/nb-no/power-platform/products/power-bi?market=no#Product-overview"
     },
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "PowerPoint",
     "tagline": "Presenter ideer visuelt",
-    "alene": "Lag presentasjoner med tekst, bilder, video og diagrammer.",
+    "alene": "Lag flotte presentasjoner som skiller seg ut – enkelt.",
     "sammen": "Del via Teams – flere kan redigere presentasjonen samtidig.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Presentasjoner med tekst, bilder og diagrammer",
+    "oppsummering": "Lag flotte presentasjoner som skiller seg ut – enkelt",
     "overlapper": [
-      "Sway",
       "Clipchamp"
     ],
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "SharePoint",
     "tagline": "Intranett, filer og samarbeid",
-    "alene": "Lagrer teamfiler og publiserer informasjon og sider.",
-    "sammen": "Er dokumentmotoren bak Teams.",
+    "alene": "Opprett teamområder for å dele informasjon, filer og ressurser.",
+    "sammen": "Er lagringsmotoren bak Teams.",
     "fotnote": "",
     "kategori": "lagre-og-del",
     "oppsummering": "Lagrer teamfiler og publiserer informasjon og sider",
     "overlapper": [
       "OneDrive",
-      "Sway",
       "Viva Learning",
       "Viva Engage",
       "Visio"
@@ -313,26 +311,7 @@
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/sharepoint/collaboration?market=no#tabs-pill-bar-occfa1_tab1"
     },
-    "endret": "2026-06-06"
-  },
-  {
-    "navn": "Sway",
-    "tagline": "Lag innhold som er lett å dele",
-    "alene": "Bygg enkle presentasjoner, nyhetsbrev og historier.",
-    "sammen": "Kan deles med lenke internt eller eksternt.",
-    "fotnote": "",
-    "kategori": "skriv-regn-presenter",
-    "oppsummering": "Enkle presentasjoner, nyhetsbrev og historier",
-    "overlapper": [
-      "PowerPoint",
-      "Word",
-      "SharePoint"
-    ],
-    "lenke": {
-      "tekst": "Se mulighetene",
-      "url": "https://sway.cloud.microsoft/"
-    },
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "To Do",
@@ -372,8 +351,8 @@
   },
   {
     "navn": "Viva Engage",
-    "tagline": "Del erfaringer på tvers",
-    "alene": "Faglige fellesskap, diskusjoner og erfaringsdeling.",
+    "tagline": "Del erfaringer på tvers ",
+    "alene": "Faglige fellesskap, diskusjoner og erfaringsdeling. Som et internt sosialt nettverk.",
     "sammen": "Kompletterer Teams med åpne samtaler.",
     "fotnote": "",
     "kategori": "snakk-og-mot",
@@ -386,7 +365,7 @@
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/engage?market=no#Overview"
     },
-    "endret": "2026-06-06"
+    "endret": "2026-08-18"
   },
   {
     "navn": "Viva Insights",
@@ -444,14 +423,11 @@
   {
     "navn": "Word",
     "tagline": "Skriv og samarbeid om dokumenter",
-    "alene": "Lag dokumenter, rapporter, referater og maler sammen med andre.",
+    "alene": "Opprett dokumenter og skriv bedre med innebygde intelligente funksjoner.",
     "sammen": "Lagre i OneDrive eller Teams og rediger samtidig.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Dokumenter, rapporter og referater sammen med andre",
-    "overlapper": [
-      "Sway"
-    ],
-    "endret": "2026-06-06"
+    "oppsummering": "Opprett dokumenter og skriv bedre med innebygde intelligente funksjoner",
+    "endret": "2026-08-18"
   }
 ]
