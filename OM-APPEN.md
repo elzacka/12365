@@ -1,6 +1,6 @@
 # Om appen
 
-1-2-365 er en slags referansehåndbok for Microsoft 365. I form av en såkalt [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: en nettside som fungerer og installeres som en vanlig app"). 
+1-2-365 er en slags referansehåndbok for Microsoft 365. I form av en såkalt [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). 
 
 Jeg ville ha et sted å samle ting jeg trenger. Formulert på en måte som gir mening for meg, tilgjengelig på enklest mulig måte: Opp med mobilen, åpne appen, søke – BANG.
 
