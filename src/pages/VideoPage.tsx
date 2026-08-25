@@ -45,8 +45,6 @@ export function VideoPage() {
               <video
                 slot="media"
                 src={source.src}
-                autoPlay
-                muted
                 playsInline
                 preload="auto"
                 poster={video.thumbnail ? `${base}${video.thumbnail}` : undefined}
