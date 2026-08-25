@@ -16,12 +16,7 @@ Alt dette ligger kun på din enhet.
 ## Tredjeparter
 
 **Videoer**
-Appen kan lenke til videoer fra YouTube og Vimeo. Ingen kontakt med disse tjenestene skjer før du selv klikker på en video. Når du spiller av:
-
-- YouTube: Appen bruker en personvernvennlig avspillingsmodus som ikke lagrer informasjonskapsler for personlig tilpasning før du ser videoen (youtube-nocookie.com, «Privacy Enhanced Mode»). YouTube kan likevel registrere IP-adresse og nettleserinformasjon.
-- Vimeo: Appen er satt opp for at Vimeo ikke skal spore deg, noe Vimeo har forpliktet seg til å respektere (Do Not Track-flagget, ?dnt=1).
-
-Enkelte videoer ligger som lokale filer i appen og hentes direkte fra GitHub Pages – ingen tredjepart involvert.
+Videoene i appen ligger som lokale filer og hentes direkte fra GitHub Pages – ingen tredjepart involvert.
 
 **Hosting**
 Appen er hostet på GitHub Pages. GitHub logger IP-adresse og standard tilgangsdata som ledd i drift av tjenesten. Se [GitHubs personvernerklæring](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for detaljer.
