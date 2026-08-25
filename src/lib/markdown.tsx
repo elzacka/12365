@@ -9,12 +9,14 @@ import { ExternalLinkIcon } from '../components/Icons'
 // - **fet tekst** og *kursiv*
 // - Lenker [tekst](url) – interne (/sti) går via React Router,
 //   eksterne (https://...) får target="_blank" og rel="noopener noreferrer"
+// - Lenker med tooltip [tekst](url "tooltip-tekst") – tooltip-teksten blir
+//   title-attributtet på lenken
 // - Punktlister (- ...) og nummererte lister (1. ...)
 //
 // Ingen runtime-avhengigheter. For mer avansert markdown – bytt til
 // remark/react-markdown og oppdater testene først.
 
-const inlineRegex = /(\*\*[^*\n]+\*\*|\*[^*\n]+\*|\[[^\]]+\]\([^)\s]+\))/g
+const inlineRegex = /(\*\*[^*\n]+\*\*|\*[^*\n]+\*|\[[^\]]+\]\([^)\s]+(?:\s+"[^"]*")?\))/g
 
 function parseInline(text: string): ReactNode[] {
   const nodes: ReactNode[] = []
@@ -41,9 +43,9 @@ function parseInline(text: string): ReactNode[] {
         </em>
       )
     } else {
-      const linkMatch = m.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/)
+      const linkMatch = m.match(/^\[([^\]]+)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$/)
       if (linkMatch) {
-        const [, label, url] = linkMatch
+        const [, label, url, title] = linkMatch
         const isExternal = /^https?:\/\//i.test(url) || /^mailto:/i.test(url)
         const linkClass = 'text-brand-400 hover:text-brand-600 transition-colors'
         if (isExternal) {
@@ -53,6 +55,7 @@ function parseInline(text: string): ReactNode[] {
               href={url}
               target="_blank"
               rel="noopener noreferrer"
+              title={title}
               className={linkClass}
             >
               {label}
@@ -61,7 +64,7 @@ function parseInline(text: string): ReactNode[] {
           )
         } else {
           nodes.push(
-            <Link key={`a-${key++}`} to={url} className={linkClass}>
+            <Link key={`a-${key++}`} to={url} title={title} className={linkClass}>
               {label}
             </Link>
           )
