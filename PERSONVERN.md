@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-Oppdatert: 07.06.26
+Oppdatert: 25.08.26
 
 ## Kort oppsummert
 
