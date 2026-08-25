@@ -1,5 +1,15 @@
-import { use, useEffect } from 'react'
+import { use, useEffect, type CSSProperties } from 'react'
 import { useParams, Navigate } from 'react-router-dom'
+import {
+  MediaController,
+  MediaControlBar,
+  MediaPlayButton,
+  MediaTimeRange,
+  MediaTimeDisplay,
+  MediaMuteButton,
+  MediaFullscreenButton,
+} from 'media-chrome/react'
+import '../lib/media-chrome-nb'
 import { fetchVideos } from '../data/loader'
 import { useMergedVideos } from '../auth/merge'
 import { parseVideoSource } from '../data/video-source'
@@ -28,16 +38,30 @@ export function VideoPage() {
       <main className="flex-1 px-4 py-6 max-w-2xl mx-auto w-full">
         <div className="bg-black rounded-xl overflow-hidden shadow-sm">
           {source.type === 'file' ? (
-            <video
-              src={source.src}
-              controls
-              playsInline
-              preload="auto"
-              poster={video.thumbnail ? `${base}${video.thumbnail}` : undefined}
-              className="w-full aspect-video bg-black"
+            <MediaController
+              className="block w-full aspect-video bg-black"
+              style={{ '--media-primary-color': '#ffffff', '--media-control-height': '44px' } as CSSProperties}
             >
-              Nettleseren din støtter ikke avspilling av video. Du kan laste ned filen her: <a href={source.src}>{video.fil}</a>.
-            </video>
+              <video
+                slot="media"
+                src={source.src}
+                autoPlay
+                muted
+                playsInline
+                preload="auto"
+                poster={video.thumbnail ? `${base}${video.thumbnail}` : undefined}
+                className="w-full h-full object-contain"
+              >
+                Nettleseren din støtter ikke avspilling av video. Du kan laste ned filen her: <a href={source.src}>{video.fil}</a>.
+              </video>
+              <MediaControlBar>
+                <MediaPlayButton />
+                <MediaTimeRange />
+                <MediaTimeDisplay showDuration />
+                <MediaMuteButton />
+                <MediaFullscreenButton />
+              </MediaControlBar>
+            </MediaController>
           ) : (
             <iframe
               src={source.embedSrc}
