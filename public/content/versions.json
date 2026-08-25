@@ -62,8 +62,8 @@
     "opplaering-sharepoint-viva-learning": "db9690e4f4"
   },
   "videos": {
-    "microsoft-graph-grafbasert-arkitektur": "b537531766",
-    "microsoft-365-for-oss": "96ae41ecd9"
+    "microsoft-graph-grafbasert-arkitektur": "69a0034c31",
+    "microsoft-365-for-oss": "23ea5ab751"
   },
   "courses": {
     "datareisen": "2d27a223cb",
@@ -638,7 +638,7 @@
     "power-platform-miljo": "5ce9947e67"
   },
   "license": "f56c611193",
-  "about": "d1422cbc4f",
+  "about": "457be83fcc",
   "endret": {
     "cards": {
       "Teams": "2026-08-18",
