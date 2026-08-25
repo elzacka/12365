@@ -54,6 +54,13 @@ describe('Markdown', () => {
     expect(a?.getAttribute('target')).toBeNull()
   })
 
+  it('renders a link title as the title attribute', () => {
+    const { container } = renderMarkdown('[PWA](https://example.com "Progressive Web App")')
+    const a = container.querySelector('a')
+    expect(a?.getAttribute('href')).toBe('https://example.com')
+    expect(a?.getAttribute('title')).toBe('Progressive Web App')
+  })
+
   it('keeps single line breaks inside a paragraph', () => {
     const { container } = renderMarkdown('linje 1\nlinje 2')
     expect(container.querySelectorAll('br')).toHaveLength(1)
