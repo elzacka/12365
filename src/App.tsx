@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { SeenVersionsProvider } from './lib/SeenVersionsContext'
@@ -13,9 +13,11 @@ import { Privacy } from './pages/Privacy'
 import { HowTo } from './pages/HowTo'
 import { ArticlePage } from './pages/ArticlePage'
 import { Opplaering } from './pages/Opplaering'
-import { VideoPage } from './pages/VideoPage'
 import { Licenses } from './pages/Licenses'
 import { Ordbok } from './pages/Ordbok'
+
+// Lazy-loaded: pulls in media-chrome, which shouldn't ship in the main bundle for routes that never play video.
+const VideoPage = lazy(() => import('./pages/VideoPage').then(m => ({ default: m.VideoPage })))
 
 function Loading() {
   return (
