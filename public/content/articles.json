@@ -1152,7 +1152,7 @@
           },
           {
             "tittel": "Under møtet: Bli med og del skjermen",
-            "innhold": "Klikk **Bli med** i kalenderoppføringen i Teams eller Outlook i M365, og velg lyd og kamera før du kobler til.\n\nSkal du dele skjermen, klikk **skjermdelingsikonet** i møteverktøylinjen og velg:\n\n◦ **Hele skjermen**: Viser alt\n◦ **Ett vindu**: Kun det programmet du velger\n◦ **En PowerPoint-presentasjon**: Deltakerne kan bla selv\n\n*Tips: Test oppsettet på forhånd via **Innstillinger** → **Enheter** → **Utfør et testanrop**. Del ett vindu framfor hele skjermen når du deler – da slipper du at private varsler vises til alle.*"
+            "innhold": "Klikk **Bli med** i kalenderoppføringen i Teams eller Outlook i M365, og velg lyd og kamera før du kobler til.\n\n*Tips: Test oppsettet på forhånd via **Innstillinger** → **Enheter** → **Utfør et testanrop**.*\n\nSkal du dele skjermen, klikk **skjermdelingsikonet** i møteverktøylinjen og velg:\n\n◦ **Hele skjermen**: Viser alt\n◦ **Ett vindu**: Kun det programmet du velger\n◦ **En PowerPoint-presentasjon**: Deltakerne kan bla selv\n\n*Tips: Del ett vindu framfor hele skjermen når du deler – da slipper du at private varsler vises til alle.*"
           },
           {
             "tittel": "Under møtet: Følg agendaen i Loop-siden",
