@@ -2,17 +2,16 @@
 
 Oppdatert: 07.06.26
 
-12365 er en åpen, gratis Progressive Web App. Appen samler ikke inn personopplysninger, bruker ikke analyseverktøy eller informasjonskapsler.
+## Kort oppsummert
 
-## Lagring i nettleseren
+12365 er en åpen, gratis Progressive Web App. Appen samler ikke inn personopplysninger, og bruker verken analyseverktøy eller informasjonskapsler.
 
-For at appen skal fungere offline, lagrer nettleseren appens statiske filer (HTML, JavaScript, CSS, ikoner og innhold) lokalt på enheten din ved hjelp av en såkalt «Service Worker». Filene sendes ikke videre og kan slettes ved å fjerne nettleserdata for denne appen.
+## Hva som lagres
 
-Appen lagrer også noen verdier lokalt på enheten din (i localStorage) som gjør det bedre og enklere for deg å bruke appen. Ingenting av dette inneholder data som kan identifisere deg, og det ligger kun på din enhet. Verdiene gjør at appen husker:
+- Appens filer (HTML, JavaScript, CSS, ikoner og innhold): Lagres lokalt via en Service Worker, slik at appen fungerer offline. Sendes aldri videre.
+- Noen verdier i nettleseren din (localStorage): Om du har lukket installeringsbanneret, hva du har sett i appen, og en eventuell passordfrase for skjult innhold. Ingenting av dette kan identifisere deg.
 
-- Om du har lukket installeringsbanneret: Unngår mas om noe du allerede har valgt
-- Hva du har sett i appen: Gjør at du ser den lyseblå prikken på innhold som er nytt eller endret siden du brukte appen sist
-- Passordfrase hvis du har låst opp skjult innhold: Du slipper å taste inn passordet flere ganger enn nødvendig
+Alt dette ligger kun på din enhet.
 
 ## Tredjeparter
 
@@ -29,7 +28,10 @@ Appen er hostet på GitHub Pages. GitHub logger IP-adresse og standard tilgangsd
 
 ## Dine rettigheter
 
-Siden appen ikke samler inn personopplysninger, finnes det ingen data å be om innsyn i, retting av eller sletting av.
+Siden appen ikke samler inn personopplysninger, finnes det ingen data å be om innsyn i, retting av eller sletting av. Du kan likevel:
+
+- Slette alt lagret ved å fjerne nettleserdata for appen
+- Bruke appen uten internettilkobling
 
 ## Kontakt
 
