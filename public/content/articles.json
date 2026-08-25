@@ -1148,7 +1148,7 @@
         "steg": [
           {
             "tittel": "Før møtet: Planlegg og sett agendaen",
-            "innhold": "**Fra Outlook:** Opprett en kalenderinvitasjon og klikk **Teams-møte** i verktøylinjen. En møtelenke legges automatisk til.\n\n**Fra Teams:** Klikk **Kalender** i venstremenyen → **Nytt møte**. Legg til deltakere, tittel og tidspunkt.\n\nSom møteleder er det din jobb å klikke **Legg til agenda** før du sender invitasjonen. Teams oppretter da automatisk en Loop-side med plass til agenda, møtenotater og oppfølgingsoppgaver. Fyll inn agendapunktene med en gang, så kan deltakerne forberede seg før møtet starter.\n\n*Merk: Gjentakende møter deler samme Loop-side på tvers av alle instansene. Vil du ha rene notater per møte, velg **Rediger denne hendelsen** – ikke **Rediger alle hendelser** – når du endrer agendaen.*"
+            "innhold": "**Fra Outlook:** Opprett en kalenderinvitasjon og klikk **Teams-møte** i verktøylinjen. En møtelenke legges automatisk til.\n\n**Fra Teams:** Klikk **Kalender** i venstremenyen → **Nytt møte**. Legg til deltakere, tittel og tidspunkt.\n\nSom møteleder er det din jobb å klikke **Legg til en agenda** før du sender invitasjonen. Teams oppretter da automatisk en Loop-side med plass til agenda, møtenotater og oppfølgingsoppgaver. Fyll inn agendapunktene med en gang, så kan deltakerne forberede seg før møtet starter.\n\n*Merk: Gjentakende møter deler samme Loop-side på tvers av alle instansene. Vil du ha rene notater per møte, velg **Rediger denne hendelsen** – ikke **Rediger alle hendelser** – når du endrer agendaen.*"
           },
           {
             "tittel": "Under møtet: Bli med og del skjermen",
