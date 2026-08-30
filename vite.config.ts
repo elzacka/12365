@@ -69,6 +69,11 @@ export default defineConfig({
         display: 'standalone',
         display_override: ['standalone', 'minimal-ui'],
         orientation: 'portrait',
+        // Unngår at appen åpner et nytt vindu/ny fane hver gang den startes på
+        // nytt fra hjemskjerm/OS mens den allerede er åpen et sted.
+        launch_handler: {
+          client_mode: 'navigate-existing',
+        },
         theme_color: '#00263e',
         background_color: '#f8fafc',
         categories: ['education', 'productivity'],
