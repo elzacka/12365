@@ -50,6 +50,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'prompt',
       injectRegister: false,
+      strategies: 'injectManifest',
+      srcDir: 'src',
+      filename: 'sw.ts',
       includeAssets: [
         'favicon.svg',
         'favicon-32.png',
@@ -105,24 +108,10 @@ export default defineConfig({
           },
         ],
       },
-      workbox: {
+      injectManifest: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,json}'],
         // Videoer og videominiatyrer skal ikke precaches — de er for store og hentes ved behov.
         globIgnores: ['videos/**/*'],
-        runtimeCaching: [
-          {
-            urlPattern: /\/videos\/thumbnails\/[^/]+\.(?:png|jpg|jpeg|webp)$/i,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'video-thumbnails',
-              expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 30 },
-            },
-          },
-          {
-            urlPattern: /\/videos\/[^/]+\.mp4$/i,
-            handler: 'NetworkOnly',
-          },
-        ],
       },
     }),
   ],
