@@ -18,6 +18,7 @@ interface SeenVersionsContextValue {
   hasNewOrdbok: boolean
   hasNewLicense: boolean
   hasNewAbout: boolean
+  newContentCount: number
   markCardSeen: (navn: string) => void
   markAllCardsSeen: () => void
   markArticleSeen: (id: string) => void
@@ -123,6 +124,21 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
   }, [versions, seen])
   const hasNewAbout = useMemo(() => {
     return !!versions && seen.about !== versions.about
+  }, [versions, seen])
+
+  // Samlet antall usette elementer - grunnlaget for app-ikonets badge-tall.
+  const newContentCount = useMemo(() => {
+    if (!versions) return 0
+    const countSection = (all: Record<string, string>, seenSection: Record<string, string>) =>
+      Object.keys(all).filter(k => seenSection[k] !== all[k]).length
+    let count = countSection(versions.cards, seen.cards)
+      + countSection(versions.articles, seen.articles)
+      + countSection(versions.videos, seen.videos)
+      + countSection(versions.courses ?? {}, seen.courses)
+      + countSection(versions.ordbok ?? {}, seen.ordbok)
+    if (seen.license !== versions.license) count += 1
+    if (seen.about !== versions.about) count += 1
+    return count
   }, [versions, seen])
 
   const persist = useCallback((next: SeenVersions) => {
@@ -249,6 +265,7 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
     hasNewOrdbok,
     hasNewLicense,
     hasNewAbout,
+    newContentCount,
     markCardSeen,
     markAllCardsSeen,
     markArticleSeen,
