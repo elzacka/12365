@@ -251,6 +251,7 @@ export function HowTo() {
                     <Link
                       key={article.id}
                       to={`/slik-gjor-du/${cat.id}/${article.id}`}
+                      viewTransition
                       state={query.trim() ? { query: query.trim() } : undefined}
                       className={`relative flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group ${
                         idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''

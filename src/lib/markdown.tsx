@@ -64,7 +64,7 @@ function parseInline(text: string): ReactNode[] {
           )
         } else {
           nodes.push(
-            <Link key={`a-${key++}`} to={url} title={title} className={linkClass}>
+            <Link key={`a-${key++}`} to={url} viewTransition title={title} className={linkClass}>
               {label}
             </Link>
           )

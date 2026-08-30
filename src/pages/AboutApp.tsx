@@ -28,6 +28,7 @@ export function AboutApp() {
           </a>
           <Link
             to="/personvern"
+            viewTransition
             className="flex items-center justify-center px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm active:scale-[0.98] transition-all"
           >
             Personvern
