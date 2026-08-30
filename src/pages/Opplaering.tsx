@@ -76,6 +76,7 @@ export function Opplaering() {
                   <Link
                     key={v.id}
                     to={`/opplaering/videoer/${v.id}`}
+                    viewTransition
                     className="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                     aria-label={v.tittel ? `Spill av ${v.tittel}` : 'Spill av video'}
                   >

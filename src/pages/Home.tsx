@@ -15,6 +15,7 @@ function NavCard({ to, icon, title, color, showDot }: NavCardProps) {
   return (
     <Link
       to={to}
+      viewTransition
       className="group relative flex flex-col items-center justify-start gap-3 p-4 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md active:scale-[0.98] transition-all duration-200 text-center select-none"
     >
       <UpdateDot visible={!!showDot} className="absolute top-2 right-2" />

@@ -2,7 +2,7 @@ import { useEffect, useState, use, type ReactNode, Fragment } from 'react'
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
-import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, LockIcon, ZoomInIcon } from '../components/Icons'
+import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, LockIcon, ShareIcon, ZoomInIcon } from '../components/Icons'
 import { UntestedWarning } from '../components/UntestedWarning'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
@@ -253,6 +253,12 @@ export function ArticlePage() {
   const step = article.steg[activeStep]
   const hl = highlightActive ? toHighlight(searchQuery) : ''
 
+  const canShare = typeof navigator !== 'undefined' && 'share' in navigator
+  const handleShare = () => {
+    const url = `${window.location.origin}${import.meta.env.BASE_URL}slik-gjor-du/${category.id}/${article.id}`
+    navigator.share({ title: article.tittel, text: article.ingress, url }).catch(() => {})
+  }
+
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       {/* Progress bar at the top – visual anchor without competing for focus. */}
@@ -274,9 +280,21 @@ export function ArticlePage() {
             visual element. */}
         {isFirstStep && (
           <header className="pt-5 pb-1">
-            <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-              {category.tittel}
-            </p>
+            <div className="flex items-start justify-between gap-2">
+              <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
+                {category.tittel}
+              </p>
+              {canShare && (
+                <button
+                  type="button"
+                  onClick={handleShare}
+                  className="shrink-0 -mt-1.5 -mr-1.5 p-1.5 text-slate-400 hover:text-brand-700 transition-colors"
+                  aria-label="Del veiledningen"
+                >
+                  <ShareIcon size={18} />
+                </button>
+              )}
+            </div>
             <h1 className="text-lg font-semibold text-slate-800 leading-snug mt-1">
               {applyHighlight(article.tittel, hl)}
             </h1>
@@ -382,6 +400,7 @@ export function ArticlePage() {
           {isLastStep ? (
             <Link
               to="/slik-gjor-du"
+              viewTransition
               className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-green-600 text-white hover:bg-green-700 shadow-sm transition-colors"
             >
               Ferdig
@@ -415,6 +434,7 @@ export function ArticlePage() {
                   <Link
                     key={relId}
                     to={`/slik-gjor-du/${relCategory.id}/${relId}`}
+                    viewTransition
                     onClick={() => setActiveStep(0)}
                     className={`flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition-colors ${
                       idx < arr.length - 1 ? 'border-b border-slate-100' : ''
