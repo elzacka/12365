@@ -2,6 +2,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App'
+import { registerAppUpdate } from './lib/registerAppUpdate'
+
+registerAppUpdate()
 
 // spa-github-pages: 404.html sender oss til `?/<sti>` – gjenopprett den ekte URL-en før React monterer.
 const search = window.location.search
