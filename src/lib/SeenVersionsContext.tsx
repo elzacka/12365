@@ -126,19 +126,27 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
     return !!versions && seen.about !== versions.about
   }, [versions, seen])
 
-  // Samlet antall usette elementer - grunnlaget for app-ikonets badge-tall.
+  // Grunnlaget for app-ikonets badge-tall - et mer synlig OS-nivå-signal enn
+  // prikkene inne i appen, så terskelen er strengere: kun helt nytt innhold
+  // (ingen tidligere sett versjon i det hele tatt) eller endringer forfatteren
+  // aktivt har merket med "endret"-dato teller med. En vanlig redigering uten
+  // det flagget gir fortsatt prikk i appen, men bumper ikke badgen.
   const newContentCount = useMemo(() => {
     if (!versions) return 0
-    const countSection = (all: Record<string, string>, seenSection: Record<string, string>) =>
-      Object.keys(all).filter(k => seenSection[k] !== all[k]).length
-    let count = countSection(versions.cards, seen.cards)
-      + countSection(versions.articles, seen.articles)
-      + countSection(versions.videos, seen.videos)
-      + countSection(versions.courses ?? {}, seen.courses)
-      + countSection(versions.ordbok ?? {}, seen.ordbok)
-    if (seen.license !== versions.license) count += 1
-    if (seen.about !== versions.about) count += 1
-    return count
+    const endret = versions.endret ?? {}
+    const countSection = (
+      all: Record<string, string>,
+      seenSection: Record<string, string>,
+      flagged: Record<string, string> | undefined,
+    ) =>
+      Object.keys(all).filter(k => seenSection[k] !== all[k] && (seenSection[k] === undefined || !!flagged?.[k])).length
+
+    return countSection(versions.cards, seen.cards, endret.cards)
+      + countSection(versions.articles, seen.articles, endret.articles)
+      + countSection(versions.videos, seen.videos, endret.videos)
+      + countSection(versions.courses ?? {}, seen.courses, endret.courses)
+      + countSection(versions.ordbok ?? {}, seen.ordbok, endret.ordbok)
+      + (seen.license !== versions.license && !!endret.license ? 1 : 0)
   }, [versions, seen])
 
   const persist = useCallback((next: SeenVersions) => {
