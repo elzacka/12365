@@ -433,7 +433,7 @@
     "artikler": [
       {
         "id": "clipchamp-bruke",
-        "tittel": "Slik bruker du Clipchamp",
+        "tittel": "Bruke Clipchamp",
         "ingress": "Clipchamp er video-appen i Microsoft 365. Ta opp, rediger, transkriber og del.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "clipchamp",
@@ -489,7 +489,7 @@
   {
     "id": "copilot",
     "tittel": "Copilot",
-    "beskrivelse": "Slik bruker du Copilot Chat i hverdagen",
+    "beskrivelse": "Bruke Copilot Chat i hverdagen",
     "artikler": [
       {
         "id": "m365-copilot-aktivert",
@@ -558,7 +558,7 @@
       },
       {
         "id": "copilot-chat-inkludert",
-        "tittel": "Slik bruker du Copilot Chat",
+        "tittel": "Bruke Copilot Chat",
         "ingress": "KI-chatten for skriving, oppsummering og søk.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
