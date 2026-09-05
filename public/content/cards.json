@@ -4,9 +4,9 @@
     "tagline": "Hovedinngang til arbeidsdagen din",
     "alene": "Samler chat, møter, filer og samarbeid i arbeidsrom (kanaler).",
     "sammen": "Samler M365 i én flate: Bruk alle appene herfra – også de du kjenner fra før, f.eks. Word.",
-    "fotnote": "Gjør det du skal via Teams: Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre noe derfra.",
+    "fotnote": "",
     "kategori": "snakk-og-mot",
-    "oppsummering": "Hovedinngang til arbeidsdagen din: Ett sted for å møtes, chatte, samtale, dele og samarbeide.",
+    "oppsummering": "Hovedinngang til arbeidsdagen din: Ett sted for å møtes, chatte, samtale, dele og samarbeide",
     "overlapper": [
       "Outlook",
       "Viva Engage"
@@ -17,7 +17,7 @@
     "navn": "Clipchamp",
     "tagline": "Lag video og ta opp skjerm – enkelt og effektivt",
     "alene": "Lag og rediger videoer som ser profesjonelle ut, med brukervennlige verktøy.",
-    "sammen": "Del video f. eks som lenke via Teams eller publiser på en SharePoint-side .",
+    "sammen": "Del video f.eks. som lenke via Teams eller publiser på en SharePoint-side.",
     "fotnote": "",
     "kategori": "visualiser",
     "oppsummering": "Lag video og ta opp skjerm – legg til tekst og effekter",
@@ -34,7 +34,7 @@
     "navn": "Copilot Chat",
     "tagline": "KI-chat for skriving, oppsummering og søk",
     "alene": "Følger med M365. Spør, få utkast og oppsummeringer. Søk på nett, lim eller last opp fil i chat. Tilpass instruksjonene så den svarer slik du vil.",
-    "sammen": "Med M365 Copilot-lisens henter den svar fra det du har tilgang til. Dokumenter, e-post, møtereferater osv.",
+    "sammen": "Med M365 Copilot-lisens henter den svar fra det du har tilgang til: Dokumenter, e-post og møtereferater.",
     "fotnote": "",
     "kategori": "ki",
     "oppsummering": "KI-chat med søk på nett. Følger med M365",
@@ -47,7 +47,7 @@
     "navn": "Microsoft 365 Copilot",
     "tagline": "Generativ KI forankret i organisasjonens innhold",
     "alene": "KI bygd inn i hele M365. Skriver, oppsummerer og analyserer innhold du har tilgang til.",
-    "sammen": "Kombinert med Copilot Studio kan du gjøre mye mer.",
+    "sammen": "Kombinert med Copilot Studio kan innholdet bli kilder for egne agenter.",
     "fotnote": "Krever egen M365 Copilot-lisens per bruker",
     "kategori": "ki",
     "oppsummering": "Generativ KI forankret i organisasjonens innhold. Krever lisens",
@@ -232,10 +232,10 @@
     "navn": "Power Apps",
     "tagline": "Lag apper med eller uten koding",
     "alene": "Lag appene du trenger, og utvid eller tilpass eksisterende apper.",
-    "sammen": "Kan bruke data fra f. eks Lists, SharePoint og Dataverse.",
+    "sammen": "Kan bruke data fra f.eks. Lists, SharePoint og Dataverse.",
     "fotnote": "Fagsystem-koblinger krever premium-lisens.",
     "kategori": "bygg-og-automatiser",
-    "oppsummering": "Lag apper, og utvid eller tilpass eksisterende apper – med eller uten koding.",
+    "oppsummering": "Lag apper, og utvid eller tilpass eksisterende apper – med eller uten koding",
     "overlapper": [
       "Copilot Studio"
     ],
@@ -247,7 +247,7 @@
   },
   {
     "navn": "Power Automate",
-    "tagline": "Automatiser og optimer arbeidsflyter", 
+    "tagline": "Automatiser og optimer arbeidsflyter",
     "alene": "Gjør gjentakende oppgaver enkle ved å automatisere arbeidsflyter.",
     "sammen": "Automatiser på tvers av apper, skrivebordsprogrammer og nettsteder med KI-drevet, digital robotautomatisering.",
     "fotnote": "",
@@ -269,7 +269,7 @@
     "sammen": "Koble sømløst til data fra ulike kilder – i skyen eller lokalt. Samle dem på ett sted: Én enkelt sannhetskilde.",
     "fotnote": "",
     "kategori": "visualiser",
-    "oppsummering": "Gjør data om til innsikt for raske og informerte beslutninger.",
+    "oppsummering": "Gjør data om til innsikt for raske og informerte beslutninger",
     "overlapper": [
       "Excel"
     ],
@@ -332,7 +332,7 @@
   },
   {
     "navn": "Viva Engage",
-    "tagline": "Del erfaringer på tvers ",
+    "tagline": "Del erfaringer på tvers",
     "alene": "Faglige fellesskap, diskusjoner og erfaringsdeling. Som et internt sosialt nettverk.",
     "sammen": "Kompletterer Teams med åpne samtaler.",
     "fotnote": "",
