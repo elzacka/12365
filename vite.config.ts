@@ -62,7 +62,7 @@ export default defineConfig({
       ],
       manifest: {
         id: base,
-        name: '1-2-365 – M365 på 1-2-3',
+        name: '1-2-365',
         short_name: '1-2-365',
         description: 'Forstå og utnytte mulighetene i Microsoft 365 — appoversikt, veiledninger og lisenssammenligning.',
         lang: 'nb',

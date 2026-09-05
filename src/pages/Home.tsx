@@ -34,7 +34,7 @@ export function Home() {
 
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-10 pb-8">
-      <h1 className="sr-only">1-2-365 – M365 på 1-2-3</h1>
+      <h1 className="sr-only">1-2-365</h1>
       <div className="max-w-md mx-auto grid grid-cols-2 gap-3">
         <NavCard
           to="/om-appene"

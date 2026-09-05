@@ -1,4 +1,4 @@
-# 1-2-365 – M365 på 1-2-3
+# 1-2-365
 
 Til deg som har forvilla deg hit: Hei!
 
