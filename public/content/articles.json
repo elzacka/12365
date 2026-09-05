@@ -65,7 +65,7 @@
           },
           {
             "tittel": "Tre Outlook-funksjoner: Rydd opp, Ignorer og Hurtigtrinn",
-            "innhold": "Disse fjerner repetitive klikk i hverdagen:\n\n◦ **Rydd opp samtale**: Marker en lang tråd → **Hjem** → **Rydd opp**. Hele historikken ligger uansett i siste e-post.\n◦ **Ignorer**: Ctrl+Del på en samtale du ikke vil høre mer fra. Alle nye og kommende meldinger går rett til Slettede elementer.\n◦ **Hurtigtrinn**: **Hjem** → **Hurtigtrinn** → **Opprett ny**. Knapper for repeterte oppgaver med hurtigtast Ctrl+Shift+1–9.\n\n*Tips: Kombiner søkemapper med Hurtigtrinn for å rydde tilbakevendende mønstre.*"
+            "innhold": "Disse fjerner repetitive klikk:\n\n◦ **Rydd opp samtale**: Marker en lang tråd → **Hjem** → **Rydd opp**. Hele historikken ligger uansett i siste e-post.\n◦ **Ignorer**: Ctrl+Del på en samtale du ikke vil høre mer fra. Alle nye og kommende meldinger går rett til Slettede elementer.\n◦ **Hurtigtrinn**: **Hjem** → **Hurtigtrinn** → **Opprett ny**. Knapper for repeterte oppgaver med hurtigtast Ctrl+Shift+1–9.\n\n*Tips: Kombiner søkemapper med Hurtigtrinn for å rydde tilbakevendende mønstre.*"
           },
           {
             "tittel": "Søk i Utforsker: Finn gamle og store filer",
@@ -489,7 +489,7 @@
   {
     "id": "copilot",
     "tittel": "Copilot",
-    "beskrivelse": "Bruke Copilot Chat i hverdagen",
+    "beskrivelse": "Bruke Copilot Chat",
     "artikler": [
       {
         "id": "m365-copilot-aktivert",
