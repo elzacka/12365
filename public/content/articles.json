@@ -116,15 +116,15 @@
           },
           {
             "tittel": "Bruk faner i kanalene",
-            "innhold": "Øverst i hver kanal kan du legge til **faner**. Klikk **+** på fanelinja og velg:\n\n◦ En **Lists**-oversikt (hendelseslogg, risikoregister)\n◦ En **Planner**-tavle\n◦ En **OneNote**-notatblokk\n◦ En **SharePoint-side**\n◦ Et **Whiteboard**\n◦ En **nettside** eller et **skjema**\n\nAlt teamet trenger er samlet på ett sted, i én kanal."
+            "innhold": "Øverst i hver kanal kan du legge til **faner**. Klikk **+** på fanelinja og velg:\n\n◦ En **Lists**-oversikt\n◦ En **Planner**-tavle\n◦ En **OneNote**-notatblokk\n◦ En **SharePoint-side**\n◦ Et **Whiteboard**\n◦ En **nettside** eller et **skjema**\n\nAlt teamet trenger er samlet på ett sted, i én kanal."
           },
           {
             "tittel": "Åpne og rediger filer uten å forlate Teams",
-            "innhold": "Klikk på en Word-, Excel- eller PowerPoint-fil i Teams. Den åpnes direkte i Teams-vinduet. Du kan redigere, kommentere og samskrive uten å gå ut av Teams.\n\nEndringene lagres automatisk i SharePoint. Ingen nedlasting. Ingen «Lagre en kopi»-problematikk."
+            "innhold": "Klikk på en Word-, Excel- eller PowerPoint-fil i Teams. Den åpnes direkte i Teams-vinduet. Du kan redigere, kommentere og samskrive uten å gå ut av Teams.\n\nEndringene lagres automatisk. Ingen nedlasting. Ingen «Lagre en kopi»-problematikk."
           },
           {
             "tittel": "Når du trenger skrivebordsversjonen: Åpne i app",
-            "innhold": "Den innebygde editoren dekker det meste. Av og til trenger du skrivebordsversjonen, typisk for makroer og Power Query i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp- eller bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig.\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**.\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en. Koblet til samme fil i SharePoint, så endringene lagres på samme sted.\n\nDu kan også høyreklikke filen i en kanals **Delt**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: Når du er ferdig, lukk bare skrivebordsappen. Endringene er allerede synkronisert tilbake til SharePoint.*"
+            "innhold": "Den innebygde editoren dekker det meste. Av og til trenger du skrivebordsversjonen, typisk for makroer og Power Query i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp- eller bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig.\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**.\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en. Koblet til samme fil så endringene lagres på samme sted.\n\nDu kan også høyreklikke filen i en kanals **Delt**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: Når du er ferdig, lukk bare skrivebordsappen. Endringene er allerede synkronisert.*"
           },
           {
             "tittel": "Én arbeidsflate som samler alt",
