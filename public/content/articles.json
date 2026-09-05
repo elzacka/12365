@@ -23,11 +23,11 @@
           },
           {
             "tittel": "Dagstursekken som prinsipp",
-            "innhold": "Pakk som til en dagstur. Ta bare med det du faktisk trenger:\n\n◦ Møtereferater fra **de siste tre månedene**\n◦ Rapporter du skriver på **akkurat nå**\n◦ Felles maler og oppsett **som faktisk brukes**\n\nAlt annet har tre utfall. Du sletter, du arkiverer i arkivsystemet, eller du lar det ligge i den gamle strukturen til den fases ut. Den gamle strukturen er ikke en parkeringsplass på ubestemt tid."
+            "innhold": "Pakk som til en dagstur. Ta bare med det du trenger:\n\n◦ Møtereferater fra **de siste tre månedene**\n◦ Rapporter du skriver på **akkurat nå**\n◦ Felles maler og oppsett **som brukes**\n\nAlt annet har tre utfall: Du sletter, arkiverer i arkivsystemet, eller lar det ligge i den gamle strukturen til den fases ut – som ikke er en parkeringsplass på ubestemt tid."
           },
           {
             "tittel": "Slik rydder du egne filområder",
-            "innhold": "Gjør dette på det personlige området ditt, typisk **H**-stasjonen, og i OneDrive:\n\n1. Gå gjennom egne mapper og filer.\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter.\n3. Samle det du trenger for å fortsette arbeidet i mapper med tydelige navn.\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde i Teams.\n5. Behold utkast og personlige arbeidsnotater i OneDrive: Kun det som faktisk er ditt eget arbeid. Skal andre kunne følge opp uten deg, hører det hjemme i en Teams-kanal.\n6. Slett filene fra det gamle området når overføringen er bekreftet.\n\n**OneDrive er organisasjonens område for deg som ansatt. Ikke et privat område.** Slutter du, forsvinner tilgangen.\n\n**Vær oppmerksom på personopplysninger og annet som må beskyttes ekstra.** Sjekk om noe er arkivverdig. Spør leder hvis du er usikker."
+            "innhold": "Gjør dette på det personlige området ditt, typisk **H**-stasjonen, og i OneDrive:\n\n1. Gå gjennom egne mapper og filer.\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter.\n3. Samle det du trenger for å fortsette arbeidet i mapper med tydelige navn.\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde i Teams.\n5. Behold utkast og personlige arbeidsnotater i OneDrive: Kun det som er ditt eget arbeid. Skal andre kunne følge opp uten deg, hører det hjemme i en Teams-kanal.\n6. Slett filene fra det gamle området når overføringen er bekreftet.\n\n**OneDrive er organisasjonens område for deg som ansatt. Ikke et privat område.** Slutter du, forsvinner tilgangen.\n\n**Vær oppmerksom på personopplysninger og annet som må beskyttes ekstra.** Sjekk om noe er arkivverdig. Spør leder hvis du er usikker."
           },
           {
             "tittel": "Slik rydder du e-posten",
@@ -35,7 +35,7 @@
           },
           {
             "tittel": "Mål: Forvalt informasjon bevisst",
-            "innhold": "Forvalt informasjon bevisst gjennom hele livsløpet. Det betyr at du:\n\n◦ Skaper og lagrer informasjon **der den hører hjemme**\n◦ Sørger for at den er **tilgjengelig** for dem som trenger den\n◦ Sørger for at den kan **deles, gjenfinnes og gjenbrukes**\n◦ Ivaretar krav til **arkivering**, sporbarhet og regelverk\n◦ Støtter arbeidsprosesser og samarbeid **på tvers**\n◦ Ikke oppretter flere **team, kanaler og arbeidsområder** enn nødvendig\n\n*En samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*"
+            "innhold": "Gjennom hele livsløpet betyr det at du:\n\n◦ Skaper og lagrer informasjon **der den hører hjemme**\n◦ Sørger for at den er **tilgjengelig** for dem som trenger den\n◦ Sørger for at den kan **deles, gjenfinnes og gjenbrukes**\n◦ Ivaretar krav til **arkivering**, sporbarhet og regelverk\n◦ Støtter arbeidsprosesser og samarbeid **på tvers**\n◦ Ikke oppretter flere **team, kanaler og arbeidsområder** enn nødvendig\n\n*En samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*"
           }
         ],
         "relaterte": [
@@ -108,7 +108,7 @@
         "steg": [
           {
             "tittel": "Fra møteverktøy til arbeidsflate",
-            "innhold": "I dag er Teams stedet der du jobber med filer, følger opp oppgaver, finner informasjon, fyller ut skjemaer og samarbeider. Alt uten å bytte app.\n\n**Hold deg i Teams.** Andre apper, fagsystemer eller nettleser: Bare når du faktisk trenger det."
+            "innhold": "I dag er Teams stedet der du jobber med filer, følger opp oppgaver, finner informasjon, fyller ut skjemaer og samarbeider. Alt uten å bytte app.\n\n**Hold deg i Teams.** Andre apper, fagsystemer eller nettleser: Bare når du trenger det."
           },
           {
             "tittel": "Finn appene i venstremenyen",
@@ -124,11 +124,11 @@
           },
           {
             "tittel": "Når du trenger skrivebordsversjonen: Åpne i app",
-            "innhold": "Den innebygde editoren dekker det meste. Av og til trenger du den klassiske skrivebordsversjonen, typisk for makroer og Power Query i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp- eller bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig.\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**.\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en. Koblet til samme fil i SharePoint, så endringene lagres på samme sted.\n\nDu kan også høyreklikke filen i en kanals **Delt**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: Når du er ferdig, lukk bare skrivebordsappen. Endringene er allerede synkronisert tilbake til SharePoint.*"
+            "innhold": "Den innebygde editoren dekker det meste. Av og til trenger du skrivebordsversjonen, typisk for makroer og Power Query i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp- eller bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig.\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**.\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en. Koblet til samme fil i SharePoint, så endringene lagres på samme sted.\n\nDu kan også høyreklikke filen i en kanals **Delt**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: Når du er ferdig, lukk bare skrivebordsappen. Endringene er allerede synkronisert tilbake til SharePoint.*"
           },
           {
             "tittel": "Én arbeidsflate som samler alt",
-            "innhold": "Mange er vant til å ha mange programmer og nettleserfaner åpne samtidig. Det kan ende opp med SharePoint her, e-post der, Planner et sted, filer et annet sted. Det er forstyrrende og hindrer deg i å jobbe sømløst på tvers av apper og i samarbeid med andre. Informasjonen spres fort i flere retninger enn nødvendig, og du (og andre) mister sammenhengen.\n\nNår du jobber i Teams, henger alt sammen. Kommentaren i dokumentet er synlig i kanalen, oppgaven fra møtet dukker opp i Planner, og Copilot finner innholdet fordi det ligger på riktig sted med riktige metadata."
+            "innhold": "Mange er vant til å ha mange programmer og nettleserfaner åpne samtidig. Det kan ende opp med SharePoint her, e-post der, Planner et sted, filer et annet sted. Informasjonen spres i flere retninger enn nødvendig, og du (og andre) mister sammenhengen.\n\nNår du jobber i Teams, henger alt sammen. Kommentaren i dokumentet er synlig i kanalen, oppgaven fra møtet dukker opp i Planner, og Copilot finner innholdet fordi det ligger på riktig sted med riktige metadata."
           }
         ],
         "relaterte": [
@@ -197,7 +197,7 @@
         "steg": [
           {
             "tittel": "Forstå forskjellen",
-            "innhold": "**Filserveren** er mapper på en server «på huset». **SharePoint** er et nettbasert fellesområde tilgjengelig overalt. Hjemme, på kontoret, på mobil.\n\nNår du lagrer en fil i en Teams-kanal, ligger den faktisk i SharePoint. Du trenger ikke å tenke på det. Teams håndterer det for deg.\n\n*Tilganger styres av teamet eller kanalen, ikke av mappestrukturen. Bytter du mappe, beholder filen samme tilgang.*"
+            "innhold": "**Filserveren** er mapper på en server «på huset». **SharePoint** er et nettbasert fellesområde tilgjengelig overalt. Hjemme, på kontoret, på mobil.\n\nNår du lagrer en fil i en Teams-kanal, ligger den i SharePoint. Du trenger ikke å tenke på det. Teams håndterer det for deg.\n\n*Tilganger styres av teamet eller kanalen, ikke av mappestrukturen. Bytter du mappe, beholder filen samme tilgang.*"
           },
           {
             "tittel": "Finn og legg til filer i Teams",
@@ -471,7 +471,7 @@
           },
           {
             "tittel": "Møteopptak fra Teams",
-            "innhold": "Når du tar opp et Teams-møte, lagres opptaket automatisk i OneDrive (for chat-møter) eller i SharePoint-kanalmappen (for kanal-møter). Opptaket spilles av i Clipchamp-spilleren med:\n\n◦ Full transkripsjon du kan søke i\n◦ Kapittelinndeling\n◦ Mulighet til å klippe ut og dele kortere snutter\n\n*Du kan klippe et 90 minutters møte ned til de tre minuttene som faktisk var viktige, og dele bare de.*"
+            "innhold": "Når du tar opp et Teams-møte, lagres opptaket automatisk i OneDrive (for chat-møter) eller i SharePoint-kanalmappen (for kanal-møter). Opptaket spilles av i Clipchamp-spilleren med:\n\n◦ Full transkripsjon du kan søke i\n◦ Kapittelinndeling\n◦ Mulighet til å klippe ut og dele kortere snutter\n\n*Du kan klippe et 90 minutters møte ned til de tre minuttene som var viktige, og dele bare dem.*"
           },
           {
             "tittel": "Personvern",
@@ -545,7 +545,7 @@
           },
           {
             "tittel": "Forutsetninger",
-            "innhold": "Fire ting må være på plass:\n\n◦ **Lisensen er tildelt** brukerne som faktisk skal bruke Copilot\n◦ **Tjenestene er slått på** i admin-portalen, for hver app dere vil bruke Copilot i\n◦ **Følsomhetsetiketter er på plass** så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot er bare så god som datagrunnlaget\n\nLær opp brukerne i å skrive gode prompter og kvalitetssikre svar. Copilot er et arbeidsverktøy, ikke en magisk knapp."
+            "innhold": "Fire ting må være på plass:\n\n◦ **Lisensen er tildelt** brukerne som skal bruke Copilot\n◦ **Tjenestene er slått på** i admin-portalen, for hver app dere vil bruke Copilot i\n◦ **Følsomhetsetiketter er på plass** så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot er bare så god som datagrunnlaget\n\nLær opp brukerne i å skrive gode prompter og kvalitetssikre svar. Copilot er et arbeidsverktøy, ikke en magisk knapp."
           }
         ],
         "relaterte": [
@@ -893,8 +893,8 @@
         ],
         "steg": [
           {
-            "tittel": "SharePoint Showcase, januar 2026",
-            "innhold": "Funksjonene nedenfor ble lansert i SharePoint Showcase i januar 2026.",
+            "tittel": "Arbeidsflyter, hurtigsteg og skjemaer uten kode",
+            "innhold": "SharePoint har fått innebygde verktøy for arbeidsflyter, hurtigsteg, godkjenninger og skjemaer, satt opp uten kode.",
             "bilde": {
               "src": "articles/sharepoint-automasjon/01-banner.jpg",
               "alt": "Promobilde for SharePoint Showcase, januar 2026.",
@@ -1003,7 +1003,7 @@
           },
           {
             "tittel": "Start enkelt: Tre-kolonne-regelen",
-            "innhold": "Start med tre kolonner. Ikke mer:\n\n◦ **Dokumenttype** (valg): Avtale, Rutine, Referat, Rapport, Annet\n◦ **Avdeling** (valg eller person): HR, IT, Økonomi, ...\n◦ **Status** (valg): Utkast, Aktiv, Under revisjon, Utgått\n\nTre er nok til å filtrere og gruppere. Ti er for mange til at noen fyller dem ut.\n\n*Utvid når du ser hva som faktisk mangler.*"
+            "innhold": "Start med tre kolonner. Ikke mer:\n\n◦ **Dokumenttype** (valg): Avtale, Rutine, Referat, Rapport, Annet\n◦ **Avdeling** (valg eller person): HR, IT, Økonomi, ...\n◦ **Status** (valg): Utkast, Aktiv, Under revisjon, Utgått\n\nTre er nok til å filtrere og gruppere. Ti er for mange til at noen fyller dem ut.\n\n*Utvid når du ser hva som mangler.*"
           },
           {
             "tittel": "Slik legger du til en kolonne i et bibliotek",
@@ -1316,7 +1316,7 @@
           },
           {
             "tittel": "Kanaltype bestemmer mer enn tilgang",
-            "innhold": "Velger du feil kanaltype, er det vanskelig å endre i ettertid.\n\n◦ **Standardkanal**: Deler teamets SharePoint-nettsted. Arver teamets følsomhetsetikett. Tilgang = teammedlemskap.\n◦ **Privat kanal**: Eget SharePoint-nettsted. Arver ikke teamets etikett – du setter etiketten separat. Tilgang = kanalmedlemskap.\n◦ **Delt kanal**: Eget SharePoint-nettsted. Ekstern tilgang mulig uten gjestkonto. Tilgang = kanalmedlemskap.\n\n*Bruk private og delte kanaler kun når innholdet faktisk skal skjermes. Andre teammedlemmer kan ikke søke i dem.*"
+            "innhold": "Velger du feil kanaltype, er det vanskelig å endre i ettertid.\n\n◦ **Standardkanal**: Deler teamets SharePoint-nettsted. Arver teamets følsomhetsetikett. Tilgang = teammedlemskap.\n◦ **Privat kanal**: Eget SharePoint-nettsted. Arver ikke teamets etikett – du setter etiketten separat. Tilgang = kanalmedlemskap.\n◦ **Delt kanal**: Eget SharePoint-nettsted. Ekstern tilgang mulig uten gjestkonto. Tilgang = kanalmedlemskap.\n\n*Bruk private og delte kanaler kun når innholdet skal skjermes. Andre teammedlemmer kan ikke søke i dem.*"
           },
           {
             "tittel": "Sett opp SharePoint-biblioteket i kanalen",
@@ -1365,7 +1365,7 @@
           },
           {
             "tittel": "Maks 2–3 nivåer per kanal",
-            "innhold": "Dype mappestrukturer er en arv fra filservertida.\n\n**Hold deg til 2–3 nivåer:** Kanal → Mappe (nivå 1) → Undermappe (nivå 2, sjelden nødvendig). Bruk metadatafunksjonene for å gjøre dokumenter og innhold lett å finne. Både for folk og for søk og Copilot.\n\n*Hvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet egentlig hører hjemme i en annen kanal, eller at du ikke har oppdaget metadatafunksjonene ennå. Metadatastrukturen er en av de viktigste tingene organisasjonen bør enes om ved innføring av M365.*"
+            "innhold": "Dype mappestrukturer er en arv fra filservertida.\n\n**Hold deg til 2–3 nivåer:** Kanal → Mappe (nivå 1) → Undermappe (nivå 2, sjelden nødvendig). Bruk metadatafunksjonene for å gjøre dokumenter og innhold lett å finne. Både for folk og for søk og Copilot.\n\n*Hvis du føler du trenger flere nivåer, er det ofte et tegn på at innholdet hører hjemme i en annen kanal, eller at du ikke har oppdaget metadatafunksjonene ennå. Metadatastrukturen er en av de viktigste tingene organisasjonen bør enes om ved innføring av M365.*"
           },
           {
             "tittel": "Unngå mapper for år, personer og versjoner",
@@ -1377,7 +1377,7 @@
           },
           {
             "tittel": "Mappenavn som varer",
-            "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n◦ «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n◦ «Nye», «Gamle», «Kommer», «Til vurdering»\n◦ Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n◦ Beskriver hva som faktisk ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n◦ Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n◦ Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år, vil hen forstå hva som ligger der?"
+            "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n◦ «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n◦ «Nye», «Gamle», «Kommer», «Til vurdering»\n◦ Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n◦ Beskriver hva som ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n◦ Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n◦ Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år, vil hen forstå hva som ligger der?"
           }
         ],
         "oppdatert": "Oppdatert: 03.06.26",
@@ -1391,7 +1391,7 @@
       {
         "id": "kanaltyper",
         "tittel": "Standard, privat eller delt kanal?",
-        "ingress": "Velg kanaltype ut fra hvem som faktisk skal ha tilgang.",
+        "ingress": "Velg kanaltype ut fra hvem som skal ha tilgang.",
         "kategori": "teams",
         "tags": [
           "kanaler",
@@ -1414,7 +1414,7 @@
           },
           {
             "tittel": "Tommelfingerregel: Slik velger du",
-            "innhold": "Still ett enkelt spørsmål: **hvem skal egentlig ha tilgang?**\n\n◦ **Hele teamet (inkl. gjester)** → Standardkanal\n◦ **En undergruppe i teamet** → Privat kanal\n◦ **Folk på tvers av team** → Delt kanal\n◦ **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nI tvil: **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
+            "innhold": "Still ett spørsmål: **hvem skal ha tilgang?**\n\n◦ **Hele teamet (inkl. gjester)** → Standardkanal\n◦ **En undergruppe i teamet** → Privat kanal\n◦ **Folk på tvers av team** → Delt kanal\n◦ **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nI tvil: **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
           }
         ],
         "oppdatert": "Oppdatert: 03.06.26",
@@ -1427,7 +1427,7 @@
       {
         "id": "teams-tips-og-triks",
         "tittel": "Tips og triks i Teams",
-        "ingress": "Tips og triks i Teams som gjør ting enklere og mer oversiktlig.",
+        "ingress": "Fra samlet oversikt over utkast til rask navigering med Ctrl+G – mindre kjente funksjoner i Teams.",
         "kategori": "teams",
         "tags": [
           "teams",
@@ -1476,7 +1476,7 @@
           },
           {
             "tittel": "Åpne apper og kanaler i egne vinduer",
-            "innhold": "Åpne en app eller en kanal i et eget vindu. Nyttig hvis du f. eks jobber fokusert i en kanal, men samtidig må kunne svare på chatter eller navigere andre steder i Teams.\n\n**App**: Høyreklikk på appen fra sidemenyen til venstre og velg **Åpne i nytt vindu**. Du kan ha flere apper åpne samtidig.\n\n**Kanal**: Høyreklikk på kanalnavnet i listen din og velg **Åpne i nytt vindu**. Du kan ha flere slike vinduer åpne samtidig."
+            "innhold": "Åpne en app eller en kanal i et eget vindu. Nyttig hvis du f.eks. jobber fokusert i en kanal, men samtidig må kunne svare på chatter eller navigere andre steder i Teams.\n\n**App**: Høyreklikk på appen fra sidemenyen til venstre og velg **Åpne i nytt vindu**. Du kan ha flere apper åpne samtidig.\n\n**Kanal**: Høyreklikk på kanalnavnet i listen din og velg **Åpne i nytt vindu**. Du kan ha flere slike vinduer åpne samtidig."
           },
           {
             "tittel": "Rask navigering med Ctrl+G",
