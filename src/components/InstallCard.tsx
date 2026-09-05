@@ -51,10 +51,10 @@ export function InstallCard() {
 
   const title =
     install.kind === 'chromium'
-      ? 'Installer 12365.'
+      ? 'Installer 1-2-365.'
       : install.kind === 'ios-safari'
-        ? 'Legg 12365 til på Hjem-skjerm.'
-        : 'Legg 12365 til i Dock.'
+        ? 'Legg 1-2-365 til på Hjem-skjerm.'
+        : 'Legg 1-2-365 til i Dock.'
 
   const body =
     install.kind === 'chromium'

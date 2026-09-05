@@ -1,8 +1,8 @@
-# 12365 – M365 på 1-2-3
+# 1-2-365 – M365 på 1-2-3
 
 Til deg som har forvilla deg hit: Hei!
 
-Jeg har laget appen **12365** for å sette turbo på:
+Jeg har laget appen **1-2-365** for å sette turbo på:
 
 - min egen **læring og modning** i Microsoft 365-universet
 - min evne til å **lære andre**
@@ -10,7 +10,7 @@ Jeg har laget appen **12365** for å sette turbo på:
 
 **Du finner den her:** https://elzacka.github.io/12365/
 
-<img width="1855" height="945" alt="12365" src="https://github.com/user-attachments/assets/210a9b6e-1256-43d0-8eb6-91aea30e664a" />
+<img width="1855" height="945" alt="1-2-365" src="https://github.com/user-attachments/assets/210a9b6e-1256-43d0-8eb6-91aea30e664a" />
 
 ## Tech stack
 
