@@ -3134,7 +3134,7 @@
   {
     "id": "microsoft-planner",
     "tittel": "Microsoft Planner",
-    "forklaring": "App for oppgave- og prosjektstyring. Samler tidligere To Do, Planner og Project for the web.",
+    "forklaring": "App for oppgave- og prosjektstyring i Teams, fra personlige gjøremål til hele prosjekter.",
     "tags": [
       "m365",
       "produktivitet"
@@ -3257,7 +3257,7 @@
   {
     "id": "microsoft-to-do",
     "tittel": "Microsoft To Do",
-    "forklaring": "Personlige oppgavelister – nå en del av Planner og Outlook.",
+    "forklaring": "Personlige oppgavelister i Planner og Outlook.",
     "tags": [
       "m365",
       "produktivitet"
@@ -6211,7 +6211,7 @@
   {
     "id": "microsoft-365-defender-suite",
     "tittel": "Microsoft 365 Defender Suite",
-    "forklaring": "Lisenspakke som samler Defender-sikkerhetstjenestene, tidligere kalt E5 Security. Innholdet er inkludert i E5.",
+    "forklaring": "Lisenspakke som samler Defender-sikkerhetstjenestene. Innholdet er inkludert i E5.",
     "tags": [
       "m365",
       "sikkerhet"
@@ -6223,7 +6223,7 @@
   {
     "id": "microsoft-365-purview-suite",
     "tittel": "Microsoft 365 Purview Suite",
-    "forklaring": "Lisenspakke som samler Purview-tjenestene for etterlevelse og informasjonsbeskyttelse, tidligere kalt E5 Compliance. Innholdet er inkludert i E5.",
+    "forklaring": "Lisenspakke som samler Purview-tjenestene for etterlevelse og informasjonsbeskyttelse. Innholdet er inkludert i E5.",
     "tags": [
       "m365",
       "sikkerhet",
@@ -6339,7 +6339,7 @@
   {
     "id": "microsoft-foundry",
     "tittel": "Microsoft Foundry",
-    "forklaring": "Plattform for å bygge, teste og drifte KI-modeller, -apper og -agenter i Azure. Tidligere kalt Azure AI Foundry.",
+    "forklaring": "Plattform for å bygge, teste og drifte KI-modeller, -apper og -agenter i Azure.",
     "tags": [
       "m365",
       "ki",

@@ -308,12 +308,12 @@
         {
           "navn": "Innebygd sikkerhet for skypostbokser",
           "status": "inkludert",
-          "beskrivelse": "Grunnsikring mot søppelpost, virus og kjente trusler i e-post. Tidligere kjent som Exchange Online Protection, rebrandet i mars 2026."
+          "beskrivelse": "Grunnsikring mot søppelpost, virus og kjente trusler i e-post."
         },
         {
           "navn": "Offentlige mapper-postbokser",
           "status": "inkludert",
-          "beskrivelse": "Delte mapper for e-post og dokumenter: eldre samarbeidsmodell, fortsatt støttet."
+          "beskrivelse": "Delte mapper for e-post og dokumenter."
         },
         {
           "navn": "Ressurspostbokser",
@@ -974,7 +974,7 @@
         {
           "navn": "Microsoft Purview eDiscovery (Standard)",
           "status": "inkludert",
-          "beskrivelse": "Søk, hold og eksport av innhold for juridiske saker og innsynsforespørsler. Klassisk eDiscovery ble pensjonert 31. august 2025. Alle saker kjører nå i det samlede Purview eDiscovery-grensesnittet (terminologi: «People» og «Groups» i stedet for «Custodians» og «Non-custodial sources»)."
+          "beskrivelse": "Søk, hold og eksport av innhold for juridiske saker og innsynsforespørsler, i Purview eDiscovery-grensesnittet."
         },
         {
           "navn": "Litigation Hold (juridisk lås)",
@@ -1004,9 +1004,9 @@
       "tema": "compliance",
       "funksjoner": [
         {
-          "navn": "Microsoft Purview Information Protection P2 (tidligere Azure Information Protection P2)",
+          "navn": "Microsoft Purview Information Protection P2",
           "status": "inkludert",
-          "beskrivelse": "Automatisk etikettering, avansert kryptering og Hold Your Own Key (HYOK). AIP P1-funksjonalitet er inkludert i P2. AIP-merkenavnet er rebrandet til Microsoft Purview Information Protection: samme teknologi, ny merkeparaply."
+          "beskrivelse": "Automatisk etikettering, avansert kryptering og Hold Your Own Key (HYOK). P1-funksjonalitet er inkludert i P2."
         },
         {
           "navn": "Manuell, standard og obligatorisk etikettering med følsomhetsetiketter i M365-apper",
