@@ -5,7 +5,6 @@ import { SeenVersionsProvider } from './lib/SeenVersionsContext'
 import { Header } from './components/Header'
 import { InstallCard } from './components/InstallCard'
 import { LockModal } from './components/LockModal'
-import { useAppBadge } from './hooks/useAppBadge'
 import { Home } from './pages/Home'
 import { AboutApps } from './pages/AboutApps'
 import { AboutApp } from './pages/AboutApp'
@@ -46,7 +45,6 @@ function getHeaderProps(pathname: string) {
 function AppRoutes() {
   const { pathname } = useLocation()
   const [lockOpen, setLockOpen] = useState(false)
-  useAppBadge()
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' })

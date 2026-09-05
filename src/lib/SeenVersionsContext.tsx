@@ -18,7 +18,6 @@ interface SeenVersionsContextValue {
   hasNewOrdbok: boolean
   hasNewLicense: boolean
   hasNewAbout: boolean
-  newContentCount: number
   markCardSeen: (navn: string) => void
   markAllCardsSeen: () => void
   markArticleSeen: (id: string) => void
@@ -124,29 +123,6 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
   }, [versions, seen])
   const hasNewAbout = useMemo(() => {
     return !!versions && seen.about !== versions.about
-  }, [versions, seen])
-
-  // Grunnlaget for app-ikonets badge-tall - et mer synlig OS-nivå-signal enn
-  // prikkene inne i appen, så terskelen er strengere: kun helt nytt innhold
-  // (ingen tidligere sett versjon i det hele tatt) eller endringer forfatteren
-  // aktivt har merket med "endret"-dato teller med. En vanlig redigering uten
-  // det flagget gir fortsatt prikk i appen, men bumper ikke badgen.
-  const newContentCount = useMemo(() => {
-    if (!versions) return 0
-    const endret = versions.endret ?? {}
-    const countSection = (
-      all: Record<string, string>,
-      seenSection: Record<string, string>,
-      flagged: Record<string, string> | undefined,
-    ) =>
-      Object.keys(all).filter(k => seenSection[k] !== all[k] && (seenSection[k] === undefined || !!flagged?.[k])).length
-
-    return countSection(versions.cards, seen.cards, endret.cards)
-      + countSection(versions.articles, seen.articles, endret.articles)
-      + countSection(versions.videos, seen.videos, endret.videos)
-      + countSection(versions.courses ?? {}, seen.courses, endret.courses)
-      + countSection(versions.ordbok ?? {}, seen.ordbok, endret.ordbok)
-      + (seen.license !== versions.license && !!endret.license ? 1 : 0)
   }, [versions, seen])
 
   const persist = useCallback((next: SeenVersions) => {
@@ -273,7 +249,6 @@ export function SeenVersionsProvider({ children }: { children: ReactNode }) {
     hasNewOrdbok,
     hasNewLicense,
     hasNewAbout,
-    newContentCount,
     markCardSeen,
     markAllCardsSeen,
     markArticleSeen,
