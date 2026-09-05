@@ -4,7 +4,7 @@ Oppdatert: 25.08.26
 
 ## Kort oppsummert
 
-12365 er en åpen, gratis [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen samler ikke inn personopplysninger, og bruker verken analyseverktøy eller informasjonskapsler.
+1-2-365 er en åpen, gratis [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen samler ikke inn personopplysninger, og bruker verken analyseverktøy eller informasjonskapsler.
 
 ## Hva som lagres
 

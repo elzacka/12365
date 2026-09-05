@@ -57,11 +57,11 @@ export function Header({
               to="/"
               viewTransition
               className="flex items-center justify-center"
-              aria-label="12365 – til forsiden"
+              aria-label="1-2-365 – til forsiden"
             >
               <img
                 src={`${import.meta.env.BASE_URL}logo-header.png`}
-                alt="12365"
+                alt="1-2-365"
                 className="h-8 w-auto"
                 decoding="async"
               />
