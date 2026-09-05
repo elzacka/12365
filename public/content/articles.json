@@ -521,11 +521,11 @@
           },
           {
             "tittel": "I Outlook: Hjelp med innboks og kalender",
-            "innhold": "Copilot i Outlook tar over mye av rutinearbeidet:\n\n◦ **Prioritering**: Løfter fram e-post som krever svar\n◦ **Utkast til svar**: Copilot foreslår, du justerer før du sender\n◦ **Foreslåtte regler**: Copilot ser mønstre og foreslår regler som rydder automatisk\n◦ **Møtesammendrag** etter Teams-møter, med handlingspunkter rett til To Do og Planner\n◦ **Smartere møteplanlegging**: Foreslår tidspunkter basert på tidligere oppmøte og arbeidssted\n◦ **Agent-modus** (Frontier-program): Copilot håndterer lengre kjeder av e-postoppgaver selvstendig. Du ser hva den gjør."
+            "innhold": "Copilot i Outlook tar over mye av rutinearbeidet:\n\n◦ **Prioritering**: Løfter fram e-post som krever svar\n◦ **Utkast til svar**: Copilot foreslår, du justerer før du sender\n◦ **Foreslåtte regler**: Copilot ser mønstre og foreslår regler som rydder automatisk\n◦ **Møtesammendrag** etter Teams-møter, med handlingspunkter rett til Planner\n◦ **Smartere møteplanlegging**: Foreslår tidspunkter basert på tidligere oppmøte og arbeidssted\n◦ **Agent-modus** (Frontier-program): Copilot håndterer lengre kjeder av e-postoppgaver selvstendig. Du ser hva den gjør."
           },
           {
             "tittel": "I Teams-møter: Tilrettelegger",
-            "innhold": "**Tilrettelegger** er en Copilot-agent du kan legge til i planlagte Teams-møter (ikke kanal- eller direktemøter). Den:\n\n◦ **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n◦ **Holder agendaen** og minner om hvor mye tid som er igjen\n◦ **Henter beslutninger og handlingspunkter** og lagrer dem i Loop\n◦ **Svarer på spørsmål** i møtechatten, synlig for alle deltakerne\n\nEtter møtet legger Copilot møtesammendraget med handlingspunkter rett i To Do og Planner."
+            "innhold": "**Tilrettelegger** er en Copilot-agent du kan legge til i planlagte Teams-møter (ikke kanal- eller direktemøter). Den:\n\n◦ **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n◦ **Holder agendaen** og minner om hvor mye tid som er igjen\n◦ **Henter beslutninger og handlingspunkter** og lagrer dem i Loop\n◦ **Svarer på spørsmål** i møtechatten, synlig for alle deltakerne\n\nEtter møtet legger Copilot møtesammendraget med handlingspunkter rett i Planner."
           },
           {
             "tittel": "I OneNote, Whiteboard, Forms, Loop og Clipchamp",
@@ -541,7 +541,7 @@
           },
           {
             "tittel": "På tvers: Når funksjonene jobber sammen",
-            "innhold": "Når funksjonene spiller sammen:\n\n◦ **Møte → handling**: Tilrettelegger-notater og Copilot-sammendrag legger handlingspunkter i To Do og Planner.\n◦ **Word → PowerPoint**: En utredning i Word blir til et presentasjonsutkast med ett klikk\n◦ **Forms → Excel → innsikt**: Svar analyseres med Copilot og Python i Excel, funnene løftes til Copilot sider eller Power BI.\n◦ **Notatblokk → utredning**: Samle kildene i en notatblokk, og Copilot holder seg til dem gjennom hele prosjektet\n◦ **SharePoint → agent**: Copilot i SharePoint bygger informasjonsstrukturen, agentene publiseres til Agent Store\n◦ **Sider → app**: Utforsk i Copilot sider, og åpne resultatet i App Builder når du vil ha en varig versjon"
+            "innhold": "Når funksjonene spiller sammen:\n\n◦ **Møte → handling**: Tilrettelegger-notater og Copilot-sammendrag legger handlingspunkter i Planner.\n◦ **Word → PowerPoint**: En utredning i Word blir til et presentasjonsutkast med ett klikk\n◦ **Forms → Excel → innsikt**: Svar analyseres med Copilot og Python i Excel, funnene løftes til Copilot sider eller Power BI.\n◦ **Notatblokk → utredning**: Samle kildene i en notatblokk, og Copilot holder seg til dem gjennom hele prosjektet\n◦ **SharePoint → agent**: Copilot i SharePoint bygger informasjonsstrukturen, agentene publiseres til Agent Store\n◦ **Sider → app**: Utforsk i Copilot sider, og åpne resultatet i App Builder når du vil ha en varig versjon"
           },
           {
             "tittel": "Forutsetninger",
@@ -793,7 +793,7 @@
           },
           {
             "tittel": "Flagg e-poster som oppgaver",
-            "innhold": "Klikk flagg-ikonet på en e-post. Den dukker opp som en oppgave i **To Do** og i **Min dag**. Slik slipper du å behandle innboksen som en oppgaveliste."
+            "innhold": "Klikk flagg-ikonet på en e-post. Den dukker opp som en oppgave i **Planner** og i **Min dag**. Slik slipper du å behandle innboksen som en oppgaveliste."
           },
           {
             "tittel": "Spør deg selv: Hører dette hjemme i Teams?",

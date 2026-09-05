@@ -189,7 +189,7 @@
     "overlapper": [
       "Teams",
       "Places",
-      "To Do",
+      "Planner",
       "Viva Insights"
     ],
     "endret": "2026-08-18"
@@ -214,14 +214,13 @@
   {
     "navn": "Planner",
     "tagline": "Planlegg og fordel arbeid",
-    "alene": "Organiser oppgaver, ansvar og fremdrift i team.",
-    "sammen": "Vises i Teams og kobles til To Do.",
+    "alene": "Organiser oppgaver, ansvar og fremdrift – fra egne gjøremål til hele prosjekter.",
+    "sammen": "Flaggede e-poster fra Outlook dukker opp som oppgaver. Vises som fane i Teams-kanaler.",
     "fotnote": "",
     "kategori": "spor-og-planlegg",
     "oppsummering": "Organiser oppgaver, ansvar og fremdrift i team",
     "overlapper": [
-      "Lists",
-      "To Do"
+      "Lists"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
@@ -312,24 +311,6 @@
       "url": "https://www.microsoft.com/nb-no/microsoft-365/sharepoint/collaboration?market=no#tabs-pill-bar-occfa1_tab1"
     },
     "endret": "2026-08-18"
-  },
-  {
-    "navn": "To Do",
-    "tagline": "Hold styr på oppgavene dine",
-    "alene": "Samle personlige oppgaver og huskelister.",
-    "sammen": "Oppgaver fra Outlook og Planner samles automatisk.",
-    "fotnote": "",
-    "kategori": "spor-og-planlegg",
-    "oppsummering": "Personlige oppgaver og huskelister samlet",
-    "overlapper": [
-      "Planner",
-      "Outlook"
-    ],
-    "lenke": {
-      "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-to-do-list-app"
-    },
-    "endret": "2026-06-06"
   },
   {
     "navn": "Visio",
