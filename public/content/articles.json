@@ -1148,7 +1148,7 @@
         "steg": [
           {
             "tittel": "Før møtet: Planlegg og sett agendaen",
-            "innhold": "**Fra Outlook i M365:** Opprett en kalenderinvitasjon og klikk **Teams-møte** i verktøylinjen.\n\n**Fra Teams:** Klikk **Kalender** i venstremenyen → **Nytt møte**. Legg til deltakere, tittel og tidspunkt.\n\nKlikk **Legg til en agenda** før du sender invitasjonen. Teams oppretter en Loop-side for agenda, møtenotater og oppfølgingsoppgaver – fyll inn agendapunktene med en gang, så kan deltakerne forberede seg.\n\n*Merk: Gjentakende møter deler samme Loop-side på tvers av alle møtene i serien. Vil du ha rene notater per møte, velg **Rediger denne hendelsen** – ikke **Rediger alle hendelser** – når du endrer agendaen.*"
+            "innhold": "**Fra Outlook i M365:** Opprett en kalenderinvitasjon og klikk **Teams-møte** i verktøylinjen.\n\n**Fra Teams:** Klikk **Kalender** i venstremenyen → **Nytt møte**. Legg til deltakere, tittel og tidspunkt.\n\nKlikk **Legg til en agenda** før du sender invitasjonen. Teams oppretter en Loop-side for agenda, møtenotater og oppfølgingsoppgaver – fyll inn agendapunktene med en gang, så kan deltakerne forberede seg.\n\n*Merk: Gjentakende møter deler samme Loop-side på tvers av alle møtene i serien. Vil du ha rene notater per møte, velg **Rediger forekomst** – ikke **Rediger serie** – når du endrer agendaen.*"
           },
           {
             "tittel": "Under møtet: Bli med og del skjermen",
