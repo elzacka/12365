@@ -1,7 +1,7 @@
 [
   {
     "id": "for-flytting",
-    "tittel": "Før flytting",
+    "tittel": "Før du flytter",
     "beskrivelse": "Forberedelser før du tar i bruk Microsoft 365",
     "artikler": [
       {
@@ -26,15 +26,15 @@
             "innhold": "Pakk som til en dagstur. Ta bare med det du trenger:\n\n◦ Møtereferater fra **de siste tre månedene**\n◦ Rapporter du skriver på **akkurat nå**\n◦ Felles maler og oppsett **som brukes**\n\nAlt annet har tre utfall: Du sletter, arkiverer i arkivsystemet, eller lar det ligge i den gamle strukturen til den fases ut – som ikke er en parkeringsplass på ubestemt tid."
           },
           {
-            "tittel": "Slik rydder du egne filområder",
+            "tittel": "Rydd i egne filområder",
             "innhold": "Gjør dette på det personlige området ditt, typisk **H**-stasjonen, og i OneDrive:\n\n1. Gå gjennom egne mapper og filer.\n2. Slett utdaterte filer, duplikater og irrelevante dokumenter.\n3. Samle det du trenger for å fortsette arbeidet i mapper med tydelige navn.\n4. Flytt viktige felles arbeidsdokumenter til riktig fellesområde i Teams.\n5. Behold utkast og personlige arbeidsnotater i OneDrive: Kun det som er ditt eget arbeid. Skal andre kunne følge opp uten deg, hører det hjemme i en Teams-kanal.\n6. Slett filene fra det gamle området når overføringen er bekreftet.\n\n**OneDrive er organisasjonens område for deg som ansatt. Ikke et privat område.** Slutter du, forsvinner tilgangen.\n\n**Vær oppmerksom på personopplysninger og annet som må beskyttes ekstra.** Sjekk om noe er arkivverdig. Spør leder hvis du er usikker."
           },
           {
-            "tittel": "Slik rydder du e-posten",
+            "tittel": "Rydd i e-posten",
             "innhold": "I Teams sender du ikke filer fram og tilbake. Du deler lenker. E-postlageret kan slankes betydelig når kanalene tas i bruk:\n\n◦ Begynn **bakerst** i innboksen og i **Sendte elementer**. Slett, Slett, Slett.\n◦ Et vedlegg du vil beholde? Lagre det på riktig sted og slett e-posten.\n◦ Arkiver e-post som skal bevares i arkivsystemet **før** du sletter.\n◦ E-post med dokumentasjon du må beholde av andre grunner: Lagre den der dokumentasjonen skal leve videre.\n\nBehold e-post om pågående saker. Lange dialoger med vedlegg egner seg godt til å fortsette i Teams.\n\n*Sendte elementer er ofte den største synderen. Store vedlegg du har sendt ut, ligger der i tillegg til hos mottakeren.*"
           },
           {
-            "tittel": "Mål: Forvalt informasjon bevisst",
+            "tittel": "Mål: Forvalte informasjon bevisst",
             "innhold": "Gjennom hele livsløpet betyr det at du:\n\n◦ Skaper og lagrer informasjon **der den hører hjemme**\n◦ Sørger for at den er **tilgjengelig** for dem som trenger den\n◦ Sørger for at den kan **deles, gjenfinnes og gjenbrukes**\n◦ Ivaretar krav til **arkivering**, sporbarhet og regelverk\n◦ Støtter arbeidsprosesser og samarbeid **på tvers**\n◦ Ikke oppretter flere **team, kanaler og arbeidsområder** enn nødvendig\n\n*En samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler følger med inn i M365.*"
           }
         ],
@@ -155,10 +155,10 @@
         "steg": [
           {
             "tittel": "Hierarkiet: Team, kanaler, innhold",
-            "innhold": "Teams er bygd opp i tre nivåer:\n\n◦ **Team**: Øverste nivå. Samler en gruppe mennesker som jobber sammen.\n◦ **Kanal**: Et arbeidsrom i teamet for ett tema eller én arbeidsstrøm. Et team kan ha mange kanaler.\n◦ **Innhold**: Samtaler, filer og faner (Lists, Planner, OneNote) i en kanal.\n\nTilgang styres på team- eller kanalnivå. Innholdet arver tilgangen fra rommet det ligger i. **Medlemskap i teamet er nøkkelen til alt innholdet i standardkanalene.**"
+            "innhold": "Teams er bygd opp i tre nivåer:\n\n◦ **Team**: Øverste nivå. Samler en gruppe mennesker som jobber sammen.\n◦ **Kanal**: Et arbeidsrom i teamet for et tema eller en arbeidsflyt. Et team kan ha mange kanaler.\n◦ **Innhold**: Samtaler, filer og faner (Lists, Planner, OneNote) i en kanal.\n\nTilgang styres på team- eller kanalnivå. Innholdet arver tilgangen fra rommet det ligger i. **Medlemskap i teamet er nøkkelen til alt innholdet i standardkanalene.**"
           },
           {
-            "tittel": "Lagringsplass bestemmer tilgang",
+            "tittel": "Lagringssted bestemmer tilgang",
             "innhold": "Hvor du legger en fil bestemmer hvem som finner den i framtiden. Ikke hvilken kanal du klikket deg inn fra:\n\n◦ **Fil i standardkanal** → felles område for teamet. Alle teammedlemmer har tilgang.\n◦ **Fil i privat eller delt kanal** → eget område. Kun for kanalmedlemmene.\n◦ **Fil i 1:1-chat eller gruppechat** → din OneDrive. Personene du chatter med får en lenke. Du eier filen.\n◦ **Fil i et Teams-møte** → OneDrive til den som lastet opp eller startet opptaket.\n\n**Det som skal være varig felles, hører hjemme i en kanal. Ikke i en chat.** Slutter du, kan andre miste tilgang til chat-filene."
           },
           {
@@ -225,7 +225,7 @@
       {
         "id": "folsomhetsetiketter",
         "tittel": "Følsomhetsetiketter: Slik klassifiserer du innhold",
-        "ingress": "Etiketten forteller M365 hvor sensitivt et dokument er, og styrer automatisk hvordan det kan deles.",
+        "ingress": "Etiketten forteller M365 hvor sensitivt noe er, og styrer automatisk hvordan det kan deles.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "sikkerhet",
         "tags": [
@@ -242,7 +242,7 @@
             "innhold": "En **følsomhetsetikett** er en merkelapp du f.eks. setter på dokumenter og e-post. Den forteller M365 hvor sensitivt innholdet er, og hvilke regler som gjelder for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n◦ **Åpent**: Kan deles fritt\n◦ **Internt**: Kun for ansatte\n◦ **Sensitivt**: Kun for utvalgte mottakere\n◦ **Ekstra sensitivt**: Kryptert, kun navngitte personer\n\nEtikettene er definert på organisasjonsnivå og gjelder på tvers av alle dokumenter, filer og annet innhold i M365. Navnene på følsomhetsetikettene kan se annerledes ut i organisasjonen du jobber i."
           },
           {
-            "tittel": "Slik klassifiserer du et dokument",
+            "tittel": "Klassifisere et dokument",
             "innhold": "I Word, Excel og PowerPoint:\n\n1. Klikk **Følsomhet** i båndmenyen øverst (eller i statuslinjen nederst).\n2. Velg riktig etikett fra listen.\n3. Etiketten lagres med dokumentet, også når det deles eller flyttes.\n\nI Outlook setter du etiketten på e-posten **før du sender**. I Teams kan etiketten settes på selve teamet når det opprettes. Det styrer deling, gjestetilgang og hvor filer kan lagres."
           },
           {
@@ -250,7 +250,7 @@
             "innhold": "Følsomhetsetiketter aktiverer automatiske kontroller:\n\n◦ **Tilgang**: Hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n◦ **Kryptering**: Innholdet låses og kan kun leses av de med riktig nøkkel\n◦ **Vannmerker**: Tekstmerking på utskrift og skjerm («Sensitivt, *navn*»)\n◦ **Nedlastingsregler**: Om dokumentet kan lastes ned eller bare leses i nettleseren\n◦ **Topptekst og bunntekst**: Automatisk klassifiseringsmerking\n◦ **Eksterne grenser**: Om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske reglene. Etiketten gjør det rette automatisk."
           },
           {
-            "tittel": "DLP: Beskyttelse mot utilsiktet deling",
+            "tittel": "DLP: Beskytte mot utilsiktet deling",
             "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n◦ Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n◦ Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n◦ Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt. Du møter dem som varsler eller hindringer når noe ikke skal skje. En sikkerhetsmekanisme, ikke en mistillit til deg."
           },
           {
@@ -337,7 +337,7 @@
           },
           {
             "tittel": "Loop-komponenter i Teams-chat og kanaler",
-            "innhold": "I stedet for et vedlegg, sett inn en **Loop-komponent** direkte i en Teams-melding. Klikk **+** eller loop-ikonet i meldingsfeltet og velg komponenttype (tabell, liste, sjekkliste, avstemning).\n\nAlle i samtalen ser og redigerer innholdet rett i meldingen. Ingen trenger å åpne noe."
+            "innhold": "I stedet for et vedlegg, sett inn en **Loop-komponent** direkte i en Teams-melding. Klikk **+** eller Loop-ikonet i meldingsfeltet og velg komponenttype (tabell, liste, sjekkliste, avstemning).\n\nAlle i samtalen ser og redigerer innholdet rett i meldingen. Ingen trenger å åpne noe."
           },
           {
             "tittel": "Praktiske eksempler",
@@ -365,7 +365,7 @@
         "steg": [
           {
             "tittel": "Bruk OneDrive til eget arbeid",
-            "innhold": "**OneDrive** er din personlige lagringsplass. Legg kladder, utkast og filer du ikke er klar til å dele her.\n\nKlikk **OneDrive** i venstremenyen i Teams. Ser du den ikke, klikk **Apper** og fest OneDrive til menyen."
+            "innhold": "**OneDrive** er ditt personlige lagringsområde. Legg kladder, utkast og filer du ikke er klar til å dele her.\n\nKlikk **OneDrive** i venstremenyen i Teams. Ser du den ikke, klikk **Apper** og fest OneDrive til menyen."
           },
           {
             "tittel": "Bruk SharePoint (via Teams) til felles arbeid",
@@ -373,7 +373,7 @@
           },
           {
             "tittel": "Flytt filer til Teams når de skal deles",
-            "innhold": "Har du en fil i OneDrive som skal inn i et teamprosjekt? Åpne filen, klikk **Flytt til** og velg riktig Teams-kanal. Kanalens medlemmer får tilgang umiddelbart."
+            "innhold": "Har du en fil i OneDrive som skal inn i en kanal? Åpne filen, klikk **Flytt til** og velg riktig Teams-kanal. Kanalens medlemmer får tilgang umiddelbart."
           }
         ],
         "relaterte": [
@@ -601,7 +601,7 @@
       },
       {
         "id": "copilot-studio-for-teams-bygge-chatbot",
-        "tittel": "Slik bygger du en chatbot med Copilot Studio",
+        "tittel": "Bygg en chatbot med Copilot Studio",
         "ingress": "Lag en regelbasert chatbot for teamet uten å programmere.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
@@ -1255,7 +1255,7 @@
         "steg": [
           {
             "tittel": "Ansvaret som teameier",
-            "innhold": "Teameierrollen er ikke bare admin-rettigheter – det er faglig ansvar for at teamet er riktig satt opp, brukes som det skal og avsluttes ryddig.\n\n◦ **Kanalstruktur**: Bestemme hvilke kanaler som opprettes og av hvilken type\n◦ **Medlemmer og roller**: Hvem som har tilgang og med hvilken rettighet\n◦ **Innstillinger**: Hva teammedlemmer kan og ikke kan gjøre\n◦ **Vedlikehold**: Rydde, oppdatere og avslutte teamet over tid\n\n*Minst to eiere per team – én eier er sårbart ved fravær, sykdom eller bytte av stilling.*"
+            "innhold": "Teameierrollen er mer enn adminrettigheter – det er faglig ansvar for at teamet er riktig satt opp, brukes som det skal og avsluttes ryddig.\n\n◦ **Kanalstruktur**: Bestemme hvilke kanaler som opprettes og av hvilken type\n◦ **Medlemmer og roller**: Hvem som har tilgang og med hvilken rettighet\n◦ **Innstillinger**: Hva teammedlemmer kan og ikke kan gjøre\n◦ **Vedlikehold**: Rydde, oppdatere og avslutte teamet over tid\n\n*Minst to eiere per team – én eier er sårbart ved fravær, sykdom eller bytte av stilling.*"
           },
           {
             "tittel": "Opprett teamet riktig fra start",
@@ -1263,7 +1263,7 @@
           },
           {
             "tittel": "Bygg kanalstrukturen",
-            "innhold": "Kanalene er arbeidsrommene teamet bruker daglig. Rammeverket du setter, er utgangspunktet for alle kanaleiere.\n\n◦ **Standardkanal**: Synlig for alle teammedlemmer – bruk for felles arbeidsstrømmer\n◦ **Privat kanal**: Kun for de inviterte – eget SharePoint-nettsted, arver ikke teamets etikett automatisk\n◦ **Delt kanal**: Åpent for deltakere fra andre team eller organisasjoner – eget SharePoint-nettsted\n\nStart med maks 5–8 kanaler. Nye kanaler kan alltid legges til – tomme kanaler er støy.\n\n*Se veiledning for kanaleier for detaljert oppsett av det enkelte arbeidsrommet.*"
+            "innhold": "Kanalene er arbeidsrommene teamet bruker daglig. Rammeverket du setter, er utgangspunktet for alle kanaleiere.\n\n◦ **Standardkanal**: Synlig for alle teammedlemmer – bruk for felles arbeidsflyter\n◦ **Privat kanal**: Kun for de inviterte – eget SharePoint-nettsted, arver ikke teamets etikett automatisk\n◦ **Delt kanal**: Åpent for deltakere fra andre team eller organisasjoner – eget SharePoint-nettsted\n\nStart med maks 5–8 kanaler. Nye kanaler kan alltid legges til – tomme kanaler er støy.\n\n*Se veiledning for kanaleier for detaljert oppsett av det enkelte arbeidsrommet.*"
           },
           {
             "tittel": "Administrer medlemmer og roller",
@@ -1402,7 +1402,7 @@
         "steg": [
           {
             "tittel": "Standardkanal: For hele teamet",
-            "innhold": "**Standardkanal** er åpen for alle medlemmer av teamet, inkludert eventuelle gjester. Innlegg, filer og samtaler er synlige for alle.\n\nBruk standardkanal når:\n\n◦ Innholdet angår hele teamet\n◦ Gjestene i teamet skal kunne følge med (for eksempel eksterne samarbeidspartnere)\n◦ Du ønsker maksimal åpenhet\n\nDe fleste kanalene i et team bør være standardkanaler. Privatisering bør være unntaket."
+            "innhold": "**Standardkanal** er åpen for alle medlemmer av teamet, inkludert eventuelle gjester. Innlegg, filer og samtaler er synlige for alle.\n\nBruk standardkanal når:\n\n◦ Innholdet angår hele teamet\n◦ Gjestene i teamet skal kunne følge med (for eksempel eksterne samarbeidspartnere)\n◦ Du ønsker maksimal åpenhet\n\nDe fleste kanalene i et team bør være standardkanaler. Skjerming bør være unntaket."
           },
           {
             "tittel": "Privat kanal: For en undergruppe",
