@@ -236,6 +236,11 @@
           "deling",
           "policyer"
         ],
+        "alias": [
+          "sensitivity labels",
+          "MIP",
+          "informasjonsbeskyttelse"
+        ],
         "steg": [
           {
             "tittel": "Hva er en følsomhetsetikett?",
@@ -281,6 +286,9 @@
           "versjon",
           "historikk",
           "angre"
+        ],
+        "alias": [
+          "version history"
         ],
         "steg": [
           {
@@ -506,6 +514,10 @@
           "notatblokker",
           "tilrettelegger"
         ],
+        "alias": [
+          "Microsoft 365 Copilot",
+          "Copilot-agent"
+        ],
         "steg": [
           {
             "tittel": "I Word: Utkast, omskriving, oppsummering",
@@ -566,6 +578,11 @@
           "copilot",
           "ki",
           "chat"
+        ],
+        "alias": [
+          "Bing Chat Enterprise",
+          "M365 Chat",
+          "Microsoft 365 Chat"
         ],
         "steg": [
           {
@@ -983,6 +1000,11 @@
           "nettstedskolonner",
           "innholdstyper",
           "copilot"
+        ],
+        "alias": [
+          "term store",
+          "termlagring",
+          "managed metadata"
         ],
         "steg": [
           {

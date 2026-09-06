@@ -14,6 +14,8 @@ export interface FlipCard {
   kategori?: string         // id matching a CheatSheetCategory
   oppsummering?: string     // short one-line use case for the cheat sheet
   overlapper?: string[]     // navn of apps with notable functional overlap
+  tags?: string[]           // search-only keywords, never displayed
+  alias?: string[]          // search-only alternate/former names, never displayed
   lenke?: {
     tekst: string
     url: string
@@ -52,6 +54,7 @@ export interface Article {
   notat?: string // optional italic note shown under the lede – license or prerequisite warnings
   kategori: string
   tags: string[]
+  alias?: string[] // search-only alternate/English terms, never displayed
   steg: ArticleStep[]
   videoUrl?: string
   relaterte?: string[] // article ids
