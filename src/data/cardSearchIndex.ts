@@ -84,7 +84,7 @@ export function buildCardIndex(cards: FlipCard[]): CardIndex {
     },
     searchOptions: {
       prefix: true,
-      fuzzy: (term) => (term.length >= 4 ? 0.2 : false),
+      fuzzy: (term) => (term.length >= 4 ? 0.3 : false),
       boost: { navn: 10, alias: 9, tagline: 5, tags: 5, oppsummering: 3, alene: 1, sammen: 1 },
       combineWith: 'AND',
     },
