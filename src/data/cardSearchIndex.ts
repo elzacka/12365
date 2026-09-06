@@ -1,5 +1,5 @@
 import MiniSearch from 'minisearch'
-import type { ArticleCategory } from '../types'
+import type { FlipCard } from '../types'
 
 function normalize(s: string): string {
   return s
@@ -9,28 +9,20 @@ function normalize(s: string): string {
     .replace(/å/g, 'a')
 }
 
-function stripMarkdown(s: string): string {
-  return s
-    .replace(/\*\*(.+?)\*\*/g, '$1')
-    .replace(/\*(.+?)\*/g, '$1')
-    .replace(/◦\s/g, ' ')
-    .replace(/→/g, ' ')
-}
-
-function exactScore(tittel: string, tagsStr: string, query: string): number {
+function exactScore(navn: string, tagsStr: string, query: string): number {
   const q = query.trim().toLowerCase()
   if (!q) return 0
 
-  const tit = tittel.toLowerCase()
-  if (tit === q) return 12_000
-  if (tit.startsWith(q + ' ') || tit.startsWith(q + '-') || tit.startsWith(q + ':')) return 2_000
+  const n = navn.toLowerCase()
+  if (n === q) return 12_000
+  if (n.startsWith(q + ' ') || n.startsWith(q + '-')) return 2_000
 
   const qWords = q.split(/\s+/).filter(Boolean)
-  if (qWords.length > 1 && qWords.every(w => tit.includes(w))) return 1_000
+  if (qWords.length > 1 && qWords.every(w => n.includes(w))) return 1_000
 
   const tags = tagsStr.split(' ').filter(Boolean)
   if (qWords.length === 1 && tags.some(t => t.toLowerCase() === q)) return 800
-  if (qWords.length === 1 && tit.includes(q)) return 500
+  if (qWords.length === 1 && n.includes(q)) return 500
 
   return 0
 }
@@ -61,32 +53,31 @@ function parseQuery(raw: string): ParsedQuery {
   return { phrases, terms, combineWith }
 }
 
-interface IndexedArticle {
-  id: string
-  tittel: string
-  ingress: string
+interface IndexedCard {
+  navn: string
+  tagline: string
+  alene: string
+  sammen: string
+  oppsummering: string
   tags: string
   alias: string
-  stegTitler: string
-  stegInnhold: string
-  kategoriTittel: string
 }
 
-export interface ArticleSearchHit {
-  id: string
+export interface CardSearchHit {
+  navn: string
   score: number
 }
 
-export interface ArticleIndex {
-  index: MiniSearch<IndexedArticle>
+export interface CardIndex {
+  index: MiniSearch<IndexedCard>
   haystacks: Map<string, string>
 }
 
-export function buildArticleIndex(categories: ArticleCategory[]): ArticleIndex {
-  const mini = new MiniSearch<IndexedArticle>({
-    fields: ['tittel', 'ingress', 'tags', 'alias', 'stegTitler', 'stegInnhold', 'kategoriTittel'],
-    storeFields: ['id', 'tittel', 'tags'],
-    idField: 'id',
+export function buildCardIndex(cards: FlipCard[]): CardIndex {
+  const mini = new MiniSearch<IndexedCard>({
+    fields: ['navn', 'tagline', 'alias', 'tags', 'oppsummering', 'alene', 'sammen'],
+    storeFields: ['navn', 'tags'],
+    idField: 'navn',
     processTerm: (term) => {
       const n = normalize(term)
       return n || null
@@ -94,40 +85,35 @@ export function buildArticleIndex(categories: ArticleCategory[]): ArticleIndex {
     searchOptions: {
       prefix: true,
       fuzzy: (term) => (term.length >= 4 ? 0.2 : false),
-      boost: { tittel: 10, alias: 9, tags: 6, ingress: 4, stegTitler: 3, kategoriTittel: 2, stegInnhold: 1 },
+      boost: { navn: 10, alias: 9, tagline: 5, tags: 5, oppsummering: 3, alene: 1, sammen: 1 },
       combineWith: 'AND',
     },
   })
 
-  const docs: IndexedArticle[] = []
   const haystacks = new Map<string, string>()
-
-  for (const cat of categories) {
-    for (const a of cat.artikler) {
-      if (a.skjult) continue
-      const stegInnhold = a.steg.map(s => stripMarkdown(s.innhold)).join(' ')
-      const stegTitler = a.steg.map(s => s.tittel).join(' ')
-      docs.push({
-        id: a.id,
-        tittel: a.tittel,
-        ingress: a.ingress,
-        tags: a.tags.join(' '),
-        alias: (a.alias ?? []).join(' '),
-        stegTitler,
-        stegInnhold,
-        kategoriTittel: cat.tittel,
-      })
-      haystacks.set(a.id, [a.tittel, a.ingress, a.tags.join(' '), (a.alias ?? []).join(' '), stegTitler, stegInnhold].join(' '))
-    }
-  }
-  mini.addAll(docs)
+  mini.addAll(
+    cards.map(c => {
+      const tags = (c.tags ?? []).join(' ')
+      const alias = (c.alias ?? []).join(' ')
+      haystacks.set(c.navn, [c.navn, c.tagline, alias, tags, c.oppsummering ?? '', c.alene ?? '', c.sammen ?? ''].join(' '))
+      return {
+        navn: c.navn,
+        tagline: c.tagline,
+        alene: c.alene ?? '',
+        sammen: c.sammen ?? '',
+        oppsummering: c.oppsummering ?? '',
+        tags,
+        alias,
+      }
+    })
+  )
   return { index: mini, haystacks }
 }
 
-export function searchArticles(
-  { index: mini, haystacks }: ArticleIndex,
+export function searchCards(
+  { index: mini, haystacks }: CardIndex,
   raw: string,
-): ArticleSearchHit[] {
+): CardSearchHit[] {
   const trimmed = raw.trim()
   if (!trimmed) return []
 
@@ -140,7 +126,6 @@ export function searchArticles(
     hits = mini.search(queryParts, { combineWith: 'OR' })
   }
 
-  // Sitert frase må forekomme bokstavelig i artikkelteksten.
   if (parsed.phrases.length > 0) {
     const lowerPhrases = parsed.phrases.map(p => p.toLowerCase())
     hits = hits.filter(h => {
@@ -150,8 +135,8 @@ export function searchArticles(
   }
 
   const withScore = hits.map(h => ({
-    id: String(h.id),
-    score: (h.score ?? 0) + exactScore(String(h.tittel ?? ''), String(h.tags ?? ''), queryParts),
+    navn: String(h.id),
+    score: (h.score ?? 0) + exactScore(String(h.navn ?? h.id), String(h.tags ?? ''), queryParts),
   }))
 
   withScore.sort((a, b) => b.score - a.score)

@@ -1,6 +1,7 @@
 import { useState, useMemo, use, useRef } from 'react'
 import { fetchCards } from '../data/loader'
 import { useMergedCards } from '../auth/merge'
+import { buildCardIndex, searchCards, type CardSearchHit, type CardIndex } from '../data/cardSearchIndex'
 import { FlipCard } from '../components/FlipCard'
 import { CheatSheet } from '../components/CheatSheet'
 import { ComparisonDrawer } from '../components/ComparisonDrawer'
@@ -24,18 +25,17 @@ export function AboutApps() {
   const searchInputRef = useRef<HTMLInputElement>(null)
   const isDesktopSearch = useSearchShortcut(searchInputRef)
 
+  const cardIndex = useMemo<CardIndex>(() => buildCardIndex(allCards), [allCards])
+
   const filteredCards = useMemo(() => {
-    if (!query.trim()) return allCards
-    const q = query.toLowerCase()
-    return allCards.filter(
-      c =>
-        c.navn.toLowerCase().includes(q) ||
-        c.tagline.toLowerCase().includes(q) ||
-        (c.alene ?? '').toLowerCase().includes(q) ||
-        (c.sammen ?? '').toLowerCase().includes(q) ||
-        (c.oppsummering ?? '').toLowerCase().includes(q)
-    )
-  }, [query, allCards])
+    const trimmed = query.trim()
+    if (!trimmed) return allCards
+    const hits: CardSearchHit[] = searchCards(cardIndex, trimmed)
+    const scoreByNavn = new Map(hits.map(h => [h.navn, h.score]))
+    return allCards
+      .filter(c => scoreByNavn.has(c.navn))
+      .sort((a, b) => (scoreByNavn.get(b.navn) ?? 0) - (scoreByNavn.get(a.navn) ?? 0))
+  }, [query, allCards, cardIndex])
 
   const toggleCompare = (navn: string) => {
     setSelected(prev =>
