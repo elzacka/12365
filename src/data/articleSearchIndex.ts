@@ -93,7 +93,7 @@ export function buildArticleIndex(categories: ArticleCategory[]): ArticleIndex {
     },
     searchOptions: {
       prefix: true,
-      fuzzy: (term) => (term.length >= 4 ? 0.2 : false),
+      fuzzy: (term) => (term.length >= 4 ? 0.3 : false),
       boost: { tittel: 10, alias: 9, tags: 6, ingress: 4, stegTitler: 3, kategoriTittel: 2, stegInnhold: 1 },
       combineWith: 'AND',
     },
