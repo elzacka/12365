@@ -715,7 +715,7 @@
       {
         "id": "lists-risikoregister",
         "tittel": "Risikoregister i Lists",
-        "ingress": "Levende risikoregister med automatisk risikovurdering, fargekodede visninger og sporbar oppfølging.",
+        "ingress": "Levende risikoregister med automatikk, fargekodede visninger og sporbar oppfølging.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "lists",
         "tags": [
@@ -738,7 +738,7 @@
             "innhold": "Legg til disse kolonnene via **+ Legg til kolonne**:\n\n◦ **Risikotittel**: Én linje med tekst (Tittel-kolonnen er allerede der)\n◦ **Beskrivelse**: Flere linjer tekst\n◦ **Sannsynlighet**: Tall (skriv inn 1 til 5)\n◦ **Konsekvens**: Tall (skriv inn 1 til 5)\n◦ **Risikoeier**: Person\n◦ **Status**: Valg (Identifisert, Under behandling, Lukket)\n◦ **Tiltak**: Flere linjer tekst\n\n*Viktig: Sannsynlighet og Konsekvens må være av typen Tall, ikke Valg. Bare tallverdier kan brukes i den beregnede kolonnen.*"
           },
           {
-            "tittel": "Beregn risikoverdien automatisk",
+            "tittel": "Beregn risikoscore automatisk",
             "innhold": "Legg til en kolonne av typen **Beregnet** og kall den **Risikoscore**. Sett formelen til:\n\n`=[Sannsynlighet]*[Konsekvens]`\n\nScore fra 1 til 25 beregnes automatisk for hvert element."
           },
           {
@@ -754,7 +754,7 @@
             "innhold": "Klikk **Del** øverst til høyre for å gi ledelsen lesetilgang.\n\nFor enkelt datauttrekk: **Eksporter** → **Eksporter til Excel**.\n\nFor levende dashbord koblet direkte mot lista: Bruk **Power BI**. Lag rapport fra lista, fest den i en Teams-kanal, og ledelsen ser oppdaterte tall i sanntid."
           },
           {
-            "tittel": "Legg registeret til som fane i Teams",
+            "tittel": "Legg til registeret som fane i Teams",
             "innhold": "Legg lista inn som en fane i Teams-kanalen slik at den er tilgjengelig der teamet allerede jobber. Avtal en fast gjennomgangsrytme (for eksempel månedlig), og bruk **Varsler** (klikk **...** på et element → **Varsle meg**) for å få beskjed når noe endres."
           }
         ],
