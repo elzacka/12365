@@ -114,9 +114,29 @@ export function AboutApps() {
                   id="oversikt-tips"
                   className="mt-1 bg-white rounded-xl border border-slate-200 shadow-sm px-4 py-3"
                 >
-                  <p className="text-xs text-slate-500">
-                    Trykk på et kort for å se hva appen gjør – alene og i sammenheng med andre
-                  </p>
+                  <div className="space-y-3 text-xs">
+                    <div>
+                      <p className="text-slate-400 font-medium mb-1.5">I søkefeltet, eksempler:</p>
+                      <div className="space-y-2">
+                        {([
+                          { kode: '"digital tavle"', beskrivelse: 'nøyaktig denne frasen' },
+                          { kode: 'clipchamp OR powerpoint', beskrivelse: 'minst ett av ordene' },
+                          { kode: 'video redigering', beskrivelse: 'begge ord må finnes (standard)' },
+                        ] as const).map(({ kode, beskrivelse }) => (
+                          <div key={kode} className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                            <code className="font-mono bg-slate-100 text-slate-700 rounded px-1 py-0.5 whitespace-nowrap">
+                              {kode}
+                            </code>
+                            <span className="text-slate-500">→ {beskrivelse}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="pt-2 border-t border-slate-100">
+                      <p className="text-slate-400 font-medium mb-1.5">På kortene</p>
+                      <p className="text-slate-500">Trykk på et kort for å se hva appen gjør – alene og i sammenheng med andre.</p>
+                    </div>
+                  </div>
                 </div>
               )}
             </div>
