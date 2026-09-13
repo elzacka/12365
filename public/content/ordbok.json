@@ -32,7 +32,9 @@
     "undertittel": "open weights",
     "forklaring": "Praksis der en ferdigtrent modells vekter deles fritt, men uten nødvendigvis treningskode, datasett eller endringsrett – ikke det samme som åpen kildekode.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Open weights"
@@ -391,11 +393,14 @@
     "forklaring": "Standardisert test for å måle og sammenligne ytelsen til KI-modeller – resultatene sier ikke alltid noe om praktisk nytte.",
     "tags": [
       "ki",
-      "analyse"
+      "analyse",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Benchmark",
-      "evaluation suite"
+      "evaluation suite",
+      "Referansetest"
     ]
   },
   {
@@ -1166,7 +1171,9 @@
     "undertittel": "distillation",
     "forklaring": "Teknikk der en mindre modell lærer av en større for å bli nesten like god, men raskere og billigere å kjøre.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
       "Knowledge distillation",
@@ -1283,7 +1290,9 @@
     "undertittel": "DPO",
     "forklaring": "Metode for å tilpasse språkmodeller til menneskelige preferanser direkte, uten en egen belønningsmodell slik RLHF krever.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
       "Direct preference optimisation"
@@ -1383,11 +1392,14 @@
     "forklaring": "Representasjon av ord eller data som tallvektorer, der lignende betydning gir tall som ligger nær hverandre.",
     "tags": [
       "ki",
-      "analyse"
+      "analyse",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Embedding",
-      "vector embedding"
+      "vector embedding",
+      "Innbygging"
     ]
   },
   {
@@ -1510,7 +1522,9 @@
     "undertittel": "fine-tuning",
     "forklaring": "Videretrening av en ferdig modell på et avgrenset datasett slik at den blir ekspert på et bestemt område.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
       "Fine-tuning"
@@ -1604,10 +1618,13 @@
     "tittel": "Forhåndstrening",
     "forklaring": "Innledende fase der en språkmodell lærer å forutsi neste ord i enorme tekstmengder – legger grunnlaget før modellen finjusteres til konkrete oppgaver.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
-      "Pre-training"
+      "Pre-training",
+      "Fortrening"
     ]
   },
   {
@@ -1649,7 +1666,9 @@
     "tittel": "Forsterkende læring",
     "forklaring": "Maskinlæringsform der algoritmen lærer gjennom belønning og straff uten å få fasit.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
       "Reinforcement learning",
@@ -1685,11 +1704,14 @@
     "tittel": "Fremvoksende egenskaper",
     "forklaring": "Ferdigheter en språkmodell utvikler uventet når den blir stor nok, uten å være eksplisitt trent for dem – sentralt i debatten om KI-evner og risiko.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Emergent abilities",
-      "emergent properties"
+      "emergent properties",
+      "Emergens"
     ]
   },
   {
@@ -1747,11 +1769,15 @@
     "undertittel": "function calling",
     "forklaring": "Funksjon der modellen ber et eksternt program utføre en oppgave og presenterer resultatet – grunnlag for KI-agenter.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
       "Function calling",
-      "tool use"
+      "tool use",
+      "Verktøykall",
+      "Tool calling"
     ]
   },
   {
@@ -1820,7 +1846,9 @@
     "forklaring": "Prosessor for parallelle beregninger – det viktigste maskineriet for å trene og kjøre KI-modeller.",
     "tags": [
       "programmering",
-      "ki"
+      "ki",
+      "modell",
+      "maskinvare"
     ],
     "alias": [
       "Grafikkprosessor"
@@ -1856,11 +1884,14 @@
     "undertittel": "KI",
     "forklaring": "Fenomen der KI presenterer feil informasjon som om det var sant – modellen «finner på» fakta, tall eller referanser som ikke eksisterer.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Hallucination",
-      "AI hallucination"
+      "AI hallucination",
+      "Hallusinasjon"
     ]
   },
   {
@@ -2005,10 +2036,13 @@
     "tittel": "Inferens",
     "forklaring": "Det som skjer når en ferdigtrent modell brukes i praksis – krever langt mindre ressurser enn trening.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
-      "Inference"
+      "Inference",
+      "Kjøring"
     ]
   },
   {
@@ -2490,7 +2524,9 @@
     "forklaring": "Maskinlærings- eller data mining-teknikk som sorterer data i forhåndsdefinerte klasser.",
     "tags": [
       "ki",
-      "analyse"
+      "analyse",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Classification"
@@ -2555,7 +2591,9 @@
     "tittel": "Kontekstvindu",
     "forklaring": "Mengden tekst en språkmodell kan forholde seg til samtidig, målt i tokens – modellens «arbeidsminne».",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Context window"
@@ -2662,11 +2700,14 @@
     "undertittel": "KI/AI",
     "forklaring": "Samlebetegnelse for datasystemer som utfører en oppgave på en måte som etterligner menneskelig intelligens.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Artificial intelligence",
-      "AI"
+      "AI",
+      "KI"
     ]
   },
   {
@@ -2674,7 +2715,9 @@
     "tittel": "Kvantisering",
     "forklaring": "Reduksjon av tallpresisjon i en modell for å gjøre den mindre og raskere, slik at den kan kjøres på svakere maskinvare.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
       "Quantization",
@@ -2817,7 +2860,9 @@
     "undertittel": "LoRA",
     "forklaring": "Effektiv finjusteringsmetode som bare trener et lite sett ekstra vekter i stedet for alle modellens parametre.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
       "Low-Rank Adaptation of large language models"
@@ -3512,10 +3557,13 @@
     "undertittel": "MoE",
     "forklaring": "Arkitektur der bare noen få spesialiserte delnettverk aktiveres per forespørsel, slik at store modeller likevel kjøres effektivt.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
-      "Mixture of Experts"
+      "Mixture of Experts",
+      "Blanding av eksperter"
     ]
   },
   {
@@ -3861,7 +3909,9 @@
     "undertittel": "KI",
     "forklaring": "Justerbar tallverdi inne i en modell – antallet parametre brukes som mål på modellens størrelse.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Parameter",
@@ -4194,11 +4244,14 @@
     "tittel": "Prompt / prompting",
     "forklaring": "Instruksjonen eller spørsmålet du gir til en KI – kvaliteten på svaret avhenger direkte av kvaliteten på prompten.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Prompt",
-      "prompting"
+      "prompting",
+      "Ledetekst"
     ]
   },
   {
@@ -4429,7 +4482,9 @@
     "undertittel": "RLHF",
     "forklaring": "Treningsmetode der mennesker vurderer hvilke svar som er best, og modellen læres opp til å produsere slike – nøkkelen bak hjelpsomme chatboter.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
       "Reinforcement Learning from Human Feedback"
@@ -4488,7 +4543,9 @@
     "tittel": "Resonneringsmodell",
     "forklaring": "Språkmodell som bruker lenger tid og interne tankekjeder før svar – sterk på matematikk, koding og logikk.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Reasoning model"
@@ -4508,10 +4565,13 @@
     "undertittel": "RAG",
     "forklaring": "Teknikk der modellen henter relevant informasjon fra en ekstern kilde før den svarer, og slik reduserer hallusinasjoner.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "metode"
     ],
     "alias": [
-      "Retrieval-augmented generation"
+      "Retrieval-augmented generation",
+      "Gjenfinningsstøttet generering"
     ]
   },
   {
@@ -4900,7 +4960,9 @@
     "forklaring": "KI-basert analyse av om tekst er positivt eller negativt ladet – systematisk analyse av meningsinnhold.",
     "tags": [
       "ki",
-      "analyse"
+      "analyse",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Sentiment analysis",
@@ -5316,7 +5378,9 @@
     "undertittel": "LLM",
     "forklaring": "KI-type trent på enorme tekstmengder for å forstå og produsere språk – motoren bak f.eks. ChatGPT og Copilot.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Large Language Model"
@@ -5437,11 +5501,14 @@
     "tittel": "Systemprompt",
     "forklaring": "Skjulte instruksjoner fra utvikleren som styrer hvordan en KI-modell oppfører seg, og gir ulike produkter ulik «personlighet».",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "System prompt",
-      "system message"
+      "system message",
+      "Systeminstruksjon"
     ]
   },
   {
@@ -5493,11 +5560,14 @@
     "undertittel": "chain-of-thought",
     "forklaring": "Teknikk der modellen bes resonnere steg for steg før den svarer – gir bedre svar på sammensatte oppgaver.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Chain-of-thought",
-      "CoT"
+      "CoT",
+      "Tankerekke"
     ]
   },
   {
@@ -5530,11 +5600,14 @@
     "undertittel": "TTS / stemme-KI",
     "forklaring": "Teknologi som gjør skrevet tekst om til naturtro tale, og som kan klone stemmer.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Text-to-speech",
-      "voice cloning"
+      "voice cloning",
+      "TTS"
     ]
   },
   {
@@ -5543,7 +5616,9 @@
     "undertittel": "KI",
     "forklaring": "Innstilling som styrer hvor forutsigbar eller kreativ en modell er – lav verdi gir nøkterne svar, høy gir mer variasjon.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Temperature (sampling)"
@@ -5684,7 +5759,9 @@
     "tittel": "Token",
     "forklaring": "Minste tekstenhet en språkmodell jobber med – omtrent et ord eller en orddel; kontekstvinduet og prisen måles i tokens.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Token"
@@ -5709,7 +5786,9 @@
     "tittel": "Transformer",
     "forklaring": "Arkitekturen nesten alle moderne språkmodeller bygger på, introdusert av Google i 2017 – bruker oppmerksomhetsmekanismen.",
     "tags": [
-      "ki"
+      "ki",
+      "modell",
+      "begrep"
     ],
     "alias": [
       "Transformer model",
@@ -6374,6 +6453,1919 @@
     ],
     "alias": [
       "Environment"
+    ]
+  },
+  {
+    "id": "a100-h200-b200",
+    "tittel": "A100, H200, B200",
+    "forklaring": "Nvidia-grafikkort for datasenter, oppgitt etter minnestørrelse: A100 har 40 eller 80 GB, H200 141 GB og B200 180 GB.",
+    "tags": [
+      "ki",
+      "modell",
+      "maskinvare"
+    ]
+  },
+  {
+    "id": "absa",
+    "tittel": "ABSA",
+    "forklaring": "Sentimentanalyse som skiller mellom ulike sider ved samme omtale, for eksempel pris og kvalitet.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Aspect-based sentiment analysis"
+    ]
+  },
+  {
+    "id": "ai-sweden",
+    "tittel": "AI Sweden",
+    "forklaring": "Svensk nasjonalt KI-senter. Står bak GPT-SW3.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "aktive-parametere",
+    "tittel": "Aktive parametere",
+    "forklaring": "Hvor mange parametere som faktisk brukes per svar i en MoE-modell. Kan være en brøkdel av totalen.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Active parameters"
+    ]
+  },
+  {
+    "id": "aktiveringssjekkpunkt",
+    "tittel": "Aktiveringssjekkpunkt",
+    "forklaring": "Minnesparende teknikk som regner mellomresultater på nytt framfor å lagre dem.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Activation checkpointing"
+    ]
+  },
+  {
+    "id": "art",
+    "tittel": "ART",
+    "forklaring": "Rammeverk for GRPO-trening av agenter som kaller verktøy og går over flere steg.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ],
+    "alias": [
+      "Agent Reinforcement Trainer"
+    ]
+  },
+  {
+    "id": "autocrop",
+    "tittel": "autocrop-*",
+    "forklaring": "NB-modeller som segmenterer avissider for automatisk beskjæring. Fire varianter.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "axolotl",
+    "tittel": "Axolotl",
+    "forklaring": "Rammeverk som setter opp treningsløyper gjennom YAML-filer. Brukes til større og mer sammensatte løyper.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "b",
+    "tittel": "B",
+    "forklaring": "Milliard. 7B betyr sju milliarder parametere. Engelsk «billion» er milliard på norsk, ikke billion.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "B (billion)",
+      "billion"
+    ]
+  },
+  {
+    "id": "basismodell",
+    "tittel": "Basismodell",
+    "forklaring": "Modell som bare er fortrent, uten opplæring i å følge instruksjoner.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Base model"
+    ]
+  },
+  {
+    "id": "belonningsfunksjon",
+    "tittel": "Belønningsfunksjon",
+    "forklaring": "Koden som avgjør hvor bra et svar var. Den vanskeligste delen av å sette opp forsterkende læring.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Reward function"
+    ]
+  },
+  {
+    "id": "belonningsmodell",
+    "tittel": "Belønningsmodell",
+    "forklaring": "Egen modell trent til å gi poeng til svar, brukt når riktighet ikke kan sjekkes av kode.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Reward model"
+    ]
+  },
+  {
+    "id": "bf16-fp8-4-bit",
+    "tittel": "BF16, FP8, 4-bit",
+    "forklaring": "Tallformater for vektene. Færre bit gir mindre fil og raskere kjøring.",
+    "tags": [
+      "ki",
+      "modell",
+      "format"
+    ]
+  },
+  {
+    "id": "bineric-ai",
+    "tittel": "Bineric AI",
+    "forklaring": "Norsk kommersiell aktør bak NorskGPT og den nyere lynx-instruct-30b (Qwen3-grunnlag, Apache 2.0, 2026). Tilbyr API-plattform.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "bitsandbytes",
+    "tittel": "bitsandbytes",
+    "forklaring": "Bibliotek som håndterer fire- og åttebits kvantisering under trening.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "blandet-presisjon",
+    "tittel": "Blandet presisjon",
+    "forklaring": "Trening som bruker ulike tallformater i ulike deler av regnestykket for å spare minne.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Mixed precision"
+    ]
+  },
+  {
+    "id": "bleu",
+    "tittel": "BLEU",
+    "forklaring": "Mål på oversettelseskvalitet, fra 0 til 100. Sammenlikner maskinens oversettelse med en menneskelig fasit.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ]
+  },
+  {
+    "id": "borealis",
+    "tittel": "Borealis",
+    "forklaring": "NBs instruksjonstrente språkmodellfamilie, bygd på Gemma 3. Fem størrelser fra 270M til 27B, i fullspor og åpent spor.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "borealis-2",
+    "tittel": "Borealis 2",
+    "forklaring": "borealis2-26b-a4b-preview. MoE-modell med 26B totalt og 4B aktive, bygd på Gemma 4. Nordisk språkdekning. Forhåndsversjon.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "borealis-embed-212m",
+    "tittel": "borealis-embed-212m",
+    "forklaring": "NBs innbyggingsmodell for vektorsøk. 768 dimensjoner, 8192 token kontekst. Beste treffsikkerhet, men med lisensbegrensninger.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "borealis-open",
+    "tittel": "borealis-open-*",
+    "forklaring": "Det åpne Borealis-sporet, trent uten lisensiert pressemateriale. Gemma-lisens.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "chat-mal",
+    "tittel": "Chat-mal",
+    "forklaring": "Formatet som markerer hvem som snakker. Må stemme med basismodellen, ellers svekkes treningen.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Chat template"
+    ]
+  },
+  {
+    "id": "d-rlaif",
+    "tittel": "d-RLAIF",
+    "forklaring": "Forsterkende læring der en annen KI-modell vurderer svarene, framfor mennesker.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Direct Reinforcement Learning from AI Feedback"
+    ]
+  },
+  {
+    "id": "decoder-modell",
+    "tittel": "Decoder-modell",
+    "forklaring": "Modell som genererer tekst. Alle vanlige språkmodeller er decoder-modeller.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Decoder model"
+    ]
+  },
+  {
+    "id": "dimensjoner",
+    "tittel": "Dimensjoner",
+    "forklaring": "Hvor mange tall en innbygging består av. borealis-embed-212m bruker 768.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Dimensions"
+    ]
+  },
+  {
+    "id": "divvun",
+    "tittel": "Divvun",
+    "forklaring": "Miljø ved UiT som lager samisk språkteknologi. Distribuerer talesyntese som programvare, ikke som åpne vekter.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "elevmodell",
+    "tittel": "Elevmodell",
+    "forklaring": "Den lille modellen som trenes på eksemplene fra lærermodellen.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Student model"
+    ]
+  },
+  {
+    "id": "encoder-modell",
+    "tittel": "Encoder-modell",
+    "forklaring": "Modell som leser tekst og gir ut en representasjon, ikke ny tekst. Brukes til klassifisering og uttrekk.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Encoder model"
+    ]
+  },
+  {
+    "id": "etter-trening",
+    "tittel": "Etter-trening",
+    "forklaring": "All trening som kommer etter fortreningen, og som avgjør hvordan modellen oppfører seg.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Post-training"
+    ]
+  },
+  {
+    "id": "etterfolgende-destillasjon",
+    "tittel": "Etterfølgende destillasjon",
+    "forklaring": "Eleven trenes på ferdige svar læreren har laget på forhånd.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Off-policy distillation"
+    ]
+  },
+  {
+    "id": "evalueringssett",
+    "tittel": "Evalueringssett",
+    "forklaring": "Ditt eget testsett, hentet fra din egen oppgave. Det eneste som forteller om trening faktisk hjalp.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Eval set"
+    ]
+  },
+  {
+    "id": "evolusjonsstrategier",
+    "tittel": "Evolusjonsstrategier",
+    "forklaring": "Alternativ optimaliseringsmetode. Har i enkelte forsøk slått både PPO og GRPO.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Evolution strategies (ES)",
+      "ES"
+    ]
+  },
+  {
+    "id": "f1",
+    "tittel": "F1",
+    "forklaring": "Mål på treffsikkerhet fra 0 til 1, som veier presisjon og dekning mot hverandre.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "F1 score"
+    ]
+  },
+  {
+    "id": "fa-skudds-laering",
+    "tittel": "Få-skudds-læring",
+    "forklaring": "Du viser noen ferdige eksempler i ledeteksten. Ingen trening skjer.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Few-shot"
+    ]
+  },
+  {
+    "id": "gbnf",
+    "tittel": "GBNF",
+    "forklaring": "Grammatikkformatet llama.cpp bruker til å styre utdata.",
+    "tags": [
+      "ki",
+      "modell",
+      "format"
+    ]
+  },
+  {
+    "id": "gemma",
+    "tittel": "Gemma",
+    "forklaring": "Googles åpne modellfamilie. Gemma 3 ligger under Borealis, Gemma 4 under Borealis 2.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "gguf",
+    "tittel": "GGUF",
+    "forklaring": "Filformatet llama.cpp, Ollama og LM Studio bruker. Kvantisert, altså komprimert. Q4_K_M er et vanlig kompromiss.",
+    "tags": [
+      "ki",
+      "modell",
+      "format"
+    ]
+  },
+  {
+    "id": "google",
+    "tittel": "Google",
+    "forklaring": "Utvikler Gemma, grunnlaget for Borealis.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "gpt-sw3",
+    "tittel": "GPT-SW3",
+    "forklaring": "AI Swedens nordiske modellfamilie, 126M til 40B. I praksis stengt for andre enn europeiske forskningsinstitusjoner.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "grammatikkstyrt-dekoding",
+    "tittel": "Grammatikkstyrt dekoding",
+    "forklaring": "Teknikk som hindrer modellen i å produsere tekst som bryter formatet.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Grammar-constrained decoding"
+    ]
+  },
+  {
+    "id": "grpo",
+    "tittel": "GRPO",
+    "forklaring": "RL-algoritmen bak DeepSeek-R1. Lager flere svar på samme spørsmål og sammenlikner dem mot hverandre, slik at verdimodellen blir overflødig.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Group Relative Policy Optimization"
+    ]
+  },
+  {
+    "id": "gsm8k",
+    "tittel": "GSM8K",
+    "forklaring": "Referansetest med matematikkoppgaver på grunnskolenivå.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ]
+  },
+  {
+    "id": "helse-vest-ikt",
+    "tittel": "Helse Vest IKT",
+    "forklaring": "Prosjektleder for Klinisk NorBERT/KliniskVestBERT, sammen med helseforetakene på Vestlandet og DIPS. Forvalter tilgangen.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "hplt",
+    "tittel": "HPLT",
+    "forklaring": "Europeisk prosjekt for flerspråklige språkdata. Står bak NorOLMo-13B og bidrar til Viking.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "hugging-face",
+    "tittel": "Hugging Face",
+    "forklaring": "Den største samlingen av åpne modeller, datasett og biblioteker. Der nesten alle modellene i denne ordboken ligger.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "instruksjonstilpasset-modell",
+    "tittel": "Instruksjonstilpasset modell",
+    "forklaring": "Basismodell som er etterbehandlet til å følge instruksjoner og svare i dialog.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Instruction-tuned (IT)",
+      "IT"
+    ]
+  },
+  {
+    "id": "kaskade",
+    "tittel": "Kaskade",
+    "forklaring": "Eskalering i flere ledd, der saken sendes videre til en sterkere modell til den blir løst.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Cascade"
+    ]
+  },
+  {
+    "id": "kimi-k2-thinking",
+    "tittel": "Kimi-K2-Thinking",
+    "forklaring": "Resonneringsmodell som leverte de engelske resonneringssporene normistral-11b-thinking ble trent på.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "kl-divergens",
+    "tittel": "KL-divergens",
+    "forklaring": "Mål på hvor mye modellen har beveget seg fra utgangspunktet. Brukes til å hindre at den sporer av under RL.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "KL divergence"
+    ]
+  },
+  {
+    "id": "klinisk-norbert",
+    "tittel": "Klinisk NorBERT",
+    "forklaring": "Publisert i 2026 som KliniskVestBERT: tre encodere videretrent på anonymiserte journaldokumenter fra Helse Vest, med nb-bert-large, norbert3-large og ModernBERT som grunnlag. CC-BY-NC-ND-4.0, deles på vilkår gjennom Helse Vest IKT, ikke åpent.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "llama",
+    "tittel": "Llama",
+    "forklaring": "Metas modellfamilie. Ligger under nb-notram-llama og NorskGPT. Egen lisens med krav om navngiving.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "llama-cpp",
+    "tittel": "llama.cpp",
+    "forklaring": "Kjøremotor som kjører modeller lokalt på CPU eller svakere maskinvare.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "lm-studio",
+    "tittel": "LM Studio",
+    "forklaring": "Skrivebordsprogram for å laste ned og kjøre modeller lokalt uten koding.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "ltg",
+    "tittel": "ltg",
+    "forklaring": "Språkteknologigruppa ved UiO. Publiserer normistral- og NorBERT-familiene. normistral, NorBERT 3 og 4 og norbloom er Apache 2.0; eldre NorBERT og de finjusterte variantene er CC-BY-4.0.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "laerermodell",
+    "tittel": "Lærermodell",
+    "forklaring": "Den store modellen som produserer eksemplene til destillasjon.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Teacher model"
+    ]
+  },
+  {
+    "id": "magistral",
+    "tittel": "Magistral",
+    "forklaring": "Mistral AIs resonneringsmodell. Grunnlaget for NorwAI-Magistral-24B-reasoning.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "math500-aime",
+    "tittel": "MATH500, AIME",
+    "forklaring": "Referansetester med vanskeligere matematikkoppgaver enn GSM8K.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ]
+  },
+  {
+    "id": "meta",
+    "tittel": "Meta",
+    "forklaring": "Utvikler Llama og wav2vec2.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "metning",
+    "tittel": "Metning",
+    "forklaring": "At en referansetest er blitt for lett, slik at den ikke lenger skiller mellom modeller.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Saturation"
+    ]
+  },
+  {
+    "id": "mistral-mistral-nemo",
+    "tittel": "Mistral, Mistral-Nemo",
+    "forklaring": "Mistral AIs modellfamilie. Grunnlaget for de varmstartede normistral-modellene og flere NorwAI-modeller.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "mistral-ai",
+    "tittel": "Mistral AI",
+    "forklaring": "Fransk selskap bak Mistral, Mixtral og Magistral.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "mixtral",
+    "tittel": "Mixtral",
+    "forklaring": "Mistral AIs MoE-modell. Grunnlaget for NorwAI-Mixtral-8x7B.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "mlx",
+    "tittel": "MLX",
+    "forklaring": "Apples rammeverk for å kjøre modeller raskt på Apple Silicon. Modellene ligger i egne MLX-repoer, som safetensors med MLX-konfigurasjon.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "modalitet",
+    "tittel": "Modalitet",
+    "forklaring": "Hvilke typer inndata modellen forstår. Tekst, bilde eller lyd.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Modality"
+    ]
+  },
+  {
+    "id": "modellkort",
+    "tittel": "Modellkort",
+    "forklaring": "Dokumentasjonssiden til modellen på Hugging Face. Oppgir lisens, treningsdata og begrensninger.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Model card"
+    ]
+  },
+  {
+    "id": "moss-tts",
+    "tittel": "MOSS-TTS",
+    "forklaring": "TTS-arkitektur i variantene Local og Nano. Grunnlaget for NBs norske talesyntese.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nasjonalbiblioteket-nb",
+    "tittel": "Nasjonalbiblioteket (NB)",
+    "forklaring": "Største norske utgiver av åpne KI-modeller. Publiserer som NbAiLab på Hugging Face, med AI-lab som nettsted.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "navngitte-enheter",
+    "tittel": "Navngitte enheter",
+    "forklaring": "Å finne personer, steder og organisasjoner i en tekst.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Named entity recognition (NER)",
+      "NER"
+    ]
+  },
+  {
+    "id": "nb-asr-beta-qwen06b-lunde05",
+    "tittel": "nb-asr-beta-qwen06b-lunde05",
+    "forklaring": "NBs påtenkte etterfølger til NB-Whisper, bygd på Qwen3-ASR. Beta og styrt tilgang. Kan ikke kjøres av whisper.cpp eller WhisperKit.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-bert-base-large",
+    "tittel": "nb-bert-base, -large",
+    "forklaring": "NBs BERT-modeller for klassifisering og sekvensmerking. CC-BY-4.0, ikke Apache 2.0.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-bert-base-ner",
+    "tittel": "nb-bert-base-ner",
+    "forklaring": "nb-bert-base finjustert på NorNE for navngitte enheter.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-bert-base-pos",
+    "tittel": "nb-bert-base-pos",
+    "forklaring": "nb-bert-base finjustert til ordklassemerking.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-bert-base-sami-relevant",
+    "tittel": "nb-bert-base-sami-relevant",
+    "forklaring": "Filtrerer ut samiskrelevant tekst.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-gpt-j-6b",
+    "tittel": "nb-gpt-j-6B",
+    "forklaring": "Eldre NB-språkmodell i flere varianter. Erstattet av Borealis.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-llama-3-x-gguf",
+    "tittel": "nb-llama-3.x-*-GGUF",
+    "forklaring": "Kvantiserte utgaver av nb-notram-llama. Erstattet av Borealis.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-nordic-lid",
+    "tittel": "nb-nordic-lid",
+    "forklaring": "Kjenner igjen språk. To språksett, ett for 12 nordiske språk pluss engelsk og ett for 159 språk, hver i stor .bin og kvantisert .ftz. Den nordiske .ftz er 1,87 MB og kan legges rett inn i en app.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-notram-llama-3-x-instruct",
+    "tittel": "nb-notram-llama-3.x-instruct",
+    "forklaring": "Eldre NB-modeller på Llama-grunnlag, 1B til 70B. Arver Metas lisens. Erstattet av Borealis.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-sami-asr-nemotron-3-5-streaming",
+    "tittel": "nb-sami-asr-nemotron-3.5-streaming",
+    "forklaring": "Nordsamisk talegjenkjenning for strømming. Lisens uavklart.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-sami-asr-north-parakeet",
+    "tittel": "nb-sami-asr-north-parakeet-*",
+    "forklaring": "Nordsamisk talegjenkjenning på NVIDIA Parakeet, publisert som .nemo-filer i ni repoer. CC-BY-4.0. Ingen ferdig parakeet.cpp-utgave.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-sbert-base-v2-base-v2-large",
+    "tittel": "nb-sbert-base, -v2-base, -v2-large",
+    "forklaring": "NBs eldre innbyggingsmodeller. Apache 2.0, altså renere lisens enn borealis-embed-212m, men svakere på lang kontekst.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-t5",
+    "tittel": "nb-t5",
+    "forklaring": "Påbegynt NB-modell som aldri ble fullført.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-tts-norwegian-moss-local-trimmed-nano-trimmed",
+    "tittel": "nb-tts-norwegian-moss-local-trimmed, -nano-trimmed",
+    "forklaring": "NBs talesyntese på MOSS-grunnlag, trent på NST-tale. Modellrepoene er ikke offentlig tilgjengelige per 13.09.26, bare demo-Spaces. Lisens ukjent.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-tts-norwegian-piper-trimmed",
+    "tittel": "nb-tts-norwegian-piper-trimmed",
+    "forklaring": "NB-talesyntese på Piper-grunnlag. Modellrepoet er ikke offentlig tilgjengelig per 13.09.26, bare demo-Space. Lisens ukjent.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-tts-norwegian-voices",
+    "tittel": "nb-tts-norwegian-voices",
+    "forklaring": "NBs hovedmodell for norsk talesyntese, en MOSS-TTS-Local-finjustering med én kvinnelig og én mannlig stemme. Modellrepoet er ikke offentlig tilgjengelig per 13.09.26, bare demo-Space. Lisens ukjent.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-tts-voxcpm2-voices-2607",
+    "tittel": "nb-tts-voxcpm2-voices-2607",
+    "forklaring": "Nyeste NB-talesyntese, på VoxCPM2, med to Oslo-stemmer i 48 kHz. Modellrepoet er ikke offentlig tilgjengelig per 13.09.26, bare demo-Space. Lisens ukjent.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-wav2vec2",
+    "tittel": "nb-wav2vec2-*",
+    "forklaring": "NBs eldre talegjenkjennere i 300M og 1B, for bokmål og nynorsk. De klart mest nedlastede modellene blant NBs modeller, men uten tegnsetting. -v2-utgavene, som står for nesten alle nedlastingene, mangler dokumentasjon.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-whisper",
+    "tittel": "NB-Whisper",
+    "forklaring": "OpenAI Whisper finjustert på rundt 66 000 timer norsk lyd. Fem størrelser fra tiny til large, Apache 2.0. Standardvalget for norsk tale til tekst.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-whisper-semantic",
+    "tittel": "nb-whisper-*-semantic",
+    "forklaring": "Whisper-variant som gjengir meningen med færre ord, til teksting og møtereferat. Ligger bare under NbAiLabBeta.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-whisper-verbatim",
+    "tittel": "nb-whisper-*-verbatim",
+    "forklaring": "Whisper-variant som gjengir ord for ord, med små bokstaver og uten tegnsetting. Til språklig analyse.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nb-whisper-large-distil-turbo-beta",
+    "tittel": "nb-whisper-large-distil-turbo-beta",
+    "forklaring": "Destillert fra 1550M til 756M for sanntid på svak maskinvare. Bare bokmål, og utgitt bare til testing.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "nora-llm",
+    "tittel": "NORA.LLM",
+    "forklaring": "Konsortienavn for de samme modellene som ligger under ltg. Organisasjonssiden norallm på Hugging Face har bare datasettene igjen; modellene er flyttet til ltg.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "norbert-3",
+    "tittel": "NorBERT 3",
+    "forklaring": "Forrige generasjon fra ltg, i xs, small, base og large. Finnes i ABSA-varianter.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norbert-4",
+    "tittel": "NorBERT 4",
+    "forklaring": "Fem størrelser fra norbert4-xsmall (17M) til -xlarge (987M). Apache 2.0, trent på 600B token. Det eneste frie norske encoder-alternativet som dekker nordsamisk.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norbloom-7b-scratch",
+    "tittel": "norbloom-7b-scratch",
+    "forklaring": "ltg-modell på BLOOM-arkitektur, trent fra bunnen.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norgpt",
+    "tittel": "NorGPT",
+    "forklaring": "NorwAIs eldste familie, 369M til 23B, på GPT-2-arkitektur. Bare 369M og 3B er publisert, under NorGLM med CC-BY-NC-SA. Teknisk utdatert.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "normistral-11b-long",
+    "tittel": "normistral-11b-long",
+    "forklaring": "Variant for lange tekster.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "normistral-11b-thinking",
+    "tittel": "normistral-11b-thinking",
+    "forklaring": "Den eneste norske resonneringsmodellen med Apache 2.0. Trent med veiledet finjustering på Kimi-K2-spor, deretter d-RLAIF. Finnes også som GGUF.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "normistral-11b-translate",
+    "tittel": "normistral-11b-translate",
+    "forklaring": "Variant rettet mot oversettelse.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "normistral-11b-warm-7b-warm-7b-warm-instruct",
+    "tittel": "normistral-11b-warm, -7b-warm, -7b-warm-instruct",
+    "forklaring": "Varmstartede varianter, altså videretrent fra Mistral framfor fra bunnen. -instruct følger instruksjoner.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "normistral-7b-scratch",
+    "tittel": "normistral-7b-scratch",
+    "forklaring": "Trent fra bunnen på norsk, ikke videretrent fra Mistral.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norolmo-13b",
+    "tittel": "NorOLMo-13B",
+    "forklaring": "HPLTs norske modell med åpen treningsoppskrift. Apache 2.0. Ligger under HPLT, ikke ltg.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norskgpt",
+    "tittel": "NorskGPT",
+    "forklaring": "Binerics modeller på Llama 3- og Mistral-grunnlag. Ikke-kommersiell lisens, ikke oppdatert siden 2024.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norwai",
+    "tittel": "NorwAI",
+    "forklaring": "Forskningssenter ved NTNU. Publiserer NorLLM-modellene, med Schibsted, NRK, VG, DNB, Telenor og SINTEF som partnere.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "norwai-llama2-7b",
+    "tittel": "NorwAI-Llama2-7B",
+    "forklaring": "NorwAI-modell på Llama 2.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norwai-magistral-24b-reasoning",
+    "tittel": "NorwAI-Magistral-24B-reasoning",
+    "forklaring": "Største norske resonneringsmodell, med tre modi for tenketid. Trent på lisensiert norsk mediemateriale. NorLLM-lisens, bare nordiske organisasjoner.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norwai-mistral-7b",
+    "tittel": "NorwAI-Mistral-7B*",
+    "forklaring": "NorwAI-modeller på Mistral, i pretrain- og instruct-varianter.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "norwai-mixtral-8x7b",
+    "tittel": "NorwAI-Mixtral-8x7B*",
+    "forklaring": "NorwAI-modeller på Mixtral, 47B MoE. Null nedlastinger.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "null-skudd",
+    "tittel": "Null-skudd",
+    "forklaring": "Du gir bare instruksjonen, uten eksempler.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Zero-shot"
+    ]
+  },
+  {
+    "id": "nvidia",
+    "tittel": "NVIDIA",
+    "forklaring": "Utvikler Parakeet-arkitekturen, og grafikkortene modellene kjøres på.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "ollama",
+    "tittel": "Ollama",
+    "forklaring": "Enkel lokal kjøring og forvaltning av modeller, bygget på llama.cpp.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "onnx",
+    "tittel": "ONNX",
+    "forklaring": "Filformat for modeller som skal kjøre i nettleser eller innebygd, gjennom transformers.js eller onnxruntime.",
+    "tags": [
+      "ki",
+      "modell",
+      "format"
+    ]
+  },
+  {
+    "id": "openai",
+    "tittel": "OpenAI",
+    "forklaring": "Utvikler Whisper, grunnlaget for NB-Whisper.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "openai-kompatibelt-endepunkt",
+    "tittel": "OpenAI-kompatibelt endepunkt",
+    "forklaring": "Et /v1/chat/completions-grensesnitt som både Ollama og vLLM tilbyr. Lar deg bytte modell uten å endre koden.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "OpenAI-compatible endpoint"
+    ]
+  },
+  {
+    "id": "openrlhf",
+    "tittel": "OpenRLHF",
+    "forklaring": "Rammeverk for RL-trening i stor skala, over flere maskiner.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "optimalisator",
+    "tittel": "Optimalisator",
+    "forklaring": "Algoritmen som justerer vektene under trening. AdamW er standardvalget.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Optimizer"
+    ]
+  },
+  {
+    "id": "ordfeilrate",
+    "tittel": "Ordfeilrate",
+    "forklaring": "Andelen ord en talegjenkjenner får feil. Lavere er bedre. Mangler for NB-Whisper.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Word error rate (WER)",
+      "WER"
+    ]
+  },
+  {
+    "id": "ordklassemerking",
+    "tittel": "Ordklassemerking",
+    "forklaring": "Å merke hvert ord med ordklasse.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Part-of-speech tagging (POS)",
+      "POS"
+    ]
+  },
+  {
+    "id": "osaurus",
+    "tittel": "Osaurus",
+    "forklaring": "Kjøremotor for Mac med Apple Silicon, basert på MLX.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "outlines",
+    "tittel": "Outlines",
+    "forklaring": "Bibliotek som tvinger utdata til å følge et skjema eller en grammatikk.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "parakeet",
+    "tittel": "Parakeet",
+    "forklaring": "NVIDIA Parakeet-TDT 0,6B, talegjenkjenningsarkitektur. Grunnlaget for den nordsamiske ASR-modellen.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "peft",
+    "tittel": "PEFT",
+    "forklaring": "Samlebetegnelse på metoder som LoRA, og navnet på Hugging Face-biblioteket for dem.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ],
+    "alias": [
+      "Parameter-Efficient Fine-Tuning"
+    ]
+  },
+  {
+    "id": "piper",
+    "tittel": "Piper",
+    "forklaring": "Lettvekts TTS-system. Grunnlaget for én av NBs talesyntesemodeller.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "ppo",
+    "tittel": "PPO",
+    "forklaring": "Klassisk RL-algoritme. Krever en egen verdimodell, og bruker derfor mye minne.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Proximal Policy Optimization"
+    ]
+  },
+  {
+    "id": "promptbaking",
+    "tittel": "Promptbaking",
+    "forklaring": "Å destillere fast systemprompt-oppførsel inn i vektene med LoRA-adaptere. Brukt i Borealis.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Prompt baking"
+    ]
+  },
+  {
+    "id": "pylaia-norhand-v1-til-v3",
+    "tittel": "pylaia-norhand-v1 til -v3",
+    "forklaring": "Teklias eldre modeller for norsk håndskrift. MIT-lisens.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "qwen3-asr",
+    "tittel": "Qwen3-ASR",
+    "forklaring": "Talegjenkjenningsarkitektur fra Qwen-familien. Grunnlaget for nb-asr-beta.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "resonneringsspor",
+    "tittel": "Resonneringsspor",
+    "forklaring": "Den utskrevne tankerekka, ofte merket i et eget felt som <think>. Må skilles fra svaret i etterbehandling.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Reasoning trace"
+    ]
+  },
+  {
+    "id": "rft",
+    "tittel": "RFT",
+    "forklaring": "Samlebetegnelse på finjustering med forsterkende læring.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Reinforcement fine-tuning"
+    ]
+  },
+  {
+    "id": "roberta-jan-128-ncc-scandinavian",
+    "tittel": "roberta_jan_128_ncc, -scandinavian",
+    "forklaring": "NB-encodere trent på Norwegian Colossal Corpus. -scandinavian er CC-BY-SA-4.0, altså smittende delelisens. 128_ncc mangler både lisens og modellkort.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "ruting",
+    "tittel": "Ruting",
+    "forklaring": "Å sende lette saker til en liten modell og vanskelige videre til en stor.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Routing"
+    ]
+  },
+  {
+    "id": "safetensors",
+    "tittel": "safetensors",
+    "forklaring": "Filformatet for modeller i fullpresisjon. Brukes av Transformers og vLLM. Størst av formatene.",
+    "tags": [
+      "ki",
+      "modell",
+      "format"
+    ]
+  },
+  {
+    "id": "salmon-f5-tts-north-sami",
+    "tittel": "salmon-f5-tts-north-sami",
+    "forklaring": "Nordsamisk talesyntese fra NB. CC-BY-NC-4.0, kan ikke brukes kommersielt.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "samtidig-destillasjon",
+    "tittel": "Samtidig destillasjon",
+    "forklaring": "Læreren vurderer det eleven selv genererer underveis i treningen.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "On-policy distillation"
+    ]
+  },
+  {
+    "id": "sannsynlighetsverdier",
+    "tittel": "Sannsynlighetsverdier",
+    "forklaring": "Modellens egen sikkerhet på hvert alternativ. Kan brukes til å plukke ut saker for manuell kontroll.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Logprobs"
+    ]
+  },
+  {
+    "id": "scandinavian-embedding-benchmark",
+    "tittel": "Scandinavian Embedding Benchmark",
+    "forklaring": "Referansetest for innbyggingsmodeller på skandinaviske språk.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ]
+  },
+  {
+    "id": "sekvensmerking",
+    "tittel": "Sekvensmerking",
+    "forklaring": "Å sette en merkelapp på hvert ord i en tekst, som ved NER og ordklassemerking.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Sequence labeling"
+    ]
+  },
+  {
+    "id": "selvdestillasjon",
+    "tittel": "Selvdestillasjon",
+    "forklaring": "Modellen trenes på sine egne beste utdata.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Self-distillation"
+    ]
+  },
+  {
+    "id": "selvkonsistens",
+    "tittel": "Selvkonsistens",
+    "forklaring": "Å kjøre samme oppgave flere ganger og velge flertallssvaret.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Self-consistency"
+    ]
+  },
+  {
+    "id": "sigma2",
+    "tittel": "Sigma2",
+    "forklaring": "Norsk leverandør av regnekraft til forskning. Drifter testgrensesnittet chat.llm.sigma2.no.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "skyvevindusoppmerksomhet",
+    "tittel": "Skyvevindusoppmerksomhet",
+    "forklaring": "Lar modellen håndtere lange tekster ved å se på et vindu om gangen. Brukt i NorBERT 4.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Sliding-window attention"
+    ]
+  },
+  {
+    "id": "sprakbanken",
+    "tittel": "Språkbanken",
+    "forklaring": "Avdeling i Nasjonalbiblioteket. Publiserer som Sprakbanken, i hovedsak OCR og håndskriftgjenkjenning.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "strukturert-utdata",
+    "tittel": "Strukturert utdata",
+    "forklaring": "At svaret tvinges inn i et fast format, som JSON etter et skjema.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Structured output"
+    ]
+  },
+  {
+    "id": "styrt-tilgang",
+    "tittel": "Styrt tilgang",
+    "forklaring": "Du må oppgi kontaktinformasjon og godkjennes før du får laste ned modellen.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Gated access"
+    ]
+  },
+  {
+    "id": "svargenerering",
+    "tittel": "Svargenerering",
+    "forklaring": "At modellen produserer svar under treningen, som så vurderes og belønnes.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Rollout"
+    ]
+  },
+  {
+    "id": "tale-til-tekst",
+    "tittel": "Tale til tekst",
+    "forklaring": "Å gjøre om lyd til skrevet tekst.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Automatic speech recognition (ASR)",
+      "ASR"
+    ]
+  },
+  {
+    "id": "tap-kun-pa-svaret",
+    "tittel": "Tap kun på svaret",
+    "forklaring": "At modellen straffes for feil i sitt eget svar, men ikke for teksten i spørsmålet.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Assistant-only loss"
+    ]
+  },
+  {
+    "id": "tapsfunksjon",
+    "tittel": "Tapsfunksjon",
+    "forklaring": "Målet på hvor feil modellen svarte. Treningen går ut på å gjøre tapet mindre.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Loss"
+    ]
+  },
+  {
+    "id": "teklia",
+    "tittel": "Teklia",
+    "forklaring": "Fransk selskap og teknisk partner i Hugin-Munin-prosjektet. Står bak pylaia-norhand.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "testtidsberegning",
+    "tittel": "Testtidsberegning",
+    "forklaring": "Å la modellen bruke flere tokens på å tenke ved kjøring. Gevinsten hentes uten å endre vektene.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Test-time compute"
+    ]
+  },
+  {
+    "id": "torchtune",
+    "tittel": "TorchTune",
+    "forklaring": "PyTorch sitt eget rammeverk for finjustering. Aktiv utvikling avsluttet i juli 2025.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "totale-parametere",
+    "tittel": "Totale parametere",
+    "forklaring": "Hele modellens størrelse. Sier lite om regnekostnaden i en MoE-modell.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Total parameters"
+    ]
+  },
+  {
+    "id": "trajektorie",
+    "tittel": "Trajektorie",
+    "forklaring": "Hele hendelsesforløpet i én kjøring, inkludert verktøykall og mellomsteg.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Trajectory"
+    ]
+  },
+  {
+    "id": "transformers",
+    "tittel": "Transformers",
+    "forklaring": "Hugging Face-biblioteket for å laste og kjøre modeller i Python. Ikke det samme som arkitekturen med nesten samme navn.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "transformers-js",
+    "tittel": "transformers.js",
+    "forklaring": "JavaScript-utgaven av Transformers. Kjører små modeller direkte i nettleseren, med ONNX.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "translategemma-4b-it-nb-nn",
+    "tittel": "translategemma-4b-it-nb-nn",
+    "forklaring": "NB-modell som oversetter bokmål til nynorsk. Konfidensiell beta, bare for godkjente evaluatorer.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "trl",
+    "tittel": "TRL",
+    "forklaring": "Hugging Face-biblioteket for etter-trening. Inneholder GRPOTrainer og tilsvarende for andre metoder.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ],
+    "alias": [
+      "Transformer Reinforcement Learning"
+    ]
+  },
+  {
+    "id": "trocr",
+    "tittel": "TrOCR",
+    "forklaring": "Arkitektur for tekstgjenkjenning i bilder. Sprakbanken/TrOCR-norhand-v3 er den nyeste for historisk norsk håndskrift.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "trocr-smi",
+    "tittel": "trocr_smi",
+    "forklaring": "Språkbankens samiske TrOCR-varianter, sju i tallet, blant annet trocr_smi_nor for blandet samisk og norsk.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "trust-remote-code",
+    "tittel": "trust_remote_code",
+    "forklaring": "Innstilling som lar modellen kjøre kode fra sitt eget repo. Et selvstendig sikkerhetsmoment i offentlig sektor.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ]
+  },
+  {
+    "id": "turkunlp-silogen",
+    "tittel": "TurkuNLP, SiloGen",
+    "forklaring": "Finske miljøer bak Viking, sammen med HPLT.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "unsloth",
+    "tittel": "Unsloth",
+    "forklaring": "Gjør finjustering raskere og mindre minnekrevende. Vanlig valg på ett grafikkort, og støtter GRPO.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "veiledet-finjustering",
+    "tittel": "Veiledet finjustering",
+    "forklaring": "Finjustering på par av spørsmål og fasitsvar.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode"
+    ],
+    "alias": [
+      "Supervised fine-tuning (SFT)",
+      "SFT"
+    ]
+  },
+  {
+    "id": "vekter",
+    "tittel": "Vekter",
+    "forklaring": "Selve parameterverdiene, lagret som filer. Å endre vektene er å trene modellen.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Weights"
+    ]
+  },
+  {
+    "id": "vektorsok",
+    "tittel": "Vektorsøk",
+    "forklaring": "Søk som finner tekst med liknende innhold framfor like ord. Bygger på innbygginger.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Vector search"
+    ]
+  },
+  {
+    "id": "verdimodell",
+    "tittel": "Verdimodell",
+    "forklaring": "Hjelpemodell som anslår hvor lovende et svar er underveis. GRPO er utformet for å slippe den.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Value model",
+      "critic"
+    ]
+  },
+  {
+    "id": "verifiserbar-belonning",
+    "tittel": "Verifiserbar belønning",
+    "forklaring": "Belønning som kan avgjøres automatisk, for eksempel riktig svar på et regnestykke eller en test som består.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Verifiable reward (RLVR)",
+      "RLVR"
+    ]
+  },
+  {
+    "id": "verl",
+    "tittel": "verl",
+    "forklaring": "Rammeverk for RL-trening i stor skala, over flere maskiner.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "viking",
+    "tittel": "Viking",
+    "forklaring": "Nordisk modellfamilie i 7B, 13B og 33B. Apache 2.0, men beskrevet av utviklerne selv som delvis trent og avhengig av finjustering.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "vit-front-page-384",
+    "tittel": "vit-front-page-384-*",
+    "forklaring": "NB-modeller som kjenner igjen forside, midtside og bakside i aviser.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "vllm",
+    "tittel": "vLLM",
+    "forklaring": "Kjøremotor for rask servering av modeller på server. Bruker safetensors, ikke GGUF.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "voxcpm2",
+    "tittel": "VoxCPM2",
+    "forklaring": "TTS-arkitektur bak NBs nyeste talesyntesemodell.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "vram",
+    "tittel": "VRAM",
+    "forklaring": "Minnet på grafikkortet. Den vanligste begrensningen når du skal trene selv.",
+    "tags": [
+      "ki",
+      "modell",
+      "maskinvare"
+    ]
+  },
+  {
+    "id": "wav2vec2",
+    "tittel": "wav2vec2",
+    "forklaring": "Talegjenkjenningsarkitektur fra Meta, eldre enn Whisper. Grunnlaget for nb-wav2vec2.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "web-speech-api",
+    "tittel": "Web Speech API",
+    "forklaring": "Nettleserens innebygde talesyntese og talegjenkjenning. Krever ingen nedlasting og bruker systemstemmene.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "whisper",
+    "tittel": "Whisper",
+    "forklaring": "OpenAIs talegjenkjenningsmodell. Grunnlaget for NB-Whisper, med et stort økosystem av kjøremotorer.",
+    "tags": [
+      "ki",
+      "modell"
+    ]
+  },
+  {
+    "id": "whisper-cpp-whisperkit",
+    "tittel": "whisper.cpp, WhisperKit",
+    "forklaring": "Kjøremotorer for Whisper-modeller. WhisperKit er for Apple-plattformene.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "xenova",
+    "tittel": "Xenova",
+    "forklaring": "Hugging Face-utvikleren bak transformers.js, som publiserer ONNX-konverteringer under eget navn. Beskriver selv de separate repoene som en midlertidig løsning.",
+    "tags": [
+      "ki",
+      "modell",
+      "aktør"
+    ]
+  },
+  {
+    "id": "xenova-nb-whisper-tiny-beta",
+    "tittel": "Xenova/nb-whisper-tiny-beta",
+    "forklaring": "Kvantisert ONNX-utgave av NBs tiny-modell, til bruk i nettleser. Ingen lisens oppgitt.",
+    "tags": [
+      "ki",
+      "modell"
     ]
   }
 ]
