@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useState } from 'react'
+import { lazy, Suspense, useLayoutEffect, useState, ViewTransition } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
@@ -45,7 +45,10 @@ function AppRoutes() {
   const { pathname } = useLocation()
   const [lockOpen, setLockOpen] = useState(false)
 
-  useEffect(() => {
+  // Layout effect, not passive: React snapshots the new page for the view
+  // transition right after layout effects, so the scroll reset must land before
+  // that or the cross-fade would end on the old scroll position and then jump.
+  useLayoutEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
   }, [pathname])
 
@@ -54,21 +57,26 @@ function AppRoutes() {
   return (
     <div className="min-h-svh flex flex-col">
       <Header {...headerProps} onLockClick={() => setLockOpen(true)} />
-      <Suspense fallback={<Loading />}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/om-appene" element={<AboutApps />} />
-          <Route path="/slik-gjor-du" element={<HowTo />} />
-          <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<ArticlePage />} />
-          <Route path="/opplaering" element={<Opplaering />} />
-          <Route path="/opplaering/videoer/:videoId" element={<VideoPage />} />
-          <Route path="/om-appen" element={<AboutApp />} />
-          <Route path="/personvern" element={<Privacy />} />
-          <Route path="/lisenser" element={<Licenses />} />
-          <Route path="/ordbok" element={<Ordbok />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
-      </Suspense>
+      {/* BrowserRouter wraps navigation in startTransition, so every route change
+          cross-fades. Only the routed page animates – React opts the rest of the
+          document out. Reduced motion is handled in index.css. */}
+      <ViewTransition>
+        <Suspense fallback={<Loading />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/om-appene" element={<AboutApps />} />
+            <Route path="/slik-gjor-du" element={<HowTo />} />
+            <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<ArticlePage />} />
+            <Route path="/opplaering" element={<Opplaering />} />
+            <Route path="/opplaering/videoer/:videoId" element={<VideoPage />} />
+            <Route path="/om-appen" element={<AboutApp />} />
+            <Route path="/personvern" element={<Privacy />} />
+            <Route path="/lisenser" element={<Licenses />} />
+            <Route path="/ordbok" element={<Ordbok />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+        </Suspense>
+      </ViewTransition>
       {lockOpen && <LockModal onClose={() => setLockOpen(false)} />}
       <InstallCard />
     </div>

@@ -393,7 +393,6 @@ export function ArticlePage() {
           {isLastStep ? (
             <Link
               to="/slik-gjor-du"
-              viewTransition
               className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-green-600 text-white hover:bg-green-700 shadow-sm transition-colors"
             >
               Ferdig
@@ -427,7 +426,6 @@ export function ArticlePage() {
                   <Link
                     key={relId}
                     to={`/slik-gjor-du/${relCategory.id}/${relId}`}
-                    viewTransition
                     onClick={() => setActiveStep(0)}
                     className={`flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition-colors ${
                       idx < arr.length - 1 ? 'border-b border-slate-100' : ''

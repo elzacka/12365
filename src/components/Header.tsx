@@ -29,7 +29,6 @@ export function Header({
           {showBack && (
             <Link
               to={backTo}
-              viewTransition
               className="p-2.5 text-slate-500 hover:text-brand-700 transition-colors"
               aria-label="Tilbake"
             >
@@ -39,7 +38,6 @@ export function Header({
           {showHome && (
             <Link
               to="/"
-              viewTransition
               className="p-2.5 text-slate-500 hover:text-brand-700 transition-colors"
               aria-label="Til forsiden"
             >
@@ -56,7 +54,6 @@ export function Header({
           ) : (
             <Link
               to="/"
-              viewTransition
               className="flex items-center justify-center"
               aria-label="1-2-365 – til forsiden"
             >

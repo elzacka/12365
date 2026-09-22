@@ -157,3 +157,15 @@
     }
   }
 }
+
+/* React's <ViewTransition> cross-fades the routed page on navigation. The
+   browser does not respect prefers-reduced-motion for view transitions on its
+   own, so cut the animation to zero – the page still swaps, just without the
+   fade (WCAG 2.3.3). */
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
