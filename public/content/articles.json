@@ -983,9 +983,74 @@
         "relaterte": [
           "sharepoint-prosessdokumentasjon-visio",
           "lists-hendelseslogg",
-          "planner-enkel-oppgavestyring"
+          "planner-enkel-oppgavestyring",
+          "sharepoint-dokumentbehandling-ki"
         ],
         "endret": "2026-06-05"
+      },
+      {
+        "id": "sharepoint-dokumentbehandling-ki",
+        "tittel": "Dokumentbehandling med KI: Autofyll, oversettelse og signering",
+        "ingress": "Tjenestene som før het Syntex lar SharePoint lese filene dine, fylle ut kolonner, oversette og hente signaturer.",
+        "oppdatert": "Oppdatert: 22.09.26",
+        "kategori": "sharepoint",
+        "tags": [
+          "sharepoint",
+          "syntex",
+          "autofyll",
+          "metadata",
+          "oversettelse",
+          "esignature",
+          "ki",
+          "dokumentbibliotek",
+          "teams",
+          "delt"
+        ],
+        "alias": [
+          "microsoft syntex",
+          "sharepoint premium",
+          "document processing",
+          "autofill columns",
+          "ocr",
+          "content ai"
+        ],
+        "steg": [
+          {
+            "tittel": "Fra kanalen til biblioteket",
+            "innhold": "Fanen **Delt** i en kanal er kanalens mappe i teamets dokumentbibliotek. KI-valgene ligger i SharePoint-visningen av biblioteket:\n\n1. Åpne kanalen og velg **Delt** øverst.\n2. Velg **Flere alternativer** (…) → **Åpne i SharePoint**.\n3. Biblioteket åpnes i nettleseren med full kommandolinje.\n\n*Merk: Du ser bare KI-valgene hvis IT-avdelingen har slått på tjenestene. De er betal-for-bruk og faktureres via et Azure-abonnement organisasjonen har koblet til.*"
+          },
+          {
+            "tittel": "Hva tjenestene gjør",
+            "innhold": "Microsoft kaller dem **dokumentbehandlingstjenester**. Alle jobber på filene i biblioteket:\n\n◦ **Autofyll-kolonner**: En språkmodell leser filen og fyller ut kolonner du har definert.\n◦ **Dokumentoversettelse**: Lager en oversatt kopi med samme oppsett som originalen.\n◦ **eSignature**: Sender en PDF eller Word-fil til signering og lagrer den signerte kopien i biblioteket.\n◦ **Optisk tegngjenkjenning (OCR)**: Gjør tekst i bilder og skannede PDF-er finnbar i søk.\n◦ **Forhåndsbygde og egne modeller**: Kjenner igjen dokumenttyper som kontrakter og fakturaer og trekker ut feltverdier.\n◦ **Innholdssamling**: Genererer standarddokumenter fra en mal og verdier i en liste.\n\n*Autofyll, oversettelse og signering er det du bruker mest. Resten er oppsett IT eller en superbruker gjør én gang.*"
+          },
+          {
+            "tittel": "Autofyll-kolonne: La KI fylle ut metadata",
+            "innhold": "1. Klikk **Legg til kolonne** (+), velg kolonnetype og klikk **Neste**.\n2. Gi kolonnen et navn. Under **Autofyll** klikker du **Konfigurer**.\n3. Skriv spørsmålet i **Ledetekst**. *Eksempel: «Hvilken avdeling eier dokumentet? Svar bare med avdelingsnavnet.»*\n4. Under **Test ledetekst** velger du en fil og ser svaret i **Resultat**. Juster til det stemmer.\n5. Klikk **Lagre**.\n\nNye filer behandles automatisk. Eksisterende filer: Velg dem, klikk **Flere alternativer** (…) → **Autofyll**.\n\n*Viktig: KI-svar kan være feil. Kontroller kolonnene før du bygger filtre eller flyter på dem.*"
+          },
+          {
+            "tittel": "Skriv en ledetekst som gir rene svar",
+            "innhold": "Kolonnen blir bare så god som spørsmålet. Tre grep:\n\n◦ **Ett spørsmål per kolonne**: «Hva er avtalens sluttdato?», ikke «Hva er start- og sluttdato?»\n◦ **Gi alternativene**: For en **Valg**-kolonne: «Svar med ett av: Avtale, Rutine, Referat – eller Annet hvis ingen passer.»\n◦ **Si hva som skjer når svaret mangler**: «Hvis dokumentet ikke oppgir dette, la svaret stå tomt.»\n\n*Tips: Maks 10 autofyll-kolonner per bibliotek, og filer på inntil 65 sider. Sett opp alle kolonnene før du kjører dem på eksisterende filer – hver behandlet side koster.*\n\n*Merk: Filer som er kryptert av en følsomhetsetikett, blir ikke lest av tjenestene.*"
+          },
+          {
+            "tittel": "Oversett et dokument",
+            "innhold": "Ved behov:\n\n1. Velg filen. Klikk **Flere alternativer** (…) → **Oversett**.\n2. Velg inntil 10 språk under **Språk**.\n3. Klikk **Oversett**.\n\nKopien dukker opp i biblioteket etter noen minutter, med språkkoden i filnavnet, for eksempel «Rutine_en.docx». Oppsett, tabeller og bilder beholdes – men tekst inni bilder oversettes ikke.\n\nAutomatisk for alle nye filer: **Automatiser** → **Regler** → **Opprett en regel** → **En ny fil legges til** → handlingen **Opprett en oversatt kopi**.\n\n*Merk: Filer over 40 MB oversettes ikke.*"
+          },
+          {
+            "tittel": "Hent signaturer med eSignature",
+            "innhold": "1. Åpne PDF-en fra biblioteket. Klikk penneikonet **Hent signaturer**.\n2. Legg til inntil 10 mottakere. Slå på bryteren for signering i rekkefølge hvis rekkefølgen betyr noe.\n3. Dra feltene **Signatur**, **Initialer** og **Dato** til riktig sted for hver mottaker. Klikk **Neste**.\n4. Gi forespørselen en tittel og eventuelt en melding. Klikk **Send**.\n\nMottakerne får e-post. Status står som **Pågår** til alle har signert. Den signerte kopien lagres i biblioteket, og hver hendelse logges i Purview.\n\n*Merk: eSignature er en enkel elektronisk signatur etter eIDAS. Sjekk med arkiv eller jurist der loven krever avansert eller kvalifisert signatur. Eksterne mottakere krever at IT har åpnet for gjestetilgang.*"
+          },
+          {
+            "tittel": "Modeller og OCR: Når behovet er større",
+            "innhold": "◦ **Forhåndsbygde modeller**: Kjenner igjen kontrakter, fakturaer og kvitteringer og trekker ut felt som beløp, dato og parter.\n◦ **Egne modeller**: Trenes på minst fem eksempler på organisasjonens egne dokumenttyper i et **innholdssenter**, og kan settes på flere bibliotek.\n◦ **OCR**: Slås på per område av IT. Deretter blir tekst i bilder og skannede PDF-er finnbar i søk uten at du gjør noe.\n\nI biblioteket ser du hvilke modeller som er i bruk under **Automatiser** → **Vis modeller**. Velg filer og klikk **Klassifiser og trekk ut** for å kjøre modellene på det som allerede ligger der.\n\n*Tips: Start med autofyll. En modell lønner seg først når samme dokumenttype kommer i store mengder.*"
+          }
+        ],
+        "relaterte": [
+          "sharepoint-metadata",
+          "sharepoint-automasjon-2026",
+          "folsomhetsetiketter",
+          "teams-som-arbeidsflate"
+        ],
+        "endret": "2026-09-22"
       },
       {
         "id": "sharepoint-metadata",
@@ -1044,7 +1109,8 @@
           "fra-filserver-til-sharepoint",
           "mappestrukturer",
           "sharepoint-prosessdokumentasjon-visio",
-          "m365-copilot-aktivert"
+          "m365-copilot-aktivert",
+          "sharepoint-dokumentbehandling-ki"
         ],
         "endret": "2026-06-05"
       },
