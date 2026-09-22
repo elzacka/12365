@@ -19,7 +19,7 @@
         "steg": [
           {
             "tittel": "Hva ryddingen gir deg",
-            "innhold": "◦ **Personvern**: Gamle filer kan inneholde sensitive opplysninger som Microsoft 365 Copilot henter fram automatisk.\n◦ **Brukervennlighet**: Færre filer, lettere oversikt.\n◦ **Kontinuitet**: Personlige områder er sårbare når noen slutter. Felles områder er robuste.\n◦ **Bærekraft**: Mindre lagring sparer energi."
+            "innhold": "◦ **Personvern**: Gamle filer kan inneholde sensitive opplysninger som Microsoft Copilot henter fram automatisk.\n◦ **Brukervennlighet**: Færre filer, lettere oversikt.\n◦ **Kontinuitet**: Personlige områder er sårbare når noen slutter. Felles områder er robuste.\n◦ **Bærekraft**: Mindre lagring sparer energi."
           },
           {
             "tittel": "Dagstursekken som prinsipp",
@@ -501,8 +501,8 @@
     "artikler": [
       {
         "id": "m365-copilot-aktivert",
-        "tittel": "Hva får du med Microsoft 365 Copilot?",
-        "ingress": "Med Microsoft 365 Copilot får du KI innebygd i alle M365-appene, egne arbeidsflater og tilgang til avanserte agenter.",
+        "tittel": "Hva får du med Microsoft Copilot?",
+        "ingress": "Med Microsoft Copilot får du KI innebygd i alle M365-appene, egne arbeidsflater og tilgang til avanserte agenter.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
         "tags": [
@@ -545,11 +545,11 @@
           },
           {
             "tittel": "Egne arbeidsflater: Sider, Notatblokker og Cowork",
-            "innhold": "Microsoft 365 Copilot gir deg tre egne arbeidsflater:\n\n**Copilot sider**\n\nEn delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer og lette dashbord. Du kan utvikle siden videre til en full app i **App Builder** (Frontier-program).\n\n**Copilot-notatblokker**\n\nEn samling kilder du selv velger: Filer, Teams-kanaler, møter, eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork**\n\nGi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Generelt tilgjengelig for alle med M365 Copilot-lisens siden 1. mai 2026."
+            "innhold": "Microsoft Copilot gir deg tre egne arbeidsflater:\n\n**Copilot sider**\n\nEn delt side der du utforsker et tema sammen med Copilot. Resultatet blir en levende side med interaktive visualiseringer og lette dashbord. Du kan utvikle siden videre til en full app i **App Builder** (Frontier-program).\n\n**Copilot-notatblokker**\n\nEn samling kilder du selv velger: Filer, Teams-kanaler, møter, eksterne weblenker. Copilot bruker bare disse som grunnlag. Egnet for utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork**\n\nGi Copilot en oppgave i bakgrunnen, som «lag utkast til årsrapporten basert på disse fem dokumentene», og hent resultatet senere fra mobil eller PC. Generelt tilgjengelig for alle med M365 Copilot-lisens siden 1. mai 2026."
           },
           {
             "tittel": "Agenter: Bygg, godkjenn og publiser",
-            "innhold": "Microsoft 365 Copilot gir deg **avansert Agent Builder**, med admin-godkjenning før agenten publiseres. De godkjente agentene blir tilgjengelige for hele organisasjonen i Agent Store.\n\n◦ I **SharePoint** kan **Copilot i SharePoint** bygge sider, lister og biblioteker fra klartekst, og foreslå metadata.\n◦ I **Planner** kan **Planner-agent** trekke ut beslutninger fra Teams-møtenotater og lage en tidsplan baklengs fra fristen\n◦ Agentene får identitet i Entra ID og logges i Purview, på lik linje med brukere\n◦ Avansert agent-styring (DSPM, DLP og Insider Risk Management) for agentene"
+            "innhold": "Microsoft Copilot gir deg **avansert Agent Builder**, med admin-godkjenning før agenten publiseres. De godkjente agentene blir tilgjengelige for hele organisasjonen i Agent Store.\n\n◦ I **SharePoint** kan **Copilot i SharePoint** bygge sider, lister og biblioteker fra klartekst, og foreslå metadata.\n◦ I **Planner** kan **Planner-agent** trekke ut beslutninger fra Teams-møtenotater og lage en tidsplan baklengs fra fristen\n◦ Agentene får identitet i Entra ID og logges i Purview, på lik linje med brukere\n◦ Avansert agent-styring (DSPM, DLP og Insider Risk Management) for agentene"
           },
           {
             "tittel": "På tvers: Når funksjonene jobber sammen",
@@ -591,7 +591,7 @@
           },
           {
             "tittel": "Sjekk hvilken Copilot-versjon du har",
-            "innhold": "Tegn på at du har **Microsoft 365 Copilot (Premium)**:\n\n◦ Du ser knapper for å velge mellom **Jobb** og **Nett** øverst i vinduet\n◦ Det står «Hi, how can I assist?» over skrivefeltet\n◦ Sidemenyen viser **«Microsoft 365 Copilot (Premium)»** nederst til venstre\n\nTegn på at du har **Copilot Chat (Grunnleggende)**:\n\n◦ Ingen Jobb/Nett-knapper øverst i vinduet\n◦ Det står «Hi, how can I help?» over skrivefeltet\n◦ Sidemenyen viser **«Copilot Chat (Grunnleggende)»** nederst til venstre\n\n*Vil du bekrefte lisenstildelingen? Gå til **Abonnementer** i kontosiden for organisasjonskontoen din. Ser du «Microsoft 365 Copilot» i listen, er lisensen tildelt deg.*"
+            "innhold": "Tegn på at du har **Microsoft Copilot (Premium)**:\n\n◦ Du ser knapper for å velge mellom **Jobb** og **Nett** øverst i vinduet\n◦ Det står «Hi, how can I assist?» over skrivefeltet\n◦ Sidemenyen viser **«Microsoft Copilot (Premium)»** nederst til venstre\n\nTegn på at du har **Copilot Chat (Grunnleggende)**:\n\n◦ Ingen Jobb/Nett-knapper øverst i vinduet\n◦ Det står «Hi, how can I help?» over skrivefeltet\n◦ Sidemenyen viser **«Copilot Chat (Grunnleggende)»** nederst til venstre\n\n*Vil du bekrefte lisenstildelingen? Gå til **Abonnementer** i kontosiden for organisasjonskontoen din. Ser du «Microsoft Copilot» i listen, er lisensen tildelt deg.*"
           },
           {
             "tittel": "Nett-modus: Søk på internett",
@@ -599,7 +599,7 @@
           },
           {
             "tittel": "Jobb-modus: Søk i organisasjonens innhold",
-            "innhold": "Med **Microsoft 365 Copilot**-lisens får du **Jobb-modus**: Søk i organisasjonens egne dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler. Det du selv har tilgang til.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nDataene holdes innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Prompts og svar kan være journalpliktige saksdokumenter, særlig i saksbehandling.*"
+            "innhold": "Med **Microsoft Copilot**-lisens får du **Jobb-modus**: Søk i organisasjonens egne dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler. Det du selv har tilgang til.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nDataene holdes innenfor organisasjonens tenant og brukes ikke til å trene Microsofts modeller. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Prompts og svar kan være journalpliktige saksdokumenter, særlig i saksbehandling.*"
           },
           {
             "tittel": "Last opp filer og still spørsmål",
@@ -665,7 +665,7 @@
           },
           {
             "tittel": "Dette krever tillegg",
-            "innhold": "Den klassiske Teams-versjonen er et tillegg for M365 E5 og har disse rammene:\n\n◦ **Regelbasert**: Svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: Kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: Ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller premium-koblinger kreves full Copilot Studio. Som tillegg med egen lisens eller forbruksbaserte **Copilot Credits**, eller via Microsoft 365 Copilot-lisensen som siden september 2025 inkluderer full Copilot Studio for interne brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Nye lages i web-appen til Copilot Studio. Teams-appen redirigerer dit.*"
+            "innhold": "Den klassiske Teams-versjonen er et tillegg for M365 E5 og har disse rammene:\n\n◦ **Regelbasert**: Svarer det du har lært den, ikke fritt formulerte svar fra dokumenter\n◦ **Bare i Teams**: Kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Lagring i Dataverse for Teams**: Ikke full Dataverse\n\nFor generative svar fra dokumenter, ekstern publisering eller premium-koblinger kreves full Copilot Studio. Som tillegg med egen lisens eller forbruksbaserte **Copilot Credits**, eller via Microsoft Copilot-lisensen som siden september 2025 inkluderer full Copilot Studio for interne brukere.\n\n*Eksisterende chatboter bygd via Teams-appen fortsetter å virke. Nye lages i web-appen til Copilot Studio. Teams-appen redirigerer dit.*"
           }
         ],
         "relaterte": [

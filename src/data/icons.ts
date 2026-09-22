@@ -5,7 +5,7 @@ const SVG_ICONS = new Set(['places', 'copilot'])
 
 // Card names that don't map to their slug by simple lowercase + hyphen.
 const NAME_TO_SLUG: Record<string, string> = {
-  'microsoft 365 copilot': 'copilot',
+  'microsoft copilot': 'copilot',
 }
 
 export function iconSrc(name: string): string {

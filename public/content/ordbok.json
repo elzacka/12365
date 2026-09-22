@@ -2896,7 +2896,11 @@
   },
   {
     "id": "microsoft-365-copilot",
-    "tittel": "Microsoft 365 Copilot",
+    "tittel": "Microsoft Copilot",
+    "alias": [
+      "Microsoft 365 Copilot",
+      "M365 Copilot"
+    ],
     "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data via Microsoft Graph. Krever egen lisens.",
     "tags": [
       "m365",
@@ -6204,7 +6208,7 @@
   {
     "id": "copilot-cowork",
     "tittel": "Copilot Cowork",
-    "forklaring": "Flate der du gir Copilot oppgaver som utføres i bakgrunnen, og henter resultatet senere. Del av Microsoft 365 Copilot.",
+    "forklaring": "Flate der du gir Copilot oppgaver som utføres i bakgrunnen, og henter resultatet senere. Del av Microsoft Copilot.",
     "tags": [
       "m365",
       "ki",
@@ -6229,7 +6233,7 @@
   {
     "id": "copilot-notebooks",
     "tittel": "Copilot Notebooks",
-    "forklaring": "Arbeidsflate i Copilot der du samler utvalgte kilder og får svar basert kun på dem. Del av Microsoft 365 Copilot.",
+    "forklaring": "Arbeidsflate i Copilot der du samler utvalgte kilder og får svar basert kun på dem. Del av Microsoft Copilot.",
     "tags": [
       "m365",
       "ki"
@@ -6241,7 +6245,7 @@
   {
     "id": "copilot-pages",
     "tittel": "Copilot Pages",
-    "forklaring": "Delt, redigerbar side der du utforsker et tema sammen med Copilot og kolleger. Del av Microsoft 365 Copilot.",
+    "forklaring": "Delt, redigerbar side der du utforsker et tema sammen med Copilot og kolleger. Del av Microsoft Copilot.",
     "tags": [
       "m365",
       "ki",
@@ -6278,7 +6282,7 @@
   {
     "id": "frontier-program",
     "tittel": "Frontier-program",
-    "forklaring": "Microsofts program der organisasjoner med Microsoft 365 Copilot får tidlig tilgang til eksperimentelle KI-funksjoner før generell lansering.",
+    "forklaring": "Microsofts program der organisasjoner med Microsoft Copilot får tidlig tilgang til eksperimentelle KI-funksjoner før generell lansering.",
     "tags": [
       "m365",
       "ki"

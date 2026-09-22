@@ -56,7 +56,7 @@
     "kategori": "ki",
     "oppsummering": "KI-chat med søk på nett. Følger med M365",
     "overlapper": [
-      "Microsoft 365 Copilot"
+      "Microsoft Copilot"
     ],
     "tags": [
       "ki-chat",
@@ -67,9 +67,10 @@
     "endret": "2026-06-06"
   },
   {
-    "navn": "Microsoft 365 Copilot",
+    "navn": "Microsoft Copilot",
     "tagline": "Generativ KI forankret i organisasjonens innhold",
     "alias": [
+      "Microsoft 365 Copilot",
       "M365 Copilot"
     ],
     "alene": "KI bygd inn i hele M365. Skriver, oppsummerer og analyserer innhold du har tilgang til.",
@@ -98,7 +99,7 @@
     "kategori": "ki",
     "oppsummering": "Bygg dine egne agenter uten kode",
     "overlapper": [
-      "Microsoft 365 Copilot",
+      "Microsoft Copilot",
       "Power Apps",
       "Power Automate"
     ],
