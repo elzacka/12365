@@ -51,7 +51,7 @@
       "Microsoft 365 Chat"
     ],
     "alene": "Følger med M365. Spør, få utkast og oppsummeringer. Søk på nett, lim eller last opp fil i chat. Tilpass instruksjonene så den svarer slik du vil.",
-    "sammen": "Med M365 Copilot-lisens henter den svar fra det du har tilgang til: Dokumenter, e-post og møtereferater.",
+    "sammen": "Med Microsoft Copilot-lisens henter den svar fra det du har tilgang til: Dokumenter, e-post og møtereferater.",
     "fotnote": "",
     "kategori": "ki",
     "oppsummering": "KI-chat med søk på nett. Følger med M365",
@@ -75,7 +75,7 @@
     ],
     "alene": "KI bygd inn i hele M365. Skriver, oppsummerer og analyserer innhold du har tilgang til.",
     "sammen": "Kombinert med Copilot Studio kan innholdet bli kilder for egne agenter.",
-    "fotnote": "Krever egen M365 Copilot-lisens per bruker",
+    "fotnote": "Krever egen Microsoft Copilot-lisens per bruker",
     "kategori": "ki",
     "oppsummering": "Generativ KI forankret i organisasjonens innhold. Krever lisens",
     "overlapper": [
@@ -95,7 +95,7 @@
     "tagline": "Bygg dine egne agenter, uten kode",
     "alene": "Lag agenter og chatboter med organisasjonens kunnskapskilder. Gjør dem tilgjengelig for teamet eller andre som skal ha tilgang.",
     "sammen": "Bruk Microsoft Graph for intelligent kobling til kunnskapskilder – f.eks. i SharePoint og Dataverse.",
-    "fotnote": "Agent Builder følger med M365 Copilot-lisensen.",
+    "fotnote": "Agent Builder følger med Microsoft Copilot-lisensen.",
     "kategori": "ki",
     "oppsummering": "Bygg dine egne agenter uten kode",
     "overlapper": [
