@@ -21,8 +21,7 @@ export interface FlipCard {
     url: string
   }
   laast?: boolean // marks the card as gated content; only added to listings when the user has unlocked
-  'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
-  endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
+  endret?: string // ISO date YYYY-MM-DD, editorial record only
 }
 
 export interface CheatSheetCategory {
@@ -60,8 +59,7 @@ export interface Article {
   relaterte?: string[] // article ids
   skjult?: boolean // if true: filtered out of listings; direct URL redirects to overview
   laast?: boolean // marks the article as gated content; only added to listings when the user has unlocked
-  'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
-  endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
+  endret?: string // ISO date YYYY-MM-DD, editorial record only
   _veiledning?: string // internal comment in articles.json – not rendered anywhere
 }
 
@@ -87,8 +85,7 @@ export interface Video extends OpplaeringBody {
   fil: string         // path relative to BASE_URL, e.g. "videos/min-video.mp4"
   thumbnail?: string  // optional thumbnail path, e.g. "videos/thumbnails/min-video.png"
   laast?: boolean     // marks the video as gated content; only added to listings when the user has unlocked
-  'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
-  endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
+  endret?: string // ISO date YYYY-MM-DD, editorial record only
 }
 
 export interface Course extends OpplaeringBody {
@@ -96,8 +93,7 @@ export interface Course extends OpplaeringBody {
   lenke: string       // external URL the user is sent to on click
   thumbnail?: string  // optional thumbnail path under public/, e.g. "courses/thumbnails/datareisen.png"
   laast?: boolean     // marks the course as gated content; only added to listings when the user has unlocked
-  'skjul-endret'?: boolean // if true: editorial change suppresses the "ny eller endret"-dot
-  endret?: string // ISO date YYYY-MM-DD. First-time visitors see a prikk on this item until they interact with it
+  endret?: string // ISO date YYYY-MM-DD, editorial record only
 }
 
 // Shape of the decrypted locked payload. Mirrors the public content arrays so
@@ -149,6 +145,5 @@ export interface Ord {
   forklaring: string
   tags: string[]
   alias?: string[]
-  'skjul-endret'?: boolean
   endret?: string
 }

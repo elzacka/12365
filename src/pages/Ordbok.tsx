@@ -1,7 +1,6 @@
 import { useState, useMemo, useEffect, use, useCallback, useRef } from 'react'
 import { fetchOrdbok } from '../data/loader'
 import { buildIndex, searchOrd } from '../data/searchIndex'
-import { useSeenVersions } from '../lib/SeenVersionsContext'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { SearchIcon, CloseIcon, ChevronRightIcon } from '../components/Icons'
@@ -27,19 +26,12 @@ function visibleAliases(ord: Ord): string[] {
 
 export function Ordbok() {
   const ord = use(fetchOrdbok())
-  const { markAllOrdbokSeen } = useSeenVersions()
   const [query, setQuery] = useState('')
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
   const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
   const searchInputRef = useRef<HTMLInputElement>(null)
   const isDesktopSearch = useSearchShortcut(searchInputRef)
-
-  // Et besøk på ordbok-siden teller som "lest" for alle oppføringer slik at
-  // prikken på Ordbok-kortet på Home forsvinner.
-  useEffect(() => {
-    markAllOrdbokSeen()
-  }, [markAllOrdbokSeen])
 
   const index = useMemo(() => buildIndex(ord), [ord])
   const byId = useMemo(() => new Map(ord.map(o => [o.id, o])), [ord])

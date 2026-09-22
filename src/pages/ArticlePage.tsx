@@ -6,7 +6,6 @@ import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, LockIcon, ShareIco
 import { UntestedWarning } from '../components/UntestedWarning'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
-import { useSeenVersions } from '../lib/SeenVersionsContext'
 import type { ArticleImage } from '../types'
 
 function escapeRegex(str: string): string {
@@ -199,7 +198,6 @@ export function ArticlePage() {
   const [activeStep, setActiveStep] = useState(() => stepForQuery(searchQuery, article))
   const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
   const [highlightActive, setHighlightActive] = useState(!!searchQuery)
-  const { markArticleSeen } = useSeenVersions()
 
   // Reset highlight and active step when the user navigates here from a new
   // search (same URL params, different location.state). location.key is unique
@@ -214,11 +212,6 @@ export function ArticlePage() {
   }
 
   const totalSteps = article?.steg.length ?? 0
-  const articleIdToMark = article && !article.skjult ? article.id : null
-
-  useEffect(() => {
-    if (articleIdToMark) markArticleSeen(articleIdToMark)
-  }, [articleIdToMark, markArticleSeen])
 
   // Clear search highlight on the first click anywhere in the document.
   useEffect(() => {

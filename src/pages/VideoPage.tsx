@@ -1,4 +1,4 @@
-import { use, useEffect, type CSSProperties } from 'react'
+import { use, type CSSProperties } from 'react'
 import { useParams, Navigate } from 'react-router-dom'
 import {
   MediaController,
@@ -13,7 +13,6 @@ import '../lib/media-chrome-nb'
 import { fetchVideos } from '../data/loader'
 import { useMergedVideos } from '../auth/merge'
 import { parseVideoSource } from '../data/video-source'
-import { useSeenVersions } from '../lib/SeenVersionsContext'
 
 export function VideoPage() {
   const publicVideos = use(fetchVideos())
@@ -21,11 +20,6 @@ export function VideoPage() {
   const { videoId } = useParams()
   const base = import.meta.env.BASE_URL
   const video = videos.find(v => v.id === videoId)
-  const { markVideoSeen } = useSeenVersions()
-
-  useEffect(() => {
-    if (video) markVideoSeen(video.id)
-  }, [video, markVideoSeen])
 
   if (!video) {
     return <Navigate to="/opplaering" replace />

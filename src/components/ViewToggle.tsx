@@ -1,11 +1,8 @@
-import { UpdateDot } from './UpdateDot'
-
 export type AppsView = 'kort' | 'oversikt'
 
 interface ViewToggleProps {
   value: AppsView
   onChange: (value: AppsView) => void
-  showDot?: boolean
 }
 
 const OPTIONS: { value: AppsView; label: string }[] = [
@@ -13,7 +10,7 @@ const OPTIONS: { value: AppsView; label: string }[] = [
   { value: 'oversikt', label: 'Sammenlign' },
 ]
 
-export function ViewToggle({ value, onChange, showDot }: ViewToggleProps) {
+export function ViewToggle({ value, onChange }: ViewToggleProps) {
   return (
     <div
       role="tablist"
@@ -29,13 +26,12 @@ export function ViewToggle({ value, onChange, showDot }: ViewToggleProps) {
             aria-selected={active}
             type="button"
             onClick={() => onChange(opt.value)}
-            className={`relative px-4 py-1.5 text-sm font-medium rounded-lg transition-all ${
+            className={`px-4 py-1.5 text-sm font-medium rounded-lg transition-all ${
               active
                 ? 'bg-white text-brand-700 shadow-sm'
                 : 'text-slate-500 hover:text-slate-700'
             }`}
           >
-            <UpdateDot visible={!!showDot} className="absolute top-1 right-1" />
             {opt.label}
           </button>
         )

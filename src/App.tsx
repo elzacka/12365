@@ -1,7 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
-import { SeenVersionsProvider } from './lib/SeenVersionsContext'
 import { Header } from './components/Header'
 import { InstallCard } from './components/InstallCard'
 import { LockModal } from './components/LockModal'
@@ -82,11 +81,9 @@ const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
 export default function App() {
   return (
     <AuthProvider>
-      <SeenVersionsProvider>
-        <BrowserRouter basename={basename}>
-          <AppRoutes />
-        </BrowserRouter>
-      </SeenVersionsProvider>
+      <BrowserRouter basename={basename}>
+        <AppRoutes />
+      </BrowserRouter>
     </AuthProvider>
   )
 }

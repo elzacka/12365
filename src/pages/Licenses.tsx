@@ -1,6 +1,5 @@
-import { useEffect, useState, useMemo, use, useRef } from 'react'
+import { useState, useMemo, use, useRef } from 'react'
 import { fetchE5LicenseOverview } from '../data/loader'
-import { useSeenVersions } from '../lib/SeenVersionsContext'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import {
@@ -87,11 +86,6 @@ export function Licenses() {
   const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
   const searchInputRef = useRef<HTMLInputElement>(null)
   const isDesktopSearch = useSearchShortcut(searchInputRef)
-  const { markLicenseSeen } = useSeenVersions()
-
-  useEffect(() => {
-    markLicenseSeen()
-  }, [markLicenseSeen])
 
   const normalizedQuery = normalize(query.trim())
   const isFiltered = activeFilter !== 'alle' || normalizedQuery.length > 0

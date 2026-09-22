@@ -8,8 +8,6 @@ import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { ChevronRightIcon, SearchIcon, CloseIcon, LockIcon } from '../components/Icons'
 import { SearchShortcutHint } from '../components/SearchShortcutHint'
 import { UntestedWarning } from '../components/UntestedWarning'
-import { UpdateDot } from '../components/UpdateDot'
-import { useSeenVersions } from '../lib/SeenVersionsContext'
 
 const SEARCH_WORDS = ['tittel', 'innhold', 'emneknagg']
 
@@ -22,7 +20,6 @@ export function HowTo() {
   const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
   const searchInputRef = useRef<HTMLInputElement>(null)
   const isDesktopSearch = useSearchShortcut(searchInputRef)
-  const { isArticleNew } = useSeenVersions()
 
   const allCategories = useMemo(
     () =>
@@ -257,7 +254,6 @@ export function HowTo() {
                         idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''
                       }`}
                     >
-                      <UpdateDot visible={isArticleNew(article.id)} className="absolute top-2 right-2" />
                       <div className="flex-1 min-w-0">
                         <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
                           {article.laast && (

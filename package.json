@@ -13,9 +13,8 @@
     "icons:build": "node scripts/build-icons.mjs",
     "lock": "node scripts/lock-content.mjs",
     "ordbok:gen": "node scripts/generate-ordbok.mjs",
-    "versions:gen": "node scripts/generate-versions.mjs",
-    "predev": "node scripts/generate-ordbok.mjs && node scripts/generate-versions.mjs",
-    "prebuild": "node scripts/generate-ordbok.mjs && node scripts/generate-versions.mjs"
+    "predev": "node scripts/generate-ordbok.mjs",
+    "prebuild": "node scripts/generate-ordbok.mjs"
   },
   "dependencies": {
     "media-chrome": "^4.19.2",

@@ -1,10 +1,8 @@
-import { useEffect, use, type ReactNode } from 'react'
+import { use, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchCourses, fetchVideos } from '../data/loader'
 import { useMergedCourses, useMergedVideos } from '../auth/merge'
 import { ExternalLinkIcon, GraduationCapIcon, VideoIcon } from '../components/Icons'
-import { UpdateDot } from '../components/UpdateDot'
-import { useSeenVersions } from '../lib/SeenVersionsContext'
 import { parseVideoSource } from '../data/video-source'
 import type { OpplaeringBody } from '../types'
 
@@ -45,15 +43,6 @@ export function Opplaering() {
   const videos = useMergedVideos(publicVideos)
   const courses = useMergedCourses(publicCourses)
   const base = import.meta.env.BASE_URL
-  const { markAllVideosSeen, markAllCoursesSeen, isCourseNew, markCourseSeen } = useSeenVersions()
-
-  useEffect(() => {
-    markAllVideosSeen()
-  }, [markAllVideosSeen])
-
-  useEffect(() => {
-    markAllCoursesSeen()
-  }, [markAllCoursesSeen])
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
@@ -125,7 +114,6 @@ export function Opplaering() {
             <div className="grid grid-cols-2 gap-3">
               {courses.map(c => {
                 const thumbnailSrc = c.thumbnail ? `${base}${c.thumbnail}` : null
-                const showDot = isCourseNew(c.id)
 
                 return (
                   <a
@@ -133,11 +121,9 @@ export function Opplaering() {
                     href={c.lenke}
                     target="_blank"
                     rel="noreferrer noopener"
-                    onClick={() => markCourseSeen(c.id)}
                     className="group relative flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                     aria-label={`Åpne kurset ${c.tittel} i ny fane`}
                   >
-                    <UpdateDot visible={showDot} className="absolute top-2 right-2 z-10" />
                     <div className="relative aspect-video bg-slate-100">
                       {thumbnailSrc ? (
                         <img
