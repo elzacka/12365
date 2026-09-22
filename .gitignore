@@ -7,5 +7,5 @@ CLAUDE.md
 .env
 .env.*
 !.env.example
-.claude/settings.local.json
+.claude/
 .obsidian/
