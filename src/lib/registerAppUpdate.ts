@@ -18,6 +18,18 @@ const CHECK_INTERVAL_MS = 60 * 60 * 1000
 // nedre grense å be om.
 const PERIODIC_SYNC_MIN_INTERVAL_MS = 12 * 60 * 60 * 1000
 
+// Hvor lenge vi venter på at den nye service workeren tar over før vi laster
+// siden på nytt uansett. Aktivering av en ferdig nedlastet worker tar
+// millisekunder; blir det stille lenger enn dette, er den ventende workeren
+// borte (typisk tatt i bruk av en annen fane) og en reload gir uansett
+// nyeste versjon.
+const CONTROLLER_TIMEOUT_MS = 2500
+
+// Overlever reloaden oppdateringen utløser, så knappen kan bekrefte at den
+// faktisk gjorde noe. sessionStorage, ikke localStorage: bekreftelsen hører
+// til denne fanen og denne hendelsen.
+const APPLIED_FLAG = '1-2-365:oppdatert'
+
 // Chrome gir aldri tillatelse via en synlig dialog - kun stille, basert på
 // egne engasjement-kriterier for installerte apper. Ingen effekt på
 // nettlesere uten støtte, eller når tillatelsen (ennå) ikke er gitt.
@@ -38,12 +50,17 @@ async function registerPeriodicContentRefresh(registration: ServiceWorkerRegistr
 
 // Én modul-global tilstand: registerSW() skal kalles nøyaktig én gang, mens
 // Header monteres på nytt for hver side. Komponenter leser via useAppUpdate().
-let needRefresh = false
-let applyUpdate: ((reloadPage?: boolean) => Promise<void>) | undefined
+interface UpdateState {
+  ready: boolean
+  applying: boolean
+}
+
+let state: UpdateState = { ready: false, applying: false }
+const initialState: UpdateState = state
 const listeners = new Set<() => void>()
 
-function setNeedRefresh(value: boolean) {
-  needRefresh = value
+function setState(next: Partial<UpdateState>) {
+  state = { ...state, ...next }
   listeners.forEach(listener => listener())
 }
 
@@ -52,18 +69,74 @@ function subscribe(listener: () => void) {
   return () => listeners.delete(listener)
 }
 
-export function useAppUpdate() {
-  const ready = useSyncExternalStore(subscribe, () => needRefresh, () => false)
-  return { ready, apply: () => void applyUpdate?.(true) }
+function readAppliedFlag() {
+  try {
+    if (sessionStorage.getItem(APPLIED_FLAG) === null) return false
+    sessionStorage.removeItem(APPLIED_FLAG)
+    return true
+  } catch {
+    // Privat modus og blokkerte informasjonskapsler kaster - da mister vi
+    // kun bekreftelsen, ikke oppdateringen.
+    return false
+  }
 }
 
+let reloading = false
+
+function reloadOnce() {
+  if (reloading) return
+  reloading = true
+  try {
+    sessionStorage.setItem(APPLIED_FLAG, '1')
+  } catch {
+    // Se readAppliedFlag().
+  }
+  window.location.reload()
+}
+
+// Vi styrer denne selv i stedet for å bruke updateSW() fra vite-plugin-pwa.
+// Plugin-en laster kun siden på nytt når den selv ser en «controlling»-
+// hendelse den har merket som oppdatering, og har den ventende workeren
+// forsvunnet - for eksempel fordi en annen fane alt har tatt versjonen i
+// bruk - skjer det ingenting i det hele tatt når man trykker. Her reloader
+// vi uansett: enten når den nye workeren tar over, eller på tidsavbrudd.
+async function applyUpdate() {
+  if (state.applying) return
+  setState({ applying: true })
+
+  if (!('serviceWorker' in navigator)) {
+    reloadOnce()
+    return
+  }
+
+  navigator.serviceWorker.addEventListener('controllerchange', reloadOnce, { once: true })
+
+  try {
+    const registration = await navigator.serviceWorker.getRegistration()
+    registration?.waiting?.postMessage({ type: 'SKIP_WAITING' })
+  } catch {
+    // Reloaden under fanger opp dette.
+  }
+
+  window.setTimeout(reloadOnce, CONTROLLER_TIMEOUT_MS)
+}
+
+export function useAppUpdate() {
+  const snapshot = useSyncExternalStore(subscribe, () => state, () => initialState)
+  return { ...snapshot, apply: applyUpdate }
+}
+
+// Leses én gang per sidelast, før React monterer, slik at bekreftelsen etter
+// reloaden ikke avhenger av hvilken komponent som spør først.
+export const justUpdated = typeof window === 'undefined' ? false : readAppliedFlag()
+
 export function registerAppUpdate() {
-  applyUpdate = registerSW({
+  registerSW({
     // Ny versjon ligger ferdig nedlastet og venter. Ingen toast, ingen
     // automatisk reload - en stille knapp i headeren lar brukeren ta den i
     // bruk når det passer, så ingen mister plassen sin midt i lesing.
     onNeedRefresh() {
-      setNeedRefresh(true)
+      setState({ ready: true })
     },
     onRegisteredSW(swUrl, registration) {
       if (!registration) return
