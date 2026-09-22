@@ -1,5 +1,5 @@
+import { useSyncExternalStore } from 'react'
 import { registerSW } from 'virtual:pwa-register'
-import { isStandalone } from '../hooks/useInstallPrompt'
 
 // Periodic Background Sync er ikke i TypeScripts DOM-lib ennå.
 interface PeriodicSyncManager {
@@ -9,9 +9,9 @@ interface ServiceWorkerRegistrationWithPeriodicSync extends ServiceWorkerRegistr
   readonly periodicSync: PeriodicSyncManager
 }
 
-// Kun installerte (standalone) brukere kan sitte fast på en gammel, cachet
-// versjon over tid - vanlige nettleserbesøk sjekker service workeren på hver
-// navigasjon og får ferskt innhold av seg selv.
+// Fanger opp nye versjoner selv i lange, sammenhengende økter der brukeren
+// aldri navigerer og dermed aldri utløser nettleserens egen service
+// worker-sjekk.
 const CHECK_INTERVAL_MS = 60 * 60 * 1000
 
 // Nettleseren garanterer uansett ikke hyppigere kjøring enn dette - kun en
@@ -36,33 +36,37 @@ async function registerPeriodicContentRefresh(registration: ServiceWorkerRegistr
   }
 }
 
-export function registerAppUpdate() {
-  if (!isStandalone()) return
+// Én modul-global tilstand: registerSW() skal kalles nøyaktig én gang, mens
+// Header monteres på nytt for hver side. Komponenter leser via useAppUpdate().
+let needRefresh = false
+let applyUpdate: ((reloadPage?: boolean) => Promise<void>) | undefined
+const listeners = new Set<() => void>()
 
-  const updateSW = registerSW({
+function setNeedRefresh(value: boolean) {
+  needRefresh = value
+  listeners.forEach(listener => listener())
+}
+
+function subscribe(listener: () => void) {
+  listeners.add(listener)
+  return () => listeners.delete(listener)
+}
+
+export function useAppUpdate() {
+  const ready = useSyncExternalStore(subscribe, () => needRefresh, () => false)
+  return { ready, apply: () => void applyUpdate?.(true) }
+}
+
+export function registerAppUpdate() {
+  applyUpdate = registerSW({
+    // Ny versjon ligger ferdig nedlastet og venter. Ingen toast, ingen
+    // automatisk reload - en stille knapp i headeren lar brukeren ta den i
+    // bruk når det passer, så ingen mister plassen sin midt i lesing.
     onNeedRefresh() {
-      // Ingen synlig prompt - oppdateringen tas i bruk stille når fanen
-      // uansett ikke vises (appbytte, bakgrunn, lukking), så brukeren aldri
-      // ser en reload midt i lesing.
-      const applyWhenHidden = () => {
-        void updateSW()
-      }
-      if (document.hidden) {
-        applyWhenHidden()
-        return
-      }
-      const onVisibilityChange = () => {
-        if (!document.hidden) return
-        document.removeEventListener('visibilitychange', onVisibilityChange)
-        applyWhenHidden()
-      }
-      document.addEventListener('visibilitychange', onVisibilityChange)
+      setNeedRefresh(true)
     },
     onRegisteredSW(swUrl, registration) {
       if (!registration) return
-      // Fanger opp nye versjoner selv i lange, sammenhengende økter der
-      // brukeren aldri navigerer og dermed aldri utløser nettleserens egen
-      // service worker-sjekk.
       setInterval(async () => {
         if (registration.installing || !navigator.onLine) return
         const resp = await fetch(swUrl, {

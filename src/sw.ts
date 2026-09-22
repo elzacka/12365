@@ -37,8 +37,8 @@ registerRoute(
 registerRoute(/\/videos\/[^/]+\.mp4$/i, new NetworkOnly())
 
 // registerType: 'prompt' - vi kaller aldri skipWaiting()/clientsClaim()
-// automatisk. Klienten ber uttrykkelig om det (se registerAppUpdate.ts),
-// stille i bakgrunnen, aldri med en synlig prompt.
+// automatisk. Klienten ber uttrykkelig om det når brukeren trykker
+// oppdater-knappen i headeren (se registerAppUpdate.ts).
 self.addEventListener('message', event => {
   if (event.data?.type === 'SKIP_WAITING') self.skipWaiting()
 })

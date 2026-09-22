@@ -11,3 +11,5 @@ Innhold:
 - oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring
 
 Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med AI. AI kan bomme, og jeg kan overse noe. Jeg retter eventuelle feil fortløpende.
+
+Når en ny versjon av appen er klar, viser den et oppdater-ikon øverst til høyre. Trykk på det når det passer deg – appen laster seg på nytt med det siste innholdet.

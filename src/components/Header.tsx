@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useAuth } from '../auth/useAuth'
 import { ChevronLeftIcon, HomeIcon, LockIcon, LockOpenIcon } from './Icons'
+import { UpdateButton } from './UpdateButton'
 
 interface HeaderProps {
   title?: string
@@ -70,6 +71,7 @@ export function Header({
         </div>
 
         <div className="flex items-center justify-self-end">
+          <UpdateButton />
           {showLock && onLockClick && (
             <button
               type="button"
