@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13",
+  "generated": "2026-09-22",
   "cards": {
     "Teams": "e8f1fe88f8",
     "Clipchamp": "1809b2eaa9",
@@ -814,7 +814,7 @@
     "xenova": "5516f5b6eb",
     "xenova-nb-whisper-tiny-beta": "fa2f7243fd"
   },
-  "license": "f7a26727fc",
+  "license": "39738c13fc",
   "about": "117e6424be",
   "endret": {
     "cards": {
@@ -879,6 +879,6 @@
       "hvordan-jobbe-datadrevet-i-praksis": "2026-06-07"
     },
     "ordbok": {},
-    "license": "2026-08-12"
+    "license": "2026-09-22"
   }
 }

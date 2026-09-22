@@ -1,7 +1,7 @@
 {
-  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (1/8-26)",
+  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (1/9-26)",
   "kildeUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-Enterprise.pdf",
-  "endret": "2026-08-12",
+  "endret": "2026-09-22",
   "tema": [
     {
       "id": "ki",
@@ -28,7 +28,7 @@
         {
           "navn": "Copilot Chat",
           "status": "inkludert",
-          "beskrivelse": "Gratis KI-chat med Enterprise Data Protection. Søk på internett (Nett-modus), last opp filer manuelt og få utkast eller oppsummeringer. Søk i organisasjonens egne dokumenter, e-post og møter krever Microsoft 365 Copilot-lisens."
+          "beskrivelse": "Gratis KI-chat med Enterprise Data Protection. Søk på internett (Nett-modus), last opp filer manuelt og få utkast eller oppsummeringer. Søk i organisasjonens egne dokumenter, e-post og møter krever Microsoft Copilot-lisens."
         },
         {
           "navn": "Copilot Chat Analytics",
@@ -36,7 +36,7 @@
           "beskrivelse": "Innsikt i hvordan organisasjonen bruker Copilot Chat: bruksmønster, adopsjon og trender over tid."
         },
         {
-          "navn": "Microsoft 365 Copilot",
+          "navn": "Microsoft Copilot",
           "status": "tillegg",
           "beskrivelse": "KI inne i Word, Excel, PowerPoint, Outlook og Teams-møter: utkast, oppsummeringer, automatiske møtenotater og handlingspunkter. Låser opp Jobb-modus i Copilot Chat, full Copilot Studio, og egne flater som Pages, Notebooks og Cowork. Egen lisens per bruker som tillegg."
         },
@@ -440,11 +440,6 @@
           "navn": "Microsoft Lists",
           "status": "inkludert",
           "beskrivelse": "Strukturerte lister og enkle saksbehandlingsløsninger uten kode."
-        },
-        {
-          "navn": "Delve",
-          "status": "inkludert",
-          "beskrivelse": "Personlig oversikt over relevante dokumenter og innhold på tvers av Microsoft 365 basert på Microsoft Graph. Microsoft fortsetter å erstatte funksjonalitet med Microsoft Search og Loop."
         }
       ]
     },
