@@ -19,7 +19,8 @@ const sources = [
   { slug: 'sharepoint',       path: 'logos/sharepoint/sharepoint-1024x1024-(2025-unofficial).png',       mode: 'png-asis' },
   { slug: 'loop',             path: 'logos/loop/microsoft-loop-logo.png',                                mode: 'png-fit' },
   { slug: 'copilot-chat',     path: 'logos/copilot/microsoft-365-copilot.svg',                           mode: 'svg' },
-  { slug: 'copilot-m365',     path: 'logos/copilot/microsoft-365-copilot.svg',                           mode: 'svg' },
+  // Microsoft's own brand-refresh asset (August 2026); no vector version published yet, so keep the 240 px PNG as-is.
+  { slug: 'microsoft-copilot', url:  'https://res.cdn.office.net/officehub/images/content/images/unauth-ccm/new-hero-copilot-0ef53b8025.png', mode: 'png-asis' },
   { slug: 'copilot-studio',   path: 'logos/copilot-studio/copilotstudio-scalable.svg',                   mode: 'svg' },
   { slug: 'forms',            path: 'logos/forms/forms-512.png',                                        mode: 'png-asis' },
   { slug: 'clipchamp',        path: 'logos/clipchamp/clipchamp-512.png',                                 mode: 'png-asis' },
