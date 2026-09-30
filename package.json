@@ -11,6 +11,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "icons:build": "node scripts/build-icons.mjs",
+    "icons:fetch": "node scripts/fetch-icons.mjs",
     "lock": "node scripts/lock-content.mjs",
     "ordbok:gen": "node scripts/generate-ordbok.mjs",
     "predev": "node scripts/generate-ordbok.mjs",
