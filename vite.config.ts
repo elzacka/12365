@@ -23,7 +23,6 @@ const productionCsp = [
   "worker-src 'self' blob:",
   "base-uri 'self'",
   "form-action 'self'",
-  "frame-ancestors 'self'",
   "object-src 'none'",
   'upgrade-insecure-requests',
 ].join('; ')
@@ -34,8 +33,6 @@ const securityHeadersPlugin = {
   transformIndexHtml(html: string) {
     const tags = [
       `<meta http-equiv="Content-Security-Policy" content="${productionCsp}" />`,
-      '<meta http-equiv="X-Content-Type-Options" content="nosniff" />',
-      '<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()" />',
     ].join('\n    ')
     return html.replace('<meta charset="UTF-8" />', `<meta charset="UTF-8" />\n    ${tags}`)
   },
