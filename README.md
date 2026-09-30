@@ -23,6 +23,7 @@ npm install
 npm run dev      # Lokal utvikling
 npm run build    # Produksjonsbygg
 npm run lint     # ESLint
+npm test         # Tester (Vitest)
 npm run lock     # Krypter skjult innhold (admin)
 ```
 
@@ -34,7 +35,7 @@ Redigerbart innhold ligger i `public/content/` (JSON). `OM-APPEN.md` og `PERSONV
 
 ## Versjonering
 
-[SemVer](https://semver.org/lang/no/) – PATCH for innholdsoppdateringer og bugfiks, MINOR for ny funksjonalitet, MAJOR for bruddendringer.
+[SemVer](https://semver.org/lang/no/) – PATCH for innholdsoppdateringer og bugfiks, MINOR for nye apper, nye veiledninger og ny funksjonalitet, MAJOR for bruddendringer i datastruktur eller navigasjon.
 
 ## Lisens
 
