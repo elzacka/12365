@@ -1608,7 +1608,7 @@
     "id": "eus-ki-forordning",
     "tittel": "EUs KI-forordning",
     "undertittel": "AI Act",
-    "forklaring": "EUs risikobaserte regelverk for kunstig intelligens fra 2024 – gjelder norske organisasjoner gjennom EØS-avtalen.",
+    "forklaring": "EUs risikobaserte regelverk for kunstig intelligens fra 2024. Forordningen er EØS-relevant, men ikke tatt inn i EØS-avtalen (07.10.26). Regjeringen tar sikte på å legge frem en norsk KI-lov for Stortinget våren 2027.",
     "tags": [
       "ki",
       "personvern",
@@ -1617,6 +1617,36 @@
     "alias": [
       "EU AI Act",
       "Artificial Intelligence Act"
+    ]
+  },
+  {
+    "id": "tekst-og-datautvinning",
+    "tittel": "Tekst- og datautvinning",
+    "undertittel": "TDM",
+    "forklaring": "Automatisert analyse av tekst og data i digital form for å finne mønstre, utviklingstrekk og sammenhenger. Å trene KI-modeller regnes som tekst- og datautvinning. EUs digitalmarkedsdirektiv lar alle med lovlig tilgang bruke verk til dette, med mindre rettighetshaveren har reservert seg. For innhold på nettet bør reservasjonen være maskinlesbar, for eksempel i metadata. Forskningsorganisasjoner og kulturarvinstitusjoner har et eget unntak for forskning, og der kan rettighetshaveren ikke reservere seg. Åndsverkloven har ennå ikke et generelt unntak for tekst- og datautvinning (07.10.26). Stortinget behandler Prop. 41 LS (2025–2026), som innfører reglene. Nettsted: [regjeringen.no](https://www.regjeringen.no/no/dokumenter/prop.-41-ls-20252026/id3154279/).",
+    "tags": [
+      "ki",
+      "regelverk",
+      "begrep"
+    ],
+    "alias": [
+      "Text and data mining",
+      "Digitalmarkedsdirektivet",
+      "DSM-direktivet"
+    ]
+  },
+  {
+    "id": "sammendrag-av-treningsinnhold-ki",
+    "tittel": "Sammendrag av treningsinnhold",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Offentlig, tilstrekkelig detaljert sammendrag av innholdet en KI-modell for allmenne formål er trent på. Leverandøren skal bruke EU-kommisjonens mal fra 24.07.25. Plikten gjelder fra 02.08.25, og fra 02.08.27 for modeller som kom på markedet før det. Leverandøren skal også ha retningslinjer for å respektere reservasjoner mot tekst- og datautvinning. Nettsted: [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Public summary of training content",
+      "Training content summary"
     ]
   },
   {
@@ -6368,13 +6398,83 @@
   {
     "id": "treningsdata",
     "tittel": "Treningsdata",
-    "forklaring": "Dataene en maskinlæringsmodell lærer av under utviklingen.",
+    "forklaring": "Dataene en maskinlæringsmodell lærer av under utviklingen. Treningsdataene til en språkmodell er et korpus.",
     "tags": [
       "ki",
       "begrep"
     ],
     "alias": [
       "Training data"
+    ]
+  },
+  {
+    "id": "korpus",
+    "tittel": "Korpus",
+    "forklaring": "Samling av tekster, oftest elektronisk, til språkforskning eller til å trene språkmodeller. Et talekorpus inneholder opptak av tale, ofte med transkripsjoner. Et treningskorpus er korpuset en språkmodell blir trent på, for eksempel Aurora 2604 eller NCC.",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Corpus",
+      "Treningskorpus",
+      "Training corpus",
+      "Tekstkorpus",
+      "Talekorpus"
+    ]
+  },
+  {
+    "id": "annotering",
+    "tittel": "Annotering",
+    "forklaring": "Å legge til merkelapper på data, for eksempel ordklasse, navngitte enheter eller riktig svar, slik at en modell kan lære av dem gjennom veiledet læring. Et annotert korpus har slike merkelapper, som NorNE og NoReC.",
+    "tags": [
+      "ki",
+      "metode"
+    ],
+    "alias": [
+      "Annotation",
+      "Merking",
+      "Labelling",
+      "Annotert korpus"
+    ]
+  },
+  {
+    "id": "deduplisering",
+    "tittel": "Deduplisering",
+    "forklaring": "Å fjerne like eller nesten like tekster fra et treningskorpus. Modeller trent på deduplisert tekst gjengir sjeldnere tekst ordrett og trenger færre treningssteg (Lee mfl., 2022). FineWeb og HPLT er deduplisert. Nettsted: [arxiv.org/abs/2107.06499](https://arxiv.org/abs/2107.06499).",
+    "tags": [
+      "ki",
+      "metode"
+    ],
+    "alias": [
+      "Deduplication"
+    ]
+  },
+  {
+    "id": "knowledge-cutoff",
+    "tittel": "Knowledge cutoff",
+    "forklaring": "Den siste datoen treningsdataene til en språkmodell dekker. Modellen vet lite om det som skjedde senere, med mindre den søker på nettet eller får opplysningene i samtalen. Anthropic oppgir to datoer: Hvor langt kunnskapen er pålitelig, og hvor langt treningsdataene går.",
+    "tags": [
+      "ki",
+      "llm",
+      "begrep"
+    ],
+    "alias": [
+      "Training data cutoff",
+      "Cutoff date"
+    ]
+  },
+  {
+    "id": "datasettkort",
+    "tittel": "Datasettkort",
+    "forklaring": "Dokumentasjonssiden til et datasett på Hugging Face. Oppgir kilder, språk, størrelse, lisens og tiltenkt bruk. Bygger på forslaget i «Datasheets for Datasets» (Gebru mfl.) om at hvert datasett skal ha en slik beskrivelse.",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Dataset card",
+      "Datasheet"
     ]
   },
   {
@@ -7508,7 +7608,7 @@
   {
     "id": "hplt",
     "tittel": "HPLT",
-    "forklaring": "Europeisk prosjekt for flerspråklige språkdata. Står bak NorOLMo-13B og bidrar til Viking.",
+    "forklaring": "Europeisk prosjekt for flerspråklige språkdata. Gir ut korpus hentet fra nettet gjennom Internet Archive og Common Crawl, med nesten 200 språk, blant dem bokmål og nynorsk. Datasettene er CC0, men opphavsretten til tekstene ligger hos dem som skrev dem. Står bak NorOLMo-13B og bidrar til Viking. Nettsted: [hplt-project.org](https://hplt-project.org).",
     "tags": [
       "ki",
       "hplt",
@@ -9674,6 +9774,33 @@
     ]
   },
   {
+    "id": "ncc",
+    "tittel": "Norwegian Colossal Corpus",
+    "undertittel": "NCC",
+    "forklaring": "NBs åpne treningskorpus for norske språkmodeller, mest på bokmål og nynorsk. Inneholder bøker, aviser, offentlige dokumenter, Lovdata og Wikipedia, i alt 4,6 milliarder ord i 8,2 millioner dokumenter. Lisensen varierer med kilden, fra CC0 og NLOD 2.0 til CC BY-NC 2.0 for nettaviser, som ikke kan brukes kommersielt. Avisene under Språkbank-avtalen er ikke med, etter ønske fra mediehusene. Nettsted: [huggingface.co/datasets/NbAiLab/NCC](https://huggingface.co/datasets/NbAiLab/NCC).",
+    "tags": [
+      "ki",
+      "nasjonalbiblioteket",
+      "datasett"
+    ],
+    "alias": [
+      "NbAiLab/NCC"
+    ]
+  },
+  {
+    "id": "norsk-aviskorpus",
+    "tittel": "Norsk aviskorpus",
+    "forklaring": "Korpus med artikler fra norske nyhetsnettsteder 1998–2019: Om lag 1,68 milliarder ord på bokmål og 68 millioner på nynorsk. Laget ved Universitetet i Bergen og forvaltet av Språkbanken. CC BY-NC, altså ikke til kommersiell bruk. Er ikke med i NCC, etter ønske fra mediehusene. Nettsted: [nb.no/sprakbanken](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-4/).",
+    "tags": [
+      "ki",
+      "nasjonalbiblioteket",
+      "datasett"
+    ],
+    "alias": [
+      "NAK"
+    ]
+  },
+  {
     "id": "nst",
     "tittel": "Nordisk Språkteknologi",
     "undertittel": "NST",
@@ -9703,6 +9830,32 @@
     ]
   },
   {
+    "id": "norne",
+    "tittel": "NorNE",
+    "forklaring": "Annotert korpus der navngitte enheter som personer, organisasjoner og steder er merket, med om lag 300 000 token på både bokmål og nynorsk. Laget av ltg, Språkbanken og Schibsted. Merkingen er CC0, men tekstene kan ikke publiseres på nytt som egne tekster. nb-bert-base-ner er finjustert på NorNE. Nettsted: [github.com/ltgoslo/norne](https://github.com/ltgoslo/norne).",
+    "tags": [
+      "ki",
+      "ltg",
+      "datasett"
+    ],
+    "alias": [
+      "Norwegian Named Entities"
+    ]
+  },
+  {
+    "id": "norec",
+    "tittel": "NoReC",
+    "forklaring": "Korpus med 43 436 anmeldelser fra åtte norske medier, hver merket med terningkastet anmelderen ga. Brukes til å trene og teste sentimentanalyse. Laget av ltg sammen med NRK, Schibsted og Aller Media. CC BY-NC 4.0, men modeller trent på korpuset kan brukes kommersielt. Nettsted: [github.com/ltgoslo/norec](https://github.com/ltgoslo/norec).",
+    "tags": [
+      "ki",
+      "ltg",
+      "datasett"
+    ],
+    "alias": [
+      "Norwegian Review Corpus"
+    ]
+  },
+  {
     "id": "fineweb-2",
     "tittel": "FineWeb-2",
     "forklaring": "Hugging Faces flerspråklige datasett med filtrert tekst fra nettet. Del av Aurora 2604.",
@@ -9710,6 +9863,33 @@
       "ki",
       "huggingface",
       "datasett"
+    ]
+  },
+  {
+    "id": "common-crawl",
+    "tittel": "Common Crawl",
+    "forklaring": "Ideell organisasjon, stiftet i 2007, som samler inn kopier av nettsider og deler dem gratis. Arkivet har over 300 milliarder sider fra 15 år. Grunnlaget for mange store treningskorpus, blant annet C4, FineWeb-2 og HPLT. Nettstedeiere kan stenge ute søkeroboten CCBot i robots.txt. Nettsted: [commoncrawl.org](https://commoncrawl.org).",
+    "tags": [
+      "ki",
+      "datasett",
+      "aktør"
+    ],
+    "alias": [
+      "CCBot"
+    ]
+  },
+  {
+    "id": "robots-txt",
+    "tittel": "robots.txt",
+    "forklaring": "Tekstfil på et nettsted som ber søkeroboter holde seg unna hele eller deler av nettstedet. Standardisert i RFC 9309. Brukes også til å stenge ute roboter som samler treningsdata, som CCBot fra Common Crawl og GPTBot fra OpenAI. Filen er en anmodning, ikke en sperre: Robotene må selv velge å følge den.",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Robots Exclusion Protocol",
+      "RFC 9309",
+      "GPTBot"
     ]
   },
   {
