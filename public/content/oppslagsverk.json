@@ -4202,6 +4202,19 @@
     ]
   },
   {
+    "id": "paddlepaddle",
+    "tittel": "PaddlePaddle",
+    "forklaring": "Baidus rammeverk for dyp læring, med verktøysettet PaddleOCR for tekstgjenkjenning. Apache 2.0-lisens.",
+    "tags": [
+      "ki",
+      "baidu",
+      "verktøy"
+    ],
+    "alias": [
+      "PaddleOCR"
+    ]
+  },
+  {
     "id": "plattform",
     "tittel": "Plattform",
     "forklaring": "Underliggende fundament av maskinvare, programvare eller tjenester som andre applikasjoner og tjenester bygger på og kjører oppå. I sky-sammenheng «plattform som tjeneste» (PaaS).",
@@ -4472,6 +4485,21 @@
     ],
     "alias": [
       "Plattform som tjeneste"
+    ]
+  },
+  {
+    "id": "pp-ocr",
+    "tittel": "PP-OCR",
+    "forklaring": "Baidus modeller for tekstgjenkjenning i PaddleOCR: Én modell finner tekstlinjene i bildet, en annen leser dem. PP-OCRv6 kom i juni 2026 i tre størrelser og leser kinesisk, engelsk, japansk og 46 språk med latinsk skrift med én modell. PP-OCRv5 er generasjonen før. Apache 2.0-lisens.",
+    "tags": [
+      "ki",
+      "ocr",
+      "baidu",
+      "modell"
+    ],
+    "alias": [
+      "PP-OCRv5",
+      "PP-OCRv6"
     ]
   },
   {
@@ -4780,6 +4808,16 @@
     ],
     "alias": [
       "Framework"
+    ]
+  },
+  {
+    "id": "rapidocr",
+    "tittel": "RapidOCR",
+    "forklaring": "Verktøysett fra RapidAI som gjør PaddleOCR-modellene om til ONNX-filer, slik at de kjører raskt med ONNX Runtime på mange plattformer og fra Python, C++, Java og C#. Bruker PP-OCRv6 som standard. Apache 2.0-lisens.",
+    "tags": [
+      "ki",
+      "ocr",
+      "verktøy"
     ]
   },
   {
