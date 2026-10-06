@@ -31,7 +31,7 @@ NEW = [
   {
     "id": "akseptkriterier",
     "tittel": "Akseptkriterier",
-    "forklaring": "Kriterier som resultatene av risikoanalysen sammenholdes med for å avgjøre om sikkerhetsmåelzacka er nådd. Fastsettes typisk av øverste ledelse og hentes fra risikorammeverket.",
+    "forklaring": "Kriterier som resultatene av risikoanalysen sammenholdes med for å avgjøre om sikkerhetsmålene er nådd. Fastsettes typisk av øverste ledelse og hentes fra risikorammeverket.",
     "tags": ["risiko"],
     "alias": ["Akseptansekriterier", "Evalueringskriterier"]
   },
@@ -463,7 +463,7 @@ NEW = [
   {
     "id": "risikoevaluering",
     "tittel": "Risikoevaluering",
-    "forklaring": "Prosess for å vurdere om sikkerhetsmåelzacka er nådd ved å sammenholde risikoanalysens resultater med evalueringskriteriene.",
+    "forklaring": "Prosess for å vurdere om sikkerhetsmålene er nådd ved å sammenholde risikoanalysens resultater med evalueringskriteriene.",
     "tags": ["risiko"]
   },
   {

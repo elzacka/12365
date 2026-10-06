@@ -70,7 +70,7 @@
   {
     "id": "akseptkriterier",
     "tittel": "Akseptkriterier",
-    "forklaring": "Kriterier som resultatene av risikoanalysen sammenholdes med for å avgjøre om sikkerhetsmåelzacka er nådd. Fastsettes typisk av øverste ledelse og hentes fra risikorammeverket.",
+    "forklaring": "Kriterier som resultatene av risikoanalysen sammenholdes med for å avgjøre om sikkerhetsmålene er nådd. Fastsettes typisk av øverste ledelse og hentes fra risikorammeverket.",
     "tags": [
       "risiko",
       "begrep"
@@ -1968,7 +1968,7 @@
   {
     "id": "gjennomsnitt",
     "tittel": "Gjennomsnitt",
-    "forklaring": "Summen av verdiene i et datasett delt på antallet – ett av måelzacka for sentralitet.",
+    "forklaring": "Summen av verdiene i et datasett delt på antallet – ett av målene for sentralitet.",
     "tags": [
       "analyse",
       "begrep"
@@ -5075,7 +5075,7 @@
   {
     "id": "risikoevaluering",
     "tittel": "Risikoevaluering",
-    "forklaring": "Prosess for å vurdere om sikkerhetsmåelzacka er nådd ved å sammenholde risikoanalysens resultater med evalueringskriteriene.",
+    "forklaring": "Prosess for å vurdere om sikkerhetsmålene er nådd ved å sammenholde risikoanalysens resultater med evalueringskriteriene.",
     "tags": [
       "risiko",
       "metode"
@@ -6406,7 +6406,7 @@
   {
     "id": "typetall",
     "tittel": "Typetall",
-    "forklaring": "Verdien som forekommer oftest i et datasett – ett av måelzacka for sentralitet.",
+    "forklaring": "Verdien som forekommer oftest i et datasett – ett av målene for sentralitet.",
     "tags": [
       "analyse",
       "begrep"
