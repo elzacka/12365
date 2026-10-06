@@ -19,7 +19,7 @@
     "tittel": "Åpne / offentlige data",
     "forklaring": "Eksterne data som er tilgjengelige for alle – ikke nødvendigvis fra offentlig sektor.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "digitalisering",
       "begrep"
     ],
@@ -154,7 +154,7 @@
     "forklaring": "Opplysninger som ikke lenger kan knyttes til en enkeltperson overhodet – faller utenfor GDPR, men er nesten umulig å oppnå i praksis.",
     "tags": [
       "personvern",
-      "datakvalitet",
+      "dataforvaltning",
       "metode"
     ],
     "alias": [
@@ -194,7 +194,7 @@
     "tittel": "ARPANET",
     "forklaring": "Forløperen til internett, startet av det amerikanske forsvaret i 1966; de første maskinene koblet på i 1969.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -206,7 +206,7 @@
     "tittel": "ASCII",
     "forklaring": "Tegnstandard fra 1963 som kobler binære tall til bokstaver og tegn – lever videre som del av UTF-8.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "format"
     ],
     "alias": [
@@ -282,6 +282,7 @@
     "forklaring": "Verifisering av hvem man kommuniserer med – grunnlag for å gi riktige tilganger.",
     "tags": [
       "sikkerhet",
+      "identitet",
       "begrep"
     ],
     "alias": [
@@ -320,6 +321,7 @@
     "forklaring": "Tildeling av riktige tilgangsrettigheter til ressurser som filer og databaser – forutsetter autentisering.",
     "tags": [
       "sikkerhet",
+      "identitet",
       "begrep"
     ],
     "alias": [
@@ -462,7 +464,7 @@
     "tittel": "Binærsystemet",
     "forklaring": "Tallsystem med grunntall 2 der n bits gir 2ⁿ mulige kombinasjoner – grunnlag for all digital databehandling.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -551,7 +553,7 @@
     "tittel": "Bit",
     "forklaring": "Minste digitale enhet – ett binært siffer med to tilstander: av (0) eller på (1).",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -563,7 +565,7 @@
     "tittel": "Bitdybde",
     "forklaring": "Antall bits per måling (lyd) eller piksel (bilde) – avgjør detaljrikdom og fargespekter.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -575,7 +577,7 @@
     "tittel": "Bitrate",
     "forklaring": "Datamengde per sekund ved avspilling av lyd eller video, målt i Kbps eller Mbps.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -669,7 +671,7 @@
     "tittel": "Byte",
     "forklaring": "Åtte bits – kan representere 256 ulike verdier; grunnenheten for lagring av tegn og tall.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -751,7 +753,7 @@
     "undertittel": "skjevhet",
     "forklaring": "Systematisk feil i datagrunnlaget som gir en skjev fremstilling av virkeligheten – tilsiktet eller utilsiktet.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "ki",
       "begrep"
     ],
@@ -792,7 +794,7 @@
     "forklaring": "Teknikk der sensitive data erstattes med realistisk utseende, men ubrukelige verdier – for deling uten misbruksrisiko.",
     "tags": [
       "personvern",
-      "datakvalitet",
+      "dataforvaltning",
       "metode"
     ],
     "alias": [
@@ -929,7 +931,7 @@
     "forklaring": "Reisen data tar fra de oppstår i en situasjon, via innsamling, lagring, behandling og analyse, til de brukes i en beslutning.",
     "tags": [
       "digitalisering",
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -953,7 +955,7 @@
     "tittel": "Dataforvaltning",
     "forklaring": "Praksis for å ta vare på, overvåke og administrere data slik at de holder kvalitet og brukes ansvarlig.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -979,7 +981,6 @@
     "tittel": "Datakatalog",
     "forklaring": "Verktøy som katalogiserer alle data som eksisterer i organisasjonen basert på metadata.",
     "tags": [
-      "datakvalitet",
       "dataforvaltning",
       "begrep"
     ],
@@ -992,7 +993,7 @@
     "tittel": "Datakvalitet",
     "forklaring": "I hvilken grad dataene samsvarer med den situasjonen eller aktiviteten de skal representere.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -1068,7 +1069,7 @@
     "forklaring": "Samling data som brukes til å trene eller teste en KI-modell – kvaliteten avgjør hvor god modellen blir.",
     "tags": [
       "ki",
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -1080,7 +1081,7 @@
     "tittel": "Datasilo",
     "forklaring": "Data som ligger isolert i ett system eller på ett sted, utilgjengelig for bruk på tvers av organisasjonen.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "digitalisering",
       "begrep"
     ],
@@ -1667,6 +1668,7 @@
     "forklaring": "Autentisering med minst to uavhengige faktorer fra ulike kategorier – noe du vet (passord/PIN), noe du har (kodebrikke/telefon) og noe du er (biometri). Gir vesentlig bedre beskyttelse enn passord alene.",
     "tags": [
       "sikkerhet",
+      "identitet",
       "metode"
     ],
     "alias": [
@@ -1680,7 +1682,7 @@
     "forklaring": "Måleenhet for regnekapasitet – flyttallsoperasjoner. Brukes til å sammenligne hvor mye regnekraft som kreves for å trene og kjøre KI-modeller.",
     "tags": [
       "ki",
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -1887,7 +1889,7 @@
     "tittel": "Funksjonelle data",
     "forklaring": "Maskin-til-maskin-data via protokoller som er nødvendige for at digitale tjenester skal virke.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -1967,7 +1969,7 @@
     "undertittel": "datastyring",
     "forklaring": "Styringssystemer og styringsstrukturer som sikrer god databehandling, etikk, juridisk etterlevelse og sikkerhet.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "digitalisering",
       "begrep"
     ],
@@ -1981,8 +1983,8 @@
     "undertittel": "GPU",
     "forklaring": "Prosessor for parallelle beregninger – det viktigste maskineriet for å trene og kjøre KI-modeller.",
     "tags": [
-      "programmering",
       "ki",
+      "datateknologi",
       "maskinvare"
     ],
     "alias": [
@@ -2072,7 +2074,7 @@
     "tittel": "HTTPS",
     "forklaring": "HTTP med krypteringslag som hindrer at uvedkommende leser data som utveksles mellom nettleser og server.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "sikkerhet",
       "protokoll"
     ],
@@ -2087,6 +2089,7 @@
     "forklaring": "Tidlig fysisk programmeringsmedium basert på binærsystemet – hull og ikke-hull leses som 1 eller 0.",
     "tags": [
       "digitalisering",
+      "datateknologi",
       "maskinvare"
     ],
     "alias": [
@@ -2112,7 +2115,7 @@
     "forklaring": "Markeringsspråk som beskriver struktur og presentasjon av innhold på nettsider.",
     "tags": [
       "programmering",
-      "nettverkstek",
+      "nettverk",
       "format"
     ],
     "alias": [
@@ -2125,7 +2128,7 @@
     "undertittel": "HTTP",
     "forklaring": "Protokoll som lar en klient laste ned en nettside fra en server – grunnlag for verdensveven.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "protokoll"
     ],
     "alias": [
@@ -2239,7 +2242,7 @@
     "forklaring": "Liten datafil som plasseres på brukerens maskin for å gjenkjenne og følge brukerens aktivitet på nettsider.",
     "tags": [
       "personvern",
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -2352,6 +2355,7 @@
     "forklaring": "Språkmodell trent til å følge instruksjoner og svare hjelpsomt i dialog, til forskjell fra en ren basemodell.",
     "tags": [
       "ki",
+      "llm",
       "begrep"
     ],
     "alias": [
@@ -2389,7 +2393,7 @@
     "tittel": "Interne data",
     "forklaring": "Data som finnes i organisasjonen: egne data organisasjonen kontrollerer, og delte data med delvis eierskap.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -2416,7 +2420,7 @@
     "forklaring": "Unikt nummer som identifiserer en enhet i et nettverk – regnes som personopplysning når det kan knyttes til en identifiserbar person.",
     "tags": [
       "personvern",
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -2480,7 +2484,7 @@
     "forklaring": "Dataformat som ofte returneres fra REST API-er – lettvekts og lesbart strukturert format.",
     "tags": [
       "programmering",
-      "nettverkstek",
+      "nettverk",
       "format"
     ],
     "alias": [
@@ -2734,7 +2738,7 @@
     "tittel": "Komprimering",
     "forklaring": "Algoritmer som reduserer datamengden ved lyd- eller bildekoding, ofte med noe kvalitetstap.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "metode"
     ],
     "alias": [
@@ -2974,7 +2978,7 @@
     "tittel": "Linjesvitsjing",
     "forklaring": "Eldre nettverksprinsipp med dedikert, ubrutt forbindelse (som analoge telefonlinjer) – erstattet av pakkesvitsjing.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -3015,7 +3019,7 @@
     "undertittel": "LAN",
     "forklaring": "Lokalt nettverk i en bedrift eller et hjem.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -3477,7 +3481,7 @@
     "tags": [
       "m365",
       "sikkerhet",
-      "datakvalitet",
+      "dataforvaltning",
       "tjeneste"
     ]
   },
@@ -3688,7 +3692,7 @@
     "forklaring": "Program som kombinerer data fra flere API-er til ny funksjonalitet.",
     "tags": [
       "programmering",
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -3701,7 +3705,7 @@
     "forklaring": "Variant av data obfuscation der verdier endres med lignende struktur uten å bli fullstendig uleselige.",
     "tags": [
       "personvern",
-      "datakvalitet",
+      "dataforvaltning",
       "metode"
     ],
     "alias": [
@@ -3797,7 +3801,7 @@
     "forklaring": "Data om data. Tilleggsdata som hjelper å tolke, identifisere og kontekstualisere andre data (tid, sted, format).",
     "tags": [
       "database",
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -3988,6 +3992,7 @@
     "forklaring": "Verktøy som lar deg bygge løsninger uten eller med minimal koding.",
     "tags": [
       "programvareutvikling",
+      "lavkode",
       "begrep"
     ],
     "alias": [
@@ -4000,7 +4005,7 @@
     "tittel": "Node",
     "forklaring": "Enhet i et nettverk – maskin, telefon, server eller knutepunkt som ruter.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -4095,7 +4100,7 @@
     "undertittel": "bilde",
     "forklaring": "Antall piksler i et digitalt bilde – bildets detaljrikdom.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -4188,7 +4193,7 @@
     "forklaring": "Bruk av HTML-tagger og JavaScript-snutter for å samle inn og sende besøksdata til eksterne analyseverktøy.",
     "tags": [
       "analyse",
-      "nettverkstek",
+      "nettverk",
       "metode"
     ],
     "alias": [
@@ -4201,7 +4206,7 @@
     "tittel": "Pakkesvitsjing",
     "forklaring": "Nettverksprinsipp der informasjon deles i pakker som sendes hver for seg og settes sammen hos mottaker.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -4411,7 +4416,7 @@
     "tittel": "Piksel",
     "forklaring": "Bildepunkt – minste enhet i et digitalt bilde.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -4485,7 +4490,7 @@
     "tittel": "Primærminne / RAM",
     "forklaring": "Arbeidsminne som holder data under behandling – tømmes når maskinen slås av.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "maskinvare"
     ],
     "alias": [
@@ -4551,7 +4556,7 @@
     "forklaring": "Regelsett som definerer hvordan ett datasystem utveksler informasjon med et annet – en bro mellom systemer.",
     "tags": [
       "programmering",
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -4615,7 +4620,7 @@
     "tittel": "Proprietære / private data",
     "forklaring": "Eksterne data med begrenset tilgang – selges av datatilbydere eller deles i verdikjeden.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -4641,7 +4646,7 @@
     "tittel": "Prosesserte data",
     "forklaring": "Bearbeidede data klare for visualisering og sammenligning – i motsetning til rådata.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "analyse",
       "begrep"
     ],
@@ -4666,7 +4671,7 @@
     "tittel": "Prosessor",
     "forklaring": "Den sentrale enheten som utfører databehandlingen, instruert av programmer.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "maskinvare"
     ],
     "alias": [
@@ -4679,7 +4684,7 @@
     "tittel": "Protokoll",
     "forklaring": "Felles regelsett for kommunikasjon mellom maskiner i et nettverk – må følges av alle parter.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -4692,7 +4697,7 @@
     "forklaring": "Avidentifisering slik at opplysningene ikke kan knyttes til en person uten tilleggsopplysninger – fortsatt personopplysninger som omfattes av GDPR.",
     "tags": [
       "personvern",
-      "datakvalitet",
+      "dataforvaltning",
       "metode"
     ],
     "alias": [
@@ -4754,7 +4759,7 @@
     "tittel": "Rådata",
     "forklaring": "Ubehandlede data – registrert og samlet inn, men ikke klargjort for analyse.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -4767,7 +4772,7 @@
     "forklaring": "Handling som resulterer i at avidentifiserte opplysninger blir koblet til en person.",
     "tags": [
       "personvern",
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -4874,7 +4879,7 @@
     "forklaring": "Rammeverk for API-er på nettet, bygd på HTTP, som gir forutsigbar og interoperabel oppførsel.",
     "tags": [
       "programmering",
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -4899,6 +4904,7 @@
     "forklaring": "Språkmodell som bruker lenger tid og interne tankekjeder før svar – sterk på matematikk, koding og logikk.",
     "tags": [
       "ki",
+      "llm",
       "begrep"
     ],
     "alias": [
@@ -4953,7 +4959,7 @@
     "tittel": "RGB",
     "forklaring": "Fargemodell der farger bygges av kombinasjoner av rød, grønn og blå.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -5090,7 +5096,7 @@
     "tittel": "Ruter",
     "forklaring": "Nettverksenhet som sender datapakker videre mot målet langs internett.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "maskinvare"
     ],
     "alias": [
@@ -5148,7 +5154,7 @@
     "tittel": "Sample rate",
     "forklaring": "Antall målinger per sekund ved digitalisering av lyd – avgjør lydkvaliteten (f.eks. 44,1 kHz for CD).",
     "tags": [
-      "programmering",
+      "datateknologi",
       "begrep"
     ],
     "alias": [
@@ -5161,8 +5167,8 @@
     "tittel": "Sampling",
     "forklaring": "Jevnlige stikkprøver av et analogt signal for å representere det digitalt.",
     "tags": [
-      "programmering",
       "analyse",
+      "datateknologi",
       "metode"
     ],
     "alias": [
@@ -5264,7 +5270,7 @@
     "tittel": "Sekundærminne",
     "forklaring": "Varig lagring (SSD/harddisk) som beholder data uten strøm.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "maskinvare"
     ],
     "alias": [
@@ -5451,7 +5457,7 @@
     "forklaring": "Usikkerhet knyttet til om en uønsket hendelse vil inntreffe og hvilke konsekvenser den kan få. I KI-forordningen: kombinasjonen av sannsynligheten for at skade oppstår og skadens alvorlighetsgrad.",
     "tags": [
       "risiko",
-      "ki",
+      "sikkerhet",
       "begrep"
     ],
     "alias": [
@@ -5578,7 +5584,7 @@
     "undertittel": "SSD",
     "forklaring": "Moderne lagringsmedium uten mekaniske deler – raskere og mer pålitelig enn tradisjonell harddisk.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "maskinvare"
     ],
     "alias": [
@@ -5590,7 +5596,7 @@
     "tittel": "Sortering og opprydding",
     "forklaring": "Kategorisering av data mot et bestemt mål, slik at de blir forståelige og gjenfinnbare.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "metode"
     ],
     "alias": [
@@ -5782,6 +5788,7 @@
     "tags": [
       "sikkerhet",
       "personvern",
+      "identitet",
       "metode"
     ]
   },
@@ -5852,7 +5859,7 @@
     "tittel": "Svitsj",
     "forklaring": "Nettverksenhet som kobler sammen enheter i et lokalt nettverk.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "maskinvare"
     ],
     "alias": [
@@ -5903,7 +5910,7 @@
     "forklaring": "Data generert kunstig av en KI-modell, brukt til å trene andre modeller når ekte data er dyre, knappe eller personvernsensitive.",
     "tags": [
       "ki",
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -6012,7 +6019,7 @@
     "tittel": "TCP/IP",
     "forklaring": "De grunnleggende protokollene på internett – pakkesvitsjing og adressering inngår her.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "protokoll"
     ],
     "alias": [
@@ -6123,6 +6130,7 @@
     "tags": [
       "sikkerhet",
       "personvern",
+      "identitet",
       "metode"
     ],
     "alias": [
@@ -6134,7 +6142,7 @@
     "tittel": "Tilgjengeliggjøring",
     "forklaring": "Prosess der data gjøres brukbare: kartlegge plassering, gi tilganger og løfte dem ut av siloer.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "digitalisering",
       "metode"
     ],
@@ -6197,6 +6205,7 @@
     "forklaring": "Ekstra innloggingsfaktor utover passord, f.eks. engangskode – stopper de fleste kontoovertakelser.",
     "tags": [
       "sikkerhet",
+      "identitet",
       "metode"
     ],
     "alias": [
@@ -6224,7 +6233,7 @@
     "forklaring": "Variant av tilsløring der sensitive data erstattes med meningsløse verdier som kun gir mening med en token.",
     "tags": [
       "personvern",
-      "datakvalitet",
+      "dataforvaltning",
       "metode"
     ],
     "alias": [
@@ -6251,7 +6260,7 @@
     "undertittel": "data",
     "forklaring": "Prosess der data gjøres sammenlignbare ved å sikre like enheter, formater og måletidspunkter.",
     "tags": [
-      "datakvalitet",
+      "dataforvaltning",
       "metode"
     ],
     "alias": [
@@ -6368,7 +6377,7 @@
     "tittel": "Unicode / UTF-8",
     "forklaring": "Moderne tegnstandard som inkluderer ASCII og dekker tegnsett fra hele verden.",
     "tags": [
-      "programmering",
+      "datateknologi",
       "format"
     ],
     "alias": [
@@ -6532,7 +6541,7 @@
     "undertittel": "WWW",
     "forklaring": "Internett-tjenesten med hypertekstdokumenter og lenker – ikke det samme som internett.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -6588,7 +6597,7 @@
     "forklaring": "Kryptert «tunnel» mellom enheten og internett som hindrer avlytting av nettverkstrafikken.",
     "tags": [
       "sikkerhet",
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -6654,7 +6663,7 @@
     "undertittel": "WAN",
     "forklaring": "Nettverk spredt geografisk over flere steder – internett er verdens største WAN.",
     "tags": [
-      "nettverkstek",
+      "nettverk",
       "begrep"
     ],
     "alias": [
@@ -6750,7 +6759,7 @@
     "tags": [
       "m365",
       "sikkerhet",
-      "datakvalitet",
+      "dataforvaltning",
       "begrep"
     ],
     "alias": [
@@ -6924,7 +6933,6 @@
     "tittel": "Microsoft Foundry",
     "forklaring": "Plattform for å bygge, teste og drifte KI-modeller, -apper og -agenter i Azure.",
     "tags": [
-      "m365",
       "ki",
       "sky",
       "tjeneste"
@@ -6969,6 +6977,7 @@
     "tags": [
       "ki",
       "nvidia",
+      "datateknologi",
       "maskinvare"
     ]
   },
@@ -6990,6 +6999,7 @@
     "forklaring": "Svensk nasjonalt KI-senter. Står bak GPT-SW3.",
     "tags": [
       "ki",
+      "ai-sweden",
       "aktør"
     ]
   },
@@ -7067,6 +7077,7 @@
     "forklaring": "Modell som bare er fortrent, uten opplæring i å følge instruksjoner.",
     "tags": [
       "ki",
+      "llm",
       "begrep"
     ],
     "alias": [
@@ -7112,6 +7123,7 @@
     "forklaring": "Norsk kommersiell aktør bak NorskGPT og den nyere lynx-instruct-30b (Qwen3-grunnlag, Apache 2.0, 2026). Tilbyr API-plattform.",
     "tags": [
       "ki",
+      "bineric",
       "aktør"
     ]
   },
@@ -7200,7 +7212,7 @@
     "forklaring": "Formatet som markerer hvem som snakker. Må stemme med basismodellen, ellers svekkes treningen.",
     "tags": [
       "ki",
-      "begrep"
+      "format"
     ],
     "alias": [
       "Chat template"
@@ -7224,6 +7236,7 @@
     "forklaring": "Modell som genererer tekst. Alle vanlige språkmodeller er decoder-modeller.",
     "tags": [
       "ki",
+      "llm",
       "begrep"
     ],
     "alias": [
@@ -7395,6 +7408,7 @@
     "tags": [
       "ki",
       "llm",
+      "ai-sweden",
       "modell"
     ]
   },
@@ -7437,6 +7451,7 @@
     "forklaring": "Prosjektleder for Klinisk NorBERT/KliniskVestBERT, sammen med helseforetakene på Vestlandet og DIPS. Forvalter tilgangen.",
     "tags": [
       "ki",
+      "helse-vest-ikt",
       "aktør"
     ]
   },
@@ -7446,6 +7461,7 @@
     "forklaring": "Europeisk prosjekt for flerspråklige språkdata. Står bak NorOLMo-13B og bidrar til Viking.",
     "tags": [
       "ki",
+      "hplt",
       "aktør"
     ]
   },
@@ -7455,6 +7471,7 @@
     "forklaring": "Den største samlingen av åpne modeller, datasett og biblioteker. Der nesten alle modellene i denne ordboken ligger.",
     "tags": [
       "ki",
+      "huggingface",
       "aktør"
     ]
   },
@@ -7464,6 +7481,7 @@
     "forklaring": "Basismodell som er etterbehandlet til å følge instruksjoner og svare i dialog.",
     "tags": [
       "ki",
+      "llm",
       "begrep"
     ],
     "alias": [
@@ -7511,6 +7529,7 @@
     "forklaring": "Publisert i 2026 som KliniskVestBERT: tre encodere videretrent på anonymiserte journaldokumenter fra Helse Vest, med nb-bert-large, norbert3-large og ModernBERT som grunnlag. CC-BY-NC-ND-4.0, deles på vilkår gjennom Helse Vest IKT, ikke åpent.",
     "tags": [
       "ki",
+      "helse-vest-ikt",
       "modell"
     ]
   },
@@ -7549,6 +7568,7 @@
     "forklaring": "Språkteknologigruppa ved UiO. Publiserer normistral- og NorBERT-familiene. normistral, NorBERT 3 og 4 og norbloom er Apache 2.0; eldre NorBERT og de finjusterte variantene er CC-BY-4.0.",
     "tags": [
       "ki",
+      "ltg",
       "aktør"
     ]
   },
@@ -7571,6 +7591,7 @@
     "tags": [
       "ki",
       "llm",
+      "mistral",
       "modell"
     ]
   },
@@ -7613,6 +7634,7 @@
     "tags": [
       "ki",
       "llm",
+      "mistral",
       "modell"
     ]
   },
@@ -7622,6 +7644,7 @@
     "forklaring": "Fransk selskap bak Mistral, Mixtral og Magistral.",
     "tags": [
       "ki",
+      "mistral",
       "aktør"
     ]
   },
@@ -7632,6 +7655,7 @@
     "tags": [
       "ki",
       "llm",
+      "mistral",
       "modell"
     ]
   },
@@ -7935,6 +7959,7 @@
     "forklaring": "Konsortienavn for de samme modellene som ligger under ltg. Organisasjonssiden norallm på Hugging Face har bare datasettene igjen; modellene er flyttet til ltg.",
     "tags": [
       "ki",
+      "ltg",
       "aktør"
     ]
   },
@@ -7944,6 +7969,7 @@
     "forklaring": "Forrige generasjon fra ltg, i xs, small, base og large. Finnes i ABSA-varianter.",
     "tags": [
       "ki",
+      "ltg",
       "modell"
     ]
   },
@@ -7953,6 +7979,7 @@
     "forklaring": "Fem størrelser fra norbert4-xsmall (17M) til -xlarge (987M). Apache 2.0, trent på 600B token. Det eneste frie norske encoder-alternativet som dekker nordsamisk.",
     "tags": [
       "ki",
+      "ltg",
       "modell"
     ]
   },
@@ -7963,6 +7990,7 @@
     "tags": [
       "ki",
       "llm",
+      "ltg",
       "modell"
     ]
   },
@@ -7973,6 +8001,7 @@
     "tags": [
       "ki",
       "llm",
+      "norwai",
       "modell"
     ]
   },
@@ -7983,6 +8012,7 @@
     "tags": [
       "ki",
       "llm",
+      "ltg",
       "modell"
     ]
   },
@@ -7993,6 +8023,7 @@
     "tags": [
       "ki",
       "llm",
+      "ltg",
       "modell"
     ]
   },
@@ -8003,6 +8034,7 @@
     "tags": [
       "ki",
       "llm",
+      "ltg",
       "modell"
     ]
   },
@@ -8013,6 +8045,7 @@
     "tags": [
       "ki",
       "llm",
+      "ltg",
       "modell"
     ]
   },
@@ -8023,6 +8056,7 @@
     "tags": [
       "ki",
       "llm",
+      "ltg",
       "modell"
     ]
   },
@@ -8033,6 +8067,7 @@
     "tags": [
       "ki",
       "llm",
+      "hplt",
       "modell"
     ]
   },
@@ -8043,6 +8078,7 @@
     "tags": [
       "ki",
       "llm",
+      "bineric",
       "modell"
     ]
   },
@@ -8052,6 +8088,7 @@
     "forklaring": "Forskningssenter ved NTNU. Publiserer NorLLM-modellene, med Schibsted, NRK, VG, DNB, Telenor og SINTEF som partnere.",
     "tags": [
       "ki",
+      "norwai",
       "aktør"
     ]
   },
@@ -8062,6 +8099,7 @@
     "tags": [
       "ki",
       "llm",
+      "norwai",
       "modell"
     ]
   },
@@ -8072,6 +8110,7 @@
     "tags": [
       "ki",
       "llm",
+      "norwai",
       "modell"
     ]
   },
@@ -8082,6 +8121,7 @@
     "tags": [
       "ki",
       "llm",
+      "norwai",
       "modell"
     ]
   },
@@ -8092,6 +8132,7 @@
     "tags": [
       "ki",
       "llm",
+      "norwai",
       "modell"
     ]
   },
@@ -8240,6 +8281,7 @@
     "forklaring": "Samlebetegnelse på metoder som LoRA, og navnet på Hugging Face-biblioteket for dem.",
     "tags": [
       "ki",
+      "huggingface",
       "verktøy"
     ],
     "alias": [
@@ -8287,6 +8329,7 @@
     "tags": [
       "ki",
       "ocr",
+      "teklia",
       "modell"
     ]
   },
@@ -8551,6 +8594,7 @@
     "forklaring": "Fransk selskap og teknisk partner i Hugin-Munin-prosjektet. Står bak pylaia-norhand.",
     "tags": [
       "ki",
+      "teklia",
       "aktør"
     ]
   },
@@ -8605,6 +8649,7 @@
     "forklaring": "Hugging Face-biblioteket for å laste og kjøre modeller i Python. Ikke det samme som arkitekturen med nesten samme navn.",
     "tags": [
       "ki",
+      "huggingface",
       "verktøy"
     ]
   },
@@ -8614,6 +8659,7 @@
     "forklaring": "JavaScript-utgaven av Transformers. Kjører små modeller direkte i nettleseren, med ONNX.",
     "tags": [
       "ki",
+      "huggingface",
       "verktøy"
     ]
   },
@@ -8633,6 +8679,7 @@
     "forklaring": "Hugging Face-biblioteket for etter-trening. Inneholder GRPOTrainer og tilsvarende for andre metoder.",
     "tags": [
       "ki",
+      "huggingface",
       "verktøy"
     ],
     "alias": [
@@ -8766,6 +8813,7 @@
     "tags": [
       "ki",
       "llm",
+      "hplt",
       "modell"
     ]
   },
@@ -8804,6 +8852,7 @@
     "forklaring": "Minnet på grafikkortet. Den vanligste begrensningen når du skal trene selv.",
     "tags": [
       "ki",
+      "datateknologi",
       "maskinvare"
     ]
   },
@@ -8953,6 +9002,7 @@
     "forklaring": "Daglig utvalg av nye KI-artikler med lenker til kode og modeller. Har overtatt rollen til Papers with Code, som ble lagt ned i juli 2025. Nettsted: [huggingface.co/papers](https://huggingface.co/papers).",
     "tags": [
       "ki",
+      "huggingface",
       "forskningskilde"
     ],
     "alias": [
@@ -9444,6 +9494,7 @@
     "forklaring": "Amerikansk KI-selskap som utvikler Claude. Publiserer egen forskning, særlig om sikkerhet og tolkbarhet. Industriforskning: Selskapet vurderer egne produkter.",
     "tags": [
       "ki",
+      "anthropic",
       "aktør"
     ]
   },
@@ -9633,6 +9684,7 @@
     "forklaring": "Hugging Faces flerspråklige datasett med filtrert tekst fra nettet. Del av Aurora 2604.",
     "tags": [
       "ki",
+      "huggingface",
       "datasett"
     ]
   },
@@ -9642,6 +9694,7 @@
     "forklaring": "Hugging Faces datasett med tekst hentet ut fra PDF-filer. Del av Aurora 2604.",
     "tags": [
       "ki",
+      "huggingface",
       "datasett"
     ]
   },
@@ -9744,6 +9797,7 @@
     "forklaring": "Nettside på Hugging Face der du kan prøve en modell i en demo. Flere av NBs talesyntesemodeller finnes bare som Space, ikke som modell du kan laste ned.",
     "tags": [
       "ki",
+      "huggingface",
       "tjeneste"
     ],
     "alias": [
@@ -9871,6 +9925,7 @@
     "tags": [
       "ki",
       "asr",
+      "kblab",
       "modell"
     ]
   },
@@ -9880,6 +9935,7 @@
     "forklaring": "Datalaboratoriet ved Kungliga biblioteket i Sverige, NBs svenske motstykke. Lager svenske språk- og talemodeller.",
     "tags": [
       "ki",
+      "kblab",
       "aktør"
     ],
     "alias": [
@@ -10018,7 +10074,6 @@
     "tags": [
       "ki",
       "asr",
-      "openai",
       "verktøy"
     ]
   },
@@ -10090,6 +10145,7 @@
     "tags": [
       "ki",
       "llm",
+      "anthropic",
       "modell"
     ]
   },
@@ -10264,7 +10320,6 @@
     "forklaring": "Et menneske kan overvåke, forstå og overstyre et KI-system, og godkjenner det som faktisk blir registrert. Krav til høyrisikosystemer i KI-forordningen, artikkel 14.",
     "tags": [
       "ki",
-      "personvern",
       "begrep"
     ],
     "alias": [
@@ -10309,6 +10364,7 @@
     "forklaring": "JavaScript-bibliotek fra Meta for å lage brukergrensesnitt i nettleseren.",
     "tags": [
       "programmering",
+      "meta",
       "verktøy"
     ]
   },
