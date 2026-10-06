@@ -31,7 +31,7 @@ export interface CheatSheetCategory {
 }
 
 export interface ArticleImage {
-  src: string         // path relative to BASE_URL, e.g. "articles/sharepoint-automasjon/01.png"
+  src: string         // path relative to BASE_URL, e.g. "articles/viva-learning-sharepoint/01-dataflow.png"
   alt: string         // screen-reader description
   bildetekst: string  // caption explaining what the image shows
   kreditering: string // source / credit line

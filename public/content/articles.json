@@ -898,100 +898,6 @@
     "beskrivelse": "Områder, sider og automatisering",
     "artikler": [
       {
-        "id": "sharepoint-automasjon-2026",
-        "tittel": "Automatisering i SharePoint: Arbeidsflyter uten kode",
-        "ingress": "Innebygde arbeidsflyter, hurtigsteg, godkjenninger og skjemaer du tar i bruk uten kode.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "sharepoint",
-        "tags": [
-          "sharepoint",
-          "automasjon",
-          "arbeidsflyt",
-          "godkjenning",
-          "hurtigsteg",
-          "skjema"
-        ],
-        "steg": [
-          {
-            "tittel": "Arbeidsflyter, hurtigsteg og skjemaer uten kode",
-            "innhold": "SharePoint har fått innebygde verktøy for arbeidsflyter, hurtigsteg, godkjenninger og skjemaer, satt opp uten kode.",
-            "bilde": {
-              "src": "articles/sharepoint-automasjon/01-banner.jpg",
-              "alt": "Promobilde for SharePoint Showcase, januar 2026.",
-              "bildetekst": "Promobilde for SharePoint Showcase, januar 2026.",
-              "kreditering": "Kilde: Microsoft Tech Community (John Mighell, 29. januar 2026)."
-            }
-          },
-          {
-            "tittel": "Arbeidsflyter rett i SharePoint og Teams",
-            "innhold": "Den oppdaterte arbeidsflyt-opplevelsen er bygget direkte inn i SharePoint og Teams med samme grensesnitt på begge steder. Du får ferdige maler for vanlige scenarier, som **varsler ved nye filer**, **ukentlige påminnelser** og **prosjektoppdateringer**, uten kode.",
-            "bilde": {
-              "src": "articles/sharepoint-automasjon/02-arbeidsflyter.png",
-              "alt": "Skjermbilde av Workflows-panelet i SharePoint med malforslag og aktive arbeidsflyter.",
-              "bildetekst": "Workflows-panelet med ferdige maler og oversikt over aktive arbeidsflyter.",
-              "kreditering": "Kilde: Microsoft Tech Community."
-            }
-          },
-          {
-            "tittel": "Veiledet oppsett: Fra idé til handling",
-            "innhold": "Kontekstavhengige meldinger fyller automatisk inn områder, biblioteker og lister når du setter opp en ny arbeidsflyt. Oppsettet går raskere og er enklere å vedlikeholde.",
-            "bilde": {
-              "src": "articles/sharepoint-automasjon/03-veiledet.png",
-              "alt": "Skjermbilde av veiledet arbeidsflyt-oppsett i Mad-Lib-stil med utfylte felt.",
-              "bildetekst": "Veiledet oppsett i Mad-Lib-stil. Feltene er forhåndsutfylt fra konteksten.",
-              "kreditering": "Kilde: Microsoft Tech Community."
-            }
-          },
-          {
-            "tittel": "Hurtigtrinn: Knapper for vanlige handlinger",
-            "innhold": "**Hurtigtrinn** er handlingsknapper som kjører forhåndsdefinert logikk på markerte elementer, uten kode. Du lager dem under **Integrer** → **Hurtigtrinn**. Du kan opprette egne handlinger, basere logikken på metadata og sette betingelser for når knappen skal vises.",
-            "bilde": {
-              "src": "articles/sharepoint-automasjon/04-hurtigsteg.png",
-              "alt": "Skjermbilde av en SharePoint-liste med Hurtigsteg-knapper i rutenettvisningen.",
-              "bildetekst": "Hurtigsteg-knapper integrert direkte i listevisningen.",
-              "kreditering": "Kilde: Microsoft Tech Community."
-            }
-          },
-          {
-            "tittel": "Eksempler på hurtigtrinn",
-            "innhold": "Hurtigtrinn dekker mange typiske scenarier: Oppdater statusfelt, varsle ansvarlig person, send påminnelser eller flytt elementer mellom lister. Knappene er synlige i listevisningen og kan grupperes etter behov.",
-            "bilde": {
-              "src": "articles/sharepoint-automasjon/05-hurtigsteg-eksempler.png",
-              "alt": "Skjermbilde med flere eksempler på Hurtigsteg-handlinger.",
-              "bildetekst": "Eksempler på handlinger Hurtigsteg kan utføre på listeelementer.",
-              "kreditering": "Kilde: Microsoft Tech Community."
-            }
-          },
-          {
-            "tittel": "Innebygde godkjenninger",
-            "innhold": "Godkjenningsflyt er forenklet til en bryter. Du kan sette **standardgodkjennere**, støtte flere godkjenningssteg og spore status direkte i konteksten der elementet ligger.",
-            "bilde": {
-              "src": "articles/sharepoint-automasjon/06-godkjenninger.png",
-              "alt": "Skjermbilde av godkjenningsoppsett med standardgodkjennere og flerstegs-flyt.",
-              "bildetekst": "Godkjenningsoppsett med standardgodkjennere. Én bryter for å aktivere.",
-              "kreditering": "Kilde: Microsoft Tech Community."
-            }
-          },
-          {
-            "tittel": "Skjemaer for innhold og metadata",
-            "innhold": "Skjemaer fanger inn riktig informasjon allerede ved innsending. Konsekvent metadata, korrekt ruting, riktige arbeidsflyter starter automatisk.",
-            "bilde": {
-              "src": "articles/sharepoint-automasjon/07-skjemaer.png",
-              "alt": "Skjermbilde av skjemaopprettelse med felt for innhold og metadata.",
-              "bildetekst": "Skjemaer som fanger inn både innhold og metadata ved innsending.",
-              "kreditering": "Kilde: Microsoft Tech Community."
-            }
-          }
-        ],
-        "relaterte": [
-          "sharepoint-prosessdokumentasjon-visio",
-          "lists-hendelseslogg",
-          "planner-enkel-oppgavestyring",
-          "sharepoint-dokumentbehandling-ki"
-        ],
-        "endret": "2026-10-07"
-      },
-      {
         "id": "sharepoint-dokumentbehandling-ki",
         "tittel": "Dokumentbehandling med KI: Autofyll, oversettelse og signering",
         "ingress": "Dokumentbehandling for Microsoft 365 lar SharePoint lese filene dine, fylle ut kolonner, oversette og hente signaturer.",
@@ -1050,7 +956,6 @@
         ],
         "relaterte": [
           "sharepoint-metadata",
-          "sharepoint-automasjon-2026",
           "folsomhetsetiketter",
           "teams-som-arbeidsflate"
         ],
@@ -1174,7 +1079,6 @@
           }
         ],
         "relaterte": [
-          "sharepoint-automasjon-2026",
           "fra-filserver-til-sharepoint",
           "folsomhetsetiketter"
         ],
