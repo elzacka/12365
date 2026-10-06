@@ -235,58 +235,61 @@ export function HowTo() {
             </button>
           </div>
         ) : (
-          <div className="space-y-5">
+          <div className="space-y-4">
             {categories.map(cat => (
-              <section key={cat.id} aria-labelledby={`cat-${cat.id}`}>
-                <div className="mb-2 px-1">
-                  <h2 id={`cat-${cat.id}`} className="text-sm font-semibold text-slate-500 uppercase tracking-wider">
-                    {cat.tittel}
-                  </h2>
-                </div>
-                <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-                  {cat.artikler.map((article, idx) => (
-                    <Link
-                      key={article.id}
-                      to={`/slik-gjor-du/${cat.id}/${article.id}`}
-                      state={query.trim() ? { query: query.trim() } : undefined}
-                      className={`relative flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group ${
-                        idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''
-                      }`}
-                    >
-                      <div className="flex-1 min-w-0">
-                        <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
-                          {article.laast && (
-                            <>
-                              <LockIcon size={13} className="shrink-0 text-slate-400" />
-                              <UntestedWarning />
-                            </>
-                          )}
-                          <span>{article.tittel}</span>
-                        </p>
-                        <p className="text-xs text-slate-500 mt-0.5 leading-snug line-clamp-2">
-                          {article.ingress}
-                        </p>
-                        {article.tags.length > 0 && activeTag && (
-                          <div className="flex flex-wrap gap-1 mt-1.5">
-                            {article.tags.map(tag => (
-                              <span
-                                key={tag}
-                                className={`text-xs px-1.5 py-0.5 rounded-full ${
-                                  activeTag === tag
-                                    ? 'bg-brand-200 text-brand-900'
-                                    : 'bg-slate-100 text-slate-500'
-                                }`}
-                              >
-                                {tag}
-                              </span>
-                            ))}
-                          </div>
+              <section
+                key={cat.id}
+                aria-labelledby={`cat-${cat.id}`}
+                className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden"
+              >
+                <h2
+                  id={`cat-${cat.id}`}
+                  className="px-4 py-2.5 bg-slate-50/70 border-b border-slate-100 text-xs font-semibold text-brand-600 uppercase tracking-wider"
+                >
+                  {cat.tittel}
+                </h2>
+                {cat.artikler.map((article, idx) => (
+                  <Link
+                    key={article.id}
+                    to={`/slik-gjor-du/${cat.id}/${article.id}`}
+                    state={query.trim() ? { query: query.trim() } : undefined}
+                    className={`relative flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500 ${
+                      idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''
+                    }`}
+                  >
+                    <div className="flex-1 min-w-0">
+                      <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
+                        {article.laast && (
+                          <>
+                            <LockIcon size={13} className="shrink-0 text-slate-400" />
+                            <UntestedWarning />
+                          </>
                         )}
-                      </div>
-                      <ChevronRightIcon size={18} className="text-slate-300 flex-shrink-0 group-hover:text-brand-500 transition-colors" />
-                    </Link>
-                  ))}
-                </div>
+                        <span>{article.tittel}</span>
+                      </p>
+                      <p className="text-xs text-slate-500 mt-0.5 leading-snug line-clamp-2">
+                        {article.ingress}
+                      </p>
+                      {article.tags.length > 0 && activeTag && (
+                        <div className="flex flex-wrap gap-1 mt-1.5">
+                          {article.tags.map(tag => (
+                            <span
+                              key={tag}
+                              className={`text-xs px-1.5 py-0.5 rounded-full ${
+                                activeTag === tag
+                                  ? 'bg-brand-200 text-brand-900'
+                                  : 'bg-slate-100 text-slate-500'
+                              }`}
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                    <ChevronRightIcon size={18} className="text-slate-300 flex-shrink-0 group-hover:text-brand-500 transition-colors" />
+                  </Link>
+                ))}
               </section>
             ))}
           </div>
