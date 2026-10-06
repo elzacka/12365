@@ -2978,7 +2978,7 @@
     "id": "agi",
     "tittel": "Kunstig generell intelligens",
     "undertittel": "AGI",
-    "forklaring": "Visjon om menneskelignende, generell maskinell intelligens – foreløpig ikke realisert, i motsetning til smal KI som bare løser én definert oppgave.",
+    "forklaring": "KI som er minst like god som mennesker på de fleste kognitive oppgaver – i motsetning til smal KI, som løser én bestemt oppgave. Det finnes ingen felles definisjon, og fagfolk er uenige om dagens store språkmodeller allerede er AGI.",
     "tags": [
       "ki",
       "begrep"
