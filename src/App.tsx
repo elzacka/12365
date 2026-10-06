@@ -1,5 +1,5 @@
 import { lazy, Suspense, useLayoutEffect, useState, ViewTransition } from 'react'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
 import { InstallCard } from './components/InstallCard'
@@ -12,10 +12,16 @@ import { HowTo } from './pages/HowTo'
 import { ArticlePage } from './pages/ArticlePage'
 import { Opplaering } from './pages/Opplaering'
 import { Licenses } from './pages/Licenses'
-import { Ordbok } from './pages/Ordbok'
+import { Oppslagsverk } from './pages/Oppslagsverk'
 
 // Lazy-loaded: pulls in media-chrome, which shouldn't ship in the main bundle for routes that never play video.
 const VideoPage = lazy(() => import('./pages/VideoPage').then(m => ({ default: m.VideoPage })))
+
+// Keeps ?o=<id> so shared links to the old /ordbok path still open the entry.
+function RedirectKeepingSearch({ to }: { to: string }) {
+  const { search, hash } = useLocation()
+  return <Navigate to={{ pathname: to, search, hash }} replace />
+}
 
 function Loading() {
   return (
@@ -37,7 +43,7 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/om-appen') return { title: 'Om appen', showHome: true, showBack: false }
   if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: true, backTo: '/om-appen' }
   if (pathname === '/lisenser') return { title: 'Hva følger med i E5-lisensen?', showHome: true, showBack: false }
-  if (pathname === '/ordbok') return { title: 'Ordbok', showHome: true, showBack: false }
+  if (pathname === '/oppslagsverk') return { title: 'Oppslagsverk', showHome: true, showBack: false }
   return { showHome: true, showBack: false }
 }
 
@@ -72,7 +78,8 @@ function AppRoutes() {
             <Route path="/om-appen" element={<AboutApp />} />
             <Route path="/personvern" element={<Privacy />} />
             <Route path="/lisenser" element={<Licenses />} />
-            <Route path="/ordbok" element={<Ordbok />} />
+            <Route path="/oppslagsverk" element={<Oppslagsverk />} />
+            <Route path="/ordbok" element={<RedirectKeepingSearch to="/oppslagsverk" />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>

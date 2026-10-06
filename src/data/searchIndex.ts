@@ -1,5 +1,5 @@
 import MiniSearch from 'minisearch'
-import type { Ord } from '../types'
+import type { Oppslag } from '../types'
 import { stripLinks } from '../lib/inline'
 
 // Diakritikkfjerning gjør at "polsomhet" matcher "Følsomhetsetikett" og
@@ -21,7 +21,7 @@ export interface IndexedOrd {
   tags: string
 }
 
-export function buildIndex(ord: Ord[]): MiniSearch<IndexedOrd> {
+export function buildIndex(ord: Oppslag[]): MiniSearch<IndexedOrd> {
   const mini = new MiniSearch<IndexedOrd>({
     fields: ['tittel', 'undertittel', 'alias', 'forklaring', 'tags'],
     storeFields: ['id'],
@@ -96,13 +96,13 @@ function isAcronymCandidate(q: string): boolean {
   return u.length >= 2 && u.length <= 8
 }
 
-function tittelInitialsMatch(o: Ord, q: string): boolean {
+function tittelInitialsMatch(o: Oppslag, q: string): boolean {
   if (!isAcronymCandidate(q)) return false
   const u = q.replace(/[^A-Za-z0-9]/g, '').toUpperCase()
   return initials(o.tittel) === u
 }
 
-function hasAliasInitialsMatch(o: Ord, q: string): boolean {
+function hasAliasInitialsMatch(o: Oppslag, q: string): boolean {
   if (!isAcronymCandidate(q)) return false
   const u = q.replace(/[^A-Za-z0-9]/g, '').toUpperCase()
   for (const a of o.alias ?? []) {
@@ -118,7 +118,7 @@ function hasAliasInitialsMatch(o: Ord, q: string): boolean {
 // initialene som utgjør akronymet – slik at "GDPR" prioriterer
 // "Personvernforordningen" (alias "General Data Protection Regulation")
 // og "KI" prioriterer "Kunstig intelligens" (tittel-initialene matcher).
-function exactScore(o: Ord, q: string): number {
+function exactScore(o: Oppslag, q: string): number {
   if (!q) return 0
   const qNorm = q.toLowerCase().trim()
   if (!qNorm) return 0
@@ -143,7 +143,7 @@ function exactScore(o: Ord, q: string): number {
   return 0
 }
 
-function buildHaystack(o: Ord): string {
+function buildHaystack(o: Oppslag): string {
   return [
     o.tittel,
     o.undertittel ?? '',
@@ -157,9 +157,9 @@ function buildHaystack(o: Ord): string {
 
 export function searchOrd(
   mini: MiniSearch<IndexedOrd>,
-  byId: Map<string, Ord>,
+  byId: Map<string, Oppslag>,
   raw: string,
-): Ord[] {
+): Oppslag[] {
   const trimmed = raw.trim()
   if (!trimmed) return []
 
@@ -171,7 +171,7 @@ export function searchOrd(
   let withScore = hits.map(h => {
     const o = byId.get(String(h.id))
     return o ? { o, miniScore: h.score ?? 0 } : null
-  }).filter((x): x is { o: Ord; miniScore: number } => !!x)
+  }).filter((x): x is { o: Oppslag; miniScore: number } => !!x)
 
   // Sitert frase må forekomme bokstavelig i ett av feltene.
   if (parsed.phrases.length > 0) {

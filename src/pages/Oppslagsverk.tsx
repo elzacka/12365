@@ -1,12 +1,12 @@
 import { useState, useMemo, useEffect, use, useCallback, useRef } from 'react'
-import { fetchOrdbok } from '../data/loader'
+import { fetchOppslagsverk } from '../data/loader'
 import { buildIndex, searchOrd } from '../data/searchIndex'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { SearchIcon, CloseIcon, ChevronRightIcon } from '../components/Icons'
 import { SearchShortcutHint } from '../components/SearchShortcutHint'
 import { parseInline, stripLinks } from '../lib/inline'
-import type { Ord } from '../types'
+import type { Oppslag } from '../types'
 
 const SEARCH_WORDS = ['ord', 'beskrivelse', 'emneknagg']
 
@@ -19,14 +19,14 @@ function normalizeForCompare(s: string): string {
   return s.toLowerCase().replace(/[^a-zæøå0-9]/g, '')
 }
 
-function visibleAliases(ord: Ord): string[] {
+function visibleAliases(ord: Oppslag): string[] {
   if (!ord.alias) return []
   const titNorm = normalizeForCompare(ord.tittel)
   return ord.alias.filter(a => normalizeForCompare(a) !== titNorm)
 }
 
-export function Ordbok() {
-  const ord = use(fetchOrdbok())
+export function Oppslagsverk() {
+  const ord = use(fetchOppslagsverk())
   const [query, setQuery] = useState('')
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
@@ -38,7 +38,7 @@ export function Ordbok() {
   const byId = useMemo(() => new Map(ord.map(o => [o.id, o])), [ord])
 
   // Read ?o=<id> once when first rendering with data. Validated against
-  // current ordbok so a stale link doesn't expand a phantom row.
+  // current oppslagsverk so a stale link doesn't expand a phantom row.
   const initialExpandedId = useMemo<string | null>(() => {
     if (typeof window === 'undefined') return null
     const o = new URLSearchParams(window.location.search).get('o')
@@ -94,12 +94,12 @@ export function Ordbok() {
     return allTags.has(q) ? q : null
   }, [query, allTags, activeTag])
 
-  const filteredByTag = useMemo<Ord[]>(() => {
+  const filteredByTag = useMemo<Oppslag[]>(() => {
     if (!activeTag) return ord
     return ord.filter(o => o.tags.includes(activeTag))
   }, [ord, activeTag])
 
-  const results = useMemo<Ord[] | null>(() => {
+  const results = useMemo<Oppslag[] | null>(() => {
     const trimmed = query.trim()
     if (!trimmed) return null
 
@@ -119,7 +119,7 @@ export function Ordbok() {
   }, [query, index, byId, activeTag, ord])
 
   const grouped = useMemo(() => {
-    const map = new Map<string, Ord[]>()
+    const map = new Map<string, Oppslag[]>()
     for (const o of filteredByTag) {
       const key = firstLetter(o.tittel)
       const bucket = map.get(key)
@@ -131,7 +131,7 @@ export function Ordbok() {
       .map(([letter, items]) => [
         letter,
         [...items].sort((a, b) => a.tittel.localeCompare(b.tittel, 'nb')),
-      ] as [string, Ord[]])
+      ] as [string, Oppslag[]])
   }, [filteredByTag])
 
   const handleExpand = useCallback((id: string) => {
@@ -170,7 +170,7 @@ export function Ordbok() {
               spellCheck={false}
               inputMode="search"
               className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
-              aria-label="Søk i ordboken"
+              aria-label="Søk i oppslagsverket"
             />
             {query ? (
               <button
@@ -190,7 +190,7 @@ export function Ordbok() {
               type="button"
               onClick={() => setShowHelp(v => !v)}
               aria-expanded={showHelp}
-              aria-controls="ordbok-tips"
+              aria-controls="oppslagsverk-tips"
               className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600 transition-colors"
             >
               Veiledning
@@ -203,7 +203,7 @@ export function Ordbok() {
 
           {showHelp && (
             <div
-              id="ordbok-tips"
+              id="oppslagsverk-tips"
               className="mt-1 bg-white rounded-xl border border-slate-200 shadow-sm px-4 py-3"
             >
               <div className="space-y-3 text-xs">
@@ -211,9 +211,9 @@ export function Ordbok() {
                   <p className="text-slate-400 font-medium mb-1.5">I søkefeltet, eksempler:</p>
                   <div className="space-y-2">
                     {([
-                      { kode: 'S', beskrivelse: 'viser alle ord som begynner med S' },
-                      { kode: 'metadata', beskrivelse: 'viser alle ord med «metadata» i tittel eller forklaring' },
-                      { kode: 'teams', beskrivelse: 'viser alle ord med emneknaggen #teams' },
+                      { kode: 'S', beskrivelse: 'viser alle oppslag som begynner med S' },
+                      { kode: 'metadata', beskrivelse: 'viser alle oppslag med «metadata» i tittel eller forklaring' },
+                      { kode: 'teams', beskrivelse: 'viser alle oppslag med emneknaggen #teams' },
                     ] as const).map(({ kode, beskrivelse }) => (
                       <div key={kode} className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
                         <code className="font-mono bg-slate-100 text-slate-700 rounded px-1 py-0.5 whitespace-nowrap">
@@ -226,7 +226,7 @@ export function Ordbok() {
                 </div>
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-400 font-medium mb-1.5">I listen</p>
-                  <p className="text-slate-500">Klikk på et ord for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere.</p>
+                  <p className="text-slate-500">Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere.</p>
                 </div>
               </div>
             </div>
@@ -243,14 +243,14 @@ export function Ordbok() {
           >
             <span className="text-brand-500">#</span>
             <span>
-              Vis alle ord merket <strong className="font-semibold">{tagShortcut}</strong>
+              Vis alle oppslag merket <strong className="font-semibold">{tagShortcut}</strong>
             </span>
           </button>
         )}
 
         {activeTag && (
           <div className="mb-4 flex items-center gap-2 text-xs">
-            <span className="text-slate-500">Viser ord merket</span>
+            <span className="text-slate-500">Viser oppslag merket</span>
             <button
               onClick={clearActiveTag}
               className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-brand-100 text-brand-800 hover:bg-brand-200 transition-colors"
@@ -267,7 +267,7 @@ export function Ordbok() {
             <div className="text-center py-16 text-slate-500">
               <p className="text-base mb-1">
                 Fant ikke <em>«{query}»</em>
-                {activeTag && <> blant ord merket <em>{activeTag}</em></>}
+                {activeTag && <> blant oppslag merket <em>{activeTag}</em></>}
               </p>
               <button
                 onClick={() => {
@@ -276,7 +276,7 @@ export function Ordbok() {
                 }}
                 className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
               >
-                Vis hele ordboken
+                Vis hele oppslagsverket
               </button>
             </div>
           ) : (
@@ -284,7 +284,7 @@ export function Ordbok() {
               <p className="sr-only" aria-live="polite">
                 {results.length} treff
               </p>
-              <OrdList
+              <OppslagList
                 ord={results}
                 expandedId={expandedId}
                 onExpand={handleExpand}
@@ -298,13 +298,13 @@ export function Ordbok() {
             {grouped.length === 0 ? (
               <div className="text-center py-16 text-slate-500">
                 <p className="text-base mb-1">
-                  Ingen ord merket <em>{activeTag}</em>
+                  Ingen oppslag merket <em>{activeTag}</em>
                 </p>
                 <button
                   onClick={clearActiveTag}
                   className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
                 >
-                  Vis hele ordboken
+                  Vis hele oppslagsverket
                 </button>
               </div>
             ) : (
@@ -319,7 +319,7 @@ export function Ordbok() {
                         {letter}
                       </h2>
                     </div>
-                    <OrdList
+                    <OppslagList
                       ord={items}
                       expandedId={expandedId}
                       onExpand={handleExpand}
@@ -332,7 +332,7 @@ export function Ordbok() {
             )}
 
             <p className="text-xs text-slate-500 text-center mt-6">
-              {filteredByTag.length} {filteredByTag.length === 1 ? 'ord' : 'ord'}
+              {filteredByTag.length} oppslag
               {activeTag && ' i denne kategorien'}
             </p>
           </>
@@ -349,7 +349,7 @@ export function Ordbok() {
               key={letter}
               href={`#grp-${letter}`}
               className="text-xs text-slate-500 hover:text-brand-700 w-5 h-5 flex items-center justify-center transition-colors"
-              aria-label={`Hopp til ord som starter med ${letter}`}
+              aria-label={`Hopp til oppslag som starter med ${letter}`}
             >
               {letter}
             </a>
@@ -360,19 +360,19 @@ export function Ordbok() {
   )
 }
 
-interface OrdListProps {
-  ord: Ord[]
+interface OppslagListProps {
+  ord: Oppslag[]
   expandedId: string | null
   onExpand: (id: string) => void
   onTagClick: (tag: string) => void
   activeTag: string | null
 }
 
-function OrdList({ ord, expandedId, onExpand, onTagClick, activeTag }: OrdListProps) {
+function OppslagList({ ord, expandedId, onExpand, onTagClick, activeTag }: OppslagListProps) {
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
       {ord.map((o, idx) => (
-        <OrdRow
+        <OppslagRow
           key={o.id}
           ord={o}
           isExpanded={expandedId === o.id}
@@ -386,8 +386,8 @@ function OrdList({ ord, expandedId, onExpand, onTagClick, activeTag }: OrdListPr
   )
 }
 
-interface OrdRowProps {
-  ord: Ord
+interface OppslagRowProps {
+  ord: Oppslag
   isExpanded: boolean
   onExpand: (id: string) => void
   onTagClick: (tag: string) => void
@@ -395,7 +395,7 @@ interface OrdRowProps {
   withBorder: boolean
 }
 
-function OrdRow({ ord, isExpanded, onExpand, onTagClick, activeTag, withBorder }: OrdRowProps) {
+function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTag, withBorder }: OppslagRowProps) {
   const previewText = useMemo(() => {
     const firstLine = stripLinks(ord.forklaring.split('\n')[0])
     return firstLine.length > 140 ? firstLine.slice(0, 140).trim() + '…' : firstLine
@@ -461,7 +461,7 @@ function OrdRow({ ord, isExpanded, onExpand, onTagClick, activeTag, withBorder }
                     }`}
                     aria-pressed={isActive}
                     aria-label={
-                      isActive ? `Fjern filter ${tag}` : `Vis alle ord merket ${tag}`
+                      isActive ? `Fjern filter ${tag}` : `Vis alle oppslag merket ${tag}`
                     }
                   >
                     <span aria-hidden="true" className={isActive ? 'opacity-60' : 'opacity-35'}>#</span>

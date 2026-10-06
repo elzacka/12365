@@ -1,7 +1,7 @@
 {
   "name": "12365",
   "private": true,
-  "version": "1.1.1",
+  "version": "1.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,9 +13,9 @@
     "icons:build": "node scripts/build-icons.mjs",
     "icons:fetch": "node scripts/fetch-icons.mjs",
     "lock": "node scripts/lock-content.mjs",
-    "ordbok:gen": "node scripts/generate-ordbok.mjs",
-    "predev": "node scripts/generate-ordbok.mjs",
-    "prebuild": "node scripts/generate-ordbok.mjs"
+    "oppslagsverk:gen": "node scripts/generate-oppslagsverk.mjs",
+    "predev": "node scripts/generate-oppslagsverk.mjs",
+    "prebuild": "node scripts/generate-oppslagsverk.mjs"
   },
   "dependencies": {
     "media-chrome": "^4.19.2",

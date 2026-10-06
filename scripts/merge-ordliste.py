@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Merge entries from Ordliste.md into ordbok.json.
+Merge entries from Ordliste.md into oppslagsverk.json.
 Also patches a few aliases on existing entries.
 """
 import json, copy
 
-with open('public/content/ordbok.json', encoding='utf-8') as f:
+with open('public/content/oppslagsverk.json', encoding='utf-8') as f:
     data = json.load(f)
 
 # ── Patch existing entries ────────────────────────────────────────────────────
@@ -741,7 +741,7 @@ merged = data + NEW
 merged.sort(key=lambda e: e['tittel'].lower().replace('æ','ae').replace('ø','oe').replace('å','aa'))
 
 # ── Write ─────────────────────────────────────────────────────────────────────
-with open('public/content/ordbok.json', 'w', encoding='utf-8') as f:
+with open('public/content/oppslagsverk.json', 'w', encoding='utf-8') as f:
     json.dump(merged, f, ensure_ascii=False, indent=2)
     f.write('\n')
 

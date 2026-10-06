@@ -2352,7 +2352,7 @@
     "id": "instruksjonsmodell",
     "tittel": "Instruksjonsmodell",
     "undertittel": "instruct-modell",
-    "forklaring": "Språkmodell trent til å følge instruksjoner og svare hjelpsomt i dialog, til forskjell fra en ren basemodell.",
+    "forklaring": "Språkmodell som er etterbehandlet til å følge instruksjoner og svare hjelpsomt i dialog, til forskjell fra en ren basismodell.",
     "tags": [
       "ki",
       "llm",
@@ -2360,7 +2360,9 @@
     ],
     "alias": [
       "Instruction-tuned model",
-      "instruct model"
+      "instruct model",
+      "Instruksjonstilpasset modell",
+      "Instruction-tuned (IT)"
     ]
   },
   {
@@ -5135,7 +5137,10 @@
     ],
     "alias": [
       "Sensitive personopplysninger",
-      "Special categories of personal data"
+      "Special categories of personal data",
+      "Sensitive opplysninger",
+      "Sensitive data",
+      "Special category data"
     ]
   },
   {
@@ -5312,19 +5317,6 @@
       "ki",
       "personvern",
       "begrep"
-    ]
-  },
-  {
-    "id": "sensitive-opplysninger",
-    "tittel": "Sensitive opplysninger",
-    "forklaring": "Særlige kategorier av personopplysninger som krever ekstra vern – helsedata, religion, fagforeningsmedlemskap, seksuell orientering, etnisitet og biometri.",
-    "tags": [
-      "personvern",
-      "begrep"
-    ],
-    "alias": [
-      "Sensitive data",
-      "special category data"
     ]
   },
   {
@@ -7473,20 +7465,6 @@
       "ki",
       "huggingface",
       "aktør"
-    ]
-  },
-  {
-    "id": "instruksjonstilpasset-modell",
-    "tittel": "Instruksjonstilpasset modell",
-    "forklaring": "Basismodell som er etterbehandlet til å følge instruksjoner og svare i dialog.",
-    "tags": [
-      "ki",
-      "llm",
-      "begrep"
-    ],
-    "alias": [
-      "Instruction-tuned (IT)",
-      "IT"
     ]
   },
   {

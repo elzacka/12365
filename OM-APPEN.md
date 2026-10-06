@@ -7,7 +7,7 @@ Jeg ville ha et sted å samle ting jeg trenger. Formulert på en måte som gir m
 Innhold:
 
 - hva M365-appene gjør, hva som skiller dem og hvordan de spiller sammen
-- praktiske fremgangsmåter, ordbok, videoer jeg har laget og kursinnhold fra andre kilder
+- praktiske fremgangsmåter, oppslagsverk, videoer jeg har laget og kursinnhold fra andre kilder
 - oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring
 
 Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med AI. AI kan bomme, og jeg kan overse noe. Jeg retter eventuelle feil fortløpende.

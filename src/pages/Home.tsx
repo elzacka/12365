@@ -48,9 +48,9 @@ export function Home() {
           color="bg-brand-700"
         />
         <NavCard
-          to="/ordbok"
+          to="/oppslagsverk"
           icon={<SearchIcon size={24} />}
-          title="Ordbok"
+          title="Oppslagsverk"
           color="bg-brand-700"
         />
         <NavCard

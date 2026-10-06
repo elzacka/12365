@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Merge the table in dev_only/Ordliste_ki-modeller_en-tabell.md into
-public/content/ordbok.json.
+public/content/oppslagsverk.json.
 
 Column mapping (decided by the table header):
   Ord                          -> tittel
@@ -10,7 +10,7 @@ Column mapping (decided by the table header):
   Engelsk (Også)                -> alias (plus the acronym in parentheses, if any)
   Forklaring                    -> forklaring
 
-Rows whose term already exists in ordbok.json (by title or alias) are not
+Rows whose term already exists in oppslagsverk.json (by title or alias) are not
 added; the existing entry keeps its explanation and gets the glossary's
 Norwegian term, English term and tags as extras.
 
@@ -20,7 +20,7 @@ import json
 import re
 
 SOURCE = 'dev_only/Ordliste_ki-modeller_en-tabell.md'
-TARGET = 'public/content/ordbok.json'
+TARGET = 'public/content/oppslagsverk.json'
 BASE_TAGS = ['ki', 'modell']
 
 # Glossary terms whose existing entry cannot be found by title or alias.
@@ -28,7 +28,7 @@ OVERRIDES = {'KI': 'kunstig-intelligens'}
 
 # The glossary was written for a standalone document; two rows refer to it.
 REWORD = {
-    'i denne oversikten': 'i denne ordboken',
+    'i denne oversikten': 'i dette oppslagsverket',
     'i hele stakken': 'blant NBs modeller',
 }
 

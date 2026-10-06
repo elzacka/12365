@@ -1,4 +1,4 @@
-// Parses dev_only/ordbok.md and writes public/content/ordbok.json.
+// Parses dev_only/oppslagsverk.md and writes public/content/oppslagsverk.json.
 // Source MD is a three-column table: | Ord | Forklaring | Tags |.
 // When the first cell is an acronym followed by a parenthesised fullform
 // ("AGI (kunstig generell intelligens)"), the parser swaps so the fullform
@@ -10,8 +10,8 @@ import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const SOURCE = resolve(ROOT, 'dev_only/ordbok.md')
-const TARGET = resolve(ROOT, 'public/content/ordbok.json')
+const SOURCE = resolve(ROOT, 'dev_only/oppslagsverk.md')
+const TARGET = resolve(ROOT, 'public/content/oppslagsverk.json')
 
 // Tags that should be unified before write. Keeps search and grouping
 // consistent across rows where the editor used either form.
@@ -116,12 +116,12 @@ function parseTable(md) {
 }
 
 function main() {
-  // dev_only/ordbok.md er gitignored og ligger bare lokalt. På CI
+  // dev_only/oppslagsverk.md er gitignored og ligger bare lokalt. På CI
   // (GitHub Actions, Pages) finnes den ikke – da bruker vi den
-  // commiterte public/content/ordbok.json som er. Samme mønster som
+  // commiterte public/content/oppslagsverk.json som er. Samme mønster som
   // locked-content-kilden.
   if (!existsSync(SOURCE)) {
-    console.log(`ordbok.md ikke funnet – beholder eksisterende ordbok.json`)
+    console.log(`oppslagsverk.md ikke funnet – beholder eksisterende oppslagsverk.json`)
     return
   }
   const md = readFileSync(SOURCE, 'utf-8')
@@ -183,22 +183,22 @@ function main() {
   }
 
   if (errors.length) {
-    console.error('Feil i ordbok.md:')
+    console.error('Feil i oppslagsverk.md:')
     for (const e of errors) console.error('  -', e)
     process.exit(1)
   }
 
   if (unknownTags.size > 0) {
     console.warn(
-      `ordbok.md: ukjente tags brukt: ${[...unknownTags].join(', ')} ` +
-      `(legg dem til i KNOWN_TAGS i generate-ordbok.mjs hvis bevisst).`,
+      `oppslagsverk.md: ukjente tags brukt: ${[...unknownTags].join(', ')} ` +
+      `(legg dem til i KNOWN_TAGS i generate-oppslagsverk.mjs hvis bevisst).`,
     )
   }
 
   ord.sort((a, b) => a.tittel.localeCompare(b.tittel, 'nb', { sensitivity: 'base' }))
 
   writeFileSync(TARGET, JSON.stringify(ord, null, 2) + '\n')
-  console.log(`ordbok.json: ${ord.length} ord`)
+  console.log(`oppslagsverk.json: ${ord.length} oppslag`)
 }
 
 main()
