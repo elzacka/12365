@@ -242,12 +242,12 @@ export function HowTo() {
                 aria-labelledby={`cat-${cat.id}`}
                 className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden"
               >
-                <h2
-                  id={`cat-${cat.id}`}
-                  className="px-4 pt-3.5 pb-3 bg-slate-50/70 border-b border-slate-100 text-base font-semibold text-brand-700 leading-snug"
-                >
-                  {cat.tittel}
-                </h2>
+                <div className="flex items-center gap-3 px-4 pt-4 pb-1">
+                  <h2 id={`cat-${cat.id}`} className="text-[15px] font-semibold text-brand-700 leading-snug">
+                    {cat.tittel}
+                  </h2>
+                  <span aria-hidden="true" className="h-px flex-1 bg-slate-200" />
+                </div>
                 {cat.artikler.map((article, idx) => (
                   <Link
                     key={article.id}
