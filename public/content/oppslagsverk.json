@@ -1416,6 +1416,21 @@
     ]
   },
   {
+    "id": "dots",
+    "tittel": "Dots",
+    "forklaring": "OpenAIs KI-agenter som jobber døgnet rundt mot mål du setter, også når du ikke følger med. Hver dot har sin egen datamaskin i skyen med nettleser, bruker GPT-6 Astra og kobler seg til over 4 000 apper gjennom programtillegg. Du bestemmer hva den gjør selv, hva den spør om først og hva den aldri gjør. Du snakker med den i ChatGPT, Slack og Teams. Lansert 29.09.26 for ChatGPT Pro og Business Premium. Per 06.10.26 har ikke Pro-brukere i EØS, Sveits og Storbritannia tilgang. OpenAI og Microsoft arbeider med å styre spesialiserte dots i Agent 365.",
+    "tags": [
+      "ki",
+      "openai",
+      "tjeneste"
+    ],
+    "alias": [
+      "OpenAI Dots",
+      "Always-on agent",
+      "Specialist dots"
+    ]
+  },
+  {
     "id": "dpo",
     "tittel": "Direct Preference Optimization",
     "undertittel": "DPO",
@@ -8188,7 +8203,7 @@
   {
     "id": "openai",
     "tittel": "OpenAI",
-    "forklaring": "Utvikler Whisper, grunnlaget for NB-Whisper.",
+    "forklaring": "Utvikler GPT-modellene, ChatGPT, Codex, Dots og Whisper, grunnlaget for NB-Whisper.",
     "tags": [
       "ki",
       "openai",
@@ -10124,6 +10139,22 @@
     ],
     "alias": [
       "gpt-4.1-mini"
+    ]
+  },
+  {
+    "id": "gpt-6-astra",
+    "tittel": "GPT-6 Astra",
+    "forklaring": "Språkmodell som OpenAI lanserte i september 2026, og modellen bak Dots. Finnes i ChatGPT, Codex og OpenAIs API, og i Microsoft Azure og Amazon Bedrock.",
+    "tags": [
+      "ki",
+      "openai",
+      "llm",
+      "modell"
+    ],
+    "alias": [
+      "gpt-6-astra",
+      "GPT-6",
+      "Astra"
     ]
   },
   {
