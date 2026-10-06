@@ -1177,64 +1177,6 @@
         "endret": "2026-10-07"
       },
       {
-        "id": "teams-admin-oppsett",
-        "tittel": "Administrator: Hva IT-avdelingen setter opp sentralt",
-        "ingress": "IT-avdelingen definerer rammeverket alle eiere og brukere opererer innenfor.",
-        "oppdatert": "Oppdatert: 11.08.26",
-        "kategori": "teams",
-        "tags": [
-          "administrator",
-          "IT",
-          "policyer",
-          "livsløp",
-          "følsomhetsetiketter",
-          "termlager",
-          "DLP",
-          "governance"
-        ],
-        "steg": [
-          {
-            "tittel": "Styr hvem som kan opprette team",
-            "innhold": "Som standard kan alle med lisens opprette team. Uten begrensning vokser antallet ustrukturerte og navnerotet team raskt.\n\nTo tilnærminger:\n\n◦ **Begrenset opprettelse**: Begrens hvem som kan opprette Microsoft 365-grupper i Microsoft Entra ID, til en sikkerhetsgruppe, f.eks. alle avdelingsledere. Alle team er Microsoft 365-grupper.\n◦ **Åpen opprettelse med rammer**: Alle kan opprette team, men navnekonvensjoner og livsløpspolicyer sikrer orden.\n\n*Hvert team oppretter automatisk én Microsoft 365-gruppe, ett SharePoint-nettsted og én postboks – planlegg kapasitet og navnerom deretter.*"
-          },
-          {
-            "tittel": "Navnekonvensjoner og Teams-maler",
-            "innhold": "◦ **Prefiks/suffiks-policyer**: Konfigurer i Microsoft Entra ID. Setter f.eks. «Avd-» eller «[-Innlandet]» automatisk foran eller bak teamnavnet.\n◦ **Teams-maler**: Forhåndsdefinert kanalstruktur, apper og faneoppsett. Publiser maler per avdelingstype, f.eks. «Prosjektmal», «Seksjonmal» eller «Driftsteam».\n\n*Prefiks-policyer fra Entra ID gjelder ikke for administratorroller som global administrator og brukeradministrator.*"
-          },
-          {
-            "tittel": "Følsomhetsetiketter: Purview-oppsett og publisering",
-            "innhold": "◦ Opprett **etiketthierarkiet** i Microsoft Purview-portalen\n◦ **Publiser etiketter til grupper** – ikke alle ansatte trenger tilgang til alle etiketter\n◦ Etiketten teameier velger for teamet **arves av SharePoint-nettstedet** og styrer delingsinnstillinger\n◦ Sett en **standardetikett per SharePoint-bibliotek** – nye filer får etiketten automatisk\n◦ Bruk **automatisk etikettering** for å identifisere og merke filer med SSN, IBAN eller annen sensitiv informasjon – uten at brukeren gjør noe\n\n*For brukerperspektivet på etiketter: Se veiledningen om følsomhetsetiketter.*"
-          },
-          {
-            "tittel": "Termlager: Metadata for hele organisasjonen",
-            "innhold": "Termlageret i SharePoint er den sentrale kilden for begreper som skal gjelde på tvers.\n\n◦ Konfigurer det i termlageret i **SharePoint Admin Center** (Content services → Term store)\n◦ Begrepsett du publiserer til termlageret kan kanaleiere bruke i bibliotekets kolonner – uten å kontakte IT\n◦ Bruk termlager for begreper med fast gyldighetsomfang: Prosjektnummer, dokumenttype, avdeling, prosess\n◦ Enkle tekst- og tallkolonner som bare gjelder ett bibliotek er kanaleiernes ansvar\n\n*Et godt termlager gjør Copilot bedre. Strukturerte metadata er mer presise søkedata enn fritekst i filnavn.*"
-          },
-          {
-            "tittel": "DLP og oppbevaringsregler",
-            "innhold": "◦ **DLP-policyer** (Data Loss Prevention): Blokkerer eller varsler ved deling av sensitiv informasjon – personnummer, helseopplysninger, kortdata. Konfigurer i Purview.\n◦ **Oppbevaringsregler**: Behold eller slett innhold etter X år. Sett per SharePoint-nettsted, per følsomhetsetikett eller per team. Delte kanaler arver teamets regler.\n◦ Reglene gjelder alltid – uavhengig av hva eiere og brukere gjør.\n\n*Oppbevaringsregler kan komme i konflikt med offentlighetsloven og arkivloven. Koordiner med arkivfaglig ansvarlig i organisasjonen.*"
-          },
-          {
-            "tittel": "Ekstern deling og gjestetilgang",
-            "innhold": "◦ **Gjestetilgang til team**: Slå av/på per organisasjon i Teams-admin-senteret. Teameier kan deretter åpne for gjester per team – innenfor rammen IT har satt.\n◦ **Delte kanaler**: B2B-direktetilkobling via Entra ID. Gjesten trenger ikke gjestkonto i din tenant. Krever tillitskonfigurasjon mellom tenantene.\n◦ **SharePoint-ekstern deling**: Sett nivå i SharePoint Admin Center – fra «ingen ekstern deling» til «hvem som helst med lenke».\n\nBegrens ekstern deling til det organisasjonen har dokumentert behov for."
-          },
-          {
-            "tittel": "Livsløpsstyring: Utløp og fornyelse",
-            "innhold": "◦ Konfigurer **utløpspolicyer for Microsoft 365-grupper** i Microsoft Entra ID\n◦ Anbefalte intervaller: 6 eller 12 måneder – eier får e-postvarsel og fornyer med ett klikk\n◦ Grupper med aktivitet fornyes automatisk. En gruppe som ikke fornyes, slettes dagen etter at den utløper, og kan gjenopprettes i 30 dager.\n◦ Team uten aktive eiere varsler IT – innhold uten ansvarlig eier er en informasjonsforvaltningsrisiko\n\n*Livsløpspolicyer hindrer at hundrevis av «sovende» team tetter igjen søket og Copilots datagrunnlag.*"
-          },
-          {
-            "tittel": "Rolleoversikt: Hvem gjør hva",
-            "innhold": "◦ **Administrator (IT)**: Etiketthierarki, DLP, navnekonvensjoner, livsløpspolicyer, ekstern delingstillatelse, termlager, Teams-maler, hvem som kan opprette team\n◦ **Teameier**: Etikett-valg for teamet, kanalstruktur, hvem som er eier og medlem, nettstedkolonner, teaminnstillinger\n◦ **Kanaleier**: Kolonner og standardverdier i SharePoint-biblioteket for kanalen, faneoppsett, moderering\n◦ **Bruker**: Etikett på enkeltfil innenfor teamets etikett, fyller inn metadata ved lagring"
-          }
-        ],
-        "relaterte": [
-          "teams-eierskap",
-          "kanal-arkivering",
-          "folsomhetsetiketter",
-          "sharepoint-metadata"
-        ],
-        "endret": "2026-10-07"
-      },
-      {
         "id": "teams-eierskap",
         "tittel": "Teameier: Fra oppretting til avslutning",
         "ingress": "Teameieren eier rammeverket alle i teamet jobber innenfor – og er ansvarlig for at det holdes i orden.",
@@ -1284,7 +1226,6 @@
           }
         ],
         "relaterte": [
-          "teams-admin-oppsett",
           "kanal-arkivering",
           "kanaltyper",
           "folsomhetsetiketter"
@@ -1338,7 +1279,6 @@
         ],
         "relaterte": [
           "teams-eierskap",
-          "teams-admin-oppsett",
           "sharepoint-metadata",
           "folsomhetsetiketter"
         ],
