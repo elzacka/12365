@@ -79,10 +79,8 @@ function parseQuery(raw: string): ParsedQuery {
   return { phrases, terms, combineWith }
 }
 
-// Initialene av en streng. "General Data Protection Regulation" → "GDPR",
-// "Kunstig intelligens" → "KI". Brukes for å gjenkjenne at fullformen
-// (i tittel eller alias) er den utskrevne formen av et akronym brukeren
-// søker på.
+// "General Data Protection Regulation" → "GDPR": matches a searched acronym
+// to its full form in tittel or alias.
 function initials(s: string): string {
   return s
     .split(/[\s-]+/)
@@ -111,13 +109,9 @@ function hasAliasInitialsMatch(o: Oppslag, q: string): boolean {
   return false
 }
 
-// Eksakte treff vinner over alle MiniSearch-score. Når brukeren skriver
-// "AI" eller "MFA" eller "Kunstig intelligens" som er nøyaktig en tittel,
-// undertittel eller alias, skal det treffet stå øverst. For akronymer
-// boostes også den oppføringen der tittel eller alias-fullformen har
-// initialene som utgjør akronymet – slik at "GDPR" prioriterer
-// "Personvernforordningen" (alias "General Data Protection Regulation")
-// og "KI" prioriterer "Kunstig intelligens" (tittel-initialene matcher).
+// Exact matches on tittel, undertittel or alias outrank any MiniSearch score.
+// An acronym also boosts the entry whose full form has those initials,
+// so "GDPR" ranks "Personvernforordningen" first.
 function exactScore(o: Oppslag, q: string): number {
   if (!q) return 0
   const qNorm = q.toLowerCase().trim()

@@ -1,9 +1,6 @@
-// Parses dev_only/oppslagsverk.md and writes public/content/oppslagsverk.json.
-// Source MD is a three-column table: | Ord | Forklaring | Tags |.
-// When the first cell is an acronym followed by a parenthesised fullform
-// ("AGI (kunstig generell intelligens)"), the parser swaps so the fullform
-// becomes the canonical tittel and the acronym becomes the undertittel –
-// keeps the alphabetical browse rooted in plain Norwegian per klarspråk.
+// Parses dev_only/oppslagsverk.md (| Ord | Forklaring | Tags |) into oppslagsverk.json.
+// "AGI (kunstig generell intelligens)" becomes tittel = full form, undertittel = acronym,
+// so the alphabetical list is sorted by plain Norwegian.
 
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
@@ -116,10 +113,7 @@ function parseTable(md) {
 }
 
 function main() {
-  // dev_only/oppslagsverk.md er gitignored og ligger bare lokalt. På CI
-  // (GitHub Actions, Pages) finnes den ikke – da bruker vi den
-  // commiterte public/content/oppslagsverk.json som er. Samme mønster som
-  // locked-content-kilden.
+  // The source is gitignored and absent on CI: keep the committed JSON as is.
   if (!existsSync(SOURCE)) {
     console.log(`oppslagsverk.md ikke funnet – beholder eksisterende oppslagsverk.json`)
     return

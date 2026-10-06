@@ -1,7 +1,5 @@
-// Type interfaces. Field names mirror the JSON content shape and intentionally
-// stay in Norwegian so content authors editing the JSON files see the same
-// vocabulary in code and data. Interface/type names and code identifiers are
-// in English per the global English-only code rule.
+// Field names mirror the JSON content and stay Norwegian, so content authors
+// see the same vocabulary in code and data.
 
 export interface FlipCard {
   navn: string
@@ -133,11 +131,8 @@ export interface E5LicenseOverview {
   kategorier: LicenseCategory[]
 }
 
-// Én oppføring i oppslagsverket. Redigeres i public/content/oppslagsverk.json
-// eller genereres fra dev_only/oppslagsverk.md via scripts/generate-oppslagsverk.mjs. Akronymer flyttes til `undertittel` av
-// parseren, så `tittel` alltid er fullformen. Aliaser (engelsk navn,
-// alternative former) gjør at samme ord finnes ved flere søketermer
-// uten å være egne rader.
+// `tittel` is the full form, an acronym goes in `undertittel`. `alias` makes
+// an entry findable by other names without a row of its own.
 export interface Oppslag {
   id: string
   tittel: string
