@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import { Markdown } from './markdown'
+import { stripLinks } from './inline'
 
 function renderMarkdown(source: string) {
   return render(
@@ -64,5 +65,10 @@ describe('Markdown', () => {
   it('keeps single line breaks inside a paragraph', () => {
     const { container } = renderMarkdown('linje 1\nlinje 2')
     expect(container.querySelectorAll('br')).toHaveLength(1)
+  })
+
+  it('stripLinks keeps only the link label', () => {
+    expect(stripLinks('Nettsted: [epoch.ai](https://epoch.ai/).')).toBe('Nettsted: epoch.ai.')
+    expect(stripLinks('Uten lenke.')).toBe('Uten lenke.')
   })
 })

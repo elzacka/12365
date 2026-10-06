@@ -5,6 +5,7 @@ import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { SearchIcon, CloseIcon, ChevronRightIcon } from '../components/Icons'
 import { SearchShortcutHint } from '../components/SearchShortcutHint'
+import { parseInline, stripLinks } from '../lib/inline'
 import type { Ord } from '../types'
 
 const SEARCH_WORDS = ['ord', 'beskrivelse', 'emneknagg']
@@ -396,7 +397,7 @@ interface OrdRowProps {
 
 function OrdRow({ ord, isExpanded, onExpand, onTagClick, activeTag, withBorder }: OrdRowProps) {
   const previewText = useMemo(() => {
-    const firstLine = ord.forklaring.split('\n')[0]
+    const firstLine = stripLinks(ord.forklaring.split('\n')[0])
     return firstLine.length > 140 ? firstLine.slice(0, 140).trim() + '…' : firstLine
   }, [ord.forklaring])
 
@@ -431,7 +432,7 @@ function OrdRow({ ord, isExpanded, onExpand, onTagClick, activeTag, withBorder }
               .map(l => l.trim())
               .filter(Boolean)
               .map((line, i) => (
-                <p key={i}>{line}</p>
+                <p key={i}>{parseInline(line)}</p>
               ))}
           </div>
           {(() => {

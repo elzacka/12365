@@ -1,5 +1,6 @@
 import MiniSearch from 'minisearch'
 import type { Ord } from '../types'
+import { stripLinks } from '../lib/inline'
 
 // Diakritikkfjerning gjør at "polsomhet" matcher "Følsomhetsetikett" og
 // "kunstig" matcher det samme uavhengig av store/små bokstaver.
@@ -42,7 +43,7 @@ export function buildIndex(ord: Ord[]): MiniSearch<IndexedOrd> {
       tittel: o.tittel,
       undertittel: o.undertittel ?? '',
       alias: (o.alias ?? []).join(' '),
-      forklaring: o.forklaring,
+      forklaring: stripLinks(o.forklaring),
       tags: o.tags.join(' '),
     }))
   )
