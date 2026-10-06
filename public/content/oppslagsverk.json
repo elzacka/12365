@@ -54,6 +54,20 @@
     ]
   },
   {
+    "id": "ai-fluency",
+    "tittel": "AI Fluency",
+    "forklaring": "Evnen til å bruke KI målrettet, effektivt, etisk og trygt. Rammeverket fra Rick Dakan og Joseph Feller, utviklet sammen med Anthropic, beskriver fire kjerneferdigheter (4D): Delegation (avgjøre hva du gjør med KI, og hva du gjør selv), Description (kommunisere godt med KI-systemer), Discernment (vurdere svarene fra KI kritisk) og Diligence (sørge for at samarbeidet med KI er ansvarlig). Ferdighetene gjelder i alle de tre samarbeidsformene Automation, Augmentation og Agency. Nettsted: [aifluencyframework.org](https://aifluencyframework.org).",
+    "tags": [
+      "ki",
+      "anthropic",
+      "begrep"
+    ],
+    "alias": [
+      "AI Fluency Framework",
+      "4D-rammeverket"
+    ]
+  },
+  {
     "id": "akseptkriterier",
     "tittel": "Akseptkriterier",
     "forklaring": "Kriterier som resultatene av risikoanalysen sammenholdes med for å avgjøre om sikkerhetsmåelzacka er nådd. Fastsettes typisk av øverste ledelse og hentes fra risikorammeverket.",
@@ -300,6 +314,17 @@
     ],
     "alias": [
       "Automation"
+    ]
+  },
+  {
+    "id": "automation-augmentation-agency",
+    "tittel": "Automation, Augmentation og Agency",
+    "undertittel": "AI Fluency",
+    "forklaring": "De tre måtene du kan jobbe med KI på i AI Fluency-rammeverket: Automation (KI-en utfører bestemte oppgaver etter instruksjonene dine), Augmentation (du og KI-en samarbeider om å tenke kreativt og løse oppgaver) og Agency (du styrer KI-en til å jobbe selvstendig på dine vegne ved å forme hva den vet og hvordan den oppfører seg, ikke hver enkelt handling).",
+    "tags": [
+      "ki",
+      "anthropic",
+      "begrep"
     ]
   },
   {
@@ -1930,7 +1955,7 @@
   {
     "id": "generativ-ki",
     "tittel": "Generativ KI",
-    "forklaring": "KI som produserer nytt innhold – tekst, bilde, lyd, video eller kode – basert på store treningsdata.",
+    "forklaring": "KI som lager nytt innhold – tekst, bilde, lyd, video eller kode – i stedet for bare å analysere eksisterende data. Tradisjonell KI kan sortere e-post som søppelpost eller ikke, mens generativ KI kan skrive en ny e-post for deg.",
     "tags": [
       "ki",
       "begrep"
@@ -2576,7 +2601,8 @@
     ],
     "alias": [
       "AI agent",
-      "agentic AI"
+      "agentic AI",
+      "Agent"
     ]
   },
   {
@@ -3853,7 +3879,7 @@
     "id": "mcp",
     "tittel": "Model Context Protocol",
     "undertittel": "MCP",
-    "forklaring": "Åpen standard som lar KI-modeller koble seg til eksterne verktøy og datakilder på en enhetlig måte.",
+    "forklaring": "Åpen standard som lar KI-modeller koble seg til eksterne verktøy og datakilder på en enhetlig måte. Anthropic laget standarden og ga den i desember 2025 til Agentic AI Foundation. Nettsted: [modelcontextprotocol.io](https://modelcontextprotocol.io).",
     "tags": [
       "ki",
       "programmering",
@@ -4219,7 +4245,7 @@
     "id": "parameter",
     "tittel": "Parameter",
     "undertittel": "KI",
-    "forklaring": "Justerbar tallverdi inne i en modell – antallet parametre brukes som mål på modellens størrelse.",
+    "forklaring": "Justerbar tallverdi inne i en modell som bestemmer hvordan den behandler informasjon, litt som koblingene mellom nervecellene i hjernen. Antallet parametre brukes som mål på modellens størrelse.",
     "tags": [
       "ki",
       "begrep"
@@ -5800,7 +5826,7 @@
     "id": "llm",
     "tittel": "Stor språkmodell",
     "undertittel": "LLM",
-    "forklaring": "KI-type trent på enorme tekstmengder for å forstå og produsere språk – motoren bak f.eks. ChatGPT og Copilot.",
+    "forklaring": "Fremtredende type generativ KI, trent på enorme tekstmengder for å forutsi og produsere menneskelig språk. «Stor» fordi modellen har milliarder av parametre. Motoren bak for eksempel Claude, ChatGPT og Copilot.",
     "tags": [
       "ki",
       "llm",
@@ -6663,19 +6689,6 @@
     ]
   },
   {
-    "id": "zero-shot-og-few-shot",
-    "tittel": "Zero-shot og few-shot",
-    "forklaring": "I hvilken grad brukeren gir modellen eksempler i prompten – zero-shot uten eksempler, few-shot med noen få for å vise mønsteret.",
-    "tags": [
-      "ki",
-      "metode"
-    ],
-    "alias": [
-      "Zero-shot learning",
-      "few-shot learning"
-    ]
-  },
-  {
     "id": "agent-registry",
     "tittel": "Agent Registry",
     "forklaring": "Sentralt register over organisasjonens KI-agenter – grunnlag for inventar, styring og sikkerhetskontroll i Agent 365.",
@@ -6944,7 +6957,9 @@
       "metode"
     ],
     "alias": [
-      "Orchestration"
+      "Orchestration",
+      "Orchestration layer",
+      "Multi-agentic orchestration"
     ]
   },
   {
@@ -7314,7 +7329,9 @@
       "begrep"
     ],
     "alias": [
-      "Eval set"
+      "Eval set",
+      "Eval",
+      "Evals"
     ]
   },
   {
@@ -7340,18 +7357,6 @@
     ],
     "alias": [
       "F1 score"
-    ]
-  },
-  {
-    "id": "fa-skudds-laering",
-    "tittel": "Få-skudds-læring",
-    "forklaring": "Du viser noen ferdige eksempler i ledeteksten. Ingen trening skjer.",
-    "tags": [
-      "ki",
-      "metode"
-    ],
-    "alias": [
-      "Few-shot"
     ]
   },
   {
@@ -8112,18 +8117,6 @@
       "llm",
       "norwai",
       "modell"
-    ]
-  },
-  {
-    "id": "null-skudd",
-    "tittel": "Null-skudd",
-    "forklaring": "Du gir bare instruksjonen, uten eksempler.",
-    "tags": [
-      "ki",
-      "metode"
-    ],
-    "alias": [
-      "Zero-shot"
     ]
   },
   {
@@ -9754,7 +9747,8 @@
     ],
     "alias": [
       "Checkpoint"
-    ]
+    ],
+    "undertittel": "modelltrening"
   },
   {
     "id": "modellsignering",
@@ -10119,12 +10113,18 @@
   {
     "id": "claude",
     "tittel": "Claude",
-    "forklaring": "Anthropics modellfamilie og KI-assistent.",
+    "forklaring": "Anthropics modellfamilie og KI-assistent. Modellene kommer i nivåer: Haiku er raskest, Sonnet balanserer fart og evne, Opus er standardvalget for krevende arbeid, og Fable er for det mest krevende. Per 06.10.26: Fable 5.1, Opus 5.5, Sonnet 5.5 og Haiku 4.5. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/about-claude/models/overview).",
     "tags": [
       "ki",
       "llm",
       "anthropic",
       "modell"
+    ],
+    "alias": [
+      "Opus",
+      "Sonnet",
+      "Haiku",
+      "Fable"
     ]
   },
   {
@@ -10436,6 +10436,497 @@
       "Location data",
       "Posisjonsdata",
       "Stedsdata"
+    ]
+  },
+  {
+    "id": "zero-shot-prompting",
+    "tittel": "Zero-shot-prompting",
+    "forklaring": "Du gir modellen bare en instruksjon, uten eksempler på svaret du vil ha. Raskt og bruker få tokens, men gir mindre kontroll over format og stil.",
+    "tags": [
+      "ki",
+      "llm",
+      "metode"
+    ],
+    "alias": [
+      "Zero-shot",
+      "Zero-shot prompting",
+      "Null-skudd"
+    ]
+  },
+  {
+    "id": "few-shot-prompting",
+    "tittel": "Few-shot-prompting",
+    "forklaring": "Du viser modellen noen få eksempler på spørsmål og svar i prompten før selve oppgaven. Modellen følger mønsteret uten at vektene endres. Gir jevnere format og stil enn zero-shot. Med bare ett eksempel heter det one-shot. Nettsted: [arxiv.org/abs/2005.14165](https://arxiv.org/abs/2005.14165).",
+    "tags": [
+      "ki",
+      "llm",
+      "metode"
+    ],
+    "alias": [
+      "Few-shot",
+      "Few-shot prompting",
+      "Multishot prompting",
+      "One-shot prompting",
+      "In-context learning",
+      "Få-skudds-læring"
+    ]
+  },
+  {
+    "id": "few-shot-learning",
+    "tittel": "Few-shot learning",
+    "forklaring": "Maskinlæring der modellen trenes til å kjenne igjen nye klasser ut fra svært få merkede eksempler per klasse. Vektene endres, i motsetning til ved few-shot-prompting.",
+    "tags": [
+      "ki",
+      "metode"
+    ],
+    "alias": [
+      "Few-shot-læring"
+    ]
+  },
+  {
+    "id": "zero-shot-learning",
+    "tittel": "Zero-shot learning",
+    "forklaring": "Maskinlæring der modellen kjenner igjen klasser den aldri har sett eksempler på, ut fra beskrivelser av klassene. Zero-shot-prompting bygger på samme idé.",
+    "tags": [
+      "ki",
+      "metode"
+    ],
+    "alias": [
+      "Zero-shot-læring"
+    ]
+  },
+  {
+    "id": "agents-md",
+    "tittel": "AGENTS.md",
+    "forklaring": "Åpent format for en Markdown-fil i kodeprosjektet med instruksjoner til kodeagenter: Hvordan prosjektet bygges og testes, og hvilke konvensjoner som gjelder. Forvaltes av Agentic AI Foundation. CLAUDE.md er den tilsvarende filen for Claude Code. Nettsted: [agents.md](https://agents.md).",
+    "tags": [
+      "ki",
+      "programmering",
+      "format"
+    ],
+    "alias": [
+      "Agents.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "id": "agentic-ai-foundation",
+    "tittel": "Agentic AI Foundation",
+    "undertittel": "AAIF",
+    "forklaring": "Stiftelse under Linux Foundation som forvalter åpne standarder for KI-agenter, blant annet MCP og AGENTS.md. Opprettet i desember 2025. Nettsted: [aaif.io](https://aaif.io).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "AAIF",
+      "Linux Foundation"
+    ]
+  },
+  {
+    "id": "claude-code",
+    "tittel": "Claude Code",
+    "forklaring": "Anthropics kodeagent. Leser kodebasen, endrer filer og kjører kommandoer, i terminalen, i VS Code og JetBrains, i skrivebordsappen og på nettet. Nettsted: [code.claude.com](https://code.claude.com/docs/en/overview).",
+    "tags": [
+      "ki",
+      "programmering",
+      "anthropic",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "codex",
+    "tittel": "Codex",
+    "forklaring": "OpenAIs kodeagent, som kommandolinjeverktøy med åpen kildekode, utvidelse for kodeeditorer, skrivebordsapp og skyagent som leverer pull requests. Codex er også navnet på en GPT-modell fra 2021 som var trent på kode og drev den første GitHub Copilot. Nettsted: [github.com/openai/codex](https://github.com/openai/codex).",
+    "tags": [
+      "ki",
+      "programmering",
+      "openai",
+      "verktøy"
+    ],
+    "alias": [
+      "Codex CLI",
+      "Codex Web",
+      "OpenAI Codex"
+    ]
+  },
+  {
+    "id": "swe-bench",
+    "tittel": "SWE-bench",
+    "forklaring": "Benchmark med ekte saker fra GitHub-prosjekter i Python: Modellen eller agenten skal rette feilen slik at prosjektets tester består. Laget ved Princeton. Varianter er blant annet Verified med 500 manuelt kontrollerte oppgaver. SWE-Bench Pro fra Scale AI er en større og vanskeligere egen benchmark. Nettsted: [swebench.com](https://www.swebench.com).",
+    "tags": [
+      "ki",
+      "programmering",
+      "datasett"
+    ],
+    "alias": [
+      "SWE-bench Verified",
+      "SWE-Bench Pro"
+    ]
+  },
+  {
+    "id": "ralph-wiggum-lokke",
+    "tittel": "Ralph Wiggum-løkke",
+    "forklaring": "Teknikk der en kodeagent får samme prompt om og om igjen i en løkke, mens fremdriften lagres i filer og git. Tester viser agenten hva som fortsatt feiler. Navnet kommer fra Geoffrey Huntley i 2025, og teknikken finnes som tillegg til Claude Code. Nettsted: [ghuntley.com/ralph](https://ghuntley.com/ralph/).",
+    "tags": [
+      "ki",
+      "programmering",
+      "metode"
+    ],
+    "alias": [
+      "Ralph Wiggum loop",
+      "Ralph loop",
+      "ralph-loop"
+    ]
+  },
+  {
+    "id": "tool-search",
+    "tittel": "Tool search",
+    "forklaring": "Teknikk der modellen leter frem og laster bare verktøyene den trenger, i stedet for å få alle verktøydefinisjonene inn i kontekstvinduet fra start. Sparer plass når en agent har mange MCP-verktøy. Anthropic la det til i Claude API i november 2025. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool).",
+    "tags": [
+      "ki",
+      "llm",
+      "anthropic",
+      "metode"
+    ],
+    "alias": [
+      "Tool search tool",
+      "Verktøysøk"
+    ]
+  },
+  {
+    "id": "context-engineering",
+    "tittel": "Context engineering",
+    "forklaring": "Arbeidet med å velge hvilken informasjon modellen har i kontekstvinduet til enhver tid: Systemprompt, verktøy, eksterne data og samtalehistorikk. Målet er minst mulig tekst med mest mulig nytte. Bredere enn prompt engineering. Nettsted: [anthropic.com/engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents).",
+    "tags": [
+      "ki",
+      "llm",
+      "metode"
+    ],
+    "alias": [
+      "Kontekststyring"
+    ]
+  },
+  {
+    "id": "compaction",
+    "tittel": "Compaction",
+    "forklaring": "Modellen oppsummerer eldre deler av samtalen og erstatter dem med sammendraget når kontekstvinduet nærmer seg fullt. Claude Code gjør det automatisk og med kommandoen /compact. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/build-with-claude/compaction).",
+    "tags": [
+      "ki",
+      "llm",
+      "metode"
+    ],
+    "alias": [
+      "Kontekstkomprimering",
+      "/compact"
+    ]
+  },
+  {
+    "id": "effektivt-kontekstvindu",
+    "tittel": "Effektivt kontekstvindu",
+    "forklaring": "Hvor mye tekst en modell faktisk håndterer godt. Det er ofte mye mindre enn kontekstvinduet modellen oppgir, fordi svarene blir mindre pålitelige jo mer tekst modellen får. Fenomenet kalles context rot og måles blant annet med RULER fra NVIDIA. Nettsted: [trychroma.com/research/context-rot](https://www.trychroma.com/research/context-rot).",
+    "tags": [
+      "ki",
+      "llm",
+      "begrep"
+    ],
+    "alias": [
+      "Effective context window",
+      "Context rot",
+      "RULER"
+    ]
+  },
+  {
+    "id": "needle-in-a-haystack",
+    "tittel": "Needle in a haystack",
+    "forklaring": "Test der ett faktum gjemmes på ulike steder i en lang tekst, og modellen skal finne det igjen. Laget av Greg Kamradt i 2023. Måler bare enkel gjenfinning, så et godt resultat betyr ikke at modellen forstår lange tekster godt. Nettsted: [github.com/gkamradt](https://github.com/gkamradt/needle-in-a-haystack).",
+    "tags": [
+      "ki",
+      "llm",
+      "metode"
+    ],
+    "alias": [
+      "NIAH",
+      "Nål i høystakk"
+    ]
+  },
+  {
+    "id": "xml-tagger",
+    "tittel": "XML-tagger",
+    "forklaring": "Tagger som <instructions> og <context> som skiller delene av en prompt fra hverandre, slik at modellen lettere følger sammensatte instruksjoner. Anthropic anbefaler dem for Claude. Ikke det samme som tokens. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#structure-prompts-with-xml-tags).",
+    "tags": [
+      "ki",
+      "llm",
+      "metode"
+    ],
+    "alias": [
+      "XML tags",
+      "XML tokens"
+    ]
+  },
+  {
+    "id": "planmodus",
+    "tittel": "Planmodus",
+    "forklaring": "Arbeidsmåte i kodeagenter der agenten først leser koden og skriver en plan, og ikke endrer noe før du har godkjent planen. Finnes blant annet i Claude Code, Cursor og GitHub Copilot i VS Code. Nettsted: [code.claude.com](https://code.claude.com/docs/en/permission-modes).",
+    "tags": [
+      "ki",
+      "programmering",
+      "metode"
+    ],
+    "alias": [
+      "Plan mode",
+      "Agent action plan"
+    ]
+  },
+  {
+    "id": "bakgrunnsagent",
+    "tittel": "Bakgrunnsagent",
+    "forklaring": "Kodeagent som jobber selvstendig i et skymiljø mens du gjør noe annet, og leverer resultatet som en pull request eller kommer tilbake med spørsmål. Eksempler er Claude Code på nettet, Codex Web og Copilot cloud agent.",
+    "tags": [
+      "ki",
+      "programmering",
+      "begrep"
+    ],
+    "alias": [
+      "Background agent",
+      "Asynkron agent",
+      "Asynchronous execution",
+      "Cloud agent"
+    ]
+  },
+  {
+    "id": "blitzy",
+    "tittel": "Blitzy",
+    "forklaring": "Kommersiell plattform for autonom programvareutvikling. Gjør kodebasen om til en kunnskapsgraf og lar tusenvis av agenter planlegge, skrive og teste kode.",
+    "tags": [
+      "ki",
+      "programmering",
+      "tjeneste"
+    ]
+  },
+  {
+    "id": "bert",
+    "tittel": "Bidirectional Encoder Representations from Transformers",
+    "undertittel": "BERT",
+    "forklaring": "Googles språkmodell fra 2018. En encoder-modell som leser teksten i begge retninger samtidig. Brukes til klassifisering, spørsmål og svar og navngitte enheter, men lager ikke ny tekst. Grunnlaget for blant annet NB-BERT og NorBERT. Nettsted: [arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805).",
+    "tags": [
+      "ki",
+      "google",
+      "modell"
+    ]
+  },
+  {
+    "id": "gan",
+    "tittel": "Generative Adversarial Network",
+    "undertittel": "GAN",
+    "forklaring": "Modellarkitektur der to nevrale nettverk trenes mot hverandre: Generatoren lager falske data, og diskriminatoren prøver å skille dem fra ekte data. Introdusert av Ian Goodfellow og kolleger i 2014. Nettsted: [arxiv.org/abs/1406.2661](https://arxiv.org/abs/1406.2661).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "GANs",
+      "Generative adversarial networks"
+    ]
+  },
+  {
+    "id": "hybridsok",
+    "tittel": "Hybridsøk",
+    "forklaring": "Søk som kombinerer vanlig nøkkelordsøk og vektorsøk i samme spørring og slår sammen treffene. Gir både treff på eksakte ord og treff på liknende mening. Støttes blant annet av Azure AI Search. Nettsted: [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview).",
+    "tags": [
+      "ki",
+      "analyse",
+      "metode"
+    ],
+    "alias": [
+      "Hybrid search"
+    ]
+  },
+  {
+    "id": "kunnskapsgraf",
+    "tittel": "Kunnskapsgraf",
+    "forklaring": "Struktur som lagrer ting som noder og sammenhengene mellom dem som kanter, for eksempel at én funksjon kaller en annen. Gir KI-modeller presis kunnskap om sammenhenger, som i GraphRAG fra Microsoft. Nettsted: [microsoft.github.io/graphrag](https://microsoft.github.io/graphrag/).",
+    "tags": [
+      "ki",
+      "database",
+      "begrep"
+    ],
+    "alias": [
+      "Knowledge graph",
+      "GraphRAG"
+    ]
+  },
+  {
+    "id": "grafdatabase",
+    "tittel": "Grafdatabase",
+    "forklaring": "Database som lagrer data som noder, relasjoner og egenskaper i stedet for tabeller. Egner seg når sammenhengene er det viktigste, som avhengigheter i en kodebase. Neo4j er et kjent eksempel.",
+    "tags": [
+      "database",
+      "begrep"
+    ],
+    "alias": [
+      "Graph database"
+    ]
+  },
+  {
+    "id": "syklomatisk-kompleksitet",
+    "tittel": "Syklomatisk kompleksitet",
+    "forklaring": "Mål på hvor sammensatt kode er: Antallet uavhengige veier gjennom programmet. Høy verdi betyr at koden er vanskelig å teste og vedlikeholde. Definert av Thomas McCabe i 1976.",
+    "tags": [
+      "programmering",
+      "begrep"
+    ],
+    "alias": [
+      "Cyclomatic complexity"
+    ]
+  },
+  {
+    "id": "ide",
+    "tittel": "Integrert utviklingsmiljø",
+    "undertittel": "IDE",
+    "forklaring": "Program der utviklere skriver, kjører og feilsøker kode, for eksempel VS Code og JetBrains-verktøyene. KI-assistenter som GitHub Copilot og Claude Code kan bygges inn.",
+    "tags": [
+      "programmering",
+      "begrep"
+    ],
+    "alias": [
+      "IDE",
+      "Integrated Development Environment",
+      "Utviklingsmiljø"
+    ]
+  },
+  {
+    "id": "cli",
+    "tittel": "Kommandolinjegrensesnitt",
+    "undertittel": "CLI",
+    "forklaring": "Tekstbasert grensesnitt der du styrer et program ved å skrive kommandoer i en terminal. Flere kodeagenter, som Claude Code og Codex, kjører her.",
+    "tags": [
+      "programmering",
+      "begrep"
+    ],
+    "alias": [
+      "CLI",
+      "Command-line interface",
+      "Kommandolinje",
+      "Terminal"
+    ]
+  },
+  {
+    "id": "kodegjennomgang",
+    "tittel": "Kodegjennomgang",
+    "forklaring": "Gjennomgang av kodeendringer før de tas inn i prosjektet, for å finne feil og sikre kvalitet. Kan gjøres av mennesker, av KI-agenter eller av begge.",
+    "tags": [
+      "ki",
+      "programvareutvikling",
+      "metode"
+    ],
+    "alias": [
+      "Code review",
+      "Kodegranskning"
+    ]
+  },
+  {
+    "id": "pull-request",
+    "tittel": "Pull request",
+    "undertittel": "PR",
+    "forklaring": "Forespørsel om å slå kodeendringer sammen med hovedgrenen i et prosjekt, for eksempel på GitHub. Andre kan gjennomgå og kommentere endringene før de blir godtatt. Mange kodeagenter leverer arbeidet sitt som en pull request.",
+    "tags": [
+      "programvareutvikling",
+      "begrep"
+    ],
+    "alias": [
+      "PR",
+      "Merge request"
+    ]
+  },
+  {
+    "id": "multiagentsystem",
+    "tittel": "Multiagentsystem",
+    "forklaring": "System der flere KI-agenter med hver sin rolle samarbeider om en oppgave, for eksempel én som planlegger, én som skriver kode og én som tester. En orkestrator fordeler arbeidet.",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Multi-agent system",
+      "Multi-agentic",
+      "Agent swarm",
+      "Agentsverm",
+      "Subagent"
+    ]
+  },
+  {
+    "id": "rolleprompting",
+    "tittel": "Rolleprompting",
+    "forklaring": "Å gi modellen en rolle i systemprompten, for eksempel «Du er en erfaren sikkerhetsrevisor». Rollen påvirker hvilke ord og vurderinger modellen bruker. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#give-claude-a-role).",
+    "tags": [
+      "ki",
+      "llm",
+      "metode"
+    ],
+    "alias": [
+      "Role prompting",
+      "Agent persona",
+      "Persona"
+    ]
+  },
+  {
+    "id": "sandkasse",
+    "tittel": "Sandkasse",
+    "undertittel": "programvare",
+    "forklaring": "Avgrenset kjøremiljø der et program eller en agent kan kjøre kode uten tilgang til resten av maskinen eller nettet. Claude Code kan begrense kommandoene sine på denne måten. Nettsted: [code.claude.com](https://code.claude.com/docs/en/sandboxing).",
+    "tags": [
+      "ki",
+      "sikkerhet",
+      "begrep"
+    ],
+    "alias": [
+      "Sandbox",
+      "Sandboxed environment"
+    ]
+  },
+  {
+    "id": "sjekkpunkt-agent",
+    "tittel": "Sjekkpunkt",
+    "undertittel": "kodeagent",
+    "forklaring": "Lagret tilstand under en økt med en kodeagent, som du kan gå tilbake til hvis agenten gjør noe galt. Brukes også om planlagte pauser der et menneske kontrollerer arbeidet mot planen. Nettsted: [code.claude.com](https://code.claude.com/docs/en/checkpointing).",
+    "tags": [
+      "ki",
+      "programmering",
+      "begrep"
+    ],
+    "alias": [
+      "Checkpoint",
+      "Rewind"
+    ]
+  },
+  {
+    "id": "ki-assistert-utvikling",
+    "tittel": "KI-assistert utvikling",
+    "forklaring": "Programvareutvikling der KI-verktøy i editoren eller terminalen foreslår kode, forklarer og retter feil, mens utvikleren styrer og godkjenner hvert steg.",
+    "tags": [
+      "ki",
+      "programvareutvikling",
+      "begrep"
+    ],
+    "alias": [
+      "AI-assisted development",
+      "Kodeassistent"
+    ]
+  },
+  {
+    "id": "autonom-programvareutvikling",
+    "tittel": "Autonom programvareutvikling",
+    "forklaring": "Programvareutvikling der KI-agenter planlegger, skriver, tester og leverer kode med lite menneskelig inngripen, ofte som en pull request et menneske godkjenner til slutt.",
+    "tags": [
+      "ki",
+      "programvareutvikling",
+      "begrep"
+    ],
+    "alias": [
+      "Autonomous development",
+      "Agentic coding",
+      "Agentisk koding"
     ]
   }
 ]
