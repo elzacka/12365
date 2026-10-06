@@ -994,7 +994,7 @@
       {
         "id": "sharepoint-dokumentbehandling-ki",
         "tittel": "Dokumentbehandling med KI: Autofyll, oversettelse og signering",
-        "ingress": "Tjenestene som før het Syntex lar SharePoint lese filene dine, fylle ut kolonner, oversette og hente signaturer.",
+        "ingress": "Dokumentbehandling for Microsoft 365 lar SharePoint lese filene dine, fylle ut kolonner, oversette og hente signaturer.",
         "oppdatert": "Oppdatert: 22.09.26",
         "kategori": "sharepoint",
         "tags": [
@@ -1011,6 +1011,7 @@
         ],
         "alias": [
           "microsoft syntex",
+          "sharepoint syntex",
           "sharepoint premium",
           "document processing",
           "autofill columns",
@@ -1020,11 +1021,11 @@
         "steg": [
           {
             "tittel": "Fra kanalen til biblioteket",
-            "innhold": "Fanen **Delt** i en kanal er kanalens mappe i teamets dokumentbibliotek. KI-valgene ligger i SharePoint-visningen av biblioteket:\n\n1. Åpne kanalen og velg **Delt** øverst.\n2. Velg **Flere alternativer** (…) → **Åpne i SharePoint**.\n3. Biblioteket åpnes i nettleseren med full kommandolinje.\n\n*Merk: Du ser bare KI-valgene hvis IT-avdelingen har slått på tjenestene. De er betal-for-bruk og faktureres via et Azure-abonnement organisasjonen har koblet til.*"
+            "innhold": "Fanen **Delt** i en kanal er kanalens mappe i teamets dokumentbibliotek. KI-valgene ligger i SharePoint-visningen av biblioteket:\n\n1. Åpne kanalen og velg **Delt** øverst.\n2. Velg **Flere alternativer** (…) → **Åpne i SharePoint**.\n3. Biblioteket åpnes i nettleseren med full kommandolinje.\n\n*Merk: Tjenestene følger ikke med E5. Organisasjonen betaler per bruk via et Azure-abonnement, og du ser bare KI-valgene hvis IT-avdelingen har slått dem på.*"
           },
           {
             "tittel": "Hva tjenestene gjør",
-            "innhold": "Microsoft kaller dem **dokumentbehandlingstjenester**. Alle jobber på filene i biblioteket:\n\n◦ **Autofyll-kolonner**: En språkmodell leser filen og fyller ut kolonner du har definert.\n◦ **Dokumentoversettelse**: Lager en oversatt kopi med samme oppsett som originalen.\n◦ **eSignature**: Sender en PDF eller Word-fil til signering og lagrer den signerte kopien i biblioteket.\n◦ **Optisk tegngjenkjenning (OCR)**: Gjør tekst i bilder og skannede PDF-er finnbar i søk.\n◦ **Forhåndsbygde og egne modeller**: Kjenner igjen dokumenttyper som kontrakter og fakturaer og trekker ut feltverdier.\n◦ **Innholdssamling**: Genererer standarddokumenter fra en mal og verdier i en liste.\n\n*Autofyll, oversettelse og signering er det du bruker mest. Resten er oppsett IT eller en superbruker gjør én gang.*"
+            "innhold": "Microsoft samler dem under navnet **Dokumentbehandling for Microsoft 365**. Alle jobber på filene i biblioteket:\n\n◦ **Autofyll-kolonner**: En språkmodell leser filen og fyller ut kolonner du har definert.\n◦ **Dokumentoversettelse**: Lager en oversatt kopi med samme oppsett som originalen.\n◦ **eSignature**: Sender en PDF eller Word-fil til signering og lagrer den signerte kopien i biblioteket.\n◦ **Optisk tegngjenkjenning (OCR)**: Gjør tekst i bilder og skannede PDF-er finnbar i søk.\n◦ **Forhåndsbygde og egne modeller**: Kjenner igjen dokumenttyper som kontrakter og fakturaer og trekker ut feltverdier.\n◦ **Innholdssamling**: Genererer standarddokumenter fra en mal og verdier i en liste.\n\n*Autofyll, oversettelse og signering er det du bruker mest. Resten er oppsett IT eller en superbruker gjør én gang.*"
           },
           {
             "tittel": "Autofyll-kolonne: La KI fylle ut metadata",
@@ -1044,7 +1045,7 @@
           },
           {
             "tittel": "Modeller og OCR: Når behovet er større",
-            "innhold": "◦ **Forhåndsbygde modeller**: Kjenner igjen kontrakter, fakturaer og kvitteringer og trekker ut felt som beløp, dato og parter.\n◦ **Egne modeller**: Trenes på minst fem eksempler på organisasjonens egne dokumenttyper i et **innholdssenter**, og kan settes på flere bibliotek.\n◦ **OCR**: Er slått på for alle områder når organisasjonen har satt opp betal-for-bruk. IT kan begrense det til utvalgte områder. Tekst i bilder og skannede PDF-er blir finnbar i søk uten at du gjør noe.\n\nI biblioteket ser du hvilke modeller som er i bruk under **Automatiser** → **Vis modeller**. Velg filer og klikk **Klassifiser og trekk ut** for å kjøre modellene på det som allerede ligger der.\n\n*Tips: Start med autofyll. En modell lønner seg først når samme dokumenttype kommer i store mengder.*"
+            "innhold": "◦ **Forhåndsbygde modeller**: Kjenner igjen kontrakter, fakturaer og kvitteringer og trekker ut felt som beløp, dato og parter.\n◦ **Egne modeller**: Trenes på minst fem eksempler på organisasjonens egne dokumenttyper. Lag dem i biblioteket, eller i et **innholdssenter** når flere bibliotek skal bruke dem.\n◦ **OCR**: Er slått på for alle områder når organisasjonen har satt opp betal-for-bruk. IT kan begrense det til utvalgte områder. Tekst i bilder og skannede PDF-er blir finnbar i søk uten at du gjør noe.\n\nI biblioteket ser du hvilke modeller som er i bruk under **Automatiser** → **Vis modeller**. Velg filer og klikk **Klassifiser og trekk ut** for å kjøre modellene på det som allerede ligger der.\n\n*Tips: Start med autofyll. En modell lønner seg først når samme dokumenttype kommer i store mengder.*"
           }
         ],
         "relaterte": [

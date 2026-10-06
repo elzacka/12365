@@ -1403,6 +1403,22 @@
     ]
   },
   {
+    "id": "dokumentbehandling-for-microsoft-365",
+    "tittel": "Dokumentbehandling for Microsoft 365",
+    "undertittel": "document processing",
+    "forklaring": "KI-tjenester som jobber på filene i SharePoint: autofyll av kolonner, dokumentoversettelse, eSignature, tekstgjenkjenning (OCR) og modeller som henter ut data fra kontrakter og fakturaer. Følger ikke med E5. Organisasjonen betaler per bruk via et Azure-abonnement.",
+    "tags": [
+      "m365",
+      "ki",
+      "tjeneste"
+    ],
+    "alias": [
+      "SharePoint Premium",
+      "Microsoft Syntex",
+      "SharePoint Syntex"
+    ]
+  },
+  {
     "id": "digitisering",
     "tittel": "Digitisering",
     "forklaring": "Konvertering av analoge data til digitalt format, f.eks. skanning av et fotografi.",
@@ -3157,7 +3173,7 @@
   {
     "id": "microsoft-365-archive",
     "tittel": "Microsoft 365 Archive",
-    "forklaring": "Tjeneste for rimelig langtidslagring (cold storage) av lite brukte data i SharePoint.",
+    "forklaring": "Tjeneste for rimelig langtidslagring (cold storage) av lite brukte data i SharePoint. Følger ikke med E5. Organisasjonen betaler per GB via et Azure-abonnement.",
     "tags": [
       "m365",
       "sky",
@@ -3171,7 +3187,7 @@
   {
     "id": "microsoft-365-backup",
     "tittel": "Microsoft 365 Backup",
-    "forklaring": "Tjeneste for sikkerhetskopi av SharePoint, OneDrive og Exchange.",
+    "forklaring": "Tjeneste for sikkerhetskopi av SharePoint, OneDrive og Exchange. Følger ikke med E5. Organisasjonen betaler per GB via et Azure-abonnement.",
     "tags": [
       "m365",
       "sky",
@@ -3667,6 +3683,19 @@
       "SharePoint app",
       "Viva Connections",
       "Microsoft Viva Connections"
+    ]
+  },
+  {
+    "id": "sharepoint-advanced-management",
+    "tittel": "SharePoint Advanced Management",
+    "forklaring": "Styringsverktøy for SharePoint- og OneDrive-administratorer: rapporter om overdeling, tilgangsgjennomganger, regler for inaktive områder og skjuling av utvalgte områder for Copilot. Følger ikke med E5 alene. Organisasjonen får de fleste funksjonene når minst én bruker har Microsoft Copilot-lisens. Resten krever tillegget SharePoint Advanced Management Plan 1.",
+    "tags": [
+      "m365",
+      "sikkerhet",
+      "tjeneste"
+    ],
+    "alias": [
+      "SAM"
     ]
   },
   {
