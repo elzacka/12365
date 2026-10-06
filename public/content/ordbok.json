@@ -2713,7 +2713,7 @@
     "tags": [
       "ki",
       "analyse",
-      "metode"
+      "oppgave"
     ],
     "alias": [
       "Classification"
@@ -5352,7 +5352,7 @@
     "tags": [
       "ki",
       "analyse",
-      "metode"
+      "oppgave"
     ],
     "alias": [
       "Sentiment analysis",
@@ -6041,7 +6041,7 @@
     "tags": [
       "ki",
       "tts",
-      "begrep"
+      "oppgave"
     ],
     "alias": [
       "Text-to-speech",
@@ -6978,7 +6978,7 @@
     "forklaring": "Sentimentanalyse som skiller mellom ulike sider ved samme omtale, for eksempel pris og kvalitet.",
     "tags": [
       "ki",
-      "metode"
+      "oppgave"
     ],
     "alias": [
       "Aspect-based sentiment analysis"
@@ -7698,7 +7698,7 @@
     "forklaring": "Å finne personer, steder og organisasjoner i en tekst.",
     "tags": [
       "ki",
-      "begrep"
+      "oppgave"
     ],
     "alias": [
       "Named entity recognition (NER)",
@@ -8198,7 +8198,7 @@
     "forklaring": "Å merke hvert ord med ordklasse.",
     "tags": [
       "ki",
-      "begrep"
+      "oppgave"
     ],
     "alias": [
       "Part-of-speech tagging (POS)",
@@ -8406,7 +8406,7 @@
     "forklaring": "Å sette en merkelapp på hvert ord i en tekst, som ved NER og ordklassemerking.",
     "tags": [
       "ki",
-      "begrep"
+      "oppgave"
     ],
     "alias": [
       "Sequence labeling"
@@ -8512,7 +8512,7 @@
     "tags": [
       "ki",
       "asr",
-      "begrep"
+      "oppgave"
     ],
     "alias": [
       "Automatic speech recognition (ASR)",
@@ -9771,7 +9771,7 @@
     "tags": [
       "ki",
       "asr",
-      "begrep"
+      "oppgave"
     ],
     "alias": [
       "Streaming ASR",
@@ -9941,7 +9941,7 @@
     "forklaring": "Å dele et bilde i områder og merke hver piksel med hva den viser, for eksempel tekst, bilde eller marg.",
     "tags": [
       "ki",
-      "begrep"
+      "oppgave"
     ],
     "alias": [
       "Image segmentation"
@@ -10112,7 +10112,7 @@
     "tags": [
       "ki",
       "ocr",
-      "begrep"
+      "oppgave"
     ],
     "alias": [
       "Optical character recognition",
@@ -10222,7 +10222,7 @@
       "ki",
       "analyse",
       "llm",
-      "metode"
+      "oppgave"
     ],
     "alias": [
       "Information extraction",
