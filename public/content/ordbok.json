@@ -2784,7 +2784,8 @@
     "undertittel": "SLM",
     "forklaring": "Språkmodell med få milliarder parametre – raskere og billigere enn en LLM og kan kjøres lokalt, men mindre allsidig.",
     "tags": [
-      "ki"
+      "ki",
+      "llm"
     ],
     "alias": [
       "Small Language Model",
@@ -4455,7 +4456,9 @@
       "programmering"
     ],
     "alias": [
-      "Rule-based system"
+      "Rule-based system",
+      "Regelmotor",
+      "Rule engine"
     ]
   },
   {
@@ -5257,7 +5260,8 @@
     "tittel": "Språkmodell",
     "forklaring": "KI-system trent til å forstå og generere menneskelig tekst – store språkmodeller (LLM) er trent på enorme tekstmengder.",
     "tags": [
-      "ki"
+      "ki",
+      "llm"
     ],
     "alias": [
       "Language model"
@@ -5384,7 +5388,8 @@
     "tags": [
       "ki",
       "modell",
-      "begrep"
+      "begrep",
+      "llm"
     ],
     "alias": [
       "Large Language Model"
@@ -5606,12 +5611,14 @@
     "tags": [
       "ki",
       "modell",
-      "begrep"
+      "begrep",
+      "tts"
     ],
     "alias": [
       "Text-to-speech",
       "voice cloning",
-      "TTS"
+      "TTS",
+      "Talesyntese"
     ]
   },
   {
@@ -6466,7 +6473,8 @@
     "tags": [
       "ki",
       "modell",
-      "maskinvare"
+      "maskinvare",
+      "nvidia"
     ]
   },
   {
@@ -6537,7 +6545,8 @@
     "forklaring": "NB-modeller som segmenterer avissider for automatisk beskjæring. Fire varianter.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -6662,16 +6671,27 @@
     "forklaring": "NBs instruksjonstrente språkmodellfamilie, bygd på Gemma 3. Fem størrelser fra 270M til 27B, i fullspor og åpent spor.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "llm"
     ]
   },
   {
     "id": "borealis-2",
     "tittel": "Borealis 2",
-    "forklaring": "borealis2-26b-a4b-preview. MoE-modell med 26B totalt og 4B aktive, bygd på Gemma 4. Nordisk språkdekning. Forhåndsversjon.",
+    "forklaring": "NBs neste modellgenerasjon, bygd på Gemma 4 og videre fortrent på Aurora 2604. Fire forhåndsversjoner: 31b, 26b-a4b (MoE med 26B totalt og 4B aktive), e4b og e2b. Ikke sikkerhetstrent. Lisensen er nb-license-1.0.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "llm"
+    ],
+    "alias": [
+      "Borealis 2 Preview",
+      "borealis2-26b-a4b-preview",
+      "borealis2-31b-preview",
+      "borealis2-e4b-preview",
+      "borealis2-e2b-preview"
     ]
   },
   {
@@ -6686,10 +6706,12 @@
   {
     "id": "borealis-open",
     "tittel": "borealis-open-*",
-    "forklaring": "Det åpne Borealis-sporet, trent uten lisensiert pressemateriale. Gemma-lisens.",
+    "forklaring": "Det åpne Borealis-sporet, trent uten lisensiert pressemateriale. Lisensen er uklar: Hugging Face oppgir «gemma», modellkortet beskriver en tilpasset Apache 2.0, og LICENSE-filen mangler.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "llm"
     ]
   },
   {
@@ -6751,7 +6773,8 @@
     "tags": [
       "ki",
       "modell",
-      "aktør"
+      "aktør",
+      "tts"
     ]
   },
   {
@@ -6875,7 +6898,9 @@
     "forklaring": "Googles åpne modellfamilie. Gemma 3 ligger under Borealis, Gemma 4 under Borealis 2.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm",
+      "google"
     ]
   },
   {
@@ -6895,7 +6920,8 @@
     "tags": [
       "ki",
       "modell",
-      "aktør"
+      "aktør",
+      "google"
     ]
   },
   {
@@ -6904,7 +6930,8 @@
     "forklaring": "AI Swedens nordiske modellfamilie, 126M til 40B. I praksis stengt for andre enn europeiske forskningsinstitusjoner.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7006,7 +7033,8 @@
     "forklaring": "Resonneringsmodell som leverte de engelske resonneringssporene normistral-11b-thinking ble trent på.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7037,7 +7065,9 @@
     "forklaring": "Metas modellfamilie. Ligger under nb-notram-llama og NorskGPT. Egen lisens med krav om navngiving.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm",
+      "meta"
     ]
   },
   {
@@ -7089,7 +7119,8 @@
     "forklaring": "Mistral AIs resonneringsmodell. Grunnlaget for NorwAI-Magistral-24B-reasoning.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7109,7 +7140,9 @@
     "tags": [
       "ki",
       "modell",
-      "aktør"
+      "aktør",
+      "meta",
+      "forskningskilde"
     ]
   },
   {
@@ -7122,7 +7155,8 @@
       "begrep"
     ],
     "alias": [
-      "Saturation"
+      "Saturation",
+      "Mettet benchmark"
     ]
   },
   {
@@ -7131,7 +7165,8 @@
     "forklaring": "Mistral AIs modellfamilie. Grunnlaget for de varmstartede normistral-modellene og flere NorwAI-modeller.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7150,7 +7185,8 @@
     "forklaring": "Mistral AIs MoE-modell. Grunnlaget for NorwAI-Mixtral-8x7B.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7195,7 +7231,8 @@
     "forklaring": "TTS-arkitektur i variantene Local og Nano. Grunnlaget for NBs norske talesyntese.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "tts"
     ]
   },
   {
@@ -7205,7 +7242,12 @@
     "tags": [
       "ki",
       "modell",
-      "aktør"
+      "aktør",
+      "nasjonalbiblioteket"
+    ],
+    "alias": [
+      "NbAiLab",
+      "NB AI-lab"
     ]
   },
   {
@@ -7223,21 +7265,13 @@
     ]
   },
   {
-    "id": "nb-asr-beta-qwen06b-lunde05",
-    "tittel": "nb-asr-beta-qwen06b-lunde05",
-    "forklaring": "NBs påtenkte etterfølger til NB-Whisper, bygd på Qwen3-ASR. Beta og styrt tilgang. Kan ikke kjøres av whisper.cpp eller WhisperKit.",
-    "tags": [
-      "ki",
-      "modell"
-    ]
-  },
-  {
     "id": "nb-bert-base-large",
     "tittel": "nb-bert-base, -large",
     "forklaring": "NBs BERT-modeller for klassifisering og sekvensmerking. CC-BY-4.0, ikke Apache 2.0.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -7246,7 +7280,8 @@
     "forklaring": "nb-bert-base finjustert på NorNE for navngitte enheter.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -7255,7 +7290,8 @@
     "forklaring": "nb-bert-base finjustert til ordklassemerking.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -7264,7 +7300,8 @@
     "forklaring": "Filtrerer ut samiskrelevant tekst.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -7273,7 +7310,9 @@
     "forklaring": "Eldre NB-språkmodell i flere varianter. Erstattet av Borealis.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "llm"
     ]
   },
   {
@@ -7282,7 +7321,9 @@
     "forklaring": "Kvantiserte utgaver av nb-notram-llama. Erstattet av Borealis.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "llm"
     ]
   },
   {
@@ -7291,7 +7332,8 @@
     "forklaring": "Kjenner igjen språk. To språksett, ett for 12 nordiske språk pluss engelsk og ett for 159 språk, hver i stor .bin og kvantisert .ftz. Den nordiske .ftz er 1,87 MB og kan legges rett inn i en app.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -7300,25 +7342,31 @@
     "forklaring": "Eldre NB-modeller på Llama-grunnlag, 1B til 70B. Arver Metas lisens. Erstattet av Borealis.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "llm"
     ]
   },
   {
     "id": "nb-sami-asr-nemotron-3-5-streaming",
     "tittel": "nb-sami-asr-nemotron-3.5-streaming",
-    "forklaring": "Nordsamisk talegjenkjenning for strømming. Lisens uavklart.",
+    "forklaring": "Nordsamisk talegjenkjenning i sanntid (strømming), i tre varianter på NVIDIA Nemotron. Krever NeMo 26.06 eller nyere. Ingen ordfeilrate oppgitt. Lisensen er oppgitt som «other», altså uavklart.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
     ]
   },
   {
     "id": "nb-sami-asr-north-parakeet",
     "tittel": "nb-sami-asr-north-parakeet-*",
-    "forklaring": "Nordsamisk talegjenkjenning på NVIDIA Parakeet, publisert som .nemo-filer i ni repoer. CC-BY-4.0. Ingen ferdig parakeet.cpp-utgave.",
+    "forklaring": "Nordsamisk talegjenkjenning på NVIDIA Parakeet, publisert som .nemo-filer i åtte varianter. CC BY 4.0, men to varianter mangler lisens. Beste ordfeilrate på valideringssettet er 19,72 %. Én variant finnes også som parakeet.cpp-program.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
     ]
   },
   {
@@ -7327,7 +7375,8 @@
     "forklaring": "NBs eldre innbyggingsmodeller. Apache 2.0, altså renere lisens enn borealis-embed-212m, men svakere på lang kontekst.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -7336,52 +7385,63 @@
     "forklaring": "Påbegynt NB-modell som aldri ble fullført.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
     "id": "nb-tts-norwegian-moss-local-trimmed-nano-trimmed",
     "tittel": "nb-tts-norwegian-moss-local-trimmed, -nano-trimmed",
-    "forklaring": "NBs talesyntese på MOSS-grunnlag, trent på NST-tale. Modellrepoene er ikke offentlig tilgjengelige per 13.09.26, bare demo-Spaces. Lisens ukjent.",
+    "forklaring": "NBs talesyntese på MOSS-grunnlag, trent på NST-tale. Modellrepoene er ikke offentlig tilgjengelige per 03.10.26, bare demo-Spaces. Lisens ukjent.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "tts"
     ]
   },
   {
     "id": "nb-tts-norwegian-piper-trimmed",
     "tittel": "nb-tts-norwegian-piper-trimmed",
-    "forklaring": "NB-talesyntese på Piper-grunnlag. Modellrepoet er ikke offentlig tilgjengelig per 13.09.26, bare demo-Space. Lisens ukjent.",
+    "forklaring": "NB-talesyntese på Piper-grunnlag. Modellrepoet er ikke offentlig tilgjengelig per 03.10.26, bare demo-Space. Lisens ukjent.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "tts"
     ]
   },
   {
     "id": "nb-tts-norwegian-voices",
     "tittel": "nb-tts-norwegian-voices",
-    "forklaring": "NBs hovedmodell for norsk talesyntese, en MOSS-TTS-Local-finjustering med én kvinnelig og én mannlig stemme. Modellrepoet er ikke offentlig tilgjengelig per 13.09.26, bare demo-Space. Lisens ukjent.",
+    "forklaring": "NBs hovedmodell for norsk talesyntese, en MOSS-TTS-Local-finjustering med én kvinnelig og én mannlig stemme. Modellrepoet er ikke offentlig tilgjengelig per 03.10.26, bare demo-Space. Lisens ukjent.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "tts"
     ]
   },
   {
     "id": "nb-tts-voxcpm2-voices-2607",
     "tittel": "nb-tts-voxcpm2-voices-2607",
-    "forklaring": "Nyeste NB-talesyntese, på VoxCPM2, med to Oslo-stemmer i 48 kHz. Modellrepoet er ikke offentlig tilgjengelig per 13.09.26, bare demo-Space. Lisens ukjent.",
+    "forklaring": "Nyeste NB-talesyntese, på VoxCPM2, med to Oslo-stemmer i 48 kHz. Modellrepoet er ikke offentlig tilgjengelig per 03.10.26, bare demo-Space. Lisens ukjent.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "tts"
     ]
   },
   {
     "id": "nb-wav2vec2",
     "tittel": "nb-wav2vec2-*",
-    "forklaring": "NBs eldre talegjenkjennere i 300M og 1B, for bokmål og nynorsk. De klart mest nedlastede modellene blant NBs modeller, men uten tegnsetting. -v2-utgavene, som står for nesten alle nedlastingene, mangler dokumentasjon.",
+    "forklaring": "NBs eldre talegjenkjennere i 300M og 1B, for bokmål og nynorsk. De klart mest nedlastede modellene blant NBs modeller, men uten tegnsetting. -v2-utgavene, som står for nesten alle nedlastingene, mangler dokumentasjon. Ordfeilrate på NPSC med KenLM: 6,33 % for 1b bokmål og 7,03 % for 300m bokmål.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
     ]
   },
   {
@@ -7390,7 +7450,9 @@
     "forklaring": "OpenAI Whisper finjustert på rundt 66 000 timer norsk lyd. Fem størrelser fra tiny til large, Apache 2.0. Standardvalget for norsk tale til tekst.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
     ]
   },
   {
@@ -7399,7 +7461,9 @@
     "forklaring": "Whisper-variant som gjengir meningen med færre ord, til teksting og møtereferat. Ligger bare under NbAiLabBeta.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
     ]
   },
   {
@@ -7408,7 +7472,9 @@
     "forklaring": "Whisper-variant som gjengir ord for ord, med små bokstaver og uten tegnsetting. Til språklig analyse.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
     ]
   },
   {
@@ -7417,7 +7483,9 @@
     "forklaring": "Destillert fra 1550M til 756M for sanntid på svak maskinvare. Bare bokmål, og utgitt bare til testing.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
     ]
   },
   {
@@ -7454,7 +7522,8 @@
     "forklaring": "ltg-modell på BLOOM-arkitektur, trent fra bunnen.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7463,7 +7532,8 @@
     "forklaring": "NorwAIs eldste familie, 369M til 23B, på GPT-2-arkitektur. Bare 369M og 3B er publisert, under NorGLM med CC-BY-NC-SA. Teknisk utdatert.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7472,7 +7542,8 @@
     "forklaring": "Variant for lange tekster.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7481,7 +7552,8 @@
     "forklaring": "Den eneste norske resonneringsmodellen med Apache 2.0. Trent med veiledet finjustering på Kimi-K2-spor, deretter d-RLAIF. Finnes også som GGUF.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7490,7 +7562,8 @@
     "forklaring": "Variant rettet mot oversettelse.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7499,7 +7572,8 @@
     "forklaring": "Varmstartede varianter, altså videretrent fra Mistral framfor fra bunnen. -instruct følger instruksjoner.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7508,7 +7582,8 @@
     "forklaring": "Trent fra bunnen på norsk, ikke videretrent fra Mistral.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7517,7 +7592,8 @@
     "forklaring": "HPLTs norske modell med åpen treningsoppskrift. Apache 2.0. Ligger under HPLT, ikke ltg.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7526,7 +7602,8 @@
     "forklaring": "Binerics modeller på Llama 3- og Mistral-grunnlag. Ikke-kommersiell lisens, ikke oppdatert siden 2024.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7545,7 +7622,8 @@
     "forklaring": "NorwAI-modell på Llama 2.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7554,7 +7632,8 @@
     "forklaring": "Største norske resonneringsmodell, med tre modi for tenketid. Trent på lisensiert norsk mediemateriale. NorLLM-lisens, bare nordiske organisasjoner.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7563,7 +7642,8 @@
     "forklaring": "NorwAI-modeller på Mistral, i pretrain- og instruct-varianter.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7572,7 +7652,8 @@
     "forklaring": "NorwAI-modeller på Mixtral, 47B MoE. Null nedlastinger.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -7595,7 +7676,8 @@
     "tags": [
       "ki",
       "modell",
-      "aktør"
+      "aktør",
+      "nvidia"
     ]
   },
   {
@@ -7625,7 +7707,9 @@
     "tags": [
       "ki",
       "modell",
-      "aktør"
+      "aktør",
+      "openai",
+      "forskningskilde"
     ]
   },
   {
@@ -7671,7 +7755,8 @@
     "tags": [
       "ki",
       "modell",
-      "begrep"
+      "begrep",
+      "asr"
     ],
     "alias": [
       "Word error rate (WER)",
@@ -7718,7 +7803,9 @@
     "forklaring": "NVIDIA Parakeet-TDT 0,6B, talegjenkjenningsarkitektur. Grunnlaget for den nordsamiske ASR-modellen.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "asr",
+      "nvidia"
     ]
   },
   {
@@ -7740,7 +7827,8 @@
     "forklaring": "Lettvekts TTS-system. Grunnlaget for én av NBs talesyntesemodeller.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "tts"
     ]
   },
   {
@@ -7775,7 +7863,8 @@
     "forklaring": "Teklias eldre modeller for norsk håndskrift. MIT-lisens.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "ocr"
     ]
   },
   {
@@ -7784,7 +7873,9 @@
     "forklaring": "Talegjenkjenningsarkitektur fra Qwen-familien. Grunnlaget for nb-asr-beta.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "asr",
+      "alibaba"
     ]
   },
   {
@@ -7819,7 +7910,8 @@
     "forklaring": "NB-encodere trent på Norwegian Colossal Corpus. -scandinavian er CC-BY-SA-4.0, altså smittende delelisens. 128_ncc mangler både lisens og modellkort.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -7851,7 +7943,9 @@
     "forklaring": "Nordsamisk talesyntese fra NB. CC-BY-NC-4.0, kan ikke brukes kommersielt.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "tts"
     ]
   },
   {
@@ -7959,7 +8053,9 @@
     "tags": [
       "ki",
       "modell",
-      "aktør"
+      "aktør",
+      "nasjonalbiblioteket",
+      "ocr"
     ]
   },
   {
@@ -7985,7 +8081,8 @@
       "begrep"
     ],
     "alias": [
-      "Gated access"
+      "Gated access",
+      "Lukket tilgang"
     ]
   },
   {
@@ -8008,11 +8105,14 @@
     "tags": [
       "ki",
       "modell",
-      "begrep"
+      "begrep",
+      "asr"
     ],
     "alias": [
       "Automatic speech recognition (ASR)",
-      "ASR"
+      "ASR",
+      "Automatisk talegjenkjenning",
+      "Talegjenkjenning"
     ]
   },
   {
@@ -8126,7 +8226,8 @@
     "forklaring": "NB-modell som oversetter bokmål til nynorsk. Konfidensiell beta, bare for godkjente evaluatorer.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -8148,7 +8249,8 @@
     "forklaring": "Arkitektur for tekstgjenkjenning i bilder. Sprakbanken/TrOCR-norhand-v3 er den nyeste for historisk norsk håndskrift.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "ocr"
     ]
   },
   {
@@ -8157,7 +8259,9 @@
     "forklaring": "Språkbankens samiske TrOCR-varianter, sju i tallet, blant annet trocr_smi_nor for blandet samisk og norsk.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "ocr"
     ]
   },
   {
@@ -8274,7 +8378,8 @@
     "forklaring": "Nordisk modellfamilie i 7B, 13B og 33B. Apache 2.0, men beskrevet av utviklerne selv som delvis trent og avhengig av finjustering.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "llm"
     ]
   },
   {
@@ -8283,7 +8388,8 @@
     "forklaring": "NB-modeller som kjenner igjen forside, midtside og bakside i aviser.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket"
     ]
   },
   {
@@ -8302,7 +8408,8 @@
     "forklaring": "TTS-arkitektur bak NBs nyeste talesyntesemodell.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "tts"
     ]
   },
   {
@@ -8321,7 +8428,9 @@
     "forklaring": "Talegjenkjenningsarkitektur fra Meta, eldre enn Whisper. Grunnlaget for nb-wav2vec2.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "asr",
+      "meta"
     ]
   },
   {
@@ -8331,7 +8440,9 @@
     "tags": [
       "ki",
       "modell",
-      "verktøy"
+      "verktøy",
+      "asr",
+      "tts"
     ]
   },
   {
@@ -8340,7 +8451,9 @@
     "forklaring": "OpenAIs talegjenkjenningsmodell. Grunnlaget for NB-Whisper, med et stort økosystem av kjøremotorer.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "asr",
+      "openai"
     ]
   },
   {
@@ -8350,7 +8463,8 @@
     "tags": [
       "ki",
       "modell",
-      "verktøy"
+      "verktøy",
+      "asr"
     ]
   },
   {
@@ -8369,7 +8483,1568 @@
     "forklaring": "Kvantisert ONNX-utgave av NBs tiny-modell, til bruk i nettleser. Ingen lisens oppgitt.",
     "tags": [
       "ki",
-      "modell"
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
+    ]
+  },
+  {
+    "id": "stanford-ai-index",
+    "tittel": "Stanford AI Index",
+    "forklaring": "Årlig rapport fra Stanford HAI med tall om KI-feltet: Forskning, ytelse, økonomi, politikk og holdninger. Kommer i april. Nettsted: [hai.stanford.edu/ai-index](https://hai.stanford.edu/ai-index).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "rapport"
+    ],
+    "alias": [
+      "AI Index Report",
+      "Stanford HAI"
+    ]
+  },
+  {
+    "id": "international-ai-safety-report",
+    "tittel": "International AI Safety Report",
+    "forklaring": "Uavhengig, internasjonal vurdering av hva de mest avanserte KI-modellene kan, hvilke risikoer de gir og hvilke tiltak som virker. Ledet av Yoshua Bengio. Siste utgave kom i februar 2026. Nettsted: [internationalaisafetyreport.org](https://internationalaisafetyreport.org).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "rapport",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Den internasjonale KI-sikkerhetsrapporten"
+    ]
+  },
+  {
+    "id": "ai-security-institute",
+    "tittel": "AI Security Institute",
+    "forklaring": "Britisk statlig forskningsorgan som tester de mest avanserte KI-modellene og måler risikoen ved dem. Gir ut Frontier AI Trends Report. Nettsted: [aisi.gov.uk/research](https://aisi.gov.uk/research).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "aktør",
+      "sikkerhet"
+    ],
+    "alias": [
+      "AISI",
+      "UK AISI",
+      "AI Safety Institute",
+      "Frontier AI Trends Report"
+    ]
+  },
+  {
+    "id": "state-of-ai-report",
+    "tittel": "State of AI Report",
+    "forklaring": "Årlig oversikt over KI-forskning, industri og politikk. Et investeringsselskap skriver den, så les den med det i bakhodet. Kommer vanligvis i oktober. Nettsted: [stateof.ai](https://stateof.ai).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "rapport"
+    ]
+  },
+  {
+    "id": "arxiv",
+    "tittel": "arXiv",
+    "forklaring": "Åpen server for forhåndstrykk. Det meste av ny KI-forskning havner her først, uten fagfellevurdering. Kategoriene cs.AI, cs.LG og cs.CL dekker KI. Nettsted: [arxiv.org](https://arxiv.org).",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ],
+    "alias": [
+      "cs.AI",
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "alphaxiv",
+    "tittel": "alphaXiv",
+    "forklaring": "Tjeneste oppå arXiv med diskusjon per artikkel, trender og mulighet til å følge forskere. Nettsted: [alphaxiv.org](https://alphaxiv.org).",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ]
+  },
+  {
+    "id": "hugging-face-papers",
+    "tittel": "Hugging Face Papers",
+    "forklaring": "Daglig utvalg av nye KI-artikler med lenker til kode og modeller. Har overtatt rollen til Papers with Code, som ble lagt ned i juli 2025. Nettsted: [huggingface.co/papers](https://huggingface.co/papers).",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ],
+    "alias": [
+      "Daily Papers",
+      "Papers with Code"
+    ]
+  },
+  {
+    "id": "semantic-scholar",
+    "tittel": "Semantic Scholar",
+    "forklaring": "Gratis søkemotor for forskningsartikler med sammendrag, siteringer og oversikt over hvilke studier som har påvirket en artikkel mest. Drives av Allen Institute for AI. Nettsted: [semanticscholar.org](https://semanticscholar.org).",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ]
+  },
+  {
+    "id": "google-scholar",
+    "tittel": "Google Scholar",
+    "forklaring": "Søkemotoren for forskning med bredest dekning. Du kan få varsel når noen publiserer i et emne eller en forfatter publiserer noe nytt. Nettsted: [scholar.google.com](https://scholar.google.com).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "google"
+    ]
+  },
+  {
+    "id": "openreview",
+    "tittel": "OpenReview",
+    "forklaring": "Plattform for åpen fagfellevurdering. Viser vurderingene av artikler til blant annet ICLR og NeurIPS, og hvorfor en artikkel ble godtatt eller avvist. Nettsted: [openreview.net](https://openreview.net).",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ]
+  },
+  {
+    "id": "acl-anthology",
+    "tittel": "ACL Anthology",
+    "forklaring": "Åpent arkiv med alle artiklene fra de store konferansene i språkteknologi. Relevant for språkmodeller og tale. Nettsted: [aclanthology.org](https://aclanthology.org).",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ]
+  },
+  {
+    "id": "neurips",
+    "tittel": "Neural Information Processing Systems",
+    "undertittel": "NeurIPS",
+    "forklaring": "En av de tre ledende konferansene i maskinlæring. I KI veier konferanser tyngre enn tidsskrifter.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ],
+    "alias": [
+      "NIPS"
+    ]
+  },
+  {
+    "id": "icml",
+    "tittel": "International Conference on Machine Learning",
+    "undertittel": "ICML",
+    "forklaring": "En av de tre ledende konferansene i maskinlæring.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ]
+  },
+  {
+    "id": "iclr",
+    "tittel": "International Conference on Learning Representations",
+    "undertittel": "ICLR",
+    "forklaring": "En av de tre ledende konferansene i maskinlæring. Alle fagfellevurderingene er åpne på OpenReview.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ]
+  },
+  {
+    "id": "acl",
+    "tittel": "Association for Computational Linguistics",
+    "undertittel": "ACL",
+    "forklaring": "Den internasjonale foreningen for datalingvistikk, og navnet på foreningens årlige hovedkonferanse. Ledende arena for språkmodeller og språkteknologi.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ]
+  },
+  {
+    "id": "emnlp",
+    "tittel": "Empirical Methods in Natural Language Processing",
+    "undertittel": "EMNLP",
+    "forklaring": "Ledende konferanse i språkteknologi, arrangert av ACL.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ]
+  },
+  {
+    "id": "naacl",
+    "tittel": "North American Chapter of the Association for Computational Linguistics",
+    "undertittel": "NAACL",
+    "forklaring": "ACLs nordamerikanske avdeling og konferansen den arrangerer. Språkteknologi.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ]
+  },
+  {
+    "id": "interspeech",
+    "tittel": "Interspeech",
+    "forklaring": "Den største konferansen om talebehandling, arrangert av ISCA. Relevant for tale til tekst og talesyntese.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse",
+      "asr",
+      "tts"
+    ]
+  },
+  {
+    "id": "icassp",
+    "tittel": "International Conference on Acoustics, Speech and Signal Processing",
+    "undertittel": "ICASSP",
+    "forklaring": "IEEEs ledende konferanse om lyd, tale og signalbehandling.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse",
+      "asr"
+    ]
+  },
+  {
+    "id": "cvpr",
+    "tittel": "Conference on Computer Vision and Pattern Recognition",
+    "undertittel": "CVPR",
+    "forklaring": "Ledende konferanse i datasyn, altså bilde og video.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ]
+  },
+  {
+    "id": "iccv",
+    "tittel": "International Conference on Computer Vision",
+    "undertittel": "ICCV",
+    "forklaring": "Ledende konferanse i datasyn. Arrangeres annethvert år.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ]
+  },
+  {
+    "id": "facct",
+    "tittel": "Conference on Fairness, Accountability, and Transparency",
+    "undertittel": "FAccT",
+    "forklaring": "ACM-konferanse om rettferdighet, ansvarlighet og åpenhet i algoritmiske systemer.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ],
+    "alias": [
+      "ACM FAccT"
+    ]
+  },
+  {
+    "id": "aies",
+    "tittel": "Conference on AI, Ethics, and Society",
+    "undertittel": "AIES",
+    "forklaring": "Konferanse om KI, etikk og samfunn, arrangert av AAAI og ACM.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse"
+    ]
+  },
+  {
+    "id": "ieee-symposium-on-security-and-privacy",
+    "tittel": "IEEE Symposium on Security and Privacy",
+    "forklaring": "Ledende konferanse i datasikkerhet. Publiserer også forskning på angrep mot og med KI.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse",
+      "sikkerhet"
+    ],
+    "alias": [
+      "IEEE S&P",
+      "Oakland"
+    ]
+  },
+  {
+    "id": "usenix-security-symposium",
+    "tittel": "USENIX Security Symposium",
+    "forklaring": "Ledende konferanse i datasikkerhet. Publiserer også forskning på angrep mot KI-systemer.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "konferanse",
+      "sikkerhet"
+    ],
+    "alias": [
+      "USENIX Security"
+    ]
+  },
+  {
+    "id": "jmlr",
+    "tittel": "Journal of Machine Learning Research",
+    "undertittel": "JMLR",
+    "forklaring": "Åpent, fagfellevurdert tidsskrift i maskinlæring.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "tidsskrift"
+    ]
+  },
+  {
+    "id": "tmlr",
+    "tittel": "Transactions on Machine Learning Research",
+    "undertittel": "TMLR",
+    "forklaring": "Fagfellevurdert tidsskrift i maskinlæring med løpende innsending og åpne vurderinger på OpenReview.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "tidsskrift"
+    ]
+  },
+  {
+    "id": "nature-machine-intelligence",
+    "tittel": "Nature Machine Intelligence",
+    "forklaring": "Fagfellevurdert tidsskrift fra Nature-forlaget om maskinlæring og KI, også om virkningen på samfunn og vitenskap.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "tidsskrift"
+    ]
+  },
+  {
+    "id": "epoch-ai",
+    "tittel": "Epoch AI",
+    "forklaring": "Forskningsinstitutt med åpne databaser over KI-modeller, regnekraft, kostnader og benchmarkresultater. Metoden er åpen. Nettsted: [epoch.ai](https://epoch.ai).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "aktør"
+    ]
+  },
+  {
+    "id": "metr",
+    "tittel": "Model Evaluation and Threat Research",
+    "undertittel": "METR",
+    "forklaring": "Ideell organisasjon som måler hvor lange oppgaver KI-agenter klarer å løse på egen hånd. Nettsted: [metr.org](https://metr.org).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "aktør",
+      "sikkerhet"
+    ]
+  },
+  {
+    "id": "tidshorisont",
+    "tittel": "Tidshorisont",
+    "undertittel": "time horizon",
+    "forklaring": "METRs mål på KI-agenter: Lengden på oppgavene en agent løser i halvparten av forsøkene, målt i tiden en fagperson bruker på dem.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "begrep"
+    ],
+    "alias": [
+      "Time horizon",
+      "50 % time horizon"
+    ]
+  },
+  {
+    "id": "oecd-ai",
+    "tittel": "OECD.AI",
+    "forklaring": "OECDs observatorium for KI-politikk, med statistikk over politikk, investeringer og forskning per land, også Norge. Nettsted: [oecd.ai](https://oecd.ai).",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ],
+    "alias": [
+      "OECD AI Policy Observatory"
+    ]
+  },
+  {
+    "id": "nora",
+    "tittel": "Norwegian Artificial Intelligence Research Consortium",
+    "undertittel": "NORA",
+    "forklaring": "Norsk konsortium av universiteter, høyskoler og forskningsinstitutter for KI-forskning. Gir oversikt over sentre, nyheter og arrangementer. Nettsted: [nora.ai](https://nora.ai).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "aktør"
+    ]
+  },
+  {
+    "id": "forskningsradet",
+    "tittel": "Forskningsrådet",
+    "forklaring": "Norges forskningsråd. Fordeler KI-milliarden og tildelte de seks nasjonale KI-sentrene i juni 2025. Nettsted: [forskningsradet.no](https://forskningsradet.no).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "aktør"
+    ],
+    "alias": [
+      "Norges forskningsråd",
+      "Research Council of Norway"
+    ]
+  },
+  {
+    "id": "ki-milliarden",
+    "tittel": "KI-milliarden",
+    "forklaring": "Regjeringens satsing på minst én milliard kroner over fem år til forskning på KI og hvordan KI påvirker samfunnet. Forskningsrådet fordeler pengene. Seks nasjonale KI-sentre får rundt 200 millioner kroner hver.",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ]
+  },
+  {
+    "id": "integreat",
+    "tittel": "Integreat",
+    "forklaring": "Senter for fremragende forskning ved UiO om kunnskapsdrevet maskinlæring. Nettsted: [integreat.no](https://integreat.no).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "forskningssenter"
+    ],
+    "alias": [
+      "Norwegian Centre for Knowledge-driven Machine Learning"
+    ]
+  },
+  {
+    "id": "sfi-visual-intelligence",
+    "tittel": "SFI Visual Intelligence",
+    "forklaring": "Senter for forskningsdrevet innovasjon ved UiT om bildeanalyse med dyp læring. Nettsted: [visual-intelligence.no](https://visual-intelligence.no).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "forskningssenter"
+    ],
+    "alias": [
+      "Visual Intelligence"
+    ]
+  },
+  {
+    "id": "trust",
+    "tittel": "Norsk senter for pålitelig KI",
+    "undertittel": "TRUST",
+    "forklaring": "Nasjonalt KI-senter ved UiO. Forsker på presis, forklarbar og rettferdig KI i forvaltning, helse og rett. Nettsted: [trust-aicentre.no](https://trust-aicentre.no).",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "forskningssenter"
+    ],
+    "alias": [
+      "Norwegian Centre for Trustworthy AI"
+    ]
+  },
+  {
+    "id": "center-for-ai-creativity",
+    "tittel": "Center for AI & Creativity",
+    "forklaring": "Nasjonalt KI-senter ved UiO om KI og kreativitet i kultur og kreative næringer.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "forskningssenter"
+    ],
+    "alias": [
+      "MishMash"
+    ]
+  },
+  {
+    "id": "ai-centre-for-the-empowerment-of-human-learning",
+    "tittel": "AI Centre for the Empowerment of Human Learning",
+    "forklaring": "Nasjonalt KI-senter ved UiB om samspillet mellom menneske og KI i læring og opplæring.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "forskningssenter"
+    ],
+    "alias": [
+      "AI Learn"
+    ]
+  },
+  {
+    "id": "norwegian-centre-for-embodied-ai",
+    "tittel": "Norwegian Centre for Embodied AI",
+    "forklaring": "Nasjonalt KI-senter ved NTNU om robotikk med KI, innen forsvar, maritim sektor, transport og helse.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "forskningssenter",
+      "iot"
+    ],
+    "alias": [
+      "NCEI"
+    ]
+  },
+  {
+    "id": "norwegian-centre-on-ai-for-decisions",
+    "tittel": "Norwegian Centre on AI for Decisions",
+    "forklaring": "Nasjonalt KI-senter ved NTNU om KI som beslutningsstøtte innen energi, helse, logistikk og industri.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "forskningssenter"
+    ],
+    "alias": [
+      "aiD",
+      "AI Decisions"
+    ]
+  },
+  {
+    "id": "norwegian-centre-for-sustainable-risk-averse-and-ethical-ai",
+    "tittel": "Norwegian Centre for Sustainable, Risk-averse and Ethical AI",
+    "forklaring": "Nasjonalt KI-senter ved Simula om energibruk, sikkerhet, etikk og miljøavtrykk.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "forskningssenter"
+    ]
+  },
+  {
+    "id": "simula",
+    "tittel": "Simula",
+    "forklaring": "Norsk forskningsinstitutt innen IKT. Vertskap for et av de seks nasjonale KI-sentrene.",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "Simula Research Laboratory"
+    ]
+  },
+  {
+    "id": "import-ai",
+    "tittel": "Import AI",
+    "forklaring": "Ukentlig, forskningstungt nyhetsbrev av Jack Clark, medgründer av Anthropic. Peker videre til forskningen, men er ikke selv en primærkilde.",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ]
+  },
+  {
+    "id": "the-batch",
+    "tittel": "The Batch",
+    "forklaring": "Ukentlig, bredt og lettlest nyhetsbrev fra DeepLearning.AI.",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ],
+    "alias": [
+      "DeepLearning.AI"
+    ]
+  },
+  {
+    "id": "interconnects",
+    "tittel": "Interconnects",
+    "forklaring": "Teknisk nyhetsbrev av Nathan Lambert om trening og åpne modeller.",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ]
+  },
+  {
+    "id": "ai-as-normal-technology",
+    "tittel": "AI as Normal Technology",
+    "forklaring": "Kritisk nyhetsbrev av Arvind Narayanan og Sayash Kapoor ved Princeton. Avliver overdrevne påstander om KI.",
+    "tags": [
+      "ki",
+      "forskningskilde"
+    ],
+    "alias": [
+      "AI Snake Oil"
+    ]
+  },
+  {
+    "id": "anthropic",
+    "tittel": "Anthropic",
+    "forklaring": "Amerikansk KI-selskap som utvikler Claude. Publiserer egen forskning, særlig om sikkerhet og tolkbarhet. Industriforskning: Selskapet vurderer egne produkter.",
+    "tags": [
+      "ki",
+      "aktør",
+      "forskningskilde"
+    ]
+  },
+  {
+    "id": "google-deepmind",
+    "tittel": "Google DeepMind",
+    "forklaring": "Googles KI-forskningsenhet. Utvikler Gemini og Gemma og publiserer mye forskning. Industriforskning: Selskapet vurderer egne produkter.",
+    "tags": [
+      "ki",
+      "aktør",
+      "forskningskilde",
+      "google"
+    ],
+    "alias": [
+      "DeepMind"
+    ]
+  },
+  {
+    "id": "fagfellevurdering",
+    "tittel": "Fagfellevurdering",
+    "forklaring": "Uavhengige forskere vurderer en artikkel før den publiseres. I KI skjer det oftest gjennom konferansene.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "begrep"
+    ],
+    "alias": [
+      "Peer review"
+    ]
+  },
+  {
+    "id": "forhandstrykk",
+    "tittel": "Forhåndstrykk",
+    "forklaring": "Forskningsartikkel publisert uten fagfellevurdering, ofte på arXiv. Ikke kvalitetssikret.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "begrep"
+    ],
+    "alias": [
+      "Preprint"
+    ]
+  },
+  {
+    "id": "oversiktsartikkel",
+    "tittel": "Oversiktsartikkel",
+    "forklaring": "Artikkel som oppsummerer forskningen i et felt. arXiv tar bare imot slike artikler i informatikk når de er fagfellevurdert, fordi mange var KI-genererte. Regelen gjelder fra november 2025.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "begrep"
+    ],
+    "alias": [
+      "Survey paper",
+      "Review article"
+    ]
+  },
+  {
+    "id": "posisjonsartikkel",
+    "tittel": "Posisjonsartikkel",
+    "forklaring": "Artikkel som argumenterer for et standpunkt, uten nye resultater.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "begrep"
+    ],
+    "alias": [
+      "Position paper"
+    ]
+  },
+  {
+    "id": "industriforskning",
+    "tittel": "Industriforskning",
+    "forklaring": "Forskning fra selskaper som selger KI. Ofte viktig, men ikke nøytral, fordi selskapet vurderer egne produkter.",
+    "tags": [
+      "ki",
+      "forskningskilde",
+      "begrep"
+    ],
+    "alias": [
+      "Industry research"
+    ]
+  },
+  {
+    "id": "datakontaminering",
+    "tittel": "Datakontaminering",
+    "forklaring": "Testdata fra en benchmark har lekket inn i treningsdataene, så modellen skårer høyere enn den egentlig klarer.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep",
+      "forskningskilde"
+    ],
+    "alias": [
+      "Data contamination",
+      "Benchmark contamination"
+    ]
+  },
+  {
+    "id": "nb-whisper-beta",
+    "tittel": "NB-Whisper Beta",
+    "forklaring": "Offentlig beta av NB-Whisper fra juli 2023, i fem størrelser. Lisensen er CC BY 4.0, ikke Apache 2.0 som de ferdige modellene.",
+    "tags": [
+      "ki",
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
+    ]
+  },
+  {
+    "id": "nb-asr-beta",
+    "tittel": "NB-ASR-BETA",
+    "forklaring": "NBs nye talegjenkjennere for bokmål fra 2026: Qwen3-ASR-varianter, Nemotron-varianter og en forced aligner. Alle har lukket tilgang.",
+    "tags": [
+      "ki",
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
+    ],
+    "alias": [
+      "nb-asr-qwen3-lunde07",
+      "nb-asr-nemotron35-lunde07"
+    ]
+  },
+  {
+    "id": "nb-asr-unn",
+    "tittel": "NB-ASR UNN",
+    "forklaring": "Interne testmodeller fra NB for tale til tekst, trent med syntetiske NorMed-data. Lukket tilgang og ingen lisens oppgitt. Publisert 24.09.26.",
+    "tags": [
+      "ki",
+      "modell",
+      "nasjonalbiblioteket",
+      "asr"
+    ]
+  },
+  {
+    "id": "borealis-preview",
+    "tittel": "Borealis Preview",
+    "forklaring": "Forhåndsversjon av Borealis fra desember 2025 og januar 2026, bygd på Gemma 3. Modellkortet sier at den ikke er sikkerhetstrent og kan følge skadelige instruksjoner. Finnes som GGUF og MLX.",
+    "tags": [
+      "ki",
+      "modell",
+      "nasjonalbiblioteket",
+      "llm"
+    ],
+    "alias": [
+      "borealis-*-instruct-preview"
+    ]
+  },
+  {
+    "id": "aurora-2604",
+    "tittel": "Aurora 2604",
+    "forklaring": "NBs treningskorpus bak Borealis 2 og borealis-embed-212m: 47,6 milliarder ord på bokmål, nynorsk, dansk, svensk, engelsk, færøysk, islandsk og samiske språk, med kunnskap frem til 01.01.25.",
+    "tags": [
+      "ki",
+      "modell",
+      "nasjonalbiblioteket",
+      "datasett"
+    ],
+    "alias": [
+      "Aurora"
+    ]
+  },
+  {
+    "id": "nst",
+    "tittel": "Nordisk Språkteknologi",
+    "undertittel": "NST",
+    "forklaring": "Stort korpus med opplest norsk tale, forvaltet av Språkbanken. Brukt til å trene NB-Whisper og NBs talesyntese. Apache 2.0.",
+    "tags": [
+      "ki",
+      "datasett",
+      "asr",
+      "tts"
+    ],
+    "alias": [
+      "NST-korpuset"
+    ]
+  },
+  {
+    "id": "npsc",
+    "tittel": "Norwegian Parliamentary Speech Corpus",
+    "undertittel": "NPSC",
+    "forklaring": "Talekorpus med opptak og transkripsjoner fra Stortinget. Brukt til å trene NB-Whisper og nb-wav2vec2. CC0 1.0.",
+    "tags": [
+      "ki",
+      "datasett",
+      "asr"
+    ],
+    "alias": [
+      "Stortingskorpuset"
+    ]
+  },
+  {
+    "id": "fineweb-2",
+    "tittel": "FineWeb-2",
+    "forklaring": "Hugging Faces flerspråklige datasett med filtrert tekst fra nettet. Del av Aurora 2604.",
+    "tags": [
+      "ki",
+      "datasett"
+    ]
+  },
+  {
+    "id": "finepdfs",
+    "tittel": "FinePDFs",
+    "forklaring": "Hugging Faces datasett med tekst hentet ut fra PDF-filer. Del av Aurora 2604.",
+    "tags": [
+      "ki",
+      "datasett"
+    ]
+  },
+  {
+    "id": "malfrid",
+    "tittel": "Målfrid",
+    "forklaring": "Språkbankens korpus med tekst fra nettsidene til offentlige virksomheter. Del av Aurora 2604.",
+    "tags": [
+      "ki",
+      "datasett"
+    ]
+  },
+  {
+    "id": "lovdata",
+    "tittel": "Lovdata",
+    "forklaring": "Stiftelse som publiserer norske lover, forskrifter og rettsavgjørelser. Del av treningsgrunnlaget for Borealis 2.",
+    "tags": [
+      "ki",
+      "aktør",
+      "datasett"
+    ]
+  },
+  {
+    "id": "kopinor",
+    "tittel": "Kopinor",
+    "forklaring": "Norsk rettighetsorganisasjon for bruk av tekst og bilder. Avtalen med Kopinor og MBL gir NB lov til å trene Borealis og borealis-embed-212m på avisstoff.",
+    "tags": [
+      "ki",
+      "aktør",
+      "lisens"
+    ]
+  },
+  {
+    "id": "mbl",
+    "tittel": "Mediebedriftenes Landsforening",
+    "undertittel": "MBL",
+    "forklaring": "Bransjeorganisasjon for norske mediebedrifter. Part i avtalen som gir NB lov til å trene KI-modeller på avisstoff.",
+    "tags": [
+      "ki",
+      "aktør",
+      "lisens"
+    ],
+    "alias": [
+      "Mediebedriftene"
+    ]
+  },
+  {
+    "id": "pliktavlevering",
+    "tittel": "Pliktavlevering",
+    "forklaring": "Plikten til å levere et eksemplar av alt som blir gjort tilgjengelig for allmennheten i Norge, til Nasjonalbiblioteket. NB-NoTraM-Llama er trent uten materiale som bare er tilgjengelig gjennom pliktavlevering.",
+    "tags": [
+      "ki",
+      "nasjonalbiblioteket",
+      "begrep"
+    ],
+    "alias": [
+      "Legal deposit",
+      "Pliktavleveringsloven"
+    ]
+  },
+  {
+    "id": "sikkerhetstrening",
+    "tittel": "Sikkerhetstrening",
+    "forklaring": "Etter-trening som lærer en modell å avvise skadelige forespørsler. Reduserer skadelig innhold, men fjerner det ikke. Borealis Preview og Borealis 2 Preview er ikke sikkerhetstrent.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Safety training",
+      "Safety tuning"
+    ]
+  },
+  {
+    "id": "sjekkpunkt",
+    "tittel": "Sjekkpunkt",
+    "forklaring": "Lagret utgave av vektene fra et bestemt tidspunkt i treningen. En forhåndsversjon er ofte et tidlig sjekkpunkt, ikke en ferdig modell.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Checkpoint"
+    ]
+  },
+  {
+    "id": "modellsignering",
+    "tittel": "Modellsignering",
+    "forklaring": "Kryptografisk signatur på modellfilene som viser hvem som har laget dem, og at ingen har endret dem. Nasjonalbiblioteket signerer Borealis-filene.",
+    "tags": [
+      "ki",
+      "modell",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Model signing"
+    ]
+  },
+  {
+    "id": "hugging-face-space",
+    "tittel": "Hugging Face Space",
+    "forklaring": "Nettside på Hugging Face der du kan prøve en modell i en demo. Flere av NBs talesyntesemodeller finnes bare som Space, ikke som modell du kan laste ned.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy"
+    ],
+    "alias": [
+      "Space"
+    ]
+  },
+  {
+    "id": "forced-alignment",
+    "tittel": "Forced alignment",
+    "forklaring": "Å koble hvert ord i en transkripsjon til riktig tidspunkt i lydfilen. Brukes til teksting og til å lage treningsdata for tale til tekst.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode",
+      "asr"
+    ],
+    "alias": [
+      "Forced aligner",
+      "Tvungen justering"
+    ]
+  },
+  {
+    "id": "strommende-talegjenkjenning",
+    "tittel": "Strømmende talegjenkjenning",
+    "forklaring": "Tale til tekst som gir tekst mens personen snakker, i sanntid. NBs nordsamiske Nemotron-modeller virker slik.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep",
+      "asr"
+    ],
+    "alias": [
+      "Streaming ASR",
+      "Sanntidstranskripsjon"
+    ]
+  },
+  {
+    "id": "chunking",
+    "tittel": "Chunking",
+    "forklaring": "Å dele lang lyd eller tekst i mindre biter før en modell behandler dem. Whisper tar 30 sekunder lyd om gangen, og RAG deler dokumenter i biter før de blir søkbare.",
+    "tags": [
+      "ki",
+      "modell",
+      "metode",
+      "asr"
+    ],
+    "alias": [
+      "Oppdeling",
+      "Chunk"
+    ]
+  },
+  {
+    "id": "nemotron",
+    "tittel": "Nemotron",
+    "forklaring": "NVIDIAs modellfamilie. nemotron-3.5-asr-streaming-0.6b er grunnlaget for NBs talegjenkjennere for nordsamisk og for Nemotron-variantene i NB-ASR-BETA.",
+    "tags": [
+      "ki",
+      "modell",
+      "nvidia",
+      "asr"
+    ]
+  },
+  {
+    "id": "nemo",
+    "tittel": "NeMo",
+    "forklaring": "NVIDIAs rammeverk for å trene og kjøre tale- og språkmodeller. Modellene lagres som .nemo-filer. NBs nordsamiske Nemotron-modeller krever NeMo 26.06 eller nyere.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy",
+      "nvidia"
+    ],
+    "alias": [
+      ".nemo"
+    ]
+  },
+  {
+    "id": "parakeet-cpp",
+    "tittel": "parakeet.cpp",
+    "forklaring": "Frittstående program som kjører Parakeet-modeller uten Python, slik whisper.cpp gjør for Whisper.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy",
+      "asr"
+    ]
+  },
+  {
+    "id": "kenlm",
+    "tittel": "KenLM",
+    "forklaring": "Verktøy for raske n-gram-modeller. NB bruker en 5-gram KenLM-modell sammen med nb-wav2vec2 for å senke ordfeilraten.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy",
+      "asr"
+    ],
+    "alias": [
+      "nb-wav2vec2-kenlm"
+    ]
+  },
+  {
+    "id": "n-gram-modell",
+    "tittel": "N-gram-modell",
+    "forklaring": "Enkel statistisk språkmodell som gjetter neste ord ut fra de foregående ordene. Brukes som støtte for tale til tekst.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep",
+      "asr"
+    ],
+    "alias": [
+      "N-gram language model",
+      "5-gram"
+    ]
+  },
+  {
+    "id": "xls-r",
+    "tittel": "XLS-R",
+    "forklaring": "Metas flerspråklige talemodell, en videreutvikling av wav2vec2 trent på 128 språk. Grunnlaget for nb-wav2vec2-1b.",
+    "tags": [
+      "ki",
+      "modell",
+      "meta",
+      "asr"
+    ]
+  },
+  {
+    "id": "voxrex",
+    "tittel": "VoxRex",
+    "forklaring": "Svensk talemodell fra KBLab. Grunnlaget for nb-wav2vec2-300m.",
+    "tags": [
+      "ki",
+      "modell",
+      "asr"
+    ]
+  },
+  {
+    "id": "kblab",
+    "tittel": "KBLab",
+    "forklaring": "Datalaboratoriet ved Kungliga biblioteket i Sverige, NBs svenske motstykke. Lager svenske språk- og talemodeller.",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "Kungliga biblioteket",
+      "KB"
+    ]
+  },
+  {
+    "id": "qwen",
+    "tittel": "Qwen",
+    "forklaring": "Alibabas modellfamilie med åpne vekter i mange størrelser. Qwen3-ASR er grunnlaget for NB-ASR-BETA.",
+    "tags": [
+      "ki",
+      "modell",
+      "alibaba",
+      "llm"
+    ]
+  },
+  {
+    "id": "alibaba-cloud",
+    "tittel": "Alibaba Cloud",
+    "forklaring": "Skytjenesten til kinesiske Alibaba. Står bak Qwen-modellene.",
+    "tags": [
+      "ki",
+      "aktør",
+      "alibaba"
+    ],
+    "alias": [
+      "Alibaba",
+      "Qwen-teamet"
+    ]
+  },
+  {
+    "id": "f5-tts",
+    "tittel": "F5-TTS",
+    "forklaring": "Åpen talesyntesemodell som kan etterligne en stemme ut fra et kort lydklipp. Grunnlaget for salmon-f5-tts-north-sami.",
+    "tags": [
+      "ki",
+      "modell",
+      "tts"
+    ]
+  },
+  {
+    "id": "segformer",
+    "tittel": "SegFormer",
+    "forklaring": "NVIDIAs transformerarkitektur for bildesegmentering. Grunnlaget for NBs Autocrop-modeller.",
+    "tags": [
+      "ki",
+      "modell",
+      "nvidia"
+    ],
+    "alias": [
+      "mit-b0"
+    ]
+  },
+  {
+    "id": "bildesegmentering",
+    "tittel": "Bildesegmentering",
+    "forklaring": "Å dele et bilde i områder og merke hver piksel med hva den viser, for eksempel tekst, bilde eller marg.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Image segmentation"
+    ]
+  },
+  {
+    "id": "vit",
+    "tittel": "Vision Transformer",
+    "undertittel": "ViT",
+    "forklaring": "Transformerarkitektur for bilder. Deler bildet i små ruter og behandler dem som tokens. Grunnlaget for vit-front-page-384.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep",
+      "google"
+    ]
+  },
+  {
+    "id": "iou",
+    "tittel": "Intersection over Union",
+    "undertittel": "IoU",
+    "forklaring": "Mål på hvor godt et område modellen har merket, overlapper med fasiten, fra 0 til 1. autocrop-combined har 0,9911.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ]
+  },
+  {
+    "id": "mteb",
+    "tittel": "Massive Text Embedding Benchmark",
+    "undertittel": "MTEB",
+    "forklaring": "Benchmark for innbyggingsmodeller, med egne utgaver for blant annet skandinaviske språk. Sammenligner borealis-embed-212m og nb-sbert.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "MTEB (Scandinavian)"
+    ]
+  },
+  {
+    "id": "longembed",
+    "tittel": "LongEmbed",
+    "forklaring": "Benchmark for innbyggingsmodeller på lange tekster. Passkey-oppgaven tester om modellen finner igjen en gjemt kode. borealis-embed-212m skårer 0,99, nb-sbert-v2-base 0,14.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep"
+    ],
+    "alias": [
+      "Passkey"
+    ]
+  },
+  {
+    "id": "ggml",
+    "tittel": "GGML",
+    "forklaring": "Bibliotek og filformat bak llama.cpp og whisper.cpp. GGUF har tatt over for språkmodeller, men whisper.cpp bruker GGML-filer.",
+    "tags": [
+      "ki",
+      "modell",
+      "format"
+    ]
+  },
+  {
+    "id": "ctranslate2",
+    "tittel": "CTranslate2",
+    "forklaring": "Kjøremotor og format for raske transformermodeller på CPU og GPU. Brukes av faster-whisper.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy",
+      "format"
+    ]
+  },
+  {
+    "id": "faster-whisper",
+    "tittel": "faster-whisper",
+    "forklaring": "Utgave av Whisper på CTranslate2 som kjører opptil fire ganger raskere og bruker mindre minne.",
+    "tags": [
+      "ki",
+      "modell",
+      "verktøy",
+      "asr",
+      "openai"
+    ]
+  },
+  {
+    "id": "flax",
+    "tittel": "Flax",
+    "forklaring": "Googles bibliotek for nevrale nettverk, bygd på JAX. Ett av formatene NB-Whisper finnes i.",
+    "tags": [
+      "ki",
+      "modell",
+      "format",
+      "google"
+    ],
+    "alias": [
+      "JAX"
+    ]
+  },
+  {
+    "id": "gpt",
+    "tittel": "Generative Pre-trained Transformer",
+    "undertittel": "GPT",
+    "forklaring": "OpenAIs modellfamilie og navnet på modelltypen: En transformer som er fortrent til å generere tekst.",
+    "tags": [
+      "ki",
+      "modell",
+      "openai",
+      "llm"
+    ]
+  },
+  {
+    "id": "gpt-4-1-mini",
+    "tittel": "GPT-4.1 mini",
+    "forklaring": "Liten og rask språkmodell som OpenAI lanserte i 2025. Fjernet fra ChatGPT 13.02.26. Microsoft fjerner den fra Azure OpenAI 14.10.26 og anbefaler GPT-5 mini i stedet.",
+    "tags": [
+      "ki",
+      "modell",
+      "openai",
+      "llm"
+    ],
+    "alias": [
+      "gpt-4.1-mini"
+    ]
+  },
+  {
+    "id": "chatgpt",
+    "tittel": "ChatGPT",
+    "forklaring": "OpenAIs KI-assistent, bygd på GPT-modellene.",
+    "tags": [
+      "ki",
+      "openai",
+      "llm"
+    ]
+  },
+  {
+    "id": "gemini",
+    "tittel": "Gemini",
+    "forklaring": "Googles lukkede modellfamilie, utviklet av Google DeepMind. Søster til de åpne Gemma-modellene. Nyeste toppmodell per 06.10.26: Gemini 4 Argon fra 30.09.26.",
+    "tags": [
+      "ki",
+      "modell",
+      "google",
+      "llm"
+    ]
+  },
+  {
+    "id": "claude",
+    "tittel": "Claude",
+    "forklaring": "Anthropics modellfamilie og KI-assistent.",
+    "tags": [
+      "ki",
+      "modell",
+      "llm"
+    ]
+  },
+  {
+    "id": "langchain",
+    "tittel": "LangChain",
+    "forklaring": "Rammeverk for å bygge applikasjoner med språkmodeller, for eksempel RAG og agenter. Bruker Pydantic til strukturert utdata.",
+    "tags": [
+      "ki",
+      "verktøy",
+      "programmering",
+      "llm"
+    ]
+  },
+  {
+    "id": "ocr",
+    "tittel": "Optisk tegngjenkjenning",
+    "undertittel": "OCR",
+    "forklaring": "Å gjøre trykt tekst i bilder og skannede dokumenter om til tekst en maskin kan lese. Håndskrift krever egne modeller.",
+    "tags": [
+      "ki",
+      "modell",
+      "begrep",
+      "ocr"
+    ],
+    "alias": [
+      "Optical character recognition",
+      "HTR",
+      "Håndskriftgjenkjenning"
+    ]
+  },
+  {
+    "id": "apache-2-0",
+    "tittel": "Apache 2.0",
+    "forklaring": "Åpen kildekodelisens som tillater all bruk, også kommersiell, så lenge du beholder opphavs- og lisensmerkingen. Gir også rett til å bruke patentene bak. De fleste NB-modellene bruker den.",
+    "tags": [
+      "ki",
+      "lisens"
+    ],
+    "alias": [
+      "Apache License 2.0"
+    ]
+  },
+  {
+    "id": "cc",
+    "tittel": "Creative Commons",
+    "undertittel": "CC",
+    "forklaring": "Standardlisenser for innhold, også modeller og datasett. CC0 gir bort alle rettigheter, BY krever navngivelse, NC forbyr kommersiell bruk, SA krever at bearbeidinger deles på samme vilkår, og ND forbyr endringer.",
+    "tags": [
+      "ki",
+      "lisens"
+    ],
+    "alias": [
+      "CC BY 4.0",
+      "CC BY-NC 4.0",
+      "CC BY-SA 4.0",
+      "CC0"
+    ]
+  },
+  {
+    "id": "openrail",
+    "tittel": "OpenRAIL",
+    "forklaring": "Åpen lisens for KI-modeller med bruksbegrensninger: Du kan bruke modellen fritt, men ikke til formål lisensen forbyr.",
+    "tags": [
+      "ki",
+      "lisens"
+    ],
+    "alias": [
+      "Open Responsible AI License",
+      "RAIL"
+    ]
+  },
+  {
+    "id": "gemma-lisens",
+    "tittel": "Gemma-lisens",
+    "forklaring": "Googles bruksvilkår for Gemma-modeller. Tillater kommersiell bruk, men forbyr visse bruksområder, også for modeller som bygger på Gemma.",
+    "tags": [
+      "ki",
+      "lisens",
+      "google"
+    ],
+    "alias": [
+      "Gemma Terms of Use"
+    ]
+  },
+  {
+    "id": "llama-lisens",
+    "tittel": "Llama-lisens",
+    "forklaring": "Metas vilkår for Llama-modellene. Krever navngivelse, og tjenester med svært mange brukere må ha egen avtale med Meta.",
+    "tags": [
+      "ki",
+      "lisens",
+      "meta"
+    ],
+    "alias": [
+      "Llama Community License"
+    ]
+  },
+  {
+    "id": "nb-license-1-0",
+    "tittel": "nb-license-1.0",
+    "forklaring": "NBs tilpassede Apache 2.0-lisens for Borealis 2 og borealis-embed-212m. Du kan ikke prøve å gjenskape treningsdata eller lage tjenester som først og fremst gir tilgang til de lisensierte avisartiklene.",
+    "tags": [
+      "ki",
+      "lisens",
+      "nasjonalbiblioteket"
+    ]
+  },
+  {
+    "id": "speech-to-form",
+    "tittel": "Speech-to-form",
+    "forklaring": "Løsning som gjør muntlig informasjon om til utfylte skjemafelt eller strukturerte data, for eksempel JSON, i én operasjon. Kombinerer tale til tekst med en språkmodell. Brukes i helse, feltarbeid, inspeksjoner, kundeservice og saksbehandling.",
+    "tags": [
+      "ki",
+      "metode",
+      "asr",
+      "llm"
+    ],
+    "alias": [
+      "Tale til skjema",
+      "One-shot form filling",
+      "Voice form-filling",
+      "Diktatanalyse"
+    ]
+  },
+  {
+    "id": "informasjonsuttrekk",
+    "tittel": "Informasjonsuttrekk",
+    "forklaring": "Å hente bestemte opplysninger ut av ustrukturert tekst eller tale og legge dem i faste felt. Språkmodeller kan gjøre dette uten egen trening for hvert felt.",
+    "tags": [
+      "ki",
+      "analyse",
+      "metode",
+      "llm"
+    ],
+    "alias": [
+      "Information extraction",
+      "Intelligent uttrekk",
+      "Structured data extraction"
+    ]
+  },
+  {
+    "id": "reservelosning",
+    "tittel": "Reserveløsning",
+    "undertittel": "fallback",
+    "forklaring": "Løsningen som tar over når hovedløsningen svikter. En annen modell kan svare når den første ikke gjør det, og en regelmotor kan ta over når ingen modell er tilgjengelig.",
+    "tags": [
+      "ki",
+      "metode"
+    ],
+    "alias": [
+      "Fallback",
+      "Reservemodell"
+    ]
+  },
+  {
+    "id": "talekommando",
+    "tittel": "Talekommando",
+    "forklaring": "Muntlig instruksjon som styrer en app eller enhet, for eksempel «ta bilde».",
+    "tags": [
+      "ki",
+      "asr"
+    ],
+    "alias": [
+      "Voice command",
+      "Stemmestyring"
+    ]
+  },
+  {
+    "id": "menneskelig-tilsyn",
+    "tittel": "Menneskelig tilsyn",
+    "forklaring": "Et menneske kan overvåke, forstå og overstyre et KI-system, og godkjenner det som faktisk blir registrert. Krav til høyrisikosystemer i KI-forordningen, artikkel 14.",
+    "tags": [
+      "ki",
+      "personvern"
+    ],
+    "alias": [
+      "Human oversight",
+      "Human-in-control",
+      "Human-in-command",
+      "Human-on-the-loop"
+    ]
+  },
+  {
+    "id": "pydantic",
+    "tittel": "Pydantic",
+    "forklaring": "Python-bibliotek som sjekker at data har riktig struktur og datatype ut fra typeangivelsene i koden. Mye brukt til å kontrollere svar fra språkmodeller. Støtter JSON Schema. Nettsted: [pydantic.dev](https://pydantic.dev).",
+    "tags": [
+      "ki",
+      "programmering",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "json-schema",
+    "tittel": "JSON Schema",
+    "forklaring": "Standard for å beskrive strukturen et JSON-dokument skal ha: Felt, datatyper og hvilke felt som er påkrevd. Brukes til å få språkmodeller til å svare i et fast format.",
+    "tags": [
+      "ki",
+      "programmering",
+      "format"
+    ]
+  },
+  {
+    "id": "fastapi",
+    "tittel": "FastAPI",
+    "forklaring": "Python-rammeverk for å lage programmeringsgrensesnitt (API) på serveren. Bruker Pydantic til validering.",
+    "tags": [
+      "programmering",
+      "verktøy"
+    ]
+  },
+  {
+    "id": "react",
+    "tittel": "React",
+    "forklaring": "JavaScript-bibliotek fra Meta for å lage brukergrensesnitt i nettleseren.",
+    "tags": [
+      "programmering"
+    ]
+  },
+  {
+    "id": "container",
+    "tittel": "Container",
+    "forklaring": "Pakke med et program og alt programmet trenger, slik at det kjører likt på alle maskiner. Docker er det mest brukte verktøyet.",
+    "tags": [
+      "sky",
+      "programmering"
+    ],
+    "alias": [
+      "Docker",
+      "Beholder"
+    ]
+  },
+  {
+    "id": "azure-container-apps",
+    "tittel": "Azure Container Apps",
+    "forklaring": "Microsofts skytjeneste for å kjøre containere uten å drifte servere selv.",
+    "tags": [
+      "sky"
+    ]
+  },
+  {
+    "id": "kryptografisk-hashfunksjon",
+    "tittel": "Kryptografisk hashfunksjon",
+    "forklaring": "Funksjon som lager et kort fingeravtrykk av data. Fingeravtrykket blir helt annerledes hvis én bit i dataene endres.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Hash",
+      "Hashverdi",
+      "Sjekksum"
+    ]
+  },
+  {
+    "id": "sha-256",
+    "tittel": "SHA-256",
+    "forklaring": "Mye brukt kryptografisk hashfunksjon som gir et fingeravtrykk på 256 bit. Brukes blant annet til å forsegle data, slik at endringer i ettertid blir oppdaget.",
+    "tags": [
+      "sikkerhet"
+    ],
+    "alias": [
+      "Secure Hash Algorithm 256"
+    ]
+  },
+  {
+    "id": "revisjonsspor",
+    "tittel": "Revisjonsspor",
+    "forklaring": "Sammenhengende logg over hvem som gjorde hva og når. Ingen kan endre den i ettertid uten at det synes. En løsning kan forsegle lyd, transkripsjon og felt med SHA-256 for å gi et slikt spor.",
+    "tags": [
+      "sikkerhet",
+      "personvern"
+    ],
+    "alias": [
+      "Audit trail",
+      "Revisjonslogg"
+    ]
+  },
+  {
+    "id": "gps",
+    "tittel": "Global Positioning System",
+    "undertittel": "GPS",
+    "forklaring": "Satellittbasert posisjonering. En app kan legge posisjonen til hver registrering automatisk.",
+    "tags": [
+      "iot",
+      "personvern"
+    ],
+    "alias": [
+      "Satellittnavigasjon"
+    ]
+  },
+  {
+    "id": "lokasjonsdata",
+    "tittel": "Lokasjonsdata",
+    "forklaring": "Opplysninger om hvor en person eller enhet er. Personopplysninger når de kan knyttes til en person, og kan avsløre vaner og bosted.",
+    "tags": [
+      "personvern",
+      "iot"
+    ],
+    "alias": [
+      "Location data",
+      "Posisjonsdata",
+      "Stedsdata"
     ]
   }
 ]
