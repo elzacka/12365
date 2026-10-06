@@ -247,14 +247,14 @@ export function Licenses() {
               className="mb-4 bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden"
               aria-labelledby={`tema-${theme.id}`}
             >
-              <header className="px-4 py-2.5 bg-slate-50/70 border-b border-slate-100">
+              <header className="px-4 pt-3.5 pb-3 bg-slate-50/70 border-b border-slate-100">
                 <h2
                   id={`tema-${theme.id}`}
-                  className="text-xs font-semibold text-brand-600 uppercase tracking-wider"
+                  className="text-base font-semibold text-brand-700 leading-snug"
                 >
                   {theme.navn}
                 </h2>
-                <p className="text-[11px] text-slate-500 mt-0.5 leading-snug">{theme.beskrivelse}</p>
+                <p className="text-xs text-slate-500 mt-0.5 leading-snug">{theme.beskrivelse}</p>
               </header>
 
               {categoriesInTheme.map((cat, idx) => {

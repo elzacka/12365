@@ -244,7 +244,7 @@ export function HowTo() {
               >
                 <h2
                   id={`cat-${cat.id}`}
-                  className="px-4 py-2.5 bg-slate-50/70 border-b border-slate-100 text-xs font-semibold text-brand-600 uppercase tracking-wider"
+                  className="px-4 pt-3.5 pb-3 bg-slate-50/70 border-b border-slate-100 text-base font-semibold text-brand-700 leading-snug"
                 >
                   {cat.tittel}
                 </h2>
