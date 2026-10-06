@@ -241,94 +241,92 @@ export function Licenses() {
         {data.tema.map(theme => {
           const categoriesInTheme = filteredCategories.filter(k => k.tema === theme.id)
           if (categoriesInTheme.length === 0) return null
-          const totalInTheme = categoriesInTheme.reduce((sum, k) => sum + k.funksjoner.length, 0)
           return (
-            <section key={theme.id} className="mb-6" aria-labelledby={`tema-${theme.id}`}>
-              <header className="mb-2 px-1">
-                <div className="flex items-baseline justify-between gap-2">
-                  <h2
-                    id={`tema-${theme.id}`}
-                    className="text-sm font-semibold text-slate-500 uppercase tracking-wider"
-                  >
-                    {theme.navn}
-                  </h2>
-                  <span className="text-[11px] font-medium text-slate-500 tabular-nums">{totalInTheme}</span>
-                </div>
+            <section
+              key={theme.id}
+              className="mb-4 bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden"
+              aria-labelledby={`tema-${theme.id}`}
+            >
+              <header className="px-4 py-2.5 bg-slate-50/70 border-b border-slate-100">
+                <h2
+                  id={`tema-${theme.id}`}
+                  className="text-xs font-semibold text-brand-600 uppercase tracking-wider"
+                >
+                  {theme.navn}
+                </h2>
                 <p className="text-[11px] text-slate-500 mt-0.5 leading-snug">{theme.beskrivelse}</p>
               </header>
 
-              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                {categoriesInTheme.map((cat, idx) => {
-                  const isOpen = isFiltered || expanded.has(cat.id)
-                  return (
-                    <div key={cat.id} className={idx > 0 ? 'border-t border-slate-100' : ''}>
-                      <button
-                        onClick={() => toggleCategory(cat.id)}
-                        className={`w-full flex items-center gap-3 px-4 py-3.5 transition-colors ${
-                          isFiltered ? 'cursor-default' : 'hover:bg-slate-50 active:bg-slate-100'
-                        }`}
-                        aria-expanded={isOpen}
-                        aria-controls={`cat-${cat.id}-list`}
-                      >
-                        <div className="flex-1 text-left min-w-0">
-                          <p className="text-sm font-medium text-slate-800 truncate">{cat.navn}</p>
-                          <p className="text-[11px] text-slate-500 mt-0.5">
-                            {cat.funksjoner.length} funksjon{cat.funksjoner.length === 1 ? '' : 'er'}
-                          </p>
-                        </div>
-                        {!isFiltered && (
-                          <ChevronRightIcon
-                            size={18}
-                            className={`text-slate-300 flex-shrink-0 transition-transform duration-200 ${
-                              isOpen ? 'rotate-90' : ''
-                            }`}
-                          />
-                        )}
-                      </button>
-                      {isOpen && (
-                        <ul
-                          id={`cat-${cat.id}-list`}
-                          className="border-t border-slate-100 bg-slate-50/50"
-                        >
-                          {cat.funksjoner.map((f, i) => {
-                            const featureId = `${cat.id}-${i}`
-                            const hasDescription = Boolean(f.beskrivelse)
-                            const isActive = activeFeature === featureId
-                            return (
-                              <li
-                                key={featureId}
-                                className={i < cat.funksjoner.length - 1 ? 'border-b border-slate-100' : ''}
-                              >
-                                <button
-                                  type="button"
-                                  onClick={() => hasDescription && setActiveFeature(prev => prev === featureId ? null : featureId)}
-                                  className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors ${
-                                    hasDescription ? 'hover:bg-slate-100 active:bg-slate-200 cursor-pointer' : 'cursor-default'
-                                  }`}
-                                  aria-expanded={isActive}
-                                  aria-controls={isActive ? `${featureId}-detail` : undefined}
-                                  disabled={!hasDescription}
-                                >
-                                  <div className="flex-1 text-sm text-slate-700 leading-snug">{f.navn}</div>
-                                  <StatusBadge status={f.status} />
-                                </button>
-                                {isActive && f.beskrivelse && (
-                                  <div
-                                    id={`${featureId}-detail`}
-                                    className="px-4 pt-2 pb-3 bg-brand-50/60 border-t border-brand-100"
-                                  >
-                                    <p className="text-xs text-slate-700 leading-relaxed italic">{f.beskrivelse}</p>
-                                  </div>
-                                )}
-                              </li>
-                            )
-                          })}
-                        </ul>
+              {categoriesInTheme.map((cat, idx) => {
+                const isOpen = isFiltered || expanded.has(cat.id)
+                return (
+                  <div key={cat.id} className={idx > 0 ? 'border-t border-slate-100' : ''}>
+                    <button
+                      onClick={() => toggleCategory(cat.id)}
+                      className={`w-full flex items-center gap-3 px-4 py-3.5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500 ${
+                        isFiltered ? 'cursor-default' : 'hover:bg-slate-50 active:bg-slate-100'
+                      }`}
+                      aria-expanded={isOpen}
+                      aria-controls={`cat-${cat.id}-list`}
+                    >
+                      <div className="flex-1 text-left min-w-0">
+                        <p className="text-sm font-medium text-slate-800 truncate">{cat.navn}</p>
+                        <p className="text-[11px] text-slate-500 mt-0.5">
+                          {cat.funksjoner.length} funksjon{cat.funksjoner.length === 1 ? '' : 'er'}
+                        </p>
+                      </div>
+                      {!isFiltered && (
+                        <ChevronRightIcon
+                          size={18}
+                          className={`text-slate-300 flex-shrink-0 transition-transform duration-200 ${
+                            isOpen ? 'rotate-90' : ''
+                          }`}
+                        />
                       )}
-                    </div>
-                  )
-                })}
-              </div>
+                    </button>
+                    {isOpen && (
+                      <ul
+                        id={`cat-${cat.id}-list`}
+                        className="border-t border-slate-100 bg-slate-50/50"
+                      >
+                        {cat.funksjoner.map((f, i) => {
+                          const featureId = `${cat.id}-${i}`
+                          const hasDescription = Boolean(f.beskrivelse)
+                          const isActive = activeFeature === featureId
+                          return (
+                            <li
+                              key={featureId}
+                              className={i < cat.funksjoner.length - 1 ? 'border-b border-slate-100' : ''}
+                            >
+                              <button
+                                type="button"
+                                onClick={() => hasDescription && setActiveFeature(prev => prev === featureId ? null : featureId)}
+                                className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500 ${
+                                  hasDescription ? 'hover:bg-slate-100 active:bg-slate-200 cursor-pointer' : 'cursor-default'
+                                }`}
+                                aria-expanded={isActive}
+                                aria-controls={isActive ? `${featureId}-detail` : undefined}
+                                disabled={!hasDescription}
+                              >
+                                <div className="flex-1 text-sm text-slate-700 leading-snug">{f.navn}</div>
+                                <StatusBadge status={f.status} />
+                              </button>
+                              {isActive && f.beskrivelse && (
+                                <div
+                                  id={`${featureId}-detail`}
+                                  className="px-4 pt-2 pb-3 bg-brand-50/60 border-t border-brand-100"
+                                >
+                                  <p className="text-xs text-slate-700 leading-relaxed italic">{f.beskrivelse}</p>
+                                </div>
+                              )}
+                            </li>
+                          )
+                        })}
+                      </ul>
+                    )}
+                  </div>
+                )
+              })}
             </section>
           )
         })}
