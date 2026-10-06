@@ -3342,7 +3342,7 @@
   {
     "id": "microsoft-editor",
     "tittel": "Microsoft Editor",
-    "forklaring": "Funksjon for skrive- og språkassistanse, integrert i Word, Outlook og nettleseren.",
+    "forklaring": "Funksjon for skrive- og språkassistanse, integrert i Word, Outlook og Edge.",
     "tags": [
       "m365",
       "produktivitet",
@@ -3418,7 +3418,7 @@
   },
   {
     "id": "microsoft-graph-connectors",
-    "tittel": "Microsoft Graph-koblinger",
+    "tittel": "Microsoft 365 Copilot-koblinger",
     "forklaring": "Funksjon som henter eksterne data inn i Microsoft Search og Copilot via Microsoft Graph.",
     "tags": [
       "m365",
@@ -3427,7 +3427,9 @@
       "tjeneste"
     ],
     "alias": [
-      "Microsoft Graph connectors"
+      "Copilot connectors",
+      "Microsoft Graph connectors",
+      "Microsoft Graph-koblinger"
     ]
   },
   {
@@ -3654,12 +3656,17 @@
   },
   {
     "id": "microsoft-viva-connections",
-    "tittel": "Microsoft Viva Connections",
-    "forklaring": "App som viser en ansattportal inne i Teams. Bygger på SharePoint.",
+    "tittel": "SharePoint-appen i Teams",
+    "forklaring": "App som viser organisasjonens ansattportal inne i Teams, drevet av SharePoint-hjemmesiden.",
     "tags": [
       "m365",
       "samarbeid",
       "tjeneste"
+    ],
+    "alias": [
+      "SharePoint app",
+      "Viva Connections",
+      "Microsoft Viva Connections"
     ]
   },
   {
@@ -6950,7 +6957,7 @@
   },
   {
     "id": "microsoft-365-defender-suite",
-    "tittel": "Microsoft 365 Defender Suite",
+    "tittel": "Microsoft Defender Suite",
     "forklaring": "Lisenspakke som samler Defender-sikkerhetstjenestene. Innholdet er inkludert i E5.",
     "tags": [
       "m365",
@@ -6958,12 +6965,13 @@
       "lisens"
     ],
     "alias": [
+      "Microsoft 365 E5 Security",
       "E5 Security"
     ]
   },
   {
     "id": "microsoft-365-purview-suite",
-    "tittel": "Microsoft 365 Purview Suite",
+    "tittel": "Microsoft Purview Suite",
     "forklaring": "Lisenspakke som samler Purview-tjenestene for etterlevelse og informasjonsbeskyttelse. Innholdet er inkludert i E5.",
     "tags": [
       "m365",
@@ -6972,6 +6980,7 @@
       "lisens"
     ],
     "alias": [
+      "Microsoft 365 E5 Compliance",
       "E5 Compliance"
     ]
   },
@@ -7326,6 +7335,10 @@
       "nasjonalbiblioteket",
       "llm",
       "modell"
+    ],
+    "alias": [
+      "Borealis Preview",
+      "borealis-*-instruct-preview"
     ]
   },
   {
@@ -7413,16 +7426,6 @@
     ],
     "alias": [
       "Dimensions"
-    ]
-  },
-  {
-    "id": "divvun",
-    "tittel": "Divvun",
-    "forklaring": "Miljø ved UiT som lager samisk språkteknologi. Distribuerer talesyntese som programvare, ikke som åpne vekter.",
-    "tags": [
-      "ki",
-      "tts",
-      "aktør"
     ]
   },
   {
@@ -7706,6 +7709,10 @@
       "ki",
       "ltg",
       "aktør"
+    ],
+    "alias": [
+      "NORA.LLM",
+      "norallm"
     ]
   },
   {
@@ -7718,17 +7725,6 @@
     ],
     "alias": [
       "Teacher model"
-    ]
-  },
-  {
-    "id": "magistral",
-    "tittel": "Magistral",
-    "forklaring": "Mistral AIs resonneringsmodell. Grunnlaget for NorwAI-Magistral-24B-reasoning.",
-    "tags": [
-      "ki",
-      "llm",
-      "mistral",
-      "modell"
     ]
   },
   {
@@ -7764,35 +7760,22 @@
     ]
   },
   {
-    "id": "mistral-mistral-nemo",
-    "tittel": "Mistral, Mistral-Nemo",
-    "forklaring": "Mistral AIs modellfamilie. Grunnlaget for de varmstartede normistral-modellene og flere NorwAI-modeller.",
-    "tags": [
-      "ki",
-      "llm",
-      "mistral",
-      "modell"
-    ]
-  },
-  {
     "id": "mistral-ai",
     "tittel": "Mistral AI",
-    "forklaring": "Fransk selskap bak Mistral, Mixtral og Magistral.",
+    "forklaring": "Fransk selskap. Gjeldende modeller per 07.10.26 er Mistral Large 4, Mistral Medium 3.5, Mistral Small 4 og Ministral 3. Eldre Mistral-, Mixtral- og Magistral-modeller er grunnlaget for flere norske modeller fra ltg og NorwAI. Nettsted: [docs.mistral.ai](https://docs.mistral.ai/getting-started/models/models_overview/).",
     "tags": [
       "ki",
       "mistral",
       "aktør"
-    ]
-  },
-  {
-    "id": "mixtral",
-    "tittel": "Mixtral",
-    "forklaring": "Mistral AIs MoE-modell. Grunnlaget for NorwAI-Mixtral-8x7B.",
-    "tags": [
-      "ki",
-      "llm",
-      "mistral",
-      "modell"
+    ],
+    "alias": [
+      "Mixtral",
+      "Magistral",
+      "Mistral-Nemo",
+      "Mistral Large",
+      "Mistral Medium",
+      "Mistral Small",
+      "Ministral"
     ]
   },
   {
@@ -7896,19 +7879,9 @@
     ]
   },
   {
-    "id": "nb-bert-base-sami-relevant",
-    "tittel": "nb-bert-base-sami-relevant",
-    "forklaring": "Filtrerer ut samiskrelevant tekst.",
-    "tags": [
-      "ki",
-      "nasjonalbiblioteket",
-      "modell"
-    ]
-  },
-  {
     "id": "nb-gpt-j-6b",
     "tittel": "nb-gpt-j-6B",
-    "forklaring": "Eldre NB-språkmodell i flere varianter. Erstattet av Borealis.",
+    "forklaring": "Eldre NB-språkmodell i flere varianter. NBs nyeste språkmodeller er Borealis og Borealis 2.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -7919,7 +7892,7 @@
   {
     "id": "nb-llama-3-x-gguf",
     "tittel": "nb-llama-3.x-*-GGUF",
-    "forklaring": "Kvantiserte utgaver av nb-notram-llama. Erstattet av Borealis.",
+    "forklaring": "Kvantiserte utgaver av nb-notram-llama. NBs nyeste språkmodeller er Borealis og Borealis 2.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -7940,7 +7913,7 @@
   {
     "id": "nb-notram-llama-3-x-instruct",
     "tittel": "nb-notram-llama-3.x-instruct",
-    "forklaring": "Eldre NB-modeller på Llama-grunnlag, 1B til 70B. Arver Metas lisens. Erstattet av Borealis.",
+    "forklaring": "Eldre NB-modeller på Llama-grunnlag, 1B til 70B. Arver Metas lisens. NBs nyeste språkmodeller er Borealis og Borealis 2.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -7949,41 +7922,9 @@
     ]
   },
   {
-    "id": "nb-sami-asr-nemotron-3-5-streaming",
-    "tittel": "nb-sami-asr-nemotron-3.5-streaming",
-    "forklaring": "Nordsamisk talegjenkjenning i sanntid (strømming), i tre varianter på NVIDIA Nemotron. Krever NeMo 26.06 eller nyere. Ingen ordfeilrate oppgitt. Lisensen er oppgitt som «other», altså uavklart.",
-    "tags": [
-      "ki",
-      "nasjonalbiblioteket",
-      "asr",
-      "modell"
-    ]
-  },
-  {
-    "id": "nb-sami-asr-north-parakeet",
-    "tittel": "nb-sami-asr-north-parakeet-*",
-    "forklaring": "Nordsamisk talegjenkjenning på NVIDIA Parakeet, publisert som .nemo-filer i åtte varianter. CC BY 4.0, men to varianter mangler lisens. Beste ordfeilrate på valideringssettet er 19,72 %. Én variant finnes også som parakeet.cpp-program.",
-    "tags": [
-      "ki",
-      "nasjonalbiblioteket",
-      "asr",
-      "modell"
-    ]
-  },
-  {
     "id": "nb-sbert-base-v2-base-v2-large",
     "tittel": "nb-sbert-base, -v2-base, -v2-large",
     "forklaring": "NBs eldre innbyggingsmodeller. Apache 2.0, altså renere lisens enn borealis-embed-212m, men svakere på lang kontekst.",
-    "tags": [
-      "ki",
-      "nasjonalbiblioteket",
-      "modell"
-    ]
-  },
-  {
-    "id": "nb-t5",
-    "tittel": "nb-t5",
-    "forklaring": "Påbegynt NB-modell som aldri ble fullført.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -8037,7 +7978,7 @@
   {
     "id": "nb-wav2vec2",
     "tittel": "nb-wav2vec2-*",
-    "forklaring": "NBs eldre talegjenkjennere i 300M og 1B, for bokmål og nynorsk. De klart mest nedlastede modellene blant NBs modeller, men uten tegnsetting. -v2-utgavene, som står for nesten alle nedlastingene, mangler dokumentasjon. Ordfeilrate på NPSC med KenLM: 6,33 % for 1b bokmål og 7,03 % for 300m bokmål.",
+    "forklaring": "NBs eldre talegjenkjennere i 300M og 1B, for bokmål og nynorsk. De klart mest nedlastede modellene blant NBs modeller, men uten tegnsetting. -v2-utgavene mangler dokumentasjon. Ordfeilrate på NPSC med KenLM: 6,33 % for 1b bokmål og 7,03 % for 300m bokmål.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -8048,12 +7989,15 @@
   {
     "id": "nb-whisper",
     "tittel": "NB-Whisper",
-    "forklaring": "OpenAI Whisper finjustert på rundt 66 000 timer norsk lyd. Fem størrelser fra tiny til large, Apache 2.0. Standardvalget for norsk tale til tekst.",
+    "forklaring": "OpenAI Whisper finjustert på rundt 66 000 timer norsk lyd. Fem størrelser fra tiny til large, Apache 2.0. Standardvalget for norsk tale til tekst. Betaversjonen fra 2023 har en annen lisens, CC BY 4.0.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
       "asr",
       "modell"
+    ],
+    "alias": [
+      "NB-Whisper Beta"
     ]
   },
   {
@@ -8087,16 +8031,6 @@
       "nasjonalbiblioteket",
       "asr",
       "modell"
-    ]
-  },
-  {
-    "id": "nora-llm",
-    "tittel": "NORA.LLM",
-    "forklaring": "Konsortienavn for de samme modellene som ligger under ltg. Organisasjonssiden norallm på Hugging Face har bare datasettene igjen; modellene er flyttet til ltg.",
-    "tags": [
-      "ki",
-      "ltg",
-      "aktør"
     ]
   },
   {
@@ -8391,7 +8325,7 @@
   {
     "id": "parakeet",
     "tittel": "Parakeet",
-    "forklaring": "NVIDIA Parakeet-TDT 0,6B, talegjenkjenningsarkitektur. Grunnlaget for den nordsamiske ASR-modellen.",
+    "forklaring": "NVIDIAs åpne talegjenkjenningsmodell, Parakeet-TDT 0,6B.",
     "tags": [
       "ki",
       "asr",
@@ -8521,17 +8455,6 @@
     "tags": [
       "ki",
       "format"
-    ]
-  },
-  {
-    "id": "salmon-f5-tts-north-sami",
-    "tittel": "salmon-f5-tts-north-sami",
-    "forklaring": "Nordsamisk talesyntese fra NB. CC-BY-NC-4.0, kan ikke brukes kommersielt.",
-    "tags": [
-      "ki",
-      "nasjonalbiblioteket",
-      "tts",
-      "modell"
     ]
   },
   {
@@ -8735,12 +8658,16 @@
     ]
   },
   {
-    "id": "torchtune",
-    "tittel": "TorchTune",
-    "forklaring": "PyTorch sitt eget rammeverk for finjustering. Aktiv utvikling avsluttet i juli 2025.",
+    "id": "torchtitan",
+    "tittel": "torchtitan",
+    "forklaring": "PyTorch sitt eget rammeverk for å trene generative KI-modeller i stor skala, også med veiledet finjustering. PyTorch samler arbeidet med trening av språkmodeller her. BSD-3-Clause. Nettsted: [github.com/pytorch/torchtitan](https://github.com/pytorch/torchtitan).",
     "tags": [
       "ki",
       "verktøy"
+    ],
+    "alias": [
+      "TorchTune",
+      "torchforge"
     ]
   },
   {
@@ -8816,17 +8743,6 @@
     "forklaring": "Arkitektur for tekstgjenkjenning i bilder. Sprakbanken/TrOCR-norhand-v3 er den nyeste for historisk norsk håndskrift.",
     "tags": [
       "ki",
-      "ocr",
-      "modell"
-    ]
-  },
-  {
-    "id": "trocr-smi",
-    "tittel": "trocr_smi",
-    "forklaring": "Språkbankens samiske TrOCR-varianter, sju i tallet, blant annet trocr_smi_nor for blandet samisk og norsk.",
-    "tags": [
-      "ki",
-      "nasjonalbiblioteket",
       "ocr",
       "modell"
     ]
@@ -9123,7 +9039,7 @@
   {
     "id": "hugging-face-papers",
     "tittel": "Hugging Face Papers",
-    "forklaring": "Daglig utvalg av nye KI-artikler med lenker til kode og modeller. Har overtatt rollen til Papers with Code, som ble lagt ned i juli 2025. Nettsted: [huggingface.co/papers](https://huggingface.co/papers).",
+    "forklaring": "Daglig utvalg av nye KI-artikler med lenker til kode og modeller. Nettsted: [huggingface.co/papers](https://huggingface.co/papers).",
     "tags": [
       "ki",
       "huggingface",
@@ -9710,20 +9626,9 @@
     ]
   },
   {
-    "id": "nb-whisper-beta",
-    "tittel": "NB-Whisper Beta",
-    "forklaring": "Offentlig beta av NB-Whisper fra juli 2023, i fem størrelser. Lisensen er CC BY 4.0, ikke Apache 2.0 som de ferdige modellene.",
-    "tags": [
-      "ki",
-      "nasjonalbiblioteket",
-      "asr",
-      "modell"
-    ]
-  },
-  {
     "id": "nb-asr-beta",
     "tittel": "NB-ASR-BETA",
-    "forklaring": "NBs nye talegjenkjennere for bokmål fra 2026: Qwen3-ASR-varianter, Nemotron-varianter og en forced aligner. Alle har lukket tilgang.",
+    "forklaring": "NBs nye talegjenkjennere for bokmål fra 2026: Qwen3-ASR-varianter, Nemotron-varianter og en forced aligner. Talegjenkjennerne har lukket tilgang, mens forced aligner og noen hjelpemodeller er åpne.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -9744,20 +9649,6 @@
       "nasjonalbiblioteket",
       "asr",
       "modell"
-    ]
-  },
-  {
-    "id": "borealis-preview",
-    "tittel": "Borealis Preview",
-    "forklaring": "Forhåndsversjon av Borealis fra desember 2025 og januar 2026, bygd på Gemma 3. Modellkortet sier at den ikke er sikkerhetstrent og kan følge skadelige instruksjoner. Finnes som GGUF og MLX.",
-    "tags": [
-      "ki",
-      "nasjonalbiblioteket",
-      "llm",
-      "modell"
-    ],
-    "alias": [
-      "borealis-*-instruct-preview"
     ]
   },
   {
@@ -9959,7 +9850,7 @@
   {
     "id": "sikkerhetstrening",
     "tittel": "Sikkerhetstrening",
-    "forklaring": "Etter-trening som lærer en modell å avvise skadelige forespørsler. Reduserer skadelig innhold, men fjerner det ikke. Borealis Preview og Borealis 2 Preview er ikke sikkerhetstrent.",
+    "forklaring": "Etter-trening som lærer en modell å avvise skadelige forespørsler. Reduserer skadelig innhold, men fjerner det ikke. Borealis 2 Preview er ikke sikkerhetstrent.",
     "tags": [
       "ki",
       "sikkerhet",
@@ -10026,7 +9917,7 @@
   {
     "id": "strommende-talegjenkjenning",
     "tittel": "Strømmende talegjenkjenning",
-    "forklaring": "Tale til tekst som gir tekst mens personen snakker, i sanntid. NBs nordsamiske Nemotron-modeller virker slik.",
+    "forklaring": "Tale til tekst som gir tekst mens personen snakker, i sanntid.",
     "tags": [
       "ki",
       "asr",
@@ -10054,7 +9945,7 @@
   {
     "id": "nemotron",
     "tittel": "Nemotron",
-    "forklaring": "NVIDIAs modellfamilie. nemotron-3.5-asr-streaming-0.6b er grunnlaget for NBs talegjenkjennere for nordsamisk og for Nemotron-variantene i NB-ASR-BETA.",
+    "forklaring": "NVIDIAs modellfamilie. nemotron-3.5-asr-streaming-0.6b er grunnlaget for Nemotron-variantene i NB-ASR-BETA.",
     "tags": [
       "ki",
       "nvidia",
@@ -10065,7 +9956,7 @@
   {
     "id": "nemo",
     "tittel": "NeMo",
-    "forklaring": "NVIDIAs rammeverk for å trene og kjøre tale- og språkmodeller. Modellene lagres som .nemo-filer. NBs nordsamiske Nemotron-modeller krever NeMo 26.06 eller nyere.",
+    "forklaring": "NVIDIAs rammeverk for å trene og kjøre tale- og språkmodeller. Modellene lagres som .nemo-filer.",
     "tags": [
       "ki",
       "nvidia",
@@ -10176,7 +10067,7 @@
   {
     "id": "f5-tts",
     "tittel": "F5-TTS",
-    "forklaring": "Åpen talesyntesemodell som kan etterligne en stemme ut fra et kort lydklipp. Grunnlaget for salmon-f5-tts-north-sami.",
+    "forklaring": "Åpen talesyntesemodell som kan etterligne en stemme ut fra et kort lydklipp.",
     "tags": [
       "ki",
       "tts",
@@ -10310,7 +10201,7 @@
   {
     "id": "gpt-4-1-mini",
     "tittel": "GPT-4.1 mini",
-    "forklaring": "Liten og rask språkmodell som OpenAI lanserte i 2025. Fjernet fra ChatGPT 13.02.26. Microsoft fjerner den fra Azure OpenAI 14.10.26 og anbefaler GPT-5 mini i stedet.",
+    "forklaring": "Liten og rask språkmodell som OpenAI lanserte i 2025. Fjernet fra ChatGPT 13.02.26, men finnes fortsatt i OpenAIs API. Microsoft fjerner den fra Azure OpenAI 14.04.27.",
     "tags": [
       "ki",
       "openai",
@@ -10351,7 +10242,7 @@
   {
     "id": "gemini",
     "tittel": "Gemini",
-    "forklaring": "Googles lukkede modellfamilie, utviklet av Google DeepMind. Søster til de åpne Gemma-modellene. Nyeste toppmodell per 06.10.26: Gemini 4 Argon fra 30.09.26.",
+    "forklaring": "Googles lukkede modellfamilie, utviklet av Google DeepMind. Søster til de åpne Gemma-modellene. Nyeste toppmodell er Gemini 4 Argon, kunngjort 30.09.26. Per 07.10.26 får bare utvalgte sikkerhetsfolk bruke den, gjennom Fairwind-programmet.",
     "tags": [
       "ki",
       "google",
@@ -10786,7 +10677,7 @@
   {
     "id": "codex",
     "tittel": "Codex",
-    "forklaring": "OpenAIs kodeagent, som kommandolinjeverktøy med åpen kildekode, utvidelse for kodeeditorer, skrivebordsapp og skyagent som leverer pull requests. Codex er også navnet på en GPT-modell fra 2021 som var trent på kode og drev den første GitHub Copilot. Nettsted: [github.com/openai/codex](https://github.com/openai/codex).",
+    "forklaring": "OpenAIs kodeagent, som kommandolinjeverktøy med åpen kildekode, utvidelse for kodeeditorer, skrivebordsapp og skyagent som leverer pull requests. Nettsted: [github.com/openai/codex](https://github.com/openai/codex).",
     "tags": [
       "ki",
       "programmering",
