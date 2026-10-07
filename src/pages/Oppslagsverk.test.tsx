@@ -29,30 +29,33 @@ async function renderPage() {
   })
 }
 
+// Visible text is the number only; " treff" is for screen readers.
+const count = () => document.querySelector('[aria-live="polite"]')?.textContent
+
 function clickTag(title: string, tag: string) {
   fireEvent.click(screen.getByRole('button', { name: new RegExp(title) }))
   fireEvent.click(screen.getByRole('button', { name: new RegExp(`(merket|filter) ${tag}$`) }))
 }
 
 describe('Oppslagsverk', () => {
-  it('counts all entries, then only those with every selected tag', async () => {
+  it('shows no count unfiltered, then the entries with every selected tag', async () => {
     await renderPage()
-    expect(screen.getByText('3 oppslag')).toBeDefined()
+    expect(count()).toBe('')
 
     clickTag('Alfa', 'ki')
-    expect(screen.getByText('2 oppslag')).toBeDefined()
+    expect(count()).toBe('2 treff')
 
     clickTag('Alfa', 'metode')
-    expect(screen.getByText('1 oppslag')).toBeDefined()
+    expect(count()).toBe('1 treff')
     expect(screen.queryByText('Beta')).toBeNull()
 
     fireEvent.click(screen.getByRole('button', { name: 'Fjern filter ki' }))
-    expect(screen.getByText('2 oppslag')).toBeDefined()
+    expect(count()).toBe('2 treff')
   })
 
   it('counts search results', async () => {
     await renderPage()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'G' } })
-    expect(screen.getByText('1 oppslag')).toBeDefined()
+    expect(count()).toBe('1 treff')
   })
 })

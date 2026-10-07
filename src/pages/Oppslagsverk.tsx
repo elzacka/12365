@@ -129,6 +129,7 @@ export function Oppslagsverk() {
   }, [query, index, byId, activeTags, filteredByTag])
 
   const visibleCount = results?.length ?? filteredByTag.length
+  const isFiltering = results !== null || hasTagFilter
 
   const grouped = useMemo(() => {
     const map = new Map<string, Oppslag[]>()
@@ -203,7 +204,12 @@ export function Oppslagsverk() {
 
           <div className="flex items-center justify-between mt-1.5">
             <p className="text-xs text-slate-500 tabular-nums" aria-live="polite">
-              {visibleCount} oppslag
+              {isFiltering && (
+                <>
+                  {visibleCount}
+                  <span className="sr-only"> treff</span>
+                </>
+              )}
             </p>
             <button
               type="button"
