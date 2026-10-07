@@ -1434,7 +1434,7 @@
   {
     "id": "dots",
     "tittel": "Dots",
-    "forklaring": "OpenAIs KI-agenter som jobber døgnet rundt mot mål du setter, også når du ikke følger med. Hver dot har sin egen datamaskin i skyen med nettleser, bruker GPT-6 Astra og kobler seg til over 4 000 apper gjennom programtillegg. Du bestemmer hva den gjør selv, hva den spør om først og hva den aldri gjør. Du snakker med den i ChatGPT, Slack og Teams. Lansert 29.09.26 for ChatGPT Pro og Business Premium. Per 06.10.26 har ikke Pro-brukere i EØS, Sveits og Storbritannia tilgang. OpenAI og Microsoft arbeider med å styre spesialiserte dots i Agent 365.",
+    "forklaring": "OpenAIs KI-agenter som jobber døgnet rundt mot mål du setter, også når du ikke følger med. Hver dot har sin egen datamaskin i skyen med nettleser, bruker GPT-6 Astra og kobler seg til over 4 000 apper gjennom programtillegg. Du bestemmer hva den gjør selv, hva den spør om først og hva den aldri gjør. Du snakker med den i ChatGPT, Slack og Teams. Lansert 29.09.26 for ChatGPT Business Premium og Enterprise, og for Pro utenfor EØS, Sveits og Storbritannia.. Per 06.10.26 har ikke Pro-brukere i EØS, Sveits og Storbritannia tilgang. OpenAI og Microsoft arbeider med å styre spesialiserte dots i Agent 365.",
     "tags": [
       "ki",
       "openai",
@@ -3205,7 +3205,7 @@
       "Microsoft 365 Copilot",
       "M365 Copilot"
     ],
-    "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data via Microsoft Graph. Krever egen lisens.",
+    "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data via Microsoft Graph. Krever egen lisens. Bruker språkmodeller fra OpenAI og, hvis organisasjonen har slått det på, fra Anthropic.",
     "tags": [
       "m365",
       "ki",
@@ -7240,7 +7240,7 @@
   {
     "id": "autocrop",
     "tittel": "autocrop-*",
-    "forklaring": "NB-modeller som segmenterer avissider for automatisk beskjæring. Fire varianter.",
+    "forklaring": "NB-modeller (SegFormer) som skiller selve objektet fra bakgrunnen i skannede bilder, til automatisk beskjæring. Fire varianter: Tekst, bilder, av-abm og combined.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -7391,9 +7391,10 @@
   {
     "id": "borealis-embed-212m",
     "tittel": "borealis-embed-212m",
-    "forklaring": "NBs innbyggingsmodell for vektorsøk. 768 dimensjoner, 8192 token kontekst. Beste treffsikkerhet, men med lisensbegrensninger.",
+    "forklaring": "NBs innbyggingsmodell for vektorsøk. 768 dimensjoner, 8192 token kontekst. Treffer bedre enn NBs eldre nb-sbert-modeller, men har lisensbegrensninger.",
     "tags": [
       "ki",
+      "nasjonalbiblioteket",
       "modell"
     ]
   },
@@ -7556,7 +7557,7 @@
   {
     "id": "gemma",
     "tittel": "Gemma",
-    "forklaring": "Googles åpne modellfamilie. Gemma 3 ligger under Borealis, Gemma 4 under Borealis 2.",
+    "forklaring": "Googles åpne modellfamilie. Gemma 4 kom 02.04.26 i størrelsene E2B, E4B, 26B A4B og 31B, og 12B kom 03.06.26. Gemma 4 har Apache 2.0-lisens, mens Gemma 1–3 har Googles egne vilkår. Gemma 3 ligger under Borealis, Gemma 4 under Borealis 2.",
     "tags": [
       "ki",
       "llm",
@@ -7694,7 +7695,7 @@
   {
     "id": "klinisk-norbert",
     "tittel": "Klinisk NorBERT",
-    "forklaring": "Publisert i 2026 som KliniskVestBERT: tre encodere videretrent på anonymiserte journaldokumenter fra Helse Vest, med nb-bert-large, norbert3-large og ModernBERT som grunnlag. CC-BY-NC-ND-4.0, deles på vilkår gjennom Helse Vest IKT, ikke åpent.",
+    "forklaring": "Publisert i 2026 som KliniskVestBERT: Tre encodere videretrent på avidentifiserte journaldokumenter fra Helse Vest, med nb-bert-large, norbert3-large og ModernBERT som grunnlag. Modellene er ikke publisert åpent, og tilgang og lisens er ikke oppgitt.",
     "tags": [
       "ki",
       "helse-vest-ikt",
@@ -7704,7 +7705,7 @@
   {
     "id": "llama",
     "tittel": "Llama",
-    "forklaring": "Metas modellfamilie. Ligger under nb-notram-llama og NorskGPT. Egen lisens med krav om navngiving.",
+    "forklaring": "Metas modellfamilie med åpne vekter. Nyeste åpne versjon er Llama 4 fra april 2025, mens Metas nyere Muse-modeller er lukket. Eldre Llama-versjoner ligger under nb-notram-llama og NorskGPT. Egen lisens med krav om navngiving.",
     "tags": [
       "ki",
       "llm",
@@ -7733,7 +7734,7 @@
   {
     "id": "ltg",
     "tittel": "ltg",
-    "forklaring": "Språkteknologigruppa ved UiO. Publiserer normistral- og NorBERT-familiene. normistral, NorBERT 3 og 4 og norbloom er Apache 2.0; eldre NorBERT og de finjusterte variantene er CC-BY-4.0.",
+    "forklaring": "Språkteknologigruppa ved UiO. Publiserer normistral- og NorBERT-familiene. normistral, NorBERT 3 og 4, ABSA-variantene av NorBERT 3 og norbloom er Apache 2.0. Eldre NorBERT og TSA- og sentimentvariantene er CC-BY-4.0.",
     "tags": [
       "ki",
       "ltg",
@@ -7791,7 +7792,7 @@
   {
     "id": "mistral-ai",
     "tittel": "Mistral AI",
-    "forklaring": "Fransk selskap. Gjeldende modeller per 07.10.26 er Mistral Large 4, Mistral Medium 3.5, Mistral Small 4 og Ministral 3. Eldre Mistral-, Mixtral- og Magistral-modeller er grunnlaget for flere norske modeller fra ltg og NorwAI. Nettsted: [docs.mistral.ai](https://docs.mistral.ai/getting-started/models/models_overview/).",
+    "forklaring": "Fransk selskap. Gjeldende generelle modeller per 07.10.26 er Mistral Large 4, Mistral Medium 3.5, Mistral Small 4 og Ministral 3. Large 4 er foreløpig bare en forhåndsversjon i API-et, uten åpne vekter. Eldre Mistral-, Mixtral- og Magistral-modeller er grunnlaget for flere norske modeller fra ltg og NorwAI. Nettsted: [docs.mistral.ai](https://docs.mistral.ai/getting-started/models/models_overview/).",
     "tags": [
       "ki",
       "mistral",
@@ -7843,7 +7844,7 @@
   {
     "id": "moss-tts",
     "tittel": "MOSS-TTS",
-    "forklaring": "TTS-arkitektur i variantene Local og Nano. Grunnlaget for NBs norske talesyntese.",
+    "forklaring": "TTS-arkitektur fra OpenMOSS med Apache 2.0-lisens, i flere varianter, blant dem Local og Nano. Grunnlaget for NBs norske talesyntese.",
     "tags": [
       "ki",
       "tts",
@@ -7921,7 +7922,7 @@
   {
     "id": "nb-llama-3-x-gguf",
     "tittel": "nb-llama-3.x-*-GGUF",
-    "forklaring": "Kvantiserte utgaver av nb-notram-llama. NBs nyeste språkmodeller er Borealis og Borealis 2.",
+    "forklaring": "Kvantiserte Q4_K_M-utgaver av NB-Llama 3.1 8B og 3.2 1B og 3B, både basismodellene og instruksjonsmodellene (nb-notram-llama). NBs nyeste språkmodeller er Borealis og Borealis 2.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -8007,7 +8008,7 @@
   {
     "id": "nb-wav2vec2",
     "tittel": "nb-wav2vec2-*",
-    "forklaring": "NBs eldre talegjenkjennere i 300M og 1B, for bokmål og nynorsk. De klart mest nedlastede modellene blant NBs modeller, men uten tegnsetting. -v2-utgavene mangler dokumentasjon. Ordfeilrate på NPSC med KenLM: 6,33 % for 1b bokmål og 7,03 % for 300m bokmål.",
+    "forklaring": "NBs eldre talegjenkjennere i 300M og 1B, for bokmål og nynorsk. De klart mest nedlastede blant NBs modeller per 07.10.26, men uten tegnsetting. -v2-utgavene mangler dokumentasjon. Ordfeilrate på NPSC med KenLM: 6,33 % for 1b bokmål og 7,03 % for 300m bokmål.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -8173,7 +8174,7 @@
   {
     "id": "norskgpt",
     "tittel": "NorskGPT",
-    "forklaring": "Binerics modeller på Llama 3- og Mistral-grunnlag. Ikke-kommersiell lisens, ikke oppdatert siden 2024.",
+    "forklaring": "Binerics modeller på Llama 2-, Llama 3- og Mistral-grunnlag. Ikke-kommersiell lisens, ikke oppdatert siden 2024.",
     "tags": [
       "ki",
       "llm",
@@ -8184,7 +8185,7 @@
   {
     "id": "norwai",
     "tittel": "NorwAI",
-    "forklaring": "Forskningssenter ved NTNU. Publiserer NorLLM-modellene, med Schibsted, NRK, VG, DNB, Telenor og SINTEF som partnere.",
+    "forklaring": "Forskningssenter ved NTNU. Publiserer NorLLM-modellene, laget sammen med Schibsted, VG, NRK og Nasjonalbiblioteket. Senteret har blant andre DNB, Telenor og SINTEF som partnere.",
     "tags": [
       "ki",
       "norwai",
@@ -8205,7 +8206,7 @@
   {
     "id": "norwai-magistral-24b-reasoning",
     "tittel": "NorwAI-Magistral-24B-reasoning",
-    "forklaring": "Største norske resonneringsmodell, med tre modi for tenketid. Trent på lisensiert norsk mediemateriale. NorLLM-lisens, bare nordiske organisasjoner.",
+    "forklaring": "Største norske resonneringsmodell, med tre modi for tenketid. Trent med data fra mediepartnere, blant annet nyheter fra Schibsted og transkripsjoner fra NRK. NorLLM-lisens, bare nordiske organisasjoner.",
     "tags": [
       "ki",
       "llm",
@@ -8227,7 +8228,7 @@
   {
     "id": "norwai-mixtral-8x7b",
     "tittel": "NorwAI-Mixtral-8x7B*",
-    "forklaring": "NorwAI-modeller på Mixtral, 47B MoE. Null nedlastinger.",
+    "forklaring": "NorwAI-modeller på Mixtral, 47B MoE. Null nedlastinger per 07.10.26.",
     "tags": [
       "ki",
       "llm",
@@ -8266,7 +8267,7 @@
   {
     "id": "openai",
     "tittel": "OpenAI",
-    "forklaring": "Utvikler GPT-modellene, ChatGPT, Codex, Dots og Whisper, grunnlaget for NB-Whisper.",
+    "forklaring": "Utvikler GPT-modellene, ChatGPT, Codex, Dots og Whisper, grunnlaget for NB-Whisper. Gir også ut språkmodeller med åpne vekter, gpt-oss.",
     "tags": [
       "ki",
       "openai",
@@ -8354,7 +8355,7 @@
   {
     "id": "parakeet",
     "tittel": "Parakeet",
-    "forklaring": "NVIDIAs åpne talegjenkjenningsmodell, Parakeet-TDT 0,6B.",
+    "forklaring": "NVIDIAs familie av åpne talegjenkjenningsmodeller, fra 110M til 1,1B. Parakeet-TDT 0,6B v3 dekker 25 europeiske språk, men ikke norsk. CC BY 4.0-lisens.",
     "tags": [
       "ki",
       "asr",
@@ -8378,7 +8379,7 @@
   {
     "id": "piper",
     "tittel": "Piper",
-    "forklaring": "Lettvekts TTS-system. Grunnlaget for én av NBs talesyntesemodeller.",
+    "forklaring": "Lettvekts TTS-system. Grunnlaget for én av NBs talesyntesemodeller. Utviklingen skjer i piper1-gpl med GPL-3.0-lisens, mens det opprinnelige repoet med MIT-lisens er arkivert.",
     "tags": [
       "ki",
       "tts",
@@ -8423,7 +8424,7 @@
   {
     "id": "qwen3-asr",
     "tittel": "Qwen3-ASR",
-    "forklaring": "Talegjenkjenningsarkitektur fra Qwen-familien. Grunnlaget for nb-asr-beta.",
+    "forklaring": "Talegjenkjenningsmodeller fra Qwen-familien, i 0,6B og 1,7B, med Apache 2.0-lisens. Norsk er ikke blant de offisielle språkene. Grunnlaget for nb-asr-beta.",
     "tags": [
       "ki",
       "asr",
@@ -8908,7 +8909,7 @@
   {
     "id": "voxcpm2",
     "tittel": "VoxCPM2",
-    "forklaring": "TTS-arkitektur bak NBs nyeste talesyntesemodell.",
+    "forklaring": "TTS-modell fra OpenBMB på rundt 2,3B, med Apache 2.0-lisens. Grunnlaget for NBs nyeste talesyntesemodell.",
     "tags": [
       "ki",
       "tts",
@@ -8950,7 +8951,7 @@
   {
     "id": "whisper",
     "tittel": "Whisper",
-    "forklaring": "OpenAIs talegjenkjenningsmodell. Grunnlaget for NB-Whisper, med et stort økosystem av kjøremotorer.",
+    "forklaring": "OpenAIs talegjenkjenningsmodell. Grunnlaget for NB-Whisper, med et stort økosystem av kjøremotorer. OpenAI fjerner whisper-1 fra API-et sitt 26.02.27. De åpne vektene, og dermed NB-Whisper, berøres ikke.",
     "tags": [
       "ki",
       "asr",
@@ -8980,7 +8981,7 @@
   {
     "id": "xenova-nb-whisper-tiny-beta",
     "tittel": "Xenova/nb-whisper-tiny-beta",
-    "forklaring": "Kvantisert ONNX-utgave av NBs tiny-modell, til bruk i nettleser. Ingen lisens oppgitt.",
+    "forklaring": "ONNX-utgave av betaversjonen nb-whisper-tiny-beta fra 2023, i full og kvantisert form, til bruk i nettleser. Ingen lisens oppgitt, men grunnmodellen har CC BY 4.0. ONNX-utgaver av NB-Whisper base og small med Apache 2.0 ligger under onnx-community.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -9657,7 +9658,7 @@
   {
     "id": "nb-asr-beta",
     "tittel": "NB-ASR-BETA",
-    "forklaring": "NBs nye talegjenkjennere for bokmål fra 2026: Qwen3-ASR-varianter, Nemotron-varianter og en forced aligner. Talegjenkjennerne har lukket tilgang, mens forced aligner og noen hjelpemodeller er åpne.",
+    "forklaring": "NBs nye talegjenkjennere for bokmål fra 2026: Qwen3-ASR-varianter, Nemotron-varianter og forced aligners. De nyeste talegjenkjennerne (lunde07, september 2026) har lukket tilgang. Betaversjonene fra mars 2026, to av tre forced aligners og en reranker er åpne.",
     "tags": [
       "ki",
       "nasjonalbiblioteket",
@@ -9974,10 +9975,11 @@
   {
     "id": "nemotron",
     "tittel": "Nemotron",
-    "forklaring": "NVIDIAs modellfamilie. nemotron-3.5-asr-streaming-0.6b er grunnlaget for Nemotron-variantene i NB-ASR-BETA.",
+    "forklaring": "NVIDIAs familie av åpne språk- og talemodeller. Den største, Nemotron 3 Ultra på 550B, kom i juni 2026. nemotron-3.5-asr-streaming-0.6b er grunnlaget for Nemotron-variantene i NB-ASR-BETA.",
     "tags": [
       "ki",
       "nvidia",
+      "llm",
       "asr",
       "modell"
     ]
@@ -10071,7 +10073,7 @@
   {
     "id": "qwen",
     "tittel": "Qwen",
-    "forklaring": "Alibabas modellfamilie med åpne vekter i mange størrelser. Qwen3-ASR er grunnlaget for NB-ASR-BETA.",
+    "forklaring": "Alibabas modellfamilie med åpne vekter i mange størrelser. Nyeste generasjon er Qwen3.8 fra august 2026. De fleste modellene har Apache 2.0-lisens, men de største har egne lisenser. Qwen3-ASR er grunnlaget for NB-ASR-BETA.",
     "tags": [
       "ki",
       "alibaba",
@@ -10096,7 +10098,7 @@
   {
     "id": "f5-tts",
     "tittel": "F5-TTS",
-    "forklaring": "Åpen talesyntesemodell som kan etterligne en stemme ut fra et kort lydklipp.",
+    "forklaring": "Åpen talesyntesemodell som kan etterligne en stemme ut fra et kort lydklipp. Koden har MIT-lisens, men vektene har CC BY-NC 4.0, som forbyr kommersiell bruk.",
     "tags": [
       "ki",
       "tts",
@@ -10219,7 +10221,7 @@
     "id": "gpt",
     "tittel": "Generative Pre-trained Transformer",
     "undertittel": "GPT",
-    "forklaring": "OpenAIs modellfamilie og navnet på modelltypen: En transformer som er fortrent til å generere tekst.",
+    "forklaring": "OpenAIs modellfamilie og navnet på modelltypen: En transformer som er fortrent til å generere tekst. Per 07.10.26 er GPT-6 Astra toppmodellen, mens GPT-6 Sol, GPT-6.1 Sol og GPT-6 Luna er mindre og billigere. ChatGPT bruker GPT-5.6 Sol for betalende brukere og GPT-5.6 Luna for gratisbrukere. Resonneringsmodellene i o-serien er slått sammen med GPT-modellene.",
     "tags": [
       "ki",
       "openai",
@@ -10244,7 +10246,7 @@
   {
     "id": "gpt-6-astra",
     "tittel": "GPT-6 Astra",
-    "forklaring": "Språkmodell som OpenAI lanserte i september 2026, og modellen bak Dots. Finnes i ChatGPT, Codex og OpenAIs API, og i Microsoft Azure og Amazon Bedrock.",
+    "forklaring": "OpenAIs toppmodell, lansert 03.09.26, og modellen bak Dots. I ChatGPT heter den GPT-6 Pro og finnes for Pro, Business og Enterprise. Finnes også i Codex og OpenAIs API, i Amazon Bedrock og med begrenset tilgang i Microsoft Foundry.",
     "tags": [
       "ki",
       "openai",
@@ -10253,8 +10255,8 @@
     ],
     "alias": [
       "gpt-6-astra",
-      "GPT-6",
-      "Astra"
+      "Astra",
+      "GPT-6 Pro"
     ]
   },
   {
@@ -10271,7 +10273,7 @@
   {
     "id": "gemini",
     "tittel": "Gemini",
-    "forklaring": "Googles lukkede modellfamilie, utviklet av Google DeepMind. Søster til de åpne Gemma-modellene. Nyeste toppmodell er Gemini 4 Argon, kunngjort 30.09.26. Per 07.10.26 får bare utvalgte sikkerhetsfolk bruke den, gjennom Fairwind-programmet.",
+    "forklaring": "Googles lukkede modellfamilie, utviklet av Google DeepMind. Søster til de åpne Gemma-modellene. Nyeste toppmodell er Gemini 4 Argon, kunngjort 30.09.26. Per 07.10.26 får bare utvalgte organisasjoner innen cyberforsvar, som myndigheter og kritisk infrastruktur, bruke den gjennom Fairwind-programmet. Nyeste allment tilgjengelige modell er Gemini 3.8 Flash.",
     "tags": [
       "ki",
       "google",
@@ -10282,7 +10284,7 @@
   {
     "id": "claude",
     "tittel": "Claude",
-    "forklaring": "Anthropics modellfamilie og KI-assistent. Modellene kommer i nivåer: Haiku er raskest, Sonnet balanserer fart og evne, Opus er standardvalget for krevende arbeid, og Fable er for det mest krevende. Per 06.10.26: Fable 5.1, Opus 5.5, Sonnet 5.5 og Haiku 4.5. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/about-claude/models/overview).",
+    "forklaring": "Anthropics modellfamilie og KI-assistent. Modellene kommer i nivåer: Haiku er raskest, Sonnet balanserer fart og evne, Opus er Anthropics anbefalte utgangspunkt for de fleste oppgaver, og Fable er for det mest krevende. Per 07.10.26: Fable 5.1, Opus 5.5, Sonnet 5.5 og Haiku 4.5. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/about-claude/models/overview).",
     "tags": [
       "ki",
       "llm",
@@ -10367,7 +10369,7 @@
   {
     "id": "gemma-lisens",
     "tittel": "Gemma-lisens",
-    "forklaring": "Googles bruksvilkår for Gemma-modeller. Tillater kommersiell bruk, men forbyr visse bruksområder, også for modeller som bygger på Gemma.",
+    "forklaring": "Googles bruksvilkår for Gemma 1–3. Tillater kommersiell bruk, men forbyr visse bruksområder, også for modeller som bygger på dem. Gemma 4 har Apache 2.0-lisens i stedet.",
     "tags": [
       "ki",
       "google",
@@ -10380,7 +10382,7 @@
   {
     "id": "llama-lisens",
     "tittel": "Llama-lisens",
-    "forklaring": "Metas vilkår for Llama-modellene. Krever navngivelse, og tjenester med svært mange brukere må ha egen avtale med Meta.",
+    "forklaring": "Metas vilkår for Llama-modellene. Krever navngivelse, og tjenester med over 700 millioner brukere i måneden må ha egen avtale med Meta. Llama 4-vilkårene gir ikke personer og selskaper i EU rett til å bruke de multimodale modellene.",
     "tags": [
       "ki",
       "meta",
@@ -11096,6 +11098,153 @@
       "Autonomous development",
       "Agentic coding",
       "Agentisk koding"
+    ]
+  },
+  {
+    "id": "deepseek",
+    "tittel": "DeepSeek",
+    "forklaring": "Kinesisk modellfamilie med åpne vekter og MIT-lisens. DeepSeek-V4 kom i april 2026 i Pro- og Flash-utgaver, og V4.1-Flash kom 10.09.26. V4.1-Flash er den mest brukte modellen på OpenRouter de siste 30 dagene, per 07.10.26. DeepSeek-R1 fra januar 2025 gjorde resonneringsmodeller med åpne vekter kjent.",
+    "tags": [
+      "ki",
+      "llm",
+      "deepseek",
+      "modell"
+    ],
+    "alias": [
+      "DeepSeek-V4",
+      "DeepSeek-R1",
+      "DeepSeek V4.1 Flash"
+    ]
+  },
+  {
+    "id": "grok",
+    "tittel": "Grok",
+    "forklaring": "xAIs modellfamilie og KI-assistent, bygd inn i X. Nyeste modell er Grok 4.7, lansert 21.09.26.",
+    "tags": [
+      "ki",
+      "llm",
+      "xai",
+      "modell"
+    ],
+    "alias": [
+      "xAI",
+      "Grok 4.7"
+    ]
+  },
+  {
+    "id": "kimi",
+    "tittel": "Kimi",
+    "forklaring": "Modellfamilie med åpne vekter fra kinesiske Moonshot AI. Kimi K3 kom 27.07.26, en MoE med 2,8T parametre totalt og 104B aktive. Per 02.10.26 er Kimi K3 Max den høyest rangerte modellen med åpne vekter på Arena. Egen lisens som krever avtale for store tjenester.",
+    "tags": [
+      "ki",
+      "llm",
+      "moonshot",
+      "modell"
+    ],
+    "alias": [
+      "Kimi K3",
+      "Kimi K2",
+      "Moonshot AI"
+    ]
+  },
+  {
+    "id": "glm",
+    "tittel": "GLM",
+    "forklaring": "Modellfamilie med åpne vekter fra kinesiske Z.ai (Zhipu). Nyeste er GLM-5.3 og den mindre GLM-5.3-Flash fra august 2026. GLM-5.3-Flash har MIT-lisens og er blant de mest brukte modellene på OpenRouter.",
+    "tags": [
+      "ki",
+      "llm",
+      "zhipu",
+      "modell"
+    ],
+    "alias": [
+      "GLM-5",
+      "GLM-5.3",
+      "Z.ai",
+      "Zhipu"
+    ]
+  },
+  {
+    "id": "gpt-oss",
+    "tittel": "gpt-oss",
+    "forklaring": "OpenAIs språkmodeller med åpne vekter, i 20B og 120B, med Apache 2.0-lisens. Kom 05.08.25. gpt-oss-20b kan kjøres lokalt på en maskin med 16 GB minne.",
+    "tags": [
+      "ki",
+      "llm",
+      "openai",
+      "modell"
+    ],
+    "alias": [
+      "gpt-oss-20b",
+      "gpt-oss-120b"
+    ]
+  },
+  {
+    "id": "phi",
+    "tittel": "Phi",
+    "forklaring": "Microsofts familie av små språkmodeller med åpne vekter og MIT-lisens. Nyeste er Phi-4-reasoning-vision-15B fra 2026.",
+    "tags": [
+      "ki",
+      "llm",
+      "microsoft",
+      "modell"
+    ],
+    "alias": [
+      "Phi-4"
+    ]
+  },
+  {
+    "id": "olmo",
+    "tittel": "OLMo",
+    "forklaring": "Helt åpen modellfamilie fra Allen Institute for AI: Vektene, treningsdataene og treningskoden er publisert. Nyeste er Olmo 3.1 og Olmo Hybrid, med Apache 2.0-lisens. OLMo 2 er grunnlaget for NorOLMo-13B.",
+    "tags": [
+      "ki",
+      "llm",
+      "ai2",
+      "modell"
+    ],
+    "alias": [
+      "Olmo",
+      "Olmo 3",
+      "AI2"
+    ]
+  },
+  {
+    "id": "lynx-instruct-30b",
+    "tittel": "lynx-instruct-30b",
+    "forklaring": "Binerics instruksjonsmodell fra 2026, på Qwen3-grunnlag og med Apache 2.0-lisens. Blant de mest nedlastede norske språkmodellene per 07.10.26.",
+    "tags": [
+      "ki",
+      "llm",
+      "bineric",
+      "modell"
+    ],
+    "alias": [
+      "Lynx"
+    ]
+  },
+  {
+    "id": "eti-granite-4096-v1",
+    "tittel": "eti-granite-4096-v1",
+    "forklaring": "Innbyggingsmodell fra Norsk helsenett for norsk helsefaglig tekst, bygd på Granite-embedding 311M, med 4096 token kontekst. Lisens ikke oppgitt.",
+    "tags": [
+      "ki",
+      "modell"
+    ],
+    "alias": [
+      "NorskHelsenett/eti-granite-4096-v1"
+    ]
+  },
+  {
+    "id": "mmbert-base-norwegian",
+    "tittel": "mmBERT-base-norwegian",
+    "forklaring": "Innbyggingsmodell for norsk fra Fremtind, bygd på mmBERT-base. MIT-lisens.",
+    "tags": [
+      "ki",
+      "modell"
+    ],
+    "alias": [
+      "Fremtind/mmBERT-base-norwegian"
     ]
   }
 ]
