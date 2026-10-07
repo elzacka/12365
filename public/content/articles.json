@@ -926,8 +926,8 @@
         ],
         "steg": [
           {
-            "tittel": "Fra kanalen til biblioteket",
-            "innhold": "Fanen **Delt** i en kanal er kanalens mappe i teamets dokumentbibliotek. KI-valgene ligger i SharePoint-visningen av biblioteket:\n\n1. Åpne kanalen og velg **Delt** øverst.\n2. Velg **Flere alternativer** (…) → **Åpne i SharePoint**.\n3. Biblioteket åpnes i nettleseren med full kommandolinje.\n\n*Merk: Tjenestene følger ikke med E5. Organisasjonen betaler per bruk via et Azure-abonnement, og du ser bare KI-valgene hvis IT-avdelingen har slått dem på.*"
+            "tittel": "Start i Teams eller i SharePoint",
+            "innhold": "Fanen **Delt** i kanalen viser kanalens mappe i teamets dokumentbibliotek. Du kan starte begge steder:\n\n◦ **I Teams**: Velg filen, klikk **Flere alternativer** (…) og velg **Syntex**. Dialogboksen åpnes i Teams.\n◦ **I SharePoint**: Klikk **Flere alternativer** (…) → **Åpne i SharePoint**. Her setter du opp autofyll-kolonner og regler.\n\n*Merk: Tjenestene følger ikke med E5. Organisasjonen betaler per bruk via et Azure-abonnement, og du ser bare valgene hvis IT-avdelingen har slått dem på.*"
           },
           {
             "tittel": "Hva tjenestene gjør",
