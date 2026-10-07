@@ -7169,17 +7169,6 @@
     ]
   },
   {
-    "id": "a100-h200-b200",
-    "tittel": "A100, H200, B200",
-    "forklaring": "Nvidia-grafikkort for datasenter, oppgitt etter minnestørrelse: A100 har 40 eller 80 GB, H200 141 GB og B200 180 GB.",
-    "tags": [
-      "ki",
-      "nvidia",
-      "datateknologi",
-      "maskinvare"
-    ]
-  },
-  {
     "id": "absa",
     "tittel": "ABSA",
     "forklaring": "Sentimentanalyse som skiller mellom ulike sider ved samme omtale, for eksempel pris og kvalitet.",
