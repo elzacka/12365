@@ -210,7 +210,7 @@ export function Oppslagsverk() {
               onClick={() => setShowHelp(v => !v)}
               aria-expanded={showHelp}
               aria-controls="oppslagsverk-tips"
-              className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600 transition-colors"
+              className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-700 transition-colors"
             >
               Veiledning
               <ChevronRightIcon
