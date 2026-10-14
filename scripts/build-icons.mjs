@@ -8,7 +8,7 @@ const PUBLIC_DIR = resolve(root, 'public')
 const ICONS_DIR = resolve(PUBLIC_DIR, 'icons')
 
 // Ordmerket «1·2·365» i navy og lyseblått, gjennomsiktig bakgrunn.
-const LOGO_PNG = resolve(root, 'dev_only/logo/v2.png')
+const LOGO_PNG = resolve(root, 'dev_only/logo/v2 (2).png')
 const WHITE = { r: 0xff, g: 0xff, b: 0xff, alpha: 1 }
 
 // Andel av kantlengden ordmerket fyller. Vanlige ikoner: 8 % marg, nok for
