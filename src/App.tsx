@@ -2,6 +2,7 @@ import { lazy, Suspense, useLayoutEffect, useState, ViewTransition } from 'react
 import { BrowserRouter, Routes, Route, Navigate, useLocation, useParams } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
+import { InstallBanner } from './components/InstallBanner'
 import { ArticleBreadcrumb } from './components/ArticleBreadcrumb'
 import { LockModal } from './components/LockModal'
 import { Home } from './pages/Home'
@@ -74,6 +75,7 @@ function AppRoutes() {
 
   return (
     <div className="min-h-svh flex flex-col">
+      {pathname === '/' && <InstallBanner />}
       <Header {...headerProps} onLockClick={() => setLockOpen(true)} />
       {/* BrowserRouter wraps navigation in startTransition, so every route change
           cross-fades. Only the routed page animates – React opts the rest of the
