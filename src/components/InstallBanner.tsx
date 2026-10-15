@@ -56,7 +56,8 @@ export function InstallBanner() {
           <CloseIcon size={18} />
         </button>
         <span ref={fitOneLine} className="flex-1 min-w-0 text-sm leading-snug whitespace-nowrap overflow-hidden">
-          Installer appen. Da funker den som en vanlig app og virker uten nett.
+          <span className="sm:hidden">Installer appen – virker uten nett</span>
+          <span className="hidden sm:inline">Installer appen. Da funker den som en vanlig app og virker uten nett.</span>
         </span>
         <button
           type="button"
