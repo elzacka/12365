@@ -1,21 +1,11 @@
-import { useEffect, useState, type RefObject } from 'react'
-
-function matchesDesktopPointer(): boolean {
-  return typeof window !== 'undefined' && window.matchMedia('(pointer: fine)').matches
-}
+import { useEffect, type RefObject } from 'react'
+import { useFinePointer } from './useFinePointer'
 
 // Ctrl+K fokuserer søkefeltet på desktop (fin pekerenhet – mus/styreplate).
 // Trygt å overstyre med preventDefault: nettlesere lar siden fange denne
 // snarveien når den har fokus, i motsetning til f.eks. Ctrl+T/Ctrl+W.
 export function useSearchShortcut(inputRef: RefObject<HTMLInputElement | null>): boolean {
-  const [isDesktop, setIsDesktop] = useState(matchesDesktopPointer)
-
-  useEffect(() => {
-    const mql = window.matchMedia('(pointer: fine)')
-    const onChange = () => setIsDesktop(mql.matches)
-    mql.addEventListener('change', onChange)
-    return () => mql.removeEventListener('change', onChange)
-  }, [])
+  const isDesktop = useFinePointer()
 
   useEffect(() => {
     if (!isDesktop) return
