@@ -3,6 +3,20 @@ import { installSteps, useInstall } from '../hooks/useInstall'
 import { CloseIcon } from './Icons'
 
 const stepsId = 'install-steps'
+
+// Shrinks the text until it fits one line at any width; re-fits on resize and once the web font loads.
+function fitOneLine(el: HTMLSpanElement | null) {
+  if (!el) return
+  const fit = () => {
+    el.style.fontSize = ''
+    const ratio = el.clientWidth / el.scrollWidth
+    if (ratio < 1) el.style.fontSize = `${Math.floor(parseFloat(getComputedStyle(el).fontSize) * ratio * 100) / 100}px`
+  }
+  const observer = new ResizeObserver(fit)
+  observer.observe(el)
+  void document.fonts.ready.then(fit)
+  return () => observer.disconnect()
+}
 const dismissedKey = 'install-banner-dismissed'
 
 function wasDismissed(): boolean {
@@ -41,7 +55,9 @@ export function InstallBanner() {
         >
           <CloseIcon size={18} />
         </button>
-        <span className="flex-1 min-w-0 text-sm leading-snug">Appen virker uten nett og er enda enklere å bruke når du legger den til på enheten din</span>
+        <span ref={fitOneLine} className="flex-1 min-w-0 text-sm leading-snug whitespace-nowrap overflow-hidden">
+          Installer appen. Da funker den som en vanlig app og virker uten nett.
+        </span>
         <button
           type="button"
           className="shrink-0 px-3.5 py-1.5 rounded-full bg-white text-brand-800 text-sm font-semibold hover:bg-brand-50 transition-colors"
@@ -49,7 +65,7 @@ export function InstallBanner() {
             ? { onClick: install.install }
             : { onClick: () => setStepsOpen(o => !o), 'aria-expanded': stepsOpen, 'aria-controls': stepsId })}
         >
-          Last ned gratis
+          Last ned
         </button>
       </div>
       {install.kind !== 'prompt' && (
