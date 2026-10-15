@@ -45,7 +45,7 @@ export function InstallBanner() {
   }
 
   return (
-    <aside aria-label="Last ned appen" className="bg-brand-800 text-white">
+    <aside aria-label="Installer appen" className="bg-brand-800 text-white">
       <div className="max-w-2xl mx-auto flex items-center gap-2 py-2 pl-1 pr-3">
         <button
           type="button"
@@ -66,7 +66,7 @@ export function InstallBanner() {
             ? { onClick: install.install }
             : { onClick: () => setStepsOpen(o => !o), 'aria-expanded': stepsOpen, 'aria-controls': stepsId })}
         >
-          Last ned
+          Installer
         </button>
       </div>
       {install.kind !== 'prompt' && (
