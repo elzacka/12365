@@ -65,6 +65,7 @@ export interface ArticleCategory {
   id: string
   tittel: string
   beskrivelse: string
+  kollapset?: boolean // if true: the overview shows only the heading until the user expands it
   artikler: Article[]
 }
 

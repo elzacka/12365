@@ -11,12 +11,16 @@ import { UntestedWarning } from '../components/UntestedWarning'
 
 const SEARCH_WORDS = ['tittel', 'innhold', 'emneknagg']
 
+// Module scope: an expanded category stays open after a visit to one of its articles.
+const expandedCategories = new Set<string>()
+
 export function GjorSann() {
   const publicCategories = use(fetchArticles())
   const rawCategories = useMergedArticles(publicCategories)
   const [query, setQuery] = useState('')
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [showHelp, setShowHelp] = useState(false)
+  const [expanded, setExpanded] = useState(() => new Set(expandedCategories))
   const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
   const searchInputRef = useRef<HTMLInputElement>(null)
   const isDesktopSearch = useSearchShortcut(searchInputRef)
@@ -105,6 +109,13 @@ export function GjorSann() {
   const totalArticles = allCategories.reduce((sum, k) => sum + k.artikler.length, 0)
 
   const clearActiveTag = useCallback(() => setActiveTag(null), [])
+
+  const isFiltered = query.trim() !== '' || activeTag !== null
+
+  function toggleCategory(id: string) {
+    if (!expandedCategories.delete(id)) expandedCategories.add(id)
+    setExpanded(new Set(expandedCategories))
+  }
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
@@ -236,62 +247,89 @@ export function GjorSann() {
           </div>
         ) : (
           <div className="space-y-4">
-            {categories.map(cat => (
-              <section
-                key={cat.id}
-                aria-labelledby={`cat-${cat.id}`}
-                className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden"
-              >
-                <div className="flex items-center gap-3 px-4 pt-4 pb-1">
-                  <h2 id={`cat-${cat.id}`} className="text-[15px] font-semibold text-brand-700 leading-snug">
-                    {cat.tittel}
-                  </h2>
-                  <span aria-hidden="true" className="h-px flex-1 bg-slate-200" />
-                </div>
-                {cat.artikler.map((article, idx) => (
-                  <Link
-                    key={article.id}
-                    to={`/gjor-sann/${cat.id}/${article.id}`}
-                    state={query.trim() ? { query: query.trim() } : undefined}
-                    className={`relative flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500 ${
-                      idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''
-                    }`}
-                  >
-                    <div className="flex-1 min-w-0">
-                      <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
-                        {article.laast && (
-                          <>
-                            <SpyIcon size={13} className="shrink-0 text-slate-400" />
-                            <UntestedWarning />
-                          </>
-                        )}
-                        <span>{article.tittel}</span>
-                      </p>
-                      <p className="text-xs text-slate-500 mt-0.5 leading-snug line-clamp-2">
-                        {article.ingress}
-                      </p>
-                      {article.tags.length > 0 && activeTag && (
-                        <div className="flex flex-wrap gap-1 mt-1.5">
-                          {article.tags.map(tag => (
-                            <span
-                              key={tag}
-                              className={`text-xs px-1.5 py-0.5 rounded-full ${
-                                activeTag === tag
-                                  ? 'bg-brand-200 text-brand-900'
-                                  : 'bg-slate-100 text-slate-500'
-                              }`}
-                            >
-                              {tag}
-                            </span>
-                          ))}
-                        </div>
-                      )}
+            {categories.map(cat => {
+              const collapsible = cat.kollapset && !isFiltered
+              const isOpen = !collapsible || expanded.has(cat.id)
+              return (
+                <section
+                  key={cat.id}
+                  aria-labelledby={`cat-${cat.id}`}
+                  className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden"
+                >
+                  {collapsible ? (
+                    <h2 id={`cat-${cat.id}`}>
+                      <button
+                        type="button"
+                        onClick={() => toggleCategory(cat.id)}
+                        aria-expanded={isOpen}
+                        aria-controls={`cat-${cat.id}-list`}
+                        className={`w-full flex items-center gap-3 px-4 pt-4 ${isOpen ? 'pb-1' : 'pb-4'} text-left hover:bg-slate-50 active:bg-slate-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500`}
+                      >
+                        <span className="text-[15px] font-semibold text-brand-700 leading-snug">{cat.tittel}</span>
+                        <span aria-hidden="true" className="h-px flex-1 bg-slate-200" />
+                        <ChevronRightIcon
+                          size={18}
+                          className={`text-slate-400 flex-shrink-0 transition-transform duration-200 ${isOpen ? '-rotate-90' : 'rotate-90'}`}
+                        />
+                      </button>
+                    </h2>
+                  ) : (
+                    <div className="flex items-center gap-3 px-4 pt-4 pb-1">
+                      <h2 id={`cat-${cat.id}`} className="text-[15px] font-semibold text-brand-700 leading-snug">
+                        {cat.tittel}
+                      </h2>
+                      <span aria-hidden="true" className="h-px flex-1 bg-slate-200" />
                     </div>
-                    <ChevronRightIcon size={18} className="text-slate-300 flex-shrink-0 group-hover:text-brand-500 transition-colors" />
-                  </Link>
-                ))}
-              </section>
-            ))}
+                  )}
+                  {isOpen && (
+                    <div id={`cat-${cat.id}-list`}>
+                      {cat.artikler.map((article, idx) => (
+                        <Link
+                          key={article.id}
+                          to={`/gjor-sann/${cat.id}/${article.id}`}
+                          state={query.trim() ? { query: query.trim() } : undefined}
+                          className={`relative flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500 ${
+                            idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''
+                          }`}
+                        >
+                          <div className="flex-1 min-w-0">
+                            <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
+                              {article.laast && (
+                                <>
+                                  <SpyIcon size={13} className="shrink-0 text-slate-400" />
+                                  <UntestedWarning />
+                                </>
+                              )}
+                              <span>{article.tittel}</span>
+                            </p>
+                            <p className="text-xs text-slate-500 mt-0.5 leading-snug line-clamp-2">
+                              {article.ingress}
+                            </p>
+                            {article.tags.length > 0 && activeTag && (
+                              <div className="flex flex-wrap gap-1 mt-1.5">
+                                {article.tags.map(tag => (
+                                  <span
+                                    key={tag}
+                                    className={`text-xs px-1.5 py-0.5 rounded-full ${
+                                      activeTag === tag
+                                        ? 'bg-brand-200 text-brand-900'
+                                        : 'bg-slate-100 text-slate-500'
+                                    }`}
+                                  >
+                                    {tag}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                          <ChevronRightIcon size={18} className="text-slate-300 flex-shrink-0 group-hover:text-brand-500 transition-colors" />
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </section>
+              )
+            })}
           </div>
         )}
 
