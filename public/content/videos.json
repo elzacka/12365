@@ -6,8 +6,7 @@
     "beskrivelse": "Fra mapper til grafbasert arkitektur. En introduksjon til en mer automatisert og «AI-ready» arbeidshverdag.",
     "kilde": "",
     "fotnote": "",
-    "thumbnail": "videos/thumbnails/microsoft-graph-grafbasert-arkitektur.png",
-    "endret": "2026-06-06"
+    "thumbnail": "videos/thumbnails/microsoft-graph-grafbasert-arkitektur.png"
   },
   {
     "id": "microsoft-365-for-oss",
@@ -16,7 +15,6 @@
     "beskrivelse": "En lettbent teaser og intro til M365 med eksempler på hvordan det kan forenkle arbeidshverdagen.",
     "kilde": "",
     "fotnote": "",
-    "thumbnail": "videos/thumbnails/microsoft-365-for-oss.png",
-    "endret": "2026-08-14"
+    "thumbnail": "videos/thumbnails/microsoft-365-for-oss.png"
   }
 ]

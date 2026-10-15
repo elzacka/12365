@@ -16,8 +16,7 @@
       "møter",
       "kanaler",
       "samarbeid"
-    ],
-    "endret": "2026-08-18"
+    ]
   },
   {
     "navn": "Clipchamp",
@@ -39,8 +38,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/clipchamp?market=no#tabs-pill-bar-ocf614_tab1"
-    },
-    "endret": "2026-08-18"
+    }
   },
   {
     "navn": "Copilot Chat",
@@ -63,8 +61,7 @@
       "chatbot",
       "oppsummering",
       "nettsøk"
-    ],
-    "endret": "2026-06-06"
+    ]
   },
   {
     "navn": "Microsoft Copilot",
@@ -87,8 +84,7 @@
       "ki-assistent",
       "organisasjonsdata",
       "lisens"
-    ],
-    "endret": "2026-06-06"
+    ]
   },
   {
     "navn": "Copilot Studio",
@@ -108,8 +104,7 @@
       "chatbot",
       "automatisering",
       "kunnskapskilder"
-    ],
-    "endret": "2026-06-06"
+    ]
   },
   {
     "navn": "Edge",
@@ -127,8 +122,7 @@
       "nettleser",
       "pdf",
       "sidepanel"
-    ],
-    "endret": "2026-06-06"
+    ]
   },
   {
     "navn": "Excel",
@@ -147,8 +141,7 @@
       "tall",
       "analyse",
       "formler"
-    ],
-    "endret": "2026-08-18"
+    ]
   },
   {
     "navn": "Forms",
@@ -170,8 +163,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/online-surveys-polls-quizzes#Overview-1"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "Lists",
@@ -198,8 +190,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-lists#Overview-2"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "Loop",
@@ -222,8 +213,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-loop"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "OneDrive",
@@ -241,8 +231,7 @@
       "filer",
       "kladd",
       "synkronisering"
-    ],
-    "endret": "2026-06-06"
+    ]
   },
   {
     "navn": "OneNote",
@@ -260,8 +249,7 @@
       "notatblokk",
       "notater",
       "skisser"
-    ],
-    "endret": "2026-06-06"
+    ]
   },
   {
     "navn": "Outlook",
@@ -282,8 +270,7 @@
       "kalender",
       "møteinnkalling",
       "kontakter"
-    ],
-    "endret": "2026-08-18"
+    ]
   },
   {
     "navn": "Places",
@@ -304,8 +291,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-teams/microsoft-places?market=no#Solutions"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "Planner",
@@ -327,8 +313,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/planner/microsoft-planner?market=no#Overview"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "Power Apps",
@@ -349,8 +334,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/power-platform/products/power-apps?market=no#tabs-pill-bar-accordian_tab1"
-    },
-    "endret": "2026-08-18"
+    }
   },
   {
     "navn": "Power Automate",
@@ -372,8 +356,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-NO/power-platform/products/power-automate/?culture=nb-no&country=no&market=no#Features"
-    },
-    "endret": "2026-08-18"
+    }
   },
   {
     "navn": "Power BI",
@@ -395,8 +378,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/power-platform/products/power-bi?market=no#Product-overview"
-    },
-    "endret": "2026-08-18"
+    }
   },
   {
     "navn": "PowerPoint",
@@ -413,8 +395,7 @@
       "presentasjon",
       "lysbilder",
       "visuell"
-    ],
-    "endret": "2026-08-18"
+    ]
   },
   {
     "navn": "SharePoint",
@@ -439,8 +420,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/sharepoint/collaboration?market=no#tabs-pill-bar-occfa1_tab1"
-    },
-    "endret": "2026-08-18"
+    }
   },
   {
     "navn": "Visio",
@@ -463,8 +443,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/visio?market=no#app-integrations"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "Viva Engage",
@@ -490,8 +469,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/engage?market=no#Overview"
-    },
-    "endret": "2026-08-18"
+    }
   },
   {
     "navn": "Viva Insights",
@@ -512,8 +490,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/insights?market=no"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "Viva Learning",
@@ -534,8 +511,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/learning?market=no#tabs-pill-bar-oc3efb_tab0"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "Whiteboard",
@@ -559,8 +535,7 @@
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-whiteboard/digital-whiteboard-app#Overview-2"
-    },
-    "endret": "2026-06-06"
+    }
   },
   {
     "navn": "Word",
@@ -574,7 +549,6 @@
       "dokument",
       "skriving",
       "tekstbehandling"
-    ],
-    "endret": "2026-08-18"
+    ]
   }
 ]

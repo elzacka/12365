@@ -19,7 +19,6 @@ export interface FlipCard {
     url: string
   }
   laast?: boolean // marks the card as gated content; only added to listings when the user has unlocked
-  endret?: string // ISO date YYYY-MM-DD, editorial record only
 }
 
 export interface AppCategory {
@@ -47,7 +46,6 @@ export interface Article {
   id: string
   tittel: string
   ingress: string
-  oppdatert?: string // optional "oppdatert" date shown as small italic line under the lede
   notat?: string // optional italic note shown under the lede – license or prerequisite warnings
   kategori: string
   tags: string[]
@@ -57,7 +55,6 @@ export interface Article {
   relaterte?: string[] // article ids
   skjult?: boolean // if true: filtered out of listings; direct URL redirects to overview
   laast?: boolean // marks the article as gated content; only added to listings when the user has unlocked
-  endret?: string // ISO date YYYY-MM-DD, editorial record only
   _veiledning?: string // internal comment in articles.json – not rendered anywhere
 }
 
@@ -84,7 +81,6 @@ export interface Video extends SeOgHorBody {
   fil: string         // path relative to BASE_URL, e.g. "videos/min-video.mp4"
   thumbnail?: string  // optional thumbnail path, e.g. "videos/thumbnails/min-video.png"
   laast?: boolean     // marks the video as gated content; only added to listings when the user has unlocked
-  endret?: string // ISO date YYYY-MM-DD, editorial record only
 }
 
 export interface Course extends SeOgHorBody {
@@ -92,7 +88,6 @@ export interface Course extends SeOgHorBody {
   lenke: string       // external URL the user is sent to on click
   thumbnail?: string  // optional thumbnail path under public/, e.g. "courses/thumbnails/datareisen.png"
   laast?: boolean     // marks the course as gated content; only added to listings when the user has unlocked
-  endret?: string // ISO date YYYY-MM-DD, editorial record only
 }
 
 // Shape of the decrypted locked payload. Mirrors the public content arrays so
@@ -141,5 +136,4 @@ export interface Oppslag {
   forklaring: string
   tags: string[]
   alias?: string[]
-  endret?: string
 }

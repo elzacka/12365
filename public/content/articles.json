@@ -8,7 +8,6 @@
         "id": "rydd-for-m365",
         "tittel": "Digital rydding lønner seg",
         "ingress": "Spar på det du faktisk trenger. Dropp resten.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -42,14 +41,12 @@
           "rydd-teknikker",
           "fra-filserver-til-sharepoint",
           "folsomhetsetiketter"
-        ],
-        "endret": "2026-06-05"
+        ]
       },
       {
         "id": "rydd-teknikker",
         "tittel": "Effektive ryddeteknikker",
         "ingress": "Teknikker som rydder raskere i Outlook og Filutforsker. Og angrefunksjoner hvis du slettet mer enn du skulle.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "for-flytting",
         "tags": [
           "rydding",
@@ -83,8 +80,7 @@
         "relaterte": [
           "ryddig-innboks",
           "versjonshistorikk"
-        ],
-        "endret": "2026-10-07"
+        ]
       }
     ],
     "kollapset": true
@@ -98,7 +94,6 @@
         "id": "clipchamp-bruke",
         "tittel": "Bruke Clipchamp",
         "ingress": "Clipchamp er video-appen i Microsoft 365. Ta opp, rediger, transkriber og del.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "clipchamp",
         "tags": [
           "clipchamp",
@@ -144,8 +139,7 @@
         "relaterte": [
           "teams-moter",
           "folsomhetsetiketter"
-        ],
-        "endret": "2026-10-07"
+        ]
       }
     ]
   },
@@ -158,7 +152,6 @@
         "id": "m365-copilot-aktivert",
         "tittel": "Hva får du med Microsoft Copilot?",
         "ingress": "Med Microsoft Copilot får du KI innebygd i alle M365-appene, egne arbeidsflater og tilgang til avanserte agenter.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
@@ -220,14 +213,12 @@
           "copilot-studio-for-teams-bygge-chatbot",
           "folsomhetsetiketter"
         ],
-        "notat": "",
-        "endret": "2026-10-07"
+        "notat": ""
       },
       {
         "id": "copilot-chat-inkludert",
         "tittel": "Bruke Copilot Chat",
         "ingress": "KI-chatten for skriving, oppsummering og søk.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
         "tags": [
           "copilot",
@@ -268,14 +259,12 @@
         "relaterte": [
           "m365-copilot-aktivert",
           "copilot-studio-for-teams-bygge-chatbot"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "copilot-studio-for-teams-bygge-chatbot",
         "tittel": "Bygg en chatbot med Copilot Studio",
         "ingress": "Lag en regelbasert chatbot for teamet uten å programmere.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "copilot",
         "tags": [
           "copilot-studio",
@@ -326,8 +315,7 @@
         "relaterte": [
           "copilot-chat-inkludert",
           "m365-copilot-aktivert"
-        ],
-        "endret": "2026-10-07"
+        ]
       }
     ]
   },
@@ -340,7 +328,6 @@
         "id": "lists-hendelseslogg",
         "tittel": "Hendelseslogg i Lists",
         "ingress": "Logg, prioritér og lukk hendelser med skjemaer, varsler og tavle, uten kode.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "lists",
         "tags": [
           "lists",
@@ -382,14 +369,12 @@
         "relaterte": [
           "lists-risikoregister",
           "planner-enkel-oppgavestyring"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "lists-risikoregister",
         "tittel": "Risikoregister i Lists",
         "ingress": "Levende risikoregister med automatikk, fargekodede visninger og sporbar oppfølging.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "lists",
         "tags": [
           "lists",
@@ -434,8 +419,7 @@
         "relaterte": [
           "lists-hendelseslogg",
           "teams-hierarki"
-        ],
-        "endret": "2026-10-07"
+        ]
       }
     ]
   },
@@ -448,7 +432,6 @@
         "id": "loop-eller-word",
         "tittel": "Loop eller Word?",
         "ingress": "Loop er for det som lever. Word er for det som er ferdig.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "loop",
         "tags": [
           "loop",
@@ -486,8 +469,7 @@
         "relaterte": [
           "teams-moter",
           "sharepoint-prosessdokumentasjon-visio"
-        ],
-        "endret": "2026-06-05"
+        ]
       }
     ]
   },
@@ -500,7 +482,6 @@
         "id": "ryddig-innboks",
         "tittel": "Hold innboksen ryddig",
         "ingress": "Fokusert innboks, kategorier og flagg. Tre grep som holder oversikten i Outlook.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "outlook",
         "tags": [
           "outlook",
@@ -533,8 +514,7 @@
         "relaterte": [
           "chat-vs-kanal",
           "rydd-teknikker"
-        ],
-        "endret": "2026-10-07"
+        ]
       }
     ]
   },
@@ -547,7 +527,6 @@
         "id": "planner-enkel-oppgavestyring",
         "tittel": "Enkel oppgavestyring i Planner",
         "ingress": "Visuell tavle for å fordele, organisere og spore oppgaver, direkte i Teams.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "planner",
         "tags": [
           "planner",
@@ -593,8 +572,7 @@
         "relaterte": [
           "lists-hendelseslogg",
           "teams-som-arbeidsflate"
-        ],
-        "endret": "2026-10-07"
+        ]
       }
     ]
   },
@@ -607,7 +585,6 @@
         "id": "folsomhetsetiketter",
         "tittel": "Følsomhetsetiketter: Slik beskytter de innholdet",
         "ingress": "Etiketten forteller M365 hvor sensitivt noe er, og styrer automatisk hvordan det kan deles.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "purview",
         "tags": [
           "følsomhetsetiketter",
@@ -647,8 +624,7 @@
         "relaterte": [
           "teams-hierarki",
           "vise-redigere-kommentere"
-        ],
-        "endret": "2026-06-05"
+        ]
       }
     ]
   },
@@ -661,7 +637,6 @@
         "id": "fra-filserver-til-sharepoint",
         "tittel": "SharePoint og OneDrive: Hvor skal filene ligge?",
         "ingress": "SharePoint er felles, OneDrive er ditt. Ingen av dem er en filserver.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -698,14 +673,12 @@
           "teams-hierarki",
           "vise-redigere-kommentere",
           "versjonshistorikk"
-        ],
-        "endret": "2026-10-15"
+        ]
       },
       {
         "id": "sharepoint-metadata",
         "tittel": "Metadata i SharePoint: Finn dokumentet uten å lete",
         "ingress": "Metadata lar deg beskrive hva et dokument handler om – ikke bare hvor det befinner seg.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -760,14 +733,12 @@
           "sharepoint-prosessdokumentasjon-visio",
           "m365-copilot-aktivert",
           "sharepoint-dokumentbehandling-ki"
-        ],
-        "endret": "2026-06-05"
+        ]
       },
       {
         "id": "sharepoint-dokumentbehandling-ki",
         "tittel": "Dokumentbehandling med KI: Autofyll, oversettelse og signering",
         "ingress": "Dokumentbehandling for Microsoft 365 lar SharePoint lese filene dine, fylle ut kolonner, oversette og hente signaturer.",
-        "oppdatert": "Oppdatert: 22.09.26",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -824,14 +795,12 @@
           "sharepoint-metadata",
           "folsomhetsetiketter",
           "teams-som-arbeidsflate"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "sharepoint-prosessdokumentasjon-visio",
         "tittel": "Prosessdokumentasjon i SharePoint med Visio",
         "ingress": "SharePoint-side med innebygd Visio-diagram, strukturerte metadata og godkjenningsflyt.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "sharepoint",
         "tags": [
           "sharepoint",
@@ -885,14 +854,12 @@
         "relaterte": [
           "fra-filserver-til-sharepoint",
           "folsomhetsetiketter"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "vise-redigere-kommentere",
         "tittel": "Vise, redigere eller kommentere: Riktig deling",
         "ingress": "Du velger hvilken tilgang mottakeren får.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "sharepoint",
         "tags": [
           "deling",
@@ -926,14 +893,12 @@
           "teams-hierarki",
           "folsomhetsetiketter",
           "fra-filserver-til-sharepoint"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "versjonshistorikk",
         "tittel": "Finn tilbake til en tidligere versjon",
         "ingress": "M365 lagrer hver versjon. Du ser hvem som endret hva, når, og kan rulle tilbake.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "sharepoint",
         "tags": [
           "versjon",
@@ -977,7 +942,6 @@
         "id": "teams-som-arbeidsflate",
         "tittel": "Teams: Arbeidsflaten din i M365",
         "ingress": "Teams er ikke bare møter og chat. Det er arbeidsflaten du jobber fra.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "teams",
         "tags": [
           "teams",
@@ -1014,14 +978,12 @@
         "relaterte": [
           "teams-hierarki",
           "fra-filserver-til-sharepoint"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "teams-hierarki",
         "tittel": "Hierarki og tilganger i Teams: Hvem ser hva",
         "ingress": "Team, kanal og innhold styrer hvem som har tilgang. Gi riktig tilgang fra start.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "teams",
         "tags": [
           "teams",
@@ -1058,8 +1020,7 @@
           "fra-filserver-til-sharepoint",
           "folsomhetsetiketter",
           "kanaltyper"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "chat-vs-kanal",
@@ -1089,7 +1050,6 @@
             "innhold": "Skriv **@fornavn** for å varsle én person, **@Teamnavn** for hele teamet. De får varsel selv om de ikke sjekker kanalen aktivt.\n\n*Faglig dialog som dokumenterer beslutninger eller saksforberedelser kan være journalføringspliktig. Uavhengig av om det skjer i chat eller kanal.*"
           }
         ],
-        "oppdatert": "Oppdatert: 03.06.26",
         "relaterte": [
           "teams-hierarki",
           "teams-moter",
@@ -1137,21 +1097,18 @@
             "innhold": "Loop-siden lagres automatisk og forblir tilgjengelig for alle inviterte via møtets detaljer i Teams-kalenderen, eller under **Vis oppsummering** → **Notater** for avsluttede møter.\n\nSiden er fortsatt et levende dokument: Alle kan redigere den videre, og endringer synkroniseres uansett hvor siden er delt – i Teams-chat, kanal eller Loop-appen."
           }
         ],
-        "oppdatert": "Oppdatert: 03.06.26",
         "relaterte": [
           "loop-eller-word",
           "planner-enkel-oppgavestyring",
           "clipchamp-bruke",
           "m365-copilot-aktivert"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "teams-eierskap",
         "tittel": "Teameier: Fra oppretting til avslutning",
         "ingress": "Teameieren eier rammeverket alle i teamet jobber innenfor – og er ansvarlig for at det holdes i orden.",
         "kategori": "teams",
-        "oppdatert": "Oppdatert: 03.06.26",
         "tags": [
           "eierskap",
           "team",
@@ -1199,14 +1156,12 @@
           "kanal-arkivering",
           "kanaltyper",
           "folsomhetsetiketter"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "kanal-arkivering",
         "tittel": "Kanaleier: Oppsett, innhold og avslutning",
         "ingress": "Som kanaleier eier du ett arbeidsrom. Du bestemmer struktur, verktøy og innholdsorganisering for det.",
-        "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "teams",
         "tags": [
           "kanal",
@@ -1251,8 +1206,7 @@
           "teams-eierskap",
           "sharepoint-metadata",
           "folsomhetsetiketter"
-        ],
-        "endret": "2026-10-07"
+        ]
       },
       {
         "id": "mappestrukturer",
@@ -1287,12 +1241,10 @@
             "innhold": "Gode mappenavn er konkrete og handlingsrettede. Dårlige er vage og overlapper hverandre.\n\n**Unngå disse mappenavnene:**\n\n◦ «Informasjon», «Tema», «Emne», «Stikkord», «Diverse», «Annet»\n◦ «Nye», «Gamle», «Kommer», «Til vurdering»\n◦ Tall uten kontekst («101», «A1», «Sak 23»)\n\n**Velg navn som:**\n\n◦ Beskriver hva som ligger der («Møtereferater», «Avtaler», «Mal-dokumenter»)\n◦ Er gjensidig utelukkende (samme fil hører hjemme i én mappe, ikke flere)\n◦ Er forståelige uten forklaring\n\nSpør deg selv: Hvis en kollega leser navnet om to år, vil hen forstå hva som ligger der?"
           }
         ],
-        "oppdatert": "Oppdatert: 03.06.26",
         "relaterte": [
           "teams-hierarki",
           "fra-filserver-til-sharepoint"
-        ],
-        "endret": "2026-06-05"
+        ]
       },
       {
         "id": "kanaltyper",
@@ -1323,7 +1275,6 @@
             "innhold": "Still ett spørsmål: **hvem skal ha tilgang?**\n\n◦ **Hele teamet (inkl. gjester)** → Standardkanal\n◦ **En undergruppe i teamet** → Privat kanal\n◦ **Folk på tvers av team** → Delt kanal\n◦ **Eksterne gjester på tvers av team** → Egen team-struktur (delt kanal støtter ikke gjester)\n\nI tvil: **velg standardkanal**. Det er enklest å forvalte og lettest å forstå for de som kommer til senere."
           }
         ],
-        "oppdatert": "Oppdatert: 03.06.26",
         "relaterte": [
           "teams-hierarki",
           "teams-eierskap",
@@ -1393,13 +1344,11 @@
             "innhold": "Du kan legge til emojier i navnet på egendefinerte seksjoner i kanallisten. Det gjør det lettere å skille mellom prosjekter og arbeidsområder i en lang liste.\n\nNår du oppretter eller gir nytt navn til en seksjon, velg en emoji som vises ved siden av navnet."
           }
         ],
-        "oppdatert": "Oppdatert: 11.08.26",
         "relaterte": [
           "teams-moter",
           "copilot-chat-inkludert",
           "teams-hierarki"
-        ],
-        "endret": "2026-10-07"
+        ]
       }
     ]
   },
@@ -1483,13 +1432,11 @@
             "innhold": "Når innholdet er lastet inn (innen 24 timer), kan ansatte:\n\n◦ Åpne **Viva Learning** i venstremenyen i Teams\n◦ Søke etter emne, tittel eller stikkord\n◦ Filtrere på språk, kilde, varighet eller emne (SkillTags)\n◦ Markere kurs som ferdig, lagre til senere eller dele med kolleger\n\nFor en fokusert opplevelse i en bestemt kanal: Legg Viva Learning til som **fane** i kanalen. Klikk **+** på fanelinja, søk opp **Viva Learning**, og velg en samling kurs som skal vises.\n\n*Hele teamet ser samme læringsmateriell på samme sted, i flyten der det daglige arbeidet skjer.*"
           }
         ],
-        "oppdatert": "Oppdatert: 03.06.26",
         "relaterte": [
           "sharepoint-prosessdokumentasjon-visio",
           "fra-filserver-til-sharepoint",
           "m365-copilot-aktivert"
-        ],
-        "endret": "2026-10-07"
+        ]
       }
     ]
   }
