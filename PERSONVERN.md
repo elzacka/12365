@@ -4,25 +4,25 @@ Oppdatert: 15.10.26
 
 ## Kort oppsummert
 
-1-2-365 er en åpen, gratis [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen samler ikke inn personopplysninger, og bruker verken analyseverktøy eller informasjonskapsler.
+1-2-365 er en gratis [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen samler ikke inn personopplysninger og bruker verken analyseverktøy eller informasjonskapsler.
 
-## Hva som lagres
+## Hva som lagres på enheten din
 
-- Appens filer (HTML, JavaScript, CSS, ikoner og innhold): Lagres lokalt via en Service Worker, slik at appen fungerer offline. Sendes aldri videre.
-- Passordfrasen for skjult innhold (localStorage): Bare hvis du velger å huske den.
-- Et flagg når du lukker installasjonsbanneret (localStorage): Banneret vises da ikke igjen.
-- Et midlertidig flagg når appen oppdaterer seg (sessionStorage): Nettleseren sletter det når du lukker appen.
+- Appens filer og innhold, slik at appen virker uten nett
+- Passordfrasen for skjult innhold, bare hvis du velger «Husk på denne enheten»
+- At du har lukket installasjonsbanneret, slik at det ikke vises igjen
+- Et midlertidig merke når appen oppdaterer seg, slik at den kan bekrefte oppdateringen
 
-Ingenting av dette kan identifisere deg, og alt ligger bare på enheten din.
+Ingenting av dette sendes fra enheten, og ingenting av det kan identifisere deg.
 
-## Tredjeparter
+## Slik sletter du det
 
-Appen er hostet på GitHub Pages. GitHub logger IP-adresse og standard tilgangsdata som ledd i drift av tjenesten. Se [GitHubs personvernerklæring](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for detaljer.
+«Logg ut» sletter passordfrasen. Alt annet sletter du ved å fjerne appen fra enheten eller slette nettstedsdata for appen i nettleseren.
 
-## Dine rettigheter
+## GitHub
 
-Det finnes ingen data å be om innsyn i, retting av eller sletting av, fordi appen ikke samler inn personopplysninger. Du sletter alt appen har lagret ved å fjerne nettleserdata for appen.
+Appen ligger på GitHub Pages. GitHub lagrer IP-adressen til alle som besøker appen, av sikkerhetshensyn. Jeg har ikke tilgang til disse loggene. Se [GitHubs personvernerklæring](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 ## Kontakt
 
-Spørsmål? Kontakt meg via [GitHub-profilen min](https://github.com/elzacka)
+Spørsmål? Kontakt meg via [GitHub-profilen min](https://github.com/elzacka).
