@@ -2,7 +2,7 @@ import { useEffect, useState, use, type ReactNode, Fragment } from 'react'
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
-import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, SpyIcon, ShareIcon, ZoomInIcon } from '../components/Icons'
+import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, SpyIcon, HeartShareIcon, ZoomInIcon } from '../components/Icons'
 import { UntestedWarning } from '../components/UntestedWarning'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
@@ -278,7 +278,7 @@ export function ArticlePage() {
                   className="shrink-0 -mt-1.5 -mr-1.5 p-1.5 text-slate-400 hover:text-brand-700 transition-colors"
                   aria-label="Del veiledningen"
                 >
-                  <ShareIcon size={18} />
+                  <HeartShareIcon size={18} />
                 </button>
               )}
             </div>

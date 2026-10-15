@@ -248,6 +248,17 @@ export function ZoomInIcon({ size = 16, className }: IconProps) {
   )
 }
 
+// Tabler: del-knappen i artikler (ShareIcon er Safaris del-symbol i installasjonsveiledningen)
+export function HeartShareIcon({ size = 20, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+      <path d="M19.5 12.572l-.468 .464m-6.077 6.019l-.955 .945l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+      <path d="M16 22l5 -5" />
+      <path d="M21 21.5v-4.5h-4.5" />
+    </svg>
+  )
+}
+
 export function ShareIcon({ size = 20, className }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
