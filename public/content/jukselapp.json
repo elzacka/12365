@@ -7032,7 +7032,7 @@
   {
     "id": "microsoft-intune-suite",
     "tittel": "Microsoft Intune Suite",
-    "forklaring": "Pakke med utvidede Intune-tjenester, blant annet Remote Help, Endpoint Privilege Management og Cloud PKI.",
+    "forklaring": "Pakke med utvidede Intune-tjenester, blant annet Remote Help, Endpoint Privilege Management og Cloud PKI. Inkludert i E5.",
     "tags": [
       "m365",
       "sikkerhet",
@@ -7042,7 +7042,7 @@
   {
     "id": "microsoft-teams-enterprise",
     "tittel": "Microsoft Teams Enterprise",
-    "forklaring": "Teams-lisensen som selges separat fra Microsoft 365-planene etter at Microsoft skilte ut Teams fra suitene.",
+    "forklaring": "Teams-lisensen, som selges separat fra Microsoft 365-planene, også fra E5.",
     "tags": [
       "m365",
       "samarbeid",

@@ -6,7 +6,7 @@ Innhold:
 
 - hva M365-appene gjør, hva som skiller dem og hvordan de samarbeider
 - fremgangsmåter, jukselapp (oppslagsverk om M365, KI og mye mer), videoer og kurs
-- oversikt over samtlige apper og funksjoner i M365 E5, med «trykk og forklar» på alle greiene
+- oversikt over samtlige apper og funksjoner i M365 E5 og tilleggene som kan kjøpes, med «trykk og forklar» på alle greiene
 
 Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med KI. KI kan bomme, og jeg kan overse noe. Jeg retter feil fortløpende.
 
