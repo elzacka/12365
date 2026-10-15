@@ -27,8 +27,8 @@ export function Header({
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-slate-200 safe-top">
-      {/* A breadcrumb needs the width a centred title does not: auto | 1fr | auto. */}
-      <div className={`max-w-2xl mx-auto px-2 h-14 grid items-center ${breadcrumb ? 'grid-cols-[auto_1fr_auto]' : 'grid-cols-3'}`}>
+      {/* Breadcrumb: centred like a title, but may grow past a third and truncate. */}
+      <div className={`max-w-2xl mx-auto px-2 h-14 grid items-center ${breadcrumb ? 'grid-cols-[1fr_minmax(0,auto)_1fr]' : 'grid-cols-3'}`}>
         <div className="flex items-center gap-1 justify-self-start">
           {showHome && (
             <Link
@@ -50,7 +50,7 @@ export function Header({
           )}
         </div>
 
-        <div className={`min-w-0 px-2 ${breadcrumb ? 'justify-self-stretch' : 'justify-self-center'}`}>
+        <div className="justify-self-center min-w-0 px-2">
           {breadcrumb ?? (title ? (
             <h1 className="text-base font-semibold text-slate-800 truncate text-center">
               {title}

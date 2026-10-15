@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
 
-// Link differs from the category by colour (>3:1); no underline by design.
+// Styled like the header title. No underline: a breadcrumb in a nav is identifiable as a link by position.
 function Crumbs({ category }: { category?: string }) {
   return (
     <nav aria-label="Brødsmulesti" className="min-w-0">
-      <ol className="flex items-center gap-x-1.5 text-xs font-medium uppercase tracking-wide text-slate-500 whitespace-nowrap">
+      <ol className="flex items-center gap-x-1.5 text-base font-semibold text-slate-800 whitespace-nowrap">
         <li className="shrink-0">
-          <Link to="/slik-gjor-du" className="inline-block py-1 text-brand-700 hover:text-brand-400 transition-colors">
+          <Link to="/slik-gjor-du" className="text-slate-500 hover:text-brand-700 transition-colors">
             Gjør sånn
           </Link>
         </li>
         {category && (
           <li className="flex items-center gap-1.5 min-w-0">
-            <span aria-hidden="true">›</span>
+            <span aria-hidden="true" className="text-slate-400">›</span>
             <span className="truncate">{category}</span>
           </li>
         )}
