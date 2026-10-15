@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, use, useCallback, useRef } from 'react'
+import { Fragment, useState, useMemo, useEffect, use, useCallback, useRef } from 'react'
 import { fetchJukselapp } from '../data/loader'
 import { buildIndex, searchOrd } from '../data/searchIndex'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
@@ -130,6 +130,18 @@ export function Jukselapp() {
 
   const visibleCount = results?.length ?? filteredByTag.length
   const isFiltering = results !== null || hasTagFilter
+  const isSearching = results !== null
+  const trimmedQuery = query.trim()
+
+  // Same sentence as the visible filter line, without the chips' button labels.
+  const filterSummary = !isFiltering
+    ? ''
+    : visibleCount === 0
+      ? 'Ingen treff'
+      : [
+          isSearching ? `${visibleCount} treff på «${trimmedQuery}»` : `${visibleCount} oppslag`,
+          hasTagFilter && `${isSearching ? 'blant oppslag ' : ''}merket ${joinTags(activeTags)}`,
+        ].filter(Boolean).join(' ')
 
   const grouped = useMemo(() => {
     const map = new Map<string, Oppslag[]>()
@@ -203,15 +215,8 @@ export function Jukselapp() {
             )}
           </div>
 
-          <div className="flex items-center justify-between mt-1.5">
-            <p className="text-xs text-slate-500 tabular-nums" aria-live="polite">
-              {isFiltering && (
-                <>
-                  {visibleCount}
-                  <span className="sr-only"> treff</span>
-                </>
-              )}
-            </p>
+          <div className="flex items-center justify-end mt-1.5">
+            <p className="sr-only" aria-live="polite">{filterSummary}</p>
             <button
               type="button"
               onClick={() => setShowHelp(v => !v)}
@@ -274,20 +279,33 @@ export function Jukselapp() {
           </button>
         )}
 
-        {hasTagFilter && (
-          <div className="mb-4 flex flex-wrap items-center gap-2 text-xs">
-            <span className="text-slate-500">Viser oppslag merket</span>
-            {activeTags.map(tag => (
-              <button
-                key={tag}
-                onClick={() => removeTag(tag)}
-                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-brand-100 text-brand-800 hover:bg-brand-200 transition-colors"
-                aria-label={`Fjern filter ${tag}`}
-              >
-                <span>{tag}</span>
-                <CloseIcon size={12} />
-              </button>
-            ))}
+        {isFiltering && visibleCount > 0 && (
+          <div className="mb-4 flex flex-wrap items-center gap-x-1.5 gap-y-2 text-xs text-slate-500">
+            <span className="min-w-0 break-words">
+              <strong className="font-semibold text-slate-700 tabular-nums">{visibleCount}</strong>
+              {isSearching ? <> treff på «{trimmedQuery}»</> : ' oppslag'}
+              {hasTagFilter && (isSearching ? ' blant oppslag merket' : ' merket')}
+            </span>
+            {hasTagFilter && (
+              <>
+                {activeTags.map((tag, i) => (
+                  <Fragment key={tag}>
+                    <span className="inline-flex items-center">
+                      <button
+                        onClick={() => removeTag(tag)}
+                        className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-brand-100 text-brand-800 hover:bg-brand-200 transition-colors"
+                        aria-label={`Fjern filter ${tag}`}
+                      >
+                        <span>{tag}</span>
+                        <CloseIcon size={12} />
+                      </button>
+                      {i < activeTags.length - 2 && ','}
+                    </span>
+                    {i === activeTags.length - 2 && <span>og</span>}
+                  </Fragment>
+                ))}
+              </>
+            )}
           </div>
         )}
 

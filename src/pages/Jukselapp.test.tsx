@@ -30,35 +30,35 @@ async function renderPage() {
   })
 }
 
-// Visible text is the number only; " treff" is for screen readers.
-const count = () => document.querySelector('[aria-live="polite"]')?.textContent
+// Screen-reader version of the filter line.
+const summary = () => document.querySelector('[aria-live="polite"]')?.textContent
 
 const expand = (title: string) => fireEvent.click(screen.getByRole('button', { name: new RegExp(title) }))
 const clickTag = (tag: string) =>
   fireEvent.click(screen.getByRole('button', { name: new RegExp(`(merket|filter) ${tag}$`) }))
 
 describe('Jukselapp', () => {
-  it('shows no count unfiltered, then the entries with every selected tag', async () => {
+  it('shows no summary unfiltered, then the entries with every selected tag', async () => {
     await renderPage()
-    expect(count()).toBe('')
+    expect(summary()).toBe('')
 
     expand('Alfa')
     clickTag('ki')
-    expect(count()).toBe('2 treff')
+    expect(summary()).toBe('2 oppslag merket ki')
 
     // The entry stays open, so a second tag can be picked from it.
     clickTag('metode')
-    expect(count()).toBe('1 treff')
+    expect(summary()).toBe('1 oppslag merket ki og metode')
     expect(screen.queryByText('Beta')).toBeNull()
     expect(screen.getByRole('button', { name: /Alfa/ })).toHaveAttribute('aria-expanded', 'true')
 
     fireEvent.click(screen.getAllByRole('button', { name: 'Fjern filter ki' })[0])
-    expect(count()).toBe('2 treff')
+    expect(summary()).toBe('2 oppslag merket metode')
   })
 
-  it('counts search results', async () => {
+  it('summarises search results', async () => {
     await renderPage()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'G' } })
-    expect(count()).toBe('1 treff')
+    expect(summary()).toBe('1 treff på «G»')
   })
 })
