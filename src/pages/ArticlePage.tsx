@@ -231,7 +231,9 @@ export function ArticlePage() {
   }
 
   if (!article || !category || article.skjult) {
-    return <Navigate to="/gjor-sann" replace />
+    // Shared links outlive a move to another category.
+    const movedTo = categories.find(k => k.artikler.some(a => a.id === artikkelId && !a.skjult))
+    return <Navigate to={movedTo ? `/gjor-sann/${movedTo.id}/${artikkelId}` : '/gjor-sann'} replace />
   }
 
   const isFirstStep = activeStep === 0

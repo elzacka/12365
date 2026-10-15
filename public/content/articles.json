@@ -1,7 +1,7 @@
 [
   {
     "id": "for-flytting",
-    "tittel": "Før du flytter",
+    "tittel": "Før du flytter inn i M365",
     "beskrivelse": "Forberedelser før du tar i bruk Microsoft 365",
     "artikler": [
       {
@@ -86,7 +86,8 @@
         ],
         "endret": "2026-10-07"
       }
-    ]
+    ],
+    "kollapset": true
   },
   {
     "id": "kom-i-gang",
@@ -133,8 +134,7 @@
         ],
         "relaterte": [
           "teams-hierarki",
-          "fra-filserver-til-sharepoint",
-          "onedrive-vs-sharepoint"
+          "fra-filserver-til-sharepoint"
         ],
         "endret": "2026-10-07"
       },
@@ -184,24 +184,34 @@
       },
       {
         "id": "fra-filserver-til-sharepoint",
-        "tittel": "SharePoint: Slik er det annerledes enn en filserver",
-        "ingress": "SharePoint er en samarbeidsplattform. Ikke en filserver.",
+        "tittel": "SharePoint og OneDrive: Hvor skal filene ligge?",
+        "ingress": "SharePoint er felles, OneDrive er ditt. Ingen av dem er en filserver.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "kom-i-gang",
         "tags": [
           "sharepoint",
+          "onedrive",
           "filserver",
           "lagring",
-          "teams"
+          "teams",
+          "deling"
         ],
         "steg": [
           {
             "tittel": "Forstå forskjellen",
-            "innhold": "**Filserveren** er mapper på en server «på huset». **SharePoint** er et nettbasert fellesområde tilgjengelig overalt. Hjemme, på kontoret, på mobil.\n\nNår du lagrer en fil i en Teams-kanal, ligger den i SharePoint. Du trenger ikke å tenke på det. Teams håndterer det for deg.\n\n*Tilganger styres av teamet eller kanalen, ikke av mappestrukturen. Bytter du mappe, beholder filen samme tilgang.*"
+            "innhold": "**Filserveren** er mapper på en server «på huset». I M365 lagrer du i stedet på to nettbaserte steder, tilgjengelige overalt: Hjemme, på kontoret, på mobil.\n\n◦ **SharePoint**: Fellesområdet. Filer du lagrer i en Teams-kanal, ligger i SharePoint.\n◦ **OneDrive**: Din personlige lagring for kladder, utkast og filer du ikke er klar til å dele.\n\n*Tilganger i SharePoint styres av teamet eller kanalen, ikke av mappestrukturen. Filen beholder samme tilgang hvis du flytter den til en annen mappe.*"
           },
           {
             "tittel": "Finn og legg til filer i Teams",
             "innhold": "**Finn filene**: Åpne kanalen i Teams og klikk på **Delt**-fanen øverst. Her ligger alle filer som tilhører kanalen.\n\n**Last opp**: Klikk **Last opp** i Delt-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint.\n\n*NB: Fanen som viser mapper og filer i Engage-fellesskap heter «Filer».*"
+          },
+          {
+            "tittel": "Bruk OneDrive til eget arbeid",
+            "innhold": "Klikk **OneDrive** i venstremenyen i Teams. Klikk **Vis flere apper** og fest OneDrive til menyen hvis du ikke ser den.\n\n*OneDrive er knyttet til deg som ansatt. Du mister tilgangen når du slutter. Organisasjonskritisk innhold hører hjemme på fellesområdet.*"
+          },
+          {
+            "tittel": "Flytt filer til Teams når de skal deles",
+            "innhold": "Har du en fil i OneDrive som skal inn i en kanal? Åpne filen, klikk **Flytt til** og velg riktig Teams-kanal. Kanalens medlemmer får tilgang umiddelbart."
           },
           {
             "tittel": "Del lenke, ikke vedlegg",
@@ -211,24 +221,95 @@
         "relaterte": [
           "teams-som-arbeidsflate",
           "teams-hierarki",
-          "onedrive-vs-sharepoint",
+          "vise-redigere-kommentere",
           "versjonshistorikk"
         ],
+        "endret": "2026-10-15"
+      },
+      {
+        "id": "vise-redigere-kommentere",
+        "tittel": "Vise, redigere eller kommentere: Riktig deling",
+        "ingress": "Du velger hvilken tilgang mottakeren får.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "kom-i-gang",
+        "tags": [
+          "deling",
+          "rettigheter",
+          "tilgang",
+          "samarbeid"
+        ],
+        "steg": [
+          {
+            "tittel": "Tre rettighetstyper",
+            "innhold": "Når du klikker **Del** i Word, Excel, PowerPoint eller fra et SharePoint-bibliotek, kan du velge mellom tre nivåer:\n\n◦ **Kan vise**: Leser dokumentet, kan ikke endre noe\n◦ **Kan se gjennom**: Kan legge til kommentarer og forslag, men ikke endre selve teksten (bare i Word)\n◦ **Kan redigere**: Kan skrive, slette og samskrive i sanntid\n\nI en Teams-kanal har medlemmer redigeringstilgang automatisk via medlemskapet. Når du deler en lenke utad, velger du selv rettighet."
+          },
+          {
+            "tittel": "Når bruker du hva?",
+            "innhold": "◦ **Vi jobber sammen om innholdet** → Kan redigere\n◦ **Mottakeren skal kun ha innsyn** → Kan vise\n◦ **Høringsrunde eller kvalitetssikring** → Kan se gjennom\n◦ **Mottakeren skal bidra med innspill, ikke endre** → Kan se gjennom\n◦ **Ferdig dokument til orientering** → Kan vise\n\n**Kan se gjennom** er undervurdert. Særlig nyttig når mange skal gi innspill uten å forstyrre hovedteksten."
+          },
+          {
+            "tittel": "Tilleggskontroller for sensitive filer",
+            "innhold": "Klikk **Koblingsinnstillinger** i delingsdialogen for flere kontroller:\n\n◦ **Blokker nedlasting**: Mottakeren kan lese, men ikke laste ned. Reduserer kopier på avveie. (Skjermbilder kan tas uansett.)\n◦ **Angi utløpsdato**: Tilgangen forsvinner automatisk på en gitt dato. Nyttig for innspillsrunder og eksterne samarbeid.\n◦ **Velg hvem koblingen gjelder for**: Bestemte personer eller personer i organisasjonen. Da gir ikke videresending uvedkommende tilgang.\n\nGratis sikkerhetsgevinster. Bruk dem aktivt."
+          },
+          {
+            "tittel": "Den farligste delingstypen: «hvem som helst med lenken»",
+            "innhold": "Når du deler en fil, kan du velge **«Hvem som helst med lenken»**. Da fungerer lenken for alle som får den, også de som videresender den.\n\n**Unngå dette internt.** Du mister oversikt over hvem som har tilgang, og lenken kan spre seg uten kontroll.\n\nVelg i stedet:\n\n◦ **Personer i organisasjonen**: Alle innloggede brukere i organisasjonen\n◦ **Bestemte personer**: Navngitte mottakere\n◦ **Personer med eksisterende tilgang**: Kun de som allerede er med i teamet eller kanalen\n\n*Du vet hvem som ser hva, og kan trekke tilbake tilgang når noe endrer seg.*"
+          },
+          {
+            "tittel": "Del på riktig sted, ikke bare med riktig rettighet",
+            "innhold": "Rettigheten er kun én del av god deling. Det viktigste er **hvor filen ligger**:\n\n◦ Skal flere bruke filen jevnlig? Den hører hjemme i en **Teams-kanal**.\n◦ Engangstilfelle eller midlertidig innspill? **OneDrive-deling** med navngitt person kan fungere.\n◦ Skal hele organisasjonen ha innsyn? Bruk en **SharePoint-side** eller hub.\n\nFlytt filen før du deler den. Da følger tilgangen jobben, ikke deg som person."
+          }
+        ],
+        "relaterte": [
+          "teams-hierarki",
+          "folsomhetsetiketter",
+          "fra-filserver-til-sharepoint"
+        ],
         "endret": "2026-10-07"
-      }
-    ]
-  },
-  {
-    "id": "sikkerhet",
-    "tittel": "Sikkerhet",
-    "beskrivelse": "Klassifisering, etiketter og trygg deling",
-    "artikler": [
+      },
+      {
+        "id": "versjonshistorikk",
+        "tittel": "Finn tilbake til en tidligere versjon",
+        "ingress": "M365 lagrer hver versjon. Du ser hvem som endret hva, når, og kan rulle tilbake.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "kom-i-gang",
+        "tags": [
+          "versjon",
+          "historikk",
+          "angre"
+        ],
+        "alias": [
+          "version history"
+        ],
+        "steg": [
+          {
+            "tittel": "Filen må ligge i Teams eller OneDrive",
+            "innhold": "Versjonering fungerer for filer i SharePoint (via Teams) eller OneDrive. Ikke for filer som ligger lokalt på PC-en. Én god grunn til alltid å lagre i Teams.\n\n*Filer du har synkronisert fra OneDrive til PC-en har fortsatt versjonshistorikk. Det er lagringsstedet i skyen som teller.*"
+          },
+          {
+            "tittel": "Klikk på filnavnet øverst",
+            "innhold": "Åpne filen direkte i Teams. Klikk på dokumentnavnet i tittellinja øverst i Word, Excel eller PowerPoint. En meny åpnes."
+          },
+          {
+            "tittel": "Velg Versjonslogg",
+            "innhold": "Klikk **Versjonslogg** i menyen. Du ser alle lagrede versjoner med dato og hvem som redigerte."
+          },
+          {
+            "tittel": "Gjenopprett ønsket versjon",
+            "innhold": "Klikk på en versjon for å åpne den. Klikk deretter **Gjenopprett** for å gjøre den til gjeldende versjon.\n\nDen gamle versjonen forsvinner ikke. Den legger seg som en ny versjon i loggen."
+          }
+        ],
+        "relaterte": [
+          "fra-filserver-til-sharepoint",
+          "rydd-teknikker"
+        ]
+      },
       {
         "id": "folsomhetsetiketter",
         "tittel": "Følsomhetsetiketter: Slik klassifiserer du innhold",
         "ingress": "Etiketten forteller M365 hvor sensitivt noe er, og styrer automatisk hvordan det kan deles.",
         "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "sikkerhet",
+        "kategori": "kom-i-gang",
         "tags": [
           "følsomhetsetiketter",
           "etikettering",
@@ -270,170 +351,8 @@
         ],
         "endret": "2026-06-05"
       }
-    ]
-  },
-  {
-    "id": "pa-tvers",
-    "tittel": "På tvers",
-    "beskrivelse": "Generelle grep og funksjoner som brukes på tvers av apper",
-    "artikler": [
-      {
-        "id": "versjonshistorikk",
-        "tittel": "Finn tilbake til en tidligere versjon",
-        "ingress": "M365 lagrer hver versjon. Du ser hvem som endret hva, når, og kan rulle tilbake.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "pa-tvers",
-        "tags": [
-          "versjon",
-          "historikk",
-          "angre"
-        ],
-        "alias": [
-          "version history"
-        ],
-        "steg": [
-          {
-            "tittel": "Filen må ligge i Teams eller OneDrive",
-            "innhold": "Versjonering fungerer for filer i SharePoint (via Teams) eller OneDrive. Ikke for filer som ligger lokalt på PC-en. Én god grunn til alltid å lagre i Teams.\n\n*Filer du har synkronisert fra OneDrive til PC-en har fortsatt versjonshistorikk. Det er lagringsstedet i skyen som teller.*"
-          },
-          {
-            "tittel": "Klikk på filnavnet øverst",
-            "innhold": "Åpne filen direkte i Teams. Klikk på dokumentnavnet i tittellinja øverst i Word, Excel eller PowerPoint. En meny åpnes."
-          },
-          {
-            "tittel": "Velg Versjonslogg",
-            "innhold": "Klikk **Versjonslogg** i menyen. Du ser alle lagrede versjoner med dato og hvem som redigerte."
-          },
-          {
-            "tittel": "Gjenopprett ønsket versjon",
-            "innhold": "Klikk på en versjon for å åpne den. Klikk deretter **Gjenopprett** for å gjøre den til gjeldende versjon.\n\nDen gamle versjonen forsvinner ikke. Den legger seg som en ny versjon i loggen."
-          }
-        ],
-        "relaterte": [
-          "fra-filserver-til-sharepoint",
-          "rydd-teknikker"
-        ]
-      },
-      {
-        "id": "loop-eller-word",
-        "tittel": "Loop eller Word?",
-        "ingress": "Loop er for det som lever. Word er for det som er ferdig.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "pa-tvers",
-        "tags": [
-          "loop",
-          "word",
-          "samarbeid",
-          "dokumenter",
-          "data"
-        ],
-        "steg": [
-          {
-            "tittel": "Word-fila som arbeidsverktøy",
-            "innhold": "En Word-fil i SharePoint er bedre enn et Word-vedlegg som sirkulerer på e-post. Men det er fremdeles en fil – statisk, uten metadata og dårlig som levende referanse, selv om Copilot kan lese innholdet.\n\nSpørsmålet er ikke «Word eller ikke Word». Spørsmålet er: **Trenger dette å være et dokument, eller er det arbeidsinnhold som lever og endres?**"
-          },
-          {
-            "tittel": "Bruk Loop til levende innhold",
-            "innhold": "**Loop** er riktig valg når:\n\n◦ Flere skal skrive og redigere samtidig\n◦ Innholdet oppdateres løpende (møtenotater, statusoppdateringer, prosjektbeskrivelser)\n◦ Du vil at innholdet skal vises på tvers av Teams-chat, kanaler og møter\n◦ Du ikke trenger spesifikk formatering eller sideoppsett\n\nLoop-sider er versjonerte og kan vises som levende komponenter i Teams-meldinger. Ingen åpner et vedlegg."
-          },
-          {
-            "tittel": "Bruk Word til ferdige, formelle dokumenter",
-            "innhold": "**Word** er riktig valg når:\n\n◦ Dokumentet er ferdig og skal arkiveres eller sendes ut\n◦ Det er en formell rapport, kontrakt, saksframlegg eller offisiell tekst\n◦ Spesifikt sideoppsett, topp- eller bunntekst eller signaturfelt er nødvendig\n◦ Noen skal skrive under på det\n\nEksempler: Årsrapport, stillingsbeskrivelse, anskaffelsesdokumenter, brev til innbyggere."
-          },
-          {
-            "tittel": "Slik lager du en Loop-side i Teams",
-            "innhold": "Åpne **Loop** fra venstremenyen i Teams. Klikk **Ny side**. Gi siden et navn og begynn å skrive.\n\nDu kan dele siden med kolleger, legge den til som fane i en Teams-kanal, eller sende den som en levende komponent i en Teams-melding. Mottakerne kan redigere den direkte i chatten uten å åpne en separat app."
-          },
-          {
-            "tittel": "Loop-komponenter i Teams-chat og kanaler",
-            "innhold": "I stedet for et vedlegg, sett inn en **Loop-komponent** direkte i en Teams-melding. Klikk **+** eller Loop-ikonet i meldingsfeltet og velg komponenttype (tabell, liste, sjekkliste, avstemning).\n\nAlle i samtalen ser og redigerer innholdet rett i meldingen. Ingen trenger å åpne noe."
-          },
-          {
-            "tittel": "Praktiske eksempler",
-            "innhold": "**Bruk Loop-side til**\n\n◦ Saksliste og referat for møte\n◦ Prosjektbeskrivelse alle bidrar til\n\n**Bruk Loop-komponent til**\n\n◦ Ukesstatus som deles med teamet\n◦ Idéinnsamling i møte\n\n**Bruk Word til**\n\n◦ Årsrapport til styret\n◦ Kontrakt med ekstern leverandør\n◦ Veiledning som skal trykkes\n\n**Bruk SharePoint-side til**\n\n◦ Rutine i prosessbiblioteket"
-          }
-        ],
-        "relaterte": [
-          "teams-moter",
-          "sharepoint-prosessdokumentasjon-visio"
-        ],
-        "endret": "2026-06-05"
-      },
-      {
-        "id": "onedrive-vs-sharepoint",
-        "tittel": "OneDrive eller SharePoint?",
-        "ingress": "OneDrive er ditt. SharePoint er felles.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "pa-tvers",
-        "tags": [
-          "onedrive",
-          "sharepoint",
-          "lagring",
-          "deling"
-        ],
-        "steg": [
-          {
-            "tittel": "Bruk OneDrive til eget arbeid",
-            "innhold": "**OneDrive** er ditt personlige lagringsområde. Legg kladder, utkast og filer du ikke er klar til å dele her.\n\nKlikk **OneDrive** i venstremenyen i Teams. Klikk **Vis flere apper** og fest OneDrive til menyen hvis du ikke ser den."
-          },
-          {
-            "tittel": "Bruk SharePoint (via Teams) til felles arbeid",
-            "innhold": "**SharePoint** er fellesområdet. Lagrer du i en Teams-kanal, bruker du SharePoint automatisk.\n\n*OneDrive er knyttet til deg som ansatt. Slutter du, forsvinner tilgangen. Organisasjonskritisk innhold hører hjemme på fellesområde.*"
-          },
-          {
-            "tittel": "Flytt filer til Teams når de skal deles",
-            "innhold": "Har du en fil i OneDrive som skal inn i en kanal? Åpne filen, klikk **Flytt til** og velg riktig Teams-kanal. Kanalens medlemmer får tilgang umiddelbart."
-          }
-        ],
-        "relaterte": [
-          "fra-filserver-til-sharepoint",
-          "vise-redigere-kommentere",
-          "teams-hierarki"
-        ],
-        "endret": "2026-10-07"
-      },
-      {
-        "id": "vise-redigere-kommentere",
-        "tittel": "Vise, redigere eller kommentere: Riktig deling",
-        "ingress": "Du velger hvilken tilgang mottakeren får.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "pa-tvers",
-        "tags": [
-          "deling",
-          "rettigheter",
-          "tilgang",
-          "samarbeid"
-        ],
-        "steg": [
-          {
-            "tittel": "Tre rettighetstyper",
-            "innhold": "Når du klikker **Del** i Word, Excel, PowerPoint eller fra et SharePoint-bibliotek, kan du velge mellom tre nivåer:\n\n◦ **Kan vise**: Leser dokumentet, kan ikke endre noe\n◦ **Kan se gjennom**: Kan legge til kommentarer og forslag, men ikke endre selve teksten (bare i Word)\n◦ **Kan redigere**: Kan skrive, slette og samskrive i sanntid\n\nI en Teams-kanal har medlemmer redigeringstilgang automatisk via medlemskapet. Når du deler en lenke utad, velger du selv rettighet."
-          },
-          {
-            "tittel": "Når bruker du hva?",
-            "innhold": "◦ **Vi jobber sammen om innholdet** → Kan redigere\n◦ **Mottakeren skal kun ha innsyn** → Kan vise\n◦ **Høringsrunde eller kvalitetssikring** → Kan se gjennom\n◦ **Mottakeren skal bidra med innspill, ikke endre** → Kan se gjennom\n◦ **Ferdig dokument til orientering** → Kan vise\n\n**Kan se gjennom** er undervurdert. Særlig nyttig når mange skal gi innspill uten å forstyrre hovedteksten."
-          },
-          {
-            "tittel": "Tilleggskontroller for sensitive filer",
-            "innhold": "Klikk **Koblingsinnstillinger** i delingsdialogen for flere kontroller:\n\n◦ **Blokker nedlasting**: Mottakeren kan lese, men ikke laste ned. Reduserer kopier på avveie. (Skjermbilder kan tas uansett.)\n◦ **Angi utløpsdato**: Tilgangen forsvinner automatisk på en gitt dato. Nyttig for innspillsrunder og eksterne samarbeid.\n◦ **Velg hvem koblingen gjelder for**: Bestemte personer eller personer i organisasjonen. Da gir ikke videresending uvedkommende tilgang.\n\nGratis sikkerhetsgevinster. Bruk dem aktivt."
-          },
-          {
-            "tittel": "Den farligste delingstypen: «hvem som helst med lenken»",
-            "innhold": "Når du deler en fil, kan du velge **«Hvem som helst med lenken»**. Da fungerer lenken for alle som får den, også de som videresender den.\n\n**Unngå dette internt.** Du mister oversikt over hvem som har tilgang, og lenken kan spre seg uten kontroll.\n\nVelg i stedet:\n\n◦ **Personer i organisasjonen**: Alle innloggede brukere i organisasjonen\n◦ **Bestemte personer**: Navngitte mottakere\n◦ **Personer med eksisterende tilgang**: Kun de som allerede er med i teamet eller kanalen\n\n*Du vet hvem som ser hva, og kan trekke tilbake tilgang når noe endrer seg.*"
-          },
-          {
-            "tittel": "Del på riktig sted, ikke bare med riktig rettighet",
-            "innhold": "Rettigheten er kun én del av god deling. Det viktigste er **hvor filen ligger**:\n\n◦ Skal flere bruke filen jevnlig? Den hører hjemme i en **Teams-kanal**.\n◦ Engangstilfelle eller midlertidig innspill? **OneDrive-deling** med navngitt person kan fungere.\n◦ Skal hele organisasjonen ha innsyn? Bruk en **SharePoint-side** eller hub.\n\nFlytt filen før du deler den. Da følger tilgangen jobben, ikke deg som person."
-          }
-        ],
-        "relaterte": [
-          "teams-hierarki",
-          "folsomhetsetiketter",
-          "onedrive-vs-sharepoint"
-        ],
-        "endret": "2026-10-07"
-      }
-    ]
+    ],
+    "kollapset": true
   },
   {
     "id": "clipchamp",
@@ -782,6 +701,58 @@
           "teams-hierarki"
         ],
         "endret": "2026-10-07"
+      }
+    ]
+  },
+  {
+    "id": "loop",
+    "tittel": "Loop",
+    "beskrivelse": "Loop-komponenter og Loop-sider for samarbeid i sanntid",
+    "artikler": [
+      {
+        "id": "loop-eller-word",
+        "tittel": "Loop eller Word?",
+        "ingress": "Loop er for det som lever. Word er for det som er ferdig.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "loop",
+        "tags": [
+          "loop",
+          "word",
+          "samarbeid",
+          "dokumenter",
+          "data"
+        ],
+        "steg": [
+          {
+            "tittel": "Word-fila som arbeidsverktøy",
+            "innhold": "En Word-fil i SharePoint er bedre enn et Word-vedlegg som sirkulerer på e-post. Men det er fremdeles en fil – statisk, uten metadata og dårlig som levende referanse, selv om Copilot kan lese innholdet.\n\nSpørsmålet er ikke «Word eller ikke Word». Spørsmålet er: **Trenger dette å være et dokument, eller er det arbeidsinnhold som lever og endres?**"
+          },
+          {
+            "tittel": "Bruk Loop til levende innhold",
+            "innhold": "**Loop** er riktig valg når:\n\n◦ Flere skal skrive og redigere samtidig\n◦ Innholdet oppdateres løpende (møtenotater, statusoppdateringer, prosjektbeskrivelser)\n◦ Du vil at innholdet skal vises på tvers av Teams-chat, kanaler og møter\n◦ Du ikke trenger spesifikk formatering eller sideoppsett\n\nLoop-sider er versjonerte og kan vises som levende komponenter i Teams-meldinger. Ingen åpner et vedlegg."
+          },
+          {
+            "tittel": "Bruk Word til ferdige, formelle dokumenter",
+            "innhold": "**Word** er riktig valg når:\n\n◦ Dokumentet er ferdig og skal arkiveres eller sendes ut\n◦ Det er en formell rapport, kontrakt, saksframlegg eller offisiell tekst\n◦ Spesifikt sideoppsett, topp- eller bunntekst eller signaturfelt er nødvendig\n◦ Noen skal skrive under på det\n\nEksempler: Årsrapport, stillingsbeskrivelse, anskaffelsesdokumenter, brev til innbyggere."
+          },
+          {
+            "tittel": "Slik lager du en Loop-side i Teams",
+            "innhold": "Åpne **Loop** fra venstremenyen i Teams. Klikk **Ny side**. Gi siden et navn og begynn å skrive.\n\nDu kan dele siden med kolleger, legge den til som fane i en Teams-kanal, eller sende den som en levende komponent i en Teams-melding. Mottakerne kan redigere den direkte i chatten uten å åpne en separat app."
+          },
+          {
+            "tittel": "Loop-komponenter i Teams-chat og kanaler",
+            "innhold": "I stedet for et vedlegg, sett inn en **Loop-komponent** direkte i en Teams-melding. Klikk **+** eller Loop-ikonet i meldingsfeltet og velg komponenttype (tabell, liste, sjekkliste, avstemning).\n\nAlle i samtalen ser og redigerer innholdet rett i meldingen. Ingen trenger å åpne noe."
+          },
+          {
+            "tittel": "Praktiske eksempler",
+            "innhold": "**Bruk Loop-side til**\n\n◦ Saksliste og referat for møte\n◦ Prosjektbeskrivelse alle bidrar til\n\n**Bruk Loop-komponent til**\n\n◦ Ukesstatus som deles med teamet\n◦ Idéinnsamling i møte\n\n**Bruk Word til**\n\n◦ Årsrapport til styret\n◦ Kontrakt med ekstern leverandør\n◦ Veiledning som skal trykkes\n\n**Bruk SharePoint-side til**\n\n◦ Rutine i prosessbiblioteket"
+          }
+        ],
+        "relaterte": [
+          "teams-moter",
+          "sharepoint-prosessdokumentasjon-visio"
+        ],
+        "endret": "2026-06-05"
       }
     ]
   },
@@ -1320,8 +1291,7 @@
         "oppdatert": "Oppdatert: 03.06.26",
         "relaterte": [
           "teams-hierarki",
-          "fra-filserver-til-sharepoint",
-          "onedrive-vs-sharepoint"
+          "fra-filserver-til-sharepoint"
         ],
         "endret": "2026-06-05"
       },
