@@ -31,9 +31,10 @@ describe('Markdown', () => {
     const { container } = renderMarkdown('Mobilen<sup>*</sup> opp.\n\n<sup>*</sup>Eller PC')
     const [text, note] = container.querySelectorAll('p')
     expect(text.querySelector('sup')?.textContent).toBe('*')
-    expect(text.className).not.toContain('italic')
+    expect(text.className).toContain('text-sm')
     expect(note.querySelector('sup')?.textContent).toBe('*')
-    expect(note.className).toContain('italic')
+    expect(note.className).toContain('text-xs')
+    expect(note.textContent).toBe('*Eller PC')
   })
 
   it('renders an unordered list', () => {

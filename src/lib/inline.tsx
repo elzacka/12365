@@ -31,7 +31,12 @@ export function parseInline(text: string): ReactNode[] {
         </strong>
       )
     } else if (m.startsWith('<sup>')) {
-      nodes.push(<sup key={`sup-${key++}`}>{m.slice(5, -6)}</sup>)
+      // Stjernen står allerede høyt i fonten; vanlig hevet skrift løfter den over linjen
+      nodes.push(
+        <sup key={`sup-${key++}`} className="-top-[0.05em] ml-[0.05em] text-[1em] text-brand-400">
+          {m.slice(5, -6)}
+        </sup>
+      )
     } else if (m.startsWith('*')) {
       nodes.push(
         <em key={`e-${key++}`} className="italic">

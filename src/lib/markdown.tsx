@@ -55,12 +55,24 @@ function renderBlock(block: string, idx: number): ReactNode {
     )
   }
 
-  // Fotnote: samme stil som kildelinjen i «Alt i E5»
-  const footnote = first.startsWith('<sup>')
+  const footnote = first.match(/^(<sup>[^<\n]+<\/sup>)\s*(.*)$/)
+  if (footnote && lines.length === 1) {
+    const [, marker, text] = footnote
+    return (
+      <p
+        key={`fn-${idx}`}
+        className="relative flex gap-[0.15em] mt-6 pt-3 text-xs text-slate-500 leading-relaxed before:absolute before:top-0 before:left-0 before:w-10 before:border-t before:border-slate-300"
+      >
+        <span className="shrink-0">{parseInline(marker)}</span>
+        <span>{parseInline(text)}</span>
+      </p>
+    )
+  }
+
   return (
     <p
       key={`p-${idx}`}
-      className={footnote ? 'text-[10px] italic text-slate-500 my-3' : 'text-sm text-slate-700 leading-relaxed my-3'}
+      className="text-sm text-slate-700 leading-relaxed my-3"
     >
       {lines.map((line, i) => (
         <span key={`p-${idx}-l-${i}`}>
