@@ -10,6 +10,7 @@ Oppdatert: 15.10.26
 
 - Appens filer (HTML, JavaScript, CSS, ikoner og innhold): Lagres lokalt via en Service Worker, slik at appen fungerer offline. Sendes aldri videre.
 - Passordfrasen for skjult innhold (localStorage): Bare hvis du velger å huske den.
+- Et flagg når du lukker installasjonsbanneret (localStorage): Banneret vises da ikke igjen.
 - Et midlertidig flagg når appen oppdaterer seg (sessionStorage): Nettleseren sletter det når du lukker appen.
 
 Ingenting av dette kan identifisere deg, og alt ligger bare på enheten din.
