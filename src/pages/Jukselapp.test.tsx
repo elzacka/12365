@@ -15,6 +15,7 @@ vi.mock('../data/loader', () => ({ fetchJukselapp: () => loaded }))
 
 beforeAll(() => {
   window.scrollTo = () => {}
+  Element.prototype.scrollIntoView = () => {}
   window.matchMedia ??= ((query: string) => ({
     matches: false, media: query, onchange: null,
     addEventListener: () => {}, removeEventListener: () => {},
@@ -32,24 +33,26 @@ async function renderPage() {
 // Visible text is the number only; " treff" is for screen readers.
 const count = () => document.querySelector('[aria-live="polite"]')?.textContent
 
-function clickTag(title: string, tag: string) {
-  fireEvent.click(screen.getByRole('button', { name: new RegExp(title) }))
+const expand = (title: string) => fireEvent.click(screen.getByRole('button', { name: new RegExp(title) }))
+const clickTag = (tag: string) =>
   fireEvent.click(screen.getByRole('button', { name: new RegExp(`(merket|filter) ${tag}$`) }))
-}
 
 describe('Jukselapp', () => {
   it('shows no count unfiltered, then the entries with every selected tag', async () => {
     await renderPage()
     expect(count()).toBe('')
 
-    clickTag('Alfa', 'ki')
+    expand('Alfa')
+    clickTag('ki')
     expect(count()).toBe('2 treff')
 
-    clickTag('Alfa', 'metode')
+    // The entry stays open, so a second tag can be picked from it.
+    clickTag('metode')
     expect(count()).toBe('1 treff')
     expect(screen.queryByText('Beta')).toBeNull()
+    expect(screen.getByRole('button', { name: /Alfa/ })).toHaveAttribute('aria-expanded', 'true')
 
-    fireEvent.click(screen.getByRole('button', { name: 'Fjern filter ki' }))
+    fireEvent.click(screen.getAllByRole('button', { name: 'Fjern filter ki' })[0])
     expect(count()).toBe('2 treff')
   })
 

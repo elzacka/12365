@@ -151,11 +151,12 @@ export function Jukselapp() {
     setExpandedId(prev => (prev === id ? null : id))
   }, [])
 
-  const handleTagClick = useCallback((tag: string) => {
+  // The clicked entry has the tag, so it stays in the filtered list: keep it
+  // open and in view so more tags can be picked from it.
+  const handleTagClick = useCallback((id: string, tag: string) => {
     setActiveTags(prev => (prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]))
-    setExpandedId(null)
     requestAnimationFrame(() => {
-      window.scrollTo({ top: 0, behavior: 'instant' })
+      document.getElementById(`ord-${id}`)?.scrollIntoView({ block: 'nearest' })
     })
   }, [])
 
@@ -382,7 +383,7 @@ interface OppslagListProps {
   ord: Oppslag[]
   expandedId: string | null
   onExpand: (id: string) => void
-  onTagClick: (tag: string) => void
+  onTagClick: (id: string, tag: string) => void
   activeTags: string[]
 }
 
@@ -408,7 +409,7 @@ interface OppslagRowProps {
   ord: Oppslag
   isExpanded: boolean
   onExpand: (id: string) => void
-  onTagClick: (tag: string) => void
+  onTagClick: (id: string, tag: string) => void
   activeTags: string[]
   withBorder: boolean
 }
@@ -471,7 +472,7 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
                 return (
                   <button
                     key={tag}
-                    onClick={() => onTagClick(tag)}
+                    onClick={() => onTagClick(ord.id, tag)}
                     className={`inline-flex items-center gap-0.5 text-xs px-2 py-0.5 rounded-full transition-colors ${
                       isActive
                         ? 'bg-brand-500 text-white'
