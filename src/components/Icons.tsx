@@ -123,17 +123,18 @@ export function ExternalLinkIcon({ size = 12, className }: IconProps) {
   )
 }
 
-// Strekmann med glorie i stil med The Saint, løper mot venstre (tilbake)
+// Strekmann med glorie i stil med The Saint, løper mot venstre (tilbake).
+// Strek 1,8 ved 22 px gir samme linje som strek 2 ved 20 px på de andre header-ikonene.
 export function RunBackIcon({ size = 24, className }: IconProps) {
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
-      <ellipse cx="8.9" cy="3.4" rx="2.04" ry="0.85" transform="rotate(8 8.9 3.4)" />
-      <ellipse cx="8.7" cy="7.3" rx="1.4" ry="2" transform="rotate(-22 8.7 7.3)" />
-      <path d="M9.7 9.2l2.9 6" />
-      <path d="M10.4 10.7l-2.8 1.8l-1.4 -2.4" />
-      <path d="M10.6 11l3.2 .4l1.2 2.6" />
-      <path d="M12.6 15.2l-3.8 1l.6 4.4h-1.6" />
-      <path d="M12.6 15.2l1.4 4.3l3.8 -2.2" />
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <ellipse cx="8.8" cy="2.15" rx="2.9" ry="1.2" transform="rotate(6 8.8 2.15)" />
+      <ellipse cx="8.4" cy="7.2" rx="1.4" ry="1.8" transform="rotate(-22 8.4 7.2)" />
+      <path d="M9.5 9l3.2 6.6" />
+      <path d="M10.2 10.6l-3 2l-1.6 -2.6" />
+      <path d="M10.5 10.9l3.5 .5l1.3 2.8" />
+      <path d="M12.7 15.6l-4.2 1.1l.6 4.8h-1.7" />
+      <path d="M12.7 15.6l1.5 4.7l4.2 -2.4" />
     </svg>
   )
 }
