@@ -2,10 +2,11 @@ import { useEffect, useState, use, type ReactNode, Fragment } from 'react'
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
-import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, SpyIcon, HeartShareIcon, ZoomInIcon } from '../components/Icons'
+import { ChevronRightIcon, ExternalLinkIcon, SpyIcon, HeartShareIcon, ZoomInIcon } from '../components/Icons'
 import { UntestedWarning } from '../components/UntestedWarning'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
+import { useSwipe } from '../hooks/useSwipe'
 import type { ArticleImage } from '../types'
 
 function escapeRegex(str: string): string {
@@ -215,20 +216,13 @@ export function ArticlePage() {
     return () => document.removeEventListener('click', handler, { capture: true })
   }, [highlightActive])
 
-  const goPrevious = () => {
-    setActiveStep(s => Math.max(0, s - 1))
-    scrollToTop()
-  }
-
-  const goNext = () => {
-    setActiveStep(s => Math.min(totalSteps - 1, s + 1))
-    scrollToTop()
-  }
-
   const goToStep = (idx: number) => {
+    if (idx < 0 || idx >= totalSteps) return
     setActiveStep(idx)
     scrollToTop()
   }
+
+  const swipe = useSwipe(() => goToStep(activeStep + 1), () => goToStep(activeStep - 1))
 
   if (!article || !category || article.skjult) {
     // Shared links outlive a move to another category.
@@ -249,7 +243,7 @@ export function ArticlePage() {
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
-      <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
+      <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full" {...swipe}>
         {/* Title and lede shown only on the first step – gives more room to the
             steps later in the read. The step card below takes over as the main
             visual element. */}
@@ -282,7 +276,12 @@ export function ArticlePage() {
         )}
 
         {/* Step overview (chips) */}
-        <nav aria-label="Steg-oversikt" className="flex gap-2 py-4 overflow-x-auto hide-scrollbar">
+        {/* The chip row scrolls sideways, so it must not change step. */}
+        <nav
+          aria-label="Steg-oversikt"
+          className="flex gap-2 py-4 overflow-x-auto hide-scrollbar"
+          onTouchStart={e => e.stopPropagation()}
+        >
           {article.steg.map((_, idx) => (
             <button
               key={idx}
@@ -347,46 +346,16 @@ export function ArticlePage() {
           </div>
         </div>
 
-        {/* Navigation buttons */}
-        <div className="flex items-center gap-3">
-          <button
-            onClick={goPrevious}
-            disabled={isFirstStep}
-            className={`flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
-              isFirstStep
-                ? 'text-slate-300 bg-white border border-slate-100 cursor-not-allowed'
-                : 'text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 hover:border-slate-300 shadow-sm'
-            }`}
-            aria-label="Forrige steg"
-          >
-            <ChevronLeftIcon size={18} />
-            Forrige
-          </button>
-
-          <div className="flex-1 text-center">
-            <span className="text-xs text-slate-500">
-              {activeStep + 1} / {totalSteps}
-            </span>
-          </div>
-
-          {isLastStep ? (
+        {isLastStep && (
+          <div className="flex justify-end">
             <Link
               to="/gjor-sann"
               className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-green-600 text-white hover:bg-green-700 shadow-sm transition-colors"
             >
               Ferdig
             </Link>
-          ) : (
-            <button
-              onClick={goNext}
-              className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-brand-700 text-white hover:bg-brand-800 shadow-sm transition-colors"
-              aria-label="Neste steg"
-            >
-              Neste
-              <ChevronRightIcon size={18} />
-            </button>
-          )}
-        </div>
+          </div>
+        )}
 
         {/* Related articles (shown on the last step) */}
         {isLastStep && article.relaterte && article.relaterte.length > 0 && (
