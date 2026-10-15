@@ -1,4 +1,4 @@
-export type AppsView = 'kort' | 'oversikt'
+export type AppsView = 'oversikt' | 'sammenligne'
 
 interface ViewToggleProps {
   value: AppsView
@@ -6,8 +6,8 @@ interface ViewToggleProps {
 }
 
 const OPTIONS: { value: AppsView; label: string }[] = [
-  { value: 'kort', label: 'Oversikt' },
-  { value: 'oversikt', label: 'Sammenligne' },
+  { value: 'oversikt', label: 'Oversikt' },
+  { value: 'sammenligne', label: 'Sammenligne' },
 ]
 
 export function ViewToggle({ value, onChange }: ViewToggleProps) {

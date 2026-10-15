@@ -2,16 +2,16 @@ import { useState, use } from 'react'
 import { fetchCards } from '../data/loader'
 import { useMergedCards } from '../auth/merge'
 import { FlipCard } from '../components/FlipCard'
-import { CheatSheet } from '../components/CheatSheet'
+import { Sammenligne } from '../components/Sammenligne'
 import { ComparisonDrawer } from '../components/ComparisonDrawer'
 import { ViewToggle, type AppsView } from '../components/ViewToggle'
 
 const MAX_COMPARE = 3
 
-export function AboutApps() {
+export function Appene() {
   const publicCards = use(fetchCards())
   const allCards = useMergedCards(publicCards)
-  const [view, setView] = useState<AppsView>('kort')
+  const [view, setView] = useState<AppsView>('oversikt')
   const [selected, setSelected] = useState<string[]>([])
 
   const toggleCompare = (navn: string) => {
@@ -34,13 +34,13 @@ export function AboutApps() {
           <ViewToggle value={view} onChange={setView} />
         </div>
 
-        {view === 'oversikt' && (
+        {view === 'sammenligne' && (
           <p className="text-[10px] text-slate-500 text-center mb-4">
             Trykk + for å sammenligne eller ↔ for å gå til en relatert app
           </p>
         )}
 
-        {view === 'kort' && (
+        {view === 'oversikt' && (
           <>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {allCards.map(card => (
@@ -54,8 +54,8 @@ export function AboutApps() {
           </>
         )}
 
-        {view === 'oversikt' && (
-          <CheatSheet
+        {view === 'sammenligne' && (
+          <Sammenligne
             cards={allCards}
             selected={selected}
             onToggleCompare={toggleCompare}
@@ -64,7 +64,7 @@ export function AboutApps() {
         )}
       </main>
 
-      {view === 'oversikt' && (
+      {view === 'sammenligne' && (
         <ComparisonDrawer
           selected={selected}
           cards={allCards}

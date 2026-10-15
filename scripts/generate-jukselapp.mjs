@@ -1,4 +1,4 @@
-// Parses dev_only/oppslagsverk.md (| Ord | Forklaring | Tags |) into oppslagsverk.json.
+// Parses dev_only/jukselapp.md (| Ord | Forklaring | Tags |) into jukselapp.json.
 // "AGI (kunstig generell intelligens)" becomes tittel = full form, undertittel = acronym,
 // so the alphabetical list is sorted by plain Norwegian.
 
@@ -7,8 +7,8 @@ import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const SOURCE = resolve(ROOT, 'dev_only/oppslagsverk.md')
-const TARGET = resolve(ROOT, 'public/content/oppslagsverk.json')
+const SOURCE = resolve(ROOT, 'dev_only/jukselapp.md')
+const TARGET = resolve(ROOT, 'public/content/jukselapp.json')
 
 // Tags that should be unified before write. Keeps search and grouping
 // consistent across rows where the editor used either form.
@@ -115,7 +115,7 @@ function parseTable(md) {
 function main() {
   // The source is gitignored and absent on CI: keep the committed JSON as is.
   if (!existsSync(SOURCE)) {
-    console.log(`oppslagsverk.md ikke funnet – beholder eksisterende oppslagsverk.json`)
+    console.log(`jukselapp.md ikke funnet – beholder eksisterende jukselapp.json`)
     return
   }
   const md = readFileSync(SOURCE, 'utf-8')
@@ -177,22 +177,22 @@ function main() {
   }
 
   if (errors.length) {
-    console.error('Feil i oppslagsverk.md:')
+    console.error('Feil i jukselapp.md:')
     for (const e of errors) console.error('  -', e)
     process.exit(1)
   }
 
   if (unknownTags.size > 0) {
     console.warn(
-      `oppslagsverk.md: ukjente tags brukt: ${[...unknownTags].join(', ')} ` +
-      `(legg dem til i KNOWN_TAGS i generate-oppslagsverk.mjs hvis bevisst).`,
+      `jukselapp.md: ukjente tags brukt: ${[...unknownTags].join(', ')} ` +
+      `(legg dem til i KNOWN_TAGS i generate-jukselapp.mjs hvis bevisst).`,
     )
   }
 
   ord.sort((a, b) => a.tittel.localeCompare(b.tittel, 'nb', { sensitivity: 'base' }))
 
   writeFileSync(TARGET, JSON.stringify(ord, null, 2) + '\n')
-  console.log(`oppslagsverk.json: ${ord.length} oppslag`)
+  console.log(`jukselapp.json: ${ord.length} oppslag`)
 }
 
 main()

@@ -3,7 +3,7 @@ import { iconSrc } from '../data/icons'
 import { slugify } from '../data/slug'
 import { CheckIcon, PlusIcon } from './Icons'
 
-interface CheatSheetRowProps {
+interface SammenligneRowProps {
   card: FlipCard
   selected: boolean
   onToggleCompare: (navn: string) => void
@@ -11,20 +11,20 @@ interface CheatSheetRowProps {
   canSelectMore: boolean
 }
 
-export function CheatSheetRow({
+export function SammenligneRow({
   card,
   selected,
   onToggleCompare,
   onJumpTo,
   canSelectMore,
-}: CheatSheetRowProps) {
+}: SammenligneRowProps) {
   const overlapper = card.overlapper ?? []
   const oppsummering = card.oppsummering !== undefined ? card.oppsummering : card.tagline
 
   return (
     <li
       id={`app-${slugify(card.navn)}`}
-      data-cheat-row={card.navn}
+      data-sammenligne-row={card.navn}
       className="group relative flex items-start gap-3 p-3 rounded-xl bg-white/70 hover:bg-white transition-colors"
     >
       <div className="w-12 h-12 flex-shrink-0 flex items-center justify-center transition-transform group-hover:-translate-y-0.5">

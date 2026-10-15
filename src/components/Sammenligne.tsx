@@ -1,10 +1,10 @@
 import { useCallback } from 'react'
 import type { FlipCard } from '../types'
-import { CHEAT_SHEET_CATEGORIES, CATEGORY_BY_ID } from '../data/cheatSheetCategories'
+import { APP_CATEGORIES, CATEGORY_BY_ID } from '../data/appCategories'
 import { slugify } from '../data/slug'
-import { CheatSheetRow } from './CheatSheetRow'
+import { SammenligneRow } from './SammenligneRow'
 
-interface CheatSheetProps {
+interface SammenligneProps {
   cards: FlipCard[]
   selected: string[]
   onToggleCompare: (navn: string) => void
@@ -13,12 +13,12 @@ interface CheatSheetProps {
 
 const UNCATEGORIZED_ID = '__annet__'
 
-export function CheatSheet({
+export function Sammenligne({
   cards,
   selected,
   onToggleCompare,
   maxSelected,
-}: CheatSheetProps) {
+}: SammenligneProps) {
   // Group cards by kategori, preserving the editorial order of categories.
   // Cards without a kategori fall into a synthetic "Annet" bucket at the end —
   // visible during the migration window while content is being filled in.
@@ -38,12 +38,12 @@ export function CheatSheet({
     const el = document.getElementById(`app-${slugify(navn)}`)
     if (!el) return
     el.scrollIntoView({ behavior: 'smooth', block: 'center' })
-    el.classList.add('cheatsheet-pulse')
-    window.setTimeout(() => el.classList.remove('cheatsheet-pulse'), 1200)
+    el.classList.add('sammenligne-pulse')
+    window.setTimeout(() => el.classList.remove('sammenligne-pulse'), 1200)
   }, [])
 
   const sections = [
-    ...CHEAT_SHEET_CATEGORIES.map(c => ({
+    ...APP_CATEGORIES.map(c => ({
       kategori: c,
       cards: grouped.get(c.id) ?? [],
     })),
@@ -90,7 +90,7 @@ export function CheatSheet({
           </header>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {sectionCards.map(card => (
-              <CheatSheetRow
+              <SammenligneRow
                 key={card.navn}
                 card={card}
                 selected={selected.includes(card.navn)}

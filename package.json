@@ -13,9 +13,9 @@
     "icons:build": "node scripts/build-icons.mjs",
     "icons:fetch": "node scripts/fetch-icons.mjs",
     "lock": "node scripts/lock-content.mjs",
-    "oppslagsverk:gen": "node scripts/generate-oppslagsverk.mjs",
-    "predev": "node scripts/generate-oppslagsverk.mjs",
-    "prebuild": "node scripts/generate-oppslagsverk.mjs"
+    "jukselapp:gen": "node scripts/generate-jukselapp.mjs",
+    "predev": "node scripts/generate-jukselapp.mjs",
+    "prebuild": "node scripts/generate-jukselapp.mjs"
   },
   "dependencies": {
     "media-chrome": "^4.19.2",

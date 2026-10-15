@@ -9,7 +9,7 @@ function Crumbs({ category }: { category?: string }) {
     <nav aria-label="Brødsmulesti" className="min-w-0">
       <ol className="flex items-center gap-x-1.5 text-base font-semibold text-slate-800 whitespace-nowrap">
         <li className="shrink-0">
-          <Link to="/slik-gjor-du" className="text-slate-500 hover:text-brand-700 transition-colors">
+          <Link to="/gjor-sann" className="text-slate-500 hover:text-brand-700 transition-colors">
             Gjør sånn
           </Link>
         </li>

@@ -22,7 +22,7 @@ export function VideoPage() {
   const video = videos.find(v => v.id === videoId)
 
   if (!video) {
-    return <Navigate to="/opplaering" replace />
+    return <Navigate to="/se-og-hor" replace />
   }
 
   const source = parseVideoSource(video.fil, base)

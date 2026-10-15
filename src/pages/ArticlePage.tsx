@@ -231,7 +231,7 @@ export function ArticlePage() {
   }
 
   if (!article || !category || article.skjult) {
-    return <Navigate to="/slik-gjor-du" replace />
+    return <Navigate to="/gjor-sann" replace />
   }
 
   const isFirstStep = activeStep === 0
@@ -241,7 +241,7 @@ export function ArticlePage() {
 
   const canShare = typeof navigator !== 'undefined' && 'share' in navigator
   const handleShare = () => {
-    const url = `${window.location.origin}${import.meta.env.BASE_URL}slik-gjor-du/${category.id}/${article.id}`
+    const url = `${window.location.origin}${import.meta.env.BASE_URL}gjor-sann/${category.id}/${article.id}`
     navigator.share({ title: article.tittel, text: article.ingress, url }).catch(() => {})
   }
 
@@ -369,7 +369,7 @@ export function ArticlePage() {
 
           {isLastStep ? (
             <Link
-              to="/slik-gjor-du"
+              to="/gjor-sann"
               className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-green-600 text-white hover:bg-green-700 shadow-sm transition-colors"
             >
               Ferdig
@@ -402,7 +402,7 @@ export function ArticlePage() {
                 return (
                   <Link
                     key={relId}
-                    to={`/slik-gjor-du/${relCategory.id}/${relId}`}
+                    to={`/gjor-sann/${relCategory.id}/${relId}`}
                     onClick={() => setActiveStep(0)}
                     className={`flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition-colors ${
                       idx < arr.length - 1 ? 'border-b border-slate-100' : ''

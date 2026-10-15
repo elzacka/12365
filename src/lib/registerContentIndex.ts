@@ -47,7 +47,7 @@ export async function registerContentIndex() {
         description: a.ingress,
         category: 'article',
         icons: [{ src: `${base}icons/icon-192.png`, sizes: '192x192', type: 'image/png' }],
-        url: `${base}slik-gjor-du/${cat.id}/${a.id}`,
+        url: `${base}gjor-sann/${cat.id}/${a.id}`,
       })),
   )
 

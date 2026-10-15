@@ -1,9 +1,9 @@
-import type { CheatSheetCategory } from '../types'
+import type { AppCategory } from '../types'
 
 // Order is editorial: most-used groups first, niche tools last.
 // fargeBakgrunn / fargeAksent are static class strings so Tailwind's JIT
 // keeps them in the generated CSS.
-export const CHEAT_SHEET_CATEGORIES: CheatSheetCategory[] = [
+export const APP_CATEGORIES: AppCategory[] = [
   {
     id: 'snakk-og-mot',
     navn: 'Snakke sammen, møtes',
@@ -76,4 +76,4 @@ export const CHEAT_SHEET_CATEGORIES: CheatSheetCategory[] = [
   },
 ]
 
-export const CATEGORY_BY_ID = new Map(CHEAT_SHEET_CATEGORIES.map(c => [c.id, c]))
+export const CATEGORY_BY_ID = new Map(APP_CATEGORIES.map(c => [c.id, c]))

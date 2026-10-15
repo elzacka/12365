@@ -28,12 +28,12 @@ export function Home() {
       <h1 className="sr-only">1-2-365</h1>
       <InstallLine />
       <div className="max-w-md mx-auto grid grid-cols-2 gap-3 px-4 pt-10">
-        <NavCard to="/om-appene" icon={<AppsIcon size={40} />} title="Appene" />
-        <NavCard to="/opplaering" icon={<SchoolIcon size={40} />} title="Se og hør" />
-        <NavCard to="/slik-gjor-du" icon={<BookIcon size={40} />} title="Gjør sånn" />
-        <NavCard to="/oppslagsverk" icon={<JukselappIcon size={40} />} title="Jukselapp" />
-        <NavCard to="/lisenser" icon={<Stack2Icon size={40} />} title="Alt i E5" />
-        <NavCard to="/om-appen" icon={<InfoSquareIcon size={40} />} title="Om" />
+        <NavCard to="/appene" icon={<AppsIcon size={40} />} title="Appene" />
+        <NavCard to="/se-og-hor" icon={<SchoolIcon size={40} />} title="Se og hør" />
+        <NavCard to="/gjor-sann" icon={<BookIcon size={40} />} title="Gjør sånn" />
+        <NavCard to="/jukselapp" icon={<JukselappIcon size={40} />} title="Jukselapp" />
+        <NavCard to="/alt-i-e5" icon={<Stack2Icon size={40} />} title="Alt i E5" />
+        <NavCard to="/om" icon={<InfoSquareIcon size={40} />} title="Om" />
       </div>
     </main>
   )

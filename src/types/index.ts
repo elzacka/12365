@@ -7,10 +7,10 @@ export interface FlipCard {
   alene?: string
   sammen?: string
   fotnote?: string
-  // Cheat-sheet metadata. Optional so locked content from older payloads
+  // Sammenligne metadata. Optional so locked content from older payloads
   // remains assignable; cards without kategori land in an "Annet" group.
-  kategori?: string         // id matching a CheatSheetCategory
-  oppsummering?: string     // short one-line use case for the cheat sheet
+  kategori?: string         // id matching a AppCategory
+  oppsummering?: string     // short one-line use case in Sammenligne
   overlapper?: string[]     // navn of apps with notable functional overlap
   tags?: string[]           // search-only keywords, never displayed
   alias?: string[]          // search-only alternate/former names, never displayed
@@ -22,7 +22,7 @@ export interface FlipCard {
   endret?: string // ISO date YYYY-MM-DD, editorial record only
 }
 
-export interface CheatSheetCategory {
+export interface AppCategory {
   id: string
   navn: string
   beskrivelse?: string
@@ -71,14 +71,14 @@ export interface ArticleCategory {
 // Shared text body for video and course tiles. All four fields are required so
 // JSON files keep stable placeholders; the renderer hides each field when its
 // value is the empty string.
-export interface OpplaeringBody {
+export interface SeOgHorBody {
   tittel: string      // heading
   beskrivelse: string // one or two sentences under the heading
   kilde: string       // provider or origin, e.g. "Digital Norway"
   fotnote: string     // smaller italic note shown last
 }
 
-export interface Video extends OpplaeringBody {
+export interface Video extends SeOgHorBody {
   id: string          // unique kebab-case id, appears in the URL
   fil: string         // path relative to BASE_URL, e.g. "videos/min-video.mp4"
   thumbnail?: string  // optional thumbnail path, e.g. "videos/thumbnails/min-video.png"
@@ -86,7 +86,7 @@ export interface Video extends OpplaeringBody {
   endret?: string // ISO date YYYY-MM-DD, editorial record only
 }
 
-export interface Course extends OpplaeringBody {
+export interface Course extends SeOgHorBody {
   id: string          // unique kebab-case id
   lenke: string       // external URL the user is sent to on click
   thumbnail?: string  // optional thumbnail path under public/, e.g. "courses/thumbnails/datareisen.png"

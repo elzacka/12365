@@ -146,13 +146,13 @@
     display: none;
   }
 
-  /* Brukes når en cheat-sheet-rad blir hoppet til via ↔-chip. Ringer rad-en
+  /* Brukes når en Sammenligne-rad blir hoppet til via ↔-chip. Ringer rad-en
      med pastell-glød som fades ut, så brukeren ser hvor de landet. */
-  .cheatsheet-pulse {
-    animation: cheatsheet-pulse 1.1s ease-out 1;
+  .sammenligne-pulse {
+    animation: sammenligne-pulse 1.1s ease-out 1;
   }
 
-  @keyframes cheatsheet-pulse {
+  @keyframes sammenligne-pulse {
     0% {
       box-shadow: 0 0 0 0 rgba(0, 70, 106, 0.35);
     }

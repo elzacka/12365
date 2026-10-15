@@ -1,5 +1,5 @@
 // Resolves an M365 app's icon path from its Norwegian navn. Lives in /data so
-// both FlipCard and CheatSheetRow share the exact same mapping rules.
+// both FlipCard and SammenligneRow share the exact same mapping rules.
 
 const SVG_ICONS = new Set(['places'])
 

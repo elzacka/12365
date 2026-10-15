@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, use, useCallback, useRef } from 'react'
-import { fetchOppslagsverk } from '../data/loader'
+import { fetchJukselapp } from '../data/loader'
 import { buildIndex, searchOrd } from '../data/searchIndex'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
@@ -35,8 +35,8 @@ function visibleAliases(ord: Oppslag): string[] {
   return ord.alias.filter(a => normalizeForCompare(a) !== titNorm)
 }
 
-export function Oppslagsverk() {
-  const ord = use(fetchOppslagsverk())
+export function Jukselapp() {
+  const ord = use(fetchJukselapp())
   const [query, setQuery] = useState('')
   const [activeTags, setActiveTags] = useState<string[]>([])
   const [showHelp, setShowHelp] = useState(false)
@@ -48,7 +48,7 @@ export function Oppslagsverk() {
   const byId = useMemo(() => new Map(ord.map(o => [o.id, o])), [ord])
 
   // Read ?o=<id> once when first rendering with data. Validated against
-  // current oppslagsverk so a stale link doesn't expand a phantom row.
+  // current Jukselapp so a stale link doesn't expand a phantom row.
   const initialExpandedId = useMemo<string | null>(() => {
     if (typeof window === 'undefined') return null
     const o = new URLSearchParams(window.location.search).get('o')
@@ -215,7 +215,7 @@ export function Oppslagsverk() {
               type="button"
               onClick={() => setShowHelp(v => !v)}
               aria-expanded={showHelp}
-              aria-controls="oppslagsverk-tips"
+              aria-controls="jukselapp-tips"
               className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-700 transition-colors"
             >
               Veiledning
@@ -228,7 +228,7 @@ export function Oppslagsverk() {
 
           {showHelp && (
             <div
-              id="oppslagsverk-tips"
+              id="jukselapp-tips"
               className="mt-1 bg-white rounded-xl border border-slate-200 shadow-sm px-4 py-3"
             >
               <div className="space-y-3 text-xs">

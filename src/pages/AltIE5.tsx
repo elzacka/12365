@@ -76,7 +76,7 @@ function StatusBadge({ status }: { status: LicenseStatus }) {
   )
 }
 
-export function Licenses() {
+export function AltIE5() {
   const data = use(fetchE5LicenseOverview())
   const [activeFilter, setActiveFilter] = useState<FilterId>('alle')
   const [query, setQuery] = useState('')

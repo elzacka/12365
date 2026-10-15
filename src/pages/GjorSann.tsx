@@ -11,7 +11,7 @@ import { UntestedWarning } from '../components/UntestedWarning'
 
 const SEARCH_WORDS = ['tittel', 'innhold', 'emneknagg']
 
-export function HowTo() {
+export function GjorSann() {
   const publicCategories = use(fetchArticles())
   const rawCategories = useMergedArticles(publicCategories)
   const [query, setQuery] = useState('')
@@ -251,7 +251,7 @@ export function HowTo() {
                 {cat.artikler.map((article, idx) => (
                   <Link
                     key={article.id}
-                    to={`/slik-gjor-du/${cat.id}/${article.id}`}
+                    to={`/gjor-sann/${cat.id}/${article.id}`}
                     state={query.trim() ? { query: query.trim() } : undefined}
                     className={`relative flex items-center gap-3 px-4 py-4 hover:bg-slate-50 active:bg-slate-100 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500 ${
                       idx < cat.artikler.length - 1 ? 'border-b border-slate-100' : ''

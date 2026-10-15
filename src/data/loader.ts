@@ -15,7 +15,7 @@ let cardsPromise: Promise<FlipCard[]> | null = null
 let videosPromise: Promise<Video[]> | null = null
 let coursesPromise: Promise<Course[]> | null = null
 let e5OverviewPromise: Promise<E5LicenseOverview> | null = null
-let oppslagsverkPromise: Promise<Oppslag[]> | null = null
+let jukselappPromise: Promise<Oppslag[]> | null = null
 
 export function fetchArticles(): Promise<ArticleCategory[]> {
   articlesPromise ??= fetchJson<ArticleCategory[]>('articles.json')
@@ -42,7 +42,7 @@ export function fetchE5LicenseOverview(): Promise<E5LicenseOverview> {
   return e5OverviewPromise
 }
 
-export function fetchOppslagsverk(): Promise<Oppslag[]> {
-  oppslagsverkPromise ??= fetchJson<Oppslag[]>('oppslagsverk.json')
-  return oppslagsverkPromise
+export function fetchJukselapp(): Promise<Oppslag[]> {
+  jukselappPromise ??= fetchJson<Oppslag[]>('jukselapp.json')
+  return jukselappPromise
 }

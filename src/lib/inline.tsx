@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { ExternalLinkIcon } from '../components/Icons'
 
-// Inline-markdown for Markdown-sidene og forklaringene i Oppslagsverk. Egen fil fordi
+// Inline-markdown for Markdown-sidene og forklaringene i Jukselapp. Egen fil fordi
 // react-refresh krever at markdown.tsx bare eksporterer komponenter.
 
 const inlineRegex = /(\*\*[^*\n]+\*\*|<sup>[^<\n]+<\/sup>|\*[^*\n]+\*|\[[^\]]+\]\([^)\s]+(?:\s+"[^"]*")?\))/g

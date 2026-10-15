@@ -1,26 +1,38 @@
 import { lazy, Suspense, useLayoutEffect, useState, ViewTransition } from 'react'
-import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation, useParams } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
 import { ArticleBreadcrumb } from './components/ArticleBreadcrumb'
 import { LockModal } from './components/LockModal'
 import { Home } from './pages/Home'
-import { AboutApps } from './pages/AboutApps'
-import { AboutApp } from './pages/AboutApp'
-import { Privacy } from './pages/Privacy'
-import { HowTo } from './pages/HowTo'
+import { Appene } from './pages/Appene'
+import { Om } from './pages/Om'
+import { Personvern } from './pages/Personvern'
+import { GjorSann } from './pages/GjorSann'
 import { ArticlePage } from './pages/ArticlePage'
-import { Opplaering } from './pages/Opplaering'
-import { Licenses } from './pages/Licenses'
-import { Oppslagsverk } from './pages/Oppslagsverk'
+import { SeOgHor } from './pages/SeOgHor'
+import { AltIE5 } from './pages/AltIE5'
+import { Jukselapp } from './pages/Jukselapp'
 
 // Lazy-loaded: pulls in media-chrome, which shouldn't ship in the main bundle for routes that never play video.
 const VideoPage = lazy(() => import('./pages/VideoPage').then(m => ({ default: m.VideoPage })))
 
-// Keeps ?o=<id> so shared links to the old /ordbok path still open the entry.
-function RedirectKeepingSearch({ to }: { to: string }) {
+// Legacy paths of renamed views. The redirect keeps the rest of the path, ?o=<id>
+// and the hash, so shared links, bookmarks and the browser's offline index still open.
+const LEGACY_PATHS: [string, string][] = [
+  ['/om-appene', '/appene'],
+  ['/slik-gjor-du', '/gjor-sann'],
+  ['/opplaering', '/se-og-hor'],
+  ['/om-appen', '/om'],
+  ['/lisenser', '/alt-i-e5'],
+  ['/oppslagsverk', '/jukselapp'],
+  ['/ordbok', '/jukselapp'],
+]
+
+function RedirectKeepingRest({ to }: { to: string }) {
   const { search, hash } = useLocation()
-  return <Navigate to={{ pathname: to, search, hash }} replace />
+  const rest = useParams()['*']
+  return <Navigate to={{ pathname: rest ? `${to}/${rest}` : to, search, hash }} replace />
 }
 
 function Loading() {
@@ -35,15 +47,15 @@ function getHeaderProps(pathname: string) {
   // The back arrow is shown only when it points somewhere other than home –
   // otherwise it's redundant with the home button.
   if (pathname === '/') return { showHome: false, showBack: false, showLock: true }
-  if (pathname === '/om-appene') return { title: 'Appene', showHome: true, showBack: false }
-  if (pathname === '/slik-gjor-du') return { title: 'Gjør sånn', showHome: true, showBack: false }
-  if (pathname.startsWith('/slik-gjor-du/')) return { showHome: true, showBack: false, breadcrumb: <ArticleBreadcrumb kategoriId={pathname.split('/')[2]} /> }
-  if (pathname === '/opplaering') return { title: 'Se og hør', showHome: true, showBack: false }
-  if (pathname.startsWith('/opplaering/videoer/')) return { showHome: true, showBack: true, backTo: '/opplaering' }
-  if (pathname === '/om-appen') return { title: 'Om', showHome: true, showBack: false }
-  if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: true, backTo: '/om-appen' }
-  if (pathname === '/lisenser') return { title: 'Alt i E5', showHome: true, showBack: false }
-  if (pathname === '/oppslagsverk') return { title: 'Jukselapp', showHome: true, showBack: false }
+  if (pathname === '/appene') return { title: 'Appene', showHome: true, showBack: false }
+  if (pathname === '/gjor-sann') return { title: 'Gjør sånn', showHome: true, showBack: false }
+  if (pathname.startsWith('/gjor-sann/')) return { showHome: true, showBack: false, breadcrumb: <ArticleBreadcrumb kategoriId={pathname.split('/')[2]} /> }
+  if (pathname === '/se-og-hor') return { title: 'Se og hør', showHome: true, showBack: false }
+  if (pathname.startsWith('/se-og-hor/videoer/')) return { showHome: true, showBack: true, backTo: '/se-og-hor' }
+  if (pathname === '/om') return { title: 'Om', showHome: true, showBack: false }
+  if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: true, backTo: '/om' }
+  if (pathname === '/alt-i-e5') return { title: 'Alt i E5', showHome: true, showBack: false }
+  if (pathname === '/jukselapp') return { title: 'Jukselapp', showHome: true, showBack: false }
   return { showHome: true, showBack: false }
 }
 
@@ -70,16 +82,18 @@ function AppRoutes() {
         <Suspense fallback={<Loading />}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/om-appene" element={<AboutApps />} />
-            <Route path="/slik-gjor-du" element={<HowTo />} />
-            <Route path="/slik-gjor-du/:kategoriId/:artikkelId" element={<ArticlePage />} />
-            <Route path="/opplaering" element={<Opplaering />} />
-            <Route path="/opplaering/videoer/:videoId" element={<VideoPage />} />
-            <Route path="/om-appen" element={<AboutApp />} />
-            <Route path="/personvern" element={<Privacy />} />
-            <Route path="/lisenser" element={<Licenses />} />
-            <Route path="/oppslagsverk" element={<Oppslagsverk />} />
-            <Route path="/ordbok" element={<RedirectKeepingSearch to="/oppslagsverk" />} />
+            <Route path="/appene" element={<Appene />} />
+            <Route path="/gjor-sann" element={<GjorSann />} />
+            <Route path="/gjor-sann/:kategoriId/:artikkelId" element={<ArticlePage />} />
+            <Route path="/se-og-hor" element={<SeOgHor />} />
+            <Route path="/se-og-hor/videoer/:videoId" element={<VideoPage />} />
+            <Route path="/om" element={<Om />} />
+            <Route path="/personvern" element={<Personvern />} />
+            <Route path="/alt-i-e5" element={<AltIE5 />} />
+            <Route path="/jukselapp" element={<Jukselapp />} />
+            {LEGACY_PATHS.map(([from, to]) => (
+              <Route key={from} path={`${from}/*`} element={<RedirectKeepingRest to={to} />} />
+            ))}
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>

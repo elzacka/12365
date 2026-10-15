@@ -11,7 +11,7 @@ const ORD: Oppslag[] = [
 
 // One stable promise: `use()` suspends again on every new one.
 const loaded = Promise.resolve(ORD)
-vi.mock('../data/loader', () => ({ fetchOppslagsverk: () => loaded }))
+vi.mock('../data/loader', () => ({ fetchJukselapp: () => loaded }))
 
 beforeAll(() => {
   window.scrollTo = () => {}
@@ -23,9 +23,9 @@ beforeAll(() => {
 })
 
 async function renderPage() {
-  const { Oppslagsverk } = await import('./Oppslagsverk')
+  const { Jukselapp } = await import('./Jukselapp')
   await act(async () => {
-    render(<Suspense fallback={null}><Oppslagsverk /></Suspense>)
+    render(<Suspense fallback={null}><Jukselapp /></Suspense>)
   })
 }
 
@@ -37,7 +37,7 @@ function clickTag(title: string, tag: string) {
   fireEvent.click(screen.getByRole('button', { name: new RegExp(`(merket|filter) ${tag}$`) }))
 }
 
-describe('Oppslagsverk', () => {
+describe('Jukselapp', () => {
   it('shows no count unfiltered, then the entries with every selected tag', async () => {
     await renderPage()
     expect(count()).toBe('')

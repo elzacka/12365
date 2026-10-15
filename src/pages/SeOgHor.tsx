@@ -4,9 +4,9 @@ import { fetchCourses, fetchVideos } from '../data/loader'
 import { useMergedCourses, useMergedVideos } from '../auth/merge'
 import { ExternalLinkIcon, GraduationCapIcon, VideoIcon } from '../components/Icons'
 import { parseVideoSource } from '../data/video-source'
-import type { OpplaeringBody } from '../types'
+import type { SeOgHorBody } from '../types'
 
-interface TileBodyProps extends OpplaeringBody {
+interface TileBodyProps extends SeOgHorBody {
   trailingIcon?: ReactNode
 }
 
@@ -35,7 +35,7 @@ function TileBody({ tittel, beskrivelse, kilde, fotnote, trailingIcon }: TileBod
   )
 }
 
-export function Opplaering() {
+export function SeOgHor() {
   const publicVideos = use(fetchVideos())
   const publicCourses = use(fetchCourses())
   const videos = useMergedVideos(publicVideos)
@@ -45,8 +45,8 @@ export function Opplaering() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-8 max-w-2xl mx-auto w-full">
-        <section aria-labelledby="opplaering-videoer" className="mb-8">
-          <h2 id="opplaering-videoer" className="text-base font-semibold text-slate-800 mb-3">Videoer</h2>
+        <section aria-labelledby="se-og-hor-videoer" className="mb-8">
+          <h2 id="se-og-hor-videoer" className="text-base font-semibold text-slate-800 mb-3">Videoer</h2>
           {videos.length === 0 ? (
             <p className="text-sm text-slate-500">Ingen videoer ennå.</p>
           ) : (
@@ -58,7 +58,7 @@ export function Opplaering() {
                 return (
                   <Link
                     key={v.id}
-                    to={`/opplaering/videoer/${v.id}`}
+                    to={`/se-og-hor/videoer/${v.id}`}
                     className="group flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                     aria-label={v.tittel ? `Spill av ${v.tittel}` : 'Spill av video'}
                   >
@@ -99,8 +99,8 @@ export function Opplaering() {
           )}
         </section>
 
-        <section aria-labelledby="opplaering-kurs">
-          <h2 id="opplaering-kurs" className="text-base font-semibold text-slate-800 mb-3">Kursinnhold</h2>
+        <section aria-labelledby="se-og-hor-kurs">
+          <h2 id="se-og-hor-kurs" className="text-base font-semibold text-slate-800 mb-3">Kursinnhold</h2>
           {courses.length === 0 ? (
             <p className="text-sm text-slate-500">Ingen kurs ennå.</p>
           ) : (
