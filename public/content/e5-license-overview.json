@@ -1,7 +1,7 @@
 {
-  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (1/9-26)",
+  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (1/10-26)",
   "kildeUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-Enterprise.pdf",
-  "endret": "2026-09-22",
+  "endret": "2026-10-15",
   "tema": [
     {
       "id": "ki",
@@ -188,18 +188,18 @@
         },
         {
           "navn": "Configure policies to contain managed local agents",
-          "status": "tillegg",
-          "beskrivelse": "Policyer som begrenser hva styrte lokale agenter får gjøre på enheten. Eget tillegg for E5 via Agent 365-lisens."
+          "status": "inkludert",
+          "beskrivelse": "Policyer som begrenser hva styrte lokale agenter får gjøre på enheten."
         },
         {
           "navn": "Blokker usanksjonerte lokale endepunkt-agenter",
           "status": "inkludert",
-          "beskrivelse": "Hindrer at uautoriserte agenter installeres eller kjører på enheter."
+          "beskrivelse": "Hindrer at uautoriserte agenter installeres eller kjører på enheter. Organisasjoner som bruker Defender for Endpoint og Intune, styrer dette i Microsoft 365-administrasjonssenteret (Agent 365) eller i Defender og Intune."
         },
         {
           "navn": "Oppdagelse av KI på endepunkter",
           "status": "inkludert",
-          "beskrivelse": "Defender oppdager når KI-tjenester brukes på endepunktene, også tjenester organisasjonen ikke har sanksjonert."
+          "beskrivelse": "Defender oppdager når KI-tjenester brukes på endepunktene, også tjenester organisasjonen ikke har godkjent. Organisasjoner som bruker Defender for Endpoint og Intune, styrer dette i Microsoft 365-administrasjonssenteret (Agent 365) eller i Defender og Intune."
         },
         {
           "navn": "Agent Security Posture Management",
@@ -224,9 +224,9 @@
       "tema": "apper",
       "funksjoner": [
         {
-          "navn": "Skrivebordsapper (Outlook, Word, Excel, PowerPoint, OneNote, Access (PC), Publisher (PC))",
+          "navn": "Skrivebordsapper (Outlook, Word, Excel, PowerPoint, OneNote, Access (PC))",
           "status": "inkludert",
-          "beskrivelse": "Fullversjonene av Outlook, Word, Excel, PowerPoint, OneNote, Access (kun Windows) og Publisher (kun Windows) installert lokalt. Microsoft Publisher pensjoneres 1. oktober 2026 og fjernes fra Microsoft 365. Eksisterende .pub-filer bør konverteres til PDF eller Word i god tid før."
+          "beskrivelse": "Fullversjonene av Outlook, Word, Excel, PowerPoint, OneNote og Access (kun Windows), installert lokalt. Publisher står i Microsofts oversikt, men appen er avviklet og utilgjengelig fra 13.10.26."
         },
         {
           "navn": "Microsoft 365 for mobil",
@@ -266,7 +266,7 @@
         {
           "navn": "Clipchamp Standard",
           "status": "inkludert",
-          "beskrivelse": "Videoplattformen i M365: opptak (skjerm, kamera, lyd), redigering med maler, overganger, automatisk transkripsjon og avspilling i Teams, Outlook og SharePoint. Videoer lagres i OneDrive og SharePoint. Premium-versjonen med flere KI-effekter er eget tillegg."
+          "beskrivelse": "Videoplattformen i M365: opptak (skjerm, kamera, lyd), redigering med maler, overganger, automatisk transkripsjon og avspilling i Teams, Outlook og SharePoint. Videoer lagres i OneDrive og SharePoint."
         },
         {
           "navn": "Microsoft Editor premium-funksjoner",
@@ -277,6 +277,11 @@
           "navn": "Flerspråklig brukergrensesnitt for Microsoft 365-apper",
           "status": "inkludert",
           "beskrivelse": "Bytt visningsspråk i M365-appene mellom flere språk for samme bruker."
+        },
+        {
+          "navn": "Clipchamp Premium",
+          "status": "tillegg",
+          "beskrivelse": "Utvider Clipchamp Standard med premium-innhold og flere effekter. Eget tillegg for E5."
         }
       ]
     },
@@ -333,7 +338,7 @@
         {
           "navn": "Microsoft Bookings",
           "status": "inkludert",
-          "beskrivelse": "Selvbetjent møtebooking for kunder eller innbyggere mot ledige tider i kalenderen. Krever kun at Outlook på nett er aktivert."
+          "beskrivelse": "Selvbetjent møtebooking for kunder eller innbyggere mot ledige tider i kalenderen. Bookings fungerer i nettleseren og i Outlook. Bookings-appen i Teams krever Teams Enterprise-lisensen, som selges separat fra E5."
         }
       ]
     },
@@ -345,7 +350,7 @@
         {
           "navn": "Microsoft Teams",
           "status": "inkludert",
-          "beskrivelse": "Plattformen for chat, kanaler, møter og samarbeid: den primære arbeidsflaten i M365."
+          "beskrivelse": "Plattformen for chat, kanaler, møter og samarbeid: den primære arbeidsflaten i M365. Krever Teams Enterprise-lisensen, som selges separat fra E5."
         },
         {
           "navn": "Ubegrenset chat",
@@ -395,12 +400,42 @@
         {
           "navn": "Teams Phone Standard (Telefonsystem)",
           "status": "inkludert",
-          "beskrivelse": "Telefonsystem i Teams: ringe ut og motta samtaler med ekte telefonnummer. Krever i tillegg Calling Plan eller Operator Connect for samtaler til og fra telefonnettet."
+          "beskrivelse": "Telefonsystem i Teams: ringe ut og motta samtaler med ekte telefonnummer. Krever Teams Enterprise-lisensen, som selges separat fra E5, og en Calling Plan eller Operator Connect for samtaler til og fra telefonnettet."
         },
         {
           "navn": "Audio Conferencing",
           "status": "tillegg",
           "beskrivelse": "Ringe inn til Teams-møter med vanlig telefonnummer fra hvor som helst. Tillegg for E5 som inkluderer ubegrenset innringing og 60 minutter utringing per bruker per måned til Zone A-land, samt Operator Connect Conferencing."
+        },
+        {
+          "navn": "Teams Enterprise",
+          "status": "tillegg",
+          "beskrivelse": "Lisensen for Microsoft Teams. Selges separat fra E5 og trengs for Teams og alle Teams-funksjonene i oversikten."
+        },
+        {
+          "navn": "Teams Premium",
+          "status": "tillegg",
+          "beskrivelse": "Utvider Teams med blant annet møtemaler, vannmerke, teksting oversatt i sanntid, egen merkevareprofil og premium-funksjoner for town hall og webinarer. Krever Teams Enterprise-lisensen, som selges separat fra E5."
+        },
+        {
+          "navn": "Calling Plan (Domestic, Domestic 120-minute, International, Pay-as-you-go)",
+          "status": "tillegg",
+          "beskrivelse": "Telefonabonnement fra Microsoft med telefonnummer og ringeminutter til og fra telefonnettet. Bygger på Teams Phone Standard, som følger med E5. International Calling Plan inkluderer Domestic Calling Plan."
+        },
+        {
+          "navn": "Attendee Packs",
+          "status": "tillegg",
+          "beskrivelse": "Gir plass til flere enn 3 000 deltakere i town hall, webinarer og Immersive Events."
+        },
+        {
+          "navn": "Microsoft Teams Shared Space",
+          "status": "tillegg",
+          "beskrivelse": "Lisens per arbeidsplass eller rom, ikke per bruker. Gjør pulter og rom bookbare i Places."
+        },
+        {
+          "navn": "Microsoft Teams Rooms Pro",
+          "status": "tillegg",
+          "beskrivelse": "Lisens for møterom med Teams-utstyr: avanserte møteromsfunksjoner og sentral administrasjon av enhetene."
         }
       ]
     },
@@ -412,7 +447,32 @@
         {
           "navn": "SharePoint Plan 2 (1 TB+ lagring)",
           "status": "inkludert",
-          "beskrivelse": "1 TB+ lagring per organisasjon med avansert søk, sider og kolleksjoner. Inkluderer 1+ TB OneDrive-lagring per bruker, opptil 5 TB avhengig av standardkvoten i organisasjonen."
+          "beskrivelse": "1 TB lagring per organisasjon pluss 10 GB per lisens, med avansert søk, sider og kolleksjoner. Hver bruker får 1 TB+ OneDrive-lagring, opptil 5 TB avhengig av standardkvoten i organisasjonen."
+        },
+        {
+          "navn": "SharePoint Advanced Management",
+          "status": "tillegg",
+          "beskrivelse": "Verktøy for administratorer som finner overdelt innhold og inaktive nettsteder i SharePoint og OneDrive, og begrenser tilgangen."
+        },
+        {
+          "navn": "Microsoft 365 Extra File Storage",
+          "status": "tillegg",
+          "beskrivelse": "Mer SharePoint-lagring for organisasjonen, kjøpt per GB."
+        },
+        {
+          "navn": "Advanced eDiscovery Storage",
+          "status": "tillegg",
+          "beskrivelse": "Ekstra lagring for data i eDiscovery (Premium)."
+        },
+        {
+          "navn": "Cross-tenant user data migration",
+          "status": "tillegg",
+          "beskrivelse": "Flytter postbokser og OneDrive-innhold mellom to Microsoft 365-tenanter, for eksempel når organisasjoner slås sammen."
+        },
+        {
+          "navn": "Advanced Data Residency",
+          "status": "tillegg",
+          "beskrivelse": "Garanterer at organisasjonens kjernedata i Microsoft 365 lagres i ett bestemt land, for eksempel Norge."
         }
       ]
     },
@@ -451,7 +511,7 @@
         {
           "navn": "In-person events, Hybrid RSVP, Places card, Work plans, Workplace presence",
           "status": "inkludert",
-          "beskrivelse": "Hybrid arbeidsstyring: booking av plasser, parkering og koordinering på kontoret."
+          "beskrivelse": "Hybrid arbeidsstyring: booking av plasser, parkering og koordinering på kontoret. Places i Teams krever Teams Enterprise-lisensen, som selges separat fra E5."
         },
         {
           "navn": "Places Explorer",
@@ -461,7 +521,7 @@
         {
           "navn": "Places Finder",
           "status": "inkludert",
-          "beskrivelse": "Finn ledige rom, plasser og ressurser basert på kalenderen."
+          "beskrivelse": "Finn ledige rom, plasser og ressurser basert på kalenderen. Booking av enkeltpulter, automatisk frigjøring og plassanalyse krever Teams Shared Space-lisens."
         }
       ]
     },
@@ -489,6 +549,21 @@
           "navn": "Power BI Pro",
           "status": "inkludert",
           "beskrivelse": "Lag, del og publiser interaktive datadashbord. Pro-lisens for full deling."
+        },
+        {
+          "navn": "Power BI Premium per bruker",
+          "status": "tillegg",
+          "beskrivelse": "Utvider Power BI Pro med større datamodeller, hyppigere oppdatering, paginerte rapporter og KI-funksjoner."
+        },
+        {
+          "navn": "Premium Assessments for Compliance Manager",
+          "status": "tillegg",
+          "beskrivelse": "Flere vurderingsmaler i Compliance Manager for lover, standarder og bransjekrav."
+        },
+        {
+          "navn": "Compliance Program for Microsoft Cloud",
+          "status": "tillegg",
+          "beskrivelse": "Tjeneste for regulerte bransjer: tilgang til Microsofts compliance-eksperter, revisjonsdokumentasjon og dialog med tilsynsmyndigheter."
         }
       ]
     },
@@ -571,12 +646,12 @@
         {
           "navn": "Communities, Conversations, and Storyline",
           "status": "inkludert",
-          "beskrivelse": "Internt sosialt nettverk: fellesskap, samtaler og storytelling på tvers av organisasjonen."
+          "beskrivelse": "Internt sosialt nettverk: fellesskap, samtaler og storytelling på tvers av organisasjonen. Leadership Corner, AMA-er, delegert publisering i Storyline, avanserte analyser og Answers krever Viva-tillegg."
         },
         {
           "navn": "Advanced Security",
           "status": "inkludert",
-          "beskrivelse": "Avansert sikkerhet for Viva Engage: Leadership Corner, AMAs, Storyline Delegate Posting og advanced analytics (krever Viva Suite-tillegg for full bruk)."
+          "beskrivelse": "Ekstra sikkerhets- og compliance-kontroller for Viva Engage."
         }
       ]
     },
@@ -589,6 +664,48 @@
           "navn": "Dashboard, Feed, Resources, Teams app",
           "status": "tillegg",
           "beskrivelse": "Tilpasset dashbord med nyheter, ressurser og snarveier, direkte i Teams. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Inkludert i F1 og F3."
+        }
+      ]
+    },
+    {
+      "id": "viva",
+      "navn": "Microsoft Viva",
+      "tema": "apper",
+      "funksjoner": [
+        {
+          "navn": "Viva suite",
+          "status": "tillegg",
+          "beskrivelse": "Alle Viva-modulene i full versjon, samlet i én lisens."
+        },
+        {
+          "navn": "Viva Workplace Analytics and Employee Feedback",
+          "status": "tillegg",
+          "beskrivelse": "Viva Insights, Glint og Pulse samlet: arbeidsplassanalyse og medarbeiderundersøkelser."
+        },
+        {
+          "navn": "Viva Employee Communications and Communities",
+          "status": "tillegg",
+          "beskrivelse": "Premium-funksjoner for intern kommunikasjon i Viva Engage, Connections og Amplify, blant annet Leadership Corner, AMA-er og analyser."
+        },
+        {
+          "navn": "Viva Insights",
+          "status": "tillegg",
+          "beskrivelse": "Full Viva Insights: analyser og innsikt for ledere og analytikere, utover den personlige innsikten i E5."
+        },
+        {
+          "navn": "Viva Learning",
+          "status": "tillegg",
+          "beskrivelse": "Full Viva Learning: anbefalinger, sporing av fremdrift og kobling til eksterne læringsplattformer (LMS)."
+        },
+        {
+          "navn": "Viva Glint",
+          "status": "tillegg",
+          "beskrivelse": "Medarbeiderundersøkelser med analyse av engasjement og trivsel."
+        },
+        {
+          "navn": "Viva Pulse",
+          "status": "tillegg",
+          "beskrivelse": "Korte pulsundersøkelser som ledere sender til sitt eget team."
         }
       ]
     },
@@ -616,6 +733,31 @@
           "navn": "Dataverse for Teams",
           "status": "tillegg",
           "beskrivelse": "Lett database tilgjengelig direkte i Teams-kanaler, for Power Apps og Power Automate. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5."
+        },
+        {
+          "navn": "Power Apps (per app, Premium og betaling etter bruk)",
+          "status": "tillegg",
+          "beskrivelse": "Lisenser for apper med premium-koblinger og Dataverse, utover Power Apps for Microsoft 365. Kjøpes per app, per bruker (Premium) eller betales etter bruk via et Azure-abonnement."
+        },
+        {
+          "navn": "Power Automate (per bruker, Premium, Process og per flyt)",
+          "status": "tillegg",
+          "beskrivelse": "Lisenser for flyter med premium-koblinger, skrivebordsflyter (RPA) og flyter som kjører for hele organisasjonen. Per flyt kjøpes for minst fem flyter."
+        },
+        {
+          "navn": "Copilot Studio (per tenant per måned)",
+          "status": "tillegg",
+          "beskrivelse": "Full Copilot Studio for hele organisasjonen: generativ KI, premium-koblinger og publisering utenfor Teams. Kjøpes som kapasitet per tenant per måned."
+        },
+        {
+          "navn": "Power Pages",
+          "status": "tillegg",
+          "beskrivelse": "Eksterne nettsteder bygget på Power Platform. Lisensieres per nettsted for innloggede eller anonyme brukere, eller betales etter bruk."
+        },
+        {
+          "navn": "Dataverse-kapasitet (database, fil, logg)",
+          "status": "tillegg",
+          "beskrivelse": "Ekstra lagringskapasitet i Dataverse for database, filer og logger."
         }
       ]
     },
@@ -683,6 +825,26 @@
           "navn": "Microsoft Intune Advanced Analytics",
           "status": "inkludert",
           "beskrivelse": "Avansert enhetsanalyse med sanntidsspørringer, batterihelse og avviksdeteksjon på tvers av enhetsparken."
+        },
+        {
+          "navn": "Microsoft Intune Suite",
+          "status": "inkludert",
+          "beskrivelse": "Pakken med Intunes avanserte funksjoner, blant annet Remote Help, Advanced Analytics, Endpoint Privilege Management, Enterprise Application Management og Cloud PKI."
+        },
+        {
+          "navn": "Microsoft Intune Enterprise Application Management",
+          "status": "inkludert",
+          "beskrivelse": "Katalog med ferdigpakkede tredjepartsapper som Intune installerer og holder oppdatert."
+        },
+        {
+          "navn": "Microsoft Cloud PKI",
+          "status": "inkludert",
+          "beskrivelse": "Skybasert sertifikattjeneste som utsteder og fornyer sertifikater til enheter, uten egne sertifikatservere."
+        },
+        {
+          "navn": "Microsoft Intune Endpoint Privilege Management",
+          "status": "inkludert",
+          "beskrivelse": "Lar brukere uten administratorrettigheter kjøre godkjente oppgaver med utvidede rettigheter."
         }
       ]
     },
@@ -720,6 +882,11 @@
           "navn": "Windows Information Protection (WIP)",
           "status": "inkludert",
           "beskrivelse": "Avviklet av Microsoft og fjernet fra nyere Windows 11-versjoner. Bruk Purview Information Protection i stedet."
+        },
+        {
+          "navn": "Microsoft Defender for Endpoint Plan 1",
+          "status": "inkludert",
+          "beskrivelse": "Grunnleggende endepunktbeskyttelse: neste generasjons antivirus, reduksjon av angrepsflaten og sentral administrasjon."
         },
         {
           "navn": "Microsoft Defender for Endpoint Plan 2",
@@ -770,6 +937,31 @@
           "navn": "Safe Documents",
           "status": "inkludert",
           "beskrivelse": "Sjekker dokumenter mot Defender før de åpnes utenfor Beskyttet visning."
+        },
+        {
+          "navn": "Microsoft Defender for Endpoint for servere",
+          "status": "tillegg",
+          "beskrivelse": "Endepunktbeskyttelse for Windows- og Linux-servere. Hvert operativsystemmiljø, også virtuelle maskiner, trenger egen lisens."
+        },
+        {
+          "navn": "Microsoft Defender Experts for Hunting",
+          "status": "tillegg",
+          "beskrivelse": "Microsofts sikkerhetseksperter leter aktivt etter trusler i Defender-dataene og varsler organisasjonen."
+        },
+        {
+          "navn": "Microsoft Defender Experts for XDR",
+          "status": "tillegg",
+          "beskrivelse": "Microsofts sikkerhetsanalytikere overvåker, etterforsker og håndterer hendelser døgnet rundt."
+        },
+        {
+          "navn": "Microsoft Defender Vulnerability Management",
+          "status": "tillegg",
+          "beskrivelse": "Utvider sårbarhetsstyringen i Defender for Endpoint Plan 2 med blant annet sikkerhetsvurdering av nettlesertillegg, sertifikater og maskinvare, og blokkering av sårbare apper. Fins også for servere."
+        },
+        {
+          "navn": "Microsoft Defender Experts Suite (P1 og P2)",
+          "status": "tillegg",
+          "beskrivelse": "Samler Defender Experts for XDR, Microsoft Incident Response og Enhanced Designated Engineering. Krever minst 1 500 lisenser."
         }
       ]
     },
@@ -855,7 +1047,7 @@
         {
           "navn": "Microsoft Entra Suite",
           "status": "tillegg",
-          "beskrivelse": "Pakke som samler Entra Internet Access, Entra Private Access, Entra ID Governance og Verified ID. Eget tillegg for E5 som utvider identitetsstyring og sikker nettverkstilgang utover Entra ID Plan 2."
+          "beskrivelse": "Pakke som samler Entra Internet Access, Entra Private Access, Entra ID Governance og Verified ID. Eget tillegg for E5 som utvider identitetsstyring og sikker nettverkstilgang utover Entra ID Plan 2. Fins også som eget tillegg for Entra ID Plan 2 (Entra Suite P2), som passer for E5."
         },
         {
           "navn": "Entra Internet Access for Microsoft Services",
@@ -936,6 +1128,21 @@
           "navn": "Windows Hello for Business",
           "status": "inkludert",
           "beskrivelse": "Passordløs pålogging med biometri (ansikt/finger) eller PIN."
+        },
+        {
+          "navn": "Microsoft Entra ID Governance",
+          "status": "tillegg",
+          "beskrivelse": "Utvidet identitetsstyring: arbeidsflyter for ansettelse og avgang, avanserte tilgangsgjennomganger og tilgangspakker. E5 har Entra ID Plan 2 og bruker derfor Governance-varianten for Plan 2."
+        },
+        {
+          "navn": "Microsoft Entra Internet Access",
+          "status": "tillegg",
+          "beskrivelse": "Sikker nettilgang til alle nettsteder og SaaS-apper, ikke bare Microsoft-tjenester."
+        },
+        {
+          "navn": "Microsoft Entra Private Access",
+          "status": "tillegg",
+          "beskrivelse": "Tilgang til interne apper og ressurser uten VPN, styrt av identitet og betinget tilgang."
         }
       ]
     },
@@ -990,6 +1197,11 @@
           "navn": "Microsoft Purview Audit (Premium)",
           "status": "inkludert",
           "beskrivelse": "Lengre oppbevaring (1 år+), flere hendelser og raskere søk for forensikk."
+        },
+        {
+          "navn": "Revisjonslogg i 10 år (10-year Audit Log Retention)",
+          "status": "tillegg",
+          "beskrivelse": "Oppbevarer revisjonsloggen i ti år, utover oppbevaringen i Audit (Premium)."
         }
       ]
     },
@@ -1015,8 +1227,8 @@
         },
         {
           "navn": "Manuell etikettering med følsomhetsetiketter for Teams-møter",
-          "status": "tillegg",
-          "beskrivelse": "Sett følsomhetsetikett på Teams-møter. Krever Teams Premium-tillegg."
+          "status": "inkludert",
+          "beskrivelse": "Sett følsomhetsetikett på Teams-møter. Krever Teams Premium og Teams Enterprise-lisensen."
         },
         {
           "navn": "Standard følsomhetsetiketter for SharePoint-dokumentbiblioteker",
@@ -1057,6 +1269,11 @@
           "navn": "Personal Data Encryption (PDE)",
           "status": "inkludert",
           "beskrivelse": "Filkryptering knyttet til brukerens innlogging på Windows 11, automatisk på sensitive personlige filer."
+        },
+        {
+          "navn": "Microsoft Priva Privacy Risk Management",
+          "status": "tillegg",
+          "beskrivelse": "Finner personopplysninger som er overeksponert, overført eller lagret for lenge, og varsler dem som eier dataene."
         }
       ]
     },
@@ -1094,6 +1311,11 @@
           "navn": "Privileged Access Management",
           "status": "inkludert",
           "beskrivelse": "Just-in-time-tilgang for administrative oppgaver med godkjenningsflyt, for å begrense stående tilganger."
+        },
+        {
+          "navn": "Forensic evidence for Insider Risk Management",
+          "status": "tillegg",
+          "beskrivelse": "Visuelle opptak av aktivitet på enheter ved risikofylte hendelser, som støtte for etterforskning i Insider Risk Management."
         }
       ]
     },
@@ -1115,7 +1337,7 @@
         {
           "navn": "Windows 365 Enterprise-tilgang",
           "status": "inkludert",
-          "beskrivelse": "Personlig sky-PC tilgjengelig fra hvilken som helst enhet med nettleser."
+          "beskrivelse": "E5 oppfyller lisenskravene for sky-PC-er i Windows 365 Enterprise. Selve sky-PC-ene kjøpes som egen Windows 365-lisens."
         },
         {
           "navn": "Virtual Desktop Access (VDA)",
@@ -1138,14 +1360,14 @@
           "beskrivelse": "Long-Term Servicing Channel: Windows-utgaven for spesialiserte stabilitetskrav som industrielle styringssystemer og medisinsk utstyr. Microsoft Desktop Optimization Pack (MDOP) gir avansert verktøykasse for app-virtualisering og styring. LTSC ikke tilgjengelig via CSP-kanaler."
         },
         {
-          "navn": "Quick Machine Recovery",
-          "status": "inkludert",
-          "beskrivelse": "Fjernbasert oppstartsreparasjon via Windows Update for enheter med oppstartsfeil. Windows oppdager problemet og henter en målrettet fiks via nettverket – uten at IT trenger fysisk tilgang til enheten."
+          "navn": "Universal Print Volume Add-on",
+          "status": "tillegg",
+          "beskrivelse": "Flere utskriftsjobber enn de 100 per lisens per måned som følger med E5."
         },
         {
-          "navn": "Post-quantum security APIs",
-          "status": "inkludert",
-          "beskrivelse": "API-er for kvantsikker kryptografi i Windows 11 Enterprise. Lar applikasjoner ta i bruk kvanteresistente algoritmer og dermed forberede seg på fremtidens kvantecomputertrusler. Tilgjengelig i Windows 11 Enterprise E5-nivå."
+          "navn": "High Efficiency Video Codec (HEVC)",
+          "status": "tillegg",
+          "beskrivelse": "Videokodeken HEVC for Windows: spiller av og lager video i HEVC-format."
         }
       ]
     }
