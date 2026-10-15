@@ -605,7 +605,7 @@
     "artikler": [
       {
         "id": "folsomhetsetiketter",
-        "tittel": "Følsomhetsetiketter: Slik klassifiserer du innhold",
+        "tittel": "Følsomhetsetiketter: Slik beskytter de innholdet",
         "ingress": "Etiketten forteller M365 hvor sensitivt noe er, og styrer automatisk hvordan det kan deles.",
         "oppdatert": "Oppdatert: 03.06.26",
         "kategori": "purview",
