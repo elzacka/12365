@@ -1,15 +1,13 @@
-# Om appen
-
 1-2-365 er en slags referansehåndbok for Microsoft 365, i form av en såkalt [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app").
 
-Jeg ville ha et sted å samle ting jeg trenger. Formulert på en måte som gir mening for meg, tilgjengelig på enklest mulig måte: Opp med mobilen, åpne appen, søke – BANG.
+Jeg ville ha et sted å samle ting jeg trenger. Sortert og skrevet som jeg vil, så enkelt å finne som mulig: Mobilen* opp av lomma, åpne app, søke – BINGO!
 
 Innhold:
 
-- hva M365-appene gjør, hva som skiller dem og hvordan de spiller sammen
-- praktiske fremgangsmåter, oppslagsverk, videoer jeg har laget og kursinnhold fra andre kilder
-- oversikt over samtlige apper og funksjoner i M365 E5, med kort forklaring
+- hva M365-appene gjør, hva som skiller dem og hvordan de samarbeider
+- fremgangsmåter, jukselapp (oppslagsverk om M365, KI og mye mer), videoer og kurs
+- oversikt over samtlige apper og funksjoner i M365 E5, med «trykk og forklar» på alle greiene
 
-Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med AI. AI kan bomme, og jeg kan overse noe. Jeg retter eventuelle feil fortløpende.
+Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med KI. KI kan bomme, og jeg kan overse noe. Jeg retter feil fortløpende.
 
-Når en ny versjon av appen er klar, viser den et oppdater-ikon øverst til høyre. Trykk på det når det passer deg – appen laster seg på nytt med det siste innholdet.
+*Eller PC/Mac, dog ikke fra lomma

@@ -1,41 +1,18 @@
-import { useState, useMemo, use, useRef } from 'react'
+import { useState, use } from 'react'
 import { fetchCards } from '../data/loader'
 import { useMergedCards } from '../auth/merge'
-import { buildCardIndex, searchCards, type CardSearchHit, type CardIndex } from '../data/cardSearchIndex'
 import { FlipCard } from '../components/FlipCard'
 import { CheatSheet } from '../components/CheatSheet'
 import { ComparisonDrawer } from '../components/ComparisonDrawer'
 import { ViewToggle, type AppsView } from '../components/ViewToggle'
-import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
-import { useSearchShortcut } from '../hooks/useSearchShortcut'
-import { SearchIcon, CloseIcon, ChevronRightIcon } from '../components/Icons'
-import { SearchShortcutHint } from '../components/SearchShortcutHint'
 
 const MAX_COMPARE = 3
-const SEARCH_WORDS = ['navn', 'tagline', 'beskrivelse']
 
 export function AboutApps() {
   const publicCards = use(fetchCards())
   const allCards = useMergedCards(publicCards)
-  const [query, setQuery] = useState('')
   const [view, setView] = useState<AppsView>('kort')
   const [selected, setSelected] = useState<string[]>([])
-  const [showHelp, setShowHelp] = useState(false)
-  const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
-  const searchInputRef = useRef<HTMLInputElement>(null)
-  const isDesktopSearch = useSearchShortcut(searchInputRef)
-
-  const cardIndex = useMemo<CardIndex>(() => buildCardIndex(allCards), [allCards])
-
-  const filteredCards = useMemo(() => {
-    const trimmed = query.trim()
-    if (!trimmed) return allCards
-    const hits: CardSearchHit[] = searchCards(cardIndex, trimmed)
-    const scoreByNavn = new Map(hits.map(h => [h.navn, h.score]))
-    return allCards
-      .filter(c => scoreByNavn.has(c.navn))
-      .sort((a, b) => (scoreByNavn.get(b.navn) ?? 0) - (scoreByNavn.get(a.navn) ?? 0))
-  }, [query, allCards, cardIndex])
 
   const toggleCompare = (navn: string) => {
     setSelected(prev =>
@@ -65,114 +42,15 @@ export function AboutApps() {
 
         {view === 'kort' && (
           <>
-            <div className="mb-4">
-              {/* Search */}
-              <div className="relative">
-                <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400">
-                  <SearchIcon size={18} />
-                </div>
-                <input
-                  ref={searchInputRef}
-                  type="search"
-                  placeholder={placeholder}
-                  value={query}
-                  onChange={e => setQuery(e.target.value)}
-                  className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
-                  aria-label="Søk i apper"
-                />
-                {query ? (
-                  <button
-                    onClick={() => setQuery('')}
-                    className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
-                    aria-label="Tøm søk"
-                  >
-                    <CloseIcon size={16} />
-                  </button>
-                ) : (
-                  isDesktopSearch && <SearchShortcutHint />
-                )}
-              </div>
-
-              <div className="flex justify-end mt-1.5">
-                <button
-                  type="button"
-                  onClick={() => setShowHelp(v => !v)}
-                  aria-expanded={showHelp}
-                  aria-controls="oversikt-tips"
-                  className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600 transition-colors"
-                >
-                  Veiledning
-                  <ChevronRightIcon
-                    size={12}
-                    className={`transition-transform duration-150 ${showHelp ? '-rotate-90' : 'rotate-90'}`}
-                  />
-                </button>
-              </div>
-
-              {showHelp && (
-                <div
-                  id="oversikt-tips"
-                  className="mt-1 bg-white rounded-xl border border-slate-200 shadow-sm px-4 py-3"
-                >
-                  <div className="space-y-3 text-xs">
-                    <div>
-                      <p className="text-slate-400 font-medium mb-1.5">I søkefeltet, eksempler:</p>
-                      <div className="space-y-2">
-                        {([
-                          { kode: '"digital tavle"', beskrivelse: 'nøyaktig denne frasen' },
-                          { kode: 'clipchamp OR powerpoint', beskrivelse: 'minst ett av ordene' },
-                          { kode: 'video redigering', beskrivelse: 'begge ord må finnes (standard)' },
-                        ] as const).map(({ kode, beskrivelse }) => (
-                          <div key={kode} className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-                            <code className="font-mono bg-slate-100 text-slate-700 rounded px-1 py-0.5 whitespace-nowrap">
-                              {kode}
-                            </code>
-                            <span className="text-slate-500">→ {beskrivelse}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="pt-2 border-t border-slate-100">
-                      <p className="text-slate-400 font-medium mb-1.5">På kortene</p>
-                      <p className="text-slate-500">Trykk på et kort for å se hva appen gjør – alene og i sammenheng med andre.</p>
-                    </div>
-                  </div>
-                </div>
-              )}
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {allCards.map(card => (
+                <FlipCard key={card.navn} card={card} />
+              ))}
             </div>
 
-            {/* Match count */}
-            {query && (
-              <p className="text-xs text-slate-500 mb-3 px-1">
-                {filteredCards.length === 0
-                  ? 'Ingen apper matcher søket ditt.'
-                  : `${filteredCards.length} app${filteredCards.length !== 1 ? 'er' : ''} funnet`}
-              </p>
-            )}
-
-            {filteredCards.length > 0 ? (
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                {filteredCards.map(card => (
-                  <FlipCard key={card.navn} card={card} />
-                ))}
-              </div>
-            ) : (
-              <div className="text-center py-16 text-slate-500">
-                <p className="text-base mb-1">Ingen apper funnet</p>
-                <button
-                  onClick={() => setQuery('')}
-                  className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
-                >
-                  Vis alle apper
-                </button>
-              </div>
-            )}
-
-            {!query && (
-              <p className="text-xs text-slate-500 text-center mt-6">
-                {allCards.length} apper totalt
-              </p>
-            )}
+            <p className="text-xs text-slate-500 text-center mt-6">
+              {allCards.length} apper totalt
+            </p>
           </>
         )}
 

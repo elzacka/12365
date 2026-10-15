@@ -10,10 +10,8 @@ interface TileBodyProps extends OpplaeringBody {
   trailingIcon?: ReactNode
 }
 
-// Shared text template for video and course tiles. Each line renders only when
-// its field is non-empty, so authors can leave placeholders in the JSON. The
-// outer div is a flex column so fotnote can anchor at the bottom (mt-auto) and
-// line up across cards of unequal text length in the same row.
+// Empty fields render nothing, so the JSON may hold placeholders. Flex column
+// lets fotnote sit at the bottom (mt-auto) and align across a row.
 function TileBody({ tittel, beskrivelse, kilde, fotnote, trailingIcon }: TileBodyProps) {
   if (!tittel && !beskrivelse && !kilde && !fotnote) return null
   return (
@@ -47,10 +45,6 @@ export function Opplaering() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-8 max-w-2xl mx-auto w-full">
-        <p className="text-sm text-slate-500 text-center mb-6">
-          Se videoer og kursinnhold jeg har laget og fra andre kilder. Direkte og indirekte relatert til M365.
-        </p>
-
         <section aria-labelledby="opplaering-videoer" className="mb-8">
           <h2 id="opplaering-videoer" className="text-base font-semibold text-slate-800 mb-3">Videoer</h2>
           {videos.length === 0 ? (
