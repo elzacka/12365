@@ -41,7 +41,7 @@ export function InstallBanner() {
         >
           <CloseIcon size={18} />
         </button>
-        <span className="flex-1 min-w-0 text-sm leading-snug">Appen virker også uten nett når du legger den på enheten din</span>
+        <span className="flex-1 min-w-0 text-sm leading-snug">Appen virker uten nett og er enda enklere å bruke når du legger den til på enheten din</span>
         <button
           type="button"
           className="shrink-0 px-3.5 py-1.5 rounded-full bg-white text-brand-800 text-sm font-semibold hover:bg-brand-50 transition-colors"
