@@ -1,19 +1,8 @@
 import type { ReactNode } from 'react'
 import { parseInline } from './inline'
 
-// Minimal markdown-renderer skreddersydd for korte sider som «Om appen»
-// og «Personvern». Støtter:
-// - Overskrifter på 4 nivåer (#, ##, ###, ####)
-// - Avsnitt med myke linjeskift
-// - **fet tekst** og *kursiv*
-// - Lenker [tekst](url) – interne (/sti) går via React Router,
-//   eksterne (https://...) får target="_blank" og rel="noopener noreferrer"
-// - Lenker med tooltip [tekst](url "tooltip-tekst") – tooltip-teksten blir
-//   title-attributtet på lenken
-// - Punktlister (- ...) og nummererte lister (1. ...)
-//
-// Ingen runtime-avhengigheter. For mer avansert markdown – bytt til
-// remark/react-markdown og oppdater testene først.
+// Minimal markdown for «Om» and «Personvern»: #–####, lists, inline from inline.tsx.
+// A paragraph starting with <sup> is a footnote. No dependencies; for more, use react-markdown.
 
 const headingClasses: Record<number, string> = {
   1: 'text-2xl font-bold text-slate-800 mt-2 mb-3 leading-tight',
@@ -66,8 +55,13 @@ function renderBlock(block: string, idx: number): ReactNode {
     )
   }
 
+  // Fotnote: samme stil som kildelinjen i «Alt i E5»
+  const footnote = first.startsWith('<sup>')
   return (
-    <p key={`p-${idx}`} className="text-sm text-slate-700 leading-relaxed my-3">
+    <p
+      key={`p-${idx}`}
+      className={footnote ? 'text-[10px] italic text-slate-500 my-3' : 'text-sm text-slate-700 leading-relaxed my-3'}
+    >
       {lines.map((line, i) => (
         <span key={`p-${idx}-l-${i}`}>
           {parseInline(line)}

@@ -27,6 +27,15 @@ describe('Markdown', () => {
     expect(container.querySelector('em')?.textContent).toBe('kursiv')
   })
 
+  it('renders <sup> as superscript and a paragraph starting with it as a footnote', () => {
+    const { container } = renderMarkdown('Mobilen<sup>*</sup> opp.\n\n<sup>*</sup>Eller PC')
+    const [text, note] = container.querySelectorAll('p')
+    expect(text.querySelector('sup')?.textContent).toBe('*')
+    expect(text.className).not.toContain('italic')
+    expect(note.querySelector('sup')?.textContent).toBe('*')
+    expect(note.className).toContain('italic')
+  })
+
   it('renders an unordered list', () => {
     renderMarkdown('- en\n- to\n- tre')
     const items = screen.getAllByRole('listitem')

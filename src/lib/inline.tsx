@@ -5,7 +5,7 @@ import { ExternalLinkIcon } from '../components/Icons'
 // Inline-markdown for Markdown-sidene og forklaringene i Oppslagsverk. Egen fil fordi
 // react-refresh krever at markdown.tsx bare eksporterer komponenter.
 
-const inlineRegex = /(\*\*[^*\n]+\*\*|\*[^*\n]+\*|\[[^\]]+\]\([^)\s]+(?:\s+"[^"]*")?\))/g
+const inlineRegex = /(\*\*[^*\n]+\*\*|<sup>[^<\n]+<\/sup>|\*[^*\n]+\*|\[[^\]]+\]\([^)\s]+(?:\s+"[^"]*")?\))/g
 
 // Lenkemarkering redusert til lenketeksten, for forhåndsvisning og søkeindeks.
 export function stripLinks(text: string): string {
@@ -30,6 +30,8 @@ export function parseInline(text: string): ReactNode[] {
           {m.slice(2, -2)}
         </strong>
       )
+    } else if (m.startsWith('<sup>')) {
+      nodes.push(<sup key={`sup-${key++}`}>{m.slice(5, -6)}</sup>)
     } else if (m.startsWith('*')) {
       nodes.push(
         <em key={`e-${key++}`} className="italic">
