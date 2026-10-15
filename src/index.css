@@ -174,3 +174,9 @@
     animation: none !important;
   }
 }
+
+/* Update confirmation in the header: holds, then fades out (UpdateButton). */
+@keyframes update-done {
+  0%, 70% { opacity: 1; }
+  100% { opacity: 0; }
+}

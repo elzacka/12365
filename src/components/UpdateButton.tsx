@@ -2,15 +2,12 @@ import { useEffect, useState } from 'react'
 import { justUpdated, useAppUpdate } from '../lib/registerAppUpdate'
 import { CheckIcon, RefreshIcon } from './Icons'
 
-// Hvor lenge bekreftelsen etter oppdateringen står før den fader ut.
+// Hvor lenge bekreftelsen etter oppdateringen står. Lik varigheten i
+// animate-[update-done_…] under, som fader den ut mot slutten.
 const CONFIRMATION_MS = 2600
 
-// Stille header-knapp som dukker opp når en ny versjon ligger klar.
-// Brukeren bestemmer når den tas i bruk - ingenting byttes ut under dem.
-// Selve oppdateringen laster siden på nytt, og da forsvinner knappen uten at
-// brukeren nødvendigvis rekker å se hvorfor. Derfor møter en liten kvittering
-// dem på den nye siden. Den ligger fast posisjonert under headeren, så
-// ingenting i layouten flytter seg når den kommer og går.
+// Brukeren bestemmer når en ny versjon tas i bruk. Reloaden fjerner knappen,
+// så en hake på samme plass bekrefter at den virket, uten å dekke innhold.
 export function UpdateButton() {
   const { ready, applying, apply } = useAppUpdate()
   const [confirming, setConfirming] = useState(justUpdated)
@@ -24,11 +21,12 @@ export function UpdateButton() {
   if (confirming) {
     return (
       <span
-        className="pointer-events-none fixed left-1/2 top-16 z-50 -translate-x-1/2 flex items-center gap-1.5 rounded-full bg-slate-800 px-3 py-1.5 text-[13px] font-medium text-white shadow-lg"
+        className="p-2.5 text-brand-700 animate-[update-done_2600ms_ease-in_forwards]"
         role="status"
+        title="App oppdatert"
       >
-        <CheckIcon size={14} />
-        Appen er oppdatert
+        <CheckIcon size={20} />
+        <span className="sr-only">App oppdatert</span>
       </span>
     )
   }
