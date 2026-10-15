@@ -127,15 +127,13 @@ export function ExternalLinkIcon({ size = 12, className }: IconProps) {
 export function RunBackIcon({ size = 24, className }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
-      <ellipse cx="12.5" cy="1.8" rx="2.04" ry="0.85" transform="rotate(8 12.5 1.8)" />
-      <g transform="translate(0 0.6)">
-        <ellipse cx="12.3" cy="5.6" rx="1.4" ry="2" />
-        <path d="M12.4 7.6l1 6.6" />
-        <path d="M12.6 9.2l-2.8 2.2l-1.2 -2.5" />
-        <path d="M12.7 9.4l2.9 2.2l2 1.4" />
-        <path d="M13.4 14.2l-2.8 3.2l.6 4.6h-1.6" />
-        <path d="M13.4 14.2l2.4 3.8l2.6 3.4l1.2 -1" />
-      </g>
+      <ellipse cx="8.9" cy="3.4" rx="2.04" ry="0.85" transform="rotate(8 8.9 3.4)" />
+      <ellipse cx="8.7" cy="7.3" rx="1.4" ry="2" transform="rotate(-22 8.7 7.3)" />
+      <path d="M9.7 9.2l2.9 6" />
+      <path d="M10.4 10.7l-2.8 1.8l-1.4 -2.4" />
+      <path d="M10.6 11l3.2 .4l1.2 2.6" />
+      <path d="M12.6 15.2l-3.8 1l.6 4.4h-1.6" />
+      <path d="M12.6 15.2l1.4 4.3l3.8 -2.2" />
     </svg>
   )
 }
