@@ -7,6 +7,7 @@ import { UntestedWarning } from '../components/UntestedWarning'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
 import { useSwipe } from '../hooks/useSwipe'
+import { useFinePointer } from '../hooks/useFinePointer'
 import type { ArticleImage } from '../types'
 
 function escapeRegex(str: string): string {
@@ -223,6 +224,20 @@ export function ArticlePage() {
   }
 
   const swipe = useSwipe(() => goToStep(activeStep + 1), () => goToStep(activeStep - 1))
+
+  // Arrow keys change step on desktop only; not while typing or in the lightbox.
+  const isDesktop = useFinePointer()
+  useEffect(() => {
+    if (!isDesktop || openImage) return
+    const handler = (e: KeyboardEvent) => {
+      if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return
+      if (e.target instanceof HTMLElement && e.target.closest('input, textarea, select, [contenteditable]')) return
+      if (e.key === 'ArrowRight') goToStep(activeStep + 1)
+      else if (e.key === 'ArrowLeft') goToStep(activeStep - 1)
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  })
 
   if (!article || !category || article.skjult) {
     // Shared links outlive a move to another category.
