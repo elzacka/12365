@@ -27,10 +27,8 @@ interface ServiceWorkerRegistrationWithContentIndex extends ServiceWorkerRegistr
   readonly index: ContentIndex
 }
 
-// Gjør offline-tilgjengelige artikler synlige i nettleserens eget
-// "offline innhold"-oversikt (i dag kun Android Chrome). Alle artiklene er
-// allerede precachet av service workeren - dette gjør dem finnbare der også.
-// Skjulte og låste artikler holdes utenfor, samme regel som andre lister.
+// Lists the precached articles in the browser's own offline content view
+// (Android Chrome only). Hidden and gated articles stay out, as in other lists.
 export async function registerContentIndex() {
   if (!('serviceWorker' in navigator)) return
   const registration = (await navigator.serviceWorker.ready) as ServiceWorkerRegistrationWithContentIndex
