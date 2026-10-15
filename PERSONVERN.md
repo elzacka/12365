@@ -11,7 +11,7 @@ Oppdatert: 15.10.26
 - Appens filer og innhold, slik at appen virker uten nett
 - Passordfrasen for skjult innhold, bare hvis du velger «Husk på denne enheten»
 - At du har lukket installasjonsbanneret, slik at det ikke vises igjen
-- Et midlertidig merke når appen oppdaterer seg, slik at den kan bekrefte oppdateringen
+- At du nettopp har oppdatert appen, til bekreftelsen vises
 
 Ingenting av dette sendes fra enheten, og ingenting av det kan identifisere deg.
 
