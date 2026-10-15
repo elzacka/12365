@@ -125,16 +125,17 @@ export function ExternalLinkIcon({ size = 12, className }: IconProps) {
 
 // Strekmann med glorie i stil med The Saint, løper mot venstre (tilbake).
 // Strek 1,8 ved 22 px gir samme linje som strek 2 ved 20 px på de andre header-ikonene.
+// Glorien som i originalen: bredere enn hodet, vippet 15° med forkanten opp, fritt over hodet.
 export function RunBackIcon({ size = 24, className }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={className}>
-      <ellipse cx="8.8" cy="2.15" rx="2.9" ry="1.2" transform="rotate(6 8.8 2.15)" />
-      <ellipse cx="8.4" cy="7.2" rx="1.4" ry="1.8" transform="rotate(-22 8.4 7.2)" />
-      <path d="M9.5 9l3.2 6.6" />
-      <path d="M10.2 10.6l-3 2l-1.6 -2.6" />
-      <path d="M10.5 10.9l3.5 .5l1.3 2.8" />
-      <path d="M12.7 15.6l-4.2 1.1l.6 4.8h-1.7" />
-      <path d="M12.7 15.6l1.5 4.7l4.2 -2.4" />
+      <ellipse cx="8.46" cy="2.85" rx="2.4" ry="1.2" transform="rotate(15 8.46 2.85)" />
+      <ellipse cx="8.76" cy="8.72" rx="1.26" ry="1.62" transform="rotate(-22 8.76 8.72)" />
+      <path d="M9.75 10.34l2.88 5.94" />
+      <path d="M10.38 11.78l-2.7 1.8l-1.44 -2.34" />
+      <path d="M10.65 12.05l3.15 .45l1.17 2.52" />
+      <path d="M12.63 16.28l-3.78 .99l.54 4.32h-1.53" />
+      <path d="M12.63 16.28l1.35 4.23l3.78 -2.16" />
     </svg>
   )
 }
