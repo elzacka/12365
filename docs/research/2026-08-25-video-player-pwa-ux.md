@@ -70,7 +70,7 @@ No tier-1 (MDN/web.dev/WebKit/vendor) source names a definitive "best PWA video 
 
 The standalone-PWA `AudioContext`-suspended report (thread 805900) was filed against 26.0.1; no confirmation either way whether it's still present in 26.6.1 — verify directly on a home-screen-installed instance at this version before relying on the tap-to-unmute pattern.
 
-## Codebase Patterns
+## Codebase Patterns (2026-08-25, before the implementation)
 
 - `src/pages/VideoPage.tsx:31-40` — bare `<video controls playsInline preload="auto">`, no autoplay, no fullscreen/orientation code anywhere in `src/`.
 - `src/pages/SeOgHor.tsx:96-104` — decorative-only play-button overlay SVG on video tiles (local-file videos only; not shown for iframe-embedded videos).
@@ -99,8 +99,6 @@ Scope custom controls to the local-mp4 (`file`) case only — iframe embeds (You
    This is the closest achievable version of "sound from the very beginning," since true zero-gesture unmuted autoplay is blocked by both iOS Safari and Android Chrome regardless of PWA install state.
 3. **Controls:** Adopt Media Chrome for the local-mp4 case — it's a thin, actively maintained, framework-agnostic web-components layer that wraps the existing native `<video>` without replacing it, installs via npm (fits the `script-src 'self'` CSP with no changes needed), and can be styled with Tailwind classes on its slotted elements rather than fighting `::-webkit-media-controls`. Avoid Plyr (likely being superseded) and hold off on Video.js v10 (still beta as of Aug 2026).
 4. Leave the app manifest's `orientation: 'portrait'` untouched — element-level fullscreen on the video container is independent of it.
-
-This is a recommendation for review, not yet implemented.
 
 ## Sources
 

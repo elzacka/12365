@@ -9,24 +9,18 @@ Oppdatert: 15.10.26
 ## Hva som lagres
 
 - Appens filer (HTML, JavaScript, CSS, ikoner og innhold): Lagres lokalt via en Service Worker, slik at appen fungerer offline. Sendes aldri videre.
-- Noen verdier i nettleseren din (localStorage): Hva du har sett i appen, og en eventuell passordfrase for skjult innhold. Ingenting av dette kan identifisere deg.
+- Passordfrasen for skjult innhold (localStorage): Bare hvis du velger å huske den.
+- Et midlertidig flagg når appen oppdaterer seg (sessionStorage): Nettleseren sletter det når du lukker appen.
 
-Alt dette ligger kun på din enhet.
+Ingenting av dette kan identifisere deg, og alt ligger bare på enheten din.
 
 ## Tredjeparter
 
-**Videoer**
-Videoene i appen ligger som lokale filer og hentes direkte fra GitHub Pages – ingen tredjepart involvert.
-
-**Hosting**
 Appen er hostet på GitHub Pages. GitHub logger IP-adresse og standard tilgangsdata som ledd i drift av tjenesten. Se [GitHubs personvernerklæring](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for detaljer.
 
 ## Dine rettigheter
 
-Siden appen ikke samler inn personopplysninger, finnes det ingen data å be om innsyn i, retting av eller sletting av. Du kan likevel:
-
-- Slette alt lagret ved å fjerne nettleserdata for appen
-- Bruke appen uten internettilkobling
+Det finnes ingen data å be om innsyn i, retting av eller sletting av, fordi appen ikke samler inn personopplysninger. Du sletter alt appen har lagret ved å fjerne nettleserdata for appen.
 
 ## Kontakt
 
