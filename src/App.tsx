@@ -4,6 +4,7 @@ import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
 import { InstallBanner } from './components/InstallBanner'
 import { ArticleBreadcrumb } from './components/ArticleBreadcrumb'
+import { Breadcrumb } from './components/Breadcrumb'
 import { LockModal } from './components/LockModal'
 import { Home } from './pages/Home'
 import { Appene } from './pages/Appene'
@@ -54,7 +55,7 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/se-og-hor') return { title: 'Se og hør', showHome: true, showBack: false }
   if (pathname.startsWith('/se-og-hor/videoer/')) return { showHome: true, showBack: true, backTo: '/se-og-hor' }
   if (pathname === '/om') return { title: 'Om', showHome: true, showBack: false }
-  if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: true, backTo: '/om' }
+  if (pathname === '/personvern') return { showHome: true, showBack: false, breadcrumb: <Breadcrumb parentTo="/om" parentLabel="Om" current="Personvern" /> }
   if (pathname === '/alt-i-e5') return { title: 'Alt i E5', showHome: true, showBack: false }
   if (pathname === '/jukselapp') return { title: 'Jukselapp', showHome: true, showBack: false }
   return { showHome: true, showBack: false }
