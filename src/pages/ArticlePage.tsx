@@ -251,39 +251,23 @@ export function ArticlePage() {
         {/* Title and lede shown only on the first step – gives more room to the
             steps later in the read. The step card below takes over as the main
             visual element. */}
-        {/* Breadcrumb on every step: the only way back to the overview. Link
-            differs from the category by colour (>3:1), no underline by design. */}
-        <div className="pt-5 flex items-start justify-between gap-2">
-          <nav aria-label="Brødsmulesti">
-            <ol className="flex flex-wrap items-center gap-x-1.5 text-xs font-medium uppercase tracking-wide text-slate-500">
-              <li>
-                <Link to="/slik-gjor-du" className="inline-block py-1 -my-1 text-brand-700 hover:text-brand-400 transition-colors">
-                  Gjør sånn
-                </Link>
-              </li>
-              <li className="flex items-center gap-1.5">
-                <span aria-hidden="true">›</span>
-                {category.tittel}
-              </li>
-            </ol>
-          </nav>
-          {isFirstStep && canShare && (
-            <button
-              type="button"
-              onClick={handleShare}
-              className="shrink-0 -mt-1.5 -mr-1.5 p-1.5 text-slate-400 hover:text-brand-700 transition-colors"
-              aria-label="Del veiledningen"
-            >
-              <HeartShareIcon size={18} />
-            </button>
-          )}
-        </div>
-
         {isFirstStep && (
-          <header className="pb-1">
-            <h1 className="text-lg font-semibold text-slate-800 leading-snug mt-1">
-              {applyHighlight(article.tittel, hl)}
-            </h1>
+          <header className="pt-5 pb-1">
+            <div className="flex items-start justify-between gap-2">
+              <h1 className="text-lg font-semibold text-slate-800 leading-snug">
+                {applyHighlight(article.tittel, hl)}
+              </h1>
+              {canShare && (
+                <button
+                  type="button"
+                  onClick={handleShare}
+                  className="shrink-0 -mt-1 -mr-1.5 p-1.5 text-slate-400 hover:text-brand-700 transition-colors"
+                  aria-label="Del veiledningen"
+                >
+                  <HeartShareIcon size={18} />
+                </button>
+              )}
+            </div>
             <p className="text-sm text-slate-500 mt-1 leading-relaxed">
               {applyHighlight(article.ingress, hl)}
             </p>

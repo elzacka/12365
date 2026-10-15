@@ -2,6 +2,7 @@ import { lazy, Suspense, useLayoutEffect, useState, ViewTransition } from 'react
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
+import { ArticleBreadcrumb } from './components/ArticleBreadcrumb'
 import { InstallCard } from './components/InstallCard'
 import { LockModal } from './components/LockModal'
 import { Home } from './pages/Home'
@@ -37,6 +38,7 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/') return { showHome: false, showBack: false, showLock: true }
   if (pathname === '/om-appene') return { title: 'Appene', showHome: true, showBack: false }
   if (pathname === '/slik-gjor-du') return { title: 'Gjør sånn', showHome: true, showBack: false }
+  if (pathname.startsWith('/slik-gjor-du/')) return { showHome: true, showBack: false, breadcrumb: <ArticleBreadcrumb kategoriId={pathname.split('/')[2]} /> }
   if (pathname === '/opplaering') return { title: 'Se og hør', showHome: true, showBack: false }
   if (pathname.startsWith('/opplaering/videoer/')) return { showHome: true, showBack: true, backTo: '/opplaering' }
   if (pathname === '/om-appen') return { title: 'Om', showHome: true, showBack: false }
