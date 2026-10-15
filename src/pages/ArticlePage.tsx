@@ -236,7 +236,6 @@ export function ArticlePage() {
 
   const isFirstStep = activeStep === 0
   const isLastStep = activeStep === totalSteps - 1
-  const progress = ((activeStep + 1) / totalSteps) * 100
   const step = article.steg[activeStep]
   const hl = highlightActive ? toHighlight(searchQuery) : ''
 
@@ -248,19 +247,6 @@ export function ArticlePage() {
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
-      {/* Progress bar at the top – visual anchor without competing for focus. */}
-      <div className="h-1 bg-slate-200">
-        <div
-          className="h-full bg-brand-700 transition-all duration-300"
-          style={{ width: `${progress}%` }}
-          role="progressbar"
-          aria-valuenow={activeStep + 1}
-          aria-valuemin={1}
-          aria-valuemax={totalSteps}
-          aria-label={`Fremdrift: steg ${activeStep + 1} av ${totalSteps}`}
-        />
-      </div>
-
       <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
         {/* Title and lede shown only on the first step – gives more room to the
             steps later in the read. The step card below takes over as the main
@@ -323,7 +309,7 @@ export function ArticlePage() {
                   : 'bg-white border border-slate-200 text-slate-500'
               }`}
               aria-current={idx === activeStep ? 'step' : undefined}
-              aria-label={`Gå til steg ${idx + 1}`}
+              aria-label={`Gå til steg ${idx + 1} av ${totalSteps}`}
             >
               {idx + 1}
             </button>
