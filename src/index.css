@@ -16,6 +16,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Syne";
+  src: url("/fonts/SyneVariable-latin.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-brand-50: #e8eef3;
   --color-brand-100: #c5d4dd;
@@ -28,7 +36,7 @@
   --color-brand-800: #001a2c;
   --color-brand-900: #00111c;
 
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Syne", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 @layer base {
@@ -42,6 +50,8 @@
     margin: 0;
     background-color: #f8fafc;
     color: #1e293b;
+    /* Syne har gammeldagse tall som standard; «M365» skal stå på linja */
+    font-feature-settings: "lnum";
   }
 
   #root {
@@ -50,11 +60,8 @@
     flex-direction: column;
   }
 
-  /* iOS Safari zoomer inn når et inputfelt har font-size < 16px ved fokus.
-     Tving minimum 16px på touch-enheter. !important er nødvendig fordi
-     Tailwind utility-klasser (text-sm = 14px) ligger i @layer utilities som
-     vinner over @layer base. Vi godtar overstyringen – målet er kun å
-     forhindre uønsket auto-zoom på iOS. */
+  /* iOS Safari zoomer inn på felt under 16 px. !important fordi Tailwind-
+     klasser (text-sm) ligger i @layer utilities, som vinner over base. */
   @supports (-webkit-touch-callout: none) {
     input[type="search"],
     input[type="text"],
@@ -158,10 +165,8 @@
   }
 }
 
-/* React's <ViewTransition> cross-fades the routed page on navigation. The
-   browser does not respect prefers-reduced-motion for view transitions on its
-   own, so cut the animation to zero – the page still swaps, just without the
-   fade (WCAG 2.3.3). */
+/* Browsers ignore prefers-reduced-motion for view transitions; cut the
+   route cross-fade to zero (WCAG 2.3.3). */
 @media (prefers-reduced-motion: reduce) {
   ::view-transition-group(*),
   ::view-transition-old(*),
