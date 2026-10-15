@@ -90,271 +90,6 @@
     "kollapset": true
   },
   {
-    "id": "kom-i-gang",
-    "tittel": "Kom i gang",
-    "beskrivelse": "De første stegene i Microsoft 365",
-    "artikler": [
-      {
-        "id": "teams-som-arbeidsflate",
-        "tittel": "Teams: Arbeidsflaten din i M365",
-        "ingress": "Teams er ikke bare møter og chat. Det er arbeidsflaten du jobber fra.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "kom-i-gang",
-        "tags": [
-          "teams",
-          "arbeidsflate",
-          "oversikt",
-          "kom-i-gang"
-        ],
-        "steg": [
-          {
-            "tittel": "Fra møteverktøy til arbeidsflate",
-            "innhold": "I dag er Teams stedet der du jobber med filer, følger opp oppgaver, finner informasjon, fyller ut skjemaer og samarbeider. Alt uten å bytte app.\n\n**Hold deg i Teams.** Andre apper, fagsystemer eller nettleser: Bare når du trenger det."
-          },
-          {
-            "tittel": "Finn appene i venstremenyen",
-            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardknapper er **Aktivitet**, **Chat**, **Kalender** og **Anrop**. Chatter og kanaler ligger samlet under **Chat**.\n\nNyttige apper å feste i tillegg:\n\n◦ **Engage**: Internt «sosialt nettverk» for organisasjonen\n◦ **Planner**: Tavler og oppgaver\n◦ **Lists**: Strukturerte lister og oversikter\n◦ **Loop**: Levende informasjonskomponenter og delte samarbeidsrom\n◦ **Copilot**: KI-hjelp\n\nSer du ikke en app? Klikk **Vis flere apper** i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å beholde den i menyen."
-          },
-          {
-            "tittel": "Bruk faner i kanalene",
-            "innhold": "Øverst i hver kanal kan du legge til **faner**. Klikk **+** på fanelinja og velg:\n\n◦ En **Lists**-oversikt\n◦ En **Planner**-tavle\n◦ En **OneNote**-notatblokk\n◦ En **SharePoint-side**\n◦ Et **Whiteboard**\n◦ En **nettside** eller et **skjema**\n\nAlt teamet trenger er samlet på ett sted, i én kanal."
-          },
-          {
-            "tittel": "Åpne og rediger filer uten å forlate Teams",
-            "innhold": "Klikk på en Word-, Excel- eller PowerPoint-fil i Teams. Den åpnes direkte i Teams-vinduet. Du kan redigere, kommentere og samskrive uten å gå ut av Teams.\n\nEndringene lagres automatisk. Ingen nedlasting. Ingen «Lagre en kopi»-problematikk."
-          },
-          {
-            "tittel": "Når du trenger skrivebordsversjonen: Åpne i app",
-            "innhold": "Den innebygde editoren dekker det meste. Av og til trenger du skrivebordsversjonen, typisk for makroer i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp- eller bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig.\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**.\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en. Koblet til samme fil så endringene lagres på samme sted.\n\nDu kan også høyreklikke filen i en kanals **Delt**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: Når du er ferdig, lukk bare skrivebordsappen. Endringene er allerede synkronisert.*"
-          },
-          {
-            "tittel": "Én arbeidsflate som samler alt",
-            "innhold": "Mange er vant til å ha mange programmer og nettleserfaner åpne samtidig. Det kan ende opp med SharePoint her, e-post der, Planner et sted, filer et annet sted. Informasjonen spres i flere retninger enn nødvendig, og du (og andre) mister sammenhengen.\n\nNår du jobber i Teams, henger alt sammen. Kommentaren i dokumentet er synlig i kanalen, oppgaven fra møtet dukker opp i Planner, og Copilot finner innholdet fordi det ligger på riktig sted med riktige metadata."
-          }
-        ],
-        "relaterte": [
-          "teams-hierarki",
-          "fra-filserver-til-sharepoint"
-        ],
-        "endret": "2026-10-07"
-      },
-      {
-        "id": "teams-hierarki",
-        "tittel": "Hierarki og tilganger i Teams: Hvem ser hva",
-        "ingress": "Team, kanal og innhold styrer hvem som har tilgang. Gi riktig tilgang fra start.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "kom-i-gang",
-        "tags": [
-          "teams",
-          "hierarki",
-          "tilgang",
-          "kanaler",
-          "roller",
-          "deling"
-        ],
-        "steg": [
-          {
-            "tittel": "Hierarkiet: Team, kanaler, innhold",
-            "innhold": "Teams er bygd opp i tre nivåer:\n\n◦ **Team**: Øverste nivå. Samler en gruppe mennesker som jobber sammen.\n◦ **Kanal**: Et arbeidsrom i teamet for et tema eller en arbeidsflyt. Et team kan ha mange kanaler.\n◦ **Innhold**: Samtaler, filer og faner (Lists, Planner, OneNote) i en kanal.\n\nTilgang styres på team- eller kanalnivå. Innholdet arver tilgangen fra rommet det ligger i. **Medlemskap i teamet er nøkkelen til alt innholdet i standardkanalene.**"
-          },
-          {
-            "tittel": "Lagringssted bestemmer tilgang",
-            "innhold": "Hvor du legger en fil bestemmer hvem som finner den i framtiden. Ikke hvilken kanal du klikket deg inn fra:\n\n◦ **Fil i standardkanal** → felles område for teamet. Alle teammedlemmer har tilgang.\n◦ **Fil i privat eller delt kanal** → eget område. Kun for kanalmedlemmene.\n◦ **Fil i 1:1-chat eller gruppechat** → din OneDrive. Personene du chatter med får en lenke. Du eier filen.\n◦ **Opptak av et Teams-møte** → OneDrive til møtearrangøren. Opptak av kanalmøter havner i teamets felles område.\n\n**Det som skal være varig felles, hører hjemme i en kanal. Ikke i en chat.** Slutter du, kan andre miste tilgang til chat-filene."
-          },
-          {
-            "tittel": "Roller i team",
-            "innhold": "Tre roller styrer hva man kan i et team:\n\n◦ **Eier**: Administrerer medlemmer, kanaler og innstillinger. Et team bør ha minst to eiere – én er sårbart.\n◦ **Medlem**: Publiserer, oppretter og redigerer innhold. Kan ikke administrere medlemskap eller slette innhold andre eier.\n◦ **Gjest**: Ekstern bruker med begrensede rettigheter. Organisasjonen bestemmer om gjestetilgang er tillatt.\n\n*Tips: Gi rollen «Eier» bevisst. Eiere kan slette innhold og endre tilganger. Det skal være få.*"
-          },
-          {
-            "tittel": "Slik ser du hvem som har tilgang akkurat nå",
-            "innhold": "Sjekk før du legger noe sensitivt et nytt sted:\n\n◦ **For et team**: Klikk teamnavnet → tre prikker → **Administrer team** → fanen **Medlemmer**.\n◦ **For en privat eller delt kanal**: Kanalnavn → tre prikker → **Administrer kanal** → **Medlemmer**.\n◦ **For en enkelt fil**: Høyreklikk filen → **Behandle tilgang**.\n◦ **For en fil delt i chat**: OneDrive på web → finn filen → **Detaljer** → **Behandle tilgang**.\n\n*Tips: Sjekk tilgangen før du deler noe sensitivt, ikke etter.*"
-          },
-          {
-            "tittel": "Slik gir du tilgang riktig første gang",
-            "innhold": "Tre vurderinger sparer mye opprydning senere:\n\n◦ **Hva er laveste nødvendige nivå?** Hele teamet, én kanal eller én fil? Velg det laveste som dekker behovet.\n◦ **Skal innholdet være sensitivt?** Opprett en privat kanal med eget tilgangsområde i stedet for standardkanal.\n◦ **Skal eksterne ha tilgang?** Bruk delt kanal eller gjestetilgang. Fjern tilgangen når oppdraget er over.\n\nFor ekstra trygghet på enkeltfiler kan en følsomhetsetikett automatisk begrense kopiering og ekstern deling."
-          }
-        ],
-        "relaterte": [
-          "teams-som-arbeidsflate",
-          "fra-filserver-til-sharepoint",
-          "folsomhetsetiketter",
-          "kanaltyper"
-        ],
-        "endret": "2026-10-07"
-      },
-      {
-        "id": "fra-filserver-til-sharepoint",
-        "tittel": "SharePoint og OneDrive: Hvor skal filene ligge?",
-        "ingress": "SharePoint er felles, OneDrive er ditt. Ingen av dem er en filserver.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "kom-i-gang",
-        "tags": [
-          "sharepoint",
-          "onedrive",
-          "filserver",
-          "lagring",
-          "teams",
-          "deling"
-        ],
-        "steg": [
-          {
-            "tittel": "Forstå forskjellen",
-            "innhold": "**Filserveren** er mapper på en server «på huset». I M365 lagrer du i stedet på to nettbaserte steder, tilgjengelige overalt: Hjemme, på kontoret, på mobil.\n\n◦ **SharePoint**: Fellesområdet. Filer du lagrer i en Teams-kanal, ligger i SharePoint.\n◦ **OneDrive**: Din personlige lagring for kladder, utkast og filer du ikke er klar til å dele.\n\n*Tilganger i SharePoint styres av teamet eller kanalen, ikke av mappestrukturen. Filen beholder samme tilgang hvis du flytter den til en annen mappe.*"
-          },
-          {
-            "tittel": "Finn og legg til filer i Teams",
-            "innhold": "**Finn filene**: Åpne kanalen i Teams og klikk på **Delt**-fanen øverst. Her ligger alle filer som tilhører kanalen.\n\n**Last opp**: Klikk **Last opp** i Delt-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint.\n\n*NB: Fanen som viser mapper og filer i Engage-fellesskap heter «Filer».*"
-          },
-          {
-            "tittel": "Bruk OneDrive til eget arbeid",
-            "innhold": "Klikk **OneDrive** i venstremenyen i Teams. Klikk **Vis flere apper** og fest OneDrive til menyen hvis du ikke ser den.\n\n*OneDrive er knyttet til deg som ansatt. Du mister tilgangen når du slutter. Organisasjonskritisk innhold hører hjemme på fellesområdet.*"
-          },
-          {
-            "tittel": "Flytt filer til Teams når de skal deles",
-            "innhold": "Har du en fil i OneDrive som skal inn i en kanal? Åpne filen, klikk **Flytt til** og velg riktig Teams-kanal. Kanalens medlemmer får tilgang umiddelbart."
-          },
-          {
-            "tittel": "Del lenke, ikke vedlegg",
-            "innhold": "I stedet for å sende filen som vedlegg på e-post: Høyreklikk filen i Teams og velg **Kopier kobling**. Lim lenken inn i e-posten.\n\nAlle ser alltid siste versjon. Det finnes bare én fil, ikke ti kopier i like mange innbokser."
-          }
-        ],
-        "relaterte": [
-          "teams-som-arbeidsflate",
-          "teams-hierarki",
-          "vise-redigere-kommentere",
-          "versjonshistorikk"
-        ],
-        "endret": "2026-10-15"
-      },
-      {
-        "id": "vise-redigere-kommentere",
-        "tittel": "Vise, redigere eller kommentere: Riktig deling",
-        "ingress": "Du velger hvilken tilgang mottakeren får.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "kom-i-gang",
-        "tags": [
-          "deling",
-          "rettigheter",
-          "tilgang",
-          "samarbeid"
-        ],
-        "steg": [
-          {
-            "tittel": "Tre rettighetstyper",
-            "innhold": "Når du klikker **Del** i Word, Excel, PowerPoint eller fra et SharePoint-bibliotek, kan du velge mellom tre nivåer:\n\n◦ **Kan vise**: Leser dokumentet, kan ikke endre noe\n◦ **Kan se gjennom**: Kan legge til kommentarer og forslag, men ikke endre selve teksten (bare i Word)\n◦ **Kan redigere**: Kan skrive, slette og samskrive i sanntid\n\nI en Teams-kanal har medlemmer redigeringstilgang automatisk via medlemskapet. Når du deler en lenke utad, velger du selv rettighet."
-          },
-          {
-            "tittel": "Når bruker du hva?",
-            "innhold": "◦ **Vi jobber sammen om innholdet** → Kan redigere\n◦ **Mottakeren skal kun ha innsyn** → Kan vise\n◦ **Høringsrunde eller kvalitetssikring** → Kan se gjennom\n◦ **Mottakeren skal bidra med innspill, ikke endre** → Kan se gjennom\n◦ **Ferdig dokument til orientering** → Kan vise\n\n**Kan se gjennom** er undervurdert. Særlig nyttig når mange skal gi innspill uten å forstyrre hovedteksten."
-          },
-          {
-            "tittel": "Tilleggskontroller for sensitive filer",
-            "innhold": "Klikk **Koblingsinnstillinger** i delingsdialogen for flere kontroller:\n\n◦ **Blokker nedlasting**: Mottakeren kan lese, men ikke laste ned. Reduserer kopier på avveie. (Skjermbilder kan tas uansett.)\n◦ **Angi utløpsdato**: Tilgangen forsvinner automatisk på en gitt dato. Nyttig for innspillsrunder og eksterne samarbeid.\n◦ **Velg hvem koblingen gjelder for**: Bestemte personer eller personer i organisasjonen. Da gir ikke videresending uvedkommende tilgang.\n\nGratis sikkerhetsgevinster. Bruk dem aktivt."
-          },
-          {
-            "tittel": "Den farligste delingstypen: «hvem som helst med lenken»",
-            "innhold": "Når du deler en fil, kan du velge **«Hvem som helst med lenken»**. Da fungerer lenken for alle som får den, også de som videresender den.\n\n**Unngå dette internt.** Du mister oversikt over hvem som har tilgang, og lenken kan spre seg uten kontroll.\n\nVelg i stedet:\n\n◦ **Personer i organisasjonen**: Alle innloggede brukere i organisasjonen\n◦ **Bestemte personer**: Navngitte mottakere\n◦ **Personer med eksisterende tilgang**: Kun de som allerede er med i teamet eller kanalen\n\n*Du vet hvem som ser hva, og kan trekke tilbake tilgang når noe endrer seg.*"
-          },
-          {
-            "tittel": "Del på riktig sted, ikke bare med riktig rettighet",
-            "innhold": "Rettigheten er kun én del av god deling. Det viktigste er **hvor filen ligger**:\n\n◦ Skal flere bruke filen jevnlig? Den hører hjemme i en **Teams-kanal**.\n◦ Engangstilfelle eller midlertidig innspill? **OneDrive-deling** med navngitt person kan fungere.\n◦ Skal hele organisasjonen ha innsyn? Bruk en **SharePoint-side** eller hub.\n\nFlytt filen før du deler den. Da følger tilgangen jobben, ikke deg som person."
-          }
-        ],
-        "relaterte": [
-          "teams-hierarki",
-          "folsomhetsetiketter",
-          "fra-filserver-til-sharepoint"
-        ],
-        "endret": "2026-10-07"
-      },
-      {
-        "id": "versjonshistorikk",
-        "tittel": "Finn tilbake til en tidligere versjon",
-        "ingress": "M365 lagrer hver versjon. Du ser hvem som endret hva, når, og kan rulle tilbake.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "kom-i-gang",
-        "tags": [
-          "versjon",
-          "historikk",
-          "angre"
-        ],
-        "alias": [
-          "version history"
-        ],
-        "steg": [
-          {
-            "tittel": "Filen må ligge i Teams eller OneDrive",
-            "innhold": "Versjonering fungerer for filer i SharePoint (via Teams) eller OneDrive. Ikke for filer som ligger lokalt på PC-en. Én god grunn til alltid å lagre i Teams.\n\n*Filer du har synkronisert fra OneDrive til PC-en har fortsatt versjonshistorikk. Det er lagringsstedet i skyen som teller.*"
-          },
-          {
-            "tittel": "Klikk på filnavnet øverst",
-            "innhold": "Åpne filen direkte i Teams. Klikk på dokumentnavnet i tittellinja øverst i Word, Excel eller PowerPoint. En meny åpnes."
-          },
-          {
-            "tittel": "Velg Versjonslogg",
-            "innhold": "Klikk **Versjonslogg** i menyen. Du ser alle lagrede versjoner med dato og hvem som redigerte."
-          },
-          {
-            "tittel": "Gjenopprett ønsket versjon",
-            "innhold": "Klikk på en versjon for å åpne den. Klikk deretter **Gjenopprett** for å gjøre den til gjeldende versjon.\n\nDen gamle versjonen forsvinner ikke. Den legger seg som en ny versjon i loggen."
-          }
-        ],
-        "relaterte": [
-          "fra-filserver-til-sharepoint",
-          "rydd-teknikker"
-        ]
-      },
-      {
-        "id": "folsomhetsetiketter",
-        "tittel": "Følsomhetsetiketter: Slik klassifiserer du innhold",
-        "ingress": "Etiketten forteller M365 hvor sensitivt noe er, og styrer automatisk hvordan det kan deles.",
-        "oppdatert": "Oppdatert: 03.06.26",
-        "kategori": "kom-i-gang",
-        "tags": [
-          "følsomhetsetiketter",
-          "etikettering",
-          "klassifisering",
-          "sikkerhet",
-          "deling",
-          "policyer"
-        ],
-        "alias": [
-          "sensitivity labels",
-          "MIP",
-          "informasjonsbeskyttelse"
-        ],
-        "steg": [
-          {
-            "tittel": "Hva er en følsomhetsetikett?",
-            "innhold": "En **følsomhetsetikett** er en merkelapp du f.eks. setter på dokumenter og e-post. Den forteller M365 hvor sensitivt innholdet er, og hvilke regler som gjelder for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n◦ **Åpent**: Kan deles fritt\n◦ **Internt**: Kun for ansatte\n◦ **Sensitivt**: Kun for utvalgte mottakere\n◦ **Ekstra sensitivt**: Kryptert, kun navngitte personer\n\nEtikettene er definert på organisasjonsnivå og gjelder på tvers av alle dokumenter, filer og annet innhold i M365. Navnene på følsomhetsetikettene kan se annerledes ut i organisasjonen du jobber i."
-          },
-          {
-            "tittel": "Klassifisere et dokument",
-            "innhold": "I Word, Excel og PowerPoint:\n\n1. Klikk **Følsomhet** i båndmenyen øverst (eller i statuslinjen nederst).\n2. Velg riktig etikett fra listen.\n3. Etiketten lagres med dokumentet, også når det deles eller flyttes.\n\nI Outlook setter du etiketten på e-posten **før du sender**. I Teams kan etiketten settes på selve teamet når det opprettes. Det styrer deling, gjestetilgang og hvor filer kan lagres."
-          },
-          {
-            "tittel": "Hva etiketten styrer",
-            "innhold": "Følsomhetsetiketter aktiverer automatiske kontroller:\n\n◦ **Tilgang**: Hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n◦ **Kryptering**: Innholdet låses og kan kun leses av de med riktig nøkkel\n◦ **Vannmerker**: Tekstmerking på utskrift og skjerm («Sensitivt, *navn*»)\n◦ **Nedlastingsregler**: Om dokumentet kan lastes ned eller bare leses i nettleseren\n◦ **Topptekst og bunntekst**: Automatisk klassifiseringsmerking\n◦ **Eksterne grenser**: Om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske reglene. Etiketten gjør det rette automatisk."
-          },
-          {
-            "tittel": "DLP: Beskytte mot utilsiktet deling",
-            "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n◦ Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n◦ Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n◦ Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt. Du møter dem som varsler eller hindringer når noe ikke skal skje. En sikkerhetsmekanisme, ikke en mistillit til deg."
-          },
-          {
-            "tittel": "Klassifiser før du deler",
-            "innhold": "Som regel: **klassifiser dokumentet før du deler**.\n\nNytt dokument? Sett etiketten med en gang. Det er enklere å huske, og det hindrer at sensitiv informasjon havner på avveie.\n\nArver du et dokument uten etikett, vurder hva det inneholder før du videresender. Den enkleste regelen: **er du i tvil, velg en strengere etikett**. Det er lettere å løsne på senere enn å trekke tilbake noe som er lekket."
-          }
-        ],
-        "relaterte": [
-          "teams-hierarki",
-          "vise-redigere-kommentere"
-        ],
-        "endret": "2026-06-05"
-      }
-    ],
-    "kollapset": true
-  },
-  {
     "id": "clipchamp",
     "tittel": "Clipchamp",
     "beskrivelse": "Video i Microsoft 365: Opptak, redigering, transkripsjon og deling.",
@@ -864,10 +599,186 @@
     ]
   },
   {
+    "id": "purview",
+    "tittel": "Purview",
+    "beskrivelse": "Følsomhetsetiketter og beskyttelse mot utilsiktet deling",
+    "artikler": [
+      {
+        "id": "folsomhetsetiketter",
+        "tittel": "Følsomhetsetiketter: Slik klassifiserer du innhold",
+        "ingress": "Etiketten forteller M365 hvor sensitivt noe er, og styrer automatisk hvordan det kan deles.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "purview",
+        "tags": [
+          "følsomhetsetiketter",
+          "etikettering",
+          "klassifisering",
+          "sikkerhet",
+          "deling",
+          "policyer"
+        ],
+        "alias": [
+          "sensitivity labels",
+          "MIP",
+          "informasjonsbeskyttelse"
+        ],
+        "steg": [
+          {
+            "tittel": "Hva er en følsomhetsetikett?",
+            "innhold": "En **følsomhetsetikett** er en merkelapp du f.eks. setter på dokumenter og e-post. Den forteller M365 hvor sensitivt innholdet er, og hvilke regler som gjelder for deling, nedlasting og kryptering.\n\nTypiske etiketter i en organisasjon:\n\n◦ **Åpent**: Kan deles fritt\n◦ **Internt**: Kun for ansatte\n◦ **Sensitivt**: Kun for utvalgte mottakere\n◦ **Ekstra sensitivt**: Kryptert, kun navngitte personer\n\nEtikettene er definert på organisasjonsnivå og gjelder på tvers av alle dokumenter, filer og annet innhold i M365. Navnene på følsomhetsetikettene kan se annerledes ut i organisasjonen du jobber i."
+          },
+          {
+            "tittel": "Klassifisere et dokument",
+            "innhold": "I Word, Excel og PowerPoint:\n\n1. Klikk **Følsomhet** i båndmenyen øverst (eller i statuslinjen nederst).\n2. Velg riktig etikett fra listen.\n3. Etiketten lagres med dokumentet, også når det deles eller flyttes.\n\nI Outlook setter du etiketten på e-posten **før du sender**. I Teams kan etiketten settes på selve teamet når det opprettes. Det styrer deling, gjestetilgang og hvor filer kan lagres."
+          },
+          {
+            "tittel": "Hva etiketten styrer",
+            "innhold": "Følsomhetsetiketter aktiverer automatiske kontroller:\n\n◦ **Tilgang**: Hvem som kan åpne dokumentet (alle, kun ansatte, kun navngitte personer)\n◦ **Kryptering**: Innholdet låses og kan kun leses av de med riktig nøkkel\n◦ **Vannmerker**: Tekstmerking på utskrift og skjerm («Sensitivt, *navn*»)\n◦ **Nedlastingsregler**: Om dokumentet kan lastes ned eller bare leses i nettleseren\n◦ **Topptekst og bunntekst**: Automatisk klassifiseringsmerking\n◦ **Eksterne grenser**: Om dokumentet kan deles utenfor organisasjonen\n\nDu trenger ikke huske reglene. Etiketten gjør det rette automatisk."
+          },
+          {
+            "tittel": "DLP: Beskytte mot utilsiktet deling",
+            "innhold": "**DLP** (Data Loss Prevention) er regler som overvåker hva som deles fra OneDrive, Teams, SharePoint og e-post. Reglene bruker etiketter og innholdsmønstre (fødselsnummer, kredittkortnummer) for å oppdage sensitiv informasjon.\n\nEksempler på hva DLP gjør:\n\n◦ Stopper en e-post som inneholder fødselsnummer fra å sendes til eksterne\n◦ Varsler deg når du prøver å dele en sensitiv fil med «hvem som helst»\n◦ Blokkerer nedlasting av ekstra sensitive dokumenter til usikre enheter\n\nReglene er satt opp sentralt. Du møter dem som varsler eller hindringer når noe ikke skal skje. En sikkerhetsmekanisme, ikke en mistillit til deg."
+          },
+          {
+            "tittel": "Klassifiser før du deler",
+            "innhold": "Som regel: **klassifiser dokumentet før du deler**.\n\nNytt dokument? Sett etiketten med en gang. Det er enklere å huske, og det hindrer at sensitiv informasjon havner på avveie.\n\nArver du et dokument uten etikett, vurder hva det inneholder før du videresender. Den enkleste regelen: **er du i tvil, velg en strengere etikett**. Det er lettere å løsne på senere enn å trekke tilbake noe som er lekket."
+          }
+        ],
+        "relaterte": [
+          "teams-hierarki",
+          "vise-redigere-kommentere"
+        ],
+        "endret": "2026-06-05"
+      }
+    ]
+  },
+  {
     "id": "sharepoint",
     "tittel": "SharePoint",
-    "beskrivelse": "Områder, sider og automatisering",
+    "beskrivelse": "Lagring, deling, metadata og automatisering",
     "artikler": [
+      {
+        "id": "fra-filserver-til-sharepoint",
+        "tittel": "SharePoint og OneDrive: Hvor skal filene ligge?",
+        "ingress": "SharePoint er felles, OneDrive er ditt. Ingen av dem er en filserver.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "sharepoint",
+        "tags": [
+          "sharepoint",
+          "onedrive",
+          "filserver",
+          "lagring",
+          "teams",
+          "deling"
+        ],
+        "steg": [
+          {
+            "tittel": "Forstå forskjellen",
+            "innhold": "**Filserveren** er mapper på en server «på huset». I M365 lagrer du i stedet på to nettbaserte steder, tilgjengelige overalt: Hjemme, på kontoret, på mobil.\n\n◦ **SharePoint**: Fellesområdet. Filer du lagrer i en Teams-kanal, ligger i SharePoint.\n◦ **OneDrive**: Din personlige lagring for kladder, utkast og filer du ikke er klar til å dele.\n\n*Tilganger i SharePoint styres av teamet eller kanalen, ikke av mappestrukturen. Filen beholder samme tilgang hvis du flytter den til en annen mappe.*"
+          },
+          {
+            "tittel": "Finn og legg til filer i Teams",
+            "innhold": "**Finn filene**: Åpne kanalen i Teams og klikk på **Delt**-fanen øverst. Her ligger alle filer som tilhører kanalen.\n\n**Last opp**: Klikk **Last opp** i Delt-fanen, eller dra en fil rett inn i Teams-vinduet. Filen lagres direkte i SharePoint.\n\n*NB: Fanen som viser mapper og filer i Engage-fellesskap heter «Filer».*"
+          },
+          {
+            "tittel": "Bruk OneDrive til eget arbeid",
+            "innhold": "Klikk **OneDrive** i venstremenyen i Teams. Klikk **Vis flere apper** og fest OneDrive til menyen hvis du ikke ser den.\n\n*OneDrive er knyttet til deg som ansatt. Du mister tilgangen når du slutter. Organisasjonskritisk innhold hører hjemme på fellesområdet.*"
+          },
+          {
+            "tittel": "Flytt filer til Teams når de skal deles",
+            "innhold": "Har du en fil i OneDrive som skal inn i en kanal? Åpne filen, klikk **Flytt til** og velg riktig Teams-kanal. Kanalens medlemmer får tilgang umiddelbart."
+          },
+          {
+            "tittel": "Del lenke, ikke vedlegg",
+            "innhold": "I stedet for å sende filen som vedlegg på e-post: Høyreklikk filen i Teams og velg **Kopier kobling**. Lim lenken inn i e-posten.\n\nAlle ser alltid siste versjon. Det finnes bare én fil, ikke ti kopier i like mange innbokser."
+          }
+        ],
+        "relaterte": [
+          "teams-som-arbeidsflate",
+          "teams-hierarki",
+          "vise-redigere-kommentere",
+          "versjonshistorikk"
+        ],
+        "endret": "2026-10-15"
+      },
+      {
+        "id": "vise-redigere-kommentere",
+        "tittel": "Vise, redigere eller kommentere: Riktig deling",
+        "ingress": "Du velger hvilken tilgang mottakeren får.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "sharepoint",
+        "tags": [
+          "deling",
+          "rettigheter",
+          "tilgang",
+          "samarbeid"
+        ],
+        "steg": [
+          {
+            "tittel": "Tre rettighetstyper",
+            "innhold": "Når du klikker **Del** i Word, Excel, PowerPoint eller fra et SharePoint-bibliotek, kan du velge mellom tre nivåer:\n\n◦ **Kan vise**: Leser dokumentet, kan ikke endre noe\n◦ **Kan se gjennom**: Kan legge til kommentarer og forslag, men ikke endre selve teksten (bare i Word)\n◦ **Kan redigere**: Kan skrive, slette og samskrive i sanntid\n\nI en Teams-kanal har medlemmer redigeringstilgang automatisk via medlemskapet. Når du deler en lenke utad, velger du selv rettighet."
+          },
+          {
+            "tittel": "Når bruker du hva?",
+            "innhold": "◦ **Vi jobber sammen om innholdet** → Kan redigere\n◦ **Mottakeren skal kun ha innsyn** → Kan vise\n◦ **Høringsrunde eller kvalitetssikring** → Kan se gjennom\n◦ **Mottakeren skal bidra med innspill, ikke endre** → Kan se gjennom\n◦ **Ferdig dokument til orientering** → Kan vise\n\n**Kan se gjennom** er undervurdert. Særlig nyttig når mange skal gi innspill uten å forstyrre hovedteksten."
+          },
+          {
+            "tittel": "Tilleggskontroller for sensitive filer",
+            "innhold": "Klikk **Koblingsinnstillinger** i delingsdialogen for flere kontroller:\n\n◦ **Blokker nedlasting**: Mottakeren kan lese, men ikke laste ned. Reduserer kopier på avveie. (Skjermbilder kan tas uansett.)\n◦ **Angi utløpsdato**: Tilgangen forsvinner automatisk på en gitt dato. Nyttig for innspillsrunder og eksterne samarbeid.\n◦ **Velg hvem koblingen gjelder for**: Bestemte personer eller personer i organisasjonen. Da gir ikke videresending uvedkommende tilgang.\n\nGratis sikkerhetsgevinster. Bruk dem aktivt."
+          },
+          {
+            "tittel": "Den farligste delingstypen: «hvem som helst med lenken»",
+            "innhold": "Når du deler en fil, kan du velge **«Hvem som helst med lenken»**. Da fungerer lenken for alle som får den, også de som videresender den.\n\n**Unngå dette internt.** Du mister oversikt over hvem som har tilgang, og lenken kan spre seg uten kontroll.\n\nVelg i stedet:\n\n◦ **Personer i organisasjonen**: Alle innloggede brukere i organisasjonen\n◦ **Bestemte personer**: Navngitte mottakere\n◦ **Personer med eksisterende tilgang**: Kun de som allerede er med i teamet eller kanalen\n\n*Du vet hvem som ser hva, og kan trekke tilbake tilgang når noe endrer seg.*"
+          },
+          {
+            "tittel": "Del på riktig sted, ikke bare med riktig rettighet",
+            "innhold": "Rettigheten er kun én del av god deling. Det viktigste er **hvor filen ligger**:\n\n◦ Skal flere bruke filen jevnlig? Den hører hjemme i en **Teams-kanal**.\n◦ Engangstilfelle eller midlertidig innspill? **OneDrive-deling** med navngitt person kan fungere.\n◦ Skal hele organisasjonen ha innsyn? Bruk en **SharePoint-side** eller hub.\n\nFlytt filen før du deler den. Da følger tilgangen jobben, ikke deg som person."
+          }
+        ],
+        "relaterte": [
+          "teams-hierarki",
+          "folsomhetsetiketter",
+          "fra-filserver-til-sharepoint"
+        ],
+        "endret": "2026-10-07"
+      },
+      {
+        "id": "versjonshistorikk",
+        "tittel": "Finn tilbake til en tidligere versjon",
+        "ingress": "M365 lagrer hver versjon. Du ser hvem som endret hva, når, og kan rulle tilbake.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "sharepoint",
+        "tags": [
+          "versjon",
+          "historikk",
+          "angre"
+        ],
+        "alias": [
+          "version history"
+        ],
+        "steg": [
+          {
+            "tittel": "Filen må ligge i Teams eller OneDrive",
+            "innhold": "Versjonering fungerer for filer i SharePoint (via Teams) eller OneDrive. Ikke for filer som ligger lokalt på PC-en. Én god grunn til alltid å lagre i Teams.\n\n*Filer du har synkronisert fra OneDrive til PC-en har fortsatt versjonshistorikk. Det er lagringsstedet i skyen som teller.*"
+          },
+          {
+            "tittel": "Klikk på filnavnet øverst",
+            "innhold": "Åpne filen direkte i Teams. Klikk på dokumentnavnet i tittellinja øverst i Word, Excel eller PowerPoint. En meny åpnes."
+          },
+          {
+            "tittel": "Velg Versjonslogg",
+            "innhold": "Klikk **Versjonslogg** i menyen. Du ser alle lagrede versjoner med dato og hvem som redigerte."
+          },
+          {
+            "tittel": "Gjenopprett ønsket versjon",
+            "innhold": "Klikk på en versjon for å åpne den. Klikk deretter **Gjenopprett** for å gjøre den til gjeldende versjon.\n\nDen gamle versjonen forsvinner ikke. Den legger seg som en ny versjon i loggen."
+          }
+        ],
+        "relaterte": [
+          "fra-filserver-til-sharepoint",
+          "rydd-teknikker"
+        ]
+      },
       {
         "id": "sharepoint-dokumentbehandling-ki",
         "tittel": "Dokumentbehandling med KI: Autofyll, oversettelse og signering",
@@ -1062,6 +973,94 @@
     "tittel": "Teams",
     "beskrivelse": "Chat, kanaler, møter og filer",
     "artikler": [
+      {
+        "id": "teams-som-arbeidsflate",
+        "tittel": "Teams: Arbeidsflaten din i M365",
+        "ingress": "Teams er ikke bare møter og chat. Det er arbeidsflaten du jobber fra.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "teams",
+        "tags": [
+          "teams",
+          "arbeidsflate",
+          "oversikt",
+          "kom-i-gang"
+        ],
+        "steg": [
+          {
+            "tittel": "Fra møteverktøy til arbeidsflate",
+            "innhold": "I dag er Teams stedet der du jobber med filer, følger opp oppgaver, finner informasjon, fyller ut skjemaer og samarbeider. Alt uten å bytte app.\n\n**Hold deg i Teams.** Andre apper, fagsystemer eller nettleser: Bare når du trenger det."
+          },
+          {
+            "tittel": "Finn appene i venstremenyen",
+            "innhold": "Venstremenyen i Teams er din inngangsdør til M365. Vanlige standardknapper er **Aktivitet**, **Chat**, **Kalender** og **Anrop**. Chatter og kanaler ligger samlet under **Chat**.\n\nNyttige apper å feste i tillegg:\n\n◦ **Engage**: Internt «sosialt nettverk» for organisasjonen\n◦ **Planner**: Tavler og oppgaver\n◦ **Lists**: Strukturerte lister og oversikter\n◦ **Loop**: Levende informasjonskomponenter og delte samarbeidsrom\n◦ **Copilot**: KI-hjelp\n\nSer du ikke en app? Klikk **Vis flere apper** i venstremenyen og søk opp den du trenger. Høyreklikk og velg **Fest** for å beholde den i menyen."
+          },
+          {
+            "tittel": "Bruk faner i kanalene",
+            "innhold": "Øverst i hver kanal kan du legge til **faner**. Klikk **+** på fanelinja og velg:\n\n◦ En **Lists**-oversikt\n◦ En **Planner**-tavle\n◦ En **OneNote**-notatblokk\n◦ En **SharePoint-side**\n◦ Et **Whiteboard**\n◦ En **nettside** eller et **skjema**\n\nAlt teamet trenger er samlet på ett sted, i én kanal."
+          },
+          {
+            "tittel": "Åpne og rediger filer uten å forlate Teams",
+            "innhold": "Klikk på en Word-, Excel- eller PowerPoint-fil i Teams. Den åpnes direkte i Teams-vinduet. Du kan redigere, kommentere og samskrive uten å gå ut av Teams.\n\nEndringene lagres automatisk. Ingen nedlasting. Ingen «Lagre en kopi»-problematikk."
+          },
+          {
+            "tittel": "Når du trenger skrivebordsversjonen: Åpne i app",
+            "innhold": "Den innebygde editoren dekker det meste. Av og til trenger du skrivebordsversjonen, typisk for makroer i Excel, avanserte pivottabeller, eller Word med komplekse maler, spalter og topp- eller bunntekst.\n\nSlik åpner du filen i skrivebordsappen:\n\n1. Åpne filen i Teams som vanlig.\n2. Klikk **...** (mer-menyen) i verktøylinja øverst → **Åpne i** → **Åpne i skrivebordsapp**.\n3. Filen åpnes i Word, Excel eller PowerPoint på PC-en. Koblet til samme fil så endringene lagres på samme sted.\n\nDu kan også høyreklikke filen i en kanals **Delt**-fane → **Åpne** → **Åpne i app**.\n\n*Tips: Når du er ferdig, lukk bare skrivebordsappen. Endringene er allerede synkronisert.*"
+          },
+          {
+            "tittel": "Én arbeidsflate som samler alt",
+            "innhold": "Mange er vant til å ha mange programmer og nettleserfaner åpne samtidig. Det kan ende opp med SharePoint her, e-post der, Planner et sted, filer et annet sted. Informasjonen spres i flere retninger enn nødvendig, og du (og andre) mister sammenhengen.\n\nNår du jobber i Teams, henger alt sammen. Kommentaren i dokumentet er synlig i kanalen, oppgaven fra møtet dukker opp i Planner, og Copilot finner innholdet fordi det ligger på riktig sted med riktige metadata."
+          }
+        ],
+        "relaterte": [
+          "teams-hierarki",
+          "fra-filserver-til-sharepoint"
+        ],
+        "endret": "2026-10-07"
+      },
+      {
+        "id": "teams-hierarki",
+        "tittel": "Hierarki og tilganger i Teams: Hvem ser hva",
+        "ingress": "Team, kanal og innhold styrer hvem som har tilgang. Gi riktig tilgang fra start.",
+        "oppdatert": "Oppdatert: 03.06.26",
+        "kategori": "teams",
+        "tags": [
+          "teams",
+          "hierarki",
+          "tilgang",
+          "kanaler",
+          "roller",
+          "deling"
+        ],
+        "steg": [
+          {
+            "tittel": "Hierarkiet: Team, kanaler, innhold",
+            "innhold": "Teams er bygd opp i tre nivåer:\n\n◦ **Team**: Øverste nivå. Samler en gruppe mennesker som jobber sammen.\n◦ **Kanal**: Et arbeidsrom i teamet for et tema eller en arbeidsflyt. Et team kan ha mange kanaler.\n◦ **Innhold**: Samtaler, filer og faner (Lists, Planner, OneNote) i en kanal.\n\nTilgang styres på team- eller kanalnivå. Innholdet arver tilgangen fra rommet det ligger i. **Medlemskap i teamet er nøkkelen til alt innholdet i standardkanalene.**"
+          },
+          {
+            "tittel": "Lagringssted bestemmer tilgang",
+            "innhold": "Hvor du legger en fil bestemmer hvem som finner den i framtiden. Ikke hvilken kanal du klikket deg inn fra:\n\n◦ **Fil i standardkanal** → felles område for teamet. Alle teammedlemmer har tilgang.\n◦ **Fil i privat eller delt kanal** → eget område. Kun for kanalmedlemmene.\n◦ **Fil i 1:1-chat eller gruppechat** → din OneDrive. Personene du chatter med får en lenke. Du eier filen.\n◦ **Opptak av et Teams-møte** → OneDrive til møtearrangøren. Opptak av kanalmøter havner i teamets felles område.\n\n**Det som skal være varig felles, hører hjemme i en kanal. Ikke i en chat.** Slutter du, kan andre miste tilgang til chat-filene."
+          },
+          {
+            "tittel": "Roller i team",
+            "innhold": "Tre roller styrer hva man kan i et team:\n\n◦ **Eier**: Administrerer medlemmer, kanaler og innstillinger. Et team bør ha minst to eiere – én er sårbart.\n◦ **Medlem**: Publiserer, oppretter og redigerer innhold. Kan ikke administrere medlemskap eller slette innhold andre eier.\n◦ **Gjest**: Ekstern bruker med begrensede rettigheter. Organisasjonen bestemmer om gjestetilgang er tillatt.\n\n*Tips: Gi rollen «Eier» bevisst. Eiere kan slette innhold og endre tilganger. Det skal være få.*"
+          },
+          {
+            "tittel": "Slik ser du hvem som har tilgang akkurat nå",
+            "innhold": "Sjekk før du legger noe sensitivt et nytt sted:\n\n◦ **For et team**: Klikk teamnavnet → tre prikker → **Administrer team** → fanen **Medlemmer**.\n◦ **For en privat eller delt kanal**: Kanalnavn → tre prikker → **Administrer kanal** → **Medlemmer**.\n◦ **For en enkelt fil**: Høyreklikk filen → **Behandle tilgang**.\n◦ **For en fil delt i chat**: OneDrive på web → finn filen → **Detaljer** → **Behandle tilgang**.\n\n*Tips: Sjekk tilgangen før du deler noe sensitivt, ikke etter.*"
+          },
+          {
+            "tittel": "Slik gir du tilgang riktig første gang",
+            "innhold": "Tre vurderinger sparer mye opprydning senere:\n\n◦ **Hva er laveste nødvendige nivå?** Hele teamet, én kanal eller én fil? Velg det laveste som dekker behovet.\n◦ **Skal innholdet være sensitivt?** Opprett en privat kanal med eget tilgangsområde i stedet for standardkanal.\n◦ **Skal eksterne ha tilgang?** Bruk delt kanal eller gjestetilgang. Fjern tilgangen når oppdraget er over.\n\nFor ekstra trygghet på enkeltfiler kan en følsomhetsetikett automatisk begrense kopiering og ekstern deling."
+          }
+        ],
+        "relaterte": [
+          "teams-som-arbeidsflate",
+          "fra-filserver-til-sharepoint",
+          "folsomhetsetiketter",
+          "kanaltyper"
+        ],
+        "endret": "2026-10-07"
+      },
       {
         "id": "chat-vs-kanal",
         "tittel": "Chat eller kanal: Når bruker du hva?",
