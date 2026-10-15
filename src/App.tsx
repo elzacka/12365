@@ -37,7 +37,6 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/') return { showHome: false, showBack: false, showLock: true }
   if (pathname === '/om-appene') return { title: 'Appene', showHome: true, showBack: false }
   if (pathname === '/slik-gjor-du') return { title: 'Gjør sånn', showHome: true, showBack: false }
-  if (pathname.startsWith('/slik-gjor-du/')) return { showHome: true, showBack: true, backTo: '/slik-gjor-du' }
   if (pathname === '/opplaering') return { title: 'Se og hør', showHome: true, showBack: false }
   if (pathname.startsWith('/opplaering/videoer/')) return { showHome: true, showBack: true, backTo: '/opplaering' }
   if (pathname === '/om-appen') return { title: 'Om', showHome: true, showBack: false }
