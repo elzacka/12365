@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { InstallLine } from '../components/InstallLine'
 import { AppsIcon, SchoolIcon, BookIcon, JukselappIcon, Stack2Icon, InfoSquareIcon } from '../components/Icons'
 
 interface NavCardProps {
@@ -23,9 +24,10 @@ function NavCard({ to, icon, title }: NavCardProps) {
 
 export function Home() {
   return (
-    <main className="flex-1 bg-slate-50 px-4 pt-10 pb-8">
+    <main className="flex-1 bg-slate-50 pb-8">
       <h1 className="sr-only">1-2-365</h1>
-      <div className="max-w-md mx-auto grid grid-cols-2 gap-3">
+      <InstallLine />
+      <div className="max-w-md mx-auto grid grid-cols-2 gap-3 px-4 pt-10">
         <NavCard to="/om-appene" icon={<AppsIcon size={40} />} title="Appene" />
         <NavCard to="/opplaering" icon={<SchoolIcon size={40} />} title="Se og hør" />
         <NavCard to="/slik-gjor-du" icon={<BookIcon size={40} />} title="Gjør sånn" />

@@ -6,10 +6,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 // Repoet ligger på elzacka.github.io/12365/, så bygget må prefikse alle assets.
 const base = '/12365/'
 
-// Innholdspolicy for produksjonsbygget. Dev-serveren slipper denne fordi Vite
-// trenger inline-skript for HMR. CSP-en gir defense-in-depth og hjelper
-// nettlesere (særlig Samsung Internet og andre Android-lesere) å gjenkjenne
-// appen som «trygg å installere» fremfor å vise generiske advarsler.
+// Production only (HMR needs inline scripts). Defence in depth, and Samsung
+// Internet and other Android browsers then treat the app as safe to install.
 const productionCsp = [
   "default-src 'self'",
   "script-src 'self'",
@@ -61,7 +59,7 @@ export default defineConfig({
         id: base,
         name: '1-2-365',
         short_name: '1-2-365',
-        description: 'Forstå og utnytte mulighetene i Microsoft 365 — appoversikt, veiledninger og lisenssammenligning.',
+        description: 'Slå opp, lær og få mer ut av Microsoft 365',
         lang: 'nb',
         dir: 'ltr',
         start_url: base,
@@ -74,7 +72,7 @@ export default defineConfig({
         launch_handler: {
           client_mode: 'navigate-existing',
         },
-        theme_color: '#00263e',
+        theme_color: '#ffffff',
         background_color: '#f8fafc',
         categories: ['education', 'productivity'],
         prefer_related_applications: false,

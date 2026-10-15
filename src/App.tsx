@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-route
 import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
 import { ArticleBreadcrumb } from './components/ArticleBreadcrumb'
-import { InstallCard } from './components/InstallCard'
 import { LockModal } from './components/LockModal'
 import { Home } from './pages/Home'
 import { AboutApps } from './pages/AboutApps'
@@ -86,7 +85,6 @@ function AppRoutes() {
         </Suspense>
       </ViewTransition>
       {lockOpen && <LockModal onClose={() => setLockOpen(false)} />}
-      <InstallCard />
     </div>
   )
 }

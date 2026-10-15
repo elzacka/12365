@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-Oppdatert: 25.08.26
+Oppdatert: 15.10.26
 
 ## Kort oppsummert
 
@@ -9,7 +9,7 @@ Oppdatert: 25.08.26
 ## Hva som lagres
 
 - Appens filer (HTML, JavaScript, CSS, ikoner og innhold): Lagres lokalt via en Service Worker, slik at appen fungerer offline. Sendes aldri videre.
-- Noen verdier i nettleseren din (localStorage): Om du har lukket installeringsbanneret, hva du har sett i appen, og en eventuell passordfrase for skjult innhold. Ingenting av dette kan identifisere deg.
+- Noen verdier i nettleseren din (localStorage): Hva du har sett i appen, og en eventuell passordfrase for skjult innhold. Ingenting av dette kan identifisere deg.
 
 Alt dette ligger kun på din enhet.
 
