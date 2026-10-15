@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useAuth } from '../auth/useAuth'
-import { CloseIcon, LockIcon, LockOpenIcon } from './Icons'
+import { CloseIcon, SpyIcon, SpyOffIcon } from './Icons'
 
 interface LockModalProps {
   onClose: () => void
@@ -64,7 +64,7 @@ export function LockModal({ onClose }: LockModalProps) {
       >
         <div className="flex items-center justify-between px-5 pt-5 pb-2">
           <div className="flex items-center gap-2.5 text-brand-700">
-            {unlocked ? <LockOpenIcon size={22} /> : <LockIcon size={22} />}
+            {unlocked ? <SpyIcon size={22} /> : <SpyOffIcon size={22} />}
             <h2 id="lock-modal-title" className="text-base font-semibold text-slate-800">
               {unlocked ? 'Innhold låst opp' : 'Lås opp innhold'}
             </h2>
@@ -105,7 +105,7 @@ export function LockModal({ onClose }: LockModalProps) {
         ) : (
           <form onSubmit={handleSubmit} className="px-5 pb-5">
             <p className="text-sm text-slate-600 leading-relaxed mb-3">
-              Skriv inn passordfrasen for å se skjult innhold.
+              Skriv inn passordfrasen for å se skjult innhold
             </p>
             <label className="block">
               <span className="sr-only">Passordfrase</span>

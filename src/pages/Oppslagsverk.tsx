@@ -187,7 +187,7 @@ export function Oppslagsverk() {
               spellCheck={false}
               inputMode="search"
               className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
-              aria-label="Søk i oppslagsverket"
+              aria-label="Søk i jukselappen"
             />
             {query ? (
               <button
@@ -304,7 +304,7 @@ export function Oppslagsverk() {
                 }}
                 className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
               >
-                Vis hele oppslagsverket
+                Vis hele jukselappen
               </button>
             </div>
           ) : (
@@ -327,7 +327,7 @@ export function Oppslagsverk() {
                   onClick={clearTags}
                   className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
                 >
-                  Vis hele oppslagsverket
+                  Vis hele jukselappen
                 </button>
               </div>
             ) : (

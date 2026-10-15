@@ -5,7 +5,7 @@ import { useMergedArticles } from '../auth/merge'
 import { buildArticleIndex, searchArticles, type ArticleSearchHit, type ArticleIndex } from '../data/articleSearchIndex'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
-import { ChevronRightIcon, SearchIcon, CloseIcon, LockIcon } from '../components/Icons'
+import { ChevronRightIcon, SearchIcon, CloseIcon, SpyIcon } from '../components/Icons'
 import { SearchShortcutHint } from '../components/SearchShortcutHint'
 import { UntestedWarning } from '../components/UntestedWarning'
 
@@ -261,7 +261,7 @@ export function HowTo() {
                       <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800 leading-snug group-hover:text-brand-700 transition-colors">
                         {article.laast && (
                           <>
-                            <LockIcon size={13} className="shrink-0 text-slate-400" />
+                            <SpyIcon size={13} className="shrink-0 text-slate-400" />
                             <UntestedWarning />
                           </>
                         )}

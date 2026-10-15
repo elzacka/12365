@@ -2,7 +2,7 @@ import { useEffect, useState, use, type ReactNode, Fragment } from 'react'
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
-import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, LockIcon, ShareIcon, ZoomInIcon } from '../components/Icons'
+import { ChevronLeftIcon, ChevronRightIcon, ExternalLinkIcon, SpyIcon, ShareIcon, ZoomInIcon } from '../components/Icons'
 import { UntestedWarning } from '../components/UntestedWarning'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
@@ -35,12 +35,8 @@ function applyHighlight(text: string, query: string): ReactNode[] {
   )
 }
 
-// Block-aware markdown-to-JSX. The step content is split into blocks on
-// blank lines; each block renders as paragraph, sub-heading (###), bullet
-// list (◦) or numbered list (1.) with optional indented sub-bullets.
-// Backtick `cmd` marks copy-paste commands, [tekst](url) becomes external
-// links. Kept intentionally small – only the syntax actually used in
-// articles.json is supported.
+// Block-aware markdown-to-JSX: paragraphs, ###, ◦ and 1. lists, `cmd`, [tekst](url).
+// Deliberately small: only the syntax articles.json uses.
 
 function parseInline(text: string, hl: string): ReactNode[] {
   const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\([^)\s]+\))/)
@@ -199,10 +195,8 @@ export function ArticlePage() {
   const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
   const [highlightActive, setHighlightActive] = useState(!!searchQuery)
 
-  // Reset highlight and active step when the user navigates here from a new
-  // search (same URL params, different location.state). location.key is unique
-  // per navigation entry. Updating state during render avoids an effect-based
-  // extra render cycle and is the React-approved pattern for "reset on prop change".
+  // Reset on a new search to the same URL (location.key differs per entry).
+  // State update during render avoids an extra effect cycle.
   if (prevLocationKey !== location.key) {
     setPrevLocationKey(location.key)
     if (searchQuery) {
@@ -435,7 +429,7 @@ export function ArticlePage() {
                       <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800">
                         {relArticle.laast && (
                           <>
-                            <LockIcon size={13} className="shrink-0 text-slate-400" />
+                            <SpyIcon size={13} className="shrink-0 text-slate-400" />
                             <UntestedWarning />
                           </>
                         )}
