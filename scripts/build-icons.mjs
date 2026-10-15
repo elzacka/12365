@@ -33,9 +33,8 @@ await icon(180, ANY_SCALE, 'apple-touch-icon-180.png')
 for (const size of [192, 384, 512]) await icon(size, ANY_SCALE, `icon-${size}.png`)
 await icon(512, MASKABLE_SCALE, 'icon-maskable-512.png')
 
-// Favicon: Tabler «apps» (som på Appene-kortet) i brand-400 på hvit, avrundet flate
-const FAVICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 20 20" fill="none" stroke="#41758f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="2" y="2" width="20" height="20" rx="4.5" fill="#ffffff" stroke="none"/>
+// Favicon: Tabler «apps» (som på Appene-kortet) i brand-400, gjennomsiktig bakgrunn
+const FAVICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" fill="none" stroke="#41758f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/>
   <path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/>
   <path d="M14 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/>
