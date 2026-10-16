@@ -1,4 +1,4 @@
-import { useEffect, useState, use, type ReactNode, Fragment } from 'react'
+import { useEffect, useEffectEvent, useState, use, type ReactNode, Fragment } from 'react'
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
@@ -223,21 +223,31 @@ export function ArticlePage() {
     scrollToTop()
   }
 
-  const swipe = useSwipe(() => goToStep(activeStep + 1), () => goToStep(activeStep - 1))
+  const [mainEl, setMainEl] = useState<HTMLElement | null>(null)
+  useSwipe(mainEl, () => goToStep(activeStep + 1), () => goToStep(activeStep - 1))
+
+  // iOS rubber-banding drags the whole page along with the finger.
+  useEffect(() => {
+    const root = document.documentElement
+    root.style.overscrollBehavior = 'none'
+    return () => {
+      root.style.overscrollBehavior = ''
+    }
+  }, [])
 
   // Arrow keys change step on desktop only; not while typing or in the lightbox.
   const isDesktop = useFinePointer()
+  const onArrowKey = useEffectEvent((e: KeyboardEvent) => {
+    if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return
+    if (e.target instanceof HTMLElement && e.target.closest('input, textarea, select, [contenteditable]')) return
+    if (e.key === 'ArrowRight') goToStep(activeStep + 1)
+    else if (e.key === 'ArrowLeft') goToStep(activeStep - 1)
+  })
   useEffect(() => {
     if (!isDesktop || openImage) return
-    const handler = (e: KeyboardEvent) => {
-      if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return
-      if (e.target instanceof HTMLElement && e.target.closest('input, textarea, select, [contenteditable]')) return
-      if (e.key === 'ArrowRight') goToStep(activeStep + 1)
-      else if (e.key === 'ArrowLeft') goToStep(activeStep - 1)
-    }
-    window.addEventListener('keydown', handler)
-    return () => window.removeEventListener('keydown', handler)
-  })
+    window.addEventListener('keydown', onArrowKey)
+    return () => window.removeEventListener('keydown', onArrowKey)
+  }, [isDesktop, openImage])
 
   if (!article || !category || article.skjult) {
     // Shared links outlive a move to another category.
@@ -258,7 +268,7 @@ export function ArticlePage() {
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
-      <main className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full" {...swipe}>
+      <main ref={setMainEl} className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
         {/* Title and lede shown only on the first step – gives more room to the
             steps later in the read. The step card below takes over as the main
             visual element. */}
@@ -295,7 +305,7 @@ export function ArticlePage() {
         <nav
           aria-label="Steg-oversikt"
           className="flex gap-2 py-4 overflow-x-auto hide-scrollbar"
-          onTouchStart={e => e.stopPropagation()}
+          data-noswipe
         >
           {article.steg.map((_, idx) => (
             <button
