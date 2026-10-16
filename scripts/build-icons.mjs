@@ -11,13 +11,36 @@ const ICONS_DIR = resolve(PUBLIC_DIR, 'icons')
 const LOGO_PNG = resolve(root, 'public/logo-header.png')
 const WHITE = { r: 0xff, g: 0xff, b: 0xff, alpha: 1 }
 
-// Andel av kantlengden ordmerket fyller. Vanlige ikoner: 5 % marg; det lave
-// ordmerket går klar av iOS sine avrundede hjørner. Maskable (Android, macOS):
-// OS garanterer bare en sirkel med diameter 80 %, og diagonalen må få plass.
-const ANY_SCALE = 0.9
+// Andel av kantlengden ordmerket fyller. iOS: 5 % marg; det lave ordmerket går
+// klar av de avrundede hjørnene. Maskable (Android, macOS): OS garanterer bare
+// en sirkel med diameter 80 %, og diagonalen må få plass.
+const APPLE_SCALE = 0.9
 const MASKABLE_SCALE = 0.75
 
 const logo = await sharp(LOGO_PNG).trim().toBuffer()
+
+// «any»-ikonene (Windows, ChromeOS): hele ordmerket blir uleselig i 24–36 px på
+// oppgavelinja, så de viser «1·2» i hvitt på en brand-700-sirkel uten bakgrunn.
+const ONE_TWO_COLUMNS = { left: 15, width: 245 } // «1·2» i logo-header.png
+const CIRCLE_DIAMETER = 0.94
+const ONE_TWO_HEIGHT = 0.46
+
+const oneTwoCrop = await sharp(LOGO_PNG).extract({ ...ONE_TWO_COLUMNS, top: 0, height: 260 }).png().toBuffer()
+const oneTwoGlyphs = await sharp(oneTwoCrop).trim().png().toBuffer()
+const { width: oneTwoW, height: oneTwoH } = await sharp(oneTwoGlyphs).metadata()
+const oneTwoWhite = await sharp({ create: { width: oneTwoW, height: oneTwoH, channels: 4, background: WHITE } })
+  .composite([{ input: oneTwoGlyphs, blend: 'dest-in' }])
+  .png()
+  .toBuffer()
+
+async function circleIcon(size, file) {
+  const circle = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}"><circle cx="${size / 2}" cy="${size / 2}" r="${(size * CIRCLE_DIAMETER) / 2}" fill="#00263e"/></svg>`
+  const mark = await sharp(oneTwoWhite).resize({ height: Math.round(size * ONE_TWO_HEIGHT) }).toBuffer()
+  await sharp(Buffer.from(circle))
+    .composite([{ input: mark, gravity: 'center' }])
+    .png({ compressionLevel: 9 })
+    .toFile(resolve(ICONS_DIR, file))
+}
 
 async function icon(size, scale, file) {
   const mark = await sharp(logo).resize(Math.round(size * scale)).toBuffer()
@@ -29,8 +52,8 @@ async function icon(size, scale, file) {
 }
 
 await mkdir(ICONS_DIR, { recursive: true })
-await icon(180, ANY_SCALE, 'apple-touch-icon-180.png')
-for (const size of [192, 384, 512]) await icon(size, ANY_SCALE, `icon-${size}.png`)
+await icon(180, APPLE_SCALE, 'apple-touch-icon-180.png')
+for (const size of [192, 384, 512]) await circleIcon(size, `icon-${size}.png`)
 await icon(512, MASKABLE_SCALE, 'icon-maskable-512.png')
 
 // Favicon: Tabler «apps» (som på Appene-kortet) i brand-400, gjennomsiktig bakgrunn
