@@ -39,7 +39,7 @@ export function LockModal({ onClose }: LockModalProps) {
       await unlock(passphrase, remember)
       onClose()
     } catch {
-      setError('Feil passordfrase, eller låst innhold er ikke tilgjengelig.')
+      setError('Feil passordfrase, eller det låste innholdet er ikke tilgjengelig')
     } finally {
       setBusy(false)
     }

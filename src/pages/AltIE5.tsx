@@ -187,7 +187,7 @@ export function AltIE5() {
             >
               <div className="space-y-3 text-xs">
                 <div>
-                  <p className="text-slate-400 font-medium mb-1.5">Søk – eksempler:</p>
+                  <p className="text-slate-400 font-medium mb-1.5">Eksempler på søk:</p>
                   <div className="space-y-2">
                     {([
                       { kode: 'engage', beskrivelse: 'finner kategorien «Viva Engage» og alle funksjonene under den' },
@@ -205,11 +205,11 @@ export function AltIE5() {
                 </div>
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-400 font-medium mb-1">I listen</p>
-                  <p className="text-slate-500">Utvid kategorien og trykk på en funksjon for å se beskrivelse av hva den brukes til.</p>
+                  <p className="text-slate-500">Utvid en kategori og trykk på en funksjon for å se hva den brukes til.</p>
                 </div>
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-400 font-medium mb-1">Om kategoriene</p>
-                  <p className="text-slate-500">Inndelingen følger Microsofts egne lisenskomponenter, ikke brukeropplevelsen. En app som vises i Teams-sidemenyen kan derfor ligge under en annen kategori enn Teams – fordi den er lisensiert som del av en annen komponent i E5.</p>
+                  <p className="text-slate-500">Inndelingen følger lisenskomponentene i Microsofts oversikt. En app i venstremenyen i Teams kan derfor ligge under en annen kategori enn Teams, fordi den er lisensiert som del av en annen komponent i E5.</p>
                 </div>
               </div>
             </div>
@@ -334,7 +334,7 @@ export function AltIE5() {
         {/* Empty state */}
         {filteredCategories.length === 0 && (
           <div className="text-center py-16 text-slate-500">
-            <p className="text-base mb-1">Ingen funksjoner matcher</p>
+            <p className="text-base mb-1">Ingen funksjoner passer til søket</p>
             <button
               onClick={reset}
               className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
@@ -355,7 +355,7 @@ export function AltIE5() {
                 <CheckIcon size={13} />
               </span>
               <span>
-                <strong>Inkludert</strong> – følger med M365 E5
+                <strong>Inkludert</strong>: Følger med M365 E5
               </span>
             </li>
             <li className="flex items-center gap-2.5">
@@ -363,7 +363,7 @@ export function AltIE5() {
                 <PlusIcon size={13} />
               </span>
               <span>
-                <strong>Tilleggskjøp</strong> – tilgjengelig som tillegg til M365 E5
+                <strong>Tilleggskjøp</strong>: Kan kjøpes som tillegg til M365 E5
               </span>
             </li>
           </ul>

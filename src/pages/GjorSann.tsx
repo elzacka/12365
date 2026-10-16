@@ -177,7 +177,7 @@ export function GjorSann() {
                 {([
                   { kode: '"delt postkasse"', beskrivelse: 'nøyaktig denne frasen' },
                   { kode: 'copilot OR teams', beskrivelse: 'minst ett av ordene' },
-                  { kode: 'dele filer', beskrivelse: 'begge ord må finnes (standard)' },
+                  { kode: 'dele filer', beskrivelse: 'begge ordene må finnes (standard)' },
                 ] as const).map(({ kode, beskrivelse }) => (
                   <div key={kode} className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
                     <code className="font-mono bg-slate-100 text-slate-700 rounded px-1 py-0.5 whitespace-nowrap">

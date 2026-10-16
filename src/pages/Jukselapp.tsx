@@ -239,7 +239,7 @@ export function Jukselapp() {
             >
               <div className="space-y-3 text-xs">
                 <div>
-                  <p className="text-slate-400 font-medium mb-1.5">I søkefeltet, eksempler:</p>
+                  <p className="text-slate-400 font-medium mb-1.5">Eksempler på søk:</p>
                   <div className="space-y-2">
                     {([
                       { kode: 'S', beskrivelse: 'viser alle oppslag som begynner med S' },

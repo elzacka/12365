@@ -82,7 +82,7 @@ export function Header({
                   ? 'text-brand-700 hover:text-brand-800'
                   : 'text-slate-500 hover:text-brand-700'
               }`}
-              aria-label={unlocked ? 'Skjult innhold er låst opp – administrer' : 'Lås opp skjult innhold'}
+              aria-label={unlocked ? 'Skjult innhold er låst opp. Administrer' : 'Lås opp skjult innhold'}
               aria-pressed={unlocked}
               title={unlocked ? 'Skjult innhold låst opp' : 'Lås opp'}
             >

@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-Oppdatert: 15.10.26
+Oppdatert: 16.10.26
 
 ## Kort oppsummert
 
@@ -25,4 +25,4 @@ Appen ligger på GitHub Pages. GitHub lagrer IP-adressen til alle som besøker a
 
 ## Kontakt
 
-Spørsmål? Kontakt meg via [GitHub-profilen min](https://github.com/elzacka).
+Kontakt meg på [GitHub-profilen min](https://github.com/elzacka) hvis du har spørsmål.
