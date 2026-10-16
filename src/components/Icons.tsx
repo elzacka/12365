@@ -124,11 +124,11 @@ export function ExternalLinkIcon({ size = 12, className }: IconProps) {
 }
 
 // Strekmann med glorie i stil med The Saint, løper mot venstre (tilbake).
-// Strek 1,8 ved 22 px gir samme linje som strek 2 ved 20 px på de andre header-ikonene.
+// Strek 1,4: figuren er liten i viewBox, og tykkere strek fyller hodet og flyter sammen i leddene.
 // Glorien som i originalen: bredere enn hodet, vippet 15° med forkanten opp, fritt over hodet.
 export function RunBackIcon({ size = 24, className }: IconProps) {
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" className={className}>
       <ellipse cx="8.46" cy="2.85" rx="2.4" ry="1.2" transform="rotate(15 8.46 2.85)" />
       <ellipse cx="8.76" cy="8.72" rx="1.26" ry="1.62" transform="rotate(-22 8.76 8.72)" />
       <path d="M9.75 10.34l2.88 5.94" />
