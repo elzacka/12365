@@ -97,7 +97,7 @@ export function FlipCard({ card }: FlipCardProps) {
               </div>
             )}
             {card.fotnote && (
-              <p className="text-[0.6rem] text-brand-200/70 italic pt-2 border-t border-white/10 leading-snug">
+              <p className="text-[0.6rem] text-brand-200/80 italic pt-2 border-t border-white/10 leading-snug">
                 {card.fotnote}
               </p>
             )}

@@ -199,13 +199,13 @@ export function Jukselapp() {
               autoCorrect="off"
               spellCheck={false}
               inputMode="search"
-              className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
+              className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
               aria-label="Søk i jukselappen"
             />
             {query ? (
               <button
                 onClick={() => setQuery('')}
-                className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
+                className="absolute inset-y-0 right-3 flex items-center text-slate-500 hover:text-slate-700"
                 aria-label="Tøm søk"
               >
                 <CloseIcon size={16} />
@@ -239,7 +239,7 @@ export function Jukselapp() {
             >
               <div className="space-y-3 text-xs">
                 <div>
-                  <p className="text-slate-400 font-medium mb-1.5">Eksempler på søk:</p>
+                  <p className="text-slate-500 font-medium mb-1.5">Eksempler på søk:</p>
                   <div className="space-y-2">
                     {([
                       { kode: 'S', beskrivelse: 'viser alle oppslag som begynner med S' },
@@ -256,7 +256,7 @@ export function Jukselapp() {
                   </div>
                 </div>
                 <div className="pt-2 border-t border-slate-100">
-                  <p className="text-slate-400 font-medium mb-1.5">I listen</p>
+                  <p className="text-slate-500 font-medium mb-1.5">I listen</p>
                   <p className="text-slate-500">Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere. Klikk på flere for å se oppslagene som har alle.</p>
                 </div>
               </div>
@@ -478,7 +478,7 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
             const label = 'Også: '
             return (
               <p className="mt-3 text-xs text-slate-500">
-                <span className="text-slate-400">{label}</span>
+                <span className="font-medium">{label}</span>
                 {aliases.join(', ')}
               </p>
             )

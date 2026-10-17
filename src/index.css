@@ -166,12 +166,16 @@
 }
 
 /* Browsers ignore prefers-reduced-motion for view transitions; cut the
-   route cross-fade to zero (WCAG 2.3.3). */
+   route cross-fade and the card flip to zero (WCAG 2.3.3). */
 @media (prefers-reduced-motion: reduce) {
   ::view-transition-group(*),
   ::view-transition-old(*),
   ::view-transition-new(*) {
     animation: none !important;
+  }
+
+  .flip-card-inner {
+    transition: none;
   }
 }
 

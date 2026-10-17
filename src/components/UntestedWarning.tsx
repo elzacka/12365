@@ -59,7 +59,7 @@ export function UntestedWarning({ className }: { className?: string }) {
         aria-expanded={open}
         aria-describedby={open ? tooltipId : undefined}
         aria-label={`Advarsel: ${MESSAGE}`}
-        className={`shrink-0 p-1 -m-1 text-amber-500 ${className ?? ''}`}
+        className={`shrink-0 p-1 -m-1 text-amber-600 ${className ?? ''}`}
       >
         <WarningIcon size={13} />
       </button>

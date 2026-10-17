@@ -148,13 +148,13 @@ export function AltIE5() {
               autoCorrect="off"
               spellCheck={false}
               inputMode="search"
-              className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-9'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
+              className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-9'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
               aria-label="Søk i lisensfunksjoner"
             />
             {query ? (
               <button
                 onClick={() => setQuery('')}
-                className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
+                className="absolute inset-y-0 right-3 flex items-center text-slate-500 hover:text-slate-700"
                 aria-label="Tøm søk"
               >
                 <CloseIcon size={16} />
@@ -170,7 +170,7 @@ export function AltIE5() {
               onClick={() => setShowHelp(v => !v)}
               aria-expanded={showHelp}
               aria-controls="lisens-tips"
-              className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600 transition-colors"
+              className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-700 transition-colors"
             >
               Veiledning
               <ChevronRightIcon
@@ -187,7 +187,7 @@ export function AltIE5() {
             >
               <div className="space-y-3 text-xs">
                 <div>
-                  <p className="text-slate-400 font-medium mb-1.5">Eksempler på søk:</p>
+                  <p className="text-slate-500 font-medium mb-1.5">Eksempler på søk:</p>
                   <div className="space-y-2">
                     {([
                       { kode: 'engage', beskrivelse: 'finner kategorien «Viva Engage» og alle funksjonene under den' },
@@ -201,14 +201,14 @@ export function AltIE5() {
                       </div>
                     ))}
                   </div>
-                  <p className="text-slate-400 mt-2">Søket leter i kategorinavn, funksjonsnavn og beskrivelser.</p>
+                  <p className="text-slate-500 mt-2">Søket leter i kategorinavn, funksjonsnavn og beskrivelser.</p>
                 </div>
                 <div className="pt-2 border-t border-slate-100">
-                  <p className="text-slate-400 font-medium mb-1">I listen</p>
+                  <p className="text-slate-500 font-medium mb-1">I listen</p>
                   <p className="text-slate-500">Utvid en kategori og trykk på en funksjon for å se hva den brukes til.</p>
                 </div>
                 <div className="pt-2 border-t border-slate-100">
-                  <p className="text-slate-400 font-medium mb-1">Om kategoriene</p>
+                  <p className="text-slate-500 font-medium mb-1">Om kategoriene</p>
                   <p className="text-slate-500">Inndelingen følger lisenskomponentene i Microsofts oversikt. En app i venstremenyen i Teams kan derfor ligge under en annen kategori enn Teams, fordi den er lisensiert som del av en annen komponent i E5.</p>
                 </div>
               </div>

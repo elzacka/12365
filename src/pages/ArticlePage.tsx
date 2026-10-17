@@ -282,7 +282,7 @@ export function ArticlePage() {
                 <button
                   type="button"
                   onClick={handleShare}
-                  className="shrink-0 -mt-1 -mr-1.5 p-1.5 text-slate-400 hover:text-brand-700 transition-colors"
+                  className="shrink-0 -mt-1 -mr-1.5 p-1.5 text-slate-500 hover:text-brand-700 transition-colors"
                   aria-label="Del veiledningen"
                 >
                   <HeartShareIcon size={18} />
@@ -375,7 +375,7 @@ export function ArticlePage() {
           <div className="flex justify-end">
             <Link
               to="/gjor-sann"
-              className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-green-600 text-white hover:bg-green-700 shadow-sm transition-colors"
+              className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-green-700 text-white hover:bg-green-800 shadow-sm transition-colors"
             >
               Ferdig
             </Link>

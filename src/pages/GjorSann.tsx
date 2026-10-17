@@ -136,13 +136,13 @@ export function GjorSann() {
               autoCorrect="off"
               spellCheck={false}
               inputMode="search"
-              className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
+              className={`w-full pl-10 ${isDesktopSearch && !query ? 'pr-16' : 'pr-4'} py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm`}
               aria-label="Søk i veiledninger"
             />
             {query ? (
               <button
                 onClick={() => setQuery('')}
-                className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
+                className="absolute inset-y-0 right-3 flex items-center text-slate-500 hover:text-slate-700"
                 aria-label="Tøm søk"
               >
                 <CloseIcon size={16} />
@@ -158,7 +158,7 @@ export function GjorSann() {
               onClick={() => setShowHelp(v => !v)}
               aria-expanded={showHelp}
               aria-controls="search-operators-help"
-              className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-slate-600 transition-colors"
+              className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-700 transition-colors"
             >
               Søketips
               <ChevronRightIcon

@@ -72,7 +72,7 @@ export function LockModal({ onClose }: LockModalProps) {
           <button
             type="button"
             onClick={onClose}
-            className="p-2 -mr-2 text-slate-400 hover:text-slate-700 transition-colors"
+            className="p-2 -mr-2 text-slate-500 hover:text-slate-700 transition-colors"
             aria-label="Lukk"
           >
             <CloseIcon size={20} />
@@ -116,7 +116,7 @@ export function LockModal({ onClose }: LockModalProps) {
                 value={passphrase}
                 onChange={e => setPassphrase(e.target.value)}
                 placeholder="Passordfrase"
-                className="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
+                className="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl text-sm text-slate-800 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
                 aria-invalid={error ? 'true' : undefined}
                 aria-describedby={error ? 'lock-error' : undefined}
               />

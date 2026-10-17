@@ -133,7 +133,7 @@ export function ComparisonDrawer({
                         type="button"
                         onClick={() => onRemove(card.navn)}
                         aria-label={`Fjern ${card.navn}`}
-                        className="ml-auto text-slate-400 hover:text-slate-700"
+                        className="ml-auto text-slate-500 hover:text-slate-700"
                       >
                         <CloseIcon size={14} />
                       </button>

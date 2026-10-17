@@ -26,7 +26,7 @@ function TileBody({ tittel, beskrivelse, kilde, fotnote, trailingIcon }: TileBod
         <p className="text-xs text-slate-500 mt-1.5 leading-snug">{beskrivelse}</p>
       )}
       {kilde && (
-        <p className="text-xs text-slate-400 mt-2 leading-snug">Kilde: {kilde}</p>
+        <p className="text-xs text-slate-500 mt-2 leading-snug">Kilde: {kilde}</p>
       )}
       {fotnote && (
         <p className="text-[11px] text-brand-200 mt-3 pt-1 border-t border-slate-100 leading-snug">{fotnote}</p>
