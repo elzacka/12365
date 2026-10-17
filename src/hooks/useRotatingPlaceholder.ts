@@ -1,11 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
+import { prefersReducedMotion } from '../lib/motion'
 
 const ROTATE_INTERVAL_MS = 2600
 const MAX_LAPS = 2
-
-function prefersReducedMotion(): boolean {
-  return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
-}
 
 // Roterer placeholder-teksten mellom det brukeren kan søke på i den
 // enkelte visningen, f.eks. "Søk i ord...", "Søk i beskrivelse...".

@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { prefersReducedMotion } from '../lib/motion'
 
 const KEY = 'swipe-hint-shown'
 const DELAY = 700
@@ -15,8 +16,7 @@ function wasShown(): boolean {
 // swipe. A touch before the nudge leaves it for a later article.
 export function useSwipeHint(card: HTMLElement | null, enabled: boolean) {
   useEffect(() => {
-    if (!card || !enabled || wasShown()) return
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    if (!card || !enabled || wasShown() || prefersReducedMotion()) return
 
     const timer = setTimeout(() => {
       try {
