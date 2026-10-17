@@ -80,8 +80,8 @@ export function useInstall(): Install {
 
 // Where the menu item is, in a browser with no install prompt of its own
 export function installSteps(install: Install): string {
-  if (install?.kind === 'ios-more') return 'Trykk på •••, velg Del og så Legg til på Hjem-skjerm'
-  if (install?.kind === 'ios-share') return 'Trykk på Del og velg Legg til på Hjem-skjerm'
+  if (install?.kind === 'ios-more') return 'Trykk på •••, velg Del og så Legg til på Hjem-skjermen'
+  if (install?.kind === 'ios-share') return 'Trykk på Del og velg Legg til på Hjem-skjermen'
   if (install?.kind === 'mac-safari') return 'Klikk på Del og velg Legg til i Dock'
   return ''
 }
