@@ -8,6 +8,7 @@ import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
 import { useSwipe } from '../hooks/useSwipe'
 import { useFinePointer } from '../hooks/useFinePointer'
+import { useSwipeHint } from '../hooks/useSwipeHint'
 import type { ArticleImage } from '../types'
 
 function escapeRegex(str: string): string {
@@ -224,7 +225,10 @@ export function ArticlePage() {
   }
 
   const [mainEl, setMainEl] = useState<HTMLElement | null>(null)
+  const [cardEl, setCardEl] = useState<HTMLElement | null>(null)
+  const isDesktop = useFinePointer()
   useSwipe(mainEl, () => goToStep(activeStep + 1), () => goToStep(activeStep - 1))
+  useSwipeHint(cardEl, !isDesktop && activeStep < totalSteps - 1)
 
   // iOS rubber-banding drags the whole page along with the finger.
   useEffect(() => {
@@ -236,7 +240,6 @@ export function ArticlePage() {
   }, [])
 
   // Arrow keys change step on desktop only; not while typing or in the lightbox.
-  const isDesktop = useFinePointer()
   const onArrowKey = useEffectEvent((e: KeyboardEvent) => {
     if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return
     if (e.target instanceof HTMLElement && e.target.closest('input, textarea, select, [contenteditable]')) return
@@ -326,48 +329,57 @@ export function ArticlePage() {
           ))}
         </nav>
 
-        {/* Step content */}
-        <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden mb-4">
-          <div className="px-4 py-3 bg-brand-50 border-b border-brand-100">
-            <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
-              Steg {activeStep + 1} av {totalSteps}
-            </p>
-            <h2 className="text-base font-semibold text-slate-800 leading-snug">
-              {applyHighlight(step.tittel, hl)}
-            </h2>
-          </div>
-          <div className="px-4 py-5">
-            <div className="text-sm text-slate-600 leading-relaxed space-y-3">
-              {parseContent(step.innhold, hl)}
+        {/* Step content. On touch devices the edge of a card behind it marks
+            each side there is a step to swipe to. */}
+        <div className="relative mb-4">
+          {!isDesktop && !isFirstStep && (
+            <div aria-hidden="true" className="absolute inset-y-2 -left-1.5 right-1.5 rounded-2xl border border-slate-200 bg-white" />
+          )}
+          {!isDesktop && !isLastStep && (
+            <div aria-hidden="true" className="absolute inset-y-2 left-1.5 -right-1.5 rounded-2xl border border-slate-200 bg-white" />
+          )}
+          <div ref={setCardEl} className="relative bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+            <div className="px-4 py-3 bg-brand-50 border-b border-brand-100">
+              <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
+                Steg {activeStep + 1} av {totalSteps}
+              </p>
+              <h2 className="text-base font-semibold text-slate-800 leading-snug">
+                {applyHighlight(step.tittel, hl)}
+              </h2>
             </div>
-            {step.bilde && (
-              <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">
-                <button
-                  type="button"
-                  onClick={() => setOpenImage(step.bilde!)}
-                  aria-label={`Åpne bildet i fullskjerm: ${step.bilde.alt}`}
-                  className="group relative block w-full cursor-zoom-in focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-700"
-                >
-                  <img
-                    src={`${import.meta.env.BASE_URL}${step.bilde.src}`}
-                    alt={step.bilde.alt}
-                    loading="lazy"
-                    decoding="async"
-                    className="w-full h-auto block transition-opacity group-hover:opacity-95"
-                  />
-                  <span
-                    aria-hidden="true"
-                    className="absolute top-2 right-2 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900/70 text-white opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity"
+            <div className="px-4 py-5">
+              <div className="text-sm text-slate-600 leading-relaxed space-y-3">
+                {parseContent(step.innhold, hl)}
+              </div>
+              {step.bilde && (
+                <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">
+                  <button
+                    type="button"
+                    onClick={() => setOpenImage(step.bilde!)}
+                    aria-label={`Åpne bildet i fullskjerm: ${step.bilde.alt}`}
+                    className="group relative block w-full cursor-zoom-in focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-700"
                   >
-                    <ZoomInIcon size={16} />
-                  </span>
-                </button>
-                <figcaption className="px-3 py-2 text-xs text-slate-600 leading-snug">
-                  {step.bilde.bildetekst}
-                  <span className="block text-[11px] text-slate-500 mt-1">{step.bilde.kreditering}</span>
-                </figcaption>
-              </figure>
-            )}
+                    <img
+                      src={`${import.meta.env.BASE_URL}${step.bilde.src}`}
+                      alt={step.bilde.alt}
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-auto block transition-opacity group-hover:opacity-95"
+                    />
+                    <span
+                      aria-hidden="true"
+                      className="absolute top-2 right-2 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900/70 text-white opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity"
+                    >
+                      <ZoomInIcon size={16} />
+                    </span>
+                  </button>
+                  <figcaption className="px-3 py-2 text-xs text-slate-600 leading-snug">
+                    {step.bilde.bildetekst}
+                    <span className="block text-[11px] text-slate-500 mt-1">{step.bilde.kreditering}</span>
+                  </figcaption>
+                </figure>
+              )}
+            </div>
           </div>
         </div>
 

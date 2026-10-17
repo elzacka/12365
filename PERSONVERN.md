@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-Oppdatert: 16.10.26
+Oppdatert: 17.10.26
 
 ## Kort oppsummert
 
@@ -11,6 +11,7 @@ Oppdatert: 16.10.26
 - Appens filer og innhold, slik at appen virker uten nett
 - Passordfrasen for skjult innhold, bare hvis du velger «Husk på denne enheten»
 - At du har lukket installasjonsbanneret, slik at det ikke vises igjen
+- At appen har vist deg at du kan sveipe mellom stegene, slik at den ikke viser det igjen
 - At du nettopp har oppdatert appen, til bekreftelsen vises
 
 Ingenting av dette sendes fra enheten, og ingenting av det kan identifisere deg.
