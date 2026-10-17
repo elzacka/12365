@@ -6,11 +6,9 @@ const MESSAGE = 'Fremgangsmåte ikke testet eller språkvasket ennå'
 const TOOLTIP_WIDTH = 192
 const VIEWPORT_MARGIN = 8
 
-// Tap-triggered warning badge for locked articles whose steps haven't been
-// verified yet. Sits inside a Link on the article cards, so clicks must be
-// stopped from bubbling into navigation. The tooltip renders through a
-// portal, positioned from the button's own rect, so it isn't clipped by the
-// card list's `overflow-hidden`.
+// Sits inside a card Link, so clicks stop before they navigate. The tooltip
+// is portalled and placed from the button's rect, so the card list's
+// overflow-hidden cannot clip it.
 export function UntestedWarning({ className }: { className?: string }) {
   const [open, setOpen] = useState(false)
   const [pos, setPos] = useState<{ top: number; left: number } | null>(null)
