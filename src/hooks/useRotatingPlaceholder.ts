@@ -4,10 +4,8 @@ import { prefersReducedMotion } from '../lib/motion'
 const ROTATE_INTERVAL_MS = 2600
 const MAX_LAPS = 2
 
-// Roterer placeholder-teksten mellom det brukeren kan søke på i den
-// enkelte visningen, f.eks. "Søk i ord...", "Søk i beskrivelse...".
-// Stopper etter noen runder gjennom listen i stedet for å rotere i det
-// uendelige (WCAG 2.2.2), og roterer aldri ved prefers-reduced-motion.
+// Cycles the placeholder through what the view can search ("Søk i ord...").
+// Stops after a few laps (WCAG 2.2.2) and never runs under reduced motion.
 export function useRotatingPlaceholder(prefix: string, words: string[]): string {
   const [index, setIndex] = useState(0)
   const ticks = useRef(0)
