@@ -9,13 +9,14 @@ const SLOP = 8
 // gesture) and data-noswipe elements are left alone.
 export function useSwipe(
   el: HTMLElement | null,
-  onSwipeLeft: () => void,
-  onSwipeRight: () => void,
+  handlers: {
+    onDrag: (dx: number) => void
+    // -1 swiped left, 1 swiped right, 0 too short or cancelled.
+    onRelease: (dir: -1 | 0 | 1) => void
+  },
 ) {
-  const swiped = useEffectEvent((dx: number) => {
-    if (dx < 0) onSwipeLeft()
-    else onSwipeRight()
-  })
+  const drag = useEffectEvent(handlers.onDrag)
+  const release = useEffectEvent(handlers.onRelease)
 
   useEffect(() => {
     if (!el) return
@@ -38,16 +39,19 @@ export function useSwipe(
         if (Math.max(dx, dy) < SLOP) return
         axis = dx > dy ? 'x' : 'y'
       }
-      if (axis === 'x' && e.cancelable) e.preventDefault()
+      if (axis !== 'x') return
+      if (e.cancelable) e.preventDefault()
+      drag(t.clientX - start.x)
     }
     const onEnd = (e: TouchEvent) => {
       if (start && axis === 'x') {
         const dx = e.changedTouches[0].clientX - start.x
-        if (Math.abs(dx) >= MIN_DISTANCE) swiped(dx)
+        release(Math.abs(dx) < MIN_DISTANCE ? 0 : dx < 0 ? -1 : 1)
       }
       start = null
     }
     const onCancel = () => {
+      if (start && axis === 'x') release(0)
       start = null
     }
 

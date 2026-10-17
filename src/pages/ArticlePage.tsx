@@ -1,4 +1,5 @@
 import { useEffect, useEffectEvent, useState, use, type ReactNode, Fragment } from 'react'
+import { flushSync } from 'react-dom'
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
@@ -9,6 +10,7 @@ import { ImageLightbox } from '../components/ImageLightbox'
 import { useSwipe } from '../hooks/useSwipe'
 import { useFinePointer } from '../hooks/useFinePointer'
 import { useSwipeHint } from '../hooks/useSwipeHint'
+import { prefersReducedMotion } from '../lib/motion'
 import type { ArticleImage } from '../types'
 
 function escapeRegex(str: string): string {
@@ -170,6 +172,11 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
+// Outside the component: the React compiler forbids writing to a state value.
+function setOffset(card: HTMLElement, transform: string) {
+  card.style.transform = transform
+}
+
 type Artikel = { steg: { tittel: string; innhold: string }[] }
 
 function stepForQuery(query: string, article: Artikel | undefined): number {
@@ -227,7 +234,43 @@ export function ArticlePage() {
   const [mainEl, setMainEl] = useState<HTMLElement | null>(null)
   const [cardEl, setCardEl] = useState<HTMLElement | null>(null)
   const isDesktop = useFinePointer()
-  useSwipe(mainEl, () => goToStep(activeStep + 1), () => goToStep(activeStep - 1))
+  // The card follows the finger, drags with resistance past the first and
+  // last step, and slides out and in from the swipe side on a step change.
+  useSwipe(mainEl, {
+    onDrag: dx => {
+      if (!cardEl || prefersReducedMotion() || cardEl.getAnimations().length) return
+      const target = activeStep + (dx < 0 ? 1 : -1)
+      const x = target < 0 || target >= totalSteps ? dx * 0.25 : dx
+      setOffset(cardEl, `translateX(${x}px)`)
+    },
+    onRelease: dir => {
+      const target = activeStep - dir
+      if (!cardEl || prefersReducedMotion()) {
+        if (dir) goToStep(target)
+        return
+      }
+      const from = cardEl.style.transform || 'none'
+      if (from === 'none') return
+      setOffset(cardEl, '')
+      if (!dir || target < 0 || target >= totalSteps) {
+        cardEl.animate([{ transform: from }, { transform: 'none' }], { duration: 200, easing: 'ease-out' })
+        return
+      }
+      const w = cardEl.offsetWidth
+      const out = cardEl.animate(
+        [{ transform: from }, { transform: `translateX(${dir * w}px)`, opacity: 0 }],
+        { duration: 150, easing: 'ease-in', fill: 'forwards' },
+      )
+      out.onfinish = () => {
+        flushSync(() => goToStep(target))
+        out.cancel()
+        cardEl.animate(
+          [{ transform: `translateX(${-dir * w * 0.3}px)`, opacity: 0 }, { transform: 'none', opacity: 1 }],
+          { duration: 220, easing: 'ease-out' },
+        )
+      }
+    },
+  })
   useSwipeHint(cardEl, !isDesktop && activeStep < totalSteps - 1)
 
   // iOS rubber-banding drags the whole page along with the finger.
@@ -270,7 +313,7 @@ export function ArticlePage() {
   }
 
   return (
-    <div className="flex-1 flex flex-col bg-slate-50">
+    <div className="flex-1 flex flex-col bg-slate-50 overflow-x-clip">
       <main ref={setMainEl} className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
         {/* Title and lede shown only on the first step – gives more room to the
             steps later in the read. The step card below takes over as the main
