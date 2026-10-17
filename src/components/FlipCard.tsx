@@ -61,10 +61,7 @@ export function FlipCard({ card }: FlipCardProps) {
         </div>
 
         {/* Back */}
-        <div
-          className="flip-card-face flip-card-back relative flex flex-col p-4 text-left"
-          style={{ backgroundColor: '#00263e' }}
-        >
+        <div className="flip-card-face flip-card-back relative bg-brand-700 flex flex-col p-4 text-left">
           <div className="flex-1 flex flex-col gap-2.5">
             {card.alene && (
               <div>
