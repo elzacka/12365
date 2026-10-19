@@ -151,7 +151,7 @@
       {
         "id": "m365-copilot-aktivert",
         "tittel": "Hva får du med Microsoft Copilot?",
-        "ingress": "Med Microsoft Copilot får du KI i alle M365-appene, egne arbeidsflater og agenter du kan bygge og dele.",
+        "ingress": "Se hva Microsoft Copilot-lisensen gir deg i appene, i egne arbeidsflater og med agenter.",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
@@ -169,48 +169,43 @@
         "steg": [
           {
             "tittel": "I Word: Utkast, omskriving, oppsummering",
-            "innhold": "Copilot i Word kan:\n\n◦ **Skrive et utkast** fra en kort prompt eller fra filer du peker på\n◦ **Omskrive** et avsnitt: Kortere, mer formelt eller på klarspråk\n◦ **Oppsummere** et langt dokument til hovedpunkter\n◦ **Foreslå forbedringer** i struktur og argumentasjon\n\n**Editor** gir deg i tillegg forslag til klarspråk, tone og inkluderende språk."
+            "innhold": "◦ **Skriver utkast** fra en kort prompt eller fra filer du peker på\n◦ **Skriver om** et avsnitt: Kortere, mer formelt eller på klarspråk\n◦ **Oppsummerer** et langt dokument til hovedpunkter\n◦ **Foreslår forbedringer** i struktur, flyt og tone"
           },
           {
             "tittel": "I Excel: Avansert analyse med Python",
-            "innhold": "Med **Copilot med Python** beskriver du analysen med vanlige ord. Copilot skriver og kjører Python-koden, med biblioteker som pandas, scikit-learn og matplotlib. Du trenger ikke kunne Python selv.\n\nDette får du til:\n\n◦ **Prognoser**: Tidsserier og fremskrivninger\n◦ **Klyngeanalyse**: Gruppere observasjoner som hører sammen\n◦ **Statistiske tester og klassifisering**\n◦ **Diagrammer Excel ikke lager selv**, som nettverksgrafer og parplott"
+            "innhold": "Copilot i Excel åpnes i **redigeringsmodus**. Beskriv analysen med vanlige ord, så skriver og kjører Copilot Python-koden og legger resultatet i arbeidsboken.\n\nCopilot kan blant annet kjøre statistiske analyser og simuleringer, rydde i data og lage avanserte visualiseringer utover diagramtypene i Excel."
           },
           {
             "tittel": "I PowerPoint: Fra Word-dokument til presentasjon",
-            "innhold": "Copilot i PowerPoint kan:\n\n◦ **Lage en presentasjon** fra et Word-dokument du peker på\n◦ **Lage et utkast** fra en kort beskrivelse, med struktur og bilder\n◦ **Omformulere** et lysbilde: Kortere eller mer pedagogisk\n◦ **Foreslå** oppsett og en rød tråd\n\n**Designer** og **Speaker Coach** kan du bruke i tillegg."
+            "innhold": "◦ **Lager en presentasjon** fra et Word-dokument du peker på\n◦ **Lager et utkast** fra en kort beskrivelse, med struktur og bilder\n◦ **Skriver om** et lysbilde: Kortere eller mer pedagogisk\n◦ **Foreslår** oppsett og en rød tråd"
           },
           {
             "tittel": "I Outlook: Hjelp med innboks og kalender",
-            "innhold": "Copilot i Outlook kan ta seg av rutinearbeid:\n\n◦ **Prioritering**: Løfter frem e-post som krever svar\n◦ **Utkast til svar**: Copilot foreslår, du justerer før du sender\n◦ **Regler**: Be Copilot opprette, vise eller endre innboksregler med vanlig språk\n◦ **Møtesammendrag** etter Teams-møter, med handlingspunkter\n◦ **Smartere møteplanlegging**: Foreslår tidspunkter basert på tidligere oppmøte og arbeidssted\n◦ **Tillat handlinger** (Frontier-program): Copilot utfører flere e-postoppgaver etter hverandre på egen hånd, og du ser hva den gjør."
+            "innhold": "◦ **Prioritering**: Gir innkommende e-post prioritet (høy, normal eller lav) og forklarer hvorfor\n◦ **Utkast til svar**: Copilot foreslår, du justerer før du sender\n◦ **Regler**: Be Copilot opprette eller endre innboksregler med vanlig språk\n◦ **Møteforberedelse**: Samler oppgaver, dokumenter og bakgrunn før et møte\n◦ **Møtesammendrag**: Etter et Teams-møte finner du sammendraget i kalenderhendelsen\n◦ **Kontordager**: Foreslår dager på kontoret ut fra møtene dine og planene til teamet\n◦ **Møteplanlegging**: Be Copilot sette opp et møte med opptil to andre"
           },
           {
             "tittel": "I Teams-møter: Tilrettelegger",
-            "innhold": "**Tilrettelegger** er en Copilot-agent du kan legge til i planlagte Teams-møter (ikke kanal- eller direktemøter). Tilrettelegger gjør dette:\n\n◦ **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n◦ **Passer på agendaen** og minner om hvor mye tid som er igjen\n◦ **Henter beslutninger og handlingspunkter** og lagrer dem i Loop\n◦ **Svarer på spørsmål** i møtechatten, synlig for alle deltakerne\n\nOppgavene Tilrettelegger fanger opp, ligger i **Notater**. Velg **Godta for å synkronisere** under **Oppfølgingsoppgaver** for å sende dem til Planner. Oppgaver du ber om i møtechatten, synkroniseres automatisk."
+            "innhold": "**Tilrettelegger** er en Copilot-agent du kan legge til i planlagte Teams-møter. Tilrettelegger gjør dette:\n\n◦ **Tar sanntidsnotater** og oppdaterer dem mens møtet pågår\n◦ **Passer på agendaen** og minner om hvor mye tid som er igjen\n◦ **Svarer på spørsmål** i møtechatten, synlig for alle deltakerne\n\nBeslutninger og oppgaver havner i **Notater**. Velg **Godta for å synkronisere** under **Oppfølgingsoppgaver** for å sende oppgavene til Planner. Oppgaver du ber om i møtechatten, synkroniseres automatisk.\n\n*Merk: Synkronisering til Planner virker bare hvis organisasjonen bruker den offentlige forhåndsversjonen av Teams.*"
           },
           {
             "tittel": "I OneNote, Whiteboard, Forms, Loop og Clipchamp",
-            "innhold": "◦ **OneNote**: Oppsummer en notatbok, finn igjen et tema på tvers av sider\n◦ **Whiteboard**: Copilot samler og kategoriserer ideer fra workshops. Sammendraget legges som en Loop-komponent du kan dele.\n◦ **Forms**: Beskriv et skjema eller en quiz med vanlige ord og få et utkast med spørsmål, svar og forklaringer\n◦ **Loop**: Copilot foreslår innhold og kan skrive utkast direkte i arbeidsrommet\n◦ **Clipchamp-spilleren**: Be Copilot oppsummere, hente handlingspunkter eller svare på spørsmål om Teams-opptak og egne videoer"
+            "innhold": "◦ **OneNote**: Oppsummer en notatbok, finn igjen et tema på tvers av sider\n◦ **Whiteboard**: Copilot samler og kategoriserer ideer fra workshops. Sammendraget legges som en Loop-komponent du kan dele.\n◦ **Forms**: Beskriv et skjema eller en quiz med vanlige ord og få et utkast med spørsmål, svar og forklaringer\n◦ **Loop**: Copilot foreslår innhold og kan skrive utkast direkte i arbeidsrommet\n◦ **Clipchamp-spilleren**: Be Copilot oppsummere en video, svare på spørsmål om den eller finne hvor et tema tas opp. Videoen må ha transkripsjon."
           },
           {
-            "tittel": "Egne arbeidsflater: Sider, Notatblokker og Cowork",
-            "innhold": "**Copilot sider**\n\nEn delt side der du utforsker et tema sammen med Copilot. Siden kan inneholde interaktive diagrammer og enkle dashbord, og du kan bygge den videre til en app i **App Builder** (Frontier-program).\n\n**Copilot-notatblokker**\n\nEn samling kilder du velger selv, som filer, Teams-kanaler, møter og nettsider. Copilot svarer bare ut fra disse kildene. Notatblokker passer til utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork**\n\nGi Copilot en oppgave den kan jobbe med i bakgrunnen, for eksempel «Lag et utkast til årsrapporten basert på disse fem dokumentene». Hent resultatet senere fra mobilen eller PC-en.\n\n*Merk: Cowork krever også at organisasjonen har slått på forbruksbasert fakturering. Bruken trekker Copilot Credits.*"
+            "tittel": "Egne arbeidsflater: Copilot-sider, notatblokker og Cowork",
+            "innhold": "**Copilot-sider**\n\nEn delt side der du utforsker et tema sammen med Copilot. Siden kan inneholde interaktive diagrammer og tabeller.\n\n**Copilot-notatblokker**\n\nEn samling kilder du velger selv, som filer, sider og Teams-møter. Copilot svarer ut fra innholdet i notatblokken. Notatblokker passer til utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork**\n\nGi Copilot en større oppgave, for eksempel «Lag et utkast til årsrapporten basert på disse fem dokumentene». Copilot viser hvert steg og spør før den sender eller endrer noe. Du kan hente resultatet fra mobilen eller PC-en.\n\n*Merk: Copilot-sider og notatblokker har du også med Copilot Chat. Cowork krever i tillegg at organisasjonen har slått på forbruksbasert fakturering, og bruken trekker Copilot Credits.*"
           },
           {
-            "tittel": "Agenter: Bygg, godkjenn og publiser",
-            "innhold": "Med Microsoft Copilot får du de avanserte funksjonene i **Agent Builder**. En administrator godkjenner agenten før den blir publisert i **Agent Store** for hele organisasjonen.\n\n◦ **Copilot i SharePoint** bygger sider, lister og biblioteker ut fra en beskrivelse og foreslår metadata\n◦ **Planner-agenten** henter beslutninger fra møtenotater i Teams og lager en tidsplan baklengs fra fristen\n◦ Agentene får identitet i Entra ID og logges i Purview, på lik linje med brukere\n◦ Agentene kan styres med DSPM, DLP og Insider Risk Management"
-          },
-          {
-            "tittel": "Slik henger funksjonene sammen",
-            "innhold": "◦ **Møte → handling**: Tilrettelegger fanger handlingspunktene i møtenotatene, og du sender dem til Planner med ett klikk\n◦ **Word → PowerPoint**: En utredning i Word blir til et presentasjonsutkast med ett klikk\n◦ **Forms → Excel → rapport**: Analyser svarene med Copilot og Python i Excel, og vis funnene i Copilot sider eller Power BI\n◦ **Notatblokk → utredning**: Samle kildene i en notatblokk, og Copilot holder seg til dem gjennom hele prosjektet\n◦ **SharePoint → agent**: Copilot i SharePoint bygger strukturen, og agentene publiseres i Agent Store\n◦ **Sider → app**: Utforsk i Copilot sider, og åpne resultatet i App Builder når du vil ha en varig versjon"
+            "tittel": "Agenter: Bygg, del og publiser",
+            "innhold": "Med **Agent Builder** lager du egne agenter med instruksjoner og kilder du velger selv. Med Copilot-lisensen kan agentene også bruke e-post, Teams-samtaler og møter som kilder.\n\nDu kan dele en agent med utvalgte personer. En administrator må godkjenne agenten før den legges ut i **Agent Store** for hele organisasjonen.\n\n◦ **Copilot i SharePoint** lager og endrer sider, lister og biblioteker ut fra en beskrivelse og foreslår metadatakolonner\n◦ **Planner-agenten** lager planer og oppgaver fra en beskrivelse eller et dokument, og svarer på spørsmål om oppgavene dine\n\nSamtaler med Copilot og agentene logges i Purview. Med Agent 365 får agentene egen identitet i Entra ID, og organisasjonen kan styre dem med DSPM, DLP og Insider Risk Management. Eget tillegg for E5 via Agent 365-lisens.\n\n*Merk: Hele nettsteder og store jobber i Copilot i SharePoint trekker Copilot Credits.*"
           },
           {
             "tittel": "Forutsetninger",
-            "innhold": "◦ **Lisensen er tildelt** brukerne som skal bruke Copilot\n◦ **Tjenestene er slått på** i admin-portalen, for hver app dere vil bruke Copilot i\n◦ **Følsomhetsetiketter er på plass**, så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot svarer ikke bedre enn innholdet den finner\n\nLær opp brukerne i å skrive gode prompter og sjekke svarene."
+            "innhold": "◦ **Lisensen er tildelt** brukerne som skal bruke Copilot\n◦ **Innstillingene er sjekket** for funksjonene dere vil bruke, som agenter, Cowork, Copilot-sider og notatblokker\n◦ **Følsomhetsetiketter er på plass**, så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot svarer ikke bedre enn innholdet den finner\n\nLær opp brukerne i å skrive gode prompter og sjekke svarene."
           }
         ],
         "relaterte": [
           "copilot-chat-inkludert",
-          "copilot-studio-for-teams-bygge-chatbot",
           "folsomhetsetiketter"
         ],
         "notat": ""
@@ -233,23 +228,23 @@
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Klikk **Copilot** i venstremenyen i Teams. Logg inn med organisasjonskontoen."
+            "innhold": "Klikk **Copilot** i menyen til venstre i Teams. Hvis du ikke ser den, klikker du **Apper**, søker etter Copilot og fester den."
           },
           {
             "tittel": "Sjekk hvilken Copilot-versjon du har",
-            "innhold": "Rull ned til bunnen av Microsoft 365-startsiden. Merkelappen under navnet ditt viser hva du har:\n\n◦ **M365 Copilot (Premium)**: Du har Microsoft Copilot-lisens\n◦ **M365 Copilot (grunnleggende)**: Ingen Copilot-lisens, men standard tilgang til Copilot i Word, Excel, PowerPoint og OneNote\n◦ **Copilot Chat (grunnleggende)**: Ingen Copilot-lisens og ingen Copilot i Word, Excel, PowerPoint og OneNote"
+            "innhold": "Merkelappen i **Microsoft Copilot**-appen og i Word, Excel, PowerPoint og OneNote viser hva du har:\n\n◦ **Microsoft 365 Copilot (Premium)** eller **(Pro)**: Du har Microsoft Copilot-lisens\n◦ **Microsoft 365 Copilot (grunnleggende)**: Ingen Copilot-lisens, men standard tilgang til Copilot i Word, Excel, PowerPoint og OneNote\n◦ **Copilot Chat (grunnleggende)**: Ingen Copilot-lisens og ingen Copilot i Word, Excel, PowerPoint og OneNote"
           },
           {
             "tittel": "Søk på nettet",
-            "innhold": "Copilot Chat søker på nettet og gir deg oppdaterte svar med kildehenvisninger. Bruk den til å:\n\n◦ Finne fakta, lover og regelverk\n◦ Få sammendrag av fagstoff\n◦ Undersøke tema du ikke kjenner fra før\n\nLim inn tekst fra nettsider og be Copilot oppsummere eller forklare.\n\n*Hold sensitive personopplysninger og intern informasjon utenfor nettsøk.*"
+            "innhold": "Copilot Chat søker på nettet og gir deg oppdaterte svar med kildehenvisninger. Bruk den til å:\n\n◦ Finne fakta, lover og regelverk\n◦ Få sammendrag av fagstoff\n◦ Undersøke tema du ikke kjenner fra før\n\n**Hold sensitive personopplysninger og intern informasjon utenfor nettsøk.**\n\n*Merk: Copilot svarer uten nettsøk hvis organisasjonen har slått det av.*"
           },
           {
             "tittel": "Work IQ: Søk i organisasjonens innhold",
-            "innhold": "Med **Microsoft Copilot**-lisens er **Work IQ** slått på som standard øverst i Chat. Copilot bruker da dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler du har tilgang til. Copilot svarer bare ut fra nettet hvis du slår av **Work IQ**.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nDataene blir i organisasjonens tenant, og Microsoft bruker dem ikke til å trene modellene sine. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Merk: Prompter og svar kan være journalpliktige saksdokumenter, særlig i saksbehandling.*"
+            "innhold": "Med **Microsoft Copilot**-lisens er **Work IQ** slått på som standard øverst i Chat. Copilot bruker da dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler du har tilgang til. Copilot svarer bare ut fra nettet hvis du slår av **Work IQ**.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nUten Copilot-lisens svarer Copilot Chat ut fra nettet og det du selv limer inn eller laster opp. I Outlook kan Copilot Chat likevel bruke e-post, kalender og møter.\n\nMicrosoft bruker ikke innholdet til å trene modellene sine. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Merk: Prompter og svar kan være journalpliktige saksdokumenter, særlig i saksbehandling.*"
           },
           {
             "tittel": "Last opp filer og still spørsmål",
-            "innhold": "Dra en PDF, et Word-dokument eller en annen fil inn i Copilot Chat. Copilot leser innholdet og kan oppsummere, svare på spørsmål og finne det du leter etter, også i lange rapporter og utredninger."
+            "innhold": "Dra en fil inn i Copilot Chat, for eksempel en PDF, et Word-dokument, et Excel-ark eller en PowerPoint-presentasjon. Copilot leser innholdet og kan oppsummere, svare på spørsmål og finne det du leter etter, også i lange rapporter og utredninger."
           },
           {
             "tittel": "Skriv og formuler",
@@ -257,8 +252,7 @@
           }
         ],
         "relaterte": [
-          "m365-copilot-aktivert",
-          "copilot-studio-for-teams-bygge-chatbot"
+          "m365-copilot-aktivert"
         ]
       },
       {
