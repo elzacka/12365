@@ -254,62 +254,6 @@
         "relaterte": [
           "m365-copilot-aktivert"
         ]
-      },
-      {
-        "id": "copilot-studio-for-teams-bygge-chatbot",
-        "tittel": "Bygg en chatbot med Copilot Studio",
-        "ingress": "Lag en regelbasert chatbot for teamet uten å programmere.",
-        "kategori": "copilot",
-        "tags": [
-          "copilot-studio",
-          "chatbot",
-          "teams",
-          "lavkode",
-          "agent",
-          "power-automate"
-        ],
-        "steg": [
-          {
-            "tittel": "Når passer en regelbasert chatbot?",
-            "innhold": "Bruk Copilot Studio når du vil ha en chatbot som svarer på de samme spørsmålene om og om igjen:\n\n◦ **HR-FAQ**: Åpningstider, fridager, sykemelding\n◦ **IT-helpdesk**: Tilbakestille passord, melde feil, bestille utstyr\n◦ **Nyansatte**: Praktisk informasjon og lenker\n\nChatbotten fungerer best når svarene er forutsigbare og kan struktureres som en samtale. Bruk Copilot Chat med **Work IQ** til frie spørsmål om innholdet i dokumenter (krever Microsoft Copilot-lisens).\n\n*Den regelbaserte Teams-versjonen er et tillegg for M365 E5. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Nye chatboter lager du i nettleserversjonen av Copilot Studio. Teams-appen sender deg dit.*"
-          },
-          {
-            "tittel": "Velg team som skal eie chatbotten",
-            "innhold": "Første gang du åpner **Copilot Studio**, velger du hvilket team som skal eie chatbotten. Velg et eksisterende team eller opprett et nytt, og klikk **Fortsett**.\n\n*Teamet du velger, bestemmer hvor chatbotten lagres og hvem som kan administrere den.*"
-          },
-          {
-            "tittel": "Lag agenten og gi den et navn",
-            "innhold": "Klikk **Opprett tom agent**. Gi den et navn som forteller hva den gjør, for eksempel «HR-bot» eller «IT-helpdesk». Klikk **Opprett**. **Oversikt**-siden åpnes.\n\nDu kan også bytte ut standardikonet med ett som passer bedre og legge til **forslag til startfraser** brukerne ser når de åpner chatbotten."
-          },
-          {
-            "tittel": "Bygg et tema med utløserfraser",
-            "innhold": "Et **tema** er én ting chatbotten kan svare på, som «åpningstider» eller «sykemelding».\n\n1. Gå til **Temaer** og klikk **Legg til tema** → **Fra blank**.\n2. Skriv inn flere måter å stille spørsmålet på i noden **Utløser**: «Når åpner kontoret?», «Åpningstider?», «Hvilke timer er dere åpne?».\n3. Lukk panelet og lagre.\n\nCopilot Studio kjenner igjen lignende formuleringer, så du trenger ikke skrive alle variantene."
-          },
-          {
-            "tittel": "Definer samtaleflyten",
-            "innhold": "Bygg samtalen som en serie noder under utløseren:\n\n◦ **Send en melding**: Chatbotten svarer\n◦ **Still et spørsmål**: Chatbotten ber om mer informasjon, gjerne med valg som «Heltidsansatt» eller «Deltidsansatt»\n◦ **Forgrening**: Ulik flyt avhengig av hva brukeren svarte\n\nLagre svaret som en **variabel** (for eksempel `Ansattype`). Da kan du bruke svaret senere i samtalen eller la det styre hvilken gren samtalen følger."
-          },
-          {
-            "tittel": "Test chatbotten mens du bygger",
-            "innhold": "Klikk **Test** i verktøylinjen for å åpne testpanelet. Skriv et spørsmål som om du var brukeren. Du ser i sanntid hvilken node chatbotten følger.\n\n*Tips: Test også med skrivefeil og uvanlige formuleringer. Brukerne skriver ikke alltid perfekt.*"
-          },
-          {
-            "tittel": "Send videre til en person med Power Automate",
-            "innhold": "Chatbotten kan varsle noen i HR eller IT-support når den ikke kan hjelpe selv:\n\n1. Klikk **Legg til en node** under et spørsmål → **Legg til et verktøy** → **Opprett en flyt**.\n2. Power Automate åpnes. Velg trinnet **Post melding i en chat eller kanal**.\n3. Velg hvilken Teams-kanal som skal få varselet, og skriv hva meldingen skal si.\n4. Lagre flyten, gå tilbake til Copilot Studio, last siden på nytt og legg flyten inn som handling i samtalen.\n\nBruk variabelen `bot.UserDisplayName` for å ta med navnet til brukeren i varselet."
-          },
-          {
-            "tittel": "Publiser chatbotten til Teams",
-            "innhold": "Klikk **Publiser** øverst på siden og gjør så dette:\n\n1. Gå til **Kanaler**, velg Teams-kanalen og klikk **Legg til kanal**.\n2. Velg **Del med teamet** for å teste. Det krever ikke godkjenning fra en administrator.\n3. Velg **Del med organisasjonen** når chatbotten er klar. Det krever godkjenning fra en administrator.\n\nKollegaene finner chatbotten i appbutikken i Teams, under **Bygd med Power Platform** mens den testes og under **Bygd for organisasjonen** når en administrator har godkjent den."
-          },
-          {
-            "tittel": "Begrensninger og tillegg",
-            "innhold": "Teams-versjonen har disse begrensningene:\n\n◦ **Regelbasert**: Chatbotten svarer bare det du har lagt inn, ikke fritt ut fra dokumenter\n◦ **Bare i Teams**: Kan ikke publiseres til ekstern nettside, mobilapp eller andre kanaler\n◦ **Dataverse for Teams**: Data lagres i Dataverse for Teams, ikke i full Dataverse\n\nGenerative svar fra dokumenter, ekstern publisering og premiumkoblinger krever full Copilot Studio, med egen lisens eller forbruksbaserte **Copilot Credits**. Microsoft Copilot-lisensen gir deg bruk av agenter i Copilot Chat, Teams og SharePoint.\n\n*Chatboter du har bygd i Teams-appen, kan du bruke videre.*"
-          }
-        ],
-        "relaterte": [
-          "copilot-chat-inkludert",
-          "m365-copilot-aktivert"
-        ]
       }
     ]
   },
