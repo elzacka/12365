@@ -27,7 +27,7 @@
         {
           "navn": "Copilot Chat",
           "status": "inkludert",
-          "beskrivelse": "Gratis KI-chat med Enterprise Data Protection. Du kan søke på nettet (Nett-modus), laste opp filer og få utkast eller oppsummeringer. Søk i organisasjonens egne dokumenter, e-post og møter krever Microsoft Copilot-lisens."
+          "beskrivelse": "Gratis KI-chat med Enterprise Data Protection. Du kan søke på nettet, laste opp filer, få utkast eller oppsummeringer og bruke Copilot-sider og notatblokker. Søk i organisasjonens dokumenter, e-post og møter krever Microsoft Copilot-lisens, men i Outlook kan Copilot Chat bruke e-post, kalender og møter."
         },
         {
           "navn": "Copilot Chat Analytics",
@@ -37,7 +37,7 @@
         {
           "navn": "Microsoft Copilot",
           "status": "tillegg",
-          "beskrivelse": "KI i Word, Excel, PowerPoint, Outlook og Teams-møter: Utkast, oppsummeringer, automatiske møtenotater og handlingspunkter. Gir også Jobb-modus i Copilot Chat, full Copilot Studio og egne arbeidsflater som Copilot sider, notatblokker og Cowork. Egen lisens per bruker."
+          "beskrivelse": "KI i Word, Excel, PowerPoint, Outlook og Teams-møter: Utkast, oppsummeringer, automatiske møtenotater og handlingspunkter. Gir også Work IQ i Copilot Chat, agenter med e-post, Teams-samtaler og møter som kilder, og Copilot Cowork. Egen lisens per bruker."
         },
         {
           "navn": "Microsoft Security Copilot",
@@ -726,12 +726,12 @@
         {
           "navn": "Copilot Studio (Teams-plan)",
           "status": "tillegg",
-          "beskrivelse": "Regelbaserte KI-agenter for publisering i Teams. Lagrer i Dataverse for Teams og kan starte Power Automate-flyter. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Nye agenter lages i nettleserversjonen av Copilot Studio, og Teams-appen sender deg dit. Generativ KI, premiumkoblinger eller publisering utenfor Teams krever full Copilot Studio."
+          "beskrivelse": "Regelbaserte KI-agenter for publisering i Teams. Lagrer i Dataverse for Teams, som Microsoft avvikler, og kan starte Power Automate-flyter. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Generativ KI, premiumkoblinger eller publisering utenfor Teams krever full Copilot Studio."
         },
         {
           "navn": "Dataverse for Teams",
           "status": "tillegg",
-          "beskrivelse": "Enkel database i Teams-kanaler, for Power Apps og Power Automate. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5."
+          "beskrivelse": "Enkel database i Teams-kanaler, for Power Apps og Power Automate. Tillegget er Teams Enterprise-lisensen, som selges separat fra E5. Microsoft avvikler tjenesten: Nye miljøer kan ikke opprettes fra 15.11.26, og miljøer som ikke er oppgradert til Dataverse, stenges 15.09.27."
         },
         {
           "navn": "Power Apps (per app, Premium og betaling etter bruk)",
