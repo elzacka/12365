@@ -1,10 +1,10 @@
 # Personvernerklæring
 
-Oppdatert: 17.10.26
+Oppdatert: 19.10.26
 
 ## Kort oppsummert
 
-1-2-365 er en gratis [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen samler ikke inn personopplysninger og bruker verken analyseverktøy eller informasjonskapsler.
+1-2-365 er en gratis [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen bruker ikke informasjonskapsler. Den teller besøk med GoatCounter, se «Besøksstatistikk».
 
 ## Hva som lagres på enheten din
 
@@ -19,6 +19,17 @@ Ingenting av dette sendes fra enheten, og ingenting av det kan identifisere deg.
 ## Slik sletter du det
 
 «Logg ut» sletter passordfrasen. Alt annet sletter du ved å fjerne appen fra enheten eller slette nettstedsdata for appen i nettleseren.
+
+## Besøksstatistikk
+
+Appen teller besøk med GoatCounter. Tallene viser hvor mye appen og sidene i den blir brukt.
+
+- Appen sender bare adressen til siden du åpner, for eksempel «/12365/gjor-sann». Søk og annet innhold sendes ikke.
+- Appen lagrer ingenting på enheten din for å telle besøk.
+- GoatCounter bruker IP-adressen din og informasjon om nettleseren i opptil 8 timer for å telle deg én gang. De lagres ikke.
+- GoatCounter lagrer bare samlede tall. GoatCounter drives fra Irland og lagrer tallene hos Hetzner i Finland og Tyskland.
+- Grunnlaget er berettiget interesse (personvernforordningen artikkel 6 nr. 1 bokstav f): Å se hvilke apper og sider som brukes.
+- Du kan unngå tellingen ved å blokkere «goatcounter.com», for eksempel med en annonseblokkering.
 
 ## GitHub
 

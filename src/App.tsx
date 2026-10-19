@@ -1,4 +1,4 @@
-import { lazy, Suspense, useLayoutEffect, useState, ViewTransition } from 'react'
+import { lazy, Suspense, useEffect, useLayoutEffect, useState, ViewTransition } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, useLocation, useParams } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
@@ -15,6 +15,7 @@ import { ArticlePage } from './pages/ArticlePage'
 import { SeOgHor } from './pages/SeOgHor'
 import { AltIE5 } from './pages/AltIE5'
 import { Jukselapp } from './pages/Jukselapp'
+import { countVisit } from './lib/visitCount'
 
 // Lazy-loaded: pulls in media-chrome, which shouldn't ship in the main bundle for routes that never play video.
 const VideoPage = lazy(() => import('./pages/VideoPage').then(m => ({ default: m.VideoPage })))
@@ -70,6 +71,11 @@ function AppRoutes() {
   // that or the cross-fade would end on the old scroll position and then jump.
   useLayoutEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+  }, [pathname])
+
+  useEffect(() => {
+    if (LEGACY_PATHS.some(([from]) => pathname === from || pathname.startsWith(`${from}/`))) return
+    countVisit(basename + pathname)
   }, [pathname])
 
   const headerProps = getHeaderProps(pathname)
