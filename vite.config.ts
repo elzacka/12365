@@ -12,7 +12,7 @@ const productionCsp = [
   "default-src 'self'",
   "script-src 'self'",
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob: https://elzacka.goatcounter.com",
+  "img-src 'self' data: blob:",
   "media-src 'self' blob:",
   "connect-src 'self'",
   "frame-src https://www.youtube-nocookie.com https://player.vimeo.com",
