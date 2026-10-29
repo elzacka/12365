@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useAuth } from '../auth/useAuth'
-import { CloseIcon, SpyIcon, SpyOffIcon } from './Icons'
+import { CloseIcon, GlassesIcon, GlassesOffIcon } from './Icons'
 
 interface LockModalProps {
   onClose: () => void
@@ -64,7 +64,7 @@ export function LockModal({ onClose }: LockModalProps) {
       >
         <div className="flex items-center justify-between px-5 pt-5 pb-2">
           <div className="flex items-center gap-2.5 text-brand-700">
-            {unlocked ? <SpyIcon size={22} /> : <SpyOffIcon size={22} />}
+            {unlocked ? <GlassesIcon size={22} /> : <GlassesOffIcon size={22} />}
             <h2 id="lock-modal-title" className="text-base font-semibold text-slate-800">
               {unlocked ? 'Innhold låst opp' : 'Lås opp innhold'}
             </h2>

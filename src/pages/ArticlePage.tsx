@@ -3,7 +3,7 @@ import { flushSync } from 'react-dom'
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
-import { ChevronRightIcon, ExternalLinkIcon, SpyIcon, HeartShareIcon, ZoomInIcon } from '../components/Icons'
+import { ChevronRightIcon, ExternalLinkIcon, GlassesIcon, HeartShareIcon, ZoomInIcon } from '../components/Icons'
 import { UntestedWarning } from '../components/UntestedWarning'
 import { CopyableCommand } from '../components/CopyableCommand'
 import { ImageLightbox } from '../components/ImageLightbox'
@@ -463,7 +463,7 @@ export function ArticlePage() {
                       <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800">
                         {relArticle.laast && (
                           <>
-                            <SpyIcon size={13} className="shrink-0 text-slate-400" />
+                            <GlassesIcon size={13} className="shrink-0 text-slate-400" />
                             <UntestedWarning />
                           </>
                         )}

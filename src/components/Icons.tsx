@@ -1,3 +1,5 @@
+import { useId } from 'react'
+
 // Selvhostede SVG-ikoner for offline-støtte. Merket «Tabler»: Tabler Icons, © Paweł Kuna, MIT-lisens.
 
 interface IconProps {
@@ -186,27 +188,35 @@ export function PlusIcon({ size = 14, className }: IconProps) {
   )
 }
 
-// Tabler: skjult innhold
-export function SpyIcon({ size = 20, className }: IconProps) {
+// Gated content: glasses, slashed while locked.
+const GLASSES = (
+  <>
+    <circle cx="6" cy="12" r="4" />
+    <circle cx="18" cy="12" r="4" />
+    <path d="M10 11.5c1.3 -1 2.7 -1 4 0" />
+    <path d="M2 12l1.5 -5" />
+    <path d="M22 12l-1.5 -5" />
+  </>
+)
+
+export function GlassesIcon({ size = 20, className }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-      <path d="M3 11h18" />
-      <path d="M5 11v-4a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v4" />
-      <path d="M4 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M14 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M10 17h4" />
+      {GLASSES}
     </svg>
   )
 }
 
-export function SpyOffIcon({ size = 20, className }: IconProps) {
+export function GlassesOffIcon({ size = 20, className }: IconProps) {
+  // The mask cuts a gap around the slash, so it reads on any background.
+  const maskId = useId()
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-      <path d="M3 11h8m4 0h6" />
-      <path d="M5 11v-4c0 -.571 .16 -1.105 .437 -1.56m2.563 -1.44h8a3 3 0 0 1 3 3v4" />
-      <path d="M4 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M14.88 14.877a3 3 0 1 0 4.239 4.247m.59 -3.414a3.012 3.012 0 0 0 -1.425 -1.422" />
-      <path d="M10 17h4" />
+      <mask id={maskId} maskUnits="userSpaceOnUse">
+        <rect width="24" height="24" fill="white" stroke="none" />
+        <path d="M3 3l18 18" stroke="black" strokeWidth="4" />
+      </mask>
+      <g mask={`url(#${maskId})`}>{GLASSES}</g>
       <path d="M3 3l18 18" />
     </svg>
   )
