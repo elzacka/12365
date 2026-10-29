@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "microsoft-learn": {
+      "type": "http",
+      "url": "https://learn.microsoft.com/api/mcp"
+    },
+    "microsoft-release-communications": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["scripts/mrc-mcp-bridge.mjs"]
+    }
+  }
+}
