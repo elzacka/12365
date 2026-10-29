@@ -46,7 +46,7 @@ export function UpdateButton() {
       onClick={handleClick}
       disabled={applying}
       aria-busy={applying}
-      className="p-2.5 text-brand-700 hover:text-brand-800 active:text-brand-900 transition-colors disabled:cursor-default touch-manipulation"
+      className="p-2.5 text-brand-700 hover:text-brand-800 active:text-brand-900 transition-colors cursor-pointer disabled:cursor-default touch-manipulation"
       aria-label="Ny versjon er klar – oppdater appen"
       title="Oppdater appen"
     >

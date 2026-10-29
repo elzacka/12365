@@ -4,7 +4,7 @@ import { useAuth } from '../auth/useAuth'
 import { ChevronLeftIcon, RunBackIcon, GlassesIcon, GlassesOffIcon } from './Icons'
 import { UpdateButton } from './UpdateButton'
 
-const HEADER_BUTTON = 'inline-flex items-center justify-center w-10 h-10 rounded-xl border transition-colors'
+const HEADER_BUTTON = 'inline-flex items-center justify-center w-10 h-10 rounded-xl border cursor-pointer transition-colors'
 const IDLE = 'border-slate-200 bg-white text-slate-500 hover:border-brand-300 hover:text-brand-700'
 
 interface HeaderProps {
