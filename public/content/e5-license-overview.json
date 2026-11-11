@@ -37,7 +37,7 @@
         {
           "navn": "Microsoft Copilot",
           "status": "tillegg",
-          "beskrivelse": "KI i Word, Excel, PowerPoint, Outlook og Teams-møter: Utkast, oppsummeringer, automatiske møtenotater og handlingspunkter. Gir også Work IQ i Copilot Chat, agenter med e-post, Teams-samtaler og møter som kilder, og Copilot Cowork. Egen lisens per bruker."
+          "beskrivelse": "KI i Word, Excel, PowerPoint, Outlook og Teams-møter: Utkast, oppsummeringer, automatiske møtenotater og handlingspunkter. Gir også Work IQ i Copilot Chat og agenter med e-post, Teams-samtaler og møter som kilder. Copilot Cowork krever lisensen, og organisasjonen betaler for bruken med Copilot Credits. Egen lisens per bruker."
         },
         {
           "navn": "Microsoft Security Copilot",
@@ -79,7 +79,7 @@
         {
           "navn": "Registry sync",
           "status": "tillegg",
-          "beskrivelse": "Automatisk synkronisering av agentregisteret på tvers av miljøer og tenants. Eget tillegg for E5 via Agent 365-lisens."
+          "beskrivelse": "Henter agenter fra andre plattformer, som Amazon Bedrock og Google Vertex AI, inn i agentregisteret, slik at organisasjonen ser dem på ett sted. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Graph API for agenter",
@@ -173,7 +173,7 @@
         {
           "navn": "Secure Access Service Edge (SASE) for agenter",
           "status": "tillegg",
-          "beskrivelse": "Sikker nettverkstilgang for agenter med Microsoft Entra Internet Access og Private Access. Eget tillegg for E5 via Agent 365-lisens."
+          "beskrivelse": "Sikker nettverkstilgang for agenter med Microsoft Entra Global Secure Access: Filtrering av nettsteder, filer og trusler, og vern mot ledetekstinjeksjon. Eget tillegg for E5 via Agent 365-lisens."
         },
         {
           "navn": "Device compliance for agent conditional access",
@@ -225,7 +225,7 @@
         {
           "navn": "Skrivebordsapper (Outlook, Word, Excel, PowerPoint, OneNote, Access (PC))",
           "status": "inkludert",
-          "beskrivelse": "Fullversjonene av Outlook, Word, Excel, PowerPoint, OneNote og Access (bare Windows), installert lokalt. Publisher står i Microsofts oversikt, men appen er avviklet og utilgjengelig fra 13.10.26."
+          "beskrivelse": "Fullversjonene av Outlook, Word, Excel, PowerPoint, OneNote og Access (bare Windows), installert lokalt. Publisher står i Microsofts oversikt, men Microsoft har avviklet appen."
         },
         {
           "navn": "Microsoft 365 for mobil",
@@ -278,7 +278,7 @@
           "beskrivelse": "Hver bruker kan bytte visningsspråk i M365-appene."
         },
         {
-          "navn": "Clipchamp Premium",
+          "navn": "Clipchamp Premium Add-on",
           "status": "tillegg",
           "beskrivelse": "Utvider Clipchamp Standard med premiuminnhold og flere effekter. Eget tillegg for E5."
         }
@@ -359,7 +359,7 @@
         {
           "navn": "Online møter",
           "status": "inkludert",
-          "beskrivelse": "Videomøter med chat, deling og opptak for opptil 1 000 interaktive deltakere. Flere kan følge møtet som tilskuere (view-only), opptil 20 000 totalt."
+          "beskrivelse": "Videomøter med chat, deling og opptak for opptil 1 000 interaktive deltakere. Flere kan følge møtet som tilskuere (view-only), opptil 11 000 totalt."
         },
         {
           "navn": "Town hall",
@@ -372,9 +372,9 @@
           "beskrivelse": "Arrangementer med påmelding, påminnelser og oppfølging."
         },
         {
-          "navn": "Immersive Events (Mesh)",
+          "navn": "Immersive Events",
           "status": "inkludert",
-          "beskrivelse": "3D-møterom der deltakerne møtes som avatarer, for eksempel til workshoper og messer."
+          "beskrivelse": "3D-møterom der deltakerne møtes som avatarer, for eksempel til workshoper og messer. Microsoft avvikler funksjonen 02.04.27."
         },
         {
           "navn": "Avatarer for Teams",
@@ -510,7 +510,7 @@
         {
           "navn": "In-person events, Hybrid RSVP, Places card, Work plans, Workplace presence",
           "status": "inkludert",
-          "beskrivelse": "Planlegging av hybridarbeid: Booking av plasser og parkering, og oversikt over hvem som er på kontoret. Places i Teams krever Teams Enterprise-lisensen, som selges separat fra E5."
+          "beskrivelse": "Planlegging av hybridarbeid: Arbeidsplaner, arrangementer med påmelding og oversikt over hvem som er på kontoret. Places i Teams krever Teams Enterprise-lisensen, som selges separat fra E5."
         },
         {
           "navn": "Places Explorer",
@@ -542,17 +542,12 @@
         {
           "navn": "Compliance Management",
           "status": "inkludert",
-          "beskrivelse": "Rammeverk for å spore samsvar med lover og standarder som GDPR, ISO 27001 og NIS2."
+          "beskrivelse": "Rammeverk for å spore samsvar med lover og standarder som GDPR, ISO 27001 og NIS2. E5 har tre premiummaler etter eget valg. Flere krever tillegget Premium Assessments."
         },
         {
           "navn": "Power BI Pro",
           "status": "inkludert",
           "beskrivelse": "Interaktive dashbord du kan lage, dele og publisere. Pro-lisensen gir full deling."
-        },
-        {
-          "navn": "Power BI Premium per bruker",
-          "status": "tillegg",
-          "beskrivelse": "Utvider Power BI Pro med større datamodeller, hyppigere oppdatering, paginerte rapporter og KI-funksjoner."
         },
         {
           "navn": "Premium Assessments for Compliance Manager",
@@ -563,6 +558,11 @@
           "navn": "Compliance Program for Microsoft Cloud",
           "status": "tillegg",
           "beskrivelse": "Tjeneste for regulerte bransjer: Tilgang til Microsofts compliance-eksperter, revisjonsdokumentasjon og dialog med tilsynsmyndigheter."
+        },
+        {
+          "navn": "Power BI Premium per bruker",
+          "status": "tillegg",
+          "beskrivelse": "Utvider Power BI Pro med større datamodeller, hyppigere oppdatering, paginerte rapporter og KI-funksjoner."
         }
       ]
     },
@@ -721,7 +721,7 @@
         {
           "navn": "Power Automate for Microsoft 365",
           "status": "inkludert",
-          "beskrivelse": "Flyter mellom M365-apper med standardkoblinger, for varsler, godkjenninger og annen automatisering (bare skyflyter)."
+          "beskrivelse": "Flyter mellom M365-apper med standardkoblinger, for varsler, godkjenninger og annen automatisering."
         },
         {
           "navn": "Copilot Studio (Teams-plan)",
@@ -895,7 +895,7 @@
         {
           "navn": "Microsoft Defender for IoT – Enterprise IoT",
           "status": "inkludert",
-          "beskrivelse": "Oppdager og overvåker IoT-enheter koblet til kontornettverket."
+          "beskrivelse": "Oppdager og overvåker IoT-enheter koblet til kontornettverket. E5 dekker fem enheter per brukerlisens."
         },
         {
           "navn": "Microsoft Defender XDR",
@@ -1039,14 +1039,14 @@
           "beskrivelse": "Avansert identitetsstyring med risikobasert betinget tilgang og PIM."
         },
         {
+          "navn": "Microsoft Entra Suite",
+          "status": "tillegg",
+          "beskrivelse": "Pakke som samler Entra Internet Access, Entra Private Access, Entra ID Governance, Entra ID Protection og Verified ID. Eget tillegg for E5 som utvider identitetsstyring og sikker nettverkstilgang utover Entra ID Plan 2. Fins også som eget tillegg for Entra ID Plan 2 (Entra Suite P2), som passer for E5."
+        },
+        {
           "navn": "Microsoft Entra ID Protection",
           "status": "inkludert",
           "beskrivelse": "Risikodeteksjon for brukere og pålogginger basert på maskinlæring."
-        },
-        {
-          "navn": "Microsoft Entra Suite",
-          "status": "tillegg",
-          "beskrivelse": "Pakke som samler Entra Internet Access, Entra Private Access, Entra ID Governance og Verified ID. Eget tillegg for E5 som utvider identitetsstyring og sikker nettverkstilgang utover Entra ID Plan 2. Fins også som eget tillegg for Entra ID Plan 2 (Entra Suite P2), som passer for E5."
         },
         {
           "navn": "Entra Internet Access for Microsoft Services",
@@ -1121,7 +1121,7 @@
         {
           "navn": "DirectAccess",
           "status": "inkludert",
-          "beskrivelse": "Eldre fjerntilgangsløsning som gir tilgang til interne ressurser uten manuell VPN-tilkobling. Microsoft har avviklet løsningen og anbefaler Entra Private Access i stedet."
+          "beskrivelse": "Eldre fjerntilgangsløsning som gir tilgang til interne ressurser uten manuell VPN-tilkobling. Microsoft utvikler den ikke videre og anbefaler Always On VPN i stedet."
         },
         {
           "navn": "Windows Hello for Business",
@@ -1217,7 +1217,7 @@
         {
           "navn": "Microsoft Purview Information Protection P2",
           "status": "inkludert",
-          "beskrivelse": "Automatisk etikettering, avansert kryptering og Hold Your Own Key (HYOK). P1-funksjonalitet er inkludert i P2."
+          "beskrivelse": "Automatisk etikettering, avansert kryptering og Double Key Encryption (DKE). P1-funksjonalitet er inkludert i P2."
         },
         {
           "navn": "Manuell, standard og obligatorisk etikettering med følsomhetsetiketter i M365-apper",

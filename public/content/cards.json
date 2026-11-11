@@ -44,12 +44,14 @@
     "navn": "Copilot Chat",
     "tagline": "KI-chat for skriving, oppsummering og søk",
     "alias": [
+      "Microsoft Copilot Chat",
+      "Copilot Chat (grunnleggende)",
       "Bing Chat Enterprise",
       "M365 Chat",
       "Microsoft 365 Chat"
     ],
     "alene": "Følger med M365. Still spørsmål og få utkast og oppsummeringer. Søk på nettet, eller lim inn eller last opp en fil. Du kan tilpasse instruksjonene, så den svarer slik du vil.",
-    "sammen": "Med Microsoft Copilot-lisens henter den svar fra det du har tilgang til: Dokumenter, e-post og møtereferater.",
+    "sammen": "I Outlook kan den bruke e-post, kalender og møter. Med Microsoft Copilot-lisens henter den svar fra alt du har tilgang til.",
     "fotnote": "",
     "kategori": "ki",
     "oppsummering": "KI-chat med søk på nett. Følger med M365",
@@ -68,11 +70,13 @@
     "tagline": "Generativ KI som bruker organisasjonens innhold",
     "alias": [
       "Microsoft 365 Copilot",
-      "M365 Copilot"
+      "M365 Copilot",
+      "M365 Copilot (Premium)",
+      "Copilot Premium"
     ],
-    "alene": "KI bygd inn i hele M365. Skriver, oppsummerer og analyserer innhold du har tilgang til.",
-    "sammen": "Med Copilot Studio kan innholdet brukes som kilder for egne agenter.",
-    "fotnote": "Krever egen Microsoft Copilot-lisens per bruker",
+    "alene": "KI i Word, Excel, PowerPoint, Outlook og Teams. Med Work IQ bruker den e-post, møter, chatter og filer du har tilgang til.",
+    "sammen": "Gir tilgang til agenter som Researcher og Analytiker. Med Cowork utfører Copilot oppgaver i flere trinn for deg.",
+    "fotnote": "Krever egen Microsoft Copilot-lisens per bruker. Cowork betales i tillegg etter forbruk.",
     "kategori": "ki",
     "oppsummering": "Generativ KI som bruker organisasjonens innhold. Krever lisens",
     "overlapper": [
@@ -90,8 +94,8 @@
     "navn": "Copilot Studio",
     "tagline": "Bygg egne agenter uten kode",
     "alene": "Lag agenter og chatboter med organisasjonens kunnskapskilder. Gjør dem tilgjengelige for teamet eller andre som skal ha tilgang.",
-    "sammen": "Med Microsoft Graph kan agentene hente kunnskap fra for eksempel SharePoint og Dataverse.",
-    "fotnote": "Agent Builder følger med Microsoft Copilot-lisensen.",
+    "sammen": "Agentene kan hente kunnskap fra for eksempel SharePoint og Dataverse.",
+    "fotnote": "Krever Microsoft Copilot-lisens eller eget Copilot Studio-abonnement. Enkle agenter lager du i Agent Builder i Copilot.",
     "kategori": "ki",
     "oppsummering": "Bygg egne agenter uten kode",
     "overlapper": [
@@ -320,7 +324,7 @@
     "tagline": "Lag apper med eller uten koding",
     "alene": "Lag appene du trenger, og utvid eller tilpass eksisterende apper.",
     "sammen": "Kan bruke data fra for eksempel Lists, SharePoint og Dataverse.",
-    "fotnote": "Koblinger til fagsystemer krever premiumlisens.",
+    "fotnote": "Dataverse og koblinger til fagsystemer krever premiumlisens",
     "kategori": "bygg-og-automatiser",
     "oppsummering": "Lag nye apper eller tilpass eksisterende, med eller uten koding",
     "overlapper": [
@@ -341,7 +345,7 @@
     "tagline": "Automatiser arbeidsflyter",
     "alene": "Automatiser oppgaver du gjør igjen og igjen.",
     "sammen": "Automatiser på tvers av apper, skrivebordsprogrammer og nettsteder med robotautomatisering (RPA) og KI.",
-    "fotnote": "",
+    "fotnote": "Robotautomatisering fra skyflyter og premiumkoblinger krever Power Automate Premium",
     "kategori": "bygg-og-automatiser",
     "oppsummering": "Automatiser arbeidsflyter mellom apper",
     "overlapper": [
@@ -497,7 +501,7 @@
     "tagline": "Læring der du allerede jobber",
     "alene": "Samler kurs, opplæring og læringsressurser på ett sted.",
     "sammen": "Henter innhold fra SharePoint-mapper til Teams, og kan også kobles til eksterne kilder.",
-    "fotnote": "",
+    "fotnote": "Eksterne kurskilder og læringssystemer krever Viva Learning- eller Viva Suite-lisens",
     "kategori": "laer-og-trives",
     "oppsummering": "Kurs, opplæring og læringsressurser på ett sted",
     "overlapper": [
@@ -518,7 +522,7 @@
     "tagline": "Tenk og tegn sammen",
     "alene": "Digital tavle for idémyldring og workshops.",
     "sammen": "Kan brukes direkte i Teams-møter.",
-    "fotnote": "Tavlen ligger i kanalen der den ble opprettet.",
+    "fotnote": "Tavlen lagres i OneDrive til den som opprettet den",
     "kategori": "notater-og-tavler",
     "oppsummering": "Digital tavle for idémyldring og workshops",
     "overlapper": [

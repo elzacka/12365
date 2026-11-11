@@ -3203,9 +3203,11 @@
     "tittel": "Microsoft Copilot",
     "alias": [
       "Microsoft 365 Copilot",
-      "M365 Copilot"
+      "M365 Copilot",
+      "M365 Copilot (Premium)",
+      "Copilot Premium"
     ],
-    "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data gjennom Microsoft Graph. Krever egen lisens. Bruker språkmodeller fra OpenAI og, hvis organisasjonen har slått det på, fra Anthropic.",
+    "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data gjennom Microsoft Graph og Work IQ. Krever egen lisens. Bruker språkmodeller fra OpenAI og, hvis organisasjonen har slått det på, fra Anthropic.",
     "tags": [
       "m365",
       "ki",
@@ -3215,7 +3217,7 @@
   {
     "id": "microsoft-agent-365",
     "tittel": "Microsoft Agent 365",
-    "forklaring": "Plattform for styring og orkestrering (orchestration) av KI-agenter i organisasjonen, koblet til Entra og Microsoft 365.",
+    "forklaring": "Plattform der organisasjonen får oversikt over KI-agentene sine og kan styre og sikre dem. Bygger på Entra, Defender, Purview og Intune. Eget tillegg for E5.",
     "tags": [
       "m365",
       "ki",
@@ -3263,6 +3265,10 @@
       "m365",
       "ki",
       "tjeneste"
+    ],
+    "alias": [
+      "Copilot Chat",
+      "Copilot Chat (grunnleggende)"
     ]
   },
   {
@@ -6894,7 +6900,7 @@
   {
     "id": "copilot-cowork",
     "tittel": "Copilot Cowork",
-    "forklaring": "Flate der du gir Copilot oppgaver som utføres i bakgrunnen, og henter resultatet senere. Del av Microsoft Copilot.",
+    "forklaring": "Flate der du gir Copilot oppgaver som utføres i bakgrunnen, og henter resultatet senere. Krever Microsoft Copilot-lisens, og organisasjonen betaler for bruken med Copilot Credits.",
     "tags": [
       "m365",
       "ki",
@@ -6906,9 +6912,72 @@
     ]
   },
   {
+    "id": "copilot-autopilot",
+    "tittel": "Copilot Autopilot",
+    "forklaring": "Personlig agent i Microsoft Copilot som arbeider i bakgrunnen med Microsoft 365 og Work IQ, innenfor rammene du og organisasjonen setter. I privat forhåndsvisning.",
+    "tags": [
+      "m365",
+      "ki",
+      "tjeneste"
+    ],
+    "alias": [
+      "Autopilot"
+    ]
+  },
+  {
+    "id": "copilot-code",
+    "tittel": "Copilot Code",
+    "forklaring": "Flate i Microsoft Copilot der du beskriver en app, et dashbord eller et verktøy, og Copilot bygger det med kode. Del av Frontier-programmet.",
+    "tags": [
+      "m365",
+      "ki",
+      "tjeneste"
+    ],
+    "alias": [
+      "Code"
+    ]
+  },
+  {
+    "id": "copilot-researcher",
+    "tittel": "Researcher",
+    "forklaring": "Agent i Microsoft Copilot som undersøker et tema grundig i organisasjonens data og på nettet, og skriver en rapport. Krever Microsoft Copilot-lisens.",
+    "tags": [
+      "m365",
+      "ki",
+      "tjeneste"
+    ],
+    "alias": [
+      "Forsker",
+      "Deep Research"
+    ]
+  },
+  {
+    "id": "copilot-analytiker",
+    "tittel": "Analytiker",
+    "forklaring": "Agent i Microsoft Copilot som analyserer data, for eksempel regneark, og forklarer funnene. Krever Microsoft Copilot-lisens.",
+    "tags": [
+      "m365",
+      "ki",
+      "tjeneste"
+    ],
+    "alias": [
+      "Analyst"
+    ]
+  },
+  {
+    "id": "work-iq",
+    "tittel": "Work IQ",
+    "forklaring": "Intelligenslaget som kobler Copilot og agenter til organisasjonens e-post, møter, chatter og filer, uten å flytte dataene. Følger med Microsoft Copilot-lisensen.",
+    "tags": [
+      "m365",
+      "ki",
+      "begrep"
+    ]
+  },
+  {
     "id": "copilot-credits",
     "tittel": "Copilot Credits",
-    "forklaring": "Forbruksbasert betalingsenhet for KI-funksjoner som agenter i Copilot Studio, og et alternativ til fast lisens per bruker.",
+    "forklaring": "Betalingsenhet for KI-funksjoner som faktureres etter forbruk, for eksempel Cowork og agenter i Copilot Studio.",
     "tags": [
       "m365",
       "ki",
@@ -6920,21 +6989,23 @@
   },
   {
     "id": "copilot-notebooks",
-    "tittel": "Copilot Notebooks",
-    "forklaring": "Arbeidsflate i Copilot der du samler utvalgte kilder og får svar som bare bygger på dem. Del av Microsoft Copilot.",
+    "tittel": "Copilot-notatblokker",
+    "forklaring": "Arbeidsflate i Copilot der du samler utvalgte kilder og får svar som bare bygger på dem. Fins også i Copilot Chat.",
     "tags": [
       "m365",
       "ki",
       "tjeneste"
     ],
     "alias": [
-      "Notebooks"
+      "Copilot Notebooks",
+      "Notebooks",
+      "Notatbok"
     ]
   },
   {
     "id": "copilot-pages",
-    "tittel": "Copilot Pages",
-    "forklaring": "Delt, redigerbar side der du utforsker et tema sammen med Copilot og kolleger. Del av Microsoft Copilot.",
+    "tittel": "Copilot-sider",
+    "forklaring": "Delt, redigerbar side der du utforsker et tema sammen med Copilot og kolleger. Fins også i Copilot Chat.",
     "tags": [
       "m365",
       "ki",
@@ -6942,7 +7013,9 @@
       "tjeneste"
     ],
     "alias": [
-      "Pages"
+      "Copilot Pages",
+      "Pages",
+      "Sider"
     ]
   },
   {
@@ -6962,19 +7035,22 @@
   },
   {
     "id": "facilitator",
-    "tittel": "Facilitator",
-    "forklaring": "Copilot-agent for Teams-møter som tar sanntidsnotater, følger agendaen og samler beslutninger og handlingspunkter.",
+    "tittel": "Tilrettelegger",
+    "forklaring": "Copilot-agent for Teams-møter som tar sanntidsnotater, følger agendaen og samler beslutninger og handlingspunkter. Krever Microsoft Copilot-lisens.",
     "tags": [
       "m365",
       "ki",
       "samarbeid",
       "tjeneste"
+    ],
+    "alias": [
+      "Facilitator"
     ]
   },
   {
     "id": "frontier-program",
     "tittel": "Frontier-program",
-    "forklaring": "Microsofts program der organisasjoner med Microsoft Copilot får tidlig tilgang til eksperimentelle KI-funksjoner før generell lansering.",
+    "forklaring": "Microsofts program der organisasjoner som melder seg på, får prøve nye funksjoner i Microsoft 365 før generell lansering. Copilot-funksjonene i programmet krever Microsoft Copilot-lisens.",
     "tags": [
       "m365",
       "ki",
@@ -10235,7 +10311,7 @@
   {
     "id": "gpt-6-astra",
     "tittel": "GPT-6 Astra",
-    "forklaring": "OpenAIs toppmodell, lansert 03.09.26, og modellen bak Dots. I ChatGPT heter den GPT-6 Pro og finnes for Pro, Business og Enterprise. Finnes også i Codex og OpenAIs API, i Amazon Bedrock og med begrenset tilgang i Microsoft Foundry.",
+    "forklaring": "OpenAIs toppmodell, lansert 03.09.26, og modellen bak Dots. I ChatGPT heter den GPT-6 Pro og finnes for Pro, Business og Enterprise. Finnes også i Codex og OpenAIs API, i Amazon Bedrock og i Microsoft Foundry.",
     "tags": [
       "ki",
       "openai",
