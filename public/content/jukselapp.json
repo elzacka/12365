@@ -11624,8 +11624,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "Stand-alone operation"
@@ -11702,8 +11701,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ]
   },
   {
@@ -11875,8 +11873,7 @@
     "tags": [
       "eba",
       "ot",
-      "brannsikring",
-      "ot-sikkerhet"
+      "brannsikring"
     ],
     "alias": [
       "Fire alarm control panel",
@@ -11917,8 +11914,7 @@
     "forklaring": "Enhet eller programvare som slipper gjennom bare tillatt trafikk mellom nett, og beskytter nettet på innsiden.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Firewall"
@@ -12125,8 +12121,7 @@
     "forklaring": "Kontrollert kommunikasjonskanal mellom to sikkerhetssoner, med regler for hvilken trafikk som er tillatt.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Kommunikasjonskanal"
@@ -12168,8 +12163,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "Historikkdatabase"
@@ -12181,8 +12175,7 @@
     "forklaring": "Nettverksenhet som fysisk bare lar data gå én vei, for eksempel ut fra OT-nettet. Ingenting kan sendes tilbake.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Data diode"
@@ -12195,8 +12188,7 @@
     "forklaring": "Eget nettsegment mellom OT-nettet og IT-nettet eller internett. Trafikk mellom nettene går via tjenester i sonen, aldri direkte.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Demilitarized zone"
@@ -12236,7 +12228,6 @@
     "forklaring": "Øvelse der deltakerne går gjennom et scenario og planverket rundt et bord, uten å bruke utstyr eller systemer.",
     "tags": [
       "eba",
-      "ot-sikkerhet",
       "fysisk-sikring"
     ],
     "alias": [
@@ -12253,8 +12244,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "Distributed control system"
@@ -12466,7 +12456,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "automasjon"
     ],
     "alias": [
@@ -12479,8 +12468,7 @@
     "forklaring": "Ordning der brukeren logger på én gang og får tilgang til flere systemer uten å logge på hvert av dem.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Single sign-on",
@@ -12634,7 +12622,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "fysisk-sikring"
     ],
     "alias": [
@@ -12690,8 +12677,7 @@
     "forklaring": "Tilkobling til undersentraler eller SD-server fra et annet sted, for eksempel for programmering. Statsbygg krever at det skjer via VPN eller direkte forbindelse, ikke ved at eget utstyr kobles til nettet.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Fjernoppkobling",
@@ -12708,8 +12694,7 @@
     "forklaring": "Pålogging som krever minst to uavhengige bevis på identitet, for eksempel passord og en kode på en enhet.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Tofaktorautentisering",
@@ -12854,8 +12839,7 @@
     "forklaring": "Eiendom med informasjon eller virksomhet som er sikkerhetsgradert. Der skal SD-serveren stå lokalt på eiendommen uten mulighet for fjerntilkobling.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Classified facility"
@@ -12920,7 +12904,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "fysisk-sikring"
     ],
     "alias": [
@@ -12936,8 +12919,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "Event log"
@@ -12949,8 +12931,7 @@
     "forklaring": "Tiltak som gjør et system mindre sårbart. Funksjoner, tjenester og protokoller som ikke er i bruk, blir slått av, og standardinnstillinger blir endret.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Sikkerhetsherding",
@@ -12995,8 +12976,7 @@
     "forklaring": "Sikkerhetstiltak der bare godkjente programmer og prosesser får kjøre, mens alt annet blir stoppet.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Applikasjonskontroll",
@@ -13053,7 +13033,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "automasjon"
     ],
     "alias": [
@@ -13069,8 +13048,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "Industrial Internet of Things"
@@ -13095,8 +13073,7 @@
     "forklaring": "System som overvåker nett- eller systemhendelser og varsler om forsøk på uautorisert tilgang.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Intrusion detection system"
@@ -13110,8 +13087,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "Nødavstengningssystem",
@@ -13168,7 +13144,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "dokumentasjon"
     ],
     "alias": [
@@ -13197,8 +13172,7 @@
     "tags": [
       "eba",
       "ot",
-      "dokumentasjon",
-      "ot-sikkerhet"
+      "dokumentasjon"
     ],
     "alias": [
       "IP address plan"
@@ -13210,8 +13184,7 @@
     "forklaring": "Egen, godt sikret server som brukere må logge seg på først for å nå OT-systemene, slik at all fjerntilgang går ett sted og kan logges.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ]
   },
   {
@@ -13468,8 +13441,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "Operatørpanel",
@@ -13551,8 +13523,7 @@
     "forklaring": "Prinsipp om at brukere, prosesser og enheter bare får de rettighetene de trenger for oppgaven sin.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Minste rettigheters prinsipp",
@@ -13617,8 +13588,7 @@
     "forklaring": "Oppdeling av et nett i atskilte soner med kontrollert trafikk mellom dem. Et angrep i én sone når da ikke lett resten av anlegget.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Segmentering",
@@ -13702,7 +13672,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "automasjon"
     ],
     "alias": [
@@ -13799,7 +13768,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "vedlikehold"
     ],
     "alias": [
@@ -13867,8 +13835,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "Programmable logic controller",
@@ -13883,7 +13850,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "dokumentasjon"
     ],
     "alias": [
@@ -13908,8 +13874,7 @@
     "forklaring": "Referansemodell som deler et styringssystem i nivåer, fra feltutstyr nederst til virksomhetens IT-systemer øverst. Den brukes til å planlegge segmentering.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Purdue model"
@@ -13990,8 +13955,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ]
   },
   {
@@ -14000,8 +13964,7 @@
     "forklaring": "Usikkerhet om en uønsket hendelse vil inntreffe og hvilke konsekvenser den kan få. I sikring uttrykkes risiko ofte som forholdet mellom trussel, sårbarhet og verdi.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Risk"
@@ -14029,8 +13992,7 @@
     "forklaring": "Helhetlig vurdering av risiko basert på verdivurdering, trusselvurdering og sårbarhetsvurdering. Den gir grunnlaget for å velge sikringstiltak.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Risk assessment"
@@ -14043,7 +14005,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "roller"
     ],
     "alias": [
@@ -14100,7 +14061,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "automasjon"
     ],
     "alias": [
@@ -14132,8 +14092,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "BMS server"
@@ -14145,8 +14104,7 @@
     "forklaring": "Digitalt sertifikat som enheten har laget og signert selv, uten en sertifikatutsteder. Det gir kryptering, men bekrefter ikke like sikkert hvem enheten er.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Self-signed certificate"
@@ -14175,8 +14133,7 @@
     "forklaring": "Tiltrodd instans som utsteder og går god for digitale sertifikater. Sertifikatene bekrefter hvem en enhet er, og brukes til å kryptere trafikken.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Certificate authority"
@@ -14231,7 +14188,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "fdv"
     ],
     "alias": [
@@ -14245,7 +14201,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "vedlikehold"
     ],
     "alias": [
@@ -14258,8 +14213,7 @@
     "forklaring": "Løpende innsamling og analyse av logger og nettrafikk for å oppdage angrep og avvik i tide.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Security monitoring"
@@ -14296,8 +14250,7 @@
     "forklaring": "Gruppe av systemer og enheter med samme sikkerhetskrav, avgrenset fra andre soner med brannmur eller tilsvarende.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Nettverkssone",
@@ -14323,8 +14276,7 @@
     "forklaring": "Flere lag med fysiske, elektroniske og administrative barrierer mellom et usikret område og verdiene. Angriperen må forsere alle lagene, så ett svakt lag gir ikke fri tilgang.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Lagvis sikring",
@@ -14444,7 +14396,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "automasjon"
     ],
     "alias": [
@@ -14459,7 +14410,6 @@
     "tags": [
       "eba",
       "ot",
-      "ot-sikkerhet",
       "prosjekt"
     ],
     "alias": [
@@ -14488,8 +14438,7 @@
     "forklaring": "Svakhet som gjør at et objekt eller et system ikke klarer å opprettholde eller gjenoppta funksjonen sin når det blir utsatt for en uønsket hendelse. En trusselaktør kan utnytte den.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Svakhet",
@@ -14503,8 +14452,7 @@
     "forklaring": "Vurdering av hva en trusselaktør kan få til med sine kapasiteter, sett opp mot svakhetene i virksomhetens sikring.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Vulnerability assessment"
@@ -14610,8 +14558,7 @@
     "tags": [
       "eba",
       "ot",
-      "automasjon",
-      "ot-sikkerhet"
+      "automasjon"
     ],
     "alias": [
       "NTP-server",
@@ -14624,8 +14571,7 @@
     "forklaring": "Styring av hvem som får logge på et system, og hva hver bruker får gjøre der. SD-anlegget skal hente brukere og roller fra virksomhetens katalogtjeneste.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Identity and access management",
@@ -14763,8 +14709,7 @@
     "forklaring": "Protokoll som krypterer trafikken mellom klient og server, for eksempel i HTTPS. Statsbygg krever versjon 1.3 eller nyere.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ]
   },
   {
@@ -14790,8 +14735,7 @@
     "forklaring": "Mulig uønsket handling som kan gi en negativ konsekvens for en virksomhets sikkerhet. Trusselaktøren kan være ukjent.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Threat"
@@ -14804,8 +14748,7 @@
     "forklaring": "Person, gruppe eller stat som kan ha vilje og evne til å skade virksomhetens verdier. Beskrivelsen omfatter motiv, erfaring, verktøy og arbeidsmåte.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Threat actor"
@@ -14817,8 +14760,7 @@
     "forklaring": "Tidsavgrenset beskrivelse av kjente trusler mot en bestemt virksomhet eller sektor.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Threat landscape"
@@ -14831,8 +14773,7 @@
     "forklaring": "Beskrivelse av trusselbildet for en virksomhet og en vurdering av trusselaktørenes intensjon og kapasitet.",
     "tags": [
       "eba",
-      "fysisk-sikring",
-      "ot-sikkerhet"
+      "fysisk-sikring"
     ],
     "alias": [
       "Threat assessment"
@@ -15083,8 +15024,7 @@
     "forklaring": "Kryptert forbindelse over et offentlig nett, som gir sikker tilgang til et internt nett.",
     "tags": [
       "eba",
-      "ot",
-      "ot-sikkerhet"
+      "ot"
     ],
     "alias": [
       "Virtual private network"
