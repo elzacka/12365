@@ -11343,7 +11343,7 @@
     "forklaring": "Brannsikring som må utløses for å virke, som brannalarm, sprinkleranlegg og slokkeutstyr.",
     "tags": [
       "eba",
-      "fysisk-sikring",
+      "brannsikring",
       "tekniske-anlegg"
     ],
     "alias": [
@@ -11581,6 +11581,7 @@
       "tekniske-anlegg"
     ],
     "alias": [
+      "AAK",
       "Adgangskontrollsystem",
       "Elektronisk adgangskontroll",
       "Electronic access control system",
@@ -11598,6 +11599,7 @@
       "tekniske-anlegg"
     ],
     "alias": [
+      "AIA",
       "Innbruddsalarm",
       "Alarmanlegg",
       "Intruder alarm system",
@@ -11865,7 +11867,7 @@
     "forklaring": "All dokumentasjon av brannsikkerheten i et bygg, med tiltak, rutiner og ansvar.",
     "tags": [
       "eba",
-      "fysisk-sikring",
+      "brannsikring",
       "dokumentasjon"
     ],
     "alias": [
@@ -11880,7 +11882,7 @@
     "forklaring": "Overordnet beskrivelse av hvordan brannsikkerheten i et bygg er ivaretatt med konstruksjoner, tekniske løsninger og organisatoriske tiltak.",
     "tags": [
       "eba",
-      "fysisk-sikring",
+      "brannsikring",
       "dokumentasjon"
     ],
     "alias": [
@@ -13711,7 +13713,7 @@
     "forklaring": "Brannsikring som er bygd inn i konstruksjonen og virker uten å utløses, som brannceller og branndører.",
     "tags": [
       "eba",
-      "fysisk-sikring"
+      "brannsikring"
     ],
     "alias": [
       "Passive tiltak",
@@ -14744,6 +14746,7 @@
       "tekniske-anlegg"
     ],
     "alias": [
+      "TVO",
       "Kameraovervåking",
       "Videoovervåking",
       "ITV-anlegg",
