@@ -18,10 +18,10 @@ const sources = [
   { slug: 'onedrive',         path: 'logos/onedrive/onedrive-1024x1024-(2025-unofficial).png',           mode: 'png-asis' },
   { slug: 'sharepoint',       path: 'logos/sharepoint/sharepoint-1024x1024-(2025-unofficial).png',       mode: 'png-asis' },
   { slug: 'loop',             path: 'logos/loop/microsoft-loop-logo.png',                                mode: 'png-fit' },
-  // Microsoft's own brand-refresh asset (August 2026); no vector version published yet, so keep the 240 px PNG as-is.
+  // Microsoft's own vector icon, from the Microsoft 365 product pages.
   // Copilot Chat lives inside the Microsoft Copilot app and shares its icon.
-  { slug: 'copilot-chat',      url:  'https://res.cdn.office.net/officehub/images/content/images/unauth-ccm/new-hero-copilot-0ef53b8025.png', mode: 'png-asis' },
-  { slug: 'microsoft-copilot', url:  'https://res.cdn.office.net/officehub/images/content/images/unauth-ccm/new-hero-copilot-0ef53b8025.png', mode: 'png-asis' },
+  { slug: 'copilot-chat',      url:  'https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/Copilot-Icon-FY26.svg', mode: 'svg' },
+  { slug: 'microsoft-copilot', url:  'https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/Copilot-Icon-FY26.svg', mode: 'svg' },
   { slug: 'copilot-studio',   path: 'logos/copilot-studio/copilotstudio-scalable.svg',                   mode: 'svg' },
   { slug: 'forms',            path: 'logos/forms/forms-512.png',                                        mode: 'png-asis' },
   { slug: 'clipchamp',        path: 'logos/clipchamp/clipchamp-512.png',                                 mode: 'png-asis' },
