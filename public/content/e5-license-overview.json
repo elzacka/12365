@@ -1,5 +1,5 @@
 {
-  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (01.10.26)",
+  "kilde": "Microsoft – Modern Work Plan Comparison Enterprise (01.11.26)",
   "kildeUrl": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-Enterprise.pdf",
   "tema": [
     {
@@ -1132,6 +1132,11 @@
           "navn": "Microsoft Entra ID Governance",
           "status": "tillegg",
           "beskrivelse": "Utvidet identitetsstyring: arbeidsflyter for ansettelse og avgang, avanserte tilgangsgjennomganger og tilgangspakker. E5 har Entra ID Plan 2 og bruker derfor Governance-varianten for Plan 2."
+        },
+        {
+          "navn": "Microsoft Entra Global Secure Access",
+          "status": "tillegg",
+          "beskrivelse": "Fellesnavnet på Entra Internet Access og Entra Private Access, som er Microsofts løsning for sikker nettverkstilgang (Security Service Edge)."
         },
         {
           "navn": "Microsoft Entra Internet Access",
