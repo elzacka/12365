@@ -11343,6 +11343,7 @@
     "forklaring": "Brannsikring som må utløses for å virke, som brannalarm, sprinkleranlegg og slokkeutstyr.",
     "tags": [
       "eba",
+      "ot",
       "brannsikring",
       "tekniske-anlegg"
     ],
@@ -11358,6 +11359,7 @@
     "forklaring": "Enhet som gjør et styringssignal om til bevegelse, for eksempel en motor som åpner et spjeld eller en ventil.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "tekniske-anlegg"
     ],
@@ -11372,6 +11374,7 @@
     "forklaring": "Øvre eller nedre verdi for en måling som utløser alarm når den blir passert.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ],
     "alias": [
@@ -11385,6 +11388,7 @@
     "forklaring": "Operatørens bekreftelse i SD-anlegget eller på betjeningspanelet av at en alarm er sett. Kvitteringen lagres i loggen med brukernavnet.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "fdv"
     ],
@@ -11399,6 +11403,7 @@
     "forklaring": "Tabell i SD-anlegget som viser alarmer og feil fra automatikken, med tid, status, prioritet og hvem som har kvittert.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "fdv"
     ],
@@ -11428,6 +11433,7 @@
     "forklaring": "Inndeling av alarmer etter hvor alvorlige de er og hvor raskt noen må reagere. Statsbygg bruker tre nivåer, der prioritet 1 betyr at anlegget har stanset.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "fdv"
     ],
@@ -11442,6 +11448,7 @@
     "forklaring": "Videresending av kritiske alarmer fra anlegget til vakthavende driftspersonell.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "fdv"
     ],
@@ -11549,6 +11556,7 @@
     "forklaring": "Tavle med undersentral, sikringer, releer og annet utstyr som trengs for å styre ett eller flere tekniske anlegg.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "tekniske-anlegg"
     ],
@@ -11563,6 +11571,7 @@
     "forklaring": "Utstyr og programvare som styrer, regulerer og overvåker tekniske anlegg lokalt i bygget, for eksempel ventilasjon, varme og kjøling. Automatikken består mest av maskinvare, som undersentraler og tavler.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ],
     "alias": [
@@ -11577,6 +11586,7 @@
     "forklaring": "Elektronisk anlegg som styrer hvem som kan passere dører, porter og heiser, vanligvis med kort og kode. Anlegget logger passeringer og kan gi alarm ved brudd.",
     "tags": [
       "eba",
+      "ot",
       "fysisk-sikring",
       "tekniske-anlegg"
     ],
@@ -11595,6 +11605,7 @@
     "forklaring": "Elektronisk anlegg som overvåker et område eller bygg og gir alarm ved endringer, som åpnede dører, bevegelse eller vibrasjoner. Alarmen går til et alarmmottak som sørger for reaksjon.",
     "tags": [
       "eba",
+      "ot",
       "fysisk-sikring",
       "tekniske-anlegg"
     ],
@@ -11612,6 +11623,7 @@
     "forklaring": "Driftsform der undersentralen fortsetter å styre anlegget selv om forbindelsen til SD-anlegget eller IP-nettet er brutt.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -11678,6 +11690,7 @@
     "forklaring": "Åpen standard for kommunikasjon mellom utstyr i bygningsautomasjon. Protokollen beskriver hvert punkt som et objekt med egenskaper som kan leses og skrives.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ]
   },
@@ -11688,6 +11701,7 @@
     "forklaring": "Funksjon som videresender BACnet-kringkastinger mellom IP-subnett. Feil oppsett kan gi så mye trafikk at nettet slutter å virke.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ]
@@ -11699,6 +11713,7 @@
     "forklaring": "Standardisert BACnet-profil for en programmerbar undersentral. Profilen angir hvilke funksjoner enheten minst skal støtte.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ]
   },
@@ -11709,6 +11724,7 @@
     "forklaring": "Byggekloss som beskriver én bestemt BACnet-funksjon, for eksempel å lese en verdi eller motta en alarm. BACnet-profilene for enheter er satt sammen av slike byggeklosser.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ]
   },
@@ -11718,6 +11734,7 @@
     "forklaring": "Variant av BACnet for seriell feltbuss, der enhetene på samme kabel sender etter tur.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ]
   },
@@ -11728,6 +11745,7 @@
     "forklaring": "Standardisert BACnet-profil for programvare som driftspersonalet bruker til å overvåke og betjene anleggene, for eksempel et SD-anlegg.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ]
   },
@@ -11737,6 +11755,7 @@
     "forklaring": "Standardisert beskrivelse av en verdi eller funksjon i en BACnet-enhet, for eksempel en inngang, et settpunkt eller et tidsprogram. Hvert objekt har en unik ID og et sett egenskaper.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ],
     "alias": [
@@ -11751,6 +11770,7 @@
     "forklaring": "Variant av BACnet som går over IP-nettverk. Statsbygg krever BACnet/IP mellom undersentraler og SD-anlegg.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ]
   },
@@ -11841,6 +11861,7 @@
     "forklaring": "Berøringsskjerm i fronten av en automasjonstavle som lar driftspersonalet styre og overvåke anleggene lokalt, også uten forbindelse til SD-anlegget.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ],
     "alias": [
@@ -11853,6 +11874,7 @@
     "forklaring": "Sentral som tar imot signaler fra branndetektorer og manuelle meldere og styrer varsling og slokkeanlegg. NIST anbefaler å isolere den fra andre nett.",
     "tags": [
       "eba",
+      "ot",
       "tekniske-anlegg",
       "ot-sikkerhet"
     ],
@@ -11895,6 +11917,7 @@
     "forklaring": "Enhet eller programvare som slipper gjennom bare tillatt trafikk mellom nett, og beskytter nettet på innsiden.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -11961,6 +11984,7 @@
     "forklaring": "Bekreftelse fra BACnet Testing Laboratories på at et produkt følger BACnet-standarden. Den gjør det tryggere å koble sammen utstyr fra ulike leverandører.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "dokumentasjon"
     ],
@@ -12029,6 +12053,7 @@
     "forklaring": "Samlebetegnelse for SD-anlegg, automatikk og feltutstyr som styrer, regulerer og overvåker de tekniske anleggene i et bygg.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "tekniske-anlegg"
     ],
@@ -12100,6 +12125,7 @@
     "forklaring": "Kontrollert kommunikasjonskanal mellom to sikkerhetssoner, med regler for hvilken trafikk som er tillatt.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -12112,6 +12138,7 @@
     "forklaring": "Metode der en enhet sender en ny verdi bare når den har endret seg mer enn en fastsatt terskel. Det gir mindre trafikk enn å hente verdier med faste mellomrom.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ],
     "alias": [
@@ -12126,6 +12153,7 @@
     "forklaring": "Standardisert protokoll for digital styring av lysarmaturer, der hver armatur har sin egen adresse. Statsbygg tillater den bare for lysutstyr, ikke for sensorer.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "energi"
     ],
@@ -12139,6 +12167,7 @@
     "forklaring": "Database som lagrer måledata og hendelser fra et styringssystem over tid, for trender, analyse og rapportering.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -12152,6 +12181,7 @@
     "forklaring": "Nettverksenhet som fysisk bare lar data gå én vei, for eksempel ut fra OT-nettet. Ingenting kan sendes tilbake.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -12165,6 +12195,7 @@
     "forklaring": "Eget nettsegment mellom OT-nettet og IT-nettet eller internett. Trafikk mellom nettene går via tjenester i sonen, aldri direkte.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -12191,6 +12222,7 @@
     "forklaring": "Datamodell av et fysisk system, som en maskin eller et bygg, som brukes til å følge tilstanden, oppdage avvik og forutsi hvordan systemet oppfører seg.",
     "tags": [
       "eba",
+      "ot",
       "bim",
       "automasjon"
     ],
@@ -12220,6 +12252,7 @@
     "forklaring": "Styringssystem der styringen er fordelt på mange regulatorer nær prosessen i stedet for én sentral enhet.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -12289,6 +12322,7 @@
     "forklaring": "Fil i et fast format som lister BACnet-punktene i en enhet. Den brukes når enheten skal integreres i SD-anlegget.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "dokumentasjon"
     ],
@@ -12328,6 +12362,7 @@
     "forklaring": "Undersentral som leveres atskilt fra VVS-komponentene den skal styre. Den kables, programmeres og testes på eiendommen.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "prosjekt"
     ],
@@ -12341,6 +12376,7 @@
     "forklaring": "Elektroniske anlegg som skal oppdage, varsle, verifisere og forsinke uønskede handlinger. Vanligst er innbruddsalarm, adgangskontroll og TV-overvåking.",
     "tags": [
       "eba",
+      "ot",
       "fysisk-sikring",
       "tekniske-anlegg"
     ],
@@ -12399,6 +12435,7 @@
     "forklaring": "System som samler målerdata og viser energibruken over tid, slik at avvik og sparetiltak kan følges opp.",
     "tags": [
       "eba",
+      "ot",
       "energi",
       "automasjon"
     ],
@@ -12412,6 +12449,7 @@
     "forklaring": "Kurve som viser hvordan energibruken i en bygning henger sammen med utetemperaturen. Driftspersonalet bruker den til å se om forbruket er unormalt.",
     "tags": [
       "eba",
+      "ot",
       "energi",
       "automasjon"
     ],
@@ -12427,6 +12465,7 @@
     "forklaring": "Maskin som brukes til å programmere og konfigurere regulatorer og andre styringsenheter. Den er et attraktivt mål fordi den kan endre anlegget.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "automasjon"
     ],
@@ -12440,6 +12479,7 @@
     "forklaring": "Ordning der brukeren logger på én gang og får tilgang til flere systemer uten å logge på hvert av dem.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -12579,6 +12619,7 @@
     "forklaring": "Grense utenfor det normale måleområdet til en føler. En verdi utenfor feilgrensen tyder på feil i føleren, oppsettet eller kablingen.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "vedlikehold"
     ],
@@ -12592,6 +12633,7 @@
     "forklaring": "Egenskap ved et system som går til en sikker tilstand når det svikter. En feilsikker dørlås åpner for eksempel ved strømbrudd, slik at folk kommer ut.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "fysisk-sikring"
     ],
@@ -12605,6 +12647,7 @@
     "forklaring": "Seriell kommunikasjonsforbindelse der flere enheter i feltutstyret deler samme kabel til undersentralen. Eksempler er BACnet MS/TP, KNX, DALI, Modbus og M-Bus.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ],
     "alias": [
@@ -12618,6 +12661,7 @@
     "forklaring": "Fysiske komponenter i anlegget, som følere, ventiler, pumper og vifter, som måler verdier eller utfører kommandoer. De kobles til undersentralen via feltbuss eller inn- og utganger.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "tekniske-anlegg"
     ],
@@ -12646,6 +12690,7 @@
     "forklaring": "Tilkobling til undersentraler eller SD-server fra et annet sted, for eksempel for programmering. Statsbygg krever at det skjer via VPN eller direkte forbindelse, ikke ved at eget utstyr kobles til nettet.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -12663,6 +12708,7 @@
     "forklaring": "Pålogging som krever minst to uavhengige bevis på identitet, for eksempel passord og en kode på en enhet.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -12780,6 +12826,7 @@
     "forklaring": "Beskrivelse av hvordan et anlegg skal styres og reguleres i ulike driftssituasjoner.",
     "tags": [
       "eba",
+      "ot",
       "dokumentasjon",
       "automasjon"
     ],
@@ -12872,6 +12919,7 @@
     "forklaring": "Planlagt og øvd arbeid med å oppdage, begrense, rette opp og lære av sikkerhetshendelser.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "fysisk-sikring"
     ],
@@ -12887,6 +12935,7 @@
     "forklaring": "Logg over endringer i anlegget, som nye settpunkter, overstyringer og pålogginger, med tidspunkt og hvem som gjorde endringen. Den gjør det mulig å spore hva som har skjedd.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -12900,6 +12949,7 @@
     "forklaring": "Tiltak som gjør et system mindre sårbart. Funksjoner, tjenester og protokoller som ikke er i bruk, blir slått av, og standardinnstillinger blir endret.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -12929,6 +12979,7 @@
     "forklaring": "Anleggene for oppvarming, ventilasjon og kjøling i et bygg. Feil i dem kan gi farlige forhold eller skade utstyr.",
     "tags": [
       "eba",
+      "ot",
       "tekniske-anlegg",
       "automasjon"
     ],
@@ -12944,6 +12995,7 @@
     "forklaring": "Sikkerhetstiltak der bare godkjente programmer og prosesser får kjøre, mens alt annet blir stoppet.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -12957,6 +13009,7 @@
     "forklaring": "Kontrollert oppstart, testing og innregulering av et anlegg før det overleveres til drift.",
     "tags": [
       "eba",
+      "ot",
       "prosjekt",
       "tekniske-anlegg"
     ],
@@ -12999,6 +13052,7 @@
     "forklaring": "Samlebetegnelse for styringssystemer som SCADA, DCS og PLS, som sammen styrer en fysisk prosess.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "automasjon"
     ],
@@ -13014,6 +13068,7 @@
     "forklaring": "Nettverk av sensorer, maskiner og andre enheter som sender driftsdata over internett eller til skytjenester for analyse og styring.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -13040,6 +13095,7 @@
     "forklaring": "System som overvåker nett- eller systemhendelser og varsler om forsøk på uautorisert tilgang.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -13053,6 +13109,7 @@
     "forklaring": "Uavhengig system med sensorer, logikk og utstyr som setter et anlegg i sikker tilstand når bestemte grenser blir overskredet.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -13067,6 +13124,7 @@
     "forklaring": "Undersentral som leveres sammen med VVS-komponentene den skal styre, ferdig kablet, programmert og testet før levering.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "prosjekt"
     ],
@@ -13109,6 +13167,7 @@
     "forklaring": "Oppdatert oversikt over alle enheter, programvare og forbindelser i OT-miljøet. Den er grunnlaget for å vite hva som skal beskyttes.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "dokumentasjon"
     ],
@@ -13123,6 +13182,7 @@
     "forklaring": "Skybasert tjeneste som samler utvalgte driftsdata, slik at andre systemer kan bruke dem til analyse, prediktivt vedlikehold og energisparing.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "forvaltning"
     ],
@@ -13136,6 +13196,7 @@
     "forklaring": "Oversikt over hvilke IP-adresser og adresseområder hver enhet på eiendommen skal ha. Den er en del av FDV-dokumentasjonen.",
     "tags": [
       "eba",
+      "ot",
       "dokumentasjon",
       "ot-sikkerhet"
     ],
@@ -13149,6 +13210,7 @@
     "forklaring": "Egen, godt sikret server som brukere må logge seg på først for å nå OT-systemene, slik at all fjerntilgang går ett sted og kan logges.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ]
   },
@@ -13211,6 +13273,7 @@
     "forklaring": "Åpen standard for bussbasert styring av lys, solavskjerming, varme og andre funksjoner i bygg.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ]
   },
@@ -13375,6 +13438,7 @@
     "forklaring": "Europeisk standard for fjernavlesning av forbruksmålere for strøm, varme og vann.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "energi"
     ],
@@ -13403,6 +13467,7 @@
     "forklaring": "Skjermen, panelet eller programvaren operatøren bruker for å overvåke og styre et anlegg.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -13486,6 +13551,7 @@
     "forklaring": "Prinsipp om at brukere, prosesser og enheter bare får de rettighetene de trenger for oppgaven sin.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -13499,6 +13565,7 @@
     "forklaring": "Enkel, åpen kommunikasjonsprotokoll fra industrien, der én master spør opptil 247 slaveenheter etter data. Den finnes både som seriell variant og over TCP/IP.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ]
   },
@@ -13550,6 +13617,7 @@
     "forklaring": "Oppdeling av et nett i atskilte soner med kontrollert trafikk mellom dem. Et angrep i én sone når da ikke lett resten av anlegget.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -13589,6 +13657,7 @@
     "forklaring": "Liste over alle punktene som er integrert i bygningsautomasjonen, med merking, beskrivelse og egenskaper.",
     "tags": [
       "eba",
+      "ot",
       "dokumentasjon",
       "fdv"
     ],
@@ -13618,6 +13687,7 @@
     "forklaring": "Plattformuavhengig standard for sikker utveksling av data mellom systemer fra ulike leverandører. Den avløser den eldre OPC-standarden, som Statsbygg ikke tillater for integrasjon.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ],
     "alias": [
@@ -13631,6 +13701,7 @@
     "forklaring": "Programmerbare systemer og enheter som overvåker eller styrer fysiske prosesser og utstyr. I bygg gjelder det for eksempel bygningsautomasjon, adgangskontroll og heiser.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "automasjon"
     ],
@@ -13700,6 +13771,7 @@
     "forklaring": "Manuell endring som setter automatikkens styring til side, for eksempel når en pumpe tvinges på fra SD-anlegget.",
     "tags": [
       "eba",
+      "ot",
       "automasjon"
     ],
     "alias": [
@@ -13726,6 +13798,7 @@
     "forklaring": "Rutiner for å finne, teste og installere sikkerhetsoppdateringer på utstyr og programvare uten å forstyrre driften.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "vedlikehold"
     ],
@@ -13793,6 +13866,7 @@
     "forklaring": "Robust datamaskin som styrer utstyr etter et program, med logikk, tidsstyring og regulering.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -13808,6 +13882,7 @@
     "forklaring": "Liste over komponentene og bibliotekene en programvare er bygd av. Den gjør det lettere å finne ut om et produkt har kjente sårbarheter.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "dokumentasjon"
     ],
@@ -13822,6 +13897,7 @@
     "forklaring": "Dokument fra produsenten som viser hvilke BACnet-objekter, -tjenester og -byggeklosser en enhet støtter.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "dokumentasjon"
     ]
@@ -13832,6 +13908,7 @@
     "forklaring": "Referansemodell som deler et styringssystem i nivåer, fra feltutstyr nederst til virksomhetens IT-systemer øverst. Den brukes til å planlegge segmentering.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -13912,6 +13989,7 @@
     "forklaring": "Enhet i et fjerntliggende anlegg som samler inn måledata og tar imot styringskommandoer fra en sentral, ofte over radio eller mobilnett.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ]
@@ -13964,6 +14042,7 @@
     "forklaring": "Tilgangsstyring der rettighetene følger brukerens rolle. I SD-anlegget er rollene minst lese, drift og administrator.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "roller"
     ],
@@ -13978,6 +14057,7 @@
     "forklaring": "Styring av temperatur, ventilasjon, lys og solavskjerming i det enkelte rommet etter behov og bruk.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "energi"
     ],
@@ -13991,6 +14071,7 @@
     "forklaring": "Alarm som går når noen åpner, flytter eller skader en del av et sikringsanlegg, som en sentral, en kortleser eller en koblingsboks.",
     "tags": [
       "eba",
+      "ot",
       "fysisk-sikring",
       "tekniske-anlegg"
     ],
@@ -14018,6 +14099,7 @@
     "forklaring": "Datasystem som samler inn data fra og styrer anlegg spredt over store avstander. Operatøren overvåker og styrer fra en sentral.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "automasjon"
     ],
@@ -14032,6 +14114,7 @@
     "forklaring": "Programvare med grafisk brukergrensesnitt som driftspersonalet bruker til å overvåke og styre de tekniske anleggene på én eiendom. SD-anlegget lagrer også data fra anleggene.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "fdv"
     ],
@@ -14048,6 +14131,7 @@
     "forklaring": "Server, ofte en virtuell maskin, der programvaren for SD-anlegget kjører og data fra automatikken samles inn.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -14061,6 +14145,7 @@
     "forklaring": "Digitalt sertifikat som enheten har laget og signert selv, uten en sertifikatutsteder. Det gir kryptering, men bekrefter ikke like sikkert hvem enheten er.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -14074,6 +14159,7 @@
     "forklaring": "Enhet som måler en fysisk størrelse, som temperatur, trykk eller bevegelse, og gjør den om til et signal.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "tekniske-anlegg"
     ],
@@ -14089,6 +14175,7 @@
     "forklaring": "Tiltrodd instans som utsteder og går god for digitale sertifikater. Sertifikatene bekrefter hvem en enhet er, og brukes til å kryptere trafikken.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -14114,6 +14201,7 @@
     "forklaring": "Ønsket verdi som reguleringen skal holde, for eksempel en romtemperatur på 21 °C.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "tekniske-anlegg"
     ],
@@ -14142,6 +14230,7 @@
     "forklaring": "Kopi av programmer, konfigurasjon og data som gjør det mulig å gjenopprette en undersentral eller SD-server etter feil eller angrep.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "fdv"
     ],
@@ -14155,6 +14244,7 @@
     "forklaring": "Oppdatering av programvare eller fastvare som tetter et kjent sikkerhetshull.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "vedlikehold"
     ],
@@ -14168,6 +14258,7 @@
     "forklaring": "Løpende innsamling og analyse av logger og nettrafikk for å oppdage angrep og avvik i tide.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -14205,6 +14296,7 @@
     "forklaring": "Gruppe av systemer og enheter med samme sikkerhetskrav, avgrenset fra andre soner med brannmur eller tilsvarende.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -14351,6 +14443,7 @@
     "forklaring": "Statsbyggs eget, atskilte IP-nett for tekniske anlegg på en eiendom. Utstyr kan bare kobles til svitsjer som Statsbygg leverer og administrerer.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "automasjon"
     ],
@@ -14365,6 +14458,7 @@
     "forklaring": "Passordet utstyret har fra fabrikken. Det må byttes før overlevering fordi slike passord ofte er kjent for alle.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet",
       "prosjekt"
     ],
@@ -14462,6 +14556,7 @@
     "forklaring": "Anleggene i et bygg som gir varme, ventilasjon, strøm, vann og sikkerhet.",
     "tags": [
       "eba",
+      "ot",
       "tekniske-anlegg"
     ],
     "alias": [
@@ -14488,6 +14583,7 @@
     "forklaring": "Program som starter, stopper eller endrer driftsmodus for et anlegg til faste tider gjennom uken.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "energi"
     ],
@@ -14513,6 +14609,7 @@
     "forklaring": "Server som gir enhetene i nettet riktig tid via protokollen NTP. Lik tid på alle enheter gjør at alarmer og logger kan sammenlignes.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "ot-sikkerhet"
     ],
@@ -14527,6 +14624,7 @@
     "forklaring": "Styring av hvem som får logge på et system, og hva hver bruker får gjøre der. SD-anlegget skal hente brukere og roller fra virksomhetens katalogtjeneste.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
@@ -14567,6 +14665,7 @@
     "forklaring": "Forebyggende vedlikehold som styres av målt eller observert tilstand, ikke av faste intervaller.",
     "tags": [
       "eba",
+      "ot",
       "vedlikehold",
       "automasjon"
     ],
@@ -14621,6 +14720,7 @@
     "forklaring": "Tegning som viser alle systemer og hvordan de kommuniserer, fra feltutstyr via undersentraler til SD-anlegg. Den viser også protokollene og hvor komponentene står.",
     "tags": [
       "eba",
+      "ot",
       "dokumentasjon",
       "automasjon"
     ],
@@ -14634,6 +14734,7 @@
     "forklaring": "Overordnet programvare som samler automatikk fra flere leverandører og flere eiendommer i ett brukergrensesnitt for overvåking og styring.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "forvaltning"
     ],
@@ -14662,6 +14763,7 @@
     "forklaring": "Protokoll som krypterer trafikken mellom klient og server, for eksempel i HTTPS. Statsbygg krever versjon 1.3 eller nyere.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ]
   },
@@ -14671,6 +14773,7 @@
     "forklaring": "Lagring av måleverdier, statuser og andre data over tid, slik at de kan vises som kurver og analyseres.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "fdv"
     ],
@@ -14742,6 +14845,7 @@
     "forklaring": "Anlegg med kameraer som overvåker et område og viser eller lagrer bildene på et avgrenset sett av skjermer. Det brukes til å oppdage og verifisere hendelser.",
     "tags": [
       "eba",
+      "ot",
       "fysisk-sikring",
       "tekniske-anlegg"
     ],
@@ -14774,6 +14878,7 @@
     "forklaring": "Måler som registrerer forbruket til et avgrenset anlegg, en del av bygget eller en leietaker, bak hovedmåleren.",
     "tags": [
       "eba",
+      "ot",
       "energi"
     ],
     "alias": [
@@ -14787,6 +14892,7 @@
     "forklaring": "Desentral, programmerbar enhet som styrer og regulerer tekniske anlegg og samler inn og behandler signaler fra feltutstyret. Den fortsetter å styre anlegget selv om forbindelsen til SD-anlegget faller ut.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "tekniske-anlegg"
     ],
@@ -14816,6 +14922,7 @@
     "forklaring": "Midlertidig endring av driften som overstyrer det vanlige tidsprogrammet, for eksempel i ferier og på helligdager.",
     "tags": [
       "eba",
+      "ot",
       "automasjon",
       "energi"
     ],
@@ -14976,6 +15083,7 @@
     "forklaring": "Kryptert forbindelse over et offentlig nett, som gir sikker tilgang til et internt nett.",
     "tags": [
       "eba",
+      "ot",
       "ot-sikkerhet"
     ],
     "alias": [
