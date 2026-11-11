@@ -168,8 +168,13 @@ function parseContent(text: string, hl: string): ReactNode {
   return text.split(/\n\n+/).map((block, i) => renderBlock(block, i, hl))
 }
 
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
+// Every step card has the same height, so the page only moves when the card
+// top sits under the sticky header.
+function revealCardTop(card: HTMLElement | null) {
+  const headerBottom = document.querySelector('header')?.getBoundingClientRect().bottom ?? 0
+  if (card && card.getBoundingClientRect().top < headerBottom) {
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion() ? 'instant' : 'smooth' })
+  }
 }
 
 // Outside the component: the React compiler forbids writing to a state value.
@@ -225,14 +230,35 @@ export function ArticlePage() {
     return () => document.removeEventListener('click', handler, { capture: true })
   }, [highlightActive])
 
+  const [mainEl, setMainEl] = useState<HTMLElement | null>(null)
+  const [cardEl, setCardEl] = useState<HTMLElement | null>(null)
+  const [chipsEl, setChipsEl] = useState<HTMLElement | null>(null)
+
   const goToStep = (idx: number) => {
     if (idx < 0 || idx >= totalSteps) return
     setActiveStep(idx)
-    scrollToTop()
+    cardEl?.querySelectorAll('[data-step-body]').forEach(body => body.scrollTo(0, 0))
+    revealCardTop(cardEl)
   }
 
-  const [mainEl, setMainEl] = useState<HTMLElement | null>(null)
-  const [cardEl, setCardEl] = useState<HTMLElement | null>(null)
+  // A step that scrolls inside the card must be reachable by keyboard (WCAG 2.1.1).
+  const [bodyScrolls, setBodyScrolls] = useState(false)
+  useEffect(() => {
+    const body = cardEl?.querySelectorAll('[data-step-body]')[activeStep]
+    if (!cardEl || !body) return
+    const observer = new ResizeObserver(() => setBodyScrolls(body.scrollHeight > body.clientHeight))
+    observer.observe(cardEl)
+    for (const child of body.children) observer.observe(child)
+    return () => observer.disconnect()
+  }, [cardEl, activeStep])
+
+  // Keeps the active chip in view when the row is wider than the screen.
+  useEffect(() => {
+    const chip = chipsEl?.children[activeStep]
+    if (!chipsEl || !(chip instanceof HTMLElement)) return
+    const left = chip.offsetLeft - (chipsEl.clientWidth - chip.offsetWidth) / 2
+    chipsEl.scrollTo({ left, behavior: prefersReducedMotion() ? 'instant' : 'smooth' })
+  }, [chipsEl, activeStep])
   const isDesktop = useFinePointer()
   // The card follows the finger, drags with resistance past the first and
   // last step, and slides out and in from the swipe side on a step change.
@@ -303,7 +329,6 @@ export function ArticlePage() {
 
   const isFirstStep = activeStep === 0
   const isLastStep = activeStep === totalSteps - 1
-  const step = article.steg[activeStep]
   const hl = highlightActive ? toHighlight(searchQuery) : ''
 
   const canShare = typeof navigator !== 'undefined' && 'share' in navigator
@@ -315,11 +340,11 @@ export function ArticlePage() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50 overflow-x-clip">
       <main ref={setMainEl} className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
-        {/* Title and lede shown only on the first step – gives more room to the
-            steps later in the read. The step card below takes over as the main
-            visual element. */}
-        {isFirstStep && (
-          <header className="pt-5 pb-1">
+        {/* Title, lede, chips and card keep their size and place on every step:
+            only the card content changes. The frame never exceeds the screen
+            below the app header; a longer step scrolls inside the card. */}
+        <div className="flex flex-col pb-4 max-h-[calc(100svh-3.5rem-env(safe-area-inset-top))]">
+          <header className="shrink-0 pt-5 pb-1">
             <div className="flex items-start justify-between gap-2">
               <h1 className="text-lg font-semibold text-slate-800 leading-snug">
                 {applyHighlight(article.tittel, hl)}
@@ -344,84 +369,98 @@ export function ArticlePage() {
               </p>
             )}
           </header>
-        )}
 
-        {/* Step overview (chips) */}
-        {/* The chip row scrolls sideways, so it must not change step. */}
-        <nav
-          aria-label="Steg-oversikt"
-          className="flex gap-2 py-4 overflow-x-auto hide-scrollbar"
-          data-noswipe
-        >
-          {article.steg.map((_, idx) => (
-            <button
-              key={idx}
-              onClick={() => goToStep(idx)}
-              className={`flex-shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-full text-xs font-medium transition-all ${
-                idx === activeStep
-                  ? 'bg-brand-700 text-white shadow-sm'
-                  : idx < activeStep
-                  ? 'bg-brand-100 text-brand-700'
-                  : 'bg-white border border-slate-200 text-slate-500'
-              }`}
-              aria-current={idx === activeStep ? 'step' : undefined}
-              aria-label={`Gå til steg ${idx + 1} av ${totalSteps}`}
-            >
-              {idx + 1}
-            </button>
-          ))}
-        </nav>
+          {/* Step overview (chips) */}
+          {/* The chip row scrolls sideways, so it must not change step. */}
+          <nav
+            ref={setChipsEl}
+            aria-label="Steg-oversikt"
+            className="relative shrink-0 flex gap-2 py-4 overflow-x-auto hide-scrollbar"
+            data-noswipe
+          >
+            {article.steg.map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => goToStep(idx)}
+                className={`flex-shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-full text-xs font-medium transition-all ${
+                  idx === activeStep
+                    ? 'bg-brand-700 text-white shadow-sm'
+                    : idx < activeStep
+                    ? 'bg-brand-100 text-brand-700'
+                    : 'bg-white border border-slate-200 text-slate-500'
+                }`}
+                aria-current={idx === activeStep ? 'step' : undefined}
+                aria-label={`Gå til steg ${idx + 1} av ${totalSteps}`}
+              >
+                {idx + 1}
+              </button>
+            ))}
+          </nav>
 
-        {/* Step content. On touch devices the edge of a card behind it marks
-            each side there is a step to swipe to. */}
-        <div className="relative mb-4">
-          {!isDesktop && !isFirstStep && (
-            <div aria-hidden="true" className="absolute inset-y-2 -left-1.5 right-1.5 rounded-2xl border border-slate-200 bg-white" />
-          )}
-          {!isDesktop && !isLastStep && (
-            <div aria-hidden="true" className="absolute inset-y-2 left-1.5 -right-1.5 rounded-2xl border border-slate-200 bg-white" />
-          )}
-          <div ref={setCardEl} className="relative bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-            <div className="px-4 py-3 bg-brand-50 border-b border-brand-100">
-              <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
-                Steg {activeStep + 1} av {totalSteps}
-              </p>
-              <h2 className="text-base font-semibold text-slate-800 leading-snug">
-                {applyHighlight(step.tittel, hl)}
-              </h2>
-            </div>
-            <div className="px-4 py-5">
-              <div className="text-sm text-slate-600 leading-relaxed space-y-3">
-                {parseContent(step.innhold, hl)}
-              </div>
-              {step.bilde && (
-                <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">
-                  <button
-                    type="button"
-                    onClick={() => setOpenImage(step.bilde!)}
-                    aria-label={`Åpne bildet i fullskjerm: ${step.bilde.alt}`}
-                    className="group relative block w-full cursor-zoom-in focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-700"
-                  >
-                    <img
-                      src={`${import.meta.env.BASE_URL}${step.bilde.src}`}
-                      alt={step.bilde.alt}
-                      loading="lazy"
-                      decoding="async"
-                      className="w-full h-auto block transition-opacity group-hover:opacity-95"
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="absolute top-2 right-2 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900/70 text-white opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity"
-                    >
-                      <ZoomInIcon size={16} />
-                    </span>
-                  </button>
-                  <figcaption className="px-3 py-2 text-xs text-slate-600 leading-snug">
-                    {step.bilde.bildetekst}
-                    <span className="block text-[11px] text-slate-500 mt-1">{step.bilde.kreditering}</span>
-                  </figcaption>
-                </figure>
-              )}
+          {/* Step content. On touch devices the edge of a card behind it marks
+              each side there is a step to swipe to. */}
+          <div className="relative min-h-0 flex flex-col">
+            {!isDesktop && !isFirstStep && (
+              <div aria-hidden="true" className="absolute inset-y-2 -left-1.5 right-1.5 rounded-2xl border border-slate-200 bg-white" />
+            )}
+            {!isDesktop && !isLastStep && (
+              <div aria-hidden="true" className="absolute inset-y-2 left-1.5 -right-1.5 rounded-2xl border border-slate-200 bg-white" />
+            )}
+            {/* All steps share one grid cell, and their headers and bodies share
+                rows: the card is as tall as the tallest step. */}
+            <div ref={setCardEl} className="relative min-h-0 grid grid-rows-[auto_minmax(0,1fr)] bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+              {article.steg.map((step, idx) => (
+                <section
+                  key={idx}
+                  inert={idx !== activeStep}
+                  className={`col-start-1 row-start-1 row-span-2 grid grid-rows-subgrid ${idx === activeStep ? '' : 'invisible'}`}
+                >
+                  <div className="px-4 py-3 bg-brand-50 border-b border-brand-100">
+                    <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
+                      Steg {idx + 1} av {totalSteps}
+                    </p>
+                    <h2 className="text-base font-semibold text-slate-800 leading-snug">
+                      {applyHighlight(step.tittel, hl)}
+                    </h2>
+                  </div>
+                  <div
+                  data-step-body
+                  tabIndex={idx === activeStep && bodyScrolls ? 0 : undefined}
+                  className="px-4 py-5 overflow-y-auto scroll-shadows focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand-700"
+                >
+                    <div className="text-sm text-slate-600 leading-relaxed space-y-3">
+                      {parseContent(step.innhold, hl)}
+                    </div>
+                    {step.bilde && (
+                      <figure className="mt-4 rounded-lg overflow-hidden border border-slate-200 bg-slate-50">
+                        <button
+                          type="button"
+                          onClick={() => setOpenImage(step.bilde!)}
+                          aria-label={`Åpne bildet i fullskjerm: ${step.bilde.alt}`}
+                          className="group relative block w-full cursor-zoom-in focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-700"
+                        >
+                          <img
+                            src={`${import.meta.env.BASE_URL}${step.bilde.src}`}
+                            alt={step.bilde.alt}
+                            decoding="async"
+                            className="w-full h-auto block transition-opacity group-hover:opacity-95"
+                          />
+                          <span
+                            aria-hidden="true"
+                            className="absolute top-2 right-2 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900/70 text-white opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity"
+                          >
+                            <ZoomInIcon size={16} />
+                          </span>
+                        </button>
+                        <figcaption className="px-3 py-2 text-xs text-slate-600 leading-snug">
+                          {step.bilde.bildetekst}
+                          <span className="block text-[11px] text-slate-500 mt-1">{step.bilde.kreditering}</span>
+                        </figcaption>
+                      </figure>
+                    )}
+                  </div>
+                </section>
+              ))}
             </div>
           </div>
         </div>

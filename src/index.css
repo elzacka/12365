@@ -146,6 +146,16 @@
     display: none;
   }
 
+  /* Shadow at the top or bottom edge of a scroll area only while there is
+     more content that way; the white covers scroll with the content. */
+  .scroll-shadows {
+    background:
+      linear-gradient(#fff 30%, transparent) top / 100% 2rem no-repeat local,
+      linear-gradient(transparent, #fff 70%) bottom / 100% 2rem no-repeat local,
+      radial-gradient(farthest-side at 50% 0, rgb(15 23 42 / 0.16), transparent) top / 100% 0.75rem no-repeat scroll,
+      radial-gradient(farthest-side at 50% 100%, rgb(15 23 42 / 0.16), transparent) bottom / 100% 0.75rem no-repeat scroll;
+  }
+
   /* Brukes når en Sammenligne-rad blir hoppet til via ↔-chip. Ringer rad-en
      med pastell-glød som fades ut, så brukeren ser hvor de landet. */
   .sammenligne-pulse {
