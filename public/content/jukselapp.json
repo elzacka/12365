@@ -11311,5 +11311,3697 @@
     "alias": [
       "Fremtind/mmBERT-base-norwegian"
     ]
+  },
+  {
+    "id": "adgangskontroll",
+    "tittel": "Adgangskontroll",
+    "forklaring": "Evnen til å tillate eller nekte adgang forbi en grense. Den kan være manuell, med vakt eller resepsjon, eller elektronisk.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Access control"
+    ]
+  },
+  {
+    "id": "administrative-sikringstiltak",
+    "tittel": "Administrative sikringstiltak",
+    "forklaring": "Fellesbetegnelse for menneskelige og organisatoriske sikringstiltak, som rutiner, instrukser, opplæring og ansvarsfordeling.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Organisatoriske sikringstiltak",
+      "Administrative security measures"
+    ]
+  },
+  {
+    "id": "aktive-brannsikringstiltak",
+    "tittel": "Aktive brannsikringstiltak",
+    "forklaring": "Brannsikring som må utløses for å virke, som brannalarm, sprinkleranlegg og slokkeutstyr.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Aktive tiltak",
+      "Active fire protection"
+    ]
+  },
+  {
+    "id": "aktuator-eba",
+    "tittel": "Aktuator",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Enhet som gjør et styringssignal om til bevegelse, for eksempel en motor som åpner et spjeld eller en ventil.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Pådragsorgan",
+      "Actuator"
+    ]
+  },
+  {
+    "id": "alarmgrense",
+    "tittel": "Alarmgrense",
+    "forklaring": "Øvre eller nedre verdi for en måling som utløser alarm når den blir passert.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ],
+    "alias": [
+      "Grenseverdi",
+      "Alarm limit"
+    ]
+  },
+  {
+    "id": "alarmkvittering",
+    "tittel": "Alarmkvittering",
+    "forklaring": "Operatørens bekreftelse i SD-anlegget eller på betjeningspanelet av at en alarm er sett. Kvitteringen lagres i loggen med brukernavnet.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Kvittering",
+      "Alarm acknowledgement"
+    ]
+  },
+  {
+    "id": "alarmlogg",
+    "tittel": "Alarmlogg",
+    "forklaring": "Tabell i SD-anlegget som viser alarmer og feil fra automatikken, med tid, status, prioritet og hvem som har kvittert.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Alarm log"
+    ]
+  },
+  {
+    "id": "alarmmottak",
+    "tittel": "Alarmmottak",
+    "forklaring": "Sted der alarmer fra elektroniske sikringsanlegg blir mottatt, vist og behandlet. Det kan være alt fra en resepsjon til en egen bemannet sentral.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "roller"
+    ],
+    "alias": [
+      "Alarmsentral",
+      "Vaktsentral",
+      "Alarm receiving centre",
+      "ARC"
+    ]
+  },
+  {
+    "id": "alarmprioritet",
+    "tittel": "Alarmprioritet",
+    "forklaring": "Inndeling av alarmer etter hvor alvorlige de er og hvor raskt noen må reagere. Statsbygg bruker tre nivåer, der prioritet 1 betyr at anlegget har stanset.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Alarmklasse",
+      "Alarm priority"
+    ]
+  },
+  {
+    "id": "alarmutsending",
+    "tittel": "Alarmutsending",
+    "forklaring": "Videresending av kritiske alarmer fra anlegget til vakthavende driftspersonell.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Alarmvarsling",
+      "Alarm notification"
+    ]
+  },
+  {
+    "id": "alminnelige-kontraktsbestemmelser-for-totalentrepriser",
+    "tittel": "Alminnelige kontraktsbestemmelser for totalentrepriser",
+    "undertittel": "NS 8407",
+    "forklaring": "Standardkontrakt for totalentrepriser, der entreprenøren har ansvar for både prosjektering og utførelse.",
+    "tags": [
+      "eba",
+      "kontrakt"
+    ],
+    "alias": [
+      "General conditions of contract for design and build contracts"
+    ]
+  },
+  {
+    "id": "ansvarlig-prosjekterende",
+    "tittel": "Ansvarlig prosjekterende",
+    "forklaring": "Foretak med ansvar for at et byggetiltak blir prosjektert i tråd med lover, planer og tillatelser.",
+    "tags": [
+      "eba",
+      "roller",
+      "regelverk"
+    ],
+    "alias": [
+      "Prosjekterende",
+      "Responsible designer"
+    ]
+  },
+  {
+    "id": "ansvarlig-soker",
+    "tittel": "Ansvarlig søker",
+    "forklaring": "Foretaket som sender byggesøknaden og samordner de ansvarlige foretakene overfor kommunen.",
+    "tags": [
+      "eba",
+      "roller",
+      "regelverk"
+    ],
+    "alias": [
+      "Responsible applicant"
+    ]
+  },
+  {
+    "id": "ansvarlig-utforende",
+    "tittel": "Ansvarlig utførende",
+    "forklaring": "Foretak med ansvar for at byggearbeidet blir utført i tråd med prosjekteringen og kravene i tillatelsen.",
+    "tags": [
+      "eba",
+      "roller",
+      "regelverk"
+    ],
+    "alias": [
+      "Utførende",
+      "Responsible contractor"
+    ]
+  },
+  {
+    "id": "arbeidsordre",
+    "tittel": "Arbeidsordre",
+    "forklaring": "Bestilling av en konkret drifts- eller vedlikeholdsoppgave. Den viser hva som skal gjøres, hvem som gjør det, og status.",
+    "tags": [
+      "eba",
+      "fdv"
+    ],
+    "alias": [
+      "Work order"
+    ]
+  },
+  {
+    "id": "arealeffektivitet",
+    "tittel": "Arealeffektivitet",
+    "forklaring": "Hvor godt arealene utnyttes, målt for eksempel i kvadratmeter per arbeidsplass eller per elev.",
+    "tags": [
+      "eba",
+      "areal",
+      "økonomi"
+    ],
+    "alias": [
+      "Arealutnyttelse",
+      "Space efficiency"
+    ]
+  },
+  {
+    "id": "arealforvaltning",
+    "tittel": "Arealforvaltning",
+    "forklaring": "Oversikt over og styring av alle tilgjengelige arealer: Størrelse, kvalitet, bruk og regler for fordeling.",
+    "tags": [
+      "eba",
+      "areal",
+      "forvaltning"
+    ],
+    "alias": [
+      "Space management"
+    ]
+  },
+  {
+    "id": "automasjonstavle",
+    "tittel": "Automasjonstavle",
+    "forklaring": "Tavle med undersentral, sikringer, releer og annet utstyr som trengs for å styre ett eller flere tekniske anlegg.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Automatikktavle",
+      "Control cabinet"
+    ]
+  },
+  {
+    "id": "automatikk",
+    "tittel": "Automatikk",
+    "forklaring": "Utstyr og programvare som styrer, regulerer og overvåker tekniske anlegg lokalt i bygget, for eksempel ventilasjon, varme og kjøling. Automatikken består mest av maskinvare, som undersentraler og tavler.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ],
+    "alias": [
+      "Automatikkanlegg",
+      "Building controls"
+    ]
+  },
+  {
+    "id": "automatisk-adgangskontrollanlegg",
+    "tittel": "Automatisk adgangskontrollanlegg",
+    "undertittel": "AAK",
+    "forklaring": "Elektronisk anlegg som styrer hvem som kan passere dører, porter og heiser, vanligvis med kort og kode. Anlegget logger passeringer og kan gi alarm ved brudd.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Adgangskontrollsystem",
+      "Elektronisk adgangskontroll",
+      "Electronic access control system",
+      "EACS"
+    ]
+  },
+  {
+    "id": "automatisk-innbruddsalarmanlegg",
+    "tittel": "Automatisk innbruddsalarmanlegg",
+    "undertittel": "AIA",
+    "forklaring": "Elektronisk anlegg som overvåker et område eller bygg og gir alarm ved endringer, som åpnede dører, bevegelse eller vibrasjoner. Alarmen går til et alarmmottak som sørger for reaksjon.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Innbruddsalarm",
+      "Alarmanlegg",
+      "Intruder alarm system",
+      "IAS"
+    ]
+  },
+  {
+    "id": "autonom-drift",
+    "tittel": "Autonom drift",
+    "forklaring": "Driftsform der undersentralen fortsetter å styre anlegget selv om forbindelsen til SD-anlegget eller IP-nettet er brutt.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Stand-alone operation"
+    ]
+  },
+  {
+    "id": "avfallsplan",
+    "tittel": "Avfallsplan",
+    "forklaring": "Plan som viser hvilket avfall et byggeprosjekt eller en riving gir, og hvordan det skal sorteres og håndteres.",
+    "tags": [
+      "eba",
+      "miljø",
+      "regelverk"
+    ],
+    "alias": [
+      "Waste management plan"
+    ]
+  },
+  {
+    "id": "avtale-om-fasilitetsstyring",
+    "tittel": "Avtale om fasilitetsstyring",
+    "forklaring": "Avtale mellom en klient og en intern eller ekstern leverandør om vilkårene for å levere fasilitetstjenester.",
+    "tags": [
+      "eba",
+      "kontrakt"
+    ],
+    "alias": [
+      "FM-avtale",
+      "Facility management agreement"
+    ]
+  },
+  {
+    "id": "avvik",
+    "tittel": "Avvik",
+    "forklaring": "En feil, mangel eller tilstand som ikke oppfyller et krav, en standard eller en plan.",
+    "tags": [
+      "eba",
+      "fdv",
+      "regelverk"
+    ],
+    "alias": [
+      "Nonconformity"
+    ]
+  },
+  {
+    "id": "avvikshandtering",
+    "tittel": "Avvikshåndtering",
+    "forklaring": "Arbeidet med å registrere, vurdere, rette opp og lukke avvik, og å dokumentere hva som ble gjort.",
+    "tags": [
+      "eba",
+      "fdv",
+      "regelverk"
+    ],
+    "alias": [
+      "Avviksbehandling",
+      "Nonconformity management"
+    ]
+  },
+  {
+    "id": "bacnet",
+    "tittel": "BACnet",
+    "forklaring": "Åpen standard for kommunikasjon mellom utstyr i bygningsautomasjon. Protokollen beskriver hvert punkt som et objekt med egenskaper som kan leses og skrives.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ]
+  },
+  {
+    "id": "bacnet-broadcast-management-device",
+    "tittel": "BACnet Broadcast Management Device",
+    "undertittel": "BBMD",
+    "forklaring": "Funksjon som videresender BACnet-kringkastinger mellom IP-subnett. Feil oppsett kan gi så mye trafikk at nettet slutter å virke.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ]
+  },
+  {
+    "id": "bacnet-building-controller",
+    "tittel": "BACnet Building Controller",
+    "undertittel": "B-BC",
+    "forklaring": "Standardisert BACnet-profil for en programmerbar undersentral. Profilen angir hvilke funksjoner enheten minst skal støtte.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ]
+  },
+  {
+    "id": "bacnet-interoperability-building-block",
+    "tittel": "BACnet Interoperability Building Block",
+    "undertittel": "BIBB",
+    "forklaring": "Byggekloss som beskriver én bestemt BACnet-funksjon, for eksempel å lese en verdi eller motta en alarm. BACnet-profilene for enheter er satt sammen av slike byggeklosser.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ]
+  },
+  {
+    "id": "bacnet-ms-tp",
+    "tittel": "BACnet MS/TP",
+    "forklaring": "Variant av BACnet for seriell feltbuss, der enhetene på samme kabel sender etter tur.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ]
+  },
+  {
+    "id": "bacnet-operator-workstation",
+    "tittel": "BACnet Operator Workstation",
+    "undertittel": "B-OWS",
+    "forklaring": "Standardisert BACnet-profil for programvare som driftspersonalet bruker til å overvåke og betjene anleggene, for eksempel et SD-anlegg.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ]
+  },
+  {
+    "id": "bacnet-objekt",
+    "tittel": "BACnet-objekt",
+    "forklaring": "Standardisert beskrivelse av en verdi eller funksjon i en BACnet-enhet, for eksempel en inngang, et settpunkt eller et tidsprogram. Hvert objekt har en unik ID og et sett egenskaper.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ],
+    "alias": [
+      "BACnet-punkt",
+      "Integrert punkt",
+      "BACnet object"
+    ]
+  },
+  {
+    "id": "bacnet-ip",
+    "tittel": "BACnet/IP",
+    "forklaring": "Variant av BACnet som går over IP-nettverk. Statsbygg krever BACnet/IP mellom undersentraler og SD-anlegg.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ]
+  },
+  {
+    "id": "balansert-sikring",
+    "tittel": "Balansert sikring",
+    "forklaring": "Sikringskonsept der barrierer, deteksjon og reaksjon er tilpasset hverandre. Angriperen blir oppdaget og forsinket lenge nok til at reaksjonsstyrken rekker frem.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Balanced security"
+    ]
+  },
+  {
+    "id": "barriere-eba",
+    "tittel": "Barriere",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Sikringstiltak som skal hindre eller redusere muligheten for at en sikkerhetstruende hendelse inntreffer. En fysisk barriere hindrer og forsinker en angriper på vei mot verdien.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Barrier"
+    ]
+  },
+  {
+    "id": "bebygd-areal",
+    "tittel": "Bebygd areal",
+    "undertittel": "BYA",
+    "forklaring": "Arealet bygget dekker av tomten, sett ovenfra. Kalles ofte byggets fotavtrykk.",
+    "tags": [
+      "eba",
+      "areal",
+      "regelverk"
+    ],
+    "alias": [
+      "Fotavtrykk",
+      "Built-up area"
+    ]
+  },
+  {
+    "id": "befaring",
+    "tittel": "Befaring",
+    "forklaring": "Visuell gjennomgang av et bygg eller et område på stedet. Brukes for å vurdere tilstand, gi tilbud eller kontrollere utført arbeid.",
+    "tags": [
+      "eba",
+      "fdv",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Synfaring",
+      "Site inspection"
+    ]
+  },
+  {
+    "id": "benchmarking",
+    "tittel": "Benchmarking",
+    "forklaring": "Å måle egne resultater, kostnader eller arbeidsmåter og sammenligne dem med andres for å finne hva som kan bli bedre.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "økonomi"
+    ],
+    "alias": [
+      "Referansemåling"
+    ]
+  },
+  {
+    "id": "beskyttet-sone",
+    "tittel": "Beskyttet sone",
+    "forklaring": "Område der virksomheten behandler eller oppbevarer sikkerhetsgradert informasjon eller har godkjente informasjonssystemer for slik informasjon. Det kan være et rom, en bygning eller en del av en bygning.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "regelverk"
+    ],
+    "alias": [
+      "Beskyttet område",
+      "Protected area"
+    ]
+  },
+  {
+    "id": "betjeningspanel",
+    "tittel": "Betjeningspanel",
+    "forklaring": "Berøringsskjerm i fronten av en automasjonstavle som lar driftspersonalet styre og overvåke anleggene lokalt, også uten forbindelse til SD-anlegget.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ],
+    "alias": [
+      "Operator panel"
+    ]
+  },
+  {
+    "id": "brannalarmsentral",
+    "tittel": "Brannalarmsentral",
+    "forklaring": "Sentral som tar imot signaler fra branndetektorer og manuelle meldere og styrer varsling og slokkeanlegg. NIST anbefaler å isolere den fra andre nett.",
+    "tags": [
+      "eba",
+      "tekniske-anlegg",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Fire alarm control panel",
+      "FACP"
+    ]
+  },
+  {
+    "id": "branndokumentasjon",
+    "tittel": "Branndokumentasjon",
+    "forklaring": "All dokumentasjon av brannsikkerheten i et bygg, med tiltak, rutiner og ansvar.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Brannbok",
+      "Brannperm",
+      "Fire safety documentation"
+    ]
+  },
+  {
+    "id": "brannkonsept",
+    "tittel": "Brannkonsept",
+    "forklaring": "Overordnet beskrivelse av hvordan brannsikkerheten i et bygg er ivaretatt med konstruksjoner, tekniske løsninger og organisatoriske tiltak.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Fire safety strategy"
+    ]
+  },
+  {
+    "id": "brannmur",
+    "tittel": "Brannmur",
+    "forklaring": "Enhet eller programvare som slipper gjennom bare tillatt trafikk mellom nett, og beskytter nettet på innsiden.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Firewall"
+    ]
+  },
+  {
+    "id": "bruker",
+    "tittel": "Bruker",
+    "forklaring": "Virksomheten, gruppen eller personen som en eiendom er innrettet for, for eksempel ansatte, elever eller pasienter.",
+    "tags": [
+      "eba",
+      "roller"
+    ],
+    "alias": [
+      "Leietaker",
+      "Occupant"
+    ]
+  },
+  {
+    "id": "brukerevaluering",
+    "tittel": "Brukerevaluering",
+    "forklaring": "Undersøkelse blant brukerne etter at et bygg er tatt i bruk, for å finne ut hvor godt det fungerer for dem.",
+    "tags": [
+      "eba",
+      "forvaltning"
+    ],
+    "alias": [
+      "Brukerundersøkelse",
+      "Post-occupancy evaluation",
+      "POE"
+    ]
+  },
+  {
+    "id": "bruksareal",
+    "tittel": "Bruksareal",
+    "undertittel": "BRA",
+    "forklaring": "Areal innenfor de omsluttende veggene. Innenfor en bruksenhet er det nettoarealet pluss arealet av innvendige vegger.",
+    "tags": [
+      "eba",
+      "areal"
+    ],
+    "alias": [
+      "Usable floor area"
+    ]
+  },
+  {
+    "id": "bruttoareal",
+    "tittel": "Bruttoareal",
+    "undertittel": "BTA",
+    "forklaring": "Areal målt til utsiden av ytterveggene, summert for alle etasjer i et bygg. Beregnes etter NS 3940.",
+    "tags": [
+      "eba",
+      "areal"
+    ],
+    "alias": [
+      "Gross floor area",
+      "GFA"
+    ]
+  },
+  {
+    "id": "btl-sertifisering",
+    "tittel": "BTL-sertifisering",
+    "forklaring": "Bekreftelse fra BACnet Testing Laboratories på at et produkt følger BACnet-standarden. Den gjør det tryggere å koble sammen utstyr fra ulike leverandører.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "BTL certification"
+    ]
+  },
+  {
+    "id": "byggherre",
+    "tittel": "Byggherre",
+    "forklaring": "Den som får utført et bygge- eller anleggsarbeid og er oppdragsgiver for entreprenøren.",
+    "tags": [
+      "eba",
+      "roller",
+      "prosjekt"
+    ],
+    "alias": [
+      "Tiltakshaver",
+      "Oppdragsgiver",
+      "Client"
+    ]
+  },
+  {
+    "id": "byggherreforskriften",
+    "tittel": "Byggherreforskriften",
+    "forklaring": "Forskrift som gir byggherren ansvar for sikkerhet, helse og arbeidsmiljø på bygge- og anleggsplasser.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "roller"
+    ],
+    "alias": [
+      "Construction Client Regulations"
+    ]
+  },
+  {
+    "id": "byggteknisk-forskrift",
+    "tittel": "Byggteknisk forskrift",
+    "undertittel": "TEK17",
+    "forklaring": "Forskrift til plan- og bygningsloven med tekniske minstekrav til byggverk, blant annet om brannsikkerhet, energi og universell utforming. Kravene er i hovedsak formulert som funksjonskrav.",
+    "tags": [
+      "eba",
+      "regelverk"
+    ],
+    "alias": [
+      "Teknisk forskrift",
+      "Regulations on technical requirements for construction works"
+    ]
+  },
+  {
+    "id": "byggverk",
+    "tittel": "Byggverk",
+    "forklaring": "Samlebegrep for bygninger, konstruksjoner og anlegg.",
+    "tags": [
+      "eba",
+      "regelverk"
+    ],
+    "alias": [
+      "Construction works"
+    ]
+  },
+  {
+    "id": "bygningsautomasjonssystem",
+    "tittel": "Bygningsautomasjonssystem",
+    "undertittel": "BAS",
+    "forklaring": "Samlebetegnelse for SD-anlegg, automatikk og feltutstyr som styrer, regulerer og overvåker de tekniske anleggene i et bygg.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Bygningsautomasjon",
+      "Byggautomasjon",
+      "Building automation and control system",
+      "BACS"
+    ]
+  },
+  {
+    "id": "bygningsdelstabell",
+    "tittel": "Bygningsdelstabell",
+    "undertittel": "NS 3451",
+    "forklaring": "Standardisert inndeling og koding av bygningsdeler og installasjoner (NS 3451). Den brukes i beskrivelser, kostnadsoppstillinger, tilstandsanalyser og FDV-dokumentasjon.",
+    "tags": [
+      "eba",
+      "dokumentasjon",
+      "regelverk"
+    ],
+    "alias": [
+      "Table of building elements"
+    ]
+  },
+  {
+    "id": "bygningsenergidirektivet",
+    "tittel": "Bygningsenergidirektivet",
+    "forklaring": "EU-direktiv om energiytelsen i bygninger. Det krever blant annet felles beregningsmetode, minstekrav, energimerking og inspeksjon av varme- og klimaanlegg.",
+    "tags": [
+      "eba",
+      "energi",
+      "regelverk"
+    ],
+    "alias": [
+      "Energy Performance of Buildings Directive",
+      "EPBD"
+    ]
+  },
+  {
+    "id": "bygningsforvaltning",
+    "tittel": "Bygningsforvaltning",
+    "forklaring": "Alt arbeid med eksisterende bygninger for at de skal fungere godt for brukere, eiere og omgivelser gjennom hele levetiden.",
+    "tags": [
+      "eba",
+      "forvaltning"
+    ],
+    "alias": [
+      "Building management"
+    ]
+  },
+  {
+    "id": "bygningsinformasjonsmodell",
+    "tittel": "Bygningsinformasjonsmodell",
+    "undertittel": "BIM",
+    "forklaring": "Digital modell av et bygg med geometri og informasjon om bygningsdeler og tekniske anlegg.",
+    "tags": [
+      "eba",
+      "bim",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Bygningsinformasjonsmodellering",
+      "Building information model"
+    ]
+  },
+  {
+    "id": "conduit",
+    "tittel": "Conduit",
+    "forklaring": "Kontrollert kommunikasjonskanal mellom to sikkerhetssoner, med regler for hvilken trafikk som er tillatt.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Kommunikasjonskanal"
+    ]
+  },
+  {
+    "id": "cov-rapportering",
+    "tittel": "COV-rapportering",
+    "forklaring": "Metode der en enhet sender en ny verdi bare når den har endret seg mer enn en fastsatt terskel. Det gir mindre trafikk enn å hente verdier med faste mellomrom.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ],
+    "alias": [
+      "Endring av verdi",
+      "Change of value reporting",
+      "COV"
+    ]
+  },
+  {
+    "id": "dali",
+    "tittel": "DALI",
+    "forklaring": "Standardisert protokoll for digital styring av lysarmaturer, der hver armatur har sin egen adresse. Statsbygg tillater den bare for lysutstyr, ikke for sensorer.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "energi"
+    ],
+    "alias": [
+      "Digital Addressable Lighting Interface"
+    ]
+  },
+  {
+    "id": "data-historian",
+    "tittel": "Data historian",
+    "forklaring": "Database som lagrer måledata og hendelser fra et styringssystem over tid, for trender, analyse og rapportering.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Historikkdatabase"
+    ]
+  },
+  {
+    "id": "datadiode",
+    "tittel": "Datadiode",
+    "forklaring": "Nettverksenhet som fysisk bare lar data gå én vei, for eksempel ut fra OT-nettet. Ingenting kan sendes tilbake.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Data diode"
+    ]
+  },
+  {
+    "id": "demilitarisert-sone",
+    "tittel": "Demilitarisert sone",
+    "undertittel": "DMZ",
+    "forklaring": "Eget nettsegment mellom OT-nettet og IT-nettet eller internett. Trafikk mellom nettene går via tjenester i sonen, aldri direkte.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Demilitarized zone"
+    ]
+  },
+  {
+    "id": "deteksjon",
+    "tittel": "Deteksjon",
+    "forklaring": "Tiltak som avdekker at en barriere blir brutt eller forsøkt brutt, for eksempel alarmanlegg med sensorer og kameraer. Tidlig deteksjon gir mer tid til å reagere.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Deteksjonstiltak",
+      "Detection"
+    ]
+  },
+  {
+    "id": "digital-tvilling-eba",
+    "tittel": "Digital tvilling",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Datamodell av et fysisk system, som en maskin eller et bygg, som brukes til å følge tilstanden, oppdage avvik og forutsi hvordan systemet oppfører seg.",
+    "tags": [
+      "eba",
+      "bim",
+      "automasjon"
+    ],
+    "alias": [
+      "Digital twin"
+    ]
+  },
+  {
+    "id": "diskusjonsovelse",
+    "tittel": "Diskusjonsøvelse",
+    "forklaring": "Øvelse der deltakerne går gjennom et scenario og planverket rundt et bord, uten å bruke utstyr eller systemer.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Skrivebordsøvelse",
+      "Tabletop exercise",
+      "TTX"
+    ]
+  },
+  {
+    "id": "distribuert-styringssystem",
+    "tittel": "Distribuert styringssystem",
+    "undertittel": "DCS",
+    "forklaring": "Styringssystem der styringen er fordelt på mange regulatorer nær prosessen i stedet for én sentral enhet.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Distributed control system"
+    ]
+  },
+  {
+    "id": "drift",
+    "tittel": "Drift",
+    "forklaring": "Oppgavene og rutinene som får bygningen og de tekniske anleggene til å fungere som planlagt hver dag. Drift omfatter blant annet betjening, ettersyn, energiforsyning, renhold og avfallshåndtering.",
+    "tags": [
+      "eba",
+      "fdv",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Operation"
+    ]
+  },
+  {
+    "id": "drifts-og-vedlikeholdsplan",
+    "tittel": "Drifts- og vedlikeholdsplan",
+    "undertittel": "DV-plan",
+    "forklaring": "Plan for faste driftsrutiner, planlagt vedlikehold og utskifting av bygningsdeler.",
+    "tags": [
+      "eba",
+      "fdv",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Operation and maintenance plan",
+      "O&M plan"
+    ]
+  },
+  {
+    "id": "driftskostnader",
+    "tittel": "Driftskostnader",
+    "forklaring": "Løpende kostnader til drift av bygget, som energi, renhold, vann og avløp, avfall, vakt og sikring og utendørs arbeid. Etter NS 3454 regnes også løpende vedlikehold med her.",
+    "tags": [
+      "eba",
+      "økonomi",
+      "fdv"
+    ],
+    "alias": [
+      "Driftsutgifter",
+      "Operating costs"
+    ]
+  },
+  {
+    "id": "due-diligence",
+    "tittel": "Due diligence",
+    "undertittel": "DD",
+    "forklaring": "Grundig gjennomgang av juridiske, økonomiske og tekniske forhold ved en eiendom før kjøp eller investering.",
+    "tags": [
+      "eba",
+      "økonomi",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Selskapsgjennomgang"
+    ]
+  },
+  {
+    "id": "ede-fil",
+    "tittel": "EDE-fil",
+    "forklaring": "Fil i et fast format som lister BACnet-punktene i en enhet. Den brukes når enheten skal integreres i SD-anlegget.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Engineering Data Exchange file",
+      "EDE"
+    ]
+  },
+  {
+    "id": "eiendom",
+    "tittel": "Eiendom",
+    "forklaring": "Tomt, bygninger, anlegg og rettigheter som noen eier, sett som en verdi.",
+    "tags": [
+      "eba",
+      "forvaltning"
+    ],
+    "alias": [
+      "Fast eiendom",
+      "Real estate"
+    ]
+  },
+  {
+    "id": "eiendomsforvaltning",
+    "tittel": "Eiendomsforvaltning",
+    "forklaring": "Forvaltning av fast eiendom i alle faser: Kjøp eller bygging, forvaltning, drift, vedlikehold og utvikling, og til slutt salg eller riving.",
+    "tags": [
+      "eba",
+      "forvaltning"
+    ],
+    "alias": [
+      "Property management"
+    ]
+  },
+  {
+    "id": "ekstern-automatikk",
+    "tittel": "Ekstern automatikk",
+    "forklaring": "Undersentral som leveres atskilt fra VVS-komponentene den skal styre. Den kables, programmeres og testes på eiendommen.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "prosjekt"
+    ],
+    "alias": [
+      "Separately supplied controls"
+    ]
+  },
+  {
+    "id": "elektroniske-sikringstiltak",
+    "tittel": "Elektroniske sikringstiltak",
+    "forklaring": "Elektroniske anlegg som skal oppdage, varsle, verifisere og forsinke uønskede handlinger. Vanligst er innbruddsalarm, adgangskontroll og TV-overvåking.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Elektronisk sikring",
+      "Electronic security systems",
+      "ESS"
+    ]
+  },
+  {
+    "id": "energieffektivisering",
+    "tittel": "Energieffektivisering",
+    "undertittel": "enøk",
+    "forklaring": "Tiltak som gir lavere energibruk for samme nytte, når fordeler og kostnader er veid mot hverandre.",
+    "tags": [
+      "eba",
+      "energi"
+    ],
+    "alias": [
+      "Energiøkonomisering",
+      "Energy efficiency improvement"
+    ]
+  },
+  {
+    "id": "energiledelse",
+    "tittel": "Energiledelse",
+    "forklaring": "Den delen av ledelsen som sørger for at virksomheten bruker energi effektivt, miljøriktig og i tråd med regelverket.",
+    "tags": [
+      "eba",
+      "energi",
+      "forvaltning"
+    ],
+    "alias": [
+      "Energy management"
+    ]
+  },
+  {
+    "id": "energimerking",
+    "tittel": "Energimerking",
+    "forklaring": "Ordning der et bygg får en energikarakter og en oppvarmingskarakter ut fra beregnet energibruk og oppvarmingskilde.",
+    "tags": [
+      "eba",
+      "energi",
+      "regelverk"
+    ],
+    "alias": [
+      "Energiattest",
+      "Energy performance certificate",
+      "EPC"
+    ]
+  },
+  {
+    "id": "energioppfolgingssystem",
+    "tittel": "Energioppfølgingssystem",
+    "undertittel": "EOS",
+    "forklaring": "System som samler målerdata og viser energibruken over tid, slik at avvik og sparetiltak kan følges opp.",
+    "tags": [
+      "eba",
+      "energi",
+      "automasjon"
+    ],
+    "alias": [
+      "Energy monitoring system"
+    ]
+  },
+  {
+    "id": "energisignatur",
+    "tittel": "Energisignatur",
+    "forklaring": "Kurve som viser hvordan energibruken i en bygning henger sammen med utetemperaturen. Driftspersonalet bruker den til å se om forbruket er unormalt.",
+    "tags": [
+      "eba",
+      "energi",
+      "automasjon"
+    ],
+    "alias": [
+      "ET-kurve",
+      "Energi-temperatur-kurve",
+      "Energy signature"
+    ]
+  },
+  {
+    "id": "engineering-workstation",
+    "tittel": "Engineering workstation",
+    "forklaring": "Maskin som brukes til å programmere og konfigurere regulatorer og andre styringsenheter. Den er et attraktivt mål fordi den kan endre anlegget.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "automasjon"
+    ],
+    "alias": [
+      "EWS"
+    ]
+  },
+  {
+    "id": "enkel-palogging",
+    "tittel": "Enkel pålogging",
+    "forklaring": "Ordning der brukeren logger på én gang og får tilgang til flere systemer uten å logge på hvert av dem.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Single sign-on",
+      "SSO"
+    ]
+  },
+  {
+    "id": "entreprenor",
+    "tittel": "Entreprenør",
+    "forklaring": "Foretak som påtar seg å utføre bygge- eller anleggsarbeid etter avtale med byggherren.",
+    "tags": [
+      "eba",
+      "roller"
+    ],
+    "alias": [
+      "Contractor"
+    ]
+  },
+  {
+    "id": "entrepriseform",
+    "tittel": "Entrepriseform",
+    "forklaring": "Måten et byggeprosjekt deles opp i kontrakter på. Valget avgjør hvordan ansvar og risiko fordeles mellom byggherre og entreprenør.",
+    "tags": [
+      "eba",
+      "kontrakt",
+      "prosjekt"
+    ],
+    "alias": [
+      "Entreprisemodell",
+      "Gjennomføringsmodell",
+      "Procurement route"
+    ]
+  },
+  {
+    "id": "ettersyn",
+    "tittel": "Ettersyn",
+    "forklaring": "Kontroll og prøving for å finne ut om noe trenger tiltak, eller om et tiltak er riktig utført.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "fdv"
+    ],
+    "alias": [
+      "Inspeksjon",
+      "Inspection"
+    ]
+  },
+  {
+    "id": "eu-taksonomien",
+    "tittel": "EU-taksonomien",
+    "forklaring": "EUs klassifisering av hvilke økonomiske aktiviteter som kan kalles bærekraftige. Krever dokumentasjon av blant annet energi og klima.",
+    "tags": [
+      "eba",
+      "miljø",
+      "regelverk"
+    ],
+    "alias": [
+      "Taksonomien",
+      "EU taxonomy"
+    ]
+  },
+  {
+    "id": "farlig-avfall",
+    "tittel": "Farlig avfall",
+    "forklaring": "Avfall som ikke kan håndteres sammen med annet avfall, fordi det kan forurense alvorlig eller skade mennesker og dyr.",
+    "tags": [
+      "eba",
+      "miljø",
+      "regelverk"
+    ],
+    "alias": [
+      "Spesialavfall",
+      "Hazardous waste"
+    ]
+  },
+  {
+    "id": "fasilitetsstyring",
+    "tittel": "Fasilitetsstyring",
+    "undertittel": "FM",
+    "forklaring": "Styring av prosessene i en organisasjon som gir bygg, arealer og tjenester til kjernevirksomheten. Målet er at kjernevirksomheten kan arbeide effektivt.",
+    "tags": [
+      "eba",
+      "forvaltning"
+    ],
+    "alias": [
+      "Facility management"
+    ]
+  },
+  {
+    "id": "fasilitetstjeneste",
+    "tittel": "Fasilitetstjeneste",
+    "forklaring": "En støttetjeneste som en intern eller ekstern leverandør gir til kjernevirksomheten. Eksempler er renhold, drift av tekniske anlegg, vakthold og resepsjon.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "kontrakt"
+    ],
+    "alias": [
+      "Støttetjeneste",
+      "Facility service"
+    ]
+  },
+  {
+    "id": "fdv-dokumentasjon",
+    "tittel": "FDV-dokumentasjon",
+    "forklaring": "Dokumentasjon som trengs for å forvalte, drifte og vedlikeholde et bygg og de tekniske anleggene, som brukerhåndbøker, skjemaer og datablad.",
+    "tags": [
+      "eba",
+      "fdv",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "FDVU-dokumentasjon",
+      "Operation and maintenance documentation",
+      "O&M"
+    ]
+  },
+  {
+    "id": "fdv-system",
+    "tittel": "FDV-system",
+    "forklaring": "Dataprogram for å lagre informasjon om bygningen og følge opp oppgaver innen forvaltning, drift og vedlikehold. Det kan kobles til tegninger, SD-anlegg og økonomisystemer.",
+    "tags": [
+      "eba",
+      "fdv",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "FDVU-system",
+      "Computer-aided facility management system",
+      "CAFM"
+    ]
+  },
+  {
+    "id": "feilgrense",
+    "tittel": "Feilgrense",
+    "forklaring": "Grense utenfor det normale måleområdet til en føler. En verdi utenfor feilgrensen tyder på feil i føleren, oppsettet eller kablingen.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Fault limit"
+    ]
+  },
+  {
+    "id": "feilsikker",
+    "tittel": "Feilsikker",
+    "forklaring": "Egenskap ved et system som går til en sikker tilstand når det svikter. En feilsikker dørlås åpner for eksempel ved strømbrudd, slik at folk kommer ut.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Fail-safe"
+    ]
+  },
+  {
+    "id": "feltbuss",
+    "tittel": "Feltbuss",
+    "forklaring": "Seriell kommunikasjonsforbindelse der flere enheter i feltutstyret deler samme kabel til undersentralen. Eksempler er BACnet MS/TP, KNX, DALI, Modbus og M-Bus.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ],
+    "alias": [
+      "Buss",
+      "Fieldbus"
+    ]
+  },
+  {
+    "id": "feltutstyr",
+    "tittel": "Feltutstyr",
+    "forklaring": "Fysiske komponenter i anlegget, som følere, ventiler, pumper og vifter, som måler verdier eller utfører kommandoer. De kobles til undersentralen via feltbuss eller inn- og utganger.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Feltkomponenter",
+      "Feltenheter",
+      "Field devices"
+    ]
+  },
+  {
+    "id": "ferdigattest",
+    "tittel": "Ferdigattest",
+    "forklaring": "Bekreftelse fra kommunen på at et byggetiltak er fullført og oppfyller kravene i tillatelsen.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "prosjekt"
+    ],
+    "alias": [
+      "Completion certificate"
+    ]
+  },
+  {
+    "id": "fjerntilgang",
+    "tittel": "Fjerntilgang",
+    "forklaring": "Tilkobling til undersentraler eller SD-server fra et annet sted, for eksempel for programmering. Statsbygg krever at det skjer via VPN eller direkte forbindelse, ikke ved at eget utstyr kobles til nettet.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Fjernoppkobling",
+      "Fjerntilkobling",
+      "Fjernpålogging",
+      "Fjernvedlikehold",
+      "Remote access"
+    ]
+  },
+  {
+    "id": "flerfaktorautentisering-eba",
+    "tittel": "Flerfaktorautentisering",
+    "undertittel": "MFA",
+    "forklaring": "Pålogging som krever minst to uavhengige bevis på identitet, for eksempel passord og en kode på en enhet.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Tofaktorautentisering",
+      "Multi-factor authentication"
+    ]
+  },
+  {
+    "id": "forebyggende-vedlikehold",
+    "tittel": "Forebyggende vedlikehold",
+    "forklaring": "Vedlikehold som gjøres før noe svikter, for å bremse slitasje og redusere risikoen for feil.",
+    "tags": [
+      "eba",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Preventive maintenance"
+    ]
+  },
+  {
+    "id": "forsinkelse",
+    "tittel": "Forsinkelse",
+    "forklaring": "Den effekten barrierene har når de øker tiden en angriper bruker på vei frem til verdien. Forsinkelsen må vare til reaksjonen er på plass.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Delay"
+    ]
+  },
+  {
+    "id": "forvaltning",
+    "tittel": "Forvaltning",
+    "forklaring": "Den overordnede delen av FDVU: Ledelse, planlegging og organisering av økonomi, leieforhold, forsikringer, lovkrav, arealbruk og HMS for en eiendom.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "fdv"
+    ],
+    "alias": [
+      "Management"
+    ]
+  },
+  {
+    "id": "forvaltning-drift-og-vedlikehold",
+    "tittel": "Forvaltning, drift og vedlikehold",
+    "undertittel": "FDV",
+    "forklaring": "Samlebegrep for arbeidet som holder et bygg i god stand og i bruk gjennom hele bruksfasen. Omfatter styring, daglig drift og vedlikehold.",
+    "tags": [
+      "eba",
+      "fdv"
+    ],
+    "alias": [
+      "Management, operation and maintenance"
+    ]
+  },
+  {
+    "id": "forvaltning-drift-vedlikehold-og-utvikling",
+    "tittel": "Forvaltning, drift, vedlikehold og utvikling",
+    "undertittel": "FDVU",
+    "forklaring": "Samlebegrep for alle aktivitetene som holder en bygning i bruk og i stand etter at den er tatt i bruk. U står for utvikling, det vil si tilpasning til nye krav og behov.",
+    "tags": [
+      "eba",
+      "fdv"
+    ],
+    "alias": [
+      "Management, operation, maintenance and development"
+    ]
+  },
+  {
+    "id": "forvaltningskostnader",
+    "tittel": "Forvaltningskostnader",
+    "forklaring": "Faste kostnader som eiendommen har enten den er i bruk eller ikke: Eiendomsskatt og andre kommunale avgifter, forsikringer og administrasjon.",
+    "tags": [
+      "eba",
+      "økonomi",
+      "forvaltning"
+    ],
+    "alias": [
+      "Administration costs"
+    ]
+  },
+  {
+    "id": "forvaltningsorganisasjon",
+    "tittel": "Forvaltningsorganisasjon",
+    "forklaring": "De interne og eksterne aktørene som til sammen utfører forvaltning, drift, vedlikehold og utvikling av en virksomhets bygninger.",
+    "tags": [
+      "eba",
+      "roller",
+      "forvaltning"
+    ],
+    "alias": [
+      "FDVU-organisasjon",
+      "Facility management organisation"
+    ]
+  },
+  {
+    "id": "forventet-levetid",
+    "tittel": "Forventet levetid",
+    "forklaring": "Levetiden en bygning eller komponent er prosjektert for. Mange bygg i Norge blir prosjektert for 60 år.",
+    "tags": [
+      "eba",
+      "prosjekt",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Designlevetid",
+      "Design life"
+    ]
+  },
+  {
+    "id": "funksjonsbeskrivelse",
+    "tittel": "Funksjonsbeskrivelse",
+    "forklaring": "Beskrivelse av hvordan et anlegg skal styres og reguleres i ulike driftssituasjoner.",
+    "tags": [
+      "eba",
+      "dokumentasjon",
+      "automasjon"
+    ],
+    "alias": [
+      "System- og funksjonsbeskrivelse",
+      "Sequence of operations"
+    ]
+  },
+  {
+    "id": "fysiske-sikringstiltak",
+    "tittel": "Fysiske sikringstiltak",
+    "forklaring": "Fysiske hindringer som skal stanse eller forsinke uautorisert adgang til verdier, som gjerder, dører, låser og vegger.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Fysisk sikring",
+      "Physical security measures"
+    ]
+  },
+  {
+    "id": "gradert-eiendom",
+    "tittel": "Gradert eiendom",
+    "forklaring": "Eiendom med informasjon eller virksomhet som er sikkerhetsgradert. Der skal SD-serveren stå lokalt på eiendommen uten mulighet for fjerntilkobling.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Classified facility"
+    ]
+  },
+  {
+    "id": "grunnsikring",
+    "tittel": "Grunnsikring",
+    "forklaring": "De fysiske, elektroniske og administrative tiltakene virksomheten har til vanlig. Påbyggingstiltak og skadebegrensende tiltak kommer i tillegg.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Baseline security"
+    ]
+  },
+  {
+    "id": "helhetlig-sikring",
+    "tittel": "Helhetlig sikring",
+    "forklaring": "Sikring der fysiske, elektroniske, menneskelige og organisatoriske tiltak virker sammen og støtter hverandre. Sikringen blir aldri bedre enn det svakeste leddet.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Holistic security"
+    ]
+  },
+  {
+    "id": "helse-miljo-og-sikkerhet",
+    "tittel": "Helse, miljø og sikkerhet",
+    "undertittel": "HMS",
+    "forklaring": "Samlebegrep for arbeidet med å verne mennesker, miljø og verdier mot skade i en virksomhet.",
+    "tags": [
+      "eba",
+      "regelverk"
+    ],
+    "alias": [
+      "Health, safety and environment",
+      "HSE"
+    ]
+  },
+  {
+    "id": "helse-og-miljofarlige-stoffer",
+    "tittel": "Helse- og miljøfarlige stoffer",
+    "forklaring": "Stoffer som kan skade mennesker eller miljø, for eksempel asbest, PCB, kvikksølv og bly i byggematerialer.",
+    "tags": [
+      "eba",
+      "miljø",
+      "regelverk"
+    ],
+    "alias": [
+      "Miljøgifter",
+      "Hazardous substances"
+    ]
+  },
+  {
+    "id": "hendelseshandtering",
+    "tittel": "Hendelseshåndtering",
+    "forklaring": "Planlagt og øvd arbeid med å oppdage, begrense, rette opp og lære av sikkerhetshendelser.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Hendelsesrespons",
+      "Incident response",
+      "IR"
+    ]
+  },
+  {
+    "id": "hendelseslogg",
+    "tittel": "Hendelseslogg",
+    "forklaring": "Logg over endringer i anlegget, som nye settpunkter, overstyringer og pålogginger, med tidspunkt og hvem som gjorde endringen. Den gjør det mulig å spore hva som har skjedd.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Event log"
+    ]
+  },
+  {
+    "id": "herding",
+    "tittel": "Herding",
+    "forklaring": "Tiltak som gjør et system mindre sårbart. Funksjoner, tjenester og protokoller som ikke er i bruk, blir slått av, og standardinnstillinger blir endret.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Sikkerhetsherding",
+      "System hardening"
+    ]
+  },
+  {
+    "id": "hovedindikator-for-ytelse",
+    "tittel": "Hovedindikator for ytelse",
+    "undertittel": "KPI",
+    "forklaring": "Et mål som viser hvor godt en tjeneste eller et bygg fungerer, sammenlignet med krav eller beste praksis.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "kontrakt"
+    ],
+    "alias": [
+      "Nøkkelindikator",
+      "Styringsindikator",
+      "Key performance indicator"
+    ]
+  },
+  {
+    "id": "hvac",
+    "tittel": "HVAC",
+    "forklaring": "Anleggene for oppvarming, ventilasjon og kjøling i et bygg. Feil i dem kan gi farlige forhold eller skade utstyr.",
+    "tags": [
+      "eba",
+      "tekniske-anlegg",
+      "automasjon"
+    ],
+    "alias": [
+      "Varme",
+      "ventilasjon og kjøling",
+      "Heating, ventilation and air conditioning"
+    ]
+  },
+  {
+    "id": "hvitelisting",
+    "tittel": "Hvitelisting",
+    "forklaring": "Sikkerhetstiltak der bare godkjente programmer og prosesser får kjøre, mens alt annet blir stoppet.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Applikasjonskontroll",
+      "Application allowlisting"
+    ]
+  },
+  {
+    "id": "idriftsetting",
+    "tittel": "Idriftsetting",
+    "forklaring": "Kontrollert oppstart, testing og innregulering av et anlegg før det overleveres til drift.",
+    "tags": [
+      "eba",
+      "prosjekt",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Igangkjøring",
+      "Idriftsettelse",
+      "Commissioning"
+    ]
+  },
+  {
+    "id": "ifc",
+    "tittel": "IFC",
+    "forklaring": "Åpent, internasjonalt filformat for å utveksle BIM-modeller mellom ulike programmer.",
+    "tags": [
+      "eba",
+      "bim",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Industry Foundation Classes"
+    ]
+  },
+  {
+    "id": "igangsettingstillatelse",
+    "tittel": "Igangsettingstillatelse",
+    "forklaring": "Tillatelse fra kommunen til å starte selve byggearbeidet.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "prosjekt"
+    ],
+    "alias": [
+      "Commencement permit"
+    ]
+  },
+  {
+    "id": "industrielle-kontrollsystemer",
+    "tittel": "Industrielle kontrollsystemer",
+    "undertittel": "ICS",
+    "forklaring": "Samlebetegnelse for styringssystemer som SCADA, DCS og PLS, som sammen styrer en fysisk prosess.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "automasjon"
+    ],
+    "alias": [
+      "Industrielle styringssystemer",
+      "Industrial control system"
+    ]
+  },
+  {
+    "id": "industrielt-tingenes-internett",
+    "tittel": "Industrielt tingenes internett",
+    "undertittel": "IIoT",
+    "forklaring": "Nettverk av sensorer, maskiner og andre enheter som sender driftsdata over internett eller til skytjenester for analyse og styring.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Industrial Internet of Things"
+    ]
+  },
+  {
+    "id": "innbruddstid",
+    "tittel": "Innbruddstid",
+    "forklaring": "Tiden en angriper bruker på å trenge gjennom én eller flere barrierer. Den bygger på fysiske tester med definert verktøy og kompetanse.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Penetration time"
+    ]
+  },
+  {
+    "id": "inntrengingsdeteksjonssystem",
+    "tittel": "Inntrengingsdeteksjonssystem",
+    "undertittel": "IDS",
+    "forklaring": "System som overvåker nett- eller systemhendelser og varsler om forsøk på uautorisert tilgang.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Intrusion detection system"
+    ]
+  },
+  {
+    "id": "instrumentert-sikkerhetssystem",
+    "tittel": "Instrumentert sikkerhetssystem",
+    "undertittel": "SIS",
+    "forklaring": "Uavhengig system med sensorer, logikk og utstyr som setter et anlegg i sikker tilstand når bestemte grenser blir overskredet.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Nødavstengningssystem",
+      "Safety instrumented system"
+    ]
+  },
+  {
+    "id": "intern-automatikk",
+    "tittel": "Intern automatikk",
+    "forklaring": "Undersentral som leveres sammen med VVS-komponentene den skal styre, ferdig kablet, programmert og testet før levering.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "prosjekt"
+    ],
+    "alias": [
+      "Integrert automatikk",
+      "Factory-fitted controls"
+    ]
+  },
+  {
+    "id": "internhusleie",
+    "tittel": "Internhusleie",
+    "forklaring": "Husleie som en enhet betaler til eiendomsavdelingen i samme organisasjon for arealene den bruker. Den gjør arealkostnadene synlige for brukeren.",
+    "tags": [
+      "eba",
+      "økonomi",
+      "areal"
+    ],
+    "alias": [
+      "Internleie",
+      "Internal rent"
+    ]
+  },
+  {
+    "id": "internkontroll",
+    "tittel": "Internkontroll",
+    "undertittel": "IK",
+    "forklaring": "Systematiske tiltak som sikrer at virksomheten planlegger, organiserer og utfører arbeidet i tråd med regelverket for helse, miljø og sikkerhet.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "forvaltning"
+    ],
+    "alias": [
+      "Internal control"
+    ]
+  },
+  {
+    "id": "inventarliste",
+    "tittel": "Inventarliste",
+    "forklaring": "Oppdatert oversikt over alle enheter, programvare og forbindelser i OT-miljøet. Den er grunnlaget for å vite hva som skal beskyttes.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Utstyrsoversikt",
+      "Asset inventory"
+    ]
+  },
+  {
+    "id": "iot-plattform",
+    "tittel": "IoT-plattform",
+    "forklaring": "Skybasert tjeneste som samler utvalgte driftsdata, slik at andre systemer kan bruke dem til analyse, prediktivt vedlikehold og energisparing.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "forvaltning"
+    ],
+    "alias": [
+      "IoT platform"
+    ]
+  },
+  {
+    "id": "ip-plan",
+    "tittel": "IP-plan",
+    "forklaring": "Oversikt over hvilke IP-adresser og adresseområder hver enhet på eiendommen skal ha. Den er en del av FDV-dokumentasjonen.",
+    "tags": [
+      "eba",
+      "dokumentasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "IP address plan"
+    ]
+  },
+  {
+    "id": "jump-host",
+    "tittel": "Jump host",
+    "forklaring": "Egen, godt sikret server som brukere må logge seg på først for å nå OT-systemene, slik at all fjerntilgang går ett sted og kan logges.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ]
+  },
+  {
+    "id": "kapitalkostnad",
+    "tittel": "Kapitalkostnad",
+    "forklaring": "Kostnaden ved investeringen i bygget, det vil si prosjektkostnaden pluss nåverdien av restkostnaden ved slutten av brukstiden.",
+    "tags": [
+      "eba",
+      "økonomi"
+    ],
+    "alias": [
+      "Capital cost"
+    ]
+  },
+  {
+    "id": "kjernevirksomhet",
+    "tittel": "Kjernevirksomhet",
+    "forklaring": "Det en virksomhet egentlig er til for, for eksempel undervisning på en skole. Bygningsdrift og servicetjenester støtter kjernevirksomheten.",
+    "tags": [
+      "eba",
+      "forvaltning"
+    ],
+    "alias": [
+      "Primærvirksomhet",
+      "Primære aktiviteter",
+      "Core business"
+    ]
+  },
+  {
+    "id": "kjoretoysperre",
+    "tittel": "Kjøretøysperre",
+    "forklaring": "Testet og godkjent konstruksjon som skal stoppe et angripende kjøretøy. Den kan være aktiv, som bommer og senkbare pullerter, eller passiv, som murer og faste pullerter.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Kjøretøybarriere",
+      "Vehicle security barrier",
+      "VSB"
+    ]
+  },
+  {
+    "id": "klient",
+    "tittel": "Klient",
+    "forklaring": "Organisasjonen som kjøper fasilitetstjenester gjennom en avtale. Klienten har ansvaret på strategisk nivå.",
+    "tags": [
+      "eba",
+      "roller",
+      "kontrakt"
+    ],
+    "alias": [
+      "Client"
+    ]
+  },
+  {
+    "id": "knx",
+    "tittel": "KNX",
+    "forklaring": "Åpen standard for bussbasert styring av lys, solavskjerming, varme og andre funksjoner i bygg.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ]
+  },
+  {
+    "id": "kommunikasjonsareal",
+    "tittel": "Kommunikasjonsareal",
+    "undertittel": "KOA",
+    "forklaring": "Arealet som brukes til ferdsel, som korridorer, trapper og heiser.",
+    "tags": [
+      "eba",
+      "areal"
+    ],
+    "alias": [
+      "Trafikkareal",
+      "Circulation area"
+    ]
+  },
+  {
+    "id": "konkurransedialog",
+    "tittel": "Konkurransedialog",
+    "forklaring": "Anskaffelsesprosedyre der oppdragsgiveren drøfter løsninger med utvalgte leverandører før de gir endelige tilbud.",
+    "tags": [
+      "eba",
+      "kontrakt",
+      "regelverk"
+    ],
+    "alias": [
+      "Competitive dialogue"
+    ]
+  },
+  {
+    "id": "konsekvensgrad",
+    "tittel": "Konsekvensgrad",
+    "undertittel": "KG",
+    "forklaring": "Tall fra 0 til 3 som viser hvor alvorlig en svikt er for sikkerhet, helse, miljø, estetikk eller økonomi.",
+    "tags": [
+      "eba",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Consequence grade"
+    ]
+  },
+  {
+    "id": "kontrollert-sone",
+    "tittel": "Kontrollert sone",
+    "forklaring": "Ute- eller inneområde som virksomheten eier, bruker eller kontrollerer. Det omgir normalt en beskyttet eller sperret sone.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "regelverk"
+    ],
+    "alias": [
+      "Kontrollert område",
+      "Controlled area"
+    ]
+  },
+  {
+    "id": "korrigerende-vedlikehold",
+    "tittel": "Korrigerende vedlikehold",
+    "forklaring": "Vedlikehold som gjøres etter at en feil er oppdaget. Målet er å få enheten til å fungere som den skal igjen.",
+    "tags": [
+      "eba",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Avhjelpende vedlikehold",
+      "Løpende vedlikehold",
+      "Tilfeldig vedlikehold",
+      "Akutt vedlikehold",
+      "Corrective maintenance"
+    ]
+  },
+  {
+    "id": "leiekontrakt",
+    "tittel": "Leiekontrakt",
+    "forklaring": "Avtale mellom utleier og leietaker om leie av lokaler, med leie, varighet, rettigheter og plikter.",
+    "tags": [
+      "eba",
+      "kontrakt",
+      "forvaltning"
+    ],
+    "alias": [
+      "Husleiekontrakt",
+      "Leieavtale",
+      "Lease agreement"
+    ]
+  },
+  {
+    "id": "levetid",
+    "tittel": "Levetid",
+    "forklaring": "Tiden et bygg eller en bygningsdel kan brukes før det må repareres, skiftes ut eller rives. Levetiden kan være teknisk, funksjonell eller økonomisk.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Brukstid",
+      "Service life"
+    ]
+  },
+  {
+    "id": "levetidsplanlegging",
+    "tittel": "Levetidsplanlegging",
+    "forklaring": "Planlegging som tar hensyn til at bygningsdeler varer ulikt lenge, slik at de kan skiftes ut uten store inngrep.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Service life planning"
+    ]
+  },
+  {
+    "id": "livslopsvurdering",
+    "tittel": "Livsløpsvurdering",
+    "undertittel": "LCA",
+    "forklaring": "Metode for å beregne miljøpåvirkningen fra et bygg eller et produkt gjennom hele livsløpet.",
+    "tags": [
+      "eba",
+      "miljø"
+    ],
+    "alias": [
+      "Livssyklusanalyse",
+      "Livssyklusvurdering",
+      "Life cycle assessment"
+    ]
+  },
+  {
+    "id": "livssykluskostnader",
+    "tittel": "Livssykluskostnader",
+    "undertittel": "LCC",
+    "forklaring": "Summen av alle kostnader for et bygg eller anlegg gjennom hele levetiden, fra investering og drift til riving.",
+    "tags": [
+      "eba",
+      "økonomi"
+    ],
+    "alias": [
+      "Levetidskostnader",
+      "Livsløpskostnader",
+      "Life cycle cost"
+    ]
+  },
+  {
+    "id": "lov-om-offentlige-anskaffelser",
+    "tittel": "Lov om offentlige anskaffelser",
+    "forklaring": "Loven som setter rammer for hvordan offentlige virksomheter kjøper varer, tjenester og bygg- og anleggsarbeider.",
+    "tags": [
+      "eba",
+      "regelverk"
+    ],
+    "alias": [
+      "Anskaffelsesloven",
+      "Public Procurement Act"
+    ]
+  },
+  {
+    "id": "m-bus",
+    "tittel": "M-Bus",
+    "forklaring": "Europeisk standard for fjernavlesning av forbruksmålere for strøm, varme og vann.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "energi"
+    ],
+    "alias": [
+      "Meter-Bus"
+    ]
+  },
+  {
+    "id": "matrikkelen",
+    "tittel": "Matrikkelen",
+    "forklaring": "Norges offisielle register over eiendommer, bygninger og adresser. Kartverket fører registeret.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "regelverk"
+    ],
+    "alias": [
+      "Eiendomsregisteret",
+      "Norwegian cadastre"
+    ]
+  },
+  {
+    "id": "menneske-maskin-grensesnitt",
+    "tittel": "Menneske-maskin-grensesnitt",
+    "undertittel": "MMI",
+    "forklaring": "Skjermen, panelet eller programvaren operatøren bruker for å overvåke og styre et anlegg.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Operatørpanel",
+      "Human-machine interface",
+      "HMI"
+    ]
+  },
+  {
+    "id": "merkesystem",
+    "tittel": "Merkesystem",
+    "forklaring": "System for entydig merking av bygningsdeler, tekniske anlegg og komponenter etter sted, system og produkt. Merkingen knytter tegninger, dokumenter og FDV-system til det fysiske utstyret.",
+    "tags": [
+      "eba",
+      "dokumentasjon",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Reference designation system",
+      "RDS"
+    ]
+  },
+  {
+    "id": "midlertidig-brukstillatelse",
+    "tittel": "Midlertidig brukstillatelse",
+    "forklaring": "Tillatelse til å ta et bygg i bruk før alt arbeid er ferdig, når gjenstående arbeid ikke hindrer trygg bruk.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "prosjekt"
+    ],
+    "alias": [
+      "Temporary occupancy permit"
+    ]
+  },
+  {
+    "id": "miljodeklarasjon",
+    "tittel": "Miljødeklarasjon",
+    "undertittel": "EPD",
+    "forklaring": "Dokument som viser miljøpåvirkningen fra et byggevareprodukt gjennom livsløpet, beregnet etter faste regler.",
+    "tags": [
+      "eba",
+      "miljø",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Environmental product declaration"
+    ]
+  },
+  {
+    "id": "miljokartlegging",
+    "tittel": "Miljøkartlegging",
+    "forklaring": "Kartlegging av bygningsdeler som inneholder helse- og miljøfarlige stoffer, før ombygging eller riving.",
+    "tags": [
+      "eba",
+      "miljø",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Hazardous materials survey"
+    ]
+  },
+  {
+    "id": "miljosanering",
+    "tittel": "Miljøsanering",
+    "forklaring": "Fjerning av bygningsdeler med helse- og miljøfarlige stoffer og av forurensning i bygg eller grunn, før ombygging eller riving.",
+    "tags": [
+      "eba",
+      "miljø",
+      "regelverk"
+    ],
+    "alias": [
+      "Hazardous material abatement"
+    ]
+  },
+  {
+    "id": "minste-privilegium-eba",
+    "tittel": "Minste privilegium",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Prinsipp om at brukere, prosesser og enheter bare får de rettighetene de trenger for oppgaven sin.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Minste rettigheters prinsipp",
+      "Least privilege"
+    ]
+  },
+  {
+    "id": "modbus",
+    "tittel": "Modbus",
+    "forklaring": "Enkel, åpen kommunikasjonsprotokoll fra industrien, der én master spør opptil 247 slaveenheter etter data. Den finnes både som seriell variant og over TCP/IP.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ]
+  },
+  {
+    "id": "motstandsklasse",
+    "tittel": "Motstandsklasse",
+    "forklaring": "Klasse for innbruddsmotstand i dører, vinduer og lignende etter NS-EN 1627. Klassen bygger på tester med definert verktøy og angrepstid.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Resistance class",
+      "RC"
+    ]
+  },
+  {
+    "id": "maleinstrumentdirektivet",
+    "tittel": "Måleinstrumentdirektivet",
+    "undertittel": "MID",
+    "forklaring": "EU-direktiv med krav til måleinstrumenter, blant annet målere for strøm, varme og vann som brukes til avregning.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "energi"
+    ],
+    "alias": [
+      "Measuring Instruments Directive"
+    ]
+  },
+  {
+    "id": "nettoareal",
+    "tittel": "Nettoareal",
+    "undertittel": "NTA",
+    "forklaring": "Areal innenfor veggene i hvert rom, altså gulvarealet uten vegger.",
+    "tags": [
+      "eba",
+      "areal"
+    ],
+    "alias": [
+      "Romareal",
+      "Net floor area",
+      "NFA"
+    ]
+  },
+  {
+    "id": "nettverkssegmentering",
+    "tittel": "Nettverkssegmentering",
+    "forklaring": "Oppdeling av et nett i atskilte soner med kontrollert trafikk mellom dem. Et angrep i én sone når da ikke lett resten av anlegget.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Segmentering",
+      "Network segmentation"
+    ]
+  },
+  {
+    "id": "norsk-bygge-og-anleggskontrakt",
+    "tittel": "Norsk bygge- og anleggskontrakt",
+    "undertittel": "NS 8405",
+    "forklaring": "Standardkontrakt for utførelsesentrepriser, der byggherren har ansvaret for prosjekteringen.",
+    "tags": [
+      "eba",
+      "kontrakt"
+    ],
+    "alias": [
+      "Norwegian building and civil engineering contract"
+    ]
+  },
+  {
+    "id": "nokkeltall",
+    "tittel": "Nøkkeltall",
+    "forklaring": "Kostnader eller forbruk per enhet, for eksempel per kvadratmeter eller per ansatt. Nøkkeltall brukes til å sammenligne bygg og følge utviklingen over tid.",
+    "tags": [
+      "eba",
+      "økonomi",
+      "forvaltning"
+    ],
+    "alias": [
+      "Benchmark figure"
+    ]
+  },
+  {
+    "id": "objektliste",
+    "tittel": "Objektliste",
+    "forklaring": "Liste over alle punktene som er integrert i bygningsautomasjonen, med merking, beskrivelse og egenskaper.",
+    "tags": [
+      "eba",
+      "dokumentasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Punktliste",
+      "Points list"
+    ]
+  },
+  {
+    "id": "offentlig-privat-samarbeid",
+    "tittel": "Offentlig-privat samarbeid",
+    "undertittel": "OPS",
+    "forklaring": "Kontraktsform der en privat aktør prosjekterer, bygger, finansierer og ofte drifter et bygg for det offentlige over mange år.",
+    "tags": [
+      "eba",
+      "kontrakt",
+      "økonomi"
+    ],
+    "alias": [
+      "Public-private partnership",
+      "PPP"
+    ]
+  },
+  {
+    "id": "opc-ua",
+    "tittel": "OPC UA",
+    "forklaring": "Plattformuavhengig standard for sikker utveksling av data mellom systemer fra ulike leverandører. Den avløser den eldre OPC-standarden, som Statsbygg ikke tillater for integrasjon.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ],
+    "alias": [
+      "OPC Unified Architecture"
+    ]
+  },
+  {
+    "id": "operasjonell-teknologi",
+    "tittel": "Operasjonell teknologi",
+    "undertittel": "OT",
+    "forklaring": "Programmerbare systemer og enheter som overvåker eller styrer fysiske prosesser og utstyr. I bygg gjelder det for eksempel bygningsautomasjon, adgangskontroll og heiser.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "automasjon"
+    ],
+    "alias": [
+      "Operational technology"
+    ]
+  },
+  {
+    "id": "oppgradering",
+    "tittel": "Oppgradering",
+    "forklaring": "Tiltak som gir et bygg funksjoner eller kvaliteter det manglet, for eksempel for å oppfylle nye krav fra myndigheter eller brukere.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "prosjekt"
+    ],
+    "alias": [
+      "Modernisering",
+      "Upgrading"
+    ]
+  },
+  {
+    "id": "oppvarmet-areal",
+    "tittel": "Oppvarmet areal",
+    "undertittel": "OPA",
+    "forklaring": "Den delen av bruksarealet som får varme fra byggets varmeanlegg. Brukes til nøkkeltall for energibruk.",
+    "tags": [
+      "eba",
+      "areal",
+      "energi"
+    ],
+    "alias": [
+      "Oppvarmet bruksareal",
+      "Heated floor area"
+    ]
+  },
+  {
+    "id": "outsourcing",
+    "tittel": "Outsourcing",
+    "forklaring": "Å sette bort både den taktiske og den operative delen av en tjeneste til en ekstern leverandør. Virksomheten beholder bare det strategiske ansvaret.",
+    "tags": [
+      "eba",
+      "kontrakt",
+      "forvaltning"
+    ],
+    "alias": [
+      "Utkontraktering",
+      "Bortsetting"
+    ]
+  },
+  {
+    "id": "overlevering",
+    "tittel": "Overlevering",
+    "forklaring": "Når entreprenøren overleverer bygget og dokumentasjonen til byggherren, og byggherren overtar ansvaret.",
+    "tags": [
+      "eba",
+      "prosjekt"
+    ],
+    "alias": [
+      "Overtakelse",
+      "Handover"
+    ]
+  },
+  {
+    "id": "overstyring",
+    "tittel": "Overstyring",
+    "forklaring": "Manuell endring som setter automatikkens styring til side, for eksempel når en pumpe tvinges på fra SD-anlegget.",
+    "tags": [
+      "eba",
+      "automasjon"
+    ],
+    "alias": [
+      "Manuell overstyring",
+      "Override"
+    ]
+  },
+  {
+    "id": "passive-brannsikringstiltak",
+    "tittel": "Passive brannsikringstiltak",
+    "forklaring": "Brannsikring som er bygd inn i konstruksjonen og virker uten å utløses, som brannceller og branndører.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Passive tiltak",
+      "Passive fire protection"
+    ]
+  },
+  {
+    "id": "patchehandtering",
+    "tittel": "Patchehåndtering",
+    "forklaring": "Rutiner for å finne, teste og installere sikkerhetsoppdateringer på utstyr og programvare uten å forstyrre driften.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Oppdateringshåndtering",
+      "Patching",
+      "Patch management"
+    ]
+  },
+  {
+    "id": "perimetersikring",
+    "tittel": "Perimetersikring",
+    "forklaring": "Barriere langs eiendomsgrensen eller en definert ytre grense rundt et bygg. Den markerer grensen og hindrer uautorisert adgang, for eksempel med gjerder, porter og kjøretøysperrer.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Perimeterbeskyttelse",
+      "Perimeter security"
+    ]
+  },
+  {
+    "id": "periodisk-vedlikehold",
+    "tittel": "Periodisk vedlikehold",
+    "forklaring": "Vedlikehold som er planlagt og gjøres med faste mellomrom eller ut fra tilstand.",
+    "tags": [
+      "eba",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Planlagt vedlikehold",
+      "Planned maintenance"
+    ]
+  },
+  {
+    "id": "plan-og-bygningsloven",
+    "tittel": "Plan- og bygningsloven",
+    "undertittel": "pbl",
+    "forklaring": "Loven som regulerer arealplanlegging og byggesaker i Norge.",
+    "tags": [
+      "eba",
+      "regelverk"
+    ],
+    "alias": [
+      "Planning and Building Act"
+    ]
+  },
+  {
+    "id": "prekvalifisering",
+    "tittel": "Prekvalifisering",
+    "forklaring": "Første trinn i en konkurranse, der oppdragsgiveren velger ut hvilke leverandører som får gi tilbud.",
+    "tags": [
+      "eba",
+      "kontrakt"
+    ],
+    "alias": [
+      "Prequalification"
+    ]
+  },
+  {
+    "id": "programmerbar-logisk-styring",
+    "tittel": "Programmerbar logisk styring",
+    "undertittel": "PLS",
+    "forklaring": "Robust datamaskin som styrer utstyr etter et program, med logikk, tidsstyring og regulering.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Programmable logic controller",
+      "PLC"
+    ]
+  },
+  {
+    "id": "programvarestykkliste",
+    "tittel": "Programvarestykkliste",
+    "undertittel": "SBOM",
+    "forklaring": "Liste over komponentene og bibliotekene en programvare er bygd av. Den gjør det lettere å finne ut om et produkt har kjente sårbarheter.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Software bill of materials"
+    ]
+  },
+  {
+    "id": "protocol-implementation-conformance-statement",
+    "tittel": "Protocol Implementation Conformance Statement",
+    "undertittel": "PICS",
+    "forklaring": "Dokument fra produsenten som viser hvilke BACnet-objekter, -tjenester og -byggeklosser en enhet støtter.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "dokumentasjon"
+    ]
+  },
+  {
+    "id": "purdue-modellen",
+    "tittel": "Purdue-modellen",
+    "forklaring": "Referansemodell som deler et styringssystem i nivåer, fra feltutstyr nederst til virksomhetens IT-systemer øverst. Den brukes til å planlegge segmentering.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Purdue model"
+    ]
+  },
+  {
+    "id": "pabyggingstiltak",
+    "tittel": "Påbyggingstiltak",
+    "forklaring": "Ekstra tiltak som kan settes i verk på kort tid når risikoen øker. Ved varig høyere trussel kan de bli en del av grunnsikringen.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Påbygningstiltak",
+      "Enhanced security measures"
+    ]
+  },
+  {
+    "id": "rammetillatelse",
+    "tittel": "Rammetillatelse",
+    "forklaring": "Tillatelse fra kommunen som avklarer rammene for et byggetiltak, som plassering, størrelse og bruk.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "prosjekt"
+    ],
+    "alias": [
+      "Outline planning permission"
+    ]
+  },
+  {
+    "id": "reaksjon",
+    "tittel": "Reaksjon",
+    "forklaring": "Det virksomheten gjør for å stanse en pågående sikkerhetstruende hendelse og begrense skaden, som utrykning, varsling, evakuering og nedlåsing.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Respons",
+      "Reaksjonstiltak",
+      "Response"
+    ]
+  },
+  {
+    "id": "reaksjonsstyrke",
+    "tittel": "Reaksjonsstyrke",
+    "forklaring": "Personer og enheter som blir tilkalt for å avverge eller begrense skaden av en uønsket hendelse, fra vektere til politi eller militære styrker.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "roller"
+    ],
+    "alias": [
+      "Utrykningsstyrke",
+      "Response force"
+    ]
+  },
+  {
+    "id": "rehabilitering",
+    "tittel": "Rehabilitering",
+    "forklaring": "Større istandsetting av et bygg eller bygningsdeler for å forlenge levetiden eller møte nye krav.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "prosjekt"
+    ],
+    "alias": [
+      "Refurbishment"
+    ]
+  },
+  {
+    "id": "remote-terminal-unit",
+    "tittel": "Remote terminal unit",
+    "undertittel": "RTU",
+    "forklaring": "Enhet i et fjerntliggende anlegg som samler inn måledata og tar imot styringskommandoer fra en sentral, ofte over radio eller mobilnett.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ]
+  },
+  {
+    "id": "risiko",
+    "tittel": "Risiko",
+    "forklaring": "Usikkerhet om en uønsket hendelse vil inntreffe og hvilke konsekvenser den kan få. I sikring uttrykkes risiko ofte som forholdet mellom trussel, sårbarhet og verdi.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Risk"
+    ]
+  },
+  {
+    "id": "risiko-og-sarbarhetsanalyse",
+    "tittel": "Risiko- og sårbarhetsanalyse",
+    "undertittel": "ROS",
+    "forklaring": "Systematisk vurdering av hva som kan gå galt, hvor sannsynlig det er, og hvilke følger det kan få. Gir grunnlag for tiltak.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "forvaltning"
+    ],
+    "alias": [
+      "Risikoanalyse",
+      "Risk and vulnerability analysis"
+    ]
+  },
+  {
+    "id": "risikovurdering-eba",
+    "tittel": "Risikovurdering",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Helhetlig vurdering av risiko basert på verdivurdering, trusselvurdering og sårbarhetsvurdering. Den gir grunnlaget for å velge sikringstiltak.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Risk assessment"
+    ]
+  },
+  {
+    "id": "rollebasert-tilgangsstyring",
+    "tittel": "Rollebasert tilgangsstyring",
+    "forklaring": "Tilgangsstyring der rettighetene følger brukerens rolle. I SD-anlegget er rollene minst lese, drift og administrator.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "roller"
+    ],
+    "alias": [
+      "Role-based access control",
+      "RBAC"
+    ]
+  },
+  {
+    "id": "romstyring",
+    "tittel": "Romstyring",
+    "forklaring": "Styring av temperatur, ventilasjon, lys og solavskjerming i det enkelte rommet etter behov og bruk.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "energi"
+    ],
+    "alias": [
+      "Room automation"
+    ]
+  },
+  {
+    "id": "sabotasjealarm",
+    "tittel": "Sabotasjealarm",
+    "forklaring": "Alarm som går når noen åpner, flytter eller skader en del av et sikringsanlegg, som en sentral, en kortleser eller en koblingsboks.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Tamper alarm"
+    ]
+  },
+  {
+    "id": "samspillsavtale",
+    "tittel": "Samspillsavtale",
+    "forklaring": "Avtale der byggherre og entreprenør samarbeider tett og deler mål, risiko og gevinst gjennom prosjektet.",
+    "tags": [
+      "eba",
+      "kontrakt"
+    ],
+    "alias": [
+      "Partneringavtale",
+      "Samspillsentreprise",
+      "Partnering agreement"
+    ]
+  },
+  {
+    "id": "scada",
+    "tittel": "SCADA",
+    "forklaring": "Datasystem som samler inn data fra og styrer anlegg spredt over store avstander. Operatøren overvåker og styrer fra en sentral.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "automasjon"
+    ],
+    "alias": [
+      "Driftskontrollsystem",
+      "Supervisory control and data acquisition"
+    ]
+  },
+  {
+    "id": "sd-anlegg",
+    "tittel": "SD-anlegg",
+    "forklaring": "Programvare med grafisk brukergrensesnitt som driftspersonalet bruker til å overvåke og styre de tekniske anleggene på én eiendom. SD-anlegget lagrer også data fra anleggene.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Driftskontrollanlegg",
+      "Sentral driftskontroll",
+      "Building management system",
+      "BMS"
+    ]
+  },
+  {
+    "id": "sd-server",
+    "tittel": "SD-server",
+    "forklaring": "Server, ofte en virtuell maskin, der programvaren for SD-anlegget kjører og data fra automatikken samles inn.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "BMS server"
+    ]
+  },
+  {
+    "id": "selvsignert-sertifikat",
+    "tittel": "Selvsignert sertifikat",
+    "forklaring": "Digitalt sertifikat som enheten har laget og signert selv, uten en sertifikatutsteder. Det gir kryptering, men bekrefter ikke like sikkert hvem enheten er.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Self-signed certificate"
+    ]
+  },
+  {
+    "id": "sensor-eba",
+    "tittel": "Sensor",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Enhet som måler en fysisk størrelse, som temperatur, trykk eller bevegelse, og gjør den om til et signal.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Føler",
+      "Giver"
+    ]
+  },
+  {
+    "id": "sertifikatutsteder",
+    "tittel": "Sertifikatutsteder",
+    "undertittel": "CA",
+    "forklaring": "Tiltrodd instans som utsteder og går god for digitale sertifikater. Sertifikatene bekrefter hvem en enhet er, og brukes til å kryptere trafikken.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Certificate authority"
+    ]
+  },
+  {
+    "id": "serviceavtale",
+    "tittel": "Serviceavtale",
+    "forklaring": "Avtale med en leverandør om fast service og kontroll av tekniske anlegg eller utstyr.",
+    "tags": [
+      "eba",
+      "kontrakt",
+      "fdv"
+    ],
+    "alias": [
+      "Service agreement"
+    ]
+  },
+  {
+    "id": "settpunkt",
+    "tittel": "Settpunkt",
+    "forklaring": "Ønsket verdi som reguleringen skal holde, for eksempel en romtemperatur på 21 °C.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Børverdi",
+      "Setpoint"
+    ]
+  },
+  {
+    "id": "sikkerhet-helse-og-arbeidsmiljo",
+    "tittel": "Sikkerhet, helse og arbeidsmiljø",
+    "undertittel": "SHA",
+    "forklaring": "Tiltak for trygge forhold for dem som arbeider på en bygge- eller anleggsplass. Begrepet brukes i byggherreforskriften.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "prosjekt"
+    ],
+    "alias": [
+      "Construction health and safety"
+    ]
+  },
+  {
+    "id": "sikkerhetskopi",
+    "tittel": "Sikkerhetskopi",
+    "forklaring": "Kopi av programmer, konfigurasjon og data som gjør det mulig å gjenopprette en undersentral eller SD-server etter feil eller angrep.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "fdv"
+    ],
+    "alias": [
+      "Backup"
+    ]
+  },
+  {
+    "id": "sikkerhetsoppdatering",
+    "tittel": "Sikkerhetsoppdatering",
+    "forklaring": "Oppdatering av programvare eller fastvare som tetter et kjent sikkerhetshull.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Security patch"
+    ]
+  },
+  {
+    "id": "sikkerhetsovervaking",
+    "tittel": "Sikkerhetsovervåking",
+    "forklaring": "Løpende innsamling og analyse av logger og nettrafikk for å oppdage angrep og avvik i tide.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Security monitoring"
+    ]
+  },
+  {
+    "id": "sikkerhetspreg",
+    "tittel": "Sikkerhetspreg",
+    "forklaring": "Synlige sikringstiltak som kan skremme bort en mulig angriper, som skilt, gjerder og synlige vakter. Virksomheten kan også velge skjulte tiltak.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Visible security"
+    ]
+  },
+  {
+    "id": "sikkerhetssluse",
+    "tittel": "Sikkerhetssluse",
+    "forklaring": "Passasje med to dører der den ene alltid må være lukket før den andre åpnes. Slusen slipper inn én person om gangen og hindrer at uvedkommende følger etter.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Personsluse",
+      "Security airlock"
+    ]
+  },
+  {
+    "id": "sikkerhetssone",
+    "tittel": "Sikkerhetssone",
+    "forklaring": "Gruppe av systemer og enheter med samme sikkerhetskrav, avgrenset fra andre soner med brannmur eller tilsvarende.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Nettverkssone",
+      "Security zone"
+    ]
+  },
+  {
+    "id": "sikring",
+    "tittel": "Sikring",
+    "forklaring": "Arbeidet med å beskytte verdier mot tilsiktede uønskede handlinger. Sikring er tiltakene som gir sikkerhet.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Security"
+    ]
+  },
+  {
+    "id": "sikring-i-dybden-eba",
+    "tittel": "Sikring i dybden",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Flere lag med fysiske, elektroniske og administrative barrierer mellom et usikret område og verdiene. Angriperen må forsere alle lagene, så ett svakt lag gir ikke fri tilgang.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Lagvis sikring",
+      "Dybdeforsvar",
+      "Defence in depth"
+    ]
+  },
+  {
+    "id": "sikringsklasse",
+    "tittel": "Sikringsklasse",
+    "forklaring": "Klasse som beskriver hvor stor motstand en barriere eller et alarmanlegg har mot en gitt trussel. Sikringshåndboka kobler sikringsklassene til trusselnivå og innbruddstid.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Security class"
+    ]
+  },
+  {
+    "id": "sikringstiltak",
+    "tittel": "Sikringstiltak",
+    "forklaring": "Tiltak som reduserer risikoen for tilsiktede uønskede handlinger. Tiltakene kan være fysiske, elektroniske eller administrative.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Sikkerhetstiltak",
+      "Security measure"
+    ]
+  },
+  {
+    "id": "skallsikring",
+    "tittel": "Skallsikring",
+    "forklaring": "Sikring av de ytterste bygningsdelene, som yttervegger, tak, dører og vinduer. Skallsikringen gjelder den delen av bygget virksomheten disponerer, hvis den ikke har hele bygget.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Building envelope security"
+    ]
+  },
+  {
+    "id": "skjermingsverdig-verdi",
+    "tittel": "Skjermingsverdig verdi",
+    "forklaring": "Informasjon, informasjonssystem, objekt eller infrastruktur som må beskyttes etter sikkerhetsloven fordi skade kan true nasjonale sikkerhetsinteresser eller grunnleggende nasjonale funksjoner.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "regelverk"
+    ],
+    "alias": [
+      "Skjermingsverdig objekt",
+      "Asset worthy of protection"
+    ]
+  },
+  {
+    "id": "sluttbruker",
+    "tittel": "Sluttbruker",
+    "forklaring": "Personen som mottar fasilitetstjenesten, for eksempel en ansatt eller en besøkende.",
+    "tags": [
+      "eba",
+      "roller"
+    ],
+    "alias": [
+      "End user"
+    ]
+  },
+  {
+    "id": "som-bygget-dokumentasjon",
+    "tittel": "Som bygget-dokumentasjon",
+    "forklaring": "Tegninger og beskrivelser som viser bygget slik det faktisk ble bygget, med alle endringer underveis.",
+    "tags": [
+      "eba",
+      "dokumentasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Som utført-dokumentasjon",
+      "As-built documentation"
+    ]
+  },
+  {
+    "id": "sonesikring",
+    "tittel": "Sonesikring",
+    "forklaring": "Sikring i dybden innenfor skallsikringen, der bygget deles i soner med egne autorisasjonsskiller. Romsikring er en variant av sonesikring.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Soneinndeling",
+      "Romsikring",
+      "Zoning"
+    ]
+  },
+  {
+    "id": "sperret-sone",
+    "tittel": "Sperret sone",
+    "forklaring": "Område der adgang gir direkte tilgang til sikkerhetsgradert informasjon, for eksempel et arkiv, et kommunikasjonsrom eller et serverrom.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "regelverk"
+    ],
+    "alias": [
+      "Sperret område",
+      "Restricted area"
+    ]
+  },
+  {
+    "id": "spredenett-for-eiendomsdrift",
+    "tittel": "Spredenett for eiendomsdrift",
+    "forklaring": "Statsbyggs eget, atskilte IP-nett for tekniske anlegg på en eiendom. Utstyr kan bare kobles til svitsjer som Statsbygg leverer og administrerer.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "automasjon"
+    ],
+    "alias": [
+      "Eiendomsnett",
+      "Building operations network"
+    ]
+  },
+  {
+    "id": "standardpassord",
+    "tittel": "Standardpassord",
+    "forklaring": "Passordet utstyret har fra fabrikken. Det må byttes før overlevering fordi slike passord ofte er kjent for alle.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet",
+      "prosjekt"
+    ],
+    "alias": [
+      "Fabrikkpassord",
+      "Default password"
+    ]
+  },
+  {
+    "id": "strategisk-taktisk-og-operativt-niva",
+    "tittel": "Strategisk, taktisk og operativt nivå",
+    "undertittel": "STO",
+    "forklaring": "Tre nivåer for ansvar i forvaltningen. Strategisk nivå bestemmer hva som skal gjøres, taktisk nivå hvordan, og operativt nivå utfører arbeidet.",
+    "tags": [
+      "eba",
+      "roller",
+      "forvaltning"
+    ],
+    "alias": [
+      "Strategic, tactical and operational level"
+    ]
+  },
+  {
+    "id": "sarbarhet-eba",
+    "tittel": "Sårbarhet",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Svakhet som gjør at et objekt eller et system ikke klarer å opprettholde eller gjenoppta funksjonen sin når det blir utsatt for en uønsket hendelse. En trusselaktør kan utnytte den.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Svakhet",
+      "Vulnerability"
+    ]
+  },
+  {
+    "id": "sarbarhetsvurdering-eba",
+    "tittel": "Sårbarhetsvurdering",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Vurdering av hva en trusselaktør kan få til med sine kapasiteter, sett opp mot svakhetene i virksomhetens sikring.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Vulnerability assessment"
+    ]
+  },
+  {
+    "id": "teknisk-areal",
+    "tittel": "Teknisk areal",
+    "undertittel": "TEA",
+    "forklaring": "Arealet som de tekniske anleggene bruker, for eksempel ventilasjonsrom, tavlerom og sjakter.",
+    "tags": [
+      "eba",
+      "areal",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Technical area"
+    ]
+  },
+  {
+    "id": "teknisk-forvaltning",
+    "tittel": "Teknisk forvaltning",
+    "forklaring": "Planlegging og oppfølging av den tekniske tilstanden til bygg og anlegg. Omfatter blant annet tilstandsanalyser, vedlikehold og oppgraderinger.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Technical property management"
+    ]
+  },
+  {
+    "id": "teknisk-levetid",
+    "tittel": "Teknisk levetid",
+    "forklaring": "Tiden en bygning eller bygningsdel oppfyller de tekniske kravene.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "økonomi"
+    ],
+    "alias": [
+      "Technical service life"
+    ]
+  },
+  {
+    "id": "tekniske-installasjoner",
+    "tittel": "Tekniske installasjoner",
+    "forklaring": "Anleggene i et bygg som gir varme, ventilasjon, strøm, vann og sikkerhet.",
+    "tags": [
+      "eba",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Tekniske anlegg",
+      "Building services"
+    ]
+  },
+  {
+    "id": "termografering",
+    "tittel": "Termografering",
+    "forklaring": "Fotografering med varmekamera som viser temperaturforskjeller på overflater. Metoden avslører kuldebroer, luftlekkasjer og feil i elektriske anlegg.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "energi"
+    ],
+    "alias": [
+      "Thermography"
+    ]
+  },
+  {
+    "id": "tidsprogram",
+    "tittel": "Tidsprogram",
+    "forklaring": "Program som starter, stopper eller endrer driftsmodus for et anlegg til faste tider gjennom uken.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "energi"
+    ],
+    "alias": [
+      "Time schedule"
+    ]
+  },
+  {
+    "id": "tidsregnskap",
+    "tittel": "Tidsregnskap",
+    "forklaring": "Beregning som sammenligner hvor lenge barrierene forsinker en angriper med tiden fra deteksjon til reaksjonen er på plass. Tidsregnskapet er positivt når reaksjonen kommer før angriperen når verdien.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Timeline analysis"
+    ]
+  },
+  {
+    "id": "tidsserver",
+    "tittel": "Tidsserver",
+    "forklaring": "Server som gir enhetene i nettet riktig tid via protokollen NTP. Lik tid på alle enheter gjør at alarmer og logger kan sammenlignes.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "NTP-server",
+      "Time server"
+    ]
+  },
+  {
+    "id": "tilgangsstyring",
+    "tittel": "Tilgangsstyring",
+    "forklaring": "Styring av hvem som får logge på et system, og hva hver bruker får gjøre der. SD-anlegget skal hente brukere og roller fra virksomhetens katalogtjeneste.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Identity and access management",
+      "IAM"
+    ]
+  },
+  {
+    "id": "tilpasningsdyktighet",
+    "tittel": "Tilpasningsdyktighet",
+    "forklaring": "Hvor lett en bygning kan tilpasses nye behov, målt ut fra fleksibilitet, generalitet og elastisitet.",
+    "tags": [
+      "eba",
+      "forvaltning",
+      "areal"
+    ],
+    "alias": [
+      "Adaptability"
+    ]
+  },
+  {
+    "id": "tilstandsanalyse",
+    "tittel": "Tilstandsanalyse",
+    "forklaring": "Systematisk undersøkelse av tilstanden til et bygg eller en bygningsdel, målt mot et valgt referansenivå. I Norge gjøres den ofte etter NS 3424.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Tilstandsvurdering",
+      "Condition survey"
+    ]
+  },
+  {
+    "id": "tilstandsbasert-vedlikehold",
+    "tittel": "Tilstandsbasert vedlikehold",
+    "forklaring": "Forebyggende vedlikehold som styres av målt eller observert tilstand, ikke av faste intervaller.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "automasjon"
+    ],
+    "alias": [
+      "Condition-based maintenance",
+      "CBM"
+    ]
+  },
+  {
+    "id": "tilstandsgrad",
+    "tittel": "Tilstandsgrad",
+    "undertittel": "TG",
+    "forklaring": "Tall fra 0 til 3 som viser tilstanden til et objekt, fra ingen symptomer til kraftige symptomer.",
+    "tags": [
+      "eba",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Condition grade"
+    ]
+  },
+  {
+    "id": "tjenesteleverandor",
+    "tittel": "Tjenesteleverandør",
+    "forklaring": "Organisasjonen som har ansvaret for å levere fasilitetstjenester etter avtalen. Den kan være intern eller ekstern.",
+    "tags": [
+      "eba",
+      "roller",
+      "kontrakt"
+    ],
+    "alias": [
+      "Leverandør av fasilitetstjenester",
+      "Service provider"
+    ]
+  },
+  {
+    "id": "tjenestenivaavtale",
+    "tittel": "Tjenestenivåavtale",
+    "forklaring": "Avtale som fastsetter hvilke tjenester en leverandør skal levere, og hvilket nivå, svartid og rapportering som gjelder.",
+    "tags": [
+      "eba",
+      "kontrakt"
+    ],
+    "alias": [
+      "Service level agreement",
+      "SLA"
+    ]
+  },
+  {
+    "id": "topologiskjema",
+    "tittel": "Topologiskjema",
+    "forklaring": "Tegning som viser alle systemer og hvordan de kommuniserer, fra feltutstyr via undersentraler til SD-anlegg. Den viser også protokollene og hvor komponentene står.",
+    "tags": [
+      "eba",
+      "dokumentasjon",
+      "automasjon"
+    ],
+    "alias": [
+      "Network topology diagram"
+    ]
+  },
+  {
+    "id": "toppsystem",
+    "tittel": "Toppsystem",
+    "forklaring": "Overordnet programvare som samler automatikk fra flere leverandører og flere eiendommer i ett brukergrensesnitt for overvåking og styring.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "forvaltning"
+    ],
+    "alias": [
+      "Enterprise building management system"
+    ]
+  },
+  {
+    "id": "totalentreprise",
+    "tittel": "Totalentreprise",
+    "forklaring": "Entrepriseform der entreprenøren har ansvar for både prosjektering og utførelse. Entreprenøren bærer også risikoen for prosjekteringen.",
+    "tags": [
+      "eba",
+      "kontrakt",
+      "prosjekt"
+    ],
+    "alias": [
+      "Design and build contract",
+      "D&B"
+    ]
+  },
+  {
+    "id": "transport-layer-security",
+    "tittel": "Transport Layer Security",
+    "undertittel": "TLS",
+    "forklaring": "Protokoll som krypterer trafikken mellom klient og server, for eksempel i HTTPS. Statsbygg krever versjon 1.3 eller nyere.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ]
+  },
+  {
+    "id": "trendlogging",
+    "tittel": "Trendlogging",
+    "forklaring": "Lagring av måleverdier, statuser og andre data over tid, slik at de kan vises som kurver og analyseres.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Trend",
+      "Trendlogg",
+      "Trend logging"
+    ]
+  },
+  {
+    "id": "trussel-eba",
+    "tittel": "Trussel",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Mulig uønsket handling som kan gi en negativ konsekvens for en virksomhets sikkerhet. Trusselaktøren kan være ukjent.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Threat"
+    ]
+  },
+  {
+    "id": "trusselaktor-eba",
+    "tittel": "Trusselaktør",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Person, gruppe eller stat som kan ha vilje og evne til å skade virksomhetens verdier. Beskrivelsen omfatter motiv, erfaring, verktøy og arbeidsmåte.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Threat actor"
+    ]
+  },
+  {
+    "id": "trusselbilde",
+    "tittel": "Trusselbilde",
+    "forklaring": "Tidsavgrenset beskrivelse av kjente trusler mot en bestemt virksomhet eller sektor.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Threat landscape"
+    ]
+  },
+  {
+    "id": "trusselvurdering-eba",
+    "tittel": "Trusselvurdering",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Beskrivelse av trusselbildet for en virksomhet og en vurdering av trusselaktørenes intensjon og kapasitet.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Threat assessment"
+    ]
+  },
+  {
+    "id": "tv-overvakningsanlegg",
+    "tittel": "TV-overvåkningsanlegg",
+    "undertittel": "TVO",
+    "forklaring": "Anlegg med kameraer som overvåker et område og viser eller lagrer bildene på et avgrenset sett av skjermer. Det brukes til å oppdage og verifisere hendelser.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Kameraovervåking",
+      "Videoovervåking",
+      "ITV-anlegg",
+      "Video surveillance system",
+      "VSS"
+    ]
+  },
+  {
+    "id": "tverrfaglig-merkesystem",
+    "tittel": "Tverrfaglig merkesystem",
+    "undertittel": "TFM",
+    "forklaring": "Norsk system for entydig merking av systemer og komponenter, slik at samme kode brukes i tegninger, FDV-dokumentasjon og SD-anlegg.",
+    "tags": [
+      "eba",
+      "dokumentasjon",
+      "fdv"
+    ],
+    "alias": [
+      "Interdisciplinary reference designation system"
+    ]
+  },
+  {
+    "id": "undermaler",
+    "tittel": "Undermåler",
+    "forklaring": "Måler som registrerer forbruket til et avgrenset anlegg, en del av bygget eller en leietaker, bak hovedmåleren.",
+    "tags": [
+      "eba",
+      "energi"
+    ],
+    "alias": [
+      "Submeter"
+    ]
+  },
+  {
+    "id": "undersentral",
+    "tittel": "Undersentral",
+    "undertittel": "US",
+    "forklaring": "Desentral, programmerbar enhet som styrer og regulerer tekniske anlegg og samler inn og behandler signaler fra feltutstyret. Den fortsetter å styre anlegget selv om forbindelsen til SD-anlegget faller ut.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "tekniske-anlegg"
+    ],
+    "alias": [
+      "Kontroller",
+      "Regulator",
+      "Automation station"
+    ]
+  },
+  {
+    "id": "universell-utforming",
+    "tittel": "Universell utforming",
+    "undertittel": "UU",
+    "forklaring": "Utforming av bygg og omgivelser slik at flest mulig kan bruke dem uten spesielle tilpasninger.",
+    "tags": [
+      "eba",
+      "regelverk",
+      "prosjekt"
+    ],
+    "alias": [
+      "Universal design"
+    ]
+  },
+  {
+    "id": "unntak-fra-tidsprogram",
+    "tittel": "Unntak fra tidsprogram",
+    "forklaring": "Midlertidig endring av driften som overstyrer det vanlige tidsprogrammet, for eksempel i ferier og på helligdager.",
+    "tags": [
+      "eba",
+      "automasjon",
+      "energi"
+    ],
+    "alias": [
+      "Unntaksprogram",
+      "Exception schedule"
+    ]
+  },
+  {
+    "id": "utforelsesentreprise",
+    "tittel": "Utførelsesentreprise",
+    "forklaring": "Entrepriseform der byggherren står for prosjekteringen og entreprenøren bare utfører arbeidet.",
+    "tags": [
+      "eba",
+      "kontrakt"
+    ],
+    "alias": [
+      "Design-bid-build contract",
+      "DBB"
+    ]
+  },
+  {
+    "id": "utviklingskostnader",
+    "tittel": "Utviklingskostnader",
+    "forklaring": "Kostnader til ombygging, oppgradering og pålegg fra myndighetene som holder bygget tilpasset nye krav og behov.",
+    "tags": [
+      "eba",
+      "økonomi",
+      "fdv"
+    ],
+    "alias": [
+      "Development costs"
+    ]
+  },
+  {
+    "id": "vakt-og-sikring",
+    "tittel": "Vakt og sikring",
+    "forklaring": "Tjenester som beskytter bygg, personer og verdier, for eksempel vekterrunder, alarmovervåking og adgangskontroll. Kostnadene føres som driftskostnader.",
+    "tags": [
+      "eba",
+      "fysisk-sikring",
+      "fdv"
+    ],
+    "alias": [
+      "Vakthold",
+      "Security services"
+    ]
+  },
+  {
+    "id": "vedlikehold",
+    "tittel": "Vedlikehold",
+    "forklaring": "Arbeid som holder bygningen og de tekniske anleggene på et fastsatt kvalitetsnivå gjennom brukstiden. Utskifting av deler med kortere levetid enn bygningen regnes også som vedlikehold.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "fdv"
+    ],
+    "alias": [
+      "Maintenance"
+    ]
+  },
+  {
+    "id": "vedlikeholdsetterslep",
+    "tittel": "Vedlikeholdsetterslep",
+    "forklaring": "Vedlikehold som burde vært gjort, men er utsatt, og som har hopet seg opp over tid.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "økonomi"
+    ],
+    "alias": [
+      "Etterslep",
+      "Maintenance backlog"
+    ]
+  },
+  {
+    "id": "vedlikeholdskostnader",
+    "tittel": "Vedlikeholdskostnader",
+    "forklaring": "Kostnader til planlagt vedlikehold og utskifting som holder bygget på fastsatt kvalitetsnivå gjennom brukstiden.",
+    "tags": [
+      "eba",
+      "økonomi",
+      "vedlikehold"
+    ],
+    "alias": [
+      "Maintenance costs"
+    ]
+  },
+  {
+    "id": "vedlikeholdsplan",
+    "tittel": "Vedlikeholdsplan",
+    "forklaring": "Oversikt over planlagte vedlikeholdstiltak med tidspunkt og kostnad. Bygger som regel på tilstandsanalyser.",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "dokumentasjon"
+    ],
+    "alias": [
+      "Tiltaksplan",
+      "Maintenance plan"
+    ]
+  },
+  {
+    "id": "verdi-eba",
+    "tittel": "Verdi",
+    "undertittel": "eiendom og bygg",
+    "forklaring": "Ressurs der tap, skade eller forstyrrelse gir eieren en negativ konsekvens. Det kan være liv og helse, informasjon, infrastruktur eller utstyr.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Asset"
+    ]
+  },
+  {
+    "id": "verdieier",
+    "tittel": "Verdieier",
+    "forklaring": "Virksomhet som eier eller på annen måte råder over verdiene som skal beskyttes.",
+    "tags": [
+      "eba",
+      "roller",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Asset owner"
+    ]
+  },
+  {
+    "id": "verdivurdering",
+    "tittel": "Verdivurdering",
+    "forklaring": "Kartlegging og rangering av virksomhetens verdier etter hvilke konsekvenser det får hvis de går tapt eller blir skadet.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Asset valuation"
+    ]
+  },
+  {
+    "id": "verifikasjon",
+    "tittel": "Verifikasjon",
+    "forklaring": "Kontroll av om en utløst alarm eller en oppdaget hendelse er reell, for eksempel med kamera eller vakt. Verifikasjonen avgjør hvilke tiltak som settes i gang.",
+    "tags": [
+      "eba",
+      "fysisk-sikring"
+    ],
+    "alias": [
+      "Alarmverifikasjon",
+      "Alarm verification"
+    ]
+  },
+  {
+    "id": "virtuelt-privat-nettverk-eba",
+    "tittel": "Virtuelt privat nettverk",
+    "undertittel": "VPN",
+    "forklaring": "Kryptert forbindelse over et offentlig nett, som gir sikker tilgang til et internt nett.",
+    "tags": [
+      "eba",
+      "ot-sikkerhet"
+    ],
+    "alias": [
+      "Virtual private network"
+    ]
+  },
+  {
+    "id": "yield",
+    "tittel": "Yield",
+    "forklaring": "Mål på avkastning, beregnet som årlig leieinntekt delt på eiendommens verdi og oppgitt i prosent.",
+    "tags": [
+      "eba",
+      "økonomi"
+    ],
+    "alias": [
+      "Direkteavkastning"
+    ]
+  },
+  {
+    "id": "arskostnad",
+    "tittel": "Årskostnad",
+    "undertittel": "ÅK",
+    "forklaring": "Livssykluskostnadene omregnet til et likt beløp per år over analyseperioden.",
+    "tags": [
+      "eba",
+      "økonomi"
+    ],
+    "alias": [
+      "Annual cost"
+    ]
   }
 ]
