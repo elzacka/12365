@@ -115,4 +115,14 @@ describe('Hurtigtaster', () => {
     await renderPage()
     expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering', 'Presentasjon'])
   })
+
+  it('offers a subheading from part of its name and filters to it', async () => {
+    await renderPage()
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'redig' } })
+    fireEvent.click(screen.getByRole('button', { name: 'Vis alt under Redigering i PowerPoint' }))
+    expect(headings()).toEqual(['PowerPoint'])
+    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering'])
+    fireEvent.click(screen.getByRole('button', { name: 'Fjern filter Redigering' }))
+    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering', 'Presentasjon'])
+  })
 })

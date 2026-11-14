@@ -76,6 +76,12 @@ interface OppslagViewProps {
 export function OppslagView({ ord, placeholderWords, searchLabel, examples, resetLabel, groups, keys = false }: OppslagViewProps) {
   const [query, setQuery] = useState('')
   const [activeTags, setActiveTags] = useState<string[]>([])
+  // A subheading inside one group: Redigering in PowerPoint. Any other tag change clears it.
+  const [activeSub, setActiveSub] = useState<{ tag: string; sub: string } | null>(null)
+  const setTags = useCallback((next: string[] | ((prev: string[]) => string[])) => {
+    setActiveSub(null)
+    setActiveTags(next)
+  }, [])
   const [showHelp, setShowHelp] = useState(false)
   const placeholder = useRotatingPlaceholder('Søk i', placeholderWords)
   const helpId = useId()
@@ -122,11 +128,11 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     const handler = (e: KeyboardEvent) => {
       if (e.key !== 'Escape') return
       if (expandedId) setExpandedId(null)
-      else setActiveTags([])
+      else setTags([])
     }
     window.addEventListener('keydown', handler)
     return () => window.removeEventListener('keydown', handler)
-  }, [expandedId, hasTagFilter])
+  }, [expandedId, hasTagFilter, setTags])
 
   const allTags = useMemo(() => {
     const set = new Set<string>()
@@ -143,15 +149,26 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     return allTags.has(q) ? q : null
   }, [query, allTags, activeTags])
 
+  // Subheadings that contain the query, from three letters: «redig» offers Redigering in PowerPoint.
+  const subShortcuts = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    if (q.length < 3 || !groups) return []
+    return groups.flatMap(g => (g.undergrupper ?? [])
+      .filter(sub => sub.toLowerCase().includes(q) && !(activeSub?.tag === g.tag && activeSub.sub === sub))
+      .map(sub => ({ tag: g.tag, title: g.title, sub })))
+  }, [query, groups, activeSub])
+
   const chipGroups = useMemo(
     () => (groups ? [...groups].sort((a, b) => a.title.localeCompare(b.title, 'nb')) : []),
     [groups],
   )
 
+  const inSub = useCallback((o: Oppslag) => !activeSub || o.undergruppe === activeSub.sub, [activeSub])
+
   const filteredByTag = useMemo<Oppslag[]>(() => {
     if (activeTags.length === 0) return ord
-    return ord.filter(o => hasAllTags(o, activeTags))
-  }, [ord, activeTags])
+    return ord.filter(o => hasAllTags(o, activeTags) && inSub(o))
+  }, [ord, activeTags, inSub])
 
   const results = useMemo<Oppslag[] | null>(() => {
     const trimmed = query.trim()
@@ -168,8 +185,8 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
 
     const list = searchOrd(index, byId, trimmed)
     if (activeTags.length === 0) return list
-    return list.filter(o => hasAllTags(o, activeTags))
-  }, [query, index, byId, activeTags, filteredByTag])
+    return list.filter(o => hasAllTags(o, activeTags) && inSub(o))
+  }, [query, index, byId, activeTags, filteredByTag, inSub])
 
   const visibleCount = results?.length ?? filteredByTag.length
   const isFiltering = results !== null || hasTagFilter
@@ -184,6 +201,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
       : [
           isSearching ? `${visibleCount} treff på «${trimmedQuery}»` : `${visibleCount} oppslag`,
           hasTagFilter && `${isSearching ? 'blant oppslag ' : ''}merket ${joinTags(activeTags)}`,
+          activeSub && `under ${activeSub.sub}`,
         ].filter(Boolean).join(' ')
 
   const grouped = useMemo<Group[]>(() => {
@@ -245,19 +263,19 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
   // The clicked entry has the tag, so it stays in the filtered list: keep it
   // open and in view so more tags can be picked from it.
   const handleTagClick = useCallback((id: string, tag: string) => {
-    setActiveTags(prev => (prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]))
+    setTags(prev => (prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]))
     requestAnimationFrame(() => {
       document.getElementById(`ord-${id}`)?.scrollIntoView({ block: 'nearest' })
     })
-  }, [])
+  }, [setTags])
 
   const removeTag = useCallback((tag: string) => {
-    setActiveTags(prev => prev.filter(t => t !== tag))
-  }, [])
+    setTags(prev => prev.filter(t => t !== tag))
+  }, [setTags])
 
   const clearTags = useCallback(() => {
-    setActiveTags([])
-  }, [])
+    setTags([])
+  }, [setTags])
 
   return (
     <div className="flex-1 flex flex-col bg-slate-50">
@@ -359,7 +377,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                   <button
                     key={g.tag}
                     type="button"
-                    onClick={() => setActiveTags(isActive ? [] : [g.tag])}
+                    onClick={() => setTags(isActive ? [] : [g.tag])}
                     className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
                       isActive
                         ? 'bg-brand-700 text-white shadow-sm'
@@ -378,7 +396,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
         {tagShortcut && (
           <button
             onClick={() => {
-              setActiveTags(prev => [...prev, tagShortcut])
+              setTags(prev => [...prev, tagShortcut])
               setQuery('')
             }}
             className="mb-4 w-full text-left inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-brand-200 bg-brand-50 hover:bg-brand-100 transition-colors text-xs text-brand-800"
@@ -389,6 +407,22 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
             </span>
           </button>
         )}
+
+        {subShortcuts.map(({ tag, title, sub }) => (
+          <button
+            key={`${tag}-${sub}`}
+            onClick={() => {
+              setActiveTags([tag])
+              setActiveSub({ tag, sub })
+              setQuery('')
+            }}
+            className="mb-4 w-full text-left inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-brand-200 bg-brand-50 hover:bg-brand-100 transition-colors text-xs text-brand-800"
+          >
+            <span>
+              Vis alt under <strong className="font-semibold">{sub}</strong> i {title}
+            </span>
+          </button>
+        ))}
 
         {isFiltering && visibleCount > 0 && (
           <div className="mb-4 flex flex-wrap items-center gap-x-1.5 gap-y-2 text-xs text-slate-500">
@@ -417,6 +451,19 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                 ))}
               </>
             )}
+            {activeSub && (
+              <>
+                <span>under</span>
+                <button
+                  onClick={() => setActiveSub(null)}
+                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-brand-100 text-brand-800 hover:bg-brand-200 transition-colors"
+                  aria-label={`Fjern filter ${activeSub.sub}`}
+                >
+                  <span>{activeSub.sub}</span>
+                  <CloseIcon size={12} />
+                </button>
+              </>
+            )}
           </div>
         )}
 
@@ -430,7 +477,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
               <button
                 onClick={() => {
                   setQuery('')
-                  setActiveTags([])
+                  setTags([])
                 }}
                 className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
               >
