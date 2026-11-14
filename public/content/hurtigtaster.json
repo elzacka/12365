@@ -3118,7 +3118,7 @@
   },
   {
     "id": "klassisk-outlook-flytte-mellom-mapperuten-det-klassiske-hove",
-    "tittel": "Flytte mellom mapperuten , det klassiske hovedvinduet i Outlook, leseruten og To-Do-feltet",
+    "tittel": "Flytte mellom mapperuten, det klassiske hovedvinduet i Outlook, leseruten og To-Do-feltet",
     "forklaring": "CTRL+SKIFT+TABULATOR eller SKIFT+TABULATOR",
     "tags": [
       "klassisk outlook"
@@ -3126,7 +3126,7 @@
   },
   {
     "id": "klassisk-outlook-flytte-mellom-det-klassiske-outlook-vinduet",
-    "tittel": "Flytte mellom det klassiske Outlook-vinduet, de mindre rutene i mapperuten , leseruten og inndelingene i To-Do-feltet",
+    "tittel": "Flytte mellom det klassiske Outlook-vinduet, de mindre rutene i mapperuten, leseruten og inndelingene i To-Do-feltet",
     "forklaring": "TABULATORTASTEN eller F6",
     "tags": [
       "klassisk outlook"
@@ -3646,7 +3646,7 @@
   },
   {
     "id": "klassisk-outlook-utvide-soeket-til-aa-inkludere-alle-e-poste",
-    "tittel": "Utvide søket til å inkludere Alle e-postelementer , Alle kalenderelementer eller Alle kontaktelementer , avhengig av modulen du er i",
+    "tittel": "Utvide søket til å inkludere Alle e-postelementer, Alle kalenderelementer eller Alle kontaktelementer, avhengig av modulen du er i",
     "forklaring": "Ctrl+Alt+A",
     "tags": [
       "klassisk outlook"
@@ -3854,7 +3854,7 @@
   },
   {
     "id": "klassisk-outlook-opprett-en-melding-i-e-post-visning",
-    "tittel": "Opprett en melding (i E-post-visning )",
+    "tittel": "Opprett en melding (i E-post-visning)",
     "forklaring": "CTRL+N",
     "tags": [
       "klassisk outlook"
@@ -4062,7 +4062,7 @@
   },
   {
     "id": "klassisk-outlook-slett-en-valgt-mappe-i-listen-standardmappe",
-    "tittel": "Slett en valgt mappe i listen (standardmapper, for eksempel Innboks , Utboks , Kladd og Sendt kan ikke slettes)",
+    "tittel": "Slett en valgt mappe i listen (standardmapper, for eksempel Innboks, Utboks, Kladd og Sendt kan ikke slettes)",
     "forklaring": "SKIFT+F10, D",
     "tags": [
       "klassisk outlook"
@@ -4422,7 +4422,7 @@
   },
   {
     "id": "klassisk-outlook-opprette-en-avtale-i-kalender-visning",
-    "tittel": "Opprette en avtale (i Kalender-visning )",
+    "tittel": "Opprette en avtale (i Kalender-visning)",
     "forklaring": "CTRL+N",
     "tags": [
       "klassisk outlook"
@@ -4870,7 +4870,7 @@
   },
   {
     "id": "klassisk-outlook-flytte-mellom-calendar-visningen-oppgaveblo",
-    "tittel": "Flytte mellom Calendar-visningen , oppgaveblokken og mappelisten",
+    "tittel": "Flytte mellom Calendar-visningen, oppgaveblokken og mappelisten",
     "forklaring": "Ctrl+Tab eller F6",
     "tags": [
       "klassisk outlook"
@@ -5102,7 +5102,7 @@
   },
   {
     "id": "klassisk-outlook-opprette-en-kontakt-i-kontakter",
-    "tittel": "Opprette en kontakt (i Kontakter )",
+    "tittel": "Opprette en kontakt (i Kontakter)",
     "forklaring": "CTRL+N",
     "tags": [
       "klassisk outlook"
@@ -5606,7 +5606,7 @@
   },
   {
     "id": "klassisk-outlook-veksle-mellom-mapperuten-oppgavelisten-og-t",
-    "tittel": "Veksle mellom mapperuten , oppgavelisten og To-Do-feltet",
+    "tittel": "Veksle mellom mapperuten, oppgavelisten og To-Do-feltet",
     "forklaring": "F6",
     "tags": [
       "klassisk outlook"
@@ -5766,7 +5766,7 @@
   },
   {
     "id": "klassisk-outlook-bytte-mellom-aktiv-visning-to-do-feltet-soe",
-    "tittel": "Bytte mellom aktiv visning, To-Do-feltet , søk og tilbake til aktiv visning",
+    "tittel": "Bytte mellom aktiv visning, To-Do-feltet, søk og tilbake til aktiv visning",
     "forklaring": "TAB og SKIFT+TAB",
     "tags": [
       "klassisk outlook"
@@ -8328,7 +8328,7 @@
   },
   {
     "id": "word-aapner-redigeringsprogrammet-for-microsoft-visual-basic",
-    "tittel": "Åpner redigeringsprogrammet for Microsoft Visual Basic for Applications , der du kan opprette en makro ved hjelp av Visual Basic for Applications (VBA)",
+    "tittel": "Åpner redigeringsprogrammet for Microsoft Visual Basic for Applications, der du kan opprette en makro ved hjelp av Visual Basic for Applications (VBA)",
     "forklaring": "ALT+F11",
     "tags": [
       "word"
@@ -8768,7 +8768,7 @@
   },
   {
     "id": "excel-angi-sluttmodus-flytte-til-neste-ikke-tomme-celle-i-sa",
-    "tittel": "Angi sluttmodus , flytte til neste ikke-tomme celle i samme kolonne eller rad som den aktive cellen, og slå av sluttmodus",
+    "tittel": "Angi sluttmodus, flytte til neste ikke-tomme celle i samme kolonne eller rad som den aktive cellen, og slå av sluttmodus",
     "forklaring": "End, piltast",
     "tags": [
       "excel"
@@ -10080,7 +10080,7 @@
   },
   {
     "id": "excel-bytter-mellom-regnearket-zoomkontrollene-oppgaveruten-",
-    "tittel": "Bytter mellom regnearket, zoomkontrollene , oppgaveruten og båndet",
+    "tittel": "Bytter mellom regnearket, zoomkontrollene, oppgaveruten og båndet",
     "forklaring": "SKIFT+F6",
     "tags": [
       "excel"
@@ -10240,7 +10240,7 @@
   },
   {
     "id": "excel-aapner-redigeringsprogrammet-for-microsoft-visual-basi",
-    "tittel": "Åpner redigeringsprogrammet for Microsoft Visual Basic for Applications , der du kan opprette en makro ved hjelp av Visual Basic for Applications(VBA)",
+    "tittel": "Åpner redigeringsprogrammet for Microsoft Visual Basic for Applications, der du kan opprette en makro ved hjelp av Visual Basic for Applications(VBA)",
     "forklaring": "ALT+F11",
     "tags": [
       "excel"
@@ -11672,7 +11672,7 @@
   },
   {
     "id": "powerpoint-skjul-alle-grupper-med-fokus-i-trevisningen-i-val",
-    "tittel": "Skjul alle grupper (med fokus i trevisningen i valgruten )",
+    "tittel": "Skjul alle grupper (med fokus i trevisningen i valgruten)",
     "forklaring": "ALT+SKIFT+1",
     "tags": [
       "powerpoint"
@@ -11840,7 +11840,7 @@
   },
   {
     "id": "powerpoint-aapne-hjelp-fanen-og-bla-gjennom-powerpoint-konta",
-    "tittel": "Åpne Hjelp-fanen , og bla gjennom PowerPoint, kontakt kundestøtte og gi tilbakemelding",
+    "tittel": "Åpne Hjelp-fanen, og bla gjennom PowerPoint, kontakt kundestøtte og gi tilbakemelding",
     "forklaring": "ALT+Y, 2",
     "tags": [
       "powerpoint"
@@ -12696,7 +12696,7 @@
   },
   {
     "id": "onenote-kopiere-formateringen-til-den-merkede-teksten-kopier",
-    "tittel": "Kopiere formateringen til den merkede teksten ( Kopier format )",
+    "tittel": "Kopiere formateringen til den merkede teksten (Kopier format)",
     "forklaring": "Ctrl+Alt+C",
     "tags": [
       "onenote"
@@ -12704,7 +12704,7 @@
   },
   {
     "id": "onenote-lime-inn-formateringen-til-den-merkede-teksten-kopie",
-    "tittel": "Lime inn formateringen til den merkede teksten ( Kopier format )",
+    "tittel": "Lime inn formateringen til den merkede teksten (Kopier format)",
     "forklaring": "CTRL+ALT+V",
     "tags": [
       "onenote"
@@ -13056,8 +13056,8 @@
   },
   {
     "id": "onenote-slette-gjeldende-tomme-rad-i-en-tabell",
-    "tittel": "Slette gjeldende tomme rad i en tabell",
-    "forklaring": "SLETT, og SLETT",
+    "tittel": "Slette gjeldende tomme rad i en tabell når markøren står først i raden",
+    "forklaring": "Delete, Delete",
     "tags": [
       "onenote"
     ]
@@ -13801,7 +13801,7 @@
   {
     "id": "onenote-flytt-gjeldende-inndeling",
     "tittel": "Flytt gjeldende inndeling",
-    "forklaring": "tabulator) CTRL+SKIFT+G, og pil venstre",
+    "forklaring": "Ctrl+Skift+G, piltastene, Skift+F10",
     "tags": [
       "onenote"
     ]
@@ -14200,7 +14200,7 @@
   },
   {
     "id": "microsoft-365-avslutt-fil-menyen-og-gaa-tilbake-til-normalvi",
-    "tittel": "Avslutt Fil-menyen , og gå tilbake til normalvisning, redigering eller innboksvisning",
+    "tittel": "Avslutt Fil-menyen, og gå tilbake til normalvisning, redigering eller innboksvisning",
     "forklaring": "ESC",
     "tags": [
       "microsoft 365"
@@ -15384,7 +15384,7 @@
   },
   {
     "id": "edge-legg-til-www-foran-og-com-bak-det-du-har-skrevet",
-    "tittel": "Legg til www. foran og .com bak det du har skrevet",
+    "tittel": "Legg til www. foran og.com bak det du har skrevet",
     "forklaring": "Ctrl+Enter",
     "tags": [
       "edge"
@@ -16008,7 +16008,7 @@
   },
   {
     "id": "chrome-legg-til-www-foran-og-com-bak-det-du-har-skrevet",
-    "tittel": "Legg til www. foran og .com bak det du har skrevet",
+    "tittel": "Legg til www. foran og.com bak det du har skrevet",
     "forklaring": "Ctrl+Enter",
     "tags": [
       "chrome"
@@ -16016,7 +16016,7 @@
   },
   {
     "id": "chrome-legg-til-www-foran-og-com-bak-det-du-har-skrevet-i-et",
-    "tittel": "Legg til www. foran og .com bak det du har skrevet, i et nytt vindu",
+    "tittel": "Legg til www. foran og.com bak det du har skrevet, i et nytt vindu",
     "forklaring": "Ctrl+Skift+Enter",
     "tags": [
       "chrome"
