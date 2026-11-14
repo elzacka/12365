@@ -15621,5 +15621,13 @@
     "tags": [
       "tegn/emojis"
     ]
+  },
+  {
+    "id": "word-tankestrek-mens-du-skriver",
+    "tittel": "Sett inn en tankestrek mens du skriver (ord ‑ ord)",
+    "forklaring": "Mellomrom, Bindestrek (-), Mellomrom, neste ord, Mellomrom",
+    "tags": [
+      "word"
+    ]
   }
 ]

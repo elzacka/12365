@@ -24,7 +24,7 @@ export function parseKeys(text: string): Segment[] {
     const joined = before.endsWith('+') || after.startsWith('+')
     const ok = sure
       || (maybe && (joined || before === '' || maybe === maybe.toUpperCase()))
-      || (charName && (before === '' || before.endsWith('+')))
+      || (charName && /(^|\+|,)$/.test(before))
       // «Alt, J, S» and «S, 1»: a lone capital or digit between separators.
       || (single && single === single.toUpperCase()
         && (joined || /(^|,|eller|og)$/.test(before) && /^($|,|\+|eller\b|og\b|\(|\))/.test(after)))
