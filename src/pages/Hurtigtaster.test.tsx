@@ -11,6 +11,8 @@ const ENTRIES: Oppslag[] = [
   { id: 'laas', tittel: 'Lås datamaskinen', forklaring: 'Windows-tast+L', tags: ['windows'] },
   { id: 'cedilla', tittel: 'ç', forklaring: 'ALT+0231', tags: ['internasjonale tegn', 'windows'] },
   { id: 'oppgave', tittel: 'Opprett en oppgave', forklaring: 'Ctrl+Skift+K', tags: ['microsoft 365'] },
+  { id: 'start', tittel: 'Start presentasjonen', forklaring: 'F5', tags: ['powerpoint'], undergruppe: 'Presentasjon' },
+  { id: 'nytt', tittel: 'Nytt lysbilde', forklaring: 'Ctrl+M', tags: ['powerpoint'], undergruppe: 'Redigering' },
 ]
 
 // One stable promise: `use()` suspends again on every new one.
@@ -44,7 +46,7 @@ const headings = () => screen.getAllByRole('heading', { level: 2 }).map(h => h.t
 describe('Hurtigtaster', () => {
   it('groups by app in GROUPS order, entries alphabetically, and shows the keys without the tag', async () => {
     await renderPage()
-    expect(headings()).toEqual(['Excel', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
+    expect(headings()).toEqual(['Excel', 'PowerPoint', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
     const word = document.getElementById('ord-punkt')!.parentElement!
     expect([...word.querySelectorAll('[id^="ord-"]')].map(r => r.id)).toEqual(['ord-fet', 'ord-punkt'])
     const row = document.getElementById('ord-filter')!
@@ -78,7 +80,7 @@ describe('Hurtigtaster', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Excel' }))
     expect(headings()).toEqual(['Excel'])
     fireEvent.click(screen.getByRole('button', { name: 'Excel', pressed: true }))
-    expect(headings()).toEqual(['Excel', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
+    expect(headings()).toEqual(['Excel', 'PowerPoint', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
   })
 
   it('explains «+» and «,» between keys in the guide', async () => {
@@ -100,12 +102,17 @@ describe('Hurtigtaster', () => {
       hurtigtaster: [{ id: 'skjult', tittel: 'Skjult handling', forklaring: 'Ctrl+J', tags: ['skjult app'] }],
       hurtigtasterGrupper: [{ tag: 'skjult app', title: 'Skjult app' }],
     })
-    expect(headings()).toEqual(['Excel', 'Skjult app', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
+    expect(headings()).toEqual(['Excel', 'PowerPoint', 'Skjult app', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
     expect(screen.getByRole('button', { name: 'Skjult app' })).toBeTruthy()
   })
 
   it('hides gated sections while locked', async () => {
     await renderPage()
     expect(screen.queryByRole('button', { name: 'Skjult app' })).toBeNull()
+  })
+
+  it('splits an app into its subheadings, in the given order', async () => {
+    await renderPage()
+    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering', 'Presentasjon'])
   })
 })

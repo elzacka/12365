@@ -9,8 +9,8 @@ const APPS: OppslagGroup[] = [
   { tag: 'onedrive', title: 'OneDrive' },
   { tag: 'onenote', title: 'OneNote' },
   { tag: 'outlook', title: 'Outlook' },
-  { tag: 'powerpoint', title: 'PowerPoint' },
-  { tag: 'teams', title: 'Teams' },
+  { tag: 'powerpoint', title: 'PowerPoint', undergrupper: ['Redigering', 'Presentasjon'] },
+  { tag: 'teams', title: 'Teams', undergrupper: ['Møter, samtaler og kalender', 'Chat og navigering'] },
   { tag: 'word', title: 'Word' },
 ]
 

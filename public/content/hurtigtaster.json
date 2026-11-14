@@ -117,7 +117,8 @@
     "forklaring": "CTRL+punktum (.) eller ALT",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-til-soek",
@@ -125,7 +126,8 @@
     "forklaring": "Ctrl+E",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-filter",
@@ -133,7 +135,8 @@
     "forklaring": "Ctrl+Skift+F",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-start-en-ny-chat",
@@ -141,7 +144,8 @@
     "forklaring": "Ctrl+N",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-start-en-chat-i-et-nytt-vindu",
@@ -149,7 +153,8 @@
     "forklaring": "CTRL+SKIFT+N",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-innstillinger",
@@ -157,7 +162,8 @@
     "forklaring": "CTRL+KOMMA (,)",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-hjelp",
@@ -165,7 +171,8 @@
     "forklaring": "F1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-lukk",
@@ -173,7 +180,8 @@
     "forklaring": "ESC",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-zoome-inn",
@@ -181,7 +189,8 @@
     "forklaring": "CTRL+likhetstegn (=)",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-zoom-ut",
@@ -189,7 +198,8 @@
     "forklaring": "CTRL+MINUSTEGN (-)",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-tilbakestille-zoomnivaaet",
@@ -197,7 +207,8 @@
     "forklaring": "Ctrl+0",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-rapporter-et-problem",
@@ -205,7 +216,8 @@
     "forklaring": "CTRL+ALT+SKIFT+R",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-til-en-bestemt-chat-eller-kanal",
@@ -213,7 +225,8 @@
     "forklaring": "Ctrl+G",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-flytte-fokus-til-ruteskillelinjen",
@@ -221,7 +234,8 @@
     "forklaring": "CTRL+ALT+ENTER",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-tilbake-til-standardbredden",
@@ -229,7 +243,8 @@
     "forklaring": "CTRL+Skift+ENTER",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-fest-et-vindu-oeverst",
@@ -237,7 +252,8 @@
     "forklaring": "Ctrl+Skift+T",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-eksisterende-samtale-i-et-nytt-vindu",
@@ -245,7 +261,8 @@
     "forklaring": "CTRL+O",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-foerste-app-paa-applinjen",
@@ -253,7 +270,8 @@
     "forklaring": "Ctrl+1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-andre-app-paa-applinjen",
@@ -261,7 +279,8 @@
     "forklaring": "Ctrl+2",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-den-tredje-appen-paa-applinjen",
@@ -269,7 +288,8 @@
     "forklaring": "Ctrl+3",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-4-app-paa-applinjen",
@@ -277,7 +297,8 @@
     "forklaring": "Ctrl+4",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-den-femte-appen-paa-applinjen",
@@ -285,7 +306,8 @@
     "forklaring": "Ctrl+5",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-den-sjette-appen-paa-applinjen",
@@ -293,7 +315,8 @@
     "forklaring": "Ctrl+6",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-den-sjuende-appen-paa-applinjen",
@@ -301,7 +324,8 @@
     "forklaring": "CTRL+7",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-den-aattende-appen-paa-applinjen",
@@ -309,7 +333,8 @@
     "forklaring": "CTRL+8",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-app-9-paa-applinjen",
@@ -317,7 +342,8 @@
     "forklaring": "CTRL+9",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-legg-til-loop-avsnitt",
@@ -325,7 +351,8 @@
     "forklaring": "ALT+SKIFT+L",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-flytt-fokuset-til-chatten-eller-kanallisten",
@@ -333,7 +360,8 @@
     "forklaring": "CTRL+L",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-flytte-fokus-til-meldingsruten",
@@ -341,7 +369,8 @@
     "forklaring": "CTRL+M",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-flytte-fokus-til-varsel",
@@ -349,7 +378,8 @@
     "forklaring": "CTRL+ALT+T",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-til-skriveboksen",
@@ -357,7 +387,8 @@
     "forklaring": "CTRL+R",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-loggmenyen",
@@ -365,7 +396,8 @@
     "forklaring": "CTRL+H",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-til-forrige-inndeling",
@@ -373,7 +405,8 @@
     "forklaring": "Ctrl+Skift+F6",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-til-neste-inndeling",
@@ -381,7 +414,8 @@
     "forklaring": "Ctrl+F6",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-flytte-den-valgte-chatten-eller-kanalen-opp-i-listen",
@@ -389,7 +423,8 @@
     "forklaring": "CTRL+ALT+SKIFT+PIL OPP",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-flytte-den-valgte-chatten-eller-kanalen-nedover-i-list",
@@ -397,7 +432,8 @@
     "forklaring": "CTRL+ALT+SKIFT+PIL NED",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-tilbake",
@@ -405,7 +441,8 @@
     "forklaring": "ALT+pil venstre",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-fremover",
@@ -413,7 +450,8 @@
     "forklaring": "ALT+pil høyre",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-flytte-fokus-til-varsling",
@@ -421,7 +459,8 @@
     "forklaring": "Windows-logotasten+SKIFT+Y",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-skjul-alle-samtalemapper",
@@ -429,7 +468,8 @@
     "forklaring": "ALT+Q",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-marker-alle-som-lest",
@@ -437,7 +477,8 @@
     "forklaring": "SKIFT+ESCAPE",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-gaa-til-siste-leste-eller-nyeste-melding",
@@ -445,7 +486,8 @@
     "forklaring": "CTRL+J",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-finn-i-gjeldende-chat-eller-kanal",
@@ -453,7 +495,8 @@
     "forklaring": "Ctrl+B",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-foerste-fane-i-chatoverskriften",
@@ -461,7 +504,8 @@
     "forklaring": "ALT+1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-andre-fane-i-chatoverskriften",
@@ -469,7 +513,8 @@
     "forklaring": "ALT+2",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-tredje-fane-i-chatoverskriften",
@@ -477,7 +522,8 @@
     "forklaring": "ALT+3",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-fjerde-fane-i-chatoverskriften",
@@ -485,7 +531,8 @@
     "forklaring": "ALT+4",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-5-fane-i-chatoverskriften",
@@ -493,7 +540,8 @@
     "forklaring": "ALT+5",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-6-fane-i-chatoverskriften",
@@ -501,7 +549,8 @@
     "forklaring": "ALT+6",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-7-fane-i-chatoverskriften",
@@ -509,7 +558,8 @@
     "forklaring": "ALT+7",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-aattende-fane-i-chatoverskriften",
@@ -517,7 +567,8 @@
     "forklaring": "ALT+8",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-9-fane-i-chatoverskriften",
@@ -525,7 +576,8 @@
     "forklaring": "ALT+9",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-veksle-mellom-detaljruten",
@@ -533,7 +585,8 @@
     "forklaring": "ALT+P",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-svare-paa-siste-melding",
@@ -541,7 +594,8 @@
     "forklaring": "ALT+SKIFT+R",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-reagere-paa-siste-melding",
@@ -549,7 +603,8 @@
     "forklaring": "CTRL+ALT+R",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-se-alle-uleste-chatter",
@@ -557,7 +612,8 @@
     "forklaring": "CTRL+ALT+U",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-se-alle-chattesamtaler",
@@ -565,7 +621,8 @@
     "forklaring": "Ctrl+Alt+C",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-se-alle-kanalsamtaler",
@@ -573,7 +630,8 @@
     "forklaring": "Ctrl+Alt+A",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-se-alle-moetechatter",
@@ -581,7 +639,8 @@
     "forklaring": "CTRL+ALT+B",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-fjern-alle-filtre",
@@ -589,7 +648,8 @@
     "forklaring": "CTRL+ALT+Z",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-utvide-skriveboksen",
@@ -597,7 +657,8 @@
     "forklaring": "Ctrl+Skift+X",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-send-utvidet-skriveboks",
@@ -605,7 +666,8 @@
     "forklaring": "Ctrl+Enter",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-avsnittsstil",
@@ -613,7 +675,8 @@
     "forklaring": "CTRL+ALT+P",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-sette-inn-blokksitat",
@@ -621,7 +684,8 @@
     "forklaring": "CTRL+ALT+4",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-legg-ved-fil",
@@ -629,7 +693,8 @@
     "forklaring": "ALT+SKIFT+O",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-start-ny-linje",
@@ -637,7 +702,8 @@
     "forklaring": "Skift+Enter",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-bruke-stilen-overskrift-1",
@@ -645,7 +711,8 @@
     "forklaring": "CTRL+ALT+1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-bruke-stilen-overskrift-2",
@@ -653,7 +720,8 @@
     "forklaring": "CTRL+ALT+2",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-bruke-stilen-overskrift-3",
@@ -661,7 +729,8 @@
     "forklaring": "CTRL+ALT+3",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-bruk-fet-stil",
@@ -669,7 +738,8 @@
     "forklaring": "CTRL+F",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-bruke-kursivstil",
@@ -677,7 +747,8 @@
     "forklaring": "CTRL+I",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-bruke-understrekingsstil",
@@ -685,7 +756,8 @@
     "forklaring": "CTRL+U",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-bruke-stilen-gjennomstreking",
@@ -693,7 +765,8 @@
     "forklaring": "CTRL+ALT+X",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-merk-en-melding-som-viktig",
@@ -701,7 +774,8 @@
     "forklaring": "CTRL+SKIFT+I",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-skriv-paa-nytt-med-copilot",
@@ -709,7 +783,8 @@
     "forklaring": "ALT+A",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-aapne-videoopptakeren",
@@ -717,7 +792,8 @@
     "forklaring": "ALT+SKIFT+E",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-legg-til-loop-avsnitt-2",
@@ -725,7 +801,8 @@
     "forklaring": "CTRL+ALT+L",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-sett-inn-kobling",
@@ -733,7 +810,8 @@
     "forklaring": "CTRL+K",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-sett-inn-linjebundet-kode",
@@ -741,7 +819,8 @@
     "forklaring": "Ctrl+Skift+C",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-sette-inn-kodeblokk",
@@ -749,7 +828,8 @@
     "forklaring": "CTRL+SKIFT+B",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-sette-inn-kode",
@@ -757,7 +837,8 @@
     "forklaring": "CTRL+ALT+5",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-godta-videosamtale",
@@ -765,7 +846,8 @@
     "forklaring": "Ctrl+Skift+A",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-godta-lydanrop",
@@ -773,7 +855,8 @@
     "forklaring": "Ctrl+Skift+S",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-avslaa-anropet",
@@ -781,7 +864,8 @@
     "forklaring": "Ctrl+Skift+D",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-start-lydsamtale",
@@ -789,7 +873,8 @@
     "forklaring": "ALT+SKIFT+A",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-start-videosamtale",
@@ -797,7 +882,8 @@
     "forklaring": "ALT+SKIFT+V",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aktiver-deaktiver-fullskjerm",
@@ -805,7 +891,8 @@
     "forklaring": "F11",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-zoom-inn-delt-innhold",
@@ -813,7 +900,8 @@
     "forklaring": "ALT+SKIFT+PLUSSTEGN (+)",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-zoome-ut-delt-innhold",
@@ -821,7 +909,8 @@
     "forklaring": "ALT+SKIFT+MINUSTEGN (-)",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-tilbakestill-zoom-for-delt-innhold",
@@ -829,7 +918,8 @@
     "forklaring": "ALT+SKIFT+0",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-avslutt-lydsamtale",
@@ -837,7 +927,8 @@
     "forklaring": "CTRL+SKIFT+H",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-avslutt-videosamtale",
@@ -845,7 +936,8 @@
     "forklaring": "CTRL+SKIFT+H",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-slaa-demping-paa-av",
@@ -853,7 +945,8 @@
     "forklaring": "Ctrl+Skift+M",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aktiver-deaktiver-hoeyttaler",
@@ -861,7 +954,8 @@
     "forklaring": "CTRL+SKIFT+U",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-opphev-dempingen-midlertidig",
@@ -869,7 +963,8 @@
     "forklaring": "Hold inne Ctrl+Mellomrom",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-les-opp-opprakte-hender-skjermleser",
@@ -877,7 +972,8 @@
     "forklaring": "CTRL+Skift+L",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-rekk-opp-eller-senk-haanden",
@@ -885,7 +981,8 @@
     "forklaring": "CTRL+Skift+K",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aktiver-deaktiver-video",
@@ -893,7 +990,8 @@
     "forklaring": "Ctrl+Skift+O",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aktiver-deaktiver-innholdsdelingsfelt",
@@ -901,7 +999,8 @@
     "forklaring": "CTRL+SKIFT+E",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-verktoeylinjen-for-deling",
@@ -909,7 +1008,8 @@
     "forklaring": "CTRL+SKIFT+MELLOMROM",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-avslaa-skjermdeling",
@@ -917,7 +1017,8 @@
     "forklaring": "Ctrl+Skift+D",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-godta-skjermdeling",
@@ -925,7 +1026,8 @@
     "forklaring": "Ctrl+Skift+A",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-slipp-inn-personer-fra-lobbyvarsling",
@@ -933,7 +1035,8 @@
     "forklaring": "CTRL+SKIFT+Y",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-planlegge-et-moete",
@@ -941,7 +1044,8 @@
     "forklaring": "ALT+N",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-flytte-fokus-til-verktoeylinjen-i-et-redigeringsfelt",
@@ -949,7 +1053,8 @@
     "forklaring": "ALT+F10",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-lagre-sende-moeteinnkallelsen",
@@ -957,7 +1062,8 @@
     "forklaring": "CTRL+S",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-bli-med-fra-moetedetaljer",
@@ -965,7 +1071,8 @@
     "forklaring": "ALT+SKIFT+J",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-foreslaatt-tidspunkt",
@@ -973,7 +1080,8 @@
     "forklaring": "Alt+Skift+S",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-bli-med-fra-moete-startet-varsel",
@@ -981,7 +1089,8 @@
     "forklaring": "Ctrl+Skift+J",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-moetechat-fra-moetevarsling",
@@ -989,7 +1098,8 @@
     "forklaring": "CTRL+SKIFT+R",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-panorer-delt-innhold",
@@ -997,7 +1107,8 @@
     "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-panorer-delt-innhold-ned",
@@ -1005,7 +1116,8 @@
     "forklaring": "ALT+SKIFT+PIL NED",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-panorer-delt-innhold-mot-venstre",
@@ -1013,7 +1125,8 @@
     "forklaring": "ALT+SKIFT+PIL VENSTRE",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-panorer-delt-innhold-mot-hoeyre",
@@ -1021,7 +1134,8 @@
     "forklaring": "ALT+SKIFT+PIL HØYRE",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-kalendervisningen",
@@ -1029,7 +1143,8 @@
     "forklaring": "Ctrl+3",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-det-valgte-elementet",
@@ -1037,7 +1152,8 @@
     "forklaring": "ENTER",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-slette-det-merkede-elementet",
@@ -1045,7 +1161,8 @@
     "forklaring": "Slett",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapen-dagsvisning",
@@ -1053,7 +1170,8 @@
     "forklaring": "ALT+SKIFT+1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-arbeidsukevisningen",
@@ -1061,7 +1179,8 @@
     "forklaring": "ALT+SKIFT+2",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-ukevisning",
@@ -1069,7 +1188,8 @@
     "forklaring": "ALT+SKIFT+3",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-maanedsvisning",
@@ -1077,7 +1197,8 @@
     "forklaring": "ALT+SKIFT+4",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-saksliste-i-maanedsvisning",
@@ -1085,7 +1206,8 @@
     "forklaring": "ALT+SKIFT+5",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-forrige-tidsperiode",
@@ -1093,7 +1215,8 @@
     "forklaring": "CTRL+ALT+PIL VENSTRE",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-neste-tidsperiode",
@@ -1101,7 +1224,8 @@
     "forklaring": "CTRL+ALT+PIL HØYRE",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-vise-1-dag-i-kalenderen",
@@ -1109,7 +1233,8 @@
     "forklaring": "ALT+1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-vise-2-dager-i-kalenderen",
@@ -1117,7 +1242,8 @@
     "forklaring": "ALT+2",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-vise-3-dager-i-kalenderen",
@@ -1125,7 +1251,8 @@
     "forklaring": "ALT+3",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-vise-4-dager-i-kalenderen",
@@ -1133,7 +1260,8 @@
     "forklaring": "ALT+4",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-vise-5-dager-i-kalenderen",
@@ -1141,7 +1269,8 @@
     "forklaring": "ALT+5",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-vise-6-dager-i-kalenderen",
@@ -1149,7 +1278,8 @@
     "forklaring": "ALT+6",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-vise-7-dager-i-kalenderen",
@@ -1157,7 +1287,8 @@
     "forklaring": "ALT+7",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-neste-uke",
@@ -1165,7 +1296,8 @@
     "forklaring": "ALT+pil ned",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-forrige-uke",
@@ -1173,7 +1305,8 @@
     "forklaring": "ALT+pil opp",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-neste-maaned",
@@ -1181,7 +1314,8 @@
     "forklaring": "ALT+Fn+Pil ned",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-forrige-maaned",
@@ -1189,7 +1323,8 @@
     "forklaring": "ALT+Fn+Pil opp",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-skjule-ruten-til-venstre",
@@ -1197,7 +1332,8 @@
     "forklaring": "ALT+F1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-et-annet-omraade-i-kalenderen",
@@ -1205,7 +1341,8 @@
     "forklaring": "F6 eller CTRL+SKIFT+TAB",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-neste-hendelse-eller-omraade-i-gjeldende-visni",
@@ -1213,7 +1350,8 @@
     "forklaring": "TABULATOR-tasten",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-en-tidligere-hendelse-eller-omraade-i-gjeldend",
@@ -1221,7 +1359,8 @@
     "forklaring": "Skift+Tab",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-gaa-til-i-dag",
@@ -1229,7 +1368,8 @@
     "forklaring": "ALT+SKIFT+Y eller Fn+Pil venstre",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-bytte-til-dagsvisning",
@@ -1237,7 +1377,8 @@
     "forklaring": "CTRL+ALT+1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-bytte-til-visning-av-hel-uke",
@@ -1245,7 +1386,8 @@
     "forklaring": "CTRL+ALT+2/ALT+\"-\"",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-bytte-til-maanedsvisning",
@@ -1253,7 +1395,8 @@
     "forklaring": "CTRL+ALT+4/ALT+\"=\"",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-bytte-til-arbeidsukevisning",
@@ -1261,7 +1404,8 @@
     "forklaring": "CTRL+ALT+2",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-bytte-til-tredagersvisning",
@@ -1269,7 +1413,8 @@
     "forklaring": "ALT+3",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-inviter-deltakere",
@@ -1277,7 +1422,8 @@
     "forklaring": "CTRL+N",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-aapne-et-arrangement",
@@ -1285,7 +1431,8 @@
     "forklaring": "ENTER",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-lukke-en-hendelse",
@@ -1293,7 +1440,8 @@
     "forklaring": "ESC",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-slette-en-hendelse",
@@ -1301,7 +1449,8 @@
     "forklaring": "Slett",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-skrive-ut-kalender",
@@ -1309,7 +1458,8 @@
     "forklaring": "Ctrl+P",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-soek-i-kalenderen",
@@ -1317,7 +1467,8 @@
     "forklaring": "ALT+Q",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-vis-hjelp",
@@ -1325,7 +1476,8 @@
     "forklaring": "?",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-videresende-en-hendelse",
@@ -1333,7 +1485,8 @@
     "forklaring": "Ctrl+Alt+F",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-svar-paa-moetet",
@@ -1341,7 +1494,8 @@
     "forklaring": "ALT+R",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-svare-alle-paa-moetet",
@@ -1349,7 +1503,8 @@
     "forklaring": "CTRL+ALT+R",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-bli-med-paa-arrangement",
@@ -1357,7 +1512,8 @@
     "forklaring": "CTRL+J",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-opprett-en-ny-hendelse",
@@ -1365,7 +1521,8 @@
     "forklaring": "ALT+N",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-lagre-en-avtale",
@@ -1373,7 +1530,8 @@
     "forklaring": "CTRL+S",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-sende-et-moete",
@@ -1381,7 +1539,8 @@
     "forklaring": "Ctrl+Enter",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-forkast-kladd",
@@ -1389,7 +1548,8 @@
     "forklaring": "ESC",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-sett-inn-en-hyperkobling",
@@ -1397,7 +1557,8 @@
     "forklaring": "CTRL+K",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-angre-handling",
@@ -1405,7 +1566,8 @@
     "forklaring": "CTRL+Z",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-proev-handlingen-paa-nytt",
@@ -1413,7 +1575,8 @@
     "forklaring": "CTRL+SKIFT+Y",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-opprette-en-moeteinvitasjon",
@@ -1421,7 +1584,8 @@
     "forklaring": "CTRL+SKIFT+Q",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Møter, samtaler og kalender"
   },
   {
     "id": "teams-marker-alle-som-lest-2",
@@ -1429,7 +1593,8 @@
     "forklaring": "CTRL+ALT+K",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-se-alle-uleste-aktiviteter",
@@ -1437,7 +1602,8 @@
     "forklaring": "CTRL+ALT+U",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-filtrer-aktivitet-til-tapte-anrop",
@@ -1445,7 +1611,8 @@
     "forklaring": "Ctrl+Alt+C",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-filtrer-aktivitet-til-omtaler",
@@ -1453,7 +1620,8 @@
     "forklaring": "CTRL+ALT+M",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "teams-last-ned-diagnoselogger",
@@ -1461,7 +1629,8 @@
     "forklaring": "CTRL+ALT+SKIFT+1",
     "tags": [
       "teams"
-    ]
+    ],
+    "undergruppe": "Chat og navigering"
   },
   {
     "id": "nye-outlook",
@@ -8129,7 +8298,7 @@
   {
     "id": "excel-sette-inn-et-notat",
     "tittel": "Sette inn et notat",
-    "forklaring": "SKIFT+F2 SKIFT+F2",
+    "forklaring": "Skift+F2",
     "tags": [
       "excel"
     ]
@@ -8137,7 +8306,7 @@
   {
     "id": "excel-sette-inn-en-traadkommentar",
     "tittel": "Sette inn en trådkommentar",
-    "forklaring": "CTRL+SKIFT+F2 CTRL+SKIFT+F2",
+    "forklaring": "Ctrl+Skift+F2",
     "tags": [
       "excel"
     ]
@@ -9732,7 +9901,8 @@
     "forklaring": "Ctrl+N",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-legge-til-et-nytt-lysbilde",
@@ -9740,7 +9910,8 @@
     "forklaring": "CTRL+M",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bruke-fet-formatering-paa-den-merkede-teksten",
@@ -9748,7 +9919,8 @@
     "forklaring": "CTRL+B",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-dialogboksen-skrift",
@@ -9756,7 +9928,8 @@
     "forklaring": "CTRL+T",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-klipp-ut-merket-tekst-objekt-eller-lysbilde",
@@ -9764,7 +9937,8 @@
     "forklaring": "CTRL+X",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-kopier-merket-tekst-objekt-eller-lysbilde",
@@ -9772,7 +9946,8 @@
     "forklaring": "CTRL+C",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lim-inn-utklipt-eller-kopiert-tekst-objekt-eller-",
@@ -9780,7 +9955,8 @@
     "forklaring": "CTRL+V",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sett-inn-en-hyperkobling",
@@ -9788,7 +9964,8 @@
     "forklaring": "CTRL+K",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sette-inn-en-ny-kommentar",
@@ -9796,7 +9973,8 @@
     "forklaring": "CTRL+ALT+M",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-angre-forrige-handling",
@@ -9804,7 +9982,8 @@
     "forklaring": "CTRL+Z",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gjoere-om-siste-handling",
@@ -9812,7 +9991,8 @@
     "forklaring": "CTRL+Y",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gaa-til-neste-lysbilde",
@@ -9820,7 +10000,8 @@
     "forklaring": "Fn+Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gaa-til-forrige-lysbilde",
@@ -9828,7 +10009,8 @@
     "forklaring": "Fn+Pil opp",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-start-lysbildefremvisningen",
@@ -9836,7 +10018,8 @@
     "forklaring": "F5",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-avslutt-lysbildefremvisningen",
@@ -9844,7 +10027,8 @@
     "forklaring": "ESC",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-skrive-ut-en-presentasjon",
@@ -9852,7 +10036,8 @@
     "forklaring": "Ctrl+P",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lagre-presentasjonen",
@@ -9860,7 +10045,8 @@
     "forklaring": "CTRL+S",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lukk-powerpoint",
@@ -9868,7 +10054,8 @@
     "forklaring": "CTRL+Q",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sette-inn-et-nytt-lysbilde",
@@ -9876,7 +10063,8 @@
     "forklaring": "CTRL+M",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-zoom-ut",
@@ -9884,7 +10072,8 @@
     "forklaring": "CTRL+MINUSTEGN (-)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-zoom-inn",
@@ -9892,7 +10081,8 @@
     "forklaring": "CTRL+PLUSSTEGN (+)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-zoom-for-aa-tilpasse",
@@ -9900,7 +10090,8 @@
     "forklaring": "Ctrl+Alt+O",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lage-en-kopi-av-det-merkede-lysbildet",
@@ -9908,7 +10099,8 @@
     "forklaring": "Ctrl+Skift+D",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-en-presentasjon",
@@ -9916,7 +10108,8 @@
     "forklaring": "CTRL+O",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lukke-en-presentasjon",
@@ -9924,7 +10117,8 @@
     "forklaring": "CTRL+D",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lagre-en-presentasjon-med-et-annet-navn-filformat",
@@ -9932,7 +10126,8 @@
     "forklaring": "Ctrl+Skift+S",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-avbryte-en-kommando-for-eksempel-lagre-som",
@@ -9940,7 +10135,8 @@
     "forklaring": "ESC",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-en-nylig-brukt-fil",
@@ -9948,7 +10144,8 @@
     "forklaring": "CTRL+O",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-klipp-ut-merket-objekt-eller-tekst",
@@ -9956,7 +10153,8 @@
     "forklaring": "CTRL+X",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-kopier-merket-objekt-eller-tekst",
@@ -9964,7 +10162,8 @@
     "forklaring": "CTRL+C",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lim-inn-utklipt-eller-kopiert-objekt-eller-tekst",
@@ -9972,7 +10171,8 @@
     "forklaring": "CTRL+V",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-duplisere-valgte-objekter",
@@ -9980,7 +10180,8 @@
     "forklaring": "CTRL+D eller Ctrl+dra",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-kopiere-formateringen-til-det-merkede-objektet-el",
@@ -9988,7 +10189,8 @@
     "forklaring": "Ctrl+Skift+C",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lime-inn-den-kopierte-formateringen-til-det-merke",
@@ -9996,7 +10198,8 @@
     "forklaring": "Ctrl+Skift+V",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-kopiere-animering",
@@ -10004,7 +10207,8 @@
     "forklaring": "ALT+SKIFT+C",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lime-inn-kopier-animering",
@@ -10012,7 +10216,8 @@
     "forklaring": "ALT+SKIFT+V",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-dialogboksen-lim-inn-utvalg",
@@ -10020,7 +10225,8 @@
     "forklaring": "CTRL+ALT+V",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-fokuset-til-den-foerste-flytende-figuren-s",
@@ -10028,7 +10234,8 @@
     "forklaring": "CTRL+ALT+5",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-merk-et-annet-objekt-naar-ett-objekt-er-merket",
@@ -10036,7 +10243,8 @@
     "forklaring": "TABULATOR eller SKIFT+TABULATOR",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-send-objektet-en-posisjon-tilbake",
@@ -10044,7 +10252,8 @@
     "forklaring": "CTRL+SKIFT+VENSTRE HAKEPARENTES ([)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-objektet-fremover-n-posisjon",
@@ -10052,7 +10261,8 @@
     "forklaring": "CTRL+SKIFT+HØYRE HAKEPARENTES (])",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-alle-objekter-paa-et-lysbilde",
@@ -10060,7 +10270,8 @@
     "forklaring": "CTRL+A",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gruppere-de-merkede-objektene",
@@ -10068,7 +10279,8 @@
     "forklaring": "Ctrl+G",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-oppheve-grupperingen-av-den-merkede-gruppen",
@@ -10076,7 +10288,8 @@
     "forklaring": "CTRL+SKIFT+G",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gruppere-de-merkede-objektene-paa-nytt",
@@ -10084,7 +10297,8 @@
     "forklaring": "Ctrl+Skift+J",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-roter-det-merkede-objektet-med-klokken-15-grader",
@@ -10092,7 +10306,8 @@
     "forklaring": "ALT+pil høyre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-roter-det-merkede-objektet-mot-klokken-15-grader",
@@ -10100,7 +10315,8 @@
     "forklaring": "ALT+pil venstre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-spill-av-eller-sett-paa-pause",
@@ -10108,7 +10324,8 @@
     "forklaring": "CTRL+MELLOMROM",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sette-inn-en-hyperkobling",
@@ -10116,7 +10333,8 @@
     "forklaring": "CTRL+K",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sette-inn-en-formel",
@@ -10124,7 +10342,8 @@
     "forklaring": "ALT+LIKHETSTEGN (=)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-redigere-et-koblet-eller-innebygd-objekt",
@@ -10132,7 +10351,8 @@
     "forklaring": "SKIFT+F10 eller Windows-menytasten",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-merke-ett-tegn-til-hoeyre",
@@ -10140,7 +10360,8 @@
     "forklaring": "SKIFT+PIL HØYRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-merk-ett-tegn-til-venstre",
@@ -10148,7 +10369,8 @@
     "forklaring": "SKIFT+PIL VENSTRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-merk-til-slutten-av-et-ord",
@@ -10156,7 +10378,8 @@
     "forklaring": "CTRL+SKIFT+PIL HØYRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-merk-til-begynnelsen-av-et-ord",
@@ -10164,7 +10387,8 @@
     "forklaring": "CTRL+SKIFT+PIL VENSTRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-fra-innsettingspunktet-til-samme-punkt-n-lin",
@@ -10172,7 +10396,8 @@
     "forklaring": "SKIFT+PIL OPP",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-fra-innsettingspunktet-til-samme-punkt-n-lin-2",
@@ -10180,7 +10405,8 @@
     "forklaring": "SKIFT+PIL NED",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-fra-innsettingspunktet-til-slutten-av-avsnit",
@@ -10188,7 +10414,8 @@
     "forklaring": "CTRL+SKIFT+PIL NED Piltast",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-alt-fra-innsettingspunktet-til-begynnelsen-a",
@@ -10196,7 +10423,8 @@
     "forklaring": "CTRL+SKIFT+PIL OPP",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-merke-tekst-i-et-objekt-med-et-merket-objekt",
@@ -10204,7 +10432,8 @@
     "forklaring": "ENTER",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-merk-et-objekt-naar-teksten-inne-i-objektet-er-me",
@@ -10212,7 +10441,8 @@
     "forklaring": "ESC",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aktiver-copilot-alternativer-for-aa-skrive-om-den",
@@ -10220,7 +10450,8 @@
     "forklaring": "SKIFT+F8",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-slette-ett-tegn-til-venstre",
@@ -10228,7 +10459,8 @@
     "forklaring": "TILBAKE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-slette-ett-ord-til-venstre",
@@ -10236,7 +10468,8 @@
     "forklaring": "CTRL+TILBAKE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-slett-ett-ord-til-hoeyre-med-markoeren-mellom-ord",
@@ -10244,7 +10477,8 @@
     "forklaring": "CTRL+DELETE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-ett-tegn-til-venstre",
@@ -10252,7 +10486,8 @@
     "forklaring": "Pil venstre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-ett-tegn-til-hoeyre",
@@ -10260,7 +10495,8 @@
     "forklaring": "Pil høyre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-n-linje-opp",
@@ -10268,7 +10504,8 @@
     "forklaring": "Pil opp",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-n-linje-ned",
@@ -10276,7 +10513,8 @@
     "forklaring": "Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gaa-ett-ord-mot-venstre",
@@ -10284,7 +10522,8 @@
     "forklaring": "CTRL+PIL VENSTRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-ett-ord-til-hoeyre",
@@ -10292,7 +10531,8 @@
     "forklaring": "CTRL+PIL HØYRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-til-slutten-av-en-linje",
@@ -10300,7 +10540,8 @@
     "forklaring": "Fn+Pil høyre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-til-begynnelsen-av-en-linje",
@@ -10308,7 +10549,8 @@
     "forklaring": "Fn+Pil venstre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-ett-avsnitt-opp",
@@ -10316,7 +10558,8 @@
     "forklaring": "CTRL+PIL OPP",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-ned-ett-avsnitt",
@@ -10324,7 +10567,8 @@
     "forklaring": "CTRL+PIL NED",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-til-slutten-av-en-tekstboks",
@@ -10332,7 +10576,8 @@
     "forklaring": "Ctrl+Fn+Pil høyre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-til-begynnelsen-av-en-tekstboks",
@@ -10340,7 +10585,8 @@
     "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-til-neste-plassholder-for-tittel-eller-broe",
@@ -10348,7 +10594,8 @@
     "forklaring": "CTRL+ENTER",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-hev-nivaa-paa-et-avsnitt",
@@ -10356,7 +10603,8 @@
     "forklaring": "ALT+SKIFT+PIL VENSTRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-senk-nivaa-paa-et-avsnitt",
@@ -10364,7 +10612,8 @@
     "forklaring": "ALT+SKIFT+PIL HØYRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-opp-valgte-avsnitt",
@@ -10372,7 +10621,8 @@
     "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-ned-valgte-avsnitt",
@@ -10380,7 +10630,8 @@
     "forklaring": "ALT+SKIFT+PIL NED",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-dialogboksen-soek",
@@ -10388,7 +10639,8 @@
     "forklaring": "Ctrl+F",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-dialogboksen-erstatt",
@@ -10396,7 +10648,8 @@
     "forklaring": "CTRL+H",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gjenta-siste-soek-handling",
@@ -10404,7 +10657,8 @@
     "forklaring": "SKIFT+F4",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-dialogboksen-skrift-2",
@@ -10412,7 +10666,8 @@
     "forklaring": "CTRL+T eller CTRL+SKIFT+F",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-oeke-skriftstoerrelsen",
@@ -10420,7 +10675,8 @@
     "forklaring": "CTRL+SKIFT+VINKEL HØYRE HAKEPARENTES (>)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-reduser-skriftstoerrelsen",
@@ -10428,7 +10684,8 @@
     "forklaring": "CTRL+SKIFT+VENSTRE VINKELPARENTES (<)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bytte-mellom-punktum-smaa-eller-store-bokstaver",
@@ -10436,7 +10693,8 @@
     "forklaring": "SKIFT+F3",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bruk-fet-formatering",
@@ -10444,7 +10702,8 @@
     "forklaring": "CTRL+B",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bruke-understrekformatering",
@@ -10452,7 +10711,8 @@
     "forklaring": "CTRL+U",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bruk-kursiv-formatering",
@@ -10460,7 +10720,8 @@
     "forklaring": "CTRL+K",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bruk-senket-tekstformatering-automatisk-mellomrom",
@@ -10468,7 +10729,8 @@
     "forklaring": "CTRL+LIKHETSTEGN (=)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bruk-hevet-tekstformatering-automatisk-mellomrom",
@@ -10476,7 +10738,8 @@
     "forklaring": "CTRL+SKIFT+PLUSSTEGN (+)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-fjern-manuell-tegnformatering-for-eksempel-senket",
@@ -10484,7 +10747,8 @@
     "forklaring": "CTRL+MELLOMROM",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-midtstille-et-avsnitt",
@@ -10492,7 +10756,8 @@
     "forklaring": "CTRL+E",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-blokkjustere-et-avsnitt",
@@ -10500,7 +10765,8 @@
     "forklaring": "CTRL+J",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-venstrejustere-et-avsnitt",
@@ -10508,7 +10774,8 @@
     "forklaring": "Ctrl+L",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-hoeyrejustere-et-avsnitt",
@@ -10516,7 +10783,8 @@
     "forklaring": "CTRL+R",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-til-neste-celle",
@@ -10524,7 +10792,8 @@
     "forklaring": "TABULATOR-tasten",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gaa-til-forrige-celle",
@@ -10532,7 +10801,8 @@
     "forklaring": "Skift+Tab",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gaa-til-neste-rad",
@@ -10540,7 +10810,8 @@
     "forklaring": "Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-til-forrige-rad",
@@ -10548,7 +10819,8 @@
     "forklaring": "Pil opp",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sette-inn-tabulatorstopp-i-en-celle",
@@ -10556,7 +10828,8 @@
     "forklaring": "Ctrl+Tab",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-starte-et-nytt-avsnitt",
@@ -10564,7 +10837,8 @@
     "forklaring": "Enter",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-legge-til-en-ny-rad-nederst-i-tabellen-med-markoe",
@@ -10572,7 +10846,8 @@
     "forklaring": "TABULATOR-tasten",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-opp-i",
@@ -10580,7 +10855,8 @@
     "forklaring": "CTRL+PIL OPP",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-ned-i",
@@ -10588,7 +10864,8 @@
     "forklaring": "CTRL+PIL NED",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-til-b",
@@ -10596,7 +10873,8 @@
     "forklaring": "CTRL+SKIFT+PIL OPP",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-til-s",
@@ -10604,7 +10882,8 @@
     "forklaring": "CTRL+SKIFT+PIL NED",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bytte-til-presentasjonsvisning",
@@ -10612,7 +10891,8 @@
     "forklaring": "Alt+F5",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bytte-til-lysbildefremvisning",
@@ -10620,7 +10900,8 @@
     "forklaring": "F5",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-veksle-mellom-disposisjons-og-miniatyrbildevisnin",
@@ -10628,7 +10909,8 @@
     "forklaring": "CTRL+SKIFT+TAB",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bytte-til-full-skjerm-skjul-menyer",
@@ -10636,7 +10918,8 @@
     "forklaring": "Ctrl+F1",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vis-skjul-stoettelinjer",
@@ -10644,7 +10927,8 @@
     "forklaring": "ALT+F9",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vis-skjul-rutenettet",
@@ -10652,7 +10936,8 @@
     "forklaring": "SKIFT+F9",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bla-med-klokken-gjennom-paneler-i-normal-visninge",
@@ -10660,7 +10945,8 @@
     "forklaring": "F6",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bla-mot-klokken-gjennom-paneler-i-normal-visninge",
@@ -10668,7 +10954,8 @@
     "forklaring": "SKIFT+F6",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bytt-mellom-miniatyrbilde-ruten-og-disposisjonsvi",
@@ -10676,7 +10963,8 @@
     "forklaring": "Ctrl+Skift+Tab",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vis-overskrifter-paa-nivaa-1-i-disposisjonsvisnin",
@@ -10684,7 +10972,8 @@
     "forklaring": "ALT+SKIFT+1",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-utvid-disposisjonsvisningsteksten-under-en-oversk",
@@ -10692,7 +10981,8 @@
     "forklaring": "ALT+SKIFT+PLUSSTEGN (+)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-skjul-disposisjonsvisningstekst-under-en-overskri",
@@ -10700,7 +10990,8 @@
     "forklaring": "ALT+SKIFT+MINUSTEGN (-)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-all-tekst-i-disposisjon-visning",
@@ -10708,7 +10999,8 @@
     "forklaring": "CTRL+A",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-alle-lysbilder-i-lysbildesortering-visning-e",
@@ -10716,7 +11008,8 @@
     "forklaring": "CTRL+A",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vis-hjelpemenyen",
@@ -10724,15 +11017,17 @@
     "forklaring": "F1",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-valg-ruten",
     "tittel": "Åpne Valg -ruten",
-    "forklaring": "ALT+F10 Alt+H, S, L, P",
+    "forklaring": "Alt+F10 eller Alt+H, S, L, P",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bla-gjennom-og-flytte-fokus-til-de-forskjellige-r",
@@ -10740,7 +11035,8 @@
     "forklaring": "F6",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vise-hurtigmenyen",
@@ -10748,7 +11044,8 @@
     "forklaring": "SKIFT+F10 eller Windows-menytasten",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-fokus-til-ett-element-eller-n-gruppe",
@@ -10756,7 +11053,8 @@
     "forklaring": "Pil opp eller pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-fokus-fra-et-element-i-en-gruppe-til-den-o",
@@ -10764,7 +11062,8 @@
     "forklaring": "Pil venstre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-fokus-fra-en-gruppe-til-det-foerste-elemen",
@@ -10772,7 +11071,8 @@
     "forklaring": "Pil høyre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vise-en-fokusert-gruppe-og-alle-underordnede-grup",
@@ -10780,7 +11080,8 @@
     "forklaring": "Stjerne-tegnet (*)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vise-en-fokusert-gruppe",
@@ -10788,7 +11089,8 @@
     "forklaring": "Pluss-tegnet (+)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-skjule-en-fokusert-gruppe",
@@ -10796,7 +11098,8 @@
     "forklaring": "Minus-tegnet (-)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-fokus-til-et-element-og-merke-det",
@@ -10804,7 +11107,8 @@
     "forklaring": "SKIFT+PIL OPP eller PIL NED",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-merke-et-fokusert-element",
@@ -10812,7 +11116,8 @@
     "forklaring": "MELLOMROM eller ENTER",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-avbryte-merking-av-et-fokusert-element",
@@ -10820,7 +11125,8 @@
     "forklaring": "SKIFT+MELLOMROM eller SKIFT+ENTER",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-et-merket-element-fremover",
@@ -10828,7 +11134,8 @@
     "forklaring": "Ctrl+Skift+F",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-et-merket-element-bakover",
@@ -10836,7 +11143,8 @@
     "forklaring": "CTRL+SKIFT+B",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vise-skjule-et-fokusert-element",
@@ -10844,7 +11152,8 @@
     "forklaring": "Ctrl+Skift+S",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-gi-nytt-navn-til-et-fokusert-element",
@@ -10852,7 +11161,8 @@
     "forklaring": "F2",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-bytt-tastaturfokus-i-valgruten-mellom-trevisning-",
@@ -10860,7 +11170,8 @@
     "forklaring": "TAB-tasten eller SKIFT+TAB",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-skjul-alle-grupper-med-fokus-i-trevisningen-i-val",
@@ -10868,7 +11179,8 @@
     "forklaring": "ALT+SKIFT+1",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vise-alle-grupper",
@@ -10876,7 +11188,8 @@
     "forklaring": "ALT+SKIFT+9",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-til-en-oppgaverute-fra-en-annen-rute-eller",
@@ -10884,7 +11197,8 @@
     "forklaring": "F6",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velge-neste-eller-forrige-alternativ-i-en-oppgave",
@@ -10892,7 +11206,8 @@
     "forklaring": "TAB-tasten eller SKIFT+TAB",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vise-alle-kommandoer-paa-menyen-i-oppgaveruten",
@@ -10900,7 +11215,8 @@
     "forklaring": "CTRL+MELLOMROM",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-til-neste-kommando-i-oppgaveruten",
@@ -10908,7 +11224,8 @@
     "forklaring": "Pil opp og Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-det-fremhevede-alternativet-i-oppgaveruten",
@@ -10916,7 +11233,8 @@
     "forklaring": "ENTER",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-endre-stoerrelse-paa-oppgaveruten-etter-at-",
@@ -10924,7 +11242,8 @@
     "forklaring": "Piltastene",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-lukke-en-oppgaverute",
@@ -10932,7 +11251,8 @@
     "forklaring": "CTRL+MELLOMROM, C",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-til-fortell-meg-det-eller-soek-feltet-paa-b",
@@ -10940,7 +11260,8 @@
     "forklaring": "ALT+Q",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-fil-menyen",
@@ -10948,7 +11269,8 @@
     "forklaring": "ALT+F",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-hjem-fanen-og-formater-lysbilder-skrifter-p",
@@ -10956,7 +11278,8 @@
     "forklaring": "ALT+H",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-sett-inn-fanen-og-sett-inn-lysbilder-tabell",
@@ -10964,7 +11287,8 @@
     "forklaring": "ALT+N",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-tegn-fanen-og-faa-tilgang-til-tegneverktoey",
@@ -10972,7 +11296,8 @@
     "forklaring": "Alt+J, I",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-design-fanen-og-bruk-temaer-og-tilpass-lysb",
@@ -10980,7 +11305,8 @@
     "forklaring": "ALT+G",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-overganger-fanen-og-legg-til-overganger-mel",
@@ -10988,7 +11314,8 @@
     "forklaring": "ALT+K",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-animasjoner-fanen-og-legg-til-animasjoner-p",
@@ -10996,7 +11323,8 @@
     "forklaring": "ALT+A",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-lysbildefremvisning-fanen-og-konfigurer-og-",
@@ -11004,7 +11332,8 @@
     "forklaring": "ALT+S",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-se-gjennom-fanen-og-kontroller-stavemaaten-",
@@ -11012,7 +11341,8 @@
     "forklaring": "ALT+R",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-visning-fanen-og-forhaandsvis-presentasjons",
@@ -11020,7 +11350,8 @@
     "forklaring": "ALT+W",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-innspilling-fanen-og-behandle-skjerminnspil",
@@ -11028,7 +11359,8 @@
     "forklaring": "ALT+E",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-hjelp-fanen-og-bla-gjennom-powerpoint-konta",
@@ -11036,7 +11368,8 @@
     "forklaring": "ALT+Y, 2",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velge-den-aktive-fanen-paa-baandet-og-aktivere-ti",
@@ -11044,7 +11377,8 @@
     "forklaring": "ALT eller F10.",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-fokuset-til-kommandoer-paa-baandet",
@@ -11052,7 +11386,8 @@
     "forklaring": "TAB-tasten eller SKIFT+TAB",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-henholdsvis-ned-opp-til-venstre-eller-til-",
@@ -11060,7 +11395,8 @@
     "forklaring": "Piltastene",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vise-verktoeytipset-for-baandelementet-som-er-i-f",
@@ -11068,7 +11404,8 @@
     "forklaring": "CTRL+SKIFT+F10",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aktivere-en-valgt-kommando-eller-kontroll",
@@ -11076,7 +11413,8 @@
     "forklaring": "MELLOMROM eller ENTER",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-listen-for-en-valgt-kommando",
@@ -11084,7 +11422,8 @@
     "forklaring": "Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-menyen-for-en-valgt-knapp",
@@ -11092,7 +11431,8 @@
     "forklaring": "ALT+Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytt-til-neste-kommando-naar-en-meny-eller-under",
@@ -11100,7 +11440,8 @@
     "forklaring": "Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vise-skjule-baandet",
@@ -11108,7 +11449,8 @@
     "forklaring": "Ctrl+F1",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-en-hurtigmeny",
@@ -11116,7 +11458,8 @@
     "forklaring": "SKIFT+F10 eller Windows-menytasten",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-flytte-til-undermenyen-naar-en-hovedmeny-er-aapen",
@@ -11124,7 +11467,8 @@
     "forklaring": "Pil venstre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-faa-hjelp-for-valgt-kommando-eller-kontroll-paa-b",
@@ -11132,7 +11476,8 @@
     "forklaring": "F1",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-endre-skriftstoerrelsen-for-den-merkede-teksten",
@@ -11140,7 +11485,8 @@
     "forklaring": "ALT+H, F, S",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-dialogboksen-zoom",
@@ -11148,7 +11494,8 @@
     "forklaring": "ALT+W, Q",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-skriv-ut-alle-lysbildene-i-presentasjonen-som-hel",
@@ -11156,7 +11503,8 @@
     "forklaring": "Alt+P, P",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-et-tema",
@@ -11164,7 +11512,8 @@
     "forklaring": "ALT+G, H",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-velg-et-lysbildeoppsett",
@@ -11172,7 +11521,8 @@
     "forklaring": "ALT+H, L",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-vis-skjul-notater-ruten-i-normal-visningen",
@@ -11180,7 +11530,8 @@
     "forklaring": "Alt+W, P, N",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-aapne-utklippstavlen",
@@ -11188,7 +11539,8 @@
     "forklaring": "ALT+H, F, O",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sette-inn-en-tekstboks",
@@ -11196,7 +11548,8 @@
     "forklaring": "ALT+N, X",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sette-inn-et-innebygd-dokument-eller-regneark-som",
@@ -11204,7 +11557,8 @@
     "forklaring": "Alt+N, J",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sette-inn-wordart-grafikk",
@@ -11212,7 +11566,8 @@
     "forklaring": "Alt+N, W",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-legge-til-et-bilde-fra-enheten",
@@ -11220,7 +11575,8 @@
     "forklaring": "Alt+N, P, D",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-sett-inn-en-figur",
@@ -11228,7 +11584,8 @@
     "forklaring": "Alt+N, S, H",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Redigering"
   },
   {
     "id": "powerpoint-starte-en-presentasjon-fra-begynnelsen",
@@ -11236,7 +11593,8 @@
     "forklaring": "F5",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-starte-en-presentasjon-fra-gjeldende-lysbilde",
@@ -11244,7 +11602,8 @@
     "forklaring": "Skift+F5",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-starte-presentasjonen-i-presentasjonsvisning",
@@ -11252,15 +11611,17 @@
     "forklaring": "Alt+F5",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-utfoere-neste-animasjon-eller-gaa-til-neste-lysbi",
     "tittel": "Utføre neste animasjon eller gå til neste lysbilde",
-    "forklaring": "N ENTER Fn+Pil ned Pil høyre Pil ned MELLOMROM",
+    "forklaring": "N eller Enter eller Fn+Pil ned eller Pil høyre eller Pil ned eller Mellomrom",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-utfoere-forrige-animasjon-eller-gaa-tilbake-til-f",
@@ -11268,7 +11629,8 @@
     "forklaring": "P Fn+Pil opp Pil venstre Pil opp TILBAKE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-skjule-pekeren-og-navigeringsknappene",
@@ -11276,7 +11638,8 @@
     "forklaring": "CTRL+H",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-vise-et-tomt-svart-lysbilde-eller-gaa-tilbake-til",
@@ -11284,7 +11647,8 @@
     "forklaring": "B Punktum (.)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-vise-et-tomt-hvitt-lysbilde-eller-gaa-tilbake-til",
@@ -11292,7 +11656,8 @@
     "forklaring": "O Komma (,)",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-avslutt-presentasjonen",
@@ -11300,7 +11665,8 @@
     "forklaring": "ESC",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-gaa-til-et-bestemt-lysbilde",
@@ -11308,7 +11674,8 @@
     "forklaring": "ENTER",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-gaa-til-neste-lysbilde-hvis-neste-lysbilde-er-skj",
@@ -11316,7 +11683,8 @@
     "forklaring": "H",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-vis-dialogboksen-alle-lysbilder",
@@ -11324,7 +11692,8 @@
     "forklaring": "CTRL+S",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-gaa-tilbake-til-foerste-lysbilde",
@@ -11332,7 +11701,8 @@
     "forklaring": "Fn+Pil venstre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-gaa-til-siste-lysbilde",
@@ -11340,7 +11710,8 @@
     "forklaring": "Fn+Pil høyre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-vis-oppgavelinjen-paa-datamaskinen",
@@ -11348,7 +11719,8 @@
     "forklaring": "CTRL+T",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-vise-hurtigtastmenyen",
@@ -11356,7 +11728,8 @@
     "forklaring": "F1",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-gaa-til-neste-hotspot-paa-gjeldende-lysbilde",
@@ -11364,7 +11737,8 @@
     "forklaring": "TABULATOR-tasten",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-gaa-til-forrige-hyperkobling-paa-lysbildet",
@@ -11372,7 +11746,8 @@
     "forklaring": "Skift+Tab",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-aapne-den-merkede-hyperkoblingen",
@@ -11380,7 +11755,8 @@
     "forklaring": "Enter",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-endre-kamerakilden-for-cameo-bare-powerpoint-for-",
@@ -11388,15 +11764,17 @@
     "forklaring": "ALT+X",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-spill-av-eller-sett-paa-pause-2",
     "tittel": "Spill av eller sett på pause",
-    "forklaring": "ALT+P CTRL+MELLOMROM",
+    "forklaring": "Alt+P eller Ctrl+Mellomrom",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-stopp-medieavspilling",
@@ -11404,7 +11782,8 @@
     "forklaring": "ALT+U",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-gaa-til-neste-bokmerke",
@@ -11412,7 +11791,8 @@
     "forklaring": "ALT+Fn+Pil høyre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-gaa-til-forrige-bokmerke",
@@ -11420,7 +11800,8 @@
     "forklaring": "ALT+Fn+Pil venstre",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-oek-lydvolumet",
@@ -11428,7 +11809,8 @@
     "forklaring": "ALT+PIL OPP",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-reduser-lydvolumet",
@@ -11436,7 +11818,8 @@
     "forklaring": "ALT+PIL NED",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-demp-lyden",
@@ -11444,7 +11827,8 @@
     "forklaring": "ALT+U",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-flytte-tre-sekunder-fremover",
@@ -11452,7 +11836,8 @@
     "forklaring": "ALT+SKIFT+Fn+Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-flytt-tre-sekunder-bakover",
@@ -11460,7 +11845,8 @@
     "forklaring": "ALT+SKIFT+Fn+Pil opp",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-flytt-fremover-0-25-sekunder-og-deretter-ta-en-pa",
@@ -11468,7 +11854,8 @@
     "forklaring": "ALT+SKIFT+PIL HØYRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-flytt-0-25-sekunder-bakover-og-deretter-ta-en-pau",
@@ -11476,7 +11863,8 @@
     "forklaring": "ALT+SKIFT+PIL VENSTRE",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-vis-skjul-menyen-for-lyd-og-undertekster",
@@ -11484,7 +11872,8 @@
     "forklaring": "ALT+J",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-start-laserpekeren",
@@ -11492,7 +11881,8 @@
     "forklaring": "CTRL+L",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-endre-pekeren-til-en-penn",
@@ -11500,7 +11890,8 @@
     "forklaring": "CTRL+P",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-endre-pekeren-til-en-pil",
@@ -11508,7 +11899,8 @@
     "forklaring": "CTRL+A",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-endre-pennepekeren-til-et-viskelaer",
@@ -11516,7 +11908,8 @@
     "forklaring": "Ctrl+E",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-skjule-pilpekeren",
@@ -11524,7 +11917,8 @@
     "forklaring": "CTRL+H",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-vise-skjule-haandskriftsmarkeringer",
@@ -11532,7 +11926,8 @@
     "forklaring": "CTRL+M",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-slette-merknader-paa-skjermen",
@@ -11540,7 +11935,8 @@
     "forklaring": "E",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-angi-nye-tidsberegninger-under-innoeving",
@@ -11548,7 +11944,8 @@
     "forklaring": "T",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-bruke-opprinnelige-tidsberegninger-under-innoevin",
@@ -11556,7 +11953,8 @@
     "forklaring": "O",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-bruke-museklikk-til-aa-gaa-videre-under-innoeving",
@@ -11564,7 +11962,8 @@
     "forklaring": "M",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-spille-inn-lysbildekommentar-og-tidsberegning-paa",
@@ -11572,7 +11971,8 @@
     "forklaring": "R",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-veksle-mellom-omraader-i-presentasjonsvisningen",
@@ -11580,7 +11980,8 @@
     "forklaring": "F6",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-bla-gjennom-verktoey-i-et-omraade-for-presentasjo",
@@ -11588,7 +11989,8 @@
     "forklaring": "TABULATOR-tasten",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-rull-ned-n-linje-i-notatruten",
@@ -11596,7 +11998,8 @@
     "forklaring": "CTRL+PIL NED",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-rulle-opp-n-linje-i-notatruten",
@@ -11604,7 +12007,8 @@
     "forklaring": "CTRL+PIL OPP",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-rull-ned-ett-skjermbilde-i-notatruten",
@@ -11612,7 +12016,8 @@
     "forklaring": "CTRL+Fn+Pil ned",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-rulle-opp-ett-skjermbilde-i-notatruten",
@@ -11620,7 +12025,8 @@
     "forklaring": "CTRL+Fn+Pil opp",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-les-neste-linje-i-notatruten",
@@ -11628,7 +12034,8 @@
     "forklaring": "ALT+A",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-les-forrige-linje-i-notatruten",
@@ -11636,7 +12043,8 @@
     "forklaring": "ALT+Z",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-les-av-tiden-som-er-gaatt",
@@ -11644,7 +12052,8 @@
     "forklaring": "ALT+W",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-lese-neste-trinn-for-eksempel-neste-lysbilde-nest",
@@ -11652,7 +12061,8 @@
     "forklaring": "ALT+Q",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "powerpoint-lukk-presentasjonsvisning",
@@ -11660,7 +12070,8 @@
     "forklaring": "ESC",
     "tags": [
       "powerpoint"
-    ]
+    ],
+    "undergruppe": "Presentasjon"
   },
   {
     "id": "onenote-aapne-et-nytt-onenote-vindu",
@@ -13057,7 +13468,7 @@
   {
     "id": "onenote-flytt-til-neste-soekeresultat-mens-du-soeker-paa-gje",
     "tittel": "Flytt til neste søkeresultat mens du søker på gjeldende side",
-    "forklaring": "ENTER F3",
+    "forklaring": "Enter eller F3",
     "tags": [
       "onenote"
     ]

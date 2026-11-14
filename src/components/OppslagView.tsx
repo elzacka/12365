@@ -26,6 +26,13 @@ function joinTags(tags: string[]): string {
 // [id, heading, entries]
 type Group = [string, string, Oppslag[]]
 
+// A group's entries under its subheadings, in their order; entries without one come first.
+function bySubgroup(items: Oppslag[], order: string[] = []): [string | null, Oppslag[]][] {
+  const parts: [string | null, Oppslag[]][] = [[null, items.filter(o => !o.undergruppe || !order.includes(o.undergruppe))]]
+  for (const sub of order) parts.push([sub, items.filter(o => o.undergruppe === sub)])
+  return parts.filter(([, list]) => list.length > 0)
+}
+
 function alphabetical(list: Oppslag[]): Oppslag[] {
   return [...list].sort((a, b) => a.tittel.localeCompare(b.tittel, 'nb'))
 }
@@ -211,14 +218,21 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
               {heading}
             </h2>
           </div>
-          <OppslagList
-            ord={items}
-            keys={keys}
-            expandedId={expandedId}
-            onExpand={handleExpand}
-            onTagClick={handleTagClick}
-            activeTags={activeTags}
-          />
+          <div className="space-y-3">
+            {bySubgroup(items, groups?.find(g => g.tag === id)?.undergrupper).map(([sub, list]) => (
+              <div key={sub ?? ''}>
+                {sub && <h3 className="mb-1.5 px-1 text-xs font-semibold text-slate-500">{sub}</h3>}
+                <OppslagList
+                  ord={list}
+                  keys={keys}
+                  expandedId={expandedId}
+                  onExpand={handleExpand}
+                  onTagClick={handleTagClick}
+                  activeTags={activeTags}
+                />
+              </div>
+            ))}
+          </div>
         </section>
       ))}
     </div>

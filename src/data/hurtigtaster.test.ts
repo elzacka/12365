@@ -22,6 +22,13 @@ describe('hurtigtaster.json', () => {
     }
   })
 
+  it('gives every Teams and PowerPoint row a subheading its section lists', () => {
+    for (const g of GROUPS.filter(g => g.undergrupper)) {
+      const rows = entries.filter(e => e.tags[0] === g.tag)
+      expect(rows.filter(e => !g.undergrupper!.includes(e.undergruppe ?? '')).map(e => e.id), g.tag).toEqual([])
+    }
+  })
+
   it('lists the apps alphabetically, then the general sections', () => {
     const apps = GROUPS.filter(g => !GENERAL_TAGS.includes(g.tag)).map(g => g.title)
     expect(apps).toEqual([...apps].sort((a, b) => a.localeCompare(b, 'nb')))

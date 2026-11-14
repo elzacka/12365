@@ -135,6 +135,8 @@ export interface E5LicenseOverview {
 export interface OppslagGroup {
   tag: string
   title: string
+  /** Subheadings, in this order; entries carry theirs in `undergruppe`. */
+  undergrupper?: string[]
 }
 
 export interface Oppslag {
@@ -144,4 +146,5 @@ export interface Oppslag {
   forklaring: string
   tags: string[]
   alias?: string[]
+  undergruppe?: string
 }
