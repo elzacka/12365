@@ -1,6 +1,7 @@
 import { useId } from 'react'
 
 // Selvhostede SVG-ikoner for offline-støtte. Merket «Tabler»: Tabler Icons, © Paweł Kuna, MIT-lisens.
+// Merket «Material»: Material Symbols, © Google, Apache-2.0-lisens.
 
 interface IconProps {
   size?: number
@@ -209,12 +210,11 @@ export function WindowsKeyIcon({ size = 12, className }: IconProps) {
   )
 }
 
-// The Tab key label: arrows to the left and right margin.
+// Material: keyboard_tab
 export function TabKeyIcon({ size = 12, className }: IconProps) {
   return (
-    <svg width={size} height={size} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
-      <path d="M14 4.5h-11M6 1.5l-3 3l3 3M2 1.5v6" />
-      <path d="M2 11.5h11M10 8.5l3 3l-3 3M14 8.5v6" />
+    <svg width={size} height={size} viewBox="0 -960 960 960" fill="currentColor" className={className}>
+      <path d="M800-240v-480h80v480h-80Zm-320 0-57-56 144-144H80v-80h487L424-664l56-56 240 240-240 240Z" />
     </svg>
   )
 }
