@@ -49,6 +49,15 @@ describe('hurtigtaster.json', () => {
     expect(unknown).toEqual([])
   })
 
+  it('writes the Norwegian key name Skift, so a search for «skift» finds every row', () => {
+    expect(entries.filter(e => /shift/i.test(e.forklaring)).map(e => e.id)).toEqual([])
+  })
+
+  it('finds the Teams microphone shortcut when searching «mikrofon»', () => {
+    const hits = searchOrd(buildIndex(entries), new Map(entries.map(e => [e.id, e])), 'mikrofon')
+    expect(hits.some(e => e.tags[0] === 'teams')).toBe(true)
+  })
+
   it('finds a key inside a combination', () => {
     const target = entries.find(e => /^CTRL\+SKIFT\+M$/i.test(e.forklaring))!
     const hits = searchOrd(buildIndex(entries), new Map(entries.map(e => [e.id, e])), 'skift')

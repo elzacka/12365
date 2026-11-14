@@ -130,7 +130,7 @@
   {
     "id": "teams-aapne-filter",
     "tittel": "Åpne filter",
-    "forklaring": "Ctrl+Shift+F",
+    "forklaring": "Ctrl+Skift+F",
     "tags": [
       "teams"
     ]
@@ -226,7 +226,7 @@
   {
     "id": "teams-gaa-tilbake-til-standardbredden",
     "tittel": "Gå tilbake til standardbredden",
-    "forklaring": "CTRL+SHIFT+ENTER",
+    "forklaring": "CTRL+Skift+ENTER",
     "tags": [
       "teams"
     ]
@@ -234,7 +234,7 @@
   {
     "id": "teams-fest-et-vindu-oeverst",
     "tittel": "Fest et vindu øverst",
-    "forklaring": "Ctrl+Shift+T",
+    "forklaring": "Ctrl+Skift+T",
     "tags": [
       "teams"
     ]
@@ -370,7 +370,7 @@
   {
     "id": "teams-gaa-til-forrige-inndeling",
     "tittel": "Gå til forrige inndeling",
-    "forklaring": "Ctrl+Shift+F6",
+    "forklaring": "Ctrl+Skift+F6",
     "tags": [
       "teams"
     ]
@@ -594,7 +594,7 @@
   {
     "id": "teams-utvide-skriveboksen",
     "tittel": "Utvide skriveboksen",
-    "forklaring": "Ctrl+Shift+X",
+    "forklaring": "Ctrl+Skift+X",
     "tags": [
       "teams"
     ]
@@ -738,7 +738,7 @@
   {
     "id": "teams-sett-inn-linjebundet-kode",
     "tittel": "Sett inn linjebundet kode",
-    "forklaring": "Ctrl+Shift+C",
+    "forklaring": "Ctrl+Skift+C",
     "tags": [
       "teams"
     ]
@@ -762,7 +762,7 @@
   {
     "id": "teams-godta-videosamtale",
     "tittel": "Godta videosamtale",
-    "forklaring": "Ctrl+Shift+A",
+    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "teams"
     ]
@@ -770,7 +770,7 @@
   {
     "id": "teams-godta-lydanrop",
     "tittel": "Godta lydanrop",
-    "forklaring": "Ctrl+Shift+S",
+    "forklaring": "Ctrl+Skift+S",
     "tags": [
       "teams"
     ]
@@ -778,7 +778,7 @@
   {
     "id": "teams-avslaa-anropet",
     "tittel": "Avslå anropet",
-    "forklaring": "Ctrl+Shift+D",
+    "forklaring": "Ctrl+Skift+D",
     "tags": [
       "teams"
     ]
@@ -849,8 +849,8 @@
   },
   {
     "id": "teams-slaa-demping-paa-av",
-    "tittel": "Slå demping på/av",
-    "forklaring": "Ctrl+Shift+M",
+    "tittel": "Demp/opphev demping av mikrofonen",
+    "forklaring": "Ctrl+Skift+M",
     "tags": [
       "teams"
     ]
@@ -865,8 +865,8 @@
   },
   {
     "id": "teams-opphev-dempingen-midlertidig",
-    "tittel": "Opphev dempingen midlertidig",
-    "forklaring": "Ctrl+Mellomrom",
+    "tittel": "Opphev demping av mikrofonen midlertidig",
+    "forklaring": "Hold inne Ctrl+Mellomrom",
     "tags": [
       "teams"
     ]
@@ -874,7 +874,7 @@
   {
     "id": "teams-les-opp-opprakte-hender-skjermleser",
     "tittel": "Les opp opprakte hender (skjermleser)",
-    "forklaring": "CTRL+SHIFT+L",
+    "forklaring": "CTRL+Skift+L",
     "tags": [
       "teams"
     ]
@@ -882,15 +882,15 @@
   {
     "id": "teams-rekk-opp-eller-senk-haanden",
     "tittel": "Rekk opp eller senk hånden",
-    "forklaring": "CTRL+SHIFT+K",
+    "forklaring": "CTRL+Skift+K",
     "tags": [
       "teams"
     ]
   },
   {
     "id": "teams-aktiver-deaktiver-video",
-    "tittel": "Aktiver/deaktiver video",
-    "forklaring": "Ctrl+Shift+O",
+    "tittel": "Slå kameraet på/av",
+    "forklaring": "Ctrl+Skift+O",
     "tags": [
       "teams"
     ]
@@ -914,7 +914,7 @@
   {
     "id": "teams-avslaa-skjermdeling",
     "tittel": "Avslå skjermdeling",
-    "forklaring": "Ctrl+Shift+D",
+    "forklaring": "Ctrl+Skift+D",
     "tags": [
       "teams"
     ]
@@ -922,7 +922,7 @@
   {
     "id": "teams-godta-skjermdeling",
     "tittel": "Godta skjermdeling",
-    "forklaring": "Ctrl+Shift+A",
+    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "teams"
     ]
@@ -970,7 +970,7 @@
   {
     "id": "teams-gaa-til-foreslaatt-tidspunkt",
     "tittel": "Gå til foreslått tidspunkt",
-    "forklaring": "Alt+Shift+S",
+    "forklaring": "Alt+Skift+S",
     "tags": [
       "teams"
     ]
@@ -978,7 +978,7 @@
   {
     "id": "teams-bli-med-fra-moete-startet-varsel",
     "tittel": "Bli med fra møte startet varsel",
-    "forklaring": "Ctrl+Shift+J",
+    "forklaring": "Ctrl+Skift+J",
     "tags": [
       "teams"
     ]
@@ -994,7 +994,7 @@
   {
     "id": "teams-panorer-delt-innhold",
     "tittel": "Panorer delt innhold",
-    "forklaring": "Alt+Shift+Pil opp",
+    "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "teams"
     ]
@@ -1218,7 +1218,7 @@
   {
     "id": "teams-gaa-til-en-tidligere-hendelse-eller-omraade-i-gjeldend",
     "tittel": "Gå til en tidligere hendelse eller område i gjeldende visning",
-    "forklaring": "Shift+Tab",
+    "forklaring": "Skift+Tab",
     "tags": [
       "teams"
     ]
@@ -2191,7 +2191,7 @@
   {
     "id": "klassisk-outlook-opprette-en-avtale",
     "tittel": "Opprette en avtale",
-    "forklaring": "Ctrl+Shift+A",
+    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "outlook"
     ]
@@ -2535,7 +2535,7 @@
   {
     "id": "klassisk-outlook-opprette-en-kontakt",
     "tittel": "Opprette en kontakt",
-    "forklaring": "Ctrl+Shift+C",
+    "forklaring": "Ctrl+Skift+C",
     "tags": [
       "outlook"
     ]
@@ -2543,7 +2543,7 @@
   {
     "id": "klassisk-outlook-opprette-en-kontaktgruppe",
     "tittel": "Opprette en kontaktgruppe",
-    "forklaring": "Ctrl+Shift+L",
+    "forklaring": "Ctrl+Skift+L",
     "tags": [
       "outlook"
     ]
@@ -2551,7 +2551,7 @@
   {
     "id": "klassisk-outlook-opprette-en-telefaks",
     "tittel": "Opprette en telefaks",
-    "forklaring": "Ctrl+Shift+X",
+    "forklaring": "Ctrl+Skift+X",
     "tags": [
       "outlook"
     ]
@@ -2599,7 +2599,7 @@
   {
     "id": "klassisk-outlook-publisere-til-den-merkede-mappen",
     "tittel": "Publisere til den merkede mappen",
-    "forklaring": "Ctrl+Shift+S",
+    "forklaring": "Ctrl+Skift+S",
     "tags": [
       "outlook"
     ]
@@ -2615,7 +2615,7 @@
   {
     "id": "klassisk-outlook-opprette-en-soekemappe",
     "tittel": "Opprette en søkemappe",
-    "forklaring": "Ctrl+Shift+P",
+    "forklaring": "Ctrl+Skift+P",
     "tags": [
       "outlook"
     ]
@@ -2639,7 +2639,7 @@
   {
     "id": "klassisk-outlook-vise-dialogboksen-skrift",
     "tittel": "Vise dialogboksen Skrift",
-    "forklaring": "Ctrl+Shift+P",
+    "forklaring": "Ctrl+Skift+P",
     "tags": [
       "outlook"
     ]
@@ -2671,7 +2671,7 @@
   {
     "id": "klassisk-outlook-legge-til-en-punktliste",
     "tittel": "Legge til en punktliste",
-    "forklaring": "Ctrl+Shift+L",
+    "forklaring": "Ctrl+Skift+L",
     "tags": [
       "outlook"
     ]
@@ -2695,7 +2695,7 @@
   {
     "id": "klassisk-outlook-minske-innrykket",
     "tittel": "Minske innrykket",
-    "forklaring": "Ctrl+Shift+T",
+    "forklaring": "Ctrl+Skift+T",
     "tags": [
       "outlook"
     ]
@@ -2775,7 +2775,7 @@
   {
     "id": "klassisk-outlook-blokkjustere-tekst-strekke-et-avsnitt-slik-",
     "tittel": "Blokkjustere tekst (strekke et avsnitt slik at det passer mellom margene)",
-    "forklaring": "Ctrl+Shift+J",
+    "forklaring": "Ctrl+Skift+J",
     "tags": [
       "outlook"
     ]
@@ -2783,7 +2783,7 @@
   {
     "id": "klassisk-outlook-bruke-stiler",
     "tittel": "Bruke stiler",
-    "forklaring": "Ctrl+Shift+S",
+    "forklaring": "Ctrl+Skift+S",
     "tags": [
       "outlook"
     ]
@@ -2823,7 +2823,7 @@
   {
     "id": "klassisk-outlook-redusere-et-hengende-innrykk",
     "tittel": "Redusere et hengende innrykk",
-    "forklaring": "Ctrl+Shift+T",
+    "forklaring": "Ctrl+Skift+T",
     "tags": [
       "outlook"
     ]
@@ -2863,7 +2863,7 @@
   {
     "id": "klassisk-outlook-bruke-avansert-soek",
     "tittel": "Bruke Avansert søk",
-    "forklaring": "Ctrl+Shift+F",
+    "forklaring": "Ctrl+Skift+F",
     "tags": [
       "outlook"
     ]
@@ -2967,7 +2967,7 @@
   {
     "id": "klassisk-outlook-bytte-til-utboks",
     "tittel": "Bytte til Utboks",
-    "forklaring": "Ctrl+Shift+O",
+    "forklaring": "Ctrl+Skift+O",
     "tags": [
       "outlook"
     ]
@@ -3031,7 +3031,7 @@
   {
     "id": "klassisk-outlook-legge-inn-i-en-mappe",
     "tittel": "Legge inn i en mappe",
-    "forklaring": "Ctrl+Shift+S",
+    "forklaring": "Ctrl+Skift+S",
     "tags": [
       "outlook"
     ]
@@ -3087,7 +3087,7 @@
   {
     "id": "klassisk-outlook-slette-og-ignorere-en-samtale",
     "tittel": "Slette og ignorere en samtale",
-    "forklaring": "Ctrl+Shift+D",
+    "forklaring": "Ctrl+Skift+D",
     "tags": [
       "outlook"
     ]
@@ -3359,7 +3359,7 @@
   {
     "id": "klassisk-outlook-flytt-meldingen-til-mappe",
     "tittel": "Flytt meldingen til mappe",
-    "forklaring": "Ctrl+Shift+V",
+    "forklaring": "Ctrl+Skift+V",
     "tags": [
       "outlook"
     ]
@@ -3559,7 +3559,7 @@
   {
     "id": "klassisk-outlook-flytte-til-forrige-felt",
     "tittel": "Flytte til forrige felt",
-    "forklaring": "Shift+Tab",
+    "forklaring": "Skift+Tab",
     "tags": [
       "outlook"
     ]
@@ -3639,7 +3639,7 @@
   {
     "id": "klassisk-outlook-opprette-en-avtale-i-en-hvilken-som-helst-o",
     "tittel": "Opprette en avtale (i en hvilken som helst Outlook-visning)",
-    "forklaring": "Ctrl+Shift+A",
+    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "outlook"
     ]
@@ -4087,7 +4087,7 @@
   {
     "id": "klassisk-outlook-velge-forrige-avtale",
     "tittel": "Velge forrige avtale",
-    "forklaring": "Shift+Tab",
+    "forklaring": "Skift+Tab",
     "tags": [
       "outlook"
     ]
@@ -4263,7 +4263,7 @@
   {
     "id": "klassisk-outlook-foreta-et-nytt-anrop-til-en-kontakt",
     "tittel": "Foreta et nytt anrop til en kontakt",
-    "forklaring": "Ctrl+Shift+D",
+    "forklaring": "Ctrl+Skift+D",
     "tags": [
       "outlook"
     ]
@@ -4319,7 +4319,7 @@
   {
     "id": "klassisk-outlook-opprette-en-kontakt-fra-en-hvilken-som-hels",
     "tittel": "Opprette en kontakt (fra en hvilken som helst Outlook-visning)",
-    "forklaring": "Ctrl+Shift+C",
+    "forklaring": "Ctrl+Skift+C",
     "tags": [
       "outlook"
     ]
@@ -4375,7 +4375,7 @@
   {
     "id": "klassisk-outlook-sende-en-telefaks-til-den-valgte-kontakten",
     "tittel": "Sende en telefaks til den valgte kontakten",
-    "forklaring": "Ctrl+Shift+X",
+    "forklaring": "Ctrl+Skift+X",
     "tags": [
       "outlook"
     ]
@@ -4631,7 +4631,7 @@
   {
     "id": "klassisk-outlook-flytte-til-forrige-felt-og-kontroll",
     "tittel": "Flytte til forrige felt og kontroll",
-    "forklaring": "Shift+Tab",
+    "forklaring": "Skift+Tab",
     "tags": [
       "outlook"
     ]
@@ -5095,7 +5095,7 @@
   {
     "id": "word-lim-bare-inn-tekst",
     "tittel": "Lim bare inn tekst",
-    "forklaring": "Ctrl+Shift+V",
+    "forklaring": "Ctrl+Skift+V",
     "tags": [
       "word"
     ]
@@ -5983,7 +5983,7 @@
   {
     "id": "word-fjerne-et-hengende-innrykk",
     "tittel": "Fjerne et hengende innrykk",
-    "forklaring": "Ctrl+Shift+T",
+    "forklaring": "Ctrl+Skift+T",
     "tags": [
       "word"
     ]
@@ -6063,7 +6063,7 @@
   {
     "id": "word-vis-oppgaveruten-bruk-stiler",
     "tittel": "Vis oppgaveruten Bruk stiler",
-    "forklaring": "Ctrl+Shift+S",
+    "forklaring": "Ctrl+Skift+S",
     "tags": [
       "word"
     ]
@@ -6111,7 +6111,7 @@
   {
     "id": "word-endre-teksten-til-store-bokstaver",
     "tittel": "Endre teksten til store bokstaver",
-    "forklaring": "Ctrl+Shift+A",
+    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "word"
     ]
@@ -6135,7 +6135,7 @@
   {
     "id": "word-legge-til-en-punktliste",
     "tittel": "Legge til en punktliste",
-    "forklaring": "Ctrl+Shift+L",
+    "forklaring": "Ctrl+Skift+L",
     "tags": [
       "word"
     ]
@@ -6159,7 +6159,7 @@
   {
     "id": "word-bruk-dobbel-understrekingsformatering",
     "tittel": "Bruk dobbel understrekingsformatering",
-    "forklaring": "Ctrl+Shift+D",
+    "forklaring": "Ctrl+Skift+D",
     "tags": [
       "word"
     ]
@@ -6439,7 +6439,7 @@
   {
     "id": "word-flytt-n-rad-opp",
     "tittel": "Flytt én rad opp",
-    "forklaring": "Alt+Shift+Pil opp",
+    "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "word"
     ]
@@ -6559,7 +6559,7 @@
   {
     "id": "word-velg-sitatalternativer",
     "tittel": "Velg sitatalternativer",
-    "forklaring": "Alt+Shift+F12, Mellomrom",
+    "forklaring": "Alt+Skift+F12, Mellomrom",
     "tags": [
       "word"
     ]
@@ -6985,7 +6985,7 @@
   {
     "id": "word-flytt-opp-merkede-avsnitt",
     "tittel": "Flytt opp merkede avsnitt",
-    "forklaring": "Alt+Shift+Pil opp",
+    "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "word"
     ]
@@ -8113,7 +8113,7 @@
   {
     "id": "excel-formatere-skrifter-i-en-celle-i-dialogboksen-formatere",
     "tittel": "Formatere skrifter i en celle i dialogboksen Formatere celler",
-    "forklaring": "Ctrl+Shift+F",
+    "forklaring": "Ctrl+Skift+F",
     "tags": [
       "excel"
     ]
@@ -8321,7 +8321,7 @@
   {
     "id": "excel-bruke-tallformatet-eksponentielt-med-to-desimaler",
     "tittel": "Bruke tallformatet Eksponentielt med to desimaler",
-    "forklaring": "CTRL+SHIFT+CIRKUMFLEKSTEGN (^)",
+    "forklaring": "CTRL+Skift+CIRKUMFLEKSTEGN (^)",
     "tags": [
       "excel"
     ]
@@ -9905,7 +9905,7 @@
   {
     "id": "powerpoint-lage-en-kopi-av-det-merkede-lysbildet",
     "tittel": "Lage en kopi av det merkede lysbildet",
-    "forklaring": "Ctrl+Shift+D",
+    "forklaring": "Ctrl+Skift+D",
     "tags": [
       "powerpoint"
     ]
@@ -9929,7 +9929,7 @@
   {
     "id": "powerpoint-lagre-en-presentasjon-med-et-annet-navn-filformat",
     "tittel": "Lagre en presentasjon med et annet navn, filformat eller på en annen plassering",
-    "forklaring": "Ctrl+Shift+S",
+    "forklaring": "Ctrl+Skift+S",
     "tags": [
       "powerpoint"
     ]
@@ -9985,7 +9985,7 @@
   {
     "id": "powerpoint-kopiere-formateringen-til-det-merkede-objektet-el",
     "tittel": "Kopiere formateringen til det merkede objektet eller teksten",
-    "forklaring": "Ctrl+Shift+C",
+    "forklaring": "Ctrl+Skift+C",
     "tags": [
       "powerpoint"
     ]
@@ -9993,7 +9993,7 @@
   {
     "id": "powerpoint-lime-inn-den-kopierte-formateringen-til-det-merke",
     "tittel": "Lime inn den kopierte formateringen til det merkede objektet eller teksten",
-    "forklaring": "Ctrl+Shift+V",
+    "forklaring": "Ctrl+Skift+V",
     "tags": [
       "powerpoint"
     ]
@@ -10081,7 +10081,7 @@
   {
     "id": "powerpoint-gruppere-de-merkede-objektene-paa-nytt",
     "tittel": "Gruppere de merkede objektene på nytt",
-    "forklaring": "Ctrl+Shift+J",
+    "forklaring": "Ctrl+Skift+J",
     "tags": [
       "powerpoint"
     ]
@@ -10369,7 +10369,7 @@
   {
     "id": "powerpoint-flytt-opp-valgte-avsnitt",
     "tittel": "Flytt opp valgte avsnitt",
-    "forklaring": "Alt+Shift+Pil opp",
+    "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "powerpoint"
     ]
@@ -10529,7 +10529,7 @@
   {
     "id": "powerpoint-gaa-til-forrige-celle",
     "tittel": "Gå til forrige celle",
-    "forklaring": "Shift+Tab",
+    "forklaring": "Skift+Tab",
     "tags": [
       "powerpoint"
     ]
@@ -10673,7 +10673,7 @@
   {
     "id": "powerpoint-bytt-mellom-miniatyrbilde-ruten-og-disposisjonsvi",
     "tittel": "Bytt mellom Miniatyrbilde -ruten og Disposisjonsvisning -ruten",
-    "forklaring": "Ctrl+Shift+Tab",
+    "forklaring": "Ctrl+Skift+Tab",
     "tags": [
       "powerpoint"
     ]
@@ -10825,7 +10825,7 @@
   {
     "id": "powerpoint-flytte-et-merket-element-fremover",
     "tittel": "Flytte et merket element fremover",
-    "forklaring": "Ctrl+Shift+F",
+    "forklaring": "Ctrl+Skift+F",
     "tags": [
       "powerpoint"
     ]
@@ -10841,7 +10841,7 @@
   {
     "id": "powerpoint-vise-skjule-et-fokusert-element",
     "tittel": "Vise/skjule et fokusert element",
-    "forklaring": "Ctrl+Shift+S",
+    "forklaring": "Ctrl+Skift+S",
     "tags": [
       "powerpoint"
     ]
@@ -11241,7 +11241,7 @@
   {
     "id": "powerpoint-starte-en-presentasjon-fra-gjeldende-lysbilde",
     "tittel": "Starte en presentasjon fra gjeldende lysbilde",
-    "forklaring": "Shift+F5",
+    "forklaring": "Skift+F5",
     "tags": [
       "powerpoint"
     ]
@@ -11369,7 +11369,7 @@
   {
     "id": "powerpoint-gaa-til-forrige-hyperkobling-paa-lysbildet",
     "tittel": "Gå til forrige hyperkobling på lysbildet",
-    "forklaring": "Shift+Tab",
+    "forklaring": "Skift+Tab",
     "tags": [
       "powerpoint"
     ]
@@ -11737,7 +11737,7 @@
   {
     "id": "onenote-bare-lime-inn-tekst-lime-inn-uten-formatering",
     "tittel": "Bare lime inn tekst (lime inn uten formatering)",
-    "forklaring": "Ctrl+Shift+V",
+    "forklaring": "Ctrl+Skift+V",
     "tags": [
       "onenote"
     ]
@@ -12289,7 +12289,7 @@
   {
     "id": "onenote-flytte-merkede-avsnitt-opp",
     "tittel": "Flytte merkede avsnitt opp",
-    "forklaring": "Alt+Shift+Pil opp",
+    "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "onenote"
     ]
@@ -12681,7 +12681,7 @@
   {
     "id": "onenote-merk-gjeldende-side",
     "tittel": "Merk gjeldende side",
-    "forklaring": "Ctrl+Shift+A",
+    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "onenote"
     ]
@@ -12689,7 +12689,7 @@
   {
     "id": "onenote-flytt-den-valgte-siden-oppover-i-sidenavigasjonsrute",
     "tittel": "Flytt den valgte siden oppover i sidenavigasjonsruten",
-    "forklaring": "Alt+Shift+Pil opp",
+    "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "onenote"
     ]
@@ -12977,7 +12977,7 @@
   {
     "id": "onenote-merk-gjeldende-sidefane",
     "tittel": "Merk gjeldende sidefane",
-    "forklaring": "Ctrl+Shift+A",
+    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "onenote"
     ]
@@ -13089,7 +13089,7 @@
   {
     "id": "onenote-opprett-en-outlook-oppgave-i-dag-fra-det-valgte-nota",
     "tittel": "Opprett en Outlook-oppgave i dag fra det valgte notatet",
-    "forklaring": "Ctrl+Shift+1",
+    "forklaring": "Ctrl+Skift+1",
     "tags": [
       "onenote"
     ]
@@ -13097,7 +13097,7 @@
   {
     "id": "onenote-opprett-en-outlook-oppgave-i-morgen-fra-det-valgte-n",
     "tittel": "Opprett en Outlook-oppgave i morgen fra det valgte notatet",
-    "forklaring": "Ctrl+Shift+2",
+    "forklaring": "Ctrl+Skift+2",
     "tags": [
       "onenote"
     ]
@@ -13105,7 +13105,7 @@
   {
     "id": "onenote-opprett-en-outlook-oppgave-denne-uken-fra-det-valgte",
     "tittel": "Opprett en Outlook-oppgave denne uken fra det valgte notatet",
-    "forklaring": "Ctrl+Shift+3",
+    "forklaring": "Ctrl+Skift+3",
     "tags": [
       "onenote"
     ]
@@ -13113,7 +13113,7 @@
   {
     "id": "onenote-opprett-en-outlook-oppgave-neste-uke-fra-det-valgte-",
     "tittel": "Opprett en Outlook-oppgave neste uke fra det valgte notatet",
-    "forklaring": "Ctrl+Shift+4",
+    "forklaring": "Ctrl+Skift+4",
     "tags": [
       "onenote"
     ]
@@ -13785,7 +13785,7 @@
   {
     "id": "microsoft-365-flytt-til-og-velg-den-forrige-smartart-grafikk",
     "tittel": "Flytt til og velg den forrige SmartArt-grafikken på øverste nivå",
-    "forklaring": "Shift+Tab",
+    "forklaring": "Skift+Tab",
     "tags": [
       "microsoft 365"
     ]
@@ -13809,7 +13809,7 @@
   {
     "id": "microsoft-365-merk-det-forrige-elementet-etter-aktivering-av",
     "tittel": "Merk det forrige elementet etter aktivering av SmartArt-grafikk",
-    "forklaring": "Shift+Tab",
+    "forklaring": "Skift+Tab",
     "tags": [
       "microsoft 365"
     ]
@@ -14097,7 +14097,7 @@
   {
     "id": "microsoft-365-flytte-den-merkede-teksten-oppover",
     "tittel": "Flytte den merkede teksten oppover",
-    "forklaring": "Alt+Shift+Pil opp",
+    "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "microsoft 365"
     ]
