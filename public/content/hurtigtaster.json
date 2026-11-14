@@ -923,16 +923,7 @@
   },
   {
     "id": "teams-avslutt-lydsamtale",
-    "tittel": "Avslutt lydsamtale",
-    "forklaring": "CTRL+SKIFT+H",
-    "tags": [
-      "teams"
-    ],
-    "undergruppe": "Møter, samtaler og kalender"
-  },
-  {
-    "id": "teams-avslutt-videosamtale",
-    "tittel": "Avslutt videosamtale",
+    "tittel": "Avslutt lyd- eller videosamtale",
     "forklaring": "CTRL+SKIFT+H",
     "tags": [
       "teams"
@@ -1039,15 +1030,6 @@
     "undergruppe": "Møter, samtaler og kalender"
   },
   {
-    "id": "teams-planlegge-et-moete",
-    "tittel": "Planlegge et møte",
-    "forklaring": "ALT+N",
-    "tags": [
-      "teams"
-    ],
-    "undergruppe": "Møter, samtaler og kalender"
-  },
-  {
     "id": "teams-flytte-fokus-til-verktoeylinjen-i-et-redigeringsfelt",
     "tittel": "Flytte fokus til verktøylinjen i et redigeringsfelt",
     "forklaring": "ALT+F10",
@@ -1103,7 +1085,7 @@
   },
   {
     "id": "teams-panorer-delt-innhold",
-    "tittel": "Panorer delt innhold",
+    "tittel": "Panorer delt innhold opp",
     "forklaring": "Alt+Skift+Pil opp",
     "tags": [
       "teams"
@@ -1147,26 +1129,8 @@
     "undergruppe": "Møter, samtaler og kalender"
   },
   {
-    "id": "teams-aapne-det-valgte-elementet",
-    "tittel": "Åpne det valgte elementet",
-    "forklaring": "ENTER",
-    "tags": [
-      "teams"
-    ],
-    "undergruppe": "Møter, samtaler og kalender"
-  },
-  {
-    "id": "teams-slette-det-merkede-elementet",
-    "tittel": "Slette det merkede elementet",
-    "forklaring": "Slett",
-    "tags": [
-      "teams"
-    ],
-    "undergruppe": "Møter, samtaler og kalender"
-  },
-  {
     "id": "teams-aapen-dagsvisning",
-    "tittel": "Åpen dagsvisning",
+    "tittel": "Åpne dagsvisning",
     "forklaring": "ALT+SKIFT+1",
     "tags": [
       "teams"
@@ -1408,15 +1372,6 @@
     "undergruppe": "Møter, samtaler og kalender"
   },
   {
-    "id": "teams-bytte-til-tredagersvisning",
-    "tittel": "Bytte til tredagersvisning",
-    "forklaring": "ALT+3",
-    "tags": [
-      "teams"
-    ],
-    "undergruppe": "Møter, samtaler og kalender"
-  },
-  {
     "id": "teams-inviter-deltakere",
     "tittel": "Inviter deltakere",
     "forklaring": "CTRL+N",
@@ -1519,15 +1474,6 @@
     "id": "teams-opprett-en-ny-hendelse",
     "tittel": "Opprett en ny hendelse",
     "forklaring": "ALT+N",
-    "tags": [
-      "teams"
-    ],
-    "undergruppe": "Møter, samtaler og kalender"
-  },
-  {
-    "id": "teams-lagre-en-avtale",
-    "tittel": "Lagre en avtale",
-    "forklaring": "CTRL+S",
     "tags": [
       "teams"
     ],
@@ -1833,7 +1779,7 @@
   {
     "id": "internasjonale-tegn-23",
     "tittel": "Â",
-    "forklaring": "Skift+Cirkumflekstegn (^), Skift+A",
+    "forklaring": "Skift+Sirkumflekstegn (^), Skift+A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1842,7 +1788,7 @@
   {
     "id": "internasjonale-tegn-24",
     "tittel": "Ê",
-    "forklaring": "Skift+Cirkumflekstegn (^), Skift+E",
+    "forklaring": "Skift+Sirkumflekstegn (^), Skift+E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1851,7 +1797,7 @@
   {
     "id": "internasjonale-tegn-25",
     "tittel": "Î",
-    "forklaring": "Skift+Cirkumflekstegn (^), Skift+I",
+    "forklaring": "Skift+Sirkumflekstegn (^), Skift+I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1860,7 +1806,7 @@
   {
     "id": "internasjonale-tegn-26",
     "tittel": "Ô",
-    "forklaring": "Skift+Cirkumflekstegn (^), Skift+O",
+    "forklaring": "Skift+Sirkumflekstegn (^), Skift+O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1869,7 +1815,7 @@
   {
     "id": "internasjonale-tegn-27",
     "tittel": "Û",
-    "forklaring": "Skift+Cirkumflekstegn (^), Skift+U",
+    "forklaring": "Skift+Sirkumflekstegn (^), Skift+U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1878,7 +1824,7 @@
   {
     "id": "internasjonale-tegn-28",
     "tittel": "â",
-    "forklaring": "Skift+Cirkumflekstegn (^), A",
+    "forklaring": "Skift+Sirkumflekstegn (^), A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1887,7 +1833,7 @@
   {
     "id": "internasjonale-tegn-29",
     "tittel": "ê",
-    "forklaring": "Skift+Cirkumflekstegn (^), E",
+    "forklaring": "Skift+Sirkumflekstegn (^), E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1896,7 +1842,7 @@
   {
     "id": "internasjonale-tegn-30",
     "tittel": "î",
-    "forklaring": "Skift+Cirkumflekstegn (^), I",
+    "forklaring": "Skift+Sirkumflekstegn (^), I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1905,7 +1851,7 @@
   {
     "id": "internasjonale-tegn-31",
     "tittel": "ô",
-    "forklaring": "Skift+Cirkumflekstegn (^), O",
+    "forklaring": "Skift+Sirkumflekstegn (^), O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1914,7 +1860,7 @@
   {
     "id": "internasjonale-tegn-32",
     "tittel": "û",
-    "forklaring": "Skift+Cirkumflekstegn (^), U",
+    "forklaring": "Skift+Sirkumflekstegn (^), U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2102,7 +2048,7 @@
   },
   {
     "id": "internasjonale-tegn-c-cedilla-med-store-bokstaver",
-    "tittel": "C-cedilla med store bokstaver (Ç)",
+    "tittel": "Stor C med cedille (Ç)",
     "forklaring": "00C7, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2111,7 +2057,7 @@
   },
   {
     "id": "internasjonale-tegn-smaa-c-cedilla",
-    "tittel": "Små c-cedilla (ç)",
+    "tittel": "Liten c med cedille (ç)",
     "forklaring": "00E7, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2120,7 +2066,7 @@
   },
   {
     "id": "internasjonale-tegn-oe-diftong-med-store-bokstaver",
-    "tittel": "OE-diftong med store bokstaver (Œ)",
+    "tittel": "Stor OE-ligatur (Œ)",
     "forklaring": "0152, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2129,7 +2075,7 @@
   },
   {
     "id": "internasjonale-tegn-smaa-bokstaver-oe-diftong",
-    "tittel": "Små bokstaver oe diftong (œ)",
+    "tittel": "Liten oe-ligatur (œ)",
     "forklaring": "0153, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2138,7 +2084,7 @@
   },
   {
     "id": "internasjonale-tegn-eszett-eller-ss",
-    "tittel": "Eszett eller ss (ß)",
+    "tittel": "Tysk dobbel-s (ß)",
     "forklaring": "00DF, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2147,7 +2093,7 @@
   },
   {
     "id": "internasjonale-tegn-maskulin-ordenstallindikator-eller-gradsymbol",
-    "tittel": "Maskulin ordenstallindikator eller gradsymbol (º)",
+    "tittel": "Maskulin ordinalindikator (º)",
     "forklaring": "00BA, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2156,7 +2102,7 @@
   },
   {
     "id": "internasjonale-tegn-feminin-ordinal-indikator",
-    "tittel": "Feminin ordinal indikator (ª)",
+    "tittel": "Feminin ordinalindikator (ª)",
     "forklaring": "00AA, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2165,7 +2111,7 @@
   },
   {
     "id": "internasjonale-tegn-torn-med-store-bokstaver",
-    "tittel": "Torn med store bokstaver (Þ)",
+    "tittel": "Stor torn (Þ)",
     "forklaring": "00DE, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2183,7 +2129,7 @@
   },
   {
     "id": "internasjonale-tegn-store-bokstaver-eth",
-    "tittel": "Store bokstaver eth (Ð)",
+    "tittel": "Stor eth (Ð)",
     "forklaring": "00D0, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2192,7 +2138,7 @@
   },
   {
     "id": "internasjonale-tegn-smaa-bokstaver-eth",
-    "tittel": "Små bokstaver eth (ð)",
+    "tittel": "Liten eth (ð)",
     "forklaring": "00F0, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2201,7 +2147,7 @@
   },
   {
     "id": "internasjonale-tegn-enkelt-venstrevinklet-anfoerselstegn",
-    "tittel": "Enkelt venstrevinklet anførselstegn (‹)",
+    "tittel": "Enkelt gåseøye, venstre (‹)",
     "forklaring": "2039, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2210,7 +2156,7 @@
   },
   {
     "id": "internasjonale-tegn-enkelt-rettvinklet-anfoerselstegn",
-    "tittel": "Enkelt rettvinklet anførselstegn (›)",
+    "tittel": "Enkelt gåseøye, høyre (›)",
     "forklaring": "203A, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2219,7 +2165,7 @@
   },
   {
     "id": "internasjonale-tegn-store-bokstaver-s-med-caron",
-    "tittel": "Store bokstaver S med caron (Š)",
+    "tittel": "Stor S med hake (Š)",
     "forklaring": "0160, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2228,7 +2174,7 @@
   },
   {
     "id": "internasjonale-tegn-smaa-bokstaver-med-caron",
-    "tittel": "Små bokstaver s med caron (š)",
+    "tittel": "Liten s med hake (š)",
     "forklaring": "0161, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2237,7 +2183,7 @@
   },
   {
     "id": "internasjonale-tegn-store-bokstaver-z-med-caron",
-    "tittel": "Store bokstaver Z med caron (Ž)",
+    "tittel": "Stor Z med hake (Ž)",
     "forklaring": "017D, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2246,7 +2192,7 @@
   },
   {
     "id": "internasjonale-tegn-smaa-bokstaver-z-med-caron",
-    "tittel": "Små bokstaver z med caron (ž)",
+    "tittel": "Liten z med hake (ž)",
     "forklaring": "017E, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
@@ -2257,22 +2203,6 @@
     "id": "klassisk-outlook-lukke-et-vindu-eller-en-meny",
     "tittel": "Lukke et vindu eller en meny",
     "forklaring": "ESC",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-til-hjem-fanen",
-    "tittel": "Gå til Hjem-fanen",
-    "forklaring": "Alt, H",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-opprette-en-ny-melding",
-    "tittel": "Opprette en ny melding",
-    "forklaring": "CTRL+SKIFT+M",
     "tags": [
       "outlook"
     ]
@@ -2294,22 +2224,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-ny-oppgave",
-    "tittel": "Ny oppgave",
-    "forklaring": "CTRL+SKIFT+K",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-soeke-etter-et-element",
-    "tittel": "Søke etter et element",
-    "forklaring": "CTRL+E eller F3",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-svare-paa-en-melding",
     "tittel": "Svare på en melding",
     "forklaring": "ALT+H, R, P eller CTRL+R",
@@ -2320,7 +2234,7 @@
   {
     "id": "klassisk-outlook-videresende-en-melding",
     "tittel": "Videresende en melding",
-    "forklaring": "ALT+H, F, W eller CTRL+F",
+    "forklaring": "ALT+H, F, W eller CTRL+B",
     "tags": [
       "outlook"
     ]
@@ -2337,30 +2251,6 @@
     "id": "klassisk-outlook-kopiere-et-element",
     "tittel": "Kopiere et element",
     "forklaring": "Ctrl+C eller Ctrl+Insert",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-til-send-motta-fanen",
-    "tittel": "Gå til Send/motta-fanen",
-    "forklaring": "Alt, J, S",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-til-calendar",
-    "tittel": "Gå til Calendar",
-    "forklaring": "Ctrl+2",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-opprette-en-avtale",
-    "tittel": "Opprette en avtale",
-    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "outlook"
     ]
@@ -2462,22 +2352,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-gaa-tilbake-til-forrige-visning",
-    "tittel": "Gå tilbake til forrige visning",
-    "forklaring": "ALT+B eller ALT+PIL VENSTRE",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-frem-til-neste-visning",
-    "tittel": "Gå frem til neste visning",
-    "forklaring": "ALT+pil høyre",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-bytte-til-neste-aapne-melding",
     "tittel": "Bytte til neste åpne melding",
     "forklaring": "CTRL+PUNKTUM (.)",
@@ -2558,25 +2432,9 @@
     ]
   },
   {
-    "id": "klassisk-outlook-flytte-rundt-i-mapperuten",
-    "tittel": "Flytte rundt i mapperuten",
-    "forklaring": "Piltaster",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-gaa-til-en-annen-mappe",
     "tittel": "Gå til en annen mappe",
     "forklaring": "CTRL+Y",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-til-soek-boksen",
-    "tittel": "Gå til Søk-boksen",
-    "forklaring": "F3 eller Ctrl+E",
     "tags": [
       "outlook"
     ]
@@ -2606,14 +2464,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-vise-skjule-en-gruppe-i-listen-over-e-postm",
-    "tittel": "Vise/skjule en gruppe i listen over e-postmeldinger",
-    "forklaring": "PIL VENSTRE eller PIL HØYRE",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-gaa-tilbake-til-forrige-visning-i-det-klass",
     "tittel": "Gå tilbake til forrige visning i hovedvinduet i Outlook",
     "forklaring": "ALT+B eller ALT+PIL VENSTRE",
@@ -2625,14 +2475,6 @@
     "id": "klassisk-outlook-gaa-frem-til-neste-visning-i-hovedvinduet-i",
     "tittel": "Gå frem til neste visning i hovedvinduet i Outlook",
     "forklaring": "ALT+pil høyre",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-velg-informasjonslinjen-og-vis-menyen-med-k",
-    "tittel": "Velg informasjonslinjen og vis menyen med kommandoer hvis tilgjengelig",
-    "forklaring": "CTRL+SKIFT+W",
     "tags": [
       "outlook"
     ]
@@ -2702,14 +2544,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-opprette-en-kontakt",
-    "tittel": "Opprette en kontakt",
-    "forklaring": "Ctrl+Skift+C",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-opprette-en-kontaktgruppe",
     "tittel": "Opprette en kontaktgruppe",
     "forklaring": "Ctrl+Skift+L",
@@ -2729,14 +2563,6 @@
     "id": "klassisk-outlook-opprette-en-mappe",
     "tittel": "Opprette en mappe",
     "forklaring": "CTRL+SKIFT+E",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-opprette-en-melding",
-    "tittel": "Opprette en melding",
-    "forklaring": "CTRL+SKIFT+M",
     "tags": [
       "outlook"
     ]
@@ -2782,14 +2608,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-opprette-en-oppgave",
-    "tittel": "Opprette en oppgave",
-    "forklaring": "CTRL+SKIFT+K",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-vise-formater-tekst-fanen-paa-baandet",
     "tittel": "Vise Formater tekst-fanen på båndet",
     "forklaring": "ALT+O",
@@ -2824,7 +2642,7 @@
   {
     "id": "klassisk-outlook-bruk-fet-formatering",
     "tittel": "Bruk fet formatering",
-    "forklaring": "CTRL+B",
+    "forklaring": "CTRL+F",
     "tags": [
       "outlook"
     ]
@@ -3030,14 +2848,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-soeke-etter-tekst-i-et-aapent-element",
-    "tittel": "Søke etter tekst i et åpent element",
-    "forklaring": "F4",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-finne-og-erstatte-tekst-symboler-eller-enke",
     "tittel": "Finne og erstatte tekst, symboler eller enkelte formateringskommandoer i leseruten eller et åpent element",
     "forklaring": "CTRL+H",
@@ -3102,14 +2912,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-aapne-dialogboksen-flagg-for-oppfoelging-fo",
-    "tittel": "Åpne dialogboksen Flagg for oppfølging for å tilordne et flagg",
-    "forklaring": "CTRL+SKIFT+G",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-slette-den-valgte-kategorien-fra-listen-i-d",
     "tittel": "Slette den valgte kategorien fra listen i dialogboksen Fargekategorier",
     "forklaring": "ALT+D",
@@ -3145,14 +2947,6 @@
     "id": "klassisk-outlook-svar-med-moeteinvitasjon",
     "tittel": "Svar med møteinvitasjon",
     "forklaring": "CTRL+ALT+R",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-videresende-en-melding-2",
-    "tittel": "Videresende en melding",
-    "forklaring": "Ctrl+B",
     "tags": [
       "outlook"
     ]
@@ -3289,14 +3083,6 @@
     "id": "klassisk-outlook-sende-en-melding-2",
     "tittel": "Sende en melding",
     "forklaring": "Ctrl+Enter",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-skrive-ut-et-element",
-    "tittel": "Skrive ut et element",
-    "forklaring": "Ctrl+P",
     "tags": [
       "outlook"
     ]
@@ -3496,7 +3282,7 @@
   {
     "id": "klassisk-outlook-merk-flere-meldinger-som-ikke-ligger-naer-h",
     "tittel": "Merk flere meldinger som ikke ligger nær hverandre",
-    "forklaring": "CTRL+PIL OPP eller PIL NED",
+    "forklaring": "CTRL+PIL OPP eller PIL NED, deretter MELLOMROM",
     "tags": [
       "outlook"
     ]
@@ -3518,17 +3304,9 @@
     ]
   },
   {
-    "id": "klassisk-outlook-legg-til-egendefinert-flagg-i-en-melding",
-    "tittel": "Legg til egendefinert flagg i en melding",
-    "forklaring": "CTRL+SKIFT+G",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-merke-en-melding-som-soeppelpost-eller-ikke",
     "tittel": "Merke en melding som søppelpost eller ikke søppelpost",
-    "forklaring": "SKIFT+F10, J",
+    "forklaring": "SKIFT+F10, J, deretter PIL OPP eller PIL NED, og ENTER",
     "tags": [
       "outlook"
     ]
@@ -3601,14 +3379,6 @@
     "id": "klassisk-outlook-last-ned-blokkerte-bilder",
     "tittel": "Last ned blokkerte bilder",
     "forklaring": "CTRL+SKIFT+W, P",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-vis-egenskaper-for-e-post",
-    "tittel": "Vis egenskaper for e-post",
-    "forklaring": "ALT+ENTER",
     "tags": [
       "outlook"
     ]
@@ -3784,7 +3554,7 @@
   {
     "id": "klassisk-outlook-videresende-en-avtale-eller-moete",
     "tittel": "Videresende en avtale eller møte",
-    "forklaring": "ALT+H, F, W eller CTRL+F",
+    "forklaring": "ALT+H, F, W eller CTRL+B",
     "tags": [
       "outlook"
     ]
@@ -4166,30 +3936,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-vise-fra-en-til-ni-dager",
-    "tittel": "Vise fra en til ni dager",
-    "forklaring": "Alt+1 til Alt+9",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-vise-10-dager",
-    "tittel": "Vise 10 dager",
-    "forklaring": "Alt+0",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-bytt-til-ukevisning",
-    "tittel": "Bytt til ukevisning",
-    "forklaring": "ALT+MINUSTEGN (-)",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-flytte-mellom-calendar-visningen-oppgaveblo",
     "tittel": "Flytte mellom Calendar-visningen, oppgaveblokken og mappelisten",
     "forklaring": "Ctrl+Tab eller F6",
@@ -4279,7 +4025,7 @@
   },
   {
     "id": "klassisk-outlook-velger-tidsomraadet-nederst-paa-skjermen",
-    "tittel": "Velger tidsområdet nederst på skjermen",
+    "tittel": "Velge tidsområdet nederst på skjermen",
     "forklaring": "Fn+Pil ned",
     "tags": [
       "outlook"
@@ -4289,22 +4035,6 @@
     "id": "klassisk-outlook-utvide-redusere-det-valgte-tidspunktet",
     "tittel": "Utvide/redusere det valgte tidspunktet",
     "forklaring": "SKIFT+PIL OPP-tasten eller SKIFT+PIL NED-tasten",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-til-begynnelsen-av-arbeidsdagen-for-den",
-    "tittel": "Gå til begynnelsen av arbeidsdagen for den valgte dagen",
-    "forklaring": "Fn+Pil venstre",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-til-slutten-av-arbeidsdagen-for-den-val",
-    "tittel": "Gå til slutten av arbeidsdagen for den valgte dagen",
-    "forklaring": "Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4353,22 +4083,6 @@
     "id": "klassisk-outlook-gaa-til-samme-dag-i-uken-paa-neste-side",
     "tittel": "Gå til samme dag i uken på neste side",
     "forklaring": "Fn+Pil ned",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-til-den-foerste-dagen-i-den-gjeldende-u",
-    "tittel": "Gå til den første dagen i den gjeldende uken",
-    "forklaring": "ALT+Fn+Pil venstre",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-gaa-til-den-siste-dagen-i-den-gjeldende-uke",
-    "tittel": "Gå til den siste dagen i den gjeldende uken",
-    "forklaring": "ALT+Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4911,7 +4625,7 @@
   },
   {
     "id": "klassisk-outlook-videresende-en-oppave-som-et-vedlegg",
-    "tittel": "Videresende en oppave som et vedlegg",
+    "tittel": "Videresende en oppgave som et vedlegg",
     "forklaring": "Ctrl+B",
     "tags": [
       "outlook"
@@ -4960,7 +4674,7 @@
   {
     "id": "klassisk-outlook-merk-flere-tilstoetende-elementer",
     "tittel": "Merk flere tilstøtende elementer",
-    "forklaring": "Skift+Pil opp eller Skift+Pil ned",
+    "forklaring": "Skift+Pil venstre eller Skift+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -5121,30 +4835,6 @@
     "id": "klassisk-outlook-skjule-n-enkelt-valgt-gruppe",
     "tittel": "Skjule én enkelt valgt gruppe",
     "forklaring": "Pil venstre",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-velge-den-foerste-gruppen",
-    "tittel": "Velge den første gruppen",
-    "forklaring": "Fn+Pil venstre",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-velge-den-siste-gruppen",
-    "tittel": "Velge den siste gruppen",
-    "forklaring": "Fn+Pil høyre",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-merke-det-foerste-elementet-paa-skjermen-i-",
-    "tittel": "Merke det første elementet på skjermen i en utvidet gruppe eller det første elementet utenfor skjermen til høyre",
-    "forklaring": "Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -5391,7 +5081,7 @@
   },
   {
     "id": "word-aapne-utforming-fanen-for-aa-arbeide-med-sidemarger-sid",
-    "tittel": "Åpne Utforming-fanen for å arbeide med sidemarger, sideretning, innrykk og avstand",
+    "tittel": "Åpne Oppsett-fanen for å arbeide med sidemarger, sideretning, innrykk og avstand",
     "forklaring": "Alt, P",
     "tags": [
       "word"
@@ -5423,7 +5113,7 @@
   },
   {
     "id": "word-aapne-vis-fanen-for-aa-velge-en-dokumentvisning-eller-m",
-    "tittel": "Åpne Vis-fanen for å velge en dokumentvisning eller-modus, for eksempel lesemodus eller disposisjonsvisning",
+    "tittel": "Åpne Vis-fanen for å velge en dokumentvisning eller -modus, for eksempel lesemodus eller disposisjonsvisning",
     "forklaring": "Alt, W",
     "tags": [
       "word"
@@ -5448,7 +5138,7 @@
   {
     "id": "word-velge-den-aktive-fanen-paa-baandet-og-aktivere-tilgangs",
     "tittel": "Velge den aktive fanen på båndet og aktivere tilgangstastene",
-    "forklaring": "ALT eller F10.",
+    "forklaring": "ALT eller F10",
     "tags": [
       "word"
     ]
@@ -5670,17 +5360,9 @@
     ]
   },
   {
-    "id": "word-flytt-markoeren-til-plasseringen-for-forrige-revisjon",
-    "tittel": "Flytt markøren til plasseringen for forrige revisjon",
-    "forklaring": "SKIFT+F5",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-flytt-markoeren-til-plasseringen-for-den-siste-revisjon",
     "tittel": "Flytt markøren til plasseringen for den siste revisjonen som ble gjort før dokumentet sist ble lukket",
-    "forklaring": "SKIFT+F5",
+    "forklaring": "SKIFT+F5 umiddelbart etter åpning av dokumentet",
     "tags": [
       "word"
     ]
@@ -5688,7 +5370,7 @@
   {
     "id": "word-bla-gjennom-fristilte-figurer-for-eksempel-tekstbokser-",
     "tittel": "Bla gjennom fristilte figurer, for eksempel tekstbokser eller bilder",
-    "forklaring": "CTRL+ALT+5",
+    "forklaring": "CTRL+ALT+5, og deretter TAB gjentatte ganger",
     "tags": [
       "word"
     ]
@@ -5870,14 +5552,6 @@
     ]
   },
   {
-    "id": "word-begynn-aa-utvide-det-merkede-omraadet",
-    "tittel": "Begynn å utvide det merkede området",
-    "forklaring": "F8 I",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-merk-det-naermeste-tegnet-til-venstre-eller-hoeyre",
     "tittel": "Merk det nærmeste tegnet til venstre eller høyre",
     "forklaring": "F8, PIL VENSTRE- eller PIL HØYRE-tasten",
@@ -5904,7 +5578,7 @@
   {
     "id": "word-merke-en-loddrett-tekstblokk",
     "tittel": "Merke en loddrett tekstblokk",
-    "forklaring": "CTRL+SKIFT+F8",
+    "forklaring": "CTRL+SKIFT+F8, og trykk deretter piltastene",
     "tags": [
       "word"
     ]
@@ -5944,7 +5618,7 @@
   {
     "id": "word-flytt-det-merkede-innholdet-til-en-bestemt-plassering",
     "tittel": "Flytt det merkede innholdet til en bestemt plassering",
-    "forklaring": "F2",
+    "forklaring": "F2, flytt markøren til målet, og trykk deretter ENTER",
     "tags": [
       "word"
     ]
@@ -5952,7 +5626,7 @@
   {
     "id": "word-kopier-det-merkede-innholdet-til-en-bestemt-plassering",
     "tittel": "Kopier det merkede innholdet til en bestemt plassering",
-    "forklaring": "SKIFT+F2",
+    "forklaring": "SKIFT+F2, flytt markøren til målet, og trykk deretter ENTER",
     "tags": [
       "word"
     ]
@@ -6038,33 +5712,9 @@
     ]
   },
   {
-    "id": "word-midtstille-avsnittet",
-    "tittel": "Midtstille avsnittet",
-    "forklaring": "Ctrl+E",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-blokkjustere-avsnittet",
     "tittel": "Blokkjustere avsnittet",
     "forklaring": "CTRL+J",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-justere-gjeldende-avsnitt-til-venstre",
-    "tittel": "Justere gjeldende avsnitt til venstre",
-    "forklaring": "CTRL+L",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-justere-gjeldende-avsnitt-til-hoeyre",
-    "tittel": "Justere gjeldende avsnitt til høyre",
-    "forklaring": "CTRL+R",
     "tags": [
       "word"
     ]
@@ -6238,25 +5888,9 @@
     ]
   },
   {
-    "id": "word-bruk-fet-formatering",
-    "tittel": "Bruk fet formatering",
-    "forklaring": "CTRL+B",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-legge-til-en-punktliste",
     "tittel": "Legge til en punktliste",
     "forklaring": "Ctrl+Skift+L",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-bruke-understrekformatering",
-    "tittel": "Bruke understrekformatering",
-    "forklaring": "CTRL+U",
     "tags": [
       "word"
     ]
@@ -6273,14 +5907,6 @@
     "id": "word-bruk-dobbel-understrekingsformatering",
     "tittel": "Bruk dobbel understrekingsformatering",
     "forklaring": "Ctrl+Skift+D",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-bruk-kursiv-formatering",
-    "tittel": "Bruk kursiv formatering",
-    "forklaring": "CTRL+I",
     "tags": [
       "word"
     ]
@@ -6440,7 +6066,7 @@
   {
     "id": "word-sett-inn-unicode-tegnet-for-den-angitte-unicode-tegnkod",
     "tittel": "Sett inn Unicode-tegnet for den angitte Unicode-tegnkoden (heksadesimal)",
-    "forklaring": "ALT+X",
+    "forklaring": "Tegnkoden, og trykk deretter ALT+X",
     "tags": [
       "word"
     ]
@@ -6582,33 +6208,9 @@
     ]
   },
   {
-    "id": "word-merk-hele-tabellen",
-    "tittel": "Merk hele tabellen",
-    "forklaring": "ALT+5",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-sett-inn-et-nytt-avsnitt-i-en-celle",
     "tittel": "Sett inn et nytt avsnitt i en celle",
     "forklaring": "ENTER",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-sett-inn-et-tabulatortegn-i-en-celle",
-    "tittel": "Sett inn et tabulatortegn i en celle",
-    "forklaring": "CTRL+TAB",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-aapne-se-gjennom-fanen",
-    "tittel": "Åpne Se gjennom-fanen",
-    "forklaring": "Alt, R",
     "tags": [
       "word"
     ]
@@ -6791,7 +6393,7 @@
   },
   {
     "id": "word-oppdatere-den-koblede-informasjon-i-et-kildedokument-fr",
-    "tittel": "Oppdatere den koblede informasjon i et kildedokument fra Word",
+    "tittel": "Oppdatere den koblede informasjonen i et kildedokument fra Word",
     "forklaring": "CTRL+SKIFT+F7",
     "tags": [
       "word"
@@ -6888,7 +6490,7 @@
   {
     "id": "word",
     "tittel": "à, è, ì, ò, ù, À, È, Ì, Ò, Ù (Word)",
-    "forklaring": "CTRL+Grav aksent ('), bokstaven",
+    "forklaring": "CTRL+Grav aksent (`), bokstaven",
     "tags": [
       "internasjonale tegn",
       "word"
@@ -6906,7 +6508,7 @@
   {
     "id": "word-3",
     "tittel": "â, ê, î, ô, û, Â, Ê, Î, Ô, Û (Word)",
-    "forklaring": "Ctrl+Skift+Cirkumflekstegn (^), bokstaven",
+    "forklaring": "Ctrl+Skift+Sirkumflekstegn (^), bokstaven",
     "tags": [
       "internasjonale tegn",
       "word"
@@ -6931,25 +6533,9 @@
     ]
   },
   {
-    "id": "word-aa-aa",
-    "tittel": "å, Å",
-    "forklaring": "CTRL+SKIFT+AT-tegn (@)",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-ae-ae",
-    "tittel": "æ, Æ",
-    "forklaring": "CTRL+SKIFT+AMPERSAND (&)",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-6",
     "tittel": "œ, Œ (Word)",
-    "forklaring": "CTRL+SKIFT+AMPERSAND (&)",
+    "forklaring": "CTRL+SKIFT+AMPERSAND (&), o eller O",
     "tags": [
       "internasjonale tegn",
       "word"
@@ -6958,7 +6544,7 @@
   {
     "id": "word-7",
     "tittel": "ç, Ç (Word)",
-    "forklaring": "CTRL+KOMMA (,)",
+    "forklaring": "CTRL+KOMMA (,), c eller C",
     "tags": [
       "internasjonale tegn",
       "word"
@@ -6967,17 +6553,9 @@
   {
     "id": "word-8",
     "tittel": "ð, Ð (Word)",
-    "forklaring": "Ctrl+enkelt anførselstegn (')",
+    "forklaring": "Ctrl+enkelt anførselstegn ('), d eller D",
     "tags": [
       "internasjonale tegn",
-      "word"
-    ]
-  },
-  {
-    "id": "word-oe-oe",
-    "tittel": "ø, Ø",
-    "forklaring": "CTRL+SKRÅSTREK (/)",
-    "tags": [
       "word"
     ]
   },
@@ -6996,30 +6574,6 @@
     "forklaring": "CTRL+ALT+SKIFT+utropstegn (!)",
     "tags": [
       "internasjonale tegn",
-      "word"
-    ]
-  },
-  {
-    "id": "word-ss",
-    "tittel": "SS",
-    "forklaring": "CTRL+SKIFT+ampersand (&)",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-bytt-til-japansk-input-method-editor-ime-for-et-101-tas",
-    "tittel": "Bytt til japansk Input Method Editor (IME) for et 101-tasters tastatur, hvis tilgjengelig",
-    "forklaring": "ALT+SITAT (')",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-bytt-til-kinesisk-input-method-editor-ime-for-et-101-ta",
-    "tittel": "Bytt til kinesisk Input Method Editor (IME) for et 101-tasters tastatur, hvis tilgjengelig",
-    "forklaring": "CTRL+MELLOMROM",
-    "tags": [
       "word"
     ]
   },
@@ -7106,7 +6660,7 @@
   {
     "id": "word-skjul-teksten-under-en-overskrift",
     "tittel": "Skjul teksten under en overskrift",
-    "forklaring": "ALT+SKIFT+PLUSSTEGN (+)",
+    "forklaring": "ALT+SKIFT+MINUSTEGN (-)",
     "tags": [
       "word"
     ]
@@ -7115,14 +6669,6 @@
     "id": "word-vise-skjule-all-tekst-eller-alle-overskrifter",
     "tittel": "Vise/skjule all tekst eller alle overskrifter",
     "forklaring": "ALT+SKIFT+A",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-skjule-vise-tegnformateringen",
-    "tittel": "Skjule/vise tegnformateringen",
-    "forklaring": "Skråstrek (/)",
     "tags": [
       "word"
     ]
@@ -7146,7 +6692,7 @@
   {
     "id": "word-vise-alle-overskrifter-med-det-angitte-overskriftsnivaa",
     "tittel": "Vise alle overskrifter med det angitte overskriftsnivået",
-    "forklaring": "Alt+Skift",
+    "forklaring": "Alt+Skift+Overskriftsnivånummer",
     "tags": [
       "word"
     ]
@@ -7178,7 +6724,7 @@
   {
     "id": "word-gaa-til-en-bestemt-side",
     "tittel": "Gå til en bestemt side",
-    "forklaring": "ENTER",
+    "forklaring": "Skriv inn sidetallet, og trykk deretter ENTER",
     "tags": [
       "word"
     ]
@@ -7201,24 +6747,8 @@
   },
   {
     "id": "word-viser-hjelp-for-word-oppgaveruten",
-    "tittel": "Viser Hjelp for Word oppgaveruten",
+    "tittel": "Viser Hjelp for Word-oppgaveruten",
     "forklaring": "F1",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-viser-skjuler-kontekstavhengig-hjelp-eller-oppgaveruten",
-    "tittel": "Viser/skjuler kontekstavhengig hjelp eller oppgaveruten Vis formatering",
-    "forklaring": "SKIFT+F1",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-viser-skjuler-baandet",
-    "tittel": "Viser/skjuler båndet",
-    "forklaring": "CTRL+F1",
     "tags": [
       "word"
     ]
@@ -7235,22 +6765,6 @@
     "id": "word-gaar-til-forrige-felt",
     "tittel": "Går til forrige felt",
     "forklaring": "ALT+SKIFT+F1",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-flytter-merket-tekst-eller-grafikk",
-    "tittel": "Flytter merket tekst eller grafikk",
-    "forklaring": "F2",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-kopierer-merket-tekst-eller-grafikk",
-    "tittel": "Kopierer merket tekst eller grafikk",
-    "forklaring": "SKIFT+F2",
     "tags": [
       "word"
     ]
@@ -7275,38 +6789,6 @@
     "id": "word-viser-dialogboksen-aapne",
     "tittel": "Viser dialogboksen Åpne",
     "forklaring": "CTRL+ALT+F2",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-bytter-den-merkede-teksten-mellom-store-bokstaver-smaa-",
-    "tittel": "Bytter den merkede teksten mellom store bokstaver, små bokstaver og store forbokstaver",
-    "forklaring": "SKIFT+F3",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-klipper-ut-det-merkede-innholdet-til-innsamlingslageret",
-    "tittel": "Klipper ut det merkede innholdet til innsamlingslageret",
-    "forklaring": "CTRL+F3",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-limer-inn-innholdet-i-innsamlingslageret",
-    "tittel": "Limer inn innholdet i innsamlingslageret",
-    "forklaring": "CTRL+SKIFT+F3",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-oppretter-en-ny-byggeblokk",
-    "tittel": "Oppretter en ny byggeblokk",
-    "forklaring": "ALT+F3",
     "tags": [
       "word"
     ]
@@ -7347,14 +6829,6 @@
     "id": "word-viser-dialogboksen-gaa-til",
     "tittel": "Viser dialogboksen Gå til",
     "forklaring": "F5",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-flytter-markoeren-til-siste-endring",
-    "tittel": "Flytter markøren til siste endring",
-    "forklaring": "SKIFT+F5",
     "tags": [
       "word"
     ]
@@ -7432,14 +6906,6 @@
     ]
   },
   {
-    "id": "word-oppdaterer-den-koblede-informasjonen-i-et-word-kildedok",
-    "tittel": "Oppdaterer den koblede informasjonen i et Word-kildedokument",
-    "forklaring": "CTRL+SKIFT+F7",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-finner-neste-stave-eller-grammatikkfeil",
     "tittel": "Finner neste stave- eller grammatikkfeil",
     "forklaring": "ALT+F7",
@@ -7456,30 +6922,6 @@
     ]
   },
   {
-    "id": "word-utvider-det-merkede-omraadet",
-    "tittel": "Utvider det merkede området",
-    "forklaring": "F8",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-reduserer-det-merkede-omraadet",
-    "tittel": "Reduserer det merkede området",
-    "forklaring": "SKIFT+F8",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-aktiverer-deaktiverer-modus-for-utvidelse-av-merking",
-    "tittel": "Aktiverer/deaktiverer modus for utvidelse av merking",
-    "forklaring": "CTRL+SKIFT+F8",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-viser-makro-dialogboksen-for-aa-opprette-kjoere-rediger",
     "tittel": "Viser Makro-dialogboksen for å opprette, kjøre, redigere eller slette en makro",
     "forklaring": "ALT+F8",
@@ -7488,65 +6930,9 @@
     ]
   },
   {
-    "id": "word-oppdaterer-de-valgte-feltene",
-    "tittel": "Oppdaterer de valgte feltene",
-    "forklaring": "F9",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-bytter-mellom-en-feltkode-og-resultatet",
-    "tittel": "Bytter mellom en feltkode og resultatet",
-    "forklaring": "SKIFT+F9",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-setter-inn-et-tomt-felt",
-    "tittel": "Setter inn et tomt felt",
-    "forklaring": "CTRL+F9",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-kobler-fra-gjeldende-felt",
-    "tittel": "Kobler fra gjeldende felt",
-    "forklaring": "CTRL+SKIFT+F9",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-bytter-mellom-alle-feltkodene-og-deres-resultater",
-    "tittel": "Bytter mellom alle feltkodene og deres resultater",
-    "forklaring": "Alt+F9",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-kjoerer-gotobutton-eller-macrobutton-fra-et-felt-som-vi",
-    "tittel": "Kjører GOTOBUTTON eller MACROBUTTON fra et felt som viser feltresultater",
-    "forklaring": "ALT+SKIFT+F9",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-aktiverer-deaktiverer-tastetips",
     "tittel": "Aktiverer/deaktiverer tastetips",
     "forklaring": "F10",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-viser-hurtigmenyen-for-det-valgte-elementet",
-    "tittel": "Viser hurtigmenyen for det valgte elementet",
-    "forklaring": "SKIFT+F10",
     "tags": [
       "word"
     ]
@@ -7571,38 +6957,6 @@
     "id": "word-viser-menyen-eller-meldingen-for-tilgjengelige-handling",
     "tittel": "Viser menyen eller meldingen for tilgjengelige handlinger, for eksempel for innlimt tekst eller en Autokorrektur endring",
     "forklaring": "ALT+SKIFT+F10",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-gaar-til-neste-felt-2",
-    "tittel": "Går til neste felt",
-    "forklaring": "F11",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-gaar-til-forrige-felt-2",
-    "tittel": "Går til forrige felt",
-    "forklaring": "SKIFT+F11",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-laaser-gjeldende-felt",
-    "tittel": "Låser gjeldende felt",
-    "forklaring": "CTRL+F11",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-laaser-opp-gjeldende-felt",
-    "tittel": "Låser opp gjeldende felt",
-    "forklaring": "CTRL+SKIFT+F11",
     "tags": [
       "word"
     ]
@@ -7672,14 +7026,6 @@
     ]
   },
   {
-    "id": "excel-gaa-til-hjem-fanen",
-    "tittel": "Gå til Hjem-fanen",
-    "forklaring": "ALT+H",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-lagre-en-arbeidsbok",
     "tittel": "Lagre en arbeidsbok",
     "forklaring": "CTRL+S",
@@ -7722,7 +7068,7 @@
   {
     "id": "excel-velge-en-fyllfarge",
     "tittel": "Velge en fyllfarge",
-    "forklaring": "ALT+H",
+    "forklaring": "ALT+H, SS",
     "tags": [
       "excel"
     ]
@@ -7736,49 +7082,9 @@
     ]
   },
   {
-    "id": "excel-gaa-til-sett-inn-fanen",
-    "tittel": "Gå til Sett inn-fanen",
-    "forklaring": "ALT+N",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-bruk-fet-formatering",
-    "tittel": "Bruk fet formatering",
-    "forklaring": "CTRL+F",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-midtstill-celleinnholdet",
     "tittel": "Midtstill celleinnholdet",
     "forklaring": "Alt+H, A, C",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaa-til-fanen-sideoppsett",
-    "tittel": "Gå til fanen Sideoppsett",
-    "forklaring": "ALT+P",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaa-til-data-fanen",
-    "tittel": "Gå til Data-fanen",
-    "forklaring": "ALT+A",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaa-vil-visning-fanen",
-    "tittel": "Gå til Visning-fanen",
-    "forklaring": "ALT+W",
     "tags": [
       "excel"
     ]
@@ -7794,7 +7100,7 @@
   {
     "id": "excel-legge-til-kantlinjer",
     "tittel": "Legge til kantlinjer",
-    "forklaring": "ALT+H",
+    "forklaring": "ALT+H, K2",
     "tags": [
       "excel"
     ]
@@ -7803,14 +7109,6 @@
     "id": "excel-slette-kolonne",
     "tittel": "Slette kolonne",
     "forklaring": "Alt+H, D, C",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaa-til-formel-fanen",
-    "tittel": "Gå til Formel-fanen",
-    "forklaring": "ALT+M",
     "tags": [
       "excel"
     ]
@@ -7906,7 +7204,7 @@
   {
     "id": "excel-velge-den-aktive-fanen-paa-baandet-og-aktivere-tilgang",
     "tittel": "Velge den aktive fanen på båndet og aktivere tilgangstastene",
-    "forklaring": "ALT eller F10.",
+    "forklaring": "ALT eller F10",
     "tags": [
       "excel"
     ]
@@ -7971,14 +7269,6 @@
     "id": "excel-vise-skjule-baandet",
     "tittel": "Vise/skjule båndet",
     "forklaring": "Ctrl+F1",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-aapne-en-hurtigmeny",
-    "tittel": "Åpne en hurtigmeny",
-    "forklaring": "SKIFT+F10",
     "tags": [
       "excel"
     ]
@@ -8154,7 +7444,7 @@
   {
     "id": "excel-bla-gjennom-flytende-figurer-for-eksempel-tekstbokser-",
     "tittel": "Bla gjennom flytende figurer, for eksempel tekstbokser eller bilder",
-    "forklaring": "CTRL+ALT+5",
+    "forklaring": "CTRL+ALT+5, og deretter TAB-tasten gjentatte ganger",
     "tags": [
       "excel"
     ]
@@ -8163,14 +7453,6 @@
     "id": "excel-avslutte-navigasjonen-for-flytende-figurer-og-gaa-tilb",
     "tittel": "Avslutte navigasjonen for flytende figurer, og gå tilbake til vanlig navigasjon",
     "forklaring": "ESC",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-rull-vannrett",
-    "tittel": "Rull vannrett",
-    "forklaring": "CTRL+SKIFT",
     "tags": [
       "excel"
     ]
@@ -8280,30 +7562,6 @@
     ]
   },
   {
-    "id": "excel-flytte-de-merkede-cellene",
-    "tittel": "Flytte de merkede cellene",
-    "forklaring": "CTRL+X",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-kopiere-de-merkede-cellene",
-    "tittel": "Kopiere de merkede cellene",
-    "forklaring": "CTRL+C",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-lime-inn-innholdet-paa-innsettingspunktet-som-erstatte",
-    "tittel": "Lime inn innholdet på innsettingspunktet, som erstatter et eventuelt merket område",
-    "forklaring": "CTRL+V",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-aapne-dialogboksen-lim-inn-utvalg",
     "tittel": "Åpne dialogboksen Lim inn utvalg",
     "forklaring": "CTRL+ALT+V",
@@ -8321,8 +7579,8 @@
   },
   {
     "id": "excel-fet-tekst-eller-fjerne-fet-formatering",
-    "tittel": "Fet tekst eller fjerne fet formatering",
-    "forklaring": "Ctrl+B eller Ctrl+2",
+    "tittel": "Gjøre tekst fet eller fjerne fet formatering",
+    "forklaring": "Ctrl+F eller Ctrl+2",
     "tags": [
       "excel"
     ]
@@ -8704,14 +7962,6 @@
     ]
   },
   {
-    "id": "excel-angre-forrige-handling",
-    "tittel": "Angre forrige handling",
-    "forklaring": "CTRL+Z",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-aktiver-deaktiver-verktoeytips-for-aa-kontrollere-form",
     "tittel": "Aktiver/deaktiver verktøytips for å kontrollere formler direkte på formellinjen eller i cellen du redigerer",
     "forklaring": "CTRL+ALT+P",
@@ -8785,8 +8035,8 @@
   },
   {
     "id": "excel-kontrollere-avhengige-formler-paa-nytt-og-beregner-der",
-    "tittel": "Kontrollere avhengige formler på nytt og beregner deretter alle celler i alle åpne arbeidsbøker, inkludert celler som ikke er merket for nødvendig beregning",
-    "forklaring": "CTRL+SKIFT+F9",
+    "tittel": "Kontrollere avhengige formler på nytt og beregne deretter alle celler i alle åpne arbeidsbøker, inkludert celler som ikke er merket for nødvendig beregning",
+    "forklaring": "CTRL+ALT+SKIFT+F9",
     "tags": [
       "excel"
     ]
@@ -9232,22 +8482,6 @@
     ]
   },
   {
-    "id": "excel-viser-skjuler-baandet",
-    "tittel": "Viser/skjuler båndet",
-    "forklaring": "CTRL+F1",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-genererer-et-innebygd-diagram-av-dataene-i-gjeldende-o",
-    "tittel": "Genererer et innebygd diagram av dataene i gjeldende område",
-    "forklaring": "ALT+F1",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-setter-inn-et-nytt-regneark",
     "tittel": "Setter inn et nytt regneark",
     "forklaring": "ALT+SKIFT+F1",
@@ -9264,33 +8498,9 @@
     ]
   },
   {
-    "id": "excel-legger-til-eller-redigerer-en-cellekommentar",
-    "tittel": "Legger til eller redigerer en cellekommentar",
-    "forklaring": "SKIFT+F2",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-redigere-den-aktive-cellen-paa-formellinjen",
     "tittel": "Redigere den aktive cellen på formellinjen",
     "forklaring": "CTRL+F2",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-viser-dialogboksen-lim-inn-navn",
-    "tittel": "Viser dialogboksen Lim inn navn",
-    "forklaring": "F3",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-viser-dialogboksen-sett-inn-funksjon",
-    "tittel": "Viser dialogboksen Sett inn funksjon",
-    "forklaring": "SKIFT+F3",
     "tags": [
       "excel"
     ]
@@ -9368,33 +8578,9 @@
     ]
   },
   {
-    "id": "excel-aapner-dialogboksen-stavekontroll-for-aa-kontrollere-s",
-    "tittel": "Åpner dialogboksen Stavekontroll for å kontrollere stavemåten i det aktive regnearket eller det merkede området",
-    "forklaring": "F7",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-utfoerer-kommandoen-flytt-i-arbeidsbokvinduet-naar-vin",
     "tittel": "Utfører kommandoen Flytt i arbeidsbokvinduet når vinduet ikke er maksimert",
     "forklaring": "Ctrl+F7",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-aktiverer-deaktiverer-utvidelsesmodus",
-    "tittel": "Aktiverer/deaktiverer utvidelsesmodus",
-    "forklaring": "F8",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gjoer-det-mulig-aa-legge-til-ikke-sammenhengende-celle",
-    "tittel": "Gjør det mulig å legge til ikke-sammenhengende celler eller områder i et merket celleområde ved hjelp av piltastene",
-    "forklaring": "SKIFT+F8",
     "tags": [
       "excel"
     ]
@@ -9408,73 +8594,9 @@
     ]
   },
   {
-    "id": "excel-viser-makro-dialogboksen-for-aa-opprette-kjoere-redige",
-    "tittel": "Viser Makro-dialogboksen for å opprette, kjøre, redigere eller slette en makro",
-    "forklaring": "ALT+F8",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-beregner-alle-regneark-i-alle-aapne-arbeidsboeker",
-    "tittel": "Beregner alle regneark i alle åpne arbeidsbøker",
-    "forklaring": "F9",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-beregner-det-aktive-regnearket",
-    "tittel": "Beregner det aktive regnearket",
-    "forklaring": "SKIFT+F9",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-beregner-alle-regneark-i-alle-aapne-arbeidsboeker-uavh",
-    "tittel": "Beregner alle regneark i alle åpne arbeidsbøker uavhengig av om de er endret siden forrige beregning",
-    "forklaring": "CTRL+ALT+F9",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-kontrollerer-avhengige-formler-paa-nytt-og-beregner-de",
-    "tittel": "Kontrollerer avhengige formler på nytt og beregner deretter alle celler i alle åpne arbeidsbøker, inkludert celler som ikke er merket for nødvendig beregning",
-    "forklaring": "CTRL+ALT+SKIFT+F9",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-minimerer-et-arbeidsbokvindu-til-et-ikon",
     "tittel": "Minimerer et arbeidsbokvindu til et ikon",
     "forklaring": "CTRL+F9",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-aktiverer-deaktiverer-tastetips",
-    "tittel": "Aktiverer/deaktiverer tastetips",
-    "forklaring": "F10",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-viser-hurtigmenyen-for-et-merket-element",
-    "tittel": "Viser hurtigmenyen for et merket element",
-    "forklaring": "SKIFT+F10",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-viser-menyen-eller-meldingen-for-feilkontroll-knappen",
-    "tittel": "Viser menyen eller meldingen for Feilkontroll-knappen",
-    "forklaring": "ALT+SKIFT+F10",
     "tags": [
       "excel"
     ]
@@ -9488,25 +8610,9 @@
     ]
   },
   {
-    "id": "excel-oppretter-et-diagram-av-dataene-i-gjeldende-omraade-i-",
-    "tittel": "Oppretter et diagram av dataene i gjeldende område i et separat diagramark",
-    "forklaring": "F11",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-setter-inn-et-nytt-regneark-2",
     "tittel": "Setter inn et nytt regneark",
     "forklaring": "SKIFT+F11",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-aapner-redigeringsprogrammet-for-microsoft-visual-basi",
-    "tittel": "Åpner redigeringsprogrammet for Microsoft Visual Basic for Applications, der du kan opprette en makro ved hjelp av Visual Basic for Applications(VBA)",
-    "forklaring": "ALT+F11",
     "tags": [
       "excel"
     ]
@@ -9520,46 +8626,6 @@
     ]
   },
   {
-    "id": "excel-viser-tastetipsene-nye-snarveier-paa-baandet",
-    "tittel": "Viser tastetipsene (nye snarveier) på båndet",
-    "forklaring": "Alt",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-flytt-n-celle-opp-ned-til-venstre-eller-til-hoeyre-i-e",
-    "tittel": "Flytt én celle opp, ned, til venstre eller til høyre i et regneark",
-    "forklaring": "Piltaster",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaar-til-kanten-av-gjeldende-dataomraade-i-et-regneark",
-    "tittel": "Går til kanten av gjeldende dataområde i et regneark",
-    "forklaring": "CTRL+Piltast",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-utvider-det-merkede-celleomraadet-med-n-celle",
-    "tittel": "Utvider det merkede celleområdet med én celle",
-    "forklaring": "SKIFT+Piltast",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-utvider-det-merkede-celleomraadet-til-siste-ikke-tomme",
-    "tittel": "Utvider det merkede celleområdet til siste ikke-tomme celle i samme kolonne eller rad som den aktive cellen, eller til neste ikke-tomme celle hvis den neste cellen er tom",
-    "forklaring": "CTRL+SKIFT+Piltast",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-sletter-ett-tegn-til-venstre-paa-formellinjen",
     "tittel": "Sletter ett tegn til venstre på formellinjen",
     "forklaring": "Tilbake",
@@ -9568,121 +8634,9 @@
     ]
   },
   {
-    "id": "excel-end-slaar-sluttmodus-paa-eller-av",
-    "tittel": "Slå sluttmodus på eller av",
-    "forklaring": "Fn+Pil høyre",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-flytter-til-siste-celle-i-et-regneark-til-den-nederste",
-    "tittel": "Flytter til siste celle i et regneark, til den nederste brukte raden i den brukte kolonnen lengst til høyre",
-    "forklaring": "CTRL+Fn+Pil høyre",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-utvider-det-merkede-celleomraadet-til-den-sist-brukte-",
-    "tittel": "Utvider det merkede celleområdet til den sist brukte cellen i regnearket (nedre høyre hjørne)",
-    "forklaring": "CTRL+SKIFT+Fn+Pil høyre",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-fullfoerer-en-celleinntasting-fra-cellen-eller-formell",
-    "tittel": "Fullfører en celleinntasting fra cellen eller formellinjen og merker cellen under (som standard)",
-    "forklaring": "Enter",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-starter-en-ny-linje-i-samme-celle",
-    "tittel": "Starter en ny linje i samme celle",
-    "forklaring": "Alt+Enter",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-fyller-det-valgte-celleomraadet-med-gjeldende-inntasti",
-    "tittel": "Fyller det valgte celleområdet med gjeldende inntasting",
-    "forklaring": "Ctrl+Enter",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-fullfoerer-en-celleinntasting-og-merker-cellen-over",
-    "tittel": "Fullfører en celleinntasting og merker cellen over",
-    "forklaring": "Skift+Enter",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-avbryter-en-inntasting-i-cellen-eller-paa-formellinjen",
-    "tittel": "Avbryter en inntasting i cellen eller på formellinjen",
-    "forklaring": "Esc",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-gaar-til-begynnelsen-av-en-rad-i-et-regneark",
     "tittel": "Går til begynnelsen av en rad i et regneark",
     "forklaring": "Fn+Pil venstre",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaar-til-begynnelsen-av-et-regneark",
-    "tittel": "Går til begynnelsen av et regneark",
-    "forklaring": "Ctrl+Fn+Pil venstre",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-utvider-det-merkede-celleomraadet-til-begynnelsen-av-r",
-    "tittel": "Utvider det merkede celleområdet til begynnelsen av regnearket",
-    "forklaring": "Ctrl+Skift+Fn+Pil venstre",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaar-ett-skjermbilde-ned-i-et-regneark",
-    "tittel": "Går ett skjermbilde ned i et regneark",
-    "forklaring": "Fn+Pil ned",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-down-merker-det-gjeldende-og-det-neste-arket-i-en-arbe",
-    "tittel": "Merk gjeldende og neste ark i en arbeidsbok",
-    "forklaring": "Ctrl+Skift+Fn+Pil ned",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaar-ett-skjermbilde-opp-i-et-regneark",
-    "tittel": "Går ett skjermbilde opp i et regneark",
-    "forklaring": "Fn+Pil opp",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-up-merker-det-gjeldende-og-det-forrige-arket-i-en-arbe",
-    "tittel": "Merk gjeldende og forrige ark i en arbeidsbok",
-    "forklaring": "Ctrl+Skift+Fn+Pil opp",
     "tags": [
       "excel"
     ]
@@ -9704,49 +8658,9 @@
     ]
   },
   {
-    "id": "excel-merker-en-hel-kolonne-i-et-regneark",
-    "tittel": "Merker en hel kolonne i et regneark",
-    "forklaring": "Ctrl+Mellomrom",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-merker-en-hel-rad-i-et-regneark",
-    "tittel": "Merker en hel rad i et regneark",
-    "forklaring": "SKIFT+MELLOMROM",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-merker-hele-regnearket",
-    "tittel": "Merker hele regnearket",
-    "forklaring": "CTRL+SKIFT+MELLOMROM",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-viser-systemmenyen-for-excel-vinduet",
     "tittel": "Viser systemmenyen for Excel-vinduet",
     "forklaring": "Alt+Mellomrom",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaar-n-celle-til-hoeyre-i-et-regneark",
-    "tittel": "Går én celle til høyre i et regneark",
-    "forklaring": "TABULATOR-tasten",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-gaar-til-forrige-celle-i-et-regneark-eller-til-forrige",
-    "tittel": "Går til forrige celle i et regneark, eller til forrige alternativ i en dialogboks",
-    "forklaring": "Skift+Tab",
     "tags": [
       "excel"
     ]
@@ -10112,7 +9026,7 @@
   {
     "id": "powerpoint-bruke-fet-formatering-paa-den-merkede-teksten",
     "tittel": "Bruke fet formatering på den merkede teksten",
-    "forklaring": "CTRL+B",
+    "forklaring": "CTRL+F",
     "tags": [
       "powerpoint"
     ],
@@ -10121,7 +9035,7 @@
   {
     "id": "powerpoint-bruk-kursiv-formatering",
     "tittel": "Bruk kursiv formatering",
-    "forklaring": "CTRL+I",
+    "forklaring": "CTRL+K",
     "tags": [
       "powerpoint"
     ],
@@ -10715,7 +9629,7 @@
   {
     "id": "powerpoint-aapne-dialogboksen-soek",
     "tittel": "Åpne dialogboksen Søk",
-    "forklaring": "Ctrl+F",
+    "forklaring": "Ctrl+B",
     "tags": [
       "powerpoint"
     ],
@@ -11030,7 +9944,7 @@
   {
     "id": "powerpoint-velge-den-aktive-fanen-paa-baandet-og-aktivere-ti",
     "tittel": "Velge den aktive fanen på båndet og aktivere tilgangstastene",
-    "forklaring": "ALT eller F10.",
+    "forklaring": "ALT eller F10",
     "tags": [
       "powerpoint"
     ],
@@ -11390,7 +10304,7 @@
   {
     "id": "powerpoint-gaa-til-et-bestemt-lysbilde",
     "tittel": "Gå til et bestemt lysbilde",
-    "forklaring": "ENTER",
+    "forklaring": "Lysbildenummeret, deretter ENTER",
     "tags": [
       "powerpoint"
     ],
@@ -12043,7 +10957,7 @@
   {
     "id": "onenote-bruke-fjerne-fet-formatering",
     "tittel": "Bruke/fjerne fet formatering",
-    "forklaring": "CTRL+B",
+    "forklaring": "CTRL+F",
     "tags": [
       "onenote"
     ]
@@ -12067,7 +10981,7 @@
   {
     "id": "onenote-bruke-fjerne-gjennomstrekingsformatering",
     "tittel": "Bruke/fjerne gjennomstrekingsformatering",
-    "forklaring": "ALT+Bindestreker (-)",
+    "forklaring": "ALT+BINDESTREK (-)",
     "tags": [
       "onenote"
     ]
@@ -12075,7 +10989,7 @@
   {
     "id": "onenote-bruke-fjerne-formatering-for-hevet-skrift",
     "tittel": "Bruke/fjerne formatering for hevet skrift",
-    "forklaring": "CTRL+SKIFT",
+    "forklaring": "CTRL+SKIFT+PLUSS(+)",
     "tags": [
       "onenote"
     ]
@@ -12083,7 +10997,7 @@
   {
     "id": "onenote-bruke-fjerne-formatering-for-senket-skrift",
     "tittel": "Bruke/fjerne formatering for senket skrift",
-    "forklaring": "CTRL+SKIFT",
+    "forklaring": "CTRL+SKIFT+MINUS(-)",
     "tags": [
       "onenote"
     ]
@@ -12259,7 +11173,7 @@
   {
     "id": "onenote-sett-inn-et-skjermutklipp",
     "tittel": "Sett inn et skjermutklipp",
-    "forklaring": "Windows-tasten+SKIFT+S",
+    "forklaring": "Windows-tasten+SKIFT+S, og deretter CTRL+V",
     "tags": [
       "onenote"
     ]
@@ -12284,14 +11198,6 @@
     "id": "onenote-sett-inn-gjeldende-klokkeslett",
     "tittel": "Sett inn gjeldende klokkeslett",
     "forklaring": "ALT+SKIFT+T",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-sett-inn-et-linjeskift",
-    "tittel": "Sett inn et linjeskift",
-    "forklaring": "SKIFT+ENTER",
     "tags": [
       "onenote"
     ]
@@ -12428,22 +11334,6 @@
     "id": "onenote-flytte-merkede-avsnitt-ned",
     "tittel": "Flytte merkede avsnitt ned",
     "forklaring": "ALT+SKIFT+PIL NED",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-oeke-avsnittsinnrykk-2",
-    "tittel": "Øke avsnittsinnrykk",
-    "forklaring": "ALT+SKIFT+PIL VENSTRE",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-redusere-avsnittsinnrykk-2",
-    "tittel": "Redusere avsnittsinnrykk",
-    "forklaring": "ALT+SKIFT+PIL HØYRE",
     "tags": [
       "onenote"
     ]
@@ -12643,7 +11533,7 @@
   {
     "id": "onenote-utvide-den-valgte-overskriften",
     "tittel": "Utvide den valgte overskriften",
-    "forklaring": "ALT+SKIFT+LIKHETSTEGN ( =)",
+    "forklaring": "ALT+SKIFT+LIKHETSTEGN (=)",
     "tags": [
       "onenote"
     ]
@@ -12793,14 +11683,6 @@
     ]
   },
   {
-    "id": "onenote-merk-alle-elementer",
-    "tittel": "Merk alle elementer",
-    "forklaring": "CTRL+A",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
     "id": "onenote-merk-gjeldende-side",
     "tittel": "Merk gjeldende side",
     "forklaring": "Ctrl+Skift+A",
@@ -12820,14 +11702,6 @@
     "id": "onenote-flytte-den-valgte-siden-ned-i-sidenavigasjonsruten",
     "tittel": "Flytte den valgte siden ned i sidenavigasjonsruten",
     "forklaring": "ALT+SKIFT+PIL NED",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-flytte-markoeren-til-sidetittel",
-    "tittel": "Flytte markøren til sidetittel",
-    "forklaring": "CTRL+SKIFT+T",
     "tags": [
       "onenote"
     ]
@@ -12937,22 +11811,6 @@
     ]
   },
   {
-    "id": "onenote-gaa-til-den-forrige-siden-du-besoekte",
-    "tittel": "Gå til den forrige siden du besøkte",
-    "forklaring": "ALT+pil venstre",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-gaa-til-den-neste-siden-du-besoekte-hvis-mulig",
-    "tittel": "Gå til den neste siden du besøkte, hvis mulig",
-    "forklaring": "ALT+pil høyre",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
     "id": "onenote-zoom-inn",
     "tittel": "Zoom inn",
     "forklaring": "CTRL+PLUSSTEGN (+)",
@@ -13057,22 +11915,6 @@
     ]
   },
   {
-    "id": "onenote-gaa-til-den-foerste-siden-i-settet-med-sidefaner-som",
-    "tittel": "Gå til den første siden i settet med sidefaner som er synlig for øyeblikket",
-    "forklaring": "ALT+Fn+Pil opp",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-gaa-til-den-siste-siden-i-settet-med-sidefaner-som-e",
-    "tittel": "Gå til den siste siden i settet med sidefaner som er synlig for øyeblikket",
-    "forklaring": "ALT+Fn+Pil ned",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
     "id": "onenote-flytt-kopier-gjeldende-side",
     "tittel": "Flytt/kopier gjeldende side",
     "forklaring": "CTRL+ALT+M",
@@ -13084,14 +11926,6 @@
     "id": "onenote-plasser-fokus-paa-gjeldende-sidefane",
     "tittel": "Plasser fokus på gjeldende sidefane",
     "forklaring": "CTRL+ALT+G",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-merk-gjeldende-sidefane",
-    "tittel": "Merk gjeldende sidefane",
-    "forklaring": "Ctrl+Skift+A",
     "tags": [
       "onenote"
     ]
@@ -13163,7 +11997,7 @@
   {
     "id": "onenote-soek-bare-paa-gjeldende-side",
     "tittel": "Søk bare på gjeldende side",
-    "forklaring": "CTRL+F",
+    "forklaring": "CTRL+B",
     "tags": [
       "onenote"
     ]
@@ -13441,22 +12275,6 @@
     ]
   },
   {
-    "id": "onedrive-last-ned-det-valgte-elementet",
-    "tittel": "Last ned det valgte elementet",
-    "forklaring": "CTRL+S",
-    "tags": [
-      "onedrive"
-    ]
-  },
-  {
-    "id": "onedrive-gi-nytt-navn-til-den-valgte-filen-eller-mappen",
-    "tittel": "Gi nytt navn til den valgte filen eller mappen",
-    "forklaring": "F2",
-    "tags": [
-      "onedrive"
-    ]
-  },
-  {
     "id": "microsoft-365-aapne-fil-menyen",
     "tittel": "Åpne Fil-menyen",
     "forklaring": "ALT+F",
@@ -13515,7 +12333,7 @@
   {
     "id": "microsoft-365-opprett-en-ny-fil-ved-hjelp-av-en-mal-i-listen",
     "tittel": "Opprett en ny fil ved hjelp av en mal i listen over appmaler",
-    "forklaring": "Z",
+    "forklaring": "Z, malens tall eller bokstav, deretter C",
     "tags": [
       "microsoft 365"
     ]
@@ -13523,7 +12341,7 @@
   {
     "id": "microsoft-365-soek-etter-maler-paa-nettet",
     "tittel": "Søk etter maler på nettet",
-    "forklaring": "S",
+    "forklaring": "S, søkeordene, deretter ENTER",
     "tags": [
       "microsoft 365"
     ]
@@ -13531,7 +12349,7 @@
   {
     "id": "microsoft-365-utfoer-et-forhaandsdefinert-soek-etter-maltype",
     "tittel": "Utfør et forhåndsdefinert søk etter maltyper",
-    "forklaring": "U",
+    "forklaring": "U, deretter et tall fra 1 til 7",
     "tags": [
       "microsoft 365"
     ]
@@ -13547,7 +12365,7 @@
   {
     "id": "microsoft-365-soek-etter-en-fil-i-nylig-brukte-filer",
     "tittel": "Søk etter en fil i nylig brukte filer",
-    "forklaring": "R, E",
+    "forklaring": "R, E, deretter søkeordene",
     "tags": [
       "microsoft 365"
     ]
@@ -13619,7 +12437,7 @@
   {
     "id": "microsoft-365-aapne-et-nylig-brukt-dokument-som-ble-lukket-u",
     "tittel": "Åpne et nylig brukt dokument som ble lukket uten å lagre",
-    "forklaring": "U",
+    "forklaring": "U, deretter ENTER på filen",
     "tags": [
       "microsoft 365"
     ]
@@ -13651,7 +12469,7 @@
   {
     "id": "microsoft-365-lagre-en-kopi-av-filen-i-dokumenter-paa-pc-en",
     "tittel": "Lagre en kopi av filen i Dokumenter på PC-en",
-    "forklaring": "A, C, Y, 8",
+    "forklaring": "A, C, Y, 8, deretter ALT+A, Y, 5",
     "tags": [
       "microsoft 365"
     ]
@@ -13738,7 +12556,7 @@
   },
   {
     "id": "microsoft-365-aapne-dialogboksen-send-til-microsoftword-i-po",
-    "tittel": "Åpne dialogboksen Send til MicrosoftWord i PowerPoint for å opprette støtteark for presentasjonen i Word format",
+    "tittel": "Åpne dialogboksen Send til Microsoft Word i PowerPoint for å opprette støtteark for presentasjonen i Word-format",
     "forklaring": "H, A",
     "tags": [
       "microsoft 365"
@@ -13826,7 +12644,7 @@
   },
   {
     "id": "microsoft-365-aapne-kontoinformasjonssiden",
-    "tittel": "Åpne kontoinformasjonssiden",
+    "tittel": "Åpne kontoinformasjonssiden i Outlook",
     "forklaring": "Alt+F, I",
     "tags": [
       "microsoft 365"
@@ -13867,7 +12685,7 @@
   {
     "id": "microsoft-365-endre-microsoft-365-temaet",
     "tittel": "Endre Microsoft 365-temaet",
-    "forklaring": "G",
+    "forklaring": "G, deretter TAB og T",
     "tags": [
       "microsoft 365"
     ]
@@ -14241,22 +13059,6 @@
     ]
   },
   {
-    "id": "microsoft-365-heve-nivaaet-for-det-merkede-avsnittet",
-    "tittel": "Heve nivået for det merkede avsnittet",
-    "forklaring": "ALT+SKIFT+PIL VENSTRE",
-    "tags": [
-      "microsoft 365"
-    ]
-  },
-  {
-    "id": "microsoft-365-senk-nivaaet-for-det-merkede-avsnittet",
-    "tittel": "Senk nivået for det merkede avsnittet",
-    "forklaring": "ALT+SKIFT+PIL HØYRE",
-    "tags": [
-      "microsoft 365"
-    ]
-  },
-  {
     "id": "microsoft-365-kontrollere-stavingen-ikke-tilgjengelig-i-word",
     "tittel": "Kontrollere stavingen (ikke tilgjengelig i Word)",
     "forklaring": "F7",
@@ -14275,7 +13077,7 @@
   {
     "id": "microsoft-365-oeke-skriftstoerrelsen-for-den-merkede-teksten",
     "tittel": "Øke skriftstørrelsen for den merkede teksten",
-    "forklaring": "CTRL+SKIFT+VINKEL HØYRE HAKEPARENTES (>)",
+    "forklaring": "CTRL+SKIFT+HØYRE VINKELPARENTES (>)",
     "tags": [
       "microsoft 365"
     ]
@@ -14299,7 +13101,7 @@
   {
     "id": "microsoft-365-bruke-fet-formatering-paa-den-merkede-teksten",
     "tittel": "Bruke fet formatering på den merkede teksten",
-    "forklaring": "CTRL+B",
+    "forklaring": "CTRL+F",
     "tags": [
       "microsoft 365"
     ]
@@ -14339,7 +13141,7 @@
   {
     "id": "microsoft-365-juster-hevet-eller-senket-forskyvning-opp",
     "tittel": "Juster hevet eller senket forskyvning opp",
-    "forklaring": "CTRL+ALT+SKIFT+VINKEL HØYRE HAKEPARENTES (>)",
+    "forklaring": "CTRL+ALT+SKIFT+HØYRE VINKELPARENTES (>)",
     "tags": [
       "microsoft 365"
     ]
@@ -14427,7 +13229,7 @@
   {
     "id": "microsoft-365-flette-to-tekstlinjer",
     "tittel": "Flette to tekstlinjer",
-    "forklaring": "DEL",
+    "forklaring": "DEL på slutten av den første tekstlinjen",
     "tags": [
       "microsoft 365"
     ]
@@ -14682,7 +13484,7 @@
   },
   {
     "id": "edge-legg-til-www-foran-og-com-bak-det-du-har-skrevet",
-    "tittel": "Legg til www. foran og.com bak det du har skrevet",
+    "tittel": "Legg til www. foran og .com bak det du har skrevet",
     "forklaring": "Ctrl+Enter",
     "tags": [
       "edge"
@@ -14898,7 +13700,7 @@
   },
   {
     "id": "edge-tilpass-til-siden-eller-til-bredden",
-    "tittel": "Tilpass til siden eller til bredden",
+    "tittel": "Tilpass PDF til siden eller til bredden",
     "forklaring": "Ctrl+Omvendt skråstrek (\\)",
     "tags": [
       "edge"
@@ -14906,7 +13708,7 @@
   },
   {
     "id": "edge-roter-90-mot-klokka",
-    "tittel": "Roter 90° mot klokka",
+    "tittel": "Roter PDF 90° mot klokka",
     "forklaring": "Ctrl+Venstre hakeparentes ([)",
     "tags": [
       "edge"
@@ -14914,7 +13716,7 @@
   },
   {
     "id": "edge-roter-90-med-klokka",
-    "tittel": "Roter 90° med klokka",
+    "tittel": "Roter PDF 90° med klokka",
     "forklaring": "Ctrl+Høyre hakeparentes (])",
     "tags": [
       "edge"
@@ -15282,7 +14084,7 @@
   },
   {
     "id": "chrome-soek-fra-adressefeltet",
-    "tittel": "Søk fra adressefeltet",
+    "tittel": "Søk fra hvor som helst på siden",
     "forklaring": "Ctrl+K eller Ctrl+E",
     "tags": [
       "chrome"
@@ -15306,7 +14108,7 @@
   },
   {
     "id": "chrome-legg-til-www-foran-og-com-bak-det-du-har-skrevet",
-    "tittel": "Legg til www. foran og.com bak det du har skrevet",
+    "tittel": "Legg til www. foran og .com bak det du har skrevet",
     "forklaring": "Ctrl+Enter",
     "tags": [
       "chrome"
@@ -15314,7 +14116,7 @@
   },
   {
     "id": "chrome-legg-til-www-foran-og-com-bak-det-du-har-skrevet-i-et",
-    "tittel": "Legg til www. foran og.com bak det du har skrevet, i et nytt vindu",
+    "tittel": "Legg til www. foran og .com bak det du har skrevet, i et nytt vindu",
     "forklaring": "Ctrl+Skift+Enter",
     "tags": [
       "chrome"
