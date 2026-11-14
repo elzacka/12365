@@ -10,7 +10,10 @@ Jeg har laget appen **1-2-365** for å sette turbo på:
 
 **Du finner den her:** https://elzacka.github.io/12365/
 
-<img width="1855" height="945" alt="1-2-365" src="https://github.com/user-attachments/assets/210a9b6e-1256-43d0-8eb6-91aea30e664a" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="docs/screenshots/static.webp">
+  <img alt="Åtte skjermbilder fra 1-2-365: Startsiden, Appene, Se og hør, Gjør sånn, en veiledning i Lists, Jukselapp, Hurtigtaster og Alt i E5" src="docs/screenshots/carousel.webp">
+</picture>
 
 ## Tech stack
 
