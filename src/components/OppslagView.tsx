@@ -461,7 +461,7 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
           <span className="text-sm font-medium text-slate-800 leading-snug">{ord.tittel}</span>
           {!isExpanded && (
             <p className="text-xs text-slate-500 mt-0.5 line-clamp-1 leading-snug">
-              {previewText}
+              {parseInline(previewText)}
             </p>
           )}
         </div>

@@ -26,6 +26,8 @@ export function buildIndex(ord: Oppslag[]): MiniSearch<IndexedOrd> {
     fields: ['tittel', 'undertittel', 'alias', 'forklaring', 'tags'],
     storeFields: ['id'],
     idField: 'id',
+    // MiniSearch's default plus «+», so «skift» finds «Ctrl+Skift+M».
+    tokenize: (text) => text.split(/[\n\r\p{Z}\p{P}+]+/u),
     processTerm: (term) => {
       const n = normalize(term)
       return n || null

@@ -16,6 +16,7 @@ let videosPromise: Promise<Video[]> | null = null
 let coursesPromise: Promise<Course[]> | null = null
 let e5OverviewPromise: Promise<E5LicenseOverview> | null = null
 let jukselappPromise: Promise<Oppslag[]> | null = null
+let hurtigtasterPromise: Promise<Oppslag[]> | null = null
 
 export function fetchArticles(): Promise<ArticleCategory[]> {
   articlesPromise ??= fetchJson<ArticleCategory[]>('articles.json')
@@ -45,4 +46,9 @@ export function fetchE5LicenseOverview(): Promise<E5LicenseOverview> {
 export function fetchJukselapp(): Promise<Oppslag[]> {
   jukselappPromise ??= fetchJson<Oppslag[]>('jukselapp.json')
   return jukselappPromise
+}
+
+export function fetchHurtigtaster(): Promise<Oppslag[]> {
+  hurtigtasterPromise ??= fetchJson<Oppslag[]>('hurtigtaster.json')
+  return hurtigtasterPromise
 }

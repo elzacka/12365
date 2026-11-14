@@ -1,0 +1,528 @@
+[
+  {
+    "id": "angre",
+    "tittel": "Angre",
+    "forklaring": "**Ctrl+Z**",
+    "tags": [
+      "office",
+      "outlook"
+    ]
+  },
+  {
+    "id": "avslutt-samtalen",
+    "tittel": "Avslutt samtalen",
+    "forklaring": "**Ctrl+Skift+H**",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "avslaa-anropet",
+    "tittel": "Avslå anropet",
+    "forklaring": "**Ctrl+Skift+D**",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "bruk-stilen-overskrift-1",
+    "tittel": "Bruk stilen Overskrift 1",
+    "forklaring": "**Ctrl+Alt+1**",
+    "tags": [
+      "word"
+    ]
+  },
+  {
+    "id": "bytt-mellom-aapne-vinduer",
+    "tittel": "Bytt mellom åpne vinduer",
+    "forklaring": "**Alt+Tab**\nHold nede Alt og trykk Tab flere ganger for å bla gjennom vinduene",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "bytt-til-skrivebordet-til-hoeyre",
+    "tittel": "Bytt til skrivebordet til høyre",
+    "forklaring": "**Windows-tast+Ctrl+Pil høyre**\nGjelder skrivebord du har opprettet",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "demp-eller-slaa-paa-mikrofonen",
+    "tittel": "Demp eller slå på mikrofonen",
+    "forklaring": "**Ctrl+Skift+M**\nGjelder i et møte eller en samtale",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "demp-eller-slaa-paa-mikrofonen-i-stoettede-apper",
+    "tittel": "Demp eller slå på mikrofonen i støttede apper",
+    "forklaring": "**Windows-tast+Alt+K**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "forankre-vinduet-til-hoeyre",
+    "tittel": "Forankre vinduet til høyre side av skjermen",
+    "forklaring": "**Windows-tast+Pil høyre**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "forankre-vinduet-til-venstre",
+    "tittel": "Forankre vinduet til venstre side av skjermen",
+    "forklaring": "**Windows-tast+Pil venstre**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "gjoer-om",
+    "tittel": "Gjør om",
+    "forklaring": "**Ctrl+Y**",
+    "tags": [
+      "office"
+    ]
+  },
+  {
+    "id": "godta-videosamtalen",
+    "tittel": "Godta videosamtalen",
+    "forklaring": "**Ctrl+Skift+A**",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "grupper-de-merkede-objektene",
+    "tittel": "Grupper de merkede objektene",
+    "forklaring": "**Ctrl+G**",
+    "tags": [
+      "powerpoint"
+    ]
+  },
+  {
+    "id": "gaa-til-e-postvisningen",
+    "tittel": "Gå til e-postvisningen",
+    "forklaring": "**Ctrl+1**",
+    "tags": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "gaa-til-kalenderen",
+    "tittel": "Gå til kalenderen",
+    "forklaring": "**Ctrl+2**",
+    "tags": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "gaa-til-soek-i-teams",
+    "tittel": "Gå til søk",
+    "forklaring": "**Ctrl+E**",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "klipp-ut",
+    "tittel": "Klipp ut",
+    "forklaring": "**Ctrl+X**",
+    "tags": [
+      "office",
+      "outlook"
+    ]
+  },
+  {
+    "id": "kopier",
+    "tittel": "Kopier",
+    "forklaring": "**Ctrl+C**",
+    "tags": [
+      "office",
+      "outlook"
+    ]
+  },
+  {
+    "id": "lag-en-kopi-av-lysbildet",
+    "tittel": "Lag en kopi av det merkede lysbildet",
+    "forklaring": "**Ctrl+Skift+D**",
+    "tags": [
+      "powerpoint"
+    ]
+  },
+  {
+    "id": "lagre",
+    "tittel": "Lagre",
+    "forklaring": "**Ctrl+S**",
+    "tags": [
+      "office"
+    ]
+  },
+  {
+    "id": "legg-til-eller-fjern-filter",
+    "tittel": "Legg til eller fjern filter",
+    "forklaring": "**Ctrl+Skift+L**",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "legg-til-en-punktliste",
+    "tittel": "Legg til en punktliste",
+    "forklaring": "**Ctrl+Skift+L**",
+    "tags": [
+      "word"
+    ]
+  },
+  {
+    "id": "legg-til-et-nytt-lysbilde",
+    "tittel": "Legg til et nytt lysbilde",
+    "forklaring": "**Ctrl+M**",
+    "tags": [
+      "powerpoint"
+    ]
+  },
+  {
+    "id": "lim-inn",
+    "tittel": "Lim inn",
+    "forklaring": "**Ctrl+V**",
+    "tags": [
+      "office",
+      "outlook"
+    ]
+  },
+  {
+    "id": "lim-inn-bare-tekst",
+    "tittel": "Lim inn bare tekst",
+    "forklaring": "**Ctrl+Skift+V**",
+    "tags": [
+      "word"
+    ]
+  },
+  {
+    "id": "lukk-det-aktive-vinduet",
+    "tittel": "Lukk det aktive vinduet",
+    "forklaring": "**Alt+F4**\nWindows spør om du vil slå av datamaskinen hvis ingen vinduer er åpne",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "lukk-dokumentet-eller-arbeidsboken",
+    "tittel": "Lukk dokumentet eller arbeidsboken",
+    "forklaring": "**Ctrl+W**",
+    "tags": [
+      "word",
+      "excel"
+    ]
+  },
+  {
+    "id": "laas-datamaskinen",
+    "tittel": "Lås datamaskinen",
+    "forklaring": "**Windows-tast+L**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "marker-meldingen-som-lest",
+    "tittel": "Marker meldingen som lest",
+    "forklaring": "**Ctrl+Q**",
+    "tags": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "marker-meldingen-som-ulest",
+    "tittel": "Marker meldingen som ulest",
+    "forklaring": "**Ctrl+U**",
+    "tags": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "merk-alt",
+    "tittel": "Merk alt",
+    "forklaring": "**Ctrl+A**\nI PowerPoint merker snarveien alle objektene på lysbildet",
+    "tags": [
+      "office"
+    ]
+  },
+  {
+    "id": "merk-en-hel-kolonne",
+    "tittel": "Merk en hel kolonne",
+    "forklaring": "**Ctrl+Mellomrom**",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "merk-en-hel-rad",
+    "tittel": "Merk en hel rad",
+    "forklaring": "**Skift+Mellomrom**",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "opphev-dempingen-midlertidig",
+    "tittel": "Opphev dempingen midlertidig",
+    "forklaring": "**Ctrl+Mellomrom**\nSlå på **Hurtigtast for å oppheve demping** i personverninnstillingene i Teams først",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "opprett-en-ny-fil",
+    "tittel": "Opprett en ny fil",
+    "forklaring": "**Ctrl+N**\nOppretter et nytt dokument, en ny arbeidsbok eller en ny presentasjon",
+    "tags": [
+      "office"
+    ]
+  },
+  {
+    "id": "opprett-en-ny-melding",
+    "tittel": "Opprett en ny melding",
+    "forklaring": "**Ctrl+N**\nGjelder i e-postvisningen",
+    "tags": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "opprett-et-nytt-skrivebord",
+    "tittel": "Opprett et nytt skrivebord",
+    "forklaring": "**Windows-tast+Ctrl+D**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "rediger-den-merkede-cellen",
+    "tittel": "Rediger den merkede cellen",
+    "forklaring": "**F2**",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "rekk-opp-eller-senk-haanden",
+    "tittel": "Rekk opp eller senk hånden",
+    "forklaring": "**Ctrl+Skift+K**",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "send-meldingen",
+    "tittel": "Send meldingen",
+    "forklaring": "**Ctrl+Enter**",
+    "tags": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "sett-inn-en-kommentar",
+    "tittel": "Sett inn en kommentar",
+    "forklaring": "**Ctrl+Alt+M**",
+    "tags": [
+      "word",
+      "powerpoint"
+    ]
+  },
+  {
+    "id": "sett-inn-et-linjeskift",
+    "tittel": "Sett inn et linjeskift",
+    "forklaring": "**Skift+Enter**",
+    "tags": [
+      "word"
+    ]
+  },
+  {
+    "id": "sett-inn-et-sideskift",
+    "tittel": "Sett inn et sideskift",
+    "forklaring": "**Ctrl+Enter**",
+    "tags": [
+      "word"
+    ]
+  },
+  {
+    "id": "sett-inn-summer-formelen",
+    "tittel": "Sett inn Summer-formelen",
+    "forklaring": "**Alt+Likhetstegn (=)**",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "skriv-ut",
+    "tittel": "Skriv ut",
+    "forklaring": "**Ctrl+P**",
+    "tags": [
+      "office"
+    ]
+  },
+  {
+    "id": "slaa-video-paa-eller-av",
+    "tittel": "Slå videoen på eller av",
+    "forklaring": "**Ctrl+Skift+O**\nGjelder i et møte eller en samtale",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "start-en-ny-chat",
+    "tittel": "Start en ny chat",
+    "forklaring": "**Ctrl+N**",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "start-en-ny-linje-i-cellen",
+    "tittel": "Start en ny linje i cellen",
+    "forklaring": "**Alt+Enter**",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "start-en-ny-linje-i-meldingen",
+    "tittel": "Start en ny linje i meldingen",
+    "forklaring": "**Skift+Enter**",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "start-lysbildefremvisningen",
+    "tittel": "Start lysbildefremvisningen",
+    "forklaring": "**F5**",
+    "tags": [
+      "powerpoint"
+    ]
+  },
+  {
+    "id": "start-lysbildefremvisningen-fra-gjeldende-lysbilde",
+    "tittel": "Start lysbildefremvisningen fra gjeldende lysbilde",
+    "forklaring": "**Skift+F5**",
+    "tags": [
+      "powerpoint"
+    ]
+  },
+  {
+    "id": "start-presentasjonsvisning",
+    "tittel": "Start presentasjonsvisning",
+    "forklaring": "**Alt+F5**",
+    "tags": [
+      "powerpoint"
+    ]
+  },
+  {
+    "id": "svar-alle",
+    "tittel": "Svar alle",
+    "forklaring": "**Ctrl+Skift+R**",
+    "tags": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "svar-paa-en-melding",
+    "tittel": "Svar på en melding",
+    "forklaring": "**Ctrl+R**",
+    "tags": [
+      "outlook"
+    ]
+  },
+  {
+    "id": "svar-paa-siste-melding",
+    "tittel": "Svar på siste melding",
+    "forklaring": "**Alt+Skift+R**",
+    "tags": [
+      "teams"
+    ]
+  },
+  {
+    "id": "ta-skjermbilde-av-et-omraade",
+    "tittel": "Ta skjermbilde av et område",
+    "forklaring": "**Windows-tast+Skift+S**\nWindows kopierer bildet til utklippstavlen",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "veksle-mellom-absolutte-og-relative-referanser",
+    "tittel": "Veksle mellom absolutte og relative referanser",
+    "forklaring": "**F4**\nSett markøren i en cellereferanse i formelen og trykk flere ganger",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "vis-eller-skjul-skrivebordet",
+    "tittel": "Vis eller skjul skrivebordet",
+    "forklaring": "**Windows-tast+D**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "aapne-dialogboksen-formatere-celler",
+    "tittel": "Åpne dialogboksen Formatere celler",
+    "forklaring": "**Ctrl+1**",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "aapne-dialogboksen-lim-inn-utvalg",
+    "tittel": "Åpne dialogboksen Lim inn utvalg",
+    "forklaring": "**Ctrl+Alt+V**",
+    "tags": [
+      "excel"
+    ]
+  },
+  {
+    "id": "aapne-emojipanelet",
+    "tittel": "Åpne emojipanelet",
+    "forklaring": "**Windows-tast+punktum (.)**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "aapne-filutforsker",
+    "tittel": "Åpne Filutforsker",
+    "forklaring": "**Windows-tast+E**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "aapne-oppgavebehandling",
+    "tittel": "Åpne Oppgavebehandling",
+    "forklaring": "**Ctrl+Skift+Esc**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "aapne-oppgavevisning",
+    "tittel": "Åpne Oppgavevisning",
+    "forklaring": "**Windows-tast+Tab**",
+    "tags": [
+      "windows"
+    ]
+  },
+  {
+    "id": "aapne-utklippstavlen",
+    "tittel": "Åpne utklippstavlen",
+    "forklaring": "**Windows-tast+V**\nUtklippstavleloggen er ikke slått på som standard. Slå den på første gang du bruker snarveien.",
+    "tags": [
+      "windows"
+    ]
+  }
+]

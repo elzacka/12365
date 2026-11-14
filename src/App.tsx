@@ -15,6 +15,7 @@ import { ArticlePage } from './pages/ArticlePage'
 import { SeOgHor } from './pages/SeOgHor'
 import { AltIE5 } from './pages/AltIE5'
 import { Jukselapp } from './pages/Jukselapp'
+import { Hurtigtaster } from './pages/Hurtigtaster'
 
 // Lazy-loaded: pulls in media-chrome, which shouldn't ship in the main bundle for routes that never play video.
 const VideoPage = lazy(() => import('./pages/VideoPage').then(m => ({ default: m.VideoPage })))
@@ -58,6 +59,7 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/personvern') return { showHome: true, showBack: false, breadcrumb: <Breadcrumb parentTo="/om" parentLabel="Om" current="Personvern" /> }
   if (pathname === '/alt-i-e5') return { title: 'Alt i E5', showHome: true, showBack: false }
   if (pathname === '/jukselapp') return { title: 'Jukselapp', showHome: true, showBack: false }
+  if (pathname === '/hurtigtaster') return { title: 'Hurtigtaster', showHome: true, showBack: false }
   return { showHome: true, showBack: false }
 }
 
@@ -94,6 +96,7 @@ function AppRoutes() {
             <Route path="/personvern" element={<Personvern />} />
             <Route path="/alt-i-e5" element={<AltIE5 />} />
             <Route path="/jukselapp" element={<Jukselapp />} />
+            <Route path="/hurtigtaster" element={<Hurtigtaster />} />
             {LEGACY_PATHS.map(([from, to]) => (
               <Route key={from} path={`${from}/*`} element={<RedirectKeepingRest to={to} />} />
             ))}

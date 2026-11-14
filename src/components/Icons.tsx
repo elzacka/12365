@@ -69,6 +69,14 @@ export function Stack2Icon({ size = 24, className }: IconProps) {
   )
 }
 
+export function BoltIcon({ size = 24, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
+    </svg>
+  )
+}
+
 export function InfoSquareIcon({ size = 24, className }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
