@@ -4,6 +4,7 @@ import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { SearchIcon, CloseIcon, ChevronRightIcon } from './Icons'
 import { SearchShortcutHint } from './SearchShortcutHint'
+import { KeyLegend, Keys } from './Keys'
 import { parseInline, stripLinks } from '../lib/inline'
 import type { Oppslag } from '../types'
 
@@ -310,6 +311,12 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                     ))}
                   </div>
                 </div>
+                {keys && (
+                  <div className="pt-2 border-t border-slate-100">
+                    <p className="text-slate-500 font-medium mb-1.5">Symbolene på tastene</p>
+                    <KeyLegend />
+                  </div>
+                )}
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-500 font-medium mb-1.5">I listen</p>
                   <p className="text-slate-500">Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere. Klikk på flere for å se oppslagene som har alle.</p>
@@ -557,20 +564,5 @@ function OppslagRow({ ord, keys, isExpanded, onExpand, onTagClick, activeTags, w
         </div>
       )}
     </div>
-  )
-}
-
-// «**Ctrl+Skift+M**» as one key cap; on a narrow screen it breaks only after a «+».
-function Keys({ combo }: { combo: string }) {
-  const parts = combo.replace(/\*\*/g, '').split('+')
-  return (
-    <kbd className="shrink-0 max-w-[50%] text-right font-sans text-xs font-medium text-slate-700 bg-slate-50 border border-slate-200 rounded-md px-1.5 py-0.5 shadow-[inset_0_-1px_0_var(--color-slate-200)]">
-      {parts.map((p, i) => (
-        <Fragment key={i}>
-          <span className="whitespace-nowrap">{p}{i < parts.length - 1 && '+'}</span>
-          {i < parts.length - 1 && <wbr />}
-        </Fragment>
-      ))}
-    </kbd>
   )
 }

@@ -36,7 +36,7 @@ describe('Hurtigtaster', () => {
     await renderPage()
     expect(headings()).toEqual(['Windows', 'Word', 'Excel'])
     const keys = [...document.querySelectorAll('kbd')].map(k => k.textContent)
-    expect(keys.filter(k => k === 'Ctrl+Skift+L')).toHaveLength(2)
+    expect(keys.filter(k => k === 'Ctrl+⇧Skift+L')).toHaveLength(2)
     expect(screen.queryByText('Gjelder alle apper')).toBeNull()
   })
 

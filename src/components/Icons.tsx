@@ -197,6 +197,28 @@ export function MenuIcon({ size = 24, className }: IconProps) {
   )
 }
 
+// The logo on the Windows key: four panes.
+export function WindowsKeyIcon({ size = 12, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 16 16" fill="currentColor" className={className}>
+      <rect x="1" y="1" width="6.5" height="6.5" />
+      <rect x="8.5" y="1" width="6.5" height="6.5" />
+      <rect x="1" y="8.5" width="6.5" height="6.5" />
+      <rect x="8.5" y="8.5" width="6.5" height="6.5" />
+    </svg>
+  )
+}
+
+// The Tab key label: arrows to the left and right margin.
+export function TabKeyIcon({ size = 12, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M14 4.5h-11M6 1.5l-3 3l3 3M2 1.5v6" />
+      <path d="M2 11.5h11M10 8.5l3 3l-3 3M14 8.5v6" />
+    </svg>
+  )
+}
+
 // Gated content: glasses, slashed while locked.
 const GLASSES = (
   <>
