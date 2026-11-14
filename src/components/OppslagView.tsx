@@ -76,7 +76,7 @@ interface OppslagViewProps {
 export function OppslagView({ ord, placeholderWords, searchLabel, examples, resetLabel, groups, keys = false }: OppslagViewProps) {
   const [query, setQuery] = useState('')
   const [activeTags, setActiveTags] = useState<string[]>([])
-  // A subheading inside one group: Redigering in PowerPoint. Any other tag change clears it.
+  // A subheading inside one group: Lysbilder in PowerPoint. Any other tag change clears it.
   const [activeSub, setActiveSub] = useState<{ tag: string; sub: string } | null>(null)
   const setTags = useCallback((next: string[] | ((prev: string[]) => string[])) => {
     setActiveSub(null)
@@ -149,7 +149,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     return allTags.has(q) ? q : null
   }, [query, allTags, activeTags])
 
-  // Subheadings that contain the query, from three letters: «redig» offers Redigering in PowerPoint.
+  // Subheadings that contain the query, from three letters: «lysbi» offers Lysbilder in PowerPoint.
   const subShortcuts = useMemo(() => {
     const q = query.trim().toLowerCase()
     if (q.length < 3 || !groups) return []

@@ -9,7 +9,7 @@ const APPS: OppslagGroup[] = [
   { tag: 'onedrive', title: 'OneDrive' },
   { tag: 'onenote', title: 'OneNote' },
   { tag: 'outlook', title: 'Outlook' },
-  { tag: 'powerpoint', title: 'PowerPoint', undergrupper: ['Redigering', 'Presentasjon'] },
+  { tag: 'powerpoint', title: 'PowerPoint', undergrupper: ['Lage, åpne og lagre', 'Skrive, merke og slette tekst', 'Flytte i teksten', 'Formatere tekst', 'Kopiere, lime inn og angre', 'Sette inn', 'Lysbilder', 'Figurer og objekter', 'Tabeller', 'Søke og erstatte', 'Visning og zoom', 'Valgruten', 'Båndet, menyer og ruter', 'Presentasjon'] },
   { tag: 'teams', title: 'Teams', undergrupper: ['Møter, samtaler og kalender', 'Chat og navigering'] },
   { tag: 'word', title: 'Word' },
 ]

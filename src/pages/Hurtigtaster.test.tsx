@@ -12,7 +12,7 @@ const ENTRIES: Oppslag[] = [
   { id: 'cedilla', tittel: 'ç', forklaring: 'ALT+0231', tags: ['internasjonale tegn', 'windows'] },
   { id: 'oppgave', tittel: 'Opprett en oppgave', forklaring: 'Ctrl+Skift+K', tags: ['microsoft 365'] },
   { id: 'start', tittel: 'Start presentasjonen', forklaring: 'F5', tags: ['powerpoint'], undergruppe: 'Presentasjon' },
-  { id: 'nytt', tittel: 'Nytt lysbilde', forklaring: 'Ctrl+M', tags: ['powerpoint'], undergruppe: 'Redigering' },
+  { id: 'nytt', tittel: 'Nytt lysbilde', forklaring: 'Ctrl+M', tags: ['powerpoint'], undergruppe: 'Lysbilder' },
 ]
 
 // One stable promise: `use()` suspends again on every new one.
@@ -108,17 +108,17 @@ describe('Hurtigtaster', () => {
 
   it('splits an app into its subheadings, in the given order', async () => {
     await renderPage()
-    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering', 'Presentasjon'])
+    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Lysbilder', 'Presentasjon'])
   })
 
   it('offers a subheading from part of its name and filters to it', async () => {
     await renderPage()
-    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'redig' } })
-    fireEvent.click(screen.getByRole('button', { name: 'Vis alt under Redigering i PowerPoint' }))
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'lysbi' } })
+    fireEvent.click(screen.getByRole('button', { name: 'Vis alt under Lysbilder i PowerPoint' }))
     expect(headings()).toEqual(['PowerPoint'])
-    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering'])
-    fireEvent.click(screen.getByRole('button', { name: 'Fjern filter Redigering' }))
-    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering', 'Presentasjon'])
+    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Lysbilder'])
+    fireEvent.click(screen.getByRole('button', { name: 'Fjern filter Lysbilder' }))
+    expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Lysbilder', 'Presentasjon'])
   })
 
   it('shows only the section on a category chip, not rows that name the app as a second tag', async () => {

@@ -9774,196 +9774,7 @@
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-legge-til-et-nytt-lysbilde",
-    "tittel": "Legge til et nytt lysbilde",
-    "forklaring": "CTRL+M",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bruke-fet-formatering-paa-den-merkede-teksten",
-    "tittel": "Bruke fet formatering på den merkede teksten",
-    "forklaring": "CTRL+B",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-klipp-ut-merket-tekst-objekt-eller-lysbilde",
-    "tittel": "Klipp ut merket tekst, objekt eller lysbilde",
-    "forklaring": "CTRL+X",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-kopier-merket-tekst-objekt-eller-lysbilde",
-    "tittel": "Kopier merket tekst, objekt eller lysbilde",
-    "forklaring": "CTRL+C",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lim-inn-utklipt-eller-kopiert-tekst-objekt-eller-",
-    "tittel": "Lim inn utklipt eller kopiert tekst, objekt eller lysbilde",
-    "forklaring": "CTRL+V",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-sett-inn-en-hyperkobling",
-    "tittel": "Sett inn en hyperkobling",
-    "forklaring": "CTRL+K",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-sette-inn-en-ny-kommentar",
-    "tittel": "Sette inn en ny kommentar",
-    "forklaring": "CTRL+ALT+M",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-angre-forrige-handling",
-    "tittel": "Angre forrige handling",
-    "forklaring": "CTRL+Z",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gjoere-om-siste-handling",
-    "tittel": "Gjøre om siste handling",
-    "forklaring": "CTRL+Y",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gaa-til-neste-lysbilde",
-    "tittel": "Gå til neste lysbilde",
-    "forklaring": "Fn+Pil ned",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gaa-til-forrige-lysbilde",
-    "tittel": "Gå til forrige lysbilde",
-    "forklaring": "Fn+Pil opp",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-start-lysbildefremvisningen",
-    "tittel": "Start lysbildefremvisningen",
-    "forklaring": "F5",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-avslutt-lysbildefremvisningen",
-    "tittel": "Avslutt lysbildefremvisningen",
-    "forklaring": "ESC",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-skrive-ut-en-presentasjon",
-    "tittel": "Skrive ut en presentasjon",
-    "forklaring": "Ctrl+P",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lagre-presentasjonen",
-    "tittel": "Lagre presentasjonen",
-    "forklaring": "CTRL+S",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lukk-powerpoint",
-    "tittel": "Lukk PowerPoint",
-    "forklaring": "CTRL+Q",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-sette-inn-et-nytt-lysbilde",
-    "tittel": "Sette inn et nytt lysbilde",
-    "forklaring": "CTRL+M",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-zoom-ut",
-    "tittel": "Zoom ut",
-    "forklaring": "CTRL+MINUSTEGN (-)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-zoom-inn",
-    "tittel": "Zoom inn",
-    "forklaring": "CTRL+PLUSSTEGN (+)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-zoom-for-aa-tilpasse",
-    "tittel": "Zoom for å tilpasse",
-    "forklaring": "Ctrl+Alt+O",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lage-en-kopi-av-det-merkede-lysbildet",
-    "tittel": "Lage en kopi av det merkede lysbildet",
-    "forklaring": "Ctrl+Skift+D",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
     "id": "powerpoint-aapne-en-presentasjon",
@@ -9972,34 +9783,7 @@
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lukke-en-presentasjon",
-    "tittel": "Lukke en presentasjon",
-    "forklaring": "CTRL+D",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lagre-en-presentasjon-med-et-annet-navn-filformat",
-    "tittel": "Lagre en presentasjon med et annet navn, filformat eller på en annen plassering",
-    "forklaring": "Ctrl+Skift+S",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-avbryte-en-kommando-for-eksempel-lagre-som",
-    "tittel": "Avbryte en kommando, for eksempel Lagre som",
-    "forklaring": "ESC",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
     "id": "powerpoint-aapne-en-nylig-brukt-fil",
@@ -10008,1357 +9792,43 @@
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
-    "id": "powerpoint-klipp-ut-merket-objekt-eller-tekst",
-    "tittel": "Klipp ut merket objekt eller tekst",
-    "forklaring": "CTRL+X",
+    "id": "powerpoint-lagre-presentasjonen",
+    "tittel": "Lagre presentasjonen",
+    "forklaring": "CTRL+S",
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
-    "id": "powerpoint-kopier-merket-objekt-eller-tekst",
-    "tittel": "Kopier merket objekt eller tekst",
-    "forklaring": "CTRL+C",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lim-inn-utklipt-eller-kopiert-objekt-eller-tekst",
-    "tittel": "Lim inn utklipt eller kopiert objekt eller tekst",
-    "forklaring": "CTRL+V",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-duplisere-valgte-objekter",
-    "tittel": "Duplisere valgte objekter",
-    "forklaring": "CTRL+D eller Ctrl+dra",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-kopiere-formateringen-til-det-merkede-objektet-el",
-    "tittel": "Kopiere formateringen til det merkede objektet eller teksten",
-    "forklaring": "Ctrl+Skift+C",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lime-inn-den-kopierte-formateringen-til-det-merke",
-    "tittel": "Lime inn den kopierte formateringen til det merkede objektet eller teksten",
-    "forklaring": "Ctrl+Skift+V",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-kopiere-animering",
-    "tittel": "Kopiere animering",
-    "forklaring": "ALT+SKIFT+C",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lime-inn-kopier-animering",
-    "tittel": "Lime inn Kopier animering",
-    "forklaring": "ALT+SKIFT+V",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-dialogboksen-lim-inn-utvalg",
-    "tittel": "Åpne dialogboksen Lim inn utvalg",
-    "forklaring": "CTRL+ALT+V",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-fokuset-til-den-foerste-flytende-figuren-s",
-    "tittel": "Flytte fokuset til den første flytende figuren, som for eksempel et bilde eller en tekstboks",
-    "forklaring": "CTRL+ALT+5",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-merk-et-annet-objekt-naar-ett-objekt-er-merket",
-    "tittel": "Merk et annet objekt når ett objekt er merket",
-    "forklaring": "TABULATOR eller SKIFT+TABULATOR",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-send-objektet-en-posisjon-tilbake",
-    "tittel": "Send objektet en posisjon tilbake",
-    "forklaring": "CTRL+SKIFT+VENSTRE HAKEPARENTES ([)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-objektet-fremover-n-posisjon",
-    "tittel": "Flytt objektet fremover én posisjon",
-    "forklaring": "CTRL+SKIFT+HØYRE HAKEPARENTES (])",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velg-alle-objekter-paa-et-lysbilde",
-    "tittel": "Velg alle objekter på et lysbilde",
-    "forklaring": "CTRL+A",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gruppere-de-merkede-objektene",
-    "tittel": "Gruppere de merkede objektene",
-    "forklaring": "Ctrl+G",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-oppheve-grupperingen-av-den-merkede-gruppen",
-    "tittel": "Oppheve grupperingen av den merkede gruppen",
-    "forklaring": "CTRL+SKIFT+G",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gruppere-de-merkede-objektene-paa-nytt",
-    "tittel": "Gruppere de merkede objektene på nytt",
-    "forklaring": "Ctrl+Skift+J",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-roter-det-merkede-objektet-med-klokken-15-grader",
-    "tittel": "Roter det merkede objektet med klokken 15 grader",
-    "forklaring": "ALT+pil høyre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-roter-det-merkede-objektet-mot-klokken-15-grader",
-    "tittel": "Roter det merkede objektet mot klokken 15 grader",
-    "forklaring": "ALT+pil venstre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-spill-av-eller-sett-paa-pause",
-    "tittel": "Spill av eller sett på pause",
-    "forklaring": "CTRL+MELLOMROM",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-sette-inn-en-hyperkobling",
-    "tittel": "Sette inn en hyperkobling",
-    "forklaring": "CTRL+K",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-sette-inn-en-formel",
-    "tittel": "Sette inn en formel",
-    "forklaring": "ALT+LIKHETSTEGN (=)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-redigere-et-koblet-eller-innebygd-objekt",
-    "tittel": "Redigere et koblet eller innebygd objekt",
-    "forklaring": "SKIFT+F10 eller Windows-menytasten",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-merke-ett-tegn-til-hoeyre",
-    "tittel": "Merke ett tegn til høyre",
-    "forklaring": "SKIFT+PIL HØYRE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-merk-ett-tegn-til-venstre",
-    "tittel": "Merk ett tegn til venstre",
-    "forklaring": "SKIFT+PIL VENSTRE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-merk-til-slutten-av-et-ord",
-    "tittel": "Merk til slutten av et ord",
-    "forklaring": "CTRL+SKIFT+PIL HØYRE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-merk-til-begynnelsen-av-et-ord",
-    "tittel": "Merk til begynnelsen av et ord",
-    "forklaring": "CTRL+SKIFT+PIL VENSTRE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velg-fra-innsettingspunktet-til-samme-punkt-n-lin",
-    "tittel": "Velg fra innsettingspunktet til samme punkt én linje opp",
-    "forklaring": "SKIFT+PIL OPP",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velg-fra-innsettingspunktet-til-samme-punkt-n-lin-2",
-    "tittel": "Velg fra innsettingspunktet til samme punkt én linje ned",
-    "forklaring": "SKIFT+PIL NED",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velg-fra-innsettingspunktet-til-slutten-av-avsnit",
-    "tittel": "Velg fra innsettingspunktet til slutten av avsnittet",
-    "forklaring": "CTRL+SKIFT+PIL NED Piltast",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velg-alt-fra-innsettingspunktet-til-begynnelsen-a",
-    "tittel": "Velg alt fra innsettingspunktet til begynnelsen av avsnittet",
-    "forklaring": "CTRL+SKIFT+PIL OPP",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-merke-tekst-i-et-objekt-med-et-merket-objekt",
-    "tittel": "Merke tekst i et objekt (med et merket objekt)",
-    "forklaring": "ENTER",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-merk-et-objekt-naar-teksten-inne-i-objektet-er-me",
-    "tittel": "Merk et objekt når teksten inne i objektet er merket",
-    "forklaring": "ESC",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aktiver-copilot-alternativer-for-aa-skrive-om-den",
-    "tittel": "Aktiver Copilot-alternativer for å skrive om den valgte tekstboksen",
-    "forklaring": "SKIFT+F8",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-slette-ett-tegn-til-venstre",
-    "tittel": "Slette ett tegn til venstre",
-    "forklaring": "TILBAKE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-slette-ett-ord-til-venstre",
-    "tittel": "Slette ett ord til venstre",
-    "forklaring": "CTRL+TILBAKE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-slett-ett-ord-til-hoeyre-med-markoeren-mellom-ord",
-    "tittel": "Slett ett ord til høyre (med markøren mellom ordene)",
-    "forklaring": "CTRL+DELETE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-ett-tegn-til-venstre",
-    "tittel": "Flytte ett tegn til venstre",
-    "forklaring": "Pil venstre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-ett-tegn-til-hoeyre",
-    "tittel": "Flytte ett tegn til høyre",
-    "forklaring": "Pil høyre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-n-linje-opp",
-    "tittel": "Flytt én linje opp",
-    "forklaring": "Pil opp",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-n-linje-ned",
-    "tittel": "Flytt én linje ned",
-    "forklaring": "Pil ned",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gaa-ett-ord-mot-venstre",
-    "tittel": "Gå ett ord mot venstre",
-    "forklaring": "CTRL+PIL VENSTRE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-ett-ord-til-hoeyre",
-    "tittel": "Flytte ett ord til høyre",
-    "forklaring": "CTRL+PIL HØYRE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-til-slutten-av-en-linje",
-    "tittel": "Flytte til slutten av en linje",
-    "forklaring": "Fn+Pil høyre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-til-begynnelsen-av-en-linje",
-    "tittel": "Flytte til begynnelsen av en linje",
-    "forklaring": "Fn+Pil venstre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-ett-avsnitt-opp",
-    "tittel": "Flytte ett avsnitt opp",
-    "forklaring": "CTRL+PIL OPP",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-ned-ett-avsnitt",
-    "tittel": "Flytt ned ett avsnitt",
-    "forklaring": "CTRL+PIL NED",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-til-slutten-av-en-tekstboks",
-    "tittel": "Flytte til slutten av en tekstboks",
-    "forklaring": "Ctrl+Fn+Pil høyre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-til-begynnelsen-av-en-tekstboks",
-    "tittel": "Flytte til begynnelsen av en tekstboks",
-    "forklaring": "CTRL+Fn+Pil venstre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-til-neste-plassholder-for-tittel-eller-broe",
-    "tittel": "Flytt til neste plassholder for tittel eller brødtekst",
-    "forklaring": "CTRL+ENTER",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-hev-nivaa-paa-et-avsnitt",
-    "tittel": "Hev nivå på et avsnitt",
-    "forklaring": "ALT+SKIFT+PIL VENSTRE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-senk-nivaa-paa-et-avsnitt",
-    "tittel": "Senk nivå på et avsnitt",
-    "forklaring": "ALT+SKIFT+PIL HØYRE",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-opp-valgte-avsnitt",
-    "tittel": "Flytt opp valgte avsnitt",
-    "forklaring": "Alt+Skift+Pil opp",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-ned-valgte-avsnitt",
-    "tittel": "Flytt ned valgte avsnitt",
-    "forklaring": "ALT+SKIFT+PIL NED",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-dialogboksen-soek",
-    "tittel": "Åpne dialogboksen Søk",
-    "forklaring": "Ctrl+F",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-dialogboksen-erstatt",
-    "tittel": "Åpne dialogboksen Erstatt",
-    "forklaring": "CTRL+H",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gjenta-siste-soek-handling",
-    "tittel": "Gjenta siste Søk-handling",
-    "forklaring": "SKIFT+F4",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-dialogboksen-skrift-2",
-    "tittel": "Åpne dialogboksen Skrift",
-    "forklaring": "CTRL+T eller CTRL+SKIFT+F",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-oeke-skriftstoerrelsen",
-    "tittel": "Øke skriftstørrelsen",
-    "forklaring": "CTRL+SKIFT+VINKEL HØYRE HAKEPARENTES (>)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-reduser-skriftstoerrelsen",
-    "tittel": "Reduser skriftstørrelsen",
-    "forklaring": "CTRL+SKIFT+VENSTRE VINKELPARENTES (<)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bytte-mellom-punktum-smaa-eller-store-bokstaver",
-    "tittel": "Bytte mellom punktum, små eller store bokstaver",
-    "forklaring": "SKIFT+F3",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bruk-fet-formatering",
-    "tittel": "Bruk fet formatering",
-    "forklaring": "CTRL+B",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bruke-understrekformatering",
-    "tittel": "Bruke understrekformatering",
-    "forklaring": "CTRL+U",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bruk-kursiv-formatering",
-    "tittel": "Bruk kursiv formatering",
-    "forklaring": "CTRL+K",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bruk-senket-tekstformatering-automatisk-mellomrom",
-    "tittel": "Bruk senket tekstformatering (automatisk mellomrom)",
-    "forklaring": "CTRL+LIKHETSTEGN (=)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bruk-hevet-tekstformatering-automatisk-mellomrom",
-    "tittel": "Bruk hevet tekstformatering (automatisk mellomrom)",
-    "forklaring": "CTRL+SKIFT+PLUSSTEGN (+)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-fjern-manuell-tegnformatering-for-eksempel-senket",
-    "tittel": "Fjern manuell tegnformatering, for eksempel senket og hevet skrift",
-    "forklaring": "CTRL+MELLOMROM",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-midtstille-et-avsnitt",
-    "tittel": "Midtstille et avsnitt",
-    "forklaring": "CTRL+E",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-blokkjustere-et-avsnitt",
-    "tittel": "Blokkjustere et avsnitt",
-    "forklaring": "CTRL+J",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-venstrejustere-et-avsnitt",
-    "tittel": "Venstrejustere et avsnitt",
-    "forklaring": "Ctrl+L",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-hoeyrejustere-et-avsnitt",
-    "tittel": "Høyrejustere et avsnitt",
-    "forklaring": "CTRL+R",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-til-neste-celle",
-    "tittel": "Flytt til neste celle",
-    "forklaring": "TABULATOR-tasten",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gaa-til-forrige-celle",
-    "tittel": "Gå til forrige celle",
-    "forklaring": "Skift+Tab",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-gaa-til-neste-rad",
-    "tittel": "Gå til neste rad",
-    "forklaring": "Pil ned",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-til-forrige-rad",
-    "tittel": "Flytt til forrige rad",
-    "forklaring": "Pil opp",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-sette-inn-tabulatorstopp-i-en-celle",
-    "tittel": "Sette inn tabulatorstopp i en celle",
-    "forklaring": "Ctrl+Tab",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-starte-et-nytt-avsnitt",
-    "tittel": "Starte et nytt avsnitt",
-    "forklaring": "Enter",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-legge-til-en-ny-rad-nederst-i-tabellen-med-markoe",
-    "tittel": "Legge til en ny rad nederst i tabellen med markøren i den siste cellen på siste rad",
-    "forklaring": "TABULATOR-tasten",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-opp-i",
-    "tittel": "Flytte det valgte lysbildet eller avsnittet opp i rekkefølgen",
-    "forklaring": "CTRL+PIL OPP",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-ned-i",
-    "tittel": "Flytte det valgte lysbildet eller avsnittet ned i rekkefølgen",
-    "forklaring": "CTRL+PIL NED",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-til-b",
-    "tittel": "Flytte det valgte lysbildet eller avsnittet til begynnelsen",
-    "forklaring": "CTRL+SKIFT+PIL OPP",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-til-s",
-    "tittel": "Flytte det valgte lysbildet eller avsnittet til slutten",
-    "forklaring": "CTRL+SKIFT+PIL NED",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bytte-til-presentasjonsvisning",
-    "tittel": "Bytte til presentasjonsvisning",
-    "forklaring": "Alt+F5",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bytte-til-lysbildefremvisning",
-    "tittel": "Bytte til lysbildefremvisning",
-    "forklaring": "F5",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-veksle-mellom-disposisjons-og-miniatyrbildevisnin",
-    "tittel": "Veksle mellom disposisjons- og miniatyrbildevisninger",
-    "forklaring": "CTRL+SKIFT+TAB",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bytte-til-full-skjerm-skjul-menyer",
-    "tittel": "Bytte til full skjerm (skjul menyer)",
-    "forklaring": "Ctrl+F1",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vis-skjul-stoettelinjer",
-    "tittel": "Vis/skjul støttelinjer",
-    "forklaring": "ALT+F9",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vis-skjul-rutenettet",
-    "tittel": "Vis/skjul rutenettet",
-    "forklaring": "SKIFT+F9",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bla-med-klokken-gjennom-paneler-i-normal-visninge",
-    "tittel": "Bla med klokken gjennom paneler i Normal-visningen",
-    "forklaring": "F6",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bla-mot-klokken-gjennom-paneler-i-normal-visninge",
-    "tittel": "Bla mot klokken gjennom paneler i Normal-visningen",
-    "forklaring": "SKIFT+F6",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bytt-mellom-miniatyrbilde-ruten-og-disposisjonsvi",
-    "tittel": "Bytt mellom Miniatyrbilde-ruten og Disposisjonsvisning-ruten",
-    "forklaring": "Ctrl+Skift+Tab",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vis-overskrifter-paa-nivaa-1-i-disposisjonsvisnin",
-    "tittel": "Vis overskrifter på nivå 1 i disposisjonsvisning",
-    "forklaring": "ALT+SKIFT+1",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-utvid-disposisjonsvisningsteksten-under-en-oversk",
-    "tittel": "Utvid disposisjonsvisningsteksten under en overskrift",
-    "forklaring": "ALT+SKIFT+PLUSSTEGN (+)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-skjul-disposisjonsvisningstekst-under-en-overskri",
-    "tittel": "Skjul disposisjonsvisningstekst under en overskrift",
-    "forklaring": "ALT+SKIFT+MINUSTEGN (-)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velg-all-tekst-i-disposisjon-visning",
-    "tittel": "Velg all tekst i Disposisjon-visning",
-    "forklaring": "CTRL+A",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velg-alle-lysbilder-i-lysbildesortering-visning-e",
-    "tittel": "Velg alle lysbilder i Lysbildesortering-visning eller miniatyrbilderuten",
-    "forklaring": "CTRL+A",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vis-hjelpemenyen",
-    "tittel": "Vis hjelpemenyen",
-    "forklaring": "F1",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-valg-ruten",
-    "tittel": "Åpne Valg-ruten",
-    "forklaring": "Alt+F10 eller Alt+H, S, L, P",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-bla-gjennom-og-flytte-fokus-til-de-forskjellige-r",
-    "tittel": "Bla gjennom og flytte fokus til de forskjellige rutene",
-    "forklaring": "F6",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vise-hurtigmenyen",
-    "tittel": "Vise hurtigmenyen",
-    "forklaring": "SKIFT+F10 eller Windows-menytasten",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-fokus-til-ett-element-eller-n-gruppe",
-    "tittel": "Flytte fokus til ett element eller én gruppe",
-    "forklaring": "Pil opp eller pil ned",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-fokus-fra-et-element-i-en-gruppe-til-den-o",
-    "tittel": "Flytte fokus fra et element i en gruppe til den overordnede gruppen",
-    "forklaring": "Pil venstre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-fokus-fra-en-gruppe-til-det-foerste-elemen",
-    "tittel": "Flytte fokus fra en gruppe til det første elementet i samme gruppe",
-    "forklaring": "Pil høyre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vise-en-fokusert-gruppe-og-alle-underordnede-grup",
-    "tittel": "Vise en fokusert gruppe og alle underordnede grupper",
-    "forklaring": "Stjerne-tegnet (*)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vise-en-fokusert-gruppe",
-    "tittel": "Vise en fokusert gruppe",
-    "forklaring": "Pluss-tegnet (+)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-skjule-en-fokusert-gruppe",
-    "tittel": "Skjule en fokusert gruppe",
-    "forklaring": "Minus-tegnet (-)",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-fokus-til-et-element-og-merke-det",
-    "tittel": "Flytte fokus til et element og merke det",
-    "forklaring": "SKIFT+PIL OPP eller PIL NED",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-merke-et-fokusert-element",
-    "tittel": "Merke et fokusert element",
-    "forklaring": "MELLOMROM eller ENTER",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-avbryte-merking-av-et-fokusert-element",
-    "tittel": "Avbryte merking av et fokusert element",
-    "forklaring": "SKIFT+MELLOMROM eller SKIFT+ENTER",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-et-merket-element-fremover",
-    "tittel": "Flytte et merket element fremover",
-    "forklaring": "Ctrl+Skift+F",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-et-merket-element-bakover",
-    "tittel": "Flytte et merket element bakover",
-    "forklaring": "CTRL+SKIFT+B",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vise-skjule-et-fokusert-element",
-    "tittel": "Vise/skjule et fokusert element",
+    "id": "powerpoint-lagre-en-presentasjon-med-et-annet-navn-filformat",
+    "tittel": "Lagre en presentasjon med et annet navn, filformat eller på en annen plassering",
     "forklaring": "Ctrl+Skift+S",
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
-    "id": "powerpoint-gi-nytt-navn-til-et-fokusert-element",
-    "tittel": "Gi nytt navn til et fokusert element",
-    "forklaring": "F2",
+    "id": "powerpoint-lukke-en-presentasjon",
+    "tittel": "Lukke en presentasjon",
+    "forklaring": "CTRL+D",
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
-    "id": "powerpoint-bytt-tastaturfokus-i-valgruten-mellom-trevisning-",
-    "tittel": "Bytt tastaturfokus i valgruten mellom trevisning og Vis alle- og Skjul alle-knappene",
-    "forklaring": "TAB-tasten eller SKIFT+TAB",
+    "id": "powerpoint-skrive-ut-en-presentasjon",
+    "tittel": "Skrive ut en presentasjon",
+    "forklaring": "Ctrl+P",
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-skjul-alle-grupper-med-fokus-i-trevisningen-i-val",
-    "tittel": "Skjul alle grupper (med fokus i trevisningen i valgruten)",
-    "forklaring": "ALT+SKIFT+1",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vise-alle-grupper",
-    "tittel": "Vise alle grupper",
-    "forklaring": "ALT+SKIFT+9",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-til-en-oppgaverute-fra-en-annen-rute-eller",
-    "tittel": "Flytte til en oppgaverute fra en annen rute eller område i programvinduet",
-    "forklaring": "F6",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velge-neste-eller-forrige-alternativ-i-en-oppgave",
-    "tittel": "Velge neste eller forrige alternativ i en oppgaverute når den er aktiv",
-    "forklaring": "TAB-tasten eller SKIFT+TAB",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vise-alle-kommandoer-paa-menyen-i-oppgaveruten",
-    "tittel": "Vise alle kommandoer på menyen i oppgaveruten",
-    "forklaring": "CTRL+MELLOMROM",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-til-neste-kommando-i-oppgaveruten",
-    "tittel": "Flytt til neste kommando i oppgaveruten",
-    "forklaring": "Pil opp og Pil ned",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velg-det-fremhevede-alternativet-i-oppgaveruten",
-    "tittel": "Velg det fremhevede alternativet i oppgaveruten",
-    "forklaring": "ENTER",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-endre-stoerrelse-paa-oppgaveruten-etter-at-",
-    "tittel": "Flytt/endre størrelse på oppgaveruten etter at den tilhørende kommandoen er valgt",
-    "forklaring": "Piltastene",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-lukke-en-oppgaverute",
-    "tittel": "Lukke en oppgaverute",
-    "forklaring": "CTRL+MELLOMROM, C",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-til-fortell-meg-det-eller-soek-feltet-paa-b",
-    "tittel": "Flytt til Fortell meg det- eller Søk-feltet på båndet, og skriv inn et søkeord for å få hjelp eller hjelpeinnhold",
-    "forklaring": "ALT+Q",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-fil-menyen",
-    "tittel": "Åpne Fil-menyen",
-    "forklaring": "ALT+F",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-hjem-fanen-og-formater-lysbilder-skrifter-p",
-    "tittel": "Åpne Hjem-fanen og formater lysbilder, skrifter, paragrafer eller tegninger",
-    "forklaring": "ALT+H",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-sett-inn-fanen-og-sett-inn-lysbilder-tabell",
-    "tittel": "Åpne Sett inn-fanen og sett inn lysbilder, tabeller, bilder, illustrasjoner, skjemaer, koblinger, tekst, symboler eller medier",
-    "forklaring": "ALT+N",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-tegn-fanen-og-faa-tilgang-til-tegneverktoey",
-    "tittel": "Åpne Tegn-fanen og få tilgang til tegneverktøyene",
-    "forklaring": "Alt+J, I",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-design-fanen-og-bruk-temaer-og-tilpass-lysb",
-    "tittel": "Åpne Design-fanen og bruk temaer og tilpass lysbilder",
-    "forklaring": "ALT+G",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-overganger-fanen-og-legg-til-overganger-mel",
-    "tittel": "Åpne Overganger-fanen og legg til overganger mellom lysbilder",
-    "forklaring": "ALT+K",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-animasjoner-fanen-og-legg-til-animasjoner-p",
-    "tittel": "Åpne Animasjoner-fanen og legg til animasjoner på lysbilder",
-    "forklaring": "ALT+A",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-lysbildefremvisning-fanen-og-konfigurer-og-",
-    "tittel": "Åpne Lysbildefremvisning-fanen og konfigurer og spill av lysbildefremvisningen",
-    "forklaring": "ALT+S",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-se-gjennom-fanen-og-kontroller-stavemaaten-",
-    "tittel": "Åpne Se gjennom-fanen og kontroller stavemåten og tilgjengelighet og legg til kommentarer",
-    "forklaring": "ALT+R",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-visning-fanen-og-forhaandsvis-presentasjons",
-    "tittel": "Åpne Visning-fanen og forhåndsvis presentasjonsoppsett, vis og skjul rutenett og veiledninger, angi zoom-forstørrelse, administrer vinduer og vis makroer",
-    "forklaring": "ALT+W",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-innspilling-fanen-og-behandle-skjerminnspil",
-    "tittel": "Åpne Innspilling-fanen og behandle skjerminnspillinger, lyd og video i presentasjonen",
-    "forklaring": "ALT+E",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-hjelp-fanen-og-bla-gjennom-powerpoint-konta",
-    "tittel": "Åpne Hjelp-fanen, og bla gjennom PowerPoint, kontakt kundestøtte og gi tilbakemelding",
-    "forklaring": "ALT+Y, 2",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-velge-den-aktive-fanen-paa-baandet-og-aktivere-ti",
-    "tittel": "Velge den aktive fanen på båndet og aktivere tilgangstastene",
-    "forklaring": "ALT eller F10.",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-fokuset-til-kommandoer-paa-baandet",
-    "tittel": "Flytte fokuset til kommandoer på båndet",
-    "forklaring": "TAB-tasten eller SKIFT+TAB",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-henholdsvis-ned-opp-til-venstre-eller-til-",
-    "tittel": "Flytte henholdsvis ned, opp, til venstre eller til høyre mellom elementene på båndet",
-    "forklaring": "Piltastene",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vise-verktoeytipset-for-baandelementet-som-er-i-f",
-    "tittel": "Vise verktøytipset for båndelementet som er i fokus",
-    "forklaring": "CTRL+SKIFT+F10",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aktivere-en-valgt-kommando-eller-kontroll",
-    "tittel": "Aktivere en valgt kommando eller kontroll",
-    "forklaring": "MELLOMROM eller ENTER",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-listen-for-en-valgt-kommando",
-    "tittel": "Åpne listen for en valgt kommando",
-    "forklaring": "Pil ned",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-menyen-for-en-valgt-knapp",
-    "tittel": "Åpne menyen for en valgt knapp",
-    "forklaring": "ALT+Pil ned",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytt-til-neste-kommando-naar-en-meny-eller-under",
-    "tittel": "Flytt til neste kommando når en meny eller undermeny er åpen",
-    "forklaring": "Pil ned",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-vise-skjule-baandet",
-    "tittel": "Vise/skjule båndet",
-    "forklaring": "Ctrl+F1",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-en-hurtigmeny",
-    "tittel": "Åpne en hurtigmeny",
-    "forklaring": "SKIFT+F10 eller Windows-menytasten",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-flytte-til-undermenyen-naar-en-hovedmeny-er-aapen",
-    "tittel": "Flytte til undermenyen når en hovedmeny er åpen eller merket",
-    "forklaring": "Pil venstre",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-faa-hjelp-for-valgt-kommando-eller-kontroll-paa-b",
-    "tittel": "Få hjelp for valgt kommando eller kontroll på båndet",
-    "forklaring": "F1",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-endre-skriftstoerrelsen-for-den-merkede-teksten",
-    "tittel": "Endre skriftstørrelsen for den merkede teksten",
-    "forklaring": "ALT+H, F, S",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-dialogboksen-zoom",
-    "tittel": "Åpne dialogboksen Zoom",
-    "forklaring": "ALT+W, Q",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
     "id": "powerpoint-skriv-ut-alle-lysbildene-i-presentasjonen-som-hel",
@@ -11367,34 +9837,502 @@
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
-    "id": "powerpoint-velg-et-tema",
-    "tittel": "Velg et tema",
-    "forklaring": "ALT+G, H",
+    "id": "powerpoint-avbryte-en-kommando-for-eksempel-lagre-som",
+    "tittel": "Avbryte en kommando, for eksempel Lagre som",
+    "forklaring": "ESC",
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
-    "id": "powerpoint-velg-et-lysbildeoppsett",
-    "tittel": "Velg et lysbildeoppsett",
-    "forklaring": "ALT+H, L",
+    "id": "powerpoint-lukk-powerpoint",
+    "tittel": "Lukk PowerPoint",
+    "forklaring": "CTRL+Q",
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Lage, åpne og lagre"
   },
   {
-    "id": "powerpoint-vis-skjul-notater-ruten-i-normal-visningen",
-    "tittel": "Vis/skjul Notater-ruten i Normal-visningen",
-    "forklaring": "Alt+W, P, N",
+    "id": "powerpoint-starte-et-nytt-avsnitt",
+    "tittel": "Starte et nytt avsnitt",
+    "forklaring": "Enter",
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-merke-ett-tegn-til-hoeyre",
+    "tittel": "Merke ett tegn til høyre",
+    "forklaring": "SKIFT+PIL HØYRE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-merk-ett-tegn-til-venstre",
+    "tittel": "Merk ett tegn til venstre",
+    "forklaring": "SKIFT+PIL VENSTRE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-merk-til-slutten-av-et-ord",
+    "tittel": "Merk til slutten av et ord",
+    "forklaring": "CTRL+SKIFT+PIL HØYRE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-merk-til-begynnelsen-av-et-ord",
+    "tittel": "Merk til begynnelsen av et ord",
+    "forklaring": "CTRL+SKIFT+PIL VENSTRE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-velg-fra-innsettingspunktet-til-samme-punkt-n-lin",
+    "tittel": "Velg fra innsettingspunktet til samme punkt én linje opp",
+    "forklaring": "SKIFT+PIL OPP",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-velg-fra-innsettingspunktet-til-samme-punkt-n-lin-2",
+    "tittel": "Velg fra innsettingspunktet til samme punkt én linje ned",
+    "forklaring": "SKIFT+PIL NED",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-velg-fra-innsettingspunktet-til-slutten-av-avsnit",
+    "tittel": "Velg fra innsettingspunktet til slutten av avsnittet",
+    "forklaring": "CTRL+SKIFT+PIL NED",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-velg-alt-fra-innsettingspunktet-til-begynnelsen-a",
+    "tittel": "Velg alt fra innsettingspunktet til begynnelsen av avsnittet",
+    "forklaring": "CTRL+SKIFT+PIL OPP",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-merke-tekst-i-et-objekt-med-et-merket-objekt",
+    "tittel": "Merke tekst i et objekt (med et merket objekt)",
+    "forklaring": "ENTER",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-merk-et-objekt-naar-teksten-inne-i-objektet-er-me",
+    "tittel": "Merk et objekt når teksten inne i objektet er merket",
+    "forklaring": "ESC",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-slette-ett-tegn-til-venstre",
+    "tittel": "Slette ett tegn til venstre",
+    "forklaring": "TILBAKE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-slette-ett-ord-til-venstre",
+    "tittel": "Slette ett ord til venstre",
+    "forklaring": "CTRL+TILBAKE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-slett-ett-ord-til-hoeyre-med-markoeren-mellom-ord",
+    "tittel": "Slett ett ord til høyre (med markøren mellom ordene)",
+    "forklaring": "CTRL+DELETE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-aktiver-copilot-alternativer-for-aa-skrive-om-den",
+    "tittel": "Aktiver Copilot-alternativer for å skrive om den valgte tekstboksen",
+    "forklaring": "SKIFT+F8",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Skrive, merke og slette tekst"
+  },
+  {
+    "id": "powerpoint-flytte-ett-tegn-til-venstre",
+    "tittel": "Flytte ett tegn til venstre",
+    "forklaring": "Pil venstre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytte-ett-tegn-til-hoeyre",
+    "tittel": "Flytte ett tegn til høyre",
+    "forklaring": "Pil høyre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytt-n-linje-opp",
+    "tittel": "Flytt én linje opp",
+    "forklaring": "Pil opp",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytt-n-linje-ned",
+    "tittel": "Flytt én linje ned",
+    "forklaring": "Pil ned",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-gaa-ett-ord-mot-venstre",
+    "tittel": "Gå ett ord mot venstre",
+    "forklaring": "CTRL+PIL VENSTRE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytte-ett-ord-til-hoeyre",
+    "tittel": "Flytte ett ord til høyre",
+    "forklaring": "CTRL+PIL HØYRE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytte-til-slutten-av-en-linje",
+    "tittel": "Flytte til slutten av en linje",
+    "forklaring": "Fn+Pil høyre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytte-til-begynnelsen-av-en-linje",
+    "tittel": "Flytte til begynnelsen av en linje",
+    "forklaring": "Fn+Pil venstre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytte-ett-avsnitt-opp",
+    "tittel": "Flytte ett avsnitt opp",
+    "forklaring": "CTRL+PIL OPP",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytt-ned-ett-avsnitt",
+    "tittel": "Flytt ned ett avsnitt",
+    "forklaring": "CTRL+PIL NED",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytte-til-slutten-av-en-tekstboks",
+    "tittel": "Flytte til slutten av en tekstboks",
+    "forklaring": "Ctrl+Fn+Pil høyre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytte-til-begynnelsen-av-en-tekstboks",
+    "tittel": "Flytte til begynnelsen av en tekstboks",
+    "forklaring": "CTRL+Fn+Pil venstre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-flytt-til-neste-plassholder-for-tittel-eller-broe",
+    "tittel": "Flytt til neste plassholder for tittel eller brødtekst",
+    "forklaring": "CTRL+ENTER",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Flytte i teksten"
+  },
+  {
+    "id": "powerpoint-bruke-fet-formatering-paa-den-merkede-teksten",
+    "tittel": "Bruke fet formatering på den merkede teksten",
+    "forklaring": "CTRL+B",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-bruk-kursiv-formatering",
+    "tittel": "Bruk kursiv formatering",
+    "forklaring": "CTRL+I",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-bruke-understrekformatering",
+    "tittel": "Bruke understrekformatering",
+    "forklaring": "CTRL+U",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-bruk-senket-tekstformatering-automatisk-mellomrom",
+    "tittel": "Bruk senket tekstformatering (automatisk mellomrom)",
+    "forklaring": "CTRL+LIKHETSTEGN (=)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-bruk-hevet-tekstformatering-automatisk-mellomrom",
+    "tittel": "Bruk hevet tekstformatering (automatisk mellomrom)",
+    "forklaring": "CTRL+SKIFT+PLUSSTEGN (+)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-fjern-manuell-tegnformatering-for-eksempel-senket",
+    "tittel": "Fjern manuell tegnformatering, for eksempel senket og hevet skrift",
+    "forklaring": "CTRL+MELLOMROM",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-aapne-dialogboksen-skrift-2",
+    "tittel": "Åpne dialogboksen Skrift",
+    "forklaring": "CTRL+T eller CTRL+SKIFT+F",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-endre-skriftstoerrelsen-for-den-merkede-teksten",
+    "tittel": "Endre skriftstørrelsen for den merkede teksten",
+    "forklaring": "ALT+H, F, S",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-oeke-skriftstoerrelsen",
+    "tittel": "Øke skriftstørrelsen",
+    "forklaring": "CTRL+SKIFT+VINKEL HØYRE HAKEPARENTES (>)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-reduser-skriftstoerrelsen",
+    "tittel": "Reduser skriftstørrelsen",
+    "forklaring": "CTRL+SKIFT+VENSTRE VINKELPARENTES (<)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-bytte-mellom-punktum-smaa-eller-store-bokstaver",
+    "tittel": "Bytte mellom punktum, små eller store bokstaver",
+    "forklaring": "SKIFT+F3",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-venstrejustere-et-avsnitt",
+    "tittel": "Venstrejustere et avsnitt",
+    "forklaring": "Ctrl+L",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-midtstille-et-avsnitt",
+    "tittel": "Midtstille et avsnitt",
+    "forklaring": "CTRL+E",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-hoeyrejustere-et-avsnitt",
+    "tittel": "Høyrejustere et avsnitt",
+    "forklaring": "CTRL+R",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-blokkjustere-et-avsnitt",
+    "tittel": "Blokkjustere et avsnitt",
+    "forklaring": "CTRL+J",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-hev-nivaa-paa-et-avsnitt",
+    "tittel": "Hev nivå på et avsnitt",
+    "forklaring": "ALT+SKIFT+PIL VENSTRE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-senk-nivaa-paa-et-avsnitt",
+    "tittel": "Senk nivå på et avsnitt",
+    "forklaring": "ALT+SKIFT+PIL HØYRE",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-flytt-opp-valgte-avsnitt",
+    "tittel": "Flytt opp valgte avsnitt",
+    "forklaring": "Alt+Skift+Pil opp",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-flytt-ned-valgte-avsnitt",
+    "tittel": "Flytt ned valgte avsnitt",
+    "forklaring": "ALT+SKIFT+PIL NED",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-kopiere-formateringen-til-det-merkede-objektet-el",
+    "tittel": "Kopiere formateringen til det merkede objektet eller teksten",
+    "forklaring": "Ctrl+Skift+C",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-lime-inn-den-kopierte-formateringen-til-det-merke",
+    "tittel": "Lime inn den kopierte formateringen til det merkede objektet eller teksten",
+    "forklaring": "Ctrl+Skift+V",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Formatere tekst"
+  },
+  {
+    "id": "powerpoint-klipp-ut-merket-tekst-objekt-eller-lysbilde",
+    "tittel": "Klipp ut merket tekst, objekt eller lysbilde",
+    "forklaring": "CTRL+X",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Kopiere, lime inn og angre"
+  },
+  {
+    "id": "powerpoint-kopier-merket-tekst-objekt-eller-lysbilde",
+    "tittel": "Kopier merket tekst, objekt eller lysbilde",
+    "forklaring": "CTRL+C",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Kopiere, lime inn og angre"
+  },
+  {
+    "id": "powerpoint-lim-inn-utklipt-eller-kopiert-tekst-objekt-eller-",
+    "tittel": "Lim inn utklipt eller kopiert tekst, objekt eller lysbilde",
+    "forklaring": "CTRL+V",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Kopiere, lime inn og angre"
+  },
+  {
+    "id": "powerpoint-aapne-dialogboksen-lim-inn-utvalg",
+    "tittel": "Åpne dialogboksen Lim inn utvalg",
+    "forklaring": "CTRL+ALT+V",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Kopiere, lime inn og angre"
   },
   {
     "id": "powerpoint-aapne-utklippstavlen",
@@ -11403,7 +10341,43 @@
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Kopiere, lime inn og angre"
+  },
+  {
+    "id": "powerpoint-angre-forrige-handling",
+    "tittel": "Angre forrige handling",
+    "forklaring": "CTRL+Z",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Kopiere, lime inn og angre"
+  },
+  {
+    "id": "powerpoint-gjoere-om-siste-handling",
+    "tittel": "Gjøre om siste handling",
+    "forklaring": "CTRL+Y",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Kopiere, lime inn og angre"
+  },
+  {
+    "id": "powerpoint-sett-inn-en-hyperkobling",
+    "tittel": "Sett inn en hyperkobling",
+    "forklaring": "CTRL+K",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Sette inn"
+  },
+  {
+    "id": "powerpoint-sette-inn-en-ny-kommentar",
+    "tittel": "Sette inn en ny kommentar",
+    "forklaring": "CTRL+ALT+M",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Sette inn"
   },
   {
     "id": "powerpoint-sette-inn-en-tekstboks",
@@ -11412,25 +10386,7 @@
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-sette-inn-et-innebygd-dokument-eller-regneark-som",
-    "tittel": "Sette inn et innebygd dokument eller regneark som et objekt",
-    "forklaring": "Alt+N, J",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-sette-inn-wordart-grafikk",
-    "tittel": "Sette inn WordArt-grafikk",
-    "forklaring": "Alt+N, W",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Sette inn"
   },
   {
     "id": "powerpoint-legge-til-et-bilde-fra-enheten",
@@ -11439,7 +10395,7 @@
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Sette inn"
   },
   {
     "id": "powerpoint-sett-inn-en-figur",
@@ -11448,7 +10404,907 @@
     "tags": [
       "powerpoint"
     ],
-    "undergruppe": "Redigering"
+    "undergruppe": "Sette inn"
+  },
+  {
+    "id": "powerpoint-sette-inn-wordart-grafikk",
+    "tittel": "Sette inn WordArt-grafikk",
+    "forklaring": "Alt+N, W",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Sette inn"
+  },
+  {
+    "id": "powerpoint-sette-inn-et-innebygd-dokument-eller-regneark-som",
+    "tittel": "Sette inn et innebygd dokument eller regneark som et objekt",
+    "forklaring": "Alt+N, J",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Sette inn"
+  },
+  {
+    "id": "powerpoint-sette-inn-en-formel",
+    "tittel": "Sette inn en formel",
+    "forklaring": "ALT+LIKHETSTEGN (=)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Sette inn"
+  },
+  {
+    "id": "powerpoint-redigere-et-koblet-eller-innebygd-objekt",
+    "tittel": "Redigere et koblet eller innebygd objekt",
+    "forklaring": "SKIFT+F10 eller Windows-menytasten, deretter O, ENTER, E",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Sette inn"
+  },
+  {
+    "id": "powerpoint-legge-til-et-nytt-lysbilde",
+    "tittel": "Legge til et nytt lysbilde",
+    "forklaring": "CTRL+M",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-lage-en-kopi-av-det-merkede-lysbildet",
+    "tittel": "Lage en kopi av det merkede lysbildet",
+    "forklaring": "Ctrl+Skift+D",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-opp-i",
+    "tittel": "Flytte det valgte lysbildet eller avsnittet opp i rekkefølgen",
+    "forklaring": "CTRL+PIL OPP",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-ned-i",
+    "tittel": "Flytte det valgte lysbildet eller avsnittet ned i rekkefølgen",
+    "forklaring": "CTRL+PIL NED",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-til-b",
+    "tittel": "Flytte det valgte lysbildet eller avsnittet til begynnelsen",
+    "forklaring": "CTRL+SKIFT+PIL OPP",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-flytte-det-valgte-lysbildet-eller-avsnittet-til-s",
+    "tittel": "Flytte det valgte lysbildet eller avsnittet til slutten",
+    "forklaring": "CTRL+SKIFT+PIL NED",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-gaa-til-neste-lysbilde",
+    "tittel": "Gå til neste lysbilde",
+    "forklaring": "Fn+Pil ned",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-gaa-til-forrige-lysbilde",
+    "tittel": "Gå til forrige lysbilde",
+    "forklaring": "Fn+Pil opp",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-velg-alle-lysbilder-i-lysbildesortering-visning-e",
+    "tittel": "Velg alle lysbilder i Lysbildesortering-visning eller miniatyrbilderuten",
+    "forklaring": "CTRL+A",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-velg-et-lysbildeoppsett",
+    "tittel": "Velg et lysbildeoppsett",
+    "forklaring": "ALT+H, L",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-velg-et-tema",
+    "tittel": "Velg et tema",
+    "forklaring": "ALT+G, H",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Lysbilder"
+  },
+  {
+    "id": "powerpoint-flytte-fokuset-til-den-foerste-flytende-figuren-s",
+    "tittel": "Flytte fokuset til den første flytende figuren, som for eksempel et bilde eller en tekstboks",
+    "forklaring": "CTRL+ALT+5",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-merk-et-annet-objekt-naar-ett-objekt-er-merket",
+    "tittel": "Merk et annet objekt når ett objekt er merket",
+    "forklaring": "TABULATOR eller SKIFT+TABULATOR",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-velg-alle-objekter-paa-et-lysbilde",
+    "tittel": "Velg alle objekter på et lysbilde",
+    "forklaring": "CTRL+A",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-duplisere-valgte-objekter",
+    "tittel": "Duplisere valgte objekter",
+    "forklaring": "CTRL+D eller Ctrl+dra",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-gruppere-de-merkede-objektene",
+    "tittel": "Gruppere de merkede objektene",
+    "forklaring": "Ctrl+G",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-oppheve-grupperingen-av-den-merkede-gruppen",
+    "tittel": "Oppheve grupperingen av den merkede gruppen",
+    "forklaring": "CTRL+SKIFT+G",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-gruppere-de-merkede-objektene-paa-nytt",
+    "tittel": "Gruppere de merkede objektene på nytt",
+    "forklaring": "Ctrl+Skift+J",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-send-objektet-en-posisjon-tilbake",
+    "tittel": "Send objektet en posisjon tilbake",
+    "forklaring": "CTRL+SKIFT+VENSTRE HAKEPARENTES ([)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-flytt-objektet-fremover-n-posisjon",
+    "tittel": "Flytt objektet fremover én posisjon",
+    "forklaring": "CTRL+SKIFT+HØYRE HAKEPARENTES (])",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-roter-det-merkede-objektet-med-klokken-15-grader",
+    "tittel": "Roter det merkede objektet med klokken 15 grader",
+    "forklaring": "ALT+pil høyre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-roter-det-merkede-objektet-mot-klokken-15-grader",
+    "tittel": "Roter det merkede objektet mot klokken 15 grader",
+    "forklaring": "ALT+pil venstre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-kopiere-animering",
+    "tittel": "Kopiere animering",
+    "forklaring": "ALT+SKIFT+C",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-lime-inn-kopier-animering",
+    "tittel": "Lime inn Kopier animering",
+    "forklaring": "ALT+SKIFT+V",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Figurer og objekter"
+  },
+  {
+    "id": "powerpoint-flytt-til-neste-celle",
+    "tittel": "Flytt til neste celle",
+    "forklaring": "TABULATOR-tasten",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Tabeller"
+  },
+  {
+    "id": "powerpoint-gaa-til-forrige-celle",
+    "tittel": "Gå til forrige celle",
+    "forklaring": "Skift+Tab",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Tabeller"
+  },
+  {
+    "id": "powerpoint-gaa-til-neste-rad",
+    "tittel": "Gå til neste rad",
+    "forklaring": "Pil ned",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Tabeller"
+  },
+  {
+    "id": "powerpoint-flytt-til-forrige-rad",
+    "tittel": "Flytt til forrige rad",
+    "forklaring": "Pil opp",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Tabeller"
+  },
+  {
+    "id": "powerpoint-sette-inn-tabulatorstopp-i-en-celle",
+    "tittel": "Sette inn tabulatorstopp i en celle",
+    "forklaring": "Ctrl+Tab",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Tabeller"
+  },
+  {
+    "id": "powerpoint-legge-til-en-ny-rad-nederst-i-tabellen-med-markoe",
+    "tittel": "Legge til en ny rad nederst i tabellen med markøren i den siste cellen på siste rad",
+    "forklaring": "TABULATOR-tasten",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Tabeller"
+  },
+  {
+    "id": "powerpoint-aapne-dialogboksen-soek",
+    "tittel": "Åpne dialogboksen Søk",
+    "forklaring": "Ctrl+F",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Søke og erstatte"
+  },
+  {
+    "id": "powerpoint-aapne-dialogboksen-erstatt",
+    "tittel": "Åpne dialogboksen Erstatt",
+    "forklaring": "CTRL+H",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Søke og erstatte"
+  },
+  {
+    "id": "powerpoint-gjenta-siste-soek-handling",
+    "tittel": "Gjenta siste Søk-handling",
+    "forklaring": "SKIFT+F4",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Søke og erstatte"
+  },
+  {
+    "id": "powerpoint-zoom-inn",
+    "tittel": "Zoom inn",
+    "forklaring": "CTRL+PLUSSTEGN (+)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-zoom-ut",
+    "tittel": "Zoom ut",
+    "forklaring": "CTRL+MINUSTEGN (-)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-zoom-for-aa-tilpasse",
+    "tittel": "Zoom for å tilpasse",
+    "forklaring": "Ctrl+Alt+O",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-aapne-dialogboksen-zoom",
+    "tittel": "Åpne dialogboksen Zoom",
+    "forklaring": "ALT+W, Q",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-vis-skjul-stoettelinjer",
+    "tittel": "Vis/skjul støttelinjer",
+    "forklaring": "ALT+F9",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-vis-skjul-rutenettet",
+    "tittel": "Vis/skjul rutenettet",
+    "forklaring": "SKIFT+F9",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-vis-skjul-notater-ruten-i-normal-visningen",
+    "tittel": "Vis/skjul Notater-ruten i Normal-visningen",
+    "forklaring": "Alt+W, P, N",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-veksle-mellom-disposisjons-og-miniatyrbildevisnin",
+    "tittel": "Veksle mellom disposisjons- og miniatyrbildevisninger",
+    "forklaring": "CTRL+SKIFT+TAB",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-bla-med-klokken-gjennom-paneler-i-normal-visninge",
+    "tittel": "Bla med klokken gjennom paneler i Normal-visningen",
+    "forklaring": "F6",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-bla-mot-klokken-gjennom-paneler-i-normal-visninge",
+    "tittel": "Bla mot klokken gjennom paneler i Normal-visningen",
+    "forklaring": "SKIFT+F6",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-vis-overskrifter-paa-nivaa-1-i-disposisjonsvisnin",
+    "tittel": "Vis overskrifter på nivå 1 i disposisjonsvisning",
+    "forklaring": "ALT+SKIFT+1",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-utvid-disposisjonsvisningsteksten-under-en-oversk",
+    "tittel": "Utvid disposisjonsvisningsteksten under en overskrift",
+    "forklaring": "ALT+SKIFT+PLUSSTEGN (+)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-skjul-disposisjonsvisningstekst-under-en-overskri",
+    "tittel": "Skjul disposisjonsvisningstekst under en overskrift",
+    "forklaring": "ALT+SKIFT+MINUSTEGN (-)",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-velg-all-tekst-i-disposisjon-visning",
+    "tittel": "Velg all tekst i Disposisjon-visning",
+    "forklaring": "CTRL+A",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Visning og zoom"
+  },
+  {
+    "id": "powerpoint-aapne-valg-ruten",
+    "tittel": "Åpne Valg-ruten",
+    "forklaring": "Alt+F10 eller Alt+H, S, L, P",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-flytte-fokus-til-ett-element-eller-n-gruppe",
+    "tittel": "Flytte fokus til ett element eller én gruppe",
+    "forklaring": "Pil opp eller pil ned",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-flytte-fokus-fra-et-element-i-en-gruppe-til-den-o",
+    "tittel": "Flytte fokus fra et element i en gruppe til den overordnede gruppen",
+    "forklaring": "Pil venstre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-flytte-fokus-fra-en-gruppe-til-det-foerste-elemen",
+    "tittel": "Flytte fokus fra en gruppe til det første elementet i samme gruppe",
+    "forklaring": "Pil høyre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-vise-en-fokusert-gruppe",
+    "tittel": "Vise en fokusert gruppe",
+    "forklaring": "Pil høyre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-skjule-en-fokusert-gruppe",
+    "tittel": "Skjule en fokusert gruppe",
+    "forklaring": "Pil venstre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-flytte-fokus-til-et-element-og-merke-det",
+    "tittel": "Flytte fokus til et element og merke det",
+    "forklaring": "SKIFT+PIL OPP eller PIL NED",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-merke-et-fokusert-element",
+    "tittel": "Merke et fokusert element",
+    "forklaring": "MELLOMROM eller ENTER",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-avbryte-merking-av-et-fokusert-element",
+    "tittel": "Avbryte merking av et fokusert element",
+    "forklaring": "SKIFT+MELLOMROM eller SKIFT+ENTER",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-flytte-et-merket-element-fremover",
+    "tittel": "Flytte et merket element fremover",
+    "forklaring": "Ctrl+Skift+F",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-flytte-et-merket-element-bakover",
+    "tittel": "Flytte et merket element bakover",
+    "forklaring": "CTRL+SKIFT+B",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-vise-skjule-et-fokusert-element",
+    "tittel": "Vise/skjule et fokusert element",
+    "forklaring": "Ctrl+Skift+S",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-gi-nytt-navn-til-et-fokusert-element",
+    "tittel": "Gi nytt navn til et fokusert element",
+    "forklaring": "F2",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-bytt-tastaturfokus-i-valgruten-mellom-trevisning-",
+    "tittel": "Bytt tastaturfokus i valgruten mellom trevisning og Vis alle- og Skjul alle-knappene",
+    "forklaring": "TAB-tasten eller SKIFT+TAB",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-skjul-alle-grupper-med-fokus-i-trevisningen-i-val",
+    "tittel": "Skjul alle grupper (med fokus i trevisningen i valgruten)",
+    "forklaring": "ALT+SKIFT+1",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-vise-alle-grupper",
+    "tittel": "Vise alle grupper",
+    "forklaring": "ALT+SKIFT+9",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Valgruten"
+  },
+  {
+    "id": "powerpoint-vis-hjelpemenyen",
+    "tittel": "Vis hjelpemenyen",
+    "forklaring": "F1",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-flytt-til-fortell-meg-det-eller-soek-feltet-paa-b",
+    "tittel": "Flytt til Fortell meg det- eller Søk-feltet på båndet, og skriv inn et søkeord for å få hjelp eller hjelpeinnhold",
+    "forklaring": "ALT+Q",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-velge-den-aktive-fanen-paa-baandet-og-aktivere-ti",
+    "tittel": "Velge den aktive fanen på båndet og aktivere tilgangstastene",
+    "forklaring": "ALT eller F10.",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-flytte-fokuset-til-kommandoer-paa-baandet",
+    "tittel": "Flytte fokuset til kommandoer på båndet",
+    "forklaring": "TAB-tasten eller SKIFT+TAB",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-flytte-henholdsvis-ned-opp-til-venstre-eller-til-",
+    "tittel": "Flytte henholdsvis ned, opp, til venstre eller til høyre mellom elementene på båndet",
+    "forklaring": "Piltastene",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-vise-verktoeytipset-for-baandelementet-som-er-i-f",
+    "tittel": "Vise verktøytipset for båndelementet som er i fokus",
+    "forklaring": "CTRL+SKIFT+F10",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aktivere-en-valgt-kommando-eller-kontroll",
+    "tittel": "Aktivere en valgt kommando eller kontroll",
+    "forklaring": "MELLOMROM eller ENTER",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-listen-for-en-valgt-kommando",
+    "tittel": "Åpne listen for en valgt kommando",
+    "forklaring": "Pil ned",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-menyen-for-en-valgt-knapp",
+    "tittel": "Åpne menyen for en valgt knapp",
+    "forklaring": "ALT+Pil ned",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-flytt-til-neste-kommando-naar-en-meny-eller-under",
+    "tittel": "Flytt til neste kommando når en meny eller undermeny er åpen",
+    "forklaring": "Pil ned",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-flytte-til-undermenyen-naar-en-hovedmeny-er-aapen",
+    "tittel": "Flytte til undermenyen når en hovedmeny er åpen eller merket",
+    "forklaring": "Pil venstre",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-vise-skjule-baandet",
+    "tittel": "Vise/skjule båndet",
+    "forklaring": "Ctrl+F1",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-faa-hjelp-for-valgt-kommando-eller-kontroll-paa-b",
+    "tittel": "Få hjelp for valgt kommando eller kontroll på båndet",
+    "forklaring": "F1",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-fil-menyen",
+    "tittel": "Åpne Fil-menyen",
+    "forklaring": "ALT+F",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-hjem-fanen-og-formater-lysbilder-skrifter-p",
+    "tittel": "Åpne Hjem-fanen og formater lysbilder, skrifter, paragrafer eller tegninger",
+    "forklaring": "ALT+H",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-sett-inn-fanen-og-sett-inn-lysbilder-tabell",
+    "tittel": "Åpne Sett inn-fanen og sett inn lysbilder, tabeller, bilder, illustrasjoner, skjemaer, koblinger, tekst, symboler eller medier",
+    "forklaring": "ALT+N",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-tegn-fanen-og-faa-tilgang-til-tegneverktoey",
+    "tittel": "Åpne Tegn-fanen og få tilgang til tegneverktøyene",
+    "forklaring": "Alt+J, I",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-design-fanen-og-bruk-temaer-og-tilpass-lysb",
+    "tittel": "Åpne Design-fanen og bruk temaer og tilpass lysbilder",
+    "forklaring": "ALT+G",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-overganger-fanen-og-legg-til-overganger-mel",
+    "tittel": "Åpne Overganger-fanen og legg til overganger mellom lysbilder",
+    "forklaring": "ALT+K",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-animasjoner-fanen-og-legg-til-animasjoner-p",
+    "tittel": "Åpne Animasjoner-fanen og legg til animasjoner på lysbilder",
+    "forklaring": "ALT+A",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-lysbildefremvisning-fanen-og-konfigurer-og-",
+    "tittel": "Åpne Lysbildefremvisning-fanen og konfigurer og spill av lysbildefremvisningen",
+    "forklaring": "ALT+S",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-se-gjennom-fanen-og-kontroller-stavemaaten-",
+    "tittel": "Åpne Se gjennom-fanen og kontroller stavemåten og tilgjengelighet og legg til kommentarer",
+    "forklaring": "ALT+R",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-visning-fanen-og-forhaandsvis-presentasjons",
+    "tittel": "Åpne Visning-fanen og forhåndsvis presentasjonsoppsett, vis og skjul rutenett og veiledninger, angi zoom-forstørrelse, administrer vinduer og vis makroer",
+    "forklaring": "ALT+W",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-innspilling-fanen-og-behandle-skjerminnspil",
+    "tittel": "Åpne Innspilling-fanen og behandle skjerminnspillinger, lyd og video i presentasjonen",
+    "forklaring": "ALT+E",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-aapne-hjelp-fanen-og-bla-gjennom-powerpoint-konta",
+    "tittel": "Åpne Hjelp-fanen, og bla gjennom PowerPoint, kontakt kundestøtte og gi tilbakemelding",
+    "forklaring": "ALT+Y, 2",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-vise-hurtigmenyen",
+    "tittel": "Vise hurtigmenyen",
+    "forklaring": "SKIFT+F10 eller Windows-menytasten",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-flytte-til-en-oppgaverute-fra-en-annen-rute-eller",
+    "tittel": "Flytte til en oppgaverute fra en annen rute eller område i programvinduet",
+    "forklaring": "F6",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-velge-neste-eller-forrige-alternativ-i-en-oppgave",
+    "tittel": "Velge neste eller forrige alternativ i en oppgaverute når den er aktiv",
+    "forklaring": "TAB-tasten eller SKIFT+TAB",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-vise-alle-kommandoer-paa-menyen-i-oppgaveruten",
+    "tittel": "Vise alle kommandoer på menyen i oppgaveruten",
+    "forklaring": "CTRL+MELLOMROM",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-flytt-til-neste-kommando-i-oppgaveruten",
+    "tittel": "Flytt til neste kommando i oppgaveruten",
+    "forklaring": "Pil opp og Pil ned",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-velg-det-fremhevede-alternativet-i-oppgaveruten",
+    "tittel": "Velg det fremhevede alternativet i oppgaveruten",
+    "forklaring": "ENTER",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-flytt-endre-stoerrelse-paa-oppgaveruten-etter-at-",
+    "tittel": "Flytt/endre størrelse på oppgaveruten etter at den tilhørende kommandoen er valgt",
+    "forklaring": "Piltastene",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
+  },
+  {
+    "id": "powerpoint-lukke-en-oppgaverute",
+    "tittel": "Lukke en oppgaverute",
+    "forklaring": "CTRL+MELLOMROM, C",
+    "tags": [
+      "powerpoint"
+    ],
+    "undergruppe": "Båndet, menyer og ruter"
   },
   {
     "id": "powerpoint-starte-en-presentasjon-fra-begynnelsen",
