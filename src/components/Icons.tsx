@@ -210,16 +210,6 @@ export function WindowsKeyIcon({ size = 12, className }: IconProps) {
   )
 }
 
-// Between keys pressed one after the other: two bars, like a pause sign.
-export function KeyPauseIcon({ size = 12, className }: IconProps) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 12 12" fill="currentColor" className={className}>
-      <rect x="3" y="2" width="2" height="8" rx="0.5" />
-      <rect x="7" y="2" width="2" height="8" rx="0.5" />
-    </svg>
-  )
-}
-
 // Material: keyboard_tab
 export function TabKeyIcon({ size = 12, className }: IconProps) {
   return (
