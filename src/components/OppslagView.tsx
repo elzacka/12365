@@ -136,6 +136,11 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     return allTags.has(q) ? q : null
   }, [query, allTags, activeTags])
 
+  const chipGroups = useMemo(
+    () => (groups ? [...groups].sort((a, b) => a.title.localeCompare(b.title, 'nb')) : []),
+    [groups],
+  )
+
   const filteredByTag = useMemo<Oppslag[]>(() => {
     if (activeTags.length === 0) return ord
     return ord.filter(o => hasAllTags(o, activeTags))
@@ -326,6 +331,29 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                   </p>
                 </div>
               </div>
+            </div>
+          )}
+
+          {groups && (
+            <div role="group" aria-label="Filtrer på kategori" className="flex gap-1.5 overflow-x-auto mt-2 -mx-4 px-4 hide-scrollbar">
+              {chipGroups.map(g => {
+                const isActive = activeTags.length === 1 && activeTags[0] === g.tag
+                return (
+                  <button
+                    key={g.tag}
+                    type="button"
+                    onClick={() => setActiveTags(isActive ? [] : [g.tag])}
+                    className={`flex-shrink-0 px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                      isActive
+                        ? 'bg-brand-700 text-white shadow-sm'
+                        : 'bg-white border border-slate-200 text-slate-600 hover:border-slate-300'
+                    }`}
+                    aria-pressed={isActive}
+                  >
+                    {g.title}
+                  </button>
+                )
+              })}
             </div>
           )}
         </div>

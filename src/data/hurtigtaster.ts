@@ -1,7 +1,6 @@
 // Hurtigtaster sections: apps alphabetically, then the general ones; each entry's first tag is its section.
 // Apps outside E5 (Project, Visio desktop) are left out.
 export const GROUPS = [
-  { tag: 'access', title: 'Access' },
   { tag: 'chrome', title: 'Chrome' },
   { tag: 'edge', title: 'Edge' },
   { tag: 'excel', title: 'Excel' },

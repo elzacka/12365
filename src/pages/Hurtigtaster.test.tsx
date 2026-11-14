@@ -60,6 +60,21 @@ describe('Hurtigtaster', () => {
     expect(headings()).toEqual(['Excel', 'Word', 'Microsoft 365'])
   })
 
+  it('filters on one category with the chips, sorted alphabetically', async () => {
+    await renderPage()
+    const chips = screen.getByRole('group', { name: 'Filtrer på kategori' })
+    const names = [...chips.querySelectorAll('button')].map(b => b.textContent!)
+    expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b, 'nb')))
+    const word = screen.getByRole('button', { name: 'Word', pressed: false })
+    fireEvent.click(word)
+    expect(word.getAttribute('aria-pressed')).toBe('true')
+    expect(headings()).toEqual(['Word'])
+    fireEvent.click(screen.getByRole('button', { name: 'Excel' }))
+    expect(headings()).toEqual(['Excel'])
+    fireEvent.click(screen.getByRole('button', { name: 'Excel', pressed: true }))
+    expect(headings()).toEqual(['Excel', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
+  })
+
   it('finds an international character under its app name too', async () => {
     await renderPage()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'nye outlook' } })
