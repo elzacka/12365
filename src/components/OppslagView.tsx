@@ -175,7 +175,8 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
         ].filter(Boolean).join(' ')
 
   const grouped = useMemo<Group[]>(() => {
-    if (groups) return groupByTag(alphabetical(filteredByTag), groups)
+    // Grouped lists keep the source order, so related entries stay together.
+    if (groups) return groupByTag(filteredByTag, groups)
     const map = new Map<string, Oppslag[]>()
     for (const o of filteredByTag) {
       const key = firstLetter(o.tittel)
@@ -319,7 +320,11 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                 )}
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-500 font-medium mb-1.5">I listen</p>
-                  <p className="text-slate-500">Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere. Klikk på flere for å se oppslagene som har alle.</p>
+                  <p className="text-slate-500">
+                    {keys
+                      ? 'Klikk på en emneknagg (#) for å se bare hurtigtastene i den appen.'
+                      : 'Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere. Klikk på flere for å se oppslagene som har alle.'}
+                  </p>
                 </div>
               </div>
             </div>
@@ -455,24 +460,95 @@ function OppslagList({ ord, keys, expandedId, onExpand, onTagClick, activeTags }
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
       {ord.map((o, idx) => (
-        <OppslagRow
-          key={o.id}
-          ord={o}
-          keys={keys}
-          isExpanded={expandedId === o.id}
-          onExpand={onExpand}
-          onTagClick={onTagClick}
-          activeTags={activeTags}
-          withBorder={idx < ord.length - 1}
-        />
+        keys ? (
+          <KeyRow
+            key={o.id}
+            ord={o}
+            onTagClick={onTagClick}
+            activeTags={activeTags}
+            withBorder={idx < ord.length - 1}
+          />
+        ) : (
+          <OppslagRow
+            key={o.id}
+            ord={o}
+            isExpanded={expandedId === o.id}
+            onExpand={onExpand}
+            onTagClick={onTagClick}
+            activeTags={activeTags}
+            withBorder={idx < ord.length - 1}
+          />
+        )
       ))}
+    </div>
+  )
+}
+
+interface TagChipsProps {
+  ord: Oppslag
+  onTagClick: (id: string, tag: string) => void
+  activeTags: string[]
+}
+
+function TagChips({ ord, onTagClick, activeTags }: TagChipsProps) {
+  return (
+    <>
+      {ord.tags.map(tag => {
+        const isActive = activeTags.includes(tag)
+        return (
+          <button
+            key={tag}
+            onClick={() => onTagClick(ord.id, tag)}
+            className={`inline-flex items-center gap-0.5 text-xs px-2 py-0.5 rounded-full transition-colors ${
+              isActive
+                ? 'bg-brand-500 text-white'
+                : 'bg-slate-100 text-slate-600 ring-1 ring-transparent hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-300'
+            }`}
+            aria-pressed={isActive}
+            aria-label={
+              isActive
+                ? `Fjern filter ${tag}`
+                : activeTags.length > 0
+                  ? `Legg til filter ${tag}`
+                  : `Vis alle oppslag merket ${tag}`
+            }
+          >
+            <span aria-hidden="true" className={isActive ? 'opacity-60' : 'opacity-35'}>#</span>
+            {tag}
+          </button>
+        )
+      })}
+    </>
+  )
+}
+
+interface KeyRowProps {
+  ord: Oppslag
+  onTagClick: (id: string, tag: string) => void
+  activeTags: string[]
+  withBorder: boolean
+}
+
+// Description, keys and app tag, all visible: nothing to expand.
+function KeyRow({ ord, onTagClick, activeTags, withBorder }: KeyRowProps) {
+  return (
+    <div
+      id={`ord-${ord.id}`}
+      className={`${withBorder ? 'border-b border-slate-100' : ''} px-4 py-3 [content-visibility:auto] [contain-intrinsic-size:auto_76px]`}
+    >
+      <p className="text-sm text-slate-800 leading-snug">{ord.tittel}</p>
+      <div className="mt-1.5 flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+        <Keys text={ord.forklaring} />
+        <div className="flex gap-1.5">
+          <TagChips ord={ord} onTagClick={onTagClick} activeTags={activeTags} />
+        </div>
+      </div>
     </div>
   )
 }
 
 interface OppslagRowProps {
   ord: Oppslag
-  keys: boolean
   isExpanded: boolean
   onExpand: (id: string) => void
   onTagClick: (id: string, tag: string) => void
@@ -480,13 +556,11 @@ interface OppslagRowProps {
   withBorder: boolean
 }
 
-function OppslagRow({ ord, keys, isExpanded, onExpand, onTagClick, activeTags, withBorder }: OppslagRowProps) {
+function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBorder }: OppslagRowProps) {
   const previewText = useMemo(() => {
     const firstLine = stripLinks(ord.forklaring.split('\n')[0])
     return firstLine.length > 140 ? firstLine.slice(0, 140).trim() + '…' : firstLine
   }, [ord.forklaring])
-  const lines = ord.forklaring.split('\n').map(l => l.trim()).filter(Boolean)
-  const bodyLines = keys ? lines.slice(1) : lines
 
   return (
     <div
@@ -501,26 +575,27 @@ function OppslagRow({ ord, keys, isExpanded, onExpand, onTagClick, activeTags, w
       >
         <div className="flex-1 min-w-0">
           <span className="text-sm font-medium text-slate-800 leading-snug">{ord.tittel}</span>
-          {!keys && !isExpanded && (
+          {!isExpanded && (
             <p className="text-xs text-slate-500 mt-0.5 line-clamp-1 leading-snug">
               {parseInline(previewText)}
             </p>
           )}
         </div>
-        {keys && <Keys combo={lines[0] ?? ''} />}
       </button>
       {isExpanded && (
         <div
           id={`ord-body-${ord.id}`}
           className="px-4 pb-4 pt-0 text-sm text-slate-700 leading-relaxed"
         >
-          {bodyLines.length > 0 && (
-            <div className="space-y-2">
-              {bodyLines.map((line, i) => (
+          <div className="space-y-2">
+            {ord.forklaring
+              .split('\n')
+              .map(l => l.trim())
+              .filter(Boolean)
+              .map((line, i) => (
                 <p key={i}>{parseInline(line)}</p>
               ))}
-            </div>
-          )}
+          </div>
           {(() => {
             const aliases = visibleAliases(ord)
             if (aliases.length === 0) return null
@@ -534,31 +609,7 @@ function OppslagRow({ ord, keys, isExpanded, onExpand, onTagClick, activeTags, w
           })()}
           {ord.tags.length > 0 && (
             <div className="flex flex-wrap gap-1.5 mt-3">
-              {ord.tags.map(tag => {
-                const isActive = activeTags.includes(tag)
-                return (
-                  <button
-                    key={tag}
-                    onClick={() => onTagClick(ord.id, tag)}
-                    className={`inline-flex items-center gap-0.5 text-xs px-2 py-0.5 rounded-full transition-colors ${
-                      isActive
-                        ? 'bg-brand-500 text-white'
-                        : 'bg-slate-100 text-slate-600 ring-1 ring-transparent hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-300'
-                    }`}
-                    aria-pressed={isActive}
-                    aria-label={
-                      isActive
-                        ? `Fjern filter ${tag}`
-                        : activeTags.length > 0
-                          ? `Legg til filter ${tag}`
-                          : `Vis alle oppslag merket ${tag}`
-                    }
-                  >
-                    <span aria-hidden="true" className={isActive ? 'opacity-60' : 'opacity-35'}>#</span>
-                    {tag}
-                  </button>
-                )
-              })}
+              <TagChips ord={ord} onTagClick={onTagClick} activeTags={activeTags} />
             </div>
           )}
         </div>

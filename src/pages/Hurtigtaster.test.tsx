@@ -4,9 +4,9 @@ import { render, screen, fireEvent, act } from '@testing-library/react'
 import type { Oppslag } from '../types'
 
 const ENTRIES: Oppslag[] = [
-  { id: 'filter', tittel: 'Legg til eller fjern filter', forklaring: '**Ctrl+Skift+L**', tags: ['excel'] },
-  { id: 'punkt', tittel: 'Legg til en punktliste', forklaring: '**Ctrl+Skift+L**', tags: ['word'] },
-  { id: 'laas', tittel: 'Lås datamaskinen', forklaring: '**Windows-tast+L**\nGjelder alle apper', tags: ['windows'] },
+  { id: 'filter', tittel: 'Legg til eller fjern filter', forklaring: 'CTRL+SKIFT+L', tags: ['excel'] },
+  { id: 'punkt', tittel: 'Legg til en punktliste', forklaring: 'Ctrl+Skift+L', tags: ['word'] },
+  { id: 'laas', tittel: 'Lås datamaskinen', forklaring: 'Windows-tast+L', tags: ['windows'] },
 ]
 
 // One stable promise: `use()` suspends again on every new one.
@@ -15,6 +15,7 @@ vi.mock('../data/loader', () => ({ fetchHurtigtaster: () => loaded }))
 
 beforeAll(() => {
   window.scrollTo = () => {}
+  Element.prototype.scrollIntoView = () => {}
   window.matchMedia ??= ((query: string) => ({
     matches: false, media: query, onchange: null,
     addEventListener: () => {}, removeEventListener: () => {},
@@ -32,12 +33,18 @@ async function renderPage() {
 const headings = () => screen.getAllByRole('heading', { level: 2 }).map(h => h.textContent)
 
 describe('Hurtigtaster', () => {
-  it('groups by app in GROUPS order and shows the keys without expanding', async () => {
+  it('groups by app in GROUPS order and shows keys and app tag on each row', async () => {
     await renderPage()
     expect(headings()).toEqual(['Windows', 'Word', 'Excel'])
-    const keys = [...document.querySelectorAll('kbd')].map(k => k.textContent)
-    expect(keys.filter(k => k === 'Ctrl+⇧Skift+L')).toHaveLength(2)
-    expect(screen.queryByText('Gjelder alle apper')).toBeNull()
+    const row = document.getElementById('ord-filter')!
+    expect([...row.querySelectorAll('kbd')].map(k => k.textContent)).toEqual(['Ctrl', '⇧Skift', 'L'])
+    expect(row.querySelector('[aria-pressed]')?.textContent).toBe('#excel')
+  })
+
+  it('shows one app from its tag', async () => {
+    await renderPage()
+    fireEvent.click(screen.getByRole('button', { name: 'Vis alle oppslag merket excel' }))
+    expect(headings()).toEqual(['Excel'])
   })
 
   it('keeps the app heading on search hits', async () => {
