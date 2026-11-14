@@ -36,6 +36,14 @@ describe('hurtigtaster.json', () => {
     }
   })
 
+  it('needs no numeric keypad and no Page up, Page down, Home or End key', () => {
+    const absent = new Set(['Page up', 'Page down', 'Home', 'End'])
+    const laptopless = entries.filter(e =>
+      /ALT\+0\d{3}|talltastatur/i.test(e.forklaring)
+      || parseKeys(e.forklaring).some(s => 'key' in s && absent.has(keyLabel(s.key).name)))
+    expect(laptopless.map(e => e.id)).toEqual([])
+  })
+
   it('names every key it shows', () => {
     const unknown = entries.flatMap(e => parseKeys(e.forklaring).flatMap(s => ('key' in s && keyLabel(s.key).unknown ? [s.key] : [])))
     expect(unknown).toEqual([])

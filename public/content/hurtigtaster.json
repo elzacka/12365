@@ -1178,7 +1178,7 @@
   {
     "id": "teams-gaa-til-neste-maaned",
     "tittel": "Gå til neste måned",
-    "forklaring": "ALT+PAGEDOWN",
+    "forklaring": "ALT+Fn+Pil ned",
     "tags": [
       "teams"
     ]
@@ -1186,7 +1186,7 @@
   {
     "id": "teams-gaa-til-forrige-maaned",
     "tittel": "Gå til forrige måned",
-    "forklaring": "ALT+PGUP",
+    "forklaring": "ALT+Fn+Pil opp",
     "tags": [
       "teams"
     ]
@@ -1226,7 +1226,7 @@
   {
     "id": "teams-gaa-til-i-dag",
     "tittel": "Gå til i dag",
-    "forklaring": "ALT+SKIFT+Y/Home",
+    "forklaring": "ALT+SKIFT+Y eller Fn+Pil venstre",
     "tags": [
       "teams"
     ]
@@ -1466,7 +1466,7 @@
   {
     "id": "nye-outlook",
     "tittel": "À",
-    "forklaring": "ALT+0192",
+    "forklaring": "Skift+Grav aksent (`), Skift+A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1475,7 +1475,7 @@
   {
     "id": "nye-outlook-2",
     "tittel": "È",
-    "forklaring": "ALT+0200",
+    "forklaring": "Skift+Grav aksent (`), Skift+E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1484,7 +1484,7 @@
   {
     "id": "nye-outlook-3",
     "tittel": "Ì",
-    "forklaring": "ALT+0204",
+    "forklaring": "Skift+Grav aksent (`), Skift+I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1493,7 +1493,7 @@
   {
     "id": "nye-outlook-4",
     "tittel": "Ò",
-    "forklaring": "ALT+0210",
+    "forklaring": "Skift+Grav aksent (`), Skift+O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1502,7 +1502,7 @@
   {
     "id": "nye-outlook-5",
     "tittel": "Ù",
-    "forklaring": "ALT+0217",
+    "forklaring": "Skift+Grav aksent (`), Skift+U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1511,7 +1511,7 @@
   {
     "id": "nye-outlook-6",
     "tittel": "à",
-    "forklaring": "ALT+0224",
+    "forklaring": "Skift+Grav aksent (`), A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1520,7 +1520,7 @@
   {
     "id": "nye-outlook-7",
     "tittel": "è",
-    "forklaring": "ALT+0232",
+    "forklaring": "Skift+Grav aksent (`), E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1529,7 +1529,7 @@
   {
     "id": "nye-outlook-8",
     "tittel": "ì",
-    "forklaring": "ALT+0236",
+    "forklaring": "Skift+Grav aksent (`), I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1538,7 +1538,7 @@
   {
     "id": "nye-outlook-9",
     "tittel": "ò",
-    "forklaring": "ALT+0242",
+    "forklaring": "Skift+Grav aksent (`), O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1547,7 +1547,7 @@
   {
     "id": "nye-outlook-10",
     "tittel": "ù",
-    "forklaring": "ALT+0249",
+    "forklaring": "Skift+Grav aksent (`), U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1556,7 +1556,7 @@
   {
     "id": "nye-outlook-11",
     "tittel": "Á",
-    "forklaring": "ALT+0193",
+    "forklaring": "Alt gr+Akutt aksent (´), Skift+A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1565,7 +1565,7 @@
   {
     "id": "nye-outlook-12",
     "tittel": "É",
-    "forklaring": "ALT+0201",
+    "forklaring": "Alt gr+Akutt aksent (´), Skift+E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1574,7 +1574,7 @@
   {
     "id": "nye-outlook-13",
     "tittel": "Í",
-    "forklaring": "ALT+0205",
+    "forklaring": "Alt gr+Akutt aksent (´), Skift+I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1583,7 +1583,7 @@
   {
     "id": "nye-outlook-14",
     "tittel": "Ó",
-    "forklaring": "ALT+0211",
+    "forklaring": "Alt gr+Akutt aksent (´), Skift+O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1592,7 +1592,7 @@
   {
     "id": "nye-outlook-15",
     "tittel": "Ú",
-    "forklaring": "ALT+0218",
+    "forklaring": "Alt gr+Akutt aksent (´), Skift+U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1601,7 +1601,7 @@
   {
     "id": "nye-outlook-16",
     "tittel": "Ý",
-    "forklaring": "ALT+0221",
+    "forklaring": "Alt gr+Akutt aksent (´), Skift+Y",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1610,7 +1610,7 @@
   {
     "id": "nye-outlook-17",
     "tittel": "á",
-    "forklaring": "ALT+0225",
+    "forklaring": "Alt gr+Akutt aksent (´), A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1619,7 +1619,7 @@
   {
     "id": "nye-outlook-18",
     "tittel": "é",
-    "forklaring": "ALT+0233",
+    "forklaring": "Alt gr+Akutt aksent (´), E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1628,7 +1628,7 @@
   {
     "id": "nye-outlook-19",
     "tittel": "í",
-    "forklaring": "ALT+0237",
+    "forklaring": "Alt gr+Akutt aksent (´), I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1637,7 +1637,7 @@
   {
     "id": "nye-outlook-20",
     "tittel": "ó",
-    "forklaring": "ALT+0243",
+    "forklaring": "Alt gr+Akutt aksent (´), O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1646,7 +1646,7 @@
   {
     "id": "nye-outlook-21",
     "tittel": "ú",
-    "forklaring": "ALT+0250",
+    "forklaring": "Alt gr+Akutt aksent (´), U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1655,7 +1655,7 @@
   {
     "id": "nye-outlook-22",
     "tittel": "ý",
-    "forklaring": "ALT+0253",
+    "forklaring": "Alt gr+Akutt aksent (´), Y",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1664,7 +1664,7 @@
   {
     "id": "nye-outlook-23",
     "tittel": "Â",
-    "forklaring": "ALT+0194",
+    "forklaring": "Skift+Cirkumflekstegn (^), Skift+A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1673,7 +1673,7 @@
   {
     "id": "nye-outlook-24",
     "tittel": "Ê",
-    "forklaring": "ALT+0202",
+    "forklaring": "Skift+Cirkumflekstegn (^), Skift+E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1682,7 +1682,7 @@
   {
     "id": "nye-outlook-25",
     "tittel": "Î",
-    "forklaring": "ALT+0206",
+    "forklaring": "Skift+Cirkumflekstegn (^), Skift+I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1691,7 +1691,7 @@
   {
     "id": "nye-outlook-26",
     "tittel": "Ô",
-    "forklaring": "ALT+0212",
+    "forklaring": "Skift+Cirkumflekstegn (^), Skift+O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1700,7 +1700,7 @@
   {
     "id": "nye-outlook-27",
     "tittel": "Û",
-    "forklaring": "ALT+0219",
+    "forklaring": "Skift+Cirkumflekstegn (^), Skift+U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1709,7 +1709,7 @@
   {
     "id": "nye-outlook-28",
     "tittel": "â",
-    "forklaring": "ALT+0226",
+    "forklaring": "Skift+Cirkumflekstegn (^), A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1718,7 +1718,7 @@
   {
     "id": "nye-outlook-29",
     "tittel": "ê",
-    "forklaring": "ALT+0234",
+    "forklaring": "Skift+Cirkumflekstegn (^), E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1727,7 +1727,7 @@
   {
     "id": "nye-outlook-30",
     "tittel": "î",
-    "forklaring": "ALT+0238",
+    "forklaring": "Skift+Cirkumflekstegn (^), I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1736,7 +1736,7 @@
   {
     "id": "nye-outlook-31",
     "tittel": "ô",
-    "forklaring": "ALT+0244",
+    "forklaring": "Skift+Cirkumflekstegn (^), O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1745,7 +1745,7 @@
   {
     "id": "nye-outlook-32",
     "tittel": "û",
-    "forklaring": "ALT+0251",
+    "forklaring": "Skift+Cirkumflekstegn (^), U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1754,7 +1754,7 @@
   {
     "id": "nye-outlook-33",
     "tittel": "Ã",
-    "forklaring": "ALT+0195",
+    "forklaring": "Alt gr+Tilde (~), Skift+A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1763,7 +1763,7 @@
   {
     "id": "nye-outlook-34",
     "tittel": "Ñ",
-    "forklaring": "ALT+0209",
+    "forklaring": "Alt gr+Tilde (~), Skift+N",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1772,7 +1772,7 @@
   {
     "id": "nye-outlook-35",
     "tittel": "Õ",
-    "forklaring": "ALT+0213",
+    "forklaring": "Alt gr+Tilde (~), Skift+O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1781,7 +1781,7 @@
   {
     "id": "nye-outlook-36",
     "tittel": "ã",
-    "forklaring": "ALT+0227",
+    "forklaring": "Alt gr+Tilde (~), A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1790,7 +1790,7 @@
   {
     "id": "nye-outlook-37",
     "tittel": "ñ",
-    "forklaring": "ALT+0241",
+    "forklaring": "Alt gr+Tilde (~), N",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1799,7 +1799,7 @@
   {
     "id": "nye-outlook-38",
     "tittel": "õ",
-    "forklaring": "ALT+0245",
+    "forklaring": "Alt gr+Tilde (~), O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1808,7 +1808,7 @@
   {
     "id": "nye-outlook-39",
     "tittel": "Ä",
-    "forklaring": "ALT+0196",
+    "forklaring": "Trema (¨), Skift+A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1817,7 +1817,7 @@
   {
     "id": "nye-outlook-40",
     "tittel": "Ë",
-    "forklaring": "ALT+0203",
+    "forklaring": "Trema (¨), Skift+E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1826,7 +1826,7 @@
   {
     "id": "nye-outlook-41",
     "tittel": "Ï",
-    "forklaring": "ALT+0207",
+    "forklaring": "Trema (¨), Skift+I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1835,7 +1835,7 @@
   {
     "id": "nye-outlook-42",
     "tittel": "Ö",
-    "forklaring": "ALT+0214",
+    "forklaring": "Trema (¨), Skift+O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1844,7 +1844,7 @@
   {
     "id": "nye-outlook-43",
     "tittel": "Ü",
-    "forklaring": "ALT+0220",
+    "forklaring": "Trema (¨), Skift+U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1853,7 +1853,7 @@
   {
     "id": "nye-outlook-44",
     "tittel": "Ÿ",
-    "forklaring": "ALT+0159",
+    "forklaring": "0178, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1862,7 +1862,7 @@
   {
     "id": "nye-outlook-45",
     "tittel": "ä",
-    "forklaring": "ALT+0228",
+    "forklaring": "Trema (¨), A",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1871,7 +1871,7 @@
   {
     "id": "nye-outlook-46",
     "tittel": "ë",
-    "forklaring": "ALT+0235",
+    "forklaring": "Trema (¨), E",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1880,7 +1880,7 @@
   {
     "id": "nye-outlook-47",
     "tittel": "ï",
-    "forklaring": "ALT+0239",
+    "forklaring": "Trema (¨), I",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1889,7 +1889,7 @@
   {
     "id": "nye-outlook-48",
     "tittel": "ö",
-    "forklaring": "ALT+0246",
+    "forklaring": "Trema (¨), O",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1898,7 +1898,7 @@
   {
     "id": "nye-outlook-49",
     "tittel": "ü",
-    "forklaring": "ALT+0252",
+    "forklaring": "Trema (¨), U",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1907,7 +1907,7 @@
   {
     "id": "nye-outlook-50",
     "tittel": "ÿ",
-    "forklaring": "ALT+0255",
+    "forklaring": "Trema (¨), Y",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1916,7 +1916,7 @@
   {
     "id": "nye-outlook-omvendt-utropstegn",
     "tittel": "Omvendt utropstegn (¡)",
-    "forklaring": "ALT+0161",
+    "forklaring": "00A1, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1925,7 +1925,7 @@
   {
     "id": "nye-outlook-omvendt-spoersmaalstegn",
     "tittel": "Omvendt spørsmålstegn (¿)",
-    "forklaring": "ALT+0191",
+    "forklaring": "00BF, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1934,7 +1934,7 @@
   {
     "id": "nye-outlook-c-cedilla-med-store-bokstaver",
     "tittel": "C-cedilla med store bokstaver (Ç)",
-    "forklaring": "ALT+0199",
+    "forklaring": "00C7, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1943,7 +1943,7 @@
   {
     "id": "nye-outlook-smaa-c-cedilla",
     "tittel": "Små c-cedilla (ç)",
-    "forklaring": "ALT+0231",
+    "forklaring": "00E7, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1952,7 +1952,7 @@
   {
     "id": "nye-outlook-oe-diftong-med-store-bokstaver",
     "tittel": "OE-diftong med store bokstaver (Œ)",
-    "forklaring": "ALT+0140",
+    "forklaring": "0152, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1961,7 +1961,7 @@
   {
     "id": "nye-outlook-smaa-bokstaver-oe-diftong",
     "tittel": "Små bokstaver oe diftong (œ)",
-    "forklaring": "ALT+0156",
+    "forklaring": "0153, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1970,7 +1970,7 @@
   {
     "id": "nye-outlook-eszett-eller-ss",
     "tittel": "Eszett eller ss (ß)",
-    "forklaring": "ALT+0223",
+    "forklaring": "00DF, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1979,7 +1979,7 @@
   {
     "id": "nye-outlook-maskulin-ordenstallindikator-eller-gradsymbol",
     "tittel": "Maskulin ordenstallindikator eller gradsymbol (º)",
-    "forklaring": "ALT+0186",
+    "forklaring": "00BA, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1988,7 +1988,7 @@
   {
     "id": "nye-outlook-feminin-ordinal-indikator",
     "tittel": "Feminin ordinal indikator (ª)",
-    "forklaring": "ALT+0170",
+    "forklaring": "00AA, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1997,7 +1997,7 @@
   {
     "id": "nye-outlook-torn-med-store-bokstaver",
     "tittel": "Torn med store bokstaver (Þ)",
-    "forklaring": "ALT+0222",
+    "forklaring": "00DE, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2006,7 +2006,7 @@
   {
     "id": "nye-outlook-liten-torn",
     "tittel": "Liten torn (þ)",
-    "forklaring": "ALT+0254",
+    "forklaring": "00FE, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2015,7 +2015,7 @@
   {
     "id": "nye-outlook-store-bokstaver-eth",
     "tittel": "Store bokstaver eth (Ð)",
-    "forklaring": "ALT+0208",
+    "forklaring": "00D0, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2024,7 +2024,7 @@
   {
     "id": "nye-outlook-smaa-bokstaver-eth",
     "tittel": "Små bokstaver eth (ð)",
-    "forklaring": "ALT+0240",
+    "forklaring": "00F0, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2033,7 +2033,7 @@
   {
     "id": "nye-outlook-enkelt-venstrevinklet-anfoerselstegn",
     "tittel": "Enkelt venstrevinklet anførselstegn (‹)",
-    "forklaring": "ALT+0139",
+    "forklaring": "2039, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2042,7 +2042,7 @@
   {
     "id": "nye-outlook-enkelt-rettvinklet-anfoerselstegn",
     "tittel": "Enkelt rettvinklet anførselstegn (›)",
-    "forklaring": "ALT+0155",
+    "forklaring": "203A, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2051,7 +2051,7 @@
   {
     "id": "nye-outlook-store-bokstaver-s-med-caron",
     "tittel": "Store bokstaver S med caron (Š)",
-    "forklaring": "ALT+0138",
+    "forklaring": "0160, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2060,7 +2060,7 @@
   {
     "id": "nye-outlook-smaa-bokstaver-med-caron",
     "tittel": "Små bokstaver s med caron (š)",
-    "forklaring": "ALT+0154",
+    "forklaring": "0161, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2069,7 +2069,7 @@
   {
     "id": "nye-outlook-store-bokstaver-z-med-caron",
     "tittel": "Store bokstaver Z med caron (Ž)",
-    "forklaring": "ALT+0142",
+    "forklaring": "017D, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2078,7 +2078,7 @@
   {
     "id": "nye-outlook-smaa-bokstaver-z-med-caron",
     "tittel": "Små bokstaver z med caron (ž)",
-    "forklaring": "ALT+0158",
+    "forklaring": "017E, Alt+X",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2415,7 +2415,7 @@
   {
     "id": "klassisk-outlook-gaa-til-forrige-melding-i-leseruten",
     "tittel": "Gå til forrige melding i leseruten",
-    "forklaring": "ALT+PIL OPP eller CTRL+KOMMA (,) eller ALT+PGUP",
+    "forklaring": "ALT+PIL OPP eller CTRL+KOMMA (,) eller ALT+Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -3287,7 +3287,7 @@
   {
     "id": "klassisk-outlook-gaa-til-elementet-nederst-paa-skjermen",
     "tittel": "Gå til elementet nederst på skjermen",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -3295,7 +3295,7 @@
   {
     "id": "klassisk-outlook-gaa-til-elementet-oeverst-paa-skjermen",
     "tittel": "Gå til elementet øverst på skjermen",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -3527,7 +3527,7 @@
   {
     "id": "klassisk-outlook-gaa-til-den-forrige-meldingen-2",
     "tittel": "Gå til den forrige meldingen",
-    "forklaring": "ALT+PIL OPP eller CTRL+KOMMA (,) eller ALT+PAGE UP",
+    "forklaring": "ALT+PIL OPP eller CTRL+KOMMA (,) eller ALT+Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -3815,7 +3815,7 @@
   {
     "id": "klassisk-outlook-gaa-til-neste-maaned",
     "tittel": "Gå til neste måned",
-    "forklaring": "ALT+PGDN",
+    "forklaring": "ALT+Fn+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -3839,7 +3839,7 @@
   {
     "id": "klassisk-outlook-gaa-til-forrige-maaned",
     "tittel": "Gå til forrige måned",
-    "forklaring": "ALT+PGUP",
+    "forklaring": "ALT+Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -3847,7 +3847,7 @@
   {
     "id": "klassisk-outlook-gaa-til-starten-av-uken",
     "tittel": "Gå til starten av uken",
-    "forklaring": "ALT+HOME",
+    "forklaring": "ALT+Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -3855,7 +3855,7 @@
   {
     "id": "klassisk-outlook-gaa-til-slutten-av-uken",
     "tittel": "Gå til slutten av uken",
-    "forklaring": "ALT+END",
+    "forklaring": "ALT+Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4127,7 +4127,7 @@
   {
     "id": "klassisk-outlook-velge-tidspunktet-arbeidsdagen-begynner",
     "tittel": "Velge tidspunktet arbeidsdagen begynner",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4135,7 +4135,7 @@
   {
     "id": "klassisk-outlook-velge-tidspunktet-arbeidsdagen-slutter",
     "tittel": "Velge tidspunktet arbeidsdagen slutter",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4159,7 +4159,7 @@
   {
     "id": "klassisk-outlook-velge-tidsomraadet-oeverst-paa-skjermen",
     "tittel": "Velge tidsområdet øverst på skjermen",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -4167,7 +4167,7 @@
   {
     "id": "klassisk-outlook-velger-tidsomraadet-nederst-paa-skjermen",
     "tittel": "Velger tidsområdet nederst på skjermen",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -4183,7 +4183,7 @@
   {
     "id": "klassisk-outlook-gaa-til-begynnelsen-av-arbeidsdagen-for-den",
     "tittel": "Gå til begynnelsen av arbeidsdagen for den valgte dagen",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4191,7 +4191,7 @@
   {
     "id": "klassisk-outlook-gaa-til-slutten-av-arbeidsdagen-for-den-val",
     "tittel": "Gå til slutten av arbeidsdagen for den valgte dagen",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4199,7 +4199,7 @@
   {
     "id": "klassisk-outlook-gaa-opp-n-sidevisning-paa-den-valgte-dagen",
     "tittel": "Gå opp én sidevisning på den valgte dagen",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -4207,7 +4207,7 @@
   {
     "id": "klassisk-outlook-gaa-ned-n-sidevisning-paa-den-valgte-dagen",
     "tittel": "Gå ned én sidevisning på den valgte dagen",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -4215,7 +4215,7 @@
   {
     "id": "klassisk-outlook-endre-varigheten-til-det-valgte-tidsomraade",
     "tittel": "Endre varigheten til det valgte tidsområdet",
-    "forklaring": "SKIFT+PIL VENSTRE, SKIFT+PIL HØYRE, SKIFT+PIL OPP, SKIFT+PIL NED, SKIFT+HOME eller SKIFT+END",
+    "forklaring": "SKIFT+PIL VENSTRE, SKIFT+PIL HØYRE, SKIFT+PIL OPP, SKIFT+PIL NED, SKIFT+Fn+Pil venstre eller SKIFT+Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4223,7 +4223,7 @@
   {
     "id": "klassisk-outlook-gaa-til-den-foerste-dagen-i-uken",
     "tittel": "Gå til den første dagen i uken",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4231,7 +4231,7 @@
   {
     "id": "klassisk-outlook-gaa-til-samme-dag-i-uken-paa-forrige-side",
     "tittel": "Gå til samme dag i uken på forrige side",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -4239,7 +4239,7 @@
   {
     "id": "klassisk-outlook-gaa-til-samme-dag-i-uken-paa-neste-side",
     "tittel": "Gå til samme dag i uken på neste side",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -4247,7 +4247,7 @@
   {
     "id": "klassisk-outlook-gaa-til-den-foerste-dagen-i-den-gjeldende-u",
     "tittel": "Gå til den første dagen i den gjeldende uken",
-    "forklaring": "ALT+HOME",
+    "forklaring": "ALT+Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4255,7 +4255,7 @@
   {
     "id": "klassisk-outlook-gaa-til-den-siste-dagen-i-den-gjeldende-uke",
     "tittel": "Gå til den siste dagen i den gjeldende uken",
-    "forklaring": "ALT+END",
+    "forklaring": "ALT+Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4431,7 +4431,7 @@
   {
     "id": "klassisk-outlook-velge-det-foerste-kortet-i-listen",
     "tittel": "Velge det første kortet i listen",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4439,7 +4439,7 @@
   {
     "id": "klassisk-outlook-velge-det-siste-kortet-i-listen",
     "tittel": "Velge det siste kortet i listen",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4447,7 +4447,7 @@
   {
     "id": "klassisk-outlook-velge-det-foerste-kortet-paa-den-gjeldende-",
     "tittel": "Velge det første kortet på den gjeldende siden",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -4455,7 +4455,7 @@
   {
     "id": "klassisk-outlook-velge-det-foerste-kortet-paa-den-neste-side",
     "tittel": "Velge det første kortet på den neste siden",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -4519,7 +4519,7 @@
   {
     "id": "klassisk-outlook-utvide-det-merkede-omraadet-til-det-foerste",
     "tittel": "Utvide det merkede området til det første kortet i listen",
-    "forklaring": "Skift+Home",
+    "forklaring": "Skift+Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4527,7 +4527,7 @@
   {
     "id": "klassisk-outlook-utvide-det-merkede-omraadet-til-det-siste-k",
     "tittel": "Utvide det merkede området til det siste kortet i listen",
-    "forklaring": "SKIFT+END",
+    "forklaring": "SKIFT+Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4535,7 +4535,7 @@
   {
     "id": "klassisk-outlook-utvide-det-merkede-omraadet-til-det-foerste-2",
     "tittel": "Utvide det merkede området til det første kortet på den forrige siden",
-    "forklaring": "SKIFT+PGUP",
+    "forklaring": "SKIFT+Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -4543,7 +4543,7 @@
   {
     "id": "klassisk-outlook-utvide-det-merkede-omraadet-til-det-siste-k-2",
     "tittel": "Utvide det merkede området til det siste kortet på den siste siden",
-    "forklaring": "SKIFT+PGDN",
+    "forklaring": "SKIFT+Fn+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -4655,7 +4655,7 @@
   {
     "id": "klassisk-outlook-flytte-til-begynnelsen-av-en-linje",
     "tittel": "Flytte til begynnelsen av en linje",
-    "forklaring": "HOME",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4663,7 +4663,7 @@
   {
     "id": "klassisk-outlook-flytte-til-slutten-av-en-linje",
     "tittel": "Flytte til slutten av en linje",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4671,7 +4671,7 @@
   {
     "id": "klassisk-outlook-flytte-til-begynnelsen-av-et-flerlinjet-fel",
     "tittel": "Flytte til begynnelsen av et flerlinjet felt",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "outlook"
     ]
@@ -4679,7 +4679,7 @@
   {
     "id": "klassisk-outlook-flytte-til-slutten-av-et-flerlinjet-felt",
     "tittel": "Flytte til slutten av et flerlinjet felt",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -4871,7 +4871,7 @@
   {
     "id": "klassisk-outlook-velge-det-foerste-elementet-paa-tidslinjen-",
     "tittel": "Velge det første elementet på tidslinjen (hvis elementene ikke er gruppert) eller det første elementet i gruppen",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4879,7 +4879,7 @@
   {
     "id": "klassisk-outlook-velge-det-siste-elementet-paa-tidslinjen-hv",
     "tittel": "Velge det siste elementet på tidslinjen (hvis elementene ikke er grupperte) eller det siste elementet i gruppen",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4887,7 +4887,7 @@
   {
     "id": "klassisk-outlook-vise-uten-aa-velge-det-foerste-elementet-pa",
     "tittel": "Vise (uten å velge) det første elementet på tidslinjen (hvis elementene ikke er grupperte) eller det første elementet i gruppen",
-    "forklaring": "CTRL+HOME",
+    "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4895,7 +4895,7 @@
   {
     "id": "klassisk-outlook-vise-uten-aa-velge-det-siste-elementet-paa-",
     "tittel": "Vise (uten å velge) det siste elementet på tidslinjen (hvis elementene ikke er grupperte) eller det første elementet i gruppen",
-    "forklaring": "CTRL+END",
+    "forklaring": "CTRL+Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -4935,7 +4935,7 @@
   {
     "id": "klassisk-outlook-velge-den-foerste-gruppen-paa-tidslinjen",
     "tittel": "Velge den første gruppen på tidslinjen",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -4943,7 +4943,7 @@
   {
     "id": "klassisk-outlook-velge-den-siste-gruppen-paa-tidslinjen",
     "tittel": "Velge den siste gruppen på tidslinjen",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -5015,7 +5015,7 @@
   {
     "id": "klassisk-outlook-velge-den-foerste-gruppen",
     "tittel": "Velge den første gruppen",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "outlook"
     ]
@@ -5023,7 +5023,7 @@
   {
     "id": "klassisk-outlook-velge-den-siste-gruppen",
     "tittel": "Velge den siste gruppen",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "outlook"
     ]
@@ -5216,14 +5216,6 @@
     "id": "word-gaa-tilbake-til-100-zoom",
     "tittel": "Gå tilbake til 100 % zoom",
     "forklaring": "Ctrl+0",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-zoome-inn-og-ut-med-musen",
-    "tittel": "Zoome inn og ut med musen",
-    "forklaring": "Ctrl+Rulle",
     "tags": [
       "word"
     ]
@@ -5487,7 +5479,7 @@
   {
     "id": "word-flytte-markoeren-til-slutten-av-gjeldende-linje",
     "tittel": "Flytte markøren til slutten av gjeldende linje",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "word"
     ]
@@ -5495,7 +5487,7 @@
   {
     "id": "word-flytt-markoeren-til-begynnelsen-av-gjeldende-linje",
     "tittel": "Flytt markøren til begynnelsen av gjeldende linje",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "word"
     ]
@@ -5503,7 +5495,7 @@
   {
     "id": "word-flytt-markoeren-til-toppen-av-skjermen",
     "tittel": "Flytt markøren til toppen av skjermen",
-    "forklaring": "CTRL+ALT+PAGE UP",
+    "forklaring": "CTRL+ALT+Fn+Pil opp",
     "tags": [
       "word"
     ]
@@ -5511,7 +5503,7 @@
   {
     "id": "word-flytt-markoeren-til-bunnen-av-skjermen",
     "tittel": "Flytt markøren til bunnen av skjermen",
-    "forklaring": "CTRL+ALT+PAGE DOWN",
+    "forklaring": "CTRL+ALT+Fn+Pil ned",
     "tags": [
       "word"
     ]
@@ -5519,7 +5511,7 @@
   {
     "id": "word-flytt-markoeren-ved-aa-rulle-dokumentvisningen-opp-med-",
     "tittel": "Flytt markøren ved å rulle dokumentvisningen opp med én skjerm",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "word"
     ]
@@ -5527,7 +5519,7 @@
   {
     "id": "word-flytt-markoeren-ved-aa-rulle-dokumentvisningen-ned-med-",
     "tittel": "Flytt markøren ved å rulle dokumentvisningen ned med én skjerm",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "word"
     ]
@@ -5535,7 +5527,7 @@
   {
     "id": "word-flytt-markoeren-til-toppen-av-neste-side",
     "tittel": "Flytt markøren til toppen av neste side",
-    "forklaring": "CTRL+PGDN",
+    "forklaring": "CTRL+Fn+Pil ned",
     "tags": [
       "word"
     ]
@@ -5543,7 +5535,7 @@
   {
     "id": "word-flytt-markoeren-til-toppen-av-forrige-side",
     "tittel": "Flytt markøren til toppen av forrige side",
-    "forklaring": "CTRL+PGUP",
+    "forklaring": "CTRL+Fn+Pil opp",
     "tags": [
       "word"
     ]
@@ -5551,7 +5543,7 @@
   {
     "id": "word-flytt-markoeren-til-slutten-av-dokumentet",
     "tittel": "Flytt markøren til slutten av dokumentet",
-    "forklaring": "CTRL+END",
+    "forklaring": "CTRL+Fn+Pil høyre",
     "tags": [
       "word"
     ]
@@ -5559,7 +5551,7 @@
   {
     "id": "word-flytt-markoeren-til-begynnelsen-av-dokumentet",
     "tittel": "Flytt markøren til begynnelsen av dokumentet",
-    "forklaring": "CTRL+HOME",
+    "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "word"
     ]
@@ -5647,7 +5639,7 @@
   {
     "id": "word-flytte-n-forhaandsvisningsside-om-gangen-naar-det-er-zo",
     "tittel": "Flytte én forhåndsvisningsside om gangen når det er zoomet ut",
-    "forklaring": "PGUP eller PGDN",
+    "forklaring": "Fn+Pil opp eller Fn+Pil ned",
     "tags": [
       "word"
     ]
@@ -5655,7 +5647,7 @@
   {
     "id": "word-flytte-til-foerste-forhaandsvisningsside-naar-det-er-zo",
     "tittel": "Flytte til første forhåndsvisningsside når det er zoomet ut",
-    "forklaring": "CTRL+HOME",
+    "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "word"
     ]
@@ -5663,7 +5655,7 @@
   {
     "id": "word-flytte-til-siste-forhaandsvisningsside-naar-det-er-zoom",
     "tittel": "Flytte til siste forhåndsvisningsside når det er zoomet ut",
-    "forklaring": "CTRL+END",
+    "forklaring": "CTRL+Fn+Pil høyre",
     "tags": [
       "word"
     ]
@@ -5695,7 +5687,7 @@
   {
     "id": "word-merke-fra-gjeldende-posisjon-til-begynnelsen-av-gjelden",
     "tittel": "Merke fra gjeldende posisjon til begynnelsen av gjeldende linje",
-    "forklaring": "Skift+Home",
+    "forklaring": "Skift+Fn+Pil venstre",
     "tags": [
       "word"
     ]
@@ -5703,7 +5695,7 @@
   {
     "id": "word-merke-fra-gjeldende-posisjon-til-slutten-av-gjeldende-l",
     "tittel": "Merke fra gjeldende posisjon til slutten av gjeldende linje",
-    "forklaring": "SKIFT+END",
+    "forklaring": "SKIFT+Fn+Pil høyre",
     "tags": [
       "word"
     ]
@@ -5727,7 +5719,7 @@
   {
     "id": "word-merke-fra-gjeldende-posisjon-til-toppen-av-skjermen",
     "tittel": "Merke fra gjeldende posisjon til toppen av skjermen",
-    "forklaring": "SKIFT+PGUP",
+    "forklaring": "SKIFT+Fn+Pil opp",
     "tags": [
       "word"
     ]
@@ -5735,7 +5727,7 @@
   {
     "id": "word-merke-fra-gjeldende-posisjon-til-bunnen-av-skjermen",
     "tittel": "Merke fra gjeldende posisjon til bunnen av skjermen",
-    "forklaring": "SKIFT+PGDN",
+    "forklaring": "SKIFT+Fn+Pil ned",
     "tags": [
       "word"
     ]
@@ -5743,7 +5735,7 @@
   {
     "id": "word-merke-fra-gjeldende-posisjon-til-begynnelsen-av-dokumen",
     "tittel": "Merke fra gjeldende posisjon til begynnelsen av dokumentet",
-    "forklaring": "CTRL+SKIFT+HOME",
+    "forklaring": "CTRL+SKIFT+Fn+Pil venstre",
     "tags": [
       "word"
     ]
@@ -5751,7 +5743,7 @@
   {
     "id": "word-merke-fra-gjeldende-posisjon-til-slutten-av-dokumentet",
     "tittel": "Merke fra gjeldende posisjon til slutten av dokumentet",
-    "forklaring": "CTRL+SKIFT+END",
+    "forklaring": "CTRL+SKIFT+Fn+Pil høyre",
     "tags": [
       "word"
     ]
@@ -5759,7 +5751,7 @@
   {
     "id": "word-merke-fra-gjeldende-posisjon-til-bunnen-av-vinduet",
     "tittel": "Merke fra gjeldende posisjon til bunnen av vinduet",
-    "forklaring": "CTRL+ALT+SKIFT+PGDN",
+    "forklaring": "CTRL+ALT+SKIFT+Fn+Pil ned",
     "tags": [
       "word"
     ]
@@ -6263,7 +6255,7 @@
   {
     "id": "word-sett-inn-en-lang-tankestrek",
     "tittel": "Sett inn en lang tankestrek (—)",
-    "forklaring": "CTRL+ALT",
+    "forklaring": "2014, Alt+X",
     "tags": [
       "word"
     ]
@@ -6271,7 +6263,7 @@
   {
     "id": "word-sett-inn-en-tankestrek",
     "tittel": "Sett inn en tankestrek (–)",
-    "forklaring": "Ctrl",
+    "forklaring": "2013, Alt+X",
     "tags": [
       "word"
     ]
@@ -6279,7 +6271,7 @@
   {
     "id": "word-sett-inn-en-valgfri-myk-bindestrek",
     "tittel": "Sett inn en valgfri myk bindestrek",
-    "forklaring": "CTRL+ALT+MINUSTEGN (–)",
+    "forklaring": "Ctrl+Alt+Minustegn (-)",
     "tags": [
       "word"
     ]
@@ -6287,7 +6279,7 @@
   {
     "id": "word-sett-inn-en-hard-bindestrek",
     "tittel": "Sett inn en hard bindestrek",
-    "forklaring": "Skift+Alt",
+    "forklaring": "Skift+Alt+Minustegn (-)",
     "tags": [
       "word"
     ]
@@ -6399,7 +6391,7 @@
   {
     "id": "word-flytte-til-foerste-celle-i-raden",
     "tittel": "Flytte til første celle i raden",
-    "forklaring": "ALT+HOME",
+    "forklaring": "ALT+Fn+Pil venstre",
     "tags": [
       "word"
     ]
@@ -6407,7 +6399,7 @@
   {
     "id": "word-flytte-til-siste-celle-i-raden",
     "tittel": "Flytte til siste celle i raden",
-    "forklaring": "ALT+END",
+    "forklaring": "ALT+Fn+Pil høyre",
     "tags": [
       "word"
     ]
@@ -6415,7 +6407,7 @@
   {
     "id": "word-flytte-til-foerste-celle-i-kolonnen",
     "tittel": "Flytte til første celle i kolonnen",
-    "forklaring": "ALT+PGUP",
+    "forklaring": "ALT+Fn+Pil opp",
     "tags": [
       "word"
     ]
@@ -6423,7 +6415,7 @@
   {
     "id": "word-flytte-til-siste-celle-i-kolonnen",
     "tittel": "Flytte til siste celle i kolonnen",
-    "forklaring": "ALT+PGDN",
+    "forklaring": "ALT+Fn+Pil ned",
     "tags": [
       "word"
     ]
@@ -7073,7 +7065,7 @@
   {
     "id": "word-gaa-til-begynnelsen-av-dokumentet",
     "tittel": "Gå til begynnelsen av dokumentet",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "word"
     ]
@@ -7081,7 +7073,7 @@
   {
     "id": "word-flytte-til-slutten-av-dokumentet",
     "tittel": "Flytte til slutten av dokumentet",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "word"
     ]
@@ -7114,14 +7106,6 @@
     "id": "word-zoom-ut-2",
     "tittel": "Zoom ut",
     "forklaring": "Ctrl+Minustegn (-)",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-zoome-inn-og-ut",
-    "tittel": "Zoome inn og ut",
-    "forklaring": "Ctrl+Rulle",
     "tags": [
       "word"
     ]
@@ -7977,7 +7961,7 @@
   {
     "id": "excel-angi-sluttmodus-flytte-til-neste-ikke-tomme-celle-i-sa",
     "tittel": "Angi sluttmodus, flytte til neste ikke-tomme celle i samme kolonne eller rad som den aktive cellen, og slå av sluttmodus",
-    "forklaring": "End, piltast",
+    "forklaring": "Fn+Pil høyre, piltast",
     "tags": [
       "excel"
     ]
@@ -7985,7 +7969,7 @@
   {
     "id": "excel-flytte-til-siste-celle-i-et-regneark-til-den-nederste-",
     "tittel": "Flytte til siste celle i et regneark, til den nederste brukte raden i den brukte kolonnen lengst til høyre",
-    "forklaring": "CTRL+END",
+    "forklaring": "CTRL+Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -7993,7 +7977,7 @@
   {
     "id": "excel-utvide-utvalget-av-celler-til-den-siste-cellen-som-er-",
     "tittel": "Utvide utvalget av celler til den siste cellen som er brukt i regnearket (nederst i høyre hjørne)",
-    "forklaring": "CTRL+SKIFT+END",
+    "forklaring": "CTRL+SKIFT+Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -8001,7 +7985,7 @@
   {
     "id": "excel-flytte-til-celle-oeverst-til-venstre-i-vinduet-naar-sc",
     "tittel": "Flytte til celle øverst til venstre i vinduet når SCROLL LOCK er aktivert",
-    "forklaring": "HOME",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -8009,7 +7993,7 @@
   {
     "id": "excel-gaa-til-begynnelsen-av-et-regneark",
     "tittel": "Gå til begynnelsen av et regneark",
-    "forklaring": "CTRL+HOME",
+    "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -8017,7 +8001,7 @@
   {
     "id": "excel-gaa-ett-skjermbilde-ned-i-et-regneark",
     "tittel": "Gå ett skjermbilde ned i et regneark",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "excel"
     ]
@@ -8025,7 +8009,7 @@
   {
     "id": "excel-gaa-til-neste-ark-i-en-arbeidsbok",
     "tittel": "Gå til neste ark i en arbeidsbok",
-    "forklaring": "CTRL+PGDN",
+    "forklaring": "CTRL+Fn+Pil ned",
     "tags": [
       "excel"
     ]
@@ -8033,7 +8017,7 @@
   {
     "id": "excel-gaa-ett-skjermbilde-til-hoeyre-i-et-regneark",
     "tittel": "Gå ett skjermbilde til høyre i et regneark",
-    "forklaring": "ALT+PGDN",
+    "forklaring": "ALT+Fn+Pil ned",
     "tags": [
       "excel"
     ]
@@ -8041,7 +8025,7 @@
   {
     "id": "excel-gaa-ett-skjermbilde-opp-i-et-regneark",
     "tittel": "Gå ett skjermbilde opp i et regneark",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "excel"
     ]
@@ -8049,7 +8033,7 @@
   {
     "id": "excel-gaa-ett-skjermbilde-til-venstre-i-et-regneark",
     "tittel": "Gå ett skjermbilde til venstre i et regneark",
-    "forklaring": "ALT+PGUP",
+    "forklaring": "ALT+Fn+Pil opp",
     "tags": [
       "excel"
     ]
@@ -8057,7 +8041,7 @@
   {
     "id": "excel-gaa-til-forrige-ark-i-en-arbeidsbok",
     "tittel": "Gå til forrige ark i en arbeidsbok",
-    "forklaring": "CTRL+PGUP",
+    "forklaring": "CTRL+Fn+Pil opp",
     "tags": [
       "excel"
     ]
@@ -8497,7 +8481,7 @@
   {
     "id": "excel-merke-gjeldende-og-neste-ark-i-en-arbeidsbok",
     "tittel": "Merke gjeldende og neste ark i en arbeidsbok",
-    "forklaring": "CTRL+SKIFT+PAGE DOWN",
+    "forklaring": "CTRL+SKIFT+Fn+Pil ned",
     "tags": [
       "excel"
     ]
@@ -8505,7 +8489,7 @@
   {
     "id": "excel-merke-gjeldende-og-forrige-ark-i-en-arbeidsbok",
     "tittel": "Merke gjeldende og forrige ark i en arbeidsbok",
-    "forklaring": "CTRL+SKIFT+PAGE UP",
+    "forklaring": "CTRL+SKIFT+Fn+Pil opp",
     "tags": [
       "excel"
     ]
@@ -8593,7 +8577,7 @@
   {
     "id": "excel-utvide-det-merkede-celleomraadet-til-begynnelsen-av-re",
     "tittel": "Utvide det merkede celleområdet til begynnelsen av regnearket",
-    "forklaring": "CTRL+SKIFT+HOME",
+    "forklaring": "CTRL+SKIFT+Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -8617,7 +8601,7 @@
   {
     "id": "excel-merke-den-foerste-kommandoen-paa-menyen-naar-en-meny-e",
     "tittel": "Merke den første kommandoen på menyen når en meny eller undermeny er åpen",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -8689,7 +8673,7 @@
   {
     "id": "excel-flytte-markoeren-til-slutten-av-teksten-i-formellinjen",
     "tittel": "Flytte markøren til slutten av teksten i formellinjen",
-    "forklaring": "Ctrl+End",
+    "forklaring": "Ctrl+Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -8697,7 +8681,7 @@
   {
     "id": "excel-merke-all-tekst-paa-formellinjen-fra-markoerposisjonen",
     "tittel": "Merke all tekst på formellinjen fra markørposisjonen til slutten",
-    "forklaring": "CTRL+SKIFT+END",
+    "forklaring": "CTRL+SKIFT+Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -8969,7 +8953,7 @@
   {
     "id": "excel-merk-alle-celler-fra-gjeldende-plassering-til-siste-ce",
     "tittel": "Merk alle celler fra gjeldende plassering til siste celle i kolonnen",
-    "forklaring": "SKIFT+PGDN",
+    "forklaring": "SKIFT+Fn+Pil ned",
     "tags": [
       "excel"
     ]
@@ -8977,7 +8961,7 @@
   {
     "id": "excel-merk-alle-celler-fra-gjeldende-plassering-til-foerste-",
     "tittel": "Merk alle celler fra gjeldende plassering til første celle i kolonnen",
-    "forklaring": "SKIFT+PGUP",
+    "forklaring": "SKIFT+Fn+Pil opp",
     "tags": [
       "excel"
     ]
@@ -8985,7 +8969,7 @@
   {
     "id": "excel-merk-alle-celler-fra-gjeldende-plassering-til-siste-ce-2",
     "tittel": "Merk alle celler fra gjeldende plassering til siste celle i raden",
-    "forklaring": "SKIFT+END",
+    "forklaring": "SKIFT+Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -8993,7 +8977,7 @@
   {
     "id": "excel-merk-alle-celler-fra-gjeldende-plassering-til-foerste--2",
     "tittel": "Merk alle celler fra gjeldende plassering til første celle i raden",
-    "forklaring": "Skift+Home",
+    "forklaring": "Skift+Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -9001,7 +8985,7 @@
   {
     "id": "excel-flytt-til-forrige-tabell",
     "tittel": "Flytt til forrige tabell",
-    "forklaring": "CTRL+PGUP",
+    "forklaring": "CTRL+Fn+Pil opp",
     "tags": [
       "excel"
     ]
@@ -9009,7 +8993,7 @@
   {
     "id": "excel-flytt-til-neste-tabell",
     "tittel": "Flytt til neste tabell",
-    "forklaring": "CTRL+PGDN",
+    "forklaring": "CTRL+Fn+Pil ned",
     "tags": [
       "excel"
     ]
@@ -9017,7 +9001,7 @@
   {
     "id": "excel-flytte-til-foerste-celle-oeverst-til-venstre-av-den-me",
     "tittel": "Flytte til første celle øverst til venstre av den merkede tabellen",
-    "forklaring": "CTRL+HOME",
+    "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -9025,7 +9009,7 @@
   {
     "id": "excel-flytt-til-siste-celle-nederst-til-hoeyre-i-den-merkede",
     "tittel": "Flytt til siste celle nederst til høyre i den merkede tabellen",
-    "forklaring": "CTRL+END",
+    "forklaring": "CTRL+Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -9513,7 +9497,7 @@
   {
     "id": "excel-end-slaar-sluttmodus-paa-eller-av",
     "tittel": "END slår sluttmodus på eller av",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -9521,7 +9505,7 @@
   {
     "id": "excel-flytter-til-siste-celle-i-et-regneark-til-den-nederste",
     "tittel": "Flytter til siste celle i et regneark, til den nederste brukte raden i den brukte kolonnen lengst til høyre",
-    "forklaring": "CTRL+END",
+    "forklaring": "CTRL+Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -9529,7 +9513,7 @@
   {
     "id": "excel-utvider-det-merkede-celleomraadet-til-den-sist-brukte-",
     "tittel": "Utvider det merkede celleområdet til den sist brukte cellen i regnearket (nedre høyre hjørne)",
-    "forklaring": "CTRL+SKIFT+END",
+    "forklaring": "CTRL+SKIFT+Fn+Pil høyre",
     "tags": [
       "excel"
     ]
@@ -9577,7 +9561,7 @@
   {
     "id": "excel-gaar-til-begynnelsen-av-en-rad-i-et-regneark",
     "tittel": "Går til begynnelsen av en rad i et regneark",
-    "forklaring": "HOME",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -9585,7 +9569,7 @@
   {
     "id": "excel-gaar-til-begynnelsen-av-et-regneark",
     "tittel": "Går til begynnelsen av et regneark",
-    "forklaring": "Ctrl+Home",
+    "forklaring": "Ctrl+Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -9593,7 +9577,7 @@
   {
     "id": "excel-utvider-det-merkede-celleomraadet-til-begynnelsen-av-r",
     "tittel": "Utvider det merkede celleområdet til begynnelsen av regnearket",
-    "forklaring": "Ctrl+Skift+Home",
+    "forklaring": "Ctrl+Skift+Fn+Pil venstre",
     "tags": [
       "excel"
     ]
@@ -9601,7 +9585,7 @@
   {
     "id": "excel-gaar-ett-skjermbilde-ned-i-et-regneark",
     "tittel": "Går ett skjermbilde ned i et regneark",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "excel"
     ]
@@ -9633,7 +9617,7 @@
   {
     "id": "excel-gaar-ett-skjermbilde-opp-i-et-regneark",
     "tittel": "Går ett skjermbilde opp i et regneark",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "excel"
     ]
@@ -9833,7 +9817,7 @@
   {
     "id": "powerpoint-gaa-til-neste-lysbilde",
     "tittel": "Gå til neste lysbilde",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "powerpoint"
     ]
@@ -9841,7 +9825,7 @@
   {
     "id": "powerpoint-gaa-til-forrige-lysbilde",
     "tittel": "Gå til forrige lysbilde",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "powerpoint"
     ]
@@ -10313,7 +10297,7 @@
   {
     "id": "powerpoint-flytte-til-slutten-av-en-linje",
     "tittel": "Flytte til slutten av en linje",
-    "forklaring": "End",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "powerpoint"
     ]
@@ -10321,7 +10305,7 @@
   {
     "id": "powerpoint-flytte-til-begynnelsen-av-en-linje",
     "tittel": "Flytte til begynnelsen av en linje",
-    "forklaring": "Home",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "powerpoint"
     ]
@@ -10345,7 +10329,7 @@
   {
     "id": "powerpoint-flytte-til-slutten-av-en-tekstboks",
     "tittel": "Flytte til slutten av en tekstboks",
-    "forklaring": "Ctrl+End",
+    "forklaring": "Ctrl+Fn+Pil høyre",
     "tags": [
       "powerpoint"
     ]
@@ -10353,7 +10337,7 @@
   {
     "id": "powerpoint-flytte-til-begynnelsen-av-en-tekstboks",
     "tittel": "Flytte til begynnelsen av en tekstboks",
-    "forklaring": "CTRL+HOME",
+    "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "powerpoint"
     ]
@@ -11273,7 +11257,7 @@
   {
     "id": "powerpoint-utfoere-neste-animasjon-eller-gaa-til-neste-lysbi",
     "tittel": "Utføre neste animasjon eller gå til neste lysbilde",
-    "forklaring": "N ENTER PGDN Pil høyre Pil ned MELLOMROM",
+    "forklaring": "N ENTER Fn+Pil ned Pil høyre Pil ned MELLOMROM",
     "tags": [
       "powerpoint"
     ]
@@ -11281,7 +11265,7 @@
   {
     "id": "powerpoint-utfoere-forrige-animasjon-eller-gaa-tilbake-til-f",
     "tittel": "Utføre forrige animasjon eller gå tilbake til forrige lysbilde",
-    "forklaring": "P PGUP Pil venstre Pil opp TILBAKE",
+    "forklaring": "P Fn+Pil opp Pil venstre Pil opp TILBAKE",
     "tags": [
       "powerpoint"
     ]
@@ -11345,7 +11329,7 @@
   {
     "id": "powerpoint-gaa-tilbake-til-foerste-lysbilde",
     "tittel": "Gå tilbake til første lysbilde",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "powerpoint"
     ]
@@ -11353,7 +11337,7 @@
   {
     "id": "powerpoint-gaa-til-siste-lysbilde",
     "tittel": "Gå til siste lysbilde",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "powerpoint"
     ]
@@ -11425,7 +11409,7 @@
   {
     "id": "powerpoint-gaa-til-neste-bokmerke",
     "tittel": "Gå til neste bokmerke",
-    "forklaring": "ALT+END",
+    "forklaring": "ALT+Fn+Pil høyre",
     "tags": [
       "powerpoint"
     ]
@@ -11433,7 +11417,7 @@
   {
     "id": "powerpoint-gaa-til-forrige-bokmerke",
     "tittel": "Gå til forrige bokmerke",
-    "forklaring": "ALT+HOME",
+    "forklaring": "ALT+Fn+Pil venstre",
     "tags": [
       "powerpoint"
     ]
@@ -11465,7 +11449,7 @@
   {
     "id": "powerpoint-flytte-tre-sekunder-fremover",
     "tittel": "Flytte tre sekunder fremover",
-    "forklaring": "ALT+SKIFT+PGDN",
+    "forklaring": "ALT+SKIFT+Fn+Pil ned",
     "tags": [
       "powerpoint"
     ]
@@ -11473,7 +11457,7 @@
   {
     "id": "powerpoint-flytt-tre-sekunder-bakover",
     "tittel": "Flytt tre sekunder bakover",
-    "forklaring": "ALT+SKIFT+PGUP",
+    "forklaring": "ALT+SKIFT+Fn+Pil opp",
     "tags": [
       "powerpoint"
     ]
@@ -11625,7 +11609,7 @@
   {
     "id": "powerpoint-rull-ned-ett-skjermbilde-i-notatruten",
     "tittel": "Rull ned ett skjermbilde i notatruten",
-    "forklaring": "CTRL+PGDN",
+    "forklaring": "CTRL+Fn+Pil ned",
     "tags": [
       "powerpoint"
     ]
@@ -11633,7 +11617,7 @@
   {
     "id": "powerpoint-rulle-opp-ett-skjermbilde-i-notatruten",
     "tittel": "Rulle opp ett skjermbilde i notatruten",
-    "forklaring": "CTRL+PGUP",
+    "forklaring": "CTRL+Fn+Pil opp",
     "tags": [
       "powerpoint"
     ]
@@ -11761,7 +11745,7 @@
   {
     "id": "onenote-gaa-til-begynnelsen-av-linjen",
     "tittel": "Gå til begynnelsen av linjen",
-    "forklaring": "Home",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "onenote"
     ]
@@ -11769,7 +11753,7 @@
   {
     "id": "onenote-gaa-til-slutten-av-linjen",
     "tittel": "Gå til slutten av linjen",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "onenote"
     ]
@@ -12273,7 +12257,7 @@
   {
     "id": "onenote-velg-til-slutten-av-linjen-fra-gjeldende-markoerplas",
     "tittel": "Velg til slutten av linjen fra gjeldende markørplassering",
-    "forklaring": "SKIFT+END",
+    "forklaring": "SKIFT+Fn+Pil høyre",
     "tags": [
       "onenote"
     ]
@@ -12729,7 +12713,7 @@
   {
     "id": "onenote-gaa-til-den-foerste-siden-i-det-synlige-settet-med-s",
     "tittel": "Gå til den første siden i det synlige settet med sider i sidenavigasjonsruten",
-    "forklaring": "ALT+PGUP",
+    "forklaring": "ALT+Fn+Pil opp",
     "tags": [
       "onenote"
     ]
@@ -12737,7 +12721,7 @@
   {
     "id": "onenote-gaa-til-den-siste-siden-i-det-synlige-settet-med-sid",
     "tittel": "Gå til den siste siden i det synlige settet med sider i sidenavigasjonsruten",
-    "forklaring": "ALT+PGDN",
+    "forklaring": "ALT+Fn+Pil ned",
     "tags": [
       "onenote"
     ]
@@ -12745,7 +12729,7 @@
   {
     "id": "onenote-rulle-oppover-paa-gjeldende-side",
     "tittel": "Rulle oppover på gjeldende side",
-    "forklaring": "PGUP",
+    "forklaring": "Fn+Pil opp",
     "tags": [
       "onenote"
     ]
@@ -12753,7 +12737,7 @@
   {
     "id": "onenote-rulle-nedover-paa-gjeldende-side",
     "tittel": "Rulle nedover på gjeldende side",
-    "forklaring": "PGDN",
+    "forklaring": "Fn+Pil ned",
     "tags": [
       "onenote"
     ]
@@ -12761,7 +12745,7 @@
   {
     "id": "onenote-rull-til-oeverst-paa-gjeldende-side",
     "tittel": "Rull til øverst på gjeldende side",
-    "forklaring": "CTRL+HOME",
+    "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "onenote"
     ]
@@ -12769,7 +12753,7 @@
   {
     "id": "onenote-rull-til-nederst-paa-gjeldende-side",
     "tittel": "Rull til nederst på gjeldende side",
-    "forklaring": "CTRL+END",
+    "forklaring": "CTRL+Fn+Pil høyre",
     "tags": [
       "onenote"
     ]
@@ -12833,7 +12817,7 @@
   {
     "id": "onenote-gaa-til-begynnelsen-av-linjen-2",
     "tittel": "Gå til begynnelsen av linjen",
-    "forklaring": "HOME",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "onenote"
     ]
@@ -12929,7 +12913,7 @@
   {
     "id": "onenote-gaa-til-neste-side-i-inndelingen",
     "tittel": "Gå til neste side i inndelingen",
-    "forklaring": "CTRL+PGDN",
+    "forklaring": "CTRL+Fn+Pil ned",
     "tags": [
       "onenote"
     ]
@@ -12937,7 +12921,7 @@
   {
     "id": "onenote-gaa-til-forrige-side-i-inndelingen",
     "tittel": "Gå til forrige side i inndelingen",
-    "forklaring": "CTRL+PGUP",
+    "forklaring": "CTRL+Fn+Pil opp",
     "tags": [
       "onenote"
     ]
@@ -12945,7 +12929,7 @@
   {
     "id": "onenote-gaa-til-den-foerste-siden-i-inndelingen",
     "tittel": "Gå til den første siden i inndelingen",
-    "forklaring": "ALT+HOME",
+    "forklaring": "ALT+Fn+Pil venstre",
     "tags": [
       "onenote"
     ]
@@ -12953,7 +12937,7 @@
   {
     "id": "onenote-gaa-til-den-siste-siden-i-inndelingen",
     "tittel": "Gå til den siste siden i inndelingen",
-    "forklaring": "ALT+END",
+    "forklaring": "ALT+Fn+Pil høyre",
     "tags": [
       "onenote"
     ]
@@ -12961,7 +12945,7 @@
   {
     "id": "onenote-gaa-til-den-foerste-siden-i-settet-med-sidefaner-som",
     "tittel": "Gå til den første siden i settet med sidefaner som er synlig for øyeblikket",
-    "forklaring": "ALT+PGUP",
+    "forklaring": "ALT+Fn+Pil opp",
     "tags": [
       "onenote"
     ]
@@ -12969,7 +12953,7 @@
   {
     "id": "onenote-gaa-til-den-siste-siden-i-settet-med-sidefaner-som-e",
     "tittel": "Gå til den siste siden i settet med sidefaner som er synlig for øyeblikket",
-    "forklaring": "ALT+PGDN",
+    "forklaring": "ALT+Fn+Pil ned",
     "tags": [
       "onenote"
     ]
@@ -14057,7 +14041,7 @@
   {
     "id": "microsoft-365-flytt-markoeren-til-slutten-av-en-linje",
     "tittel": "Flytt markøren til slutten av en linje",
-    "forklaring": "END",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "microsoft 365"
     ]
@@ -14065,7 +14049,7 @@
   {
     "id": "microsoft-365-flytte-markoeren-til-begynnelsen-av-en-linje",
     "tittel": "Flytte markøren til begynnelsen av en linje",
-    "forklaring": "Hjem",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "microsoft 365"
     ]
@@ -14073,7 +14057,7 @@
   {
     "id": "microsoft-365-flytte-markoeren-til-slutten-av-en-tekstboks",
     "tittel": "Flytte markøren til slutten av en tekstboks",
-    "forklaring": "CTRL+END",
+    "forklaring": "CTRL+Fn+Pil høyre",
     "tags": [
       "microsoft 365"
     ]
@@ -14081,7 +14065,7 @@
   {
     "id": "microsoft-365-flytte-markoeren-til-begynnelsen-av-en-tekstbo",
     "tittel": "Flytte markøren til begynnelsen av en tekstboks",
-    "forklaring": "CTRL+HOME",
+    "forklaring": "CTRL+Fn+Pil venstre",
     "tags": [
       "microsoft 365"
     ]
@@ -14409,7 +14393,7 @@
   {
     "id": "edge-neste-fane",
     "tittel": "Neste fane",
-    "forklaring": "Ctrl+Tab eller Ctrl+PgDn",
+    "forklaring": "Ctrl+Tab eller Ctrl+Fn+Pil ned",
     "tags": [
       "edge"
     ]
@@ -14417,7 +14401,7 @@
   {
     "id": "edge-forrige-fane",
     "tittel": "Forrige fane",
-    "forklaring": "Ctrl+Skift+Tab eller Ctrl+PgUp",
+    "forklaring": "Ctrl+Skift+Tab eller Ctrl+Fn+Pil opp",
     "tags": [
       "edge"
     ]
@@ -14537,7 +14521,7 @@
   {
     "id": "edge-aapne-startsiden",
     "tittel": "Åpne startsiden",
-    "forklaring": "Alt+Home",
+    "forklaring": "Alt+Fn+Pil venstre",
     "tags": [
       "edge"
     ]
@@ -14545,7 +14529,7 @@
   {
     "id": "edge-rull-ned-n-skjerm",
     "tittel": "Rull ned én skjerm",
-    "forklaring": "Mellomrom eller PgDn",
+    "forklaring": "Mellomrom eller Fn+Pil ned",
     "tags": [
       "edge"
     ]
@@ -14553,7 +14537,7 @@
   {
     "id": "edge-rull-opp-n-skjerm",
     "tittel": "Rull opp én skjerm",
-    "forklaring": "Skift+Mellomrom eller PgUp",
+    "forklaring": "Skift+Mellomrom eller Fn+Pil opp",
     "tags": [
       "edge"
     ]
@@ -14561,7 +14545,7 @@
   {
     "id": "edge-til-toppen-av-siden",
     "tittel": "Til toppen av siden",
-    "forklaring": "Home",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "edge"
     ]
@@ -14569,7 +14553,7 @@
   {
     "id": "edge-til-bunnen-av-siden",
     "tittel": "Til bunnen av siden",
-    "forklaring": "End",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "edge"
     ]
@@ -14953,7 +14937,7 @@
   {
     "id": "chrome-neste-fane",
     "tittel": "Neste fane",
-    "forklaring": "Ctrl+Tab eller Ctrl+PgDn",
+    "forklaring": "Ctrl+Tab eller Ctrl+Fn+Pil ned",
     "tags": [
       "chrome"
     ]
@@ -14961,7 +14945,7 @@
   {
     "id": "chrome-forrige-fane",
     "tittel": "Forrige fane",
-    "forklaring": "Ctrl+Skift+Tab eller Ctrl+PgUp",
+    "forklaring": "Ctrl+Skift+Tab eller Ctrl+Fn+Pil opp",
     "tags": [
       "chrome"
     ]
@@ -14985,7 +14969,7 @@
   {
     "id": "chrome-flytt-fanen-til-hoeyre-eller-venstre",
     "tittel": "Flytt fanen til høyre eller venstre",
-    "forklaring": "Ctrl+Skift+PgDn eller Ctrl+Skift+PgUp",
+    "forklaring": "Ctrl+Skift+Fn+Pil ned eller Ctrl+Skift+Fn+Pil opp",
     "tags": [
       "chrome"
     ]
@@ -15137,7 +15121,7 @@
   {
     "id": "chrome-aapne-startsiden",
     "tittel": "Åpne startsiden",
-    "forklaring": "Alt+Home",
+    "forklaring": "Alt+Fn+Pil venstre",
     "tags": [
       "chrome"
     ]
@@ -15145,7 +15129,7 @@
   {
     "id": "chrome-rull-ned-n-skjerm",
     "tittel": "Rull ned én skjerm",
-    "forklaring": "Mellomrom eller PgDn",
+    "forklaring": "Mellomrom eller Fn+Pil ned",
     "tags": [
       "chrome"
     ]
@@ -15153,7 +15137,7 @@
   {
     "id": "chrome-rull-opp-n-skjerm",
     "tittel": "Rull opp én skjerm",
-    "forklaring": "Skift+Mellomrom eller PgUp",
+    "forklaring": "Skift+Mellomrom eller Fn+Pil opp",
     "tags": [
       "chrome"
     ]
@@ -15161,7 +15145,7 @@
   {
     "id": "chrome-til-toppen-av-siden",
     "tittel": "Til toppen av siden",
-    "forklaring": "Home",
+    "forklaring": "Fn+Pil venstre",
     "tags": [
       "chrome"
     ]
@@ -15169,7 +15153,7 @@
   {
     "id": "chrome-til-bunnen-av-siden",
     "tittel": "Til bunnen av siden",
-    "forklaring": "End",
+    "forklaring": "Fn+Pil høyre",
     "tags": [
       "chrome"
     ]
@@ -15503,17 +15487,9 @@
     ]
   },
   {
-    "id": "chrome-zoom-inn-eller-ut",
-    "tittel": "Zoom inn eller ut",
-    "forklaring": "Ctrl+rull med musehjulet",
-    "tags": [
-      "chrome"
-    ]
-  },
-  {
     "id": "chrome-rull-sidelengs",
     "tittel": "Rull sidelengs",
-    "forklaring": "Skift+rull med musehjulet",
+    "forklaring": "Pil venstre eller Pil høyre",
     "tags": [
       "chrome"
     ]
@@ -15561,7 +15537,7 @@
   {
     "id": "tegn-gaaseoeyne-venstre",
     "tittel": "Gåseøyne «",
-    "forklaring": "ALT+0171",
+    "forklaring": "00AB, Alt+X",
     "tags": [
       "tegn/emojis"
     ]
@@ -15569,7 +15545,7 @@
   {
     "id": "tegn-gaaseoeyne-hoeyre",
     "tittel": "Gåseøyne »",
-    "forklaring": "ALT+0187",
+    "forklaring": "00BB, Alt+X",
     "tags": [
       "tegn/emojis"
     ]
@@ -15577,7 +15553,7 @@
   {
     "id": "tegn-kort-tankestrek",
     "tittel": "Kort tankestrek –",
-    "forklaring": "ALT+0150",
+    "forklaring": "2013, Alt+X",
     "tags": [
       "tegn/emojis"
     ]
@@ -15585,7 +15561,7 @@
   {
     "id": "tegn-lang-tankestrek",
     "tittel": "Lang tankestrek —",
-    "forklaring": "ALT+0151",
+    "forklaring": "2014, Alt+X",
     "tags": [
       "tegn/emojis"
     ]

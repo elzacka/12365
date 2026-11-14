@@ -320,7 +320,8 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                   <div className="pt-2 border-t border-slate-100">
                     <p className="text-slate-500 font-medium mb-1.5">Symbolene på tastene</p>
                     <KeyLegend />
-                    <p className="text-slate-500 font-medium mt-3 mb-1.5">Slik trykker du</p>
+                    <p className="text-slate-500 font-medium mt-3 mb-1">Slik trykker du</p>
+                    <p className="text-slate-500 mb-1.5">Tastene gjelder en bærbar PC med norsk tastatur uten talltastatur. Du kan bruke egne taster for Page up, Page down, Home og End hvis tastaturet har dem.</p>
                     <KeyNotation />
                   </div>
                 )}

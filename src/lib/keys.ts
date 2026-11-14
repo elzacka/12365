@@ -1,7 +1,7 @@
 // Splits Microsoft's key text (nb-no) into keys and the words between them.
 
 // Unambiguous key names, any case.
-const SURE = String.raw`windows-menytasten|windows-(?:logo)?tast(?:en)?|pil ?(?:opp|ned|venstre|høyre)(?:-tasten)?|piltast(?:ene|er)?|ctrl|alt gr|skift|shift|escape|esc|enter|tabulator-?tasten|tabulator|tab-tasten|tab|mellomromstasten|mellomrom|backspace|pgup|pgdn|page ?up|page ?down|f1[0-2]|f[1-9]|caps lock|menytasten|print screen|prtscn`
+const SURE = String.raw`fn|windows-menytasten|windows-(?:logo)?tast(?:en)?|pil ?(?:opp|ned|venstre|høyre)(?:-tasten)?|piltast(?:ene|er)?|ctrl|alt gr|skift|shift|escape|esc|enter|tabulator-?tasten|tabulator|tab-tasten|tab|mellomromstasten|mellomrom|backspace|pgup|pgdn|page ?up|page ?down|f1[0-2]|f[1-9]|caps lock|menytasten|print screen|prtscn`
 // Words that are also ordinary Norwegian: a key only in capitals, next to «+» or first in the text.
 const MAYBE = String.raw`alt|del|delete|slett|end|home|tilbake(?:tasten)?|insert`
 const TOKEN = new RegExp(String.raw`(?<![\p{L}\d])(?:(${SURE})|(${MAYBE})|([\p{L}-]+(?: [\p{L}-]+)* \(.{1,3}\))|(\p{Lu}|\d))(?![\p{L}\d])`, 'giu')
@@ -50,7 +50,7 @@ const ARROWS: Record<string, string> = { opp: '↑', ned: '↓', venstre: '←',
 
 // Text keys: capital first letter, the rest lower case.
 const NAMED: Record<string, string> = {
-  ctrl: 'Ctrl', alt: 'Alt', 'alt gr': 'Alt gr', esc: 'Esc', escape: 'Esc', mellomrom: 'Mellomrom', mellomroms: 'Mellomrom',
+  fn: 'Fn', ctrl: 'Ctrl', alt: 'Alt', 'alt gr': 'Alt gr', esc: 'Esc', escape: 'Esc', mellomrom: 'Mellomrom', mellomroms: 'Mellomrom',
   del: 'Delete', delete: 'Delete', slett: 'Delete', slette: 'Delete', tilbake: 'Backspace', backspace: 'Backspace',
   home: 'Home', hjem: 'Home', end: 'End', insert: 'Insert', 'sett inn': 'Insert',
   pgup: 'Page up', 'page up': 'Page up', pageup: 'Page up', pgdn: 'Page down', 'page down': 'Page down', pagedown: 'Page down',
