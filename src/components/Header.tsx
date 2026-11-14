@@ -1,7 +1,8 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../auth/useAuth'
-import { ChevronLeftIcon, RunBackIcon, GlassesIcon, GlassesOffIcon } from './Icons'
+import { ChevronLeftIcon, RunBackIcon } from './Icons'
+import { HeaderMenu } from './HeaderMenu'
 import { UpdateButton } from './UpdateButton'
 
 const HEADER_BUTTON = 'inline-flex items-center justify-center w-10 h-10 rounded-xl border cursor-pointer transition-colors'
@@ -13,7 +14,7 @@ interface HeaderProps {
   showHome?: boolean
   showBack?: boolean
   backTo?: string
-  showLock?: boolean
+  showMenu?: boolean
   onLockClick?: () => void
 }
 
@@ -23,7 +24,7 @@ export function Header({
   showHome = false,
   showBack = false,
   backTo = '/',
-  showLock = false,
+  showMenu = false,
   onLockClick,
 }: HeaderProps) {
   const { unlocked } = useAuth()
@@ -76,21 +77,15 @@ export function Header({
 
         <div className="flex items-center gap-1 pr-1 justify-self-end">
           <UpdateButton />
-          {showLock && onLockClick && (
-            <button
-              type="button"
-              onClick={onLockClick}
-              className={`${HEADER_BUTTON} ${
+          {showMenu && onLockClick && (
+            <HeaderMenu
+              onLockClick={onLockClick}
+              buttonClassName={`${HEADER_BUTTON} ${
                 unlocked
                   ? 'border-brand-300 bg-brand-50 text-brand-700 hover:text-brand-800'
                   : IDLE
               }`}
-              aria-label={unlocked ? 'Skjult innhold er låst opp. Administrer' : 'Lås opp skjult innhold'}
-              aria-pressed={unlocked}
-              title={unlocked ? 'Skjult innhold låst opp' : 'Lås opp'}
-            >
-              {unlocked ? <GlassesIcon size={24} /> : <GlassesOffIcon size={24} />}
-            </button>
+            />
           )}
         </div>
       </div>

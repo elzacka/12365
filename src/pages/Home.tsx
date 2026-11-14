@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { AppsIcon, SchoolIcon, BookIcon, JukselappIcon, Stack2Icon, InfoSquareIcon } from '../components/Icons'
+import { AppsIcon, SchoolIcon, BookIcon, JukselappIcon, Stack2Icon } from '../components/Icons'
 
 interface NavCardProps {
   to: string
@@ -31,7 +31,6 @@ export function Home() {
         <NavCard to="/gjor-sann" icon={<BookIcon size={40} />} title="Gjør sånn" />
         <NavCard to="/jukselapp" icon={<JukselappIcon size={40} />} title="Jukselapp" />
         <NavCard to="/alt-i-e5" icon={<Stack2Icon size={40} />} title="Alt i E5" />
-        <NavCard to="/om" icon={<InfoSquareIcon size={40} />} title="Om" />
       </div>
     </main>
   )

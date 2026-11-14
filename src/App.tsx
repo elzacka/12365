@@ -48,7 +48,7 @@ function Loading() {
 function getHeaderProps(pathname: string) {
   // The back arrow is shown only when it points somewhere other than home –
   // otherwise it's redundant with the home button.
-  if (pathname === '/') return { showHome: false, showBack: false, showLock: true }
+  if (pathname === '/') return { showHome: false, showBack: false, showMenu: true }
   if (pathname === '/appene') return { title: 'Appene', showHome: true, showBack: false }
   if (pathname === '/gjor-sann') return { title: 'Gjør sånn', showHome: true, showBack: false }
   if (pathname.startsWith('/gjor-sann/')) return { showHome: true, showBack: false, breadcrumb: <ArticleBreadcrumb kategoriId={pathname.split('/')[2]} /> }
