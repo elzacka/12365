@@ -5,6 +5,7 @@ import { Header } from './components/Header'
 import { InstallBanner } from './components/InstallBanner'
 import { ArticleBreadcrumb } from './components/ArticleBreadcrumb'
 import { LockModal } from './components/LockModal'
+import { ScrollToTop } from './components/ScrollToTop'
 import { Home } from './pages/Home'
 import { Appene } from './pages/Appene'
 import { Om } from './pages/Om'
@@ -103,6 +104,7 @@ function AppRoutes() {
           </Routes>
         </Suspense>
       </ViewTransition>
+      <ScrollToTop />
       {lockOpen && <LockModal onClose={() => setLockOpen(false)} />}
     </div>
   )
