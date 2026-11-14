@@ -18101,5 +18101,1181 @@
     "tags": [
       "microsoft 365"
     ]
+  },
+  {
+    "id": "edge-ny-fane",
+    "tittel": "Ny fane",
+    "forklaring": "Ctrl+T",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-lukk-fanen",
+    "tittel": "Lukk fanen",
+    "forklaring": "Ctrl+W eller Ctrl+F4",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-den-sist-lukkede-fanen-igjen",
+    "tittel": "Åpne den sist lukkede fanen igjen",
+    "forklaring": "Ctrl+Skift+T",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-neste-fane",
+    "tittel": "Neste fane",
+    "forklaring": "Ctrl+Tab eller Ctrl+PgDn",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-forrige-fane",
+    "tittel": "Forrige fane",
+    "forklaring": "Ctrl+Skift+Tab eller Ctrl+PgUp",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-gaa-til-fane-1-8",
+    "tittel": "Gå til fane 1–8",
+    "forklaring": "Ctrl+1 til Ctrl+8",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-gaa-til-den-siste-fanen",
+    "tittel": "Gå til den siste fanen",
+    "forklaring": "Ctrl+9",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-dupliser-fanen",
+    "tittel": "Dupliser fanen",
+    "forklaring": "Ctrl+Skift+K",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-lyd-av-og-paa-i-fanen",
+    "tittel": "Lyd av og på i fanen",
+    "forklaring": "Ctrl+M",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-nytt-vindu",
+    "tittel": "Nytt vindu",
+    "forklaring": "Ctrl+N",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-nytt-inprivate-vindu",
+    "tittel": "Nytt InPrivate-vindu",
+    "forklaring": "Ctrl+Skift+N",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-lukk-vinduet",
+    "tittel": "Lukk vinduet",
+    "forklaring": "Ctrl+Skift+W eller Alt+F4",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-fullskjerm-av-og-paa",
+    "tittel": "Fullskjerm av og på",
+    "forklaring": "F11",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-logg-paa-som-en-annen-bruker-eller-som-gjest",
+    "tittel": "Logg på som en annen bruker eller som gjest",
+    "forklaring": "Ctrl+Skift+M",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-tilbake",
+    "tittel": "Tilbake",
+    "forklaring": "Alt+Pil venstre",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-fremover",
+    "tittel": "Fremover",
+    "forklaring": "Alt+Pil høyre",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-last-inn-siden-paa-nytt",
+    "tittel": "Last inn siden på nytt",
+    "forklaring": "Ctrl+R eller F5",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-last-inn-siden-paa-nytt-uten-hurtigbufferen",
+    "tittel": "Last inn siden på nytt uten hurtigbufferen",
+    "forklaring": "Ctrl+Skift+R eller Skift+F5",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-stopp-lastingen-lukk-en-dialogboks-eller-et-hurtigvindu",
+    "tittel": "Stopp lastingen, lukk en dialogboks eller et hurtigvindu",
+    "forklaring": "Esc",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-startsiden",
+    "tittel": "Åpne startsiden",
+    "forklaring": "Alt+Home",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-rull-ned-n-skjerm",
+    "tittel": "Rull ned én skjerm",
+    "forklaring": "Mellomrom eller PgDn",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-rull-opp-n-skjerm",
+    "tittel": "Rull opp én skjerm",
+    "forklaring": "Skift+Mellomrom eller PgUp",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-til-toppen-av-siden",
+    "tittel": "Til toppen av siden",
+    "forklaring": "Home",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-til-bunnen-av-siden",
+    "tittel": "Til bunnen av siden",
+    "forklaring": "End",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-merk-adressen-i-adresselinjen",
+    "tittel": "Merk adressen i adresselinjen",
+    "forklaring": "Ctrl+L eller Alt+D eller F4",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-soek-fra-adresselinjen",
+    "tittel": "Søk fra adresselinjen",
+    "forklaring": "Ctrl+E eller Ctrl+K",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-legg-til-www-foran-og-com-bak-det-du-har-skrevet",
+    "tittel": "Legg til www. foran og .com bak det du har skrevet",
+    "forklaring": "Ctrl+Enter",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-lim-inn-og-soek-eller-lim-inn-og-aapne-adressen",
+    "tittel": "Lim inn og søk, eller lim inn og åpne adressen",
+    "forklaring": "Ctrl+Skift+L",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-soek-i-sidepanelet",
+    "tittel": "Søk i sidepanelet",
+    "forklaring": "Ctrl+Skift+E",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-finn-paa-siden",
+    "tittel": "Finn på siden",
+    "forklaring": "Ctrl+F eller F3",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-neste-treff-paa-siden",
+    "tittel": "Neste treff på siden",
+    "forklaring": "Ctrl+G",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-forrige-treff-paa-siden",
+    "tittel": "Forrige treff på siden",
+    "forklaring": "Ctrl+Skift+G",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-lagre-fanen-som-favoritt",
+    "tittel": "Lagre fanen som favoritt",
+    "forklaring": "Ctrl+D",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-lagre-alle-fanene-som-favoritter-i-en-ny-mappe",
+    "tittel": "Lagre alle fanene som favoritter i en ny mappe",
+    "forklaring": "Ctrl+Skift+D",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-vis-eller-skjul-favorittlinjen",
+    "tittel": "Vis eller skjul favorittlinjen",
+    "forklaring": "Ctrl+Skift+B",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-gaa-til-det-foerste-elementet-paa-favorittlinjen",
+    "tittel": "Gå til det første elementet på favorittlinjen",
+    "forklaring": "Alt+Skift+B",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-favoritter",
+    "tittel": "Åpne favoritter",
+    "forklaring": "Ctrl+Skift+O",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-samlinger",
+    "tittel": "Åpne samlinger",
+    "forklaring": "Ctrl+Skift+Y",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-loggen",
+    "tittel": "Åpne loggen",
+    "forklaring": "Ctrl+H",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-nedlastinger",
+    "tittel": "Åpne nedlastinger",
+    "forklaring": "Ctrl+J",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-fjern-nettleserdata",
+    "tittel": "Fjern nettleserdata",
+    "forklaring": "Ctrl+Skift+Delete",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-zoom-inn",
+    "tittel": "Zoom inn",
+    "forklaring": "Ctrl+Plusstegn (+)",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-zoom-ut",
+    "tittel": "Zoom ut",
+    "forklaring": "Ctrl+Minustegn (-)",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-tilbakestill-zoomen",
+    "tittel": "Tilbakestill zoomen",
+    "forklaring": "Ctrl+0",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-start-eller-stopp-hoeytlesingen",
+    "tittel": "Start eller stopp høytlesingen",
+    "forklaring": "Ctrl+Skift+U",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-engasjerende-leser-av-og-paa",
+    "tittel": "Engasjerende leser av og på",
+    "forklaring": "F9",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-lagre-siden",
+    "tittel": "Lagre siden",
+    "forklaring": "Ctrl+S",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-skriv-ut-siden",
+    "tittel": "Skriv ut siden",
+    "forklaring": "Ctrl+P",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-skriv-ut-med-systemets-dialogboks",
+    "tittel": "Skriv ut med systemets dialogboks",
+    "forklaring": "Ctrl+Skift+P",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-en-fil-fra-maskinen",
+    "tittel": "Åpne en fil fra maskinen",
+    "forklaring": "Ctrl+O",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-vis-kildekoden",
+    "tittel": "Vis kildekoden",
+    "forklaring": "Ctrl+U",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-lim-inn-uten-formatering",
+    "tittel": "Lim inn uten formatering",
+    "forklaring": "Ctrl+Skift+V",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-synlig-markoer-av-og-paa",
+    "tittel": "Synlig markør av og på",
+    "forklaring": "F7",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-tilpass-til-siden-eller-til-bredden",
+    "tittel": "Tilpass til siden eller til bredden",
+    "forklaring": "Ctrl+Omvendt skråstrek (\\)",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-roter-90-mot-klokka",
+    "tittel": "Roter 90° mot klokka",
+    "forklaring": "Ctrl+Venstre hakeparentes ([)",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-roter-90-med-klokka",
+    "tittel": "Roter 90° med klokka",
+    "forklaring": "Ctrl+Høyre hakeparentes (])",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-neste-kontroll",
+    "tittel": "Neste kontroll",
+    "forklaring": "Tab",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-forrige-kontroll",
+    "tittel": "Forrige kontroll",
+    "forklaring": "Skift+Tab",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-neste-rute",
+    "tittel": "Neste rute",
+    "forklaring": "F6",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-forrige-rute",
+    "tittel": "Forrige rute",
+    "forklaring": "Skift+F6",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-gaa-til-nettsiden",
+    "tittel": "Gå til nettsiden",
+    "forklaring": "Ctrl+F6",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-gaa-til-den-foerste-knappen-paa-verktoeylinjen",
+    "tittel": "Gå til den første knappen på verktøylinjen",
+    "forklaring": "Alt+Skift+T",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-gaa-til-knappen-innstillinger-og-mer",
+    "tittel": "Gå til knappen Innstillinger og mer",
+    "forklaring": "Alt eller F10",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-menyen-innstillinger-og-mer",
+    "tittel": "Åpne menyen Innstillinger og mer",
+    "forklaring": "Alt+E eller Alt+F eller F10, Enter",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-aapne-hurtigmenyen",
+    "tittel": "Åpne hurtigmenyen",
+    "forklaring": "Skift+F10",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-utviklerverktoey",
+    "tittel": "Utviklerverktøy",
+    "forklaring": "F12 eller Ctrl+Skift+I",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-hjelp",
+    "tittel": "Hjelp",
+    "forklaring": "F1",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "edge-send-tilbakemelding",
+    "tittel": "Send tilbakemelding",
+    "forklaring": "Alt+Skift+I",
+    "tags": [
+      "edge"
+    ]
+  },
+  {
+    "id": "chrome-ny-fane",
+    "tittel": "Ny fane",
+    "forklaring": "Ctrl+T",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-lukk-fanen",
+    "tittel": "Lukk fanen",
+    "forklaring": "Ctrl+W eller Ctrl+F4",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-den-sist-lukkede-fanen-igjen",
+    "tittel": "Åpne den sist lukkede fanen igjen",
+    "forklaring": "Ctrl+Skift+T",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-neste-fane",
+    "tittel": "Neste fane",
+    "forklaring": "Ctrl+Tab eller Ctrl+PgDn",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-forrige-fane",
+    "tittel": "Forrige fane",
+    "forklaring": "Ctrl+Skift+Tab eller Ctrl+PgUp",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-gaa-til-fane-1-8",
+    "tittel": "Gå til fane 1–8",
+    "forklaring": "Ctrl+1 til Ctrl+8",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-gaa-til-den-siste-fanen",
+    "tittel": "Gå til den siste fanen",
+    "forklaring": "Ctrl+9",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-flytt-fanen-til-hoeyre-eller-venstre",
+    "tittel": "Flytt fanen til høyre eller venstre",
+    "forklaring": "Ctrl+Skift+PgDn eller Ctrl+Skift+PgUp",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-velg-flere-faner",
+    "tittel": "Velg flere faner",
+    "forklaring": "F6 to ganger, så Ctrl+Skift+H",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-delt-visning-i-fanen",
+    "tittel": "Åpne delt visning i fanen",
+    "forklaring": "Skift+Alt+N",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-vis-eller-skjul-fanegruppen-som-har-fokus",
+    "tittel": "Vis eller skjul fanegruppen som har fokus",
+    "forklaring": "Mellomrom eller Enter",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-flytt-fanen-eller-fanegruppen-som-har-fokus",
+    "tittel": "Flytt fanen eller fanegruppen som har fokus",
+    "forklaring": "Ctrl+Pil venstre eller Ctrl+Pil høyre",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-nytt-vindu",
+    "tittel": "Nytt vindu",
+    "forklaring": "Ctrl+N",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-nytt-inkognitovindu",
+    "tittel": "Nytt inkognitovindu",
+    "forklaring": "Ctrl+Skift+N",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-lukk-vinduet",
+    "tittel": "Lukk vinduet",
+    "forklaring": "Ctrl+Skift+W eller Alt+F4",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-minimer-vinduet",
+    "tittel": "Minimer vinduet",
+    "forklaring": "Alt+Mellomrom, N",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-maksimer-vinduet",
+    "tittel": "Maksimer vinduet",
+    "forklaring": "Alt+Mellomrom, X",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-fullskjerm-av-og-paa",
+    "tittel": "Fullskjerm av og på",
+    "forklaring": "F11",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-avslutt-fullskjerm",
+    "tittel": "Avslutt fullskjerm",
+    "forklaring": "Hold inne Esc",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-avslutt-chrome",
+    "tittel": "Avslutt Chrome",
+    "forklaring": "Alt+F, X",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-logg-paa-som-en-annen-bruker-eller-som-gjest",
+    "tittel": "Logg på som en annen bruker eller som gjest",
+    "forklaring": "Ctrl+Skift+M",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-tilbake",
+    "tittel": "Tilbake",
+    "forklaring": "Alt+Pil venstre",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-fremover",
+    "tittel": "Fremover",
+    "forklaring": "Alt+Pil høyre",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-last-inn-siden-paa-nytt",
+    "tittel": "Last inn siden på nytt",
+    "forklaring": "Ctrl+R eller F5",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-last-inn-siden-paa-nytt-uten-hurtigbufferen",
+    "tittel": "Last inn siden på nytt uten hurtigbufferen",
+    "forklaring": "Ctrl+Skift+R eller Skift+F5",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-stopp-lastingen",
+    "tittel": "Stopp lastingen",
+    "forklaring": "Esc",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-startsiden",
+    "tittel": "Åpne startsiden",
+    "forklaring": "Alt+Home",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-rull-ned-n-skjerm",
+    "tittel": "Rull ned én skjerm",
+    "forklaring": "Mellomrom eller PgDn",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-rull-opp-n-skjerm",
+    "tittel": "Rull opp én skjerm",
+    "forklaring": "Skift+Mellomrom eller PgUp",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-til-toppen-av-siden",
+    "tittel": "Til toppen av siden",
+    "forklaring": "Home",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-til-bunnen-av-siden",
+    "tittel": "Til bunnen av siden",
+    "forklaring": "End",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-merk-adressen-i-adressefeltet",
+    "tittel": "Merk adressen i adressefeltet",
+    "forklaring": "Ctrl+L eller Alt+D eller F6",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-flytt-markoeren-til-adressefeltet",
+    "tittel": "Flytt markøren til adressefeltet",
+    "forklaring": "Ctrl+F5",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-soek-fra-adressefeltet",
+    "tittel": "Søk fra adressefeltet",
+    "forklaring": "Ctrl+K eller Ctrl+E",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-soek-med-en-annen-soekemotor",
+    "tittel": "Søk med en annen søkemotor",
+    "forklaring": "Skriv navnet på søkemotoren, så Tab",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-soek-paa-google-i-en-ny-fane",
+    "tittel": "Søk på Google i en ny fane",
+    "forklaring": "Skriv det du søker etter, så Alt+Enter",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-legg-til-www-foran-og-com-bak-det-du-har-skrevet",
+    "tittel": "Legg til www. foran og .com bak det du har skrevet",
+    "forklaring": "Ctrl+Enter",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-legg-til-www-foran-og-com-bak-det-du-har-skrevet-i-et",
+    "tittel": "Legg til www. foran og .com bak det du har skrevet, i et nytt vindu",
+    "forklaring": "Ctrl+Skift+Enter",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-fjern-et-forslag",
+    "tittel": "Fjern et forslag",
+    "forklaring": "Pil ned til forslaget, så Skift+Delete",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-finn-paa-siden",
+    "tittel": "Finn på siden",
+    "forklaring": "Ctrl+F eller F3",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-neste-treff-paa-siden",
+    "tittel": "Neste treff på siden",
+    "forklaring": "Ctrl+G",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-forrige-treff-paa-siden",
+    "tittel": "Forrige treff på siden",
+    "forklaring": "Ctrl+Skift+G",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-lagre-fanen-som-bokmerke",
+    "tittel": "Lagre fanen som bokmerke",
+    "forklaring": "Ctrl+D",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-lagre-alle-fanene-som-bokmerker-i-en-ny-mappe",
+    "tittel": "Lagre alle fanene som bokmerker i en ny mappe",
+    "forklaring": "Ctrl+Skift+D",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-vis-eller-skjul-bokmerkeraden",
+    "tittel": "Vis eller skjul bokmerkeraden",
+    "forklaring": "Ctrl+Skift+B",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-bokmerkebehandlingen",
+    "tittel": "Åpne bokmerkebehandlingen",
+    "forklaring": "Ctrl+Skift+O",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-loggen",
+    "tittel": "Åpne loggen",
+    "forklaring": "Ctrl+H",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-nedlastinger",
+    "tittel": "Åpne nedlastinger",
+    "forklaring": "Ctrl+J",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-slett-nettlesingsdata",
+    "tittel": "Slett nettlesingsdata",
+    "forklaring": "Ctrl+Skift+Delete",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-zoom-inn",
+    "tittel": "Zoom inn",
+    "forklaring": "Ctrl+Plusstegn (+)",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-zoom-ut",
+    "tittel": "Zoom ut",
+    "forklaring": "Ctrl+Minustegn (-)",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-tilbakestill-zoomen",
+    "tittel": "Tilbakestill zoomen",
+    "forklaring": "Ctrl+0",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-lagre-siden",
+    "tittel": "Lagre siden",
+    "forklaring": "Ctrl+S",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-skriv-ut-siden",
+    "tittel": "Skriv ut siden",
+    "forklaring": "Ctrl+P",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-en-fil-fra-maskinen",
+    "tittel": "Åpne en fil fra maskinen",
+    "forklaring": "Ctrl+O",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-vis-kildekoden",
+    "tittel": "Vis kildekoden",
+    "forklaring": "Ctrl+U",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-til-begynnelsen-av-forrige-ord",
+    "tittel": "Til begynnelsen av forrige ord",
+    "forklaring": "Ctrl+Pil venstre",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-til-slutten-av-neste-ord",
+    "tittel": "Til slutten av neste ord",
+    "forklaring": "Ctrl+Pil høyre",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-slett-forrige-ord",
+    "tittel": "Slett forrige ord",
+    "forklaring": "Ctrl+Backspace",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-markoersurfing-av-og-paa",
+    "tittel": "Markørsurfing av og på",
+    "forklaring": "F7",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-neste-kontroll",
+    "tittel": "Neste kontroll",
+    "forklaring": "Tab",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-forrige-kontroll",
+    "tittel": "Forrige kontroll",
+    "forklaring": "Skift+Tab",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-bytt-mellom-dialogboksen-og-verktoeylinjene",
+    "tittel": "Bytt mellom dialogboksen og verktøylinjene",
+    "forklaring": "F6",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-gaa-til-nettsiden",
+    "tittel": "Gå til nettsiden",
+    "forklaring": "Ctrl+F6",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-gaa-til-den-foerste-knappen-paa-verktoeylinjen",
+    "tittel": "Gå til den første knappen på verktøylinjen",
+    "forklaring": "Alt+Skift+T",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-gaa-til-den-siste-knappen-paa-verktoeylinjen",
+    "tittel": "Gå til den siste knappen på verktøylinjen",
+    "forklaring": "F10",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-gaa-til-en-inaktiv-dialogboks",
+    "tittel": "Gå til en inaktiv dialogboks",
+    "forklaring": "Alt+Skift+A",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-chrome-menyen",
+    "tittel": "Åpne Chrome-menyen",
+    "forklaring": "Alt+F eller Alt+E",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-lenken-i-en-ny-fane-i-bakgrunnen",
+    "tittel": "Åpne lenken i en ny fane i bakgrunnen",
+    "forklaring": "Ctrl+klikk",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-lenken-i-en-ny-fane-og-gaa-dit",
+    "tittel": "Åpne lenken i en ny fane og gå dit",
+    "forklaring": "Ctrl+Skift+klikk",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-aapne-lenken-i-et-nytt-vindu",
+    "tittel": "Åpne lenken i et nytt vindu",
+    "forklaring": "Skift+klikk",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-last-ned-det-lenken-peker-til",
+    "tittel": "Last ned det lenken peker til",
+    "forklaring": "Alt+klikk",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-zoom-inn-eller-ut",
+    "tittel": "Zoom inn eller ut",
+    "forklaring": "Ctrl+rull med musehjulet",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-rull-sidelengs",
+    "tittel": "Rull sidelengs",
+    "forklaring": "Skift+rull med musehjulet",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-legg-fanen-tilbake-mens-du-drar-den",
+    "tittel": "Legg fanen tilbake mens du drar den",
+    "forklaring": "Esc",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-utviklerverktoey",
+    "tittel": "Utviklerverktøy",
+    "forklaring": "Ctrl+Skift+J eller F12",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-oppgavebehandling",
+    "tittel": "Oppgavebehandling",
+    "forklaring": "Skift+Esc",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-hjelp",
+    "tittel": "Hjelp",
+    "forklaring": "F1",
+    "tags": [
+      "chrome"
+    ]
+  },
+  {
+    "id": "chrome-send-tilbakemelding",
+    "tittel": "Send tilbakemelding",
+    "forklaring": "Alt+Skift+I",
+    "tags": [
+      "chrome"
+    ]
   }
 ]

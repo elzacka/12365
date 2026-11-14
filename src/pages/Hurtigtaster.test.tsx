@@ -6,6 +6,7 @@ import type { Oppslag } from '../types'
 const ENTRIES: Oppslag[] = [
   { id: 'filter', tittel: 'Legg til eller fjern filter', forklaring: 'CTRL+SKIFT+L', tags: ['excel'] },
   { id: 'punkt', tittel: 'Legg til en punktliste', forklaring: 'Ctrl+Skift+L', tags: ['word'] },
+  { id: 'fet', tittel: 'Bruk fet skrift', forklaring: 'Ctrl+F', tags: ['word'] },
   { id: 'laas', tittel: 'Lås datamaskinen', forklaring: 'Windows-tast+L', tags: ['windows'] },
   { id: 'cedilla', tittel: 'ç', forklaring: 'ALT+0231', tags: ['internasjonale tegn', 'nye outlook'] },
   { id: 'oppgave', tittel: 'Opprett en oppgave', forklaring: 'Ctrl+Skift+K', tags: ['microsoft 365'] },
@@ -35,9 +36,11 @@ async function renderPage() {
 const headings = () => screen.getAllByRole('heading', { level: 2 }).map(h => h.textContent)
 
 describe('Hurtigtaster', () => {
-  it('groups by app in GROUPS order, general sections last, and shows the keys without the tag', async () => {
+  it('groups by app in GROUPS order, entries alphabetically, and shows the keys without the tag', async () => {
     await renderPage()
-    expect(headings()).toEqual(['Word', 'Excel', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
+    expect(headings()).toEqual(['Excel', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
+    const word = document.getElementById('ord-punkt')!.parentElement!
+    expect([...word.querySelectorAll('[id^="ord-"]')].map(r => r.id)).toEqual(['ord-fet', 'ord-punkt'])
     const row = document.getElementById('ord-filter')!
     expect([...row.querySelectorAll('kbd')].map(k => k.textContent)).toEqual(['Ctrl', '⇧Skift', 'L'])
     expect(row.querySelector('[aria-pressed]')).toBeNull()
@@ -54,7 +57,7 @@ describe('Hurtigtaster', () => {
   it('keeps the app heading on search hits', async () => {
     await renderPage()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'skift' } })
-    expect(headings()).toEqual(['Word', 'Excel', 'Microsoft 365'])
+    expect(headings()).toEqual(['Excel', 'Word', 'Microsoft 365'])
   })
 
   it('finds an international character under its app name too', async () => {

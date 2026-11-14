@@ -175,8 +175,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
         ].filter(Boolean).join(' ')
 
   const grouped = useMemo<Group[]>(() => {
-    // Grouped lists keep the source order, so related entries stay together.
-    if (groups) return groupByTag(filteredByTag, groups)
+    if (groups) return groupByTag(filteredByTag, groups).map(([id, heading, items]) => [id, heading, alphabetical(items)])
     const map = new Map<string, Oppslag[]>()
     for (const o of filteredByTag) {
       const key = firstLetter(o.tittel)

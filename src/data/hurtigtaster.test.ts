@@ -7,6 +7,7 @@ import { GROUPS } from './hurtigtaster'
 import { keyLabel, parseKeys } from '../lib/keys'
 
 const TAGS = new Set(GROUPS.map(g => g.tag))
+const GENERAL_TAGS = ['microsoft 365', 'windows', 'internasjonale tegn']
 const entries = JSON.parse(
   readFileSync(resolve(process.cwd(), 'public/content/hurtigtaster.json'), 'utf8'),
 ) as Oppslag[]
@@ -19,6 +20,12 @@ describe('hurtigtaster.json', () => {
       expect(rest, e.id).toEqual([])
       expect(TAGS.has(first) && first !== 'internasjonale tegn', `${e.id}: ${first}`).toBe(true)
     }
+  })
+
+  it('lists the apps alphabetically, then the general sections', () => {
+    const apps = GROUPS.filter(g => !GENERAL_TAGS.includes(g.tag)).map(g => g.title)
+    expect(apps).toEqual([...apps].sort((a, b) => a.localeCompare(b, 'nb')))
+    expect(GROUPS.slice(-GENERAL_TAGS.length).map(g => g.tag)).toEqual(GENERAL_TAGS)
   })
 
   it('holds one line of keys that shows at least one key', () => {
