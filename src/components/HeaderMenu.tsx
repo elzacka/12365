@@ -1,9 +1,9 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../auth/useAuth'
-import { GlassesIcon, GlassesOffIcon, InfoSquareIcon, MenuIcon } from './Icons'
+import { MenuIcon } from './Icons'
 
-const ITEM = 'flex w-full items-center gap-3 px-4 py-3 text-base text-slate-700 hover:bg-slate-50 cursor-pointer'
+const ITEM = 'flex w-full items-center px-4 py-3 text-base text-slate-700 hover:bg-slate-50 cursor-pointer'
 
 interface HeaderMenuProps {
   buttonClassName: string
@@ -63,17 +63,30 @@ export function HeaderMenu({ buttonClassName, onLockClick }: HeaderMenuProps) {
                 onLockClick()
               }}
             >
-              {unlocked
-                ? <GlassesIcon size={20} className="text-brand-700" />
-                : <GlassesOffIcon size={20} className="text-brand-700" />}
               {unlocked ? 'Lås' : 'Lås opp'}
             </button>
           </li>
           <li>
             <Link to="/om" className={ITEM} onClick={() => setOpen(false)}>
-              <InfoSquareIcon size={20} className="text-brand-700" />
               Om
             </Link>
+          </li>
+          <li>
+            <Link to="/personvern" className={ITEM} onClick={() => setOpen(false)}>
+              Personvern
+            </Link>
+          </li>
+          <li>
+            <a
+              href="https://github.com/elzacka/12365"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={ITEM}
+              onClick={() => setOpen(false)}
+            >
+              Kildekode
+              <span className="sr-only"> (åpnes i ny fane)</span>
+            </a>
           </li>
         </ul>
       )}
