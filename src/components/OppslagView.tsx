@@ -335,7 +335,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
           )}
 
           {groups && (
-            <div role="group" aria-label="Filtrer på kategori" className="flex gap-1.5 overflow-x-auto mt-2 -mx-4 px-4 hide-scrollbar">
+            <div role="group" aria-label="Filtrer på kategori" className="flex flex-wrap gap-1.5 mt-2">
               {chipGroups.map(g => {
                 const isActive = activeTags.length === 1 && activeTags[0] === g.tag
                 return (
@@ -343,7 +343,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                     key={g.tag}
                     type="button"
                     onClick={() => setActiveTags(isActive ? [] : [g.tag])}
-                    className={`flex-shrink-0 px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                    className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
                       isActive
                         ? 'bg-brand-700 text-white shadow-sm'
                         : 'bg-white border border-slate-200 text-slate-600 hover:border-slate-300'
