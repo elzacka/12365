@@ -55,12 +55,6 @@ export function HeaderMenu({ buttonClassName, onLockClick }: HeaderMenuProps) {
           className="absolute right-0 top-full mt-2 min-w-48 py-1 rounded-xl border border-slate-200 bg-white shadow-lg"
         >
           <li>
-            <Link to="/om" className={ITEM} onClick={() => setOpen(false)}>
-              <InfoSquareIcon size={20} className="text-brand-700" />
-              Om
-            </Link>
-          </li>
-          <li>
             <button
               type="button"
               className={ITEM}
@@ -74,6 +68,12 @@ export function HeaderMenu({ buttonClassName, onLockClick }: HeaderMenuProps) {
                 : <GlassesOffIcon size={20} className="text-brand-700" />}
               {unlocked ? 'Lås' : 'Lås opp'}
             </button>
+          </li>
+          <li>
+            <Link to="/om" className={ITEM} onClick={() => setOpen(false)}>
+              <InfoSquareIcon size={20} className="text-brand-700" />
+              Om
+            </Link>
           </li>
         </ul>
       )}
