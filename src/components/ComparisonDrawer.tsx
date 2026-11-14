@@ -24,6 +24,14 @@ export function ComparisonDrawer({
     .map(navn => cards.find(c => c.navn === navn))
     .filter((c): c is FlipCard => Boolean(c))
 
+  // The drawer covers the bottom of the screen: «Til toppen» hides while it is there.
+  const open = items.length > 0
+  useEffect(() => {
+    if (!open) return
+    document.body.dataset.drawer = ''
+    return () => { delete document.body.dataset.drawer }
+  }, [open])
+
   useEffect(() => {
     if (!expanded) return
     closeRef.current?.focus()

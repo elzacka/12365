@@ -100,6 +100,11 @@ function validateBoundary(source, publicCategories, publicHurtigtaster) {
   for (const g of source.hurtigtasterGrupper ?? []) {
     if (publicTags.has(g.tag)) errors.push(`Låst hurtigtastkategori «${g.tag}» brukes også i offentlige hurtigtaster.`)
   }
+  // 4. Every gated row needs a section, or the list drops it without a word.
+  const sections = new Set([...publicHurtigtaster.map(o => o.tags[0]), ...(source.hurtigtasterGrupper ?? []).map(g => g.tag)])
+  for (const o of lockedKeys) {
+    if (!sections.has(o.tags?.[0])) errors.push(`Låst hurtigtast «${o.id}» har kategorien «${o.tags?.[0]}», som ikke finnes. Legg den i hurtigtasterGrupper.`)
+  }
 
   if (errors.length > 0) {
     console.error('Brudd på regler for låst innhold — locked.json er ikke skrevet:')
@@ -146,7 +151,12 @@ async function main() {
     // Missing public articles.json is unusual but not fatal — boundary check
     // simply has nothing to compare against.
   }
-  const publicHurtigtaster = JSON.parse(await readFile(publicHurtigtasterPath, 'utf8'))
+  let publicHurtigtaster = []
+  try {
+    publicHurtigtaster = JSON.parse(await readFile(publicHurtigtasterPath, 'utf8'))
+  } catch {
+    // Same as articles.json: nothing public to compare against.
+  }
   validateBoundary(source, publicCategories, publicHurtigtaster)
 
   let passphrase = process.env.LOCK_PASSPHRASE

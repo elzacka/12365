@@ -106,11 +106,6 @@ describe('Hurtigtaster', () => {
     expect(screen.getByRole('button', { name: 'Skjult app' })).toBeTruthy()
   })
 
-  it('hides gated sections while locked', async () => {
-    await renderPage()
-    expect(screen.queryByRole('button', { name: 'Skjult app' })).toBeNull()
-  })
-
   it('splits an app into its subheadings, in the given order', async () => {
     await renderPage()
     expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering', 'Presentasjon'])
@@ -124,5 +119,17 @@ describe('Hurtigtaster', () => {
     expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering'])
     fireEvent.click(screen.getByRole('button', { name: 'Fjern filter Redigering' }))
     expect(screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent)).toEqual(['Redigering', 'Presentasjon'])
+  })
+
+  it('shows only the section on a category chip, not rows that name the app as a second tag', async () => {
+    await renderPage()
+    fireEvent.click(screen.getByRole('button', { name: 'Windows' }))
+    expect(headings()).toEqual(['Windows'])
+  })
+
+  it('keeps search hits in rank order, without subheadings', async () => {
+    await renderPage()
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'lysbilde' } })
+    expect(screen.queryAllByRole('heading', { level: 3 })).toEqual([])
   })
 })

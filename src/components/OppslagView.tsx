@@ -163,12 +163,17 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     [groups],
   )
 
-  const inSub = useCallback((o: Oppslag) => !activeSub || o.undergruppe === activeSub.sub, [activeSub])
+  // In a grouped list a tag is a section: the entry's first tag, so Windows leaves out Internasjonale tegn.
+  const matches = useCallback(
+    (o: Oppslag) => (groups ? activeTags.every(t => o.tags[0] === t) : hasAllTags(o, activeTags))
+      && (!activeSub || o.undergruppe === activeSub.sub),
+    [groups, activeTags, activeSub],
+  )
 
   const filteredByTag = useMemo<Oppslag[]>(() => {
     if (activeTags.length === 0) return ord
-    return ord.filter(o => hasAllTags(o, activeTags) && inSub(o))
-  }, [ord, activeTags, inSub])
+    return ord.filter(matches)
+  }, [ord, activeTags, matches])
 
   const results = useMemo<Oppslag[] | null>(() => {
     const trimmed = query.trim()
@@ -185,8 +190,8 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
 
     const list = searchOrd(index, byId, trimmed)
     if (activeTags.length === 0) return list
-    return list.filter(o => hasAllTags(o, activeTags) && inSub(o))
-  }, [query, index, byId, activeTags, filteredByTag, inSub])
+    return list.filter(matches)
+  }, [query, index, byId, activeTags, filteredByTag, matches])
 
   const visibleCount = results?.length ?? filteredByTag.length
   const isFiltering = results !== null || hasTagFilter
@@ -224,7 +229,8 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     [groups, results],
   )
 
-  const renderGroups = (list: Group[]) => (
+  // Search hits keep their rank, so subheadings only split the browsed list.
+  const renderGroups = (list: Group[], subheadings: boolean) => (
     <div className="space-y-5">
       {list.map(([id, heading, items]) => (
         <section key={id} aria-labelledby={`grp-h-${id}`} id={`grp-${id}`}>
@@ -237,7 +243,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
             </h2>
           </div>
           <div className="space-y-3">
-            {bySubgroup(items, groups?.find(g => g.tag === id)?.undergrupper).map(([sub, list]) => (
+            {bySubgroup(items, subheadings ? groups?.find(g => g.tag === id)?.undergrupper : undefined).map(([sub, list]) => (
               <div key={sub ?? ''}>
                 {sub && <h3 className="mb-1.5 px-1 text-xs font-semibold text-slate-500">{sub}</h3>}
                 <OppslagList
@@ -485,7 +491,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
               </button>
             </div>
           ) : resultGroups ? (
-            renderGroups(resultGroups)
+            renderGroups(resultGroups, false)
           ) : (
             <OppslagList
               ord={results}
@@ -511,7 +517,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                 </button>
               </div>
             ) : (
-              renderGroups(grouped)
+              renderGroups(grouped, true)
             )}
           </>
         )}
