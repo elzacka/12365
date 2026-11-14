@@ -22,7 +22,7 @@ describe('hurtigtaster.json', () => {
     }
   })
 
-  it('gives every Teams and PowerPoint row a subheading its section lists', () => {
+  it('gives every row in a section with subheadings one its section lists', () => {
     for (const g of GROUPS.filter(g => g.undergrupper)) {
       const rows = entries.filter(e => e.tags[0] === g.tag)
       expect(rows.filter(e => !g.undergrupper!.includes(e.undergruppe ?? '')).map(e => e.id), g.tag).toEqual([])

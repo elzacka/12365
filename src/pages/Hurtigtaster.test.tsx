@@ -87,7 +87,7 @@ describe('Hurtigtaster', () => {
     await renderPage()
     fireEvent.click(screen.getByRole('button', { name: 'Veiledning' }))
     expect(screen.getByText('Trykk på Alt+F, slipp tastene og trykk på X')).toBeTruthy()
-    expect(screen.getByText(/^Tastene gjelder en bærbar PC med norsk tastatur uten talltastatur\./)).toBeTruthy()
+    expect(screen.getByText(/^Tastene gjelder en bærbar PC med norsk tastatur uten talltastatur, og Microsoft 365 på norsk\./)).toBeTruthy()
     expect(screen.getByText('I Word og Outlook: Skriv koden og trykk på Alt+X')).toBeTruthy()
   })
 
