@@ -2263,7 +2263,7 @@
   },
   {
     "id": "klassisk-outlook-gaa-til-hjem-fanen",
-    "tittel": "Gå til Hjem -fanen",
+    "tittel": "Gå til Hjem-fanen",
     "forklaring": "Alt, H",
     "tags": [
       "outlook"
@@ -2575,7 +2575,7 @@
   },
   {
     "id": "klassisk-outlook-gaa-til-soek-boksen",
-    "tittel": "Gå til Søk -boksen",
+    "tittel": "Gå til Søk-boksen",
     "forklaring": "F3 eller Ctrl+E",
     "tags": [
       "outlook"
@@ -2655,7 +2655,7 @@
   },
   {
     "id": "klassisk-outlook-aapne-fil-menyen",
-    "tittel": "Åpne Fil -menyen",
+    "tittel": "Åpne Fil-menyen",
     "forklaring": "ALT+F",
     "tags": [
       "outlook"
@@ -4727,7 +4727,7 @@
   },
   {
     "id": "klassisk-outlook-fjerne-et-valgt-felt-fra-felt-boksen",
-    "tittel": "Fjerne et valgt felt fra Felt -boksen",
+    "tittel": "Fjerne et valgt felt fra Felt-boksen",
     "forklaring": "ALT+R",
     "tags": [
       "outlook"
@@ -5351,7 +5351,7 @@
   },
   {
     "id": "word-aapne-boksen-fortell-meg-det-eller-soek-feltet-paa-baan",
-    "tittel": "Åpne boksen Fortell meg det eller Søk -feltet på båndet for å søke etter hjelp eller finne Hjelp-innhold",
+    "tittel": "Åpne boksen Fortell meg det eller Søk-feltet på båndet for å søke etter hjelp eller finne Hjelp-innhold",
     "forklaring": "ALT, Q",
     "tags": [
       "word"
@@ -5359,7 +5359,7 @@
   },
   {
     "id": "word-aapne-fil-siden-for-aa-bruke-backstage-visning",
-    "tittel": "Åpne Fil -siden for å bruke Backstage-visning",
+    "tittel": "Åpne Fil-siden for å bruke Backstage-visning",
     "forklaring": "Alt, F",
     "tags": [
       "word"
@@ -5367,7 +5367,7 @@
   },
   {
     "id": "word-aapne-hjem-fanen-for-aa-bruke-vanlige-formateringskomma",
-    "tittel": "Åpne Hjem -fanen for å bruke vanlige formateringskommandoer, avsnittsstiler og Søk-verktøyet",
+    "tittel": "Åpne Hjem-fanen for å bruke vanlige formateringskommandoer, avsnittsstiler og Søk-verktøyet",
     "forklaring": "Alt, H",
     "tags": [
       "word"
@@ -5375,7 +5375,7 @@
   },
   {
     "id": "word-aapne-sett-inn-fanen-for-aa-sette-inn-tabeller-bilder-o",
-    "tittel": "Åpne Sett inn -fanen for å sette inn tabeller, bilder og figurer, topptekster eller tekstbokser",
+    "tittel": "Åpne Sett inn-fanen for å sette inn tabeller, bilder og figurer, topptekster eller tekstbokser",
     "forklaring": "Alt, N",
     "tags": [
       "word"
@@ -5391,7 +5391,7 @@
   },
   {
     "id": "word-aapne-utforming-fanen-for-aa-arbeide-med-sidemarger-sid",
-    "tittel": "Åpne Utforming -fanen for å arbeide med sidemarger, sideretning, innrykk og avstand",
+    "tittel": "Åpne Utforming-fanen for å arbeide med sidemarger, sideretning, innrykk og avstand",
     "forklaring": "Alt, P",
     "tags": [
       "word"
@@ -5399,7 +5399,7 @@
   },
   {
     "id": "word-aapne-referanser-fanen-for-aa-legge-til-en-innholdsfort",
-    "tittel": "Åpne Referanser -fanen for å legge til en innholdsfortegnelse, fotnoter eller en tabell med sitater",
+    "tittel": "Åpne Referanser-fanen for å legge til en innholdsfortegnelse, fotnoter eller en tabell med sitater",
     "forklaring": "Alt, S",
     "tags": [
       "word"
@@ -5415,7 +5415,7 @@
   },
   {
     "id": "word-aapne-se-gjennom-fanen-for-aa-bruke-stavekontrollen-ang",
-    "tittel": "Åpne Se gjennom -fanen for å bruke stavekontrollen, angi korrekturspråk og for å spore og se gjennom endringer i dokumentet",
+    "tittel": "Åpne Se gjennom-fanen for å bruke stavekontrollen, angi korrekturspråk og for å spore og se gjennom endringer i dokumentet",
     "forklaring": "Alt, R",
     "tags": [
       "word"
@@ -5423,7 +5423,7 @@
   },
   {
     "id": "word-aapne-vis-fanen-for-aa-velge-en-dokumentvisning-eller-m",
-    "tittel": "Åpne Vis -fanen for å velge en dokumentvisning eller -modus, for eksempel lesemodus eller disposisjonsvisning",
+    "tittel": "Åpne Vis-fanen for å velge en dokumentvisning eller-modus, for eksempel lesemodus eller disposisjonsvisning",
     "forklaring": "Alt, W",
     "tags": [
       "word"
@@ -7257,7 +7257,7 @@
   },
   {
     "id": "word-viser-forhaandsvisningsomraadet-paa-skriv-ut-fanen-i-ba",
-    "tittel": "Viser forhåndsvisningsområdet på Skriv ut -fanen i Backstage-visningen",
+    "tittel": "Viser forhåndsvisningsområdet på Skriv ut-fanen i Backstage-visningen",
     "forklaring": "CTRL+F2",
     "tags": [
       "word"
@@ -7321,7 +7321,7 @@
   },
   {
     "id": "word-gjentar-den-siste-soek-eller-gaa-til-handlingen",
-    "tittel": "Gjentar den siste Søk - eller Gå til -handlingen",
+    "tittel": "Gjentar den siste Søk- eller Gå til-handlingen",
     "forklaring": "SKIFT+F4",
     "tags": [
       "word"
@@ -7481,7 +7481,7 @@
   },
   {
     "id": "word-viser-makro-dialogboksen-for-aa-opprette-kjoere-rediger",
-    "tittel": "Viser Makro -dialogboksen for å opprette, kjøre, redigere eller slette en makro",
+    "tittel": "Viser Makro-dialogboksen for å opprette, kjøre, redigere eller slette en makro",
     "forklaring": "ALT+F8",
     "tags": [
       "word"
@@ -7641,7 +7641,7 @@
   },
   {
     "id": "word-viser-skriv-ut-fanen-i-backstage-visningen",
-    "tittel": "Viser Skriv ut -fanen i Backstage-visningen",
+    "tittel": "Viser Skriv ut-fanen i Backstage-visningen",
     "forklaring": "CTRL+SKIFT+F12",
     "tags": [
       "word"
@@ -7649,7 +7649,7 @@
   },
   {
     "id": "word-velger-innholdsfortegnelse-knappen-i-innholdsfortegnels",
-    "tittel": "Velger Innholdsfortegnelse -knappen i innholdsfortegnelsesbeholderen når beholderen er aktiv",
+    "tittel": "Velger Innholdsfortegnelse-knappen i innholdsfortegnelsesbeholderen når beholderen er aktiv",
     "forklaring": "ALT+SKIFT+F12",
     "tags": [
       "word"
@@ -7673,7 +7673,7 @@
   },
   {
     "id": "excel-gaa-til-hjem-fanen",
-    "tittel": "Gå til Hjem -fanen",
+    "tittel": "Gå til Hjem-fanen",
     "forklaring": "ALT+H",
     "tags": [
       "excel"
@@ -7737,7 +7737,7 @@
   },
   {
     "id": "excel-gaa-til-sett-inn-fanen",
-    "tittel": "Gå til Sett inn -fanen",
+    "tittel": "Gå til Sett inn-fanen",
     "forklaring": "ALT+N",
     "tags": [
       "excel"
@@ -7769,7 +7769,7 @@
   },
   {
     "id": "excel-gaa-til-data-fanen",
-    "tittel": "Gå til Data -fanen",
+    "tittel": "Gå til Data-fanen",
     "forklaring": "ALT+A",
     "tags": [
       "excel"
@@ -7777,7 +7777,7 @@
   },
   {
     "id": "excel-gaa-vil-visning-fanen",
-    "tittel": "Gå vil Visning -fanen",
+    "tittel": "Gå til Visning-fanen",
     "forklaring": "ALT+W",
     "tags": [
       "excel"
@@ -7809,7 +7809,7 @@
   },
   {
     "id": "excel-gaa-til-formel-fanen",
-    "tittel": "Gå til Formel -fanen",
+    "tittel": "Gå til Formel-fanen",
     "forklaring": "ALT+M",
     "tags": [
       "excel"
@@ -7841,7 +7841,7 @@
   },
   {
     "id": "excel-aapne-fil-menyen",
-    "tittel": "Åpne Fil -menyen",
+    "tittel": "Åpne Fil-menyen",
     "forklaring": "ALT+F",
     "tags": [
       "excel"
@@ -7849,7 +7849,7 @@
   },
   {
     "id": "excel-aapne-hjem-fanen-for-aa-formatere-tekst-og-tall-og-bru",
-    "tittel": "Åpne Hjem -fanen for å formatere tekst og tall og bruke Finn-verktøyet",
+    "tittel": "Åpne Hjem-fanen for å formatere tekst og tall og bruke Finn-verktøyet",
     "forklaring": "ALT+H",
     "tags": [
       "excel"
@@ -7857,7 +7857,7 @@
   },
   {
     "id": "excel-aapne-sett-inn-fanen-og-sett-inn-pivottabeller-diagram",
-    "tittel": "Åpne Sett inn -fanen og sett inn pivottabeller, diagrammer, tillegg, sparkline-grafikk, bilder, figurer, topptekster eller tekstbokser",
+    "tittel": "Åpne Sett inn-fanen og sett inn pivottabeller, diagrammer, tillegg, sparkline-grafikk, bilder, figurer, topptekster eller tekstbokser",
     "forklaring": "ALT+N",
     "tags": [
       "excel"
@@ -7865,7 +7865,7 @@
   },
   {
     "id": "excel-aapne-sideoppsett-fanen-og-arbeide-med-temaer-sideopps",
-    "tittel": "Åpne Sideoppsett -fanen og arbeide med temaer, sideoppsett, skalering og justering",
+    "tittel": "Åpne Sideoppsett-fanen og arbeide med temaer, sideoppsett, skalering og justering",
     "forklaring": "ALT+P",
     "tags": [
       "excel"
@@ -7873,7 +7873,7 @@
   },
   {
     "id": "excel-aapne-formler-fanen-og-sette-inn-spore-og-tilpasse-fun",
-    "tittel": "Åpne Formler -fanen og sette inn, spore og tilpasse funksjoner og beregninger",
+    "tittel": "Åpne Formler-fanen og sette inn, spore og tilpasse funksjoner og beregninger",
     "forklaring": "ALT+M",
     "tags": [
       "excel"
@@ -7881,7 +7881,7 @@
   },
   {
     "id": "excel-aapne-data-fanen-og-koble-til-sortere-filtrere-analyse",
-    "tittel": "Åpne Data -fanen og koble til, sortere, filtrere, analysere og arbeide med data",
+    "tittel": "Åpne Data-fanen og koble til, sortere, filtrere, analysere og arbeide med data",
     "forklaring": "ALT+A",
     "tags": [
       "excel"
@@ -7897,7 +7897,7 @@
   },
   {
     "id": "excel-aapne-visning-fanen-og-forhaandsvise-sideskift-og-opps",
-    "tittel": "Åpne Visning -fanen og forhåndsvise sideskift og oppsett, vise og skjule rutenett og overskrifter, angi zoom-forstørrelse, administrere vinduer og ruter og vise makroer",
+    "tittel": "Åpne Visning-fanen og forhåndsvise sideskift og oppsett, vise og skjule rutenett og overskrifter, angi zoom-forstørrelse, administrere vinduer og ruter og vise makroer",
     "forklaring": "ALT+W",
     "tags": [
       "excel"
@@ -8793,7 +8793,7 @@
   },
   {
     "id": "excel-vise-menyen-eller-meldingen-for-feilkontroll-knappen",
-    "tittel": "Vise menyen eller meldingen for Feilkontroll -knappen",
+    "tittel": "Vise menyen eller meldingen for Feilkontroll-knappen",
     "forklaring": "ALT+SKIFT+F10",
     "tags": [
       "excel"
@@ -9409,7 +9409,7 @@
   },
   {
     "id": "excel-viser-makro-dialogboksen-for-aa-opprette-kjoere-redige",
-    "tittel": "Viser Makro -dialogboksen for å opprette, kjøre, redigere eller slette en makro",
+    "tittel": "Viser Makro-dialogboksen for å opprette, kjøre, redigere eller slette en makro",
     "forklaring": "ALT+F8",
     "tags": [
       "excel"
@@ -9473,7 +9473,7 @@
   },
   {
     "id": "excel-viser-menyen-eller-meldingen-for-feilkontroll-knappen",
-    "tittel": "Viser menyen eller meldingen for Feilkontroll -knappen",
+    "tittel": "Viser menyen eller meldingen for Feilkontroll-knappen",
     "forklaring": "ALT+SKIFT+F10",
     "tags": [
       "excel"
@@ -10516,7 +10516,7 @@
   },
   {
     "id": "powerpoint-gjenta-siste-soek-handling",
-    "tittel": "Gjenta siste Søk -handling",
+    "tittel": "Gjenta siste Søk-handling",
     "forklaring": "SKIFT+F4",
     "tags": [
       "powerpoint"
@@ -10768,7 +10768,7 @@
   },
   {
     "id": "powerpoint-veksle-mellom-disposisjons-og-miniatyrbildevisnin",
-    "tittel": "Veksle mellom disposisjons - og miniatyrbildevisninger",
+    "tittel": "Veksle mellom disposisjons- og miniatyrbildevisninger",
     "forklaring": "CTRL+SKIFT+TAB",
     "tags": [
       "powerpoint"
@@ -10804,7 +10804,7 @@
   },
   {
     "id": "powerpoint-bla-med-klokken-gjennom-paneler-i-normal-visninge",
-    "tittel": "Bla med klokken gjennom paneler i Normal -visningen",
+    "tittel": "Bla med klokken gjennom paneler i Normal-visningen",
     "forklaring": "F6",
     "tags": [
       "powerpoint"
@@ -10813,7 +10813,7 @@
   },
   {
     "id": "powerpoint-bla-mot-klokken-gjennom-paneler-i-normal-visninge",
-    "tittel": "Bla mot klokken gjennom paneler i Normal -visningen",
+    "tittel": "Bla mot klokken gjennom paneler i Normal-visningen",
     "forklaring": "SKIFT+F6",
     "tags": [
       "powerpoint"
@@ -10822,7 +10822,7 @@
   },
   {
     "id": "powerpoint-bytt-mellom-miniatyrbilde-ruten-og-disposisjonsvi",
-    "tittel": "Bytt mellom Miniatyrbilde -ruten og Disposisjonsvisning -ruten",
+    "tittel": "Bytt mellom Miniatyrbilde-ruten og Disposisjonsvisning-ruten",
     "forklaring": "Ctrl+Skift+Tab",
     "tags": [
       "powerpoint"
@@ -10867,7 +10867,7 @@
   },
   {
     "id": "powerpoint-velg-alle-lysbilder-i-lysbildesortering-visning-e",
-    "tittel": "Velg alle lysbilder i Lysbildesortering -visning eller miniatyrbilderuten",
+    "tittel": "Velg alle lysbilder i Lysbildesortering-visning eller miniatyrbilderuten",
     "forklaring": "CTRL+A",
     "tags": [
       "powerpoint"
@@ -10885,7 +10885,7 @@
   },
   {
     "id": "powerpoint-aapne-valg-ruten",
-    "tittel": "Åpne Valg -ruten",
+    "tittel": "Åpne Valg-ruten",
     "forklaring": "Alt+F10 eller Alt+H, S, L, P",
     "tags": [
       "powerpoint"
@@ -11029,7 +11029,7 @@
   },
   {
     "id": "powerpoint-bytt-tastaturfokus-i-valgruten-mellom-trevisning-",
-    "tittel": "Bytt tastaturfokus i valgruten mellom trevisning og Vis alle - og Skjul alle-knappene",
+    "tittel": "Bytt tastaturfokus i valgruten mellom trevisning og Vis alle- og Skjul alle-knappene",
     "forklaring": "TAB-tasten eller SKIFT+TAB",
     "tags": [
       "powerpoint"
@@ -11128,7 +11128,7 @@
   },
   {
     "id": "powerpoint-aapne-fil-menyen",
-    "tittel": "Åpne Fil -menyen",
+    "tittel": "Åpne Fil-menyen",
     "forklaring": "ALT+F",
     "tags": [
       "powerpoint"
@@ -11137,7 +11137,7 @@
   },
   {
     "id": "powerpoint-aapne-hjem-fanen-og-formater-lysbilder-skrifter-p",
-    "tittel": "Åpne Hjem -fanen og formater lysbilder, skrifter, paragrafer eller tegninger",
+    "tittel": "Åpne Hjem-fanen og formater lysbilder, skrifter, paragrafer eller tegninger",
     "forklaring": "ALT+H",
     "tags": [
       "powerpoint"
@@ -11146,7 +11146,7 @@
   },
   {
     "id": "powerpoint-aapne-sett-inn-fanen-og-sett-inn-lysbilder-tabell",
-    "tittel": "Åpne Sett inn -fanen og sett inn lysbilder, tabeller, bilder, illustrasjoner, skjemaer, koblinger, tekst, symboler eller medier",
+    "tittel": "Åpne Sett inn-fanen og sett inn lysbilder, tabeller, bilder, illustrasjoner, skjemaer, koblinger, tekst, symboler eller medier",
     "forklaring": "ALT+N",
     "tags": [
       "powerpoint"
@@ -11164,7 +11164,7 @@
   },
   {
     "id": "powerpoint-aapne-design-fanen-og-bruk-temaer-og-tilpass-lysb",
-    "tittel": "Åpne Design -fanen og bruk temaer og tilpass lysbilder",
+    "tittel": "Åpne Design-fanen og bruk temaer og tilpass lysbilder",
     "forklaring": "ALT+G",
     "tags": [
       "powerpoint"
@@ -11173,7 +11173,7 @@
   },
   {
     "id": "powerpoint-aapne-overganger-fanen-og-legg-til-overganger-mel",
-    "tittel": "Åpne Overganger -fanen og legg til overganger mellom lysbilder",
+    "tittel": "Åpne Overganger-fanen og legg til overganger mellom lysbilder",
     "forklaring": "ALT+K",
     "tags": [
       "powerpoint"
@@ -11182,7 +11182,7 @@
   },
   {
     "id": "powerpoint-aapne-animasjoner-fanen-og-legg-til-animasjoner-p",
-    "tittel": "Åpne Animasjoner -fanen og legg til animasjoner på lysbilder",
+    "tittel": "Åpne Animasjoner-fanen og legg til animasjoner på lysbilder",
     "forklaring": "ALT+A",
     "tags": [
       "powerpoint"
@@ -11191,7 +11191,7 @@
   },
   {
     "id": "powerpoint-aapne-lysbildefremvisning-fanen-og-konfigurer-og-",
-    "tittel": "Åpne Lysbildefremvisning -fanen og konfigurer og spill av lysbildefremvisningen",
+    "tittel": "Åpne Lysbildefremvisning-fanen og konfigurer og spill av lysbildefremvisningen",
     "forklaring": "ALT+S",
     "tags": [
       "powerpoint"
@@ -11200,7 +11200,7 @@
   },
   {
     "id": "powerpoint-aapne-se-gjennom-fanen-og-kontroller-stavemaaten-",
-    "tittel": "Åpne Se gjennom -fanen og kontroller stavemåten og tilgjengelighet og legg til kommentarer",
+    "tittel": "Åpne Se gjennom-fanen og kontroller stavemåten og tilgjengelighet og legg til kommentarer",
     "forklaring": "ALT+R",
     "tags": [
       "powerpoint"
@@ -11209,7 +11209,7 @@
   },
   {
     "id": "powerpoint-aapne-visning-fanen-og-forhaandsvis-presentasjons",
-    "tittel": "Åpne Visning -fanen og forhåndsvis presentasjonsoppsett, vis og skjul rutenett og veiledninger, angi zoom-forstørrelse, administrer vinduer og vis makroer",
+    "tittel": "Åpne Visning-fanen og forhåndsvis presentasjonsoppsett, vis og skjul rutenett og veiledninger, angi zoom-forstørrelse, administrer vinduer og vis makroer",
     "forklaring": "ALT+W",
     "tags": [
       "powerpoint"
@@ -11389,7 +11389,7 @@
   },
   {
     "id": "powerpoint-vis-skjul-notater-ruten-i-normal-visningen",
-    "tittel": "Vis/skjul Notater -ruten i Normal -visningen",
+    "tittel": "Vis/skjul Notater-ruten i Normal-visningen",
     "forklaring": "Alt+W, P, N",
     "tags": [
       "powerpoint"
@@ -12250,7 +12250,7 @@
   },
   {
     "id": "onenote-bruke-en-overskrift-1-stil-i-gjeldende-notat",
-    "tittel": "Bruke en Overskrift 1 -stil i gjeldende notat",
+    "tittel": "Bruke en Overskrift 1-stil i gjeldende notat",
     "forklaring": "CTRL+ALT+1",
     "tags": [
       "onenote"
@@ -12258,7 +12258,7 @@
   },
   {
     "id": "onenote-bruke-en-overskrift-2-stil-i-gjeldende-notat",
-    "tittel": "Bruke en Overskrift 2 -stil i gjeldende notat",
+    "tittel": "Bruke en Overskrift 2-stil i gjeldende notat",
     "forklaring": "CTRL+ALT+2",
     "tags": [
       "onenote"
@@ -12266,7 +12266,7 @@
   },
   {
     "id": "onenote-bruke-en-overskrift-3-stil-i-gjeldende-notat",
-    "tittel": "Bruke en Overskrift 3 -stil i gjeldende notat",
+    "tittel": "Bruke en Overskrift 3-stil i gjeldende notat",
     "forklaring": "CTRL+ALT+3",
     "tags": [
       "onenote"
@@ -12274,7 +12274,7 @@
   },
   {
     "id": "onenote-bruke-en-overskrift-4-stil-i-gjeldende-notat",
-    "tittel": "Bruke en Overskrift 4 -stil i gjeldende notat",
+    "tittel": "Bruke en Overskrift 4-stil i gjeldende notat",
     "forklaring": "CTRL+ALT+4",
     "tags": [
       "onenote"
@@ -12282,7 +12282,7 @@
   },
   {
     "id": "onenote-bruke-en-overskrift-5-stil-i-gjeldende-notat",
-    "tittel": "Bruke en Overskrift 5 -stil i gjeldende notat",
+    "tittel": "Bruke en Overskrift 5-stil i gjeldende notat",
     "forklaring": "CTRL+ALT+5",
     "tags": [
       "onenote"
@@ -12290,7 +12290,7 @@
   },
   {
     "id": "onenote-bruke-en-overskrift-6-stil-i-gjeldende-notat",
-    "tittel": "Bruke en Overskrift 6 -stil i gjeldende notat",
+    "tittel": "Bruke en Overskrift 6-stil i gjeldende notat",
     "forklaring": "CTRL+ALT+6",
     "tags": [
       "onenote"
@@ -12634,7 +12634,7 @@
   },
   {
     "id": "onenote-bruk-fjern-viktig-merket",
-    "tittel": "Bruk/fjern Viktig -merket",
+    "tittel": "Bruk/fjern Viktig-merket",
     "forklaring": "Ctrl+2",
     "tags": [
       "onenote"
@@ -12642,7 +12642,7 @@
   },
   {
     "id": "onenote-bruk-fjern-spoersmaal-merket",
-    "tittel": "Bruk/fjern Spørsmål -merket",
+    "tittel": "Bruk/fjern Spørsmål-merket",
     "forklaring": "Ctrl+3",
     "tags": [
       "onenote"
@@ -12650,7 +12650,7 @@
   },
   {
     "id": "onenote-bruk-fjern-husk-til-senere-merket",
-    "tittel": "Bruk/fjern Husk til senere -merket",
+    "tittel": "Bruk/fjern Husk til senere-merket",
     "forklaring": "Ctrl+4",
     "tags": [
       "onenote"
@@ -12658,7 +12658,7 @@
   },
   {
     "id": "onenote-bruk-fjern-definisjon-merket",
-    "tittel": "Bruk/fjern Definisjon -merket",
+    "tittel": "Bruk/fjern Definisjon-merket",
     "forklaring": "Ctrl+5",
     "tags": [
       "onenote"
@@ -13266,7 +13266,7 @@
   },
   {
     "id": "onenote-flytt-til-soek-boksen-for-aa-soeke-etter-alle-notatb",
-    "tittel": "Flytt til Søk -boksen for å søke etter alle notatblokker",
+    "tittel": "Flytt til Søk-boksen for å søke etter alle notatblokker",
     "forklaring": "CTRL+E",
     "tags": [
       "onenote"
@@ -13298,7 +13298,7 @@
   },
   {
     "id": "onenote-aapne-soekeresultater-ruten",
-    "tittel": "Åpne Søkeresultater -ruten",
+    "tittel": "Åpne Søkeresultater-ruten",
     "forklaring": "ALT+O",
     "tags": [
       "onenote"
@@ -13602,7 +13602,7 @@
   },
   {
     "id": "microsoft-365-aapne-fil-menyen",
-    "tittel": "Åpne Fil -menyen",
+    "tittel": "Åpne Fil-menyen",
     "forklaring": "ALT+F",
     "tags": [
       "microsoft 365"
