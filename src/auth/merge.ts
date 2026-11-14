@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
-import type { ArticleCategory, Course, FlipCard, Video } from '../types'
+import type { ArticleCategory, Course, FlipCard, Oppslag, OppslagGroup, Video } from '../types'
+import { GROUPS, hurtigtastGroups } from '../data/hurtigtaster'
 import { useAuth } from './useAuth'
 
 export function useMergedCards(publicCards: FlipCard[]): FlipCard[] {
@@ -44,4 +45,16 @@ export function useMergedArticles(publicCategories: ArticleCategory[]): ArticleC
     }
     return result
   }, [publicCategories, locked])
+}
+
+// Gated sections sort in among the public apps.
+export function useMergedHurtigtaster(publicOrd: Oppslag[]): { ord: Oppslag[]; groups: OppslagGroup[] } {
+  const { locked } = useAuth()
+  return useMemo(() => {
+    if (!locked?.hurtigtaster?.length) return { ord: publicOrd, groups: GROUPS }
+    return {
+      ord: [...publicOrd, ...locked.hurtigtaster],
+      groups: hurtigtastGroups(locked.hurtigtasterGrupper),
+    }
+  }, [publicOrd, locked])
 }

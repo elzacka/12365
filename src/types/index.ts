@@ -97,6 +97,8 @@ export interface LockedContent {
   articles?: ArticleCategory[]
   videos?: Video[]
   courses?: Course[]
+  hurtigtaster?: Oppslag[]
+  hurtigtasterGrupper?: OppslagGroup[]
 }
 
 export type LicenseStatus = 'inkludert' | 'tillegg'
@@ -129,6 +131,12 @@ export interface E5LicenseOverview {
 
 // `tittel` is the full form, an acronym goes in `undertittel`. `alias` makes
 // an entry findable by other names without a row of its own.
+/** A section in a grouped Oppslag list: entries whose first tag is `tag`. */
+export interface OppslagGroup {
+  tag: string
+  title: string
+}
+
 export interface Oppslag {
   id: string
   tittel: string

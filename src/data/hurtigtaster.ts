@@ -1,17 +1,28 @@
-// Hurtigtaster sections: apps alphabetically, then the general ones; each entry's first tag is its section.
+import type { OppslagGroup } from '../types'
+
+// Hurtigtaster sections; each entry's first tag is its section.
 // Apps outside E5 (Project, Visio desktop) are left out.
-export const GROUPS = [
+const APPS: OppslagGroup[] = [
   { tag: 'chrome', title: 'Chrome' },
   { tag: 'edge', title: 'Edge' },
   { tag: 'excel', title: 'Excel' },
-  { tag: 'klassisk outlook', title: 'Klassisk Outlook' },
-  { tag: 'nye outlook', title: 'Nye Outlook' },
   { tag: 'onedrive', title: 'OneDrive' },
   { tag: 'onenote', title: 'OneNote' },
+  { tag: 'outlook', title: 'Outlook' },
   { tag: 'powerpoint', title: 'PowerPoint' },
   { tag: 'teams', title: 'Teams' },
   { tag: 'word', title: 'Word' },
+]
+
+const GENERAL: OppslagGroup[] = [
   { tag: 'microsoft 365', title: 'Microsoft 365' },
   { tag: 'windows', title: 'Windows' },
   { tag: 'internasjonale tegn', title: 'Internasjonale tegn' },
 ]
+
+/** Apps A–Z, gated ones included, then the general sections. */
+export function hurtigtastGroups(gated: OppslagGroup[] = []): OppslagGroup[] {
+  return [...APPS, ...gated].sort((a, b) => a.title.localeCompare(b.title, 'nb')).concat(GENERAL)
+}
+
+export const GROUPS = hurtigtastGroups()

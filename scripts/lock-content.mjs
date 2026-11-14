@@ -25,6 +25,7 @@ const projectRoot = resolve(dirname(__filename), '..')
 const sourcePath = resolve(projectRoot, 'dev_only/locked-content.source.json')
 const outputPath = resolve(projectRoot, 'public/content/locked.json')
 const publicArticlesPath = resolve(projectRoot, 'public/content/articles.json')
+const publicHurtigtasterPath = resolve(projectRoot, 'public/content/hurtigtaster.json')
 
 const PBKDF2_ITERATIONS = 310_000
 
@@ -52,7 +53,7 @@ async function deriveKey(passphrase, salt) {
 // Invariants for the gated/public boundary. Run before we encrypt anything.
 // If any of these fail we refuse to write a new locked.json — that prevents
 // pushing content where a public listing leaks the existence of a gated item.
-function validateBoundary(source, publicCategories) {
+function validateBoundary(source, publicCategories, publicHurtigtaster) {
   const errors = []
 
   const lockedArticleIds = new Set()
@@ -89,6 +90,17 @@ function validateBoundary(source, publicCategories) {
     }
   }
 
+  // 3. Hurtigtaster: a gated row or section must not share an id or tag with a public one.
+  const lockedKeys = source.hurtigtaster ?? []
+  const publicKeyIds = new Set(publicHurtigtaster.map(o => o.id))
+  for (const o of lockedKeys) {
+    if (publicKeyIds.has(o.id)) errors.push(`ID-kollisjon: «${o.id}» finnes både offentlig og som låst hurtigtast.`)
+  }
+  const publicTags = new Set(publicHurtigtaster.flatMap(o => o.tags))
+  for (const g of source.hurtigtasterGrupper ?? []) {
+    if (publicTags.has(g.tag)) errors.push(`Låst hurtigtastkategori «${g.tag}» brukes også i offentlige hurtigtaster.`)
+  }
+
   if (errors.length > 0) {
     console.error('Brudd på regler for låst innhold — locked.json er ikke skrevet:')
     for (const e of errors) console.error('  - ' + e)
@@ -121,7 +133,7 @@ async function main() {
     await access(sourcePath)
   } catch {
     console.error(`Kildefil mangler: ${sourcePath}`)
-    console.error('Opprett dev_only/locked-content.source.json med strukturen { "cards": [...], "articles": [...], "videos": [...] } og prøv igjen.')
+    console.error('Opprett dev_only/locked-content.source.json med strukturen { "cards": [...], "articles": [...], "videos": [...], "hurtigtaster": [...], "hurtigtasterGrupper": [...] } og prøv igjen.')
     process.exit(1)
   }
 
@@ -134,7 +146,8 @@ async function main() {
     // Missing public articles.json is unusual but not fatal — boundary check
     // simply has nothing to compare against.
   }
-  validateBoundary(source, publicCategories)
+  const publicHurtigtaster = JSON.parse(await readFile(publicHurtigtasterPath, 'utf8'))
+  validateBoundary(source, publicCategories, publicHurtigtaster)
 
   let passphrase = process.env.LOCK_PASSPHRASE
   if (!passphrase) {

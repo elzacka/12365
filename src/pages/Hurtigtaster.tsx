@@ -1,25 +1,26 @@
 import { use } from 'react'
 import { fetchHurtigtaster } from '../data/loader'
 import { OppslagView, type SearchExample } from '../components/OppslagView'
-import { GROUPS } from '../data/hurtigtaster'
+import { useMergedHurtigtaster } from '../auth/merge'
 
 const PLACEHOLDER_WORDS = ['handling', 'tast', 'app']
 
 const EXAMPLES: SearchExample[] = [
   { kode: 'mikrofon', beskrivelse: 'viser alle hurtigtaster med «mikrofon» i beskrivelsen' },
   { kode: 'skift', beskrivelse: 'viser alle hurtigtaster med Skift-tasten' },
-  { kode: 'outlook', beskrivelse: 'viser alle hurtigtaster i nye og klassisk Outlook' },
+  { kode: 'outlook', beskrivelse: 'viser alle hurtigtaster i Outlook' },
 ]
 
 export function Hurtigtaster() {
+  const { ord, groups } = useMergedHurtigtaster(use(fetchHurtigtaster()))
   return (
     <OppslagView
-      ord={use(fetchHurtigtaster())}
+      ord={ord}
       placeholderWords={PLACEHOLDER_WORDS}
       searchLabel="Søk i hurtigtastene"
       examples={EXAMPLES}
       resetLabel="Vis alle hurtigtastene"
-      groups={GROUPS}
+      groups={groups}
       keys
     />
   )

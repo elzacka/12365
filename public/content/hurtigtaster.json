@@ -1464,612 +1464,12 @@
     ]
   },
   {
-    "id": "nye-outlook-opprett-en-ny-melding-eller-kalenderhendelse",
-    "tittel": "Opprett en ny melding eller kalenderhendelse",
-    "forklaring": "CTRL+N",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-aapne-den-valgte-meldingen-i-et-nytt-vindu",
-    "tittel": "Åpne den valgte meldingen i et nytt vindu",
-    "forklaring": "SKIFT+ENTER",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-videresend-melding",
-    "tittel": "Videresend melding",
-    "forklaring": "Ctrl+B",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-calendar",
-    "tittel": "Gå til Calendar",
-    "forklaring": "Ctrl+2",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-velg-alternativet-svar-til-alle",
-    "tittel": "Velg alternativet Svar til alle",
-    "forklaring": "CTRL+SKIFT+R",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-svare-paa-e-postmelding",
-    "tittel": "Svare på e-postmelding",
-    "forklaring": "CTRL+R",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-send-en-e-postmelding",
-    "tittel": "Send en e-postmelding",
-    "forklaring": "Ctrl+Enter",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-aapne-delte-knapper",
-    "tittel": "Åpne delte knapper",
-    "forklaring": "ALT+Pil ned",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-aapne-hurtigtaster",
-    "tittel": "Åpne hurtigtaster",
-    "forklaring": "Spørsmålstegn (?)",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-viktige-tips",
-    "tittel": "Viktige tips",
-    "forklaring": "Alt",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-kopiere-det-merkede-omraadet-til-utklippstavlen",
-    "tittel": "Kopiere det merkede området til utklippstavlen",
-    "forklaring": "CTRL+C",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-klippe-ut-teksten-du-har-merket",
-    "tittel": "Klippe ut teksten du har merket",
-    "forklaring": "CTRL+X",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-slette-merket-tekst-eller-tegnene-til-venstre-fo",
-    "tittel": "Slette merket tekst eller tegnene til venstre for markøren",
-    "forklaring": "TILBAKE",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-slette-ordet-til-venstre-for-markoeren-men-ikke-",
-    "tittel": "Slette ordet til venstre for markøren, men ikke mellomrommet foran ordet",
-    "forklaring": "Ctrl+Tilbake",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-sett-inn-en-hyperkobling",
-    "tittel": "Sett inn en hyperkobling",
-    "forklaring": "CTRL+K",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-lime-inn-innhold-fra-utklippstavlen-til-gjeldend",
-    "tittel": "Lime inn innhold fra utklippstavlen til gjeldende plassering",
-    "forklaring": "CTRL+V",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gjenta-siste-handling",
-    "tittel": "Gjenta siste handling",
-    "forklaring": "CTRL+Y",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-angre-siste-handling",
-    "tittel": "Angre siste handling",
-    "forklaring": "CTRL+Z",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-bruk-fet-formatering",
-    "tittel": "Bruk fet formatering",
-    "forklaring": "CTRL+B",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-bruk-kursiv-formatering",
-    "tittel": "Bruk kursiv formatering",
-    "forklaring": "CTRL+I",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-understreke-tekst",
-    "tittel": "Understreke tekst",
-    "forklaring": "CTRL+U",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-mapperuten",
-    "tittel": "Gå til mapperuten",
-    "forklaring": "CTRL+Y",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-skjule-den-valgte-inndelingen",
-    "tittel": "Skjule den valgte inndelingen",
-    "forklaring": "Pil venstre",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-vise-den-valgte-inndelingen",
-    "tittel": "Vise den valgte inndelingen",
-    "forklaring": "Pil høyre",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-markere-den-merkede-samtalen-eller-meldingen-som",
-    "tittel": "Markere den merkede samtalen eller meldingen som lest",
-    "forklaring": "CTRL+Q",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-markere-den-merkede-samtalen-eller-meldingen-som-2",
-    "tittel": "Markere den merkede samtalen eller meldingen som ulest",
-    "forklaring": "CTRL+U",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-slette-den-valgte-meldingen-eller-det-valgte-ele",
-    "tittel": "Slette den valgte meldingen eller det valgte elementet for godt",
-    "forklaring": "SKIFT+DELETE",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-avbryte-et-soek",
-    "tittel": "Avbryte et søk",
-    "forklaring": "ESC",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-neste-melding",
-    "tittel": "Gå til neste melding",
-    "forklaring": "Ctrl+>",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-forrige-melding",
-    "tittel": "Gå til forrige melding",
-    "forklaring": "Ctrl+<",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-merke-gjeldende-og-neste-melding-i-listen",
-    "tittel": "Merke gjeldende og neste melding i listen",
-    "forklaring": "SKIFT+PIL NED",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-merke-gjeldende-og-tidligere-meldinger-i-listen",
-    "tittel": "Merke gjeldende og tidligere meldinger i listen",
-    "forklaring": "SKIFT+PIL OPP",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-merke-foerste-melding-i-mappen",
-    "tittel": "Merke første melding i mappen",
-    "forklaring": "HOME eller CTRL+HOME",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-lukke-en-ny-melding",
-    "tittel": "Lukke en ny melding",
-    "forklaring": "ESC",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-opprette-en-ny-melding",
-    "tittel": "Opprette en ny melding",
-    "forklaring": "CTRL+N",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-videresende-en-merket-melding",
-    "tittel": "Videresende en merket melding",
-    "forklaring": "Ctrl+B",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-bunnen-av-en-samtale-eller-melding",
-    "tittel": "Gå til bunnen av en samtale eller melding",
-    "forklaring": "END",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-toppen-av-en-samtale-eller-melding",
-    "tittel": "Gå til toppen av en samtale eller melding",
-    "forklaring": "Hjem",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-flytte-ned-n-side-i-samtaler-eller-meldinger-paa",
-    "tittel": "Flytte ned én side i samtaler eller meldinger på to eller flere sider",
-    "forklaring": "PGDN",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-flytte-opp-n-side-i-samtaler-eller-meldinger-paa",
-    "tittel": "Flytte opp én side i samtaler eller meldinger på to eller flere sider",
-    "forklaring": "PGUP",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-svare-paa-den-merkede-meldingen",
-    "tittel": "Svare på den merkede meldingen",
-    "forklaring": "CTRL+R",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-svare-avsenderen-og-alle-mottakere-av-den-merked",
-    "tittel": "Svare avsenderen og alle mottakere av den merkede meldingen",
-    "forklaring": "CTRL+SKIFT+R",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-sende-en-melding",
-    "tittel": "Sende en melding",
-    "forklaring": "Ctrl+Enter",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-aapne-kalendervisningen",
-    "tittel": "Åpne kalendervisningen",
-    "forklaring": "Ctrl+2",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-opprette-et-nytt-kalenderelement",
-    "tittel": "Opprette et nytt kalenderelement",
-    "forklaring": "CTRL+N",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-aapne-det-valgte-elementet",
-    "tittel": "Åpne det valgte elementet",
-    "forklaring": "ENTER",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-et-annet-omraade-i-kalenderen",
-    "tittel": "Gå til et annet område i kalenderen",
-    "forklaring": "F6 eller CTRL+SKIFT+TAB",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-neste-hendelse-eller-omraade-i-gjeldende",
-    "tittel": "Gå til neste hendelse eller område i gjeldende visning",
-    "forklaring": "TABULATOR-tasten",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-en-tidligere-hendelse-eller-omraade-i-gj",
-    "tittel": "Gå til en tidligere hendelse eller område i gjeldende visning",
-    "forklaring": "Shift+Tab",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-neste-tidsperiode",
-    "tittel": "Gå til neste tidsperiode",
-    "forklaring": "CTRL+ALT+PIL HØYRE",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-forrige-tidsperiode",
-    "tittel": "Gå til forrige tidsperiode",
-    "forklaring": "CTRL+ALT+PIL VENSTRE",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-i-dag",
-    "tittel": "Gå til i dag",
-    "forklaring": "ALT+SKIFT+Y/Home",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-bytte-til-dagsvisning",
-    "tittel": "Bytte til dagsvisning",
-    "forklaring": "CTRL+ALT+1",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-bytte-til-visning-av-hel-uke",
-    "tittel": "Bytte til visning av hel uke",
-    "forklaring": "CTRL+ALT+2/ALT+\"-\"",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-bytte-til-maanedsvisning",
-    "tittel": "Bytte til månedsvisning",
-    "forklaring": "CTRL+ALT+4/ALT+\"=\"",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-bytte-til-arbeidsukevisning",
-    "tittel": "Bytte til arbeidsukevisning",
-    "forklaring": "CTRL+ALT+2",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-bytte-til-tredagersvisning",
-    "tittel": "Bytte til tredagersvisning",
-    "forklaring": "ALT+3",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-inviter-deltakere",
-    "tittel": "Inviter deltakere",
-    "forklaring": "CTRL+N",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-e-post",
-    "tittel": "Gå til E-post",
-    "forklaring": "Ctrl+1",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-copilot",
-    "tittel": "Gå til Copilot",
-    "forklaring": "Ctrl+3",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-til-people",
-    "tittel": "Gå til People",
-    "forklaring": "Ctrl+4",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-slette-en-kontakt-eller-kontaktliste",
-    "tittel": "Slette en kontakt eller kontaktliste",
-    "forklaring": "DELETE eller CTRL+D",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-opprette-en-kontakt",
-    "tittel": "Opprette en kontakt",
-    "forklaring": "CTRL+N",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-soek-etter-en-kontakt",
-    "tittel": "Søk etter en kontakt",
-    "forklaring": "Ctrl+E",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-forkast-kontakt",
-    "tittel": "Forkast kontakt",
-    "forklaring": "ESC",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-lagre-en-kontakt-eller-kontaktliste",
-    "tittel": "Lagre en kontakt eller kontaktliste",
-    "forklaring": "CTRL+S",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-velg-alle-kontakter-eller-kontaktlister",
-    "tittel": "Velg alle kontakter eller kontaktlister",
-    "forklaring": "CTRL+A",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-fjern-merking-for-alle-kontakter-eller-kontaktli",
-    "tittel": "Fjern merking for alle kontakter eller kontaktlister",
-    "forklaring": "ESC",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-redigere-en-kontakt-eller-kontaktliste",
-    "tittel": "Redigere en kontakt eller kontaktliste",
-    "forklaring": "SKIFT+E",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-gaa-nedover-i-kontaktlisten-eller-hublisten",
-    "tittel": "Gå nedover i kontaktlisten eller hublisten",
-    "forklaring": "Pil ned",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-flytte-oppover-i-kontaktlisten-eller-hublisten",
-    "tittel": "Flytte oppover i kontaktlisten eller hublisten",
-    "forklaring": "Pil opp",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-opprette-en-kontaktliste",
-    "tittel": "Opprette en kontaktliste",
-    "forklaring": "CTRL+L",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-vis-listen-over-hurtigtaster-i-people",
-    "tittel": "Vis listen over hurtigtaster i People",
-    "forklaring": "Skift+spørsmålstegn (?)",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-flytt-fokuset-til-hjem-fanen",
-    "tittel": "Flytt fokuset til Hjem-fanen",
-    "forklaring": "Alt, H",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-flytt-fokuset-til-vis-fanen",
-    "tittel": "Flytt fokuset til Vis-fanen",
-    "forklaring": "Alt, V",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
     "id": "nye-outlook",
     "tittel": "À",
     "forklaring": "ALT+0192",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2078,7 +1478,7 @@
     "forklaring": "ALT+0200",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2087,7 +1487,7 @@
     "forklaring": "ALT+0204",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2096,7 +1496,7 @@
     "forklaring": "ALT+0210",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2105,7 +1505,7 @@
     "forklaring": "ALT+0217",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2114,7 +1514,7 @@
     "forklaring": "ALT+0224",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2123,7 +1523,7 @@
     "forklaring": "ALT+0232",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2132,7 +1532,7 @@
     "forklaring": "ALT+0236",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2141,7 +1541,7 @@
     "forklaring": "ALT+0242",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2150,7 +1550,7 @@
     "forklaring": "ALT+0249",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2159,7 +1559,7 @@
     "forklaring": "ALT+0193",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2168,7 +1568,7 @@
     "forklaring": "ALT+0201",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2177,7 +1577,7 @@
     "forklaring": "ALT+0205",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2186,7 +1586,7 @@
     "forklaring": "ALT+0211",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2195,7 +1595,7 @@
     "forklaring": "ALT+0218",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2204,7 +1604,7 @@
     "forklaring": "ALT+0221",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2213,7 +1613,7 @@
     "forklaring": "ALT+0225",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2222,7 +1622,7 @@
     "forklaring": "ALT+0233",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2231,7 +1631,7 @@
     "forklaring": "ALT+0237",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2240,7 +1640,7 @@
     "forklaring": "ALT+0243",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2249,7 +1649,7 @@
     "forklaring": "ALT+0250",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2258,7 +1658,7 @@
     "forklaring": "ALT+0253",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2267,7 +1667,7 @@
     "forklaring": "ALT+0194",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2276,7 +1676,7 @@
     "forklaring": "ALT+0202",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2285,7 +1685,7 @@
     "forklaring": "ALT+0206",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2294,7 +1694,7 @@
     "forklaring": "ALT+0212",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2303,7 +1703,7 @@
     "forklaring": "ALT+0219",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2312,7 +1712,7 @@
     "forklaring": "ALT+0226",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2321,7 +1721,7 @@
     "forklaring": "ALT+0234",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2330,7 +1730,7 @@
     "forklaring": "ALT+0238",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2339,7 +1739,7 @@
     "forklaring": "ALT+0244",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2348,7 +1748,7 @@
     "forklaring": "ALT+0251",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2357,7 +1757,7 @@
     "forklaring": "ALT+0195",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2366,7 +1766,7 @@
     "forklaring": "ALT+0209",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2375,7 +1775,7 @@
     "forklaring": "ALT+0213",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2384,7 +1784,7 @@
     "forklaring": "ALT+0227",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2393,7 +1793,7 @@
     "forklaring": "ALT+0241",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2402,7 +1802,7 @@
     "forklaring": "ALT+0245",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2411,7 +1811,7 @@
     "forklaring": "ALT+0196",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2420,7 +1820,7 @@
     "forklaring": "ALT+0203",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2429,7 +1829,7 @@
     "forklaring": "ALT+0207",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2438,7 +1838,7 @@
     "forklaring": "ALT+0214",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2447,7 +1847,7 @@
     "forklaring": "ALT+0220",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2456,7 +1856,7 @@
     "forklaring": "ALT+0159",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2465,7 +1865,7 @@
     "forklaring": "ALT+0228",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2474,7 +1874,7 @@
     "forklaring": "ALT+0235",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2483,7 +1883,7 @@
     "forklaring": "ALT+0239",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2492,7 +1892,7 @@
     "forklaring": "ALT+0246",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2501,7 +1901,7 @@
     "forklaring": "ALT+0252",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2510,7 +1910,7 @@
     "forklaring": "ALT+0255",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2519,7 +1919,7 @@
     "forklaring": "ALT+0161",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2528,7 +1928,7 @@
     "forklaring": "ALT+0191",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2537,7 +1937,7 @@
     "forklaring": "ALT+0199",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2546,7 +1946,7 @@
     "forklaring": "ALT+0231",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2555,7 +1955,7 @@
     "forklaring": "ALT+0140",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2564,7 +1964,7 @@
     "forklaring": "ALT+0156",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2573,7 +1973,7 @@
     "forklaring": "ALT+0223",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2582,7 +1982,7 @@
     "forklaring": "ALT+0186",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2591,55 +1991,7 @@
     "forklaring": "ALT+0170",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-store-bokstaver-o-med-stroek-oe",
-    "tittel": "Store bokstaver O med strøk (Ø)",
-    "forklaring": "ALT+0216",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-smaa-bokstaver-o-med-stroek-oe",
-    "tittel": "Små bokstaver o med strøk (ø)",
-    "forklaring": "ALT+0248",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-store-bokstaver-a-med-overring-a-ring-aa",
-    "tittel": "Store bokstaver A med overring, A-ring (Å)",
-    "forklaring": "ALT+0197",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-smaa-bokstaver-a-med-overring-a-ring-aa",
-    "tittel": "Små bokstaver a med overring, A-ring (å)",
-    "forklaring": "ALT+0229",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-store-bokstaver-ae-diftong-eller-ask-med-store-b",
-    "tittel": "Store bokstaver AE-diftong, eller ask med store bokstaver (Æ)",
-    "forklaring": "ALT+0198",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-smaa-bokstaver-ae-diftong-eller-ask-med-smaa-bok",
-    "tittel": "Små bokstaver ae diftong eller ask med små bokstaver (æ)",
-    "forklaring": "ALT+0230",
-    "tags": [
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2648,7 +2000,7 @@
     "forklaring": "ALT+0222",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2657,7 +2009,7 @@
     "forklaring": "ALT+0254",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2666,7 +2018,7 @@
     "forklaring": "ALT+0208",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2675,23 +2027,7 @@
     "forklaring": "ALT+0240",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-dobbelt-venstrevinklet-anfoerselstegn",
-    "tittel": "Dobbelt venstrevinklet anførselstegn («)",
-    "forklaring": "ALT+0171",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-dobbelt-rettvinklet-anfoerselstegn",
-    "tittel": "Dobbelt rettvinklet anførselstegn (»)",
-    "forklaring": "ALT+0187",
-    "tags": [
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2700,7 +2036,7 @@
     "forklaring": "ALT+0139",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2709,7 +2045,7 @@
     "forklaring": "ALT+0155",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2718,7 +2054,7 @@
     "forklaring": "ALT+0138",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2727,7 +2063,7 @@
     "forklaring": "ALT+0154",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2736,7 +2072,7 @@
     "forklaring": "ALT+0142",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2745,135 +2081,7 @@
     "forklaring": "ALT+0158",
     "tags": [
       "internasjonale tegn",
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-cent-symbol",
-    "tittel": "Cent-symbol ¢",
-    "forklaring": "ALT+0162",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-symbol-for-opphavsrett",
-    "tittel": "Symbol for © opphavsrett",
-    "forklaring": "ALT+0169",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-dolksymbol",
-    "tittel": "Dolksymbol †",
-    "forklaring": "ALT+0134",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-dobbelt-dolksymbol-eller-diesis",
-    "tittel": "Dobbelt dolksymbol eller diesis ‡",
-    "forklaring": "ALT+0135",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-pundtegn",
-    "tittel": "Pundtegn £",
-    "forklaring": "ALT+0163",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-eurotegn",
-    "tittel": "Eurotegn €",
-    "forklaring": "ALT+0128",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-yen-tegnet",
-    "tittel": "Yen-tegnet ¥",
-    "forklaring": "ALT+0165",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-funksjonstegn",
-    "tittel": "Funksjonstegn ƒ",
-    "forklaring": "ALT+0131",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-valutategn",
-    "tittel": "Valutategn ¤",
-    "forklaring": "ALT+0164",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-symbol-for-registrert-varemerke",
-    "tittel": "Symbol for ® registrert varemerke",
-    "forklaring": "ALT+0174",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-symbol-for-varemerke",
-    "tittel": "Symbol ™ for varemerke",
-    "forklaring": "ALT+0153",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-kule",
-    "tittel": "Kule •",
-    "forklaring": "ALT+0149",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-kort-tankestrek",
-    "tittel": "Kort tankestrek –",
-    "forklaring": "ALT+0150",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-lang-tankestrek",
-    "tittel": "Lang tankestrek —",
-    "forklaring": "ALT+0151",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-paragraf",
-    "tittel": "Paragraf §",
-    "forklaring": "ALT+0167",
-    "tags": [
-      "nye outlook"
-    ]
-  },
-  {
-    "id": "nye-outlook-avsnittstegn-eller-pilcrow",
-    "tittel": "Avsnittstegn eller pilcrow ¶",
-    "forklaring": "ALT+0182",
-    "tags": [
-      "nye outlook"
+      "windows"
     ]
   },
   {
@@ -2881,7 +2089,7 @@
     "tittel": "Lukke et vindu eller en meny",
     "forklaring": "ESC",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2889,7 +2097,7 @@
     "tittel": "Gå til Hjem -fanen",
     "forklaring": "Alt, H",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2897,7 +2105,7 @@
     "tittel": "Opprette en ny melding",
     "forklaring": "CTRL+SKIFT+M",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2905,7 +2113,7 @@
     "tittel": "Sende en melding",
     "forklaring": "ALT+S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2913,7 +2121,7 @@
     "tittel": "Sett inn en fil",
     "forklaring": "ALT+N, A, F",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2921,7 +2129,7 @@
     "tittel": "Ny oppgave",
     "forklaring": "CTRL+SKIFT+K",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2929,7 +2137,7 @@
     "tittel": "Søke etter et element",
     "forklaring": "CTRL+E eller F3",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2937,7 +2145,7 @@
     "tittel": "Svare på en melding",
     "forklaring": "ALT+H, R, P eller CTRL+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2945,7 +2153,7 @@
     "tittel": "Videresende en melding",
     "forklaring": "ALT+H, F, W eller CTRL+F",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2953,7 +2161,7 @@
     "tittel": "Velg alternativet Svar til alle",
     "forklaring": "ALT+H, R, A eller CTRL+SKIFT+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2961,7 +2169,7 @@
     "tittel": "Kopiere et element",
     "forklaring": "Ctrl+C eller Ctrl+Insert",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2969,7 +2177,7 @@
     "tittel": "Gå til Send/motta-fanen",
     "forklaring": "Alt, J, S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2977,7 +2185,7 @@
     "tittel": "Gå til Calendar",
     "forklaring": "Ctrl+2",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2985,7 +2193,7 @@
     "tittel": "Opprette en avtale",
     "forklaring": "Ctrl+Shift+A",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -2993,7 +2201,7 @@
     "tittel": "Flytte et element til en mappe",
     "forklaring": "ALT, H, M, V",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3001,7 +2209,7 @@
     "tittel": "Åpne dialogboksen Lagre som i kategorien Vedlegg",
     "forklaring": "Alt, J, A, 2, A, V",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3009,7 +2217,7 @@
     "tittel": "Se etter nye meldinger",
     "forklaring": "Ctrl+M eller F9",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3017,7 +2225,7 @@
     "tittel": "Bytt til e-postvisningen",
     "forklaring": "Ctrl+1",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3025,7 +2233,7 @@
     "tittel": "Bytt til Calendar-visningen",
     "forklaring": "Ctrl+2",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3033,7 +2241,7 @@
     "tittel": "Bytt til Copilot-visningen",
     "forklaring": "Ctrl+3",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3041,7 +2249,7 @@
     "tittel": "Bytt til People-visningen",
     "forklaring": "Ctrl+4",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3049,7 +2257,7 @@
     "tittel": "Bytt til To Do",
     "forklaring": "Ctrl+5",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3057,7 +2265,7 @@
     "tittel": "Bytt til Organisasjonsutforsker-ruten",
     "forklaring": "Ctrl+6",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3065,7 +2273,7 @@
     "tittel": "Bytt til Loop",
     "forklaring": "CTRL+7",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3073,7 +2281,7 @@
     "tittel": "Åpne oppgaver",
     "forklaring": "CTRL+8",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3081,7 +2289,7 @@
     "tittel": "Åpne adresseboken",
     "forklaring": "CTRL+SKIFT+B",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3089,7 +2297,7 @@
     "tittel": "Gå tilbake til forrige visning",
     "forklaring": "ALT+B eller ALT+PIL VENSTRE",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3097,7 +2305,7 @@
     "tittel": "Gå frem til neste visning",
     "forklaring": "ALT+pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3105,7 +2313,7 @@
     "tittel": "Bytte til neste åpne melding",
     "forklaring": "CTRL+PUNKTUM (.)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3113,23 +2321,23 @@
     "tittel": "Bytte til forrige åpne melding",
     "forklaring": "CTRL+KOMMA (,)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
     "id": "klassisk-outlook-flytte-mellom-mapperuten-det-klassiske-hove",
-    "tittel": "Flytte mellom mapperuten, det klassiske hovedvinduet i Outlook, leseruten og To-Do-feltet",
+    "tittel": "Flytte mellom mapperuten, hovedvinduet i Outlook, leseruten og To-Do-feltet",
     "forklaring": "CTRL+SKIFT+TABULATOR eller SKIFT+TABULATOR",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
     "id": "klassisk-outlook-flytte-mellom-det-klassiske-outlook-vinduet",
-    "tittel": "Flytte mellom det klassiske Outlook-vinduet, de mindre rutene i mapperuten, leseruten og inndelingene i To-Do-feltet",
+    "tittel": "Flytte mellom Outlook-vinduet, de mindre rutene i mapperuten, leseruten og inndelingene i To-Do-feltet",
     "forklaring": "TABULATORTASTEN eller F6",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3137,7 +2345,7 @@
     "tittel": "Flytte mellom båndet og kalenderen",
     "forklaring": "F6",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3145,7 +2353,7 @@
     "tittel": "Vis tilgangstastene på båndet",
     "forklaring": "ALT eller F6",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3153,7 +2361,7 @@
     "tittel": "Vise verktøytipset for båndelementet som er i fokus",
     "forklaring": "CTRL+SKIFT+F10",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3161,7 +2369,7 @@
     "tittel": "Åpne delte knapper",
     "forklaring": "ALT+Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3169,7 +2377,7 @@
     "tittel": "Flytte rundt på meldingshodelinjer i mapperuten eller i en åpen melding",
     "forklaring": "CTRL+TAB",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3177,7 +2385,7 @@
     "tittel": "Flytte mellom navigasjonsruten og kalenderen",
     "forklaring": "CTRL+TAB",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3185,7 +2393,7 @@
     "tittel": "Flytte rundt i mapperuten",
     "forklaring": "Piltaster",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3193,7 +2401,7 @@
     "tittel": "Gå til en annen mappe",
     "forklaring": "CTRL+Y",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3201,7 +2409,7 @@
     "tittel": "Gå til Søk -boksen",
     "forklaring": "F3 eller Ctrl+E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3209,7 +2417,7 @@
     "tittel": "Gå til forrige melding i leseruten",
     "forklaring": "ALT+PIL OPP eller CTRL+KOMMA (,) eller ALT+PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3217,7 +2425,7 @@
     "tittel": "Bla ned gjennom teksten i leseruten",
     "forklaring": "MELLOMROM",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3225,7 +2433,7 @@
     "tittel": "Bla opp gjennom teksten i leseruten",
     "forklaring": "SKIFT+MELLOMROM",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3233,23 +2441,23 @@
     "tittel": "Vise/skjule en gruppe i listen over e-postmeldinger",
     "forklaring": "PIL VENSTRE eller PIL HØYRE",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
     "id": "klassisk-outlook-gaa-tilbake-til-forrige-visning-i-det-klass",
-    "tittel": "Gå tilbake til forrige visning i det klassiske hovedvinduet i Outlook",
+    "tittel": "Gå tilbake til forrige visning i hovedvinduet i Outlook",
     "forklaring": "ALT+B eller ALT+PIL VENSTRE",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
     "id": "klassisk-outlook-gaa-frem-til-neste-visning-i-hovedvinduet-i",
-    "tittel": "Gå frem til neste visning i hovedvinduet i klassisk Outlook",
+    "tittel": "Gå frem til neste visning i hovedvinduet i Outlook",
     "forklaring": "ALT+pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3257,7 +2465,7 @@
     "tittel": "Velg informasjonslinjen og vis menyen med kommandoer hvis tilgjengelig",
     "forklaring": "CTRL+SKIFT+W",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3265,7 +2473,7 @@
     "tittel": "Vise To-Do-feltet (oversikt)",
     "forklaring": "ALT+V, B",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3273,7 +2481,7 @@
     "tittel": "Åpne Hjem-fanen",
     "forklaring": "ALT+H",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3281,7 +2489,7 @@
     "tittel": "Åpne Fil -menyen",
     "forklaring": "ALT+F",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3289,7 +2497,7 @@
     "tittel": "Åpne Send/motta-fanen",
     "forklaring": "Alt+J, S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3297,7 +2505,7 @@
     "tittel": "Åpne Mappe-fanen",
     "forklaring": "ALT+O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3305,7 +2513,7 @@
     "tittel": "Åpne Vis-fanen",
     "forklaring": "Alt+V",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3313,7 +2521,7 @@
     "tittel": "Åpne Søk-fanen",
     "forklaring": "Ctrl+E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3321,7 +2529,7 @@
     "tittel": "Gå til søkefeltet Fortell meg det",
     "forklaring": "ALT+Q",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3329,7 +2537,7 @@
     "tittel": "Opprette en kontakt",
     "forklaring": "Ctrl+Shift+C",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3337,7 +2545,7 @@
     "tittel": "Opprette en kontaktgruppe",
     "forklaring": "Ctrl+Shift+L",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3345,7 +2553,7 @@
     "tittel": "Opprette en telefaks",
     "forklaring": "Ctrl+Shift+X",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3353,7 +2561,7 @@
     "tittel": "Opprette en mappe",
     "forklaring": "CTRL+SKIFT+E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3361,7 +2569,7 @@
     "tittel": "Opprette en møteinvitasjon",
     "forklaring": "CTRL+SKIFT+Q",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3369,7 +2577,7 @@
     "tittel": "Opprette en melding",
     "forklaring": "CTRL+SKIFT+M",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3377,7 +2585,7 @@
     "tittel": "Opprette et notat",
     "forklaring": "CTRL+SKIFT+N",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3385,7 +2593,7 @@
     "tittel": "Opprette et Microsoft Office-dokument",
     "forklaring": "CTRL+SKIFT+H",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3393,7 +2601,7 @@
     "tittel": "Publisere til den merkede mappen",
     "forklaring": "Ctrl+Shift+S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3401,7 +2609,7 @@
     "tittel": "Publisere et svar i mappen som er valgt",
     "forklaring": "CTRL+T",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3409,7 +2617,7 @@
     "tittel": "Opprette en søkemappe",
     "forklaring": "Ctrl+Shift+P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3417,7 +2625,7 @@
     "tittel": "Opprette en oppgave",
     "forklaring": "CTRL+SKIFT+K",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3425,7 +2633,7 @@
     "tittel": "Vise Formater tekst-fanen på båndet",
     "forklaring": "ALT+O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3433,7 +2641,7 @@
     "tittel": "Vise dialogboksen Skrift",
     "forklaring": "Ctrl+Shift+P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3441,7 +2649,7 @@
     "tittel": "Bytte bokstavtypen til første bokstav i et valgt ord eller linje",
     "forklaring": "SKIFT+F3",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3449,7 +2657,7 @@
     "tittel": "Veksle mellom små og store bokstaver i den valgte teksten",
     "forklaring": "CTRL+SKIFT+K",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3457,7 +2665,7 @@
     "tittel": "Bruk fet formatering",
     "forklaring": "CTRL+B",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3465,7 +2673,7 @@
     "tittel": "Legge til en punktliste",
     "forklaring": "Ctrl+Shift+L",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3473,7 +2681,7 @@
     "tittel": "Bruk kursiv formatering",
     "forklaring": "CTRL+I",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3481,7 +2689,7 @@
     "tittel": "Øke innrykket",
     "forklaring": "CTRL+T",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3489,7 +2697,7 @@
     "tittel": "Minske innrykket",
     "forklaring": "Ctrl+Shift+T",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3497,7 +2705,7 @@
     "tittel": "Midtstille tekst",
     "forklaring": "Ctrl+E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3505,7 +2713,7 @@
     "tittel": "Understreke tekst",
     "forklaring": "CTRL+U",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3513,7 +2721,7 @@
     "tittel": "Øke skriftstørrelsen",
     "forklaring": "CTRL+HØYRE HAKEPARENTES (]) eller CTRL+SKIFT+STØRRE enn-tegn (>)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3521,7 +2729,7 @@
     "tittel": "Reduser skriftstørrelsen",
     "forklaring": "CTRL+VENSTRE HAKEPARENTES ([) eller CTRL+SKIFT+MINDRE enn-tegn (<)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3529,7 +2737,7 @@
     "tittel": "Klippe ut et merket område",
     "forklaring": "CTRL+X eller SKIFT+DEL",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3537,7 +2745,7 @@
     "tittel": "Kopiere et merket område",
     "forklaring": "Ctrl+C eller Ctrl+Insert",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3545,7 +2753,7 @@
     "tittel": "Lime inn det kopierte eller utklipte merkede området",
     "forklaring": "Ctrl+V eller Skift+Insert",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3553,7 +2761,7 @@
     "tittel": "Fjerne formateringen",
     "forklaring": "Ctrl+Skift+Z eller Ctrl+Mellomrom",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3561,7 +2769,7 @@
     "tittel": "Slette det neste ordet",
     "forklaring": "CTRL+SKIFT+H",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3569,7 +2777,7 @@
     "tittel": "Blokkjustere tekst (strekke et avsnitt slik at det passer mellom margene)",
     "forklaring": "Ctrl+Shift+J",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3577,7 +2785,7 @@
     "tittel": "Bruke stiler",
     "forklaring": "Ctrl+Shift+S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3585,7 +2793,7 @@
     "tittel": "Opprette et hengende innrykk",
     "forklaring": "CTRL+T",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3593,7 +2801,7 @@
     "tittel": "Sett inn en hyperkobling",
     "forklaring": "CTRL+K",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3601,7 +2809,7 @@
     "tittel": "Venstrejustere et avsnitt",
     "forklaring": "CTRL+L",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3609,7 +2817,7 @@
     "tittel": "Høyrejustere et avsnitt",
     "forklaring": "CTRL+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3617,7 +2825,7 @@
     "tittel": "Redusere et hengende innrykk",
     "forklaring": "Ctrl+Shift+T",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3625,7 +2833,7 @@
     "tittel": "Fjerne avsnittsformatering",
     "forklaring": "CTRL+Q",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3633,7 +2841,7 @@
     "tittel": "Gå til søkefeltet for å finne en melding eller et annet element",
     "forklaring": "CTRL+E eller F3",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3641,7 +2849,7 @@
     "tittel": "Fjerne søkeresultatene",
     "forklaring": "ESC",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3649,7 +2857,7 @@
     "tittel": "Utvide søket til å inkludere Alle e-postelementer, Alle kalenderelementer eller Alle kontaktelementer, avhengig av modulen du er i",
     "forklaring": "Ctrl+Alt+A",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3657,7 +2865,7 @@
     "tittel": "Bruke Avansert søk",
     "forklaring": "Ctrl+Shift+F",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3665,7 +2873,7 @@
     "tittel": "Søke etter tekst i et åpent element",
     "forklaring": "F4",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3673,7 +2881,7 @@
     "tittel": "Finne og erstatte tekst, symboler eller enkelte formateringskommandoer i leseruten eller et åpent element",
     "forklaring": "CTRL+H",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3681,7 +2889,7 @@
     "tittel": "Utvide søket til å inkludere elementer fra gjeldende mappe",
     "forklaring": "CTRL+ALT+K",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3689,7 +2897,7 @@
     "tittel": "Utvide søket til å inkludere undermapper",
     "forklaring": "CTRL+ALT+Z",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3697,7 +2905,7 @@
     "tittel": "Åpne Skriv ut-siden i Fil-menyen",
     "forklaring": "ALT+F, P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3705,7 +2913,7 @@
     "tittel": "Skrive ut et element fra et åpent vindu",
     "forklaring": "Alt+F, P, P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3713,7 +2921,7 @@
     "tittel": "Åpne dialogboksen Utskriftsformat på Skriv ut-siden",
     "forklaring": "Alt+S eller Alt+U",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3721,7 +2929,7 @@
     "tittel": "Velg en skriver på Skriv ut-siden",
     "forklaring": "Alt+F, P, I",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3729,7 +2937,7 @@
     "tittel": "Åpne dialogboksen Utskriftsalternativer",
     "forklaring": "Alt+F, P, R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3737,7 +2945,7 @@
     "tittel": "Åpne dialogboksen Flagg for oppfølging for å tilordne et flagg",
     "forklaring": "CTRL+SKIFT+G",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3745,7 +2953,7 @@
     "tittel": "Slette den valgte kategorien fra listen i dialogboksen Fargekategorier",
     "forklaring": "ALT+D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3753,7 +2961,7 @@
     "tittel": "Bytte til Innboks",
     "forklaring": "CTRL+SKIFT+I",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3761,7 +2969,7 @@
     "tittel": "Bytte til Utboks",
     "forklaring": "Ctrl+Shift+O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3769,7 +2977,7 @@
     "tittel": "Kontrollere navn",
     "forklaring": "CTRL+K",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3777,7 +2985,7 @@
     "tittel": "Svare på en melding",
     "forklaring": "CTRL+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3785,7 +2993,7 @@
     "tittel": "Velg alternativet Svar til alle",
     "forklaring": "CTRL+SKIFT+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3793,7 +3001,7 @@
     "tittel": "Svar med møteinvitasjon",
     "forklaring": "CTRL+ALT+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3801,7 +3009,7 @@
     "tittel": "Videresende en melding",
     "forklaring": "Ctrl+B",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3809,7 +3017,7 @@
     "tittel": "Merke en melding som ikke søppel",
     "forklaring": "CTRL+ALT+J",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3817,7 +3025,7 @@
     "tittel": "Vise blokkert eksternt innhold (i en melding)",
     "forklaring": "CTRL+SKIFT+I",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3825,7 +3033,7 @@
     "tittel": "Legge inn i en mappe",
     "forklaring": "Ctrl+Shift+S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3833,7 +3041,7 @@
     "tittel": "Bruke stilen Normal",
     "forklaring": "CTRL+SKIFT+N",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3841,7 +3049,7 @@
     "tittel": "Gå til den forrige meldingen",
     "forklaring": "Pil opp",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3849,7 +3057,7 @@
     "tittel": "Gå til den neste meldingen",
     "forklaring": "Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3857,7 +3065,7 @@
     "tittel": "Opprett en melding (i E-post-visning)",
     "forklaring": "CTRL+N",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3865,7 +3073,7 @@
     "tittel": "Opprette en melding (fra en hvilken som helst Outlook-visning)",
     "forklaring": "CTRL+SKIFT+M",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3873,7 +3081,7 @@
     "tittel": "Åpne en mottatt melding",
     "forklaring": "CTRL+O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3881,7 +3089,7 @@
     "tittel": "Slette og ignorere en samtale",
     "forklaring": "Ctrl+Shift+D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3889,7 +3097,7 @@
     "tittel": "Vise dialogboksen Flagg for oppfølging",
     "forklaring": "CTRL+SKIFT+G",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3897,7 +3105,7 @@
     "tittel": "Marker en melding som lest",
     "forklaring": "CTRL+Q",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3905,7 +3113,7 @@
     "tittel": "Markere en melding som ulest",
     "forklaring": "CTRL+U",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3913,7 +3121,7 @@
     "tittel": "Åpne e-posttipset i den komponerte meldingen",
     "forklaring": "CTRL+ALT+P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3921,7 +3129,7 @@
     "tittel": "Søke etter eller erstatte tekst",
     "forklaring": "F4",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3929,7 +3137,7 @@
     "tittel": "Finn neste element",
     "forklaring": "SKIFT+F4",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3937,7 +3145,7 @@
     "tittel": "Sende en melding",
     "forklaring": "Ctrl+Enter",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3945,7 +3153,7 @@
     "tittel": "Skrive ut et element",
     "forklaring": "Ctrl+P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3953,7 +3161,7 @@
     "tittel": "Videresende en melding som et vedlegg",
     "forklaring": "Ctrl+Alt+F",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3961,7 +3169,7 @@
     "tittel": "Vise egenskapene for det merkede elementet",
     "forklaring": "ALT+ENTER",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3969,7 +3177,7 @@
     "tittel": "Merk et element for nedlasting",
     "forklaring": "CTRL+ALT+M",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3977,7 +3185,7 @@
     "tittel": "Kontroller status for Merk for nedlasting",
     "forklaring": "Alt+J, S, M, T",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3985,7 +3193,7 @@
     "tittel": "Vise fremdriften for sending/mottak",
     "forklaring": "ALT+J, S, P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -3993,7 +3201,7 @@
     "tittel": "Lagre et element",
     "forklaring": "CTRL+S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4001,7 +3209,7 @@
     "tittel": "Åpne dialogboksen Lagre som",
     "forklaring": "F12",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4009,7 +3217,7 @@
     "tittel": "Flytte rundt i mapperuten",
     "forklaring": "Pil opp og Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4017,7 +3225,7 @@
     "tittel": "Gå til meldingslisten fra mapperuten",
     "forklaring": "MELLOMROM eller ENTER",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4025,7 +3233,7 @@
     "tittel": "Opprett en ny mappe",
     "forklaring": "SKIFT+F10, N",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4033,7 +3241,7 @@
     "tittel": "Vise en valgt gruppe eller mappe med undermapper",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4041,7 +3249,7 @@
     "tittel": "Skjule en valgt gruppe eller mappe med undermapper",
     "forklaring": "Pil venstre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4049,7 +3257,7 @@
     "tittel": "Åpne et merket element i mapperuten",
     "forklaring": "MELLOMROM eller ENTER",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4057,7 +3265,7 @@
     "tittel": "Gi nytt navn til en valgt mappe i mappelisten",
     "forklaring": "F2",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4065,7 +3273,7 @@
     "tittel": "Slett en valgt mappe i listen (standardmapper, for eksempel Innboks, Utboks, Kladd og Sendt kan ikke slettes)",
     "forklaring": "SKIFT+F10, D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4073,7 +3281,7 @@
     "tittel": "Flytte ned og opp i meldingslisten",
     "forklaring": "PIL NED og PIL OPP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4081,7 +3289,7 @@
     "tittel": "Gå til elementet nederst på skjermen",
     "forklaring": "PGDN",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4089,7 +3297,7 @@
     "tittel": "Gå til elementet øverst på skjermen",
     "forklaring": "PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4097,7 +3305,7 @@
     "tittel": "Utvide/redusere de valgte elementene med ett element",
     "forklaring": "SKIFT+PIL OPP-tasten eller SKIFT+PIL NED-tasten",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4105,7 +3313,7 @@
     "tittel": "Gå til neste eller forrige element uten å utvide det merkede området",
     "forklaring": "CTRL+PIL OPP-tasten eller CTRL+PIL NED-tasten",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4113,7 +3321,7 @@
     "tittel": "Merke/oppheve merking av det aktive elementet",
     "forklaring": "CTRL+MELLOMROM",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4121,7 +3329,7 @@
     "tittel": "Vise grupper med meldinger (for eksempel Forrige uke)",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4129,7 +3337,7 @@
     "tittel": "Skjule grupper med meldinger (for eksempel Forrige uke)",
     "forklaring": "Pil venstre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4137,7 +3345,7 @@
     "tittel": "Merk flere tilstøtende meldinger",
     "forklaring": "SKIFT+PIL NED eller PIL OPP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4145,7 +3353,7 @@
     "tittel": "Merk flere meldinger som ikke ligger nær hverandre",
     "forklaring": "CTRL+PIL OPP eller PIL NED",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4153,7 +3361,7 @@
     "tittel": "Flytt meldingen til mappe",
     "forklaring": "Ctrl+Shift+V",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4161,7 +3369,7 @@
     "tittel": "Legg til oppfølging eller hurtigflagg i en melding",
     "forklaring": "SKIFT+F10, U, T",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4169,7 +3377,7 @@
     "tittel": "Legg til egendefinert flagg i en melding",
     "forklaring": "CTRL+SKIFT+G",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4177,7 +3385,7 @@
     "tittel": "Merke en melding som søppelpost eller ikke søppelpost",
     "forklaring": "SKIFT+F10, J",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4185,7 +3393,7 @@
     "tittel": "Merk et element som skal lastes ned",
     "forklaring": "Alt, J, S, M, T",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4193,7 +3401,7 @@
     "tittel": "Merk et element for å laste ned en kopi",
     "forklaring": "Alt, J, S, M, C",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4201,7 +3409,7 @@
     "tittel": "Fjern merkingen av et element som skal lastes ned",
     "forklaring": "Alt, J, S, U, U",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4209,7 +3417,7 @@
     "tittel": "Fjern merking for alle elementer som skal lastes ned",
     "forklaring": "Alt, J, S, U, K",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4217,7 +3425,7 @@
     "tittel": "Slette en melding",
     "forklaring": "ALT+H+D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4225,7 +3433,7 @@
     "tittel": "Ignorere en melding",
     "forklaring": "Alt+H, X",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4233,7 +3441,7 @@
     "tittel": "Svare på en melding",
     "forklaring": "ALT+H, R, P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4241,7 +3449,7 @@
     "tittel": "Velg alternativet Svar til alle",
     "forklaring": "ALT+H, R, A",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4249,7 +3457,7 @@
     "tittel": "Videresende en melding",
     "forklaring": "ALT+H, F, W",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4257,7 +3465,7 @@
     "tittel": "Åpne en melding",
     "forklaring": "ENTER",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4265,7 +3473,7 @@
     "tittel": "Vise en meny for blokkert innhold",
     "forklaring": "CTRL+SKIFT+W",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4273,7 +3481,7 @@
     "tittel": "Last ned blokkerte bilder",
     "forklaring": "CTRL+SKIFT+W, P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4281,7 +3489,7 @@
     "tittel": "Vis egenskaper for e-post",
     "forklaring": "ALT+ENTER",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4289,7 +3497,7 @@
     "tittel": "Kopier elementet til en mappe",
     "forklaring": "CTRL+SKIFT+Y",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4297,7 +3505,7 @@
     "tittel": "Skrive ut en melding",
     "forklaring": "Ctrl+P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4305,7 +3513,7 @@
     "tittel": "Angi hvor ofte Outlook ser etter nye meldinger",
     "forklaring": "CTRL+ALT+S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4313,7 +3521,7 @@
     "tittel": "Angi alternativer for søppelpost",
     "forklaring": "Alt+H, J, O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4321,7 +3529,7 @@
     "tittel": "Gå til den forrige meldingen",
     "forklaring": "ALT+PIL OPP eller CTRL+KOMMA (,) eller ALT+PAGE UP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4329,7 +3537,7 @@
     "tittel": "Bla ned gjennom teksten",
     "forklaring": "MELLOMROM",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4337,7 +3545,7 @@
     "tittel": "Bla opp gjennom teksten",
     "forklaring": "SKIFT+MELLOMROM",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4345,7 +3553,7 @@
     "tittel": "Flytte til neste felt",
     "forklaring": "TABULATOR-tasten",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4353,7 +3561,7 @@
     "tittel": "Flytte til forrige felt",
     "forklaring": "Shift+Tab",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4361,7 +3569,7 @@
     "tittel": "Flytte til neste eller forrige kobling",
     "forklaring": "TAB-tasten eller SKIFT+TAB",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4369,7 +3577,7 @@
     "tittel": "Gå til Svar-knappen",
     "forklaring": "ALT+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4377,7 +3585,7 @@
     "tittel": "Velg informasjonslinjen i e-postmeldingen og vis alternativmenyen, hvis tilgjengelig",
     "forklaring": "CTRL+SKIFT+W",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4385,7 +3593,7 @@
     "tittel": "Lukk menyen i informasjonslinjen",
     "forklaring": "ESC",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4393,7 +3601,7 @@
     "tittel": "Starte en sendings-/mottakshandling for alle definerte grupper for sending/mottak når Inkluder denne gruppen i sending/mottak (F9) er valgt",
     "forklaring": "Alt+J, S, G",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4401,7 +3609,7 @@
     "tittel": "Start en sendings-/motta-handling for gjeldende mappe som henter hele elementer (meldingshode, element og eventuelle vedlegg)",
     "forklaring": "SKIFT+F9",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4409,7 +3617,7 @@
     "tittel": "Start en sendings-/motta-handling",
     "forklaring": "Alt+J, S, S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4417,7 +3625,7 @@
     "tittel": "Definere grupper for sending/mottak",
     "forklaring": "CTRL+ALT+S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4425,7 +3633,7 @@
     "tittel": "Opprette en avtale (i Kalender-visning)",
     "forklaring": "CTRL+N",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4433,7 +3641,7 @@
     "tittel": "Opprette en avtale (i en hvilken som helst Outlook-visning)",
     "forklaring": "Ctrl+Shift+A",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4441,7 +3649,7 @@
     "tittel": "Opprette en møteinvitasjon",
     "forklaring": "CTRL+SKIFT+Q eller ALT+H, M, R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4449,7 +3657,7 @@
     "tittel": "Åpne Nye elementer-menyen for å velge hvilket element du vil opprette",
     "forklaring": "ALT+H+I",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4457,7 +3665,7 @@
     "tittel": "Videresende en avtale eller møte",
     "forklaring": "ALT+H, F, W eller CTRL+F",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4465,7 +3673,7 @@
     "tittel": "Svare på en møteinvitasjon med en melding",
     "forklaring": "CTRL+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4473,7 +3681,7 @@
     "tittel": "Vis én dag i kalenderen",
     "forklaring": "ALT+1",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4481,7 +3689,7 @@
     "tittel": "Vise to dager i kalenderen",
     "forklaring": "ALT+2",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4489,7 +3697,7 @@
     "tittel": "Vise tre dager i kalenderen",
     "forklaring": "ALT+3",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4497,7 +3705,7 @@
     "tittel": "Vise fire dager i kalenderen",
     "forklaring": "ALT+4",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4505,7 +3713,7 @@
     "tittel": "Vise fem dager i kalenderen",
     "forklaring": "ALT+5",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4513,7 +3721,7 @@
     "tittel": "Vise seks dager i kalenderen",
     "forklaring": "ALT+6",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4521,7 +3729,7 @@
     "tittel": "Vise sju dager i kalenderen",
     "forklaring": "ALT+7",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4529,7 +3737,7 @@
     "tittel": "Vise åtte dager i kalenderen",
     "forklaring": "ALT+8",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4537,7 +3745,7 @@
     "tittel": "Vise ni dager i kalenderen",
     "forklaring": "ALT+9",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4545,7 +3753,7 @@
     "tittel": "Vise ti dager i kalenderen",
     "forklaring": "ALT+0",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4553,7 +3761,7 @@
     "tittel": "Vis dagens dato i kalenderen",
     "forklaring": "Alt+H, O, D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4561,7 +3769,7 @@
     "tittel": "Vise daglig-visningen",
     "forklaring": "ALT+H+R eller CTRL+ALT+1",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4569,7 +3777,7 @@
     "tittel": "Vise de neste sju dagene",
     "forklaring": "Alt+H, X",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4577,7 +3785,7 @@
     "tittel": "Gå til en dato",
     "forklaring": "CTRL+G eller ALT+H+L",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4585,7 +3793,7 @@
     "tittel": "Bytte til månedsvisning",
     "forklaring": "ALT",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4593,7 +3801,7 @@
     "tittel": "Gå til neste dag",
     "forklaring": "CTRL+PIL HØYRE",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4601,7 +3809,7 @@
     "tittel": "Gå til neste uke",
     "forklaring": "ALT+Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4609,7 +3817,7 @@
     "tittel": "Gå til neste måned",
     "forklaring": "ALT+PGDN",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4617,7 +3825,7 @@
     "tittel": "Gå til dagen før",
     "forklaring": "CTRL+PIL VENSTRE",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4625,7 +3833,7 @@
     "tittel": "Gå til forrige uke",
     "forklaring": "ALT+pil opp",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4633,7 +3841,7 @@
     "tittel": "Gå til forrige måned",
     "forklaring": "ALT+PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4641,7 +3849,7 @@
     "tittel": "Gå til starten av uken",
     "forklaring": "ALT+HOME",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4649,7 +3857,7 @@
     "tittel": "Gå til slutten av uken",
     "forklaring": "ALT+END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4657,7 +3865,7 @@
     "tittel": "Bytt til visningen hel uke",
     "forklaring": "ALT+MINUSTEGN (-) eller CTRL+ALT+3",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4665,7 +3873,7 @@
     "tittel": "Bytt til Arbeidsuke-visningen",
     "forklaring": "CTRL+ALT+2",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4673,7 +3881,7 @@
     "tittel": "Gå til forrige avtale",
     "forklaring": "CTRL+KOMMA (,) eller CTRL+SKIFT+KOMMA (,)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4681,7 +3889,7 @@
     "tittel": "Gå til neste avtale",
     "forklaring": "CTRL+punktum (.) eller CTRL+SKIFT+PUNKTUM (.)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4689,7 +3897,7 @@
     "tittel": "Angi regelmessighet for en åpen avtale eller et åpent møte",
     "forklaring": "Ctrl+G",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4697,7 +3905,7 @@
     "tittel": "Åpne en avtale når påminnelsen vises",
     "forklaring": "ALT+O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4705,7 +3913,7 @@
     "tittel": "Åpne påminnelsesvinduet",
     "forklaring": "Alt+V, M",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4713,7 +3921,7 @@
     "tittel": "Utsett påminnelsen",
     "forklaring": "ALT+S",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4721,7 +3929,7 @@
     "tittel": "Deaktiver påminnelsen",
     "forklaring": "ALT+D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4729,7 +3937,7 @@
     "tittel": "Tilordne en lyd til en påminnelse",
     "forklaring": "ALT+F, T, A",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4737,7 +3945,7 @@
     "tittel": "Hopp til søk",
     "forklaring": "Ctrl+E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4745,7 +3953,7 @@
     "tittel": "Vis den valgte tidsplanen i et vannrett oppsett hvis du vil sammenligne kalendere for å planlegge møter",
     "forklaring": "ALT+H, S, V eller CTRL+ALT+5",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4753,7 +3961,7 @@
     "tittel": "Legg til delte kalendere fra kontaktene dine, eller opprett en ny kalender",
     "forklaring": "Alt+H, O, C",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4761,7 +3969,7 @@
     "tittel": "Opprett en ny kalendergruppe eller legg til en avdelingskalender",
     "forklaring": "Alt+H, C, G",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4769,7 +3977,7 @@
     "tittel": "Send en merket kalender med e-post til en kontakt",
     "forklaring": "Alt+H, E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4777,7 +3985,7 @@
     "tittel": "Dele en kalender med andre",
     "forklaring": "Alt+H, S, C",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4785,7 +3993,7 @@
     "tittel": "Publiser en kalender på nettet",
     "forklaring": "Alt+H, P, O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4793,7 +4001,7 @@
     "tittel": "Vis og rediger delingstillatelsene for en mappe",
     "forklaring": "Alt+H, F, P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4801,7 +4009,7 @@
     "tittel": "Søk etter kontakter",
     "forklaring": "Alt+H, F, C",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4809,7 +4017,7 @@
     "tittel": "Åpne adresseboken",
     "forklaring": "Alt+H, A, B",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4817,7 +4025,7 @@
     "tittel": "Åpne dialogboksen Alternativer for Outlook-kalendere",
     "forklaring": "Alt+H, C, O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4825,7 +4033,7 @@
     "tittel": "Hvis informasjonen for det valgte elementet forkortes eller ikke leses i sin helhet, aktiverer du informasjon om Microsoft Active Accessibility",
     "forklaring": "ALT+CTRL+SKIFT+M",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4833,7 +4041,7 @@
     "tittel": "Åpne planleggingsassistenten for kalenderen fra møtevinduet",
     "forklaring": "ALT+X",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4841,7 +4049,7 @@
     "tittel": "Vise fra en til ni dager",
     "forklaring": "Alt",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4849,7 +4057,7 @@
     "tittel": "Vise 10 dager",
     "forklaring": "Alt+0",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4857,7 +4065,7 @@
     "tittel": "Bytt til ukevisning",
     "forklaring": "ALT+MINUSTEGN (-)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4865,7 +4073,7 @@
     "tittel": "Bytte til månedsvisning",
     "forklaring": "ALT+LIKHETSTEGN (=)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4873,7 +4081,7 @@
     "tittel": "Flytte mellom Calendar-visningen, oppgaveblokken og mappelisten",
     "forklaring": "Ctrl+Tab eller F6",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4881,7 +4089,7 @@
     "tittel": "Velge forrige avtale",
     "forklaring": "Shift+Tab",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4889,7 +4097,7 @@
     "tittel": "Gå til dagen før",
     "forklaring": "Pil venstre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4897,7 +4105,7 @@
     "tittel": "Gå til neste dag",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4905,7 +4113,7 @@
     "tittel": "Gå til samme dag i uken etter",
     "forklaring": "ALT+Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4913,7 +4121,7 @@
     "tittel": "Gå til samme dag i forrige uke",
     "forklaring": "ALT+pil opp",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4921,7 +4129,7 @@
     "tittel": "Velge tidspunktet arbeidsdagen begynner",
     "forklaring": "Hjem",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4929,7 +4137,7 @@
     "tittel": "Velge tidspunktet arbeidsdagen slutter",
     "forklaring": "END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4937,7 +4145,7 @@
     "tittel": "Velge forrige tidsområde",
     "forklaring": "Pil opp",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4945,7 +4153,7 @@
     "tittel": "Velge neste tidsområde",
     "forklaring": "Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4953,7 +4161,7 @@
     "tittel": "Velge tidsområdet øverst på skjermen",
     "forklaring": "PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4961,7 +4169,7 @@
     "tittel": "Velger tidsområdet nederst på skjermen",
     "forklaring": "PGDN",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4969,7 +4177,7 @@
     "tittel": "Utvide/redusere det valgte tidspunktet",
     "forklaring": "SKIFT+PIL OPP-tasten eller SKIFT+PIL NED-tasten",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4977,7 +4185,7 @@
     "tittel": "Gå til begynnelsen av arbeidsdagen for den valgte dagen",
     "forklaring": "Hjem",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4985,7 +4193,7 @@
     "tittel": "Gå til slutten av arbeidsdagen for den valgte dagen",
     "forklaring": "END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -4993,7 +4201,7 @@
     "tittel": "Gå opp én sidevisning på den valgte dagen",
     "forklaring": "PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5001,7 +4209,7 @@
     "tittel": "Gå ned én sidevisning på den valgte dagen",
     "forklaring": "PGDN",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5009,7 +4217,7 @@
     "tittel": "Endre varigheten til det valgte tidsområdet",
     "forklaring": "SKIFT+PIL VENSTRE, SKIFT+PIL HØYRE, SKIFT+PIL OPP, SKIFT+PIL NED, SKIFT+HOME eller SKIFT+END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5017,7 +4225,7 @@
     "tittel": "Gå til den første dagen i uken",
     "forklaring": "Hjem",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5025,7 +4233,7 @@
     "tittel": "Gå til samme dag i uken på forrige side",
     "forklaring": "PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5033,7 +4241,7 @@
     "tittel": "Gå til samme dag i uken på neste side",
     "forklaring": "PGDN",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5041,7 +4249,7 @@
     "tittel": "Gå til den første dagen i den gjeldende uken",
     "forklaring": "ALT+HOME",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5049,7 +4257,7 @@
     "tittel": "Gå til den siste dagen i den gjeldende uken",
     "forklaring": "ALT+END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5057,7 +4265,7 @@
     "tittel": "Foreta et nytt anrop til en kontakt",
     "forklaring": "Ctrl+Shift+D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5065,7 +4273,7 @@
     "tittel": "Finne en kontakt",
     "forklaring": "F3 eller Ctrl+E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5073,7 +4281,7 @@
     "tittel": "Skriv inn et navn i adressebøkene som søker etter dem",
     "forklaring": "F11",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5081,7 +4289,7 @@
     "tittel": "Gå til den første kontakten som begynner med en bestemt bokstav, i tabell- eller listevisning av kontakter",
     "forklaring": "SKIFT",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5089,7 +4297,7 @@
     "tittel": "Merke alle kontaktene",
     "forklaring": "CTRL+A",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5097,7 +4305,7 @@
     "tittel": "Opprett en melding med den valgte kontakten som emne",
     "forklaring": "Ctrl+B",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5105,7 +4313,7 @@
     "tittel": "Opprette en kontakt (i Kontakter)",
     "forklaring": "CTRL+N",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5113,7 +4321,7 @@
     "tittel": "Opprette en kontakt (fra en hvilken som helst Outlook-visning)",
     "forklaring": "Ctrl+Shift+C",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5121,7 +4329,7 @@
     "tittel": "Åpne en kontakt for den valgte kontakten",
     "forklaring": "CTRL+O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5129,7 +4337,7 @@
     "tittel": "Åpne dialogboksen Skriv ut",
     "forklaring": "Ctrl+P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5137,7 +4345,7 @@
     "tittel": "Oppdater en liste over medlemmer i en kontaktgruppe",
     "forklaring": "F5",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5145,7 +4353,7 @@
     "tittel": "Åpne den neste kontakten som vises, i en åpen kontakt",
     "forklaring": "CTRL+SKIFT+PUNKTUM (.)",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5153,7 +4361,7 @@
     "tittel": "Finn en kontakt i Favoritter",
     "forklaring": "F11",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5161,7 +4369,7 @@
     "tittel": "Lukke en kontakt",
     "forklaring": "ESC",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5169,7 +4377,7 @@
     "tittel": "Sende en telefaks til den valgte kontakten",
     "forklaring": "Ctrl+Shift+X",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5177,7 +4385,7 @@
     "tittel": "Åpne dialogboksen Kontroller adresse",
     "forklaring": "ALT+D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5185,7 +4393,7 @@
     "tittel": "Vise informasjon om E-post 1 under Internett i kontaktskjemaet",
     "forklaring": "ALT+SKIFT+1",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5193,7 +4401,7 @@
     "tittel": "Vise informasjon om E-post 2 under Internett i kontaktskjemaet",
     "forklaring": "ALT+SKIFT+2",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5201,7 +4409,7 @@
     "tittel": "Vise informasjon om E-post 3 under Internett i kontaktskjemaet",
     "forklaring": "ALT+SKIFT+3",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5209,7 +4417,7 @@
     "tittel": "Velge det forrige kortet",
     "forklaring": "Pil opp",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5217,7 +4425,7 @@
     "tittel": "Velge det neste kortet",
     "forklaring": "Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5225,7 +4433,7 @@
     "tittel": "Velge det første kortet i listen",
     "forklaring": "Hjem",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5233,7 +4441,7 @@
     "tittel": "Velge det siste kortet i listen",
     "forklaring": "END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5241,7 +4449,7 @@
     "tittel": "Velge det første kortet på den gjeldende siden",
     "forklaring": "PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5249,7 +4457,7 @@
     "tittel": "Velge det første kortet på den neste siden",
     "forklaring": "PGDN",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5257,7 +4465,7 @@
     "tittel": "Velge det nærmeste kortet i den neste kolonnen",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5265,7 +4473,7 @@
     "tittel": "Velge det nærmeste kortet i den forrige kolonnen",
     "forklaring": "Pil venstre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5273,7 +4481,7 @@
     "tittel": "Merke/oppheve merkingen av det aktive kortet",
     "forklaring": "CTRL+MELLOMROM",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5281,7 +4489,7 @@
     "tittel": "Utvide det merkede området til det forrige kortet, og oppheve merkingen av kort etter utgangspunktet",
     "forklaring": "SKIFT+PIL OPP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5289,7 +4497,7 @@
     "tittel": "Utvide det merkede området til det neste kortet, og oppheve merkingen av kort før utgangspunktet",
     "forklaring": "SKIFT+PIL NED",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5297,7 +4505,7 @@
     "tittel": "Utvide det merkede området til det forrige kortet, uavhengig av utgangspunktet",
     "forklaring": "CTRL+SKIFT+PIL OPP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5305,7 +4513,7 @@
     "tittel": "Utvide det merkede området til det neste kortet, uavhengig av utgangspunktet",
     "forklaring": "CTRL+SKIFT+PIL NED",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5313,7 +4521,7 @@
     "tittel": "Utvide det merkede området til det første kortet i listen",
     "forklaring": "Skift+Home",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5321,7 +4529,7 @@
     "tittel": "Utvide det merkede området til det siste kortet i listen",
     "forklaring": "SKIFT+END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5329,7 +4537,7 @@
     "tittel": "Utvide det merkede området til det første kortet på den forrige siden",
     "forklaring": "SKIFT+PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5337,7 +4545,7 @@
     "tittel": "Utvide det merkede området til det siste kortet på den siste siden",
     "forklaring": "SKIFT+PGDN",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5345,7 +4553,7 @@
     "tittel": "Åpne Legg til meny-listen",
     "forklaring": "ALT+A",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5353,7 +4561,7 @@
     "tittel": "Merke teksten i Etikett-boksen når det er merket av i feltet med en tilordnet etikett",
     "forklaring": "ALT+B",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5361,7 +4569,7 @@
     "tittel": "Åpne dialogboksen Legg til kortbilde",
     "forklaring": "ALT+C",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5369,7 +4577,7 @@
     "tittel": "Plasser markøren i begynnelsen av Rediger tekst-feltet",
     "forklaring": "ALT+E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5377,7 +4585,7 @@
     "tittel": "Gå til og velg Felter-boksen",
     "forklaring": "ALT+F",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5385,7 +4593,7 @@
     "tittel": "Velg Bildejustering-menyen",
     "forklaring": "ALT+G",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5393,7 +4601,7 @@
     "tittel": "Velg en fargepalett for bakgrunnen",
     "forklaring": "ALT+K, ENTER",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5401,7 +4609,7 @@
     "tittel": "Velg Oppsett-menyen",
     "forklaring": "ALT+L",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5409,7 +4617,7 @@
     "tittel": "Fjerne et valgt felt fra Felt -boksen",
     "forklaring": "ALT+R",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5417,7 +4625,7 @@
     "tittel": "Flytte til neste felt og kontroll",
     "forklaring": "TABULATOR-tasten",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5425,7 +4633,7 @@
     "tittel": "Flytte til forrige felt og kontroll",
     "forklaring": "Shift+Tab",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5433,7 +4641,7 @@
     "tittel": "Lukke det aktive kortet",
     "forklaring": "ENTER eller ESC",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5441,7 +4649,7 @@
     "tittel": "Legge til en linje i et flerlinjet felt",
     "forklaring": "ENTER",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5449,7 +4657,7 @@
     "tittel": "Flytte til begynnelsen av en linje",
     "forklaring": "HOME",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5457,7 +4665,7 @@
     "tittel": "Flytte til slutten av en linje",
     "forklaring": "END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5465,7 +4673,7 @@
     "tittel": "Flytte til begynnelsen av et flerlinjet felt",
     "forklaring": "PGUP",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5473,7 +4681,7 @@
     "tittel": "Flytte til slutten av et flerlinjet felt",
     "forklaring": "PGDN",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5481,7 +4689,7 @@
     "tittel": "Flytte til den forrige linjen i et flerlinjet felt",
     "forklaring": "Pil opp",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5489,7 +4697,7 @@
     "tittel": "Flytte til den neste linjen i et flerlinjet felt",
     "forklaring": "Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5497,7 +4705,7 @@
     "tittel": "Flytte til det forrige tegnet i et felt",
     "forklaring": "Pil venstre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5505,7 +4713,7 @@
     "tittel": "Flytte til det neste tegnet i et felt",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5513,7 +4721,7 @@
     "tittel": "Godta en oppgaveforespørsel",
     "forklaring": "CTRL+C",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5521,7 +4729,7 @@
     "tittel": "Avslå en oppgaveforespørsel",
     "forklaring": "CTRL+D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5529,7 +4737,7 @@
     "tittel": "Søke etter en oppgave eller et annet element",
     "forklaring": "Ctrl+E",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5537,7 +4745,7 @@
     "tittel": "Åpne dialogboksen Gå til mappe",
     "forklaring": "CTRL+Y",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5545,7 +4753,7 @@
     "tittel": "Opprett en oppgave i Oppgaver-visningen",
     "forklaring": "CTRL+N",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5553,7 +4761,7 @@
     "tittel": "Opprette en oppgave fra en hvilken som helst Outlook-visning",
     "forklaring": "CTRL+SKIFT+K",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5561,7 +4769,7 @@
     "tittel": "Åpne det valgte elementet",
     "forklaring": "CTRL+O",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5569,7 +4777,7 @@
     "tittel": "Skrive ut det merkede elementet",
     "forklaring": "Ctrl+P",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5577,7 +4785,7 @@
     "tittel": "Merk alle elementer",
     "forklaring": "CTRL+A",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5585,7 +4793,7 @@
     "tittel": "Slette valgt element",
     "forklaring": "CTRL+D",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5593,7 +4801,7 @@
     "tittel": "Videresende en oppave som et vedlegg",
     "forklaring": "Ctrl+B",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5601,7 +4809,7 @@
     "tittel": "Opprette en oppgaveforespørsel",
     "forklaring": "CTRL+SKIFT+ALT+U",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5609,7 +4817,7 @@
     "tittel": "Veksle mellom mapperuten, oppgavelisten og To-Do-feltet",
     "forklaring": "F6",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5617,7 +4825,7 @@
     "tittel": "Angre forrige handling",
     "forklaring": "CTRL+Z",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5625,7 +4833,7 @@
     "tittel": "Velge det forrige elementet",
     "forklaring": "Pil venstre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5633,7 +4841,7 @@
     "tittel": "Velge det neste elementet",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5641,7 +4849,7 @@
     "tittel": "Merk flere tilstøtende elementer",
     "forklaring": "SKIFT",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5649,7 +4857,7 @@
     "tittel": "Merk flere elementer som ikke tilstøter hverandre",
     "forklaring": "CTRL+PIL VENSTRE+MELLOMROM eller CTRL+PIL HØYRE+MELLOMROM",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5657,7 +4865,7 @@
     "tittel": "Åpne de valgte elementene",
     "forklaring": "ENTER",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5665,7 +4873,7 @@
     "tittel": "Velge det første elementet på tidslinjen (hvis elementene ikke er gruppert) eller det første elementet i gruppen",
     "forklaring": "Hjem",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5673,7 +4881,7 @@
     "tittel": "Velge det siste elementet på tidslinjen (hvis elementene ikke er grupperte) eller det siste elementet i gruppen",
     "forklaring": "END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5681,7 +4889,7 @@
     "tittel": "Vise (uten å velge) det første elementet på tidslinjen (hvis elementene ikke er grupperte) eller det første elementet i gruppen",
     "forklaring": "CTRL+HOME",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5689,7 +4897,7 @@
     "tittel": "Vise (uten å velge) det siste elementet på tidslinjen (hvis elementene ikke er grupperte) eller det første elementet i gruppen",
     "forklaring": "CTRL+END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5697,7 +4905,7 @@
     "tittel": "Utvide gruppen",
     "forklaring": "ENTER eller PIL HØYRE",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5705,7 +4913,7 @@
     "tittel": "Skjule gruppen",
     "forklaring": "ENTER eller PIL VENSTRE",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5713,7 +4921,7 @@
     "tittel": "Velge den forrige gruppen",
     "forklaring": "Pil opp",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5721,7 +4929,7 @@
     "tittel": "Velge den neste gruppen",
     "forklaring": "Pil ned",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5729,7 +4937,7 @@
     "tittel": "Velge den første gruppen på tidslinjen",
     "forklaring": "Hjem",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5737,7 +4945,7 @@
     "tittel": "Velge den siste gruppen på tidslinjen",
     "forklaring": "END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5745,7 +4953,7 @@
     "tittel": "Velge det første elementet på skjermen i en utvidet gruppe eller det første elementet som ikke vises på skjermen til høyre",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5753,7 +4961,7 @@
     "tittel": "Flytte bakover i tidsintervaller som er de samme som dem som vises på tidsskalaen",
     "forklaring": "Pil venstre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5761,7 +4969,7 @@
     "tittel": "Flytte fremover i tidsintervaller som er de samme som dem som vises på tidsskalaen",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5769,7 +4977,7 @@
     "tittel": "Bytte mellom aktiv visning, To-Do-feltet, søk og tilbake til aktiv visning",
     "forklaring": "TAB og SKIFT+TAB",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5777,7 +4985,7 @@
     "tittel": "Åpne Visual Basic Editor",
     "forklaring": "ALT+F11",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5785,7 +4993,7 @@
     "tittel": "Spill av en makro",
     "forklaring": "ALT+F8",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5793,7 +5001,7 @@
     "tittel": "Vise én enkelt valgt gruppe",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5801,7 +5009,7 @@
     "tittel": "Skjule én enkelt valgt gruppe",
     "forklaring": "Pil venstre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5809,7 +5017,7 @@
     "tittel": "Velge den første gruppen",
     "forklaring": "Hjem",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5817,7 +5025,7 @@
     "tittel": "Velge den siste gruppen",
     "forklaring": "END",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {
@@ -5825,7 +5033,7 @@
     "tittel": "Merke det første elementet på skjermen i en utvidet gruppe eller det første elementet utenfor skjermen til høyre",
     "forklaring": "Pil høyre",
     "tags": [
-      "klassisk outlook"
+      "outlook"
     ]
   },
   {

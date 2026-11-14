@@ -1,14 +1,15 @@
 import { describe, it, expect, vi, beforeAll } from 'vitest'
 import { Suspense } from 'react'
 import { render, screen, fireEvent, act } from '@testing-library/react'
-import type { Oppslag } from '../types'
+import type { LockedContent, Oppslag } from '../types'
+import { AuthContext } from '../auth/context'
 
 const ENTRIES: Oppslag[] = [
   { id: 'filter', tittel: 'Legg til eller fjern filter', forklaring: 'CTRL+SKIFT+L', tags: ['excel'] },
   { id: 'punkt', tittel: 'Legg til en punktliste', forklaring: 'Ctrl+Skift+L', tags: ['word'] },
   { id: 'fet', tittel: 'Bruk fet skrift', forklaring: 'Ctrl+F', tags: ['word'] },
   { id: 'laas', tittel: 'Lås datamaskinen', forklaring: 'Windows-tast+L', tags: ['windows'] },
-  { id: 'cedilla', tittel: 'ç', forklaring: 'ALT+0231', tags: ['internasjonale tegn', 'nye outlook'] },
+  { id: 'cedilla', tittel: 'ç', forklaring: 'ALT+0231', tags: ['internasjonale tegn', 'windows'] },
   { id: 'oppgave', tittel: 'Opprett en oppgave', forklaring: 'Ctrl+Skift+K', tags: ['microsoft 365'] },
 ]
 
@@ -26,10 +27,15 @@ beforeAll(() => {
   })) as typeof window.matchMedia
 })
 
-async function renderPage() {
+async function renderPage(locked: LockedContent | null = null) {
   const { Hurtigtaster } = await import('./Hurtigtaster')
+  const auth = { unlocked: locked !== null, locked, initializing: false, unlock: async () => {}, lock: () => {} }
   await act(async () => {
-    render(<Suspense fallback={null}><Hurtigtaster /></Suspense>)
+    render(
+      <AuthContext.Provider value={auth}>
+        <Suspense fallback={null}><Hurtigtaster /></Suspense>
+      </AuthContext.Provider>,
+    )
   })
 }
 
@@ -83,7 +89,21 @@ describe('Hurtigtaster', () => {
 
   it('finds an international character under its app name too', async () => {
     await renderPage()
-    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'nye outlook' } })
-    expect(headings()).toEqual(['Internasjonale tegn'])
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'windows' } })
+    expect(headings()).toEqual(['Windows', 'Internasjonale tegn'])
+  })
+
+  it('shows a gated section and its chip only when unlocked, sorted among the apps', async () => {
+    await renderPage({
+      hurtigtaster: [{ id: 'skjult', tittel: 'Skjult handling', forklaring: 'Ctrl+J', tags: ['skjult app'] }],
+      hurtigtasterGrupper: [{ tag: 'skjult app', title: 'Skjult app' }],
+    })
+    expect(headings()).toEqual(['Excel', 'Skjult app', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
+    expect(screen.getByRole('button', { name: 'Skjult app' })).toBeTruthy()
+  })
+
+  it('hides gated sections while locked', async () => {
+    await renderPage()
+    expect(screen.queryByRole('button', { name: 'Skjult app' })).toBeNull()
   })
 })

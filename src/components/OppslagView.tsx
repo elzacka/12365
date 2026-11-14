@@ -6,7 +6,7 @@ import { SearchIcon, CloseIcon, ChevronRightIcon } from './Icons'
 import { SearchShortcutHint } from './SearchShortcutHint'
 import { KeyLegend, KeyNotation, Keys } from './Keys'
 import { parseInline, stripLinks } from '../lib/inline'
-import type { Oppslag } from '../types'
+import type { Oppslag, OppslagGroup } from '../types'
 
 function firstLetter(s: string): string {
   return s.charAt(0).toLocaleUpperCase('nb')
@@ -31,7 +31,7 @@ function alphabetical(list: Oppslag[]): Oppslag[] {
 }
 
 // Each entry under its first tag, groups in the given order, entries in list order.
-function groupByTag(list: Oppslag[], groups: { tag: string; title: string }[]): Group[] {
+function groupByTag(list: Oppslag[], groups: OppslagGroup[]): Group[] {
   return groups
     .map(g => [g.tag, g.title, list.filter(o => o.tags[0] === g.tag)] as Group)
     .filter(([, , items]) => items.length > 0)
@@ -60,7 +60,7 @@ interface OppslagViewProps {
   examples: SearchExample[]
   resetLabel: string
   /** Group by first tag, in this order, instead of by first letter. */
-  groups?: { tag: string; title: string }[]
+  groups?: OppslagGroup[]
   /** Line 1 of `forklaring` is a key combination, shown as keys beside the title. */
   keys?: boolean
 }
