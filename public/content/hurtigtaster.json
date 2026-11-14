@@ -7200,14 +7200,6 @@
     ]
   },
   {
-    "id": "word-zoom-ut-2",
-    "tittel": "Zoom ut",
-    "forklaring": "Ctrl+Minustegn (-)",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-viser-hjelp-for-word-oppgaveruten",
     "tittel": "Viser Hjelp for Word oppgaveruten",
     "forklaring": "F1",
@@ -9672,22 +9664,6 @@
     ]
   },
   {
-    "id": "excel-down-gaar-ett-skjermbilde-til-hoeyre-i-et-regneark",
-    "tittel": "Gå ett skjermbilde til høyre i et regneark",
-    "forklaring": "Alt+Fn+Pil ned",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-down-gaar-til-neste-ark-i-en-arbeidsbok",
-    "tittel": "Gå til neste ark i en arbeidsbok",
-    "forklaring": "Ctrl+Fn+Pil ned",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-down-merker-det-gjeldende-og-det-neste-arket-i-en-arbe",
     "tittel": "Merk gjeldende og neste ark i en arbeidsbok",
     "forklaring": "Ctrl+Skift+Fn+Pil ned",
@@ -9699,22 +9675,6 @@
     "id": "excel-gaar-ett-skjermbilde-opp-i-et-regneark",
     "tittel": "Går ett skjermbilde opp i et regneark",
     "forklaring": "Fn+Pil opp",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-down-gaar-ett-skjermbilde-til-venstre-i-et-regneark",
-    "tittel": "Gå ett skjermbilde til venstre i et regneark",
-    "forklaring": "Alt+Fn+Pil opp",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-up-gaar-til-forrige-ark-i-en-arbeidsbok",
-    "tittel": "Gå til forrige ark i en arbeidsbok",
-    "forklaring": "Ctrl+Fn+Pil opp",
     "tags": [
       "excel"
     ]

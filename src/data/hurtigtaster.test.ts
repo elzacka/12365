@@ -56,6 +56,11 @@ describe('hurtigtaster.json', () => {
     expect(unknown).toEqual([])
   })
 
+  it('lists each shortcut once per section, whatever the key casing', () => {
+    const keys = entries.map(e => [e.tags[0], e.undergruppe, e.tittel, e.forklaring.toLowerCase()].join('|'))
+    expect(keys.filter((k, i) => keys.indexOf(k) !== i)).toEqual([])
+  })
+
   it('writes the Norwegian key name Skift, so a search for «skift» finds every row', () => {
     expect(entries.filter(e => /shift/i.test(e.forklaring)).map(e => e.id)).toEqual([])
   })
