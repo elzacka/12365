@@ -9,8 +9,6 @@ export const GROUPS = [
   { tag: 'onedrive', title: 'OneDrive' },
   { tag: 'onenote', title: 'OneNote' },
   { tag: 'powerpoint', title: 'PowerPoint' },
-  { tag: 'sticky notes', title: 'Sticky Notes' },
-  { tag: 'sway', title: 'Sway' },
   { tag: 'teams', title: 'Teams' },
   { tag: 'word', title: 'Word' },
   { tag: 'microsoft 365', title: 'Microsoft 365' },
