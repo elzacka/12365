@@ -114,7 +114,7 @@
   {
     "id": "teams-vis-hurtigtaster",
     "tittel": "Vis hurtigtaster",
-    "forklaring": "CTRL+punktum (.) eller ALT",
+    "forklaring": "Ctrl+Punktum (.) eller Alt+Skråstrek (/)",
     "tags": [
       "teams"
     ],
@@ -1633,7 +1633,7 @@
     "undergruppe": "Chat og navigering"
   },
   {
-    "id": "nye-outlook",
+    "id": "internasjonale-tegn",
     "tittel": "À",
     "forklaring": "Skift+Grav aksent (`), Skift+A",
     "tags": [
@@ -1642,7 +1642,7 @@
     ]
   },
   {
-    "id": "nye-outlook-2",
+    "id": "internasjonale-tegn-2",
     "tittel": "È",
     "forklaring": "Skift+Grav aksent (`), Skift+E",
     "tags": [
@@ -1651,7 +1651,7 @@
     ]
   },
   {
-    "id": "nye-outlook-3",
+    "id": "internasjonale-tegn-3",
     "tittel": "Ì",
     "forklaring": "Skift+Grav aksent (`), Skift+I",
     "tags": [
@@ -1660,7 +1660,7 @@
     ]
   },
   {
-    "id": "nye-outlook-4",
+    "id": "internasjonale-tegn-4",
     "tittel": "Ò",
     "forklaring": "Skift+Grav aksent (`), Skift+O",
     "tags": [
@@ -1669,7 +1669,7 @@
     ]
   },
   {
-    "id": "nye-outlook-5",
+    "id": "internasjonale-tegn-5",
     "tittel": "Ù",
     "forklaring": "Skift+Grav aksent (`), Skift+U",
     "tags": [
@@ -1678,7 +1678,7 @@
     ]
   },
   {
-    "id": "nye-outlook-6",
+    "id": "internasjonale-tegn-6",
     "tittel": "à",
     "forklaring": "Skift+Grav aksent (`), A",
     "tags": [
@@ -1687,7 +1687,7 @@
     ]
   },
   {
-    "id": "nye-outlook-7",
+    "id": "internasjonale-tegn-7",
     "tittel": "è",
     "forklaring": "Skift+Grav aksent (`), E",
     "tags": [
@@ -1696,7 +1696,7 @@
     ]
   },
   {
-    "id": "nye-outlook-8",
+    "id": "internasjonale-tegn-8",
     "tittel": "ì",
     "forklaring": "Skift+Grav aksent (`), I",
     "tags": [
@@ -1705,7 +1705,7 @@
     ]
   },
   {
-    "id": "nye-outlook-9",
+    "id": "internasjonale-tegn-9",
     "tittel": "ò",
     "forklaring": "Skift+Grav aksent (`), O",
     "tags": [
@@ -1714,7 +1714,7 @@
     ]
   },
   {
-    "id": "nye-outlook-10",
+    "id": "internasjonale-tegn-10",
     "tittel": "ù",
     "forklaring": "Skift+Grav aksent (`), U",
     "tags": [
@@ -1723,7 +1723,7 @@
     ]
   },
   {
-    "id": "nye-outlook-11",
+    "id": "internasjonale-tegn-11",
     "tittel": "Á",
     "forklaring": "Alt gr+Akutt aksent (´), Skift+A",
     "tags": [
@@ -1732,7 +1732,7 @@
     ]
   },
   {
-    "id": "nye-outlook-12",
+    "id": "internasjonale-tegn-12",
     "tittel": "É",
     "forklaring": "Alt gr+Akutt aksent (´), Skift+E",
     "tags": [
@@ -1741,7 +1741,7 @@
     ]
   },
   {
-    "id": "nye-outlook-13",
+    "id": "internasjonale-tegn-13",
     "tittel": "Í",
     "forklaring": "Alt gr+Akutt aksent (´), Skift+I",
     "tags": [
@@ -1750,7 +1750,7 @@
     ]
   },
   {
-    "id": "nye-outlook-14",
+    "id": "internasjonale-tegn-14",
     "tittel": "Ó",
     "forklaring": "Alt gr+Akutt aksent (´), Skift+O",
     "tags": [
@@ -1759,7 +1759,7 @@
     ]
   },
   {
-    "id": "nye-outlook-15",
+    "id": "internasjonale-tegn-15",
     "tittel": "Ú",
     "forklaring": "Alt gr+Akutt aksent (´), Skift+U",
     "tags": [
@@ -1768,7 +1768,7 @@
     ]
   },
   {
-    "id": "nye-outlook-16",
+    "id": "internasjonale-tegn-16",
     "tittel": "Ý",
     "forklaring": "Alt gr+Akutt aksent (´), Skift+Y",
     "tags": [
@@ -1777,7 +1777,7 @@
     ]
   },
   {
-    "id": "nye-outlook-17",
+    "id": "internasjonale-tegn-17",
     "tittel": "á",
     "forklaring": "Alt gr+Akutt aksent (´), A",
     "tags": [
@@ -1786,7 +1786,7 @@
     ]
   },
   {
-    "id": "nye-outlook-18",
+    "id": "internasjonale-tegn-18",
     "tittel": "é",
     "forklaring": "Alt gr+Akutt aksent (´), E",
     "tags": [
@@ -1795,7 +1795,7 @@
     ]
   },
   {
-    "id": "nye-outlook-19",
+    "id": "internasjonale-tegn-19",
     "tittel": "í",
     "forklaring": "Alt gr+Akutt aksent (´), I",
     "tags": [
@@ -1804,7 +1804,7 @@
     ]
   },
   {
-    "id": "nye-outlook-20",
+    "id": "internasjonale-tegn-20",
     "tittel": "ó",
     "forklaring": "Alt gr+Akutt aksent (´), O",
     "tags": [
@@ -1813,7 +1813,7 @@
     ]
   },
   {
-    "id": "nye-outlook-21",
+    "id": "internasjonale-tegn-21",
     "tittel": "ú",
     "forklaring": "Alt gr+Akutt aksent (´), U",
     "tags": [
@@ -1822,7 +1822,7 @@
     ]
   },
   {
-    "id": "nye-outlook-22",
+    "id": "internasjonale-tegn-22",
     "tittel": "ý",
     "forklaring": "Alt gr+Akutt aksent (´), Y",
     "tags": [
@@ -1831,7 +1831,7 @@
     ]
   },
   {
-    "id": "nye-outlook-23",
+    "id": "internasjonale-tegn-23",
     "tittel": "Â",
     "forklaring": "Skift+Cirkumflekstegn (^), Skift+A",
     "tags": [
@@ -1840,7 +1840,7 @@
     ]
   },
   {
-    "id": "nye-outlook-24",
+    "id": "internasjonale-tegn-24",
     "tittel": "Ê",
     "forklaring": "Skift+Cirkumflekstegn (^), Skift+E",
     "tags": [
@@ -1849,7 +1849,7 @@
     ]
   },
   {
-    "id": "nye-outlook-25",
+    "id": "internasjonale-tegn-25",
     "tittel": "Î",
     "forklaring": "Skift+Cirkumflekstegn (^), Skift+I",
     "tags": [
@@ -1858,7 +1858,7 @@
     ]
   },
   {
-    "id": "nye-outlook-26",
+    "id": "internasjonale-tegn-26",
     "tittel": "Ô",
     "forklaring": "Skift+Cirkumflekstegn (^), Skift+O",
     "tags": [
@@ -1867,7 +1867,7 @@
     ]
   },
   {
-    "id": "nye-outlook-27",
+    "id": "internasjonale-tegn-27",
     "tittel": "Û",
     "forklaring": "Skift+Cirkumflekstegn (^), Skift+U",
     "tags": [
@@ -1876,7 +1876,7 @@
     ]
   },
   {
-    "id": "nye-outlook-28",
+    "id": "internasjonale-tegn-28",
     "tittel": "â",
     "forklaring": "Skift+Cirkumflekstegn (^), A",
     "tags": [
@@ -1885,7 +1885,7 @@
     ]
   },
   {
-    "id": "nye-outlook-29",
+    "id": "internasjonale-tegn-29",
     "tittel": "ê",
     "forklaring": "Skift+Cirkumflekstegn (^), E",
     "tags": [
@@ -1894,7 +1894,7 @@
     ]
   },
   {
-    "id": "nye-outlook-30",
+    "id": "internasjonale-tegn-30",
     "tittel": "î",
     "forklaring": "Skift+Cirkumflekstegn (^), I",
     "tags": [
@@ -1903,7 +1903,7 @@
     ]
   },
   {
-    "id": "nye-outlook-31",
+    "id": "internasjonale-tegn-31",
     "tittel": "ô",
     "forklaring": "Skift+Cirkumflekstegn (^), O",
     "tags": [
@@ -1912,7 +1912,7 @@
     ]
   },
   {
-    "id": "nye-outlook-32",
+    "id": "internasjonale-tegn-32",
     "tittel": "û",
     "forklaring": "Skift+Cirkumflekstegn (^), U",
     "tags": [
@@ -1921,7 +1921,7 @@
     ]
   },
   {
-    "id": "nye-outlook-33",
+    "id": "internasjonale-tegn-33",
     "tittel": "Ã",
     "forklaring": "Alt gr+Tilde (~), Skift+A",
     "tags": [
@@ -1930,7 +1930,7 @@
     ]
   },
   {
-    "id": "nye-outlook-34",
+    "id": "internasjonale-tegn-34",
     "tittel": "Ñ",
     "forklaring": "Alt gr+Tilde (~), Skift+N",
     "tags": [
@@ -1939,7 +1939,7 @@
     ]
   },
   {
-    "id": "nye-outlook-35",
+    "id": "internasjonale-tegn-35",
     "tittel": "Õ",
     "forklaring": "Alt gr+Tilde (~), Skift+O",
     "tags": [
@@ -1948,7 +1948,7 @@
     ]
   },
   {
-    "id": "nye-outlook-36",
+    "id": "internasjonale-tegn-36",
     "tittel": "ã",
     "forklaring": "Alt gr+Tilde (~), A",
     "tags": [
@@ -1957,7 +1957,7 @@
     ]
   },
   {
-    "id": "nye-outlook-37",
+    "id": "internasjonale-tegn-37",
     "tittel": "ñ",
     "forklaring": "Alt gr+Tilde (~), N",
     "tags": [
@@ -1966,7 +1966,7 @@
     ]
   },
   {
-    "id": "nye-outlook-38",
+    "id": "internasjonale-tegn-38",
     "tittel": "õ",
     "forklaring": "Alt gr+Tilde (~), O",
     "tags": [
@@ -1975,7 +1975,7 @@
     ]
   },
   {
-    "id": "nye-outlook-39",
+    "id": "internasjonale-tegn-39",
     "tittel": "Ä",
     "forklaring": "Trema (¨), Skift+A",
     "tags": [
@@ -1984,7 +1984,7 @@
     ]
   },
   {
-    "id": "nye-outlook-40",
+    "id": "internasjonale-tegn-40",
     "tittel": "Ë",
     "forklaring": "Trema (¨), Skift+E",
     "tags": [
@@ -1993,7 +1993,7 @@
     ]
   },
   {
-    "id": "nye-outlook-41",
+    "id": "internasjonale-tegn-41",
     "tittel": "Ï",
     "forklaring": "Trema (¨), Skift+I",
     "tags": [
@@ -2002,7 +2002,7 @@
     ]
   },
   {
-    "id": "nye-outlook-42",
+    "id": "internasjonale-tegn-42",
     "tittel": "Ö",
     "forklaring": "Trema (¨), Skift+O",
     "tags": [
@@ -2011,7 +2011,7 @@
     ]
   },
   {
-    "id": "nye-outlook-43",
+    "id": "internasjonale-tegn-43",
     "tittel": "Ü",
     "forklaring": "Trema (¨), Skift+U",
     "tags": [
@@ -2020,7 +2020,7 @@
     ]
   },
   {
-    "id": "nye-outlook-44",
+    "id": "internasjonale-tegn-44",
     "tittel": "Ÿ",
     "forklaring": "0178, Alt+X (Word og Outlook)",
     "tags": [
@@ -2029,7 +2029,7 @@
     ]
   },
   {
-    "id": "nye-outlook-45",
+    "id": "internasjonale-tegn-45",
     "tittel": "ä",
     "forklaring": "Trema (¨), A",
     "tags": [
@@ -2038,7 +2038,7 @@
     ]
   },
   {
-    "id": "nye-outlook-46",
+    "id": "internasjonale-tegn-46",
     "tittel": "ë",
     "forklaring": "Trema (¨), E",
     "tags": [
@@ -2047,7 +2047,7 @@
     ]
   },
   {
-    "id": "nye-outlook-47",
+    "id": "internasjonale-tegn-47",
     "tittel": "ï",
     "forklaring": "Trema (¨), I",
     "tags": [
@@ -2056,7 +2056,7 @@
     ]
   },
   {
-    "id": "nye-outlook-48",
+    "id": "internasjonale-tegn-48",
     "tittel": "ö",
     "forklaring": "Trema (¨), O",
     "tags": [
@@ -2065,7 +2065,7 @@
     ]
   },
   {
-    "id": "nye-outlook-49",
+    "id": "internasjonale-tegn-49",
     "tittel": "ü",
     "forklaring": "Trema (¨), U",
     "tags": [
@@ -2074,7 +2074,7 @@
     ]
   },
   {
-    "id": "nye-outlook-50",
+    "id": "internasjonale-tegn-50",
     "tittel": "ÿ",
     "forklaring": "Trema (¨), Y",
     "tags": [
@@ -2083,7 +2083,7 @@
     ]
   },
   {
-    "id": "nye-outlook-omvendt-utropstegn",
+    "id": "internasjonale-tegn-omvendt-utropstegn",
     "tittel": "Omvendt utropstegn (¡)",
     "forklaring": "00A1, Alt+X (Word og Outlook)",
     "tags": [
@@ -2092,7 +2092,7 @@
     ]
   },
   {
-    "id": "nye-outlook-omvendt-spoersmaalstegn",
+    "id": "internasjonale-tegn-omvendt-spoersmaalstegn",
     "tittel": "Omvendt spørsmålstegn (¿)",
     "forklaring": "00BF, Alt+X (Word og Outlook)",
     "tags": [
@@ -2101,7 +2101,7 @@
     ]
   },
   {
-    "id": "nye-outlook-c-cedilla-med-store-bokstaver",
+    "id": "internasjonale-tegn-c-cedilla-med-store-bokstaver",
     "tittel": "C-cedilla med store bokstaver (Ç)",
     "forklaring": "00C7, Alt+X (Word og Outlook)",
     "tags": [
@@ -2110,7 +2110,7 @@
     ]
   },
   {
-    "id": "nye-outlook-smaa-c-cedilla",
+    "id": "internasjonale-tegn-smaa-c-cedilla",
     "tittel": "Små c-cedilla (ç)",
     "forklaring": "00E7, Alt+X (Word og Outlook)",
     "tags": [
@@ -2119,7 +2119,7 @@
     ]
   },
   {
-    "id": "nye-outlook-oe-diftong-med-store-bokstaver",
+    "id": "internasjonale-tegn-oe-diftong-med-store-bokstaver",
     "tittel": "OE-diftong med store bokstaver (Œ)",
     "forklaring": "0152, Alt+X (Word og Outlook)",
     "tags": [
@@ -2128,7 +2128,7 @@
     ]
   },
   {
-    "id": "nye-outlook-smaa-bokstaver-oe-diftong",
+    "id": "internasjonale-tegn-smaa-bokstaver-oe-diftong",
     "tittel": "Små bokstaver oe diftong (œ)",
     "forklaring": "0153, Alt+X (Word og Outlook)",
     "tags": [
@@ -2137,7 +2137,7 @@
     ]
   },
   {
-    "id": "nye-outlook-eszett-eller-ss",
+    "id": "internasjonale-tegn-eszett-eller-ss",
     "tittel": "Eszett eller ss (ß)",
     "forklaring": "00DF, Alt+X (Word og Outlook)",
     "tags": [
@@ -2146,7 +2146,7 @@
     ]
   },
   {
-    "id": "nye-outlook-maskulin-ordenstallindikator-eller-gradsymbol",
+    "id": "internasjonale-tegn-maskulin-ordenstallindikator-eller-gradsymbol",
     "tittel": "Maskulin ordenstallindikator eller gradsymbol (º)",
     "forklaring": "00BA, Alt+X (Word og Outlook)",
     "tags": [
@@ -2155,7 +2155,7 @@
     ]
   },
   {
-    "id": "nye-outlook-feminin-ordinal-indikator",
+    "id": "internasjonale-tegn-feminin-ordinal-indikator",
     "tittel": "Feminin ordinal indikator (ª)",
     "forklaring": "00AA, Alt+X (Word og Outlook)",
     "tags": [
@@ -2164,7 +2164,7 @@
     ]
   },
   {
-    "id": "nye-outlook-torn-med-store-bokstaver",
+    "id": "internasjonale-tegn-torn-med-store-bokstaver",
     "tittel": "Torn med store bokstaver (Þ)",
     "forklaring": "00DE, Alt+X (Word og Outlook)",
     "tags": [
@@ -2173,7 +2173,7 @@
     ]
   },
   {
-    "id": "nye-outlook-liten-torn",
+    "id": "internasjonale-tegn-liten-torn",
     "tittel": "Liten torn (þ)",
     "forklaring": "00FE, Alt+X (Word og Outlook)",
     "tags": [
@@ -2182,7 +2182,7 @@
     ]
   },
   {
-    "id": "nye-outlook-store-bokstaver-eth",
+    "id": "internasjonale-tegn-store-bokstaver-eth",
     "tittel": "Store bokstaver eth (Ð)",
     "forklaring": "00D0, Alt+X (Word og Outlook)",
     "tags": [
@@ -2191,7 +2191,7 @@
     ]
   },
   {
-    "id": "nye-outlook-smaa-bokstaver-eth",
+    "id": "internasjonale-tegn-smaa-bokstaver-eth",
     "tittel": "Små bokstaver eth (ð)",
     "forklaring": "00F0, Alt+X (Word og Outlook)",
     "tags": [
@@ -2200,7 +2200,7 @@
     ]
   },
   {
-    "id": "nye-outlook-enkelt-venstrevinklet-anfoerselstegn",
+    "id": "internasjonale-tegn-enkelt-venstrevinklet-anfoerselstegn",
     "tittel": "Enkelt venstrevinklet anførselstegn (‹)",
     "forklaring": "2039, Alt+X (Word og Outlook)",
     "tags": [
@@ -2209,7 +2209,7 @@
     ]
   },
   {
-    "id": "nye-outlook-enkelt-rettvinklet-anfoerselstegn",
+    "id": "internasjonale-tegn-enkelt-rettvinklet-anfoerselstegn",
     "tittel": "Enkelt rettvinklet anførselstegn (›)",
     "forklaring": "203A, Alt+X (Word og Outlook)",
     "tags": [
@@ -2218,7 +2218,7 @@
     ]
   },
   {
-    "id": "nye-outlook-store-bokstaver-s-med-caron",
+    "id": "internasjonale-tegn-store-bokstaver-s-med-caron",
     "tittel": "Store bokstaver S med caron (Š)",
     "forklaring": "0160, Alt+X (Word og Outlook)",
     "tags": [
@@ -2227,7 +2227,7 @@
     ]
   },
   {
-    "id": "nye-outlook-smaa-bokstaver-med-caron",
+    "id": "internasjonale-tegn-smaa-bokstaver-med-caron",
     "tittel": "Små bokstaver s med caron (š)",
     "forklaring": "0161, Alt+X (Word og Outlook)",
     "tags": [
@@ -2236,7 +2236,7 @@
     ]
   },
   {
-    "id": "nye-outlook-store-bokstaver-z-med-caron",
+    "id": "internasjonale-tegn-store-bokstaver-z-med-caron",
     "tittel": "Store bokstaver Z med caron (Ž)",
     "forklaring": "017D, Alt+X (Word og Outlook)",
     "tags": [
@@ -2245,7 +2245,7 @@
     ]
   },
   {
-    "id": "nye-outlook-smaa-bokstaver-z-med-caron",
+    "id": "internasjonale-tegn-smaa-bokstaver-z-med-caron",
     "tittel": "Små bokstaver z med caron (ž)",
     "forklaring": "017E, Alt+X (Word og Outlook)",
     "tags": [
@@ -2734,14 +2734,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-opprette-en-moeteinvitasjon",
-    "tittel": "Opprette en møteinvitasjon",
-    "forklaring": "CTRL+SKIFT+Q",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-opprette-en-melding",
     "tittel": "Opprette en melding",
     "forklaring": "CTRL+SKIFT+M",
@@ -3145,22 +3137,6 @@
     "id": "klassisk-outlook-kontrollere-navn",
     "tittel": "Kontrollere navn",
     "forklaring": "CTRL+K",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-svare-paa-en-melding-2",
-    "tittel": "Svare på en melding",
-    "forklaring": "CTRL+R",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-velg-alternativet-svar-til-alle-2",
-    "tittel": "Velg alternativet Svar til alle",
-    "forklaring": "CTRL+SKIFT+R",
     "tags": [
       "outlook"
     ]
@@ -3606,30 +3582,6 @@
     ]
   },
   {
-    "id": "klassisk-outlook-svare-paa-en-melding-3",
-    "tittel": "Svare på en melding",
-    "forklaring": "ALT+H, R, P",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-velg-alternativet-svar-til-alle-3",
-    "tittel": "Velg alternativet Svar til alle",
-    "forklaring": "ALT+H, R, A",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-videresende-en-melding-3",
-    "tittel": "Videresende en melding",
-    "forklaring": "ALT+H, F, W",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
     "id": "klassisk-outlook-aapne-en-melding",
     "tittel": "Åpne en melding",
     "forklaring": "ENTER",
@@ -3960,7 +3912,7 @@
   {
     "id": "klassisk-outlook-bytte-til-maanedsvisning",
     "tittel": "Bytte til månedsvisning",
-    "forklaring": "ALT",
+    "forklaring": "Alt+Likhetstegn (=) eller Ctrl+Alt+4",
     "tags": [
       "outlook"
     ]
@@ -4216,7 +4168,7 @@
   {
     "id": "klassisk-outlook-vise-fra-en-til-ni-dager",
     "tittel": "Vise fra en til ni dager",
-    "forklaring": "Alt",
+    "forklaring": "Alt+1 til Alt+9",
     "tags": [
       "outlook"
     ]
@@ -4233,14 +4185,6 @@
     "id": "klassisk-outlook-bytt-til-ukevisning",
     "tittel": "Bytt til ukevisning",
     "forklaring": "ALT+MINUSTEGN (-)",
-    "tags": [
-      "outlook"
-    ]
-  },
-  {
-    "id": "klassisk-outlook-bytte-til-maanedsvisning-2",
-    "tittel": "Bytte til månedsvisning",
-    "forklaring": "ALT+LIKHETSTEGN (=)",
     "tags": [
       "outlook"
     ]
@@ -4456,7 +4400,7 @@
   {
     "id": "klassisk-outlook-gaa-til-den-foerste-kontakten-som-begynner-",
     "tittel": "Gå til den første kontakten som begynner med en bestemt bokstav, i tabell- eller listevisning av kontakter",
-    "forklaring": "SKIFT",
+    "forklaring": "Skift, bokstaven",
     "tags": [
       "outlook"
     ]
@@ -5016,7 +4960,7 @@
   {
     "id": "klassisk-outlook-merk-flere-tilstoetende-elementer",
     "tittel": "Merk flere tilstøtende elementer",
-    "forklaring": "SKIFT",
+    "forklaring": "Skift+Pil opp eller Skift+Pil ned",
     "tags": [
       "outlook"
     ]
@@ -6502,14 +6446,6 @@
     ]
   },
   {
-    "id": "word-sett-inn-ansi-tegnet-for-den-angitte-ansi-tegnkoden-des",
-    "tittel": "Sett inn ANSI-tegnet for den angitte ANSI-tegnkoden (desimal)",
-    "forklaring": "ALT",
-    "tags": [
-      "word"
-    ]
-  },
-  {
     "id": "word-sett-inn-en-hyperkobling",
     "tittel": "Sett inn en hyperkobling",
     "forklaring": "CTRL+K",
@@ -7075,14 +7011,6 @@
     "id": "word-bytt-til-japansk-input-method-editor-ime-for-et-101-tas",
     "tittel": "Bytt til japansk Input Method Editor (IME) for et 101-tasters tastatur, hvis tilgjengelig",
     "forklaring": "ALT+SITAT (')",
-    "tags": [
-      "word"
-    ]
-  },
-  {
-    "id": "word-bytt-til-koreansk-input-method-editor-ime-for-et-101-ta",
-    "tittel": "Bytt til koreansk Input Method Editor (IME) for et 101-tasters tastatur, hvis tilgjengelig",
-    "forklaring": "ALT",
     "tags": [
       "word"
     ]
@@ -8792,22 +8720,6 @@
     ]
   },
   {
-    "id": "excel-utvide-grupperte-rader-eller-kolonner",
-    "tittel": "Utvide grupperte rader eller kolonner",
-    "forklaring": "SKIFT",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
-    "id": "excel-lukke-grupperte-rader-eller-kolonner",
-    "tittel": "Lukke grupperte rader eller kolonner",
-    "forklaring": "SKIFT",
-    "tags": [
-      "excel"
-    ]
-  },
-  {
     "id": "excel-aktiver-deaktiver-verktoeytips-for-aa-kontrollere-form",
     "tittel": "Aktiver/deaktiver verktøytips for å kontrollere formler direkte på formellinjen eller i cellen du redigerer",
     "forklaring": "CTRL+ALT+P",
@@ -9665,7 +9577,7 @@
   },
   {
     "id": "excel-end-slaar-sluttmodus-paa-eller-av",
-    "tittel": "END slår sluttmodus på eller av",
+    "tittel": "Slå sluttmodus på eller av",
     "forklaring": "Fn+Pil høyre",
     "tags": [
       "excel"
@@ -9761,24 +9673,24 @@
   },
   {
     "id": "excel-down-gaar-ett-skjermbilde-til-hoeyre-i-et-regneark",
-    "tittel": "DOWN går ett skjermbilde til høyre i et regneark",
-    "forklaring": "ALT",
+    "tittel": "Gå ett skjermbilde til høyre i et regneark",
+    "forklaring": "Alt+Fn+Pil ned",
     "tags": [
       "excel"
     ]
   },
   {
     "id": "excel-down-gaar-til-neste-ark-i-en-arbeidsbok",
-    "tittel": "DOWN går til neste ark i en arbeidsbok",
-    "forklaring": "CTRL",
+    "tittel": "Gå til neste ark i en arbeidsbok",
+    "forklaring": "Ctrl+Fn+Pil ned",
     "tags": [
       "excel"
     ]
   },
   {
     "id": "excel-down-merker-det-gjeldende-og-det-neste-arket-i-en-arbe",
-    "tittel": "DOWN merker det gjeldende og det neste arket i en arbeidsbok",
-    "forklaring": "CTRL+SKIFT",
+    "tittel": "Merk gjeldende og neste ark i en arbeidsbok",
+    "forklaring": "Ctrl+Skift+Fn+Pil ned",
     "tags": [
       "excel"
     ]
@@ -9793,32 +9705,32 @@
   },
   {
     "id": "excel-down-gaar-ett-skjermbilde-til-venstre-i-et-regneark",
-    "tittel": "DOWN går ett skjermbilde til venstre i et regneark",
-    "forklaring": "ALT",
+    "tittel": "Gå ett skjermbilde til venstre i et regneark",
+    "forklaring": "Alt+Fn+Pil opp",
     "tags": [
       "excel"
     ]
   },
   {
     "id": "excel-up-gaar-til-forrige-ark-i-en-arbeidsbok",
-    "tittel": "UP går til forrige ark i en arbeidsbok",
-    "forklaring": "CTRL",
+    "tittel": "Gå til forrige ark i en arbeidsbok",
+    "forklaring": "Ctrl+Fn+Pil opp",
     "tags": [
       "excel"
     ]
   },
   {
     "id": "excel-up-merker-det-gjeldende-og-det-forrige-arket-i-en-arbe",
-    "tittel": "UP merker det gjeldende og det forrige arket i en arbeidsbok",
-    "forklaring": "CTRL+SKIFT",
+    "tittel": "Merk gjeldende og forrige ark i en arbeidsbok",
+    "forklaring": "Ctrl+Skift+Fn+Pil opp",
     "tags": [
       "excel"
     ]
   },
   {
     "id": "excel-hold-skift-tasten-nede-naar-du-drar-en-valgt-rad-kolon",
-    "tittel": "Hold SKIFT-tasten nede når du drar en valgt rad, kolonne eller valgte celler for å flytte de valgte cellene, og slipp for å sette dem inn på en ny plassering",
-    "forklaring": "SKIFT",
+    "tittel": "Flytte merkede celler, rader eller kolonner ved å dra dem",
+    "forklaring": "Hold inne Skift mens du drar",
     "tags": [
       "excel"
     ]
@@ -9917,15 +9829,6 @@
     "id": "powerpoint-bruke-fet-formatering-paa-den-merkede-teksten",
     "tittel": "Bruke fet formatering på den merkede teksten",
     "forklaring": "CTRL+B",
-    "tags": [
-      "powerpoint"
-    ],
-    "undergruppe": "Redigering"
-  },
-  {
-    "id": "powerpoint-aapne-dialogboksen-skrift",
-    "tittel": "Åpne dialogboksen Skrift",
-    "forklaring": "CTRL+T",
     "tags": [
       "powerpoint"
     ],
@@ -12084,7 +11987,7 @@
   {
     "id": "onenote-opprette-et-hurtignotat",
     "tittel": "Opprette et hurtignotat",
-    "forklaring": "CTRL+SKIFT+M eller ALT",
+    "forklaring": "Ctrl+Skift+M eller Alt+Windows-tast+N",
     "tags": [
       "onenote"
     ]
@@ -12972,7 +12875,7 @@
   {
     "id": "onenote-angi-skriveretning-fra-venstre-mot-hoeyre",
     "tittel": "Angi skriveretning fra venstre mot høyre",
-    "forklaring": "CTRL",
+    "forklaring": "Ctrl+Skift (venstre)",
     "tags": [
       "onenote"
     ]
@@ -12980,7 +12883,7 @@
   {
     "id": "onenote-angi-skriveretning-fra-hoeyre-mot-venstre",
     "tittel": "Angi skriveretning fra høyre mot venstre",
-    "forklaring": "CTRL",
+    "forklaring": "Ctrl+Skift (høyre)",
     "tags": [
       "onenote"
     ]
@@ -13005,14 +12908,6 @@
     "id": "onenote-aktivere-deaktivere-fullsidevisning",
     "tittel": "Aktivere/deaktivere fullsidevisning",
     "forklaring": "F11",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-opprette-et-hurtignotat-2",
-    "tittel": "Opprette et hurtignotat",
-    "forklaring": "CTRL+SKIFT+M",
     "tags": [
       "onenote"
     ]
@@ -13221,14 +13116,6 @@
     "id": "onenote-gaa-til-neste-notatbeholder",
     "tittel": "Gå til neste notatbeholder",
     "forklaring": "ALT+Pil ned",
-    "tags": [
-      "onenote"
-    ]
-  },
-  {
-    "id": "onenote-gaa-til-begynnelsen-av-linjen-2",
-    "tittel": "Gå til begynnelsen av linjen",
-    "forklaring": "Fn+Pil venstre",
     "tags": [
       "onenote"
     ]
@@ -13781,14 +13668,6 @@
     "id": "microsoft-365-lagre-en-fil-med-standardverdiene",
     "tittel": "Lagre en fil med standardverdiene",
     "forklaring": "L",
-    "tags": [
-      "microsoft 365"
-    ]
-  },
-  {
-    "id": "microsoft-365-aapne-dialogboksen-lagre-som-for-aa-lagre-file",
-    "tittel": "Åpne dialogboksen Lagre som for å lagre filen med et annet navn eller på en annen plassering",
-    "forklaring": "A, 1",
     "tags": [
       "microsoft 365"
     ]
