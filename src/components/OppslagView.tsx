@@ -322,7 +322,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                   <p className="text-slate-500 font-medium mb-1.5">I listen</p>
                   <p className="text-slate-500">
                     {keys
-                      ? 'Klikk på en emneknagg (#) for å se bare hurtigtastene i den appen.'
+                      ? 'Skriv navnet på en app, for eksempel «excel», for å se bare hurtigtastene i den appen.'
                       : 'Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere. Klikk på flere for å se oppslagene som har alle.'}
                   </p>
                 </div>
@@ -461,13 +461,7 @@ function OppslagList({ ord, keys, expandedId, onExpand, onTagClick, activeTags }
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
       {ord.map((o, idx) => (
         keys ? (
-          <KeyRow
-            key={o.id}
-            ord={o}
-            onTagClick={onTagClick}
-            activeTags={activeTags}
-            withBorder={idx < ord.length - 1}
-          />
+          <KeyRow key={o.id} ord={o} withBorder={idx < ord.length - 1} />
         ) : (
           <OppslagRow
             key={o.id}
@@ -524,23 +518,20 @@ function TagChips({ ord, onTagClick, activeTags }: TagChipsProps) {
 
 interface KeyRowProps {
   ord: Oppslag
-  onTagClick: (id: string, tag: string) => void
-  activeTags: string[]
   withBorder: boolean
 }
 
-// Description, keys and app tag, all visible: nothing to expand.
-function KeyRow({ ord, onTagClick, activeTags, withBorder }: KeyRowProps) {
+// Description and keys on one line. The app tag is searchable but not shown.
+function KeyRow({ ord, withBorder }: KeyRowProps) {
   return (
     <div
       id={`ord-${ord.id}`}
       className={`${withBorder ? 'border-b border-slate-100' : ''} px-4 py-3 [content-visibility:auto] [contain-intrinsic-size:auto_76px]`}
     >
-      <p className="text-sm text-slate-800 leading-snug">{ord.tittel}</p>
-      <div className="mt-1.5 flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
-        <Keys text={ord.forklaring} />
-        <div className="flex gap-1.5">
-          <TagChips ord={ord} onTagClick={onTagClick} activeTags={activeTags} />
+      <div className="flex items-start gap-3">
+        <p className="flex-1 min-w-0 text-sm text-slate-800 leading-snug">{ord.tittel}</p>
+        <div className="shrink-0 max-w-[50%] text-right">
+          <Keys text={ord.forklaring} />
         </div>
       </div>
     </div>

@@ -11,15 +11,6 @@ const entries = JSON.parse(
   readFileSync(resolve(process.cwd(), 'public/content/hurtigtaster.json'), 'utf8'),
 ) as Oppslag[]
 
-// Microsoft describes these in words, not as keys.
-const DESCRIBED = new Set([
-  'En hvilken som helst alfanumerisk nøkkel',
-  'Første bokstaven i et mappenavn',
-  'Første bokstav i et alternativ i en rullegardinliste',
-  'Skriv inn én eller flere bokstaver i navnet som kortet er arkivert under, eller navnet på feltet du sorterer etter',
-  'Hjem Trykk og hold nede høyre og venstre museknapp i to sekunder',
-])
-
 describe('hurtigtaster.json', () => {
   it('has unique ids and one app tag with a group', () => {
     expect(new Set(entries.map(e => e.id)).size).toBe(entries.length)
@@ -33,7 +24,7 @@ describe('hurtigtaster.json', () => {
     for (const e of entries) {
       expect(e.tittel, e.id).not.toMatch(/^\s|\.$/)
       expect(e.forklaring, e.id).not.toContain('\n')
-      if (!DESCRIBED.has(e.forklaring)) expect(parseKeys(e.forklaring).some(s => 'key' in s), e.forklaring).toBe(true)
+      expect(parseKeys(e.forklaring).some(s => 'key' in s), e.forklaring).toBe(true)
     }
   })
 

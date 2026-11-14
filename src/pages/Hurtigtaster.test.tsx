@@ -33,17 +33,19 @@ async function renderPage() {
 const headings = () => screen.getAllByRole('heading', { level: 2 }).map(h => h.textContent)
 
 describe('Hurtigtaster', () => {
-  it('groups by app in GROUPS order and shows keys and app tag on each row', async () => {
+  it('groups by app in GROUPS order and shows the keys without the tag', async () => {
     await renderPage()
     expect(headings()).toEqual(['Windows', 'Word', 'Excel'])
     const row = document.getElementById('ord-filter')!
     expect([...row.querySelectorAll('kbd')].map(k => k.textContent)).toEqual(['Ctrl', '⇧Skift', 'L'])
-    expect(row.querySelector('[aria-pressed]')?.textContent).toBe('#excel')
+    expect(row.querySelector('[aria-pressed]')).toBeNull()
   })
 
-  it('shows one app from its tag', async () => {
+  it('finds one app by searching its name', async () => {
     await renderPage()
-    fireEvent.click(screen.getByRole('button', { name: 'Vis alle oppslag merket excel' }))
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'excel' } })
+    expect(headings()).toEqual(['Excel'])
+    fireEvent.click(screen.getByRole('button', { name: /Vis alle oppslag merket/ }))
     expect(headings()).toEqual(['Excel'])
   })
 
