@@ -7,7 +7,7 @@ import { GROUPS } from './hurtigtaster'
 import { keyLabel, parseKeys } from '../lib/keys'
 
 const TAGS = new Set(GROUPS.map(g => g.tag))
-const GENERAL_TAGS = ['microsoft 365', 'windows', 'internasjonale tegn']
+const GENERAL_TAGS = ['microsoft 365', 'windows', 'tegn/emojis', 'internasjonale tegn']
 const entries = JSON.parse(
   readFileSync(resolve(process.cwd(), 'public/content/hurtigtaster.json'), 'utf8'),
 ) as Oppslag[]

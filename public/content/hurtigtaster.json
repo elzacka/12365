@@ -15557,5 +15557,93 @@
     "tags": [
       "chrome"
     ]
+  },
+  {
+    "id": "tegn-gaaseoeyne-venstre",
+    "tittel": "Gåseøyne «",
+    "forklaring": "ALT+0171",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-gaaseoeyne-hoeyre",
+    "tittel": "Gåseøyne »",
+    "forklaring": "ALT+0187",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-kort-tankestrek",
+    "tittel": "Kort tankestrek –",
+    "forklaring": "ALT+0150",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-lang-tankestrek",
+    "tittel": "Lang tankestrek —",
+    "forklaring": "ALT+0151",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-pipe",
+    "tittel": "Pipe |",
+    "forklaring": "|",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-omvendt-skraastrek",
+    "tittel": "Omvendt skråstrek \\",
+    "forklaring": "\\",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-hakeparentes-venstre",
+    "tittel": "Hakeparentes [",
+    "forklaring": "Alt gr+8",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-hakeparentes-hoeyre",
+    "tittel": "Hakeparentes ]",
+    "forklaring": "Alt gr+9",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-kroellparentes-venstre",
+    "tittel": "Krøllparentes {",
+    "forklaring": "Alt gr+7",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-kroellparentes-hoeyre",
+    "tittel": "Krøllparentes }",
+    "forklaring": "Alt gr+0",
+    "tags": [
+      "tegn/emojis"
+    ]
+  },
+  {
+    "id": "tegn-emoji-og-symboler",
+    "tittel": "Emoji og symboler",
+    "forklaring": "Windows-tast+punktum (.) eller Windows-tast+semikolon (;)",
+    "tags": [
+      "tegn/emojis"
+    ]
   }
 ]

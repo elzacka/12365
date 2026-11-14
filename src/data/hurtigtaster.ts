@@ -17,6 +17,7 @@ const APPS: OppslagGroup[] = [
 const GENERAL: OppslagGroup[] = [
   { tag: 'microsoft 365', title: 'Microsoft 365' },
   { tag: 'windows', title: 'Windows' },
+  { tag: 'tegn/emojis', title: 'Tegn/Emojis' },
   { tag: 'internasjonale tegn', title: 'Internasjonale tegn' },
 ]
 

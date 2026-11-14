@@ -55,6 +55,7 @@ export function KeyLegend() {
 const NOTATION: [string, string][] = [
   ['Alt+F', 'Hold inne Alt og trykk på F'],
   ['Alt+F, X', 'Trykk på Alt+F, slipp tastene og trykk på X'],
+  ['Alt+0171', 'Hold inne Alt og skriv tallet på talltastaturet'],
 ]
 
 // What «+» and «,» between keys mean.

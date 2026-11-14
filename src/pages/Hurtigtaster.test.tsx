@@ -85,6 +85,7 @@ describe('Hurtigtaster', () => {
     await renderPage()
     fireEvent.click(screen.getByRole('button', { name: 'Veiledning' }))
     expect(screen.getByText('Trykk på Alt+F, slipp tastene og trykk på X')).toBeTruthy()
+    expect(screen.getByText('Hold inne Alt og skriv tallet på talltastaturet')).toBeTruthy()
   })
 
   it('finds an international character under its app name too', async () => {
