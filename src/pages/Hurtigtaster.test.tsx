@@ -7,6 +7,8 @@ const ENTRIES: Oppslag[] = [
   { id: 'filter', tittel: 'Legg til eller fjern filter', forklaring: 'CTRL+SKIFT+L', tags: ['excel'] },
   { id: 'punkt', tittel: 'Legg til en punktliste', forklaring: 'Ctrl+Skift+L', tags: ['word'] },
   { id: 'laas', tittel: 'Lås datamaskinen', forklaring: 'Windows-tast+L', tags: ['windows'] },
+  { id: 'cedilla', tittel: 'ç', forklaring: 'ALT+0231', tags: ['internasjonale tegn', 'nye outlook'] },
+  { id: 'oppgave', tittel: 'Opprett en oppgave', forklaring: 'Ctrl+Skift+K', tags: ['microsoft 365'] },
 ]
 
 // One stable promise: `use()` suspends again on every new one.
@@ -33,9 +35,9 @@ async function renderPage() {
 const headings = () => screen.getAllByRole('heading', { level: 2 }).map(h => h.textContent)
 
 describe('Hurtigtaster', () => {
-  it('groups by app in GROUPS order and shows the keys without the tag', async () => {
+  it('groups by app in GROUPS order, general sections last, and shows the keys without the tag', async () => {
     await renderPage()
-    expect(headings()).toEqual(['Windows', 'Word', 'Excel'])
+    expect(headings()).toEqual(['Word', 'Excel', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
     const row = document.getElementById('ord-filter')!
     expect([...row.querySelectorAll('kbd')].map(k => k.textContent)).toEqual(['Ctrl', '⇧Skift', 'L'])
     expect(row.querySelector('[aria-pressed]')).toBeNull()
@@ -52,6 +54,12 @@ describe('Hurtigtaster', () => {
   it('keeps the app heading on search hits', async () => {
     await renderPage()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'skift' } })
-    expect(headings()).toEqual(['Word', 'Excel'])
+    expect(headings()).toEqual(['Word', 'Excel', 'Microsoft 365'])
+  })
+
+  it('finds an international character under its app name too', async () => {
+    await renderPage()
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'nye outlook' } })
+    expect(headings()).toEqual(['Internasjonale tegn'])
   })
 })

@@ -12,11 +12,12 @@ const entries = JSON.parse(
 ) as Oppslag[]
 
 describe('hurtigtaster.json', () => {
-  it('has unique ids and one app tag with a group', () => {
+  it('has unique ids and one app tag with a group, after «internasjonale tegn» if present', () => {
     expect(new Set(entries.map(e => e.id)).size).toBe(entries.length)
     for (const e of entries) {
-      expect(e.tags.length, e.id).toBe(1)
-      expect(TAGS.has(e.tags[0]), `${e.id}: ${e.tags[0]}`).toBe(true)
+      const [first, ...rest] = e.tags[0] === 'internasjonale tegn' ? e.tags.slice(1) : e.tags
+      expect(rest, e.id).toEqual([])
+      expect(TAGS.has(first) && first !== 'internasjonale tegn', `${e.id}: ${first}`).toBe(true)
     }
   })
 

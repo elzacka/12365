@@ -1,8 +1,6 @@
-// Hurtigtaster sections, general before app-specific; each entry has one tag, its app.
+// Hurtigtaster sections, app-specific before general; each entry's first tag is its section.
 // Apps outside E5 (Project, Visio desktop) are left out.
 export const GROUPS = [
-  { tag: 'windows', title: 'Windows' },
-  { tag: 'microsoft 365', title: 'Microsoft 365' },
   { tag: 'teams', title: 'Teams' },
   { tag: 'nye outlook', title: 'Nye Outlook' },
   { tag: 'klassisk outlook', title: 'Klassisk Outlook' },
@@ -14,4 +12,7 @@ export const GROUPS = [
   { tag: 'access', title: 'Access' },
   { tag: 'sway', title: 'Sway' },
   { tag: 'sticky notes', title: 'Sticky Notes' },
+  { tag: 'microsoft 365', title: 'Microsoft 365' },
+  { tag: 'windows', title: 'Windows' },
+  { tag: 'internasjonale tegn', title: 'Internasjonale tegn' },
 ]
