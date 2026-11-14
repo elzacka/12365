@@ -51,3 +51,22 @@ export function KeyLegend() {
     </ul>
   )
 }
+
+const NOTATION: [string, string][] = [
+  ['Alt+F', 'Hold inne Alt og trykk på F'],
+  ['Alt+F, X', 'Trykk på Alt+F, slipp tastene og trykk på X'],
+]
+
+// What «+» and «,» between keys mean.
+export function KeyNotation() {
+  return (
+    <ul className="space-y-1.5">
+      {NOTATION.map(([keys, meaning]) => (
+        <li key={keys} className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-slate-500">
+          <Keys text={keys} />
+          <span>{meaning}</span>
+        </li>
+      ))}
+    </ul>
+  )
+}

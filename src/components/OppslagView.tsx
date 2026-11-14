@@ -4,7 +4,7 @@ import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import { SearchIcon, CloseIcon, ChevronRightIcon } from './Icons'
 import { SearchShortcutHint } from './SearchShortcutHint'
-import { KeyLegend, Keys } from './Keys'
+import { KeyLegend, KeyNotation, Keys } from './Keys'
 import { parseInline, stripLinks } from '../lib/inline'
 import type { Oppslag } from '../types'
 
@@ -320,13 +320,15 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                   <div className="pt-2 border-t border-slate-100">
                     <p className="text-slate-500 font-medium mb-1.5">Symbolene på tastene</p>
                     <KeyLegend />
+                    <p className="text-slate-500 font-medium mt-3 mb-1.5">Slik trykker du</p>
+                    <KeyNotation />
                   </div>
                 )}
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-500 font-medium mb-1.5">I listen</p>
                   <p className="text-slate-500">
                     {keys
-                      ? 'Skriv navnet på en app, for eksempel «excel», for å se bare hurtigtastene i den appen.'
+                      ? 'Trykk på en kategori, for eksempel «Excel», for å se bare hurtigtastene i den. Trykk på den igjen for å se alle.'
                       : 'Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere. Klikk på flere for å se oppslagene som har alle.'}
                   </p>
                 </div>

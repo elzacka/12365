@@ -75,6 +75,12 @@ describe('Hurtigtaster', () => {
     expect(headings()).toEqual(['Excel', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
   })
 
+  it('explains «+» and «,» between keys in the guide', async () => {
+    await renderPage()
+    fireEvent.click(screen.getByRole('button', { name: 'Veiledning' }))
+    expect(screen.getByText('Trykk på Alt+F, slipp tastene og trykk på X')).toBeTruthy()
+  })
+
   it('finds an international character under its app name too', async () => {
     await renderPage()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'nye outlook' } })
