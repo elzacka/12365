@@ -1853,7 +1853,7 @@
   {
     "id": "nye-outlook-44",
     "tittel": "Ÿ",
-    "forklaring": "0178, Alt+X",
+    "forklaring": "0178, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1916,7 +1916,7 @@
   {
     "id": "nye-outlook-omvendt-utropstegn",
     "tittel": "Omvendt utropstegn (¡)",
-    "forklaring": "00A1, Alt+X",
+    "forklaring": "00A1, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1925,7 +1925,7 @@
   {
     "id": "nye-outlook-omvendt-spoersmaalstegn",
     "tittel": "Omvendt spørsmålstegn (¿)",
-    "forklaring": "00BF, Alt+X",
+    "forklaring": "00BF, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1934,7 +1934,7 @@
   {
     "id": "nye-outlook-c-cedilla-med-store-bokstaver",
     "tittel": "C-cedilla med store bokstaver (Ç)",
-    "forklaring": "00C7, Alt+X",
+    "forklaring": "00C7, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1943,7 +1943,7 @@
   {
     "id": "nye-outlook-smaa-c-cedilla",
     "tittel": "Små c-cedilla (ç)",
-    "forklaring": "00E7, Alt+X",
+    "forklaring": "00E7, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1952,7 +1952,7 @@
   {
     "id": "nye-outlook-oe-diftong-med-store-bokstaver",
     "tittel": "OE-diftong med store bokstaver (Œ)",
-    "forklaring": "0152, Alt+X",
+    "forklaring": "0152, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1961,7 +1961,7 @@
   {
     "id": "nye-outlook-smaa-bokstaver-oe-diftong",
     "tittel": "Små bokstaver oe diftong (œ)",
-    "forklaring": "0153, Alt+X",
+    "forklaring": "0153, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1970,7 +1970,7 @@
   {
     "id": "nye-outlook-eszett-eller-ss",
     "tittel": "Eszett eller ss (ß)",
-    "forklaring": "00DF, Alt+X",
+    "forklaring": "00DF, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1979,7 +1979,7 @@
   {
     "id": "nye-outlook-maskulin-ordenstallindikator-eller-gradsymbol",
     "tittel": "Maskulin ordenstallindikator eller gradsymbol (º)",
-    "forklaring": "00BA, Alt+X",
+    "forklaring": "00BA, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1988,7 +1988,7 @@
   {
     "id": "nye-outlook-feminin-ordinal-indikator",
     "tittel": "Feminin ordinal indikator (ª)",
-    "forklaring": "00AA, Alt+X",
+    "forklaring": "00AA, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -1997,7 +1997,7 @@
   {
     "id": "nye-outlook-torn-med-store-bokstaver",
     "tittel": "Torn med store bokstaver (Þ)",
-    "forklaring": "00DE, Alt+X",
+    "forklaring": "00DE, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2006,7 +2006,7 @@
   {
     "id": "nye-outlook-liten-torn",
     "tittel": "Liten torn (þ)",
-    "forklaring": "00FE, Alt+X",
+    "forklaring": "00FE, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2015,7 +2015,7 @@
   {
     "id": "nye-outlook-store-bokstaver-eth",
     "tittel": "Store bokstaver eth (Ð)",
-    "forklaring": "00D0, Alt+X",
+    "forklaring": "00D0, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2024,7 +2024,7 @@
   {
     "id": "nye-outlook-smaa-bokstaver-eth",
     "tittel": "Små bokstaver eth (ð)",
-    "forklaring": "00F0, Alt+X",
+    "forklaring": "00F0, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2033,7 +2033,7 @@
   {
     "id": "nye-outlook-enkelt-venstrevinklet-anfoerselstegn",
     "tittel": "Enkelt venstrevinklet anførselstegn (‹)",
-    "forklaring": "2039, Alt+X",
+    "forklaring": "2039, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2042,7 +2042,7 @@
   {
     "id": "nye-outlook-enkelt-rettvinklet-anfoerselstegn",
     "tittel": "Enkelt rettvinklet anførselstegn (›)",
-    "forklaring": "203A, Alt+X",
+    "forklaring": "203A, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2051,7 +2051,7 @@
   {
     "id": "nye-outlook-store-bokstaver-s-med-caron",
     "tittel": "Store bokstaver S med caron (Š)",
-    "forklaring": "0160, Alt+X",
+    "forklaring": "0160, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2060,7 +2060,7 @@
   {
     "id": "nye-outlook-smaa-bokstaver-med-caron",
     "tittel": "Små bokstaver s med caron (š)",
-    "forklaring": "0161, Alt+X",
+    "forklaring": "0161, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2069,7 +2069,7 @@
   {
     "id": "nye-outlook-store-bokstaver-z-med-caron",
     "tittel": "Store bokstaver Z med caron (Ž)",
-    "forklaring": "017D, Alt+X",
+    "forklaring": "017D, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -2078,7 +2078,7 @@
   {
     "id": "nye-outlook-smaa-bokstaver-z-med-caron",
     "tittel": "Små bokstaver z med caron (ž)",
-    "forklaring": "017E, Alt+X",
+    "forklaring": "017E, Alt+X (Word og Outlook)",
     "tags": [
       "internasjonale tegn",
       "windows"
@@ -15537,7 +15537,7 @@
   {
     "id": "tegn-gaaseoeyne-venstre",
     "tittel": "Gåseøyne «",
-    "forklaring": "00AB, Alt+X",
+    "forklaring": "00AB, Alt+X (Word og Outlook)",
     "tags": [
       "tegn/emojis"
     ]
@@ -15545,7 +15545,7 @@
   {
     "id": "tegn-gaaseoeyne-hoeyre",
     "tittel": "Gåseøyne »",
-    "forklaring": "00BB, Alt+X",
+    "forklaring": "00BB, Alt+X (Word og Outlook)",
     "tags": [
       "tegn/emojis"
     ]
@@ -15553,7 +15553,7 @@
   {
     "id": "tegn-kort-tankestrek",
     "tittel": "Kort tankestrek –",
-    "forklaring": "2013, Alt+X",
+    "forklaring": "2013, Alt+X (Word og Outlook)",
     "tags": [
       "tegn/emojis"
     ]
@@ -15561,7 +15561,7 @@
   {
     "id": "tegn-lang-tankestrek",
     "tittel": "Lang tankestrek —",
-    "forklaring": "2014, Alt+X",
+    "forklaring": "2014, Alt+X (Word og Outlook)",
     "tags": [
       "tegn/emojis"
     ]
