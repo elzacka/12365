@@ -22,6 +22,20 @@ function joinTags(tags: string[]): string {
   return `${tags.slice(0, -1).join(', ')} og ${tags[tags.length - 1]}`
 }
 
+// [id, heading, entries]
+type Group = [string, string, Oppslag[]]
+
+function alphabetical(list: Oppslag[]): Oppslag[] {
+  return [...list].sort((a, b) => a.tittel.localeCompare(b.tittel, 'nb'))
+}
+
+// Each entry under its first tag, groups in the given order, entries in list order.
+function groupByTag(list: Oppslag[], groups: { tag: string; title: string }[]): Group[] {
+  return groups
+    .map(g => [g.tag, g.title, list.filter(o => o.tags[0] === g.tag)] as Group)
+    .filter(([, , items]) => items.length > 0)
+}
+
 function normalizeForCompare(s: string): string {
   return s.toLowerCase().replace(/[^a-zæøå0-9]/g, '')
 }
@@ -44,10 +58,14 @@ interface OppslagViewProps {
   searchLabel: string
   examples: SearchExample[]
   resetLabel: string
+  /** Group by first tag, in this order, instead of by first letter. */
+  groups?: { tag: string; title: string }[]
+  /** Line 1 of `forklaring` is a key combination, shown as keys beside the title. */
+  keys?: boolean
 }
 
-// Searchable, tag-filtered A–Z list shared by Jukselapp and Hurtigtaster.
-export function OppslagView({ ord, placeholderWords, searchLabel, examples, resetLabel }: OppslagViewProps) {
+// Searchable, tag-filtered list shared by Jukselapp and Hurtigtaster.
+export function OppslagView({ ord, placeholderWords, searchLabel, examples, resetLabel, groups, keys = false }: OppslagViewProps) {
   const [query, setQuery] = useState('')
   const [activeTags, setActiveTags] = useState<string[]>([])
   const [showHelp, setShowHelp] = useState(false)
@@ -155,7 +173,8 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
           hasTagFilter && `${isSearching ? 'blant oppslag ' : ''}merket ${joinTags(activeTags)}`,
         ].filter(Boolean).join(' ')
 
-  const grouped = useMemo(() => {
+  const grouped = useMemo<Group[]>(() => {
+    if (groups) return groupByTag(alphabetical(filteredByTag), groups)
     const map = new Map<string, Oppslag[]>()
     for (const o of filteredByTag) {
       const key = firstLetter(o.tittel)
@@ -165,11 +184,39 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     }
     return Array.from(map.entries())
       .sort(([a], [b]) => a.localeCompare(b, 'nb'))
-      .map(([letter, items]) => [
-        letter,
-        [...items].sort((a, b) => a.tittel.localeCompare(b.tittel, 'nb')),
-      ] as [string, Oppslag[]])
-  }, [filteredByTag])
+      .map(([letter, items]) => [letter, letter, alphabetical(items)])
+  }, [filteredByTag, groups])
+
+  // Search hits keep their rank inside each group.
+  const resultGroups = useMemo(
+    () => (groups && results ? groupByTag(results, groups) : null),
+    [groups, results],
+  )
+
+  const renderGroups = (list: Group[]) => (
+    <div className="space-y-5">
+      {list.map(([id, heading, items]) => (
+        <section key={id} aria-labelledby={`grp-h-${id}`} id={`grp-${id}`}>
+          <div className="mb-2 px-1">
+            <h2
+              id={`grp-h-${id}`}
+              className="text-sm font-semibold text-slate-500 uppercase tracking-wider"
+            >
+              {heading}
+            </h2>
+          </div>
+          <OppslagList
+            ord={items}
+            keys={keys}
+            expandedId={expandedId}
+            onExpand={handleExpand}
+            onTagClick={handleTagClick}
+            activeTags={activeTags}
+          />
+        </section>
+      ))}
+    </div>
+  )
 
   const handleExpand = useCallback((id: string) => {
     setExpandedId(prev => (prev === id ? null : id))
@@ -334,9 +381,12 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                 {resetLabel}
               </button>
             </div>
+          ) : resultGroups ? (
+            renderGroups(resultGroups)
           ) : (
             <OppslagList
               ord={results}
+              keys={keys}
               expandedId={expandedId}
               onExpand={handleExpand}
               onTagClick={handleTagClick}
@@ -358,33 +408,13 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                 </button>
               </div>
             ) : (
-              <div className="space-y-5">
-                {grouped.map(([letter, items]) => (
-                  <section key={letter} aria-labelledby={`grp-h-${letter}`} id={`grp-${letter}`}>
-                    <div className="mb-2 px-1">
-                      <h2
-                        id={`grp-h-${letter}`}
-                        className="text-sm font-semibold text-slate-500 uppercase tracking-wider"
-                      >
-                        {letter}
-                      </h2>
-                    </div>
-                    <OppslagList
-                      ord={items}
-                      expandedId={expandedId}
-                      onExpand={handleExpand}
-                      onTagClick={handleTagClick}
-                      activeTags={activeTags}
-                    />
-                  </section>
-                ))}
-              </div>
+              renderGroups(grouped)
             )}
           </>
         )}
       </main>
 
-      {results === null && grouped.length > 0 && (
+      {!groups && results === null && grouped.length > 0 && (
         <nav
           aria-label="Hopp til bokstav"
           className="hidden sm:flex fixed right-2 top-1/2 -translate-y-1/2 flex-col gap-0.5 z-20 bg-white/80 backdrop-blur-sm rounded-lg border border-slate-200 px-1 py-2 shadow-sm"
@@ -407,19 +437,21 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
 
 interface OppslagListProps {
   ord: Oppslag[]
+  keys: boolean
   expandedId: string | null
   onExpand: (id: string) => void
   onTagClick: (id: string, tag: string) => void
   activeTags: string[]
 }
 
-function OppslagList({ ord, expandedId, onExpand, onTagClick, activeTags }: OppslagListProps) {
+function OppslagList({ ord, keys, expandedId, onExpand, onTagClick, activeTags }: OppslagListProps) {
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
       {ord.map((o, idx) => (
         <OppslagRow
           key={o.id}
           ord={o}
+          keys={keys}
           isExpanded={expandedId === o.id}
           onExpand={onExpand}
           onTagClick={onTagClick}
@@ -433,6 +465,7 @@ function OppslagList({ ord, expandedId, onExpand, onTagClick, activeTags }: Opps
 
 interface OppslagRowProps {
   ord: Oppslag
+  keys: boolean
   isExpanded: boolean
   onExpand: (id: string) => void
   onTagClick: (id: string, tag: string) => void
@@ -440,11 +473,13 @@ interface OppslagRowProps {
   withBorder: boolean
 }
 
-function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBorder }: OppslagRowProps) {
+function OppslagRow({ ord, keys, isExpanded, onExpand, onTagClick, activeTags, withBorder }: OppslagRowProps) {
   const previewText = useMemo(() => {
     const firstLine = stripLinks(ord.forklaring.split('\n')[0])
     return firstLine.length > 140 ? firstLine.slice(0, 140).trim() + '…' : firstLine
   }, [ord.forklaring])
+  const lines = ord.forklaring.split('\n').map(l => l.trim()).filter(Boolean)
+  const bodyLines = keys ? lines.slice(1) : lines
 
   return (
     <div
@@ -459,27 +494,26 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
       >
         <div className="flex-1 min-w-0">
           <span className="text-sm font-medium text-slate-800 leading-snug">{ord.tittel}</span>
-          {!isExpanded && (
+          {!keys && !isExpanded && (
             <p className="text-xs text-slate-500 mt-0.5 line-clamp-1 leading-snug">
               {parseInline(previewText)}
             </p>
           )}
         </div>
+        {keys && <Keys combo={lines[0] ?? ''} />}
       </button>
       {isExpanded && (
         <div
           id={`ord-body-${ord.id}`}
           className="px-4 pb-4 pt-0 text-sm text-slate-700 leading-relaxed"
         >
-          <div className="space-y-2">
-            {ord.forklaring
-              .split('\n')
-              .map(l => l.trim())
-              .filter(Boolean)
-              .map((line, i) => (
+          {bodyLines.length > 0 && (
+            <div className="space-y-2">
+              {bodyLines.map((line, i) => (
                 <p key={i}>{parseInline(line)}</p>
               ))}
-          </div>
+            </div>
+          )}
           {(() => {
             const aliases = visibleAliases(ord)
             if (aliases.length === 0) return null
@@ -523,5 +557,20 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
         </div>
       )}
     </div>
+  )
+}
+
+// «**Ctrl+Skift+M**» as one key cap; on a narrow screen it breaks only after a «+».
+function Keys({ combo }: { combo: string }) {
+  const parts = combo.replace(/\*\*/g, '').split('+')
+  return (
+    <kbd className="shrink-0 max-w-[50%] text-right font-sans text-xs font-medium text-slate-700 bg-slate-50 border border-slate-200 rounded-md px-1.5 py-0.5 shadow-[inset_0_-1px_0_var(--color-slate-200)]">
+      {parts.map((p, i) => (
+        <Fragment key={i}>
+          <span className="whitespace-nowrap">{p}{i < parts.length - 1 && '+'}</span>
+          {i < parts.length - 1 && <wbr />}
+        </Fragment>
+      ))}
+    </kbd>
   )
 }

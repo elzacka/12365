@@ -3,8 +3,10 @@ import { resolve } from 'node:path'
 import { describe, it, expect } from 'vitest'
 import type { Oppslag } from '../types'
 import { buildIndex, searchOrd } from './searchIndex'
+import { GROUPS } from './hurtigtaster'
 
-const TAGS = new Set(['windows', 'office', 'teams', 'outlook', 'word', 'excel', 'powerpoint'])
+// Every tag has a group, so every entry shows under its first tag.
+const TAGS = new Set(GROUPS.map(g => g.tag))
 const entries = JSON.parse(
   readFileSync(resolve(process.cwd(), 'public/content/hurtigtaster.json'), 'utf8'),
 ) as Oppslag[]

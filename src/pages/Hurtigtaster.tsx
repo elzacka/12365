@@ -1,6 +1,7 @@
 import { use } from 'react'
 import { fetchHurtigtaster } from '../data/loader'
 import { OppslagView, type SearchExample } from '../components/OppslagView'
+import { GROUPS } from '../data/hurtigtaster'
 
 const PLACEHOLDER_WORDS = ['handling', 'tast', 'app']
 
@@ -18,6 +19,8 @@ export function Hurtigtaster() {
       searchLabel="Søk i hurtigtastene"
       examples={EXAMPLES}
       resetLabel="Vis alle hurtigtastene"
+      groups={GROUPS}
+      keys
     />
   )
 }
