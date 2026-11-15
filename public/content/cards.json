@@ -29,7 +29,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-365/clipchamp?market=no#tabs-pill-bar-ocf614_tab1"
+      "url": "https://support.microsoft.com/nb-no/clipchamp/"
     }
   },
   {
@@ -42,7 +42,11 @@
     "oppsummering": "KI-chat med søk på nett. Følger med M365",
     "overlapper": [
       "Microsoft Copilot"
-    ]
+    ],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/microsoft-365-copilot/"
+    }
   },
   {
     "navn": "Microsoft Copilot",
@@ -55,7 +59,11 @@
     "overlapper": [
       "Copilot Chat",
       "Copilot Studio"
-    ]
+    ],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/microsoft-365-copilot/"
+    }
   },
   {
     "navn": "Copilot Studio",
@@ -79,7 +87,11 @@
     "fotnote": "",
     "kategori": "nettleser",
     "oppsummering": "Nettleser med Copilot i sidepanelet",
-    "overlapper": []
+    "overlapper": [],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/edge/"
+    }
   },
   {
     "navn": "Excel",
@@ -92,7 +104,11 @@
     "overlapper": [
       "Lists",
       "Power BI"
-    ]
+    ],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/excel/"
+    }
   },
   {
     "navn": "Forms",
@@ -107,7 +123,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-365/online-surveys-polls-quizzes#Overview-1"
+      "url": "https://support.microsoft.com/nb-no/forms/"
     }
   },
   {
@@ -142,7 +158,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-loop"
+      "url": "https://support.microsoft.com/nb-no/loop/get-started-with-microsoft-loop"
     }
   },
   {
@@ -155,7 +171,11 @@
     "oppsummering": "Personlig lagring for utkast og filer du ikke er klar til å dele",
     "overlapper": [
       "SharePoint"
-    ]
+    ],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/onedrive/"
+    }
   },
   {
     "navn": "OneNote",
@@ -168,7 +188,11 @@
     "overlapper": [
       "Loop",
       "Whiteboard"
-    ]
+    ],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/onenote/"
+    }
   },
   {
     "navn": "Outlook",
@@ -183,7 +207,11 @@
       "Places",
       "Planner",
       "Viva Insights"
-    ]
+    ],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/outlook/"
+    }
   },
   {
     "navn": "Places",
@@ -214,7 +242,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-365/planner/microsoft-planner?market=no#Overview"
+      "url": "https://support.microsoft.com/nb-no/planner/"
     }
   },
   {
@@ -275,7 +303,11 @@
     "oppsummering": "Presentasjoner med tekst, bilder, video og animasjoner",
     "overlapper": [
       "Clipchamp"
-    ]
+    ],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/powerpoint/"
+    }
   },
   {
     "navn": "SharePoint",
@@ -293,7 +325,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-365/sharepoint/collaboration?market=no#tabs-pill-bar-occfa1_tab1"
+      "url": "https://support.microsoft.com/nb-no/sharepoint/"
     }
   },
   {
@@ -310,7 +342,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-365/visio?market=no#app-integrations"
+      "url": "https://support.microsoft.com/nb-no/visio/"
     }
   },
   {
@@ -327,7 +359,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-viva/engage?market=no#Overview"
+      "url": "https://support.microsoft.com/nb-no/viva/engage/get-started-with-viva-engage"
     }
   },
   {
@@ -343,7 +375,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-viva/insights?market=no"
+      "url": "https://support.microsoft.com/nb-no/viva/insights/personal-insights-in-viva-insights"
     }
   },
   {
@@ -377,7 +409,7 @@
     ],
     "lenke": {
       "tekst": "Se mulighetene",
-      "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-whiteboard/digital-whiteboard-app#Overview-2"
+      "url": "https://support.microsoft.com/nb-no/whiteboard/"
     }
   },
   {
@@ -387,6 +419,10 @@
     "sammen": "Lagre i OneDrive eller Teams, så flere kan redigere samtidig.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Dokumenter med innebygd hjelp til språk og stavekontroll"
+    "oppsummering": "Dokumenter med innebygd hjelp til språk og stavekontroll",
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/word/"
+    }
   }
 ]
