@@ -58,8 +58,9 @@ describe('Hurtigtaster', () => {
     await renderPage()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'excel' } })
     expect(headings()).toEqual(['Excel'])
-    fireEvent.click(screen.getByRole('button', { name: /Vis alle oppslag merket/ }))
+    fireEvent.click(screen.getByRole('button', { name: 'Vis alt i Excel' }))
     expect(headings()).toEqual(['Excel'])
+    expect(screen.getByRole('button', { name: 'Fjern filter Excel' })).toBeTruthy()
   })
 
   it('keeps the app heading on search hits', async () => {
@@ -140,7 +141,31 @@ describe('Hurtigtaster', () => {
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'lysbi' } })
     expect(screen.queryByRole('button', { name: /Vis alt under/ })).toBeNull()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'word' } })
-    expect(screen.queryByRole('button', { name: /Vis alle oppslag merket/ })).toBeNull()
+    expect(screen.queryByRole('button', { name: /Vis alt i/ })).toBeNull()
+  })
+
+  it('keeps the query and searches every app when the filtered app has no hits', async () => {
+    await renderPage()
+    fireEvent.click(screen.getByRole('button', { name: 'Filtrer på app' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Excel' }))
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'lås' } })
+    expect(screen.getByText(/Fant ikke/).textContent).toBe('Fant ikke «lås» i Excel')
+    fireEvent.click(screen.getByRole('button', { name: 'Søk i alle appene' }))
+    expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('lås')
+    expect(headings()).toEqual(['Windows'])
+  })
+
+  it('empties the search field on Esc and keeps the app filter', async () => {
+    await renderPage()
+    fireEvent.click(screen.getByRole('button', { name: 'Filtrer på app' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Word' }))
+    const box = screen.getByRole('searchbox')
+    fireEvent.change(box, { target: { value: 'fet' } })
+    fireEvent.keyDown(box, { key: 'Escape' })
+    expect((box as HTMLInputElement).value).toBe('')
+    expect(headings()).toEqual(['Word'])
+    fireEvent.keyDown(box, { key: 'Escape' })
+    expect(headings()).toEqual(['Excel', 'PowerPoint', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
   })
 
   it('keeps search hits in rank order, without subheadings', async () => {

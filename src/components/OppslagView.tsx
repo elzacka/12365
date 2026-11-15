@@ -123,13 +123,15 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     window.history.replaceState(window.history.state, '', url)
   }, [expandedId])
 
-  // ESC kollapser ekspandert rad eller fjerner alle tag-filtre.
+  // Esc empties the search field first, then collapses the open row, then clears the tag filter.
   const hasTagFilter = activeTags.length > 0
   useEffect(() => {
     if (!expandedId && !hasTagFilter) return
     const handler = (e: KeyboardEvent) => {
       if (e.key !== 'Escape') return
-      if (expandedId) setExpandedId(null)
+      const input = searchInputRef.current
+      if (e.target === input && input?.value) setQuery('')
+      else if (expandedId) setExpandedId(null)
       else setTags([])
     }
     window.addEventListener('keydown', handler)
@@ -161,6 +163,11 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
       .filter(sub => sub.toLowerCase().includes(q))
       .map(sub => ({ tag: g.tag, title: g.title, sub })))
   }, [query, groups, activeTags])
+
+  // In a grouped list a tag is an app: show its title, «i Excel», not «merket excel».
+  const tagName = useCallback((tag: string) => groups?.find(g => g.tag === tag)?.title ?? tag, [groups])
+  const activeNames = joinTags(activeTags.map(tagName))
+  const tagPrefix = groups ? 'i' : 'merket'
 
   const chipGroups = useMemo(
     () => (groups ? [...groups].sort((a, b) => a.title.localeCompare(b.title, 'nb')) : []),
@@ -209,7 +216,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
       ? 'Ingen treff'
       : [
           isSearching ? `${visibleCount} treff på «${trimmedQuery}»` : `${visibleCount} oppslag`,
-          hasTagFilter && `${isSearching ? 'blant oppslag ' : ''}merket ${joinTags(activeTags)}`,
+          hasTagFilter && `${isSearching && !groups ? 'blant oppslag ' : ''}${tagPrefix} ${activeNames}`,
           activeSub && `under ${activeSub.sub}`,
         ].filter(Boolean).join(' ')
 
@@ -432,35 +439,47 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
             }}
             className="mb-4 w-full text-left inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-brand-200 bg-brand-50 hover:bg-brand-100 transition-colors text-xs text-brand-800"
           >
-            <span className="text-brand-500">#</span>
-            <span>
-              Vis alle oppslag merket <strong className="font-semibold">{joinTags([...activeTags, tagShortcut])}</strong>
-            </span>
+            {groups ? (
+              <span>
+                Vis alt i <strong className="font-semibold">{tagName(tagShortcut)}</strong>
+              </span>
+            ) : (
+              <>
+                <span className="text-brand-500">#</span>
+                <span>
+                  Vis alle oppslag merket <strong className="font-semibold">{joinTags([...activeTags, tagShortcut])}</strong>
+                </span>
+              </>
+            )}
           </button>
         )}
 
-        {subShortcuts.map(({ tag, title, sub }) => (
-          <button
-            key={`${tag}-${sub}`}
-            onClick={() => {
-              setActiveTags([tag])
-              setActiveSub({ tag, sub })
-              setQuery('')
-            }}
-            className="mb-4 w-full text-left inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-brand-200 bg-brand-50 hover:bg-brand-100 transition-colors text-xs text-brand-800"
-          >
-            <span>
-              Vis alt under <strong className="font-semibold">{sub}</strong> i {title}
-            </span>
-          </button>
-        ))}
+        {subShortcuts.length > 0 && (
+          <div className="mb-4 space-y-1.5">
+            {subShortcuts.map(({ tag, title, sub }) => (
+              <button
+                key={`${tag}-${sub}`}
+                onClick={() => {
+                  setActiveTags([tag])
+                  setActiveSub({ tag, sub })
+                  setQuery('')
+                }}
+                className="w-full text-left inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-brand-200 bg-brand-50 hover:bg-brand-100 transition-colors text-xs text-brand-800"
+              >
+                <span>
+                  Vis alt under <strong className="font-semibold">{sub}</strong> i {title}
+                </span>
+              </button>
+            ))}
+          </div>
+        )}
 
         {isFiltering && visibleCount > 0 && (
           <div className="mb-4 flex flex-wrap items-center gap-x-1.5 gap-y-2 text-xs text-slate-500">
             <span className="min-w-0 break-words">
               <strong className="font-semibold text-slate-700 tabular-nums">{visibleCount}</strong>
               {isSearching ? <> treff på «{trimmedQuery}»</> : ' oppslag'}
-              {hasTagFilter && (isSearching ? ' blant oppslag merket' : ' merket')}
+              {hasTagFilter && (isSearching && !groups ? ' blant oppslag merket' : ` ${tagPrefix}`)}
             </span>
             {hasTagFilter && (
               <>
@@ -470,9 +489,9 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                       <button
                         onClick={() => removeTag(tag)}
                         className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-brand-100 text-brand-800 hover:bg-brand-200 transition-colors"
-                        aria-label={`Fjern filter ${tag}`}
+                        aria-label={`Fjern filter ${tagName(tag)}`}
                       >
-                        <span>{tag}</span>
+                        <span>{tagName(tag)}</span>
                         <CloseIcon size={12} />
                       </button>
                       {i < activeTags.length - 2 && ','}
@@ -503,16 +522,19 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
             <div className="text-center py-16 text-slate-500">
               <p className="text-base mb-1">
                 Fant ikke <em>«{query}»</em>
-                {hasTagFilter && <> blant oppslag merket <em>{joinTags(activeTags)}</em></>}
+                {hasTagFilter && (groups
+                  ? <> i <em>{activeNames}</em></>
+                  : <> blant oppslag merket <em>{joinTags(activeTags)}</em></>)}
               </p>
+              {/* With an app filter on, keep the query and widen the search to every app. */}
               <button
                 onClick={() => {
-                  setQuery('')
+                  if (!groups || !hasTagFilter) setQuery('')
                   setTags([])
                 }}
                 className="text-sm text-brand-700 hover:text-brand-800 transition-colors"
               >
-                {resetLabel}
+                {groups && hasTagFilter ? 'Søk i alle appene' : resetLabel}
               </button>
             </div>
           ) : resultGroups ? (
