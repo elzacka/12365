@@ -61,7 +61,7 @@ export function FlipCard({ card }: FlipCardProps) {
         </div>
 
         {/* Back */}
-        <div inert={!flipped} className="flip-card-face flip-card-back relative bg-brand-700 flex flex-col p-4 text-left">
+        <div inert={!flipped} className="flip-card-face flip-card-back relative bg-brand-700 flex flex-col p-4 pb-9 text-left">
           <div className="flex-1 flex flex-col gap-2.5">
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-wider text-brand-200 mb-1">Hva den gjør</p>
