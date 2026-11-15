@@ -104,7 +104,7 @@ export function SeOgHor() {
           {courses.length === 0 ? (
             <p className="text-sm text-slate-500">Ingen kurs ennå.</p>
           ) : (
-            <div className="grid grid-cols-2 gap-3">
+            <div className="flex flex-col gap-3">
               {courses.map(c => {
                 const thumbnailSrc = c.thumbnail ? `${base}${c.thumbnail}` : null
 
@@ -114,9 +114,9 @@ export function SeOgHor() {
                     href={c.lenke}
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="group relative flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
+                    className="group relative flex bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
                   >
-                    <div className="relative aspect-video bg-slate-100">
+                    <div className="relative ml-3 mt-3 w-20 h-20 sm:w-24 sm:h-24 shrink-0 rounded-lg overflow-hidden bg-slate-100">
                       {thumbnailSrc ? (
                         <img
                           src={thumbnailSrc}
@@ -127,7 +127,7 @@ export function SeOgHor() {
                         />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                          <GraduationCapIcon size={36} />
+                          <GraduationCapIcon size={28} />
                         </div>
                       )}
                     </div>
