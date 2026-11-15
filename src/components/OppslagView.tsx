@@ -83,8 +83,10 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
     setActiveTags(next)
   }, [])
   const [showHelp, setShowHelp] = useState(false)
+  const [showFilter, setShowFilter] = useState(false)
   const placeholder = useRotatingPlaceholder('Søk i', placeholderWords)
   const helpId = useId()
+  const filterId = useId()
   const searchInputRef = useRef<HTMLInputElement>(null)
   const isDesktopSearch = useSearchShortcut(searchInputRef)
 
@@ -318,8 +320,23 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
             )}
           </div>
 
-          <div className="flex items-center justify-end mt-1.5">
+          <div className="flex items-center justify-end gap-4 mt-1.5">
             <p className="sr-only" aria-live="polite">{filterSummary}</p>
+            {groups && (
+              <button
+                type="button"
+                onClick={() => setShowFilter(v => !v)}
+                aria-expanded={showFilter}
+                aria-controls={filterId}
+                className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-700 transition-colors"
+              >
+                Filtrer på app
+                <ChevronRightIcon
+                  size={12}
+                  className={`transition-transform duration-150 ${showFilter ? '-rotate-90' : 'rotate-90'}`}
+                />
+              </button>
+            )}
             <button
               type="button"
               onClick={() => setShowHelp(v => !v)}
@@ -334,6 +351,34 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
               />
             </button>
           </div>
+
+          {groups && showFilter && (
+            <div
+              id={filterId}
+              role="group"
+              aria-label="Filtrer på app"
+              className="mt-1 bg-white rounded-xl border border-slate-200 shadow-sm px-3 py-3 flex flex-wrap gap-1.5"
+            >
+              {chipGroups.map(g => {
+                const isActive = activeTags.length === 1 && activeTags[0] === g.tag
+                return (
+                  <button
+                    key={g.tag}
+                    type="button"
+                    onClick={() => setTags(isActive ? [] : [g.tag])}
+                    className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                      isActive
+                        ? 'bg-brand-700 text-white shadow-sm'
+                        : 'bg-white border border-slate-200 text-slate-600 hover:border-slate-300'
+                    }`}
+                    aria-pressed={isActive}
+                  >
+                    {g.title}
+                  </button>
+                )
+              })}
+            </div>
+          )}
 
           {showHelp && (
             <div
@@ -367,7 +412,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                   <p className="text-slate-500 font-medium mb-1.5">I listen</p>
                   <p className="text-slate-500">
                     {keys
-                      ? 'Trykk på en kategori, for eksempel «Excel», for å se bare hurtigtastene i den. Trykk på den igjen for å se alle.'
+                      ? 'Åpne «Filtrer på app» og trykk på en app, for eksempel «Excel», for å se bare hurtigtastene i den. Trykk på den igjen for å se alle.'
                       : 'Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere. Klikk på flere for å se oppslagene som har alle.'}
                   </p>
                 </div>
@@ -375,28 +420,6 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
             </div>
           )}
 
-          {groups && (
-            <div role="group" aria-label="Filtrer på kategori" className="flex flex-wrap gap-1.5 mt-2">
-              {chipGroups.map(g => {
-                const isActive = activeTags.length === 1 && activeTags[0] === g.tag
-                return (
-                  <button
-                    key={g.tag}
-                    type="button"
-                    onClick={() => setTags(isActive ? [] : [g.tag])}
-                    className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
-                      isActive
-                        ? 'bg-brand-700 text-white shadow-sm'
-                        : 'bg-white border border-slate-200 text-slate-600 hover:border-slate-300'
-                    }`}
-                    aria-pressed={isActive}
-                  >
-                    {g.title}
-                  </button>
-                )
-              })}
-            </div>
-          )}
         </div>
 
         {tagShortcut && (

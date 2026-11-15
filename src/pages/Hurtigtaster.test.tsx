@@ -68,9 +68,13 @@ describe('Hurtigtaster', () => {
     expect(headings()).toEqual(['Excel', 'Word', 'Microsoft 365'])
   })
 
-  it('filters on one category with the chips, sorted alphabetically', async () => {
+  it('filters on one app from the collapsed «Filtrer på app» box, sorted alphabetically', async () => {
     await renderPage()
-    const chips = screen.getByRole('group', { name: 'Filtrer på kategori' })
+    const toggle = screen.getByRole('button', { name: 'Filtrer på app', expanded: false })
+    expect(screen.queryByRole('group', { name: 'Filtrer på app' })).toBeNull()
+    fireEvent.click(toggle)
+    expect(toggle.getAttribute('aria-expanded')).toBe('true')
+    const chips = screen.getByRole('group', { name: 'Filtrer på app' })
     const names = [...chips.querySelectorAll('button')].map(b => b.textContent!)
     expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b, 'nb')))
     const word = screen.getByRole('button', { name: 'Word', pressed: false })
@@ -103,6 +107,7 @@ describe('Hurtigtaster', () => {
       hurtigtasterGrupper: [{ tag: 'skjult app', title: 'Skjult app' }],
     })
     expect(headings()).toEqual(['Excel', 'PowerPoint', 'Skjult app', 'Word', 'Microsoft 365', 'Windows', 'Internasjonale tegn'])
+    fireEvent.click(screen.getByRole('button', { name: 'Filtrer på app' }))
     expect(screen.getByRole('button', { name: 'Skjult app' })).toBeTruthy()
   })
 
@@ -123,6 +128,7 @@ describe('Hurtigtaster', () => {
 
   it('shows only the section on a category chip, not rows that name the app as a second tag', async () => {
     await renderPage()
+    fireEvent.click(screen.getByRole('button', { name: 'Filtrer på app' }))
     fireEvent.click(screen.getByRole('button', { name: 'Windows' }))
     expect(headings()).toEqual(['Windows'])
   })
