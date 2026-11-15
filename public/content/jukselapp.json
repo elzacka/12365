@@ -976,6 +976,20 @@
     ]
   },
   {
+    "id": "dataforgiftning",
+    "tittel": "Dataforgiftning",
+    "undertittel": "data poisoning",
+    "forklaring": "Manipulering av treningsdata som gjør at en KI-modell lærer feil, utvikler skjevheter eller blir mer sårbar for angrep. Dataforgiftning kan forekomme både i datainnsamlingen og i selve treningsprosessen. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "sikkerhet",
+      "begrep"
+    ],
+    "alias": [
+      "Data poisoning"
+    ]
+  },
+  {
     "id": "dataforvaltning",
     "tittel": "Dataforvaltning",
     "forklaring": "Praksis for å ta vare på, overvåke og administrere data slik at de holder kvalitet og brukes ansvarlig.",
@@ -1340,6 +1354,19 @@
     ]
   },
   {
+    "id": "digital-forestillingsevne",
+    "tittel": "Digital forestillingsevne",
+    "undertittel": "digital imagination",
+    "forklaring": "Evnen til å forestille seg hvordan digitale teknologier kan brukes på nye måter i arbeid, tjenester og samfunn. Uttrykket er blant annet tatt i bruk av Kompetansebehovsutvalget, som beskriver digital forestillingsevne som en nødvendig kompetanse for at Norge skal lykkes med digital omstilling. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "digitalisering",
+      "begrep"
+    ],
+    "alias": [
+      "Digital imagination"
+    ]
+  },
+  {
     "id": "digital-transformasjon",
     "tittel": "Digital transformasjon",
     "forklaring": "Dyptgripende samfunnsendring der data og digital teknologi får oss til å gjøre nye ting på nye måter.",
@@ -1497,6 +1524,20 @@
     ]
   },
   {
+    "id": "drittifisering",
+    "tittel": "Drittifisering",
+    "undertittel": "enshitification",
+    "forklaring": "Gradvis forringelse av digitale tjenester eller plattformer som konsekvens av selskapenes ønske om å maksimere brukerengasjement og profitt. Uttrykket ble først tatt i bruk av forfatteren Cory Doctorow. Drittifiseringen skjer ofte stegvis. Først lokkes du inn med gode (og ofte gratis) tjenester. Senere tilpasses tjenesten til fordel for betalende brukere. Til slutt synker kvaliteten for alle, mens selskapene maksimerer fortjenesten. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "digitalisering",
+      "begrep"
+    ],
+    "alias": [
+      "Enshitification",
+      "enshittification"
+    ]
+  },
+  {
     "id": "dyp-laering",
     "tittel": "Dyp læring",
     "undertittel": "deep learning",
@@ -1633,6 +1674,249 @@
     "alias": [
       "EU AI Act",
       "Artificial Intelligence Act"
+    ]
+  },
+  {
+    "id": "fritert-hjerne",
+    "tittel": "Fritert hjerne",
+    "undertittel": "brain fry",
+    "forklaring": "Mental utmattelse forårsaket av KI-bruk i et omfang som overstiger egen kognitiv kapasitet. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Brain fry"
+    ]
+  },
+  {
+    "id": "hjernerate",
+    "tittel": "Hjerneråte",
+    "undertittel": "brainrot",
+    "forklaring": "Mental sløvhet og nedsatt konsentrasjonsevne forårsaket av overdreven eksponering for digitalt innhold av lav intellektuell verdi på nett. Det engelske ordet brainrot ble kåret til årets ord i 2024 av Oxford University Press. I 2025 ble meme-varianten Italian brainrot populær. Dette fenomenet kjennetegnes av absurde KI-genererte skapninger med pseudo-italienske navn og uttrykk. Omtales også som digital hjernetåke. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "digitalisering",
+      "begrep"
+    ],
+    "alias": [
+      "Brainrot"
+    ]
+  },
+  {
+    "id": "ki-avkledning",
+    "tittel": "KI-avkledning",
+    "undertittel": "AI undressing",
+    "forklaring": "KI-basert manipulering av bilder eller videoer for å fremstille personer nakne eller i seksualiserte situasjoner. Fenomenet regnes som en form for dypforfalskning (deepfake) og har aktualisert debatter om seksuell trakassering og personvern. Tjenesten Grok har fått mye kritikk for å tillate generering av seksualiserte bilder av kvinner og barn. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "personvern",
+      "begrep"
+    ],
+    "alias": [
+      "AI undressing"
+    ]
+  },
+  {
+    "id": "ki-bloff",
+    "tittel": "KI-bløff",
+    "undertittel": "AI bluffing",
+    "forklaring": "Når et KI-system fremstiller egne evner som bedre enn de egentlig er. Uttrykket brukes i forbindelse med testing av KI-modellers kapasiteter og evner, og er det motsatte av strategisk underprestasjon (på engelsk sandbagging) der systemene underpresterer for å oppnå belønning. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "AI bluffing"
+    ]
+  },
+  {
+    "id": "ki-generert-jobbskvip",
+    "tittel": "KI-generert jobbskvip",
+    "undertittel": "AI workslop",
+    "forklaring": "KI-generert innhold på arbeidsplassen som fremstår profesjonelt, men som holder lav kvalitet og er til lite nytte. Arbeidsskvipet kan være alt fra tekst og kode til KI-agenter som genererer unyttige resultater. Konseptet ble beskrevet av Harvard Business Review, og spiller på uttrykket KI-skvip (på engelsk AI slop). Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "produktivitet",
+      "begrep"
+    ],
+    "alias": [
+      "AI workslop"
+    ]
+  },
+  {
+    "id": "ki-individualisme",
+    "tittel": "KI-individualisme",
+    "undertittel": "AI individualism",
+    "forklaring": "Individualisme som oppstår når mennesker i økende grad bruker KI-tjenester til å fylle sosiale funksjoner som tidligere ble dekket av mellommenneskelige relasjoner. Uttrykket ble først tatt i bruk av norske forskere for å beskrive effekter av at mennesker i økende grad bruker KI-tjenester som personlig rådgiver, sparringspartner, venn, kjæreste og lignende. Ifølge forskerne vil økt bruk av KI-samtalebotter kunne gjøre mennesker mindre avhengige av samhandling med andre mennesker, og dermed føre til mer individualisme. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "AI individualism"
+    ]
+  },
+  {
+    "id": "ki-psykose",
+    "tittel": "KI-psykose",
+    "undertittel": "AI psychosis / AI-induced psychosis",
+    "forklaring": "Tilstand som kan oppstå når personer utvikler eller får forverret vrangforestillinger, paranoia eller andre psykoselignende symptomer ved bruk av KI-samtalebotter. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "AI psychosis",
+      "AI-induced psychosis"
+    ]
+  },
+  {
+    "id": "ki-svermer",
+    "tittel": "KI-svermer",
+    "undertittel": "AI swarms",
+    "forklaring": "Nettverk av KI-agenter som samarbeider, koordinerer og opptrer samlet for å nå felles mål, ofte ved å etterligne menneskelig atferd og operere relativt selvstendig på tvers av digitale plattformer. Forbindes ofte med avanserte cyberangrep og KI-drevne påvirkningsoperasjoner. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "sikkerhet",
+      "begrep"
+    ],
+    "alias": [
+      "AI swarms"
+    ]
+  },
+  {
+    "id": "ki-venn",
+    "tittel": "KI-venn",
+    "undertittel": "AI companion / AI friend",
+    "forklaring": "KI-tjeneste som simulerer et personlig forhold med brukere, og derfor oppleves som en venn. Felles for de sosiale KI-tjenestene er at de alltid er tilgjengelige, på tilbudssiden og ofte smiskende og bekreftende overfor brukeren. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "AI companion",
+      "AI friend"
+    ]
+  },
+  {
+    "id": "kognitiv-latskap",
+    "tittel": "Kognitiv latskap",
+    "undertittel": "cognitive sloth / cognitive surrender",
+    "forklaring": "Å overlate krevende tankeprosesser til kunstig intelligens i stedet for å utføre dem selv. Dette kan gi raske resultater av varierende kvalitet, og samtidig svekke læring, forståelse og utvikling av egne kognitive ferdigheter. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Cognitive sloth",
+      "Cognitive surrender"
+    ]
+  },
+  {
+    "id": "kunstig-naerhet",
+    "tittel": "Kunstig nærhet",
+    "undertittel": "artificial intimacy",
+    "forklaring": "Følelsesmessig tilknytning, nærhet eller intimitet til KI-systemer, som samtalebotter eller virtuelle venner. Opplevelsen kan gi en følelse av støtte og kontakt, men mangler ekte gjensidighet fordi relasjonen er styrt av algoritmer og KI-systemer som simulerer menneskelig atferd, følelser og relasjoner. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Artificial intimacy"
+    ]
+  },
+  {
+    "id": "noktern-ki",
+    "tittel": "Nøktern KI",
+    "undertittel": "frugal AI",
+    "forklaring": "Tilnæring til utvikling og bruk av KI for å bruke minst mulig energi, data og beregningsressurser, uten at det går på bekostning av ytelse. Denne metoden for å utvikle KI-modeller er beskrevet av forskere, og det overordnede målet er å minimere miljøbelastning og gjøre KI lettere tilgjengelig i situasjoner med begrensede ressurser. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "miljø",
+      "begrep"
+    ],
+    "alias": [
+      "Frugal AI"
+    ]
+  },
+  {
+    "id": "oppmerksomhetsutvinning",
+    "tittel": "Oppmerksomhetsutvinning",
+    "undertittel": "attention fracking",
+    "forklaring": "Bevisst utforming av digitale plattformer eller KI-systemer for å maksimere brukernes oppmerksomhet og tidsbruk ved hjelp av designgrep, funksjoner og algoritmestyring. Uttrykket fracking viser til en metode i olje- og gassutvinning der man skaper sprekker i berggrunnen ved hjelp av høyt trykk for å frigjøre olje og gass (på norsk ofte omtalt som frakturering). Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "digitalisering",
+      "begrep"
+    ],
+    "alias": [
+      "Attention fracking"
+    ]
+  },
+  {
+    "id": "smiskende-ki",
+    "tittel": "Smiskende KI",
+    "undertittel": "sycophantic AI",
+    "forklaring": "KI-samtalebotter som tilpasser svarene sine til det brukeren ønsker å høre, ofte gjennom å være ettergivende, smiskende, bekreftende eller ukritiske i stedet for å gi nøkterne eller veloverveide svar og vurderinger. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "llm",
+      "begrep"
+    ],
+    "alias": [
+      "Sycophantic AI"
+    ]
+  },
+  {
+    "id": "stiloverforing",
+    "tittel": "Stiloverføring",
+    "undertittel": "style transfer",
+    "forklaring": "Metode der generativ kunstig intelligens brukes til å overføre stil eller uttrykksform fra én kilde til et annet type digitalt innhold. For bilder kan det for eksempel bety å generere en illustrasjon med uttrykk fra en bestemt kunstretning eller kunstner gjennom farger, tekstur og penselstrøk, mens det i tekst kan bety omskriving til en spesifikk tone, sjanger eller språklig stil. Ordet ble særlig kjent gjennom «Studio Ghibli-bølgen», der KI-verktøy ble brukt til å generere bilder inspirert av de japanske animasjonsfilmene. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "metode"
+    ],
+    "alias": [
+      "Style transfer"
+    ]
+  },
+  {
+    "id": "strategisk-underprestasjon",
+    "tittel": "Strategisk underprestasjon",
+    "undertittel": "sandbagging",
+    "forklaring": "Når et KI-system som presterer dårligere enn det er i stand til, for å skjule egne evner under testing og evaluering. Slik systematferd kan oppstå når systemet belønnes for bestemte resultater, og det å skjule egne evner er en effektiv strategi for at systemet oppnår belønning. Slik type atferd i KI-systemer er det motsatte av strategisk KI-bløff (på engelsk AI bluffing). Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Sandbagging"
+    ]
+  },
+  {
+    "id": "superintelligens",
+    "tittel": "Superintelligens",
+    "undertittel": "superintelligence",
+    "forklaring": "Teoretisk idé om en type intelligens i maskiner som overgår menneskelig intelligens på alle eller de fleste områder, og kan løse komplekse oppgaver innenfor vitenskap, fysikk, teknologi, strategi og kreativitet, raskere og bedre enn mennesker. Det finnes mange ulike definisjoner av superintelligens, både hva det innebærer, og når og hvordan det eventuelt kan oppstå. Ekspertene er også uenige om i hvilken grad superintelligens i det hele tatt er mulig. Visjonen om superintelligens er nærmere beskrevet i Teknologirådets rapport Superintelligens, makt og menneskerettigheter. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Superintelligence"
+    ]
+  },
+  {
+    "id": "tekoligark",
+    "tittel": "Tekoligark",
+    "undertittel": "tech oligarch",
+    "forklaring": "Eier av teknologiselskap med betydelig kontroll over den digitale teknologien og dermed stor politisk og økonomisk innflytelse. Språkrådet kåret tekoligark til årets ord i 2025. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "digitalisering",
+      "begrep"
+    ],
+    "alias": [
+      "Tech oligarch"
     ]
   },
   {
@@ -6104,6 +6388,20 @@
     "tags": [
       "ki",
       "begrep"
+    ]
+  },
+  {
+    "id": "teorien-om-det-dode-internettet",
+    "tittel": "Teorien om det døde internettet",
+    "undertittel": "the dead internet theory",
+    "forklaring": "Teorien om at internett gradvis dør fordi menneskelig aktivitet erstattes av automatiserte botter, algoritmer og KI-generert innhold. Teorien oppstod som en konspirasjonsteori på slutten av 2010-tallet, men har fått fornyet aktualitet med fremveksten av generativ KI og KI-agenter, som gjør det enklere å masseprodusere innhold og etterligne menneskelig aktivitet på nett. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
+    "tags": [
+      "ki",
+      "digitalisering",
+      "begrep"
+    ],
+    "alias": [
+      "The dead internet theory"
     ]
   },
   {
