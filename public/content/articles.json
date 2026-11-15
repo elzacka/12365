@@ -1027,7 +1027,7 @@
           },
           {
             "tittel": "Bygg kanalstrukturen",
-            "innhold": "Strukturen du setter, er utgangspunktet for kanaleierne.\n\n◦ **Standardkanal**: Synlig for alle medlemmer av teamet, for felles arbeid\n◦ **Privat kanal**: Bare for de inviterte. Får eget SharePoint-nettsted og arver teamets etikett.\n◦ **Delt kanal**: Åpen for deltakere fra andre team eller organisasjoner. Får eget SharePoint-nettsted.\n\nStart med 5–8 kanaler. Du kan alltid legge til flere, og tomme kanaler er bare støy.\n\n*Se «Kanaleier: Oppsett, innhold og avslutning» for oppsettet av hver kanal.*"
+            "innhold": "Strukturen du setter, er utgangspunktet for kanaleierne.\n\n◦ **Standardkanal**: Synlig for alle medlemmer av teamet, for felles arbeid\n◦ **Privat kanal**: Bare for de inviterte. Får eget SharePoint-nettsted og arver teamets etikett.\n◦ **Delt kanal**: Åpen for deltakere fra andre team eller organisasjoner. Får eget SharePoint-nettsted.\n\nStart med så få kanaler som nødvendig. Du kan alltid legge til flere, og tomme kanaler er bare støy.\n\n*Se «Kanaleier: Oppsett, innhold og avslutning» for oppsettet av hver kanal.*"
           },
           {
             "tittel": "Administrer medlemmer og roller",
