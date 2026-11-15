@@ -38,7 +38,7 @@ Redigerbart innhold ligger i `public/content/` (JSON). `OM-APPEN.md` og `PERSONV
 
 ## Versjonering
 
-[SemVer](https://semver.org/lang/no/) – PATCH for innholdsoppdateringer og bugfiks, MINOR for nye apper, nye veiledninger og ny funksjonalitet, MAJOR for bruddendringer i datastruktur eller navigasjon.
+[SemVer](https://semver.org/) – PATCH for innholdsoppdateringer og bugfiks, MINOR for nye apper, nye veiledninger og ny funksjonalitet, MAJOR for bruddendringer i datastruktur eller navigasjon.
 
 ## Lisens
 
