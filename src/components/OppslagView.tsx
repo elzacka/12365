@@ -153,14 +153,14 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
   }, [query, allTags, activeTags, groups])
 
   // Subheadings that contain the query, from three letters: «lysbi» offers Lysbilder in PowerPoint.
-  // With an app filter on, only that app's subheadings.
+  // None with an app filter on: the list already shows that app.
   const subShortcuts = useMemo(() => {
     const q = query.trim().toLowerCase()
-    if (q.length < 3 || !groups) return []
-    return groups.filter(g => activeTags.length === 0 || activeTags.includes(g.tag)).flatMap(g => (g.undergrupper ?? [])
-      .filter(sub => sub.toLowerCase().includes(q) && !(activeSub?.tag === g.tag && activeSub.sub === sub))
+    if (q.length < 3 || !groups || activeTags.length > 0) return []
+    return groups.flatMap(g => (g.undergrupper ?? [])
+      .filter(sub => sub.toLowerCase().includes(q))
       .map(sub => ({ tag: g.tag, title: g.title, sub })))
-  }, [query, groups, activeSub, activeTags])
+  }, [query, groups, activeTags])
 
   const chipGroups = useMemo(
     () => (groups ? [...groups].sort((a, b) => a.title.localeCompare(b.title, 'nb')) : []),
