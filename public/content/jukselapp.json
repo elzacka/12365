@@ -3207,7 +3207,7 @@
       "M365 Copilot (Premium)",
       "Copilot Premium"
     ],
-    "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data gjennom Microsoft Graph og Work IQ. Krever egen lisens. Bruker språkmodeller fra OpenAI og, hvis organisasjonen har slått det på, fra Anthropic.",
+    "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data gjennom Microsoft Graph og Work IQ. Krever egen lisens. Bruker språkmodeller fra OpenAI. Modellene fra Anthropic er foreløpig slått av.",
     "tags": [
       "m365",
       "ki",
