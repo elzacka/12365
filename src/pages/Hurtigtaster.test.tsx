@@ -133,6 +133,16 @@ describe('Hurtigtaster', () => {
     expect(headings()).toEqual(['Windows'])
   })
 
+  it('offers only the filtered app when searching with an app filter on', async () => {
+    await renderPage()
+    fireEvent.click(screen.getByRole('button', { name: 'Filtrer på app' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Excel' }))
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'lysbi' } })
+    expect(screen.queryByRole('button', { name: /Vis alt under/ })).toBeNull()
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'word' } })
+    expect(screen.queryByRole('button', { name: /Vis alle oppslag merket/ })).toBeNull()
+  })
+
   it('keeps search hits in rank order, without subheadings', async () => {
     await renderPage()
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'lysbilde' } })

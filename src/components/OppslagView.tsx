@@ -147,18 +147,20 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
   // i stedet for fritekstsøk.
   const tagShortcut = useMemo<string | null>(() => {
     const q = query.trim().toLowerCase()
-    if (!q || activeTags.includes(q)) return null
+    // A grouped list filters on one section, so a second app would show nothing.
+    if (!q || activeTags.includes(q) || (groups && activeTags.length > 0)) return null
     return allTags.has(q) ? q : null
-  }, [query, allTags, activeTags])
+  }, [query, allTags, activeTags, groups])
 
   // Subheadings that contain the query, from three letters: «lysbi» offers Lysbilder in PowerPoint.
+  // With an app filter on, only that app's subheadings.
   const subShortcuts = useMemo(() => {
     const q = query.trim().toLowerCase()
     if (q.length < 3 || !groups) return []
-    return groups.flatMap(g => (g.undergrupper ?? [])
+    return groups.filter(g => activeTags.length === 0 || activeTags.includes(g.tag)).flatMap(g => (g.undergrupper ?? [])
       .filter(sub => sub.toLowerCase().includes(q) && !(activeSub?.tag === g.tag && activeSub.sub === sub))
       .map(sub => ({ tag: g.tag, title: g.title, sub })))
-  }, [query, groups, activeSub])
+  }, [query, groups, activeSub, activeTags])
 
   const chipGroups = useMemo(
     () => (groups ? [...groups].sort((a, b) => a.title.localeCompare(b.title, 'nb')) : []),
