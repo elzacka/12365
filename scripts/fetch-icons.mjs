@@ -22,7 +22,6 @@ const sources = [
   // Copilot Chat lives inside the Microsoft Copilot app and shares its icon.
   { slug: 'copilot-chat',      url:  'https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/Copilot-Icon-FY26.svg', mode: 'svg' },
   { slug: 'microsoft-copilot', url:  'https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/Copilot-Icon-FY26.svg', mode: 'svg' },
-  { slug: 'copilot-studio',   path: 'logos/copilot-studio/copilotstudio-scalable.svg',                   mode: 'svg' },
   { slug: 'forms',            path: 'logos/forms/forms-512.png',                                        mode: 'png-asis' },
   { slug: 'clipchamp',        path: 'logos/clipchamp/clipchamp-512.png',                                 mode: 'png-asis' },
   { slug: 'visio',            url:  'https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Office_Visio_%282019%29.svg', mode: 'svg' },

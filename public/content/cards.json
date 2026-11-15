@@ -57,27 +57,12 @@
     "kategori": "ki",
     "oppsummering": "Generativ KI som bruker organisasjonens innhold. Krever lisens",
     "overlapper": [
-      "Copilot Chat",
-      "Copilot Studio"
+      "Copilot Chat"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://support.microsoft.com/nb-no/microsoft-365-copilot/"
     }
-  },
-  {
-    "navn": "Copilot Studio",
-    "tagline": "Bygg egne agenter uten kode",
-    "alene": "Lag agenter og chatboter med organisasjonens kunnskapskilder. Gjør dem tilgjengelige for teamet eller andre som skal ha tilgang.",
-    "sammen": "Agentene kan hente kunnskap fra for eksempel SharePoint og Dataverse.",
-    "fotnote": "Krever Microsoft Copilot-lisens eller eget Copilot Studio-abonnement. Enkle agenter lager du i Agent Builder i Copilot.",
-    "kategori": "ki",
-    "oppsummering": "Bygg egne agenter uten kode",
-    "overlapper": [
-      "Microsoft Copilot",
-      "Power Apps",
-      "Power Automate"
-    ]
   },
   {
     "navn": "Edge",
@@ -253,9 +238,7 @@
     "fotnote": "Dataverse og koblinger til fagsystemer krever premiumlisens",
     "kategori": "bygg-og-automatiser",
     "oppsummering": "Lag nye apper eller tilpass eksisterende, med eller uten koding",
-    "overlapper": [
-      "Copilot Studio"
-    ],
+    "overlapper": [],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/power-platform/products/power-apps?market=no#tabs-pill-bar-accordian_tab1"
@@ -269,9 +252,7 @@
     "fotnote": "Robotautomatisering fra skyflyter og premiumkoblinger krever Power Automate Premium",
     "kategori": "bygg-og-automatiser",
     "oppsummering": "Automatiser arbeidsflyter mellom apper",
-    "overlapper": [
-      "Copilot Studio"
-    ],
+    "overlapper": [],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-NO/power-platform/products/power-automate/?culture=nb-no&country=no&market=no#Features"
