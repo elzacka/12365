@@ -34,7 +34,7 @@ function normalize(s: string): string {
 function matchesQuery(catNavn: string, f: LicenseFeature, q: string): boolean {
   if (!q) return true
   if (normalize(catNavn).includes(q)) return true
-  return normalize(f.navn).includes(q) || normalize(f.beskrivelse ?? '').includes(q)
+  return normalize(f.navn).includes(q) || normalize(f.beskrivelse).includes(q)
 }
 
 const STATUS_CONFIG: Record<
@@ -62,16 +62,17 @@ function passesFilter(f: LicenseFeature, active: FilterId): boolean {
   return f.status === active
 }
 
+// A span cannot carry an accessible name, so the status is read as text.
 function StatusBadge({ status }: { status: LicenseStatus }) {
   const k = STATUS_CONFIG[status]
   const { Icon } = k
   return (
     <span
-      className={`inline-flex items-center justify-center w-6 h-6 rounded-full ${k.bg} ${k.text} ring-1 ${k.ring}`}
-      aria-label={k.label}
+      className={`inline-flex flex-shrink-0 items-center justify-center w-6 h-6 rounded-full ${k.bg} ${k.text} ring-1 ${k.ring}`}
       title={k.label}
     >
       <Icon size={13} />
+      <span className="sr-only">{k.label}</span>
     </span>
   )
 }
@@ -120,7 +121,7 @@ export function AltIE5() {
     <div className="flex-1 flex flex-col bg-slate-50">
       <main className="flex-1 px-4 pt-4 pb-10 max-w-2xl mx-auto w-full">
         {/* Source */}
-        <p className="text-center text-[10px] italic mb-3">
+        <p className="text-center text-xs italic mb-3">
           <a
             href={data.kildeUrl}
             target="_blank"
@@ -128,7 +129,7 @@ export function AltIE5() {
             className="text-slate-500 hover:text-brand-600 transition-colors"
           >
             Kilde: {data.kilde}
-            <ExternalLinkIcon size={9} className="inline-block ml-0.5 align-[-0.125em]" />
+            <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
           </a>
         </p>
 
@@ -290,8 +291,9 @@ export function AltIE5() {
                         className="border-t border-slate-100 bg-slate-50/50"
                       >
                         {cat.funksjoner.map((f, i) => {
-                          const featureId = `${cat.id}-${i}`
-                          const hasDescription = Boolean(f.beskrivelse)
+                          // By name: an index would point at another feature once a filter changes the list.
+                          const featureId = `${cat.id}/${f.navn}`
+                          const detailId = `${cat.id}-${i}-detail`
                           const isActive = activeFeature === featureId
                           return (
                             <li
@@ -300,20 +302,17 @@ export function AltIE5() {
                             >
                               <button
                                 type="button"
-                                onClick={() => hasDescription && setActiveFeature(prev => prev === featureId ? null : featureId)}
-                                className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500 ${
-                                  hasDescription ? 'hover:bg-slate-100 active:bg-slate-200 cursor-pointer' : 'cursor-default'
-                                }`}
+                                onClick={() => setActiveFeature(prev => prev === featureId ? null : featureId)}
+                                className="w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors hover:bg-slate-100 active:bg-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500"
                                 aria-expanded={isActive}
-                                aria-controls={isActive ? `${featureId}-detail` : undefined}
-                                disabled={!hasDescription}
+                                aria-controls={isActive ? detailId : undefined}
                               >
                                 <div className="flex-1 text-sm text-slate-700 leading-snug">{f.navn}</div>
                                 <StatusBadge status={f.status} />
                               </button>
-                              {isActive && f.beskrivelse && (
+                              {isActive && (
                                 <div
-                                  id={`${featureId}-detail`}
+                                  id={detailId}
                                   className="px-4 pt-2 pb-3 bg-brand-50/60 border-t border-brand-100"
                                 >
                                   <p className="text-xs text-slate-700 leading-relaxed italic">{f.beskrivelse}</p>
@@ -351,16 +350,16 @@ export function AltIE5() {
           </h3>
           <ul className="space-y-2.5 text-sm text-slate-700">
             <li className="flex items-center gap-2.5">
-              <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 ring-1 ring-emerald-200 flex-shrink-0">
-                <CheckIcon size={13} />
+              <span aria-hidden="true" className="inline-flex">
+                <StatusBadge status="inkludert" />
               </span>
               <span>
                 <strong>Inkludert</strong>: Følger med M365 E5
               </span>
             </li>
             <li className="flex items-center gap-2.5">
-              <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-amber-100 text-amber-700 ring-1 ring-amber-200 flex-shrink-0">
-                <PlusIcon size={13} />
+              <span aria-hidden="true" className="inline-flex">
+                <StatusBadge status="tillegg" />
               </span>
               <span>
                 <strong>Tilleggskjøp</strong>: Kan kjøpes som tillegg til M365 E5
