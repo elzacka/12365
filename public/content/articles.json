@@ -201,7 +201,7 @@
           },
           {
             "tittel": "Cowork og Copilot Code: Betales etter bruk",
-            "innhold": "**Copilot Cowork**\n\nGi Copilot en større oppgave, for eksempel «Lag et utkast til årsrapporten basert på disse fem dokumentene». Copilot viser hvert steg og spør før den sender eller endrer noe. Du kan hente resultatet fra mobilen eller PC-en.\n\n**Copilot Code**\n\nBeskriv en app, et dashbord eller et verktøy, så bygger Copilot det med kode.\n\n*Merk: Begge krever at organisasjonen har slått på forbruksbasert fakturering, og bruken trekker Copilot Credits. Copilot Code fins bare for organisasjoner i Microsofts Frontier-program.*"
+            "innhold": "**Copilot Cowork**\n\nGi Copilot en større oppgave, for eksempel «Lag et utkast til årsrapporten basert på disse fem dokumentene». Copilot viser hvert steg og spør før den sender eller endrer noe. Du kan hente resultatet fra mobilen eller PC-en.\n\n**Copilot Code**\n\nBeskriv en app, et dashbord eller et verktøy, så bygger Copilot det med kode.\n\nI Cowork velger du modell i menyen **Modell**, eller lar den stå på **Automatisk**. Du velger også hvor grundig Cowork skal resonnere, fra **Lett** til **Maks**. Et høyere nivå gir grundigere svar, men tar lengre tid og trekker flere Copilot Credits.\n\nOrganisasjoner i Norge er innenfor EUs datagrense, og der kan Cowork bare bruke GPT-modeller.\n\n*Merk: Begge krever at organisasjonen har slått på forbruksbasert fakturering, og bruken trekker Copilot Credits. Copilot Code fins bare for organisasjoner i Microsofts Frontier-program.*"
           },
           {
             "tittel": "Agenter: Researcher, Analytiker og dine egne",
@@ -257,6 +257,10 @@
           {
             "tittel": "Skriv og formuler",
             "innhold": "Copilot Chat kan hjelpe deg med:\n\n◦ Utkast til e-post, notat eller saksframlegg\n◦ Tekst omskrevet til **klarspråk**\n◦ Idémyldring om løsninger og argumenter\n◦ Oversetting mellom norsk og andre språk\n◦ Enkle forklaringer av fagbegreper\n\nLim inn tekst og si hva du vil Copilot skal gjøre med den. Vær gjerne konkret om tone, lengde og målgruppe."
+          },
+          {
+            "tittel": "Velg hvor grundig Copilot skal tenke",
+            "innhold": "Copilot velger modell selv når valget står på **Automatisk**. Du kan også velge selv:\n\n◦ **Raskt svar**: Korte svar på enkle spørsmål\n◦ **Tenk dypere**: Copilot bruker mer tid og gir grundigere svar på sammensatte spørsmål\n\n*Merk: Claude-modeller fra Anthropic behandler data utenfor EUs datagrense. Organisasjonen bestemmer om de er tilgjengelige.*"
           },
           {
             "tittel": "Copilot-sider og notatblokker",
