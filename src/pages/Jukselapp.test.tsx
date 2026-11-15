@@ -4,7 +4,7 @@ import { render, screen, fireEvent, act } from '@testing-library/react'
 import type { Oppslag } from '../types'
 
 const ORD: Oppslag[] = [
-  { id: 'a', tittel: 'Alfa', forklaring: 'Første.', tags: ['ki', 'metode'] },
+  { id: 'a', tittel: 'Alfa', forklaring: 'Første. Ligner beta.', tags: ['ki', 'metode'] },
   { id: 'b', tittel: 'Beta', forklaring: 'Andre.', tags: ['ki'] },
   { id: 'c', tittel: 'Gamma', forklaring: 'Tredje.', tags: ['metode'] },
 ]
@@ -54,6 +54,17 @@ describe('Jukselapp', () => {
 
     fireEvent.click(screen.getAllByRole('button', { name: 'Fjern filter ki' })[0])
     expect(summary()).toBe('2 oppslag merket metode')
+  })
+
+  it('sorts search hits alphabetically once a tag filter is on', async () => {
+    await renderPage()
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'beta' } })
+    const titles = () => screen.getAllByRole('button', { name: /^(Alfa|Beta)/ }).map(b => b.textContent?.slice(0, 4))
+    expect(titles()).toEqual(['Beta', 'Alfa'])
+
+    expand('Beta')
+    clickTag('ki')
+    expect(titles()).toEqual(['Alfa', 'Beta'])
   })
 
   it('summarises search results', async () => {

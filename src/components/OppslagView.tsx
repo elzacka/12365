@@ -200,8 +200,10 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
 
     const list = searchOrd(index, byId, trimmed)
     if (activeTags.length === 0) return list
-    return list.filter(matches)
-  }, [query, index, byId, activeTags, filteredByTag, matches])
+    // A tag filter makes the hits a list to browse; app sections keep their rank.
+    const filtered = list.filter(matches)
+    return groups ? filtered : alphabetical(filtered)
+  }, [query, index, byId, activeTags, filteredByTag, matches, groups])
 
   const visibleCount = results?.length ?? filteredByTag.length
   const isFiltering = results !== null || hasTagFilter
