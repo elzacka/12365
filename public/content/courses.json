@@ -16,5 +16,32 @@
     "fotnote": "Gratis, krever brukerkonto",
     "lenke": "https://digitalnorway.com/kurs/hvordan-jobbe-datadrevet-i-praksis",
     "thumbnail": "courses/thumbnails/hvordan-jobbe-datadrevet-i-praksis.png"
+  },
+  {
+    "id": "hva-er-copilot-m365",
+    "tittel": "Hva er Microsoft 365 Copilot?",
+    "beskrivelse": "Et kort kurs om hva Microsoft 365 Copilot er, hvordan den fungerer, og hvordan den hjelper deg i Teams, Outlook og Word.",
+    "kilde": "Digital Norway",
+    "fotnote": "Gratis, krever brukerkonto",
+    "lenke": "https://digitalnorway.com/kurs/hva-er-copilot-m365",
+    "thumbnail": "courses/thumbnails/hva-er-copilot-m365.png"
+  },
+  {
+    "id": "kom-i-gang-med-microsoft-365-copilot-i-virksomheten-en-guide-for-ledere",
+    "tittel": "Kom i gang med Microsoft 365 Copilot i virksomheten – en guide for ledere",
+    "beskrivelse": "For ledere: Hva Microsoft 365 Copilot er, og hva du bør tenke på før, under og etter innføringen.",
+    "kilde": "Digital Norway",
+    "fotnote": "Gratis, krever brukerkonto",
+    "lenke": "https://digitalnorway.com/kurs/kom-i-gang-med-microsoft-365-copilot-i-virksomheten-en-guide-for-ledere",
+    "thumbnail": "courses/thumbnails/kom-i-gang-med-microsoft-365-copilot-i-virksomheten-en-guide-for-ledere.png"
+  },
+  {
+    "id": "kom-i-gang-med-copilot-for-microsoft-365-i-virksomheten",
+    "tittel": "Slik implementerer du Copilot i virksomheten",
+    "beskrivelse": "For ledere: Hva organisasjonen må gjøre før, under og etter innføringen av Microsoft 365 Copilot.",
+    "kilde": "Digital Norway",
+    "fotnote": "Gratis, krever brukerkonto",
+    "lenke": "https://digitalnorway.com/kurs/kom-i-gang-med-copilot-for-microsoft-365-i-virksomheten",
+    "thumbnail": "courses/thumbnails/kom-i-gang-med-copilot-for-microsoft-365-i-virksomheten.png"
   }
 ]
