@@ -11,7 +11,7 @@ import { useSwipe } from '../hooks/useSwipe'
 import { useFinePointer } from '../hooks/useFinePointer'
 import { useSwipeHint } from '../hooks/useSwipeHint'
 import { prefersReducedMotion } from '../lib/motion'
-import type { ArticleImage } from '../types'
+import type { Article, ArticleImage } from '../types'
 
 function escapeRegex(str: string): string {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -182,9 +182,7 @@ function setOffset(card: HTMLElement, transform: string) {
   card.style.transform = transform
 }
 
-type Artikel = { steg: { tittel: string; innhold: string }[] }
-
-function stepForQuery(query: string, article: Artikel | undefined): number {
+function stepForQuery(query: string, article: Article | undefined): number {
   if (!query || !article) return 0
   const q = toHighlight(query).toLowerCase()
   for (let i = 0; i < article.steg.length; i++) {
@@ -210,14 +208,12 @@ export function ArticlePage() {
   const [openImage, setOpenImage] = useState<ArticleImage | null>(null)
   const [highlightActive, setHighlightActive] = useState(!!searchQuery)
 
-  // Reset on a new search to the same URL (location.key differs per entry).
-  // State update during render avoids an extra effect cycle.
+  // The route reuses this component for every article, so each history entry
+  // (a related article, Back) starts over. Updating during render saves an effect cycle.
   if (prevLocationKey !== location.key) {
     setPrevLocationKey(location.key)
-    if (searchQuery) {
-      setHighlightActive(true)
-      setActiveStep(stepForQuery(searchQuery, article))
-    }
+    setHighlightActive(!!searchQuery)
+    setActiveStep(stepForQuery(searchQuery, article))
   }
 
   const totalSteps = article?.steg.length ?? 0
@@ -326,6 +322,13 @@ export function ArticlePage() {
     const movedTo = categories.find(k => k.artikler.some(a => a.id === artikkelId && !a.skjult))
     return <Navigate to={movedTo ? `/gjor-sann/${movedTo.id}/${artikkelId}` : '/gjor-sann'} replace />
   }
+
+  const related = (article.relaterte ?? []).flatMap(relId => {
+    const relCategory = categories.find(k => k.artikler.some(a => a.id === relId))
+    const artikkel = relCategory?.artikler.find(a => a.id === relId)
+    if (!relCategory || !artikkel || artikkel.skjult || (artikkel.laast && !article.laast)) return []
+    return [{ kategoriId: relCategory.id, artikkel }]
+  })
 
   const isFirstStep = activeStep === 0
   const isLastStep = activeStep === totalSteps - 1
@@ -476,43 +479,35 @@ export function ArticlePage() {
           </div>
         )}
 
-        {/* Related articles (shown on the last step) */}
-        {isLastStep && article.relaterte && article.relaterte.length > 0 && (
+        {/* Related articles (shown on the last step). Boundary rule: a public
+            article never reveals a gated one, even when unlocked; the lock
+            script enforces it at build time too. */}
+        {isLastStep && related.length > 0 && (
           <div className="mt-6">
             <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2 px-1">Relaterte veiledninger</h2>
             <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-              {article.relaterte.map((relId, idx, arr) => {
-                const relCategory = categories.find(k => k.artikler.some(a => a.id === relId))
-                const relArticle = relCategory?.artikler.find(a => a.id === relId)
-                if (!relArticle || !relCategory || relArticle.skjult) return null
-                // Boundary rule: a non-gated article must never expose the
-                // existence of a gated article. Filtered out even when the user
-                // is unlocked – the lock script enforces this at build time too.
-                if (relArticle.laast && !article.laast) return null
-                return (
-                  <Link
-                    key={relId}
-                    to={`/gjor-sann/${relCategory.id}/${relId}`}
-                    onClick={() => setActiveStep(0)}
-                    className={`flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition-colors ${
-                      idx < arr.length - 1 ? 'border-b border-slate-100' : ''
-                    }`}
-                  >
-                    <div className="flex-1">
-                      <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800">
-                        {relArticle.laast && (
-                          <>
-                            <GlassesIcon size={13} className="shrink-0 text-slate-400" />
-                            <UntestedWarning />
-                          </>
-                        )}
-                        <span>{relArticle.tittel}</span>
-                      </p>
-                    </div>
-                    <ChevronRightIcon size={16} className="text-slate-300" />
-                  </Link>
-                )
-              })}
+              {related.map(({ kategoriId: relKategoriId, artikkel: relArticle }, idx) => (
+                <Link
+                  key={relArticle.id}
+                  to={`/gjor-sann/${relKategoriId}/${relArticle.id}`}
+                  className={`flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition-colors ${
+                    idx < related.length - 1 ? 'border-b border-slate-100' : ''
+                  }`}
+                >
+                  <div className="flex-1">
+                    <p className="flex items-center gap-1.5 text-sm font-medium text-slate-800">
+                      {relArticle.laast && (
+                        <>
+                          <GlassesIcon size={13} className="shrink-0 text-slate-400" />
+                          <UntestedWarning />
+                        </>
+                      )}
+                      <span>{relArticle.tittel}</span>
+                    </p>
+                  </div>
+                  <ChevronRightIcon size={16} className="text-slate-300" />
+                </Link>
+              ))}
             </div>
           </div>
         )}

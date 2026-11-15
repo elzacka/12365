@@ -1,4 +1,4 @@
-import { useState, useMemo, use, useEffect, useCallback, useRef } from 'react'
+import { useState, useMemo, use, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchArticles } from '../data/loader'
 import { useMergedArticles } from '../auth/merge'
@@ -14,11 +14,25 @@ const SEARCH_WORDS = ['tittel', 'innhold', 'emneknagg']
 // Module scope: an expanded category stays open after a visit to one of its articles.
 const expandedCategories = new Set<string>()
 
+// The search lives in this history entry's URL, so Back from an article
+// returns to the same results.
+function rememberSearch(query: string, tag: string | null) {
+  const url = new URL(window.location.href)
+  url.search = ''
+  if (query) url.searchParams.set('q', query)
+  if (tag) url.searchParams.set('tag', tag)
+  try {
+    window.history.replaceState(window.history.state, '', url)
+  } catch {
+    // Safari throttles replaceState; the next change writes it.
+  }
+}
+
 export function GjorSann() {
   const publicCategories = use(fetchArticles())
   const rawCategories = useMergedArticles(publicCategories)
-  const [query, setQuery] = useState('')
-  const [activeTag, setActiveTag] = useState<string | null>(null)
+  const [query, setQuery] = useState(() => new URLSearchParams(window.location.search).get('q') ?? '')
+  const [activeTag, setActiveTag] = useState(() => new URLSearchParams(window.location.search).get('tag'))
   const [showHelp, setShowHelp] = useState(false)
   const [expanded, setExpanded] = useState(() => new Set(expandedCategories))
   const placeholder = useRotatingPlaceholder('Søk i', SEARCH_WORDS)
@@ -49,6 +63,8 @@ export function GjorSann() {
     return allTags.has(q) ? q : null
   }, [query, allTags, activeTag])
 
+  useEffect(() => rememberSearch(query.trim(), activeTag), [query, activeTag])
+
   useEffect(() => {
     if (!query && !activeTag) return
     const handler = (e: KeyboardEvent) => {
@@ -77,17 +93,11 @@ export function GjorSann() {
     return new Map(hits.map(h => [h.id, h.score]))
   }, [query, articleIndex])
 
-  const totalSearchResults = useMemo(
-    () => (searchHits ? searchHits.size : null),
-    [searchHits],
-  )
-
   const categories = useMemo(() => {
     if (searchHits === null) return filteredByTag
-    const base = activeTag ? filteredByTag : allCategories
 
     // Filtrer til treff og sorter artikler etter score innenfor hver kategori
-    const scored = base
+    const scored = filteredByTag
       .map(cat => ({
         ...cat,
         artikler: cat.artikler
@@ -104,11 +114,9 @@ export function GjorSann() {
     })
 
     return scored
-  }, [searchHits, filteredByTag, allCategories, activeTag])
+  }, [searchHits, filteredByTag])
 
   const totalArticles = allCategories.reduce((sum, k) => sum + k.artikler.length, 0)
-
-  const clearActiveTag = useCallback(() => setActiveTag(null), [])
 
   const isFiltered = query.trim() !== '' || activeTag !== null
 
@@ -210,7 +218,7 @@ export function GjorSann() {
           <div className="mb-4 flex items-center gap-2 text-xs">
             <span className="text-slate-500">Viser veiledninger merket</span>
             <button
-              onClick={clearActiveTag}
+              onClick={() => setActiveTag(null)}
               className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-brand-100 text-brand-800 hover:bg-brand-200 transition-colors"
               aria-label={`Fjern filter ${activeTag}`}
             >
@@ -220,9 +228,9 @@ export function GjorSann() {
           </div>
         )}
 
-        {totalSearchResults !== null && (
+        {searchHits && (
           <p className="sr-only" aria-live="polite">
-            {totalSearchResults} {totalSearchResults === 1 ? 'veiledning' : 'veiledninger'} funnet
+            {searchHits.size} {searchHits.size === 1 ? 'veiledning' : 'veiledninger'} funnet
           </p>
         )}
 
