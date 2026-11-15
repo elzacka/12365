@@ -6901,7 +6901,7 @@
   {
     "id": "copilot-cowork",
     "tittel": "Copilot Cowork",
-    "forklaring": "Flate der du gir Copilot oppgaver som utføres i bakgrunnen, og henter resultatet senere. Krever Microsoft Copilot-lisens, og organisasjonen betaler for bruken med Copilot Credits.",
+    "forklaring": "Flate der du gir oppgaver til Copilot. Copilot utfører dem i bakgrunnen, og du henter resultatet senere. Krever Microsoft Copilot-lisens, og organisasjonen betaler for bruken med Copilot Credits.",
     "tags": [
       "m365",
       "ki",
