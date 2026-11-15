@@ -19,12 +19,10 @@ export function SammenligneRow({
   canSelectMore,
 }: SammenligneRowProps) {
   const overlapper = card.overlapper ?? []
-  const oppsummering = card.oppsummering !== undefined ? card.oppsummering : card.tagline
 
   return (
     <li
       id={`app-${slugify(card.navn)}`}
-      data-sammenligne-row={card.navn}
       className="group relative flex items-start gap-3 p-3 rounded-xl bg-white/70 hover:bg-white transition-colors"
     >
       <div className="w-12 h-12 flex-shrink-0 flex items-center justify-center transition-transform group-hover:-translate-y-0.5">
@@ -43,11 +41,9 @@ export function SammenligneRow({
         <div className="text-sm font-semibold text-slate-800 leading-tight">
           {card.navn}
         </div>
-        {oppsummering && (
-          <div className="text-xs text-slate-600 mt-0.5 leading-snug">
-            {oppsummering}
-          </div>
-        )}
+        <div className="text-xs text-slate-600 mt-0.5 leading-snug">
+          {card.oppsummering}
+        </div>
         {overlapper.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mt-2">
             {overlapper.map(other => (

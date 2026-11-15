@@ -35,7 +35,7 @@ export function Appene() {
         </div>
 
         {view === 'sammenligne' && (
-          <p className="text-[10px] text-slate-500 text-center mb-4">
+          <p className="text-xs text-slate-500 text-center mb-4">
             Trykk + for å sammenligne eller ↔ for å gå til en relatert app
           </p>
         )}
@@ -64,7 +64,7 @@ export function Appene() {
         )}
       </main>
 
-      {view === 'sammenligne' && (
+      {view === 'sammenligne' && selected.length > 0 && (
         <ComparisonDrawer
           selected={selected}
           cards={allCards}

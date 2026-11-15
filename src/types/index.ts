@@ -4,16 +4,12 @@
 export interface FlipCard {
   navn: string
   tagline: string
-  alene?: string
-  sammen?: string
+  alene: string
+  sammen: string
   fotnote?: string
-  // Sammenligne metadata. Optional so locked content from older payloads
-  // remains assignable; cards without kategori land in an "Annet" group.
-  kategori?: string         // id matching a AppCategory
-  oppsummering?: string     // short one-line use case in Sammenligne
+  kategori: string          // id matching an AppCategory
+  oppsummering: string      // short one-line use case in Sammenligne
   overlapper?: string[]     // navn of apps with notable functional overlap
-  tags?: string[]           // search-only keywords, never displayed
-  alias?: string[]          // search-only alternate/former names, never displayed
   lenke?: {
     tekst: string
     url: string
@@ -26,7 +22,6 @@ export interface AppCategory {
   navn: string
   beskrivelse?: string
   fargeBakgrunn: string  // Tailwind utility class, e.g. 'bg-sky-50'
-  fargeAksent: string    // Tailwind utility class for accent ring/text
 }
 
 export interface ArticleImage {
@@ -106,7 +101,7 @@ export type LicenseStatus = 'inkludert' | 'tillegg'
 export interface LicenseFeature {
   navn: string
   status: LicenseStatus
-  beskrivelse?: string
+  beskrivelse: string
 }
 
 export interface LicenseCategory {
@@ -129,8 +124,6 @@ export interface E5LicenseOverview {
   kategorier: LicenseCategory[]
 }
 
-// `tittel` is the full form, an acronym goes in `undertittel`. `alias` makes
-// an entry findable by other names without a row of its own.
 /** A section in a grouped Oppslag list: entries whose first tag is `tag`. */
 export interface OppslagGroup {
   tag: string
@@ -139,6 +132,8 @@ export interface OppslagGroup {
   undergrupper?: string[]
 }
 
+// `tittel` is the full form, an acronym goes in `undertittel`. `alias` makes
+// an entry findable by other names without a row of its own.
 export interface Oppslag {
   id: string
   tittel: string

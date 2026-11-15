@@ -10,12 +10,6 @@
     "overlapper": [
       "Outlook",
       "Viva Engage"
-    ],
-    "tags": [
-      "chat",
-      "møter",
-      "kanaler",
-      "samarbeid"
     ]
   },
   {
@@ -29,12 +23,6 @@
     "overlapper": [
       "PowerPoint"
     ],
-    "tags": [
-      "video",
-      "skjermopptak",
-      "redigering",
-      "undertekster"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/clipchamp?market=no#tabs-pill-bar-ocf614_tab1"
@@ -43,13 +31,6 @@
   {
     "navn": "Copilot Chat",
     "tagline": "KI-chat for skriving, oppsummering og søk",
-    "alias": [
-      "Microsoft Copilot Chat",
-      "Copilot Chat (grunnleggende)",
-      "Bing Chat Enterprise",
-      "M365 Chat",
-      "Microsoft 365 Chat"
-    ],
     "alene": "Følger med M365. Still spørsmål og få utkast og oppsummeringer. Søk på nettet, eller lim inn eller last opp en fil. Du kan tilpasse instruksjonene, så den svarer slik du vil.",
     "sammen": "I Outlook kan den bruke e-post, kalender og møter. Med Microsoft Copilot-lisens henter den svar fra alt du har tilgang til.",
     "fotnote": "",
@@ -57,23 +38,11 @@
     "oppsummering": "KI-chat med søk på nett. Følger med M365",
     "overlapper": [
       "Microsoft Copilot"
-    ],
-    "tags": [
-      "ki-chat",
-      "chatbot",
-      "oppsummering",
-      "nettsøk"
     ]
   },
   {
     "navn": "Microsoft Copilot",
     "tagline": "Generativ KI som bruker organisasjonens innhold",
-    "alias": [
-      "Microsoft 365 Copilot",
-      "M365 Copilot",
-      "M365 Copilot (Premium)",
-      "Copilot Premium"
-    ],
     "alene": "KI i Word, Excel, PowerPoint, Outlook og Teams. Med Work IQ bruker den e-post, møter, chatter og filer du har tilgang til.",
     "sammen": "Gir tilgang til agenter som Researcher og Analytiker. Med Cowork utfører Copilot oppgaver i flere trinn for deg.",
     "fotnote": "Krever egen Microsoft Copilot-lisens per bruker. Cowork betales i tillegg etter forbruk.",
@@ -82,12 +51,6 @@
     "overlapper": [
       "Copilot Chat",
       "Copilot Studio"
-    ],
-    "tags": [
-      "generativ ki",
-      "ki-assistent",
-      "organisasjonsdata",
-      "lisens"
     ]
   },
   {
@@ -102,31 +65,17 @@
       "Microsoft Copilot",
       "Power Apps",
       "Power Automate"
-    ],
-    "tags": [
-      "agenter",
-      "chatbot",
-      "automatisering",
-      "kunnskapskilder"
     ]
   },
   {
     "navn": "Edge",
     "tagline": "Nettleser for arbeidshverdagen",
-    "alias": [
-      "Microsoft Edge"
-    ],
     "alene": "Har Copilot i sidepanelet og en avansert PDF-leser.",
     "sammen": "Her redigerer du Visio-diagrammer og jobber med SharePoint-sider.",
     "fotnote": "",
     "kategori": "nettleser",
     "oppsummering": "Nettleser med Copilot i sidepanelet",
-    "overlapper": [],
-    "tags": [
-      "nettleser",
-      "pdf",
-      "sidepanel"
-    ]
+    "overlapper": []
   },
   {
     "navn": "Excel",
@@ -139,12 +88,6 @@
     "overlapper": [
       "Lists",
       "Power BI"
-    ],
-    "tags": [
-      "regneark",
-      "tall",
-      "analyse",
-      "formler"
     ]
   },
   {
@@ -158,12 +101,6 @@
     "overlapper": [
       "Lists"
     ],
-    "tags": [
-      "spørreundersøkelse",
-      "quiz",
-      "påmelding",
-      "tilbakemelding"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/online-surveys-polls-quizzes#Overview-1"
@@ -172,9 +109,6 @@
   {
     "navn": "Lists",
     "tagline": "Oversikter som er enkle å følge opp",
-    "alias": [
-      "Microsoft Lists"
-    ],
     "alene": "Hold orden på saker, utstyr, oppgaver og registreringer.",
     "sammen": "Kan vises i Teams og brukes med Power Automate.",
     "fotnote": "",
@@ -184,12 +118,6 @@
       "Excel",
       "Forms",
       "Planner"
-    ],
-    "tags": [
-      "oversikt",
-      "registrering",
-      "sporing",
-      "database"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
@@ -208,12 +136,6 @@
       "OneNote",
       "Whiteboard"
     ],
-    "tags": [
-      "samarbeid",
-      "notater",
-      "synkronisering",
-      "komponenter"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-loop"
@@ -229,12 +151,6 @@
     "oppsummering": "Personlig lagring for utkast og filer du ikke er klar til å dele",
     "overlapper": [
       "SharePoint"
-    ],
-    "tags": [
-      "personlig lagring",
-      "filer",
-      "kladd",
-      "synkronisering"
     ]
   },
   {
@@ -248,11 +164,6 @@
     "overlapper": [
       "Loop",
       "Whiteboard"
-    ],
-    "tags": [
-      "notatblokk",
-      "notater",
-      "skisser"
     ]
   },
   {
@@ -268,12 +179,6 @@
       "Places",
       "Planner",
       "Viva Insights"
-    ],
-    "tags": [
-      "e-post",
-      "kalender",
-      "møteinnkalling",
-      "kontakter"
     ]
   },
   {
@@ -286,11 +191,6 @@
     "oppsummering": "Oversikt over kontorplasser, møterom og kolleger",
     "overlapper": [
       "Outlook"
-    ],
-    "tags": [
-      "møterom",
-      "kontorplass",
-      "hybridarbeid"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
@@ -308,12 +208,6 @@
     "overlapper": [
       "Lists"
     ],
-    "tags": [
-      "oppgaver",
-      "prosjekt",
-      "fremdrift",
-      "ansvar"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/planner/microsoft-planner?market=no#Overview"
@@ -329,11 +223,6 @@
     "oppsummering": "Lag nye apper eller tilpass eksisterende, med eller uten koding",
     "overlapper": [
       "Copilot Studio"
-    ],
-    "tags": [
-      "lavkode",
-      "apper",
-      "tilpasning"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
@@ -351,12 +240,6 @@
     "overlapper": [
       "Copilot Studio"
     ],
-    "tags": [
-      "automatisering",
-      "arbeidsflyt",
-      "robotautomatisering",
-      "rpa"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-NO/power-platform/products/power-automate/?culture=nb-no&country=no&market=no#Features"
@@ -373,12 +256,6 @@
     "overlapper": [
       "Excel"
     ],
-    "tags": [
-      "innsikt",
-      "rapportering",
-      "dashbord",
-      "data"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/power-platform/products/power-bi?market=no#Product-overview"
@@ -394,11 +271,6 @@
     "oppsummering": "Presentasjoner med tekst, bilder, video og animasjoner",
     "overlapper": [
       "Clipchamp"
-    ],
-    "tags": [
-      "presentasjon",
-      "lysbilder",
-      "visuell"
     ]
   },
   {
@@ -414,12 +286,6 @@
       "Viva Learning",
       "Viva Engage",
       "Visio"
-    ],
-    "tags": [
-      "intranett",
-      "fellesområde",
-      "filer",
-      "sider"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
@@ -438,12 +304,6 @@
       "SharePoint",
       "Whiteboard"
     ],
-    "tags": [
-      "prosesskart",
-      "flytdiagram",
-      "organisasjonskart",
-      "tegning"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/visio?market=no#app-integrations"
@@ -452,9 +312,6 @@
   {
     "navn": "Viva Engage",
     "tagline": "Del erfaringer på tvers",
-    "alias": [
-      "Yammer"
-    ],
     "alene": "Internt sosialt nettverk med faglige fellesskap, diskusjoner og erfaringsdeling.",
     "sammen": "Supplerer Teams med åpne samtaler på tvers av organisasjonen.",
     "fotnote": "",
@@ -463,12 +320,6 @@
     "overlapper": [
       "Teams",
       "SharePoint"
-    ],
-    "tags": [
-      "fellesskap",
-      "internt sosialt nettverk",
-      "diskusjoner",
-      "erfaringsdeling"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
@@ -486,11 +337,6 @@
     "overlapper": [
       "Outlook"
     ],
-    "tags": [
-      "arbeidsvaner",
-      "fokustid",
-      "velvære"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-viva/insights?market=no"
@@ -506,11 +352,6 @@
     "oppsummering": "Kurs, opplæring og læringsressurser på ett sted",
     "overlapper": [
       "SharePoint"
-    ],
-    "tags": [
-      "kurs",
-      "opplæring",
-      "læringsressurser"
     ],
     "lenke": {
       "tekst": "Se mulighetene",
@@ -530,12 +371,6 @@
       "Loop",
       "Visio"
     ],
-    "tags": [
-      "tavle",
-      "idémyldring",
-      "workshop",
-      "tegning"
-    ],
     "lenke": {
       "tekst": "Se mulighetene",
       "url": "https://www.microsoft.com/nb-no/microsoft-365/microsoft-whiteboard/digital-whiteboard-app#Overview-2"
@@ -548,11 +383,6 @@
     "sammen": "Lagre i OneDrive eller Teams, så flere kan redigere samtidig.",
     "fotnote": "Du gjør som ellers: Teams → Gå til riktig kanal (samarbeid) eller OneDrive (ditt) → Finn, opprett eller endre derfra.",
     "kategori": "skriv-regn-presenter",
-    "oppsummering": "Dokumenter med innebygd hjelp til språk og stavekontroll",
-    "tags": [
-      "dokument",
-      "skriving",
-      "tekstbehandling"
-    ]
+    "oppsummering": "Dokumenter med innebygd hjelp til språk og stavekontroll"
   }
 ]

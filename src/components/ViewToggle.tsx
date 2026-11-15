@@ -13,7 +13,7 @@ const OPTIONS: { value: AppsView; label: string }[] = [
 export function ViewToggle({ value, onChange }: ViewToggleProps) {
   return (
     <div
-      role="tablist"
+      role="group"
       aria-label="Visning av apper"
       className="inline-flex p-1 bg-slate-100 rounded-xl border border-slate-200"
     >
@@ -22,8 +22,7 @@ export function ViewToggle({ value, onChange }: ViewToggleProps) {
         return (
           <button
             key={opt.value}
-            role="tab"
-            aria-selected={active}
+            aria-pressed={active}
             type="button"
             onClick={() => onChange(opt.value)}
             className={`px-4 py-1.5 text-sm font-medium rounded-lg transition-all ${

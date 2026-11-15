@@ -10,6 +10,7 @@ interface ComparisonDrawerProps {
   onClear: () => void
 }
 
+// Mounted only while apps are selected, so it always opens collapsed.
 export function ComparisonDrawer({
   selected,
   cards,
@@ -17,7 +18,6 @@ export function ComparisonDrawer({
   onClear,
 }: ComparisonDrawerProps) {
   const [expanded, setExpanded] = useState(false)
-  const closeRef = useRef<HTMLButtonElement>(null)
   const toggleRef = useRef<HTMLButtonElement>(null)
 
   const items = selected
@@ -25,16 +25,13 @@ export function ComparisonDrawer({
     .filter((c): c is FlipCard => Boolean(c))
 
   // The drawer covers the bottom of the screen: «Til toppen» hides while it is there.
-  const open = items.length > 0
   useEffect(() => {
-    if (!open) return
     document.body.dataset.drawer = ''
     return () => { delete document.body.dataset.drawer }
-  }, [open])
+  }, [])
 
   useEffect(() => {
     if (!expanded) return
-    closeRef.current?.focus()
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         e.preventDefault()
@@ -45,8 +42,6 @@ export function ComparisonDrawer({
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [expanded])
-
-  if (items.length === 0) return null
 
   return (
     <>
@@ -84,7 +79,7 @@ export function ComparisonDrawer({
             </div>
             <div className="flex-1 min-w-0">
               <div className="text-sm font-semibold text-slate-800">
-                {expanded ? 'Skjul sammenligning' : `Sammenlign ${items.length} apper`}
+                {expanded ? 'Skjul sammenligning' : items.length === 1 ? '1 app valgt' : `Sammenlign ${items.length} apper`}
               </div>
               <div className="text-xs text-slate-500 truncate">
                 {items.map(c => c.navn).join(', ')}
@@ -102,7 +97,6 @@ export function ComparisonDrawer({
                   {items.length} valgt
                 </p>
                 <button
-                  ref={closeRef}
                   type="button"
                   onClick={onClear}
                   className="inline-flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-slate-600 hover:text-brand-700 rounded-lg"
@@ -124,9 +118,10 @@ export function ComparisonDrawer({
                 {items.map(card => (
                   <article
                     key={card.navn}
-                    className="bg-slate-50 rounded-xl p-3 flex flex-col gap-2"
+                    className="relative min-w-0 bg-slate-50 rounded-xl p-3 flex flex-col gap-2"
                   >
-                    <header className="flex items-center gap-2">
+                    {/* Icon above the name: three columns fit 375 px only stacked. */}
+                    <header className="flex flex-col items-start gap-1 pr-5">
                       <img
                         src={iconSrc(card.navn)}
                         alt=""
@@ -134,14 +129,14 @@ export function ComparisonDrawer({
                         height={32}
                         className="object-contain"
                       />
-                      <h4 className="text-sm font-semibold text-slate-800 leading-tight">
+                      <h4 className="text-sm font-semibold text-slate-800 leading-tight break-words">
                         {card.navn}
                       </h4>
                       <button
                         type="button"
                         onClick={() => onRemove(card.navn)}
                         aria-label={`Fjern ${card.navn}`}
-                        className="ml-auto text-slate-500 hover:text-slate-700"
+                        className="absolute top-1.5 right-1.5 p-1.5 text-slate-500 hover:text-slate-700"
                       >
                         <CloseIcon size={14} />
                       </button>
