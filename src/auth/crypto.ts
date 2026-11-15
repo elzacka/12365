@@ -1,8 +1,5 @@
-// AES-GCM-256 + PBKDF2 helpers for gated content.
-//
-// Threat model: keep gated content out of reach of casual visitors of the
-// public site. A shared passphrase derives a key client-side; the passphrase
-// is stored in localStorage only if the user opts in.
+// AES-GCM-256 + PBKDF2 for gated content: keeps it from casual visitors of the public
+// site. A shared passphrase derives the key client-side; localStorage keeps it only on opt-in.
 
 export interface EncryptedPayload {
   version: 1
