@@ -7,6 +7,10 @@ const ORD: Oppslag[] = [
   { id: 'a', tittel: 'Alfa', forklaring: 'Første. Ligner beta.', tags: ['ki', 'metode'] },
   { id: 'b', tittel: 'Beta', forklaring: 'Andre.', tags: ['ki'] },
   { id: 'c', tittel: 'Gamma', forklaring: 'Tredje.', tags: ['metode'] },
+  // The longer text scores lower, so only the tie-break puts Delta first.
+  { id: 'e', tittel: 'Epsilon', forklaring: 'Kilde.', tags: ['analyse'] },
+  { id: 'd', tittel: 'Delta', forklaring: 'Femte med en lang forklaring om noe helt annet. Kilde.', tags: ['analyse'] },
+  { id: 'k', tittel: 'Kildekritikk', forklaring: 'Sjette.', tags: ['analyse'] },
 ]
 
 // One stable promise: `use()` suspends again on every new one.
@@ -65,6 +69,13 @@ describe('Jukselapp', () => {
     expand('Beta')
     clickTag('ki')
     expect(titles()).toEqual(['Alfa', 'Beta'])
+  })
+
+  it('ranks name hits first, then text hits, each alphabetically', async () => {
+    await renderPage()
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'kilde' } })
+    expect(screen.getAllByRole('button', { name: /^(Kilde|Delta|Epsilon)/ }).map(b => b.textContent?.slice(0, 5)))
+      .toEqual(['Kilde', 'Delta', 'Epsil'])
   })
 
   it('summarises search results', async () => {

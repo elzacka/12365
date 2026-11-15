@@ -121,6 +121,9 @@ function exactScore(o: Oppslag, q: string): number {
 
   if (o.tittel.toLowerCase() === qNorm) return 12_000
 
+  // An exact alias beats a full form with those initials: «AI» → Kunstig intelligens, not «AI individualism».
+  if ((o.alias ?? []).some(a => a.toLowerCase() === qNorm)) return 10_000
+
   const undertittelMatch = (o.undertittel ?? '').toLowerCase() === qNorm
   const titleInit = tittelInitialsMatch(o, q)
   const aliasInit = hasAliasInitialsMatch(o, q)
@@ -129,15 +132,13 @@ function exactScore(o: Oppslag, q: string): number {
   if (initialsMatch) return 9_500
   if (undertittelMatch) return 9_000
 
-  for (const a of o.alias ?? []) {
-    if (a.toLowerCase() === qNorm) return 8_000
-  }
-
   // Hele tittelen begynner med søketeksten ("kunstig" → "Kunstig intelligens")
   const tit = o.tittel.toLowerCase()
   if (tit.startsWith(qNorm + ' ') || tit.startsWith(qNorm + '-')) return 500
   return 0
 }
+
+const NAME_FIELDS = new Set(['tittel', 'undertittel', 'alias'])
 
 function buildHaystack(o: Oppslag): string {
   return [
@@ -166,8 +167,9 @@ export function searchOrd(
   const hits = mini.search(queryParts, { combineWith: parsed.combineWith })
   let withScore = hits.map(h => {
     const o = byId.get(String(h.id))
-    return o ? { o, miniScore: h.score ?? 0 } : null
-  }).filter((x): x is { o: Oppslag; miniScore: number } => !!x)
+    const inName = Object.values(h.match).some(fields => fields.some(f => NAME_FIELDS.has(f)))
+    return o ? { o, inName } : null
+  }).filter((x): x is { o: Oppslag; inName: boolean } => !!x)
 
   // Sitert frase må forekomme bokstavelig i ett av feltene.
   if (parsed.phrases.length > 0) {
@@ -190,7 +192,10 @@ export function searchOrd(
     const ea = exactScore(a.o, exactKey)
     const eb = exactScore(b.o, exactKey)
     if (ea !== eb) return eb - ea
-    return b.miniScore - a.miniScore
+    // Hits in the name before hits in the text, each tier alphabetical: a score gap
+    // between two text hits means nothing to the reader.
+    if (a.inName !== b.inName) return a.inName ? -1 : 1
+    return a.o.tittel.localeCompare(b.o.tittel, 'nb')
   })
 
   return withScore.map(x => x.o)
