@@ -1,14 +1,5 @@
 [
   {
-    "id": "microsoft-graph-grafbasert-arkitektur",
-    "fil": "videos/microsoft-graph-grafbasert-arkitektur.mp4",
-    "tittel": "Graph i M365",
-    "beskrivelse": "Fra mapper til grafbasert arkitektur, og hvordan arbeidshverdagen blir mer automatisert og klar for KI.",
-    "kilde": "",
-    "fotnote": "",
-    "thumbnail": "videos/thumbnails/microsoft-graph-grafbasert-arkitektur.png"
-  },
-  {
     "id": "microsoft-365-for-oss",
     "fil": "videos/microsoft-365-for-oss.mp4",
     "tittel": "M365 for oss",
@@ -16,5 +7,14 @@
     "kilde": "",
     "fotnote": "",
     "thumbnail": "videos/thumbnails/microsoft-365-for-oss.png"
+  },
+  {
+    "id": "microsoft-graph-grafbasert-arkitektur",
+    "fil": "videos/microsoft-graph-grafbasert-arkitektur.mp4",
+    "tittel": "Graph i M365",
+    "beskrivelse": "Fra mapper til grafbasert arkitektur, og hvordan arbeidshverdagen blir mer automatisert og klar for KI.",
+    "kilde": "",
+    "fotnote": "",
+    "thumbnail": "videos/thumbnails/microsoft-graph-grafbasert-arkitektur.png"
   }
 ]
