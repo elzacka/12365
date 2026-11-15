@@ -28,11 +28,4 @@ describe('parseVideoSource', () => {
     if (result.type !== 'file') return
     expect(result.src).toBe('/12365/videos/intro.mp4')
   })
-
-  it('keeps absolute non-streaming URLs as-is', () => {
-    const result = parseVideoSource('https://example.com/clip.mp4', '/12365/')
-    expect(result.type).toBe('file')
-    if (result.type !== 'file') return
-    expect(result.src).toBe('https://example.com/clip.mp4')
-  })
 })

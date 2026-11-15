@@ -40,7 +40,7 @@ export function VideoPage() {
                 slot="media"
                 src={source.src}
                 playsInline
-                preload="auto"
+                preload="metadata"
                 poster={video.thumbnail ? `${base}${video.thumbnail}` : undefined}
                 className="w-full h-full object-contain"
               >
@@ -57,7 +57,7 @@ export function VideoPage() {
           ) : (
             <iframe
               src={source.embedSrc}
-              title={video.tittel ?? 'Video'}
+              title={video.tittel || 'Video'}
               className="w-full aspect-video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -77,7 +77,7 @@ export function VideoPage() {
               <p className="text-xs text-slate-500 mt-3 leading-snug">Kilde: {video.kilde}</p>
             )}
             {video.fotnote && (
-              <p className="text-[11px] text-brand-200 mt-3 pt-1 border-t border-slate-100 leading-snug">{video.fotnote}</p>
+              <p className="text-[11px] text-slate-500 mt-3 pt-1 border-t border-slate-100 leading-snug">{video.fotnote}</p>
             )}
           </div>
         )}

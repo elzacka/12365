@@ -29,7 +29,7 @@ function TileBody({ tittel, beskrivelse, kilde, fotnote, trailingIcon }: TileBod
         <p className="text-xs text-slate-500 mt-2 leading-snug">Kilde: {kilde}</p>
       )}
       {fotnote && (
-        <p className="text-[11px] text-brand-200 mt-3 pt-1 border-t border-slate-100 leading-snug">{fotnote}</p>
+        <p className="text-[11px] text-slate-500 mt-3 pt-1 border-t border-slate-100 leading-snug">{fotnote}</p>
       )}
     </div>
   )
@@ -115,7 +115,6 @@ export function SeOgHor() {
                     target="_blank"
                     rel="noreferrer noopener"
                     className="group relative flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md active:scale-[0.99] transition-all"
-                    aria-label={`Åpne kurset ${c.tittel} i ny fane`}
                   >
                     <div className="relative aspect-video bg-slate-100">
                       {thumbnailSrc ? (
@@ -137,7 +136,10 @@ export function SeOgHor() {
                       beskrivelse={c.beskrivelse}
                       kilde={c.kilde}
                       fotnote={c.fotnote}
-                      trailingIcon={<ExternalLinkIcon size={12} className="text-slate-400 shrink-0 mt-1" />}
+                      trailingIcon={<>
+                        <ExternalLinkIcon size={12} className="text-slate-400 shrink-0 mt-1" />
+                        <span className="sr-only"> (åpnes i ny fane)</span>
+                      </>}
                     />
                   </a>
                 )

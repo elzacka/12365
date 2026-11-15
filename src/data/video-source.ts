@@ -1,4 +1,5 @@
-// Parses the video source – local file, YouTube, Vimeo or external mp4.
+// Parses the video source: a file under public/, YouTube or Vimeo. The CSP
+// (media-src 'self') blocks video files from other sites.
 
 export type VideoSource =
   | { type: 'file'; src: string }
@@ -29,9 +30,5 @@ export function parseVideoSource(file: string, base: string): VideoSource {
     }
   }
 
-  const isAbsolute = /^https?:\/\//i.test(file)
-  return {
-    type: 'file',
-    src: isAbsolute ? file : `${base}${file}`,
-  }
+  return { type: 'file', src: `${base}${file}` }
 }
