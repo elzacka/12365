@@ -168,8 +168,8 @@ function parseContent(text: string, hl: string): ReactNode {
   return text.split(/\n\n+/).map((block, i) => renderBlock(block, i, hl))
 }
 
-// Every step card has the same height, so the page only moves when the card
-// top sits under the sticky header.
+// Step cards share one height (the last step excepted), so the page only moves
+// when the card top sits under the sticky header.
 function revealCardTop(card: HTMLElement | null) {
   const headerBottom = document.querySelector('header')?.getBoundingClientRect().bottom ?? 0
   if (card && card.getBoundingClientRect().top < headerBottom) {
@@ -410,13 +410,15 @@ export function ArticlePage() {
               <div aria-hidden="true" className="absolute inset-y-2 left-1.5 -right-1.5 rounded-2xl border border-slate-200 bg-white" />
             )}
             {/* All steps share one grid cell, and their headers and bodies share
-                rows: the card is as tall as the tallest step. */}
+                rows: the card is as tall as the tallest step. The last step
+                takes only its own height, so «Ferdig» and the related
+                articles move up into view. */}
             <div ref={setCardEl} className="relative min-h-0 grid grid-rows-[auto_minmax(0,1fr)] bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
               {article.steg.map((step, idx) => (
                 <section
                   key={idx}
                   inert={idx !== activeStep}
-                  className={`col-start-1 row-start-1 row-span-2 grid grid-rows-subgrid ${idx === activeStep ? '' : 'invisible'}`}
+                  className={`col-start-1 row-start-1 row-span-2 grid grid-rows-subgrid ${idx === activeStep ? '' : isLastStep ? 'hidden' : 'invisible'}`}
                 >
                   <div className="px-4 py-3 bg-brand-50 border-b border-brand-100">
                     <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
