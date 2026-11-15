@@ -10,7 +10,11 @@
     "overlapper": [
       "Outlook",
       "Viva Engage"
-    ]
+    ],
+    "lenke": {
+      "tekst": "Se mulighetene",
+      "url": "https://support.microsoft.com/nb-no/teams/"
+    }
   },
   {
     "navn": "Clipchamp",
