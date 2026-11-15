@@ -12,9 +12,10 @@ Jeg har laget appen **1-2-365** for å sette turbo på:
 
 Trykk på et bilde for å se det i full størrelse.
 
-<a href="docs/screenshots/oversikt-1.webp"><img alt="Fire skjermbilder fra 1-2-365: Startsiden, Appene, Se og hør og Gjør sånn" src="docs/screenshots/oversikt-1.webp"></a>
-
-<a href="docs/screenshots/oversikt-2.webp"><img alt="Fire skjermbilder fra 1-2-365: En veiledning i Lists, Jukselapp, Hurtigtaster og Alt i E5" src="docs/screenshots/oversikt-2.webp"></a>
+<p>
+  <a href="docs/screenshots/oversikt-1.webp"><img width="49%" alt="Fire skjermbilder fra 1-2-365: Startsiden, Appene, Se og hør og Gjør sånn" src="docs/screenshots/oversikt-1.webp"></a>
+  <a href="docs/screenshots/oversikt-2.webp"><img width="49%" alt="Fire skjermbilder fra 1-2-365: En veiledning i Lists, Jukselapp, Hurtigtaster og Alt i E5" src="docs/screenshots/oversikt-2.webp"></a>
+</p>
 
 ## Tech stack
 
