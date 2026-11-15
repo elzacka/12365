@@ -635,14 +635,17 @@
   },
   {
     "id": "bot-chatbot",
-    "tittel": "Bot / chatbot",
-    "forklaring": "Program som automatisk svarer på meldinger i samtaleform. Moderne chatboter bygger på store språkmodeller.",
+    "tittel": "KI-samtalebotter",
+    "undertittel": "AI chatbots",
+    "forklaring": "KI-tjenester utviklet for dialog med mennesker. I motsetning til tradisjonelle samtalebotter, som i stor grad er basert på forhåndsdefinerte regler og svar, kan KI-samtalebotter tolke henvendelser, vurdere sammenhenger og generere svar tilpasset den enkelte. Mange KI-samtalebotter kan søke på nett, uttrykke empati og huske tidligere samtaler. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
     "tags": [
       "ki",
       "begrep"
     ],
     "alias": [
+      "AI chatbots",
       "Chatbot",
+      "Bot",
       "conversational agent"
     ]
   },
@@ -2939,7 +2942,8 @@
   {
     "id": "ki-agent",
     "tittel": "KI-agent",
-    "forklaring": "KI-system som kan handle selvstendig. Det planlegger, tar beslutninger, bruker verktøy og utfører flere steg uten at brukeren veileder hvert steg.",
+    "undertittel": "AI agent",
+    "forklaring": "KI-system utformet for å utføre en bestemt oppgave eller et bestemt sett av oppgaver på egen hånd. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
     "tags": [
       "ki",
       "begrep"
@@ -3011,14 +3015,18 @@
   },
   {
     "id": "ki-slop",
-    "tittel": "KI-slop",
-    "forklaring": "Innhold av lav kvalitet, masseprodusert av KI uten menneskelig kvalitetskontroll. Innholdet er generisk, repetitivt og tynt.",
+    "tittel": "KI-skvip",
+    "undertittel": "AI slop",
+    "forklaring": "KI-generert innhold av lav kvalitet som spres på nett. KI-skvip omtales også som KI-søppel eller KI-sørpe. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
     "tags": [
       "ki",
       "begrep"
     ],
     "alias": [
-      "AI slop"
+      "AI slop",
+      "KI-slop",
+      "KI-søppel",
+      "KI-sørpe"
     ]
   },
   {
@@ -7091,15 +7099,17 @@
   },
   {
     "id": "vibe-koding",
-    "tittel": "Vibe-koding",
-    "forklaring": "Praksis der du beskriver hva et program skal gjøre i naturlig språk og lar et KI-verktøy skrive koden.",
+    "tittel": "Vibbekoding",
+    "undertittel": "vibe coding",
+    "forklaring": "Arbeidsmetode i programutvikling der utvikler i stor grad overlater kodingen til et KI-verktøy, basert på beskrivelser i naturlig språk. Uttrykket ble popularisert av KI-forskeren Andrej Karpathy, og er beskrevet ytterligere i Store Norske Leksikon. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens-nye-ord-og-uttrykk/).",
     "tags": [
       "programmering",
       "ki",
       "metode"
     ],
     "alias": [
-      "Vibe coding"
+      "Vibe coding",
+      "Vibe-koding"
     ]
   },
   {
