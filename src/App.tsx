@@ -8,8 +8,9 @@ import { LockModal } from './components/LockModal'
 import { ScrollToTop } from './components/ScrollToTop'
 import { Home } from './pages/Home'
 import { Appene } from './pages/Appene'
-import { Om } from './pages/Om'
-import { Personvern } from './pages/Personvern'
+import { MarkdownPage } from './pages/MarkdownPage'
+import omContent from '../OM-APPEN.md?raw'
+import personvernContent from '../PERSONVERN.md?raw'
 import { GjorSann } from './pages/GjorSann'
 import { ArticlePage } from './pages/ArticlePage'
 import { SeOgHor } from './pages/SeOgHor'
@@ -49,18 +50,18 @@ function Loading() {
 function getHeaderProps(pathname: string) {
   // The back arrow is shown only when it points somewhere other than home –
   // otherwise it's redundant with the home button.
-  if (pathname === '/') return { showHome: false, showBack: false, showMenu: true }
-  if (pathname === '/appene') return { title: 'Appene', showHome: true, showBack: false }
-  if (pathname === '/gjor-sann') return { title: 'Gjør sånn', showHome: true, showBack: false }
-  if (pathname.startsWith('/gjor-sann/')) return { showHome: true, showBack: false, breadcrumb: <ArticleBreadcrumb kategoriId={pathname.split('/')[2]} /> }
-  if (pathname === '/se-og-hor') return { title: 'Se og hør', showHome: true, showBack: false }
+  if (pathname === '/') return { showMenu: true }
+  if (pathname === '/appene') return { title: 'Appene', showHome: true }
+  if (pathname === '/gjor-sann') return { title: 'Gjør sånn', showHome: true }
+  if (pathname.startsWith('/gjor-sann/')) return { showHome: true, breadcrumb: <ArticleBreadcrumb kategoriId={pathname.split('/')[2]} /> }
+  if (pathname === '/se-og-hor') return { title: 'Se og hør', showHome: true }
   if (pathname.startsWith('/se-og-hor/videoer/')) return { showHome: true, showBack: true, backTo: '/se-og-hor' }
-  if (pathname === '/om') return { title: 'Om', showHome: true, showBack: false }
-  if (pathname === '/personvern') return { title: 'Personvern', showHome: true, showBack: false }
-  if (pathname === '/alt-i-e5') return { title: 'Alt i E5', showHome: true, showBack: false }
-  if (pathname === '/jukselapp') return { title: 'Jukselapp', showHome: true, showBack: false }
-  if (pathname === '/hurtigtaster') return { title: 'Hurtigtaster', showHome: true, showBack: false }
-  return { showHome: true, showBack: false }
+  if (pathname === '/om') return { title: 'Om', showHome: true }
+  if (pathname === '/personvern') return { title: 'Personvern', showHome: true }
+  if (pathname === '/alt-i-e5') return { title: 'Alt i E5', showHome: true }
+  if (pathname === '/jukselapp') return { title: 'Jukselapp', showHome: true }
+  if (pathname === '/hurtigtaster') return { title: 'Hurtigtaster', showHome: true }
+  return { showHome: true }
 }
 
 function AppRoutes() {
@@ -92,8 +93,8 @@ function AppRoutes() {
             <Route path="/gjor-sann/:kategoriId/:artikkelId" element={<ArticlePage />} />
             <Route path="/se-og-hor" element={<SeOgHor />} />
             <Route path="/se-og-hor/videoer/:videoId" element={<VideoPage />} />
-            <Route path="/om" element={<Om />} />
-            <Route path="/personvern" element={<Personvern />} />
+            <Route path="/om" element={<MarkdownPage source={omContent} />} />
+            <Route path="/personvern" element={<MarkdownPage source={personvernContent} />} />
             <Route path="/alt-i-e5" element={<AltIE5 />} />
             <Route path="/jukselapp" element={<Jukselapp />} />
             <Route path="/hurtigtaster" element={<Hurtigtaster />} />

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { ChevronRightIcon } from './Icons'
+import { prefersReducedMotion } from '../lib/motion'
 
 // Floating «Til toppen», shown once the reader has scrolled past the first screen.
 export function ScrollToTop() {
@@ -13,8 +14,7 @@ export function ScrollToTop() {
   }, [])
 
   const toTop = () => {
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    window.scrollTo({ top: 0, behavior: reduce ? 'instant' : 'smooth' })
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion() ? 'instant' : 'smooth' })
     // The button goes inert at the top: hand keyboard focus to the header instead of the page body.
     document.querySelector<HTMLElement>('header a, header button')?.focus({ preventScroll: true })
   }

@@ -12,7 +12,6 @@ function firstLetter(s: string): string {
   return s.charAt(0).toLocaleUpperCase('nb')
 }
 
-
 function hasAllTags(o: Oppslag, tags: string[]): boolean {
   return tags.every(t => o.tags.includes(t))
 }
@@ -696,6 +695,7 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
     const firstLine = stripLinks(ord.forklaring.split('\n')[0])
     return firstLine.length > 140 ? firstLine.slice(0, 140).trim() + '…' : firstLine
   }, [ord.forklaring])
+  const aliases = visibleAliases(ord)
 
   return (
     <div
@@ -731,17 +731,12 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
                 <p key={i}>{parseInline(line)}</p>
               ))}
           </div>
-          {(() => {
-            const aliases = visibleAliases(ord)
-            if (aliases.length === 0) return null
-            const label = 'Også: '
-            return (
-              <p className="mt-3 text-xs text-slate-500">
-                <span className="font-medium">{label}</span>
-                {aliases.join(', ')}
-              </p>
-            )
-          })()}
+          {aliases.length > 0 && (
+            <p className="mt-3 text-xs text-slate-500">
+              <span className="font-medium">Også: </span>
+              {aliases.join(', ')}
+            </p>
+          )}
           {ord.tags.length > 0 && (
             <div className="flex flex-wrap gap-1.5 mt-3">
               <TagChips ord={ord} onTagClick={onTagClick} activeTags={activeTags} />
