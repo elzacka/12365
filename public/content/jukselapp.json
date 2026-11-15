@@ -15055,5 +15055,400 @@
     "alias": [
       "Annual cost"
     ]
+  },
+  {
+    "id": "di2x",
+    "tittel": "DI2X",
+    "forklaring": "Rammeverk for digital modenhet og digital transformasjon, utviklet av Pernille Kræmmergaard. Det bygger på forskningen hennes om hvordan organisasjoner og ledere skaper verdi med digitale teknologier. DI2X består av to rammeverk: **Digital modenhet** beskriver seks generasjoner av digital modenhet, og **Organisatoriske kapabiliteter** beskriver 4x4 evner som organisasjoner og ledere trenger i den digitale modningen. Nettsted: [di2x.com](https://di2x.com/no/rammeverk/)",
+    "tags": [
+      "digitalisering",
+      "rammeverk",
+      "digital-modenhet",
+      "di2x"
+    ],
+    "alias": [
+      "DI2X-rammeverkene"
+    ]
+  },
+  {
+    "id": "digital-modenhet-di2x",
+    "tittel": "Digital modenhet",
+    "undertittel": "DI2X",
+    "forklaring": "Rammeverk i DI2X som beskriver digital modning som en gradvis prosess i seks generasjoner, illustrert som en trapp: generasjonstrappen. Hvert trinn bygger videre på det forrige, men generasjonene sameksisterer, og en organisasjon er typisk på flere trinn samtidig. Hver generasjon har egne muligheter og utfordringer og stiller ulike krav til ledelsen.\nGenerasjon 1: Lokal og selvbetjening\nGenerasjon 2: Effektiv og standardisert\nGenerasjon 3: Problemløsende og relevant\nGenerasjon 4: Forretningsperspektiv og økosystemer\nGenerasjon 5: Personalisert og proaktiv\nGenerasjon 6: Transparent og økobevisst",
+    "tags": [
+      "digitalisering",
+      "rammeverk",
+      "digital-modenhet",
+      "di2x"
+    ],
+    "alias": [
+      "Generasjonstrappen",
+      "Generasjonstrapp for digital modenhet",
+      "Digital maturity"
+    ]
+  },
+  {
+    "id": "generasjon-1-di2x",
+    "tittel": "Generasjon 1: Lokal og selvbetjening",
+    "undertittel": "DI2X",
+    "forklaring": "Nederste trinn på generasjonstrappen. Formålet er å redusere kostnader ved å digitalisere analoge dokumenter og manuelle prosesser, og å la kunder og innbyggere betjene seg selv. Digitale løsninger innføres lokalt uten koordinering. Det skaper et silopreget IT-landskap uten felles data og oversikt. Lederens oppgave er å identifisere digitaliseringsmuligheter, stille klare krav til løsningene og sikre at medarbeiderne bruker systemene, slik at gevinstene realiseres.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Generation 1: Local and Self-Service"
+    ]
+  },
+  {
+    "id": "generasjon-2-di2x",
+    "tittel": "Generasjon 2: Effektiv og standardisert",
+    "undertittel": "DI2X",
+    "forklaring": "Formålet med digitale teknologier er å effektivisere, standardisere og integrere prosesser og systemer på tvers av organisasjonen. Felles, sentrale systemer erstatter lokale løsninger, gir oversikt og gjør det mulig å utnytte interne data bedre. Ledere har ansvar for IT-systemer og felles standarder, og for å sikre at implementeringen realiserer de forventede gevinstene gjennom aktiv endringsledelse.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Generation 2: Efficient and Standardized"
+    ]
+  },
+  {
+    "id": "generasjon-3-di2x",
+    "tittel": "Generasjon 3: Problemløsende og relevant",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen bruker digitale teknologier til å utvikle nye produkter og tjenester, eller til å levere eksisterende løsninger på nye måter. Kundeopplevelsen får stadig mer fokus, organisasjonen begynner å tenke mer utenfra og inn, og digitale teknologier integreres i utviklingsarbeidet. Ledere må utvikle nye kompetanser og et digitalt tankesett, øke den digitale modenheten og gjøre de transformative endringene meningsfulle for medarbeiderne.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Generation 3: Problem-Solving and Relevant"
+    ]
+  },
+  {
+    "id": "generasjon-4-di2x",
+    "tittel": "Generasjon 4: Forretningsperspektiv og økosystemer",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen har en tydelig, langsiktig visjon og bruker digitale teknologier for å dekke sluttkundens behov på en helhetlig måte. Produkter, prosesser og tjenester utvikles med utgangspunkt i verdi for sluttkunden, i økosystemer av likeverdige partnere. Datakvalitet og sikker databehandling er forretningskritisk, og data får selvstendig forretningsmessig verdi. Ledere driver nye forretningsmodeller ved å avklare eget kjernebidrag, partnerroller og strategisk viktige samarbeid.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Generation 4: Business Perspective and Ecosystems"
+    ]
+  },
+  {
+    "id": "generasjon-5-di2x",
+    "tittel": "Generasjon 5: Personalisert og proaktiv",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen bruker dataanalyser og KI som en integrert del av kjerneoppgaven for å skape personaliserte og proaktive tjenester som forebygger problemer for kunder og sluttkunder. KI fungerer som en medspiller som både støtter medarbeidernes vurderinger og gjør automatisert beslutningstaking mulig. Det endrer roller og kompetansekrav. Ledere må sikre et tydelig formål med teknologiene, fastsette dataetiske rammer og drive den faglige og organisatoriske omstillingen.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Generation 5: Personalized and Proactive"
+    ]
+  },
+  {
+    "id": "generasjon-6-di2x",
+    "tittel": "Generasjon 6: Transparent og økobevisst",
+    "undertittel": "DI2X",
+    "forklaring": "Øverste trinn på generasjonstrappen. Organisasjonen utvikler og leverer transparente og sporbare produkter og tjenester, der kundene selv eier og kontrollerer dataene sine, for eksempel gjennom desentraliserte data wallets og blockchain. Samarbeidet foregår i økosystemer og verdibaserte øko-communities med fokus på ryddighet, transparens og etterlevelse av både nåværende og fremtidige krav. Ledere bruker og dokumenterer bærekraft og ryddighet som en aktiv strategisk drivkraft og som et differensieringsparameter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Generation 6: Transparent and Eco-Conscious"
+    ]
+  },
+  {
+    "id": "digitalt-tankesett-di2x",
+    "tittel": "Digitalt tankesett",
+    "undertittel": "DI2X",
+    "forklaring": "Evnen til å lede og vise forståelse for den strategiske, teknologiske, organisatoriske og ledelsesmessige utviklingen som til enhver tid er nødvendig for å bidra konstruktivt til at organisasjonen fortsetter å modnes digitalt. Hver generasjon på generasjonstrappen har sin egen ledelsespraksis og sitt eget digitale tankesett.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Digital mindset"
+    ]
+  },
+  {
+    "id": "organisatoriske-kapabiliteter-di2x",
+    "tittel": "Organisatoriske kapabiliteter",
+    "undertittel": "DI2X",
+    "forklaring": "Rammeverk i DI2X som beskriver 4x4 evner som organisasjoner og ledere trenger i den digitale modningen. Det viser hvilke kapabiliteter en organisasjon må mestre for å nå de øvre trinnene på generasjonstrappen, og hvilke ledelsesmessige evner og digitale tankesett ledere trenger. Etter hvert som organisasjonen modnes, kommer nye evner til, mens andre blir mindre viktige.\n**Strategi**: Digital visjonær, sluttkundefokus, økosystem-tankesett og økologisk fitness\n**Teknologi**: Teknologisk fremsyn, IT-orkestrering, datadrevet og cybersikker\n**Organisasjon**: Ambidekstral, agil, meningsfulle rammer og kompetansebevisst\n**Lederskap**: Tech- og dataledelse, transformasjonsledelse, multiplisitetsledelse og modningsledelse",
+    "tags": [
+      "digitalisering",
+      "rammeverk",
+      "digital-modenhet",
+      "di2x"
+    ],
+    "alias": [
+      "4x4 kapabiliteter",
+      "Organisatoriske kapabiliteter til digital transformasjon",
+      "Organizational capabilities"
+    ]
+  },
+  {
+    "id": "digital-visjonaer-di2x",
+    "tittel": "Digital visjonær",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen kan vurdere det uforutsigbare, dynamiske og konkurransemessige digitale landskapet, og revurdere forretningsmodellen og organisasjonen slik at den fortsatt er relevant om ti år. Del av området Strategi i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Digital Visionary"
+    ]
+  },
+  {
+    "id": "sluttkundefokus-di2x",
+    "tittel": "Sluttkundefokus",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen er bevisst hvilket grunnleggende behov den enkelte sluttkunden ønsker å få innfridd, og dekker behovet på en måte som lever opp til sluttkundens krav og forventninger, som stadig forandrer seg. Del av området Strategi i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "End-customer Focus"
+    ]
+  },
+  {
+    "id": "okosystem-tankesett-di2x",
+    "tittel": "Økosystem-tankesett",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen verdsetter og lykkes med å inngå i gjensidig givende partnerskap, der verdi skapes og deles, og ser dette som vesentlig for å sikre strategisk suksess. Del av området Strategi i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Ecosystem Mindset"
+    ]
+  },
+  {
+    "id": "okologisk-fitness-di2x",
+    "tittel": "Økologisk fitness",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen kan tilpasse strategiene, teknologiene og organisasjons- og ledelsespraksisen sin til nåværende og fremtidige krav og forventninger fra omverdenen. Del av området Strategi i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Ecological Fitness"
+    ]
+  },
+  {
+    "id": "teknologisk-fremsyn-di2x",
+    "tittel": "Teknologisk fremsyn",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen overvåker, evaluerer og bruker kontinuerlig og systematisk den teknologiske utviklingen og digitale trender til å løse problemer for organisasjonen, kundene og sluttkundene. Del av området Teknologi i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Technological Foresight"
+    ]
+  },
+  {
+    "id": "it-orkestrering-di2x",
+    "tittel": "IT-orkestrering",
+    "undertittel": "DI2X",
+    "forklaring": "Å være både bunnsolid internt og fleksibel eksternt, med bevissthet om hvordan IT-arkitekturen er og kan utformes, om egnede beslutningsstrukturer og om rollen til IT-avdelingen. Del av området Teknologi i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "IT Orchestration"
+    ]
+  },
+  {
+    "id": "datadrevet-di2x",
+    "tittel": "Datadrevet",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen kan lede, styre, samle inn, bruke og presentere mange typer data som en organisatorisk og strategisk ressurs, og etablerer riktig datagovernance for dette. Del av området Teknologi i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "dataforvaltning",
+      "begrep"
+    ],
+    "alias": [
+      "Data-driven"
+    ]
+  },
+  {
+    "id": "cybersikker-di2x",
+    "tittel": "Cybersikker",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen ser cybersikkerhet som et kritisk forretningsanliggende og konkurranseparameter, og har effektive sikkerhetstiltak, teknologier og retningslinjer på plass for å beskytte seg mot cyberangrep. Del av området Teknologi i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "sikkerhet",
+      "begrep"
+    ],
+    "alias": [
+      "Cyber Secure"
+    ]
+  },
+  {
+    "id": "ambidekstral-di2x",
+    "tittel": "Ambidekstral",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen kan utnytte og forbedre det bestående, og samtidig utforske nytt og skape forandring. Den har riktige strukturer og ledelsespraksis for begge deler. Del av området Organisasjon i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Ambidextrous"
+    ]
+  },
+  {
+    "id": "agil-di2x",
+    "tittel": "Agil",
+    "undertittel": "DI2X",
+    "forklaring": "Organisasjonen kan være smidig og omstille seg. Tverrfaglige team med fokus på å skape verdi får beslutningsmyndighet, og det er utbredt aksept for å være i beta. Del av området Organisasjon i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Agile"
+    ]
+  },
+  {
+    "id": "meningsfulle-rammer-di2x",
+    "tittel": "Meningsfulle rammer",
+    "undertittel": "DI2X",
+    "forklaring": "Å være bevisst og oppmerksom på de teknologiske, fysiske, kulturelle og strukturelle rammene som organisasjonen tilbyr medarbeiderne, og på om de er tidsriktige og attraktive. Del av området Organisasjon i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Workplace Environment"
+    ]
+  },
+  {
+    "id": "kompetansebevisst-di2x",
+    "tittel": "Kompetansebevisst",
+    "undertittel": "DI2X",
+    "forklaring": "Å kontinuerlig utvikle tankesettet og kompetansene til ledere og medarbeidere, og rekruttere de riktige personene, slik at de passer til organisasjonens nåværende og fremtidige digitale modenhet, visjoner og forretningsmodeller. Del av området Organisasjon i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Competency-aware"
+    ]
+  },
+  {
+    "id": "tech-og-dataledelse-di2x",
+    "tittel": "Tech- og dataledelse",
+    "undertittel": "DI2X",
+    "forklaring": "Ledelsen forstår potensialet i teknologiene, vurderer den strategiske betydningen deres og sørger for utvikling av nødvendige kompetanser, slik at retningslinjer for data-, IT- og cybersikkerhet blir overholdt. Del av området Lederskap i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Tech and Data Leadership"
+    ]
+  },
+  {
+    "id": "transformasjonsledelse-di2x",
+    "tittel": "Transformasjonsledelse",
+    "undertittel": "DI2X",
+    "forklaring": "Å gjøre formålet med digital transformasjon meningsfullt for medarbeiderne, og skape et brennende ønske om å delta i en utvikling med mange ukjente faktorer, også for en selv. Del av området Lederskap i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Transformational Leadership"
+    ]
+  },
+  {
+    "id": "multiplisitetsledelse-di2x",
+    "tittel": "Multiplisitetsledelse",
+    "undertittel": "DI2X",
+    "forklaring": "Å kunne manøvrere i mange virkeligheter og med mange bunnlinjer, der standardløsninger ikke fungerer, og der alle forventer individuelle hensyn og bærekraftig praksis. Del av området Lederskap i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Multiplicity Leadership"
+    ]
+  },
+  {
+    "id": "modningsledelse-di2x",
+    "tittel": "Modningsledelse",
+    "undertittel": "DI2X",
+    "forklaring": "Å kunne vurdere organisasjonens nåværende og ønskede fremtidige digitale modenhet, identifisere gapet mellom eksisterende og fremtidige nødvendige kapabiliteter og kompetanser, definere nødvendige skritt for å nå de fastsatte målene og innføre målepunkter for å spore og justere fremdriften. Del av området Lederskap i Organisatoriske kapabiliteter.",
+    "tags": [
+      "digitalisering",
+      "digital-modenhet",
+      "di2x",
+      "begrep"
+    ],
+    "alias": [
+      "Maturity Leadership"
+    ]
   }
 ]
