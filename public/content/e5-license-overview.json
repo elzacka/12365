@@ -27,7 +27,7 @@
         {
           "navn": "Copilot Chat",
           "status": "inkludert",
-          "beskrivelse": "Gratis KI-chat med Enterprise Data Protection. Du kan søke på nettet, laste opp filer, få utkast eller oppsummeringer og bruke Copilot-sider og notatblokker. Søk i organisasjonens dokumenter, e-post og møter krever Microsoft Copilot-lisens, men i Outlook kan Copilot Chat bruke e-post, kalender og møter."
+          "beskrivelse": "Gratis KI-chat med Enterprise Data Protection. Du kan søke på nettet, laste opp filer, få utkast eller oppsummeringer og bruke Copilot-sider og notatblokker. Søk i organisasjonens dokumenter, e-post og møter krever Microsoft Copilot-lisens, men i Outlook kan Copilot Chat bruke e-post, kalender og møter. Agenter som bygger på instruksjoner og offentlige nettsteder, følger med. Noen funksjoner har bruksgrenser, for eksempel bildegenerering."
         },
         {
           "navn": "Copilot Chat Analytics",
@@ -37,7 +37,7 @@
         {
           "navn": "Microsoft Copilot",
           "status": "tillegg",
-          "beskrivelse": "KI i Word, Excel, PowerPoint, Outlook og Teams-møter: Utkast, oppsummeringer, automatiske møtenotater og handlingspunkter. Gir også Work IQ i Copilot Chat og agenter med e-post, Teams-samtaler og møter som kilder. Copilot Cowork krever lisensen, og organisasjonen betaler for bruken med Copilot Credits. Egen lisens per bruker."
+          "beskrivelse": "Full og prioritert KI i Word, Excel, PowerPoint, Outlook og Teams-møter: Utkast, oppsummeringer, automatiske møtenotater og handlingspunkter. Uten lisensen kan brukere ha standard tilgang i Word, Excel, PowerPoint og OneNote. Gir også Work IQ i Copilot Chat og agenter med e-post, Teams-samtaler og møter som kilder. Copilot Cowork krever lisensen, og organisasjonen betaler for bruken med Copilot Credits. Egen lisens per bruker."
         },
         {
           "navn": "Microsoft Security Copilot",
@@ -451,7 +451,7 @@
         {
           "navn": "SharePoint Advanced Management",
           "status": "tillegg",
-          "beskrivelse": "Verktøy for administratorer som finner overdelt innhold og inaktive nettsteder i SharePoint og OneDrive, og begrenser tilgangen."
+          "beskrivelse": "Verktøy for administratorer som finner overdelt innhold og inaktive nettsteder i SharePoint og OneDrive, og begrenser tilgangen. Følger med Microsoft Copilot-lisensen."
         },
         {
           "navn": "Microsoft 365 Extra File Storage",

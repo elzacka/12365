@@ -151,15 +151,15 @@
       {
         "id": "m365-copilot-aktivert",
         "tittel": "Hva får du med Microsoft Copilot?",
-        "ingress": "Se hva Microsoft Copilot-lisensen gir deg i appene, i egne arbeidsflater og med agenter.",
+        "ingress": "Se hva Microsoft Copilot-lisensen gir deg i tillegg til Copilot Chat.",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
           "copilot",
           "agent",
           "tillegg",
-          "sider",
-          "notatblokker",
+          "work-iq",
+          "cowork",
           "tilrettelegger"
         ],
         "alias": [
@@ -167,6 +167,14 @@
           "Copilot-agent"
         ],
         "steg": [
+          {
+            "tittel": "Dette får du i tillegg til Copilot Chat",
+            "innhold": "◦ **Work IQ**: Copilot finner svar i e-post, møter, chatter og filer du har tilgang til\n◦ **Full tilgang i appene**: Copilot kan også redigere direkte i Word, Excel og PowerPoint\n◦ **Copilot i Teams**: I møter, chatter og kanaler\n◦ **Researcher og Analytiker**: Agenter for grundige utredninger og dataanalyse\n◦ **Agenter med kilder fra jobben**: E-post, Teams-chatter, møter og SharePoint\n◦ **Prioritert tilgang**: Raskere svar, også når mange bruker Copilot\n\n*Merk: Cowork og Copilot Code krever i tillegg at organisasjonen betaler for bruken etter forbruk.*"
+          },
+          {
+            "tittel": "Work IQ: Svar fra alt du har tilgang til",
+            "innhold": "**Work IQ** er slått på som standard øverst i Chat. Copilot bruker da dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler du har tilgang til. Copilot svarer bare ut fra nettet hvis du slår av **Work IQ**.\n\nEksempler:\n\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nWork IQ bygger på **Microsoft Graph**, som kobler sammen e-post, filer, møter, kalendere og team i organisasjonen. Copilot viser bare innhold du allerede har tilgang til. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du."
+          },
           {
             "tittel": "I Word: Utkast, omskriving, oppsummering",
             "innhold": "◦ **Skriver utkast** fra en kort prompt eller fra filer du peker på\n◦ **Skriver om** et avsnitt: Kortere, mer formelt eller på klarspråk\n◦ **Oppsummerer** et langt dokument til hovedpunkter\n◦ **Foreslår forbedringer** i struktur, flyt og tone"
@@ -192,16 +200,16 @@
             "innhold": "◦ **OneNote**: Oppsummer en notatbok, finn igjen et tema på tvers av sider\n◦ **Whiteboard**: Copilot samler og kategoriserer ideer fra workshops. Sammendraget legges som en Loop-komponent du kan dele.\n◦ **Forms**: Beskriv et skjema eller en quiz med vanlige ord og få et utkast med spørsmål, svar og forklaringer\n◦ **Loop**: Copilot foreslår innhold og kan skrive utkast direkte i arbeidsrommet\n◦ **Clipchamp-spilleren**: Be Copilot oppsummere en video, svare på spørsmål om den eller finne hvor et tema tas opp. Videoen må ha transkripsjon."
           },
           {
-            "tittel": "Egne arbeidsflater: Copilot-sider, notatblokker og Cowork",
-            "innhold": "**Copilot-sider**\n\nEn delt side der du utforsker et tema sammen med Copilot. Siden kan inneholde interaktive diagrammer og tabeller.\n\n**Copilot-notatblokker**\n\nEn samling kilder du velger selv, som filer, sider og Teams-møter. Copilot svarer ut fra innholdet i notatblokken. Notatblokker passer til utredninger, høringssvar og lengre prosjekter.\n\n**Copilot Cowork**\n\nGi Copilot en større oppgave, for eksempel «Lag et utkast til årsrapporten basert på disse fem dokumentene». Copilot viser hvert steg og spør før den sender eller endrer noe. Du kan hente resultatet fra mobilen eller PC-en.\n\n*Merk: Copilot-sider og notatblokker har du også med Copilot Chat. Cowork krever i tillegg at organisasjonen har slått på forbruksbasert fakturering, og bruken trekker Copilot Credits.*"
+            "tittel": "Cowork og Copilot Code: Betales etter bruk",
+            "innhold": "**Copilot Cowork**\n\nGi Copilot en større oppgave, for eksempel «Lag et utkast til årsrapporten basert på disse fem dokumentene». Copilot viser hvert steg og spør før den sender eller endrer noe. Du kan hente resultatet fra mobilen eller PC-en.\n\n**Copilot Code**\n\nBeskriv en app, et dashbord eller et verktøy, så bygger Copilot det med kode.\n\n*Merk: Begge krever at organisasjonen har slått på forbruksbasert fakturering, og bruken trekker Copilot Credits. Copilot Code fins bare for organisasjoner i Microsofts Frontier-program.*"
           },
           {
-            "tittel": "Agenter: Bygg, del og publiser",
-            "innhold": "Med **Agent Builder** lager du egne agenter med instruksjoner og kilder du velger selv. Med Copilot-lisensen kan agentene også bruke e-post, Teams-samtaler og møter som kilder.\n\nDu kan dele en agent med utvalgte personer. En administrator må godkjenne agenten før den legges ut i **Agent Store** for hele organisasjonen.\n\n◦ **Copilot i SharePoint** lager og endrer sider, lister og biblioteker ut fra en beskrivelse og foreslår metadatakolonner\n◦ **Planner-agenten** lager planer og oppgaver fra en beskrivelse eller et dokument, og svarer på spørsmål om oppgavene dine\n\nSamtaler med Copilot og agentene logges i Purview. Med Agent 365 får agentene egen identitet i Entra ID, og organisasjonen kan styre dem med DSPM, DLP og Insider Risk Management. Eget tillegg for E5 via Agent 365-lisens.\n\n*Merk: Hele nettsteder og store jobber i Copilot i SharePoint trekker Copilot Credits.*"
+            "tittel": "Agenter: Researcher, Analytiker og dine egne",
+            "innhold": "◦ **Researcher** utreder et spørsmål i flere trinn og lager en rapport med kilder fra nettet og jobben\n◦ **Analytiker** analyserer data, for eksempel fra Excel- og CSV-filer, og finner trender og avvik\n\nMed **Agent Builder** lager du egne agenter med instruksjoner og kilder du velger selv. Med Copilot-lisensen kan agentene også bruke e-post, Teams-samtaler og møter som kilder.\n\nDu kan dele en agent med utvalgte personer. En administrator må godkjenne agenten før den legges ut i **Agent Store** for hele organisasjonen.\n\n◦ **Copilot i SharePoint** lager og endrer sider, lister og biblioteker ut fra en beskrivelse og foreslår metadatakolonner\n◦ **Planner-agenten** lager planer og oppgaver fra en beskrivelse eller et dokument, og svarer på spørsmål om oppgavene dine\n\nSamtaler med Copilot og agentene logges i Purview. Med Agent 365 får agentene egen identitet i Entra ID, og organisasjonen kan styre dem med DSPM, DLP og Insider Risk Management. Eget tillegg for E5 via Agent 365-lisens.\n\n*Merk: Hele nettsteder og store jobber i Copilot i SharePoint trekker Copilot Credits.*"
           },
           {
             "tittel": "Forutsetninger",
-            "innhold": "◦ **Lisensen er tildelt** brukerne som skal bruke Copilot\n◦ **Innstillingene er sjekket** for funksjonene dere vil bruke, som agenter, Cowork, Copilot-sider og notatblokker\n◦ **Følsomhetsetiketter er på plass**, så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot svarer ikke bedre enn innholdet den finner\n\nLær opp brukerne i å skrive gode prompter og sjekke svarene."
+            "innhold": "◦ **Lisensen er tildelt** brukerne som skal bruke Copilot\n◦ **Innstillingene er sjekket** for funksjonene dere vil bruke, som agenter, Cowork og Copilot Code\n◦ **Følsomhetsetiketter er på plass**, så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot svarer ikke bedre enn innholdet den finner\n\nLær opp brukerne i å skrive gode prompter og sjekke svarene."
           }
         ],
         "relaterte": [
@@ -213,42 +221,54 @@
       {
         "id": "copilot-chat-inkludert",
         "tittel": "Bruke Copilot Chat",
-        "ingress": "Bruk KI-chatten i Teams til å skrive, oppsummere og søke.",
+        "ingress": "Se hva du kan gjøre med Copilot uten egen Copilot-lisens.",
         "kategori": "copilot",
         "tags": [
           "copilot",
           "ki",
-          "chat"
+          "chat",
+          "notatblokker",
+          "sider",
+          "agent"
         ],
         "alias": [
           "Bing Chat Enterprise",
           "M365 Chat",
-          "Microsoft 365 Chat"
+          "Microsoft 365 Chat",
+          "Microsoft 365 Copilot Chat"
         ],
         "steg": [
           {
             "tittel": "Slik åpner du Copilot Chat",
-            "innhold": "Klikk **Copilot** i menyen til venstre i Teams. Hvis du ikke ser den, klikker du **Apper**, søker etter Copilot og fester den."
+            "innhold": "Klikk **Copilot** i menyen til venstre i Teams. Hvis du ikke ser den, klikker du **Apper**, søker etter Copilot og fester den.\n\nCopilot Chat fins også i **Microsoft Copilot**-appen, i Outlook og i sidepanelet i Edge."
           },
           {
-            "tittel": "Sjekk hvilken Copilot-versjon du har",
-            "innhold": "Merkelappen i **Microsoft Copilot**-appen og i Word, Excel, PowerPoint og OneNote viser hva du har:\n\n◦ **M365 Copilot (Premium)**: Du har Microsoft Copilot-lisens\n◦ **M365 Copilot (grunnleggende)**: Ingen Copilot-lisens, men standard tilgang til Copilot i Word, Excel, PowerPoint og OneNote\n◦ **Copilot Chat (grunnleggende)**: Ingen Copilot-lisens og ingen Copilot i Word, Excel, PowerPoint og OneNote"
+            "tittel": "Sjekk hvilken Copilot du har",
+            "innhold": "Merkelappen i **Microsoft Copilot**-appen og i Word, Excel, PowerPoint og OneNote viser hva du har:\n\n◦ **Copilot Chat (grunnleggende)**: Chat med nettet og innholdet du gir Copilot. Ingen Copilot i Word, Excel, PowerPoint og OneNote\n◦ **M365 Copilot (grunnleggende)**: Det samme, og i tillegg standard tilgang til Copilot i Word, Excel, PowerPoint og OneNote\n◦ **M365 Copilot (Premium)**: Du har Microsoft Copilot-lisens. Copilot bruker også e-post, møter, chatter og filer du har tilgang til\n\n*Merk: Cowork og Copilot Code krever Microsoft Copilot-lisens, og organisasjonen betaler for bruken etter forbruk.*"
           },
           {
             "tittel": "Søk på nettet",
             "innhold": "Copilot Chat søker på nettet og gir deg oppdaterte svar med kildehenvisninger. Bruk den til å:\n\n◦ Finne fakta, lover og regelverk\n◦ Få sammendrag av fagstoff\n◦ Undersøke tema du ikke kjenner fra før\n\n**Hold sensitive personopplysninger og intern informasjon utenfor nettsøk.**\n\n*Merk: Copilot svarer uten nettsøk hvis organisasjonen har slått det av.*"
           },
           {
-            "tittel": "Work IQ: Søk i organisasjonens innhold",
-            "innhold": "Med **Microsoft Copilot**-lisens er **Work IQ** slått på som standard øverst i Chat. Copilot bruker da dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler du har tilgang til. Copilot svarer bare ut fra nettet hvis du slår av **Work IQ**.\n\nEksempler:\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nUten Copilot-lisens svarer Copilot Chat ut fra nettet og det du selv limer inn eller laster opp. I Outlook kan Copilot Chat likevel bruke e-post, kalender og møter.\n\nMicrosoft bruker ikke innholdet til å trene modellene sine. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du.\n\n*Merk: Prompter og svar kan være journalpliktige saksdokumenter, særlig i saksbehandling.*"
-          },
-          {
-            "tittel": "Last opp filer og still spørsmål",
-            "innhold": "Dra en fil inn i Copilot Chat, for eksempel en PDF, et Word-dokument, et Excel-ark eller en PowerPoint-presentasjon. Copilot leser innholdet og kan oppsummere, svare på spørsmål og finne det du leter etter, også i lange rapporter og utredninger."
+            "tittel": "Gi Copilot innhold fra jobben",
+            "innhold": "Uten Copilot-lisens bruker Copilot Chat det du gir den:\n\n◦ **Last opp en fil**: Dra inn en PDF, et Word-dokument, et Excel-ark eller en presentasjon\n◦ **Lim inn tekst** og si hva Copilot skal gjøre med den\n◦ **Spør Copilot i Outlook**: Copilot kan svare på spørsmål om innboksen, kalenderen og møtene dine\n\nCopilot kan oppsummere, svare på spørsmål og finne det du leter etter, også i lange rapporter og utredninger. Med Microsoft Copilot-lisens finner Copilot innholdet selv gjennom **Work IQ**.\n\nMicrosoft bruker ikke innholdet til å trene modellene sine.\n\n*Merk: Prompter og svar kan være journalpliktige saksdokumenter, særlig i saksbehandling.*"
           },
           {
             "tittel": "Skriv og formuler",
             "innhold": "Copilot Chat kan hjelpe deg med:\n\n◦ Utkast til e-post, notat eller saksframlegg\n◦ Tekst omskrevet til **klarspråk**\n◦ Idémyldring om løsninger og argumenter\n◦ Oversetting mellom norsk og andre språk\n◦ Enkle forklaringer av fagbegreper\n\nLim inn tekst og si hva du vil Copilot skal gjøre med den. Vær gjerne konkret om tone, lengde og målgruppe."
+          },
+          {
+            "tittel": "Copilot-sider og notatblokker",
+            "innhold": "**Copilot-sider**\n\nEn delt side der du utforsker et tema sammen med Copilot. Siden kan inneholde interaktive diagrammer og tabeller.\n\n**Copilot-notatblokker**\n\nEn samling kilder du velger selv, som filer, sider og Teams-møter. Copilot svarer ut fra innholdet i notatblokken. Notatblokker passer til utredninger, høringssvar og lengre prosjekter.\n\nDu finner notatblokkene under **Notatblokker** i menyen til venstre i **Microsoft Copilot**-appen."
+          },
+          {
+            "tittel": "Copilot i Word, Excel, PowerPoint og OneNote",
+            "innhold": "Med merkelappen **M365 Copilot (grunnleggende)** har du standard tilgang til Copilot i appene:\n\n◦ **Word**: Skriver utkast, skriver om og oppsummerer\n◦ **Excel**: Finner innsikt og trender, og lager formler og diagrammer\n◦ **PowerPoint**: Lager en presentasjon fra en beskrivelse eller en fil, og oppsummerer presentasjoner\n◦ **OneNote**: Skriver utkast til planer, ideer og lister\n◦ **Forms**: Skriver utkast til spørsmål i skjemaer og undersøkelser\n\n*Merk: Uten lisens kan tilgangen variere gjennom dagen, og noen funksjoner har bruksgrenser, for eksempel bildegenerering. Copilot i Teams-møter krever Microsoft Copilot-lisens.*"
+          },
+          {
+            "tittel": "Agenter uten lisens",
+            "innhold": "Du kan lage og bruke agenter som bygger på instruksjoner og offentlige nettsteder, uten ekstra kostnad. Du lager dem i **Agent Builder** i **Microsoft Copilot**-appen.\n\nFor agenter med andre kilder gjelder dette:\n\n◦ **SharePoint og andre kilder i organisasjonen**: Organisasjonen betaler for bruken etter forbruk\n◦ **E-post, Teams-chatter og møter**: Krever Microsoft Copilot-lisens\n\n*Merk: Hvilke agenter du kan lage og bruke, avhenger av hva organisasjonen har slått på.*"
           }
         ],
         "relaterte": [
