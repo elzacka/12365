@@ -18,11 +18,26 @@ async function fetchLockedPayload(): Promise<EncryptedPayload> {
   return payloadPromise
 }
 
+// Storage can be blocked by the browser; the app then works, just without remembering.
+function readSaved(): string | null {
+  try {
+    return localStorage.getItem(STORAGE_KEY)
+  } catch {
+    return null
+  }
+}
+
+function writeSaved(passphrase: string | null) {
+  try {
+    if (passphrase) localStorage.setItem(STORAGE_KEY, passphrase)
+    else localStorage.removeItem(STORAGE_KEY)
+  } catch {
+    // storage blocked: nothing saved
+  }
+}
+
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [locked, setLocked] = useState<LockedContent | null>(null)
-  // Initial state is derived synchronously from localStorage so we don't need
-  // to setState in the effect body (which the react-hooks lint rule flags).
-  const [initializing, setInitializing] = useState(() => localStorage.getItem(STORAGE_KEY) !== null)
 
   const tryDecrypt = useCallback(async (passphrase: string): Promise<LockedContent> => {
     const payload = await fetchLockedPayload()
@@ -32,7 +47,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // Auto-unlock from a saved passphrase. Runs once on mount.
   useEffect(() => {
     let cancelled = false
-    const saved = localStorage.getItem(STORAGE_KEY)
+    const saved = readSaved()
     if (!saved) return
     tryDecrypt(saved)
       .then(content => {
@@ -42,10 +57,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         // The saved passphrase no longer fits the deployed payload (rotated,
         // wrong, or the payload is unavailable). Clear it silently so we don't
         // keep retrying on every page load.
-        localStorage.removeItem(STORAGE_KEY)
-      })
-      .finally(() => {
-        if (!cancelled) setInitializing(false)
+        writeSaved(null)
       })
     return () => {
       cancelled = true
@@ -56,29 +68,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     async (passphrase: string, remember: boolean) => {
       const content = await tryDecrypt(passphrase)
       setLocked(content)
-      if (remember) {
-        localStorage.setItem(STORAGE_KEY, passphrase)
-      } else {
-        localStorage.removeItem(STORAGE_KEY)
-      }
+      writeSaved(remember ? passphrase : null)
     },
     [tryDecrypt],
   )
 
   const lockNow = useCallback(() => {
     setLocked(null)
-    localStorage.removeItem(STORAGE_KEY)
+    writeSaved(null)
   }, [])
 
   const value = useMemo<AuthContextValue>(
     () => ({
       unlocked: locked !== null,
       locked,
-      initializing,
       unlock,
       lock: lockNow,
     }),
-    [locked, initializing, unlock, lockNow],
+    [locked, unlock, lockNow],
   )
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>

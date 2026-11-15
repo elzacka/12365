@@ -19,8 +19,6 @@ export interface EncryptedPayload {
   ciphertextB64: string
 }
 
-const PBKDF2_ITERATIONS = 310_000
-
 // Use ArrayBuffer-backed Uint8Array explicitly. TypeScript's WebCrypto typings
 // reject Uint8Array whose buffer could be a SharedArrayBuffer (the default in
 // recent lib.dom).
@@ -28,14 +26,6 @@ type Bytes = Uint8Array<ArrayBuffer>
 
 function newBytes(length: number): Bytes {
   return new Uint8Array(new ArrayBuffer(length)) as Bytes
-}
-
-function bytesToBase64(bytes: Bytes): string {
-  let binary = ''
-  for (let i = 0; i < bytes.byteLength; i++) {
-    binary += String.fromCharCode(bytes[i])
-  }
-  return btoa(binary)
 }
 
 function base64ToBytes(b64: string): Bytes {
@@ -65,32 +55,7 @@ async function deriveKey(passphrase: string, salt: Bytes, iterations: number): P
   )
 }
 
-export async function encryptJson(plaintext: unknown, passphrase: string): Promise<EncryptedPayload> {
-  const salt = crypto.getRandomValues(newBytes(16))
-  const iv = crypto.getRandomValues(newBytes(12))
-  const key = await deriveKey(passphrase, salt, PBKDF2_ITERATIONS)
-  const enc = new TextEncoder()
-  const ciphertext = await crypto.subtle.encrypt(
-    { name: 'AES-GCM', iv },
-    key,
-    enc.encode(JSON.stringify(plaintext)),
-  )
-  return {
-    version: 1,
-    kdf: {
-      name: 'PBKDF2',
-      hash: 'SHA-256',
-      iterations: PBKDF2_ITERATIONS,
-      saltB64: bytesToBase64(salt),
-    },
-    cipher: {
-      name: 'AES-GCM',
-      ivB64: bytesToBase64(iv),
-    },
-    ciphertextB64: bytesToBase64(new Uint8Array(ciphertext) as Bytes),
-  }
-}
-
+// The iteration count comes from the payload; scripts/lock-content.mjs sets it.
 export async function decryptJson<T>(payload: EncryptedPayload, passphrase: string): Promise<T> {
   const salt = base64ToBytes(payload.kdf.saltB64)
   const iv = base64ToBytes(payload.cipher.ivB64)

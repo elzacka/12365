@@ -31,7 +31,7 @@ beforeAll(() => {
 
 async function renderPage(locked: LockedContent | null = null) {
   const { Hurtigtaster } = await import('./Hurtigtaster')
-  const auth = { unlocked: locked !== null, locked, initializing: false, unlock: async () => {}, lock: () => {} }
+  const auth = { unlocked: locked !== null, locked, unlock: async () => {}, lock: () => {} }
   await act(async () => {
     render(
       <AuthContext.Provider value={auth}>

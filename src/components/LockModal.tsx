@@ -9,26 +9,19 @@ interface LockModalProps {
 export function LockModal({ onClose }: LockModalProps) {
   const { unlocked, unlock, lock } = useAuth()
   const [passphrase, setPassphrase] = useState('')
-  const [remember, setRemember] = useState(true)
+  // Opt-in: the passphrase is stored on the device only when the user asks.
+  const [remember, setRemember] = useState(false)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const dialogRef = useRef<HTMLDialogElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  // Focus the input shortly after mount – the modal is conditionally rendered
-  // by the parent, so this runs every time the user opens it.
+  // A native modal dialog keeps focus inside and closes on Escape. The parent
+  // mounts this component on each open.
   useEffect(() => {
-    const t = window.setTimeout(() => inputRef.current?.focus(), 50)
-    return () => window.clearTimeout(t)
+    dialogRef.current?.showModal()
+    inputRef.current?.focus()
   }, [])
-
-  // Close on Escape.
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose()
-    }
-    window.addEventListener('keydown', handler)
-    return () => window.removeEventListener('keydown', handler)
-  }, [onClose])
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -51,17 +44,16 @@ export function LockModal({ onClose }: LockModalProps) {
   }
 
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-slate-900/40 backdrop-blur-sm"
-      role="dialog"
-      aria-modal="true"
+    <dialog
+      ref={dialogRef}
       aria-labelledby="lock-modal-title"
-      onClick={onClose}
+      onClose={onClose}
+      onClick={e => {
+        if (e.target === dialogRef.current) onClose()
+      }}
+      className="m-0 mt-auto w-full max-w-none sm:m-auto sm:max-w-sm p-0 bg-white rounded-t-2xl sm:rounded-2xl shadow-xl border border-slate-200 safe-bottom backdrop:bg-slate-900/40 backdrop:backdrop-blur-sm"
     >
-      <div
-        className="w-full sm:max-w-sm bg-white rounded-t-2xl sm:rounded-2xl shadow-xl border border-slate-200 safe-bottom"
-        onClick={e => e.stopPropagation()}
-      >
+      <div>
         <div className="flex items-center justify-between px-5 pt-5 pb-2">
           <div className="flex items-center gap-2.5 text-brand-700">
             {unlocked ? <GlassesIcon size={22} /> : <GlassesOffIcon size={22} />}
@@ -82,8 +74,7 @@ export function LockModal({ onClose }: LockModalProps) {
         {unlocked ? (
           <div className="px-5 pb-5">
             <p className="text-sm text-slate-600 leading-relaxed">
-              Du er logget inn på denne enheten og ser også skjult innhold. Logg ut for å skjule
-              det igjen.
+              Du ser også skjult innhold. Trykk på «Lås» for å skjule det igjen.
             </p>
             <div className="mt-4 flex gap-2 justify-end">
               <button
@@ -98,7 +89,7 @@ export function LockModal({ onClose }: LockModalProps) {
                 onClick={handleLock}
                 className="px-4 py-2.5 rounded-xl text-sm font-medium text-white bg-brand-700 hover:bg-brand-800 transition-colors"
               >
-                Logg ut
+                Lås
               </button>
             </div>
           </div>
@@ -154,6 +145,6 @@ export function LockModal({ onClose }: LockModalProps) {
           </form>
         )}
       </div>
-    </div>
+    </dialog>
   )
 }

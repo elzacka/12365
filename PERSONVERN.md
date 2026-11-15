@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-Oppdatert: 26.10.26
+Oppdatert: 15.11.26
 
 ## Kort oppsummert
 
@@ -18,7 +18,7 @@ Ingenting av dette sendes fra enheten, og ingenting av det kan identifisere deg.
 
 ## Slik sletter du det
 
-«Logg ut» sletter passordfrasen. Alt annet sletter du ved å fjerne appen fra enheten eller slette nettstedsdata for appen i nettleseren.
+«Lås» i menyen sletter passordfrasen. Alt annet sletter du ved å fjerne appen fra enheten eller slette nettstedsdata for appen i nettleseren.
 
 ## GitHub
 
