@@ -1,5 +1,14 @@
 [
   {
+    "id": "hva-er-data",
+    "tittel": "Hva er data?",
+    "beskrivelse": "En enkel introduksjon for nybegynnere: Hva data er, hvorfor datakvalitet er viktig, og hvordan du jobber mer datadrevet.",
+    "kilde": "Digital Norway",
+    "fotnote": "Gratis, krever brukerkonto",
+    "lenke": "https://digitalnorway.com/kurs/hva-er-data",
+    "thumbnail": "courses/thumbnails/hva-er-data.png"
+  },
+  {
     "id": "datareisen",
     "tittel": "Datareisen",
     "beskrivelse": "En innføring i data og digitalisering: Hva er data, hva er informasjon, og hvilken teknologi ligger bak?",
