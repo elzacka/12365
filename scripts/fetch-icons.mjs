@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir } from 'node:fs/promises'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
@@ -6,28 +6,29 @@ import sharp from 'sharp'
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const OUT_DIR = resolve(root, 'public/m365-icons')
 const RAW = 'https://raw.githubusercontent.com/loryanstrant/MicrosoftCloudLogos/main'
-const TARGET = 1024
+// Shown at 56 px at most: 192 px covers a 3x screen without decoding megapixel PNGs.
+const TARGET = 192
 
 const sources = [
-  { slug: 'teams',            path: 'logos/teams/teams-1024x1024-(2025-unofficial).png',                 mode: 'png-asis' },
-  { slug: 'word',             path: 'logos/word/word-1024x1024-(2025-unofficial).png',                   mode: 'png-asis' },
-  { slug: 'excel',            path: 'logos/excel/excel-1024x1024-(2025-unofficial).png',                 mode: 'png-asis' },
-  { slug: 'powerpoint',       path: 'logos/powerpoint/powerpoint-1024x1024-(2025-unofficial).png',       mode: 'png-asis' },
-  { slug: 'outlook',          path: 'logos/outlook/outlook-1024x1024-(2025-unofficial).png',             mode: 'png-asis' },
-  { slug: 'onenote',          path: 'logos/onenote/onenote-1024x1024-(2025-unofficial).png',             mode: 'png-asis' },
-  { slug: 'onedrive',         path: 'logos/onedrive/onedrive-1024x1024-(2025-unofficial).png',           mode: 'png-asis' },
-  { slug: 'sharepoint',       path: 'logos/sharepoint/sharepoint-1024x1024-(2025-unofficial).png',       mode: 'png-asis' },
+  { slug: 'teams',            path: 'logos/teams/teams-1024x1024-(2025-unofficial).png',                 mode: 'png-fit' },
+  { slug: 'word',             path: 'logos/word/word-1024x1024-(2025-unofficial).png',                   mode: 'png-fit' },
+  { slug: 'excel',            path: 'logos/excel/excel-1024x1024-(2025-unofficial).png',                 mode: 'png-fit' },
+  { slug: 'powerpoint',       path: 'logos/powerpoint/powerpoint-1024x1024-(2025-unofficial).png',       mode: 'png-fit' },
+  { slug: 'outlook',          path: 'logos/outlook/outlook-1024x1024-(2025-unofficial).png',             mode: 'png-fit' },
+  { slug: 'onenote',          path: 'logos/onenote/onenote-1024x1024-(2025-unofficial).png',             mode: 'png-fit' },
+  { slug: 'onedrive',         path: 'logos/onedrive/onedrive-1024x1024-(2025-unofficial).png',           mode: 'png-fit' },
+  { slug: 'sharepoint',       path: 'logos/sharepoint/sharepoint-1024x1024-(2025-unofficial).png',       mode: 'png-fit' },
   { slug: 'loop',             path: 'logos/loop/microsoft-loop-logo.png',                                mode: 'png-fit' },
   // Microsoft's own vector icon, from the Microsoft 365 product pages.
   // Copilot Chat lives inside the Microsoft Copilot app and shares its icon.
   { slug: 'copilot-chat',      url:  'https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/Copilot-Icon-FY26.svg', mode: 'svg' },
   { slug: 'microsoft-copilot', url:  'https://www.microsoft.com/content/dam/microsoft/bade/images/icons/en-us/m365-app-icons-fy26/Copilot-Icon-FY26.svg', mode: 'svg' },
-  { slug: 'forms',            path: 'logos/forms/forms-512.png',                                        mode: 'png-asis' },
-  { slug: 'clipchamp',        path: 'logos/clipchamp/clipchamp-512.png',                                 mode: 'png-asis' },
+  { slug: 'forms',            path: 'logos/forms/forms-512.png',                                        mode: 'png-fit' },
+  { slug: 'clipchamp',        path: 'logos/clipchamp/clipchamp-512.png',                                 mode: 'png-fit' },
   { slug: 'visio',            url:  'https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Office_Visio_%282019%29.svg', mode: 'svg' },
   { slug: 'bookings',         path: 'logos/bookings/new-bookings-2048x1839.png',                         mode: 'png-fit' },
   { slug: 'edge',             path: 'logos/edge/microsoft-edge.png',                                     mode: 'png-fit' },
-  { slug: 'lists',            path: 'logos/lists/2020-current-full-color/microsoft-lists-265x265.png',   mode: 'png-asis' },
+  { slug: 'lists',            path: 'logos/lists/2020-current-full-color/microsoft-lists-265x265.png',   mode: 'png-fit' },
   { slug: 'planner',          url:  'https://upload.wikimedia.org/wikipedia/commons/d/d4/Microsoft_Planner_%282024%E2%80%93present%29.svg', mode: 'svg' },
   { slug: 'power-apps',       path: 'logos/power-apps/powerapps-scalable.svg',                           mode: 'svg' },
   { slug: 'power-automate',   path: 'logos/power-automate/powerautomate-scalable.svg',                   mode: 'svg' },
@@ -56,9 +57,7 @@ for (const src of sources) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     const buf = Buffer.from(await res.arrayBuffer())
 
-    if (src.mode === 'png-asis') {
-      await writeFile(out, buf)
-    } else if (src.mode === 'svg') {
+    if (src.mode === 'svg') {
       await sharp(buf, { density: 300 })
         .resize(TARGET, TARGET, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
         .png({ compressionLevel: 9 })
