@@ -7223,7 +7223,7 @@
   {
     "id": "copilot-autopilot",
     "tittel": "Copilot Autopilot",
-    "forklaring": "Personlig agent i Microsoft Copilot som arbeider i bakgrunnen med Microsoft 365 og Work IQ, innenfor rammene du og organisasjonen setter. I privat forhåndsvisning.",
+    "forklaring": "Personlig agent i Microsoft Copilot som arbeider i bakgrunnen med Microsoft 365 og Work IQ, innenfor rammene du og organisasjonen setter. Privat forhåndsversjon, foreløpig bare for utvalgte kunder i USA.",
     "tags": [
       "m365",
       "ki",
@@ -7236,7 +7236,7 @@
   {
     "id": "copilot-code",
     "tittel": "Copilot Code",
-    "forklaring": "Flate i Microsoft Copilot der du beskriver en app, et dashbord eller et verktøy, og Copilot bygger det med kode. Del av Frontier-programmet.",
+    "forklaring": "Flate i Microsoft Copilot der du beskriver en app, et dashbord eller et verktøy, og Copilot bygger det med kode. Forhåndsversjon i Frontier-programmet.",
     "tags": [
       "m365",
       "ki",
@@ -7359,7 +7359,7 @@
   {
     "id": "frontier-program",
     "tittel": "Frontier-program",
-    "forklaring": "Microsofts program der organisasjoner som melder seg på, får prøve nye funksjoner i Microsoft 365 før generell lansering. Copilot-funksjonene i programmet krever Microsoft Copilot-lisens.",
+    "forklaring": "Microsofts program der organisasjoner som melder seg på, får prøve nye funksjoner i Microsoft 365 før generell lansering. Copilot-funksjonene i programmet krever Microsoft Copilot-lisens. Ikke det samme som «Frontier-programserien», som er Microsofts navn på E7.",
     "tags": [
       "m365",
       "ki",
