@@ -1,4 +1,4 @@
-import { Fragment, useState, useMemo, useEffect, useCallback, useId, useRef } from 'react'
+import { Fragment, memo, useState, useMemo, useEffect, useCallback, useId, useRef } from 'react'
 import { buildIndex, searchOrd } from '../data/searchIndex'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
@@ -71,6 +71,15 @@ interface OppslagViewProps {
   keys?: boolean
 }
 
+// One index per list for the session: building it costs a frame on every visit.
+const indexCache = new WeakMap<Oppslag[], ReturnType<typeof buildIndex>>()
+
+function cachedIndex(ord: Oppslag[]) {
+  let index = indexCache.get(ord)
+  if (!index) indexCache.set(ord, (index = buildIndex(ord)))
+  return index
+}
+
 // Searchable, tag-filtered list shared by Jukselapp and Hurtigtaster.
 export function OppslagView({ ord, placeholderWords, searchLabel, examples, resetLabel, groups, keys = false }: OppslagViewProps) {
   const [query, setQuery] = useState('')
@@ -89,7 +98,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
   const searchInputRef = useRef<HTMLInputElement>(null)
   const isDesktopSearch = useSearchShortcut(searchInputRef)
 
-  const index = useMemo(() => buildIndex(ord), [ord])
+  const index = useMemo(() => cachedIndex(ord), [ord])
   const byId = useMemo(() => new Map(ord.map(o => [o.id, o])), [ord])
 
   // Read ?o=<id> once when first rendering with data. Validated against
@@ -601,6 +610,9 @@ interface OppslagListProps {
   activeTags: string[]
 }
 
+// Only the open row shows tags: the rest keep a stable prop and skip re-rendering.
+const NO_TAGS: string[] = []
+
 function OppslagList({ ord, keys, expandedId, onExpand, onTagClick, activeTags }: OppslagListProps) {
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
@@ -614,7 +626,7 @@ function OppslagList({ ord, keys, expandedId, onExpand, onTagClick, activeTags }
             isExpanded={expandedId === o.id}
             onExpand={onExpand}
             onTagClick={onTagClick}
-            activeTags={activeTags}
+            activeTags={expandedId === o.id ? activeTags : NO_TAGS}
             withBorder={idx < ord.length - 1}
           />
         )
@@ -667,7 +679,8 @@ interface KeyRowProps {
 }
 
 // Description and keys on one line. The app tag is searchable but not shown.
-function KeyRow({ ord, withBorder }: KeyRowProps) {
+// Memoized rows: a tap or placeholder tick re-renders only the rows it changes, not all of them.
+const KeyRow = memo(function KeyRow({ ord, withBorder }: KeyRowProps) {
   return (
     <div
       id={`ord-${ord.id}`}
@@ -681,7 +694,7 @@ function KeyRow({ ord, withBorder }: KeyRowProps) {
       </div>
     </div>
   )
-}
+})
 
 interface OppslagRowProps {
   ord: Oppslag
@@ -692,7 +705,7 @@ interface OppslagRowProps {
   withBorder: boolean
 }
 
-function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBorder }: OppslagRowProps) {
+const OppslagRow = memo(function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBorder }: OppslagRowProps) {
   const previewText = useMemo(() => {
     const firstLine = stripLinks(ord.forklaring.split('\n')[0])
     return firstLine.length > 140 ? firstLine.slice(0, 140).trim() + '…' : firstLine
@@ -702,7 +715,7 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
   return (
     <div
       id={`ord-${ord.id}`}
-      className={`${withBorder ? 'border-b border-slate-100' : ''} ${isExpanded ? 'bg-brand-50/60' : ''} transition-colors`}
+      className={`${withBorder ? 'border-b border-slate-100' : ''} ${isExpanded ? 'bg-brand-50/60' : ''} transition-colors [content-visibility:auto] [contain-intrinsic-size:auto_68px]`}
     >
       <button
         onClick={() => onExpand(ord.id)}
@@ -748,4 +761,4 @@ function OppslagRow({ ord, isExpanded, onExpand, onTagClick, activeTags, withBor
       )}
     </div>
   )
-}
+})
