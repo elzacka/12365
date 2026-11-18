@@ -14,7 +14,7 @@ import personvernContent from '../PERSONVERN.md?raw'
 import { GjorSann } from './pages/GjorSann'
 import { ArticlePage } from './pages/ArticlePage'
 import { SeOgHor } from './pages/SeOgHor'
-import { AltIE5 } from './pages/AltIE5'
+import { AltIE5OgE7 } from './pages/AltIE5OgE7'
 import { Jukselapp } from './pages/Jukselapp'
 import { Hurtigtaster } from './pages/Hurtigtaster'
 
@@ -28,7 +28,8 @@ const LEGACY_PATHS: [string, string][] = [
   ['/slik-gjor-du', '/gjor-sann'],
   ['/opplaering', '/se-og-hor'],
   ['/om-appen', '/om'],
-  ['/lisenser', '/alt-i-e5'],
+  ['/lisenser', '/alt-i-e5-og-e7'],
+  ['/alt-i-e5', '/alt-i-e5-og-e7'],
   ['/oppslagsverk', '/jukselapp'],
   ['/ordbok', '/jukselapp'],
 ]
@@ -58,7 +59,7 @@ function getHeaderProps(pathname: string) {
   if (pathname.startsWith('/se-og-hor/videoer/')) return { showHome: true, showBack: true, backTo: '/se-og-hor' }
   if (pathname === '/om') return { title: 'Om', showHome: true }
   if (pathname === '/personvern') return { title: 'Personvern', showHome: true }
-  if (pathname === '/alt-i-e5') return { title: 'Alt i E5', showHome: true }
+  if (pathname === '/alt-i-e5-og-e7') return { title: 'Alt i E5 og E7', showHome: true }
   if (pathname === '/jukselapp') return { title: 'Jukselapp', showHome: true }
   if (pathname === '/hurtigtaster') return { title: 'Hurtigtaster', showHome: true }
   return { showHome: true }
@@ -95,7 +96,7 @@ function AppRoutes() {
             <Route path="/se-og-hor/videoer/:videoId" element={<VideoPage />} />
             <Route path="/om" element={<MarkdownPage source={omContent} />} />
             <Route path="/personvern" element={<MarkdownPage source={personvernContent} />} />
-            <Route path="/alt-i-e5" element={<AltIE5 />} />
+            <Route path="/alt-i-e5-og-e7" element={<AltIE5OgE7 />} />
             <Route path="/jukselapp" element={<Jukselapp />} />
             <Route path="/hurtigtaster" element={<Hurtigtaster />} />
             {LEGACY_PATHS.map(([from, to]) => (

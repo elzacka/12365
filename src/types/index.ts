@@ -98,9 +98,11 @@ export interface LockedContent {
 
 export type LicenseStatus = 'inkludert' | 'tillegg'
 
+export type LicenseId = 'e5' | 'e7'
+
 export interface LicenseFeature {
   navn: string
-  status: LicenseStatus
+  status: Record<LicenseId, LicenseStatus>
   beskrivelse: string
 }
 
@@ -117,7 +119,7 @@ export interface LicenseTheme {
   beskrivelse: string
 }
 
-export interface E5LicenseOverview {
+export interface LicenseOverview {
   kilde: string
   kildeUrl: string
   tema: LicenseTheme[]

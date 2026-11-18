@@ -1,5 +1,5 @@
 import { useState, useMemo, use, useRef } from 'react'
-import { fetchE5LicenseOverview } from '../data/loader'
+import { fetchLicenseOverview } from '../data/loader'
 import { useRotatingPlaceholder } from '../hooks/useRotatingPlaceholder'
 import { useSearchShortcut } from '../hooks/useSearchShortcut'
 import {
@@ -11,11 +11,13 @@ import {
   ExternalLinkIcon,
 } from '../components/Icons'
 import { SearchShortcutHint } from '../components/SearchShortcutHint'
-import type { LicenseFeature, LicenseStatus } from '../types'
+import type { LicenseFeature, LicenseId, LicenseStatus } from '../types'
 
 const SEARCH_WORDS = ['kategori', 'funksjon', 'beskrivelse']
 
 type FilterId = 'alle' | 'inkludert' | 'tillegg'
+
+const LICENSES: LicenseId[] = ['e5', 'e7']
 
 const FILTERS: { id: FilterId; label: string }[] = [
   { id: 'alle', label: 'Alle' },
@@ -57,9 +59,9 @@ const STATUS_CONFIG: Record<
   },
 }
 
-function passesFilter(f: LicenseFeature, active: FilterId): boolean {
+function passesFilter(f: LicenseFeature, license: LicenseId, active: FilterId): boolean {
   if (active === 'alle') return true
-  return f.status === active
+  return f.status[license] === active
 }
 
 // A span cannot carry an accessible name, so the status is read as text.
@@ -77,8 +79,9 @@ function StatusBadge({ status }: { status: LicenseStatus }) {
   )
 }
 
-export function AltIE5() {
-  const data = use(fetchE5LicenseOverview())
+export function AltIE5OgE7() {
+  const data = use(fetchLicenseOverview())
+  const [license, setLicense] = useState<LicenseId>('e5')
   const [activeFilter, setActiveFilter] = useState<FilterId>('alle')
   const [query, setQuery] = useState('')
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
@@ -96,11 +99,13 @@ export function AltIE5() {
       .map(cat => ({
         ...cat,
         funksjoner: cat.funksjoner.filter(f =>
-          passesFilter(f, activeFilter) && matchesQuery(cat.navn, f, normalizedQuery)
+          passesFilter(f, license, activeFilter) && matchesQuery(cat.navn, f, normalizedQuery)
         ),
       }))
       .filter(cat => cat.funksjoner.length > 0)
-  }, [data, activeFilter, normalizedQuery])
+  }, [data, license, activeFilter, normalizedQuery])
+
+  const licenseLabel = license.toUpperCase()
 
   function reset() {
     setActiveFilter('alle')
@@ -132,6 +137,26 @@ export function AltIE5() {
             <ExternalLinkIcon size={11} className="inline-block ml-0.5 align-[-0.125em]" />
           </a>
         </p>
+
+        {/* Licence */}
+        <div role="group" aria-label="Lisens" className="grid grid-cols-2 gap-1 p-1 mb-3 bg-white border border-slate-200 rounded-xl shadow-sm">
+          {LICENSES.map(id => {
+            const isActive = license === id
+            return (
+              <button
+                key={id}
+                type="button"
+                onClick={() => setLicense(id)}
+                aria-pressed={isActive}
+                className={`py-2 rounded-lg text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 ${
+                  isActive ? 'bg-brand-700 text-white shadow-sm' : 'text-slate-600 hover:bg-slate-100'
+                }`}
+              >
+                M365 {id.toUpperCase()}
+              </button>
+            )
+          })}
+        </div>
 
         {/* Search */}
         <div className="mb-1">
@@ -206,11 +231,11 @@ export function AltIE5() {
                 </div>
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-500 font-medium mb-1">I listen</p>
-                  <p className="text-slate-500">Utvid en kategori og trykk på en funksjon for å se hva den brukes til.</p>
+                  <p className="text-slate-500">Velg E5 eller E7 øverst. Utvid en kategori og trykk på en funksjon for å se hva den brukes til.</p>
                 </div>
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-500 font-medium mb-1">Om kategoriene</p>
-                  <p className="text-slate-500">Inndelingen følger lisenskomponentene i Microsofts oversikt. En app i venstremenyen i Teams kan derfor ligge under en annen kategori enn Teams, fordi den er lisensiert som del av en annen komponent i E5.</p>
+                  <p className="text-slate-500">Inndelingen følger lisenskomponentene i Microsofts oversikt. En app i venstremenyen i Teams kan derfor ligge under en annen kategori enn Teams, fordi den er lisensiert som del av en annen komponent i E5 og E7.</p>
                 </div>
               </div>
             </div>
@@ -308,7 +333,7 @@ export function AltIE5() {
                                 aria-controls={isActive ? detailId : undefined}
                               >
                                 <div className="flex-1 text-sm text-slate-700 leading-snug">{f.navn}</div>
-                                <StatusBadge status={f.status} />
+                                <StatusBadge status={f.status[license]} />
                               </button>
                               {isActive && (
                                 <div
@@ -354,7 +379,7 @@ export function AltIE5() {
                 <StatusBadge status="inkludert" />
               </span>
               <span>
-                <strong>Inkludert</strong>: Følger med M365 E5
+                <strong>Inkludert</strong>: Følger med M365 {licenseLabel}
               </span>
             </li>
             <li className="flex items-center gap-2.5">
@@ -362,7 +387,7 @@ export function AltIE5() {
                 <StatusBadge status="tillegg" />
               </span>
               <span>
-                <strong>Tilleggskjøp</strong>: Kan kjøpes som tillegg til M365 E5
+                <strong>Tilleggskjøp</strong>: Kan kjøpes som tillegg til M365 {licenseLabel}
               </span>
             </li>
           </ul>

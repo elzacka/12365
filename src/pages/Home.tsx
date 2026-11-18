@@ -31,7 +31,7 @@ export function Home() {
         <NavCard to="/gjor-sann" icon={<BookIcon size={40} />} title="Gjør sånn" />
         <NavCard to="/jukselapp" icon={<JukselappIcon size={40} />} title="Jukselapp" />
         <NavCard to="/hurtigtaster" icon={<BoltIcon size={40} />} title="Hurtigtaster" />
-        <NavCard to="/alt-i-e5" icon={<Stack2Icon size={40} />} title="Alt i E5" />
+        <NavCard to="/alt-i-e5-og-e7" icon={<Stack2Icon size={40} />} title="Alt i E5 og E7" />
       </div>
     </main>
   )
