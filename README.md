@@ -1,7 +1,5 @@
 # 1-2-365
 
-Til deg som har forvilla deg hit: Hei!
-
 Jeg har laget appen **1-2-365** for å sette turbo på:
 
 - min egen **læring og modning** i Microsoft 365-universet
