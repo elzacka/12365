@@ -146,8 +146,8 @@
     "artikler": [
       {
         "id": "m365-copilot-aktivert",
-        "tittel": "Hva får du med Microsoft Copilot?",
-        "ingress": "Se hva Microsoft Copilot-lisensen gir deg i tillegg til Copilot Chat.",
+        "tittel": "Microsoft Copilot (Premium): Hva får du og hva kan du gjøre?",
+        "ingress": "Artikkelen tar utgangspunkt i at du har E7-lisens, der Microsoft Copilot følger med.",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
@@ -156,20 +156,30 @@
           "tillegg",
           "work-iq",
           "cowork",
-          "tilrettelegger"
+          "tilrettelegger",
+          "e7",
+          "autopilot",
+          "agent-365",
+          "graph"
         ],
         "alias": [
           "Microsoft 365 Copilot",
-          "Copilot-agent"
+          "Copilot-agent",
+          "Microsoft Copilot (Premium)",
+          "M365 Copilot (Premium)"
         ],
         "steg": [
           {
-            "tittel": "Dette får du i tillegg til Copilot Chat",
-            "innhold": "◦ **Work IQ**: Copilot finner svar i e-post, møter, chatter og filer du har tilgang til\n◦ **Full tilgang i appene**: Copilot kan også redigere direkte i Word, Excel og PowerPoint\n◦ **Copilot i Teams**: I møter, chatter og kanaler\n◦ **Researcher og Analytiker**: Agenter for grundige utredninger og dataanalyse\n◦ **Agenter med kilder fra jobben**: E-post, Teams-chatter, møter og SharePoint\n◦ **Prioritert tilgang**: Raskere svar, også når mange bruker Copilot\n\n*Merk: Cowork og Copilot Code krever i tillegg at organisasjonen betaler for bruken etter forbruk.*"
+            "tittel": "Dette får du med E7",
+            "innhold": "E7 inneholder alt i E5 og i tillegg **Microsoft Copilot**, **Microsoft Entra Suite** og **Agent 365**. Merkelappen **M365 Copilot (Premium)** i **Microsoft Copilot**-appen og i Word, Excel, PowerPoint og OneNote viser at du har Copilot-lisensen.\n\n◦ **Work IQ**: Copilot finner svar i e-post, møter, chatter og filer du har tilgang til\n◦ **Søk**: Finn filer, e-post, chatter og møter med vanlige ord\n◦ **Full tilgang i appene**: Copilot kan også redigere direkte i Word, Excel og PowerPoint\n◦ **Copilot i Teams**: I møter, chatter og kanaler\n◦ **Researcher og Analytiker**: Agenter for grundige utredninger og dataanalyse\n◦ **Agenter med kilder fra jobben**: E-post, Teams-chatter, møter og SharePoint\n◦ **Prioritert tilgang**: Raskere svar, også når mange bruker Copilot\n\n*Merk: For Cowork, Copilot Code og Autopilot betaler organisasjonen i tillegg etter forbruk.*"
+          },
+          {
+            "tittel": "Slik henger det sammen",
+            "innhold": "◦ **Microsoft Graph**: Kobler sammen e-post, filer, møter, kalendere, chatter og team i organisasjonen. Copilot henter innholdet gjennom Graph\n◦ **Work IQ**: Bygger på Graph og forstår sammenhengen. Den vet hvem du jobber med, og hvilke prosjekter som er viktige\n◦ **Copilot og agentene**: Bruker Work IQ når de svarer, skriver og gjør oppgaver for deg\n◦ **Agent 365 og Entra Suite**: Styrer og sikrer agentene og tilgangene deres\n\nCopilot viser bare innhold du allerede har tilgang til. Work IQ bruker innholdet der det ligger, uten å kopiere det.\n\n*Merk: Apper og agenter som organisasjonen lager selv, når de samme dataene gjennom Graph API eller Work IQ API. Work IQ API betales etter bruk.*"
           },
           {
             "tittel": "Work IQ: Svar fra alt du har tilgang til",
-            "innhold": "**Work IQ** er slått på som standard øverst i Chat. Copilot bruker da dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler du har tilgang til. Copilot svarer bare ut fra nettet hvis du slår av **Work IQ**.\n\nEksempler:\n\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\nWork IQ bygger på **Microsoft Graph**, som kobler sammen e-post, filer, møter, kalendere og team i organisasjonen. Copilot viser bare innhold du allerede har tilgang til. Jo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du."
+            "innhold": "**Work IQ** er slått på som standard øverst i Chat. Copilot bruker da dokumenter, SharePoint-sider, e-post, møter og Teams-samtaler du har tilgang til. Copilot svarer bare ut fra nettet hvis du slår av **Work IQ**.\n\nEksempler:\n\n◦ «Finn referat fra siste ledermøte»\n◦ «Hva sier rutinen for innkjøp?»\n◦ «Hvilke prosesser gjelder for offentlige anskaffelser?»\n\n**Copilot-minne** husker preferansene dine og det du ber Copilot huske, for eksempel tone og arbeidsmål. Du kan slette det Copilot husker, i innstillingene for Chat.\n\n**Søk** i **Microsoft Copilot**-appen finner filer, e-post, chatter og møter når du skriver med vanlige ord. Fra søkeresultatet kan du gå videre i Chat.\n\nJo bedre strukturert og merket innholdet er i SharePoint, desto bedre svar får du."
           },
           {
             "tittel": "I Word og PowerPoint: Utkast, omskriving og presentasjoner",
@@ -192,20 +202,24 @@
             "innhold": "◦ **OneNote**: Oppsummer en notatbok, finn igjen et tema på tvers av sider\n◦ **Whiteboard**: Copilot samler og kategoriserer ideer fra workshops. Sammendraget legges som en Loop-komponent du kan dele.\n◦ **Forms**: Beskriv et skjema eller en quiz med vanlige ord og få et utkast med spørsmål, svar og forklaringer\n◦ **Loop**: Copilot foreslår innhold og kan skrive utkast direkte i arbeidsrommet\n◦ **Clipchamp-spilleren**: Be Copilot oppsummere en video, svare på spørsmål om den eller finne hvor et tema tas opp. Videoen må ha transkripsjon."
           },
           {
-            "tittel": "Cowork og Copilot Code: Betales etter bruk",
-            "innhold": "**Copilot Cowork**\n\nGi Copilot en større oppgave, for eksempel «Lag et utkast til årsrapporten basert på disse fem dokumentene». Copilot viser hvert steg og spør før den sender eller endrer noe. Du kan hente resultatet fra mobilen eller PC-en.\n\nI Cowork velger du modell i menyen **Modell**, eller lar den stå på **Automatisk**. Du velger også hvor grundig Cowork skal resonnere, fra **Lett** til **Maks**. Et høyere nivå gir grundigere svar, men tar lengre tid og trekker flere Copilot Credits.\n\nOrganisasjoner i Norge er innenfor EUs datagrense, og der kan Cowork bare bruke GPT-modeller.\n\n**Copilot Code**\n\nBeskriv en app, et dashbord eller et verktøy, så bygger Copilot det med kode.\n\n*Merk: Begge krever at organisasjonen har slått på forbruksbasert fakturering, og bruken trekker Copilot Credits. Copilot Code fins bare for organisasjoner i Microsofts Frontier-program.*"
-          },
-          {
             "tittel": "Ferdige agenter: Researcher, Analytiker og flere",
             "innhold": "◦ **Researcher** utreder et spørsmål i flere trinn og lager en rapport med kilder fra nettet og jobben\n◦ **Analytiker** analyserer data, for eksempel fra Excel- og CSV-filer, og finner trender og avvik\n◦ **Copilot i SharePoint** lager og endrer sider, lister og biblioteker ut fra en beskrivelse og foreslår metadatakolonner\n◦ **Planner-agenten** lager planer og oppgaver fra en beskrivelse eller et dokument, og svarer på spørsmål om oppgavene dine\n\n*Merk: Hele nettsteder og store jobber i Copilot i SharePoint trekker Copilot Credits.*"
           },
           {
             "tittel": "Lag og del egne agenter",
-            "innhold": "Med **Agent Builder** lager du egne agenter med instruksjoner og kilder du velger selv. Med Copilot-lisensen kan agentene også bruke e-post, Teams-samtaler og møter som kilder.\n\nDu kan dele en agent med utvalgte personer. En administrator må godkjenne agenten før den legges ut i **Agent Store** for hele organisasjonen.\n\nSamtaler med Copilot og agentene logges i Purview. Med Agent 365 får agentene egen identitet i Entra ID, og organisasjonen kan styre dem med DSPM, DLP og Insider Risk Management. Eget tillegg for E5 via Agent 365-lisens."
+            "innhold": "Med **Agent Builder** lager du egne agenter med instruksjoner og kilder du velger selv. Agentene kan også bruke e-post, Teams-samtaler og møter som kilder.\n\nDu kan dele en agent med utvalgte personer. En administrator må godkjenne agenten før den legges ut i **Agent Store** for hele organisasjonen."
+          },
+          {
+            "tittel": "Cowork, Copilot Code og Autopilot: Betales etter bruk",
+            "innhold": "Disse funksjonene trekker **Copilot Credits**, og bruken betales i tillegg til E7. Organisasjonen må slå på forbruksbasert fakturering og bestemme hvem som får bruke dem.\n\n**Copilot Cowork**\n\nGi Copilot en større oppgave, for eksempel «Lag et utkast til årsrapporten basert på disse fem dokumentene». Copilot viser hvert steg og spør før den sender eller endrer noe. Du kan hente resultatet fra mobilen eller PC-en.\n\nI Cowork velger du modell i menyen **Modell**, eller lar den stå på **Automatisk**. Du velger også hvor grundig Cowork skal resonnere, fra **Lett** til **Maks**. Et høyere nivå gir grundigere svar, men tar lengre tid og trekker flere Copilot Credits.\n\nOrganisasjoner i Norge er innenfor EUs datagrense, og der kan Cowork bare bruke GPT-modeller.\n\n**Copilot Code**\n\nBeskriv en app, et dashbord eller et verktøy, så bygger Copilot det med kode.\n\n**Autopilot**\n\nEn personlig agent som jobber i bakgrunnen, også når enheten din er slått av. Gi den et mål, kildene den skal bruke, og grensene for hva den får gjøre. Før Autopilot sender, deler eller sletter noe, sjekker den handlingen mot det du ba om. Handlinger som ikke stemmer, venter på godkjenningen din.\n\n*Merk: Copilot Code og Autopilot fins bare for organisasjoner i Microsofts Frontier-program. Andre tjenester kan også trekke Copilot Credits, for eksempel tolking i Teams-møter.*"
+          },
+          {
+            "tittel": "Slik gjør E7 KI-bruken tryggere",
+            "innhold": "E7 gir organisasjonen verktøy som begrenser hva Copilot og agentene ser og gjør:\n\n◦ **Etiketter følger med**: Nye filer fra Copilot arver følsomhetsetiketten fra kildene\n◦ **Mindre overdeling**: SharePoint Advanced Management finner nettsteder som er delt med for mange, og kan holde dem utenfor Copilot-svar til de er ryddet\n◦ **Hver agent har en identitet**: Agent 365 gir agenten egen identitet i Entra ID, en ansvarlig eier og bare tilgangen den trenger\n◦ **Samme regler som for deg**: Betinget tilgang, følsomhetsetiketter og DLP gjelder også for agentene\n◦ **Logg og varsling**: Purview logger samtaler med Copilot og agentene. Defender og Insider Risk Management varsler om mistenkelig oppførsel\n◦ **Trygg nettrafikk**: Entra Suite filtrerer nettrafikken til agentene og stopper ondsinnet trafikk\n\nOrganisasjonen kan sette en agent på pause, slå den av eller slette den.\n\n*Merk: Copilot er ikke tryggere enn tilgangene i organisasjonen. Del en fil bare med dem som trenger den, og klassifiser den riktig.*"
           },
           {
             "tittel": "Forutsetninger",
-            "innhold": "◦ **Lisensen er tildelt** brukerne som skal bruke Copilot\n◦ **Innstillingene er sjekket** for funksjonene dere vil bruke, som agenter, Cowork og Copilot Code\n◦ **Følsomhetsetiketter er på plass**, så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot svarer ikke bedre enn innholdet den finner\n\nLær opp brukerne i å skrive gode prompter og sjekke svarene."
+            "innhold": "◦ **E7-lisensen er tildelt** brukerne som skal bruke Copilot\n◦ **Innstillingene er sjekket** for funksjonene dere vil bruke, som agenter, Cowork og Autopilot\n◦ **Agent 365 er satt opp**, så agentene har eier og regler\n◦ **Følsomhetsetiketter er på plass**, så Copilot kan skille åpent fra begrenset innhold\n◦ **SharePoint og OneDrive er ryddige**: Copilot svarer ikke bedre enn innholdet den finner\n\nLær opp brukerne i å skrive gode prompter og sjekke svarene."
           }
         ],
         "relaterte": [
@@ -216,7 +230,7 @@
       },
       {
         "id": "copilot-chat-inkludert",
-        "tittel": "Bruke Copilot Chat",
+        "tittel": "Copilot Chat (grunnleggende): Hva får du og hva kan du gjøre?",
         "ingress": "Se hva du kan gjøre med Copilot uten egen Copilot-lisens.",
         "kategori": "copilot",
         "tags": [
@@ -231,7 +245,8 @@
           "Bing Chat Enterprise",
           "M365 Chat",
           "Microsoft 365 Chat",
-          "Microsoft 365 Copilot Chat"
+          "Microsoft 365 Copilot Chat",
+          "Copilot Chat (grunnleggende)"
         ],
         "steg": [
           {
