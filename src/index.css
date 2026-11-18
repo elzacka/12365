@@ -44,6 +44,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    /* Anchors and scrollIntoView land below the sticky header (h-14 + safe-top). */
+    scroll-padding-top: calc(3.5rem + env(safe-area-inset-top));
   }
 
   body {
