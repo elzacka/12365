@@ -1,4 +1,4 @@
-import { lazy, Suspense, useLayoutEffect, useState, ViewTransition } from 'react'
+import { lazy, Suspense, useLayoutEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, useLocation, useParams } from 'react-router-dom'
 import { AuthProvider } from './auth/AuthContext'
 import { Header } from './components/Header'
@@ -69,9 +69,7 @@ function AppRoutes() {
   const { pathname } = useLocation()
   const [lockOpen, setLockOpen] = useState(false)
 
-  // Layout effect, not passive: React snapshots the new page for the view
-  // transition right after layout effects, so the scroll reset must land before
-  // that or the cross-fade would end on the old scroll position and then jump.
+  // Layout effect, not passive: the new page paints at the top, not at the old scroll position first.
   useLayoutEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
   }, [pathname])
@@ -82,30 +80,26 @@ function AppRoutes() {
     <div className="min-h-svh flex flex-col">
       {pathname === '/' && <InstallBanner />}
       <Header {...headerProps} onLockClick={() => setLockOpen(true)} />
-      {/* BrowserRouter wraps navigation in startTransition, so every route change
-          cross-fades. Only the routed page animates – React opts the rest of the
-          document out. Reduced motion is handled in index.css. */}
-      <ViewTransition>
-        <Suspense fallback={<Loading />}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/appene" element={<Appene />} />
-            <Route path="/gjor-sann" element={<GjorSann />} />
-            <Route path="/gjor-sann/:kategoriId/:artikkelId" element={<ArticlePage />} />
-            <Route path="/se-og-hor" element={<SeOgHor />} />
-            <Route path="/se-og-hor/videoer/:videoId" element={<VideoPage />} />
-            <Route path="/om" element={<MarkdownPage source={omContent} />} />
-            <Route path="/personvern" element={<MarkdownPage source={personvernContent} />} />
-            <Route path="/alt-i-e5-og-e7" element={<AltIE5OgE7 />} />
-            <Route path="/jukselapp" element={<Jukselapp />} />
-            <Route path="/hurtigtaster" element={<Hurtigtaster />} />
-            {LEGACY_PATHS.map(([from, to]) => (
-              <Route key={from} path={`${from}/*`} element={<RedirectKeepingRest to={to} />} />
-            ))}
-            <Route path="*" element={<Home />} />
-          </Routes>
-        </Suspense>
-      </ViewTransition>
+      {/* No route cross-fade: the browser drops taps on the page while a view transition runs. */}
+      <Suspense fallback={<Loading />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/appene" element={<Appene />} />
+          <Route path="/gjor-sann" element={<GjorSann />} />
+          <Route path="/gjor-sann/:kategoriId/:artikkelId" element={<ArticlePage />} />
+          <Route path="/se-og-hor" element={<SeOgHor />} />
+          <Route path="/se-og-hor/videoer/:videoId" element={<VideoPage />} />
+          <Route path="/om" element={<MarkdownPage source={omContent} />} />
+          <Route path="/personvern" element={<MarkdownPage source={personvernContent} />} />
+          <Route path="/alt-i-e5-og-e7" element={<AltIE5OgE7 />} />
+          <Route path="/jukselapp" element={<Jukselapp />} />
+          <Route path="/hurtigtaster" element={<Hurtigtaster />} />
+          {LEGACY_PATHS.map(([from, to]) => (
+            <Route key={from} path={`${from}/*`} element={<RedirectKeepingRest to={to} />} />
+          ))}
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </Suspense>
       <ScrollToTop />
       {lockOpen && <LockModal onClose={() => setLockOpen(false)} />}
     </div>
