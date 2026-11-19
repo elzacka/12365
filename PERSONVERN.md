@@ -1,4 +1,4 @@
-*Oppdatert: 18.11.26*
+Oppdatert: 18.11.26
 
 ## Oppsummert
 
