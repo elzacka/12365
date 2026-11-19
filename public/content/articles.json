@@ -281,7 +281,7 @@
           },
           {
             "tittel": "Velg hvor grundig Copilot skal tenke",
-            "innhold": "Copilot velger modell selv når valget står på **Automatisk**. Du kan også velge selv:\n\n◦ **Raskt svar**: Korte svar på enkle spørsmål\n◦ **Tenk dypere**: Copilot bruker mer tid og gir grundigere svar på sammensatte spørsmål\n\n*Merk: Claude-modellene fra Anthropic er foreløpig slått av, fordi de behandler data utenfor EUs datagrense.*"
+            "innhold": "Copilot velger modell selv når valget står på **Automatisk**. Du kan også velge selv:\n\n◦ **Raskt svar**: Korte svar på enkle spørsmål\n◦ **Tenk dypere**: Copilot bruker mer tid og gir grundigere svar på sammensatte spørsmål\n\n*Merk: Claude-modellene fra Anthropic er foreløpig slått av. De slås på 09.12.26, når databehandlingen flyttes innenfor EUs datagrense.*"
           },
           {
             "tittel": "Copilot-sider og notatblokker",
