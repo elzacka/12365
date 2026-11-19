@@ -3499,7 +3499,7 @@
       "M365 Copilot (Premium)",
       "Copilot Premium"
     ],
-    "forklaring": "KI-assistent integrert i Office-appene og Teams, forankret i organisasjonens data gjennom Microsoft Graph og Work IQ. Krever egen lisens. Bruker språkmodeller fra OpenAI. Modellene fra Anthropic er foreløpig slått av, men slås på 09.12.26.",
+    "forklaring": "KI-assistent i Office-appene, Teams og Microsoft Copilot-appen, forankret i organisasjonens data gjennom Microsoft Graph og Work IQ. Gir tilgang til Cowork, Copilot Code og Autopilot, som betales etter forbruk. Krever egen lisens. Bruker språkmodeller fra OpenAI, og du kan velge modell selv. Modellene fra Anthropic er foreløpig slått av, men slås på 09.12.26.",
     "tags": [
       "m365",
       "ki",
@@ -3567,7 +3567,7 @@
   {
     "id": "microsoft-copilot-studio",
     "tittel": "Microsoft Copilot Studio",
-    "forklaring": "Lavkodetjeneste (low-code) for å bygge egne KI-agenter. Del av Power Platform.",
+    "forklaring": "Lavkodetjeneste (low-code) for å bygge egne KI-agenter, arbeidsflyter og apper. Del av Power Platform.",
     "tags": [
       "m365",
       "ki",
@@ -7231,20 +7231,22 @@
   {
     "id": "copilot-autopilot",
     "tittel": "Copilot Autopilot",
-    "forklaring": "Personlig agent i Microsoft Copilot som arbeider i bakgrunnen med Microsoft 365 og Work IQ, innenfor rammene du og organisasjonen setter. Privat forhåndsversjon, foreløpig bare for utvalgte kunder i USA.",
+    "forklaring": "Personlig agent i Microsoft Copilot som jobber i skyen, også når enheten din er slått av. Har egen identitet og egne tillatelser, lærer rollen og prioriteringene dine og tar tak i det som kommer inn i e-post, kalender, møter, chat og dokumenter. Jobber innenfor rammene du og organisasjonen setter. Forhåndsversjon i Frontier-programmet, foreløpig bare for utvalgte kunder i USA.",
     "tags": [
       "m365",
       "ki",
       "tjeneste"
     ],
     "alias": [
-      "Autopilot"
+      "Autopilot",
+      "Autopilot (Frontier)",
+      "Scout"
     ]
   },
   {
     "id": "copilot-code",
     "tittel": "Copilot Code",
-    "forklaring": "Flate i Microsoft Copilot der du beskriver en app, et dashbord eller et verktøy, og Copilot bygger det med kode. Forhåndsversjon i Frontier-programmet.",
+    "forklaring": "Fane i Microsoft Copilot der du beskriver en app, et dashbord eller et verktøy, og Copilot bygger det med kode. Du trenger ikke kunne kode. Du kan publisere appen i Copilot Managed Runtime og koble Copilot Code til GitHub. Forhåndsversjon i Frontier-programmet.",
     "tags": [
       "m365",
       "ki",
@@ -7257,7 +7259,7 @@
   {
     "id": "copilot-researcher",
     "tittel": "Researcher",
-    "forklaring": "Agent i Microsoft Copilot som undersøker et tema grundig i organisasjonens data og på nettet, og skriver en rapport. Krever Microsoft Copilot-lisens.",
+    "forklaring": "Agent i Microsoft Copilot som undersøker et tema grundig i organisasjonens data og på nettet, og skriver en rapport. Krever Microsoft Copilot-lisens. Har grenser for bruk. Bruk utover grensen kan bli fakturert etter forbruk.",
     "tags": [
       "m365",
       "ki",
@@ -7271,7 +7273,7 @@
   {
     "id": "copilot-analytiker",
     "tittel": "Analytiker",
-    "forklaring": "Agent i Microsoft Copilot som analyserer data, for eksempel regneark, og forklarer funnene. Krever Microsoft Copilot-lisens.",
+    "forklaring": "Agent i Microsoft Copilot som analyserer data, for eksempel regneark, og forklarer funnene. Krever Microsoft Copilot-lisens. Har grenser for bruk. Bruk utover grensen kan bli fakturert etter forbruk.",
     "tags": [
       "m365",
       "ki",
@@ -7284,7 +7286,7 @@
   {
     "id": "work-iq",
     "tittel": "Work IQ",
-    "forklaring": "Intelligenslaget som kobler Copilot og agenter til organisasjonens e-post, møter, chatter og filer. Copilot og agenter ser bare det brukeren har tilgang til. Følger med Microsoft Copilot-lisensen. Work IQ API betales etter forbruk med Copilot Credits.",
+    "forklaring": "Intelligenslaget som kobler Copilot og agenter til organisasjonens e-post, møter, chatter og filer, og til andre systemer gjennom Copilot-koblinger. Består av kontekst, minne og ferdigheter. Copilot og agenter ser bare det brukeren har tilgang til. Følger med Microsoft Copilot-lisensen. Work IQ API betales etter forbruk med Copilot Credits.",
     "tags": [
       "m365",
       "ki",
@@ -7294,7 +7296,7 @@
   {
     "id": "copilot-credits",
     "tittel": "Copilot Credits",
-    "forklaring": "Betalingsenhet for KI-funksjoner som faktureres etter forbruk, for eksempel Cowork og agenter i Copilot Studio.",
+    "forklaring": "Betalingsenhet for KI-funksjoner som faktureres etter forbruk, som Cowork, Copilot Code, Autopilot og agenter for forretningsprosesser. Prisen for en oppgave avhenger av modellen, konteksten Copilot henter, verktøyene den bruker, og hvor lenge den kjører.",
     "tags": [
       "m365",
       "ki",
@@ -7302,6 +7304,58 @@
     ],
     "alias": [
       "Copilot-kreditter"
+    ]
+  },
+  {
+    "id": "agent-builder",
+    "tittel": "Agent Builder",
+    "forklaring": "Verktøy i Microsoft Copilot der du lager egne agenter med instruksjoner, kilder og ferdigheter, uten å kode. Du kan dele agentene med kolleger. En administrator må godkjenne agenten før den legges ut i Agent Store.",
+    "tags": [
+      "m365",
+      "ki",
+      "tjeneste"
+    ],
+    "alias": [
+      "Copilot Studio Lite"
+    ]
+  },
+  {
+    "id": "copilot-ferdigheter",
+    "tittel": "Ferdigheter",
+    "forklaring": "Gjenbrukbare instruksjoner som lærer en agent å gjøre en bestemt oppgave, for eksempel å skrive et saksframlegg etter organisasjonens mal. Du lager dem i Agent Builder eller Copilot Studio og kan dele dem med andre.",
+    "tags": [
+      "m365",
+      "ki",
+      "begrep"
+    ],
+    "alias": [
+      "Skills",
+      "Copilot skills",
+      "Agent skills"
+    ]
+  },
+  {
+    "id": "copilot-managed-runtime",
+    "tittel": "Copilot Managed Runtime",
+    "forklaring": "Plattform der organisasjonen kjører interne apper laget med Copilot Code eller andre verktøy. Appene får innlogging med Entra ID og følger organisasjonens regler for betinget tilgang og DLP.",
+    "tags": [
+      "m365",
+      "ki",
+      "tjeneste"
+    ]
+  },
+  {
+    "id": "copilot-controls",
+    "tittel": "Copilot Controls",
+    "forklaring": "Microsofts rammeverk for å sikre, administrere og måle bruken av Copilot og agenter. Brukes sammen med Agent 365.",
+    "tags": [
+      "m365",
+      "ki",
+      "sikkerhet"
+    ],
+    "alias": [
+      "Copilot Control System",
+      "Copilot-kontroller"
     ]
   },
   {
