@@ -43,13 +43,13 @@ export const APP_CATEGORIES: AppCategory[] = [
   {
     id: 'ki',
     navn: 'Få hjelp av KI',
-    beskrivelse: 'Copilot-familien. Forskjellen ligger i hvilke data svarene bygger på, og om du bygger noe selv.',
+    beskrivelse: 'Copilot-familien. Forskjellen ligger i hvilke data svarene bygger på.',
     fargeBakgrunn: 'bg-indigo-50',
   },
   {
     id: 'bygg-og-automatiser',
     navn: 'Bygge, automatisere',
-    beskrivelse: 'Lavkode for egne løsninger: En app, en flyt eller en agent.',
+    beskrivelse: 'Lavkode for egne løsninger: En app eller en flyt.',
     fargeBakgrunn: 'bg-orange-50',
   },
   {
