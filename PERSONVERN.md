@@ -2,7 +2,7 @@
 
 ## Oppsummert
 
-1-2-365 er en gratis [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen bruker ikke informasjonskapsler.
+1-2-365 er en gratis app, type [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen bruker ikke informasjonskapsler.
 
 ## Hva som lagres på enheten din
 
