@@ -18,7 +18,7 @@
         "steg": [
           {
             "tittel": "Hva ryddingen gir deg",
-            "innhold": "◦ **Personvern**: Gamle filer kan inneholde sensitive opplysninger som Microsoft Copilot henter frem automatisk.\n◦ **Oversikt**: Du finner raskere frem når det er færre filer.\n◦ **Kontinuitet**: Filer i et personlig område blir borte for andre når eieren slutter. Filer i et fellesområde blir værende.\n◦ **Bærekraft**: Mindre lagring sparer energi."
+            "innhold": "◦ **Personvern**: Gamle filer kan inneholde sensitive opplysninger. Copilot kan ta dem med i svar til alle som har tilgang til filene.\n◦ **Oversikt**: Du finner raskere frem når det er færre filer.\n◦ **Kontinuitet**: Filer i et personlig område slettes en tid etter at eieren har sluttet. Filer i et fellesområde blir værende.\n◦ **Bærekraft**: Mindre lagring sparer energi."
           },
           {
             "tittel": "Pakk som til en dagstur",
@@ -70,7 +70,7 @@
           },
           {
             "tittel": "Trygg sletting i fire steg",
-            "innhold": "Ikke slett mens du leter, særlig når du rydder store mengder:\n\n1. **Filtrér og marker**: Søk, sortér og merk det som åpenbart skal bort. Ikke slett ennå.\n2. **Bekreft**: Gå raskt gjennom markeringen. Fjern merkingen fra filene du er usikker på.\n3. **Slett**: Trykk Delete. Filene havner i **Papirkurv**, eller i **Slettede elementer** i Outlook.\n4. **Vent en uke før du tømmer papirkurven**: Da rekker du å oppdage om du har slettet noe du trenger."
+            "innhold": "Ikke slett mens du leter, særlig når du rydder store mengder:\n\n1. **Filtrér og marker**: Søk, sortér og merk det som åpenbart skal bort. Ikke slett ennå.\n2. **Bekreft**: Gå raskt gjennom markeringen. Fjern merkingen fra filene du er usikker på.\n3. **Slett**: Trykk Delete. Filene havner i **Papirkurv**, eller i **Slettede elementer** i Outlook.\n4. **Vent en uke før du tømmer papirkurven**: Da rekker du å oppdage om du har slettet noe du trenger.\n\n*Merk: Filer du sletter på en nettverksstasjon, for eksempel H-stasjonen, havner ikke i papirkurven. Da får du dem bare tilbake med **Tidligere versjoner**, hvis filserveren tar vare på dem.*"
           },
           {
             "tittel": "Angre i Filutforsker: Tidligere versjoner",
@@ -1208,7 +1208,7 @@
         "steg": [
           {
             "tittel": "Samlet oversikt over utkast",
-            "innhold": "Teams samler alle meldinger du har begynt på, men ikke sendt, på ett sted.\n\nKlikk på **Utkast** øverst i venstre hjørne i chatvisningen. Derfra kan du gå til samtalen, skrive ferdig eller slette utkastet."
+            "innhold": "Teams samler alle meldinger du har begynt på, men ikke sendt, på ett sted.\n\nKlikk på **Utkast** øverst i venstre hjørne i chatvisningen. Derfra kan du gå til samtalen, skrive ferdig eller slette utkastet.\n\n*Merk: Utkast fins i skrivebordsappen, ikke i Teams i nettleseren.*"
           },
           {
             "tittel": "Skriv i chat: Enter-tasten og autokorrektur",
