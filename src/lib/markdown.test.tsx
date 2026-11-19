@@ -37,6 +37,15 @@ describe('Markdown', () => {
     expect(note.textContent).toBe('*Eller PC')
   })
 
+  it('renders a paragraph of > lines as muted, line breaks kept', () => {
+    const { container } = renderMarkdown('> **Psst...**\n> KI kan bomme.')
+    const p = container.querySelector('p')
+    expect(p?.className).toContain('text-slate-500')
+    expect(p?.querySelector('strong')?.textContent).toBe('Psst...')
+    expect(p?.querySelectorAll('br')).toHaveLength(1)
+    expect(p?.textContent).toBe('Psst...KI kan bomme.')
+  })
+
   it('renders an unordered list', () => {
     renderMarkdown('- en\n- to\n- tre')
     const items = screen.getAllByRole('listitem')

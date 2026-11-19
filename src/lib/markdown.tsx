@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import { parseInline } from './inline'
 
 // Minimal markdown for «Om» and «Personvern»: #–####, lists, inline from inline.tsx.
-// A paragraph starting with <sup> is a footnote. No dependencies; for more, use react-markdown.
+// A paragraph starting with <sup> is a footnote; one with every line starting with `> ` is muted. No dependencies; for more, use react-markdown.
 
 const headingClasses: Record<number, string> = {
   1: 'text-2xl font-bold text-slate-800 mt-2 mb-3 leading-tight',
@@ -69,13 +69,22 @@ function renderBlock(block: string, idx: number): ReactNode {
     )
   }
 
+  if (lines.every(l => /^>\s?/.test(l))) {
+    return paragraph(
+      lines.map(l => l.replace(/^>\s?/, '')),
+      `q-${idx}`,
+      'text-sm text-slate-500 [&_strong]:text-inherit leading-relaxed my-3',
+    )
+  }
+
+  return paragraph(lines, `p-${idx}`, 'text-sm text-slate-700 leading-relaxed my-3')
+}
+
+function paragraph(lines: string[], key: string, className: string): ReactNode {
   return (
-    <p
-      key={`p-${idx}`}
-      className="text-sm text-slate-700 leading-relaxed my-3"
-    >
+    <p key={key} className={className}>
       {lines.map((line, i) => (
-        <span key={`p-${idx}-l-${i}`}>
+        <span key={`${key}-l-${i}`}>
           {parseInline(line)}
           {i < lines.length - 1 && <br />}
         </span>

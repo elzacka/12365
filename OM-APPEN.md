@@ -11,5 +11,5 @@ Opp med mobilen, søk – BINGO!
 
 Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med KI.
 
-**Psst...**
-KI kan bomme, og jeg kan overse noe. Jeg retter feil fortløpende.
+> **Psst...**
+> KI kan bomme, og jeg kan overse noe. Jeg retter feil fortløpende.
