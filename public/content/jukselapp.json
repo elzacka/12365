@@ -15772,5 +15772,53 @@
     "alias": [
       "Maturity Leadership"
     ]
+  },
+  {
+    "id": "databrus",
+    "tittel": "Databrus",
+    "forklaring": "*Substantiv, hankjønn* (en databrus, databrusen, databruser)\nEn boks som åpnes klokken 02.14 på et LAN. *Psssjt:*\n1. Brus med kullsyre som drikkes foran en skjerm, gjerne i mengder ingen ernæringsfysiolog vil høre om. Typisk Pepsi Max, Cola Zero eller noe med et lyn på boksen.\n2. Tålmodighet på boks. Den holder et menneske oppreist mellom «bare én kompilering til» og «hvorfor er det lyst ute?».\n3. *(overført)* Den lille, boblende gleden ved å holde på med noe du ikke må, men gjør likevel fordi det er gøy.\n**Opphav:** Av *data* (latin: det som er gitt) og *brus* (norsk: det som bruser). Altså: det som er gitt, og som bruser. Nesten en trosbekjennelse.\n**Eksempel:** «Vi gikk tom for databrus, så vi måtte gå ut. I dagslys.»\n**Kjennetegn:**\n◦ Står alltid litt for nær tastaturet.\n◦ Er aldri kald mer enn de første ti minuttene.\n◦ Har aldri i menneskehetens historie blitt drukket fra glass.\n**Beslektede ord:** kodekaffe, LAN-pizza, nattesøvn (*foreldet*).",
+    "tags": [
+      "nerdevenn"
+    ]
+  },
+  {
+    "id": "kabelsalat",
+    "tittel": "Kabelsalat",
+    "forklaring": "*Substantiv, hankjønn* (en kabelsalat, kabelsalaten)\n1. Klump av ledninger bak en skrivepult. Ingen har laget den. Den bare oppstår, slik som støv og gjeld.\n2. En rett ingen har bestilt, men alle får servert.\n**Eksempel:** «Hvilken av disse går til skriveren?» «Ja.»\n**Kommentar:** Det eneste salat-ordet en nerd frivillig tar i munnen.",
+    "tags": [
+      "nerdevenn"
+    ]
+  },
+  {
+    "id": "minnepinne",
+    "tittel": "Minnepinne",
+    "forklaring": "*Substantiv, hankjønn* (en minnepinne, minnepinnen, minnepinner)\n1. Liten lagringsenhet som skal i porten med riktig side opp. Det blir aldri riktig side på første forsøk, heller ikke på andre. På tredje forsøk var det riktig side første gang.\n2. *(poetisk)* En pinne som husker for deg. Et av de vakreste ordene norsk har laget om teknologi. Engelsk sier «USB flash drive». Vi sier minnepinne. Vi vant.\n**Kjennetegn:** Har alltid navnet NO NAME. Inneholder alltid én fil som heter *ny mappe (3)*.",
+    "tags": [
+      "nerdevenn"
+    ]
+  },
+  {
+    "id": "lagge",
+    "tittel": "Lagge",
+    "forklaring": "*Verb* (lagger, lagget, har lagget)\n1. Når maskinen eller nettet henger etter virkeligheten. Du trykker, og ingenting skjer. Så skjer alt på én gang.\n2. *(overført, om mennesker)* Tilstanden mandag morgen før den første databrusen.\n**Opphav:** Av engelsk *lag*. Ble norsk så fort at ingen rakk å protestere. Det lagget for Språkrådet.\n**Eksempel:** «Jeg døde ikke. Jeg lagget.»",
+    "tags": [
+      "nerdevenn"
+    ]
+  },
+  {
+    "id": "dings",
+    "tittel": "Dings",
+    "forklaring": "*Substantiv, hankjønn* (en dings, dingsen, dingser)\n1. Gjenstand med en funksjon du har glemt, en lader du ikke finner og en plass i skuffen for alltid.\n2. Det nerden kaller alt hun ikke gidder å forklare for ikke-nerder.\n**Eksempel:** «Kan du sende meg den dingsen til den andre dingsen?» Alle forstod.\n**Beslektede ord:** greie, tingest, sånn derre.",
+    "tags": [
+      "nerdevenn"
+    ]
+  },
+  {
+    "id": "brannmur-nerdevenn",
+    "tittel": "Brannmur",
+    "forklaring": "*Substantiv, hankjønn* (en brannmur, brannmuren, brannmurer)\n1. Programvare eller utstyr som stopper uønsket trafikk inn og ut av et nettverk.\n2. Ordet som får alle som ikke jobber med IT, til å se for seg en mur. Som brenner. Det gjør den ikke, men la dem tro det.\n**Kjennetegn:** Får skylden for alt. Har ofte fortjent det.",
+    "tags": [
+      "nerdevenn"
+    ]
   }
 ]
