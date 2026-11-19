@@ -3465,7 +3465,7 @@
   {
     "id": "microsoft-365-archive",
     "tittel": "Microsoft 365 Archive",
-    "forklaring": "Tjeneste for rimelig langtidslagring (cold storage) av lite brukte data i SharePoint. Følger ikke med E5. Organisasjonen betaler per GB gjennom et Azure-abonnement.",
+    "forklaring": "Tjeneste for rimelig langtidslagring (cold storage) av lite brukte data i SharePoint. Følger ikke med E5. Organisasjonen betaler per GB gjennom et Azure-abonnement når aktiv og arkivert lagring til sammen går over lagringskvoten.",
     "tags": [
       "m365",
       "sky",
@@ -3620,7 +3620,8 @@
       "tjeneste"
     ],
     "alias": [
-      "Defender for identitet"
+      "Defender for identitet",
+      "Azure ATP"
     ]
   },
   {
@@ -3641,12 +3642,15 @@
       "m365",
       "sikkerhet",
       "tjeneste"
+    ],
+    "alias": [
+      "Microsoft 365 Defender"
     ]
   },
   {
     "id": "microsoft-designer",
     "tittel": "Microsoft Designer",
-    "forklaring": "KI-basert app for grafikk og design, integrert som funksjon i Office-apper som PowerPoint.",
+    "forklaring": "KI-tjeneste for bilder og grafikk. I Microsoft 365 er den en del av Copilot, for eksempel når Copilot lager bilder og når PowerPoint foreslår utforming.",
     "tags": [
       "m365",
       "produktivitet",
@@ -3676,12 +3680,16 @@
       "identitet",
       "sikkerhet",
       "tjeneste"
+    ],
+    "alias": [
+      "Azure AD",
+      "Azure Active Directory"
     ]
   },
   {
     "id": "microsoft-entra-suite",
     "tittel": "Microsoft Entra Suite",
-    "forklaring": "Pakke med utvidede identitetstjenester, blant annet Internet Access, Private Access og ID Governance. Bygger på Entra ID.",
+    "forklaring": "Pakke med utvidede identitetstjenester, blant annet Internet Access, Private Access og ID Governance. Bygger på Entra ID. Følger med E7. Eget tillegg for E5.",
     "tags": [
       "m365",
       "identitet",
@@ -3734,7 +3742,7 @@
   {
     "id": "microsoft-graph-connectors",
     "tittel": "Microsoft 365 Copilot-koblinger",
-    "forklaring": "Funksjon som henter eksterne data inn i Microsoft Search og Copilot gjennom Microsoft Graph.",
+    "forklaring": "Funksjon som kobler eksterne data til Copilot og Microsoft Search. Noen koblinger kopierer dataene inn i Microsoft Graph, andre henter dem i sanntid med MCP uten å lagre dem.",
     "tags": [
       "m365",
       "programmering",
@@ -7276,7 +7284,7 @@
   {
     "id": "work-iq",
     "tittel": "Work IQ",
-    "forklaring": "Intelligenslaget som kobler Copilot og agenter til organisasjonens e-post, møter, chatter og filer, uten å flytte dataene. Følger med Microsoft Copilot-lisensen.",
+    "forklaring": "Intelligenslaget som kobler Copilot og agenter til organisasjonens e-post, møter, chatter og filer. Copilot og agenter ser bare det brukeren har tilgang til. Følger med Microsoft Copilot-lisensen. Work IQ API betales etter forbruk med Copilot Credits.",
     "tags": [
       "m365",
       "ki",
@@ -7298,15 +7306,19 @@
   },
   {
     "id": "copilot-notebooks",
-    "tittel": "Copilot-notatblokker",
-    "forklaring": "Arbeidsflate i Copilot der du samler utvalgte kilder og får svar som bare bygger på dem. Fins også i Copilot Chat.",
+    "tittel": "Copilot-arbeidsområder",
+    "forklaring": "Arbeidsflate i Copilot der du samler utvalgte kilder og får svar som bare bygger på dem. Fins også i Copilot Chat. Heter Copilot-notatblokker i organisasjoner som ikke har fått det nye navnet ennå.",
     "tags": [
       "m365",
       "ki",
       "tjeneste"
     ],
     "alias": [
+      "Copilot Workspaces",
+      "Arbeidsområder",
+      "Copilot-notatblokker",
       "Copilot Notebooks",
+      "Notatblokker",
       "Notebooks",
       "Notatbok"
     ]
@@ -7456,20 +7468,21 @@
     "id": "agentoverlevering",
     "tittel": "Agentoverlevering",
     "undertittel": "agent handoff",
-    "forklaring": "Funksjon i Copilot Studio der en agent overfører samtalen til en annen agent med mer spesialisert kunnskap.",
+    "forklaring": "Det at en agent sender samtalen eller en del av oppgaven videre til en annen agent med mer spesialisert kunnskap. I Copilot Studio kobler du andre agenter til en hovedagent, som delegerer oppgaver til dem og får svaret tilbake.",
     "tags": [
       "m365",
       "ki",
       "tjeneste"
     ],
     "alias": [
-      "Agent handoff"
+      "Agent handoff",
+      "Connected agents"
     ]
   },
   {
     "id": "azure-ai-search",
-    "tittel": "Azure AI Search",
-    "forklaring": "Søketjeneste i Azure som indekserer innhold og støtter vektorsøk. Den brukes ofte som kunnskapsgrunnlag (RAG) for KI-agenter.",
+    "tittel": "Foundry IQ",
+    "forklaring": "Søketjeneste i Azure som indekserer innhold og støtter vektorsøk. Den brukes ofte som kunnskapsgrunnlag (RAG) for KI-agenter. I Azure-portalen heter den Foundry IQ (Azure AI Search).",
     "tags": [
       "sky",
       "ki",
@@ -7477,6 +7490,7 @@
       "tjeneste"
     ],
     "alias": [
+      "Azure AI Search",
       "Azure Cognitive Search"
     ]
   },
@@ -7542,7 +7556,7 @@
     "id": "power-platform-miljo",
     "tittel": "Power Platform-miljø",
     "undertittel": "environment",
-    "forklaring": "Avgrenset område i Power Platform med egne apper, flyter og egen Dataverse-database. Miljøer skiller utvikling, test og produksjon, eller data som ikke skal blandes.",
+    "forklaring": "Avgrenset område i Power Platform med egne apper og flyter. Et miljø kan ha sin egen Dataverse-database. Miljøer skiller utvikling, test og produksjon, eller data som ikke skal blandes.",
     "tags": [
       "m365",
       "lavkode",
@@ -10620,7 +10634,7 @@
   {
     "id": "gpt-6-astra",
     "tittel": "GPT-6 Astra",
-    "forklaring": "OpenAIs toppmodell, lansert 03.09.26, og modellen bak Dots. I ChatGPT heter den GPT-6 Pro og finnes for Pro, Business og Enterprise. Finnes også i Codex og OpenAIs API, i Amazon Bedrock og i Microsoft Foundry.",
+    "forklaring": "Språkmodell fra OpenAI, lansert 03.09.26, og modellen bak Dots. I ChatGPT heter den GPT-6 Pro og finnes for Pro, Business og Enterprise. Finnes også i Codex og OpenAIs API, i Amazon Bedrock og i Microsoft Foundry.",
     "tags": [
       "ki",
       "openai",
@@ -11277,7 +11291,7 @@
   {
     "id": "hybridsok",
     "tittel": "Hybridsøk",
-    "forklaring": "Søk som kombinerer vanlig nøkkelordsøk og vektorsøk i samme spørring og slår sammen treffene. Gir både treff på eksakte ord og treff på liknende mening. Støttes blant annet av Azure AI Search. Nettsted: [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview).",
+    "forklaring": "Søk som kombinerer vanlig nøkkelordsøk og vektorsøk i samme spørring og slår sammen treffene. Gir både treff på eksakte ord og treff på liknende mening. Støttes blant annet av Foundry IQ (Azure AI Search). Nettsted: [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview).",
     "tags": [
       "ki",
       "analyse",
