@@ -1,4 +1,4 @@
-Oppdatert: 18.11.26
+*Oppdatert: 18.11.26*
 
 ## Oppsummert
 
@@ -10,14 +10,14 @@ Oppdatert: 18.11.26
 - At du har lukket installasjonsbanneret, slik at det ikke vises igjen
 - At appen har vist deg at du kan sveipe mellom stegene, slik at den ikke viser det igjen
 - At du nettopp har oppdatert appen, til bekreftelsen vises
-- (Kun relevant for meg) Passordfrasen for skjult innhold, bare hvis du huker av for «Husk på denne enheten»
+- *(Kun relevant for meg)* Passordfrasen for skjult innhold, bare hvis du huker av for «Husk på denne enheten»
 
 Ingenting av dette sendes fra enheten, og ingenting av det kan identifisere deg.
 
 ## Slik sletter du det
 
 - Du sletter alt ved å fjerne appen fra enheten eller slette nettstedsdata for appen i nettleseren.
-- (Kun relevant for meg) Passordfrasen slettes ved trykk på «Lås»-knappen i menyen.
+- *(Kun relevant for meg)* Passordfrasen slettes ved trykk på «Lås»-knappen i menyen.
 
 ## GitHub
 
