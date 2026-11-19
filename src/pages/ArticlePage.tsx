@@ -343,7 +343,7 @@ export function ArticlePage() {
   return (
     <div className="flex-1 flex flex-col bg-slate-50 overflow-x-clip">
       <main ref={setMainEl} className="flex-1 px-4 pb-8 max-w-2xl mx-auto w-full">
-        {/* Title, lede, chips and card keep their size and place on every step:
+        {/* Title, chips and card keep their size and place on every step:
             only the card content changes. The frame never exceeds the screen
             below the app header; a longer step scrolls inside the card. */}
         <div className="flex flex-col pb-4 max-h-[calc(100svh-3.5rem-env(safe-area-inset-top))]">
@@ -363,14 +363,6 @@ export function ArticlePage() {
                 </button>
               )}
             </div>
-            <p className="text-sm text-slate-500 mt-1 leading-relaxed">
-              {applyHighlight(article.ingress, hl)}
-            </p>
-            {article.notat && (
-              <p className="text-xs italic text-slate-500 mt-2 leading-relaxed">
-                {applyHighlight(article.notat, hl)}
-              </p>
-            )}
           </header>
 
           {/* Step overview (chips) */}
@@ -378,14 +370,14 @@ export function ArticlePage() {
           <nav
             ref={setChipsEl}
             aria-label="Steg-oversikt"
-            className="relative shrink-0 flex gap-2 py-4 overflow-x-auto hide-scrollbar"
+            className="relative shrink-0 flex gap-2 py-3 overflow-x-auto hide-scrollbar"
             data-noswipe
           >
             {article.steg.map((_, idx) => (
               <button
                 key={idx}
                 onClick={() => goToStep(idx)}
-                className={`flex-shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-full text-xs font-medium transition-all ${
+                className={`flex-shrink-0 inline-flex items-center justify-center w-8 h-8 rounded-full text-xs font-medium transition-all ${
                   idx === activeStep
                     ? 'bg-brand-700 text-white shadow-sm'
                     : idx < activeStep
@@ -420,11 +412,9 @@ export function ArticlePage() {
                   inert={idx !== activeStep}
                   className={`col-start-1 row-start-1 row-span-2 grid grid-rows-subgrid ${idx === activeStep ? '' : isLastStep ? 'hidden' : 'invisible'}`}
                 >
-                  <div className="px-4 py-3 bg-brand-50 border-b border-brand-100">
-                    <p className="text-xs font-semibold text-brand-700 uppercase tracking-wider mb-0.5">
-                      Steg {idx + 1} av {totalSteps}
-                    </p>
+                  <div className="flex items-center px-4 py-3 bg-brand-50 border-b border-brand-100">
                     <h2 className="text-base font-semibold text-slate-800 leading-snug">
+                      <span className="sr-only">Steg {idx + 1} av {totalSteps}: </span>
                       {applyHighlight(step.tittel, hl)}
                     </h2>
                   </div>
@@ -434,6 +424,14 @@ export function ArticlePage() {
                   className="px-4 py-5 overflow-y-auto scroll-shadows focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand-700"
                 >
                     <div className="text-sm text-slate-600 leading-relaxed space-y-3">
+                      {idx === 0 && (
+                        <div className="pb-4 mb-4 border-b border-slate-100 space-y-2">
+                          <p className="text-slate-500">{applyHighlight(article.ingress, hl)}</p>
+                          {article.notat && (
+                            <p className="text-xs italic text-slate-500">{applyHighlight(article.notat, hl)}</p>
+                          )}
+                        </div>
+                      )}
                       {parseContent(step.innhold, hl)}
                     </div>
                     {step.bilde && (
