@@ -21,9 +21,14 @@ const GENERAL: OppslagGroup[] = [
   { tag: 'internasjonale tegn', title: 'Internasjonale tegn', undergrupper: ['Grav og akutt aksent', 'Trema', 'Sirkumfleks og tilde', 'Andre bokstaver og tegn', 'Ctrl-kombinasjoner i Word'] },
 ]
 
-/** Apps A–Z, gated ones included, then the general sections. */
+/** Teams first, the other apps A–Z (gated ones included) with Chrome after PowerPoint, then the general sections. */
 export function hurtigtastGroups(gated: OppslagGroup[] = []): OppslagGroup[] {
-  return [...APPS, ...gated].sort((a, b) => a.title.localeCompare(b.title, 'nb')).concat(GENERAL)
+  const apps = [...APPS, ...gated].sort((a, b) => a.title.localeCompare(b.title, 'nb'))
+  const take = (tag: string) => apps.splice(apps.findIndex(g => g.tag === tag), 1)
+  const teams = take('teams')
+  const chrome = take('chrome')
+  apps.splice(apps.findIndex(g => g.tag === 'powerpoint') + 1, 0, ...chrome)
+  return [...teams, ...apps, ...GENERAL]
 }
 
 export const GROUPS = hurtigtastGroups()

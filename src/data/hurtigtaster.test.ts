@@ -3,7 +3,7 @@ import { resolve } from 'node:path'
 import { describe, it, expect } from 'vitest'
 import type { Oppslag } from '../types'
 import { buildIndex, searchOrd } from './searchIndex'
-import { GROUPS } from './hurtigtaster'
+import { GROUPS, hurtigtastGroups } from './hurtigtaster'
 import { keyLabel, parseKeys } from '../lib/keys'
 
 const TAGS = new Set(GROUPS.map(g => g.tag))
@@ -29,10 +29,15 @@ describe('hurtigtaster.json', () => {
     }
   })
 
-  it('lists the apps alphabetically, then the general sections', () => {
+  it('lists Teams first, the other apps alphabetically with Chrome after PowerPoint, then the general sections', () => {
     const apps = GROUPS.filter(g => !GENERAL_TAGS.includes(g.tag)).map(g => g.title)
-    expect(apps).toEqual([...apps].sort((a, b) => a.localeCompare(b, 'nb')))
+    expect(apps).toEqual(['Teams', 'Edge', 'Excel', 'OneDrive', 'OneNote', 'Outlook', 'PowerPoint', 'Chrome', 'Word'])
     expect(GROUPS.slice(-GENERAL_TAGS.length).map(g => g.tag)).toEqual(GENERAL_TAGS)
+  })
+
+  it('sorts gated apps in among the others', () => {
+    const titles = hurtigtastGroups([{ tag: 'testapp', title: 'Testapp' }]).map(g => g.title)
+    expect(titles.slice(0, 10)).toEqual(['Teams', 'Edge', 'Excel', 'OneDrive', 'OneNote', 'Outlook', 'PowerPoint', 'Chrome', 'Testapp', 'Word'])
   })
 
   it('holds one line of keys that shows at least one key', () => {
