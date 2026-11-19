@@ -1,17 +1,7 @@
 #!/usr/bin/env node
-// Encrypts dev_only/locked-content.source.json into
-// public/content/locked.json using AES-GCM-256 with PBKDF2-derived key.
-//
-// Usage:
-//   npm run lock
-//
-// The script will prompt for the passphrase (echo is suppressed). This is the
-// recommended path — typing the passphrase on the command line as an env var
-// would leak it into shell history. Only set LOCK_PASSPHRASE for unattended
-// CI-style runs, and never from an interactive shell.
-//
-// The source file is gitignored (dev_only/ is gitignored). Only the encrypted
-// blob is committed and deployed.
+// `npm run lock`: encrypts dev_only/locked-content.source.json into public/content/locked.json.
+// Prompts for the passphrase with echo off; LOCK_PASSPHRASE is for unattended runs only,
+// since an env var typed in a shell lands in its history.
 
 import { readFile, writeFile, access } from 'node:fs/promises'
 import { resolve, dirname } from 'node:path'
@@ -27,7 +17,10 @@ const outputPath = resolve(projectRoot, 'public/content/locked.json')
 const publicArticlesPath = resolve(projectRoot, 'public/content/articles.json')
 const publicHurtigtasterPath = resolve(projectRoot, 'public/content/hurtigtaster.json')
 
-const PBKDF2_ITERATIONS = 310_000
+// OWASP Password Storage Cheat Sheet value for PBKDF2-HMAC-SHA256.
+const PBKDF2_ITERATIONS = 600_000
+// The ciphertext is public, so only the passphrase's length stops an offline attack.
+const MIN_PASSPHRASE_LENGTH = 15
 
 function bytesToBase64(bytes) {
   return Buffer.from(bytes).toString('base64')
@@ -163,8 +156,8 @@ async function main() {
   if (!passphrase) {
     passphrase = await promptHidden('Passordfrase: ')
   }
-  if (!passphrase || passphrase.length < 8) {
-    console.error('Passordfrasen må være minst 8 tegn.')
+  if (!passphrase || passphrase.length < MIN_PASSPHRASE_LENGTH) {
+    console.error(`Passordfrasen må være minst ${MIN_PASSPHRASE_LENGTH} tegn. Fire tilfeldige ord fungerer godt.`)
     process.exit(1)
   }
 
