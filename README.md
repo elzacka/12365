@@ -28,6 +28,7 @@ npm run build    # Produksjonsbygg
 npm run lint     # ESLint
 npm test         # Tester (Vitest)
 npm run lock     # Krypter skjult innhold (admin)
+npm run ms-navn -- "Track Changes"   # Microsofts norske navn fra Office-appene på Mac
 ```
 
 Push til `main` bygger og publiserer automatisk via GitHub Pages.
