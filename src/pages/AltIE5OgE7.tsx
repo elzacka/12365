@@ -235,7 +235,7 @@ export function AltIE5OgE7() {
                 </div>
                 <div className="pt-2 border-t border-slate-100">
                   <p className="text-slate-500 font-medium mb-1">Om kategoriene</p>
-                  <p className="text-slate-500">Inndelingen følger lisenskomponentene i Microsofts oversikt. En app i venstremenyen i Teams kan derfor ligge under en annen kategori enn Teams, fordi den er lisensiert som del av en annen komponent i E5 og E7.</p>
+                  <p className="text-slate-500">Kategoriene følger lisenskomponentene i Microsofts oversikt, ikke menyen i Teams. En app du åpner i Teams, kan derfor ligge i en annen kategori enn Teams.</p>
                 </div>
               </div>
             </div>

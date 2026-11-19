@@ -432,7 +432,7 @@ export function OppslagView({ ord, placeholderWords, searchLabel, examples, rese
                   <p className="text-slate-500">
                     {keys
                       ? 'Åpne «Filtrer på app» og trykk på en app, for eksempel «Excel», for å se bare hurtigtastene i den. Trykk på den igjen for å se alle.'
-                      : 'Klikk på et oppslag for å se hele forklaringen. Klikk på en emneknagg (#) for å filtrere. Klikk på flere for å se oppslagene som har alle.'}
+                      : 'Trykk på et oppslag for å se hele forklaringen, eller på en emneknagg (#) for å filtrere. Trykk på flere emneknagger for å se oppslagene som har alle.'}
                   </p>
                 </div>
               </div>

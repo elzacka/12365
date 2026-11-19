@@ -2,7 +2,7 @@ import { useEffect, useId, useLayoutEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { WarningIcon } from './Icons'
 
-const MESSAGE = 'Fremgangsmåte ikke testet eller språkvasket ennå'
+const MESSAGE = 'Fremgangsmåten er ikke testet ennå'
 const TOOLTIP_WIDTH = 192
 const VIEWPORT_MARGIN = 8
 

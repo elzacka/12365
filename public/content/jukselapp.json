@@ -1464,7 +1464,7 @@
   {
     "id": "dots",
     "tittel": "Dots",
-    "forklaring": "OpenAIs KI-agenter som jobber døgnet rundt mot mål du setter, også når du ikke følger med. Hver dot har sin egen datamaskin i skyen med nettleser, bruker GPT-6 Astra og kobler seg til over 4 000 apper gjennom programtillegg. Du bestemmer hva den gjør selv, hva den spør om først og hva den aldri gjør. Du snakker med den i ChatGPT, Slack og Teams. Lansert 29.09.26 for ChatGPT Business Premium og Enterprise, og for Pro utenfor EØS, Sveits og Storbritannia. Per 06.10.26 har ikke Pro-brukere i EØS, Sveits og Storbritannia tilgang. OpenAI og Microsoft arbeider med å styre spesialiserte dots i Agent 365.",
+    "forklaring": "OpenAIs KI-agenter som jobber døgnet rundt mot mål du setter, også når du ikke følger med. Hver dot har sin egen datamaskin i skyen med nettleser og kobler seg til over 4 000 apper gjennom programtillegg. Du bestemmer hva den gjør selv, hva den spør om først og hva den aldri gjør. Du snakker med den i ChatGPT, Slack og Teams. Finnes i ChatGPT Business Premium og Enterprise.",
     "tags": [
       "ki",
       "openai",
@@ -8039,7 +8039,7 @@
   {
     "id": "hugging-face",
     "tittel": "Hugging Face",
-    "forklaring": "Den største samlingen av åpne modeller, datasett og biblioteker. Nesten alle modellene i denne ordboken ligger der.",
+    "forklaring": "Den største samlingen av åpne modeller, datasett og biblioteker. Nesten alle modellene i jukselappen ligger der.",
     "tags": [
       "ki",
       "huggingface",
@@ -10609,7 +10609,7 @@
     "id": "gpt",
     "tittel": "Generative Pre-trained Transformer",
     "undertittel": "GPT",
-    "forklaring": "OpenAIs modellfamilie og navnet på modelltypen: En transformer som er fortrent til å generere tekst. Per 07.10.26 er GPT-6 Astra toppmodellen, mens GPT-6 Sol, GPT-6.1 Sol og GPT-6 Luna er mindre og billigere. ChatGPT bruker GPT-5.6 Sol for betalende brukere og GPT-5.6 Luna for gratisbrukere. Resonneringsmodellene i o-serien er slått sammen med GPT-modellene.",
+    "forklaring": "OpenAIs modellfamilie og navnet på modelltypen: En transformer som er fortrent til å generere tekst. Resonneringsmodellene i o-serien er slått sammen med GPT-modellene.",
     "tags": [
       "ki",
       "openai",
@@ -10661,7 +10661,7 @@
   {
     "id": "gemini",
     "tittel": "Gemini",
-    "forklaring": "Googles lukkede modellfamilie, utviklet av Google DeepMind. Søster til de åpne Gemma-modellene. Nyeste toppmodell er Gemini 4 Argon, kunngjort 30.09.26. Per 07.10.26 får bare utvalgte organisasjoner innen cyberforsvar, som myndigheter og kritisk infrastruktur, bruke den gjennom Fairwind-programmet. Nyeste allment tilgjengelige modell er Gemini 3.8 Flash.",
+    "forklaring": "Googles lukkede modellfamilie, utviklet av Google DeepMind. Søster til de åpne Gemma-modellene.",
     "tags": [
       "ki",
       "google",
@@ -10672,7 +10672,7 @@
   {
     "id": "claude",
     "tittel": "Claude",
-    "forklaring": "Anthropics modellfamilie og KI-assistent. Modellene kommer i nivåer: Haiku er raskest, Sonnet balanserer fart og evne, Opus er Anthropics anbefalte utgangspunkt for de fleste oppgaver, og Fable er for det mest krevende. Per 07.10.26: Fable 5.1, Opus 5.5, Sonnet 5.5 og Haiku 4.5. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/about-claude/models/overview).",
+    "forklaring": "Anthropics modellfamilie og KI-assistent. Modellene kommer i nivåer: Haiku er raskest, Sonnet balanserer fart og evne, Opus er Anthropics anbefalte utgangspunkt for de fleste oppgaver, og Fable er for det mest krevende. Nettsted: [platform.claude.com](https://platform.claude.com/docs/en/about-claude/models/overview).",
     "tags": [
       "ki",
       "llm",
@@ -11522,7 +11522,7 @@
   {
     "id": "kimi",
     "tittel": "Kimi",
-    "forklaring": "Modellfamilie med åpne vekter fra kinesiske Moonshot AI. Kimi K3, en MoE med 2,8T parametre totalt og 104B aktive, kom 27.07.26. Per 02.10.26 er Kimi K3 Max den høyest rangerte modellen med åpne vekter på Arena. Egen lisens som krever avtale for store tjenester.",
+    "forklaring": "Modellfamilie med åpne vekter fra kinesiske Moonshot AI. Egen lisens som krever avtale for store tjenester.",
     "tags": [
       "ki",
       "llm",

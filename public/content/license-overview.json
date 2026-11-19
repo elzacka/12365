@@ -14,7 +14,7 @@
     },
     {
       "id": "compliance",
-      "navn": "Sikkerhet, compliance og enheter",
+      "navn": "Sikkerhet, etterlevelse og enheter",
       "beskrivelse": "Enhetsstyring, Defender, identitet, DLP, eDiscovery, etiketter, innsiderisiko og Windows"
     }
   ],
@@ -349,7 +349,7 @@
         {
           "navn": "Microsoft Teams",
           "status": { "e5": "inkludert", "e7": "inkludert" },
-          "beskrivelse": "Arbeidsflaten i M365 for chat, kanaler, møter og samarbeid. Krever Teams Enterprise-lisensen, som selges separat fra E5 og E7."
+          "beskrivelse": "Hovedinngangen i M365 til chat, kanaler, møter og samarbeid. Krever Teams Enterprise-lisensen, som selges separat fra E5 og E7."
         },
         {
           "navn": "Ubegrenset chat",

@@ -1,23 +1,21 @@
 Oppdatert: 19.11.26
 
-## Oppsummert
-
-1-2-365 er en gratis app, type [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app "Progressive Web App: En nettside som fungerer og installeres som en vanlig app"). Appen bruker ikke informasjonskapsler.
+Appen bruker ikke informasjonskapsler.
 
 ## Hva som lagres på enheten din
 
 - Appens filer og innhold, slik at appen virker uten nett
 - At du har lukket installasjonsbanneret, slik at det ikke vises igjen
 - At appen har vist deg at du kan sveipe mellom stegene, slik at den ikke viser det igjen
-- At du nettopp har oppdatert appen, til bekreftelsen vises
-- *(Kun relevant for meg)* En nøkkel til skjult innhold, ikke selve passordfrasen, bare hvis du huker av for «Husk på denne enheten»
+- At appen er oppdatert, til bekreftelsen er vist
+- En nøkkel til låst innhold, ikke selve passordfrasen, hvis du har låst opp og huket av for «Husk på denne enheten»
 
 Ingenting av dette sendes fra enheten, og ingenting av det kan identifisere deg.
 
 ## Slik sletter du det
 
 - Du sletter alt ved å fjerne appen fra enheten eller slette nettstedsdata for appen i nettleseren.
-- *(Kun relevant for meg)* Nøkkelen slettes ved trykk på «Lås»-knappen i menyen.
+- Trykk på «Lås» i menyen for å slette nøkkelen.
 
 ## GitHub
 

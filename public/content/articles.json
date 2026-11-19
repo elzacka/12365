@@ -18,7 +18,7 @@
         "steg": [
           {
             "tittel": "Hva ryddingen gir deg",
-            "innhold": "◦ **Personvern**: Gamle filer kan inneholde sensitive opplysninger. Copilot kan ta dem med i svar til alle som har tilgang til filene.\n◦ **Oversikt**: Du finner raskere frem når det er færre filer.\n◦ **Kontinuitet**: Filer i et personlig område slettes en tid etter at eieren har sluttet. Filer i et fellesområde blir værende.\n◦ **Bærekraft**: Mindre lagring sparer energi."
+            "innhold": "◦ **Personvern**: Gamle filer kan inneholde sensitive opplysninger. Copilot kan ta dem med i svar til alle som har tilgang til filene.\n◦ **Oversikt**: Du finner raskere frem når det er færre filer.\n◦ **Kontinuitet**: Filer i et personlig område slettes en tid etter at eieren har sluttet. Filer i et fellesområde blir værende."
           },
           {
             "tittel": "Pakk som til en dagstur",
@@ -30,11 +30,11 @@
           },
           {
             "tittel": "Rydd i e-posten",
-            "innhold": "I Teams deler du lenker i stedet for å sende filer frem og tilbake. Mye av den gamle e-posten kan du derfor slette:\n\n◦ Begynn med de eldste e-postene i innboksen og i **Sendte elementer**.\n◦ Lagre vedlegg du vil beholde på riktig sted og slett så e-posten.\n◦ Arkiver e-post som skal bevares, i arkivsystemet **før** du sletter.\n◦ Lagre e-post med annen dokumentasjon du må beholde, der resten av dokumentasjonen ligger.\n\nBehold e-post om pågående saker. Lange dialoger med vedlegg kan du fortsette i Teams.\n\n*Sendte elementer tar ofte mest plass, fordi store vedlegg du har sendt, ligger der i tillegg til hos mottakeren.*"
+            "innhold": "I Teams deler du lenker i stedet for å sende filer frem og tilbake. Mye av den gamle e-posten kan du derfor slette:\n\n◦ Begynn med de eldste e-postene i innboksen og i **Sendte elementer**.\n◦ Flytt vedleggene du vil beholde, til riktig sted. Slett e-posten etterpå.\n◦ Arkiver e-post som skal bevares, i arkivsystemet **før** du sletter.\n◦ Lagre e-post som er dokumentasjon du må beholde, sammen med resten av dokumentasjonen.\n\nBehold e-post om pågående saker. Lange dialoger med vedlegg kan du fortsette i Teams.\n\n*Sendte elementer tar ofte mest plass, fordi store vedlegg du har sendt, ligger der i tillegg til hos mottakeren.*"
           },
           {
-            "tittel": "Mål: Forvalte informasjon bevisst",
-            "innhold": "Gjennom hele livsløpet betyr det at du:\n\n◦ Skaper og lagrer informasjon der den hører hjemme\n◦ Sørger for at den er tilgjengelig for dem som trenger den\n◦ Sørger for at den kan deles, gjenfinnes og gjenbrukes\n◦ Ivaretar krav til arkivering, sporbarhet og regelverk\n◦ Støtter arbeidsprosesser og samarbeid på tvers\n◦ Ikke oppretter flere team, kanaler og arbeidsområder enn nødvendig\n\n*En samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler gjelder også i M365.*"
+            "tittel": "Saksdokumenter i M365",
+            "innhold": "En samtale i Teams eller en Loop-komponent kan være et saksdokument på linje med en e-post. Forvaltningens regler for arkivering og sporbarhet gjelder også der.\n\n**Lag bare de teamene, kanalene og arbeidsområdene dere trenger.**"
           }
         ],
         "relaterte": [
@@ -92,7 +92,7 @@
   {
     "id": "clipchamp",
     "tittel": "Clipchamp",
-    "beskrivelse": "Video i Microsoft 365: Opptak, redigering, transkripsjon og deling.",
+    "beskrivelse": "Video i Microsoft 365: Opptak, redigering, transkripsjon og deling",
     "artikler": [
       {
         "id": "clipchamp-bruke",
@@ -142,12 +142,12 @@
   {
     "id": "copilot",
     "tittel": "Copilot",
-    "beskrivelse": "Bruke Copilot Chat",
+    "beskrivelse": "Copilot Chat og Microsoft Copilot",
     "artikler": [
       {
         "id": "m365-copilot-aktivert",
         "tittel": "Microsoft Copilot (Premium): Hva får du og hva kan du gjøre?",
-        "ingress": "Artikkelen tar utgangspunkt i at du har E7-lisens, der Microsoft Copilot følger med.",
+        "ingress": "Med E7 finner Copilot svar i alt du har tilgang til, jobber i appene dine og gir deg agenter som gjør oppgaver for deg.",
         "kategori": "copilot",
         "tags": [
           "m365-copilot",
@@ -231,7 +231,7 @@
       {
         "id": "copilot-chat-inkludert",
         "tittel": "Copilot Chat (grunnleggende): Hva får du og hva kan du gjøre?",
-        "ingress": "Artikkelen tar utgangspunkt i at du har E5-lisens, uten Microsoft Copilot-lisens.",
+        "ingress": "Med E5 svarer Copilot Chat fra nettet, fra det du gir den og fra innboksen din i Outlook.",
         "kategori": "copilot",
         "tags": [
           "copilot",
@@ -871,12 +871,12 @@
     "artikler": [
       {
         "id": "teams-som-arbeidsflate",
-        "tittel": "Teams: Arbeidsflaten din i M365",
-        "ingress": "Teams er arbeidsflaten der du jobber med filer, oppgaver og samtaler.",
+        "tittel": "Teams: Hovedinngangen din i M365",
+        "ingress": "Teams er hovedinngangen til filene, oppgavene og samtalene dine i M365.",
         "kategori": "teams",
         "tags": [
           "teams",
-          "arbeidsflate",
+          "hovedinngang",
           "oversikt",
           "kom-i-gang"
         ],

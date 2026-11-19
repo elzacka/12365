@@ -48,7 +48,7 @@ export function SeOgHor() {
         <section aria-labelledby="se-og-hor-videoer" className="mb-8">
           <h2 id="se-og-hor-videoer" className="text-base font-semibold text-slate-800 mb-3">Videoer</h2>
           {videos.length === 0 ? (
-            <p className="text-sm text-slate-500">Ingen videoer ennå.</p>
+            <p className="text-sm text-slate-500">Ingen videoer ennå</p>
           ) : (
             <div className="grid grid-cols-2 gap-3">
               {videos.map(v => {
@@ -102,7 +102,7 @@ export function SeOgHor() {
         <section aria-labelledby="se-og-hor-kurs">
           <h2 id="se-og-hor-kurs" className="text-base font-semibold text-slate-800 mb-3">Kursinnhold</h2>
           {courses.length === 0 ? (
-            <p className="text-sm text-slate-500">Ingen kurs ennå.</p>
+            <p className="text-sm text-slate-500">Ingen kurs ennå</p>
           ) : (
             <div className="flex flex-col gap-3">
               {courses.map(c => {

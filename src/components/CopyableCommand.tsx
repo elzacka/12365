@@ -53,7 +53,7 @@ export function CopyableCommand({ text }: { text: string }) {
         Kopiert
       </span>
       <span role="status" className="sr-only">
-        {copied ? 'Kommandoen er kopiert til utklippstavlen' : ''}
+        {copied ? 'Kopiert til utklippstavlen' : ''}
       </span>
     </span>
   )

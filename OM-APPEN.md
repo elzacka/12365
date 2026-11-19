@@ -6,10 +6,11 @@ Opp med mobilen, søk – BINGO!
 ## Innhold
 
 - hva M365-appene gjør, hva som skiller dem og hvordan de samarbeider
-- fremgangsmåter, jukselapp (oppslagsverk om M365, KI og mye mer), hurtigtaster, videoer og kurs
-- oversikt over samtlige apper og funksjoner i M365 E5 og E7 og over tilleggene som kan kjøpes, med «trykk og forklar» på alle greiene
+- fremgangsmåter, hurtigtaster, videoer og kurs
+- jukselapp med begreper fra KI, bygg og eiendom, sikkerhet, personvern og M365
+- oversikt over alle apper og funksjoner i M365 E5 og E7 og over tilleggene som kan kjøpes, med forklaring på hver funksjon
 
 Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med KI.
 
-> **Psst...**
+> **Psst…**
 > KI kan bomme, og jeg kan overse noe. Jeg retter feil fortløpende.
