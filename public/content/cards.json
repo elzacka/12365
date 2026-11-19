@@ -52,8 +52,8 @@
     "navn": "Microsoft Copilot",
     "tagline": "Generativ KI som bruker organisasjonens innhold",
     "alene": "Jobber i Word, Excel, PowerPoint, Outlook og Teams. Finner svar i e-post, møter, chatter og filer du har tilgang til (Work IQ).",
-    "sammen": "Gir tilgang til agenter som Researcher og Analytiker. Copilot Cowork utfører oppgaver i flere trinn for deg.",
-    "fotnote": "Følger med E7. Egen lisens per bruker for E5. Cowork betales i tillegg etter forbruk.",
+    "sammen": "Gir tilgang til agenter som Researcher og Analytiker. Cowork utfører oppgaver i flere trinn, Copilot Code bygger apper og dashbord, og Autopilot jobber for deg i bakgrunnen. Du kan velge språkmodell selv.",
+    "fotnote": "Følger med E7. Egen lisens per bruker for E5. Cowork, Copilot Code og Autopilot betales i tillegg etter forbruk.",
     "kategori": "ki",
     "oppsummering": "Generativ KI som bruker organisasjonens innhold. Følger med E7",
     "overlapper": [
