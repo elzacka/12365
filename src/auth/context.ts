@@ -10,4 +10,4 @@ export interface AuthContextValue {
 
 export const AuthContext = createContext<AuthContextValue | null>(null)
 
-export const STORAGE_KEY = '12365.passphrase'
+export const LEGACY_STORAGE_KEY = '12365.passphrase'

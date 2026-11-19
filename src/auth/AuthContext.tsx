@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { LockedContent } from '../types'
-import { AuthContext, STORAGE_KEY, type AuthContextValue } from './context'
-import { decryptJson, type EncryptedPayload } from './crypto'
+import { AuthContext, LEGACY_STORAGE_KEY, type AuthContextValue } from './context'
+import { decryptJson, deriveContentKey, importPassphrase, type EncryptedPayload } from './crypto'
+import { readKeys, writeKeys, type SavedKeys } from './keyStore'
 
 const base = import.meta.env.BASE_URL
 
@@ -18,64 +19,63 @@ async function fetchLockedPayload(): Promise<EncryptedPayload> {
   return payloadPromise
 }
 
-// Storage can be blocked by the browser; the app then works, just without remembering.
-function readSaved(): string | null {
+// Earlier builds kept the passphrase itself in localStorage: move it into a key, then drop it.
+async function takeLegacyPassphrase(): Promise<SavedKeys | null> {
   try {
-    return localStorage.getItem(STORAGE_KEY)
+    const legacy = localStorage.getItem(LEGACY_STORAGE_KEY)
+    if (!legacy) return null
+    localStorage.removeItem(LEGACY_STORAGE_KEY)
+    return { baseKey: await importPassphrase(legacy) }
   } catch {
     return null
   }
 }
 
-function writeSaved(passphrase: string | null) {
-  try {
-    if (passphrase) localStorage.setItem(STORAGE_KEY, passphrase)
-    else localStorage.removeItem(STORAGE_KEY)
-  } catch {
-    // storage blocked: nothing saved
+// Reuses the cached content key while the payload is unchanged, so a saved unlock costs no PBKDF2.
+async function openWith(saved: SavedKeys, remember: boolean): Promise<LockedContent> {
+  const payload = await fetchLockedPayload()
+  const cached =
+    saved.contentKey && saved.saltB64 === payload.kdf.saltB64 && saved.iterations === payload.kdf.iterations
+  const contentKey = cached ? saved.contentKey! : await deriveContentKey(saved.baseKey, payload)
+  const content = await decryptJson<LockedContent>(payload, contentKey)
+  if (remember && !cached) {
+    await writeKeys({ baseKey: saved.baseKey, contentKey, saltB64: payload.kdf.saltB64, iterations: payload.kdf.iterations })
   }
+  return content
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [locked, setLocked] = useState<LockedContent | null>(null)
 
-  const tryDecrypt = useCallback(async (passphrase: string): Promise<LockedContent> => {
-    const payload = await fetchLockedPayload()
-    return decryptJson<LockedContent>(payload, passphrase)
-  }, [])
-
-  // Auto-unlock from a saved passphrase. Runs once on mount.
+  // Auto-unlock from saved keys. Runs once on mount.
   useEffect(() => {
     let cancelled = false
-    const saved = readSaved()
-    if (!saved) return
-    tryDecrypt(saved)
-      .then(content => {
+    ;(async () => {
+      const saved = (await takeLegacyPassphrase()) ?? (await readKeys())
+      if (!saved) return
+      try {
+        const content = await openWith(saved, true)
         if (!cancelled) setLocked(content)
-      })
-      .catch(() => {
-        // The saved passphrase no longer fits the deployed payload (rotated,
-        // wrong, or the payload is unavailable). Clear it silently so we don't
-        // keep retrying on every page load.
-        writeSaved(null)
-      })
+      } catch {
+        // The saved key no longer fits the deployed payload (rotated passphrase,
+        // or the payload is unavailable). Clear it so we don't retry on every load.
+        await writeKeys(null)
+      }
+    })()
     return () => {
       cancelled = true
     }
-  }, [tryDecrypt])
+  }, [])
 
-  const unlock = useCallback(
-    async (passphrase: string, remember: boolean) => {
-      const content = await tryDecrypt(passphrase)
-      setLocked(content)
-      writeSaved(remember ? passphrase : null)
-    },
-    [tryDecrypt],
-  )
+  const unlock = useCallback(async (passphrase: string, remember: boolean) => {
+    const content = await openWith({ baseKey: await importPassphrase(passphrase) }, remember)
+    setLocked(content)
+    if (!remember) await writeKeys(null)
+  }, [])
 
   const lockNow = useCallback(() => {
     setLocked(null)
-    writeSaved(null)
+    void writeKeys(null)
   }, [])
 
   const value = useMemo<AuthContextValue>(

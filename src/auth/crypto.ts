@@ -1,5 +1,5 @@
 // AES-GCM-256 + PBKDF2 for gated content: keeps it from casual visitors of the public
-// site. A shared passphrase derives the key client-side; localStorage keeps it only on opt-in.
+// site. A shared passphrase derives the key client-side; IndexedDB keeps keys only on opt-in.
 
 export interface EncryptedPayload {
   version: 1
@@ -34,32 +34,27 @@ function base64ToBytes(b64: string): Bytes {
   return bytes
 }
 
-async function deriveKey(passphrase: string, salt: Bytes, iterations: number): Promise<CryptoKey> {
-  const enc = new TextEncoder()
-  const baseKey = await crypto.subtle.importKey(
-    'raw',
-    enc.encode(passphrase),
-    { name: 'PBKDF2' },
-    false,
-    ['deriveKey'],
-  )
+// Non-extractable, so a stored key never yields the passphrase.
+export function importPassphrase(passphrase: string): Promise<CryptoKey> {
+  return crypto.subtle.importKey('raw', new TextEncoder().encode(passphrase), { name: 'PBKDF2' }, false, [
+    'deriveKey',
+  ])
+}
+
+// The salt and iteration count come from the payload; scripts/lock-content.mjs sets them.
+export function deriveContentKey(baseKey: CryptoKey, payload: EncryptedPayload): Promise<CryptoKey> {
   return crypto.subtle.deriveKey(
-    { name: 'PBKDF2', salt, iterations, hash: 'SHA-256' },
+    { name: 'PBKDF2', salt: base64ToBytes(payload.kdf.saltB64), iterations: payload.kdf.iterations, hash: 'SHA-256' },
     baseKey,
     { name: 'AES-GCM', length: 256 },
     false,
-    ['encrypt', 'decrypt'],
+    ['decrypt'],
   )
 }
 
-// The iteration count comes from the payload; scripts/lock-content.mjs sets it.
-export async function decryptJson<T>(payload: EncryptedPayload, passphrase: string): Promise<T> {
-  const salt = base64ToBytes(payload.kdf.saltB64)
+// Throws OperationError on a wrong key; the caller must catch.
+export async function decryptJson<T>(payload: EncryptedPayload, key: CryptoKey): Promise<T> {
   const iv = base64ToBytes(payload.cipher.ivB64)
-  const ciphertext = base64ToBytes(payload.ciphertextB64)
-  const key = await deriveKey(passphrase, salt, payload.kdf.iterations)
-  // Throws OperationError on wrong passphrase – caller must catch.
-  const plaintext = await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, ciphertext)
-  const text = new TextDecoder().decode(plaintext)
-  return JSON.parse(text) as T
+  const plaintext = await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, base64ToBytes(payload.ciphertextB64))
+  return JSON.parse(new TextDecoder().decode(plaintext)) as T
 }
