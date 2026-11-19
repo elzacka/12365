@@ -1,5 +1,3 @@
-# Personvernerklæring
-
 Oppdatert: 18.11.26
 
 ## Oppsummert
