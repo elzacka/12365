@@ -8,7 +8,7 @@
     {
       "id": "gjelder-alltid",
       "tittel": "Gjelder alltid",
-      "tekst": "- **KI-kompetanse**: Organisasjonen skal ha tiltak som bygger KI-kompetanse. Det kreves ikke et bestemt nivå for hver person.\n- **Tilganger**: KI ser det brukeren har tilgang til. Rydd i tilgangene før dere tar KI i bruk.\n- **Ansvar**: Et menneske har ansvaret for det KI bidrar til, også når KI bare foreslår.\n- **Annet regelverk**: Personopplysningsloven, forvaltningsloven, arbeidsmiljøloven og likestillings- og diskrimineringsloven gjelder også."
+      "tekst": "- **KI-kompetanse**: Organisasjonen skal ha tiltak som bygger KI-kompetanse. Det kreves ikke et bestemt nivå for hver person.\n- **Tilganger** (god praksis): KI ser det brukeren har tilgang til. Rydd i tilgangene før dere tar KI i bruk.\n- **Ansvar** (god praksis): Et menneske har ansvaret for det KI bidrar til, også når KI bare foreslår.\n- **Annet regelverk**: Personopplysningsloven, forvaltningsloven, arbeidsmiljøloven og likestillings- og diskrimineringsloven gjelder også."
     }
   ],
   "veiledning": "Gå gjennom kortene i rekkefølge, og stopp ved det første som passer. Kort 3 kan gjelde i tillegg til kort 2.",
@@ -37,9 +37,9 @@
       "farge": "oransje",
       "sporsmal": "Er formålet på høyrisikolista?",
       "eksempler": [
-        "Rekruttere, følge opp eller si opp ansatte",
+        "Rekruttere, vurdere eller si opp ansatte",
         "Avgjøre om noen får offentlige ytelser eller tjenester",
-        "Avgjøre opptak eller vurdere elever og studenter",
+        "Avgjøre opptak eller vurdere hva elever og studenter har lært",
         "Prioritere nødanrop"
       ],
       "svar": "Vurder nærmere før dere bestemmer dere.",
