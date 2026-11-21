@@ -94,8 +94,8 @@ export interface KiVurderingKort {
 
 export interface KiVurdering {
   innledning: {
-    tittel: string   // label of the expand box
-    avsnitt: string[] // one paragraph each
+    tittel: string // label of the expand box
+    tekst: string  // markdown as in src/lib/markdown.tsx: paragraphs and lists
   }
   kort: KiVurderingKort[]
 }

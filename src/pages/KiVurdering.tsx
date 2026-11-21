@@ -2,6 +2,7 @@ import { use, useState } from 'react'
 import { fetchKiVurdering } from '../data/loader'
 import { FlipFrame } from '../components/FlipCard'
 import { ChevronRightIcon } from '../components/Icons'
+import { Markdown } from '../lib/markdown'
 
 export function KiVurdering() {
   const { innledning, kort } = use(fetchKiVurdering())
@@ -27,8 +28,8 @@ export function KiVurdering() {
             </button>
           </h2>
           {introOpen && (
-            <div id="ki-vurdering-intro" className="border-t border-slate-100 px-4 py-3 space-y-2 text-sm text-slate-700 leading-relaxed">
-              {innledning.avsnitt.map(a => <p key={a}>{a}</p>)}
+            <div id="ki-vurdering-intro" className="border-t border-slate-100 px-4 py-1 [&_.markdown>:first-child]:mt-3 [&_.markdown>:last-child]:mb-3">
+              <Markdown source={innledning.tekst} />
             </div>
           )}
         </section>

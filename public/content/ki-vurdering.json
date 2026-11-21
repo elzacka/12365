@@ -1,9 +1,7 @@
 {
   "innledning": {
-    "tittel": "Om KI-vurdering",
-    "avsnitt": [
-      "Innledning kommer"
-    ]
+    "tittel": "Innledning",
+    "tekst": "De fire kortene er tenkt som en forenklet fremstilling av en risikobasert modell med fire risikokategorier, utledet av AI Act. Tanken er at du kan bruke kortene som støtte i en innledende vurdering (grovsortering) før du får KI til å hjelpe deg i arbeidet.\n\nHensikt:\n\n1. Øke bevisstheten om hvor fokuset bør være*\n2. Gjøre det enklere å ta beslutninger i en tidlig fase\n\n*Verktøy og informasjonens klassifiseringsnivå er relevante, men underordnede. I KI-reguleringer er det formålet som er vesentlig. Du finner formålet ved å svare på spørsmål som:\n\n- Hvordan skal du bruke KI, og på hva?\n- Hvem eller hva blir berørt?\n- Er det ulovlig? Hvorfor?\n- Er det problematisk? Hvorfor? Hva skal til for å sikre etisk og forsvarlig bruk over tid?"
   },
   "kort": [
     {

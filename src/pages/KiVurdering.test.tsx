@@ -4,7 +4,7 @@ import { render, screen, fireEvent, act } from '@testing-library/react'
 import type { KiVurdering as KiVurderingData } from '../types'
 
 const DATA: KiVurderingData = {
-  innledning: { tittel: 'Om KI-vurdering', avsnitt: ['Første avsnitt'] },
+  innledning: { tittel: 'Innledning', tekst: 'Første avsnitt\n\n- Et punkt' },
   kort: ['A', 'B', 'C', 'D'].map(t => ({ id: t.toLowerCase(), tittel: t, tagline: `${t} tagline`, tekst: `${t} tekst` })),
 }
 
@@ -26,13 +26,14 @@ async function renderPage() {
 describe('KiVurdering', () => {
   it('opens the intro on demand', async () => {
     await renderPage()
-    const toggle = screen.getByRole('button', { name: 'Om KI-vurdering' })
+    const toggle = screen.getByRole('button', { name: 'Innledning' })
     expect(toggle).toHaveAttribute('aria-expanded', 'false')
     expect(screen.queryByText('Første avsnitt')).toBeNull()
 
     fireEvent.click(toggle)
     expect(toggle).toHaveAttribute('aria-expanded', 'true')
     expect(screen.getByText('Første avsnitt')).toBeInTheDocument()
+    expect(screen.getByRole('listitem')).toHaveTextContent('Et punkt')
   })
 
   it('flips one card at a time with its own button', async () => {
