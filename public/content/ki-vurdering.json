@@ -1,0 +1,34 @@
+{
+  "innledning": {
+    "tittel": "Om KI-vurdering",
+    "avsnitt": [
+      "Innledning kommer"
+    ]
+  },
+  "kort": [
+    {
+      "id": "uakseptabel-risiko",
+      "tittel": "Uakseptabel risiko",
+      "tagline": "Forbudt",
+      "tekst": "Innhold kommer"
+    },
+    {
+      "id": "hoy-risiko",
+      "tittel": "Høy risiko",
+      "tagline": "Strenge krav",
+      "tekst": "Innhold kommer"
+    },
+    {
+      "id": "begrenset-risiko",
+      "tittel": "Begrenset risiko",
+      "tagline": "Krav om åpenhet",
+      "tekst": "Innhold kommer"
+    },
+    {
+      "id": "minimal-risiko",
+      "tittel": "Minimal risiko",
+      "tagline": "Få krav",
+      "tekst": "Innhold kommer"
+    }
+  ]
+}

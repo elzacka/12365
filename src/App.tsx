@@ -17,6 +17,7 @@ import { SeOgHor } from './pages/SeOgHor'
 import { AltIE5OgE7 } from './pages/AltIE5OgE7'
 import { Jukselapp } from './pages/Jukselapp'
 import { Hurtigtaster } from './pages/Hurtigtaster'
+import { KiVurdering } from './pages/KiVurdering'
 
 // Lazy-loaded: pulls in media-chrome, which shouldn't ship in the main bundle for routes that never play video.
 const VideoPage = lazy(() => import('./pages/VideoPage').then(m => ({ default: m.VideoPage })))
@@ -62,6 +63,7 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/alt-i-e5-og-e7') return { title: 'Alt i E5 og E7', showHome: true }
   if (pathname === '/jukselapp') return { title: 'Jukselapp', showHome: true }
   if (pathname === '/hurtigtaster') return { title: 'Hurtigtaster', showHome: true }
+  if (pathname === '/ki-vurdering') return { title: 'KI-vurdering', showHome: true }
   return { showHome: true }
 }
 
@@ -94,6 +96,7 @@ function AppRoutes() {
           <Route path="/alt-i-e5-og-e7" element={<AltIE5OgE7 />} />
           <Route path="/jukselapp" element={<Jukselapp />} />
           <Route path="/hurtigtaster" element={<Hurtigtaster />} />
+          <Route path="/ki-vurdering" element={<KiVurdering />} />
           {LEGACY_PATHS.map(([from, to]) => (
             <Route key={from} path={`${from}/*`} element={<RedirectKeepingRest to={to} />} />
           ))}

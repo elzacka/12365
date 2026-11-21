@@ -1,4 +1,4 @@
-import type { ArticleCategory, Course, FlipCard, LicenseOverview, Oppslag, Video } from '../types'
+import type { ArticleCategory, Course, FlipCard, KiVurdering, LicenseOverview, Oppslag, Video } from '../types'
 
 const base = import.meta.env.BASE_URL
 
@@ -17,6 +17,7 @@ let coursesPromise: Promise<Course[]> | null = null
 let licenseOverviewPromise: Promise<LicenseOverview> | null = null
 let jukselappPromise: Promise<Oppslag[]> | null = null
 let hurtigtasterPromise: Promise<Oppslag[]> | null = null
+let kiVurderingPromise: Promise<KiVurdering> | null = null
 
 export function fetchArticles(): Promise<ArticleCategory[]> {
   articlesPromise ??= fetchJson<ArticleCategory[]>('articles.json')
@@ -51,4 +52,9 @@ export function fetchJukselapp(): Promise<Oppslag[]> {
 export function fetchHurtigtaster(): Promise<Oppslag[]> {
   hurtigtasterPromise ??= fetchJson<Oppslag[]>('hurtigtaster.json')
   return hurtigtasterPromise
+}
+
+export function fetchKiVurdering(): Promise<KiVurdering> {
+  kiVurderingPromise ??= fetchJson<KiVurdering>('ki-vurdering.json')
+  return kiVurderingPromise
 }

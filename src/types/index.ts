@@ -85,6 +85,21 @@ export interface Course extends SeOgHorBody {
   laast?: boolean     // marks the course as gated content; only added to listings when the user has unlocked
 }
 
+export interface KiVurderingKort {
+  id: string      // unique kebab-case id
+  tittel: string  // front, centred
+  tagline: string // front, under the title
+  tekst: string   // back
+}
+
+export interface KiVurdering {
+  innledning: {
+    tittel: string   // label of the expand box
+    avsnitt: string[] // one paragraph each
+  }
+  kort: KiVurderingKort[]
+}
+
 // Shape of the decrypted locked payload. Mirrors the public content arrays so
 // merging into the listings is a simple per-category concatenation.
 export interface LockedContent {
