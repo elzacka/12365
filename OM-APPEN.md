@@ -9,6 +9,7 @@ Opp med mobilen, søk – BINGO!
 - fremgangsmåter, hurtigtaster, videoer og kurs
 - jukselapp med begreper fra KI, bygg og eiendom, sikkerhet, personvern og M365
 - oversikt over alle apper og funksjoner i M365 E5 og E7 og over tilleggene som kan kjøpes, med forklaring på hver funksjon
+- KI-vurdering (beta) for en første grovsortering av KI-bruk etter risiko, utledet av AI Act
 
 Innholdet er basert på åpne kilder, blant annet fra Microsoft Norge – bearbeidet med KI.
 
