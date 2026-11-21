@@ -37,6 +37,17 @@ function ExpandBox({ id, tittel, tekst }: KiVurderingData['bokser'][number]) {
 
 const LABEL = 'text-[0.65rem] font-semibold uppercase tracking-wider'
 
+const STRIPE: Record<KiVurderingData['kort'][number]['farge'], string> = {
+  rod: 'bg-red-600',
+  oransje: 'bg-orange-500',
+  gul: 'bg-yellow-400',
+  gronn: 'bg-green-600',
+}
+
+function Stripe({ farge }: { farge: KiVurderingData['kort'][number]['farge'] }) {
+  return <span aria-hidden="true" className={`absolute inset-x-0 top-0 h-2 ${STRIPE[farge]}`} />
+}
+
 export function KiVurdering() {
   const { bokser, veiledning, kort, merknad } = use(fetchKiVurdering())
 
@@ -56,10 +67,11 @@ export function KiVurdering() {
               key={k.id}
               label={`Snu kort ${i + 1}, ${k.tittel}`}
               className="h-full"
-              frontClassName="bg-white border border-slate-200 shadow-sm flex flex-col p-4 pb-9 text-left hover:shadow-md transition-shadow"
-              backClassName="bg-brand-700 flex flex-col p-4 pb-9 text-left"
+              frontClassName="bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 pb-9 text-left hover:shadow-md transition-shadow"
+              backClassName="bg-brand-700 flex flex-col p-4 pt-6 pb-9 text-left"
               front={
                 <>
+                  <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-400`}>{i + 1} · {k.tittel}</p>
                   <h3 className="mt-1 text-base font-semibold text-slate-800 leading-snug">{k.sporsmal}</h3>
                   <p className={`${LABEL} mt-3 mb-1 text-slate-500`}>For eksempel</p>
@@ -70,6 +82,7 @@ export function KiVurdering() {
               }
               back={
                 <>
+                  <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-200`}>{i + 1} · {k.tittel}</p>
                   <p className="mt-1 text-base font-semibold text-white leading-snug">{k.svar}</p>
                   <ul className="mt-3 list-disc pl-4 space-y-1.5 text-xs text-white leading-snug">

@@ -8,7 +8,7 @@
     {
       "id": "gjelder-alltid",
       "tittel": "Gjelder alltid",
-      "tekst": "- **KI-kompetanse**: Organisasjonen skal ha tiltak som bygger KI-kompetanse. Det kreves ikke et bestemt nivå for hver person.\n- **Tilganger**: KI ser det brukeren har tilgang til. Rydd i tilgangene før dere tar KI i bruk.\n- **Ansvar**: Et menneske har ansvaret for det KI bidrar til, også når KI bare foreslår.\n- **Annet regelverk**: Personvernregler, forvaltningsloven, arbeidsmiljøloven og likestillings- og diskrimineringsloven gjelder også."
+      "tekst": "- **KI-kompetanse**: Organisasjonen skal ha tiltak som bygger KI-kompetanse. Det kreves ikke et bestemt nivå for hver person.\n- **Tilganger**: KI ser det brukeren har tilgang til. Rydd i tilgangene før dere tar KI i bruk.\n- **Ansvar**: Et menneske har ansvaret for det KI bidrar til, også når KI bare foreslår.\n- **Annet regelverk**: Personopplysningsloven, forvaltningsloven, arbeidsmiljøloven og likestillings- og diskrimineringsloven gjelder også."
     }
   ],
   "veiledning": "Gå gjennom kortene i rekkefølge, og stopp ved det første som passer. Kort 3 kan gjelde i tillegg til kort 2.",
@@ -16,6 +16,7 @@
     {
       "id": "forbudt",
       "tittel": "Forbudt",
+      "farge": "rod",
       "sporsmal": "Er formålet forbudt?",
       "eksempler": [
         "Manipulere folk til valg som skader dem",
@@ -33,6 +34,7 @@
     {
       "id": "hoy-risiko",
       "tittel": "Høy risiko",
+      "farge": "oransje",
       "sporsmal": "Er formålet på høyrisikolista?",
       "eksempler": [
         "Rekruttere, følge opp eller si opp ansatte",
@@ -51,11 +53,12 @@
     {
       "id": "apenhet",
       "tittel": "Åpenhet",
+      "farge": "gul",
       "sporsmal": "Møter folk KI, eller publiserer dere KI-innhold?",
       "eksempler": [
-        "Chatbot som innbyggere eller ansatte snakker med",
-        "Bilder, lyd eller video som ligner ekte personer eller hendelser",
-        "KI-tekst som dere publiserer for å informere offentligheten"
+        "Svare på spørsmål fra innbyggere eller ansatte",
+        "Lage bilder, lyd eller video som ligner ekte personer eller hendelser",
+        "Skrive tekst som publiseres for å informere offentligheten"
       ],
       "svar": "Gå i gang, men si fra at det er KI.",
       "punkter": [
@@ -68,6 +71,7 @@
     {
       "id": "lav-risiko",
       "tittel": "Lav risiko",
+      "farge": "gronn",
       "sporsmal": "Ingen av delene?",
       "eksempler": [
         "Skrive utkast, oppsummere og oversette",

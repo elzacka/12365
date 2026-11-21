@@ -88,6 +88,7 @@ export interface Course extends SeOgHorBody {
 export interface KiVurderingKort {
   id: string          // unique kebab-case id
   tittel: string      // front, with the card number
+  farge: 'rod' | 'oransje' | 'gul' | 'gronn' // stripe on both faces; number and title carry the meaning too
   sporsmal: string    // front, the question the card asks
   eksempler: string[] // front
   svar: string        // back, what to do

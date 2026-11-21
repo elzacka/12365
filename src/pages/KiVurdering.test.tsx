@@ -10,7 +10,7 @@ const DATA: KiVurderingData = {
   ],
   veiledning: 'Gå i rekkefølge',
   kort: ['A', 'B', 'C', 'D'].map(t => ({
-    id: t.toLowerCase(), tittel: t, sporsmal: `${t}?`, eksempler: [`${t} eksempel`],
+    id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, eksempler: [`${t} eksempel`],
     svar: `${t} svar`, punkter: [`${t} punkt`], kilde: `${t} kilde`,
   })),
   merknad: 'Ikke juridisk vurdering',
