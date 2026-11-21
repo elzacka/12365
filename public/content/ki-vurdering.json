@@ -1,32 +1,87 @@
 {
-  "innledning": {
-    "tittel": "Innledning",
-    "tekst": "De fire kortene er tenkt som en forenklet fremstilling av en risikobasert modell med fire risikokategorier, utledet av AI Act. Tanken er at du kan bruke kortene som støtte i en innledende vurdering (grovsortering) før du får KI til å hjelpe deg i arbeidet.\n\nHensikt:\n\n1. Øke bevisstheten om hvor fokuset bør være<sup>*</sup>\n2. Gjøre det enklere å ta beslutninger i en tidlig fase\n\n<sup>*</sup> Type KI-verktøy og kildenes kritikalitet (informasjonsklassifisering) er absolutt relevant, men underordnet i denne sammenhengen.\n\nRegulering av KI tar utgangspunkt i formålet:\n\n- Hvorfor og hvordan skal du bruke KI, og på hva?\n- Hvem eller hva blir berørt?\n- Er det ulovlig? Hvorfor?\n- Er det problematisk? Hvorfor? Hva skal til for å sikre etisk og forsvarlig bruk over tid?"
-  },
+  "bokser": [
+    {
+      "id": "innledning",
+      "tittel": "Innledning",
+      "tekst": "De fire kortene er tenkt som en forenklet fremstilling av en risikobasert modell med fire risikokategorier, utledet av AI Act. Tanken er at du kan bruke kortene som støtte i en innledende vurdering (grovsortering) før du får KI til å hjelpe deg i arbeidet.\n\nHensikt:\n\n1. Øke bevisstheten om hvor fokuset bør være<sup>*</sup>\n2. Gjøre det enklere å ta beslutninger i en tidlig fase\n\n<sup>*</sup> Type KI-verktøy og kildenes kritikalitet (informasjonsklassifisering) er absolutt relevant, men underordnet i denne sammenhengen.\n\nRegulering av KI tar utgangspunkt i formålet:\n\n- Hvorfor og hvordan skal du bruke KI, og på hva?\n- Hvem eller hva blir berørt?\n- Er det ulovlig? Hvorfor?\n- Er det problematisk? Hvorfor? Hva skal til for å sikre etisk og forsvarlig bruk over tid?"
+    },
+    {
+      "id": "gjelder-alltid",
+      "tittel": "Gjelder alltid",
+      "tekst": "- **KI-kompetanse**: Organisasjonen skal ha tiltak som bygger KI-kompetanse. Det kreves ikke et bestemt nivå for hver person.\n- **Tilganger**: KI ser det brukeren har tilgang til. Rydd i tilgangene før dere tar KI i bruk.\n- **Ansvar**: Et menneske har ansvaret for det KI bidrar til, også når KI bare foreslår.\n- **Annet regelverk**: Personvernregler, forvaltningsloven, arbeidsmiljøloven og likestillings- og diskrimineringsloven gjelder også."
+    }
+  ],
+  "veiledning": "Gå gjennom kortene i rekkefølge, og stopp ved det første som passer. Kort 3 kan gjelde i tillegg til kort 2.",
   "kort": [
     {
-      "id": "uakseptabel-risiko",
-      "tittel": "Uakseptabel risiko",
-      "tagline": "Forbudt",
-      "tekst": "Innhold kommer"
+      "id": "forbudt",
+      "tittel": "Forbudt",
+      "sporsmal": "Er formålet forbudt?",
+      "eksempler": [
+        "Manipulere folk til valg som skader dem",
+        "Tolke følelsene til ansatte, elever eller studenter",
+        "Rangere folk ut fra atferd og behandle dem urimelig dårligere",
+        "Lage nakenbilder av virkelige personer uten samtykke"
+      ],
+      "svar": "Stopp. Finn en annen måte å nå målet på.",
+      "punkter": [
+        "Forbudet gjelder uansett verktøy og hvem som har laget det",
+        "Unntakene er få og smale, for eksempel å tolke følelser av medisinske grunner eller sikkerhetsgrunner"
+      ],
+      "kilde": "KI-forordningen art. 5"
     },
     {
       "id": "hoy-risiko",
       "tittel": "Høy risiko",
-      "tagline": "Strenge krav",
-      "tekst": "Innhold kommer"
+      "sporsmal": "Er formålet på høyrisikolista?",
+      "eksempler": [
+        "Rekruttere, følge opp eller si opp ansatte",
+        "Avgjøre om noen får offentlige ytelser eller tjenester",
+        "Avgjøre opptak eller vurdere elever og studenter",
+        "Prioritere nødanrop"
+      ],
+      "svar": "Vurder nærmere før dere bestemmer dere.",
+      "punkter": [
+        "Tillatt, men med strenge krav, blant annet menneskelig kontroll, logging og informasjon til dem det gjelder",
+        "Ikke høy risiko hvis KI bare gjør forarbeid og ikke påvirker utfallet, så lenge KI ikke lager profiler av personer",
+        "Dere kan selv bli leverandør hvis dere bruker en generell KI-assistent til et formål på lista"
+      ],
+      "kilde": "KI-forordningen art. 6, 25 og 26 og vedlegg III"
     },
     {
-      "id": "begrenset-risiko",
-      "tittel": "Begrenset risiko",
-      "tagline": "Krav om åpenhet",
-      "tekst": "Innhold kommer"
+      "id": "apenhet",
+      "tittel": "Åpenhet",
+      "sporsmal": "Møter folk KI, eller publiserer dere KI-innhold?",
+      "eksempler": [
+        "Chatbot som innbyggere eller ansatte snakker med",
+        "Bilder, lyd eller video som ligner ekte personer eller hendelser",
+        "KI-tekst som dere publiserer for å informere offentligheten"
+      ],
+      "svar": "Gå i gang, men si fra at det er KI.",
+      "punkter": [
+        "Folk skal vite at de snakker med KI, senest første gang de møter den",
+        "Si fra når bilder, lyd eller video som ligner ekte, er laget av KI",
+        "Tekst trenger ikke merking hvis et menneske har kontrollert den og står ansvarlig"
+      ],
+      "kilde": "KI-forordningen art. 50"
     },
     {
-      "id": "minimal-risiko",
-      "tittel": "Minimal risiko",
-      "tagline": "Få krav",
-      "tekst": "Innhold kommer"
+      "id": "lav-risiko",
+      "tittel": "Lav risiko",
+      "sporsmal": "Ingen av delene?",
+      "eksempler": [
+        "Skrive utkast, oppsummere og oversette",
+        "Søke i egne dokumenter og rutiner",
+        "Hjelp til programmering og analyse"
+      ],
+      "svar": "Gå i gang.",
+      "punkter": [
+        "KI-forordningen stiller ingen egne krav utover det som står under «Gjelder alltid»",
+        "Kontroller det KI lager, fordi KI kan ta feil og likevel høres sikker ut",
+        "Gå gjennom kortene på nytt hvis formålet endres"
+      ],
+      "kilde": "KI-forordningen art. 4 og 95"
     }
-  ]
+  ],
+  "merknad": "Kortene gir et overblikk, ikke en juridisk vurdering. KI-forordningen gjelder i EU og ventes å bli norsk lov gjennom KI-loven."
 }

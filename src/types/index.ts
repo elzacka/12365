@@ -86,18 +86,20 @@ export interface Course extends SeOgHorBody {
 }
 
 export interface KiVurderingKort {
-  id: string      // unique kebab-case id
-  tittel: string  // front, centred
-  tagline: string // front, under the title
-  tekst: string   // back
+  id: string          // unique kebab-case id
+  tittel: string      // front, with the card number
+  sporsmal: string    // front, the question the card asks
+  eksempler: string[] // front
+  svar: string        // back, what to do
+  punkter: string[]   // back
+  kilde: string       // back, legal basis
 }
 
 export interface KiVurdering {
-  innledning: {
-    tittel: string // label of the expand box
-    tekst: string  // markdown as in src/lib/markdown.tsx: paragraphs and lists
-  }
+  bokser: { id: string; tittel: string; tekst: string }[] // expand boxes; tekst is markdown as in src/lib/markdown.tsx
+  veiledning: string  // one line above the cards
   kort: KiVurderingKort[]
+  merknad: string     // muted line under the cards
 }
 
 // Shape of the decrypted locked payload. Mirrors the public content arrays so
