@@ -3,7 +3,7 @@
     {
       "id": "innledning",
       "tittel": "Innledning",
-      "tekst": "De fire kortene er tenkt som en forenklet fremstilling av en risikobasert modell med fire risikokategorier, utledet av AI Act. Tanken er at du kan bruke kortene som støtte i en innledende vurdering (grovsortering) før du får KI til å hjelpe deg i arbeidet.\n\nHensikt:\n\n1. Øke bevisstheten om hvor fokuset bør være<sup>*</sup>\n2. Gjøre det enklere å ta beslutninger i en tidlig fase\n\n<sup>*</sup> Type KI-verktøy og kildenes kritikalitet (informasjonsklassifisering) er absolutt relevant, men underordnet i denne sammenhengen.\n\nRegulering av KI tar utgangspunkt i formålet:\n\n- Hvorfor og hvordan skal du bruke KI, og på hva?\n- Hvem eller hva blir berørt?\n- Er det ulovlig? Hvorfor?\n- Er det problematisk? Hvorfor? Hva skal til for å sikre etisk og forsvarlig bruk over tid?"
+      "tekst": "Kortene er en forenklet modell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nDet er formålet som avgjør kortet: Hva skal KI gjøre, og hvem blir berørt? Verktøyet og hvor sensitiv informasjonen er, betyr også noe, men ikke for hvilket kort du havner på.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
     },
     {
       "id": "gjelder-alltid",
