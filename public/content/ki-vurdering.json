@@ -44,11 +44,11 @@
       ],
       "svar": "Vurder nærmere før dere bestemmer dere.",
       "punkter": [
-        "Tillatt, men med strenge krav, blant annet menneskelig kontroll, logging og informasjon til dem det gjelder",
+        "Tillatt, men med strenge krav, blant annet vurdering av konsekvenser for folks rettigheter, menneskelig kontroll, logging og informasjon til dem det gjelder",
         "Ikke høy risiko hvis KI bare gjør forarbeid og ikke påvirker utfallet, så lenge KI ikke lager profiler av personer",
         "Dere kan selv bli leverandør hvis dere bruker en generell KI-assistent til et formål på lista"
       ],
-      "kilde": "KI-forordningen art. 6, 25 og 26 og vedlegg III"
+      "kilde": "KI-forordningen art. 6, 25, 26 og 27 og vedlegg III"
     },
     {
       "id": "apenhet",
@@ -64,7 +64,7 @@
       "punkter": [
         "Folk skal vite at de snakker med KI, senest første gang de møter den",
         "Si fra når bilder, lyd eller video som ligner ekte, er laget av KI",
-        "Tekst trenger ikke merking hvis et menneske har kontrollert den og står ansvarlig"
+        "Si fra om KI-tekst dere publiserer for å informere offentligheten, unntatt når et menneske har kontrollert den og står ansvarlig"
       ],
       "kilde": "KI-forordningen art. 50"
     },
