@@ -77,7 +77,7 @@
       "id": "apenhet",
       "tittel": "Åpenhet",
       "farge": "gul",
-      "sporsmal": "Møter folk KI, eller publiserer dere KI-innhold?",
+      "sporsmal": "Snakker folk med KI, eller publiserer dere KI-innhold?",
       "oppsummering": "Folk skal kunne se når de har med KI å gjøre",
       "eksempler": [
         "Svare på spørsmål fra innbyggere eller ansatte",
@@ -91,7 +91,7 @@
         "Si fra når bilder, lyd eller video som ligner ekte, er laget eller endret av KI. I åpenbart kunstneriske, satiriske eller fiktive verk holder det å si at KI er brukt",
         "Si fra om KI-tekst dere publiserer for å informere offentligheten, unntatt når et menneske har kontrollert den og noen står ansvarlig",
         "Si fra til folk når KI tolker følelsene deres eller sorterer dem ut fra biometri",
-        "Informasjonen skal være tydelig og tilgjengelig for alle, og komme senest første gang folk møter KI eller innholdet"
+        "Informasjonen skal være tydelig og tilgjengelig for alle, og komme senest første gang folk snakker med KI eller ser innholdet"
       ],
       "kilde": "KI-forordningen art. 50"
     },
