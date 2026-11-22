@@ -3031,6 +3031,212 @@
     ]
   },
   {
+    "id": "ki-radet",
+    "tittel": "KI-rådet",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Det europeiske rådet for kunstig intelligens, med én representant fra hvert EU-land. Rådet gir råd til EU-kommisjonen og EU-landene, slik at KI-forordningen blir brukt likt i hele EU. KI-kontoret deltar uten stemmerett, og EUs datatilsyn er observatør.",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "European Artificial Intelligence Board",
+      "AI Board",
+      "KI-styret"
+    ]
+  },
+  {
+    "id": "radgivende-forum-ki",
+    "tittel": "Rådgivende forum",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Forum som gir KI-rådet og EU-kommisjonen teknisk råd. Kommisjonen utnevner medlemmene fra næringsliv, oppstartsbedrifter, sivilsamfunn og akademia. FRA, ENISA, CEN, CENELEC og ETSI er faste medlemmer.",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "Advisory forum"
+    ]
+  },
+  {
+    "id": "vitenskapspanelet",
+    "tittel": "Vitenskapspanelet",
+    "undertittel": "KI-forordningen",
+    "forklaring": "Panel av uavhengige KI-eksperter som EU-kommisjonen velger ut. Panelet hjelper KI-kontoret med å håndheve reglene for KI-modeller for allmenne formål og kan varsle om mulig systemrisiko.",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "Scientific panel of independent experts",
+      "Vitenskapspanel av uavhengige eksperter"
+    ]
+  },
+  {
+    "id": "eu-kommisjonen",
+    "tittel": "EU-kommisjonen",
+    "undertittel": "EU",
+    "forklaring": "EUs utøvende organ. Kommisjonen foreslår nye EU-regler, blant annet KI-forordningen og Digital Omnibus, og passer på at EU-landene følger dem. Gjennom KI-kontoret håndhever den reglene for KI-modeller for allmenne formål, og den gir ut retningslinjer for hvordan KI-forordningen skal forstås. Nettsted: [commission.europa.eu](https://commission.europa.eu).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "European Commission",
+      "Europakommisjonen",
+      "Kommisjonen"
+    ]
+  },
+  {
+    "id": "europaparlamentet",
+    "tittel": "Europaparlamentet",
+    "undertittel": "EU",
+    "forklaring": "EUs folkevalgte forsamling. Parlamentet vedtar EU-regler sammen med Rådet for Den europeiske union, blant annet KI-forordningen. Norge har ingen representanter i parlamentet. Nettsted: [europarl.europa.eu](https://www.europarl.europa.eu).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "European Parliament",
+      "EU-parlamentet"
+    ]
+  },
+  {
+    "id": "radet-for-den-europeiske-union",
+    "tittel": "Rådet for Den europeiske union",
+    "undertittel": "EU",
+    "forklaring": "Organet der ministrene fra EU-landene møtes. Rådet vedtar EU-regler sammen med Europaparlamentet, blant annet KI-forordningen. Norge er ikke med i Rådet. Det er ikke det samme som Europarådet, som er en egen organisasjon utenfor EU. Nettsted: [consilium.europa.eu](https://www.consilium.europa.eu).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "Council of the European Union",
+      "Ministerrådet",
+      "Rådet"
+    ]
+  },
+  {
+    "id": "eus-datatilsyn",
+    "tittel": "EUs datatilsyn",
+    "undertittel": "EDPS",
+    "forklaring": "Uavhengig tilsyn med hvordan EUs egne institusjoner og organer behandler personopplysninger. Etter KI-forordningen fører det også tilsyn med EU-institusjonenes bruk av KI, og det er observatør i KI-rådet. Nettsted: [edps.europa.eu](https://www.edps.europa.eu).",
+    "tags": [
+      "personvern",
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "European Data Protection Supervisor",
+      "EDPS"
+    ]
+  },
+  {
+    "id": "fra",
+    "tittel": "EUs byrå for grunnleggende rettigheter",
+    "undertittel": "FRA",
+    "forklaring": "EU-byrå som gir råd om grunnleggende rettigheter og forsker på hvordan blant annet KI påvirker dem. Byrået er fast medlem av det rådgivende forumet etter KI-forordningen. Nettsted: [fra.europa.eu](https://fra.europa.eu).",
+    "tags": [
+      "personvern",
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "European Union Agency for Fundamental Rights",
+      "FRA"
+    ]
+  },
+  {
+    "id": "enisa",
+    "tittel": "ENISA",
+    "undertittel": "EUs cybersikkerhetsbyrå",
+    "forklaring": "EU-byrå for cybersikkerhet. ENISA støtter EU-landene, lager ordninger for sertifisering av cybersikkerhet og er fast medlem av det rådgivende forumet etter KI-forordningen. Norge deltar i styret gjennom EØS-avtalen, uten stemmerett. Nettsted: [enisa.europa.eu](https://www.enisa.europa.eu).",
+    "tags": [
+      "sikkerhet",
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "European Union Agency for Cybersecurity"
+    ]
+  },
+  {
+    "id": "cen-cenelec",
+    "tittel": "CEN og CENELEC",
+    "undertittel": "Standardisering",
+    "forklaring": "De europeiske standardiseringsorganisasjonene. Den felles komiteen JTC 21 utvikler harmoniserte standarder til KI-forordningen. KI-systemer som følger en slik standard, regnes for å oppfylle kravene standarden dekker. Norge er fullt medlem gjennom Standard Norge (CEN) og NEK (CENELEC). Nettsted: [cencenelec.eu](https://www.cencenelec.eu).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "CEN",
+      "CENELEC",
+      "CEN-CENELEC JTC 21",
+      "JTC 21",
+      "European Committee for Standardization",
+      "European Committee for Electrotechnical Standardization"
+    ]
+  },
+  {
+    "id": "etsi",
+    "tittel": "ETSI",
+    "undertittel": "Standardisering",
+    "forklaring": "Europeisk standardiseringsorganisasjon for telekommunikasjon og IKT. ETSI er fast medlem av det rådgivende forumet etter KI-forordningen. Nettsted: [etsi.org](https://www.etsi.org).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "European Telecommunications Standards Institute"
+    ]
+  },
+  {
+    "id": "eurohpc",
+    "tittel": "EuroHPC",
+    "undertittel": "Fellesforetaket om europeisk tungregning",
+    "forklaring": "Samarbeid mellom EU og europeiske land om superdatamaskiner. EuroHPC velger ut og finansierer KI-fabrikker sammen med landene, slik at forskere og bedrifter får regnekraft til KI. Norge deltar, blant annet i LUMI AI Factory gjennom Sigma2. Nettsted: [eurohpc-ju.europa.eu](https://eurohpc-ju.europa.eu).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "EuroHPC JU",
+      "European High Performance Computing Joint Undertaking",
+      "KI-fabrikk",
+      "AI Factory"
+    ]
+  },
+  {
+    "id": "eos-komiteen",
+    "tittel": "EØS-komiteen",
+    "undertittel": "EØS",
+    "forklaring": "Felles komité for EU og EØS/EFTA-landene Norge, Island og Liechtenstein. Komiteen bestemmer hvilke EU-regler som tas inn i EØS-avtalen, og med hvilke tilpasninger. En EU-regel som KI-forordningen gjelder i Norge først når komiteen har tatt den inn og den er gjort til norsk lov.",
+    "tags": [
+      "ki",
+      "regelverk",
+      "aktør"
+    ],
+    "alias": [
+      "EEA Joint Committee"
+    ]
+  },
+  {
+    "id": "esa",
+    "tittel": "EFTAs overvåkingsorgan",
+    "undertittel": "ESA",
+    "forklaring": "Overvåker at Norge, Island og Liechtenstein følger EØS-avtalen, slik EU-kommisjonen gjør overfor EU-landene. ESA kan åpne sak mot et land som ikke gjennomfører EØS-regler riktig. Nettsted: [eftasurv.int](https://www.eftasurv.int).",
+    "tags": [
+      "ki",
+      "regelverk",
+      "aktør"
+    ],
+    "alias": [
+      "EFTA Surveillance Authority",
+      "ESA"
+    ]
+  },
+  {
     "id": "ki-modell-for-allmenne-formål",
     "tittel": "KI-modell for allmenne formål",
     "undertittel": "KI-forordningen",
