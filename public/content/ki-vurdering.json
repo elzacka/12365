@@ -25,7 +25,7 @@
         "Rangere folk ut fra atferd eller personlige egenskaper og behandle dem urimelig dårligere",
         "Forutsi om noen vil begå lovbrudd, bare ut fra profilering eller personlighetstrekk",
         "Bygge databaser for ansiktsgjenkjenning ved å hente ansiktsbilder i bulk fra nettet eller overvåkingskameraer",
-        "Tolke følelsene til folk på arbeidsplassen eller i skole og utdanning",
+        "Tolke følelsene til folk på arbeidsplassen eller i skole og utdanning ut fra ansikt, stemme eller annen biometri",
         "Bruke biometri til å utlede rase, politisk syn, fagforeningsmedlemskap, religion, livssyn, seksuell legning eller sexliv",
         "Identifisere folk i sanntid med biometri på offentlige steder, til politiformål",
         "Lage realistiske nakenbilder eller seksuelle bilder, videoer eller lydopptak av virkelige personer uten samtykke",
@@ -47,7 +47,7 @@
       "oppsummering": "Åtte områder der feil i KI kan få alvorlige følger for folks liv, helse eller rettigheter",
       "etikett": "Hele lista",
       "eksempler": [
-        "Biometri: Identifisere folk på avstand, sortere dem etter sensitive egenskaper eller tolke følelser. Gjelder ikke å bekrefte at noen er den de sier, som ved innlogging",
+        "Biometri: Identifisere folk på avstand, sortere dem etter sensitive egenskaper eller tolke følelser ut fra biometri. Gjelder ikke å bekrefte at noen er den de sier, som ved innlogging",
         "Kritisk infrastruktur: Ivareta sikkerheten i driften av digital infrastruktur, veitrafikk og forsyning av vann, gass, varme og strøm",
         "Utdanning: Avgjøre opptak og plassering, vurdere og styre læringen, vurdere hvilket utdanningsnivå noen skal få, eller avsløre juks på prøver",
         "Rekruttering: Målrette stillingsannonser, sortere søknader eller vurdere kandidater",
@@ -83,14 +83,14 @@
         "Svare på spørsmål fra innbyggere eller ansatte",
         "Lage bilder, lyd eller video som ligner ekte personer, steder eller hendelser",
         "Skrive tekst som publiseres for å informere offentligheten om saker av allmenn interesse",
-        "Tolke følelser eller sortere folk ut fra biometri"
+        "Tolke følelser eller sortere folk ut fra biometri, som ansikt eller stemme"
       ],
       "svar": "Gå i gang, men si fra at det er KI.",
       "punkter": [
         "Folk skal vite at de snakker med KI, med mindre det er åpenbart",
         "Si fra når bilder, lyd eller video som ligner ekte, er laget eller endret av KI. I åpenbart kunstneriske, satiriske eller fiktive verk holder det å si at KI er brukt",
         "Si fra om KI-tekst dere publiserer for å informere offentligheten, unntatt når et menneske har kontrollert den og noen står ansvarlig",
-        "Si fra til folk når KI tolker følelsene deres eller sorterer dem ut fra biometri",
+        "Si fra til folk når KI tolker følelsene deres eller sorterer dem ut fra biometri, som ansikt eller stemme",
         "Informasjonen skal være tydelig og tilgjengelig for alle, og komme senest første gang folk snakker med KI eller ser eller hører innholdet"
       ],
       "kilde": "KI-forordningen art. 50"
