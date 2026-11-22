@@ -3033,10 +3033,13 @@
     "id": "ki-system-ki",
     "tittel": "KI-system",
     "undertittel": "KI-forordningen",
-    "forklaring": "Maskinbasert system som opererer med varierende grad av autonomi, kan tilpasses etter idriftsetting, og som ut fra inndata utleder prediksjoner, innhold, anbefalinger eller beslutninger som kan påvirke fysiske eller virtuelle miljøer.",
+    "forklaring": "Maskinbasert system som er konstruert for å operere med varierende grad av autonomi, som vil kunne vise tilpasningsdyktighet etter idriftsetting, og som, for eksplisitte eller implisitte mål, ut fra inndataene det mottar, utleder hvordan man genererer utdata som prediksjoner, innhold og anbefalinger, eller beslutninger som kan påvirke fysiske eller virtuelle miljøer (KI-forordningen art. 3 nr. 1).\nEU-kommisjonens retningslinjer deler definisjonen i syv hovedelementer:\n1. Maskinbasert system\n2. Designet for varierende autonomi\n3. Kan vise tilpasningsdyktighet etter idriftsetting\n4. Har eksplisitte eller implisitte mål\n5. Utleder fra input hvordan output skal genereres\n6. Output som prediksjoner, innhold, anbefalinger eller beslutninger\n7. Output kan påvirke fysiske eller virtuelle miljøer\nKilde: [Nkom](https://nkom.no/ki/regulering/definisjon-ki-system#de_syv_hovedelementene_i_definisjonen_av_kisystem).",
     "tags": [
       "ki",
       "begrep"
+    ],
+    "alias": [
+      "AI system"
     ]
   },
   {
