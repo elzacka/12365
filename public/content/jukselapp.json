@@ -14775,7 +14775,7 @@
   {
     "id": "forhandsbestemt-vedlikehold",
     "tittel": "Forhåndsbestemt vedlikehold",
-    "forklaring": "Forebyggende vedlikehold som utføres i henhold til etablerte tidsintervaller eller antall bruksenheter, men uten forutgående tilstandsundersøkelser (NS-EN 13306:2017). I bygg følger det faste vedlikeholdsinstrukser fra planleggere, entreprenører eller leverandører, og enkelte komponenter blir da skiftet ut før det er teknisk nødvendig. NS-EN ISO/IEC 27002:2022 anbefaler å vedlikeholde utstyr etter leverandørens anbefalte servicehyppighet, og å ha sikkerhetstiltak når vedlikehold er planlagt, særlig når eksternt personell gjør jobben eller vedlikeholdet skjer fjernstyrt. Kilde: [Byggordboka](https://www.byggordboka.no/artikkel/printable/former-for-vedlikehold) og [Standard Norge](https://online.standard.no/nb/ns-en-isoiec-27002-2022).",
+    "forklaring": "Forebyggende vedlikehold som utføres i henhold til etablerte tidsintervaller eller antall bruksenheter, men uten forutgående tilstandsundersøkelser (NS-EN 13306:2017). I bygg følger det faste vedlikeholdsinstrukser fra planleggere, entreprenører eller leverandører, og enkelte komponenter blir da skiftet ut før det er teknisk nødvendig. Kilde: [Byggordboka](https://www.byggordboka.no/artikkel/printable/former-for-vedlikehold).",
     "tags": [
       "eba",
       "vedlikehold",
