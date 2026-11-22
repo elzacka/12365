@@ -54,7 +54,7 @@ export function FlipFrame({ label, front, back, frontClassName, backClassName, c
           setFlipped(f => !f)
         }}
         className={`absolute z-10 flex items-center justify-center rounded-full focus-visible:outline-none ${
-          flipOnCardClick ? 'bottom-1 right-1 w-8 h-8' : 'bottom-0 right-0 w-12 h-12 cursor-pointer'
+          flipOnCardClick ? 'bottom-1 right-1 w-8 h-8' : 'top-2 right-0 w-12 h-12 cursor-pointer'
         } ${flipped ? 'text-brand-200 focus-visible:bg-white/15' : 'text-slate-500 focus-visible:bg-slate-100'}`}
       >
         <FlipIcon size={14} />

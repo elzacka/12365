@@ -98,13 +98,13 @@ export function KiVurdering() {
               key={k.id}
               label={`Snu kort ${i + 1}, ${k.tittel}`}
               flipOnCardClick={false}
-              frontClassName="min-h-[14rem] bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 pb-12 text-left"
-              backClassName="min-h-[14rem] bg-brand-700 flex flex-col p-4 pt-6 pb-12 text-left"
+              frontClassName="min-h-[11.5rem] bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 text-left"
+              backClassName="min-h-[11.5rem] bg-brand-700 flex flex-col p-4 pt-6 text-left"
               front={
                 <>
                   <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-400`}>{i + 1} · {k.tittel}</p>
-                  <h3 className="mt-1 text-base font-semibold text-slate-800 leading-snug">{k.sporsmal}</h3>
+                  <h3 className="mt-1 pr-8 text-base font-semibold text-slate-800 leading-snug">{k.sporsmal}</h3>
                   <p className="mt-1 text-xs text-slate-600 leading-snug">{k.oppsummering}</p>
                   <CardBox id={`ki-kort-${k.id}-forside`} tittel={k.etikett ?? 'Eksempler'} punkter={k.eksempler} />
                 </>
@@ -113,7 +113,7 @@ export function KiVurdering() {
                 <>
                   <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-200`}>{i + 1} · {k.tittel}</p>
-                  <p className="mt-1 text-base font-semibold text-white leading-snug">{k.svar}</p>
+                  <p className="mt-1 pr-8 text-base font-semibold text-white leading-snug">{k.svar}</p>
                   <CardBox id={`ki-kort-${k.id}-bakside`} tittel="Detaljer" punkter={k.punkter} dark />
                   <p className="mt-auto pt-3 text-[0.65rem] text-brand-200">{k.kilde}</p>
                 </>
