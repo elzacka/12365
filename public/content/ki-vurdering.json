@@ -1,9 +1,9 @@
 {
   "bokser": [
     {
-      "id": "innledning",
-      "tittel": "Innledning",
-      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nDet er formålet som avgjør: Hva skal KI gjøre, og hvem blir berørt? Verktøyet, hvor mye KI gjør selv og hvor sensitiv informasjonen er, betyr også noe, men ikke for hvilket kort du havner på. Samme funksjon kan derfor havne på ulike kort.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
+      "id": "gjelder-alltid",
+      "tittel": "Gjelder alltid",
+      "tekst": "- **KI-kompetanse**: Organisasjonen skal ha tiltak som bygger KI-kompetanse. Det kreves ikke et bestemt nivå for hver person.\n- **Tilganger** (god praksis): KI ser det brukeren har tilgang til. Rydd i tilgangene før dere tar KI i bruk.\n- **Ansvar** (god praksis): Et menneske har ansvaret for det KI bidrar til, også når KI bare foreslår.\n- **Annet regelverk**: Personopplysningsloven, forvaltningsloven, arbeidsmiljøloven og likestillings- og diskrimineringsloven gjelder også."
     },
     {
       "id": "samme-verktoy",
@@ -16,12 +16,12 @@
       "tekst": "Hvor mye KI gjør selv, avgjør ikke kortet. Men jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom. *I M365: Copilot i Word, Excel, PowerPoint, Outlook og OneNote, KI i Clipchamp, Copilot Chat*\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter. *I M365: Work IQ, Researcher og Analytiker. Følger med E7. Egen lisens per bruker for E5*\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe. *I M365: Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede. *I M365: Autopilot (forhåndsversjon) og planlagte oppgaver i Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres. *I M365: Autofyll-kolonner i SharePoint, som krever Microsoft Copilot-lisens eller betaling etter bruk. Automatisk etikettering og maskinlæringsbasert oppbevaring i Purview, som følger med E5 og E7*\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke. *I M365: Copilot Code og apper i Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n\n- Unntaket for forarbeid på kort 2 gjelder bare når KI ikke påvirker utfallet vesentlig. KI som handler selv, gjør ofte nettopp det.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen. *I M365: Power Automate og regelbaserte oppbevaringsregler i Purview*"
     },
     {
-      "id": "gjelder-alltid",
-      "tittel": "Gjelder alltid",
-      "tekst": "- **KI-kompetanse**: Organisasjonen skal ha tiltak som bygger KI-kompetanse. Det kreves ikke et bestemt nivå for hver person.\n- **Tilganger** (god praksis): KI ser det brukeren har tilgang til. Rydd i tilgangene før dere tar KI i bruk.\n- **Ansvar** (god praksis): Et menneske har ansvaret for det KI bidrar til, også når KI bare foreslår.\n- **Annet regelverk**: Personopplysningsloven, forvaltningsloven, arbeidsmiljøloven og likestillings- og diskrimineringsloven gjelder også."
+      "id": "innledning",
+      "tittel": "Om kortene",
+      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nDet er formålet som avgjør: Hva skal KI gjøre, og hvem blir berørt? Verktøyet, hvor mye KI gjør selv og hvor sensitiv informasjonen er, betyr også noe, men ikke for hvilket kort du havner på. Samme funksjon kan derfor havne på ulike kort.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
     }
   ],
-  "veiledning": "Gå gjennom kortene i rekkefølge, og stopp ved det første som passer. Kort 3 kan gjelde i tillegg til kort 2.",
+  "veiledning": "Formålet avgjør, ikke appen. Gå gjennom kortene i rekkefølge, og stopp ved det første som passer. Kort 3 kan gjelde i tillegg til kort 2.",
   "kort": [
     {
       "id": "forbudt",

@@ -5,19 +5,19 @@ import { ChevronRightIcon } from '../components/Icons'
 import { Markdown } from '../lib/markdown'
 import type { KiVurdering as KiVurderingData } from '../types'
 
-function ExpandBox({ id, tittel, tekst }: KiVurderingData['bokser'][number]) {
+function ExpandRow({ id, tittel, tekst }: KiVurderingData['bokser'][number]) {
   const [open, setOpen] = useState(false)
   const panelId = `ki-vurdering-${id}`
 
   return (
-    <section className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-      <h2>
+    <div>
+      <h3>
         <button
           type="button"
           onClick={() => setOpen(o => !o)}
           aria-expanded={open}
           aria-controls={panelId}
-          className="w-full flex items-center gap-3 px-4 py-3.5 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500"
+          className="w-full flex items-center gap-3 px-4 py-3.5 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors focus-visible:outline-none focus-visible:bg-slate-100"
         >
           <span className="flex-1 text-sm font-semibold text-brand-700">{tittel}</span>
           <ChevronRightIcon
@@ -25,13 +25,13 @@ function ExpandBox({ id, tittel, tekst }: KiVurderingData['bokser'][number]) {
             className={`text-slate-400 flex-shrink-0 transition-transform duration-200 ${open ? 'rotate-90' : ''}`}
           />
         </button>
-      </h2>
+      </h3>
       {open && (
-        <div id={panelId} className="border-t border-slate-100 px-4 py-1 [&_.markdown>:first-child]:mt-3 [&_.markdown>:last-child]:mb-3">
+        <div id={panelId} className="px-4 py-1 [&_.markdown>:first-child]:mt-1 [&_.markdown>:last-child]:mb-3">
           <Markdown source={tekst} />
         </div>
       )}
-    </section>
+    </div>
   )
 }
 
@@ -90,10 +90,6 @@ export function KiVurdering() {
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-4 pb-8">
       <div className="max-w-2xl mx-auto">
-        <div className="space-y-3 mb-5">
-          {bokser.map(b => <ExpandBox key={b.id} {...b} />)}
-        </div>
-
         <p className="text-sm text-slate-600 leading-snug mb-3">{veiledning}</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 items-start gap-3">
@@ -125,6 +121,14 @@ export function KiVurdering() {
             />
           ))}
         </div>
+
+        {/* Background after the cards, so the cards are the first thing on a phone screen. */}
+        <section aria-labelledby="ki-vurdering-mer" className="mt-6">
+          <h2 id="ki-vurdering-mer" className={`${LABEL} text-slate-500 px-1 mb-2`}>Mer om vurderingen</h2>
+          <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden divide-y divide-slate-100">
+            {bokser.map(b => <ExpandRow key={b.id} {...b} />)}
+          </div>
+        </section>
 
         <p className="mt-4 text-xs text-slate-500 leading-snug">{merknad}</p>
       </div>
