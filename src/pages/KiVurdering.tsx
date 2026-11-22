@@ -99,8 +99,8 @@ export function KiVurdering() {
               key={k.id}
               label={`Snu kort ${i + 1}, ${k.tittel}`}
               flipOnCardClick={false}
-              frontClassName="min-h-[11.5rem] bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 text-left"
-              backClassName="min-h-[11.5rem] bg-brand-700 flex flex-col p-4 pt-6 text-left"
+              frontClassName="min-h-[12.5rem] bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 text-left"
+              backClassName="min-h-[12.5rem] bg-brand-700 flex flex-col p-4 pt-6 text-left"
               front={
                 <>
                   <Stripe farge={k.farge} />
