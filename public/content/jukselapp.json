@@ -5068,9 +5068,6 @@
     "tags": [
       "risiko",
       "tiltaksprinsipp"
-    ],
-    "alias": [
-      "Resilience"
     ]
   },
   {
@@ -6273,10 +6270,24 @@
   {
     "id": "robusthet",
     "tittel": "Robusthet",
-    "forklaring": "Prinsipp om at organisasjonen og systemene er motstandsdyktige og kan gjenopprette normaltilstand etter hendelser. Robusthet regnes som den fjerde pilaren i informasjonssikkerhet ved siden av KIT-triaden, og GDPR legger særlig vekt på «vedvarende robusthet».",
+    "forklaring": "Evnen et system har til å tåle påkjenninger som forstyrrelser, feil og endringer. Robusthet er det motsatte av sårbarhet. Det er ikke det samme som resiliens, som handler om å opprettholde eller gjenopprette funksjonen etter en påkjenning. Den norske teksten i GDPR art. 32 bruker «robusthet» der den engelske har «resilience». Kilde: [Store norske leksikon](https://snl.no/robusthet).",
     "tags": [
+      "risiko",
       "sikkerhet",
       "personvern",
+      "begrep"
+    ],
+    "alias": [
+      "Robustness"
+    ]
+  },
+  {
+    "id": "resiliens",
+    "tittel": "Resiliens",
+    "forklaring": "Evnen et system har til å opprettholde eller gjenopprette grunnleggende funksjoner etter en påkjenning, også når påkjenningen er ukjent eller uforutsett. Et strømforsyningssystem er resilient hvis strømforsyningen kan opprettholdes selv om visse feil inntreffer. Det er ikke det samme som robusthet, som handler om å tåle påkjenningen. Resiliens er en del av risikostyringen og erstatter ikke risikovurderinger. Kilde: [Store norske leksikon](https://snl.no/resiliens_-_risiko).",
+    "tags": [
+      "risiko",
+      "sikkerhet",
       "begrep"
     ],
     "alias": [
