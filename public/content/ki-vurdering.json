@@ -66,7 +66,7 @@
         "Migrasjon, asyl og grensekontroll: Bruke løgndetektor, vurdere risiko ved innreise, behandle søknader og klager om asyl, visum og opphold eller identifisere folk. Gjelder ikke kontroll av reisedokumenter",
         "Rettspleie og demokratiske prosesser: Hjelpe domstoler eller alternativ tvisteløsning med å undersøke fakta, tolke loven og anvende den på saken. Påvirke utfallet av valg og folkeavstemninger eller hvordan folk stemmer. Gjelder ikke verktøy for å organisere kampanjer"
       ],
-      "svar": "Vurder nærmere før dere bestemmer dere.",
+      "svar": "Sjekk først om unntaket gjelder. Hvis ikke, gjelder tiltakene under.",
       "punkter": [
         "Tillatt, men med strenge krav. Kravene gjelder i EU fra 02.12.27",
         "Ikke høy risiko hvis KI ikke påvirker utfallet vesentlig og bare gjør en snever oppgave, forbedrer noe et menneske allerede har gjort, finner mønstre eller avvik i tidligere beslutninger uten å erstatte menneskets vurdering, eller gjør forarbeid",
@@ -84,7 +84,7 @@
       "id": "apenhet",
       "tittel": "Åpenhet",
       "farge": "gul",
-      "sporsmal": "Snakker folk med KI, eller publiserer dere KI-innhold?",
+      "sporsmal": "Skal andre snakke med KI, eller publiserer dere KI-innhold?",
       "oppsummering": "Folk skal vite når de har med KI å gjøre",
       "eksempler": [
         {
@@ -96,7 +96,7 @@
           "m365": "Copilot Chat, PowerPoint, Clipchamp"
         },
         {
-          "tekst": "Skrive tekst som publiseres for å informere offentligheten om saker av allmenn interesse",
+          "tekst": "Publisere tekst KI har skrevet for å informere offentligheten, uten at et menneske har kontrollert den",
           "m365": "Word, Copilot Chat"
         },
         "Tolke følelser eller sortere folk ut fra biometri, som ansikt eller stemme"
