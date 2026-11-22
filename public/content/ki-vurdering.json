@@ -13,7 +13,7 @@
     {
       "id": "autonomi",
       "tittel": "Når KI gjør mer selv",
-      "tekst": "Hvor mye KI gjør selv, avgjør ikke risikokategorien. Men: Jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom. *I M365: Copilot i Word, Excel, PowerPoint, Outlook og OneNote, KI i Clipchamp, Copilot Chat*\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter. *I M365: Work IQ, Researcher og Analytiker*\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe. *I M365: Cowork*\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede. *I M365: Autopilot (forhåndsversjon) og planlagte oppgaver i Cowork*\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres. *I M365: Autofyll-kolonner i SharePoint, automatisk etikettering og maskinlæringsbasert oppbevaring i Purview*\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke. *I M365: Copilot Code og apper i Cowork*\n\n- Unntaket fra høy risiko gjelder ikke når flere KI-steg eller agenter til sammen påvirker beslutningen, selv om hvert steg alene er forarbeid.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen. *I M365: Power Automate og regelbaserte oppbevaringsregler i Purview*\n\n> Kilder: [Artikkel 3 nr. 1](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3), [Kommisjonens retningslinjer om hva et KI-system er](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application) og [Kommisjonens utkast til retningslinjer for høy risiko](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
+      "tekst": "Hvor mye KI gjør selv, avgjør ikke risikokategorien. Men: Jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom.\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter.\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe.\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede.\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres.\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke.\n\n- Unntaket fra høy risiko gjelder ikke når flere KI-steg eller agenter til sammen påvirker beslutningen, selv om hvert steg alene er forarbeid.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen.\n\n> Kilder: [Artikkel 3 nr. 1](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3), [Kommisjonens retningslinjer om hva et KI-system er](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application) og [Kommisjonens utkast til retningslinjer for høy risiko](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
     },
     {
       "id": "innledning",
@@ -90,18 +90,9 @@
       "sporsmal": "Skal andre snakke med KI, eller publiserer dere KI-innhold?",
       "oppsummering": "Folk skal vite når de har med KI å gjøre",
       "eksempler": [
-        {
-          "tekst": "Svare på spørsmål fra innbyggere eller ansatte i en chat",
-          "m365": "Agenter i Copilot Chat og Teams"
-        },
-        {
-          "tekst": "Lage bilder, lyd eller video som ligner ekte personer, steder eller hendelser",
-          "m365": "Copilot Chat, PowerPoint, Clipchamp"
-        },
-        {
-          "tekst": "Publisere tekst KI har skrevet for å informere offentligheten, uten at et menneske har kontrollert den",
-          "m365": "Word, Copilot Chat"
-        },
+        "Svare på spørsmål fra innbyggere eller ansatte i en chat",
+        "Lage bilder, lyd eller video som ligner ekte personer, steder eller hendelser",
+        "Publisere tekst KI har skrevet for å informere offentligheten, uten at et menneske har kontrollert den",
         "Tolke følelser eller sortere folk ut fra biometri, som ansikt eller stemme"
       ],
       "lenke": "Den offisielle teksten: [Artikkel 50 i KI-forordningen](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)",
@@ -122,42 +113,15 @@
       "sporsmal": "Passer ingen av kortene over?",
       "oppsummering": "Vanlig kontorarbeid med KI, når bruken ikke er forbudt, høy risiko eller krever åpenhet",
       "eksempler": [
-        {
-          "tekst": "Skrive utkast, omskrive og oversette tekst",
-          "m365": "Word, Outlook, Copilot Chat"
-        },
-        {
-          "tekst": "Oppsummere dokumenter, e-posttråder og videoer",
-          "m365": "Word, Outlook, Clipchamp"
-        },
-        {
-          "tekst": "Analysere tall og lage formler og diagrammer",
-          "m365": "Excel"
-        },
-        {
-          "tekst": "Lage en presentasjon fra et dokument eller en idé",
-          "m365": "PowerPoint"
-        },
-        {
-          "tekst": "Lage video med teksting, opplesning og bilder",
-          "m365": "Clipchamp"
-        },
-        {
-          "tekst": "Søke etter svar i egne dokumenter og rutiner",
-          "m365": "Copilot Chat, Microsoft Copilot"
-        },
-        {
-          "tekst": "Klassifisere og merke dokumenter for arkiv, søk og informasjonssikkerhet",
-          "m365": "SharePoint, Purview"
-        },
-        {
-          "tekst": "La en agent gjøre faste oppgaver, som å lage ukerapporter",
-          "m365": "Cowork, Autopilot"
-        },
-        {
-          "tekst": "Få hjelp til programmering",
-          "m365": "Copilot Chat, Copilot Code"
-        }
+        "Skrive utkast, omskrive og oversette tekst",
+        "Oppsummere dokumenter, e-posttråder og videoer",
+        "Analysere tall og lage formler og diagrammer",
+        "Lage en presentasjon fra et dokument eller en idé",
+        "Lage video med teksting, opplesning og bilder",
+        "Søke etter svar i egne dokumenter og rutiner",
+        "Klassifisere og merke dokumenter for arkiv, søk og informasjonssikkerhet",
+        "La en agent gjøre faste oppgaver, som å lage ukerapporter",
+        "Få hjelp til programmering"
       ],
       "svar": "Gå i gang.",
       "punkter": [

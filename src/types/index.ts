@@ -92,7 +92,7 @@ export interface KiVurderingKort {
   sporsmal: string    // front, the question the card asks
   oppsummering: string // front, one line under the question
   etikett?: string    // front, title of the eksempler box; default «Eksempler»
-  eksempler: (string | { tekst: string; m365: string })[] // front; m365: where it shows in M365, as a muted line
+  eksempler: string[] // front
   lenke?: string      // front, inline markdown link under eksempler, e.g. to the official list
   svar: string        // back, what to do
   punkter: string[]   // back; inline markdown links allowed

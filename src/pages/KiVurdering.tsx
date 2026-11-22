@@ -49,7 +49,7 @@ function Stripe({ farge }: { farge: KiVurderingData['kort'][number]['farge'] }) 
   return <span aria-hidden="true" className={`absolute inset-x-0 top-0 h-2 ${STRIPE[farge]}`} />
 }
 
-function CardBox({ id, tittel, punkter, lenke, dark }: { id: string; tittel: string; punkter: KiVurderingData['kort'][number]['eksempler']; lenke?: string; dark?: boolean }) {
+function CardBox({ id, tittel, punkter, lenke, dark }: { id: string; tittel: string; punkter: string[]; lenke?: string; dark?: boolean }) {
   const [open, setOpen] = useState(false)
 
   return (
@@ -72,14 +72,7 @@ function CardBox({ id, tittel, punkter, lenke, dark }: { id: string; tittel: str
       {open && (
         <div id={id}>
           <ul className={`list-disc pl-7 pr-3 pb-3 pt-1 space-y-1.5 text-xs leading-snug ${dark ? 'text-white [&_a]:text-white [&_a]:underline [&_a:hover]:text-brand-200 [&_a_svg]:hidden' : 'text-slate-600'}`}>
-            {punkter.map(p =>
-              typeof p === 'string' ? <li key={p}>{parseInline(p)}</li> : (
-                <li key={p.tekst}>
-                  {p.tekst}
-                  <span className="block text-[0.7rem] text-slate-500">I M365: {p.m365}</span>
-                </li>
-              ),
-            )}
+            {punkter.map(p => <li key={p}>{parseInline(p)}</li>)}
           </ul>
           {lenke && <p className="px-3 pb-3 text-xs leading-snug text-slate-600">{parseInline(lenke)}</p>}
         </div>
