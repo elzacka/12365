@@ -49,32 +49,41 @@ function Stripe({ farge }: { farge: KiVurderingData['kort'][number]['farge'] }) 
   return <span aria-hidden="true" className={`absolute inset-x-0 top-0 h-2 ${STRIPE[farge]}`} />
 }
 
-function CardBox({ id, tittel, punkter, lenke, dark }: { id: string; tittel: string; punkter: string[]; lenke?: string; dark?: boolean }) {
-  const [open, setOpen] = useState(false)
+interface Section { tittel: string; punkter: string[]; lenke?: string }
+
+// Sections share one row of toggles, so a back face with two boxes stays as tall as a face with one.
+function CardBoxes({ id, sections, dark }: { id: string; sections: Section[]; dark?: boolean }) {
+  const [open, setOpen] = useState<number | null>(null)
+  const shown = open === null ? null : sections[open]
 
   return (
     <div className={`mt-3 rounded-lg ${dark ? 'bg-white/10' : 'bg-slate-50'}`}>
-      <button
-        type="button"
-        onClick={() => setOpen(o => !o)}
-        aria-expanded={open}
-        aria-controls={id}
-        className={`w-full min-h-10 flex items-center gap-2 px-3 py-2 rounded-lg text-left text-xs font-semibold transition-colors focus-visible:outline-none ${
-          dark ? 'text-white hover:bg-white/10 focus-visible:bg-white/20' : 'text-brand-700 hover:bg-slate-100 focus-visible:bg-slate-200'
-        }`}
-      >
-        <span className="flex-1">{tittel}</span>
-        <ChevronRightIcon
-          size={16}
-          className={`flex-shrink-0 transition-transform duration-200 ${open ? 'rotate-90' : ''} ${dark ? 'text-brand-200' : 'text-slate-400'}`}
-        />
-      </button>
-      {open && (
-        <div id={id}>
-          <ul className={`list-disc pl-7 pr-3 pb-3 pt-1 space-y-1.5 text-xs leading-snug ${dark ? 'text-white [&_a]:text-white [&_a]:underline [&_a:hover]:text-brand-200 [&_a_svg]:hidden' : 'text-slate-600'}`}>
-            {punkter.map(p => <li key={p}>{parseInline(p)}</li>)}
+      <div className="flex">
+        {sections.map((sec, i) => (
+          <button
+            key={sec.tittel}
+            type="button"
+            onClick={() => setOpen(o => (o === i ? null : i))}
+            aria-expanded={open === i}
+            aria-controls={`${id}-${i}`}
+            className={`flex-1 min-w-0 min-h-10 flex items-center gap-1.5 px-3 py-2 rounded-lg text-left text-xs font-semibold whitespace-nowrap transition-colors focus-visible:outline-none ${
+              dark ? 'text-white hover:bg-white/10 focus-visible:bg-white/20' : 'text-brand-700 hover:bg-slate-100 focus-visible:bg-slate-200'
+            } ${open === i ? (dark ? 'bg-white/10' : 'bg-slate-100') : ''}`}
+          >
+            <span className="flex-1">{sec.tittel}</span>
+            <ChevronRightIcon
+              size={16}
+              className={`flex-shrink-0 transition-transform duration-200 ${open === i ? 'rotate-90' : ''} ${dark ? 'text-brand-200' : 'text-slate-400'}`}
+            />
+          </button>
+        ))}
+      </div>
+      {shown && (
+        <div id={`${id}-${open}`}>
+          <ul className={`list-disc pl-7 pr-3 pb-3 pt-2 space-y-1.5 text-xs leading-snug ${dark ? 'text-white [&_a]:text-white [&_a]:underline [&_a:hover]:text-brand-200 [&_a_svg]:hidden' : 'text-slate-600'}`}>
+            {shown.punkter.map(p => <li key={p}>{parseInline(p)}</li>)}
           </ul>
-          {lenke && <p className="px-3 pb-3 text-xs leading-snug text-slate-600">{parseInline(lenke)}</p>}
+          {shown.lenke && <p className="px-3 pb-3 text-xs leading-snug text-slate-600">{parseInline(shown.lenke)}</p>}
         </div>
       )}
     </div>
@@ -95,15 +104,15 @@ export function KiVurdering() {
               key={k.id}
               label={`Snu kort ${i + 1}, ${k.tittel}`}
               flipOnCardClick={false}
-              frontClassName="min-h-[12.5rem] bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 text-left"
-              backClassName="min-h-[12.5rem] bg-brand-700 flex flex-col p-4 pt-6 text-left"
+              frontClassName="min-h-[13.5rem] bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 text-left"
+              backClassName="min-h-[13.5rem] bg-brand-700 flex flex-col p-4 pt-6 text-left"
               front={
                 <>
                   <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-400`}>{i + 1} · {k.tittel}</p>
                   <h3 className="mt-1 pr-8 text-base font-semibold text-slate-800 leading-snug">{k.sporsmal}</h3>
                   <p className="mt-1 text-xs text-slate-600 leading-snug">{k.oppsummering}</p>
-                  <CardBox id={`ki-kort-${k.id}-forside`} tittel={k.etikett ?? 'Eksempler'} punkter={k.eksempler} lenke={k.lenke} />
+                  <CardBoxes id={`ki-kort-${k.id}-forside`} sections={[{ tittel: k.etikett ?? 'Eksempler', punkter: k.eksempler, lenke: k.lenke }]} />
                 </>
               }
               back={
@@ -111,7 +120,14 @@ export function KiVurdering() {
                   <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-200`}>{i + 1} · {k.tittel}</p>
                   <p className="mt-1 pr-8 text-base font-semibold text-white leading-snug">{k.svar}</p>
-                  <CardBox id={`ki-kort-${k.id}-bakside`} tittel="Detaljer" punkter={k.punkter} dark />
+                  <CardBoxes
+                    id={`ki-kort-${k.id}-bakside`}
+                    sections={[
+                      { tittel: 'Regler og unntak', punkter: k.regler },
+                      { tittel: 'Tiltak', punkter: k.tiltak },
+                    ].filter(sec => sec.punkter.length > 0)}
+                    dark
+                  />
                   <p className="mt-auto pt-3 text-[0.65rem] text-brand-200 [&_a]:text-white [&_a]:underline [&_a:hover]:text-brand-200 [&_a_svg]:hidden">{parseInline(k.kilde)}</p>
                 </>
               }

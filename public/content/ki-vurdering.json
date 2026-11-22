@@ -8,12 +8,12 @@
     {
       "id": "samme-verktoy",
       "tittel": "Samme verktøy, ulike kategorier",
-      "tekst": "- **Regneark**: Analysere budsjettet → minimal risiko. Rangere ansatte etter prestasjoner → høy risiko.\n- **Oppsummering**: Oppsummere et møte → minimal risiko. Oppsummere søknader om en ytelse før vedtak → høy risiko, men kan være unntatt når saksbehandleren selv går gjennom grunnlaget.\n- **Bilder**: Illustrasjon til en intern presentasjon → minimal risiko. Realistisk bilde av en ekte person som publiseres → åpenhet. Nakenbilde av en kollega → forbudt.\n- **Stemme og video**: Opplæringsvideo med KI-stemme → minimal risiko. Publisert video der KI-stemmen ligner en ekte person → åpenhet.\n- **Tone og følelser**: Sjekke tonen i en e-post → minimal risiko. Tolke følelsene til ansatte ut fra stemmen i møter → forbudt.\n- **Klassifisering og metadata**: Sortere dokumenter for arkiv og søk → minimal risiko. Sortere jobbsøknader etter hvem som bør gå videre → høy risiko.\n- **Agenter**: En agent som rydder i innboksen din → minimal risiko. En agent som fordeler saker til saksbehandlere ut fra hvordan hver av dem har jobbet før → høy risiko.\n- **Chat**: Du spør en KI-assistent selv → minimal risiko. En chat som svarer innbyggere → åpenhet.\n\n> Kilder: [Artikkel 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5), [artikkel 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50), [vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3) og [Kommisjonens utkast til retningslinjer](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
+      "tekst": "- **Regneark**: Analysere budsjettet → minimal risiko. Rangere ansatte etter prestasjoner → høy risiko.\n- **Oppsummering**: Oppsummere et møte → minimal risiko. Oppsummere søknader om en ytelse før vedtak → høy risiko, men kan være unntatt når saksbehandleren selv går gjennom grunnlaget.\n- **Bilder**: Illustrasjon til en intern presentasjon → minimal risiko. Realistisk bilde av en ekte person som publiseres → åpenhet. Nakenbilde av en kollega → forbudt.\n- **Stemme og video**: Opplæringsvideo med KI-stemme → minimal risiko. Publisert video der KI-stemmen ligner en ekte person → åpenhet.\n- **Tone og følelser**: Sjekke tonen i en e-post → minimal risiko. Tolke følelsene til ansatte ut fra stemmen i møter → forbudt.\n- **Klassifisering og metadata**: Sortere dokumenter for arkiv og søk → minimal risiko. Sortere jobbsøknader etter hvem som bør gå videre → høy risiko.\n- **Agenter**: En agent som rydder i innboksen din → minimal risiko. En agent som fordeler saker til saksbehandlere ut fra hvordan hver av dem har jobbet før → høy risiko.\n- **Chat**: Du spør en KI-assistent selv → minimal risiko. En chat som svarer innbyggere → åpenhet.\n\n> Kilder: [Artikkel 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5), [artikkel 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50), [vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3) og [Kommisjonens utkast til retningslinjer for høyrisiko KI](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
     },
     {
       "id": "autonomi",
       "tittel": "Når KI gjør mer selv",
-      "tekst": "Hvor mye KI gjør selv, avgjør ikke risikokategorien. Men: Jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom.\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter.\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe.\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede.\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres.\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke.\n\n- Unntaket fra høy risiko gjelder ikke når flere KI-steg eller agenter til sammen påvirker beslutningen, selv om hvert steg alene er forarbeid.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen.\n\n> Kilder: [Artikkel 3 nr. 1](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3), [Kommisjonens retningslinjer om hva et KI-system er](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application) og [Kommisjonens utkast til retningslinjer for høy risiko](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
+      "tekst": "Hvor mye KI gjør selv, avgjør ikke risikokategorien. Men: Jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom.\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter.\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe.\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede.\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres.\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke.\n\n- Unntaket fra høy risiko gjelder ikke når flere KI-steg eller agenter til sammen påvirker beslutningen, selv om hvert steg alene er forarbeid.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen.\n\n> Kilder: [Artikkel 3 nr. 1](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3), [Kommisjonens retningslinjer om hva et KI-system er](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application) og [Kommisjonens utkast til retningslinjer for høyrisiko KI](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
     },
     {
       "id": "innledning",
@@ -43,10 +43,11 @@
       ],
       "lenke": "Den offisielle lista: [Artikkel 5 i KI-forordningen](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)",
       "svar": "Stopp. Finn en annen måte å nå målet på.",
-      "punkter": [
+      "regler": [
         "Forbudene gjelder uansett verktøy og hvem som har laget det",
         "[Unntakene](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5) er få og snevre, for eksempel å tolke følelser av medisinske grunner eller sikkerhetsgrunner"
       ],
+      "tiltak": [],
       "kilde": "KI-forordningen [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)",
       "etikett": "Hele lista"
     },
@@ -68,20 +69,22 @@
         "Rettspleie og demokratiske prosesser: Hjelpe domstoler eller alternativ tvisteløsning med å undersøke fakta, tolke loven og anvende den på saken. Påvirke utfallet av valg og folkeavstemninger eller hvordan folk stemmer. Gjelder ikke verktøy for å organisere kampanjer"
       ],
       "lenke": "Den offisielle lista: [Vedlegg III i KI-forordningen](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3). Unntaket: [Artikkel 6 nr. 3](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6).",
-      "svar": "Sjekk først om unntaket gjelder. Hvis ikke, gjelder tiltakene under.",
-      "punkter": [
+      "svar": "Sjekk først om unntaket gjelder. Hvis ikke: Følg tiltakene.",
+      "regler": [
         "Tillatt, men med strenge krav. Kravene gjelder i EU fra 02.12.27",
         "Unntaket: Ikke høy risiko hvis KI ikke påvirker utfallet vesentlig og bare gjør en snever oppgave, forbedrer noe et menneske allerede har gjort, finner mønstre eller avvik i tidligere beslutninger uten å erstatte menneskets vurdering, eller gjør forarbeid",
         "Unntaket gjelder ikke når KI vurderer personlige egenskaper eller atferd (profilering), rangerer, gir poeng eller foreslår et utfall",
         "At et menneske tar den endelige beslutningen, endrer ikke risikokategorien",
-        "Den som mener unntaket gjelder, skal dokumentere vurderingen før KI tas i bruk",
-        "Dere skal blant annet bruke systemet etter bruksanvisningen, sørge for menneskelig kontroll, ta vare på logger og informere dem beslutningene gjelder",
-        "Dere skal informere ansatte og tillitsvalgte før dere tar systemet i bruk på arbeidsplassen",
-        "Offentlige organisasjoner skal også vurdere konsekvensene for folks grunnleggende rettigheter før første bruk og registrere bruken i EUs database. En personvernkonsekvensvurdering (DPIA) kan brukes som grunnlag",
         "Dere kan selv bli leverandør hvis dere bruker en generell KI-assistent til et formål på lista, og må da oppfylle kravene til leverandører",
         "KI som er sikkerhetskomponent i produkter som maskiner, heiser, leketøy og medisinsk utstyr, kan også være høy risiko. Kravene gjelder i EU fra 02.08.28"
       ],
-      "kilde": "KI-forordningen [art. 6](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6), [art. 25](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25), [art. 26](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26), [art. 27](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27), [art. 49](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-49) og [art. 113](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113), [vedlegg I](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-1) og [vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3). [Kommisjonens utkast til retningslinjer](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
+      "tiltak": [
+        "Dokumenter vurderingen før KI tas i bruk hvis dere mener unntaket gjelder",
+        "Bruk systemet etter bruksanvisningen, sørg for menneskelig kontroll, ta vare på logger og informer dem beslutningene gjelder",
+        "Informer ansatte og tillitsvalgte før dere tar systemet i bruk på arbeidsplassen",
+        "Offentlige organisasjoner: Vurder konsekvensene for folks grunnleggende rettigheter før første bruk, og registrer bruken i EUs database. En personvernkonsekvensvurdering (DPIA) kan brukes som grunnlag"
+      ],
+      "kilde": "KI-forordningen [art. 6](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6), [art. 25](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25), [art. 26](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26), [art. 27](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27), [art. 49](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-49) og [art. 113](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113), [vedlegg I](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-1) og [vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3). [Kommisjonens utkast til retningslinjer for høyrisiko KI](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
     },
     {
       "id": "apenhet",
@@ -97,12 +100,17 @@
       ],
       "lenke": "Den offisielle teksten: [Artikkel 50 i KI-forordningen](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)",
       "svar": "Gå i gang, men si fra at det er KI.",
-      "punkter": [
-        "Folk skal vite at de snakker med KI, med mindre det er åpenbart",
-        "Si fra når bilder, lyd eller video som ligner ekte personer, steder eller hendelser, er laget eller endret av KI. I åpenbart kunstneriske, satiriske eller fiktive verk holder det å si at KI er brukt",
-        "Si fra om KI-tekst dere publiserer for å informere offentligheten, unntatt når et menneske har kontrollert den og noen står ansvarlig",
+      "regler": [
+        "Dere trenger ikke si fra når det er åpenbart at folk snakker med KI",
+        "I åpenbart kunstneriske, satiriske eller fiktive verk holder det å si at KI er brukt",
+        "Dere trenger ikke si fra om KI-tekst som et menneske har kontrollert, og som noen står ansvarlig for"
+      ],
+      "tiltak": [
+        "Si fra til folk at de snakker med KI",
+        "Si fra når bilder, lyd eller video som ligner ekte personer, steder eller hendelser, er laget eller endret av KI",
+        "Si fra om KI-tekst dere publiserer for å informere offentligheten",
         "Si fra til folk når KI tolker følelsene deres eller sorterer dem ut fra biometri, som ansikt eller stemme",
-        "Informasjonen skal være tydelig og tilgjengelig for alle, og komme senest første gang folk snakker med KI eller ser eller hører innholdet"
+        "Gi informasjonen tydelig og tilgjengelig for alle, senest første gang folk snakker med KI eller ser eller hører innholdet"
       ],
       "kilde": "KI-forordningen [art. 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)"
     },
@@ -124,9 +132,11 @@
         "Få hjelp til programmering"
       ],
       "svar": "Gå i gang.",
-      "punkter": [
+      "regler": [
         "KI-forordningen stiller ingen egne krav utover det som står under «Gjelder alltid»",
-        "EU oppfordrer til frivillige atferdsregler for ansvarlig KI, også ved minimal risiko",
+        "EU oppfordrer til frivillige atferdsregler for ansvarlig KI, også ved minimal risiko"
+      ],
+      "tiltak": [
         "Kontroller det KI lager, fordi KI kan ta feil og likevel høres sikker ut",
         "Gå gjennom kortene på nytt hvis formålet endres"
       ],

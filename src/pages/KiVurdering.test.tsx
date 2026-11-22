@@ -11,7 +11,7 @@ const DATA: KiVurderingData = {
   veiledning: 'Gå i rekkefølge',
   kort: ['A', 'B', 'C', 'D'].map(t => ({
     id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, oppsummering: `${t} kort`, eksempler: [`${t} eksempel`],
-    svar: `${t} svar`, punkter: [`${t} punkt`], kilde: `${t} [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)`,
+    svar: `${t} svar`, regler: [`${t} regel`], tiltak: t === 'A' ? [] : [`${t} tiltak`], kilde: `${t} [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)`,
     ...(t === 'B' && { etikett: 'Hele lista', lenke: '[Vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)' }),
   })),
   merknad: 'Ikke juridisk vurdering',
@@ -80,6 +80,19 @@ describe('KiVurdering', () => {
     expect(screen.queryByRole('link', { name: 'Vedlegg III' })).toBeNull()
     fireEvent.click(screen.getByRole('button', { name: 'Hele lista' }))
     expect(screen.getByRole('link', { name: 'Vedlegg III' })).toHaveAttribute('href', 'https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3')
+  })
+
+  it('shows the back boxes with one open at a time, and hides an empty one', async () => {
+    await renderPage()
+    expect(screen.getAllByRole('button', { name: 'Regler og unntak' })).toHaveLength(4)
+    expect(screen.getAllByRole('button', { name: 'Tiltak' })).toHaveLength(3)
+    const [regler, tiltak] = [screen.getAllByRole('button', { name: 'Regler og unntak' })[1], screen.getAllByRole('button', { name: 'Tiltak' })[0]]
+    fireEvent.click(regler)
+    expect(screen.getByText('B regel')).toBeInTheDocument()
+    fireEvent.click(tiltak)
+    expect(screen.queryByText('B regel')).toBeNull()
+    expect(screen.getByText('B tiltak')).toBeInTheDocument()
+    expect(regler).toHaveAttribute('aria-expanded', 'false')
   })
 
   it('flips one card at a time with its own button', async () => {

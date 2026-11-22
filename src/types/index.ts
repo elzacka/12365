@@ -95,7 +95,8 @@ export interface KiVurderingKort {
   eksempler: string[] // front
   lenke?: string      // front, inline markdown link under eksempler, e.g. to the official list
   svar: string        // back, what to do
-  punkter: string[]   // back; inline markdown links allowed
+  regler: string[]    // back, box «Regler og unntak»; inline markdown links allowed
+  tiltak: string[]    // back, box «Tiltak»; empty hides the box
   kilde: string       // back, legal basis; inline markdown links to the AI Act Service Desk
 }
 
