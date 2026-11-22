@@ -10,7 +10,7 @@ const DATA: KiVurderingData = {
   ],
   veiledning: 'Gå i rekkefølge',
   kort: ['A', 'B', 'C', 'D'].map(t => ({
-    id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, eksempler: [`${t} eksempel`],
+    id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, oppsummering: `${t} kort`, eksempler: [`${t} eksempel`],
     svar: `${t} svar`, punkter: [`${t} punkt`], kilde: `${t} kilde`,
     ...(t === 'B' && { etikett: 'Hele lista' }),
   })),
@@ -47,10 +47,25 @@ describe('KiVurdering', () => {
     expect(screen.getByRole('button', { name: 'Gjelder alltid' })).toHaveAttribute('aria-expanded', 'false')
   })
 
-  it('labels the front list with the card label, else «For eksempel»', async () => {
+  it('titles the front box with the card label, else «Eksempler»', async () => {
     await renderPage()
-    expect(screen.getByText('Hele lista')).toBeInTheDocument()
-    expect(screen.getAllByText('For eksempel')).toHaveLength(3)
+    expect(screen.getByRole('button', { name: 'Hele lista' })).toBeInTheDocument()
+    expect(screen.getAllByRole('button', { name: 'Eksempler' })).toHaveLength(3)
+  })
+
+  it('opens a card box without flipping the card', async () => {
+    await renderPage()
+    const flip = screen.getAllByRole('button', { name: /^Snu kort \d, / })[0]
+    const box = screen.getAllByRole('button', { name: 'Eksempler' })[0]
+    expect(screen.queryByText('A eksempel')).toBeNull()
+
+    fireEvent.click(box)
+    expect(box).toHaveAttribute('aria-expanded', 'true')
+    expect(screen.getByText('A eksempel')).toBeInTheDocument()
+    expect(flip).toHaveAttribute('aria-pressed', 'false')
+
+    fireEvent.click(screen.getByText('A?'))
+    expect(flip).toHaveAttribute('aria-pressed', 'false')
   })
 
   it('flips one card at a time with its own button', async () => {

@@ -48,6 +48,35 @@ function Stripe({ farge }: { farge: KiVurderingData['kort'][number]['farge'] }) 
   return <span aria-hidden="true" className={`absolute inset-x-0 top-0 h-2 ${STRIPE[farge]}`} />
 }
 
+function CardBox({ id, tittel, punkter, dark }: { id: string; tittel: string; punkter: string[]; dark?: boolean }) {
+  const [open, setOpen] = useState(false)
+
+  return (
+    <div className={`mt-3 rounded-lg ${dark ? 'bg-white/10' : 'bg-slate-50'}`}>
+      <button
+        type="button"
+        onClick={() => setOpen(o => !o)}
+        aria-expanded={open}
+        aria-controls={id}
+        className={`w-full min-h-10 flex items-center gap-2 px-3 py-2 rounded-lg text-left text-xs font-semibold transition-colors focus-visible:outline-none ${
+          dark ? 'text-white hover:bg-white/10 focus-visible:bg-white/20' : 'text-brand-700 hover:bg-slate-100 focus-visible:bg-slate-200'
+        }`}
+      >
+        <span className="flex-1">{tittel}</span>
+        <ChevronRightIcon
+          size={16}
+          className={`flex-shrink-0 transition-transform duration-200 ${open ? 'rotate-90' : ''} ${dark ? 'text-brand-200' : 'text-slate-400'}`}
+        />
+      </button>
+      {open && (
+        <ul id={id} className={`list-disc pl-7 pr-3 pb-3 pt-1 space-y-1.5 text-xs leading-snug ${dark ? 'text-white' : 'text-slate-600'}`}>
+          {punkter.map(p => <li key={p}>{p}</li>)}
+        </ul>
+      )}
+    </div>
+  )
+}
+
 export function KiVurdering() {
   const { bokser, veiledning, kort, merknad } = use(fetchKiVurdering())
 
@@ -60,23 +89,21 @@ export function KiVurdering() {
 
         <p className="text-sm text-slate-600 leading-snug mb-3">{veiledning}</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 items-start gap-3">
           {kort.map((k, i) => (
             <FlipFrame
               key={k.id}
               label={`Snu kort ${i + 1}, ${k.tittel}`}
-              className="h-full"
-              frontClassName="bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 pb-9 text-left hover:shadow-md transition-shadow"
-              backClassName="bg-brand-700 flex flex-col p-4 pt-6 pb-9 text-left"
+              flipOnCardClick={false}
+              frontClassName="min-h-[14rem] bg-white border border-slate-200 shadow-sm flex flex-col p-4 pt-6 pb-12 text-left"
+              backClassName="min-h-[14rem] bg-brand-700 flex flex-col p-4 pt-6 pb-12 text-left"
               front={
                 <>
                   <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-400`}>{i + 1} · {k.tittel}</p>
                   <h3 className="mt-1 text-base font-semibold text-slate-800 leading-snug">{k.sporsmal}</h3>
-                  <p className={`${LABEL} mt-3 mb-1 text-slate-500`}>{k.etikett ?? 'For eksempel'}</p>
-                  <ul className="list-disc pl-4 space-y-1 text-xs text-slate-600 leading-snug">
-                    {k.eksempler.map(e => <li key={e}>{e}</li>)}
-                  </ul>
+                  <p className="mt-1 text-xs text-slate-600 leading-snug">{k.oppsummering}</p>
+                  <CardBox id={`ki-kort-${k.id}-forside`} tittel={k.etikett ?? 'Eksempler'} punkter={k.eksempler} />
                 </>
               }
               back={
@@ -84,9 +111,7 @@ export function KiVurdering() {
                   <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-200`}>{i + 1} · {k.tittel}</p>
                   <p className="mt-1 text-base font-semibold text-white leading-snug">{k.svar}</p>
-                  <ul className="mt-3 list-disc pl-4 space-y-1.5 text-xs text-white leading-snug">
-                    {k.punkter.map(p => <li key={p}>{p}</li>)}
-                  </ul>
+                  <CardBox id={`ki-kort-${k.id}-bakside`} tittel="Detaljer" punkter={k.punkter} dark />
                   <p className="mt-auto pt-3 text-[0.65rem] text-brand-200">{k.kilde}</p>
                 </>
               }

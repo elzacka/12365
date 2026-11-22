@@ -30,17 +30,19 @@ interface FlipFrameProps {
   frontClassName: string
   backClassName: string
   className?: string
+  /** false: only the flip button flips, so the faces can hold their own buttons. */
+  flipOnCardClick?: boolean
 }
 
-// The whole card flips on a click; keyboard and screen reader users get one
-// flip button. The hidden face is inert, so its link is never focused unseen.
-export function FlipFrame({ label, front, back, frontClassName, backClassName, className = '' }: FlipFrameProps) {
+// By default the whole card flips on a click; keyboard and screen reader users get one
+// flip button. The hidden face is inert, so its controls are never focused unseen.
+export function FlipFrame({ label, front, back, frontClassName, backClassName, className = '', flipOnCardClick = true }: FlipFrameProps) {
   const [flipped, setFlipped] = useState(false)
 
   return (
     <div
-      className={`flip-card relative ${className} ${flipped ? 'is-flipped' : ''}`}
-      onClick={() => setFlipped(f => !f)}
+      className={`flip-card relative ${className} ${flipped ? 'is-flipped' : ''} ${flipOnCardClick ? '' : 'cursor-auto'}`}
+      onClick={flipOnCardClick ? () => setFlipped(f => !f) : undefined}
     >
       {/* First in reading order: the back face follows it once flipped. */}
       <button
@@ -51,9 +53,9 @@ export function FlipFrame({ label, front, back, frontClassName, backClassName, c
           e.stopPropagation()
           setFlipped(f => !f)
         }}
-        className={`absolute bottom-1 right-1 z-10 w-8 h-8 flex items-center justify-center rounded-full focus-visible:outline-2 focus-visible:outline-brand-500 ${
-          flipped ? 'text-brand-200 focus-visible:outline-white' : 'text-slate-500'
-        }`}
+        className={`absolute z-10 flex items-center justify-center rounded-full focus-visible:outline-none ${
+          flipOnCardClick ? 'bottom-1 right-1 w-8 h-8' : 'bottom-0 right-0 w-12 h-12 cursor-pointer'
+        } ${flipped ? 'text-brand-200 focus-visible:bg-white/15' : 'text-slate-500 focus-visible:bg-slate-100'}`}
       >
         <FlipIcon size={14} />
       </button>

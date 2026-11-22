@@ -18,6 +18,7 @@
       "tittel": "Forbudt",
       "farge": "rod",
       "sporsmal": "Er formålet forbudt?",
+      "oppsummering": "Formål som manipulerer, overvåker, rangerer eller krenker folk",
       "eksempler": [
         "Manipulere folk til valg som skader dem",
         "Tolke følelsene til ansatte, elever eller studenter",
@@ -36,6 +37,7 @@
       "tittel": "Høy risiko",
       "farge": "oransje",
       "sporsmal": "Er formålet på høyrisikolista?",
+      "oppsummering": "Åtte områder der KI kan påvirke folks liv, helse eller rettigheter",
       "etikett": "Hele lista",
       "eksempler": [
         "Biometri: Kjenne igjen folk på avstand, sortere dem etter sensitive egenskaper eller tolke følelser",
@@ -63,6 +65,7 @@
       "tittel": "Åpenhet",
       "farge": "gul",
       "sporsmal": "Møter folk KI, eller publiserer dere KI-innhold?",
+      "oppsummering": "Samtaler med KI og KI-innhold som andre ser eller leser",
       "eksempler": [
         "Svare på spørsmål fra innbyggere eller ansatte",
         "Lage bilder, lyd eller video som ligner ekte personer eller hendelser",
@@ -81,6 +84,7 @@
       "tittel": "Lav risiko",
       "farge": "gronn",
       "sporsmal": "Ingen av delene?",
+      "oppsummering": "Det meste av vanlig kontorarbeid med KI",
       "eksempler": [
         "Skrive utkast, oppsummere og oversette",
         "Søke i egne dokumenter og rutiner",
