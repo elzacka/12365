@@ -156,8 +156,8 @@ export interface OppslagGroup {
   undergrupper?: string[]
 }
 
-// `tittel` is the full form, an acronym goes in `undertittel`. `alias` makes
-// an entry findable by other names without a row of its own.
+// `tittel` is the most established form; `undertittel` holds its acronym for
+// search only. `alias` makes an entry findable by other names and shows as «Også:».
 export interface Oppslag {
   id: string
   tittel: string

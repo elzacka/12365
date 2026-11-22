@@ -1372,15 +1372,14 @@
   {
     "id": "digital-omnibus",
     "tittel": "Digital Omnibus",
-    "undertittel": "EU",
-    "forklaring": "EU-kommisjonens pakke med forslag om å forenkle EUs digitale regelverk, lagt frem 19.11.25. Den har to deler:\n◦ **Digital Omnibus on AI**: Endrer KI-forordningen. Vedtatt som forordning (EU) 2026/1744.\n◦ **Digital Omnibus Regulation**: Forslag om endringer i personvernforordningen, dataforordningen (Data Act), NIS2 og reglene om informasjonskapsler.\nKI-delen utsetter blant annet kravene til høyrisikosystemer og forbyr KI-systemer som lager intime bilder uten samtykke eller overgrepsmateriale av barn. Ingen av endringene gjelder i Norge før de er tatt inn i EØS-avtalen.",
+    "forklaring": "EU-kommisjonens pakke med forslag om å forenkle EUs digitale regelverk, lagt frem 19.11.25. Den har to deler:\n◦ **Digital Omnibus on AI**: Endrer KI-forordningen. Vedtatt som forordning (EU) 2026/1744.\n◦ **Digital Omnibus**: Forslag om endringer i personvernforordningen, dataforordningen, NIS 2-direktivet og reglene om informasjonskapsler.\nKI-delen utsetter blant annet kravene til KI-systemer med høy risiko og forbyr KI-systemer som lager intime bilder uten samtykke eller overgrepsmateriale av barn. I Norge vurderes endringene i arbeidet med KI-loven.",
     "tags": [
       "ki",
-      "personvern",
       "regelverk"
     ],
     "alias": [
       "KI-omnibusen",
+      "Omnibus VII",
       "Digital Omnibus on AI",
       "Digital Omnibus Regulation"
     ]
@@ -1682,17 +1681,18 @@
   },
   {
     "id": "eus-ki-forordning",
-    "tittel": "EUs KI-forordning",
-    "undertittel": "AI Act",
-    "forklaring": "EUs risikobaserte regelverk for kunstig intelligens, vedtatt i 2024 og endret i 2026. Forordningen er EØS-relevant, men gjelder ikke i Norge før den er tatt inn i EØS-avtalen. Den ventes å bli norsk lov gjennom KI-loven.",
+    "tittel": "KI-forordningen",
+    "forklaring": "EUs risikobaserte regelverk for kunstig intelligens, forordning (EU) 2024/1689, endret ved forordning (EU) 2026/1744. Forordningen er EØS-relevant, men gjelder ikke i Norge før den er tatt inn i EØS-avtalen. Den skal gjennomføres i norsk rett gjennom KI-loven.",
     "tags": [
       "ki",
-      "personvern",
       "regelverk"
     ],
     "alias": [
+      "AI Act",
+      "Artificial Intelligence Act",
       "EU AI Act",
-      "Artificial Intelligence Act"
+      "Forordning om kunstig intelligens",
+      "EUs KI-forordning"
     ]
   },
   {
@@ -1942,16 +1942,14 @@
     "id": "tekst-og-datautvinning",
     "tittel": "Tekst- og datautvinning",
     "undertittel": "TDM",
-    "forklaring": "Automatisert analyse av tekst og data i digital form for å finne mønstre, utviklingstrekk og sammenhenger. Å trene KI-modeller regnes som tekst- og datautvinning. EUs digitalmarkedsdirektiv lar alle med lovlig tilgang bruke verk til dette, med mindre rettighetshaveren har reservert seg. For innhold på nettet bør reservasjonen være maskinlesbar, for eksempel i metadata. Forskningsorganisasjoner og kulturarvinstitusjoner har et eget unntak for forskning, og der kan rettighetshaveren ikke reservere seg. Åndsverkloven har ennå ikke et generelt unntak for tekst- og datautvinning (07.10.26). Stortinget behandler Prop. 41 LS (2025–2026), som innfører reglene. Nettsted: [regjeringen.no](https://www.regjeringen.no/no/dokumenter/prop.-41-ls-20252026/id3154279/).",
+    "forklaring": "Automatisert analyse av tekst og data i digital form for å finne mønstre, utviklingstrekk og sammenhenger. Å trene KI-modeller regnes som tekst- og datautvinning. Digitalmarkedsdirektivet lar alle med lovlig tilgang bruke verk til dette, med mindre rettighetshaveren har reservert seg. For innhold på nettet bør reservasjonen være maskinlesbar, for eksempel i metadata. Forskningsorganisasjoner og kulturarvinstitusjoner har et eget unntak for forskning, og der kan rettighetshaveren ikke reservere seg. I Norge skal reglene inn i åndsverkloven gjennom Prop. 41 LS (2025–2026).",
     "tags": [
       "ki",
       "regelverk",
       "begrep"
     ],
     "alias": [
-      "Text and data mining",
-      "Digitalmarkedsdirektivet",
-      "DSM-direktivet"
+      "Text and data mining"
     ]
   },
   {
@@ -2527,15 +2525,15 @@
   {
     "id": "huderia",
     "tittel": "HUDERIA",
-    "undertittel": "Europarådet",
-    "forklaring": "Europarådets metode for å vurdere risiko og konsekvenser av KI-systemer for menneskerettigheter, demokrati og rettsstaten. Offentlige og private aktører kan bruke den gjennom hele livsløpet til et KI-system. Metoden er ikke rettslig bindende, men er laget som støtte for partene i Europarådets rammekonvensjon om KI, som Norge har signert.\nHUDERIA har fire elementer:\n1. Kontekstbasert risikoanalyse (COBRA)\n2. Involvering av berørte parter\n3. Risiko- og konsekvensvurdering\n4. Tiltaksplan\nVurderingen gjentas når systemet eller omgivelsene endrer seg. Metoden kan brukes sammen med andre rammeverk, blant annet FRIA etter KI-forordningen.\nNettsted: [coe.int](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems).",
+    "forklaring": "Europarådets metode for å vurdere risiko og konsekvenser av KI-systemer for menneskerettigheter, demokrati og rettsstaten. Offentlige og private aktører kan bruke den gjennom hele livsløpet til et KI-system. Metoden er ikke rettslig bindende, men er laget som støtte for partene i Europarådskonvensjonen om kunstig intelligens, som Norge har undertegnet.\nHUDERIA har fire elementer:\n1. Context-Based Risk Analysis (COBRA)\n2. Stakeholder Engagement Process (SEP)\n3. Risk and Impact Assessment\n4. Mitigation Plan\nVurderingen gjentas når systemet eller omgivelsene endrer seg. Metoden kan brukes sammen med andre rammeverk, blant annet FRIA etter KI-forordningen.\nNettsted: [coe.int](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems).",
     "tags": [
       "ki",
       "personvern",
       "metode"
     ],
     "alias": [
-      "Human Rights, Democracy and the Rule of Law Impact Assessment",
+      "HUDERIA Methodology",
+      "HUDERIA Model",
       "COBRA"
     ]
   },
@@ -3023,32 +3021,34 @@
   {
     "id": "ki-kontoret",
     "tittel": "KI-kontoret",
-    "undertittel": "KI-forordningen",
     "forklaring": "EU-kommisjonens funksjon med ansvar for gjennomføring, overvåking og tilsyn med KI-systemer og KI-modeller for allmenne formål, etablert ved kommisjonsbeslutning av 24.01.24.",
     "tags": [
       "ki",
       "aktør"
+    ],
+    "alias": [
+      "Det europeiske kontoret for kunstig intelligens",
+      "AI Office",
+      "European AI Office"
     ]
   },
   {
     "id": "ki-radet",
     "tittel": "KI-rådet",
-    "undertittel": "KI-forordningen",
     "forklaring": "Det europeiske rådet for kunstig intelligens, med én representant fra hvert EU-land. Rådet gir råd til EU-kommisjonen og EU-landene, slik at KI-forordningen blir brukt likt i hele EU. KI-kontoret deltar uten stemmerett, og EUs datatilsyn er observatør.",
     "tags": [
       "ki",
       "aktør"
     ],
     "alias": [
+      "Det europeiske rådet for kunstig intelligens",
       "European Artificial Intelligence Board",
-      "AI Board",
-      "KI-styret"
+      "AI Board"
     ]
   },
   {
     "id": "radgivende-forum-ki",
     "tittel": "Rådgivende forum",
-    "undertittel": "KI-forordningen",
     "forklaring": "Forum som gir KI-rådet og EU-kommisjonen teknisk råd. Kommisjonen utnevner medlemmene fra næringsliv, oppstartsbedrifter, sivilsamfunn og akademia. FRA, ENISA, CEN, CENELEC og ETSI er faste medlemmer.",
     "tags": [
       "ki",
@@ -3061,21 +3061,19 @@
   {
     "id": "vitenskapspanelet",
     "tittel": "Vitenskapspanelet",
-    "undertittel": "KI-forordningen",
     "forklaring": "Panel av uavhengige KI-eksperter som EU-kommisjonen velger ut. Panelet hjelper KI-kontoret med å håndheve reglene for KI-modeller for allmenne formål og kan varsle om mulig systemrisiko.",
     "tags": [
       "ki",
       "aktør"
     ],
     "alias": [
-      "Scientific panel of independent experts",
-      "Vitenskapspanel av uavhengige eksperter"
+      "Vitenskapspanel av uavhengige eksperter",
+      "Scientific panel of independent experts"
     ]
   },
   {
     "id": "eu-kommisjonen",
     "tittel": "EU-kommisjonen",
-    "undertittel": "EU",
     "forklaring": "EUs utøvende organ. Kommisjonen foreslår nye EU-regler, blant annet KI-forordningen og Digital Omnibus, og passer på at EU-landene følger dem. Gjennom KI-kontoret håndhever den reglene for KI-modeller for allmenne formål, og den gir ut retningslinjer for hvordan KI-forordningen skal forstås. Nettsted: [commission.europa.eu](https://commission.europa.eu).",
     "tags": [
       "ki",
@@ -3090,7 +3088,6 @@
   {
     "id": "europaparlamentet",
     "tittel": "Europaparlamentet",
-    "undertittel": "EU",
     "forklaring": "EUs folkevalgte forsamling. Parlamentet vedtar EU-regler sammen med Rådet for Den europeiske union, blant annet KI-forordningen. Norge har ingen representanter i parlamentet. Nettsted: [europarl.europa.eu](https://www.europarl.europa.eu).",
     "tags": [
       "ki",
@@ -3104,7 +3101,6 @@
   {
     "id": "radet-for-den-europeiske-union",
     "tittel": "Rådet for Den europeiske union",
-    "undertittel": "EU",
     "forklaring": "Organet der ministrene fra EU-landene møtes. Rådet vedtar EU-regler sammen med Europaparlamentet, blant annet KI-forordningen. Norge er ikke med i Rådet. Det er ikke det samme som Europarådet, som er en egen organisasjon utenfor EU. Nettsted: [consilium.europa.eu](https://www.consilium.europa.eu).",
     "tags": [
       "ki",
@@ -3149,7 +3145,6 @@
   {
     "id": "enisa",
     "tittel": "ENISA",
-    "undertittel": "EUs cybersikkerhetsbyrå",
     "forklaring": "EU-byrå for cybersikkerhet. ENISA støtter EU-landene, lager ordninger for sertifisering av cybersikkerhet og er fast medlem av det rådgivende forumet etter KI-forordningen. Norge deltar i styret gjennom EØS-avtalen, uten stemmerett. Nettsted: [enisa.europa.eu](https://www.enisa.europa.eu).",
     "tags": [
       "sikkerhet",
@@ -3157,14 +3152,14 @@
       "aktør"
     ],
     "alias": [
+      "Den europeiske unions cybersikkerhetsbyrå",
       "European Union Agency for Cybersecurity"
     ]
   },
   {
     "id": "cen-cenelec",
     "tittel": "CEN og CENELEC",
-    "undertittel": "Standardisering",
-    "forklaring": "De europeiske standardiseringsorganisasjonene. Den felles komiteen JTC 21 utvikler harmoniserte standarder til KI-forordningen. KI-systemer som følger en slik standard, regnes for å oppfylle kravene standarden dekker. Norge er fullt medlem gjennom Standard Norge (CEN) og NEK (CENELEC). Nettsted: [cencenelec.eu](https://www.cencenelec.eu).",
+    "forklaring": "De europeiske standardiseringsorganisasjonene. Den felles komiteen JTC 21 utvikler de harmoniserte standardene til KI-forordningen. Norge er fullt medlem gjennom Standard Norge (CEN) og NEK (CENELEC), og Standard Norges komité for kunstig intelligens (SN/K 586) følger arbeidet. Nettsted: [cencenelec.eu](https://www.cencenelec.eu).",
     "tags": [
       "ki",
       "aktør"
@@ -3181,7 +3176,6 @@
   {
     "id": "etsi",
     "tittel": "ETSI",
-    "undertittel": "Standardisering",
     "forklaring": "Europeisk standardiseringsorganisasjon for telekommunikasjon og IKT. ETSI er fast medlem av det rådgivende forumet etter KI-forordningen. Nettsted: [etsi.org](https://www.etsi.org).",
     "tags": [
       "ki",
@@ -3194,23 +3188,22 @@
   {
     "id": "eurohpc",
     "tittel": "EuroHPC",
-    "undertittel": "Fellesforetaket om europeisk tungregning",
-    "forklaring": "Samarbeid mellom EU og europeiske land om superdatamaskiner. EuroHPC velger ut og finansierer KI-fabrikker sammen med landene, slik at forskere og bedrifter får regnekraft til KI. Norge deltar, blant annet i LUMI AI Factory gjennom Sigma2. Nettsted: [eurohpc-ju.europa.eu](https://eurohpc-ju.europa.eu).",
+    "forklaring": "Samarbeid mellom EU og europeiske land om superdatamaskiner. EuroHPC velger ut og finansierer KI-fabrikker sammen med landene, slik at forskere og bedrifter får regnekraft til KI. Norge deltar gjennom Forskningsrådet og Sigma2, blant annet i LUMI AI Factory. Nettsted: [eurohpc-ju.europa.eu](https://eurohpc-ju.europa.eu).",
     "tags": [
       "ki",
       "aktør"
     ],
     "alias": [
-      "EuroHPC JU",
+      "Fellesforetaket EuroHPC",
       "European High Performance Computing Joint Undertaking",
-      "KI-fabrikk",
-      "AI Factory"
+      "EuroHPC JU",
+      "AI Factories",
+      "KI-fabrikker"
     ]
   },
   {
     "id": "eos-komiteen",
     "tittel": "EØS-komiteen",
-    "undertittel": "EØS",
     "forklaring": "Felles komité for EU og EØS/EFTA-landene Norge, Island og Liechtenstein. Komiteen bestemmer hvilke EU-regler som tas inn i EØS-avtalen, og med hvilke tilpasninger. En EU-regel som KI-forordningen gjelder i Norge først når komiteen har tatt den inn og den er gjort til norsk lov.",
     "tags": [
       "ki",
@@ -3234,6 +3227,534 @@
     "alias": [
       "EFTA Surveillance Authority",
       "ESA"
+    ]
+  },
+  {
+    "id": "dataforordningen",
+    "tittel": "Dataforordningen",
+    "forklaring": "EU-forordning om rettferdig tilgang til og bruk av data. Den gir brukere av tilkoblede produkter og tilknyttede tjenester rett til dataene produktene lager. Forordningen er EØS-relevant, men gjelder ikke i Norge før den er tatt inn i EØS-avtalen.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Data Act"
+    ]
+  },
+  {
+    "id": "dataforvaltningsforordningen",
+    "tittel": "Dataforvaltningsforordningen",
+    "undertittel": "DGA",
+    "forklaring": "EU-forordning om europeisk dataforvaltning. Den setter vilkår for gjenbruk av visse beskyttede data fra offentlig sektor, for tjenester som formidler data mellom parter, og for frivillig deling av data til allmennyttige formål. I Norge gjennomføres den i dataforvaltningsloven.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Data Governance Act"
+    ]
+  },
+  {
+    "id": "dataforvaltningsloven",
+    "tittel": "Dataforvaltningsloven",
+    "forklaring": "Norsk lov om datadeling og dataforvaltning. Den gjennomfører dataforvaltningsforordningen (DGA). Nettsted: [lovdata.no](https://lovdata.no/lov/2026-06-19-36).",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om datadeling og dataforvaltning"
+    ]
+  },
+  {
+    "id": "forordning-om-digitale-tjenester",
+    "tittel": "Forordning om digitale tjenester",
+    "undertittel": "DSA",
+    "forklaring": "EU-forordning med plikter for nettplattformer og søkemotorer, blant annet å håndtere ulovlig innhold og å forklare hvordan anbefalingssystemene deres virker. Pliktene gjelder også KI-generert innhold. I Norge er forordningen foreslått gjennomført i digitaltjenesteloven.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Digital Services Act",
+      "Digitaltjenesteloven"
+    ]
+  },
+  {
+    "id": "nis-2-direktivet",
+    "tittel": "NIS 2-direktivet",
+    "forklaring": "EU-direktiv om tiltak for et høyt felles nivå for sikkerhet i nettverks- og informasjonssystemer. Det omfatter flere sektorer enn det første NIS-direktivet, blant annet skytjenester og datasentre som KI kjører på. Digitalsikkerhetsloven gjennomfører det første NIS-direktivet, ikke NIS 2.",
+    "tags": [
+      "ki",
+      "sikkerhet",
+      "regelverk"
+    ],
+    "alias": [
+      "NIS 2 Directive",
+      "NIS2"
+    ]
+  },
+  {
+    "id": "digitalsikkerhetsloven",
+    "tittel": "Digitalsikkerhetsloven",
+    "forklaring": "Norsk lov om digital sikkerhet for tilbydere av samfunnsviktige tjenester og digitale tjenester. Den gjennomfører EUs første NIS-direktiv og gjelder også systemer som bruker KI. Nettsted: [lovdata.no](https://lovdata.no/lov/2023-12-20-108).",
+    "tags": [
+      "ki",
+      "sikkerhet",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om digital sikkerhet"
+    ]
+  },
+  {
+    "id": "cyberrobusthetsforordningen",
+    "tittel": "Cyberrobusthetsforordningen",
+    "undertittel": "CRA",
+    "forklaring": "EU-forordning med cybersikkerhetskrav til produkter med digitale elementer, både maskinvare og programvare. KI-systemer med høy risiko som oppfyller kravene, regnes for å oppfylle kravene til cybersikkerhet i KI-forordningen. Forordningen gjelder ikke i Norge før den er tatt inn i EØS-avtalen.",
+    "tags": [
+      "ki",
+      "sikkerhet",
+      "regelverk"
+    ],
+    "alias": [
+      "Forordningen om cyberrobusthet",
+      "Cyber Resilience Act"
+    ]
+  },
+  {
+    "id": "cybersikkerhetsforordningen",
+    "tittel": "Cybersikkerhetsforordningen",
+    "forklaring": "EU-forordning om ENISA og om ordninger for cybersikkerhetssertifisering av IKT-produkter, -tjenester og -prosesser. KI-systemer med høy risiko som er sertifisert etter en slik ordning, regnes for å oppfylle kravene til cybersikkerhet i KI-forordningen, så langt sertifikatet dekker dem. Forordningen gjelder i Norge gjennom EØS-avtalen.",
+    "tags": [
+      "ki",
+      "sikkerhet",
+      "regelverk"
+    ],
+    "alias": [
+      "Cybersecurity Act"
+    ]
+  },
+  {
+    "id": "produktansvarsdirektivet",
+    "tittel": "Produktansvarsdirektivet",
+    "forklaring": "EU-direktiv om ansvar for skade fra produkter med feil. Programvare, også KI, regnes som produkt. Direktivet gjelder ikke i Norge før det er tatt inn i EØS-avtalen. Produktansvarsloven bygger på direktivet det erstatter.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Product Liability Directive"
+    ]
+  },
+  {
+    "id": "maskinforordningen",
+    "tittel": "Maskinforordningen",
+    "forklaring": "EU-forordning med sikkerhetskrav til maskiner. Sikkerhetskomponenter og maskiner med innebygde systemer som endrer atferd ved hjelp av maskinlæring, må vurderes av et uavhengig organ. EØS-komiteen har vedtatt å ta forordningen inn i EØS-avtalen.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Machinery Regulation"
+    ]
+  },
+  {
+    "id": "mdr",
+    "tittel": "MDR",
+    "forklaring": "EUs forordning om medisinsk utstyr. Programvare kan være medisinsk utstyr. KI-systemer som må vurderes av et uavhengig organ etter MDR, er KI-systemer med høy risiko etter KI-forordningen. Forordningen gjelder i Norge gjennom lov om medisinsk utstyr.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Medical Devices Regulation",
+      "Forordning om medisinsk utstyr"
+    ]
+  },
+  {
+    "id": "ivdr",
+    "tittel": "IVDR",
+    "forklaring": "EUs forordning om medisinsk utstyr til in vitro-diagnostikk. KI-systemer som må vurderes av et uavhengig organ etter IVDR, er KI-systemer med høy risiko etter KI-forordningen. Forordningen gjelder i Norge gjennom lov om medisinsk utstyr.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "In Vitro Diagnostic Medical Devices Regulation"
+    ]
+  },
+  {
+    "id": "helsedataforordningen",
+    "tittel": "Helsedataforordningen",
+    "undertittel": "EHDS",
+    "forklaring": "EU-forordning om det europeiske helsedataområdet. Den åpner blant annet for å bruke helsedata til å trene, teste og evaluere algoritmer og KI-systemer, på vilkårene i forordningen. Forordningen gjelder ikke i Norge før den er tatt inn i EØS-avtalen.",
+    "tags": [
+      "ki",
+      "personvern",
+      "regelverk"
+    ],
+    "alias": [
+      "European Health Data Space",
+      "Forordning om det europeiske helsedataområdet"
+    ]
+  },
+  {
+    "id": "plattformdirektivet",
+    "tittel": "Plattformdirektivet",
+    "forklaring": "EU-direktiv om bedre arbeidsvilkår for plattformarbeidere. Det krever menneskelig tilsyn med automatiserte systemer som overvåker arbeidere og tar beslutninger om dem, og gir rett til å få en avgjørelse vurdert av et menneske. Direktivet gjelder ikke i Norge før det er tatt inn i EØS-avtalen.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Platform Work Directive"
+    ]
+  },
+  {
+    "id": "digitalmarkedsdirektivet",
+    "tittel": "Digitalmarkedsdirektivet",
+    "forklaring": "EU-direktiv om opphavsrett og nærstående rettigheter i det digitale indre marked. Det tillater tekst- og datautvinning, med mindre rettighetshaveren har reservert seg. KI-forordningen krever at leverandører av KI-modeller for allmenne formål respekterer slike reservasjoner. Direktivet er tatt inn i EØS-avtalen og skal gjennomføres i åndsverkloven.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "DSM-direktivet",
+      "DSM Directive",
+      "Directive on copyright and related rights in the Digital Single Market"
+    ]
+  },
+  {
+    "id": "ki-loven",
+    "tittel": "KI-loven",
+    "forklaring": "Foreslått norsk lov som skal gjennomføre KI-forordningen i norsk rett. Den fastsetter blant annet hvilke myndigheter som fører tilsyn, med Nkom som koordinerende markedstilsynsmyndighet. Digitaliserings- og forvaltningsdepartementet har hatt forslaget og endringene fra Digital Omnibus on AI på høring. Nettsted: [regjeringen.no](https://www.regjeringen.no/no/dokumenter/horing-forslag-til-ny-lov-om-kunstig-intelligens/id3112327/).",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om kunstig intelligens"
+    ]
+  },
+  {
+    "id": "personopplysningsloven",
+    "tittel": "Personopplysningsloven",
+    "forklaring": "Norsk lov som gjør personvernforordningen (GDPR) til norsk lov. Den gjelder når KI trenes på eller brukes med personopplysninger, også retten til ikke å være gjenstand for en avgjørelse som utelukkende er basert på automatisert behandling (GDPR art. 22). Nettsted: [lovdata.no](https://lovdata.no/lov/2018-06-15-38).",
+    "tags": [
+      "ki",
+      "personvern",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om behandling av personopplysninger",
+      "Personal Data Act"
+    ]
+  },
+  {
+    "id": "forvaltningsloven",
+    "tittel": "Forvaltningsloven",
+    "forklaring": "Norsk lov om saksbehandling i offentlig forvaltning. Den nye forvaltningsloven fra 2025 har egne regler om automatisert saksbehandling og automatiserte avgjørelser, blant annet krav om å dokumentere det rettslige innholdet i systemene. Den nye loven trer i kraft når Kongen bestemmer. Nettsted: [lovdata.no](https://lovdata.no/lov/2025-06-20-81).",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om saksbehandlingen i offentlig forvaltning",
+      "Public Administration Act"
+    ]
+  },
+  {
+    "id": "andsverkloven",
+    "tittel": "Åndsverkloven",
+    "forklaring": "Norsk lov om opphavsrett. Den avgjør om opphavsrettslig beskyttede verk kan brukes til å trene KI. Regler om tekst- og datautvinning fra digitalmarkedsdirektivet skal inn i loven gjennom Prop. 41 LS (2025–2026). Nettsted: [lovdata.no](https://lovdata.no/lov/2018-06-15-40).",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om opphavsrett til åndsverk mv."
+    ]
+  },
+  {
+    "id": "likestillings-og-diskrimineringsloven",
+    "tittel": "Likestillings- og diskrimineringsloven",
+    "forklaring": "Norsk lov som forbyr diskriminering. Den gjelder også når et KI-system gir resultater som diskriminerer, for eksempel på grunn av kjønn eller etnisitet. Nettsted: [lovdata.no](https://lovdata.no/lov/2017-06-16-51).",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om likestilling og forbud mot diskriminering",
+      "Equality and Anti-Discrimination Act"
+    ]
+  },
+  {
+    "id": "ekomloven",
+    "tittel": "Ekomloven",
+    "forklaring": "Norsk lov om elektronisk kommunikasjon. Den krever samtykke før en tjeneste lagrer eller leser informasjon på brukerens enhet, for eksempel informasjonskapsler, også når tjenesten bruker KI. Nettsted: [lovdata.no](https://lovdata.no/lov/2024-12-13-76).",
+    "tags": [
+      "ki",
+      "personvern",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om elektronisk kommunikasjon"
+    ]
+  },
+  {
+    "id": "straffeloven",
+    "tittel": "Straffeloven",
+    "forklaring": "Norsk lov om straff. Forbudet mot fremstilling av seksuelle overgrep mot barn (§ 311) omfatter også bilder som er manipulert eller laget kunstig, for eksempel med KI. Deling av manipulerte krenkende bilder rammes av § 267 a. Nettsted: [lovdata.no](https://lovdata.no/lov/2005-05-20-28).",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "Lov om straff",
+      "The Penal Code"
+    ]
+  },
+  {
+    "id": "nasjonal-strategi-for-kunstig-intelligens",
+    "tittel": "Nasjonal strategi for kunstig intelligens",
+    "forklaring": "Regjeringens strategi for kunstig intelligens fra 2020. Regjeringen har varslet en ny nasjonal strategi for kunstig intelligens.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ],
+    "alias": [
+      "The National Strategy for Artificial Intelligence"
+    ]
+  },
+  {
+    "id": "fremtidens-digitale-norge",
+    "tittel": "Fremtidens digitale Norge",
+    "forklaring": "Regjeringens nasjonale digitaliseringsstrategi for 2024–2030. KI er et av satsingsområdene.",
+    "tags": [
+      "ki",
+      "digitalisering",
+      "rammeverk"
+    ],
+    "alias": [
+      "Nasjonal digitaliseringsstrategi 2024–2030",
+      "The Digital Norway of the Future"
+    ]
+  },
+  {
+    "id": "digitaliseringsrundskrivet",
+    "tittel": "Digitaliseringsrundskrivet",
+    "forklaring": "Rundskriv fra Digitaliserings- og forvaltningsdepartementet med pålegg og anbefalinger om digitalisering i statlige virksomheter. Det anbefaler blant annet at virksomhetene tar i bruk KI.",
+    "tags": [
+      "ki",
+      "digitalisering",
+      "rammeverk"
+    ]
+  },
+  {
+    "id": "ki-avtalen",
+    "tittel": "KI-avtalen",
+    "forklaring": "Intensjonsavtale mellom regjeringen og partene i arbeidslivet om ansvarlig innføring og bruk av KI i arbeidslivet. Avtalen gjelder 02.10.26–31.12.29.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ],
+    "alias": [
+      "Intensjonsavtale om ansvarlig innføring og bruk av kunstig intelligens i arbeidslivet"
+    ]
+  },
+  {
+    "id": "ki-norge",
+    "tittel": "KI Norge",
+    "forklaring": "Enhet i Digitaliseringsdirektoratet som gir veiledning om ansvarlig bruk av KI. Sammen med Nkom og Datatilsynet skal KI Norge drive den regulatoriske KI-sandkassen etter KI-loven. Nettsted: [ki.norge.no](https://ki.norge.no).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "AI Norway"
+    ]
+  },
+  {
+    "id": "nkom",
+    "tittel": "Nkom",
+    "forklaring": "Norsk tilsynsmyndighet for elektronisk kommunikasjon og post. Regjeringen har utpekt Nkom som koordinerende markedstilsynsmyndighet og nasjonalt kontaktpunkt for KI-forordningen. Nettsted: [nkom.no](https://nkom.no).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "Nasjonal kommunikasjonsmyndighet",
+      "Norwegian Communications Authority"
+    ]
+  },
+  {
+    "id": "datatilsynet",
+    "tittel": "Datatilsynet",
+    "forklaring": "Norsk tilsynsmyndighet for personvern. Datatilsynet fører tilsyn med behandling av personopplysninger, også i KI-systemer, og driver en sandkasse der virksomheter får veiledning om personvern. Nettsted: [datatilsynet.no](https://www.datatilsynet.no).",
+    "tags": [
+      "ki",
+      "personvern",
+      "aktør"
+    ],
+    "alias": [
+      "Datatilsynets sandkasse",
+      "Norwegian Data Protection Authority",
+      "Regulatory privacy sandbox"
+    ]
+  },
+  {
+    "id": "europaradskonvensjonen-om-kunstig-intelligens",
+    "tittel": "Europarådskonvensjonen om kunstig intelligens",
+    "forklaring": "Folkerettslig bindende konvensjon fra Europarådet om at KI skal utvikles og brukes i tråd med menneskerettigheter, demokrati og rettsstaten. Norge undertegnet konvensjonen 05.09.24. Den binder Norge først når Norge har ratifisert den.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ],
+    "alias": [
+      "Europarådets rammekonvensjon om kunstig intelligens, menneskerettigheter, demokrati og rettsstatsprinsipper",
+      "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
+      "CETS 225"
+    ]
+  },
+  {
+    "id": "general-purpose-ai-code-of-practice",
+    "tittel": "General-Purpose AI Code of Practice",
+    "forklaring": "Frivillige regler for god praksis for leverandører av KI-modeller for allmenne formål, etter KI-forordningen art. 56. Leverandører kan bruke dem til å vise at de oppfyller pliktene sine. Kommisjonen og KI-rådet har vurdert dem som egnet. Reglene har tre kapitler: Transparency, Copyright og Safety and Security.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ],
+    "alias": [
+      "GPAI Code of Practice"
+    ]
+  },
+  {
+    "id": "code-of-practice-on-transparency-of-ai-generated-content",
+    "tittel": "Code of Practice on Transparency of AI-generated Content",
+    "forklaring": "Frivillige regler for god praksis for merking og gjenkjenning av KI-generert innhold og dypforfalskninger, etter KI-forordningen art. 50. Kommisjonen og KI-rådet har vurdert dem som egnet.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ]
+  },
+  {
+    "id": "ai-pact",
+    "tittel": "AI Pact",
+    "forklaring": "Frivillig initiativ fra EU-kommisjonen som hjelper virksomheter å forberede seg på KI-forordningen. Det har to deler: Et nettverk for å dele erfaringer, og frivillige tilsagn om å oppfylle krav før de gjelder.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ]
+  },
+  {
+    "id": "ai-continent-action-plan",
+    "tittel": "AI Continent Action Plan",
+    "forklaring": "EU-kommisjonens handlingsplan fra 09.04.25 for å gjøre EU ledende på KI. Den omfatter blant annet KI-fabrikker, AI Gigafactories og bedre tilgang til data.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ]
+  },
+  {
+    "id": "apply-ai-strategy",
+    "tittel": "Apply AI Strategy",
+    "forklaring": "EU-kommisjonens strategi fra 08.10.25 for å få flere til å ta i bruk KI, i ti sektorer og i offentlig sektor.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ]
+  },
+  {
+    "id": "programmet-for-et-digitalt-europa",
+    "tittel": "Programmet for et digitalt Europa",
+    "undertittel": "DIGITAL",
+    "forklaring": "EU-program for digital omstilling 2021–2027. KI er et av hovedområdene, og programmet finansierer blant annet europeiske digitale innovasjonsnav. Norge deltar gjennom EØS-avtalen.",
+    "tags": [
+      "ki",
+      "digitalisering"
+    ],
+    "alias": [
+      "Digital Europe Programme"
+    ]
+  },
+  {
+    "id": "europeiske-digitale-innovasjonsnav",
+    "tittel": "Europeiske digitale innovasjonsnav",
+    "undertittel": "EDIH",
+    "forklaring": "Sentre som hjelper bedrifter og offentlig sektor med å ta i bruk digital teknologi, blant annet KI. De finansieres gjennom Programmet for et digitalt Europa. Norge har to: Nemonoor, som er rettet mot anvendt KI, og Oceanopolis, som er rettet mot hav og kyst.",
+    "tags": [
+      "ki",
+      "digitalisering"
+    ],
+    "alias": [
+      "European Digital Innovation Hubs",
+      "Digitale innovasjonsnav",
+      "Nemonoor",
+      "Oceanopolis"
+    ]
+  },
+  {
+    "id": "horisont-europa",
+    "tittel": "Horisont Europa",
+    "forklaring": "EUs rammeprogram for forskning og innovasjon 2021–2027. Det finansierer blant annet forskning på KI. Norge deltar på lik linje med EU-landene.",
+    "tags": [
+      "ki",
+      "digitalisering"
+    ],
+    "alias": [
+      "Horizon Europe",
+      "EUs niende rammeprogram for forskning og innovasjon"
+    ]
+  },
+  {
+    "id": "ki-fabrikken",
+    "tittel": "KI-fabrikken",
+    "forklaring": "Norges nasjonale KI-fabrikk, ledet av Sigma2 og bygget rundt superdatamaskinen Olivia. Den gir tilgang til regnekraft for KI og er en del av LUMI AI Factory i EuroHPC. Forskningsrådet og EU finansierer den.",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "LUMI AI Factory"
+    ]
+  },
+  {
+    "id": "harmonisert-standard",
+    "tittel": "Harmonisert standard",
+    "forklaring": "Europeisk standard laget på oppdrag fra EU-kommisjonen og kunngjort i EU-tidende. KI-systemer som følger en harmonisert standard til KI-forordningen, regnes for å oppfylle kravene standarden dekker. Den første er EN 18286 om kvalitetsstyringssystem.",
+    "tags": [
+      "ki",
+      "rammeverk"
+    ],
+    "alias": [
+      "Harmoniserte standarder",
+      "Harmonised standard"
+    ]
+  },
+  {
+    "id": "ai-act-service-desk",
+    "tittel": "AI Act Service Desk",
+    "forklaring": "EU-kommisjonens hjelpested for KI-forordningen, med AI Act Explorer, Compliance Checker og et skjema for spørsmål til eksperter. Nettsted: [ai-act-service-desk.ec.europa.eu](https://ai-act-service-desk.ec.europa.eu/en).",
+    "tags": [
+      "ki",
+      "tjeneste"
+    ],
+    "alias": [
+      "AI Act Single Information Platform"
+    ]
+  },
+  {
+    "id": "eu-database-for-ki-systemer-med-hoy-risiko",
+    "tittel": "EU-database for KI-systemer med høy risiko oppført i vedlegg III",
+    "forklaring": "Database etter KI-forordningen art. 71. Leverandører av KI-systemer med høy risiko, og offentlige idriftsettere av slike systemer, skal registrere dem der.",
+    "tags": [
+      "ki",
+      "regelverk"
+    ],
+    "alias": [
+      "EU-databasen",
+      "EU database for high-risk AI systems listed in Annex III"
     ]
   },
   {
@@ -5520,11 +6041,14 @@
   {
     "id": "regulatorisk-sandkasse-for-ki",
     "tittel": "Regulatorisk sandkasse for KI",
-    "undertittel": "KI-forordningen",
-    "forklaring": "Kontrollert ramme opprettet av vedkommende myndighet der leverandører kan utvikle, trene og teste innovative KI-systemer under myndighetstilsyn i en begrenset periode.",
+    "forklaring": "Kontrollert ramme opprettet av vedkommende myndighet der leverandører kan utvikle, trene og teste innovative KI-systemer under myndighetstilsyn i en begrenset periode. I Norge skal KI Norge, Datatilsynet og Nkom drive den regulatoriske KI-sandkassen.",
     "tags": [
       "ki",
       "begrep"
+    ],
+    "alias": [
+      "Den regulatoriske KI-sandkassen",
+      "AI regulatory sandbox"
     ]
   },
   {
@@ -10075,7 +10599,12 @@
     "forklaring": "Regjeringens satsing på minst én milliard kroner over fem år til forskning på KI og hvordan KI påvirker samfunnet. Forskningsrådet fordeler pengene. Seks nasjonale KI-sentre får rundt 200 millioner kroner hver.",
     "tags": [
       "ki",
-      "begrep"
+      "rammeverk"
+    ],
+    "alias": [
+      "Satsing på kunstig intelligens",
+      "The Artificial Intelligence Initiative",
+      "The AI billion"
     ]
   },
   {
