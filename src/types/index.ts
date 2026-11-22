@@ -90,6 +90,7 @@ export interface KiVurderingKort {
   tittel: string      // front, with the card number
   farge: 'rod' | 'oransje' | 'gul' | 'gronn' // stripe on both faces; number and title carry the meaning too
   sporsmal: string    // front, the question the card asks
+  etikett?: string    // front, label above eksempler; default «For eksempel»
   eksempler: string[] // front
   svar: string        // back, what to do
   punkter: string[]   // back

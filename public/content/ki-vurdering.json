@@ -36,11 +36,19 @@
       "tittel": "Høy risiko",
       "farge": "oransje",
       "sporsmal": "Er formålet på høyrisikolista?",
+      "etikett": "Hele lista",
       "eksempler": [
-        "Rekruttere, vurdere eller si opp ansatte",
-        "Avgjøre om noen får offentlige ytelser eller tjenester",
-        "Avgjøre opptak eller vurdere hva elever og studenter har lært",
-        "Prioritere nødanrop"
+        "Biometri: Kjenne igjen folk på avstand, sortere dem etter sensitive egenskaper eller tolke følelser",
+        "Kritisk infrastruktur: Ivareta sikkerheten i digital infrastruktur, veitrafikk og forsyning av vann, gass, varme og strøm",
+        "Utdanning: Avgjøre opptak og utdanningsnivå, vurdere hva elever og studenter har lært eller avsløre juks på prøver",
+        "Arbeid: Rekruttere, overvåke og vurdere ansatte, fordele oppgaver ut fra atferd eller avgjøre vilkår, forfremmelse og oppsigelse",
+        "Offentlige ytelser og tjenester: Avgjøre om noen får, beholder eller må betale tilbake ytelser og tjenester, også helsetjenester",
+        "Kreditt og forsikring: Vurdere kredittverdighet eller prise livs- og helseforsikring",
+        "Nødetater: Prioritere nødanrop og utrykninger eller sortere pasienter i akuttmedisin",
+        "Politi: Bruke løgndetektor, vurdere bevis, profilere eller anslå om noen vil bli offer for eller begå lovbrudd",
+        "Migrasjon og grensekontroll: Behandle søknader om asyl, visum og opphold, vurdere risiko ved innreise, bruke løgndetektor eller identifisere personer",
+        "Rettspleie: Hjelpe domstoler eller alternativ tvisteløsning med å finne fakta, tolke loven og anvende den",
+        "Valg: Påvirke utfallet av valg og folkeavstemninger eller hvordan folk stemmer"
       ],
       "svar": "Vurder nærmere før dere bestemmer dere.",
       "punkter": [

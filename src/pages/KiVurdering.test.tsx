@@ -12,6 +12,7 @@ const DATA: KiVurderingData = {
   kort: ['A', 'B', 'C', 'D'].map(t => ({
     id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, eksempler: [`${t} eksempel`],
     svar: `${t} svar`, punkter: [`${t} punkt`], kilde: `${t} kilde`,
+    ...(t === 'B' && { etikett: 'Hele lista' }),
   })),
   merknad: 'Ikke juridisk vurdering',
 }
@@ -44,6 +45,12 @@ describe('KiVurdering', () => {
     expect(screen.getByText('Første avsnitt')).toBeInTheDocument()
     expect(screen.getByText('Et punkt')).toBeInTheDocument()
     expect(screen.getByRole('button', { name: 'Gjelder alltid' })).toHaveAttribute('aria-expanded', 'false')
+  })
+
+  it('labels the front list with the card label, else «For eksempel»', async () => {
+    await renderPage()
+    expect(screen.getByText('Hele lista')).toBeInTheDocument()
+    expect(screen.getAllByText('For eksempel')).toHaveLength(3)
   })
 
   it('flips one card at a time with its own button', async () => {

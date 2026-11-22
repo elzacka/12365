@@ -60,8 +60,7 @@ export function KiVurdering() {
 
         <p className="text-sm text-slate-600 leading-snug mb-3">{veiledning}</p>
 
-        {/* auto-rows-fr: every row takes the tallest card's height, so all cards match whatever their text. */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 auto-rows-fr gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {kort.map((k, i) => (
             <FlipFrame
               key={k.id}
@@ -74,7 +73,7 @@ export function KiVurdering() {
                   <Stripe farge={k.farge} />
                   <p className={`${LABEL} text-brand-400`}>{i + 1} · {k.tittel}</p>
                   <h3 className="mt-1 text-base font-semibold text-slate-800 leading-snug">{k.sporsmal}</h3>
-                  <p className={`${LABEL} mt-3 mb-1 text-slate-500`}>For eksempel</p>
+                  <p className={`${LABEL} mt-3 mb-1 text-slate-500`}>{k.etikett ?? 'For eksempel'}</p>
                   <ul className="list-disc pl-4 space-y-1 text-xs text-slate-600 leading-snug">
                     {k.eksempler.map(e => <li key={e}>{e}</li>)}
                   </ul>
