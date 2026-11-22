@@ -91,13 +91,11 @@ function CardBoxes({ id, sections, dark }: { id: string; sections: Section[]; da
 }
 
 export function KiVurdering() {
-  const { bokser, veiledning, kort, merknad } = use(fetchKiVurdering())
+  const { bokser, kort, merknad } = use(fetchKiVurdering())
 
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-4 pb-8">
       <div className="max-w-2xl mx-auto">
-        <p className="text-sm text-slate-600 leading-snug mb-3">{veiledning}</p>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 items-start gap-3">
           {kort.map((k, i) => (
             <FlipFrame

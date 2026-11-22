@@ -13,15 +13,14 @@
     {
       "id": "autonomi",
       "tittel": "Når KI gjør mer selv",
-      "tekst": "Hvor mye KI gjør selv, avgjør ikke risikokategorien. Men: Jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom.\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter.\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe.\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede.\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres.\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke.\n\n- Unntaket fra høy risiko gjelder ikke når flere KI-steg eller agenter til sammen påvirker beslutningen, selv om hvert steg alene er forarbeid.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen.\n\n> Kilder: [Artikkel 3 nr. 1](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3), [Kommisjonens retningslinjer om hva et KI-system er](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application) og [Kommisjonens utkast til retningslinjer for høyrisiko KI](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
+      "tekst": "Hvor mye KI gjør selv, avgjør ikke risikokategorien. Men: Jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom.\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter.\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe.\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede.\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres.\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke.\n\n- Unntaket fra høy risiko gjelder ikke når flere KI-steg eller agenter til sammen påvirker beslutningen, selv om hvert steg alene er forarbeid.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke et KI-system etter KI-forordningen.\n\n> Kilder: [Artikkel 3 nr. 1](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3), [Kommisjonens retningslinjer om hva et KI-system er](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application) og [Kommisjonens utkast til retningslinjer for høyrisiko KI](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
     },
     {
       "id": "innledning",
       "tittel": "Om kortene",
-      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nDet er formålet som avgjør: Hva skal KI gjøre, og hvem blir berørt? Verktøyet, hvor mye KI gjør selv og hvor sensitiv informasjonen er, betyr også noe, men ikke for risikokategorien. Samme funksjon kan derfor havne i ulike kategorier.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
+      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nFormålet avgjør, ikke KI-verktøyet: Hva skal KI gjøre, og hvem blir berørt? Hvor sensitiv informasjonen er, betyr også noe, men ikke for risikokategorien.\n\nGå gjennom kortene i rekkefølge. Stopp ved det første som passer. Åpenhet kan også gjelde ved høy risiko.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
     }
   ],
-  "veiledning": "Formålet avgjør, ikke KI-verktøyet. Gå gjennom kortene i rekkefølge. Stopp ved det første som passer. Åpenhet kan også gjelde ved høy risiko.",
   "kort": [
     {
       "id": "forbudt",
@@ -44,7 +43,7 @@
       "lenke": "Den offisielle lista: [Artikkel 5 i KI-forordningen](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)",
       "svar": "Stopp. Finn en annen måte å nå målet på.",
       "regler": [
-        "Forbudene gjelder uansett verktøy og hvem som har laget det",
+        "Forbudene gjelder uansett hvem som har laget verktøyet",
         "[Unntakene](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5) er få og snevre, for eksempel å tolke følelser av medisinske grunner eller sikkerhetsgrunner"
       ],
       "tiltak": [],
@@ -96,7 +95,7 @@
       "eksempler": [
         "Svare på spørsmål fra innbyggere eller ansatte i en chat",
         "Lage bilder, lyd eller video som ligner ekte personer, steder eller hendelser",
-        "Publisere tekst KI har skrevet for å informere offentligheten, uten at et menneske har kontrollert den"
+        "Publisere tekst KI har skrevet for å informere offentligheten"
       ],
       "lenke": "Den offisielle teksten: [Artikkel 50 i KI-forordningen](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)",
       "svar": "Gå i gang, men si fra at det er KI.",

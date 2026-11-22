@@ -8,7 +8,6 @@ const DATA: KiVurderingData = {
     { id: 'innledning', tittel: 'Innledning', tekst: 'Første avsnitt\n\n- Et punkt' },
     { id: 'gjelder-alltid', tittel: 'Gjelder alltid', tekst: 'Alltid' },
   ],
-  veiledning: 'Gå i rekkefølge',
   kort: ['A', 'B', 'C', 'D'].map(t => ({
     id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, oppsummering: `${t} kort`, eksempler: [`${t} eksempel`],
     svar: `${t} svar`, regler: [`${t} regel`], tiltak: t === 'A' ? [] : [`${t} tiltak`], kilde: `${t} [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)`,

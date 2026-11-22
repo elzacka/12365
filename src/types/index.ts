@@ -102,7 +102,6 @@ export interface KiVurderingKort {
 
 export interface KiVurdering {
   bokser: { id: string; tittel: string; tekst: string }[] // expand boxes; tekst is markdown as in src/lib/markdown.tsx
-  veiledning: string  // one line above the cards
   kort: KiVurderingKort[]
   merknad: string     // muted line under the cards; inline markdown links
 }
