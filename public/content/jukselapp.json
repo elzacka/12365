@@ -2525,7 +2525,7 @@
   {
     "id": "huderia",
     "tittel": "HUDERIA",
-    "forklaring": "Europarådets metode for å vurdere risiko og konsekvenser av KI-systemer for menneskerettigheter, demokrati og rettsstaten. Offentlige og private aktører kan bruke den gjennom hele livsløpet til et KI-system. Metoden er ikke rettslig bindende, men er laget som støtte for partene i Europarådskonvensjonen om kunstig intelligens, som Norge har undertegnet.\nHUDERIA har fire elementer:\n1. Context-Based Risk Analysis (COBRA)\n2. Stakeholder Engagement Process (SEP)\n3. Risk and Impact Assessment\n4. Mitigation Plan\nVurderingen gjentas når systemet eller omgivelsene endrer seg. Metoden kan brukes sammen med andre rammeverk, blant annet FRIA etter KI-forordningen.\nNettsted: [coe.int](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems).",
+    "forklaring": "Europarådets metode for å vurdere risiko og konsekvenser av KI-systemer for menneskerettigheter, demokrati og rettsstaten. Offentlige og private aktører kan bruke den gjennom hele livsløpet til et KI-system. Metoden er ikke rettslig bindende, men er laget som støtte for partene i Europarådskonvensjonen om kunstig intelligens, som Norge har undertegnet. HUDERIA består av HUDERIA Methodology, som beskriver fremgangsmåten, og HUDERIA Model, med verktøy og ressurser til den.\nMetoden har fire elementer:\n1. Context-Based Risk Analysis (COBRA)\n2. Stakeholder Engagement Process (SEP)\n3. Risk and Impact Assessment\n4. Mitigation Plan\nVurderingen gjentas når systemet eller omgivelsene endrer seg. Metoden kan brukes sammen med andre rammeverk, blant annet FRIA etter KI-forordningen.\nNettsted: [coe.int](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems).",
     "tags": [
       "ki",
       "personvern",
@@ -2533,8 +2533,21 @@
     ],
     "alias": [
       "HUDERIA Methodology",
-      "HUDERIA Model",
-      "COBRA"
+      "HUDERIA Model"
+    ]
+  },
+  {
+    "id": "cobra",
+    "tittel": "COBRA",
+    "forklaring": "Context-Based Risk Analysis, det første elementet i HUDERIA. Analysen kartlegger risikofaktorer ved et KI-system og omgivelsene det brukes i, og hvilke negative konsekvenser systemet kan få for menneskerettigheter, demokrati og rettsstaten. Resultatet avgjør hvor grundig resten av HUDERIA-vurderingen bør være, og om systemet bør utvikles eller tas i bruk i det hele tatt.\nCOBRA har fire steg:\n1. Preliminary scoping\n2. Analysis of risk factors\n3. Mapping of potential impacts on human rights, democracy and the rule of law\n4. Triage\nHUDERIA Model gir eksempler på risikofaktorer og berørte områder i fem ressurslister:\n◦ **COBRA Resources A**: List of risk factors arising in the AI system’s application context\n◦ **COBRA Resources B**: List of risk factors arising in the AI system’s design and development context\n◦ **COBRA Resources C**: List of risk factors arising in the AI system’s deployment context\n◦ **COBRA Resources E**: Illustrative areas of potential concern from the point of view of human rights, democracy and the rule of law\n◦ **COBRA Resources F**: Illustrative list of sectors/domains and potential areas of concern\nListene er eksempler, ikke uttømmende. Europarådets ministerkomité godkjente HUDERIA Model 25.02.26.",
+    "tags": [
+      "ki",
+      "personvern",
+      "metode"
+    ],
+    "alias": [
+      "Context-Based Risk Analysis",
+      "COBRA Resources"
     ]
   },
   {
