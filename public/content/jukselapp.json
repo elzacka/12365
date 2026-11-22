@@ -2523,6 +2523,18 @@
     ]
   },
   {
+    "id": "cdnet",
+    "tittel": "CDNET",
+    "forklaring": "Komité i Europarådet som leder og samordner arbeidet mellom medlemslandene om nye og fremvoksende digitale teknologier, og som gir råd til Europarådets ministerkomité. Ministerkomiteen opprettet den fra 01.01.26, og den viderefører arbeidet til Europarådets KI-komité (CAI). CDNET utvikler og vedtar nye deler av HUDERIA Model. Nettsted: [coe.int](https://www.coe.int/en/web/artificial-intelligence/cdnet).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "Steering Committee for New and Emerging Digital Technologies"
+    ]
+  },
+  {
     "id": "idriftsetter-ki",
     "tittel": "Idriftsetter",
     "forklaring": "Fysisk eller juridisk person, offentlig myndighet eller organ som bruker et KI-system under sin myndighet, unntatt ved personlig, ikke-yrkesmessig bruk.",
@@ -3589,6 +3601,18 @@
     ],
     "alias": [
       "Norwegian Data Protection Authority"
+    ]
+  },
+  {
+    "id": "europaradet",
+    "tittel": "Europarådet",
+    "forklaring": "Mellomstatlig organisasjon som skal verne om menneskerettighetene, demokratiet og rettsstaten, blant annet gjennom konvensjoner. Nesten alle europeiske land er medlemmer, og hovedkontoret ligger i Strasbourg. Norge var blant de ti landene som opprettet Europarådet i 1949. Europarådet står bak Den europeiske menneskerettighetskonvensjonen (EMK) og Europarådskonvensjonen om kunstig intelligens, og har laget HUDERIA. Europarådet er ikke en del av EU og er ikke det samme som Rådet for Den europeiske union. Kilde: [Store norske leksikon](https://snl.no/Europar%C3%A5det).",
+    "tags": [
+      "ki",
+      "aktør"
+    ],
+    "alias": [
+      "Council of Europe"
     ]
   },
   {
