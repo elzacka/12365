@@ -13618,11 +13618,12 @@
   {
     "id": "feilsikker",
     "tittel": "Feilsikker",
-    "forklaring": "Egenskap ved et system som går til en sikker tilstand når det svikter. En feilsikker dørlås åpner for eksempel ved strømbrudd, slik at folk kommer ut.",
+    "forklaring": "Egenskap ved et system som går til en sikker tilstand når det svikter, slik at svikten ikke skader mennesker, fysiske systemer eller miljøet. En feilsikker dørlås åpner for eksempel ved strømbrudd, slik at folk kommer ut. I OT kan mekaniske og analoge løsninger brukes for å oppnå dette. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
-      "fysisk-sikring"
+      "fysisk-sikring",
+      "sikkerhet"
     ],
     "alias": [
       "Fail-safe"
@@ -14778,8 +14779,7 @@
       "vedlikehold"
     ],
     "alias": [
-      "Planlagt vedlikehold",
-      "Planned maintenance"
+      "Periodic maintenance"
     ]
   },
   {
