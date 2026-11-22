@@ -168,7 +168,7 @@
   {
     "id": "anonymisering",
     "tittel": "Anonymisering",
-    "forklaring": "Opplysninger som ikke kan knyttes til en enkeltperson overhodet. De faller utenfor GDPR, men slik anonymisering er nesten umulig å oppnå i praksis.",
+    "forklaring": "Bearbeiding av personopplysninger slik at de ikke lenger kan knyttes til en identifisert eller identifiserbar person. Prosessen skal være irreversibel. Anonyme opplysninger faller utenfor GDPR, men selve anonymiseringen er behandling av personopplysninger. Det er krevende å oppnå i praksis. Kilde: [Helsedirektoratet](https://www.helsedirektoratet.no/normen/personvern-og-informasjonssikkerhet-i-forsknings-og-kvalitetsprosjekter/personopplysninger/anonyme-opplysninger).",
     "tags": [
       "personvern",
       "dataforvaltning",
@@ -295,7 +295,7 @@
   {
     "id": "autentisering",
     "tittel": "Autentisering",
-    "forklaring": "Verifisering av hvem du kommuniserer med. Autentisering er grunnlaget for å gi riktige tilganger.",
+    "forklaring": "Bekreftelse av en påstått identitet, for en person eller en maskin. Ordet brukes også om å bekrefte at informasjon er ekte og uendret, men det kalles oftere integritet. Autentisering er grunnlaget for å gi riktige tilganger. Kilde: [Store norske leksikon](https://snl.no/autentisering).",
     "tags": [
       "sikkerhet",
       "identitet",
@@ -1976,7 +1976,7 @@
   {
     "id": "fare",
     "tittel": "Fare",
-    "forklaring": "Forhold som kan føre til en uønsket hendelse av utilsiktet karakter. En trussel er derimot tilsiktet.",
+    "forklaring": "Risikokilde der risikoen vurderes som relativt høy, for eksempel et stoff som gir stråling eller en brann på et sykehjem. Definisjonene varierer. I sikkerhetsfaget brukes fare ofte om kilder til utilsiktede hendelser, mens en trussel er tilsiktet. Kilde: [Store norske leksikon](https://snl.no/fare).",
     "tags": [
       "risiko",
       "begrep"
@@ -2549,7 +2549,7 @@
   {
     "id": "digital-sikkerhet",
     "tittel": "Digital sikkerhet",
-    "forklaring": "Beskyttelse av de teknologibaserte systemene som lagrer, prosesserer og overfører data.",
+    "forklaring": "Beskyttelse av alt som er sårbart fordi det er koblet til eller avhenger av informasjons- og kommunikasjonsteknologi (IKT). Regjeringen bruker begrepet synonymt med IKT-sikkerhet og cybersikkerhet. Andre avgrenser cybersikkerhet til angrep fra trusselaktører. Kilde: [Regjeringen](https://www.regjeringen.no/contentassets/c57a0733652f47688294934ffd93fc53/nasjonal-strategi-for-digital-sikkerhet.pdf).",
     "tags": [
       "sikkerhet",
       "begrep"
@@ -2642,7 +2642,7 @@
   {
     "id": "informasjonssikkerhet",
     "tittel": "Informasjonssikkerhet",
-    "forklaring": "Beskyttelse av informasjonen og dataene mot utilsiktet endring, tap og urettmessig tilgang.",
+    "forklaring": "Sikring av digital og analog informasjon mot både uhell og bevisste handlinger, med vekt på konfidensialitet, integritet og tilgjengelighet. Det finnes ingen definisjon alle er enige om. Cybersikkerhet regnes ofte som en del av informasjonssikkerheten. Kilde: [Store norske leksikon](https://snl.no/informasjonssikkerhet).",
     "tags": [
       "sikkerhet",
       "begrep"
@@ -3907,7 +3907,7 @@
   {
     "id": "konsekvens",
     "tittel": "Konsekvens",
-    "forklaring": "Tap av verdier som følge av en uønsket hendelse.",
+    "forklaring": "Virkningen en aktivitet eller hendelse får for noe av verdi, som liv og helse, miljø eller økonomi. Konsekvenser kan også være positive, men risikofaget ser oftest på de uønskede. Kilde: [Society for Risk Analysis](https://www.sra.org/wp-content/uploads/2020/04/SRA-Glossary-FINAL.pdf).",
     "tags": [
       "risiko",
       "begrep"
@@ -5473,7 +5473,7 @@
   {
     "id": "personvern",
     "tittel": "Personvern",
-    "forklaring": "Grunnlovsfestet rett til privatliv og retten til å bestemme over egne personopplysninger.",
+    "forklaring": "Retten til et privatliv og retten til å bestemme over egne personopplysninger. Det norske ordet dekker både privacy og data protection, som EU-retten skiller mellom. Retten til privatliv står i Grunnloven § 102 og EMK artikkel 8. Kilde: [Datatilsynet](https://www.datatilsynet.no/rettigheter-og-plikter/hva-er-personvern/).",
     "tags": [
       "personvern",
       "begrep"
@@ -5567,7 +5567,7 @@
   {
     "id": "phishing",
     "tittel": "Phishing",
-    "forklaring": "Masseutsendt svindel med falske meldinger som utgir seg for å være fra en seriøs aktør for å lure til seg opplysninger.",
+    "forklaring": "Svindel der falske meldinger lurer mottakeren til selv å oppgi opplysninger som passord, PIN-kode eller kortnummer, ofte via en lenke til en falsk nettside. Phishing sendes ofte ut i stort omfang. Målrettet phishing mot enkeltpersoner kalles spear-phishing. Kilde: [Store norske leksikon](https://snl.no/nettfiske).",
     "tags": [
       "sikkerhet",
       "begrep"
@@ -6177,7 +6177,7 @@
   {
     "id": "risikoanalyse",
     "tittel": "Risikoanalyse",
-    "forklaring": "Systematisk fremgangsmåte for å beskrive og beregne risiko knyttet til en eller flere uønskede hendelser.",
+    "forklaring": "Studie av risiko knyttet til en bestemt aktivitet: Hva kan skje, hvorfor, hva kan konsekvensene bli, og hvor trolige er de. Ordene risikoanalyse, risikovurdering og risikoevaluering brukes ofte om hverandre. I risikofaget er analysen en del av risikovurderingen. Kilde: [Store norske leksikon](https://snl.no/risikoanalyse).",
     "tags": [
       "risiko",
       "metode"
@@ -6195,7 +6195,7 @@
   {
     "id": "risikoevaluering",
     "tittel": "Risikoevaluering",
-    "forklaring": "Prosess for å vurdere om sikkerhetsmålene er nådd ved å sammenholde risikoanalysens resultater med evalueringskriteriene.",
+    "forklaring": "Prosess der resultatene fra risikoanalysen sammenlignes med gitte kriterier, for å avgjøre om risikoen er for høy og om det trengs tiltak. I sikkerhetsstyring hentes kriteriene fra sikkerhetsmålene. Kilde: [Store norske leksikon](https://snl.no/risikoanalyse).",
     "tags": [
       "risiko",
       "metode"
@@ -6231,7 +6231,7 @@
   {
     "id": "risikovurdering",
     "tittel": "Risikovurdering",
-    "forklaring": "Samlet prosess for å etablere rammer, identifisere uønskede hendelser, analysere risiko og evaluere den. Den bygger på verdivurdering, trusselvurdering og sårbarhetsvurdering, og gir grunnlaget for å velge tiltak.",
+    "forklaring": "Samlet prosess med risikoanalyse og risikoevaluering. I dagligtale brukes ordet om hverandre med risikoanalyse. I sikring bygger risikovurderingen på verdivurdering, trusselvurdering og sårbarhetsvurdering, og den gir grunnlaget for å velge tiltak. Kilde: [Store norske leksikon](https://snl.no/risikoanalyse).",
     "tags": [
       "risiko",
       "metode",
@@ -6312,7 +6312,7 @@
   {
     "id": "sårbarhet",
     "tittel": "Sårbarhet",
-    "forklaring": "Svakhet som gjør at et objekt eller et system ikke klarer å motstå en uønsket hendelse eller varig påkjenning, eller å opprettholde og gjenopprette funksjonen sin etterpå. En trusselaktør kan utnytte den.",
+    "forklaring": "Mangel på evne et system har til å tåle påkjenninger som kan føre til skader og tap. Definisjonene varierer. Her brukes risikofagets. I IT-sikkerhet er en sårbarhet en kjent svakhet som en angriper kan utnytte. Kilde: [Store norske leksikon](https://snl.no/s%C3%A5rbarhet).",
     "tags": [
       "risiko",
       "sikkerhet",
@@ -6442,7 +6442,7 @@
   {
     "id": "sannsynlighet",
     "tittel": "Sannsynlighet",
-    "forklaring": "Angivelse av hvor trolig det er at en uønsket hendelse vil inntreffe.",
+    "forklaring": "Uttrykk for hvor trolig en hendelse er, eller hvor ofte den skjer. Det finnes flere tolkninger. Risikoanalyser bruker ofte subjektiv (kunnskapsbasert) sannsynlighet: Hvor trolig noen mener det er at hendelsen inntreffer, ut fra kunnskapen de har. Kilde: [Store norske leksikon](https://snl.no/sannsynlighet).",
     "tags": [
       "risiko",
       "begrep"
@@ -6582,14 +6582,13 @@
   {
     "id": "sikkerhetshendelse",
     "tittel": "Sikkerhetshendelse",
-    "forklaring": "Sikkerhetsrelatert avvik i et system som skyldes dataangrep, teknisk feil eller feil bruk.",
+    "forklaring": "Avvik der informasjon eller IT-ressurser mister konfidensialitet, integritet eller tilgjengelighet, for eksempel etter et dataangrep, teknisk svikt eller feil bruk. Det norske ordet favner vidt. Engelsk skiller mellom security incident, som fikk konsekvenser, og security event, som kunne fått det, men ble avverget. Kilde: [Store norske leksikon](https://snl.no/sikkerhetshendelse_-_IT).",
     "tags": [
       "sikkerhet",
       "begrep"
     ],
     "alias": [
-      "Security incident",
-      "Security event"
+      "Security incident"
     ]
   },
   {
@@ -6657,7 +6656,7 @@
   {
     "id": "sikkerhetsrisiko",
     "tittel": "Sikkerhetsrisiko",
-    "forklaring": "Usikkerhet knyttet til om en uønsket hendelse vil inntreffe og hvilke konsekvenser den kan få. I KI-forordningen: Kombinasjonen av sannsynligheten for at skade oppstår og skadens alvorlighetsgrad.",
+    "forklaring": "Sannsynligheten for at en trussel påfører en verdi en uønsket konsekvens ved å utnytte en sårbarhet. Risikonivået angir forholdet mellom sannsynlighet og konsekvens, og begge er ofte usikre anslag. I KI-forordningen er risiko kombinasjonen av sannsynligheten for at skade oppstår og skadens alvorlighetsgrad. Kilde: [Store norske leksikon](https://snl.no/risiko_-_informasjonssikkerhet).",
     "tags": [
       "risiko",
       "sikkerhet",
@@ -7611,7 +7610,7 @@
   {
     "id": "trussel",
     "tittel": "Trussel",
-    "forklaring": "Mulig tilsiktet handling som kan føre til en uønsket hendelse og gi negative konsekvenser for verdiene. Trusselaktøren kan være ukjent. Et fenomen er derimot utilsiktet.",
+    "forklaring": "Mulig tilsiktet handling som kan skade verdier, for eksempel et planlagt løsepengevirusangrep mot en kommune. Trusselen er ofte knyttet til én eller flere trusselaktører, som kan være ukjente. Et fenomen er derimot utilsiktet. Kilde: [Store norske leksikon](https://snl.no/trussel_-_risiko).",
     "tags": [
       "risiko",
       "sikkerhet",
@@ -7713,7 +7712,7 @@
   {
     "id": "usikkerhet",
     "tittel": "Usikkerhet",
-    "forklaring": "Manglende kunnskap om hvorvidt en uønsket hendelse vil inntreffe og hvilke konsekvenser den kan få. Høy usikkerhet skal synliggjøres og vektlegges når risikonivået fastsettes.",
+    "forklaring": "Det å ikke vite den sanne verdien av en størrelse eller hvilke konsekvenser en aktivitet vil få. Risikofaget skiller kunnskapsbasert (epistemisk) usikkerhet fra variasjon, som kalles stokastisk eller aleatorisk usikkerhet. Høy usikkerhet skal synliggjøres og vektlegges når risikonivået fastsettes. Kilde: [Store norske leksikon](https://snl.no/usikkerhet).",
     "tags": [
       "risiko",
       "begrep"
@@ -14096,7 +14095,7 @@
     "id": "internkontroll",
     "tittel": "Internkontroll",
     "undertittel": "IK",
-    "forklaring": "Systematiske tiltak som sikrer at virksomheten planlegger, organiserer og utfører arbeidet i tråd med regelverket for helse, miljø og sikkerhet.",
+    "forklaring": "Systematiske tiltak som sikrer at virksomheten planlegger, organiserer, utfører og vedlikeholder aktivitetene i samsvar med krav i lov eller forskrift. Begrepet brukes i flere regelverk, blant annet for helse, miljø og sikkerhet (HMS), petroleumsvirksomheten og helsetjenesten. Kilde: [Store norske leksikon](https://snl.no/internkontroll).",
     "tags": [
       "eba",
       "regelverk",
@@ -14640,7 +14639,7 @@
     "id": "operasjonell-teknologi",
     "tittel": "Operasjonell teknologi",
     "undertittel": "OT",
-    "forklaring": "Programmerbare systemer og enheter som overvåker eller styrer fysiske prosesser og utstyr. I bygg gjelder det for eksempel bygningsautomasjon, adgangskontroll og heiser.",
+    "forklaring": "Programmerbare systemer og enheter som samhandler med det fysiske miljøet, eller styrer enheter som gjør det. De oppdager eller endrer prosesser direkte ved å overvåke eller styre utstyr. Eksempler er industrielle kontrollsystemer, bygningsautomasjon, transportsystemer og adgangskontroll. Definisjonene varierer, også mellom NISTs egne publikasjoner. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14942,7 +14941,7 @@
   {
     "id": "risiko",
     "tittel": "Risiko",
-    "forklaring": "Usikkerhet om en uønsket hendelse vil inntreffe og hvilke konsekvenser den kan få. I sikring uttrykkes risiko ofte som forholdet mellom trussel, sårbarhet og verdi.",
+    "forklaring": "Muligheten for at hendelser med uønskede konsekvenser for noe av verdi inntreffer, og usikkerheten om de skjer og hva konsekvensene blir. Definisjonene varierer mellom fagområder. Her brukes risikofagets, fra Society for Risk Analysis. I sikring uttrykkes risiko ofte som forholdet mellom trussel, sårbarhet og verdi. Kilde: [Store norske leksikon](https://snl.no/risiko).",
     "tags": [
       "eba",
       "fysisk-sikring",
@@ -14956,7 +14955,7 @@
     "id": "risiko-og-sarbarhetsanalyse",
     "tittel": "Risiko- og sårbarhetsanalyse",
     "undertittel": "ROS",
-    "forklaring": "Systematisk vurdering av hva som kan gå galt, hvor sannsynlig det er, og hvilke følger det kan få. Gir grunnlag for tiltak.",
+    "forklaring": "Risikoanalyse der sårbarhet er spesielt vektlagt: Hva kan gå galt, hvor trolig er det, hvilke konsekvenser kan det få, og hvor godt tåler systemet påkjenningen. Gir grunnlag for tiltak. Kilde: [Store norske leksikon](https://snl.no/risiko-_og_s%C3%A5rbarhetsanalyse).",
     "tags": [
       "eba",
       "regelverk",
@@ -14964,7 +14963,6 @@
     ],
     "alias": [
       "ROS",
-      "Risikoanalyse",
       "Risk and vulnerability analysis"
     ]
   },
@@ -15224,7 +15222,7 @@
   {
     "id": "sikring",
     "tittel": "Sikring",
-    "forklaring": "Arbeidet med å beskytte verdier mot tilsiktede uønskede handlinger. Sikring er tiltakene som gir sikkerhet.",
+    "forklaring": "All aktivitet for å oppnå sikkerhet, slik NSM bruker begrepet. Sikkerhetsloven kaller tiltakene sikkerhetstiltak, som kan sidestilles med sikringstiltak. Kilde: [Nasjonal sikkerhetsmyndighet](https://nsm.no/regelverk-og-hjelp/veiledere-og-handboker/veileder-i-fysisk-sikkerhet/innledning/formal/).",
     "tags": [
       "eba",
       "fysisk-sikring"
