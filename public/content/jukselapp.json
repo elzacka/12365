@@ -1050,11 +1050,14 @@
   },
   {
     "id": "datamaskinbruk",
-    "tittel": "Computer use",
+    "tittel": "Datamaskinbruk",
     "forklaring": "Funksjon der en KI-modell styrer en datamaskin slik et menneske gjør: Den flytter pekeren, klikker og skriver i programmer.",
     "tags": [
       "ki",
       "begrep"
+    ],
+    "alias": [
+      "Computer use"
     ]
   },
   {
@@ -4950,7 +4953,7 @@
   },
   {
     "id": "menneske-i-loopen",
-    "tittel": "Human-in-the-loop",
+    "tittel": "Menneske i loopen",
     "undertittel": "HITL",
     "forklaring": "Prinsipp der et menneske kvalitetssikrer KI-systemets vurderinger og tar den endelige beslutningen. Det reduserer risikoen for feil og uønskede konsekvenser.",
     "tags": [
@@ -4958,6 +4961,7 @@
       "begrep"
     ],
     "alias": [
+      "Human-in-the-loop",
       "HITL"
     ]
   },
@@ -7226,6 +7230,7 @@
       "metode"
     ],
     "alias": [
+      "Tankekjede",
       "CoT"
     ]
   },
