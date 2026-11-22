@@ -13275,7 +13275,7 @@
   {
     "id": "driftskostnader",
     "tittel": "Driftskostnader",
-    "forklaring": "Løpende kostnader til drift av bygget, som energi, renhold, vann og avløp, avfall, vakt og sikring og utendørs arbeid. Etter NS 3454 regnes også løpende vedlikehold med her.",
+    "forklaring": "Løpende kostnader til drift av bygget, som energi, renhold, vann og avløp, avfall, vakt og sikring og utendørs arbeid.",
     "tags": [
       "eba",
       "økonomi",
@@ -13691,12 +13691,14 @@
   {
     "id": "forebyggende-vedlikehold",
     "tittel": "Forebyggende vedlikehold",
-    "forklaring": "Vedlikehold som gjøres før noe svikter, for å bremse slitasje og redusere risikoen for feil.",
+    "forklaring": "Vedlikehold som utføres for å vurdere og/eller minske degradering og redusere sannsynligheten for svikt i en enhet (NS-EN 13306:2017). I byggfaget kalles det også planlagt eller periodisk vedlikehold, for eksempel maling eller utskifting av slitedeler i installasjoner. Det kan være forhåndsbestemt, med faste intervaller, eller tilstandsbasert. Kilde: [Byggordboka](https://www.byggordboka.no/artikkel/printable/former-for-vedlikehold) og [Byggordboka](https://www.byggordboka.no/artikkel/printable/periodisk-vedlikehold).",
     "tags": [
       "eba",
       "vedlikehold"
     ],
     "alias": [
+      "Periodisk vedlikehold",
+      "Planlagt vedlikehold",
       "Preventive maintenance"
     ]
   },
@@ -14289,7 +14291,7 @@
   {
     "id": "korrigerende-vedlikehold",
     "tittel": "Korrigerende vedlikehold",
-    "forklaring": "Vedlikehold som gjøres etter at en feil er oppdaget. Målet er å få enheten til å fungere som den skal igjen.",
+    "forklaring": "Vedlikehold som utføres etter at en feil er funnet, og som har som formål å gjenopprette en enhet til en tilstand der den kan oppfylle krevd funksjon (NS-EN 13306:2017). Kilde: [Byggordboka](https://www.byggordboka.no/artikkel/printable/former-for-vedlikehold).",
     "tags": [
       "eba",
       "vedlikehold"
@@ -14363,7 +14365,7 @@
     "id": "livssykluskostnader",
     "tittel": "Livssykluskostnader",
     "undertittel": "LCC",
-    "forklaring": "Summen av alle kostnader for et bygg eller anlegg gjennom hele levetiden, fra investering og drift til riving.",
+    "forklaring": "Summen av alle kostnader for et bygg eller anlegg gjennom hele levetiden, fra investering og drift til riving. Standarden for beregningen er NS-EN 16627, som erstattet NS 3454 da den ble trukket tilbake i 2023. Nettsted: [standard.no](https://standard.no/fagomrader/barekraftige-bygg-og-anlegg/barekraftige-byggverk--rammeverk-for-vurdering-av-bygg-og-anlegg/livssykluskostnader-for-byggverk---ns-3454).",
     "tags": [
       "eba",
       "økonomi"
@@ -14771,16 +14773,17 @@
     ]
   },
   {
-    "id": "periodisk-vedlikehold",
-    "tittel": "Periodisk vedlikehold",
-    "forklaring": "Vedlikehold som er planlagt og gjøres med faste mellomrom, uavhengig av tilstand. NS-EN ISO/IEC 27002:2022 anbefaler å vedlikeholde utstyr etter leverandørens anbefalte servicehyppighet, og å ha sikkerhetstiltak når vedlikehold er planlagt, særlig når eksternt personell gjør jobben eller vedlikeholdet skjer fjernstyrt. Kilde: [Standard Norge](https://online.standard.no/nb/ns-en-isoiec-27002-2022).",
+    "id": "forhandsbestemt-vedlikehold",
+    "tittel": "Forhåndsbestemt vedlikehold",
+    "forklaring": "Forebyggende vedlikehold som utføres i henhold til etablerte tidsintervaller eller antall bruksenheter, men uten forutgående tilstandsundersøkelser (NS-EN 13306:2017). I bygg følger det faste vedlikeholdsinstrukser fra planleggere, entreprenører eller leverandører, og enkelte komponenter blir da skiftet ut før det er teknisk nødvendig. NS-EN ISO/IEC 27002:2022 anbefaler å vedlikeholde utstyr etter leverandørens anbefalte servicehyppighet, og å ha sikkerhetstiltak når vedlikehold er planlagt, særlig når eksternt personell gjør jobben eller vedlikeholdet skjer fjernstyrt. Kilde: [Byggordboka](https://www.byggordboka.no/artikkel/printable/former-for-vedlikehold) og [Standard Norge](https://online.standard.no/nb/ns-en-isoiec-27002-2022).",
     "tags": [
       "eba",
       "vedlikehold",
       "fdv"
     ],
     "alias": [
-      "Periodic maintenance"
+      "Intervallbundet vedlikehold",
+      "Predetermined maintenance"
     ]
   },
   {
@@ -15541,7 +15544,7 @@
     "id": "tilstandsbasert-vedlikehold",
     "tittel": "Tilstandsbasert vedlikehold",
     "undertittel": "CBM",
-    "forklaring": "Forebyggende vedlikehold som styres av målt eller observert tilstand, ikke av faste intervaller.",
+    "forklaring": "Forebyggende vedlikehold som omfatter vurdering av fysisk tilstand, analyse og mulige påfølgende vedlikeholdstiltak (NS-EN 13306:2017). I bygg er det planlagte arbeider basert på regelmessige tilstandsanalyser, for eksempel hvert år, slik at tiltakene gjøres til rett tid. Kilde: [Byggordboka](https://www.byggordboka.no/artikkel/printable/former-for-vedlikehold).",
     "tags": [
       "eba",
       "ot",
@@ -15551,6 +15554,20 @@
     "alias": [
       "Condition-based maintenance",
       "CBM"
+    ]
+  },
+  {
+    "id": "prediktivt-vedlikehold",
+    "tittel": "Prediktivt vedlikehold",
+    "forklaring": "Tilstandsbasert vedlikehold som utføres etter en prognose utledet av gjentatt analyse eller kjente egenskaper og evaluering av de vesentlige parameterne for degradering av enheten (NS-EN 13306:2017). Sensordata og analyse brukes til å varsle behovet før noe svikter. Kilde: [Byggordboka](https://www.byggordboka.no/artikkel/printable/former-for-vedlikehold).",
+    "tags": [
+      "eba",
+      "vedlikehold",
+      "ot",
+      "iot"
+    ],
+    "alias": [
+      "Predictive maintenance"
     ]
   },
   {
@@ -15821,7 +15838,7 @@
   {
     "id": "vedlikehold",
     "tittel": "Vedlikehold",
-    "forklaring": "Kombinasjon av alle tekniske, administrative og ledelsesrelaterte tiltak gjennom en enhets livssyklus som har til hensikt å opprettholde den i eller gjenopprette den til en tilstand der den kan oppfylle den krevde funksjonen (NS-EN 13306:2017). NIST beskriver det på samme måte som arbeid som forebygger svikt eller gjenoppretter funksjonen. I bygg holder vedlikeholdet bygningen og de tekniske anleggene på et fastsatt kvalitetsnivå gjennom brukstiden. Utskifting av deler med kortere levetid enn bygningen regnes også som vedlikehold. Kilde: [Standard Norge](https://www.standard.no/globalassets/kurs-arrangement-og-radgiving/standard-morgen-og-andre-arr/barekraftig-ombygging/n_1429_standardene-for-am-fm-vedlikehold_2024-04-04.pdf) og [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
+    "forklaring": "Kombinasjon av alle tekniske, administrative og ledelsesrelaterte tiltak gjennom en enhets livssyklus som har til hensikt å opprettholde den i eller gjenopprette den til en tilstand der den kan oppfylle den krevde funksjonen (NS-EN 13306:2017). NIST beskriver det på samme måte som arbeid som forebygger svikt eller gjenoppretter funksjonen. I bygg holder vedlikeholdet bygningen og de tekniske anleggene på et fastsatt kvalitetsnivå gjennom brukstiden. Utskifting av deler med kortere levetid enn bygningen regnes også som vedlikehold. Kilde: [Byggordboka](https://www.byggordboka.no/artikkel/printable/vedlikehold), [Standard Norge](https://www.standard.no/globalassets/kurs-arrangement-og-radgiving/standard-morgen-og-andre-arr/barekraftig-ombygging/n_1429_standardene-for-am-fm-vedlikehold_2024-04-04.pdf) og [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "vedlikehold",
