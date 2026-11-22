@@ -10,7 +10,7 @@ const DATA: KiVurderingData = {
   ],
   veiledning: 'Gå i rekkefølge',
   kort: ['A', 'B', 'C', 'D'].map(t => ({
-    id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, oppsummering: `${t} kort`, eksempler: [`${t} eksempel`],
+    id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, oppsummering: `${t} kort`, eksempler: [`${t} eksempel`, { tekst: `${t} oppgave`, m365: `${t} app` }],
     svar: `${t} svar`, punkter: [`${t} punkt`], kilde: `${t} kilde`,
     ...(t === 'B' && { etikett: 'Hele lista' }),
   })),
@@ -62,6 +62,7 @@ describe('KiVurdering', () => {
     fireEvent.click(box)
     expect(box).toHaveAttribute('aria-expanded', 'true')
     expect(screen.getByText('A eksempel')).toBeInTheDocument()
+    expect(screen.getByText('I M365: A app')).toBeInTheDocument()
     expect(flip).toHaveAttribute('aria-pressed', 'false')
 
     fireEvent.click(screen.getByText('A?'))

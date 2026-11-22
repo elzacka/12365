@@ -92,7 +92,7 @@ export interface KiVurderingKort {
   sporsmal: string    // front, the question the card asks
   oppsummering: string // front, one line under the question
   etikett?: string    // front, title of the eksempler box; default «Eksempler»
-  eksempler: string[] // front
+  eksempler: (string | { tekst: string; m365: string })[] // front; m365: where it shows in M365, as a muted line
   svar: string        // back, what to do
   punkter: string[]   // back
   kilde: string       // back, legal basis

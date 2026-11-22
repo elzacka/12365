@@ -3,7 +3,17 @@
     {
       "id": "innledning",
       "tittel": "Innledning",
-      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nDet er formålet som avgjør: Hva skal KI gjøre, og hvem blir berørt? Verktøyet og hvor sensitiv informasjonen er, betyr også noe, men ikke for hvilken kategori (kort) du havner på.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
+      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nDet er formålet som avgjør: Hva skal KI gjøre, og hvem blir berørt? Verktøyet, hvor mye KI gjør selv og hvor sensitiv informasjonen er, betyr også noe, men ikke for hvilket kort du havner på. Samme funksjon kan derfor havne på ulike kort.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
+    },
+    {
+      "id": "samme-verktoy",
+      "tittel": "Samme verktøy, ulike kort",
+      "tekst": "- **Regneark**: Analysere budsjettet → kort 4. Rangere ansatte etter prestasjoner → kort 2.\n- **Oppsummering**: Oppsummere et møte → kort 4. Oppsummere søknader om en ytelse før vedtak → kort 2, men kan være unntatt som forarbeid.\n- **Bilder**: Illustrasjon til en intern presentasjon → kort 4. Realistisk bilde av en ekte person som publiseres → kort 3. Nakenbilde av en kollega → kort 1.\n- **Stemme og video**: Opplæringsvideo med KI-stemme → kort 4. Publisert video der KI-stemmen ligner en ekte person → kort 3.\n- **Tone og følelser**: Sjekke tonen i en e-post → kort 4. Tolke følelsene til ansatte ut fra stemmen i møter → kort 1.\n- **Klassifisering og metadata**: Sortere dokumenter for arkiv og søk → kort 4. Sortere jobbsøknader etter hvem som bør gå videre → kort 2.\n- **Agenter**: En agent som rydder i innboksen din → kort 4. En agent som følger med på hvor mye ansatte jobber → kort 2.\n- **Chat**: Du spør en KI-assistent selv → kort 4. En chat som svarer innbyggere → kort 3."
+    },
+    {
+      "id": "autonomi",
+      "tittel": "Når KI gjør mer selv",
+      "tekst": "Hvor mye KI gjør selv, avgjør ikke kortet. Men jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom. *I M365: Copilot i Word, Excel, PowerPoint, Outlook og OneNote, KI i Clipchamp, Copilot Chat*\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter. *I M365: Work IQ, Researcher og Analytiker. Følger med E7. Egen lisens per bruker for E5*\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe. *I M365: Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede. *I M365: Autopilot (forhåndsversjon) og planlagte oppgaver i Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres. *I M365: Autofyll-kolonner i SharePoint, som krever Microsoft Copilot-lisens eller betaling etter bruk. Automatisk etikettering og maskinlæringsbasert oppbevaring i Purview, som følger med E5 og E7*\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke. *I M365: Copilot Code og apper i Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n\n- Unntaket for forarbeid på kort 2 gjelder bare når KI ikke påvirker utfallet vesentlig. KI som handler selv, gjør ofte nettopp det.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen. *I M365: Power Automate og regelbaserte oppbevaringsregler i Purview*"
     },
     {
       "id": "gjelder-alltid",
@@ -80,9 +90,18 @@
       "sporsmal": "Snakker folk med KI, eller publiserer dere KI-innhold?",
       "oppsummering": "Folk skal kunne se når de har med KI å gjøre",
       "eksempler": [
-        "Svare på spørsmål fra innbyggere eller ansatte",
-        "Lage bilder, lyd eller video som ligner ekte personer, steder eller hendelser",
-        "Skrive tekst som publiseres for å informere offentligheten om saker av allmenn interesse",
+        {
+          "tekst": "Svare på spørsmål fra innbyggere eller ansatte",
+          "m365": "Agenter i Copilot Chat og Teams"
+        },
+        {
+          "tekst": "Lage bilder, lyd eller video som ligner ekte personer, steder eller hendelser",
+          "m365": "Copilot Chat, PowerPoint, Clipchamp"
+        },
+        {
+          "tekst": "Skrive tekst som publiseres for å informere offentligheten om saker av allmenn interesse",
+          "m365": "Word, Copilot Chat"
+        },
         "Tolke følelser eller sortere folk ut fra biometri, som ansikt eller stemme"
       ],
       "svar": "Gå i gang, men si fra at det er KI.",
@@ -100,11 +119,44 @@
       "tittel": "Minimal risiko",
       "farge": "gronn",
       "sporsmal": "Ingen av delene?",
-      "oppsummering": "Det meste av vanlig kontorarbeid med KI",
+      "oppsummering": "Vanlig kontorarbeid med KI, når resultatet ikke brukes til noe på kort 1–3",
       "eksempler": [
-        "Skrive utkast, oppsummere og oversette",
-        "Søke i egne dokumenter og rutiner",
-        "Hjelp til programmering og analyse"
+        {
+          "tekst": "Skrive utkast, omskrive og oversette tekst",
+          "m365": "Word, Outlook, Copilot Chat"
+        },
+        {
+          "tekst": "Oppsummere dokumenter, e-posttråder og videoer",
+          "m365": "Word, Outlook, Clipchamp"
+        },
+        {
+          "tekst": "Analysere tall og lage formler og diagrammer",
+          "m365": "Excel"
+        },
+        {
+          "tekst": "Lage en presentasjon fra et dokument eller en idé",
+          "m365": "PowerPoint"
+        },
+        {
+          "tekst": "Lage video med teksting, opplesning og bilder",
+          "m365": "Clipchamp"
+        },
+        {
+          "tekst": "Søke etter svar i egne dokumenter og rutiner",
+          "m365": "Copilot Chat, Microsoft Copilot. Microsoft Copilot følger med E7. Egen lisens per bruker for E5"
+        },
+        {
+          "tekst": "Klassifisere og merke dokumenter for arkiv, søk og informasjonssikkerhet",
+          "m365": "Purview, som følger med E5 og E7. Autofyll-kolonner i SharePoint, som krever Microsoft Copilot-lisens eller betaling etter bruk"
+        },
+        {
+          "tekst": "La en agent gjøre faste oppgaver, som å lage ukerapporter",
+          "m365": "Cowork, Autopilot. Krever Microsoft Copilot-lisens og betales etter bruk"
+        },
+        {
+          "tekst": "Få hjelp til programmering",
+          "m365": "Copilot Chat, Copilot Code. Copilot Code krever Microsoft Copilot-lisens og betales etter bruk"
+        }
       ],
       "svar": "Gå i gang.",
       "punkter": [

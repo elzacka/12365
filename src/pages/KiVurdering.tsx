@@ -48,7 +48,7 @@ function Stripe({ farge }: { farge: KiVurderingData['kort'][number]['farge'] }) 
   return <span aria-hidden="true" className={`absolute inset-x-0 top-0 h-2 ${STRIPE[farge]}`} />
 }
 
-function CardBox({ id, tittel, punkter, dark }: { id: string; tittel: string; punkter: string[]; dark?: boolean }) {
+function CardBox({ id, tittel, punkter, dark }: { id: string; tittel: string; punkter: KiVurderingData['kort'][number]['eksempler']; dark?: boolean }) {
   const [open, setOpen] = useState(false)
 
   return (
@@ -70,7 +70,14 @@ function CardBox({ id, tittel, punkter, dark }: { id: string; tittel: string; pu
       </button>
       {open && (
         <ul id={id} className={`list-disc pl-7 pr-3 pb-3 pt-1 space-y-1.5 text-xs leading-snug ${dark ? 'text-white' : 'text-slate-600'}`}>
-          {punkter.map(p => <li key={p}>{p}</li>)}
+          {punkter.map(p =>
+            typeof p === 'string' ? <li key={p}>{p}</li> : (
+              <li key={p.tekst}>
+                {p.tekst}
+                <span className="block text-[0.7rem] text-slate-500">I M365: {p.m365}</span>
+              </li>
+            ),
+          )}
         </ul>
       )}
     </div>
