@@ -13,7 +13,7 @@
     {
       "id": "autonomi",
       "tittel": "Når KI gjør mer selv",
-      "tekst": "Hvor mye KI gjør selv, avgjør ikke kortet. Men jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom. *I M365: Copilot i Word, Excel, PowerPoint, Outlook og OneNote, KI i Clipchamp, Copilot Chat*\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter. *I M365: Work IQ, Researcher og Analytiker. Følger med E7. Egen lisens per bruker for E5*\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe. *I M365: Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede. *I M365: Autopilot (forhåndsversjon) og planlagte oppgaver i Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres. *I M365: Autofyll-kolonner i SharePoint, som krever Microsoft Copilot-lisens eller betaling etter bruk. Automatisk etikettering og maskinlæringsbasert oppbevaring i Purview, som følger med E5 og E7*\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke. *I M365: Copilot Code og apper i Cowork. Krever Microsoft Copilot-lisens og betales etter bruk*\n\n- Unntaket for forarbeid på kort 2 gjelder bare når KI ikke påvirker utfallet vesentlig. KI som handler selv, gjør ofte nettopp det.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen. *I M365: Power Automate og regelbaserte oppbevaringsregler i Purview*"
+      "tekst": "Hvor mye KI gjør selv, avgjør ikke kortet. Men jo mer KI handler på egen hånd, jo mer påvirker den utfallet, og jo viktigere er det at et menneske følger med.\n\n- **Foreslår**: KI lager utkast, oppsummeringer, formler og forslag som du går gjennom. *I M365: Copilot i Word, Excel, PowerPoint, Outlook og OneNote, KI i Clipchamp, Copilot Chat*\n- **Henter og setter sammen**: KI søker i e-post, filer, møter og chatter du har tilgang til, og lager svar og rapporter. *I M365: Work IQ, Researcher og Analytiker*\n- **Handler for deg**: KI sender e-post, setter opp møter, lager dokumenter og ordner filer. Den spør vanligvis før den sender eller endrer noe. *I M365: Cowork*\n- **Jobber selv i bakgrunnen**: KI følger opp og gjør faste oppgaver når du ikke er til stede. *I M365: Autopilot (forhåndsversjon) og planlagte oppgaver i Cowork*\n- **Behandler alt innhold automatisk**: KI klassifiserer filer, fyller ut metadata og setter følsomhetsetiketter på alt som lagres. *I M365: Autofyll-kolonner i SharePoint, automatisk etikettering og maskinlæringsbasert oppbevaring i Purview*\n- **Bygger løsninger**: KI lager apper, dashbord og kode som andre skal bruke. *I M365: Copilot Code og apper i Cowork*\n\n- Unntaket for forarbeid på kort 2 gjelder bare når KI ikke påvirker utfallet vesentlig. KI som handler selv, gjør ofte nettopp det.\n- Gi KI bare tilgangene oppgaven krever, og la et menneske godkjenne det som sendes ut eller endrer noe.\n- Det KI bygger, har sitt eget formål. Gå gjennom kortene for det også.\n- Faste regler uten KI, som en flyt som flytter filer etter regler du har satt, er ikke KI etter KI-forordningen. *I M365: Power Automate og regelbaserte oppbevaringsregler i Purview*"
     },
     {
       "id": "innledning",
@@ -143,19 +143,19 @@
         },
         {
           "tekst": "Søke etter svar i egne dokumenter og rutiner",
-          "m365": "Copilot Chat, Microsoft Copilot. Microsoft Copilot følger med E7. Egen lisens per bruker for E5"
+          "m365": "Copilot Chat, Microsoft Copilot"
         },
         {
           "tekst": "Klassifisere og merke dokumenter for arkiv, søk og informasjonssikkerhet",
-          "m365": "Purview, som følger med E5 og E7. Autofyll-kolonner i SharePoint, som krever Microsoft Copilot-lisens eller betaling etter bruk"
+          "m365": "SharePoint, Purview"
         },
         {
           "tekst": "La en agent gjøre faste oppgaver, som å lage ukerapporter",
-          "m365": "Cowork, Autopilot. Krever Microsoft Copilot-lisens og betales etter bruk"
+          "m365": "Cowork, Autopilot"
         },
         {
           "tekst": "Få hjelp til programmering",
-          "m365": "Copilot Chat, Copilot Code. Copilot Code krever Microsoft Copilot-lisens og betales etter bruk"
+          "m365": "Copilot Chat, Copilot Code"
         }
       ],
       "svar": "Gå i gang.",
