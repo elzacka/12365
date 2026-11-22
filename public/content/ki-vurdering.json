@@ -46,7 +46,7 @@
         "Forbudet gjelder uansett verktøy og hvem som har laget det",
         "Unntakene er få og smale, for eksempel å tolke følelser av medisinske grunner eller sikkerhetsgrunner"
       ],
-      "kilde": "KI-forordningen art. 5",
+      "kilde": "KI-forordningen [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)",
       "etikett": "Hele lista"
     },
     {
@@ -81,7 +81,7 @@
         "Dere kan selv bli leverandør hvis dere bruker en generell KI-assistent til et formål på lista, og må da oppfylle kravene til leverandører",
         "KI i produkter som maskiner, heiser, leketøy og medisinsk utstyr kan også være høy risiko"
       ],
-      "kilde": "KI-forordningen art. 6, 25, 26, 27, 49 og 113 og vedlegg I og III"
+      "kilde": "KI-forordningen [art. 6](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6), [art. 25](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25), [art. 26](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26), [art. 27](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27), [art. 49](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-49) og [art. 113](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113), [vedlegg I](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-1) og [vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)"
     },
     {
       "id": "apenhet",
@@ -112,7 +112,7 @@
         "Si fra til folk når KI tolker følelsene deres eller sorterer dem ut fra biometri, som ansikt eller stemme",
         "Informasjonen skal være tydelig og tilgjengelig for alle, og komme senest første gang folk snakker med KI eller ser eller hører innholdet"
       ],
-      "kilde": "KI-forordningen art. 50"
+      "kilde": "KI-forordningen [art. 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)"
     },
     {
       "id": "lav-risiko",
@@ -165,7 +165,7 @@
         "EU oppfordrer til frivillige atferdsregler for ansvarlig KI, også ved minimal risiko",
         "Gå gjennom kortene på nytt hvis formålet endres"
       ],
-      "kilde": "KI-forordningen art. 4 og 95"
+      "kilde": "KI-forordningen [art. 4](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4) og [art. 95](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-95)"
     }
   ],
   "merknad": "Kortene gir et overblikk, ikke en juridisk vurdering. KI-forordningen gjelder i EU og ventes å bli norsk lov gjennom KI-loven."

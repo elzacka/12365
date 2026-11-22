@@ -3,6 +3,7 @@ import { fetchKiVurdering } from '../data/loader'
 import { FlipFrame } from '../components/FlipCard'
 import { ChevronRightIcon } from '../components/Icons'
 import { Markdown } from '../lib/markdown'
+import { parseInline } from '../lib/inline'
 import type { KiVurdering as KiVurderingData } from '../types'
 
 function ExpandRow({ id, tittel, tekst }: KiVurderingData['bokser'][number]) {
@@ -115,7 +116,7 @@ export function KiVurdering() {
                   <p className={`${LABEL} text-brand-200`}>{i + 1} · {k.tittel}</p>
                   <p className="mt-1 pr-8 text-base font-semibold text-white leading-snug">{k.svar}</p>
                   <CardBox id={`ki-kort-${k.id}-bakside`} tittel="Detaljer" punkter={k.punkter} dark />
-                  <p className="mt-auto pt-3 text-[0.65rem] text-brand-200">{k.kilde}</p>
+                  <p className="mt-auto pt-3 text-[0.65rem] text-brand-200 [&_a]:text-white [&_a]:underline [&_a:hover]:text-brand-200 [&_a_svg]:hidden">{parseInline(k.kilde)}</p>
                 </>
               }
             />

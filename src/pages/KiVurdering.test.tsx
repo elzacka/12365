@@ -11,7 +11,7 @@ const DATA: KiVurderingData = {
   veiledning: 'Gå i rekkefølge',
   kort: ['A', 'B', 'C', 'D'].map(t => ({
     id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, oppsummering: `${t} kort`, eksempler: [`${t} eksempel`, { tekst: `${t} oppgave`, m365: `${t} app` }],
-    svar: `${t} svar`, punkter: [`${t} punkt`], kilde: `${t} kilde`,
+    svar: `${t} svar`, punkter: [`${t} punkt`], kilde: `${t} [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)`,
     ...(t === 'B' && { etikett: 'Hele lista' }),
   })),
   merknad: 'Ikke juridisk vurdering',
@@ -67,6 +67,13 @@ describe('KiVurdering', () => {
 
     fireEvent.click(screen.getByText('A?'))
     expect(flip).toHaveAttribute('aria-pressed', 'false')
+  })
+
+  it('links the legal basis to the article', async () => {
+    await renderPage()
+    const links = screen.getAllByRole('link', { name: 'art. 5' })
+    expect(links).toHaveLength(4)
+    expect(links[0]).toHaveAttribute('href', 'https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5')
   })
 
   it('flips one card at a time with its own button', async () => {
