@@ -45,7 +45,7 @@
       "svar": "Stopp. Finn en annen måte å nå målet på.",
       "punkter": [
         "Forbudene gjelder uansett verktøy og hvem som har laget det",
-        "Unntakene er få og smale, for eksempel å tolke følelser av medisinske grunner eller sikkerhetsgrunner"
+        "[Unntakene](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5) er få og snevre, for eksempel å tolke følelser av medisinske grunner eller sikkerhetsgrunner"
       ],
       "kilde": "KI-forordningen [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)",
       "etikett": "Hele lista"

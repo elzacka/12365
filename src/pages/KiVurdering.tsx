@@ -71,9 +71,9 @@ function CardBox({ id, tittel, punkter, lenke, dark }: { id: string; tittel: str
       </button>
       {open && (
         <div id={id}>
-          <ul className={`list-disc pl-7 pr-3 pb-3 pt-1 space-y-1.5 text-xs leading-snug ${dark ? 'text-white' : 'text-slate-600'}`}>
+          <ul className={`list-disc pl-7 pr-3 pb-3 pt-1 space-y-1.5 text-xs leading-snug ${dark ? 'text-white [&_a]:text-white [&_a]:underline [&_a:hover]:text-brand-200 [&_a_svg]:hidden' : 'text-slate-600'}`}>
             {punkter.map(p =>
-              typeof p === 'string' ? <li key={p}>{p}</li> : (
+              typeof p === 'string' ? <li key={p}>{parseInline(p)}</li> : (
                 <li key={p.tekst}>
                   {p.tekst}
                   <span className="block text-[0.7rem] text-slate-500">I M365: {p.m365}</span>

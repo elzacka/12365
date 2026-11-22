@@ -95,7 +95,7 @@ export interface KiVurderingKort {
   eksempler: (string | { tekst: string; m365: string })[] // front; m365: where it shows in M365, as a muted line
   lenke?: string      // front, inline markdown link under eksempler, e.g. to the official list
   svar: string        // back, what to do
-  punkter: string[]   // back
+  punkter: string[]   // back; inline markdown links allowed
   kilde: string       // back, legal basis; inline markdown links to the AI Act Service Desk
 }
 
