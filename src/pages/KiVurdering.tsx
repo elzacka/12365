@@ -134,7 +134,7 @@ export function KiVurdering() {
           </div>
         </section>
 
-        <p className="mt-4 text-xs text-slate-500 leading-snug">{merknad}</p>
+        <p className="mt-4 text-xs text-slate-500 leading-snug">{parseInline(merknad)}</p>
       </div>
     </main>
   )
