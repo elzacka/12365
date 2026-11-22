@@ -80,7 +80,7 @@
   {
     "id": "aktuator",
     "tittel": "Aktuator",
-    "forklaring": "Enhet som gjør et styringssignal om til fysisk bevegelse, for eksempel en motor som åpner et spjeld eller en ventil, eller leddet som beveger en robotarm.",
+    "forklaring": "Enhet som beveger eller styrer en mekanisme, for eksempel en motor som åpner et spjeld eller en ventil, eller leddet som beveger en robotarm. Den drives som regel av strøm, hydraulikk eller trykkluft og gjør energien om til bevegelse. Det er gjennom aktuatoren at styringssystemet påvirker omgivelsene. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "iot",
       "maskinvare",
@@ -1400,7 +1400,7 @@
   {
     "id": "digital-tvilling",
     "tittel": "Digital tvilling",
-    "forklaring": "Digital modell av et fysisk objekt, system eller prosess, for eksempel en maskin eller et bygg. Modellen oppdateres ofte med sanntidsdata og brukes til å følge tilstanden, oppdage avvik og simulere hvordan systemet vil oppføre seg.",
+    "forklaring": "Datamodell av et fysisk system, for eksempel en maskin eller et bygg, som brukes til å følge tilstanden, oppdage avvik og forutsi hvordan systemet vil oppføre seg. Modellen oppdateres ofte med sanntidsdata fra systemet. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "iot",
       "digitalisering",
@@ -1587,7 +1587,7 @@
   {
     "id": "edge-ki",
     "tittel": "Edge-KI",
-    "forklaring": "KI som kjøres lokalt på enheten (mobil, sensor) i stedet for i skyen. Det gir raskere svar og bedre personvern.",
+    "forklaring": "KI som kjøres lokalt på enheten (mobil, sensor) i stedet for i skyen. Det kan gi raskere svar og bedre personvern, fordi dataene ikke må sendes til skyen.",
     "tags": [
       "ki",
       "iot",
@@ -2943,7 +2943,7 @@
   {
     "id": "kpi",
     "tittel": "KPI",
-    "forklaring": "Nøkkeltall som måler hvor godt en organisasjon, en tjeneste eller et bygg presterer mot definerte mål eller krav, for eksempel innen kvalitet, lønnsomhet eller energibruk.",
+    "forklaring": "Målbar verdi som viser hvor godt en organisasjon når sine viktigste mål, for eksempel for drift, økonomi eller sikkerhet. For et bygg eller en tjeneste kan det være kvalitet, kostnader eller energibruk. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "analyse",
       "begrep",
@@ -4986,7 +4986,7 @@
   {
     "id": "minste-privilegium",
     "tittel": "Minste privilegium",
-    "forklaring": "Prinsipp om at brukere, prosesser, enheter og systemer bare får den tilgangen som er strengt nødvendig for oppgaven.",
+    "forklaring": "Prinsipp om at brukere, prosesser, enheter og systemer bare får den tilgangen som er strengt nødvendig for oppgaven. I OT gjelder prinsippet også fjerntilgang. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "risiko",
       "sikkerhet",
@@ -6527,7 +6527,7 @@
   {
     "id": "sensor",
     "tittel": "Sensor",
-    "forklaring": "Enhet som måler en fysisk størrelse, som temperatur, trykk, fukt, bevegelse, avstand eller lys, og gjør den om til et signal.",
+    "forklaring": "Enhet som måler en fysisk størrelse, som temperatur, trykk, fukt, strømning eller bevegelse, og gir ut et elektrisk signal som representerer verdien. I et styringssystem sender sensoren målingen videre til regulatoren. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "iot",
       "maskinvare",
@@ -6679,12 +6679,13 @@
   {
     "id": "sikring-i-dybden",
     "tittel": "Sikring i dybden",
-    "forklaring": "Flere lag med fysiske, elektroniske og administrative tiltak beskytter verdiene. Svikt i ett enkelt lag skal ikke alene føre til tap eller kompromittering, fordi en angriper må forsere alle lagene.",
+    "forklaring": "Strategi med flere uavhengige lag av barrierer, på tvers av mennesker, prosesser, teknologi og det fysiske anlegget, slik at ingen enkelt svikt alene fører til en uakseptabel konsekvens. I fysisk sikring består lagene av perimetersikring, områdesikring, skallsikring og sonesikring, med fysiske, elektroniske og administrative tiltak. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "risiko",
       "sikkerhet",
       "tiltaksprinsipp",
       "eba",
+      "ot",
       "fysisk-sikring"
     ],
     "alias": [
@@ -6761,7 +6762,7 @@
   {
     "id": "smart-enhet",
     "tittel": "Smart enhet",
-    "forklaring": "Påkoblet enhet, ofte med maskinlæring, som kan registrere og reagere på omgivelsene sine.",
+    "forklaring": "Nettilkoblet enhet som kan registrere omgivelsene og reagere på dem, for eksempel en smarthøyttaler, en termostat eller en klokke.",
     "tags": [
       "iot",
       "maskinvare"
@@ -7047,7 +7048,7 @@
   {
     "id": "stuxnet",
     "tittel": "Stuxnet",
-    "forklaring": "Dataorm (2010) som forårsaket fysisk skade på iranske atomsentrifuger. Den viste at digitale angrep kan ramme fysisk infrastruktur.",
+    "forklaring": "Dataorm for Windows, oppdaget i 2010, som var laget for å ramme industriell programvare og utstyr. Den spredte seg vidt, men skadelasten rammet bare bestemte styringssystemer, og den skadet iranske atomsentrifuger. Den viste at digitale angrep kan gi fysisk skade. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "sikkerhet",
       "ot",
@@ -7907,7 +7908,7 @@
   {
     "id": "vpn",
     "tittel": "VPN",
-    "forklaring": "Kryptert forbindelse over et offentlig nett, som en «tunnel» mellom enheten og et internt nett eller internett. Den hindrer avlytting og gir sikker tilgang til interne systemer.",
+    "forklaring": "Logisk nett med begrenset bruk, bygd oppå et offentlig nett som internett. Trafikken går som regel kryptert i en «tunnel» gjennom det offentlige nettet, slik at den ikke kan avlyttes. VPN gir sikker tilgang til interne systemer, og i OT ender tunnelen ofte i en VPN-enhet i DMZ. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "sikkerhet",
       "nettverk",
@@ -10649,7 +10650,7 @@
   {
     "id": "norwegian-centre-for-embodied-ai",
     "tittel": "Norwegian Centre for Embodied AI",
-    "forklaring": "Nasjonalt KI-senter ved NTNU om robotikk med KI, innen forsvar, maritim sektor, transport og helse.",
+    "forklaring": "Nasjonalt KI-senter ledet av NTNU, med UiO, UiT, OsloMet og SINTEF som partnere. Senteret forsker på KI i roboter med ulik form, på land, i luften og i vann, for eksempel innen maritim drift, havbruk og fornybar energi. Nettsted: [ntnu.edu](https://ntnu.edu/ncei).",
     "tags": [
       "ki",
       "iot",
@@ -11730,7 +11731,7 @@
   {
     "id": "gps",
     "tittel": "GPS",
-    "forklaring": "Satellittbasert posisjonering. En app kan legge posisjonen til hver registrering automatisk.",
+    "forklaring": "Amerikansk satellittsystem for posisjonering, navigasjon og tid. Mange enheter og apper bruker det til å registrere hvor de er, og styringssystemer bruker det som tidskilde.",
     "tags": [
       "iot",
       "personvern",
@@ -12322,7 +12323,7 @@
   {
     "id": "adgangskontroll",
     "tittel": "Adgangskontroll",
-    "forklaring": "Evnen til å tillate eller nekte adgang forbi en grense. Den kan være manuell, med vakt eller resepsjon, eller elektronisk.",
+    "forklaring": "Evnen til å tillate eller nekte adgang forbi en grense. Den kan være manuell, med vakt eller resepsjon, eller elektronisk. Fysisk adgangskontroll omfatter også å overvåke adgangen, føre logg og håndtere besøkende. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "fysisk-sikring"
@@ -12340,7 +12341,6 @@
       "fysisk-sikring"
     ],
     "alias": [
-      "Organisatoriske sikringstiltak",
       "Administrative security measures"
     ]
   },
@@ -12450,15 +12450,14 @@
   },
   {
     "id": "alminnelige-kontraktsbestemmelser-for-totalentrepriser",
-    "tittel": "Alminnelige kontraktsbestemmelser for totalentrepriser",
-    "undertittel": "NS 8407",
+    "tittel": "NS 8407",
     "forklaring": "Standardkontrakt for totalentrepriser, der entreprenøren har ansvar for både prosjektering og utførelse.",
     "tags": [
       "eba",
       "kontrakt"
     ],
     "alias": [
-      "NS 8407",
+      "Alminnelige kontraktsbestemmelser for totalentrepriser",
       "General conditions of contract for design and build contracts"
     ]
   },
@@ -12587,7 +12586,9 @@
       "Adgangskontrollsystem",
       "Elektronisk adgangskontroll",
       "Electronic access control system",
-      "EACS"
+      "EACS",
+      "Physical access control system",
+      "PACS"
     ]
   },
   {
@@ -12651,7 +12652,7 @@
   {
     "id": "avvik",
     "tittel": "Avvik",
-    "forklaring": "En feil, mangel eller tilstand som ikke oppfyller et krav, en standard eller en plan.",
+    "forklaring": "Feil, mangel eller tilstand som ikke oppfyller et krav, en standard eller en plan.",
     "tags": [
       "eba",
       "fdv",
@@ -12865,7 +12866,7 @@
   {
     "id": "brannalarmsentral",
     "tittel": "Brannalarmsentral",
-    "forklaring": "Sentral som tar imot signaler fra branndetektorer og manuelle meldere og styrer varsling og slokkeanlegg. NIST anbefaler å isolere den fra andre nett.",
+    "forklaring": "Sentral i brannalarmanlegget som tar imot signaler fra detektorer og manuelle meldere, og som styrer varsling og slokkeanlegg. Brann- og livssikkerhetsanlegg er blant de mest kritiske delene av bygningsautomasjonen og bør ligge i et isolert eller sterkt segmentert nett. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -12907,10 +12908,12 @@
   {
     "id": "brannmur",
     "tittel": "Brannmur",
-    "forklaring": "Enhet eller programvare som slipper gjennom bare tillatt trafikk mellom nett, og beskytter nettet på innsiden.",
+    "forklaring": "Enhet eller programvare mellom to nett som begrenser trafikken til og fra det ene nettet og beskytter det mot trusler fra det andre. Bare trafikk som reglene tillater, slipper gjennom. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
-      "ot"
+      "ot",
+      "sikkerhet",
+      "nettverk"
     ],
     "alias": [
       "Firewall"
@@ -13015,13 +13018,13 @@
   {
     "id": "byggteknisk-forskrift",
     "tittel": "TEK17",
-    "undertittel": "TEK17",
     "forklaring": "Forskrift til plan- og bygningsloven med tekniske minstekrav til byggverk, blant annet om brannsikkerhet, energi og universell utforming. Kravene er i hovedsak formulert som funksjonskrav.",
     "tags": [
       "eba",
       "regelverk"
     ],
     "alias": [
+      "Byggteknisk forskrift",
       "Teknisk forskrift",
       "Regulations on technical requirements for construction works"
     ]
@@ -13042,7 +13045,7 @@
     "id": "bygningsautomasjonssystem",
     "tittel": "Bygningsautomasjonssystem",
     "undertittel": "BAS",
-    "forklaring": "Samlebetegnelse for SD-anlegg, automatikk og feltutstyr som styrer, regulerer og overvåker de tekniske anleggene i et bygg.",
+    "forklaring": "OT-system som styrer, regulerer og overvåker de tekniske anleggene i et bygg, som varme, ventilasjon og kjøling, brannsikring, elektro og lys, adgangskontroll og energistyring. Statsbygg bruker BAS som samlebetegnelse for SD-anlegg eller toppsystem, automatikk og feltutstyr. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13156,7 +13159,7 @@
   {
     "id": "data-historian",
     "tittel": "Data historian",
-    "forklaring": "Database som lagrer måledata og hendelser fra et styringssystem over tid, for trender, analyse og rapportering.",
+    "forklaring": "Sentral database som lagrer måledata og hendelser fra et styringssystem over tid. Den brukes til trender, rapportering og analyse med metoder fra statistisk prosesskontroll. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13169,7 +13172,7 @@
   {
     "id": "datadiode",
     "tittel": "Datadiode",
-    "forklaring": "Nettverksenhet som fysisk bare lar data gå én vei, for eksempel ut fra OT-nettet. Ingenting kan sendes tilbake.",
+    "forklaring": "Nettverksenhet som bare lar data gå én vei, for eksempel ut fra OT-nettet, og som fysisk ikke kan sende noe tilbake. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13177,13 +13180,14 @@
       "nettverk"
     ],
     "alias": [
-      "Data diode"
+      "Data diode",
+      "Unidirectional gateway"
     ]
   },
   {
     "id": "demilitarisert-sone",
     "tittel": "DMZ",
-    "forklaring": "Eget nettsegment mellom OT-nettet og IT-nettet eller internett. Trafikk mellom nettene går via tjenester i sonen, aldri direkte.",
+    "forklaring": "Eget nettsegment på en brannmur, mellom OT-nettet og IT-nettet eller internett. Trafikk mellom nettene går via tjenester i sonen, aldri direkte, og all trafikk inn og ut av sonen følger brannmurens regler. Ofte brukes to brannmurer, én mot hvert nett. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13211,10 +13215,12 @@
   {
     "id": "diskusjonsovelse",
     "tittel": "Diskusjonsøvelse",
-    "forklaring": "Øvelse der deltakerne går gjennom et scenario og planverket rundt et bord, uten å bruke utstyr eller systemer.",
+    "forklaring": "Øvelse der deltakerne går gjennom et scenario og planverket rundt et bord, uten å bruke utstyr eller systemer. Øvelsen viser om alle forstår planen, og om den dekker de viktigste beslutningene. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
-      "fysisk-sikring"
+      "ot",
+      "fysisk-sikring",
+      "sikkerhet"
     ],
     "alias": [
       "Skrivebordsøvelse",
@@ -13226,7 +13232,7 @@
     "id": "distribuert-styringssystem",
     "tittel": "Distribuert styringssystem",
     "undertittel": "DCS",
-    "forklaring": "Styringssystem der styringen er fordelt på mange regulatorer nær prosessen i stedet for én sentral enhet.",
+    "forklaring": "Styringssystem der styringen er fordelt på mange regulatorer nær prosessen i stedet for én sentral enhet. Et overordnet styringsnivå samordner regulatorene. DCS brukes i produksjonsanlegg på ett sted, for eksempel raffinerier, vannrenseanlegg og kraftverk. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13352,7 +13358,7 @@
   {
     "id": "elektroniske-sikringstiltak",
     "tittel": "Elektroniske sikringstiltak",
-    "forklaring": "Elektroniske anlegg som skal oppdage, varsle, verifisere og forsinke uønskede handlinger. Vanligst er innbruddsalarm, adgangskontroll og TV-overvåking.",
+    "forklaring": "Elektroniske anlegg som overvåker og styrer adgangen til et bygg eller område, som innbruddsalarm, adgangskontroll og TV-overvåking. Forsvarsbygg beskriver dem som tiltak som skal oppdage, verifisere, forsinke og varsle uønskede handlinger. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13442,7 +13448,7 @@
   {
     "id": "engineering-workstation",
     "tittel": "Engineering workstation",
-    "forklaring": "Maskin som brukes til å programmere og konfigurere regulatorer og andre styringsenheter. Den er et attraktivt mål fordi den kan endre anlegget.",
+    "forklaring": "Datamaskin som brukes til å programmere og konfigurere regulatorer, PLS-er og andre styringsenheter. Loggene fra den viser ofte best hvilke endringer som er gjort i anlegget, også når enhetene selv ikke logger. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13455,6 +13461,7 @@
   {
     "id": "enkel-palogging",
     "tittel": "Enkel pålogging",
+    "undertittel": "SSO",
     "forklaring": "Ordning der brukeren logger på én gang og får tilgang til flere systemer uten å logge på hvert av dem.",
     "tags": [
       "eba",
@@ -13553,7 +13560,7 @@
   {
     "id": "fasilitetstjeneste",
     "tittel": "Fasilitetstjeneste",
-    "forklaring": "En støttetjeneste som en intern eller ekstern leverandør gir til kjernevirksomheten. Eksempler er renhold, drift av tekniske anlegg, vakthold og resepsjon.",
+    "forklaring": "Støttetjeneste som en intern eller ekstern leverandør gir til kjernevirksomheten. Eksempler er renhold, drift av tekniske anlegg, vakthold og resepsjon.",
     "tags": [
       "eba",
       "forvaltning",
@@ -13624,7 +13631,7 @@
   {
     "id": "feltbuss",
     "tittel": "Feltbuss",
-    "forklaring": "Seriell kommunikasjonsforbindelse der flere enheter i feltutstyret deler samme kabel til undersentralen. Eksempler er BACnet MS/TP, KNX, DALI, Modbus og M-Bus.",
+    "forklaring": "Digital, seriell toveisforbindelse der flere enheter i feltutstyret, som følere, aktuatorer og lokale regulatorer, deler samme kabel til undersentralen. Da trengs ikke egen kabel til hver enhet. Eksempler er BACnet MS/TP, KNX, DALI, Modbus og M-Bus. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13638,7 +13645,7 @@
   {
     "id": "feltutstyr",
     "tittel": "Feltutstyr",
-    "forklaring": "Fysiske komponenter i anlegget, som følere, ventiler, pumper og vifter, som måler verdier eller utfører kommandoer. De kobles til undersentralen via feltbuss eller inn- og utganger.",
+    "forklaring": "Utstyret ute i anlegget som måler verdier eller utfører kommandoer, for eksempel følere, aktuatorer, ventiler, pumper og vifter. Det kobles til undersentralen via feltbuss eller inn- og utganger. NIST regner også PLS-er, RTU-er og operatørpaneler som feltutstyr, mens Statsbygg skiller feltutstyret fra undersentralene. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13667,7 +13674,7 @@
   {
     "id": "fjerntilgang",
     "tittel": "Fjerntilgang",
-    "forklaring": "Tilkobling til undersentraler eller SD-server fra et annet sted, for eksempel for programmering. Statsbygg krever at det skjer via VPN eller direkte forbindelse, ikke ved at eget utstyr kobles til nettet.",
+    "forklaring": "Tilgang til en virksomhets systemer for en bruker, eller en prosess på vegne av en bruker, via et eksternt nett. I bygg gjelder det for eksempel tilkobling til undersentraler eller SD-server for programmering. Statsbygg krever at det skjer via VPN eller direkte forbindelse, ikke ved at eget utstyr kobles til nettet. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13677,7 +13684,6 @@
       "Fjernoppkobling",
       "Fjerntilkobling",
       "Fjernpålogging",
-      "Fjernvedlikehold",
       "Remote access"
     ]
   },
@@ -13801,7 +13807,7 @@
   {
     "id": "fysiske-sikringstiltak",
     "tittel": "Fysiske sikringstiltak",
-    "forklaring": "Fysiske hindringer som skal stanse eller forsinke uautorisert adgang til verdier, som gjerder, dører, låser og vegger.",
+    "forklaring": "Fysiske tiltak som skal hindre eller forsinke uønsket adgang til verdier, som gjerder, porter, dører, låser og vegger. Målet er å redusere risikoen for at verdier og omgivelser går tapt eller blir skadet, med vilje eller ved et uhell. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "fysisk-sikring"
@@ -13817,6 +13823,7 @@
     "forklaring": "Eiendom med informasjon eller virksomhet som er sikkerhetsgradert. Statsbygg krever at SD-serveren der står lokalt på eiendommen uten mulighet for fjerntilkobling.",
     "tags": [
       "eba",
+      "ot",
       "fysisk-sikring"
     ],
     "alias": [
@@ -13850,13 +13857,13 @@
   {
     "id": "helse-miljo-og-sikkerhet",
     "tittel": "HMS",
-    "undertittel": "HMS",
-    "forklaring": "Samlebegrep for arbeidet med å verne mennesker, miljø og verdier mot skade i en virksomhet.",
+    "forklaring": "Samlebegrep for arbeidet med å verne mennesker, miljø og verdier mot skade i en virksomhet. I risikovurderinger for OT er HMS en konsekvenskategori: Mulig skade på ansatte, allmennheten eller miljøet. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "regelverk"
     ],
     "alias": [
+      "Helse, miljø og sikkerhet",
       "Health, safety and environment",
       "HSE"
     ]
@@ -13878,7 +13885,7 @@
   {
     "id": "hendelseshandtering",
     "tittel": "Hendelseshåndtering",
-    "forklaring": "Planlagt og øvd arbeid med å oppdage, begrense, rette opp og lære av sikkerhetshendelser.",
+    "forklaring": "Planlagt og øvd arbeid med sikkerhetshendelser: Forberede, oppdage og analysere, begrense, gjenopprette og lære av hendelsen etterpå, med varsling og samordning underveis. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13921,7 +13928,7 @@
   {
     "id": "hvac",
     "tittel": "HVAC",
-    "forklaring": "Anleggene for oppvarming, ventilasjon og kjøling i et bygg. Feil i dem kan gi farlige forhold eller skade utstyr.",
+    "forklaring": "Anleggene for oppvarming, ventilasjon og kjøling i et bygg. Regulatorer styrer følere, ventiler, spjeld og luftbehandlingsaggregater. Feil kan gi farlige forhold eller skade utstyr hvis klimakravene ikke kan holdes. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13936,7 +13943,7 @@
   {
     "id": "hvitelisting",
     "tittel": "Hvitelisting",
-    "forklaring": "Sikkerhetstiltak der bare godkjente programmer og prosesser får kjøre, mens alt annet blir stoppet.",
+    "forklaring": "Sikkerhetstiltak som begrenser hvilke programmer som får kjøre på en maskin. Programmer som ikke er godkjent, blir ikke startet. Tiltaket passer godt i OT, der programvaren sjelden endres. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -13993,7 +14000,7 @@
     "id": "industrielle-kontrollsystemer",
     "tittel": "Industrielle kontrollsystemer",
     "undertittel": "ICS",
-    "forklaring": "Samlebetegnelse for styringssystemer som SCADA, DCS og PLS, som sammen styrer en fysisk prosess.",
+    "forklaring": "Samlebetegnelse for flere typer styringssystemer i industri og kritisk infrastruktur, som SCADA, DCS og PLS. Elektriske, mekaniske, hydrauliske og pneumatiske komponenter virker sammen for å nå et industrielt mål, for eksempel produksjon eller transport av energi. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14009,7 +14016,7 @@
     "id": "industrielt-tingenes-internett",
     "tittel": "Industrielt tingenes internett",
     "undertittel": "IIoT",
-    "forklaring": "Nettverk av sensorer, maskiner og andre enheter som sender driftsdata over internett eller til skytjenester for analyse og styring.",
+    "forklaring": "Den delen av tingenes internett som gjelder industrielle bruksområder, som transport, produksjon, helse, energi og landbruk. Sensorer, instrumenter og maskiner sender driftsdata via gatewayer til plattformer lokalt, i skyen eller hos en leverandør, for analyse og styring. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14036,7 +14043,7 @@
   {
     "id": "inntrengingsdeteksjonssystem",
     "tittel": "IDS",
-    "forklaring": "System som overvåker nett- eller systemhendelser og varsler om forsøk på uautorisert tilgang.",
+    "forklaring": "Sikkerhetstjeneste som overvåker og analyserer hendelser i nett eller systemer og varsler i sanntid eller nær sanntid om forsøk på uautorisert tilgang. I OT må den kunne tolke industrielle protokoller, som Modbus og OPC UA. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14051,7 +14058,7 @@
     "id": "instrumentert-sikkerhetssystem",
     "tittel": "Instrumentert sikkerhetssystem",
     "undertittel": "SIS",
-    "forklaring": "Uavhengig system med sensorer, logikk og utstyr som setter et anlegg i sikker tilstand når bestemte grenser blir overskredet.",
+    "forklaring": "System av sensorer, logikkenheter og sluttelementer, for eksempel aktuatorer, som setter prosessen i sikker tilstand når forhåndsbestemte grenser brytes. Det er ofte uavhengig av det vanlige styringssystemet, slik at en feil der ikke svekker sikkerhetsfunksjonen. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14109,7 +14116,7 @@
   {
     "id": "inventarliste",
     "tittel": "Inventarliste",
-    "forklaring": "Oppdatert oversikt over alle enheter, programvare og forbindelser i OT-miljøet. Den er grunnlaget for å vite hva som skal beskyttes.",
+    "forklaring": "Oppdatert oversikt over alle enheter, programvare og fastvare i OT-miljøet, med versjoner, plassering, funksjon, kommunikasjonsbehov og hvor kritiske de er. Den er grunnlaget for å vite hva som skal beskyttes. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14151,7 +14158,7 @@
   {
     "id": "jump-host",
     "tittel": "Jump host",
-    "forklaring": "Egen, godt sikret server som brukere må logge seg på først for å nå OT-systemene, slik at all fjerntilgang går ett sted og kan logges.",
+    "forklaring": "Egen, godt sikret server som formidler brukernes tilgang til OT-enhetene. Brukerne logger seg på den først, slik at all fjerntilgang går ett sted og kan styres og overvåkes. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14413,16 +14420,16 @@
     "id": "menneske-maskin-grensesnitt",
     "tittel": "Menneske-maskin-grensesnitt",
     "undertittel": "HMI",
-    "forklaring": "Skjermen, panelet eller programvaren operatøren bruker for å overvåke og styre et anlegg.",
+    "forklaring": "Maskinvaren eller programvaren operatøren bruker for å overvåke og styre et anlegg via regulatorene. Det kan være alt fra et panel med knapper og lamper til en PC med grafiske skjermbilder. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
       "automasjon"
     ],
     "alias": [
-      "Operatørpanel",
       "Human-machine interface",
-      "HMI"
+      "HMI",
+      "MMI"
     ]
   },
   {
@@ -14551,7 +14558,7 @@
   {
     "id": "nettverkssegmentering",
     "tittel": "Nettverkssegmentering",
-    "forklaring": "Oppdeling av et nett i atskilte soner med kontrollert trafikk mellom dem. Et angrep i én sone når da ikke lett resten av anlegget.",
+    "forklaring": "Oppdeling av et nett i atskilte soner, hver med egne tilgangslister og brannmurregler. Uten segmentering kan en angriper som har kommet inn ett sted, nå alle sonene. OT-nettet bør også være atskilt fra virksomhetens IT-nett. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14565,15 +14572,14 @@
   },
   {
     "id": "norsk-bygge-og-anleggskontrakt",
-    "tittel": "Norsk bygge- og anleggskontrakt",
-    "undertittel": "NS 8405",
+    "tittel": "NS 8405",
     "forklaring": "Standardkontrakt for utførelsesentrepriser, der byggherren har ansvaret for prosjekteringen.",
     "tags": [
       "eba",
       "kontrakt"
     ],
     "alias": [
-      "NS 8405",
+      "Norsk bygge- og anleggskontrakt",
       "Norwegian building and civil engineering contract"
     ]
   },
@@ -14737,7 +14743,7 @@
   {
     "id": "patchehandtering",
     "tittel": "Patchehåndtering",
-    "forklaring": "Rutiner for å finne, teste og installere sikkerhetsoppdateringer på utstyr og programvare uten å forstyrre driften.",
+    "forklaring": "Prosess for å følge med på, teste og installere sikkerhetsoppdateringer uten å svekke drift og sikkerhet. Den fastsetter når oppdateringer skal installeres, hvordan de testes, for eksempel med leverandøren eller på et frakoblet system, og hvilke andre tiltak som skal begrense risikoen når en oppdatering må vente. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14806,7 +14812,7 @@
     "id": "programmerbar-logisk-styring",
     "tittel": "Programmerbar logisk styring",
     "undertittel": "PLS",
-    "forklaring": "Robust datamaskin som styrer utstyr etter et program, med logikk, tidsstyring og regulering.",
+    "forklaring": "Robust, elektronisk styringsenhet med programmerbart minne for instruksjoner, for eksempel styring av inn- og utganger, logikk, tidsstyring, telling, PID-regulering, kommunikasjon og databehandling. Den brukes som lokal styring i SCADA- og DCS-systemer, eller alene i mindre anlegg. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14928,7 +14934,7 @@
   {
     "id": "remote-terminal-unit",
     "tittel": "RTU",
-    "forklaring": "Enhet i et fjerntliggende anlegg som samler inn måledata og tar imot styringskommandoer fra en sentral, ofte over radio eller mobilnett.",
+    "forklaring": "Datamaskin med radiogrensesnitt som brukes på fjerntliggende steder uten kablet forbindelse. Den samler inn data fra feltutstyret der, sender dem til en sentral og tar imot kommandoer tilbake, for eksempel i et SCADA-system. En PLS med radio kan gjøre samme jobb. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -14969,7 +14975,8 @@
   {
     "id": "rollebasert-tilgangsstyring",
     "tittel": "Rollebasert tilgangsstyring",
-    "forklaring": "Tilgangsstyring der rettighetene følger brukerens rolle. I SD-anlegget er rollene minst lese, drift og administrator.",
+    "undertittel": "RBAC",
+    "forklaring": "Tilgangsstyring der rettighetene knyttes til roller, ikke til hver enkelt bruker. Hver rolle får bare de rettighetene den trenger. Statsbygg krever at SD-anlegget minst har rollene lese, drift og administrator. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -15026,7 +15033,7 @@
   {
     "id": "scada",
     "tittel": "SCADA",
-    "forklaring": "Datasystem som samler inn data fra og styrer anlegg spredt over store avstander. Operatøren overvåker og styrer fra en sentral.",
+    "forklaring": "Datasystem som samler inn og behandler data fra anlegg spredt over store avstander, og som styrer dem. Operatøren overvåker og styrer fra en sentral. Typiske eksempler er kraftnett, rørledninger og vannforsyning. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -15111,7 +15118,7 @@
   {
     "id": "settpunkt",
     "tittel": "Settpunkt",
-    "forklaring": "Ønsket verdi som reguleringen skal holde, for eksempel en romtemperatur på 21 °C.",
+    "forklaring": "Ønsket verdi som reguleringen skal holde, for eksempel en romtemperatur på 21 °C. Settpunktet kan settes manuelt, automatisk eller av et program. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -15169,7 +15176,7 @@
   {
     "id": "sikkerhetsovervaking",
     "tittel": "Sikkerhetsovervåking",
-    "forklaring": "Løpende innsamling og analyse av logger og nettrafikk for å oppdage angrep og avvik i tide.",
+    "forklaring": "Løpende innsamling og analyse av logger fra enheter og tjenester og av trafikken i nettet. Målet er å oppdage avvik og mulige sikkerhetshendelser i tide og ha oversikt over OT-miljøet. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -15207,7 +15214,7 @@
   {
     "id": "sikkerhetssone",
     "tittel": "Sikkerhetssone",
-    "forklaring": "Gruppe av systemer og enheter med samme sikkerhetskrav, avgrenset fra andre soner med brannmur eller tilsvarende.",
+    "forklaring": "Gruppe av systemer og enheter som får de samme sikkerhetstiltakene. Hver sone er avgrenset fra de andre med egne tilgangslister og brannmurregler. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -15278,7 +15285,6 @@
       "regelverk"
     ],
     "alias": [
-      "Skjermingsverdig objekt",
       "Asset worthy of protection"
     ]
   },
@@ -15498,7 +15504,9 @@
       "sikkerhet"
     ],
     "alias": [
-      "Access management"
+      "Access management",
+      "Identity and access management",
+      "IAM"
     ]
   },
   {
@@ -15531,6 +15539,7 @@
   {
     "id": "tilstandsbasert-vedlikehold",
     "tittel": "Tilstandsbasert vedlikehold",
+    "undertittel": "CBM",
     "forklaring": "Forebyggende vedlikehold som styres av målt eller observert tilstand, ikke av faste intervaller.",
     "tags": [
       "eba",
@@ -15674,7 +15683,7 @@
     "id": "tv-overvakningsanlegg",
     "tittel": "TV-overvåkningsanlegg",
     "undertittel": "TVO",
-    "forklaring": "Anlegg med kameraer som overvåker et område og viser eller lagrer bildene på et avgrenset sett av skjermer. Det brukes til å oppdage og verifisere hendelser.",
+    "forklaring": "Anlegg med kameraer som overvåker et område og sender bildene til et avgrenset sett av skjermer, der de vises eller lagres. Det brukes til å oppdage og verifisere hendelser. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "ot",
@@ -15687,7 +15696,9 @@
       "Videoovervåking",
       "ITV-anlegg",
       "Video surveillance system",
-      "VSS"
+      "VSS",
+      "Closed-circuit television",
+      "CCTV"
     ]
   },
   {
@@ -15722,7 +15733,7 @@
     "id": "undersentral",
     "tittel": "Undersentral",
     "undertittel": "US",
-    "forklaring": "Desentral, programmerbar enhet som styrer og regulerer tekniske anlegg og samler inn og behandler signaler fra feltutstyret. Den fortsetter å styre anlegget selv om forbindelsen til SD-anlegget faller ut.",
+    "forklaring": "Desentral, programmerbar regulator som styrer og regulerer tekniske anlegg direkte med programvare, og som samler inn og behandler signaler fra feltutstyret. Den fortsetter å styre anlegget selv om forbindelsen til SD-anlegget faller ut.",
     "tags": [
       "eba",
       "ot",
@@ -15740,7 +15751,7 @@
     "id": "universell-utforming",
     "tittel": "Universell utforming",
     "undertittel": "UU",
-    "forklaring": "Utforming av bygg og omgivelser slik at flest mulig kan bruke dem uten spesielle tilpasninger.",
+    "forklaring": "Utforming av bygg, omgivelser og IKT-løsninger slik at flest mulig kan bruke dem, uavhengig av funksjonsnedsettelse og uten spesielle tilpasninger. Likestillings- og diskrimineringsloven krever det både for de fysiske forholdene og for IKT, som nettsteder og apper. Kilde: [Lovdata](https://lovdata.no/lov/2017-06-16-51/§17).",
     "tags": [
       "eba",
       "regelverk",
@@ -15809,7 +15820,7 @@
   {
     "id": "vedlikehold",
     "tittel": "Vedlikehold",
-    "forklaring": "Arbeid som holder bygningen og de tekniske anleggene på et fastsatt kvalitetsnivå gjennom brukstiden. Utskifting av deler med kortere levetid enn bygningen regnes også som vedlikehold.",
+    "forklaring": "Alt arbeid som forebygger svikt eller feil på utstyr, eller som gjenoppretter funksjonen. I bygg holder vedlikeholdet bygningen og de tekniske anleggene på et fastsatt kvalitetsnivå gjennom brukstiden. Utskifting av deler med kortere levetid enn bygningen regnes også som vedlikehold. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "vedlikehold",
@@ -15876,7 +15887,7 @@
   {
     "id": "verdivurdering",
     "tittel": "Verdivurdering",
-    "forklaring": "Kartlegging og rangering av virksomhetens verdier etter hvilke konsekvenser det får hvis de går tapt eller blir skadet.",
+    "forklaring": "Kartlegging og rangering av virksomhetens verdier etter hvilke konsekvenser det får hvis de går tapt eller blir skadet. I eiendomsfaget betyr verdivurdering også et anslag over hva en eiendom er verdt i markedet.",
     "tags": [
       "eba",
       "fysisk-sikring",
@@ -15902,7 +15913,7 @@
   {
     "id": "yield",
     "tittel": "Yield",
-    "forklaring": "Mål på avkastning, beregnet som årlig leieinntekt delt på eiendommens verdi og oppgitt i prosent.",
+    "forklaring": "Mål på avkastning: Årlig netto leieinntekt, det vil si leien minus eierkostnadene, delt på eiendommens verdi og oppgitt i prosent.",
     "tags": [
       "eba",
       "økonomi"
