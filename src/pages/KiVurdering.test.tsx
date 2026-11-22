@@ -12,7 +12,7 @@ const DATA: KiVurderingData = {
   kort: ['A', 'B', 'C', 'D'].map(t => ({
     id: t.toLowerCase(), tittel: t, farge: 'rod' as const, sporsmal: `${t}?`, oppsummering: `${t} kort`, eksempler: [`${t} eksempel`, { tekst: `${t} oppgave`, m365: `${t} app` }],
     svar: `${t} svar`, punkter: [`${t} punkt`], kilde: `${t} [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)`,
-    ...(t === 'B' && { etikett: 'Hele lista' }),
+    ...(t === 'B' && { etikett: 'Hele lista', lenke: '[Vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)' }),
   })),
   merknad: 'Ikke juridisk vurdering',
 }
@@ -74,6 +74,13 @@ describe('KiVurdering', () => {
     const links = screen.getAllByRole('link', { name: 'art. 5' })
     expect(links).toHaveLength(4)
     expect(links[0]).toHaveAttribute('href', 'https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5')
+  })
+
+  it('shows the list link at the end of the opened box', async () => {
+    await renderPage()
+    expect(screen.queryByRole('link', { name: 'Vedlegg III' })).toBeNull()
+    fireEvent.click(screen.getByRole('button', { name: 'Hele lista' }))
+    expect(screen.getByRole('link', { name: 'Vedlegg III' })).toHaveAttribute('href', 'https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3')
   })
 
   it('flips one card at a time with its own button', async () => {

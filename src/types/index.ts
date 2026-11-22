@@ -93,6 +93,7 @@ export interface KiVurderingKort {
   oppsummering: string // front, one line under the question
   etikett?: string    // front, title of the eksempler box; default «Eksempler»
   eksempler: (string | { tekst: string; m365: string })[] // front; m365: where it shows in M365, as a muted line
+  lenke?: string      // front, inline markdown link under eksempler, e.g. to the official list
   svar: string        // back, what to do
   punkter: string[]   // back
   kilde: string       // back, legal basis; inline markdown links to the AI Act Service Desk
