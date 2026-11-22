@@ -67,11 +67,11 @@
         "Migrasjon, asyl og grensekontroll: Bruke løgndetektor, vurdere risiko ved innreise, behandle søknader og klager om asyl, visum og opphold eller identifisere folk. Gjelder ikke kontroll av reisedokumenter",
         "Rettspleie og demokratiske prosesser: Hjelpe domstoler eller alternativ tvisteløsning med å undersøke fakta, tolke loven og anvende den på saken. Påvirke utfallet av valg og folkeavstemninger eller hvordan folk stemmer. Gjelder ikke verktøy for å organisere kampanjer"
       ],
-      "lenke": "Den offisielle lista: [Vedlegg III i KI-forordningen](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3). Unntakene: [Artikkel 6 nr. 3](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6). Begge på engelsk.",
+      "lenke": "Den offisielle lista: [Vedlegg III i KI-forordningen](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3). Unntaket: [Artikkel 6 nr. 3](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6). Begge på engelsk.",
       "svar": "Sjekk først om unntaket gjelder. Hvis ikke, gjelder tiltakene under.",
       "punkter": [
         "Tillatt, men med strenge krav. Kravene gjelder i EU fra 02.12.27",
-        "Ikke høy risiko hvis KI ikke påvirker utfallet vesentlig og bare gjør en snever oppgave, forbedrer noe et menneske allerede har gjort, finner mønstre eller avvik i tidligere beslutninger uten å erstatte menneskets vurdering, eller gjør forarbeid",
+        "Unntaket: Ikke høy risiko hvis KI ikke påvirker utfallet vesentlig og bare gjør en snever oppgave, forbedrer noe et menneske allerede har gjort, finner mønstre eller avvik i tidligere beslutninger uten å erstatte menneskets vurdering, eller gjør forarbeid",
         "Unntaket gjelder ikke når KI vurderer personlige egenskaper eller atferd (profilering), rangerer, gir poeng eller foreslår et utfall",
         "At et menneske tar den endelige beslutningen, endrer ikke kortet",
         "Den som mener unntaket gjelder, skal dokumentere vurderingen før KI tas i bruk",
