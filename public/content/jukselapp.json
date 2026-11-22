@@ -1370,6 +1370,22 @@
     ]
   },
   {
+    "id": "digital-omnibus",
+    "tittel": "Digital Omnibus",
+    "undertittel": "EU",
+    "forklaring": "EU-kommisjonens pakke med forslag om å forenkle EUs digitale regelverk, lagt frem 19.11.25. Den har to deler:\n◦ **Digital Omnibus on AI**: Endrer KI-forordningen. Vedtatt som forordning (EU) 2026/1744.\n◦ **Digital Omnibus Regulation**: Forslag om endringer i personvernforordningen, dataforordningen (Data Act), NIS2 og reglene om informasjonskapsler.\nKI-delen utsetter blant annet kravene til høyrisikosystemer og forbyr KI-systemer som lager intime bilder uten samtykke eller overgrepsmateriale av barn. Ingen av endringene gjelder i Norge før de er tatt inn i EØS-avtalen.",
+    "tags": [
+      "ki",
+      "personvern",
+      "regelverk"
+    ],
+    "alias": [
+      "KI-omnibusen",
+      "Digital Omnibus on AI",
+      "Digital Omnibus Regulation"
+    ]
+  },
+  {
     "id": "digital-transformasjon",
     "tittel": "Digital transformasjon",
     "forklaring": "Dyptgripende samfunnsendring der data og digital teknologi får oss til å gjøre nye ting på nye måter.",
@@ -2506,6 +2522,21 @@
     ],
     "alias": [
       "Hypertekstoverføringsprotokoll"
+    ]
+  },
+  {
+    "id": "huderia",
+    "tittel": "HUDERIA",
+    "undertittel": "Europarådet",
+    "forklaring": "Europarådets metode for å vurdere risiko og konsekvenser av KI-systemer for menneskerettigheter, demokrati og rettsstaten. Offentlige og private aktører kan bruke den gjennom hele livsløpet til et KI-system. Metoden er ikke rettslig bindende, men er laget som støtte for partene i Europarådets rammekonvensjon om KI, som Norge har signert.\nHUDERIA har fire elementer:\n1. Kontekstbasert risikoanalyse (COBRA)\n2. Involvering av berørte parter\n3. Risiko- og konsekvensvurdering\n4. Tiltaksplan\nVurderingen gjentas når systemet eller omgivelsene endrer seg. Metoden kan brukes sammen med andre rammeverk, blant annet FRIA etter KI-forordningen.\nNettsted: [coe.int](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems).",
+    "tags": [
+      "ki",
+      "personvern",
+      "metode"
+    ],
+    "alias": [
+      "Human Rights, Democracy and the Rule of Law Impact Assessment",
+      "COBRA"
     ]
   },
   {
