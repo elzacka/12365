@@ -63,7 +63,7 @@ function getHeaderProps(pathname: string) {
   if (pathname === '/alt-i-e5-og-e7') return { title: 'Alt i E5 og E7', showHome: true }
   if (pathname === '/jukselapp') return { title: 'Jukselapp', showHome: true }
   if (pathname === '/hurtigtaster') return { title: 'Hurtigtaster', showHome: true }
-  if (pathname === '/ki-vurdering') return { title: 'KI-vurdering', beta: true, showHome: true }
+  if (pathname === '/ki-vurdering') return { title: 'KI-vurdering', tagline: 'Fire risikokategorier', beta: true, showHome: true }
   return { showHome: true }
 }
 

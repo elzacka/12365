@@ -10,6 +10,7 @@ const IDLE = 'border-slate-200 bg-white text-slate-500 hover:border-brand-300 ho
 
 interface HeaderProps {
   title?: string
+  tagline?: string
   beta?: boolean
   breadcrumb?: ReactNode
   showHome?: boolean
@@ -21,6 +22,7 @@ interface HeaderProps {
 
 export function Header({
   title,
+  tagline,
   beta = false,
   breadcrumb,
   showHome = false,
@@ -58,15 +60,18 @@ export function Header({
 
         <div className="justify-self-center min-w-0 px-2">
           {breadcrumb ?? (title ? (
-            <h1 className={`text-base font-semibold text-slate-800 truncate text-center ${beta ? 'relative overflow-visible' : ''}`}>
-              {title}
-              {/* Absolute, so the badge leaves the title centred. */}
-              {beta && (
-                <span className="absolute left-full top-1/2 -translate-y-1/2 ml-1.5 rounded-full border border-brand-200 px-1.5 text-[0.6rem] font-semibold uppercase tracking-wider leading-4 text-brand-500">
-                  beta
-                </span>
-              )}
-            </h1>
+            <>
+              <h1 className={`text-base font-semibold text-slate-800 truncate text-center ${beta ? 'relative overflow-visible' : ''} ${tagline ? 'leading-tight' : ''}`}>
+                {title}
+                {/* Absolute, so the badge leaves the title centred. */}
+                {beta && (
+                  <span className="absolute left-full top-1/2 -translate-y-1/2 ml-1.5 rounded-full border border-brand-200 px-1.5 text-[0.6rem] font-semibold uppercase tracking-wider leading-4 text-brand-500">
+                    beta
+                  </span>
+                )}
+              </h1>
+              {tagline && <p className="text-xs text-slate-500 leading-tight truncate text-center">{tagline}</p>}
+            </>
           ) : (
             <Link
               to="/"
