@@ -5,11 +5,12 @@ interface NavCardProps {
   to: string
   icon: React.ReactNode
   title: string
+  tagline?: string
   beta?: boolean
   className?: string
 }
 
-function NavCard({ to, icon, title, beta, className = '' }: NavCardProps) {
+function NavCard({ to, icon, title, tagline, beta, className = '' }: NavCardProps) {
   return (
     <Link
       to={to}
@@ -18,7 +19,10 @@ function NavCard({ to, icon, title, beta, className = '' }: NavCardProps) {
       <div className="w-12 h-12 flex items-center justify-center text-brand-400 [&_svg]:[stroke-width:1.5] group-hover:scale-105 transition-transform duration-200">
         {icon}
       </div>
-      <div className="text-base font-semibold text-brand-700 leading-snug">{title}</div>
+      <div>
+        <div className="text-base font-semibold text-brand-700 leading-snug">{title}</div>
+        {tagline && <div className="mt-0.5 text-xs text-slate-500 leading-snug">{tagline}</div>}
+      </div>
       {beta && (
         <span className="absolute top-3 -right-8 w-28 rotate-45 bg-brand-500 py-0.5 text-center text-[0.65rem] font-semibold uppercase tracking-wider text-white shadow-sm">
           beta
@@ -44,6 +48,7 @@ export function Home() {
           to="/ki-vurdering"
           icon={<ScaleIcon size={40} />}
           title="KI-vurdering"
+          tagline="Fire risikokategorier"
           beta
           className="col-span-2 justify-self-center w-[calc(50%-0.375rem)]"
         />
