@@ -116,7 +116,7 @@
       "id": "lav-risiko",
       "tittel": "Minimal risiko",
       "farge": "gronn",
-      "sporsmal": "Passer ingen av kortene over?",
+      "sporsmal": "Passer ingen av de andre kortene?",
       "oppsummering": "Vanlig kontorarbeid med KI, når bruken ikke er forbudt, høy risiko eller krever åpenhet",
       "eksempler": [
         "Skrive utkast, skrive om og oversette tekst",
