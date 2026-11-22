@@ -18,70 +18,86 @@
       "tittel": "Forbudt",
       "farge": "rod",
       "sporsmal": "Er formålet forbudt?",
-      "oppsummering": "Formål som manipulerer, overvåker, rangerer eller krenker folk",
+      "oppsummering": "Formål som er så skadelige at EU har forbudt dem, uansett tiltak",
       "eksempler": [
-        "Manipulere folk til valg som skader dem",
-        "Tolke følelsene til ansatte, elever eller studenter",
-        "Rangere folk ut fra atferd og behandle dem urimelig dårligere",
-        "Lage nakenbilder av virkelige personer uten samtykke"
+        "Manipulere folk med skjulte eller villedende teknikker, slik at de tar valg som skader dem alvorlig",
+        "Utnytte sårbarhet hos folk på grunn av alder, funksjonsnedsettelse eller sosial eller økonomisk situasjon, slik at det skader dem alvorlig",
+        "Rangere folk ut fra atferd eller personlige egenskaper og behandle dem urimelig dårligere",
+        "Forutsi om noen vil begå lovbrudd, bare ut fra profilering eller personlighetstrekk",
+        "Bygge databaser for ansiktsgjenkjenning ved å hente ansiktsbilder i bulk fra nettet eller overvåkingskameraer",
+        "Tolke følelsene til folk på arbeidsplassen eller i skole og utdanning",
+        "Bruke biometri til å utlede rase, politisk syn, fagforeningsmedlemskap, religion, livssyn, seksuell legning eller sexliv",
+        "Identifisere folk i sanntid med biometri på offentlige steder, til politiformål",
+        "Lage realistiske nakenbilder eller seksuelle bilder, videoer eller lydopptak av virkelige personer uten samtykke",
+        "Lage seksuelt overgrepsmateriale av barn"
       ],
       "svar": "Stopp. Finn en annen måte å nå målet på.",
       "punkter": [
         "Forbudet gjelder uansett verktøy og hvem som har laget det",
         "Unntakene er få og smale, for eksempel å tolke følelser av medisinske grunner eller sikkerhetsgrunner"
       ],
-      "kilde": "KI-forordningen art. 5"
+      "kilde": "KI-forordningen art. 5",
+      "etikett": "Hele lista"
     },
     {
       "id": "hoy-risiko",
       "tittel": "Høy risiko",
       "farge": "oransje",
       "sporsmal": "Er formålet på høyrisikolista?",
-      "oppsummering": "Åtte områder der KI kan påvirke folks liv, helse eller rettigheter",
+      "oppsummering": "Åtte områder der feil i KI kan få alvorlige følger for folks liv, helse eller rettigheter",
       "etikett": "Hele lista",
       "eksempler": [
-        "Biometri: Kjenne igjen folk på avstand, sortere dem etter sensitive egenskaper eller tolke følelser",
-        "Kritisk infrastruktur: Ivareta sikkerheten i digital infrastruktur, veitrafikk og forsyning av vann, gass, varme og strøm",
-        "Utdanning: Avgjøre opptak og utdanningsnivå, vurdere hva elever og studenter har lært eller avsløre juks på prøver",
-        "Arbeid: Rekruttere, overvåke og vurdere ansatte, fordele oppgaver ut fra atferd eller avgjøre vilkår, forfremmelse og oppsigelse",
-        "Offentlige ytelser og tjenester: Avgjøre om noen får, beholder eller må betale tilbake ytelser og tjenester, også helsetjenester",
-        "Kreditt og forsikring: Vurdere kredittverdighet eller prise livs- og helseforsikring",
-        "Nødetater: Prioritere nødanrop og utrykninger eller sortere pasienter i akuttmedisin",
-        "Politi: Bruke løgndetektor, vurdere bevis, profilere eller anslå om noen vil bli offer for eller begå lovbrudd",
-        "Migrasjon og grensekontroll: Behandle søknader om asyl, visum og opphold, vurdere risiko ved innreise, bruke løgndetektor eller identifisere personer",
-        "Rettspleie: Hjelpe domstoler eller alternativ tvisteløsning med å finne fakta, tolke loven og anvende den",
-        "Valg: Påvirke utfallet av valg og folkeavstemninger eller hvordan folk stemmer"
+        "Biometri: Identifisere folk på avstand, sortere dem etter sensitive egenskaper eller tolke følelser. Gjelder ikke å bekrefte at noen er den de sier, som ved innlogging",
+        "Kritisk infrastruktur: Ivareta sikkerheten i driften av digital infrastruktur, veitrafikk og forsyning av vann, gass, varme og strøm",
+        "Utdanning: Avgjøre opptak og plassering, vurdere og styre læringen, vurdere hvilket utdanningsnivå noen skal få, eller avsløre juks på prøver",
+        "Rekruttering: Målrette stillingsannonser, sortere søknader eller vurdere kandidater",
+        "Arbeidsforhold: Avgjøre vilkår, forfremmelse og oppsigelse, fordele oppgaver ut fra atferd eller personlighet og overvåke og vurdere ansatte",
+        "Offentlige ytelser og tjenester: Vurdere om noen har rett til ytelser og tjenester, også helsetjenester, og gi, redusere, stanse eller kreve dem tilbake",
+        "Kreditt og forsikring: Vurdere kredittverdighet, unntatt for å avsløre bedrageri, eller vurdere risiko og pris i livs- og helseforsikring",
+        "Nødetater: Vurdere nødanrop, prioritere og sende ut politi, brannvesen og helsehjelp, eller sortere akuttpasienter",
+        "Rettshåndhevelse: Bruke løgndetektor, vurdere bevis, profilere folk, vurdere personlighet og tidligere lovbrudd, eller anslå om noen blir offer for eller begår lovbrudd",
+        "Migrasjon og grensekontroll: Bruke løgndetektor, vurdere risiko ved innreise, behandle søknader og klager om asyl, visum og opphold eller identifisere folk, unntatt å kontrollere reisedokumenter",
+        "Rettspleie: Hjelpe domstoler eller alternativ tvisteløsning med å undersøke fakta, tolke loven og anvende den på saken",
+        "Valg: Påvirke utfallet av valg og folkeavstemninger eller hvordan folk stemmer, unntatt verktøy for å organisere kampanjer"
       ],
       "svar": "Vurder nærmere før dere bestemmer dere.",
       "punkter": [
-        "Tillatt, men med strenge krav, blant annet vurdering av konsekvenser for folks rettigheter, menneskelig kontroll, logging og informasjon til dem det gjelder",
-        "Ikke høy risiko hvis KI bare gjør forarbeid og ikke påvirker utfallet, så lenge KI ikke lager profiler av personer",
-        "Dere kan selv bli leverandør hvis dere bruker en generell KI-assistent til et formål på lista"
+        "Tillatt, men med strenge krav. Kravene gjelder i EU fra 02.12.27",
+        "Ikke høy risiko hvis KI ikke påvirker utfallet vesentlig, for eksempel når KI bare gjør en snever oppgave, forbedrer noe et menneske har gjort, finner avvik fra tidligere beslutninger eller gjør forarbeid",
+        "Unntaket gjelder aldri når KI lager profiler av personer, og vurderingen skal dokumenteres",
+        "Dere skal blant annet bruke systemet etter bruksanvisningen, sørge for menneskelig kontroll, ta vare på logger og informere dem det gjelder",
+        "Informer ansatte og tillitsvalgte før dere tar systemet i bruk på arbeidsplassen",
+        "Offentlige organisasjoner skal også vurdere konsekvensene for folks rettigheter og registrere bruken i EUs database",
+        "Dere kan selv bli leverandør hvis dere bruker en generell KI-assistent til et formål på lista, og må da oppfylle kravene til leverandører",
+        "KI i produkter som maskiner, heiser, leketøy og medisinsk utstyr kan også være høy risiko"
       ],
-      "kilde": "KI-forordningen art. 6, 25, 26 og 27 og vedlegg III"
+      "kilde": "KI-forordningen art. 6, 25, 26, 27, 49 og 113 og vedlegg I og III"
     },
     {
       "id": "apenhet",
       "tittel": "Åpenhet",
       "farge": "gul",
       "sporsmal": "Møter folk KI, eller publiserer dere KI-innhold?",
-      "oppsummering": "Samtaler med KI og KI-innhold som andre ser eller leser",
+      "oppsummering": "Folk skal kunne se når de har med KI å gjøre",
       "eksempler": [
         "Svare på spørsmål fra innbyggere eller ansatte",
-        "Lage bilder, lyd eller video som ligner ekte personer eller hendelser",
-        "Skrive tekst som publiseres for å informere offentligheten"
+        "Lage bilder, lyd eller video som ligner ekte personer, steder eller hendelser",
+        "Skrive tekst som publiseres for å informere offentligheten om saker av allmenn interesse",
+        "Tolke følelser eller sortere folk ut fra biometri"
       ],
       "svar": "Gå i gang, men si fra at det er KI.",
       "punkter": [
-        "Folk skal vite at de snakker med KI, senest første gang de møter den",
-        "Si fra når bilder, lyd eller video som ligner ekte, er laget av KI",
-        "Si fra om KI-tekst dere publiserer for å informere offentligheten, unntatt når et menneske har kontrollert den og står ansvarlig"
+        "Folk skal vite at de snakker med KI, med mindre det er åpenbart",
+        "Si fra når bilder, lyd eller video som ligner ekte, er laget eller endret av KI. I åpenbart kunstneriske, satiriske eller fiktive verk holder det å si at KI er brukt",
+        "Si fra om KI-tekst dere publiserer for å informere offentligheten, unntatt når et menneske har kontrollert den og noen står ansvarlig",
+        "Si fra til folk når KI tolker følelsene deres eller sorterer dem ut fra biometri",
+        "Informasjonen skal være tydelig og tilgjengelig for alle, og komme senest første gang folk møter KI eller innholdet"
       ],
       "kilde": "KI-forordningen art. 50"
     },
     {
       "id": "lav-risiko",
-      "tittel": "Lav risiko",
+      "tittel": "Minimal risiko",
       "farge": "gronn",
       "sporsmal": "Ingen av delene?",
       "oppsummering": "Det meste av vanlig kontorarbeid med KI",
@@ -94,6 +110,7 @@
       "punkter": [
         "KI-forordningen stiller ingen egne krav utover det som står under «Gjelder alltid»",
         "Kontroller det KI lager, fordi KI kan ta feil og likevel høres sikker ut",
+        "EU oppfordrer til frivillige atferdsregler for ansvarlig KI, også ved minimal risiko",
         "Gå gjennom kortene på nytt hvis formålet endres"
       ],
       "kilde": "KI-forordningen art. 4 og 95"
