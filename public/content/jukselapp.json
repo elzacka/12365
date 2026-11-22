@@ -14773,10 +14773,11 @@
   {
     "id": "periodisk-vedlikehold",
     "tittel": "Periodisk vedlikehold",
-    "forklaring": "Vedlikehold som er planlagt og gjøres med faste mellomrom, uavhengig av tilstand.",
+    "forklaring": "Vedlikehold som er planlagt og gjøres med faste mellomrom, uavhengig av tilstand. NS-EN ISO/IEC 27002:2022 anbefaler å vedlikeholde utstyr etter leverandørens anbefalte servicehyppighet, og å ha sikkerhetstiltak når vedlikehold er planlagt, særlig når eksternt personell gjør jobben eller vedlikeholdet skjer fjernstyrt. Kilde: [Standard Norge](https://online.standard.no/nb/ns-en-isoiec-27002-2022).",
     "tags": [
       "eba",
-      "vedlikehold"
+      "vedlikehold",
+      "fdv"
     ],
     "alias": [
       "Periodic maintenance"
@@ -15820,7 +15821,7 @@
   {
     "id": "vedlikehold",
     "tittel": "Vedlikehold",
-    "forklaring": "Alt arbeid som forebygger svikt eller feil på utstyr, eller som gjenoppretter funksjonen. I bygg holder vedlikeholdet bygningen og de tekniske anleggene på et fastsatt kvalitetsnivå gjennom brukstiden. Utskifting av deler med kortere levetid enn bygningen regnes også som vedlikehold. Kilde: [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
+    "forklaring": "Kombinasjon av alle tekniske, administrative og ledelsesrelaterte tiltak gjennom en enhets livssyklus som har til hensikt å opprettholde den i eller gjenopprette den til en tilstand der den kan oppfylle den krevde funksjonen (NS-EN 13306:2017). NIST beskriver det på samme måte som arbeid som forebygger svikt eller gjenoppretter funksjonen. I bygg holder vedlikeholdet bygningen og de tekniske anleggene på et fastsatt kvalitetsnivå gjennom brukstiden. Utskifting av deler med kortere levetid enn bygningen regnes også som vedlikehold. Kilde: [Standard Norge](https://www.standard.no/globalassets/kurs-arrangement-og-radgiving/standard-morgen-og-andre-arr/barekraftig-ombygging/n_1429_standardene-for-am-fm-vedlikehold_2024-04-04.pdf) og [NIST](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).",
     "tags": [
       "eba",
       "vedlikehold",
