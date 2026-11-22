@@ -2221,7 +2221,7 @@
     "id": "fria",
     "tittel": "FRIA",
     "undertittel": "Fundamental Rights Impact Assessment",
-    "forklaring": "Fundamental Rights Impact Assessment. KI-forordningen art. 27 pålegger offentlige organer, private som yter offentlige tjenester, og brukere av høyrisiko-KI til kredittvurdering og livs- og helseforsikring å gjennomføre en FRIA før de tar i bruk et høyrisiko-KI-system. Hensikten er å beskytte grunnleggende rettigheter, øke tilliten til KI og forebygge negative konsekvenser.",
+    "forklaring": "Fundamental Rights Impact Assessment. KI-forordningen art. 27 pålegger noen idriftsettere å vurdere konsekvensene for grunnleggende rettigheter før de tar i bruk et høyrisiko-KI-system fra vedlegg III. Plikten gjelder offentlige organer og private som yter offentlige tjenester, unntatt for kritisk infrastruktur. Den gjelder også alle som bruker slike systemer til kredittvurdering eller til risikovurdering og prising i livs- og helseforsikring. Hensikten er å beskytte grunnleggende rettigheter, øke tilliten til KI og forebygge negative konsekvenser.",
     "tags": [
       "ki",
       "personvern",
@@ -2983,7 +2983,7 @@
     "id": "ki-kompetanse",
     "tittel": "KI-kompetanse",
     "undertittel": "KI-forordningen",
-    "forklaring": "Ferdigheter, kunnskap og forståelse som gjør leverandører, idriftsettere og brukere i stand til å treffe informerte beslutninger om KI-systemer og forstå mulighetene, risikoene og skadene de kan medføre.",
+    "forklaring": "Ferdigheter, kunnskap og forståelse som gjør leverandører, idriftsettere og berørte personer i stand til å treffe informerte beslutninger om KI-systemer og forstå mulighetene, risikoene og skadene de kan medføre.",
     "tags": [
       "ki",
       "begrep"
@@ -10908,7 +10908,7 @@
   {
     "id": "menneskelig-tilsyn",
     "tittel": "Menneskelig tilsyn",
-    "forklaring": "Et menneske kan overvåke, forstå og overstyre et KI-system og godkjenner det som faktisk blir registrert. Krav til høyrisikosystemer i KI-forordningen, artikkel 14.",
+    "forklaring": "Et menneske kan overvåke, forstå og overstyre et KI-system. KI-forordningen art. 14 krever at høyrisikosystemer er laget slik at dette er mulig mens de er i bruk.",
     "tags": [
       "ki",
       "begrep"
