@@ -103,7 +103,6 @@ export interface KiVurderingKort {
 export interface KiVurdering {
   bokser: { id: string; tittel: string; tekst: string }[] // expand boxes; tekst is markdown as in src/lib/markdown.tsx
   kort: KiVurderingKort[]
-  merknad: string     // muted line under the cards; inline markdown links
 }
 
 // Shape of the decrypted locked payload. Mirrors the public content arrays so

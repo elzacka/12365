@@ -13,7 +13,6 @@ const DATA: KiVurderingData = {
     svar: `${t} svar`, regler: [`${t} regel`], tiltak: t === 'A' ? [] : [`${t} tiltak`], kilde: `${t} [art. 5](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5)`,
     ...(t === 'B' && { etikett: 'Hele lista', lenke: '[Vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)' }),
   })),
-  merknad: 'Ikke juridisk vurdering',
 }
 
 // One stable promise: `use()` suspends again on every new one.

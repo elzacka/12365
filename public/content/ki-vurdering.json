@@ -18,7 +18,7 @@
     {
       "id": "innledning",
       "tittel": "Om kortene",
-      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nFormålet avgjør, ikke KI-verktøyet: Hva skal KI gjøre, og hvem blir berørt? Hvor sensitiv informasjonen er, betyr også noe, men ikke for risikokategorien.\n\nGå gjennom kortene i rekkefølge. Stopp ved det første som passer. Åpenhet kan også gjelde ved høy risiko.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid. [Europarådets HUDERIA](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems) er en frivillig metode for å vurdere konsekvenser for menneskerettigheter, demokrati og rettsstaten. Den bruker andre kriterier enn KI-forordningen og avgjør ikke hvilket kort som passer."
+      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). De gir et overblikk, ikke en juridisk vurdering. Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nKI-forordningen gjelder i EU. I Norge: Når den er tatt inn i [EØS-avtalen](https://www.efta.int/eea-lex/32024R1689) og [KI-loven](https://www.regjeringen.no/no/dokumenter/3112327/id3112327/) er vedtatt.\n\nFormålet avgjør, ikke KI-verktøyet: Hva skal KI gjøre, og hvem blir berørt? Hvor sensitiv informasjonen er, betyr også noe, men ikke for risikokategorien.\n\nGå gjennom kortene i rekkefølge. Stopp ved det første som passer. Åpenhet kan også gjelde ved høy risiko.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid. [Europarådets HUDERIA](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems) er en frivillig metode for å vurdere konsekvenser for menneskerettigheter, demokrati og rettsstaten. Den bruker andre kriterier enn KI-forordningen og avgjør ikke hvilket kort som passer."
     }
   ],
   "kort": [
@@ -140,6 +140,5 @@
       ],
       "kilde": "KI-forordningen [art. 4](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4) og [art. 95](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-95)"
     }
-  ],
-  "merknad": "Kortene gir et overblikk, ikke en juridisk vurdering. KI-forordningen gjelder i EU. I Norge: Når den er tatt inn i [EØS-avtalen](https://www.efta.int/eea-lex/32024R1689) og [KI-loven](https://www.regjeringen.no/no/dokumenter/3112327/id3112327/) er vedtatt."
+  ]
 }

@@ -91,7 +91,7 @@ function CardBoxes({ id, sections, dark }: { id: string; sections: Section[]; da
 }
 
 export function KiVurdering() {
-  const { bokser, kort, merknad } = use(fetchKiVurdering())
+  const { bokser, kort } = use(fetchKiVurdering())
 
   return (
     <main className="flex-1 bg-slate-50 px-4 pt-4 pb-8">
@@ -140,8 +140,6 @@ export function KiVurdering() {
             {bokser.map(b => <ExpandRow key={b.id} {...b} />)}
           </div>
         </section>
-
-        <p className="mt-4 text-xs text-slate-500 leading-snug">{parseInline(merknad)}</p>
       </div>
     </main>
   )
