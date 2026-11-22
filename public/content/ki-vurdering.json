@@ -21,13 +21,13 @@
       "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nDet er formålet som avgjør: Hva skal KI gjøre, og hvem blir berørt? Verktøyet, hvor mye KI gjør selv og hvor sensitiv informasjonen er, betyr også noe, men ikke for risikokategorien. Samme funksjon kan derfor havne i ulike kategorier.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
     }
   ],
-  "veiledning": "Formålet avgjør, ikke KI-verktøyet. Gå gjennom kortene i rekkefølge. Stopp ved det første som passer. Åpenhet kan gjelde i tillegg til høy risiko.",
+  "veiledning": "Formålet avgjør, ikke KI-verktøyet. Gå gjennom kortene i rekkefølge. Stopp ved det første som passer. Åpenhet kan også gjelde ved høy risiko.",
   "kort": [
     {
       "id": "forbudt",
       "tittel": "Forbudt",
       "farge": "rod",
-      "sporsmal": "Er formålet forbudt?",
+      "sporsmal": "Er det forbudt?",
       "oppsummering": "Formål som er så skadelige at ingen tiltak kan gjøre dem akseptable",
       "eksempler": [
         "Manipulere folk med skjulte eller villedende teknikker, slik at de tar valg som kan føre til betydelig skade",
@@ -55,7 +55,7 @@
       "id": "hoy-risiko",
       "tittel": "Høy risiko",
       "farge": "oransje",
-      "sporsmal": "Er formålet på høyrisikolista?",
+      "sporsmal": "Står det på høyrisikolista?",
       "oppsummering": "Åtte områder der feil i KI kan få alvorlige følger for liv, helse eller grunnleggende rettigheter",
       "etikett": "Hele lista",
       "eksempler": [
@@ -121,7 +121,7 @@
       "sporsmal": "Passer ingen av kortene over?",
       "oppsummering": "Vanlig kontorarbeid med KI, når bruken ikke er forbudt, høy risiko eller krever åpenhet",
       "eksempler": [
-        "Skrive utkast, omskrive og oversette tekst",
+        "Skrive utkast, skrive om og oversette tekst",
         "Oppsummere dokumenter, e-posttråder og videoer",
         "Analysere tall og lage formler og diagrammer",
         "Lage en presentasjon fra et dokument eller en idé",
@@ -143,5 +143,5 @@
       "kilde": "KI-forordningen [art. 4](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4) og [art. 95](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-95)"
     }
   ],
-  "merknad": "Kortene gir et overblikk, ikke en juridisk vurdering. KI-forordningen gjelder i EU. I Norge gjelder den når den er tatt inn i [EØS-avtalen](https://www.efta.int/eea-lex/32024R1689) og [KI-loven](https://www.regjeringen.no/no/dokumenter/3112327/id3112327/) er vedtatt."
+  "merknad": "Kortene gir et overblikk, ikke en juridisk vurdering. KI-forordningen gjelder i EU. I Norge: Når den er tatt inn i [EØS-avtalen](https://www.efta.int/eea-lex/32024R1689) og [KI-loven](https://www.regjeringen.no/no/dokumenter/3112327/id3112327/) er vedtatt."
 }
