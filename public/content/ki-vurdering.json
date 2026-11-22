@@ -18,7 +18,7 @@
     {
       "id": "innledning",
       "tittel": "Om kortene",
-      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nFormålet avgjør, ikke KI-verktøyet: Hva skal KI gjøre, og hvem blir berørt? Hvor sensitiv informasjonen er, betyr også noe, men ikke for risikokategorien.\n\nGå gjennom kortene i rekkefølge. Stopp ved det første som passer. Åpenhet kan også gjelde ved høy risiko.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid."
+      "tekst": "Kortene er en forenklet risikomodell med fire kategorier, utledet av KI-forordningen (AI Act). Bruk dem til en første grovsortering før du får KI til å hjelpe deg i arbeidet.\n\nFormålet avgjør, ikke KI-verktøyet: Hva skal KI gjøre, og hvem blir berørt? Hvor sensitiv informasjonen er, betyr også noe, men ikke for risikokategorien.\n\nGå gjennom kortene i rekkefølge. Stopp ved det første som passer. Åpenhet kan også gjelde ved høy risiko.\n\nEt formål kan være lovlig og likevel problematisk. Tenk over hva som skal til for at bruken er etisk og forsvarlig, også over tid. [Europarådets HUDERIA](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems) er en frivillig metode for å vurdere konsekvenser for menneskerettigheter, demokrati og rettsstaten. Den bruker andre kriterier enn KI-forordningen og avgjør ikke hvilket kort som passer."
     }
   ],
   "kort": [
@@ -82,7 +82,7 @@
         "Bruk systemet etter bruksanvisningen, sørg for menneskelig kontroll, ta vare på logger og informer dem beslutningene gjelder",
         "Si fra til folk når KI tolker følelsene deres eller sorterer dem ut fra biometri, som ansikt eller stemme",
         "Informer ansatte og tillitsvalgte før dere tar systemet i bruk på arbeidsplassen",
-        "Offentlige organisasjoner: Vurder konsekvensene for folks grunnleggende rettigheter før første bruk, og registrer bruken i EUs database. En personvernkonsekvensvurdering (DPIA) kan brukes som grunnlag"
+        "Offentlige organisasjoner: Vurder konsekvensene for folks grunnleggende rettigheter før første bruk, og registrer bruken i EUs database. En personvernkonsekvensvurdering (DPIA) kan brukes som grunnlag. Europarådets HUDERIA kan støtte vurderingen, men erstatter den ikke"
       ],
       "kilde": "KI-forordningen [art. 6](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6), [art. 25](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25), [art. 26](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26), [art. 27](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27), [art. 49](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-49), [art. 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50) og [art. 113](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113), [vedlegg I](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-1) og [vedlegg III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3). [Kommisjonens utkast til retningslinjer for høyrisiko KI](https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems)"
     },
