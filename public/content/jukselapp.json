@@ -2,7 +2,7 @@
   {
     "id": "apen-kildekode",
     "tittel": "Åpen kildekode",
-    "forklaring": "Programvare eller modeller med kode som er fritt tilgjengelig for innsyn, bruk og videreutvikling.",
+    "forklaring": "Programvare eller KI-systemer med vilkår som gir alle frihet til å bruke, studere, endre og dele dem, til ethvert formål. For KI krever OSI også tilgang til koden, parametrene og detaljert informasjon om treningsdataene. Definisjonene varierer, og mange modeller som kalles åpne, har bare åpne vekter. Her brukes OSIs definisjon. Kilde: [Open Source Initiative](https://opensource.org/ai/open-source-ai-definition).",
     "tags": [
       "programmering",
       "ki",
@@ -16,7 +16,7 @@
   {
     "id": "apne-offentlige-data",
     "tittel": "Åpne data",
-    "forklaring": "Eksterne data som alle har tilgang til. De trenger ikke komme fra offentlig sektor.",
+    "forklaring": "Eksterne data som er gjort tilgjengelige slik at både mennesker og maskiner kan lese og tolke dem, og som alle kan få tilgang til, bruke og dele. De trenger ikke komme fra offentlig sektor. Kilde: [Digdir](https://data.norge.no/guide/veileder-apne-data).",
     "tags": [
       "dataforvaltning",
       "digitalisering",
@@ -794,7 +794,7 @@
   {
     "id": "data-bias",
     "tittel": "Data bias",
-    "forklaring": "Systematisk feil i datagrunnlaget, tilsiktet eller utilsiktet, som gir en skjev fremstilling av virkeligheten.",
+    "forklaring": "Systematiske skjevheter i treningsdataene som påvirker resultatene et KI-system gir. Skjevheter kan også komme fra hvordan modellen er utviklet, trent og brukt. De kan gjøre at grupper eller perspektiver blir behandlet forskjellig, eller at modellen gir partisk eller diskriminerende innhold. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens/).",
     "tags": [
       "dataforvaltning",
       "ki",
@@ -1002,13 +1002,12 @@
   {
     "id": "dataforvaltning",
     "tittel": "Dataforvaltning",
-    "forklaring": "Praksis for å ta vare på, overvåke og administrere data slik at de holder kvalitet og brukes ansvarlig.",
+    "forklaring": "Arbeidet med å utvikle, gjennomføre og følge opp planer, retningslinjer og praksis som leverer, kontrollerer, beskytter og øker verdien av data gjennom hele livssyklusen. Begrepet overlapper ofte med datastyring. Her brukes DAMAs definisjon av data management. Kilde: [DAMA International](https://dama.org/what-is-data-management/).",
     "tags": [
       "dataforvaltning",
       "begrep"
     ],
     "alias": [
-      "Data stewardship",
       "Data management"
     ]
   },
@@ -1039,7 +1038,7 @@
   {
     "id": "datakvalitet",
     "tittel": "Datakvalitet",
-    "forklaring": "I hvilken grad dataene samsvarer med den situasjonen eller aktiviteten de skal representere.",
+    "forklaring": "Hvor godt dataene passer til bruken de skal ha. Digdir beskriver datakvalitet med dimensjoner som nøyaktighet, kompletthet, aktualitet og relevans, alltid for en bestemt brukskontekst. Nøyaktighet er i hvilken grad dataene korrekt representerer virkeligheten. Kilde: [Digdir](https://data.norge.no/specification/spesifikasjon-for-beskrivelse-av-kvalitet-pa-datasett).",
     "tags": [
       "dataforvaltning",
       "begrep"
@@ -1389,7 +1388,7 @@
   {
     "id": "digital-transformasjon",
     "tittel": "Digital transformasjon",
-    "forklaring": "Dyptgripende samfunnsendring der data og digital teknologi får oss til å gjøre nye ting på nye måter.",
+    "forklaring": "Prosess der en organisasjon endrer hvordan den utfører oppgaver, og tenker nytt om hvordan den kan løse samfunnsoppdraget bedre med teknologi. Endringen treffer hele organisasjonen og handler like mye om ledelse, kompetanse og kultur som om teknologi. Ordet brukes ofte om hverandre med digitalisering, og her brukes Digdirs definisjon. Kilde: [Digdir](https://www.digdir.no/digitalisering-og-samordning/digital-transformasjon/3297).",
     "tags": [
       "digitalisering",
       "begrep"
@@ -1443,7 +1442,7 @@
   {
     "id": "digitalisering",
     "tittel": "Digitalisering",
-    "forklaring": "Prosessen med å ta i bruk digitale løsninger for å fornye prosesser og tjenester. Digitalisering bygger på digitisering.",
+    "forklaring": "Det å legge til rette for å lage, håndtere og utnytte digital informasjon ved hjelp av informasjonsteknologi. Definisjonene varierer, fra ren omforming av analoge data til digitale (digitisering) til fornyelse av prosesser og tjenester. Her brukes Store norske leksikons. Kilde: [Store norske leksikon](https://snl.no/digitalisering).",
     "tags": [
       "digitalisering",
       "begrep"
@@ -2124,7 +2123,7 @@
     "id": "forklarbar-ki",
     "tittel": "Forklarbar KI",
     "undertittel": "XAI",
-    "forklaring": "KI-systemer som kan begrunne avgjørelsene sine. Forklarbarhet trengs særlig når beslutninger om helse, jus eller kreditt påvirker mennesker.",
+    "forklaring": "KI-system som kan vise hvordan det kom frem til et resultat. Fagmiljøene bruker ordene ulikt. NIST skiller mellom forklarbarhet, som viser mekanismene bak hvordan systemet virker, og tolkbarhet, som viser hva resultatet betyr for formålet systemet er laget for. Forklarbarhet trengs særlig når beslutninger om helse, jus eller kreditt påvirker mennesker. Kilde: [NIST](https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/).",
     "tags": [
       "ki",
       "begrep"
@@ -2201,7 +2200,7 @@
   {
     "id": "fremvoksende-egenskaper",
     "tittel": "Fremvoksende egenskaper",
-    "forklaring": "Ferdigheter en språkmodell utvikler uventet når den blir stor nok, uten å være eksplisitt trent for dem. Egenskapene er et hovedtema i debatten om KI-evner og risiko.",
+    "forklaring": "Egenskaper som blir synlige når en KI-modell skaleres opp. En språkmodell kan for eksempel plutselig bli mye bedre på en type matematikkoppgaver når den når en viss størrelse. Det er omstridt om egenskapene oppstår brått, eller om de skyldes gradvise forbedringer som først synes når de måles på en bestemt måte. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens/).",
     "tags": [
       "ki",
       "begrep"
@@ -2228,7 +2227,7 @@
   {
     "id": "frontiermodell",
     "tittel": "Frontiermodell",
-    "forklaring": "De mest avanserte KI-modellene som finnes til enhver tid. Modellene er et hovedtema i debatten om KI-sikkerhet og regulering.",
+    "forklaring": "KI-modell for allmenne formål som ligger i forkant av det som finnes. Definisjonene varierer. Her brukes Frontier Model Forums: Modellen gjør det bedre enn alle andre modeller som har vært i utstrakt bruk i minst 12 måneder, målt med vanlige referansetester eller vurderinger av høyrisikoevner. Kilde: [Frontier Model Forum](https://www.frontiermodelforum.org/about-us/).",
     "tags": [
       "ki",
       "begrep"
@@ -2294,7 +2293,7 @@
   {
     "id": "generativ-ki",
     "tittel": "Generativ KI",
-    "forklaring": "KI som lager nytt innhold i stedet for bare å analysere eksisterende data. Innholdet kan være tekst, bilde, lyd, video eller kode. Tradisjonell KI kan sortere e-post som søppelpost eller ikke, mens generativ KI kan skrive en ny e-post for deg.",
+    "forklaring": "KI som kan lage nytt innhold, som tekst, bilder, lyd, video og programkode. Den lærer mønstre fra store mengder treningsdata og bruker dem til å lage innhold som svar på en instruks. Tradisjonell KI kan sortere e-post som søppelpost eller ikke, mens generativ KI kan skrive en ny e-post for deg. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens/).",
     "tags": [
       "ki",
       "begrep"
@@ -2332,7 +2331,7 @@
   {
     "id": "governance",
     "tittel": "Datastyring",
-    "forklaring": "Styringssystemer og styringsstrukturer som sikrer god databehandling, etikk, juridisk etterlevelse og sikkerhet.",
+    "forklaring": "Prosesser som sikrer at dataene blir forvaltet formelt i hele organisasjonen. Datastyring fastsetter hvem som har myndighet, og hvilke rammer som gjelder for forvaltning av og beslutninger om dataene. Begrepet blandes ofte med dataforvaltning. Kilde: [NIST](https://csrc.nist.gov/glossary/term/data_governance).",
     "tags": [
       "dataforvaltning",
       "digitalisering",
@@ -2359,7 +2358,7 @@
   {
     "id": "grunnmodell",
     "tittel": "Grunnmodell",
-    "forklaring": "Stor modell trent på enorme datamengder som kan spesialiseres til mange ulike oppgaver.",
+    "forklaring": "Stor, forhåndstrent KI-modell som kan tilpasses mange ulike oppgaver og bruksområder. Navnet kommer av at mange KI-systemer og tjenester bygges videre på den. KI-forordningen bruker i stedet begrepet KI-modell for allmenne formål. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens/).",
     "tags": [
       "ki",
       "begrep"
@@ -2386,7 +2385,7 @@
   {
     "id": "hallusinering",
     "tittel": "Hallusinasjon",
-    "forklaring": "Fenomen der KI presenterer feil informasjon som om den var sann. Modellen «finner på» fakta, tall eller referanser som ikke finnes.",
+    "forklaring": "Det at et KI-system lager innhold som virker troverdig, men som er feil eller oppdiktet. Språkmodeller lager tekst ut fra statistiske mønstre og sjekker ikke selv om innholdet er sant. Derfor kan de dikte opp fakta, kilder og referanser. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens/).",
     "tags": [
       "ki",
       "begrep"
@@ -4033,7 +4032,7 @@
     "id": "agi",
     "tittel": "Kunstig generell intelligens",
     "undertittel": "AGI",
-    "forklaring": "KI som er minst like god som mennesker på de fleste kognitive oppgaver, i motsetning til smal KI, som løser én bestemt oppgave. Det finnes ingen felles definisjon, og fagfolk er uenige om dagens store språkmodeller allerede er AGI.",
+    "forklaring": "KI-system som kan lære, resonnere og bruke kunnskap på tvers av oppgaver og fagområder, på nivå med eller over menneskelig intelligens. Smal KI løser derimot én bestemt oppgave. Det finnes ingen felles definisjon, og fagfolk er uenige om hva som skal til for å oppnå AGI. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens/).",
     "tags": [
       "ki",
       "begrep"
@@ -4047,7 +4046,7 @@
     "id": "kunstig-intelligens",
     "tittel": "Kunstig intelligens",
     "undertittel": "KI",
-    "forklaring": "Samlebetegnelse for datasystemer som utfører en oppgave på en måte som etterligner menneskelig intelligens.",
+    "forklaring": "Fagfelt innen informatikk som undersøker hvordan datasystemer kan utføre oppgaver som forbindes med intelligens, for eksempel å lære av erfaring, trekke slutninger, forstå språk og planlegge handlinger. Ordet brukes også om metodene og systemene i fagfeltet. Definisjonene varierer, og her brukes Store norske leksikons. Kilde: [Store norske leksikon](https://snl.no/kunstig_intelligens).",
     "tags": [
       "ki",
       "begrep"
@@ -5129,7 +5128,7 @@
   {
     "id": "nettskyen",
     "tittel": "Nettskyen",
-    "forklaring": "Datasentre som tilbyr lagring og prosessering over internett, slik at du ikke trenger lokal infrastruktur.",
+    "forklaring": "Modell for tilgang over nettet til en felles samling regneressurser, som nettverk, servere, lagring, programmer og tjenester. Du kan ta ressursene i bruk og frigi dem raskt, når du trenger dem, med lite administrasjon. Ordet brukes også løst om datasentrene som leverer tjenestene, og her brukes NISTs definisjon. Kilde: [NIST](https://csrc.nist.gov/glossary/term/cloud_computing).",
     "tags": [
       "sky",
       "begrep"
@@ -7010,7 +7009,7 @@
     "id": "llm",
     "tittel": "Stor språkmodell",
     "undertittel": "LLM",
-    "forklaring": "Type generativ KI, trent på enorme tekstmengder for å forutsi og produsere menneskelig språk. Modellen kalles «stor» fordi den har milliarder av parametre. Claude, ChatGPT og Copilot bygger for eksempel på slike modeller.",
+    "forklaring": "KI-modell trent på svært store mengder tekst for å behandle og generere naturlig språk. Modellen lærer statistiske mønstre i treningsdataene og bruker dem til å forutsi og generere tekst. Claude, ChatGPT og Copilot bygger for eksempel på slike modeller. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens/).",
     "tags": [
       "ki",
       "llm",
@@ -7024,7 +7023,7 @@
   {
     "id": "stordata",
     "tittel": "Stordata",
-    "forklaring": "Datamengder for store eller komplekse til at mennesker kan analysere dem uten maskinhjelp.",
+    "forklaring": "Store mengder digitale data, og teknologien og analysemetodene for datamengder som er for store, for mangeartede og for ustrukturerte til at tradisjonelle teknikker kan hente ut informasjon. Stordata beskrives ofte med egenskaper som volum, innsamlingshastighet og heterogenitet. Kilde: [Store norske leksikon](https://snl.no/stordata).",
     "tags": [
       "analyse",
       "sky",
@@ -7109,7 +7108,7 @@
   {
     "id": "syntetiske-data",
     "tittel": "Syntetiske data",
-    "forklaring": "Data generert kunstig av en KI-modell, brukt til å trene andre modeller når ekte data er dyre, knappe eller personvernsensitive.",
+    "forklaring": "Kunstig genererte data som etterligner egenskaper og mønstre i virkelige data. De kan være tekst, bilder, lyd, video eller strukturerte data. De brukes blant annet til å trene og teste KI-modeller når virkelige data er sensitive, dyre eller vanskelige å få tak i. Kilde: [Teknologirådet](https://teknologiradet.no/ordliste-for-kunstig-intelligens/).",
     "tags": [
       "ki",
       "dataforvaltning",
