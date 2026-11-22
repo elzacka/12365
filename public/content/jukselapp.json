@@ -2214,7 +2214,7 @@
   {
     "id": "fria",
     "tittel": "FRIA",
-    "forklaring": "Fundamental Rights Impact Assessment. KI-forordningen art. 27 pålegger noen idriftsettere å vurdere konsekvensene for grunnleggende rettigheter før de tar i bruk et KI-system med høy risiko fra vedlegg III. Plikten gjelder offentlige organer og private som yter offentlige tjenester, unntatt for kritisk infrastruktur. Den gjelder også alle som bruker slike systemer til kredittvurdering eller til risikovurdering og prising i livs- og helseforsikring. Idriftsetteren melder resultatet til markedstilsynsmyndigheten på en mal fra KI-kontoret, og kan vise til en DPIA som allerede dekker deler av vurderingen. Europarådets HUDERIA er en frivillig metode som kan brukes til å gjøre vurderingen, men resultatet skal likevel meldes på malen fra KI-kontoret.",
+    "forklaring": "Fundamental Rights Impact Assessment. Vurdering av hvilke konsekvenser bruken av et KI-system med høy risiko kan få for grunnleggende rettigheter. KI-forordningen art. 27 pålegger noen idriftsettere å gjøre vurderingen før de tar i bruk et slikt system fra vedlegg III. Plikten gjelder offentlige organer og private som yter offentlige tjenester, unntatt for kritisk infrastruktur. Den gjelder også alle som bruker slike systemer til kredittvurdering eller til risikovurdering og prising i livs- og helseforsikring. Idriftsetteren melder resultatet til markedstilsynsmyndigheten på en mal fra KI-kontoret, og kan vise til en DPIA som allerede dekker deler av vurderingen. Europarådets HUDERIA er en frivillig metode som kan brukes til å gjøre vurderingen, men resultatet skal likevel meldes på malen fra KI-kontoret.",
     "tags": [
       "ki",
       "personvern",
